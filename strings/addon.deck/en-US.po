@@ -101,7 +101,7 @@ msgstr "Clipped by {user}"
 #: /src/deck/components/bd-tab-editor.vue:33
 #, icu-message-format, lp-defaults:"{\"count\":0}"
 msgid "addon.deck.column-count"
-msgstr "{count,number} column{count,en_plural}"
+msgstr "{count, plural, one {# column} other {# columns}}"
 
 #: /src/deck/components/bd-column-editor.vue:133
 #, icu-message-format
@@ -579,7 +579,7 @@ msgstr "Recent"
 #: /src/deck/components/bd-column.vue:153
 #, icu-message-format, lp-defaults:"{\"count\":1}"
 msgid "addon.deck.sub.tags"
-msgstr "{count,number} tag{count,en_plural}"
+msgstr "{count, plural, one {# tag} other {# tags}}"
 
 #: /src/deck/components/bd-column.vue:122
 #: /src/deck/components/bd-column.vue:154

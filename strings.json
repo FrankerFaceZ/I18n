@@ -136,7 +136,7 @@
 		"addon.deck.column-count": {
 			"id": "addon.deck.column-count",
 			"doc": "addon.deck",
-			"default": "{count,number} column{count,en_plural}",
+			"default": "{count, plural, one {# column} other {# columns}}",
 			"source": "VueComponent.render (/src/deck/components/bd-tab-editor.vue:33:0)",
 			"context": "{\"count\":0}"
 		},
@@ -752,7 +752,7 @@
 		"addon.deck.sub.tags": {
 			"id": "addon.deck.sub.tags",
 			"doc": "addon.deck",
-			"default": "{count,number} tag{count,en_plural}",
+			"default": "{count, plural, one {# tag} other {# tags}}",
 			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)\nVueComponent.render (/src/deck/components/bd-column.vue:153:0)",
 			"context": "{\"count\":1}"
 		},
@@ -1907,7 +1907,7 @@
 		"badges.founder.months": {
 			"id": "badges.founder.months",
 			"doc": "core",
-			"default": "{title}\n(Subscribed for {count,number} Month{count,en_plural})",
+			"default": "{title}\n(Subscribers for {count, plural, one {# Month} other {# Months}})",
 			"source": "tooltips.types.badge (/src/modules/chat/badges.jsx:292:15)",
 			"context": "{\"title\":\"Founder\",\"count\":\"18\"}",
 			"revision": 1
@@ -2593,7 +2593,7 @@
 		"chat.sub.gift": {
 			"id": "chat.sub.gift",
 			"doc": "core",
-			"default": "{user} is gifting {count,number} Tier {tier} Sub{count,en_plural} to {channel}'s community! ",
+			"default": "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier {tier} Subs} to {channel}'s community!",
 			"source": "/src/sites/twitch-twilight/modules/chat/line.js:468:21",
 			"context": "{\"user\":\"SirStendec\",\"coount\":5,\"tier\":\"1\",\"channel\":\"Quoteconut\"}",
 			"revision": 1
@@ -2609,7 +2609,7 @@
 		"chat.sub.gift-months": {
 			"id": "chat.sub.gift-months",
 			"doc": "core",
-			"default": "{user} gifted {months,number} month{months,en_plural} of {plan} Sub to {recipient}!",
+			"default": "{user} gifted {months, plural, one {# month} other {# months}} of {plan} Sub to {recipient}!",
 			"source": "",
 			"context": "{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}",
 			"revision": 1
@@ -3169,7 +3169,7 @@
 		"emote-menu.sub-unlock": {
 			"id": "emote-menu.sub-unlock",
 			"doc": "core",
-			"default": "Subscribe for {price} to unlock {count,number} emote{count,en_plural}",
+			"default": "Subscribe for {price} to unlock {count, plural, one {# emote} other {# emotes}}",
 			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6",
 			"context": null,
 			"revision": 1
@@ -5597,7 +5597,7 @@
 		"setting.backup-restore.imported": {
 			"id": "setting.backup-restore.imported",
 			"doc": "core",
-			"default": "The profile \"{name}\" has been successfully imported with {count,number} setting{count,en_plural}.",
+			"default": "The profile \"{name}\" has been successfully imported with {count, plural, one {# setting} other {# settings}}.",
 			"source": "VueComponent.confirmImport (/src/modules/main_menu/components/profile-manager.vue:375:0)",
 			"context": "{\"name\":\"Test Profile\",\"count\":1}",
 			"revision": 1
