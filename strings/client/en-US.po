@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-12 18:03+0000\n"
+"Last-Translator: SirStendec <sir@stendec.me>\n"
+"Language-Team: English <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/en/>\n"
+"Language: en\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 #: /src/modules/main_menu/components/async-text.vue:52
 #, icu-message-format
@@ -16,21 +25,21 @@ msgstr "There are no results."
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Subscribed for {count,number} Month{count,en_plural})"
+"(Subscribed for {count,plural,one{# Month} other {# Months}})"
 
 #: /src/modules/chat/badges.jsx:287:15
 #, icu-message-format, lp-defaults:"{\"title\":\"Subscriber\",\"count\":\"1\"}"
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
-"({count,number} Month{count,en_plural})"
+"({count, plural, one {# Month} other {# Months}})"
 
 #: /src/modules/chat/badges.jsx:366
 #, icu-message-format, lp-defaults:"{\"title\":\"3-Year Subscriber\",\"tier\":3,\"months\":69}"
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Tier {tier}, {months,number} Month{months,en_plural})"
+"(Tier {tier}, {months, plural, one {# Month} other {# Months}})"
 
 #: /src/modules/chat/rich_providers.js:53:14
 #, icu-message-format
@@ -165,17 +174,20 @@ msgstr "Timeout User"
 #: /src/modules/chat/actions/types.jsx:197:9
 #, icu-message-format
 msgid "chat.actions.timeout-reason"
-msgstr "Timeout {user.login} for {duration,number} second{duration,en_plural} for:"
+msgstr ""
+"Timeout {user.login} for {duration, plural, one {# second} other {# seconds}}"
+" for:"
 
 #: /src/modules/main_menu/components/action-editor.vue:545
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
 msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} second{options.duration,en_plural}"
+msgstr "{options.duration, plural, one {# second} other {# seconds}}"
 
 #: /src/modules/chat/actions/types.jsx:207:9
 #, icu-message-format
 msgid "chat.actions.timeout.tooltip"
-msgstr "Timeout {user.login} for {duration,number} second{duration,en_plural}"
+msgstr ""
+"Timeout {user.login} for {duration, plural, one {# second} other {# seconds}}"
 
 #: /src/modules/chat/actions/types.jsx:245:9
 #: /src/modules/main_menu/components/action-editor.vue:514
@@ -456,8 +468,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"coount\":5,\"tier\":\"1\",\"channel\":\"Quoteconut\"}"
 msgid "chat.sub.gift"
 msgstr ""
-"{user} is gifting {count,number} Tier {tier} Sub{count,en_plural} to "
-"{channel}'s community! "
+"{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier "
+"{tier} Subs}} to {channel}'s community! "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -467,8 +479,8 @@ msgstr "It's their first time gifting a Sub in the channel!"
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} gifted {months,number} month{months,en_plural} of {plan} Sub to "
-"{recipient}!"
+"{user} gifted {months, plural, one {# month} other {# months}} of {plan} Sub "
+"to {recipient}!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:567:7
 #, icu-message-format
@@ -523,7 +535,7 @@ msgstr "{user} playing {game}"
 #: /src/modules/chat/rich_providers.js:133:13
 #, icu-message-format, lp-defaults:"{\"curator\":\"EdvinB\",\"views\":120565}"
 msgid "clip.desc.2"
-msgstr "Clipped by {curator} — {views,number} View{views,en_plural}"
+msgstr "Clipped by {curator} — {views, plural, one {# View} other {# Views}}"
 
 #: /src/modules/chat/rich_providers.js:134:57
 #, icu-message-format
@@ -687,8 +699,8 @@ msgstr "Emoji"
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Cheer an additional {bits_remaining,number} bit{bits_remaining,en_plural} "
-"to unlock this emote."
+"Cheer an additional {bits_remaining, plural, one {# bit} other {# bits}} to "
+"unlock this emote."
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
@@ -837,7 +849,9 @@ msgstr "Subscriber Emotes"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6
 #, icu-message-format
 msgid "emote-menu.sub-unlock"
-msgstr "Subscribe for {price} to unlock {count,number} emote{count,en_plural}"
+msgstr ""
+"Subscribe for {price} to unlock {count, plural, one {# emote} other {# "
+"emotes}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
 #, icu-message-format
