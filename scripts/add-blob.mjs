@@ -9,6 +9,8 @@ import { stringsToComponents } from './utilities.mjs';
 import { keyToComponent } from './utilities.mjs';
 import { v4 } from 'uuid';
 import { componentToPO } from './utilities.mjs';
+import { GetSortedEntries } from './utilities.mjs';
+import { SortObject } from './utilities.mjs';
 
 const po = GTP.po;
 
@@ -142,16 +144,16 @@ const file = args[1];
 	const bid = v4();
 
 	try {
-		/*await git.checkout('main');
+		await git.checkout('main');
 		await git.pull();
-		await git.checkout(["-b", bid]);*/
+		await git.checkout(["-b", bid]);
 
 		const out = {};
 		for(const [key,val] of GetSortedEntries(existing))
 			out[key] = SortObject(val);
 
 		await fs.promises.writeFile('strings.json', JSON.stringify(out, null, '\t'));
-		//await git.add('strings.json');
+		await git.add('strings.json');
 
 		for(const key of modified) {
 			let out;
@@ -164,10 +166,12 @@ const file = args[1];
 			}
 			const fn = path.join('strings', key, 'en-US.po');
 			await fs.promises.writeFile(fn, out);
-			//await git.add(fn);
+			await git.add(fn);
 		}
 
-		//await git.commit(`Add ${added.length} strings and update ${changed.length} strings.`, undefined, {'--author': `"${user}" <bot@frankerfacez.com>`});
+		await git.commit(`[Sources] Add ${added.length} strings and update ${changed.length} strings.`, undefined, {'--author': `"${user}" <bot@frankerfacez.com>`});
+		await git.push('origin', bid);
+		await git.checkout('main');
 
 	} catch(err) {
 		console.error('Error while running Git commands.');
@@ -175,5 +179,7 @@ const file = args[1];
 		process.exit(1);
 	}
 
+	console.log('New strings have been submitted to the repository under the branch:')
+	console.log('   ', bid);
 
 })();
