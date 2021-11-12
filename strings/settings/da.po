@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-12 23:52+0000\n"
+"Last-Translator: Taizun <original.taizun+ffz@gmail.com>\n"
+"Language-Team: Danish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/settings/da/>\n"
+"Language: da\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "setting.add_ons"
 msgstr "Tilføjelser"
@@ -166,3 +175,53 @@ msgstr "Udvidelser"
 
 msgid "setting.player.general.playback"
 msgstr "Afspilning"
+
+#: /src/modules/main_menu/components/addon.vue:85
+#, icu-message-format, lp-defaults:"{\"author\":\"Lordmau5\"}"
+msgid "addon.author"
+msgstr "Af: {author}"
+
+#: /src/modules/main_menu/components/addon.vue:86
+#, icu-message-format
+msgid "addon.ffzap-core.author"
+msgstr "Lordmau5"
+
+#: /src/modules/main_menu/components/addon.vue:157
+#, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
+msgid "addon.created"
+msgstr "Oprettet: {when,date}"
+
+#: /src/modules/main_menu/components/addon.vue:86
+#, icu-message-format
+msgid "addon.deck.author"
+msgstr "SirStendec"
+
+#: /src/modules/main_menu/components/addon.vue:51
+#, icu-message-format
+msgid "addon.dev"
+msgstr "Udvikler"
+
+#: /src/modules/main_menu/components/addon.vue:195
+#, icu-message-format
+msgid "addon.disable"
+msgstr "Deaktiver"
+
+#: /src/modules/main_menu/components/addon.vue:245
+#, icu-message-format
+msgid "addon.enable"
+msgstr "Aktiver"
+
+#: /src/modules/main_menu/components/addon.vue:40
+#, icu-message-format
+msgid "addon.enabled"
+msgstr "Aktiveret"
+
+#: /src/modules/main_menu/components/addon.vue:86
+#, icu-message-format
+msgid "addon.ffzap-bttv.author"
+msgstr "Lordmau5"
+
+#: /src/modules/main_menu/components/addon.vue:75
+#, icu-message-format
+msgid "addon.ffzap-bttv.name"
+msgstr "BetterTTV Humørikoner"
