@@ -1,10 +1,14 @@
 'use strict';
 
+import simpleGit from 'simple-git';
+import { Octokit } from '@octokit/rest';
 import fs from 'fs';
 import path from 'path';
 import GTP from 'gettext-parser';
 import { stringsToComponents } from './utilities.mjs';
 import { keyToComponent } from './utilities.mjs';
+import { v4 } from 'uuid';
+import { componentToPO } from './utilities.mjs';
 
 const po = GTP.po;
 
@@ -83,6 +87,7 @@ const file = args[1];
 
 	const changed = [];
 	const added = [];
+	const modified = new Set();
 
 	for(const [key, strings] of Object.entries(components)) {
 		const exist = existing[key] ?? (existing[key] = {});
@@ -109,12 +114,15 @@ const file = args[1];
 					update = true;
 				}
 
-				if (update)
+				if (update) {
 					changed.push(key);
+					modified.add(key);
+				}
 
 			} else {
 				exist[key] = entry;
 				added.push(key);
+				modified.add(key);
 			}
 		}
 	}
@@ -130,6 +138,30 @@ const file = args[1];
 	// Okay, so now we *do* have stuff to change. We need to
 	// set up a new branch in git and make a pull request.
 
+	const git = simpleGit();
+	const bid = v4();
+
+	try {
+		await git.pull();
+		await git.checkout(["-b", bid]);
+
+		await fs.promises.writeFile('strings.json', JSON.stringify(existing));
+		await git.add('strings.json');
+
+		for(const key of modified) {
+			const out = await componentToPO(key, existing[key]);
+			const fn = path.join('strings', key, 'en-US.po');
+			await fs.promises.writeFile(fn, out);
+			await git.add(fn);
+		}
+
+		await git.commit(`Add ${added.length} strings and update ${changed.length} strings.`, undefined, {'--author': `"${user}" <bot@frankerfacez.com>`});
+
+	} catch(err) {
+		console.error('Error while running Git commands.');
+		console.error(err);
+		process.exit(1);
+	}
 
 
 })();

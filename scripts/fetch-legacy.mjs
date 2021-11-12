@@ -8,6 +8,7 @@ import GTP from 'gettext-parser';
 import raw_rimraf from 'rimraf';
 import { getFlags, fixSources, flatten } from './utilities.mjs';
 import { stringsToComponents } from './utilities.mjs';
+import { componentToPO } from './utilities.mjs';
 
 const rimraf = promisify(raw_rimraf);
 const po = GTP.po;
@@ -50,61 +51,6 @@ async function fetchLocale(locale) {
 		return null;
 
 	return resp.json();
-}
-
-
-function getExtraContext(thing) {
-	let placeholders = '', context;
-	if ( thing?.context ) {
-		let stuff;
-		try {
-			stuff = flatten(JSON.parse(thing.context));
-		} catch(err) { /* no-op */ }
-
-		if ( typeof stuff === 'object' && ! Array.isArray(stuff) ) {
-			placeholders = `placeholders:${Object.keys(stuff).join(':')}, `;
-			try {
-				context = JSON.stringify(stuff);
-			} catch(err) { /* no-op */ }
-		}
-	}
-
-	return [placeholders, context];
-}
-
-
-function componentToPO(component, strings, original_strings, lang = 'en-US') {
-	const out = {},
-		thing = {
-			charset: 'utf-8',
-			translations: {
-				'': out
-			}
-		};
-
-	for(const [key, string] of Object.entries(strings)) {
-		const thing = string.default ? string : {
-			...original_strings[key],
-			default: string
-		};
-
-		const [placeholders, extracted] = getExtraContext(thing);
-		const [sources, context] = fixSources(thing.source);
-		const flags = getFlags(key);
-
-		out[key] = {
-			msgid: key,
-			msgstr: [thing.default],
-			msgctxt: context ?? undefined,
-			comments: {
-				//extracted: extracted ?? undefined,
-				reference: sources ?? undefined,
-				flag: `${flags}${extracted ? `, lp-defaults:${JSON.stringify(extracted)}` : ''}`
-			}
-		}
-	}
-
-	return po.compile(thing);
 }
 
 
