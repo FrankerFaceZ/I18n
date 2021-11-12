@@ -1,0 +1,2352 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "addon.author"
+msgstr "Tarafından: {author}"
+
+msgid "addon.deck.author"
+msgstr "SirStendec"
+
+msgid "addon.deck.name"
+msgstr "Masa"
+
+msgid "addon.disable"
+msgstr "Devre dışı bırak"
+
+msgid "addon.enable"
+msgstr "Etkinleştir"
+
+msgid "addon.enabled"
+msgstr "Etkinleştirildi"
+
+msgid "addon.ffzap-bttv.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-bttv.name"
+msgstr "BetterTTV Emojileri"
+
+msgid "addon.ffzap-core.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-core.name"
+msgstr "The FrankerFaceZ Add-On Paketi - Ana bölüm"
+
+msgid "addon.ffzap-liriklive.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-liriklive.name"
+msgstr "LirikLIVE"
+
+msgid "addon.settings"
+msgstr "Ayarlar"
+
+msgid "addon.unlisted"
+msgstr "Listelenmemiş"
+
+msgid "addon.unlisted.add"
+msgstr "Listede olmayanları ekle"
+
+msgid "addon.version"
+msgstr "Sürüm {version}"
+
+msgid "addon.website"
+msgstr "Web sitesi"
+
+msgid "home.about"
+msgstr "FrankerFaceZ'i kullandığınız için teşekkür ederiz!"
+
+msgid "home.changelog"
+msgstr "Değişim notları"
+
+msgid "home.changelog.current"
+msgstr "Güncel sürüm"
+
+msgid "home.changelog.error"
+msgstr "Github'dan değişiklikleri yüklerken bir hata oluştu"
+
+msgid "home.changelog.load"
+msgstr "Daha fazla yükle"
+
+msgid "home.discord"
+msgstr "Discord"
+
+msgid "home.faq"
+msgstr ""
+"## Frequent Questions\n"
+"\n"
+"* *What happened to [feature]?*\n"
+"\n"
+"There are still features missing from FrankerFaceZ v4.0 that were present "
+"in v3.0. Unfortunately, a few features are impractical to update on the new "
+"version of Twitch's website.\n"
+"\n"
+"Many features are still planned to return as the developers have time to "
+"implement them. There is no schedule of pending features. Features are "
+"released immediately upon completion.\n"
+"\n"
+"* *I've donated, but my badge doesn't show up.*\n"
+"* *I added an emote to my channel but I don't see it.*\n"
+"\n"
+"Due to performance problems with our current website, we have to use "
+"caching on our API. Because of this, it can take up to half an hour for "
+"changes made to badges or emotes to take effect. After waiting, refresh the "
+"page and your content should appear. You can also try performing a hard "
+"refresh.\n"
+"\n"
+"* *I don't want the `FFZ Supporter` badge.*\n"
+"\n"
+"Users can toggle the visibility of their supporter badge at: "
+"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"\n"
+"* *I can see my emotes, but someone in chat said they can't.*\n"
+"\n"
+"Users need FrankerFaceZ installed, or another third-party client that "
+"supports FFZ emotes, to see emotes from FrankerFaceZ. Users might also not "
+"see newly added emotes, depending on their browser cache and when they last "
+"refreshed.\n"
+"\n"
+"* *There's a stolen emote!*\n"
+"* *There's an offensive emote!*\n"
+"\n"
+"Please report any issues with emotes using the `Report Emote` tool on our "
+"website. Shift-Click the offending emote to open it's page, and select "
+"`Report Emote` in the right side-bar. You'll need to sign in to report an "
+"emote."
+
+msgid "home.tag-line"
+msgstr "Twitch Geliştirme Paketi"
+
+msgid "home.tweets"
+msgstr "FrankerFaceZ'in tweetleri"
+
+msgid "home.twitter"
+msgstr "Twitter"
+
+msgid "home.website"
+msgstr "FrankerFaceZ Websitesi"
+
+msgid "setting.actions.action"
+msgstr "Eylem"
+
+msgid "setting.actions.appearance"
+msgstr "Görünüm"
+
+msgid "setting.actions.appearance.icon"
+msgstr "Simge"
+
+msgid "setting.actions.appearance.image"
+msgstr "Resim"
+
+msgid "setting.actions.appearance.text"
+msgstr "Yazı"
+
+msgid "setting.actions.chat"
+msgstr "Chat komutu"
+
+msgid "setting.actions.color"
+msgstr "Renk"
+
+msgid "setting.actions.color.warn"
+msgstr ""
+"Buradaki değerler chat renk ayarlarının görünürlüğüne göre otomatik "
+"ayarlanacaktır. "
+
+msgid "setting.actions.delete-all"
+msgstr "Bu profilin tüm eylemlerini sil"
+
+msgid "setting.actions.drag"
+msgstr "Komutları sürükle ve bırak yöntemi ile sıraya dizebilirsiniz"
+
+msgid "setting.actions.duration"
+msgstr "Süre"
+
+msgid "setting.actions.edit-visible.deleted"
+msgstr "Mesaj silindi"
+
+msgid "setting.actions.edit-visible.mod"
+msgstr "Moderatör"
+
+msgid "setting.actions.edit-visible.mod-icons"
+msgstr "Mod simgeleri"
+
+msgid "setting.actions.edit-visible.modifier"
+msgstr "Değiştiriciler"
+
+msgid "setting.actions.icon"
+msgstr "Simge"
+
+msgid "setting.actions.new"
+msgstr "Yeni"
+
+msgid "setting.actions.no-actions"
+msgstr "bu profilde eylemler belirtilmemiş"
+
+msgid "setting.actions.no-visible"
+msgstr "Görünen bir eylem yok"
+
+msgid "setting.actions.preview"
+msgstr "Ön izleme"
+
+msgid "setting.actions.preview.all"
+msgstr "Herşeyi göster"
+
+msgid "setting.actions.preview.deleted"
+msgstr "Silinmiş mesaj"
+
+msgid "setting.actions.preview.emote-only"
+msgstr "Sadece emoji "
+
+msgid "setting.actions.preview.followers"
+msgstr "Sadece takipçiler"
+
+msgid "setting.actions.preview.mod"
+msgstr "Moderatör olarak"
+
+msgid "setting.actions.preview.mod_icons"
+msgstr "Mod simgeleri ile"
+
+msgid "setting.actions.preview.r9k"
+msgstr "R9k Modu"
+
+msgid "setting.actions.preview.slow"
+msgstr "Yavaş mod"
+
+msgid "setting.actions.preview.subs"
+msgstr "Sadece aboneler "
+
+msgid "setting.actions.reason"
+msgstr "Varsayılan neden"
+
+msgid "setting.actions.set-chat"
+msgstr "Bu mesajı direk yollamak yerine chate kopyalayıp yapıştırın."
+
+msgid "setting.actions.text"
+msgstr "Etiket"
+
+msgid "setting.actions.tooltip"
+msgstr "Kişisel İpucu"
+
+msgid "setting.actions.type"
+msgstr "Tür"
+
+msgid "setting.actions.url"
+msgstr "URL"
+
+msgid "setting.actions.variables"
+msgstr "Muhtemel değişkenler: {vars}"
+
+msgid "setting.actions.visibility"
+msgstr "Görünürlük "
+
+msgid "setting.actions.visible"
+msgstr "görünür: {list}"
+
+msgid "setting.actions.visible.always"
+msgstr "Her zaman"
+
+msgid "setting.actions.visible.deleted"
+msgstr "mesaj silinmişse"
+
+msgid "setting.actions.visible.mod"
+msgstr "moderatör iken "
+
+msgid "setting.actions.visible.mod_icons"
+msgstr "mod simgeleri görünürken "
+
+msgid "setting.actions.visible.slow"
+msgstr "ağır moddayken"
+
+msgid "setting.actions.visible.undeleted"
+msgstr "eğer mesaj silinmemişse"
+
+msgid "setting.add"
+msgstr "Ekle"
+
+msgid "setting.add_ons"
+msgstr "Eklentiler"
+
+msgid "setting.add_ons.description"
+msgstr ""
+"Eklentiler başka geliştiriciler tarafından oluşturulup FFZ'ye eklenebilen "
+"özelliklerdir, otomatik olarak yüklenirler."
+
+msgid "setting.add_ons.development"
+msgstr "Geliştirme"
+
+msgid "setting.appearance"
+msgstr "Görünüm"
+
+msgid "setting.appearance.description"
+msgstr ""
+"Twitch'in görünümünü, renk şeması, fontlar ve genel arayüzü değiştirerek "
+"özelleştirebilirsin."
+
+msgid "setting.appearance.layout"
+msgstr "Arayüz düzeni"
+
+msgid "setting.appearance.layout.channel"
+msgstr "Kanal"
+
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Yan gezinme paneli"
+
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Üst Gezinme"
+
+msgid "setting.appearance.localization"
+msgstr "Yerelleştirme"
+
+msgid "setting.appearance.localization.general"
+msgstr "Genel"
+
+msgid "setting.appearance.localization.general.language.twitch"
+msgstr "Twitch'in dilini kullan"
+
+msgid "setting.appearance.theme"
+msgstr "Tema "
+
+msgid "setting.appearance.theme.colors"
+msgstr "Renkler"
+
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Bu FrankerFaceZ'e gelecek yeni sistemin bir ön izlemesidir. Burada birçok "
+"değişiklik olacaktır, örn. Basit ve Gelişmiş modların ayrılması ve daha iyi "
+"bir renk seçimi menüsü gibi."
+
+msgid "setting.appearance.theme.fonts"
+msgstr "Fontlar"
+
+msgid "setting.appearance.theme.legacy"
+msgstr "Eski sürümler"
+
+msgid "setting.backup-restore.about"
+msgstr ""
+"Bu bölümde tüm FFZ ayarlarınızı kaydedip sonrasında geri yüklemenize "
+"yarayacak özellikler mevcuttur."
+
+msgid "setting.backup-restore.confirm-updates"
+msgstr ""
+"Dışarıdan aldığınız profil otomatik bir güncelleme URL'sine sahip. Bu "
+"profilin kendini güncel tutmasını istiyor musunuz?"
+
+msgid "setting.backup-restore.disable-auto"
+msgstr "Hayır, otomatik güncellemeyi durdur"
+
+msgid "setting.backup-restore.enable-auto"
+msgstr "Evet, otomatik güncellemeye izin ver"
+
+msgid "setting.backup-restore.error"
+msgstr "Kayıt işleminde bir hata oluştu."
+
+msgid "setting.backup-restore.imported"
+msgstr ""
+"\"{name}\" profili {count,number} sayıda ayarla{count,en_plural} dışarıdan "
+"aktarıldı."
+
+msgid "setting.backup-restore.imported-at"
+msgstr "{now,datetime} tarihinde dışarıdan aktarıldı"
+
+msgid "setting.backup-restore.non-supported"
+msgstr "Bu dosya geçerli bir yedekleme formatı değil."
+
+msgid "setting.backup-restore.old-file"
+msgstr "Bu dosya geçersiz veya başka bir FFZ sürümünden olduğu için kullanılamıyor."
+
+msgid "setting.backup-restore.pick-profile"
+msgstr "Lütfen dışarıdan aktarmak için bir profil seçin"
+
+msgid "setting.backup-restore.restore-backup"
+msgstr "Ayarları Geri Yükle"
+
+msgid "setting.backup-restore.restored"
+msgstr "{count,number} girdi eski haline döndürüldü, lütfen sayfayı yenileyin"
+
+msgid "setting.backup-restore.save-backup"
+msgstr "Ayarları Kaydet"
+
+msgid "setting.cancel"
+msgstr "İptal"
+
+msgid "setting.channel"
+msgstr "Kanal"
+
+msgid "setting.channel.appearance"
+msgstr "Görünüm"
+
+msgid "setting.channel.appearance.general"
+msgstr "Genel"
+
+msgid "setting.channel.behavior"
+msgstr "Tavır"
+
+msgid "setting.channel.behavior.hosting"
+msgstr "Kanal misafirliği"
+
+msgid "setting.channel.behavior.raids"
+msgstr "Raidler"
+
+msgid "setting.channel.behavior.squads"
+msgstr "Takımlar"
+
+msgid "setting.channel.metadata"
+msgstr "Metadata"
+
+msgid "setting.channel.metadata.appearance"
+msgstr "Görünüm"
+
+msgid "setting.channel.metadata.player"
+msgstr "Oynatıcı"
+
+msgid "setting.channel.metadata.subscription"
+msgstr "Abonelik"
+
+msgid "setting.chat"
+msgstr "Chat"
+
+msgid "setting.chat.actions"
+msgstr "Chat etkileşimleri"
+
+msgid "setting.chat.actions.reasons"
+msgstr "Nedenler"
+
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Özelleştirilmiş gerekçeler"
+
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Kurallar"
+
+msgid "setting.chat.actions.room"
+msgstr "Chat odası"
+
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Chat kutusunda istediğiniz özelleştirilmiş etkileşimleri buradan "
+"ayarlayabilirsiniz."
+
+msgid "setting.chat.actions.room.general"
+msgstr "Genel"
+
+msgid "setting.chat.actions.user_context"
+msgstr "Kullanıcı bilgileri"
+
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Chatte bir isme sağ tuşla tıkladığınızda çıkan içerik menüsünü buradan "
+"özelleştirebilirsiniz."
+
+msgid "setting.chat.appearance"
+msgstr "Görünüm"
+
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Chat satırları"
+
+msgid "setting.chat.appearance.colors"
+msgstr "Renkler"
+
+msgid "setting.chat.appearance.community_chest"
+msgstr "Grup Hediye Sandığı"
+
+msgid "setting.chat.appearance.emoji"
+msgstr "Emoji"
+
+msgid "setting.chat.appearance.emotes"
+msgstr "Emojiler"
+
+msgid "setting.chat.appearance.general"
+msgstr "Genel"
+
+msgid "setting.chat.appearance.rich_content"
+msgstr "Zengin içerik"
+
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Abonelikler"
+
+msgid "setting.chat.badges"
+msgstr "Rozetler"
+
+msgid "setting.chat.badges.tabs"
+msgstr "Tablar"
+
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Görünüm"
+
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Görünürlük"
+
+msgid "setting.chat.behavior"
+msgstr "Tavır"
+
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Silinmiş Mesajlar"
+
+msgid "setting.chat.behavior.general"
+msgstr "Genel"
+
+msgid "setting.chat.behavior.scrolling"
+msgstr "Kaydırma"
+
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bits ve Cheering"
+
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Görünüm"
+
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Tavır"
+
+msgid "setting.chat.channel_points"
+msgstr "Kanal Puanları"
+
+msgid "setting.chat.channel_points.behavior"
+msgstr "Tavır"
+
+msgid "setting.chat.channel_points.general"
+msgstr "Genel"
+
+msgid "setting.chat.chat_on_videos"
+msgstr "Videodaki Chat"
+
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Bu ayar şimdilik beta sürümdedir. Bu yüzden videodaki chatte FFZ "
+"özellikleri düzgün çalışmayabilir."
+
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Genel"
+
+msgid "setting.chat.emote_menu"
+msgstr "Emoji menüsü"
+
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Görünüm"
+
+msgid "setting.chat.emote_menu.general"
+msgstr "Genel"
+
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Sıralama"
+
+msgid "setting.chat.filtering"
+msgstr "Filtreleme"
+
+msgid "setting.chat.filtering.appearance"
+msgstr "Görünüm"
+
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Otomod Filtreleri"
+
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Twitch'in varsayılan chat filtreleri için ek ayarlar"
+
+msgid "setting.chat.filtering.behavior"
+msgstr "Tavır"
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Engellenmiş rozetler"
+
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Yasaklı terimler"
+
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Engellenmiş kullanıcılar"
+
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Rozetleri öne çıkar"
+
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Terimleri öne çıkar"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Kullanıcıyı öne çıkar"
+
+msgid "setting.chat.filtering.rituals"
+msgstr "Alışılmış ayarlar"
+
+msgid "setting.chat.input"
+msgstr "Giriş türü"
+
+msgid "setting.chat.input.recent_messages"
+msgstr "Son mesajlar"
+
+msgid "setting.chat.input.tab_completion"
+msgstr "Tab ile tamamlama ayarları"
+
+msgid "setting.chat.tooltips"
+msgstr "İpuçları"
+
+msgid "setting.chat.tooltips.badges"
+msgstr "Rozetler"
+
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emojiler"
+
+msgid "setting.chat.tooltips.general"
+msgstr "Genel"
+
+msgid "setting.chat.tooltips.links"
+msgstr "Linkler"
+
+msgid "setting.chat.viewer_cards"
+msgstr "Kullanıcı detayları"
+
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Görünüm"
+
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Tavır"
+
+msgid "setting.chat.whispers"
+msgstr "Fısıltılar"
+
+msgid "setting.chat.whispers.general"
+msgstr "Genel "
+
+msgid "setting.close"
+msgstr "Kapat"
+
+msgid "setting.combo-box.custom"
+msgstr "Kişisel"
+
+msgid "setting.configure"
+msgstr "Ayarla"
+
+msgid "setting.data_management"
+msgstr "Data Yönetimi"
+
+msgid "setting.data_management.backup_and_restore"
+msgstr "Yedekleme ve Tekrar Yükleme"
+
+msgid "setting.data_management.profiles"
+msgstr "Profiller"
+
+msgid "setting.data_management.profiles.edit.desc"
+msgstr "Açıklama"
+
+msgid "setting.data_management.profiles.edit.general"
+msgstr "Genel"
+
+msgid "setting.data_management.profiles.edit.name"
+msgstr "İsim"
+
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Profili düzenle"
+
+msgid "setting.data_management.profiles.edit.rules"
+msgstr "Kurallar"
+
+msgid "setting.data_management.reporting"
+msgstr "Raporlama"
+
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Hata Raporları"
+
+msgid "setting.data_management.reporting.example_report"
+msgstr "Rapor Örneği"
+
+msgid "setting.debugging"
+msgstr "Debugging"
+
+msgid "setting.debugging.experiments"
+msgstr "Deneysel"
+
+msgid "setting.debugging.localization"
+msgstr "Yerelleştirme"
+
+msgid "setting.debugging.localization.editing"
+msgstr "Düzenle"
+
+msgid "setting.debugging.localization.general"
+msgstr "Genel"
+
+msgid "setting.debugging.socket"
+msgstr "Soket"
+
+msgid "setting.debugging.socket.general"
+msgstr "Genel"
+
+msgid "setting.delete"
+msgstr "Sil"
+
+msgid "setting.delete-all"
+msgstr "Hepsini sil"
+
+msgid "setting.directory"
+msgstr "Rehber"
+
+msgid "setting.directory.channels"
+msgstr "Kanallar"
+
+msgid "setting.directory.channels.appearance"
+msgstr "Görünüm"
+
+msgid "setting.directory.following"
+msgstr "Takip edilenler"
+
+msgid "setting.directory.following.categories"
+msgstr "Kategoriler"
+
+msgid "setting.directory.following.hosts"
+msgstr "Misafir yayınlar"
+
+msgid "setting.edit"
+msgstr "Düzenle"
+
+msgid "setting.entry.add-ons"
+msgstr "Eklentiler"
+
+msgid "setting.entry.addons.dev.server"
+msgstr "Yerel Geliştirici Serverını Kullan"
+
+msgid "setting.entry.addons.dev.server.description"
+msgstr ""
+"Eklentileri 8001 portunu kullanarak yerel geliştirici serverından yüklemeye "
+"çalışır"
+
+msgid "setting.entry.backup"
+msgstr "Yedek"
+
+msgid "setting.entry.changelog"
+msgstr "Değişim notları"
+
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Canlı yayında olan kanallar için \"canlı\" ibaresini göstermeyi engelle"
+
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"Kliplerin veya videoların altında çıkan, \"yayıncı şu an online oldu\" "
+"uyarı çubuğunu göstermeyi engelle"
+
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Misafir Kanal Almayı Etkinleştir"
+
+msgid "setting.entry.channel.metadata.force-above"
+msgstr "Metadata ve etiketleri kanal bilgisi bölümünün üstünde göster"
+
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Raidlere otomatik olarak katılmayı durdur."
+
+msgid "setting.entry.channel.round-avatars"
+msgstr "Avatar resimlerinin çerçevelerini yuvarla"
+
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "Takım yayınlara otomatik olarak yönlendirme yapmayı durdur"
+
+msgid "setting.entry.chat.actions.reasons"
+msgstr "Chat ayarları nedenleri"
+
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.etkileşimleri.oda"
+
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Chat odası etkileşimlerini chat kutusunun üstüne ekle"
+
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Nedenlere chat odasının kurallarını ekler."
+
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.etkileşimi.kullanıcı-bilgileri"
+
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Minumum Kontrast"
+
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Okunulabilirliği artırmak için minumum kontrastı Luma ayarlarına göre "
+"kullanın"
+
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Ayarlama"
+
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Kullanıcı "
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Değişmemiş"
+
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Renk yok"
+
+msgid "setting.entry.chat.adjustment-mode.values.2"
+msgstr "Luv Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.3"
+msgstr "HSL Loop (BTTV benzeri)"
+
+msgid "setting.entry.chat.adjustment-mode.values.4"
+msgstr "RGB Loop (onaylanmamış)"
+
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Filtreye takılan mesajları işaretle"
+
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Filtreye takılan mesajları sil"
+
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Chat filtrelerini mod olarak kullan"
+
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"Varsayılan olarak Twitch chat filtreleri mod olarak atanamaz fakat bu "
+"seçenek bunu yok sayar"
+
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Mümkün olduğunda özelleştirilmiş moderatör rozeti kullan"
+
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Görünürlük"
+
+msgid "setting.entry.chat.badges.style"
+msgstr "Stil"
+
+msgid "setting.entry.chat.badges.style.values.1"
+msgstr "Köşeleri yuvarlatılmış"
+
+msgid "setting.entry.chat.badges.style.values.2"
+msgstr "Dairesel"
+
+msgid "setting.entry.chat.badges.style.values.3"
+msgstr "Circular (sadece renk)"
+
+msgid "setting.entry.chat.badges.style.values.4"
+msgstr "Circular (küçük, sadece renk)"
+
+msgid "setting.entry.chat.badges.style.values.5"
+msgstr "Saydam"
+
+msgid "setting.entry.chat.badges.style.values.6"
+msgstr "Saydam (renkli)"
+
+msgid "setting.entry.chat.bits.animated"
+msgstr "Animasyonlu cheerları göster"
+
+msgid "setting.entry.chat.bits.show"
+msgstr "Bitsleri göster"
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Bitslerle alakalı arayüzleri göster. Not: Bu bitslerin chatte "
+"görüntülenmesini engellemeyecektir."
+
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr "Cheer yollayan kişi diğerleri ile ödülleri paylaşınca bir uyarı göster"
+
+msgid "setting.entry.chat.bits.stack"
+msgstr "Cheer Yığını"
+
+msgid "setting.entry.chat.bits.stack.description"
+msgstr "Tüm cheerları tek bir mesaja topla ve mesajın başına ekle"
+
+msgid "setting.entry.chat.bits.stack.values.0"
+msgstr "Devre dışı "
+
+msgid "setting.entry.chat.bits.stack.values.1"
+msgstr "Türe göre gruplanmış"
+
+msgid "setting.entry.chat.bits.stack.values.2"
+msgstr "Hepsi bir arada"
+
+msgid "setting.entry.chat.click-emotes"
+msgstr ""
+"Emojilerin üzerinde shift tuşuna basılı tutarken sol fare tuşuna basarsanız "
+"bilgi sayfası açılır."
+
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Gruptan gelen hediye sandığı uyarısını göster"
+
+msgid "setting.entry.chat.delay"
+msgstr "Sanal Chat Gecikmesi"
+
+msgid "setting.entry.chat.delay.description"
+msgstr "Moderasyon için mesajların chatte gözükmeden önce gecikmesini sağla"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Gecikme yok"
+
+msgid "setting.entry.chat.delay.values.-1"
+msgstr "Varsayılan gecikme (odaya özel; sadece mod olmayan kullanıcı)"
+
+msgid "setting.entry.chat.delay.values.10000"
+msgstr "Ekstra büyük (10s)"
+
+msgid "setting.entry.chat.delay.values.1200"
+msgstr "Normal (İnsani Moderation; 1.2s)"
+
+msgid "setting.entry.chat.delay.values.15000"
+msgstr "Aşırı büyük (15s)"
+
+msgid "setting.entry.chat.delay.values.20000"
+msgstr "Modlar uyuyor; chati geciktir (20s)"
+
+msgid "setting.entry.chat.delay.values.300"
+msgstr "Küçük (bot moderasyonu; 0.3s)"
+
+msgid "setting.entry.chat.delay.values.30000"
+msgstr "Yarım dakika (30s)"
+
+msgid "setting.entry.chat.delay.values.5000"
+msgstr "Büyük (spoiler silmek için / yavaş mod; 5s)"
+
+msgid "setting.entry.chat.delay.values.60000"
+msgstr "Neden??? (1dk)"
+
+msgid "setting.entry.chat.delay.values.788400000000"
+msgstr "Cbenni seçeneği (25 sene)"
+
+msgid "setting.entry.chat.emoji.style"
+msgstr "Emoji stili"
+
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Yerel"
+
+msgid "setting.entry.chat.emoji.style.values.emojione"
+msgstr "EmojiOne"
+
+msgid "setting.entry.chat.emote-dialogs"
+msgstr "Emojilerin üstüne tıklanılınca bilgi sayfası aç"
+
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Tüm emojileri tek tabda göster."
+
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Varsayılan Tab"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.all"
+msgstr "Emojilerim"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
+msgstr "Kanal"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
+msgstr "Emoji"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
+msgstr "Favoriler"
+
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "FFZ emoji menüsünü kullan"
+
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"FFZ emoji menüsü twitch'in menü tuşunun yerine geçer ve kullanışlılığı "
+"arttırır."
+
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr "Twitch emoji menüsü tuşunu FFZ tuşu ile değiştir"
+
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Azaltılmış boşluk kullan"
+
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Başlıkları göster"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.0"
+msgstr "Asla"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.1"
+msgstr "Her zaman"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.2"
+msgstr "Aramazken"
+
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Arama kutucuğunu göster"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Emojileri şuna göre diz"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
+msgstr "Kural eklendi (ID), Artan sıralama"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
+msgstr "Komut eklendi (ID), inici"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
+msgstr "İsme göre çıkıcı"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
+msgstr "İsme göre inici"
+
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Yüksek seviyedeki emojileri en sonda göster"
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr ""
+"@ verilen kullanıcının detaylarının isminin üzerine basarak görülmesine "
+"izin ver"
+
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Silinen yazıyı görüntülemek için üstüne bas"
+
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Bu stil silinmiş mesajları farklı bir şekilde renderlayıp daha rahat "
+"görünmesini sağlayacaktır."
+
+msgid "setting.entry.chat.filtering.deleted-style.values.0"
+msgstr "Giderek yokulmuş"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.1"
+msgstr "Silik, İçinden çizgi geçen"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.2"
+msgstr "İçinden geçen çizgi"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.3"
+msgstr "Değişiklik yok"
+
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Render modu"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
+msgstr "Kısa"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
+msgstr "Detaylı"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.false"
+msgstr "Geçersiz kılma"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
+msgstr "Eski sürümler"
+
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Nedeni"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.0"
+msgstr "Asla"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.1"
+msgstr "Detaylı modda"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.2"
+msgstr "Her zaman"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtresi.öne çıkar-temel-rozetler"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtresi.öne çıkar-temel-rozetler-engellenmiş"
+
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtresi.öne çıkar-temel-yasaklanmış"
+
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtresi.öne çıkar-temel-terimler"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtresi.öne çıkar-temel-kullanıcıları"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtresi.öne çıkar-temel-kullanıcılar-yasaklanmış"
+
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Sana @ verilen mesajları öne çıkart"
+
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Belirlenmiş kelimeleri öne çıkart"
+
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Chatin komutla temizlenmesini engelle"
+
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Özelleştirilmiş öne çıkarma rengi"
+
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Bu ayar kullanılırsa, renk belirlenmemiş öne çıkartmalarda, kırmızı yerine "
+"bu renk kullanacaktır."
+
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Kendi mesajlarını filtrele"
+
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Silinmiş mesajları chatten temizle"
+
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Silinmiş mesajlar chatten tamamen silinecektir. Bu ayar modlar için "
+"önerilmemektedir."
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.0"
+msgstr "Silme"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.1"
+msgstr "Görünmeyenleri sil (varsayılan)"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.2"
+msgstr "Görünmeyenleri moderatör olarak sil "
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.3"
+msgstr "Herşeyi sil"
+
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Global twitch emojilerini düzelt"
+
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr "Global twitch emojilerinin ön ve arka planlarını düzelterek göster"
+
+msgid "setting.entry.chat.font-family"
+msgstr "Font ailesi"
+
+msgid "setting.entry.chat.font-family.description"
+msgstr "Chatteki yazıların fontlarını belirle"
+
+msgid "setting.entry.chat.font-size"
+msgstr "Font Büyüklüğü"
+
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Yazıların pixel oranında ne kadar büyük olacağını belirler. Bu ayar "
+"tarayıcınızın zoom ve font büyüklüğü ayarlarından etkilenebilir."
+
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Chat satırlarını farklı arka plan renkleri ile gösterir."
+
+msgid "setting.entry.chat.lines.borders"
+msgstr "Ayırıcılar"
+
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Devre dışı "
+
+msgid "setting.entry.chat.lines.borders.values.1"
+msgstr "Basit çizgi (1px)"
+
+msgid "setting.entry.chat.lines.borders.values.2"
+msgstr "3d çizgi (2px)"
+
+msgid "setting.entry.chat.lines.borders.values.3"
+msgstr "3d çizgi (2px groove)"
+
+msgid "setting.entry.chat.lines.borders.values.4"
+msgstr "Geniş çizgi (2px kalın)"
+
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Emoji yerleşimi"
+
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Emojilerin chatte nasıl yer alacağını belirler. Bu ayar muhtemelen chat "
+"satırlarını yükseltip emojilerin birbiri üstüne geçmesini engelleyecektir."
+
+msgid "setting.entry.chat.lines.emote-alignment.values.0"
+msgstr "Standart"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.1"
+msgstr "Ayrıştırılmış"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.2"
+msgstr "Temel çizgi (BTTV benzeri)"
+
+msgid "setting.entry.chat.lines.padding"
+msgstr "Chat satırları etrafındaki boşlukları azaltır."
+
+msgid "setting.entry.chat.mru.enabled"
+msgstr ""
+"Yukarı ve aşağı oklara basarak daha önce veya sonra gönderilmiş chat "
+"mesajlarına erişmeyi etkinleştir"
+
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Yeniden abonelikleri otomatik olarak chatin üstüne sabitle."
+
+msgid "setting.entry.chat.points.show-button"
+msgstr "Kanal puanlarını chat kutucuğunun altında göster"
+
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Chat kutucuğunda kanal puanları ile ilgili mesajları göster"
+
+msgid "setting.entry.chat.points.show-rewards"
+msgstr "Uygun ödülleri kanal puanları bölümünün yanında göstermeyi etkinleştir"
+
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Linklenmiş tüm içeriği chate gömülü olarak göster"
+
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Yayıncılara: Bu ayar linklerin önizlemesini chatte gösterecektir ve bazı "
+"istenmeyen durumlara sebebiyet verebilir, bu yüzden bu ayarı "
+"etkinleştirirken dikkatli olun.*"
+
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Chatte link, video veya resimleri göster (rich content)"
+
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr "Bu ayar link, resim veya videoların chatte gösterilmesini sağlar."
+
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Aynı linklerin tekrar gösterilmesini engelle"
+
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Gereken Kullanıcı Seviyesi"
+
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr "Chatte sadece şu seviyeden yüksek kullanıcılar link verebilsin."
+
+msgid "setting.entry.chat.rich.minimum-level.values.0"
+msgstr "Herkes"
+
+msgid "setting.entry.chat.rich.minimum-level.values.1"
+msgstr "Abone"
+
+msgid "setting.entry.chat.rich.minimum-level.values.2"
+msgstr "VIP"
+
+msgid "setting.entry.chat.rich.minimum-level.values.3"
+msgstr "Moderatör"
+
+msgid "setting.entry.chat.rich.minimum-level.values.4"
+msgstr "Yayıncı"
+
+msgid "setting.entry.chat.rituals.show"
+msgstr ""
+"\"Kullanıcı burada yeni! Ona selam verin!\" gibi karşılama mesajlarını "
+"göster"
+
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Sayfa kaydırma uzunluğu"
+
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Bir sayfada kaç satır yazı gözüktüğü ile ilgili ayar. Ayarı yüksek tutmak "
+"sayfada ağırlık yaratabilir."
+
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Chat kaydırmayı duraklat"
+
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Chat akışının durması için fare ile kullanılacak bir tuşa gereksinim "
+"duymayı etkinleştir"
+
+msgid "setting.entry.chat.scroller.freeze.values.1"
+msgstr "Fare ile üzerinde tutulduğunda"
+
+msgid "setting.entry.chat.scroller.freeze.values.2"
+msgstr "Ctrl basılı tutulduğunda"
+
+msgid "setting.entry.chat.scroller.freeze.values.3"
+msgstr "Meta basılı tutulduğunda"
+
+msgid "setting.entry.chat.scroller.freeze.values.4"
+msgstr "Alt basılı tutulduğunda"
+
+msgid "setting.entry.chat.scroller.freeze.values.5"
+msgstr "Shift basılı tutulduğunda"
+
+msgid "setting.entry.chat.scroller.freeze.values.6"
+msgstr "Ctrl veya Fareyi üzerinde tut"
+
+msgid "setting.entry.chat.scroller.freeze.values.7"
+msgstr "Meta veya Fareyi üzerinde tut"
+
+msgid "setting.entry.chat.scroller.freeze.values.8"
+msgstr "Alt veya Fareyi üzerinde tut"
+
+msgid "setting.entry.chat.scroller.freeze.values.9"
+msgstr "Shift veya Fareyi üzerinde tut"
+
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Farenin etkileşimden çıkması için gereken süre"
+
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"Fare belirlenen süre sonrasında etkileşimden çıkıp chatin akışına izin "
+"verecektir. "
+
+msgid "setting.entry.chat.scroller.hover-delay.values.1000"
+msgstr "1 Saniye"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.250"
+msgstr "0.25 Saniye"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.2500"
+msgstr "2.5 Saniye"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.500"
+msgstr "0.50 Saniye"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.5000"
+msgstr "5 Saniye"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.750"
+msgstr "0.75 Saniye"
+
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Yumuşak Kaydırma"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Devre dışı "
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
+msgstr "Yavaş"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
+msgstr "Orta"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
+msgstr "Hızlı"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
+msgstr "Çok hızlı"
+
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Uygun olduğunda, emojilerin üzerine shift ile basarsanız twich abonelik "
+"sayfasını açar."
+
+msgid "setting.entry.chat.subs.compact"
+msgstr "Abonelik uyarılarını daha ufak bir stilde göster"
+
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Toplu abone hediyelerini birleştir"
+
+msgid "setting.entry.chat.subs.merge-gifts.description"
+msgstr ""
+"Toplu abone hediyelerini bir mesajda, sayısına göre birleştirir\n"
+"**Not:** Sadece yeni aboneleri etkiler."
+
+msgid "setting.entry.chat.subs.merge-gifts.values.0"
+msgstr "Her zaman"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.10"
+msgstr "10'dan fazla"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.1000"
+msgstr "Devre dışı "
+
+msgid "setting.entry.chat.subs.merge-gifts.values.20"
+msgstr "20'den fazla"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.5"
+msgstr "5'den fazla"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.50"
+msgstr "50'den fazla"
+
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Birleştirilmiş toplu abonelik mesajlarını açarak göster"
+
+msgid "setting.entry.chat.subs.show"
+msgstr "Chatteki aboneleri göster"
+
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Not:** Yeniden abonelikle birlikte gönderilen mesajlar etkindir. Bu ayar "
+"sadece \"x kişi abone oldu\" mesajını etkiler."
+
+msgid "setting.entry.chat.subs.show.values.0"
+msgstr "Gösterme"
+
+msgid "setting.entry.chat.subs.show.values.1"
+msgstr "Sadece yeniden abonelik mesajları"
+
+msgid "setting.entry.chat.subs.show.values.2"
+msgstr "Sadece yeniden aboneler"
+
+msgid "setting.entry.chat.subs.show.values.3"
+msgstr "Herşeyi göster"
+
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Emojilerin tab tuşu ile tamamlanmasına izin ver"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr "Emojileri tab ile çağırınca iki nokta üstüste ile bitirmeye gerek kalmasın"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr ""
+"Bu ayar kullanıcı isimlerinin @ ile çağrıldığında tab ile tamamlanmasını "
+"durdurur."
+
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "FFZ emojilerini tab tuşu ile tamamlamayı etkinleştir"
+
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Tab sonuçlarını 25'e sınırla"
+
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Favori emojileri öne çıkar"
+
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Zaman işareti biçimi"
+
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Zaman işareti biçimleri [Day.js] (https://github.com/iamkun/dayjs#readme) "
+"kütüphaneliğini kullanır. Daha fazla detay için "
+"(https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#list-of-"
+"all-available-formats)"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Fon rengi eklenmiş"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Fon rengi eklenmiş 24 saat"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Fon rengi eklenmiş, saniyeli"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Fon rengi eklenmiş 24 saat, saniyeli"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm"
+msgstr "12 saat"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm"
+msgstr "24 saat"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
+msgstr "12 saat, saniyeli"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
+msgstr "24 saat, saniyeli"
+
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Videodaki chatte FFZ özelliklerini etkinleştir"
+
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Videodaki chatte FFZ rozetleri, emojileri ve diğer özellikleri gösterir. "
+"Moderatör özellikleri çalışmayabilir."
+
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Öne çıkarma rengi"
+
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr "Kullanıcı bilgileri açık olan kişilerden gelen mesajları öne çıkar"
+
+msgid "setting.entry.chat.width"
+msgstr "Genişlik"
+
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Chatin pixel oranında genişliğini belirle. Bu ayar tarayıcınızın zoom ve "
+"font büyüklüğü ayarlarından etkilenebilir."
+
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Grup misafir yayınları"
+
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Misafir yapılan yayını rehberde bir kez göster"
+
+msgid "setting.entry.directory.following.host-menus"
+msgstr "Misafir yayınlar menüsü"
+
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Misafir yayına tıklandığında hangi kanala gidileceğini gösteren bir menü "
+"göster"
+
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Devre dışı "
+
+msgid "setting.entry.directory.following.host-menus.values.1"
+msgstr "Birden fazla kişi misafir yayın yapıyorsa"
+
+msgid "setting.entry.directory.following.host-menus.values.2"
+msgstr "Her zaman"
+
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Takip edilen kanallar bölümünde \"son videolar\" ı göstermeyi engelle"
+
+msgid "setting.entry.directory.hide-live"
+msgstr "Canlı yayında olan kanallar için canlı ibaresini göstermeyi engelle"
+
+msgid "setting.entry.directory.hide-recommended"
+msgstr ""
+"Takip edilen kanallar bölümünde \"Tavsiye edilen canlı kanallar\" ı "
+"göstermeyi engelle"
+
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr ""
+"Takip edilen kanallar bölümünde \"Geçmişte izlediğiniz kanallara göre "
+"tavsiyeler\" i göstermeyi engelle"
+
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "Tekrar yayınları rehberde göstermeyi engelle"
+
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Kanal avatarlarını göster."
+
+msgid "setting.entry.directory.uptime"
+msgstr "Yayın süresi"
+
+msgid "setting.entry.directory.uptime.description"
+msgstr "Kanal bilgilerinde yayın süresini göster"
+
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Devre dışı "
+
+msgid "setting.entry.directory.uptime.values.1"
+msgstr "Etkinleştirildi"
+
+msgid "setting.entry.directory.uptime.values.2"
+msgstr "Etkinleştirildi (saniye olarak)"
+
+msgid "setting.entry.experiments"
+msgstr "Deneysel"
+
+msgid "setting.entry.faq"
+msgstr "Sıkça sorulan sorular"
+
+msgid "setting.entry.feedback"
+msgstr "Geri bildirim"
+
+msgid "setting.entry.feedback.log"
+msgstr "Geri bildirim"
+
+msgid "setting.entry.ffz.show-new-settings"
+msgstr "Yeni bir ayar eklendiğinde FFZ butonunda uyarı göster."
+
+msgid "setting.entry.home"
+msgstr "Başlangıç"
+
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Mesaj alıntılamayı etkinleştir"
+
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Değişim"
+
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr "Tüm yerel stringleri test stringlerine dönüştür"
+
+msgid "setting.entry.i18n.debug.transform.values.append_key"
+msgstr "İliştirme tuşu"
+
+msgid "setting.entry.i18n.debug.transform.values.double"
+msgstr "Çift"
+
+msgid "setting.entry.i18n.debug.transform.values.lower"
+msgstr "Küçük harf"
+
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Devre dışı "
+
+msgid "setting.entry.i18n.debug.transform.values.owo"
+msgstr "owo_bu da ne"
+
+msgid "setting.entry.i18n.debug.transform.values.set_key"
+msgstr "Tuşa ayarla"
+
+msgid "setting.entry.i18n.debug.transform.values.upper"
+msgstr "Büyük harf"
+
+msgid "setting.entry.i18n.locale"
+msgstr "Dil"
+
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FFZ, topluluğumuz tarafından tamamen gönüllü olarak çevrilmektedir. Eğer "
+"ilgilenirseniz topluluğumuza discord linkinden (https://discord.gg/UrAkGhT) "
+"ulaşarak yerelleştirme konusunda bilgi alabilirsiniz, teşekkürler."
+
+msgid "setting.entry.layout.discover"
+msgstr "Keşfet linkini göster"
+
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Bits al butonunu göster"
+
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Gezinme çubuğunu ufaltır"
+
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr "Gezinme çubuğunu kullanımda değilken yukarıya gizle"
+
+msgid "setting.entry.layout.portrait"
+msgstr "Portre modunu etkinleştir"
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Portre modunda eğer chat genişten ziyade uzun kalırsa oynatıcının altına "
+"yerleştirilecektir."
+
+msgid "setting.entry.layout.portrait-invert"
+msgstr "Portre modunda chati yukarı yerleştir"
+
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Portre modu eşik seviyesi"
+
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr ""
+"Burada portre modunun aktif hale gelmesi için gerekli genişlik ve uzunluk "
+"ayarları yer almaktadır."
+
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "Offline kanalları gizle"
+
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Tekrar yayınları göster"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.0"
+msgstr "Gösterme"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.1"
+msgstr "Normalde"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.2"
+msgstr "Kaybolan (33% saydam)"
+
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Yan paneli göster"
+
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Kanal avatarlarını göster"
+
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Online arkadaşları göster"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.0"
+msgstr "Asla"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.1"
+msgstr "Her zaman"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.2"
+msgstr "Yan panel açıkken"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Tavsiye edilen / Popüler kanalları göster"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.0"
+msgstr "Asla"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
+msgstr "Her zaman"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
+msgstr "Yan panel açıkken"
+
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Tavsiye edilen arkadaşları göster"
+
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Yan panellerin yerini birbiriyle değiştir"
+
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Gezinme ve chat panellerini ters tarafa geçir"
+
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Tiyatro modunda gezinme çubuğunu ufaltır."
+
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Font ailesi"
+
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Tüm twitch sitesinde kullanılan font ailesini değiştirir. Eski varsayılan "
+"fontlar \"Helvetica Neue\", Helvetica, Arial, Sans-serif"
+
+msgid "setting.entry.legal"
+msgstr "Yasal uyarılar"
+
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Öne çıkan takip edilebilir yayıncılar"
+
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr "Öne çıkarılmış yayıncıya izleme butonu ekle"
+
+msgid "setting.entry.metadata.host-button"
+msgstr "Misafir yayın butonu"
+
+msgid "setting.entry.metadata.host-button.description"
+msgstr "İpuçlarına misafir yayın butonu ekle"
+
+msgid "setting.entry.metadata.player-stats"
+msgstr "Yayın istatistikleri"
+
+msgid "setting.entry.metadata.player-stats.description"
+msgstr "Yayın gecikmesi ve kaybedilen kareleri ipucunda gösterir."
+
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Yayın Gecikme Uyarısı"
+
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"Belli bir saniyeyi (saniye ekle) geçen gecikmelerde yayın altında uyarı "
+"gösterir. Uyarının rengi daha öne çıkması için değiştirilebilir. Sıfıra "
+"ayarlanırsa devre dışı kalır."
+
+msgid "setting.entry.metadata.uptime"
+msgstr "Yayın süresi"
+
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Devre dışı "
+
+msgid "setting.entry.metadata.uptime.values.1"
+msgstr "Etkinleştirildi"
+
+msgid "setting.entry.metadata.uptime.values.2"
+msgstr "Etkinleştirildi (saniye olarak)"
+
+msgid "setting.entry.player.button.pip"
+msgstr "Oynatıcı ayarlarına \"resim içinde resim\" düğmesi ekle"
+
+msgid "setting.entry.player.button.pip.description"
+msgstr "Resim içinde resim butonuna basıldığında yayın küçültülerek devam ettirilir."
+
+msgid "setting.entry.player.button.reset"
+msgstr "Oynatıcı ayarlarına \"oynatıcıyı baştan başlat\" düğmesi ekle"
+
+msgid "setting.entry.player.captions.alignment"
+msgstr "Hizalama"
+
+msgid "setting.entry.player.captions.alignment.values.11"
+msgstr "Sol üst"
+
+msgid "setting.entry.player.captions.alignment.values.12"
+msgstr "Sol üst"
+
+msgid "setting.entry.player.captions.alignment.values.13"
+msgstr "Sağ üst"
+
+msgid "setting.entry.player.captions.alignment.values.21"
+msgstr "Sol orta"
+
+msgid "setting.entry.player.captions.alignment.values.22"
+msgstr "Tam orta"
+
+msgid "setting.entry.player.captions.alignment.values.23"
+msgstr "Sağ orta"
+
+msgid "setting.entry.player.captions.alignment.values.31"
+msgstr "Sol alt"
+
+msgid "setting.entry.player.captions.alignment.values.32"
+msgstr "Orta alt"
+
+msgid "setting.entry.player.captions.alignment.values.33"
+msgstr "Sağ alt"
+
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Altyazıların yerleşimi ve pozisyonunun ayarlanmasını etkinleştir"
+
+msgid "setting.entry.player.captions.font-family"
+msgstr "Font ailesi"
+
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Altyazılarda kullanılan font"
+
+msgid "setting.entry.player.captions.font-size"
+msgstr "Font büyüklüğü"
+
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"Altyazıların boyutu. Bu değer bir yüzde ile (10%) veya pixel olarak (50px) "
+"gösterilebilir. "
+
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Yatay pozisyon"
+
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Altyazının konumunu belirler. Yüzde değeri (örn.10%) veya piksel değeri "
+"(örn.50px) verilerek ayarlanabilir."
+
+msgid "setting.entry.player.captions.vertical"
+msgstr "Dikey pozisyon"
+
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Altyazının konumunu belirler. Yüzde değeri (örn.10%) veya piksel değeri "
+"(örn.50px) verilerek ayarlanabilir."
+
+msgid "setting.entry.player.ext-hide"
+msgstr "Ekranüstü uzantıları etkinleştir"
+
+msgid "setting.entry.player.ext-hide.values.0"
+msgstr "Her zaman"
+
+msgid "setting.entry.player.ext-hide.values.1"
+msgstr "Kontrollerle beraber"
+
+msgid "setting.entry.player.ext-hide.values.2"
+msgstr "Asla"
+
+msgid "setting.entry.player.ext-interaction"
+msgstr "Ekranüstü uzantılarının fare ile etkileşimine izin ver"
+
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Etkinlik çubuğunu gizle"
+
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"Canlı yayındayken yukarıda çıkan \"etkinlik şu an devam ediyor\" uyarı "
+"çubuğunu gizle"
+
+msgid "setting.entry.player.hide-mouse"
+msgstr "Kontrol düğmeleri gizlenince fare imlecini de gizle"
+
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Tekrar yayını çubuğunu gizle"
+
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr "Video oynatılırken çıkan tekrar yayını çubuğunu gizle"
+
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "Takım yayını çubuğunu gizle"
+
+msgid "setting.entry.player.home.autoplay"
+msgstr "Twitch ana sayfasında öne çıkarılan yayınları otomatik oynat"
+
+msgid "setting.entry.player.no-autoplay"
+msgstr "Videolar veya yayınların otomatik başlamasını engelle"
+
+msgid "setting.entry.player.no-autoplay.description"
+msgstr "Not: Bu özellik kanaldan kanala geçerken çalışmaz."
+
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Bir kanalı ziyaret ettiğinde otomatik olarak tiyatro moduna geç"
+
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Fare ile oynatıcının üstüne gelindiğinde metadatayı göster"
+
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Tiyatro modu açıkken fısıltıları gizle"
+
+msgid "setting.entry.player.vod.autoplay"
+msgstr "Bir sonraki önerilen videoyu otomatik oynat"
+
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Ses yüksekliği kaydırgacını hep görünür halde tut"
+
+msgid "setting.entry.player.volume-scroll"
+msgstr "Ses seviyesi fare tekerleği ile ayarlanabilir"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Bu ayar oynatıcı üstünde görünür eklentileri olan yayınlarda düzgün "
+"çalışmayabilir.\""
+
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Ses kaydırma miktarı"
+
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr "Tekerleğin bir hareketi ile ses yüksekliğinin ne kadar değişeceğini belirle"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.01"
+msgstr "1%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.02"
+msgstr "2%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.05"
+msgstr "5%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.1"
+msgstr "10%"
+
+msgid "setting.entry.profiles"
+msgstr "Profiller"
+
+msgid "setting.entry.reports.error.enable"
+msgstr "Bir hata olduğunda otomatik rapor et"
+
+msgid "setting.entry.reports.error.example"
+msgstr "raporlar.hata.örnek"
+
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Raporlara ayarların bir görüntüsünü ekle"
+
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr "Ayarların son halini görebilmek sorunun çözümü için çok yararlı olabiliyor."
+
+msgid "setting.entry.reports.error.include-user"
+msgstr "Raporlara kullanıcı ID'sini ekle"
+
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"Bazen hangi kullanıcının sorunla karşılaştığını bilmek iyi oluyor, böylece "
+"tam olarak neyin soruna yol açtığını bulup müdahale edebiliyoruz."
+
+msgid "setting.entry.socket.use-cluster"
+msgstr "Server yığını"
+
+msgid "setting.entry.socket.use-cluster.values.Development"
+msgstr "Geliştirme"
+
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Devre dışı "
+
+msgid "setting.entry.socket.use-cluster.values.Production"
+msgstr "Yapım"
+
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Prime hatırlatıcısını göster"
+
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr "Prime abonelik uygunsa abonelik tuşunun üzerinde bir taç simgesi göster"
+
+msgid "setting.entry.theme.color.background"
+msgstr "Arka plan"
+
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Eski siyah temaya yakın renkler istiyorsanız `#0E0C13` veya gri için "
+"`#0E0E0E` kodlarını kullanın. Transparan renkler çalışmaz."
+
+msgid "setting.entry.theme.color.text"
+msgstr "Yazı"
+
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Bu ayara dokunulmazsa, arka plan uygun şekilde siyah veya beyaz olarak "
+"otomatik ayarlanacaktır."
+
+msgid "setting.entry.theme.dark"
+msgstr "Gri (mor değil)"
+
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Çalışması için koyu temanın seçilmiş olması gereklidir*\n"
+"\n"
+"Bu ayar ilerde değişecektir.\n"
+"CSS yüklemesi performans sorunları oluşturabilir."
+
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Rozetlerin büyük resimlerini göster"
+
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Emojilerin büyük resimlerini göster"
+
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Bilinen kaynakları gösterir"
+
+msgid "setting.entry.tooltip.images"
+msgstr "İpuçlarında resim kullan"
+
+msgid "setting.entry.tooltip.link-images"
+msgstr "Linklerde resim göster"
+
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Desteklenen ipucu linklerine erişim sağlar."
+
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Linklerde uygun olmayabilecek resimleri göster"
+
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"Bu ayar etkinleştirildiğinde FFZ güvenilir olmayan resimleri de "
+"gösterecektir. "
+
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Linklerde medya içerikli ipuçları göster"
+
+msgid "setting.entry.whispers.show"
+msgstr "Fısıltıları göster"
+
+msgid "setting.example"
+msgstr "Örnek:"
+
+msgid "setting.experiments.about"
+msgstr ""
+"Bu özellikler varsayılan deneysel ayarları yoksayar. Birçok deneysel ayar "
+"için sayfayı yeniden başlatmak zorunda olduğunuzu not düşelim."
+
+msgid "setting.experiments.active"
+msgstr "Bu deney aktiftir. "
+
+msgid "setting.experiments.entry"
+msgstr "{value,tostring} (weight: {weight,tostring})"
+
+msgid "setting.experiments.ffz"
+msgstr "FrankerFaceZ Deneysel"
+
+msgid "setting.experiments.inactive"
+msgstr "Bu deney aktif değildir. "
+
+msgid "setting.experiments.sort-name"
+msgstr "Sort By: İsim"
+
+msgid "setting.experiments.sort-rarity"
+msgstr "Sort By: Nadirlik"
+
+msgid "setting.experiments.twitch"
+msgstr "Twitch Deneysel"
+
+msgid "setting.experiments.unique-id"
+msgstr "Unique ID: {id}"
+
+msgid "setting.experiments.unset"
+msgstr "kurulmamış"
+
+msgid "setting.export"
+msgstr "Dışa aktar"
+
+msgid "setting.false"
+msgstr "Yanlış"
+
+msgid "setting.filter.if.else"
+msgstr "Yoksa"
+
+msgid "setting.filter.if.then"
+msgstr "Sonra"
+
+msgid "setting.filter.page.url"
+msgstr "URL: {url}"
+
+msgid "setting.filters.active"
+msgstr "Bu kural uymaktadır."
+
+msgid "setting.filters.add"
+msgstr "Ekle"
+
+msgid "setting.filters.add-new"
+msgstr "Yeni kural ekle"
+
+msgid "setting.filters.empty"
+msgstr "(filtre yok)"
+
+msgid "setting.filters.if.fail"
+msgstr "Bu daldaki değerler yanlış koşullanmadan dolayı etkin "
+
+msgid "setting.filters.if.no_fail"
+msgstr "Bu daldaki değerler doğru koşullanmadan dolayı etkin değil"
+
+msgid "setting.filters.if.no_pass"
+msgstr "Bu daldaki değerler yanlış koşullanmadan dolayı etkin değil"
+
+msgid "setting.filters.if.pass"
+msgstr "Bu daldaki değerler doğru koşullanmadan dolayı etkin "
+
+msgid "setting.filters.inactive"
+msgstr "Bu kural uyuşmuyor."
+
+msgid "setting.hidden"
+msgstr "Gizli"
+
+msgid "setting.home"
+msgstr "Başlangıç"
+
+msgid "setting.home.changelog"
+msgstr "Değişim notları"
+
+msgid "setting.home.faq"
+msgstr "Sıkça sorulan sorular"
+
+msgid "setting.home.feedback"
+msgstr "Geri bildirim"
+
+msgid "setting.home.feedback.log"
+msgstr "Değişim notları"
+
+msgid "setting.home.legal"
+msgstr "Yasal uyarılar"
+
+msgid "setting.icon.clear"
+msgstr "Temizle"
+
+msgid "setting.icon.search"
+msgstr "Simgeyi ara"
+
+msgid "setting.import"
+msgstr "İçe aktar"
+
+msgid "setting.inherited-from"
+msgstr "Buradan alındı: {title}"
+
+msgid "setting.key.alt"
+msgstr "Alt"
+
+msgid "setting.key.ctrl"
+msgstr "Ctrl"
+
+msgid "setting.key.meta"
+msgstr "Meta"
+
+msgid "setting.key.shift"
+msgstr "Shift"
+
+msgid "setting.new"
+msgstr "Yeni"
+
+msgid "setting.overridden-by"
+msgstr "{title} tarafından yok sayıldı"
+
+msgid "setting.player"
+msgstr "Oynatıcı"
+
+msgid "setting.player.closed_captioning"
+msgstr "Altyazılar"
+
+msgid "setting.player.closed_captioning.font"
+msgstr "Font"
+
+msgid "setting.player.closed_captioning.position"
+msgstr "Pozisyon"
+
+msgid "setting.player.general"
+msgstr "Genel"
+
+msgid "setting.player.general.extensions"
+msgstr "Uzantılar"
+
+msgid "setting.player.general.general"
+msgstr "Genel"
+
+msgid "setting.player.general.playback"
+msgstr "Yayın akışı"
+
+msgid "setting.player.general.theatre_mode"
+msgstr "Tiyatro modu"
+
+msgid "setting.player.general.volume"
+msgstr "Ses"
+
+msgid "setting.profiles.active"
+msgstr "Bu profil etkinleştirildi ve aktiftir."
+
+msgid "setting.profiles.configure"
+msgstr "Ayarlar"
+
+msgid "setting.profiles.default"
+msgstr "Varsayılan Profil"
+
+msgid "setting.profiles.default.description"
+msgstr "Twitch'in tümünde geçerli olan ayarlar"
+
+msgid "setting.profiles.disabled"
+msgstr "Bu profil devre dışıdır."
+
+msgid "setting.profiles.disabled.description"
+msgstr ""
+"Profil devre dışı olduğundan dolayı yaptığınız değişiklikleri Twitch "
+"üzerinde göremezsiniz."
+
+msgid "setting.profiles.disabled.rules"
+msgstr "Profil devrede fakat uyuşmayan kurallardan dolayı aktif değil."
+
+msgid "setting.profiles.drag"
+msgstr "Profilleri sürükleyip yerini değiştirerek önem sırasına koyabilirsiniz."
+
+msgid "setting.profiles.inactive.description"
+msgstr ""
+"Bu profilin ayarları halihazırdaki içerikle uyuşmuyor ve bu yüzden aktif "
+"değil, değişiklikleri göremezsiniz."
+
+msgid "setting.profiles.moderation"
+msgstr "Moderasyon"
+
+msgid "setting.profiles.moderation.description"
+msgstr "Modlar için chat ayarları"
+
+msgid "setting.profiles.new"
+msgstr "Yeni Profil"
+
+msgid "setting.profiles.warn-delete"
+msgstr "Bu profili silmek istediğinize emin misiniz? Bu geri döndürülemez."
+
+msgid "setting.profile.updates"
+msgstr "Bu profil bu URL'den otomatik olarak güncellenecektir: "
+
+msgid "setting.reasons.add-default"
+msgstr "Varsayılan ekle"
+
+msgid "setting.reasons.add-default-tip"
+msgstr "Bu profile tüm varsayılan nedenleri ekle"
+
+msgid "setting.reasons.add-placeholder"
+msgstr "Yeni bir neden ekle"
+
+msgid "setting.reasons.delete-all"
+msgstr "Bu profilin tüm gerekçelerini sil"
+
+msgid "setting.reasons.info"
+msgstr ""
+"İçerik menüsünden yasaklama ve susturma nedenleri ek bilgi vermek adına "
+"seçilebilir."
+
+msgid "setting.reasons.no-reasons"
+msgstr "bu profilde nedenler belirtilmemiş"
+
+msgid "setting.reset"
+msgstr "Varsayılanlara döndür"
+
+msgid "setting.reset-all"
+msgstr "Herşeyi varsayılanlara sıfırla"
+
+msgid "setting.save"
+msgstr "Kayıt"
+
+msgid "settings.filter.category"
+msgstr "Bulunduğunuz kategori"
+
+msgid "settings.filter.channel"
+msgstr "Şimdiki kanal"
+
+msgid "settings.filter.if"
+msgstr "Eğer"
+
+msgid "settings.filter.invert"
+msgstr "Ters çevir"
+
+msgid "settings.filter.moderator"
+msgstr "bir moderatördür."
+
+msgid "settings.filter.native-dark"
+msgstr "Koyu tema"
+
+msgid "settings.filter.or"
+msgstr "Veya"
+
+msgid "settings.filter.page"
+msgstr "Üzerinde olduğunuz sayfa"
+
+msgid "settings.filter.page.route.addons.deck"
+msgstr "Panel"
+
+msgid "settings.filter.page.route.addons.deck.tab"
+msgstr "Tab"
+
+msgid "settings.filter.page.route.collection"
+msgstr "Koleksiyon"
+
+msgid "settings.filter.page.route.dash"
+msgstr "Kumanda paneli"
+
+msgid "settings.filter.page.route.dash-chat"
+msgstr "Chat ayırma paneli"
+
+msgid "settings.filter.page.route.dash-chat.userName"
+msgstr "Kullanıcı adı"
+
+msgid "settings.filter.page.route.dir"
+msgstr "Gezinme"
+
+msgid "settings.filter.page.route.dir-all"
+msgstr "Canlı Kanalları Dolaş"
+
+msgid "settings.filter.page.route.dir-following"
+msgstr "Takip edilenler"
+
+msgid "settings.filter.page.route.dir-game-clips"
+msgstr "Dir Oyun Klipleri"
+
+msgid "settings.filter.page.route.dir-game-index"
+msgstr "Dir Oyun Listesi"
+
+msgid "settings.filter.page.route.dir-game-videos"
+msgstr "Dir Oyun Videoları"
+
+msgid "settings.filter.page.route.embed-chat"
+msgstr "Chati pencereye yerleştir"
+
+msgid "settings.filter.page.route.embed-chat.userName"
+msgstr "Kullanıcı adı"
+
+msgid "settings.filter.page.route.event"
+msgstr "Etkinlik"
+
+msgid "settings.filter.page.route.front-page"
+msgstr "Ön sayfa"
+
+msgid "settings.filter.page.route.popout"
+msgstr "Chati pencereden ayır"
+
+msgid "settings.filter.page.route.popout.userName"
+msgstr "Kullanıcı adı"
+
+msgid "settings.filter.page.route.prime"
+msgstr "Prime"
+
+msgid "settings.filter.page.route.product"
+msgstr "Ürün "
+
+msgid "settings.filter.page.route.squad"
+msgstr "Takım"
+
+msgid "settings.filter.page.route.turbo"
+msgstr "Turbo"
+
+msgid "settings.filter.page.route.user"
+msgstr "Kullanıcı"
+
+msgid "settings.filter.page.route.user-clip"
+msgstr "Kullanıcı klibi"
+
+msgid "settings.filter.page.route.user-clips"
+msgstr "Kullanıcı klipleri"
+
+msgid "settings.filter.page.route.user-collections"
+msgstr "Kullanıcı koleksiyonları"
+
+msgid "settings.filter.page.route.user-events"
+msgstr "Kullanıcı etkinlikleri "
+
+msgid "settings.filter.page.route.user-followers"
+msgstr "Kullanıcı takipçileri"
+
+msgid "settings.filter.page.route.user-following"
+msgstr "Kullanıcı takipçi"
+
+msgid "settings.filter.page.route.user-video"
+msgstr "Kanal videosu"
+
+msgid "settings.filter.page.route.user-videos"
+msgstr "Kullanıcı videoları"
+
+msgid "settings.filter.page.route.video"
+msgstr "Video"
+
+msgid "settings.filter.squad"
+msgstr "Takım modu"
+
+msgid "settings.filter.theater"
+msgstr "Tiyatro modu"
+
+msgid "settings.filter.time"
+msgstr "Güncel Saat"
+
+msgid "settings.filter.time.end"
+msgstr "Bitiş: "
+
+msgid "settings.filter.time.start"
+msgstr "Başlangıç:"
+
+msgid "settings.filter.true_false"
+msgstr "Doğru veya Yanlış"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Yeni bir terim ekle"
+
+msgid "setting.terms.add-term"
+msgstr "Ekle"
+
+msgid "setting.terms.no-terms"
+msgstr "bu profilde terimler belirtilmemiş"
+
+msgid "setting.terms.remove.off"
+msgstr "Benzer mesajları chatten temizlemeyi engelle"
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+msgid "setting.terms.type.text"
+msgstr "Yazı"
+
+msgid "setting.tooltip-example"
+msgstr "Örnek olarak fareyi bu linkin üzerinde tutun"
+
+msgid "setting.true"
+msgstr "Doğru"
+
+msgid "setting.unset"
+msgstr "Kurulmamış"
+
+msgid "setting.visible"
+msgstr "Görünür"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Bu değerler başka bir profil tarafından yok sayıldığı için "
+"etkinleşmeyecektir."
+
+msgid "setting.warn-unsaved"
+msgstr "Değişiklikleri kaydetmediniz, çıkmak istediğinize emin misiniz?"

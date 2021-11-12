@@ -1,0 +1,210 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "card.empty"
+msgstr "データは返されませんでした"
+
+msgid "card.error"
+msgstr "エラーが発生しました"
+
+msgid "chat.actions.chat"
+msgstr "チャットコマンド"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "{user.login}のメッセージを削除しました"
+
+msgid "chat.actions.open_url"
+msgstr "URLを開く"
+
+msgid "chat.actions.select-reason"
+msgstr "以下のリストから理由を選んで下さい:"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "禁止解除 {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "不明なアクションタイプ"
+
+msgid "chat.ignore-clear"
+msgstr "モデレーターによるチャットの全消去の試みは無視されました。"
+
+msgid "chat.message-deleted"
+msgstr "<メッセージが削除されました>"
+
+msgid "chat.mod-action.ban"
+msgstr "禁止"
+
+msgid "chat.mod-action.delete"
+msgstr "削除"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} タイムアウト"
+
+msgid "chat.sub.gift-plan"
+msgstr "ティア{tier}"
+
+msgid "clip.desc.1"
+msgstr "{user}のクリップ"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} は {game} をプレイ中"
+
+msgid "clip.unknown"
+msgstr "不明"
+
+msgid "directory.hosted"
+msgstr "ホストしたチャンネル"
+
+msgid "directory.hosted.by-many"
+msgstr "{count,number}個のチャンネルにホストされました。"
+
+msgid "directory.hosting"
+msgstr "ホスト中のチャンネル"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"チャンネル: {channel}"
+
+msgid "emote-menu.disable"
+msgstr "一時的な回避策として、FFZコントロールセンターのFFZ Emoteメニューを無効にしてみてください。"
+
+msgid "emote-menu.emote-sub"
+msgstr "{price}でサブスクライブするとこのエモートがアンロックされます。"
+
+msgid "emote-menu.emote-up"
+msgstr "{price}でサブスクをアップデートするとこのエモートがアンロックされます。"
+
+msgid "emote-menu.empty"
+msgstr "ここには何もありません。"
+
+msgid "emote-menu.empty-search"
+msgstr "一致するエモートはありません。"
+
+msgid "emote-menu.error"
+msgstr "このメニューのレンダリング中にエラーが発生しました。"
+
+msgid "emote-menu.error-report"
+msgstr "エラー報告が自動的に送信されました。"
+
+msgid "emote-menu.sub-basic"
+msgstr "サブスクライブするといくつかのエモートがアンロックされます。"
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "このギフトサブは{seconds,humantime}で期限切れになります。"
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"これはTwitch Primeによる無料サブスクライブです。\n"
+"{seconds,humantime}で期限切れになります。"
+
+msgid "emote-menu.sub-unlock"
+msgstr "{price}でサブスクライブすると{count,number}個のエモートがアンロックされます。"
+
+msgid "emote-menu.unknown"
+msgstr "不明なソース"
+
+msgid "error.try-again"
+msgstr "再試行"
+
+msgid "i18n.ui.popout"
+msgstr "新しいウィンドウで翻訳エディタを開く"
+
+msgid "key.alt"
+msgstr "Altキー"
+
+msgid "key.alt_mouse"
+msgstr "Altキーもしくはマウス"
+
+msgid "key.ctrl"
+msgstr "Ctrlキー"
+
+msgid "key.hover"
+msgstr "ホバー"
+
+msgid "key.meta"
+msgstr "Metaキー"
+
+msgid "key.meta_mouse"
+msgstr "Metaキーもしくはマウス"
+
+msgid "key.mouse"
+msgstr "マウス移動"
+
+msgid "key.shift"
+msgstr "Shiftキー"
+
+msgid "key.shift_mouse"
+msgstr "Shiftキーもしくはマウス"
+
+msgid "metadata.host-button.host"
+msgstr "ホスト"
+
+msgid "metadata.host-button.tooltip"
+msgstr "現在ホスト中のチャンネル: {channel}"
+
+msgid "metadata.host-button.unhost"
+msgstr "ホスト解除"
+
+msgid "metadata.host-button.updating"
+msgstr "更新中..."
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "配信 {count,number}秒前"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr "ローカルの時計が約{count,number}秒ずれているため、不正確な可能性があります。"
+
+msgid "metadata.player-stats.subtitle"
+msgstr "遅延"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"ビデオ: {videoResolution}p{fps}\n"
+"ビットレート: {playbackRate,number} Kbps\n"
+"ドロップフレーム:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "ビデオ情報"
+
+msgid "metadata.uptime.subtitle"
+msgstr "配信時間"
+
+msgid "popup.error"
+msgstr "ポップアップウィンドウを開けませんでした。Twitchからのポップアップを必ず許可してください。"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "ローカル開発用サーバーからアドオンを読み込みました。"
+
+msgid "site.menu_button.dev"
+msgstr "開発者"
+
+msgid "site.menu_button.update-desc"
+msgstr "利用可能なアップデートがあります。ページを更新してください。"
+
+msgid "tooltip.emoji"
+msgstr "絵文字 - {category}"
+
+msgid "tooltip.error"
+msgstr "エラーが発生しました 。({error})"
+
+msgid "tooltip.link-unsafe"
+msgstr "警告: このURLは次の理由によりGoogleセーフブラウジングに登録されています: {reasons}"
+
+msgid "video-chat.jump"
+msgstr "ビデオまでジャンプ"
+
+msgid "video-chat.reply"
+msgstr "リプレイ"
+
+msgid "video-chat.show-more"
+msgstr "リプライを更に読み込む"
+
+msgid "video-chat.time"
+msgstr "{time,humantime} 前"
+
+msgid "video.desc.1"
+msgstr "{user}のビデオ"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} 回視聴 - {date,datetime}"

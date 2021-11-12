@@ -1,0 +1,3964 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "addon.author"
+msgstr "Автор: {author}"
+
+msgid "addon.created"
+msgstr "Создано: {when,date}"
+
+msgid "addon.deck.author"
+msgstr "SirStendec"
+
+msgid "addon.deck.name"
+msgstr "Колода"
+
+msgid "addon.dev"
+msgstr "Разработчик"
+
+msgid "addon.disable"
+msgstr "Выключить"
+
+msgid "addon.enable"
+msgstr "Включить"
+
+msgid "addon.enabled"
+msgstr "Включено"
+
+msgid "addon.ffzap-bttv.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-bttv.name"
+msgstr "Смайлы BetterTTV"
+
+msgid "addon.ffzap-core.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-core.name"
+msgstr "The FrankerFaceZ Add-On Pack - База"
+
+msgid "addon.ffzap-liriklive.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-liriklive.name"
+msgstr "LirikLIVE"
+
+msgid "addon.filter-enabled"
+msgstr "Отображать только включенные дополнения."
+
+msgid "addon.settings"
+msgstr "Настройки"
+
+msgid "addon.show-more"
+msgstr "(Показать больше)"
+
+msgid "addon.sort-create"
+msgstr "Сортировать по дате создания"
+
+msgid "addon.sort-name"
+msgstr "Сортировать по названию"
+
+msgid "addon.sort-update"
+msgstr "Сортировать по дате обновления"
+
+msgid "addon.unlisted"
+msgstr "Неуказанное"
+
+msgid "addon.unlisted.add"
+msgstr "Добавить неуказанное..."
+
+msgid "addon.unlisted.explain"
+msgstr ""
+"Дополнения без списка - это дополнения, которые прошли процедуру проверки, "
+"но решили избежать включения в основной список. Это может быть связано с "
+"тем, что дополнение предназначено для определённых пользователей, или с "
+"тем, что оно всё ещё находится в разработке. Если вы знаете ID не "
+"внесённого в список дополнения, введите его здесь, чтобы он отображался."
+
+msgid "addon.unlisted.id"
+msgstr "ID дополнения"
+
+msgid "addon.updated"
+msgstr "Обновлено: {when,humantime}"
+
+msgid "addon.version"
+msgstr "Версия {version}"
+
+msgid "addon.website"
+msgstr "Вебсайт"
+
+msgid "home.about"
+msgstr ""
+"Спасибо, что пользуйтесь FrankerFaceZ.\n"
+"\n"
+"Версия расширения 4.0 находится в активной разработке с переходом Twitch на "
+"React в 2017 году."
+
+msgid "home.addon-new"
+msgstr "Новые дополнения"
+
+msgid "home.addon-new.desc"
+msgstr ""
+"Эти дополнения были опубликованы в течение последних семи дней. Проверьте "
+"их в разделе [Дополнения](~add_ons)."
+
+msgid "home.addon-updates"
+msgstr "Обновлённые дополнения"
+
+msgid "home.addon-updates.desc"
+msgstr ""
+"Эти дополнения были обновлены в течение последних семи дней. Проверьте "
+"[журнал изменений](~add_ons.changelog), чтобы узнать, что изменилось."
+
+msgid "home.changelog"
+msgstr "Журнал изменений"
+
+msgid "home.changelog.about-nonversioned"
+msgstr ""
+"Коммиты без версии - это коммиты в репозитории FrankerFaceZ, которые не "
+"имеют номер сборки. Обычно к ним относятся исправления ошибок или вклад "
+"членов сообщества, который будет включен в последующей версии."
+
+msgid "home.changelog.by-line"
+msgstr "Автор: {user}"
+
+msgid "home.changelog.current"
+msgstr "Текущая версия"
+
+msgid "home.changelog.error"
+msgstr "Произошла ошибка загрузки изменений из GitHub."
+
+msgid "home.changelog.load"
+msgstr "Показать больше"
+
+msgid "home.changelog.no-more"
+msgstr "Больше нет коммитов для загрузки."
+
+msgid "home.changelog.nonversioned"
+msgstr "Коммит без версии"
+
+msgid "home.changelog.show-nonversioned"
+msgstr "Включать коммиты без версий."
+
+msgid "home.discord"
+msgstr "Discord"
+
+msgid "home.faq"
+msgstr ""
+"## Часто задаваемые вопросы\n"
+"\n"
+"* *Что случилось с [функцией]?*\n"
+"\n"
+"Некоторые функции из версии 3.0 всё ещё отсутствуют в версии 4.0. К "
+"сожалению, некоторые функции стали непрактичными для обновления на новой "
+"версии Twitch.\n"
+"\n"
+"Многие функции ещё вернутся, когда у разработчиков будет время их "
+"закончить. Точной даты их появления нет. Функции добавляются сразу же после "
+"их завершения.\n"
+"\n"
+"* *Я пожертвовал(а), но мой значок не появляется.*\n"
+"* *Я добавил(а) смайл, но на канале его не вижу.*\n"
+"\n"
+"Из-за проблем с производительностью на нашем текущем сайте, наш API "
+"использует кэширование. Чтобы изменения в смайлах или значках вошли в силу, "
+"может уйти как минимум полчаса. Когда вы выждали, обновите страницу и ваш "
+"смайл должен появиться. Также вы можете обновить с очисткой кэша.\n"
+"\n"
+"* *Я не хочу значок `FFZ Supporter` .*\n"
+"\n"
+"Пользователи могут отключить значок спонсора на сайте: "
+"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"\n"
+"* *Я вижу смайлы, но кто-то в чате говорит, что не видит.*\n"
+"\n"
+"Пользователи должны установить FrankerFaceZ или чат-клиент, поддерживающий "
+"смайлы FFZ. Также им могут быть не видны только что добавленные смайлы, в "
+"зависимости от кэша браузера или последнего обновления страницы.\n"
+"\n"
+"* *Мой смайл украли!*\n"
+"* *Этот смайл оскорбительный!*\n"
+"\n"
+"Пожалуйста, отправьте жалобу воспользовавшись `Report Emote` на нашем "
+"сайте. Щёлкните по смайлу удерживая Shift, чтобы открыть его страницу и "
+"выберите `Report Emote` справа. Чтобы отправить жалобу, нужно войти на сайт."
+
+msgid "home.feedback"
+msgstr ""
+"## Обратная связь\n"
+"\n"
+"Вы можете связаться с нами, [создав проблему (Issue) в нашем репозитории на "
+"GitHub](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Также вы "
+"можете [найти нас на Discord](https://discord.gg/UrAkGhT) или [написать нам "
+"твит](https://twitter.com/FrankerFaceZ).\n"
+"\n"
+"Создавая проблему на GitHub'е, пожалуйста, убедитесь, не создана была ли "
+"проблема уже до вас. Проблемы на GitHub предназначены для проблем с "
+"клиентом, а не для вопросов о смайлах.\n"
+"\n"
+"Создавая проблему, пожалуйста, пришлите нам и журнал, расположенный ниже и "
+"вставьте ссылку с ним в ваш отчёт."
+
+msgid "home.github"
+msgstr "GitHub"
+
+msgid "home.new-settings"
+msgstr "Новые настройки"
+
+msgid "home.new-settings.desc"
+msgstr "Вы ещё не просмотрели эти настройки."
+
+msgid "home.tag-line"
+msgstr "Комплекс улучшений для Twitch"
+
+msgid "home.term-syntax"
+msgstr ""
+"Это руководство по различным доступным настройкам синтаксиса терминов. "
+"Внутренне,\n"
+"FrankerFaceZ преобразует ваши основные и блочные термины в обычные\n"
+"выражения.\n"
+"\n"
+"\n"
+"### Типы\n"
+"\n"
+"#### 1. Текст\n"
+"\n"
+"Текст не имеет особого поведения. Любые символы, имеющие особое значение в "
+"регулярных\n"
+"выражениях, экранируются.\n"
+"\n"
+"\n"
+"#### 2. Шаблон поиска\n"
+"\n"
+"[Шаблоны "
+"поиска](https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%"
+"D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0) обеспечивают простое, лёгкое\n"
+"сопоставление шаблонов с символами подстановки. Например, шаблон\n"
+"`cir*` будет соответствовать всем словам, начинающимся с букв `cir`, "
+"включая просто\n"
+"`cir` само по себе. Символ `*` является подстановочным символом, "
+"совпадающим с любым количеством символов.\n"
+"\n"
+"| Подстановка | Описание | Пример | Совпадает | Не совпадает |\n"
+"| :------: | :---------- | :-----: | :-----: | :------------: |\n"
+"| `*` | Сопоставляет любое количество символов без пробелов, включая ни "
+"одного. | `cir*` | `cir`, `circle`, `cirFairy`, `circumstance` | `ci`, "
+"`sir`, `pizza` |\n"
+"| `**` | Сопоставляет любое количество любых символов, включая ни одного. В "
+"отличие от одиночного `*`, он будет соответствовать пробельным символам. | "
+"`hello**!` | `hello!`, `hello, streamer!` |\n"
+"| `?` | Сопоставляет любой отдельный символ. | `?at` | `cat`, `hat`, `pat` "
+"| `at`\n"
+"| `[abc]` | Сопоставляет один символ из скобок. | `[cp]at` | `cat`, `pat` | "
+"`hat`, `at`\n"
+"| `[a-z]` | Сопоставляет один символ из диапазона, заключённого в скобки. | "
+"`Kappa[0-9]` | `Kappa1`, `Kappa2`, ... `Kappa0` | `Kappa`, `KappaHD`\n"
+"| `[!abc]` | Сопоставляет один символ, который *не* находится в скобках. | "
+"`[!cp]at` | `bat`, `rat`, `hat` | `at`, `cat`, `pat`\n"
+"| `[!a-z]` | Сопоставляет один символ, который *не* находится в диапазоне, "
+"заключённом в скобки. | `Kappa[!0-9]` | `Kappa?`, `KappaF` | `Kappa`, "
+"`Kappa0`, `Kappa4`\n"
+"| `'{'abc,d?f'}'` | Сопоставляет одну из возможностей из списка, "
+"разделённого запятыми. | `cir'{'no,Fairy'}'` | `cirno`, `cirFairy` | `cir`, "
+"`circle`\n"
+"\n"
+"\n"
+"#### 3. Regex\n"
+"\n"
+"[Регулярные "
+"выражения](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8"
+"F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%"
+"D1%8F) - это сложные\n"
+"шаблонные строки, используемые в программировании. Они предназначены для "
+"опытных пользователей.\n"
+"\n"
+"FrankerFaceZ использует встроенный механизм вашего браузера для работы с "
+"регулярными выражениями,\n"
+"со всеми вытекающими отсюда ограничениями. Термины Regex упаковываются в\n"
+"генерируемые регулярные выражения так же, как и в обоих других режимах. Вы "
+"не должны и не\n"
+"можете использовать группы захвата.\n"
+"\n"
+"FrankerFaceZ использует рудиментарную логику, чтобы гарантировать, что ваше "
+"регулярное\n"
+"выражение не будет катастрофически медленным, но вы всё равно должны быть\n"
+"осторожны, чтобы избежать медленных выражений поскольку они выполняются "
+"часто.\n"
+"\n"
+"\n"
+"### Режимы\n"
+"\n"
+"#### Чувствительность к регистру символов\n"
+"\n"
+"Это попытка подобрать термин с учётом регистра. По сути, эта\n"
+"опция отключает флаг `/i` в генерируемом регулярном выражении. Из-за\n"
+"ограничений механизма regex вашего браузера, нечувствительность к регистру "
+"может не сработать для\n"
+"некоторых символов.\n"
+"\n"
+"\n"
+"#### Подобрать целое слово\n"
+"\n"
+"Для этого необходимо, чтобы ваш термин был целым словом. Например, термин "
+"`тест`\n"
+"без \"Подобрать целое слово\" может с таким же успехом соответствовать "
+"`тестирование` или `тестировано`\n"
+"так-как оно соответствует слову `тест`. При включенном \"Подобрать целое "
+"слово\" он будет **только** соответствовать слову `тест`.\n"
+"\n"
+"Это делается путем обертывания сгенерированного регулярного выражения в "
+"дополнительные шаблоны\n"
+"для несловных символов, таких как пробелы и знаки препинания.\n"
+"\n"
+"\n"
+"#### Выделить соответствие\n"
+"\n"
+"Когда эта функция включена, а параметр соответствия в [Чат > Фильтрация > "
+"Общие](~chat.filtering)\n"
+"включен, все совпавшие термины будут выделены в чате, чтобы вы могли "
+"видеть, что\n"
+"именно соответствует вашему термину. что именно соответствует вашему "
+"термину.\n"
+"\n"
+"Любые совпадения не будут отображаться в виде эмоций, ссылок и т.д.\n"
+"\n"
+"Это немного медленнее, чем отсутствие выделения совпадения, поэтому вы, "
+"возможно, захотите использовать\n"
+"при тестировании, а затем отключить его, когда вы убедитесь, что ваш термин "
+"работает так, как вы хотите.\n"
+
+msgid "home.tweets"
+msgstr "Твиты FrankerFaceZ"
+
+msgid "home.twitter"
+msgstr "Твиттер"
+
+msgid "home.website"
+msgstr "Вебсайт FrankerFaceZ"
+
+msgid "setting.actions.action"
+msgstr "Действие"
+
+msgid "setting.actions.add-default"
+msgstr "Добавить по-умолчанию"
+
+msgid "setting.actions.add-default-tip"
+msgstr "Добавить все значения по-умолчанию в этот профиль."
+
+msgid "setting.actions.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.actions.appearance.combo"
+msgstr "Текст и иконка"
+
+msgid "setting.actions.appearance.icon"
+msgstr "Иконка"
+
+msgid "setting.actions.appearance.image"
+msgstr "Изображение"
+
+msgid "setting.actions.appearance.text"
+msgstr "Текст"
+
+msgid "setting.actions.chat"
+msgstr "Команда Чата"
+
+msgid "setting.actions.color"
+msgstr "Цвет"
+
+msgid "setting.actions.color.warn"
+msgstr ""
+"Это значение будет автоматически настроено для видимости в зависимости от "
+"настроек цвета чата."
+
+msgid "setting.actions.delete-all"
+msgstr "Удалить все действия из профиля."
+
+msgid "setting.actions.drag"
+msgstr "Перетащите, чтобы изменить порядок."
+
+msgid "setting.actions.duration"
+msgstr "Длительность"
+
+msgid "setting.actions.edit-visible.deleted"
+msgstr "Сообщение удалено"
+
+msgid "setting.actions.edit-visible.emote-only"
+msgstr "Режим \"Только смайлы\""
+
+msgid "setting.actions.edit-visible.follows"
+msgstr "Режим \"Только фолловеры\""
+
+msgid "setting.actions.edit-visible.mod"
+msgstr "Модератор"
+
+msgid "setting.actions.edit-visible.mod-icons"
+msgstr "Иконки модератора"
+
+msgid "setting.actions.edit-visible.modifier"
+msgstr "Модификаторы "
+
+msgid "setting.actions.edit-visible.r9k"
+msgstr "Режим R9k"
+
+msgid "setting.actions.edit-visible.slow"
+msgstr "Медленный режим"
+
+msgid "setting.actions.edit-visible.subs"
+msgstr "Режим \"Только подписчики\""
+
+msgid "setting.actions.icon"
+msgstr "Иконка"
+
+msgid "setting.actions.new"
+msgstr "Новое..."
+
+msgid "setting.actions.no-actions"
+msgstr "в этом профиле не определены действия"
+
+msgid "setting.actions.no-visible"
+msgstr "нет видимых действий"
+
+msgid "setting.actions.preview"
+msgstr "Предпросмотр:"
+
+msgid "setting.actions.preview.all"
+msgstr "Показать всё"
+
+msgid "setting.actions.preview.deleted"
+msgstr "Удаленное сообщение"
+
+msgid "setting.actions.preview.emote-only"
+msgstr "Только смайлы"
+
+msgid "setting.actions.preview.followers"
+msgstr "Только фолловеры"
+
+msgid "setting.actions.preview.mod"
+msgstr "За модератора "
+
+msgid "setting.actions.preview.mod_icons"
+msgstr "С иконками модератора"
+
+msgid "setting.actions.preview.r9k"
+msgstr "Режим R9k"
+
+msgid "setting.actions.preview.slow"
+msgstr "Медленный режим"
+
+msgid "setting.actions.preview.subs"
+msgstr "Только подписчики"
+
+msgid "setting.actions.reason"
+msgstr "Причина по умолчанию"
+
+msgid "setting.actions.set-chat"
+msgstr "Вставьте это сообщение в чат, а не отправляйте его напрямую."
+
+msgid "setting.actions.text"
+msgstr "Метка"
+
+msgid "setting.actions.tooltip"
+msgstr "Настраиваемая Подсказка"
+
+msgid "setting.actions.type"
+msgstr "Тип"
+
+msgid "setting.actions.url"
+msgstr "URL"
+
+msgid "setting.actions.variables"
+msgstr "Доступные переменные: {vars}"
+
+msgid "setting.actions.visibility"
+msgstr "Видимость"
+
+msgid "setting.actions.visible"
+msgstr "видимо: {list}"
+
+msgid "setting.actions.visible.always"
+msgstr "всегда"
+
+msgid "setting.actions.visible.deleted"
+msgstr "если сообщение удалено"
+
+msgid "setting.actions.visible.hover"
+msgstr "при прокрутке "
+
+msgid "setting.actions.visible.mod"
+msgstr "когда модератор"
+
+msgid "setting.actions.visible.mod_icons"
+msgstr "когда иконки модератора показаны"
+
+msgid "setting.actions.visible.modifier"
+msgstr "при {key_list} {keys, plural, one {удержании} other {удержании}}"
+
+msgid "setting.actions.visible.slow"
+msgstr "когда замедленный режим"
+
+msgid "setting.actions.visible.undeleted"
+msgstr "если сообщение не удалено "
+
+msgid "setting.actions.warn-hidden"
+msgstr ""
+"В настоящее время у вас отключены значки модераторов в настройках чата "
+"Twitch, поэтому некоторые действия могут быть скрыты. Используйте меню "
+"настроек в чате, чтобы переключить их."
+
+msgid "setting.add"
+msgstr "Добавить"
+
+msgid "setting.add_ons"
+msgstr "Дополнения"
+
+msgid "setting.add_ons.changelog"
+msgstr "Журнал изменений"
+
+msgid "setting.add_ons.changelog.title"
+msgstr "Журнал изменений дополнений"
+
+msgid "setting.add_ons.description"
+msgstr ""
+"Дополнения - это дополнительные модули, часто созданные другими людьми, "
+"которые могут автоматически загружаться FrankerFaceZ, чтобы добавить новые "
+"возможности и функции к расширению и Twitch."
+
+msgid "setting.add_ons.development"
+msgstr "Разработка"
+
+msgid "setting.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.appearance.control_center"
+msgstr "Центр управления"
+
+msgid "setting.appearance.control_center.search"
+msgstr "Поиск"
+
+msgid "setting.appearance.description"
+msgstr ""
+"Персонализируйте внешний вид Twitch. Измените цветовую схему и шрифты и "
+"настройте макет, чтобы оптимизировать ваш опыт."
+
+msgid "setting.appearance.layout"
+msgstr "Расположение"
+
+msgid "setting.appearance.layout.channel"
+msgstr "Канал"
+
+msgid "setting.appearance.layout.clips"
+msgstr "Клипы"
+
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Боковая навигация"
+
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Верхняя навигация"
+
+msgid "setting.appearance.localization"
+msgstr "Локализация"
+
+msgid "setting.appearance.localization.formatting"
+msgstr "Изменение "
+
+msgid "setting.appearance.localization.general"
+msgstr "Общая"
+
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Шуточные языки"
+
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Поддерживаемые языки"
+
+msgid "setting.appearance.localization.general.language.twitch"
+msgstr "Использовать язык Twitch"
+
+msgid "setting.appearance.theme"
+msgstr "Оформление"
+
+msgid "setting.appearance.theme.chat_colors"
+msgstr "Цвета чата"
+
+msgid "setting.appearance.theme.colors"
+msgstr "Цвета"
+
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Это быстрый предпоказ новой системы в FrankerFaceZ. Здесь будут большие "
+"изменения, включая раздельные \"Простой\" и \"Расширенный\" режимы и "
+"улучшенный выбор цветов."
+
+msgid "setting.appearance.theme.fonts"
+msgstr "Шрифты"
+
+msgid "setting.appearance.theme.legacy"
+msgstr "Устаревшее"
+
+msgid "setting.backup-restore.about"
+msgstr ""
+"Эта функция позволяет вам сохранить и восстановить ваши настройки "
+"FrankerFaceZ, включая все настройки из центра управления и другие данные, "
+"такие как избранные смайлы и заблокированные игры."
+
+msgid "setting.backup-restore.confirm-updates"
+msgstr ""
+"Профиль, который вы импортируете, имеет URL-адрес автоматического "
+"обновления. Вы хотите, чтобы профиль постоянно обновлялся?"
+
+msgid "setting.backup-restore.disable-auto"
+msgstr "Нет, запрещать автоматические обновления."
+
+msgid "setting.backup-restore.enable-auto"
+msgstr "Да, допускать автоматические обновления."
+
+msgid "setting.backup-restore.error"
+msgstr "При восстановлении произошла ошибка."
+
+msgid "setting.backup-restore.http-error"
+msgstr "Невозможно прочитать JSON из предложенного URL."
+
+msgid "setting.backup-restore.http-loading"
+msgstr "Загрузка..."
+
+msgid "setting.backup-restore.imported"
+msgstr ""
+"Профиль \"{name}\" был успешно импортирован с {count,number} "
+"настроек{count,en_plural}."
+
+msgid "setting.backup-restore.imported-at"
+msgstr "Импортировано {now,datetime}."
+
+msgid "setting.backup-restore.non-supported"
+msgstr "Этот файл не распознается как поддерживаемый формат резервной копии."
+
+msgid "setting.backup-restore.old-file"
+msgstr ""
+"Файл невозможно загрузить так как он недействителен или был создан в другой "
+"версии FrankerFaceZ."
+
+msgid "setting.backup-restore.pick-profile"
+msgstr "Пожалуйста, выберите профиль для импортирования."
+
+msgid "setting.backup-restore.restore-backup"
+msgstr "Восстановить"
+
+msgid "setting.backup-restore.restored"
+msgstr "{count,number} элементов восстановлено. Перезагрузите страницу."
+
+msgid "setting.backup-restore.save-backup"
+msgstr "Сохранить"
+
+msgid "setting.badges.hidden"
+msgstr "{count,plural,one{# значок} other{# значка(ов)} } спрятан(о) в этом наборе"
+
+msgid "setting.cancel"
+msgstr "Отменить"
+
+msgid "setting.channel"
+msgstr "Канал"
+
+msgid "setting.channel.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.channel.appearance.general"
+msgstr "Общие"
+
+msgid "setting.channel.behavior"
+msgstr "Поведение"
+
+msgid "setting.channel.behavior.general"
+msgstr "Общие"
+
+msgid "setting.channel.behavior.hosting"
+msgstr "Ретрансляция"
+
+msgid "setting.channel.behavior.panels"
+msgstr "Панели"
+
+msgid "setting.channel.behavior.raids"
+msgstr "Рейды"
+
+msgid "setting.channel.behavior.squads"
+msgstr "Отряды"
+
+msgid "setting.channel.metadata"
+msgstr "Метаданные"
+
+msgid "setting.channel.metadata.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.channel.metadata.clips"
+msgstr "Клипы"
+
+msgid "setting.channel.metadata.mod_view"
+msgstr "Модератор"
+
+msgid "setting.channel.metadata.player"
+msgstr "Проигрыватель"
+
+msgid "setting.channel.metadata.subscription"
+msgstr "Подписка"
+
+msgid "setting.chat"
+msgstr "Чат"
+
+msgid "setting.chat.actions"
+msgstr "Действия"
+
+msgid "setting.chat.actions.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.actions.in_line"
+msgstr "Встроенное"
+
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Здесь можно определить пользовательские действия, которые будут "
+"отображаться в сообщениях в чате. Если вы не видите действие, которое вы "
+"определили здесь в чате, пожалуйста, убедитесь, что вы включили значки "
+"модераторов в меню настроек чата."
+
+msgid "setting.chat.actions.reasons"
+msgstr "Причины"
+
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Свои причины бана или отстранения"
+
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Правила"
+
+msgid "setting.chat.actions.room"
+msgstr "Комната"
+
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Здесь вы можете определить настраиваемые действия, которые будут "
+"отображаться над полем ввода чата."
+
+msgid "setting.chat.actions.room.general"
+msgstr "Общие"
+
+msgid "setting.chat.actions.user_context"
+msgstr "Контекст пользователя "
+
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Здесь вы можете определить настраиваемые действия, которые будут "
+"отображаться в контекстном меню, когда вы щёлкните правой кнопкой мыши по "
+"имени пользователя в чате."
+
+msgid "setting.chat.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Строки в чате"
+
+msgid "setting.chat.appearance.colors"
+msgstr "Цвета"
+
+msgid "setting.chat.appearance.community"
+msgstr "Сообщество"
+
+msgid "setting.chat.appearance.community_chest"
+msgstr "Сундук Сообщества"
+
+msgid "setting.chat.appearance.emoji"
+msgstr "Эмодзи"
+
+msgid "setting.chat.appearance.emotes"
+msgstr "Смайлы"
+
+msgid "setting.chat.appearance.general"
+msgstr "Общие"
+
+msgid "setting.chat.appearance.replies"
+msgstr "Ответы"
+
+msgid "setting.chat.appearance.rich_content"
+msgstr "Встраиваемый контент"
+
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Подписки"
+
+msgid "setting.chat.appearance.usernames"
+msgstr "Имена пользователей"
+
+msgid "setting.chat.badges"
+msgstr "Значки"
+
+msgid "setting.chat.badges.behavior"
+msgstr "Поведение"
+
+msgid "setting.chat.badges.tabs"
+msgstr "tabs"
+
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Видимость"
+
+msgid "setting.chat.behavior"
+msgstr "Поведение"
+
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Удаленные сообщения"
+
+msgid "setting.chat.behavior.general"
+msgstr "Общие"
+
+msgid "setting.chat.behavior.scrolling"
+msgstr "Прокрутка"
+
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bits и Cheering"
+
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Поведение"
+
+msgid "setting.chat.channel_points"
+msgstr "Баллы канала"
+
+msgid "setting.chat.channel_points.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.channel_points.behavior"
+msgstr "Поведение"
+
+msgid "setting.chat.channel_points.general"
+msgstr "Общие"
+
+msgid "setting.chat.chat_on_videos"
+msgstr "Чат в видео"
+
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Эта функция находится в стадии бета. Из-за этого у вас могут возникнуть "
+"проблемы при использовании функций FFZ в чате в видео."
+
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Общие"
+
+msgid "setting.chat.emote_menu"
+msgstr "Меню смайлов"
+
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.emote_menu.general"
+msgstr "Общие"
+
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Сортировка"
+
+msgid "setting.chat.filtering"
+msgstr "Фильтрация"
+
+msgid "setting.chat.filtering.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Фильтры автомодерации"
+
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Дополнительные настройки для фильтров чата от Twitch."
+
+msgid "setting.chat.filtering.behavior"
+msgstr "Поведение"
+
+msgid "setting.chat.filtering.block"
+msgstr "Блокировка"
+
+msgid "setting.chat.filtering.block.badges"
+msgstr "Значки"
+
+msgid "setting.chat.filtering.block.badges.description"
+msgstr ""
+"**Примечание:** Этот раздел предназначен для фильтрации сообщений из чата "
+"от пользователей с определёнными значками. Если вы хотите скрыть значок, "
+"перейдите в раздел [Чат > Значки >> "
+"Видимость](~chat.badges.tabs.visibility)."
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Заблокированные значки"
+
+msgid "setting.chat.filtering.blocked_badges.description"
+msgstr ""
+"**Примечание:** Этот раздел предназначен для фильтрации сообщений из чата "
+"от пользователей с определёнными значками. Если вы хотите скрыть значок, "
+"перейдите в [Чат > Значки >> Видимость](~chat.badges.tabs.visibility)."
+
+msgid "setting.chat.filtering.blocked_message_types"
+msgstr "Типы заблокированных сообщений"
+
+msgid "setting.chat.filtering.blocked_message_types.description"
+msgstr ""
+"Этот фильтр позволяет удалить все сообщения определённого типа из чата "
+"Twitch. Его можно использовать для фильтрации системных сообщений, таких "
+"как ретрансляции или рейды. Некоторые типы, такие как действия модерации, "
+"не могут быть заблокированы, чтобы предотвратить нарушение функциональности "
+"чата."
+
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Заблокированные термины"
+
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Заблокированные пользователи"
+
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Типы сообщений"
+
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"Этот фильтр позволяет удалить все сообщения определённого типа из чата "
+"Twitch. Его можно использовать для фильтрации системных сообщений, таких "
+"как ретрансляции или рейды. Некоторые типы, такие как действия модерации, "
+"не могут быть заблокированы, чтобы предотвратить нарушение функциональности "
+"чата."
+
+msgid "setting.chat.filtering.block.terms"
+msgstr "Термины"
+
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Подробную информацию об использовании терминов см. в [Чат > Фильтрация > "
+"Помощь по синтаксису](~)."
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Пользователи"
+
+msgid "setting.chat.filtering.general"
+msgstr "Общие"
+
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "Фильтр автомодерации"
+
+msgid "setting.chat.filtering.general.auto_mod_filters.description"
+msgstr "Дополнительная настройка для встроенных `фильтров чата` Twitch."
+
+msgid "setting.chat.filtering.general.behavior"
+msgstr "Поведение"
+
+msgid "setting.chat.filtering.general.rituals"
+msgstr "Ритуальные сообщения"
+
+msgid "setting.chat.filtering.highlight"
+msgstr "Выделение"
+
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Выделенные значки"
+
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Значки"
+
+msgid "setting.chat.filtering.highlight.description"
+msgstr ""
+"Эти настройки позволяют выделять сообщения в чате в зависимости от их "
+"содержания. Установка приоритетов для правил позволяет определить, какой "
+"цвет выделения должен быть применён, если сообщение соответствует "
+"нескольким правилам. Правила с более высоким приоритетом имеют приоритет "
+"над правилами с более низким приоритетом.\n"
+"\n"
+"Вы также можете создать правило, которое удаляет выделения из сообщений, не "
+"позволяя правилам с более низким приоритетом выделять их, задав цвет с "
+"альфа-значением, равным нулю. Пример: `#00000000`"
+
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Выделенные термины"
+
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Термины"
+
+msgid "setting.chat.filtering.highlight.terms.description"
+msgstr ""
+"Подробную информацию об использовании терминов см. в [Чат > Фильтрация > "
+"Помощь по синтаксису](~)."
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Выделенные пользователи"
+
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Пользователи"
+
+msgid "setting.chat.filtering.rituals"
+msgstr "Ритуалы"
+
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Помощь по синтаксису"
+
+msgid "setting.chat.input"
+msgstr "Ввод"
+
+msgid "setting.chat.input.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.input.recent_messages"
+msgstr "Недавние сообщения"
+
+msgid "setting.chat.input.tab_completion"
+msgstr "Завершение вкладки"
+
+msgid "setting.chat.tooltips"
+msgstr "Подсказки"
+
+msgid "setting.chat.tooltips.badges"
+msgstr "Значки"
+
+msgid "setting.chat.tooltips.emotes"
+msgstr "Смайлы"
+
+msgid "setting.chat.tooltips.general"
+msgstr "Общие"
+
+msgid "setting.chat.tooltips.links"
+msgstr "Ссылки"
+
+msgid "setting.chat.viewer_cards"
+msgstr "Карточки пользователей"
+
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Поведение"
+
+msgid "setting.chat.whispers"
+msgstr "Личные сообщения"
+
+msgid "setting.chat.whispers.general"
+msgstr "Общие"
+
+msgid "setting.clear"
+msgstr "Очистить"
+
+msgid "setting.clear.done"
+msgstr ""
+"Ваши настройки очищены. Пожалуйста, обновите все ваши страницы Twitch, "
+"чтобы очистить данные в кэше."
+
+msgid "setting.clear.opt.DeckTabs"
+msgstr "Cгруппировать вкладки в колоду"
+
+msgid "setting.clear.opt.Everything"
+msgstr "Абсолютно всё"
+
+msgid "setting.clear.opt.Experiments"
+msgstr "Изменения в экспериментах"
+
+msgid "setting.clear.opt.FavoriteEmotes"
+msgstr "Избранные смайлы"
+
+msgid "setting.clear.opt.HiddenEmotes"
+msgstr "Скрытые смайлы"
+
+msgid "setting.clear.opt.Overrides"
+msgstr "Изменения в именах и цветах"
+
+msgid "setting.clear.opt.Profiles"
+msgstr "Профили"
+
+msgid "setting.clear.start"
+msgstr "Очистить мои данные"
+
+msgid "setting.clear.step-1"
+msgstr "Пожалуйста, выберите типы данных, которые вы бы хотели очистить:"
+
+msgid "setting.clear.step-2"
+msgstr ""
+"Вы точно уверены? Пожалуйста, введите `{code}` в строке текста для "
+"подтверждения."
+
+msgid "setting.clear.warning"
+msgstr "Осторожнее! Назад пути не будет."
+
+msgid "setting.clear.warning-explain"
+msgstr ""
+"Удалив свои данные, вы не сможете вернуть их назад. Сделайте резервную "
+"копию!"
+
+msgid "setting.close"
+msgstr "Закрыть"
+
+msgid "setting.color.nullable"
+msgstr "Правая кнопка мыши для сброса"
+
+msgid "setting.combo-box.custom"
+msgstr "Своё"
+
+msgid "setting.configure"
+msgstr "Настроить"
+
+msgid "setting.copy-json"
+msgstr "Копировать"
+
+msgid "setting.data_management"
+msgstr "Управление данными"
+
+msgid "setting.data_management.backup_and_restore"
+msgstr "Резервное копирование и восстановление"
+
+msgid "setting.data_management.profiles"
+msgstr "Профили"
+
+msgid "setting.data_management.profiles.edit.desc"
+msgstr "Описание"
+
+msgid "setting.data_management.profiles.edit.general"
+msgstr "Общие"
+
+msgid "setting.data_management.profiles.edit.hotkey"
+msgstr "Горячая клавиша"
+
+msgid "setting.data_management.profiles.edit.name"
+msgstr "Имя"
+
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Изменить профиль"
+
+msgid "setting.data_management.profiles.edit.rules"
+msgstr "Правила"
+
+msgid "setting.data_management.profiles.edit.rules.description"
+msgstr ""
+"Правила позволяют определить ряд условий, при которых данный профиль будет "
+"активен. Если правил несколько, они должны совпасть все, чтобы профиль "
+"активировался. Используйте правило `Or` для создания профиля, который "
+"активируется при совпадении одного из нескольких правил."
+
+msgid "setting.data_management.profiles.edit.update"
+msgstr "Автоматическое обновление этого профиля."
+
+msgid "setting.data_management.profiles.edit.updates"
+msgstr "Автоматические обновления"
+
+msgid "setting.data_management.profiles.edit.updates.description"
+msgstr ""
+"Этот профиль имеет связанный URL-адрес для автоматического обновления. "
+"Когда обновления включены и профиль обновляется, все настройки, связанные с "
+"профилем, будут сброшены. Правила профиля также будут сброшены. Имя, "
+"описание и горячая клавиша не сбрасываются."
+
+msgid "setting.data_management.profiles.edit.url"
+msgstr "URL обновления"
+
+msgid "setting.data_management.profiles.hotkey.desc"
+msgstr ""
+"Установка горячей клавиши позволяет включать и выключать профиль в любое "
+"время с помощью горячей клавиши.\n"
+"\n"
+"**Примечание:** Включенный профиль может оставаться неактивным в силу своих "
+"правил."
+
+msgid "setting.data_management.reporting"
+msgstr "Отчёт об ошибках"
+
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Отчёты об ошибках"
+
+msgid "setting.data_management.reporting.example_report"
+msgstr "Пример отчёта"
+
+msgid "setting.data_management.storage"
+msgstr "Хранилище"
+
+msgid "setting.data_management.storage.tabs"
+msgstr "вкладки"
+
+msgid "setting.data_management.storage.tabs.clear"
+msgstr "Очистка"
+
+msgid "setting.data_management.storage.tabs.provider"
+msgstr "Провайдер"
+
+msgid "setting.debugging"
+msgstr "Отладка"
+
+msgid "setting.debugging.data_sources"
+msgstr "Источники данных"
+
+msgid "setting.debugging.data_sources.links"
+msgstr "Ссылки"
+
+msgid "setting.debugging.experiments"
+msgstr "Эксперименты"
+
+msgid "setting.debugging.localization"
+msgstr "Локализация"
+
+msgid "setting.debugging.localization.editing"
+msgstr "Редактирование"
+
+msgid "setting.debugging.localization.general"
+msgstr "Общие"
+
+msgid "setting.debugging.socket"
+msgstr "Сокет"
+
+msgid "setting.debugging.socket.general"
+msgstr "Общие"
+
+msgid "setting.debugging.socket.info"
+msgstr "Информация"
+
+msgid "setting.delete"
+msgstr "Удалить"
+
+msgid "setting.delete-all"
+msgstr "Удалить все"
+
+msgid "setting.dev-warning"
+msgstr "Не влезай! Убьёт"
+
+msgid "setting.dev-warning.explain"
+msgstr ""
+"Будьте осторожнее: эта функция предназначена только для разработчиков. "
+"Обычным пользователям не стоит пробовать. Изменение экспериментов может "
+"неожиданно повлиять на ваше пользование Twitch. FrankerFaceZ не несёт "
+"ответсвенности за неполадки, которые возникнут в ходе изменения "
+"экспериментов, и мы не сможем вам помочь.\n"
+"\n"
+"Если вы уверены в своих действиях, пожалуйста, напишите `{code}` в строке "
+"снизу и нажмите Enter."
+
+msgid "setting.directory"
+msgstr "Каталог"
+
+msgid "setting.directory.categories"
+msgstr "Категории"
+
+msgid "setting.directory.categories.blocked"
+msgstr "Заблокированные"
+
+msgid "setting.directory.categories.description"
+msgstr ""
+"Обратите внимание, что из-за ограничений сайта Twitch имена здесь должны "
+"быть отформатированы точно так, как они отображаются в вашем клиенте. Для "
+"достижения наилучших результатов вы можете заблокировать или разблокировать "
+"категории непосредственно на страницах каталога."
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Скрытые миниатюры"
+
+msgid "setting.directory.categories.hidden_thumbnail_style"
+msgstr "Стиль скрытых миниатюр"
+
+msgid "setting.directory.channels"
+msgstr "Каналы"
+
+msgid "setting.directory.channels.appearance"
+msgstr "Внешний вид"
+
+msgid "setting.directory.channels.blocked_and_hidden_categories"
+msgstr "Заблокированные и скрытые категории"
+
+msgid "setting.directory.channels.description"
+msgstr ""
+"**Примечание:** Эти настройки в настоящее время не работают из-за "
+"изменений, внесенных Twitch."
+
+msgid "setting.directory.following"
+msgstr "Отслеживаемое"
+
+msgid "setting.directory.following.categories"
+msgstr "Категории"
+
+msgid "setting.directory.following.description"
+msgstr ""
+"**Примечание:** Эти настройки в настоящее время не работают из-за "
+"изменений, внесенных Twitch."
+
+msgid "setting.directory.following.hosts"
+msgstr "Ретрансляции"
+
+msgid "setting.edit"
+msgstr "Редактировать"
+
+msgid "setting.entry.add-ons"
+msgstr "Дополнения"
+
+msgid "setting.entry.addons.dev.server"
+msgstr "Использовать локальный сервер разработки"
+
+msgid "setting.entry.addons.dev.server.description"
+msgstr "Попытаться загрузить дополнения с локального сервера с порта 8001."
+
+msgid "setting.entry.backup"
+msgstr "сохранение"
+
+msgid "setting.entry.changelog"
+msgstr "журнал изменений"
+
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Автоматически открывать чат на канале не в сети."
+
+msgid "setting.entry.channel.auto-skip-trailer"
+msgstr "Автоматически пропускать трейлер канала."
+
+msgid "setting.entry.channel.extra-links"
+msgstr ""
+"Добавляет дополнительные кнопки для быстрого перехода в другие разделы "
+"канала, над никнеймом стримера."
+
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Скрыть индикатор \"В ЭФИРЕ\"."
+
+msgid "setting.entry.channel.hide-not-live-bar"
+msgstr "Убрать панель \"В Эфире\"."
+
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"Скрыть панель, которая появляется под клипами и видео, когда стример "
+"находится в прямом эфире, сообщая вам, что он транслирует."
+
+msgid "setting.entry.channel.hide-unfollow"
+msgstr "Убрать кнопку 'Перестать отслеживать'."
+
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Включить ретрансляцию"
+
+msgid "setting.entry.channel.metadata.force-above"
+msgstr "Переместить метаданные наверх информационной панели канала."
+
+msgid "setting.entry.channel.panel-tips"
+msgstr "Отображать информацию о ссылках при наведении на панели канала."
+
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Не участвовать в рейдах автоматически."
+
+msgid "setting.entry.channel.round-avatars"
+msgstr "Округлять аватары."
+
+msgid "setting.entry.channel.show-celebrations"
+msgstr "Включить появление поздравлений."
+
+msgid "setting.entry.channel.show-celebrations.description"
+msgstr "Поздравления - это анимации, заполняющие всю страницу Twitch."
+
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "Не перенаправлять автоматически на Совмесные Трансляции."
+
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Отображать действия комнаты выше поля ввода чата."
+
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Включить текущие правила комнаты в список причин."
+
+msgid "setting.entry.chat.actions.size"
+msgstr "Размер действия"
+
+msgid "setting.entry.chat.actions.size.description"
+msgstr ""
+"Какой высоты должны быть действия, в пикселях. На это могут влиять "
+"настройки масштабирования и размера шрифта в вашем браузере."
+
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Минимальный контраст"
+
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Установите минимальный коэффициент контрастности, используемый настройками "
+"яркости при определении читаемости."
+
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Регулировка"
+
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Изменить цвета пользователей, чтобы они были читабельными."
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Без изменений"
+
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Нет цвета"
+
+msgid "setting.entry.chat.adjustment-mode.values.2"
+msgstr "Luv Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.3"
+msgstr "HSL Loop (как у BTTV)"
+
+msgid "setting.entry.chat.adjustment-mode.values.4"
+msgstr "RGB Loop (устаревшее)"
+
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Помечать сообщения как удаленные, если они содержат отфильтрованные фразы."
+
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Полностью удалять сообщения с отфильтрованными фразами."
+
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Использовать фильтр чата в качестве модератора."
+
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"По умолчанию функция чата Twitch не работает для модераторов. Это отменяет "
+"это поведение."
+
+msgid "setting.entry.chat.badges.clickable"
+msgstr "Разрешить щёлкать мышью по значкам."
+
+msgid "setting.entry.chat.badges.clickable.description"
+msgstr ""
+"Некоторые значки, такие как Prime Gaming, действуют как ссылки, когда эта "
+"функция включена."
+
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Отображать пользовательские значки модератора где возможно."
+
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Отображать пользовательские VIP значки где возможно."
+
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Насторить цвета значков для их видимости."
+
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Убедиться, что значки не сливаются с фоном.\n"
+"\n"
+"**Примечание:** Действует только на значки с собственной прорисовкой. На "
+"значки подписчика, значки bits и т.д. не влияет."
+
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Видимость"
+
+msgid "setting.entry.chat.badges.media-queries"
+msgstr ""
+"Использовать запрос @media для отрисовки изображений с высоким DPI в "
+"Mozilla Firefox"
+
+msgid "setting.entry.chat.badges.media-queries.description"
+msgstr ""
+"Нужно, чтобы видеть значки с высоким DPI в Firefox, поскольку Firefox всё "
+"ещё не поддерживает `image-set()` спустя более чем 5 лет. Может быть менее "
+"надёжным."
+
+msgid "setting.entry.chat.badges.style"
+msgstr "Стиль"
+
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Квадратные"
+
+msgid "setting.entry.chat.badges.style.values.1"
+msgstr "Округлённые"
+
+msgid "setting.entry.chat.badges.style.values.2"
+msgstr "Круглые"
+
+msgid "setting.entry.chat.badges.style.values.3"
+msgstr "Круглые (только цвет)"
+
+msgid "setting.entry.chat.badges.style.values.4"
+msgstr "Круглые (только цвет, маленькие)"
+
+msgid "setting.entry.chat.badges.style.values.5"
+msgstr "Прозрачные"
+
+msgid "setting.entry.chat.badges.style.values.6"
+msgstr "Прозрачные (цветные)"
+
+msgid "setting.entry.chat.badges.version"
+msgstr "Версия"
+
+msgid "setting.entry.chat.badges.version.values.1"
+msgstr "1 (до декабря 2019)"
+
+msgid "setting.entry.chat.badges.version.values.2"
+msgstr "2 (текущая)"
+
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Разрешить отображение хайповоз в чате."
+
+msgid "setting.entry.chat.banners.polls"
+msgstr "Отображать голосования в чате."
+
+msgid "setting.entry.chat.banners.prediction"
+msgstr "Разрешить отображение прогнозов в чате."
+
+msgid "setting.entry.chat.bits.animated"
+msgstr "Отображать анимированные cheer'ы."
+
+msgid "setting.entry.chat.bits.cheer-notice"
+msgstr "Отображение уведомления в сообщениях чата, содержащих подарочные Bits'ы."
+
+msgid "setting.entry.chat.bits.cheer-notice.description"
+msgstr ""
+"Эта функция предназначена для того, чтобы предотвратить возможную путаницу, "
+"возникающую из-за того, что участники используют смайлы для подделки "
+"подарочных Bits-сообщений. Когда эта функция включена, сообщения, "
+"содержащие настоящие подарочные Bits'ы, будут отображать сообщение над "
+"ними, аналогично тому, как работают сообщения о повторной подписке или об "
+"использовании баллов канала с помощью сообщений."
+
+msgid "setting.entry.chat.bits.show"
+msgstr "Отображать Bits"
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Отображать интерфейс, связанный с Bits. Примечание: это не скроет "
+"cheer-сообщения в чате."
+
+msgid "setting.entry.chat.bits.show-pinned"
+msgstr "Отображать таблицу лидеров"
+
+msgid "setting.entry.chat.bits.show-pinned.description"
+msgstr ""
+"В таблице лидеров отображаются лучшие cheerer'ы и дарители подписок на "
+"канале.\n"
+"\n"
+"По-умолчанию, из-за предыдущей реализации, это значение наследуется от [Чат "
+"> Bits и Cheering > Отображать Bits](~chat.bits_and_cheering)."
+
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr "Отображать сообщения, когда люди получают награды в чате."
+
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"По-умолчанию он наследует своё значение от отображения Bits. Этот параметр "
+"влияет только на недавно поступившие сообщения."
+
+msgid "setting.entry.chat.bits.stack"
+msgstr "Сбор cheer'ов"
+
+msgid "setting.entry.chat.bits.stack.description"
+msgstr "Собрать все cheer'ы в сообщении в один cheer в начале сообщения."
+
+msgid "setting.entry.chat.bits.stack.values.0"
+msgstr "Отключен"
+
+msgid "setting.entry.chat.bits.stack.values.1"
+msgstr "Сгруппированы по типу"
+
+msgid "setting.entry.chat.bits.stack.values.2"
+msgstr "Всё в одном"
+
+msgid "setting.entry.chat.click-emotes"
+msgstr "Открыть информацию о смайлах по щелчку мыши, зажав Shift."
+
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Отображать кнопку сундука сообщества."
+
+msgid "setting.entry.chat.delay"
+msgstr "Искусственная задержка чата"
+
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Отложить появление сообщений чата, чтобы они могли пройти модерацию, прежде "
+"чем вы их увидите."
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Без задержки"
+
+msgid "setting.entry.chat.delay.values.-1"
+msgstr "Задержка по умолчанию (для каждой комнаты; не для модераторов)"
+
+msgid "setting.entry.chat.delay.values.10000"
+msgstr "Очень большая (10 с)"
+
+msgid "setting.entry.chat.delay.values.1200"
+msgstr "Нормальная (Умеренная модерация; 1.2 сек.)"
+
+msgid "setting.entry.chat.delay.values.15000"
+msgstr "Крайне большая (15 с)"
+
+msgid "setting.entry.chat.delay.values.20000"
+msgstr "Модераторы спят; Задержать чат (20 сек.)"
+
+msgid "setting.entry.chat.delay.values.300"
+msgstr "Небольшая (Модерация ботов; 0.3 сек.)"
+
+msgid "setting.entry.chat.delay.values.30000"
+msgstr "Полминуты (30 сек.)"
+
+msgid "setting.entry.chat.delay.values.5000"
+msgstr "Большая (Убрать спойлеры / Медленная модерация; 5 сек.)"
+
+msgid "setting.entry.chat.delay.values.60000"
+msgstr "Зачем??? (1м)"
+
+msgid "setting.entry.chat.delay.values.788400000000"
+msgstr "Предложение от CBenni (Буквально 25 лет)"
+
+msgid "setting.entry.chat.emoji.style"
+msgstr "Стиль эмодзи"
+
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Системный"
+
+msgid "setting.entry.chat.emoji.style.values.blob"
+msgstr "Blob"
+
+msgid "setting.entry.chat.emoji.style.values.emojione"
+msgstr "EmojiOne"
+
+msgid "setting.entry.chat.emoji.style.values.google"
+msgstr "Google"
+
+msgid "setting.entry.chat.emoji.style.values.open"
+msgstr "OpenMoji"
+
+msgid "setting.entry.chat.emoji.style.values.twitter"
+msgstr "Твиттер (Twemoji)"
+
+msgid "setting.entry.chat.emote-dialogs"
+msgstr "Открывать карточки с информацией для смайлов Twitch, путём щелчка по ним."
+
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Отображать все смайлы в одной вкладке."
+
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Вкладка по умолчанию"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.all"
+msgstr "Мои смайлы"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
+msgstr "Канал"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
+msgstr "Эмодзи"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
+msgstr "Избранные"
+
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Использовать меню смайлов FrankerFaceZ."
+
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"Меню смайлов FFZ заменяет стандартное меню Twitch и предоставляет "
+"улучшенный функционал."
+
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr "Заменить иконку меню смайлов иконкой FFZ для ностальгического чувства."
+
+msgid "setting.entry.chat.emote-menu.modifiers"
+msgstr "Модификатор смайлов"
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.0"
+msgstr "Отключен"
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.1"
+msgstr "Встроенное"
+
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Уменьшить отступ."
+
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Использовать Ctrl+E для открытия меню смайлов."
+
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr "Если включено, то при нажатии Ctrl+E в чате, откроется меню смайлов."
+
+msgid "setting.entry.chat.emote-menu.show-emoji"
+msgstr "Отображать эмодзи в меню смайлов."
+
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Отображать заголовки"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.0"
+msgstr "Никогда"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.1"
+msgstr "Всегда"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.2"
+msgstr "Когда не ищет"
+
+msgid "setting.entry.chat.emote-menu.show-quick-nav"
+msgstr "Показать панель быстрой навигации сбоку от меню."
+
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Отображать строку поиска."
+
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Сортировать смайлы по"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
+msgstr "По порядку добавления (ID), по возрастанию"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
+msgstr "По порядку добавления (ID), по убыванию"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
+msgstr "Имя по возрастанию"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
+msgstr "Имя по убыванию"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.4"
+msgstr "По родовому порядку, по возрастанию"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.5"
+msgstr "По родовому порядку, по убыванию"
+
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Убрать смайлы уровней выше в конец."
+
+msgid "setting.entry.chat.emote-menu.stay-loaded"
+msgstr "Оставлять загруженными после открытия."
+
+msgid "setting.entry.chat.emote-menu.stay-loaded.description"
+msgstr ""
+"Это заставляет меню смайлов оставаться в "
+"[DOM](https://learn.javascript.ru/dom-nodes), даже когда оно не видно. "
+"Включение этого параметра может помочь сайту работать лучше при открытии "
+"меню, если оно работает медленно. По умолчанию эта настройка включена при "
+"использовании `Отображать все смайлы в одной вкладке.`."
+
+msgid "setting.entry.chat.emote-menu.tall"
+msgstr "Использовать дополнительную высоту для меню смайлов."
+
+msgid "setting.entry.chat.emotes.2x"
+msgstr "Более крупные смайлы"
+
+msgid "setting.entry.chat.emotes.2x.description"
+msgstr ""
+"Эта настройка заставит смайлы в чате отображаться в два раза крупнее. Она "
+"подходит для использования с большими шрифтами или просто если вам очень "
+"нравятся смайлики."
+
+msgid "setting.entry.chat.emotes.animated"
+msgstr "Анимированные смайлы"
+
+msgid "setting.entry.chat.emotes.animated.description"
+msgstr ""
+"Этот параметр определяет, разрешено ли воспроизведение анимированных "
+"смайлов в чате. Если параметр `Отключен`, смайлы будут отображаться как "
+"статичные изображения. Установка значения `Включено при наведении` может "
+"вызвать проблемы с производительностью."
+
+msgid "setting.entry.chat.emotes.animated.values.0"
+msgstr "Отключен"
+
+msgid "setting.entry.chat.emotes.animated.values.1"
+msgstr "Включено"
+
+msgid "setting.entry.chat.emotes.animated.values.2"
+msgstr "Включено при наведении"
+
+msgid "setting.entry.chat.emotes.enabled"
+msgstr "Отображение смайлов"
+
+msgid "setting.entry.chat.emotes.enabled.description"
+msgstr "Если вы не хотите видеть смайлы, вы можете отключить их здесь."
+
+msgid "setting.entry.chat.emotes.enabled.values.0"
+msgstr "Выключено"
+
+msgid "setting.entry.chat.emotes.enabled.values.1"
+msgstr "Только смайлы Twitch"
+
+msgid "setting.entry.chat.emotes.enabled.values.2"
+msgstr "Включено"
+
+msgid "setting.entry.chat.extra-timestamps"
+msgstr "Отображение меток времени на уведомлениях."
+
+msgid "setting.entry.chat.extra-timestamps.description"
+msgstr ""
+"Если эта функция включена, метки времени будут отображаться при "
+"использовании баллов, подписках и т.д."
+
+msgid "setting.entry.chat.filtering.bold-mentions"
+msgstr "Выделять обращения в чате жирным шрифтом."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Включить открытие карточек пользователей путём щелчка по обращению."
+
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Отобразить удаленные термины по щелчку мыши."
+
+msgid "setting.entry.chat.filtering.color-mentions"
+msgstr "Отображать упоминания пользователей в чата с их цветом никнейма."
+
+msgid "setting.entry.chat.filtering.color-mentions.description"
+msgstr ""
+"**Примечание:** Не совместимо с переопределением цвета, так как упоминания "
+"не включают ID пользователей."
+
+msgid "setting.entry.chat.filtering.debug"
+msgstr "Отображение списка причин выделения в каждом сообщении чата для отладки."
+
+msgid "setting.entry.chat.filtering.deleted-style"
+msgstr "Стиль удаленных сообщений"
+
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Этот стиль будет применяться к удаленным сообщениям, отображаемым в режиме "
+"подробной визуализации, чтобы отличить их от обычных сообщений чата."
+
+msgid "setting.entry.chat.filtering.deleted-style.values.0"
+msgstr "Затемнённые"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.1"
+msgstr "Затемнённые, зачёркнутые"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.2"
+msgstr "Зачёркнутые"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.3"
+msgstr "Без изменений"
+
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Режим рендеринга"
+
+msgid "setting.entry.chat.filtering.display-deleted.description"
+msgstr ""
+"Эта настройка отменяет режим `Удаленные сообщения`, выбранный в настройках "
+"чата Twitch, который обычно доступен только модераторам. Кратко скрывает "
+"сообщения полностью и показывает в чате уведомление о том, что ряд "
+"сообщений был скрыт. Подробно показывает содержимое сообщения. Обычно "
+"показывает `<сообщение удалено>` с щелчком мыши для раскрытия."
+
+msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
+msgstr "Краткий"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
+msgstr "Подробный"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.false"
+msgstr "Не отменять"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
+msgstr "Устаревший"
+
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Отображать причину"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.0"
+msgstr "Никогда"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.1"
+msgstr "В подробном режиме"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.2"
+msgstr "Всегда"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Выделять сообщения, упоминающие вас."
+
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Выделять совпадающие слова в чате."
+
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Не очищать чат при команде."
+
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Собственный цвет выделения"
+
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Если включено, то выделенные сообщения без цвета по умолчанию будут "
+"использовать ваш цвет вместо красного."
+
+msgid "setting.entry.chat.filtering.mention-priority"
+msgstr "Приоритет упоминания"
+
+msgid "setting.entry.chat.filtering.mention-priority.description"
+msgstr ""
+"Упоминания вашего имени имеют этот приоритет для подсветки. Дополнительные "
+"сведения см. в разделе [Чат > Фильтрация > "
+"Выделение](~chat.filtering.highlight)."
+
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Фильтровать собственные сообщения."
+
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Убрать удаленные сообщения из чата."
+
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Удаленные сообщения будут полностью убраны. Не рекомендуется для "
+"модераторов."
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.0"
+msgstr "Не удалять"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.1"
+msgstr "Удалить невидимое (по умолчанию)"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.2"
+msgstr "Удалять невидимое, когда модератор"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.3"
+msgstr "Удалить всё"
+
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Исправить плохие смайлы Twitch"
+
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr "Подчистить изображения плохих смайлов Twitch, убрав белую обводку и фон."
+
+msgid "setting.entry.chat.font-family"
+msgstr "Семество шрифтов"
+
+msgid "setting.entry.chat.font-family.description"
+msgstr "Задать шрифт для сообщений в чате."
+
+msgid "setting.entry.chat.font-size"
+msgstr "Размер шрифта"
+
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Размер текста в пикселях. На это может влиять увеличение вашего браузера и "
+"размер шрифта."
+
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr "Убрать все события сообщества сверху чата."
+
+msgid "setting.entry.chat.hide-community-highlights.description"
+msgstr ""
+"События сообщества - это голосования, подарочные подписки и т.д., которые "
+"временно всплывают в верхней части чата, и их невозможно закрыть."
+
+msgid "setting.entry.chat.input.hide-identity"
+msgstr "Отображать \"Имя в чате\" в меню настроек чата, а не в поле ввода."
+
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Отображать кнопку 'Перейти в режим модератора' на модерируемых каналах."
+
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Отображать строки с меняющимеся цветами фона."
+
+msgid "setting.entry.chat.lines.borders"
+msgstr "Разделители"
+
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Выключено"
+
+msgid "setting.entry.chat.lines.borders.values.1"
+msgstr "Обычная линия (1п. сплошная)"
+
+msgid "setting.entry.chat.lines.borders.values.2"
+msgstr "3D линия (2п. канавка)"
+
+msgid "setting.entry.chat.lines.borders.values.3"
+msgstr "3D линия (2п. канавка со вставкой)"
+
+msgid "setting.entry.chat.lines.borders.values.4"
+msgstr "Широкая линия (2п. сплошная)"
+
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Выравнивание смайлов"
+
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Изменить положение смайлов в чате, потенциально сделав сообщения выше, "
+"чтобы избежать наложение смайлов друг на друга. "
+
+msgid "setting.entry.chat.lines.emote-alignment.values.0"
+msgstr "Стандартное"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.1"
+msgstr "Мягкое"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.2"
+msgstr "Базисное (Как у BTTV)"
+
+msgid "setting.entry.chat.lines.padding"
+msgstr "Сократить отступы строк."
+
+msgid "setting.entry.chat.me-style"
+msgstr "Стиль действия"
+
+msgid "setting.entry.chat.me-style.description"
+msgstr "Когда кто-то использует `/me`, сообщение будет отображаться в этом стиле."
+
+msgid "setting.entry.chat.me-style.values.0"
+msgstr "Нет стиля"
+
+msgid "setting.entry.chat.me-style.values.1"
+msgstr "Цветной (старый стиль)"
+
+msgid "setting.entry.chat.me-style.values.2"
+msgstr "Курсив (новый стиль)"
+
+msgid "setting.entry.chat.me-style.values.3"
+msgstr "Цветной курсив"
+
+msgid "setting.entry.chat.mru.enabled"
+msgstr "Листать ранее отправленные сообщения стрелками вверх и вниз."
+
+msgid "setting.entry.chat.name-format"
+msgstr "Стиль отображения"
+
+msgid "setting.entry.chat.name-format.description"
+msgstr ""
+"Изменение отображения имён пользователей в чате, если у пользователей "
+"установлено международное отображаемое имя."
+
+msgid "setting.entry.chat.name-format.values.0"
+msgstr "Международное имя (Имя пользователя) <По умолчанию>"
+
+msgid "setting.entry.chat.name-format.values.1"
+msgstr "Международное имя"
+
+msgid "setting.entry.chat.name-format.values.2"
+msgstr "Имя пользователя"
+
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Автоматически прикреплять сообщения о подписке в чате."
+
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr "Выделять сообщение в чате когда кто-то получает \"Выделить мое сообщение\"."
+
+msgid "setting.entry.chat.points.allow-highlight.values.0"
+msgstr "Выключено"
+
+msgid "setting.entry.chat.points.allow-highlight.values.1"
+msgstr "Стиль Twitch"
+
+msgid "setting.entry.chat.points.allow-highlight.values.2"
+msgstr "Стиль FFZ"
+
+msgid "setting.entry.chat.points.auto-rewards"
+msgstr "Автоматически забирать бонусные награды."
+
+msgid "setting.entry.chat.points.custom-rendering"
+msgstr "Использовать собственную прорисовку сообщений наград за баллы."
+
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"Собственная прорисовка добавляет сообщениям цвет фона, что может не "
+"нравится некоторым пользователям."
+
+msgid "setting.entry.chat.points.show-button"
+msgstr "Отображать кнопку баллов канала под чатом."
+
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Отображать сообщения связанные с наградами в чате."
+
+msgid "setting.entry.chat.points.show-rewards"
+msgstr "Разрешить отображать доступные награды рядом с кнопкой баллов канала."
+
+msgid "setting.entry.chat.replies.style"
+msgstr "Стили"
+
+msgid "setting.entry.chat.replies.style.description"
+msgstr ""
+"Стиль Twitch по умолчанию добавляет плавающую кнопку справа и отображает "
+"уведомление над сообщениями, которые являются ответами. FrankerFaceZ "
+"использует действие встроенного чата (которое можно удалить в разделе [Чат "
+"> Действия > Встроенное](~chat.actions.in_line)) и использует встроенное "
+"упоминание для обозначения ответов."
+
+msgid "setting.entry.chat.replies.style.values.0"
+msgstr "Выключено "
+
+msgid "setting.entry.chat.replies.style.values.1"
+msgstr "Twitch (По-умолчанию)"
+
+msgid "setting.entry.chat.replies.style.values.2"
+msgstr "FrankerFaceZ"
+
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Отображение встраиваемого контента для всех ссылок."
+
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Для стримеров: Пожалуйста помните, что миниатюры могут содержать "
+"непристойные материалы, поэтому будьте внимательны, когда показываете чат, "
+"включив эту функцию.*"
+
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Отображать встраиваемый контент в чате."
+
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr "Отображает встраиваемый контент, вроде клипов или видео."
+
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Скрывать совпадающие ссылки для встраиваемого контента."
+
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Необходимый уровень пользователя"
+
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Отображать встраиваемый контент только от пользователей этого уровня или "
+"уровня выше."
+
+msgid "setting.entry.chat.rich.minimum-level.values.0"
+msgstr "Каждый"
+
+msgid "setting.entry.chat.rich.minimum-level.values.1"
+msgstr "Подписчик"
+
+msgid "setting.entry.chat.rich.minimum-level.values.2"
+msgstr "VIP-пользователь"
+
+msgid "setting.entry.chat.rich.minimum-level.values.3"
+msgstr "Модератор"
+
+msgid "setting.entry.chat.rich.minimum-level.values.4"
+msgstr "Стример"
+
+msgid "setting.entry.chat.rituals.show"
+msgstr ""
+"Отображать ритуальные сообщения, вроде \"Пользователь - новенький. "
+"Поздоровайтесь!\"."
+
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Длина прокрутки"
+
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Насколько много будет сохранено строк чата. Превышение этого значения может "
+"вызвать задержку."
+
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Остановить прокрутку чата"
+
+msgid "setting.entry.chat.scroller.freeze.description"
+msgstr ""
+"Автоматически останавливать прокрутку чата при наведении на него мыши или "
+"удерживании клавиши.\n"
+"**Примечание:** Прокрутка вверх в чате всегда предотвращает автоматическую "
+"прокрутку, независимо от этого параметра."
+
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Требовать, чтобы мышь была на чате, чтобы заморозить его кнопкой."
+
+msgid "setting.entry.chat.scroller.freeze.values.0"
+msgstr "Использовать настройки Twitch"
+
+msgid "setting.entry.chat.scroller.freeze.values.1"
+msgstr "При наведении курсора"
+
+msgid "setting.entry.chat.scroller.freeze.values.2"
+msgstr "При удерживании Ctrl"
+
+msgid "setting.entry.chat.scroller.freeze.values.3"
+msgstr "При удерживании Meta"
+
+msgid "setting.entry.chat.scroller.freeze.values.4"
+msgstr "При удерживании Alt"
+
+msgid "setting.entry.chat.scroller.freeze.values.5"
+msgstr "При удерживании Shift"
+
+msgid "setting.entry.chat.scroller.freeze.values.6"
+msgstr "Ctrl или прокрутка "
+
+msgid "setting.entry.chat.scroller.freeze.values.7"
+msgstr "Meta или прокрутка "
+
+msgid "setting.entry.chat.scroller.freeze.values.8"
+msgstr "Alt или прокрутка "
+
+msgid "setting.entry.chat.scroller.freeze.values.9"
+msgstr "Shift или прокрутка "
+
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Отстранение прокрутки"
+
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"Чат будет заморожен, пока на него наведён курсор на это время после того, "
+"как мышь перестанет двигаться."
+
+msgid "setting.entry.chat.scroller.hover-delay.values.1000"
+msgstr "1 секунда"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.250"
+msgstr "0.25 секунд"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.2500"
+msgstr "2.5 секунд"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.500"
+msgstr "0.50 секунд"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.5000"
+msgstr "5 секунд"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.750"
+msgstr "0.75 секунд"
+
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Плавная прокрутка"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.description"
+msgstr ""
+"**Примечание:** Может нестабильно работать в зависимости от браузера. "
+"Отключите, если у вас возникнут неполадки.\n"
+"\n"
+"Плавно прокручивать сообщения в чате. Скорость возрастёт когда требуется, "
+"чтобы не отставать от чата."
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Выключено"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
+msgstr "Медленно"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
+msgstr "Средняя"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
+msgstr "Быстрый"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
+msgstr "Очень быстро"
+
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Открыть страницы подписки Twitch по щелчку мыши и зажатию Shift при "
+"необходимости."
+
+msgid "setting.entry.chat.subs.compact"
+msgstr "Отображать оповещения о подписке в более компактном (классическом) стиле."
+
+msgid "setting.entry.chat.subs.gift-banner"
+msgstr "Отображать панель наверху чата, когда дарят много подписок."
+
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Объединить массовые подарки подписок"
+
+msgid "setting.entry.chat.subs.merge-gifts.description"
+msgstr ""
+"Объединить массовые подарки подписок в одно сообщение, в зависимости от "
+"количества.\n"
+"**Примечание:** Действует только на ново-подаренные подписки."
+
+msgid "setting.entry.chat.subs.merge-gifts.values.0"
+msgstr "Всегда"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.10"
+msgstr "Более 10"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.1000"
+msgstr "Выключено"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.20"
+msgstr "Более 20"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.5"
+msgstr "Более 5"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.50"
+msgstr "Более 50"
+
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Разворачивать объединённые массовые подарки подписок, по-умолчанию."
+
+msgid "setting.entry.chat.subs.show"
+msgstr "Отображать подписки в чате"
+
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Примечание:** Сообщения в повторных подписках всегда будут отображаться. "
+"Эта функция контролирует только оповещения \"X подписан!\"."
+
+msgid "setting.entry.chat.subs.show.values.0"
+msgstr "Не отображать"
+
+msgid "setting.entry.chat.subs.show.values.1"
+msgstr "Только повторные подписки с сообщениями"
+
+msgid "setting.entry.chat.subs.show.values.2"
+msgstr "Только повторные подписки"
+
+msgid "setting.entry.chat.subs.show.values.3"
+msgstr "Показать все"
+
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Разрешить автозаполнение эмодзи через Tab."
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr "Разрешить автозаполнение смайлов без написания двоеточия."
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr "Это предотвратит завершение табуляции имён пользователей без префикса @."
+
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "Разрешить завершение табуляции смайлов FrankerFaceZ."
+
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Ограничить количество результатов до 25."
+
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Избранные смайлы приоритетно находятся сверху. "
+
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Формат отметок времени"
+
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Отметки времени отформатированы используя библиотеку "
+"[Day.js](https://github.com/iamkun/dayjs/blob/dev/docs/ru/README-ru.md). "
+"Подробную информацию о форматировании [вы можете найти "
+"здесь](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
+"list-of-all-available-formats)"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Дополненное "
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Дополненное 24 часа"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Дополненное с секундами"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Дополненное 24 часа с секундами"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm"
+msgstr "12 часов"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm"
+msgstr "24 часа"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
+msgstr "12 часов с секундами"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
+msgstr "24 часа с секундами"
+
+msgid "setting.entry.chat.timestamp-size"
+msgstr "Размер шрифта метки времени"
+
+msgid "setting.entry.chat.timestamp-size.description"
+msgstr ""
+"Какой размер должны иметь метки времени в пикселях. Если не задано, "
+"по-умолчанию используется значение размера шрифта."
+
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Включить функции FrankerFaceZ в чате в видео."
+
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Отображать значки FFZ, смайлы и другие функции в чате в видео. Функции "
+"модератора могут быть недоступны при включении."
+
+msgid "setting.entry.chat.video-chat.timestamps"
+msgstr "Отображать временные метки возле сообщений в чате."
+
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Цвет выделения"
+
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr "Выделять сообщения пользователей с открытыми карточками."
+
+msgid "setting.entry.chat.width"
+msgstr "Ширина"
+
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Размер чата в пикселях. На это может влиять увеличение вашего браузера и "
+"размер шрифта."
+
+msgid "setting.entry.clips.layout.big"
+msgstr "Позволить увеличивать проигрыватель на страницах `clips.twitch.tv`."
+
+msgid "setting.entry.clips.layout.big.description"
+msgstr ""
+"Это затрагивает только окна шириной не менее 1,200 пикселей и пытается "
+"сделать воспроизведение проигрывателя и чата как можно больше."
+
+msgid "setting.entry.debug.link-resolver.source"
+msgstr "Распознаватель ссылок"
+
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Групповые ретрансляции"
+
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Показывать указанный ретранслируемый канал в каталоге только один раз."
+
+msgid "setting.entry.directory.following.host-menus"
+msgstr "Меню Ретранслируемого Канала"
+
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Отображение меню для выбора канала для посещения при щелчке по размещённому "
+"каналу в каталоге."
+
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Выключено"
+
+msgid "setting.entry.directory.following.host-menus.values.1"
+msgstr "Когда Несколько ретранслируют"
+
+msgid "setting.entry.directory.following.host-menus.values.2"
+msgstr "Всегда"
+
+msgid "setting.entry.directory.hidden.reveal"
+msgstr "Показывать скрытые записи при наведении курсора мыши."
+
+msgid "setting.entry.directory.hidden.style"
+msgstr "Стиль скрытия"
+
+msgid "setting.entry.directory.hidden.style.values.0"
+msgstr "Изменить изображение"
+
+msgid "setting.entry.directory.hidden.style.values.1"
+msgstr "Изменить изображение и размыть название"
+
+msgid "setting.entry.directory.hidden.style.values.2"
+msgstr "Размыть изображение"
+
+msgid "setting.entry.directory.hidden.style.values.3"
+msgstr "Размыть изображение и название"
+
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Не отображать 'Последние видео'."
+
+msgid "setting.entry.directory.hide-live"
+msgstr "Не отображать индикатор 'В ЭФИРЕ' для каналов в эфире."
+
+msgid "setting.entry.directory.hide-promoted"
+msgstr "Не показывать продвигаемые потоки в каталоге."
+
+msgid "setting.entry.directory.hide-recommended"
+msgstr "Не отображать 'Рекомендуемые каналы'."
+
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr "Не отображать 'На основе истории ваших просмотров'."
+
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "Не отображать повторы."
+
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Отображать аватары."
+
+msgid "setting.entry.directory.uptime"
+msgstr "Время трансляции"
+
+msgid "setting.entry.directory.uptime.description"
+msgstr "Отображать время трансляции на миниатюрах каналов."
+
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Выключен"
+
+msgid "setting.entry.directory.uptime.values.1"
+msgstr "Включено"
+
+msgid "setting.entry.directory.uptime.values.2"
+msgstr "Включено (с секундами)"
+
+msgid "setting.entry.experiments"
+msgstr "experiments"
+
+msgid "setting.entry.faq"
+msgstr "чаво"
+
+msgid "setting.entry.feedback"
+msgstr "отзыв"
+
+msgid "setting.entry.feedback.log"
+msgstr "feedback.log"
+
+msgid "setting.entry.ffz.search.matches-only"
+msgstr "Скрыть элементы, которые не полностью совпадают при поиске."
+
+msgid "setting.entry.ffz.show-new-settings"
+msgstr "Отображать индикатор появления новых настроек в FrankerFaceZ."
+
+msgid "setting.entry.home"
+msgstr "home"
+
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Включить запись сообщений."
+
+msgid "setting.entry.i18n.debug.capture.description"
+msgstr ""
+"Записывать все локализованные строки, включая переменные и местоположения "
+"вызовов, чтобы сообщить о них серверной части. Это используется для "
+"добавления новых строк в проект перевода. По-умолчанию запись сообщений "
+"включена при работе в режиме разработки."
+
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Трансформация"
+
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Преобразуйте все локализованные строки для проверки покрытия строки, а "
+"также длины."
+
+msgid "setting.entry.i18n.debug.transform.values.append_key"
+msgstr "Добавить основной"
+
+msgid "setting.entry.i18n.debug.transform.values.double"
+msgstr "Двойной"
+
+msgid "setting.entry.i18n.debug.transform.values.lower"
+msgstr "Строчная"
+
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Отключен"
+
+msgid "setting.entry.i18n.debug.transform.values.owo"
+msgstr "Анимешный owo (только англ.)"
+
+msgid "setting.entry.i18n.debug.transform.values.set_key"
+msgstr "Установить основной "
+
+msgid "setting.entry.i18n.debug.transform.values.upper"
+msgstr "Заглавный"
+
+msgid "setting.entry.i18n.format.date"
+msgstr "Формат даты"
+
+msgid "setting.entry.i18n.format.date.description"
+msgstr ""
+"Формат даты по-умолчанию. Пользовательские форматы даты формируются с "
+"использованием библиотеки "
+"[Day.js](https://day.js.org/docs/ru/display/format)."
+
+msgid "setting.entry.i18n.format.datetime"
+msgstr "Формат даты-времени"
+
+msgid "setting.entry.i18n.format.datetime.description"
+msgstr ""
+"Формат совмещённый даты-времени по-умолчанию. Пользовательские форматы даты "
+"формируются с использованием библиотеки "
+"[Day.js](https://day.js.org/docs/ru/display/format)."
+
+msgid "setting.entry.i18n.format.time"
+msgstr "Формат времени"
+
+msgid "setting.entry.i18n.format.time.description"
+msgstr ""
+"Формат времени по-умолчанию. Пользовательские форматы даты формируются с "
+"использованием библиотеки "
+"[Day.js](https://day.js.org/docs/ru/display/format)."
+
+msgid "setting.entry.i18n.locale"
+msgstr "Язык"
+
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FrankerFaceZ с любовью переводится добровольцами нашего сообщества. Спасибо "
+"вам. Если вы желаете помочь с переводом, пожалуйста, [зайдите в наш "
+"Discord](https://discord.gg/UrAkGhT) и попросите роль переводчика."
+
+msgid "setting.entry.layout.discover"
+msgstr "Отображать вкладку 'Интересное'."
+
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Отображать кнопку покупки Bits."
+
+msgid "setting.entry.layout.display-bits-button.description"
+msgstr ""
+"По-умолчанию он наследует своё значение из [Чат > Bits и Cheering > "
+"Отображать Bits](~chat.bits_and_cheering)"
+
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Свернуть навигацию"
+
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr "Сворачивать верхнюю навигацию, если она не используется."
+
+msgid "setting.entry.layout.portrait"
+msgstr "Включить портретный режим"
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"В портретном режиме чат будет отображаться под проигрывателем, если высота "
+"окна превышает его ширину."
+
+msgid "setting.entry.layout.portrait-invert"
+msgstr "Когда в портретном режиме, переместить чат на верх."
+
+msgid "setting.entry.layout.portrait-min-chat"
+msgstr "Использовать компактный чат в портретном режиме."
+
+msgid "setting.entry.layout.portrait-min-chat.description"
+msgstr ""
+"Если эта функция включена, она сворачивает заголовок чата и размещает поле "
+"ввода чата на одной линии с кнопками чата, чтобы представить более "
+"компактный чат, способный отображать больше строк при ограниченном "
+"вертикальном пространстве."
+
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Порог портретного режима"
+
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr "Это соотношение ширины к высоте, при котором активируется портретный режим."
+
+msgid "setting.entry.layout.prime-offers"
+msgstr "Отображать трофеи Prime."
+
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "Скрыть каналы не в сети"
+
+msgid "setting.entry.layout.side-nav.hide-viewers"
+msgstr "Скрыть счётчик просмотров канала"
+
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Отображать повторы"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.0"
+msgstr "Не отображать"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.1"
+msgstr "Как обычно"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.2"
+msgstr "Затемнённые (прозрачность 33%)"
+
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Отображать боковую навигацию"
+
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Отображать аватары"
+
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Отображать друзей в сети"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.0"
+msgstr "Никогда"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.1"
+msgstr "Всегда"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.2"
+msgstr "Когда боковая навигация открыта"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Отображать рекомендуемые / популярные каналы"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.0"
+msgstr "Никогда"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
+msgstr "Всегда"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
+msgstr "Когда боковая навигация открыта"
+
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Отображать рекомендованных друзей"
+
+msgid "setting.entry.layout.side-nav.show.values.0"
+msgstr "Никогда"
+
+msgid "setting.entry.layout.side-nav.show.values.1"
+msgstr "Всегда"
+
+msgid "setting.entry.layout.side-nav.show.values.2"
+msgstr "Скрыть в портрет"
+
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Поменять боковые панели местами"
+
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Поменяйте местами навигацию и общайтесь в противоположных сторонах окна."
+
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Показывать уменьшенную версию навигационной панели в режиме театра."
+
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Семейство шрифтов"
+
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Изменить шрифт для всего Twitch. Старые шрифты по умолчанию: `\"Helvetica "
+"Neue\",Helvetica,Arial,sans-serif`"
+
+msgid "setting.entry.legal"
+msgstr "legal"
+
+msgid "setting.entry.metadata.clip-download"
+msgstr "Добавить кнопку загрузки для редакторов на страницы клипов."
+
+msgid "setting.entry.metadata.clip-download.description"
+msgstr ""
+"Добавляет кнопку загрузки под проигрывателем на страницах клипов (на "
+"основном сайте, а не на `clips.twitch.tv`) для стримеров и их редакторов."
+
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Избранные фолловы"
+
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr "Показывать отмеченную кнопку с текущими пользователями."
+
+msgid "setting.entry.metadata.host-button"
+msgstr "Кнопка ретрансляции"
+
+msgid "setting.entry.metadata.host-button.description"
+msgstr ""
+"Показывать кнопку ретрансляции с ретранслируемым в данный момент каналом в "
+"подсказке."
+
+msgid "setting.entry.metadata.modview.hide-info"
+msgstr "Скрыть кнопку \"Скрыть информационную полосу трансляции\"."
+
+msgid "setting.entry.metadata.player-stats"
+msgstr "Статистика воспроизведения"
+
+msgid "setting.entry.metadata.player-stats.description"
+msgstr ""
+"Отображать задержку трансляции, включая частоту воспроизведения и "
+"потерянные кадры в подсказке."
+
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Предупреждение о задержке трансляции"
+
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"Когда задержка превышает заданное число, индикатор будет подсвечиваться, "
+"предупреждая о большой задержке. Ноль отключает эту функцию."
+
+msgid "setting.entry.metadata.uptime"
+msgstr "Время трансляции"
+
+msgid "setting.entry.metadata.uptime.no-native"
+msgstr "Убрать счётчик времени трансляции Twitch."
+
+msgid "setting.entry.metadata.uptime.no-native.description"
+msgstr ""
+"По-умолчанию это включено всякий раз, когда включен дисплей отображения "
+"времени трансляции FFZ, дабы избежать избыточной информации."
+
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Выключено"
+
+msgid "setting.entry.metadata.uptime.values.1"
+msgstr "Включено"
+
+msgid "setting.entry.metadata.uptime.values.2"
+msgstr "Включено (с секундами)"
+
+msgid "setting.entry.metadata.viewers"
+msgstr "Альтернативный счётчик зрителей"
+
+msgid "setting.entry.metadata.viewers.description"
+msgstr "Отображает счётчик зрителей канала без анимации при изменении количества."
+
+msgid "setting.entry.metadata.viewers.no-native"
+msgstr "Спрятать счётчик зрителей Twitch."
+
+msgid "setting.entry.metadata.viewers.no-native.description"
+msgstr ""
+"По-умолчанию, это включено каждый раз, когда включен счётчик зрителей FFZ, "
+"дабы избежать избыточной информации."
+
+msgid "setting.entry.player.allow-catchup"
+msgstr "Ускорять проигрыватель, чтобы понизить задержку."
+
+msgid "setting.entry.player.allow-catchup.description"
+msgstr ""
+"По умолчанию, Twitch немного ускоряет проигрыватель при сильной задержке, "
+"чтобы не отстать от трансляции. Из-за этого может быть искажение звука. "
+"Выключите, чтобы скорость не менялась автоматически."
+
+msgid "setting.entry.player.button.pip"
+msgstr "Добавить кнопку `Картинка в картинке` к управлению проигрывателем."
+
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Нажатие на кнопку КВК попробует включить режим картинки в картинке для "
+"проигрывателя."
+
+msgid "setting.entry.player.button.reset"
+msgstr "Добавить кнопку `Сбросить проигрыватель` к управлению проигрывателем."
+
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Двойной щелчок по кнопке сброса проигрывателя попытается сбросить "
+"внутреннее состояние проигрывателя Twitch'а, исправляя проблемы с "
+"воспроизведением без полного обновления страницы."
+
+msgid "setting.entry.player.captions.alignment"
+msgstr "Выравнивание"
+
+msgid "setting.entry.player.captions.alignment.values.11"
+msgstr "Вверху слева"
+
+msgid "setting.entry.player.captions.alignment.values.12"
+msgstr "Вверху по центру"
+
+msgid "setting.entry.player.captions.alignment.values.13"
+msgstr "Вверху справа"
+
+msgid "setting.entry.player.captions.alignment.values.21"
+msgstr "По середине слева"
+
+msgid "setting.entry.player.captions.alignment.values.22"
+msgstr "По середине по центру"
+
+msgid "setting.entry.player.captions.alignment.values.23"
+msgstr "По середине справа"
+
+msgid "setting.entry.player.captions.alignment.values.31"
+msgstr "Снизу слева"
+
+msgid "setting.entry.player.captions.alignment.values.32"
+msgstr "Снизу по центру"
+
+msgid "setting.entry.player.captions.alignment.values.33"
+msgstr "Снизу справа"
+
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Включить изменение положения и выравнивания скрытых субтитров."
+
+msgid "setting.entry.player.captions.font-family"
+msgstr "Семейство шрифтов"
+
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Изменить шрифт скрытых субтитров."
+
+msgid "setting.entry.player.captions.font-size"
+msgstr "Размер шрифта"
+
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"Размер скрытых субтитров. Значение можно выставить как в процентах, "
+"например 10%, так и в пикселях, например 50п.."
+
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Положение по горизонтали"
+
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Изменить положение скрытых субтитров. Значение можно выставить как в "
+"процентах, например `10%`, так и в пикселях, например `50п.`."
+
+msgid "setting.entry.player.captions.vertical"
+msgstr "Положение по вертикали"
+
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Изменить положение скрытых субтитров. Значение можно выставить как в "
+"процентах, Такие как `10%`, так и в пикселях, Такие как `50п.`."
+
+msgid "setting.entry.player.compressor.attack"
+msgstr "Атака (Attack)"
+
+msgid "setting.entry.player.compressor.attack.description"
+msgstr ""
+"**Диапазон:** 0 ~ 1\n"
+"\n"
+"Количество времени в секундах, необходимое для понижения уровня на 10 дБ."
+
+msgid "setting.entry.player.compressor.default"
+msgstr "Включить компрессор по умолчанию."
+
+msgid "setting.entry.player.compressor.enable"
+msgstr ""
+"Включить аудио компрессор и добавить кнопку \"Аудио компрессор\" в "
+"настройки проигрывателя."
+
+msgid "setting.entry.player.compressor.knee"
+msgstr "Колено (Knee)"
+
+msgid "setting.entry.player.compressor.knee.description"
+msgstr ""
+"**Диапазон:** 0 ~ 40\n"
+"\n"
+"Значение в децибелах, отражающее диапазон на пороговом значении, где изгиб "
+"плавно переходит к сжатому сигналу."
+
+msgid "setting.entry.player.compressor.ratio"
+msgstr "Соотношение (Ratio)"
+
+msgid "setting.entry.player.compressor.ratio.description"
+msgstr ""
+"**Диапазон:** 0 ~ 20\n"
+"\n"
+"Величина изменения в дБ, необходимая на входе для изменения выходного "
+"сигнала на 1 дБ."
+
+msgid "setting.entry.player.compressor.release"
+msgstr "Спад (Release)"
+
+msgid "setting.entry.player.compressor.release.description"
+msgstr ""
+"**Диапазон:** 0 ~ 1\n"
+"\n"
+"Количество времени в секундах, необходимое для усиления уровня на 10 дБ."
+
+msgid "setting.entry.player.compressor.shortcut"
+msgstr "Клавиша быстрого доступа"
+
+msgid "setting.entry.player.compressor.shortcut.description"
+msgstr ""
+"Эта последовательность клавиш может быть использована для переключения "
+"компрессора."
+
+msgid "setting.entry.player.compressor.threshold"
+msgstr "Порог (Threshold)"
+
+msgid "setting.entry.player.compressor.threshold.description"
+msgstr ""
+"**Диапазон:** 0 ~ 1\n"
+"\n"
+"Уровень в децибелах, выше которого начинает срабатывать компрессия."
+
+msgid "setting.entry.player.embed-metadata"
+msgstr "Показывать метаданные при наведении курсора на проигрыватель."
+
+msgid "setting.entry.player.ext-hide"
+msgstr "Показать оверлей расширения"
+
+msgid "setting.entry.player.ext-hide.values.0"
+msgstr "Всегда"
+
+msgid "setting.entry.player.ext-hide.values.1"
+msgstr "С элементами управления"
+
+msgid "setting.entry.player.ext-hide.values.2"
+msgstr "Никогда"
+
+msgid "setting.entry.player.ext-interaction"
+msgstr "Разрешить взаимодействие мыши с расширениями оверлея."
+
+msgid "setting.entry.player.gain.default"
+msgstr "Значение по-умолчанию"
+
+msgid "setting.entry.player.gain.default.description"
+msgstr ""
+"Значение по умолчанию для регулировки усиления, когда регулировка усиления "
+"включена. 100% означает отсутствие изменений в громкости."
+
+msgid "setting.entry.player.gain.enable"
+msgstr "Включить регулировку усиления при включенном аудио компрессоре."
+
+msgid "setting.entry.player.gain.max"
+msgstr "Максимальный"
+
+msgid "setting.entry.player.gain.max.description"
+msgstr ""
+"**Диапазон:** 100 ~ 1000\n"
+"\n"
+"Максимально допустимое значение для регулировки усиления. 100% - никаких "
+"изменений. 200% - удвоение громкости."
+
+msgid "setting.entry.player.gain.min"
+msgstr "Минимальный"
+
+msgid "setting.entry.player.gain.min.description"
+msgstr ""
+"**Диапазон:** 0 ~ 100\n"
+"\n"
+"Минимально допустимое значение для регулировки усиления. 0% эффективно "
+"приглушает звук."
+
+msgid "setting.entry.player.gain.no-volume"
+msgstr ""
+"Принудительное увеличение встроенной громкости до 100% при включенном аудио "
+"компрессоре."
+
+msgid "setting.entry.player.gain.no-volume.description"
+msgstr ""
+"Если эта функция включена, встроенная громкость будет скрыта, и регулятор "
+"усиления будет единственным способом изменения громкости."
+
+msgid "setting.entry.player.gain.scroll"
+msgstr "Регулировка прокруткой"
+
+msgid "setting.entry.player.gain.scroll.description"
+msgstr ""
+"Настройте усиление, прокручивая колёсико мыши. Эта настройка имеет "
+"приоритет перед регулировкой громкости прокруткой. *Эта настройка не будет "
+"правильно работать на трансляциях с видимыми расширениями, если разрешено "
+"взаимодействие мыши с расширениями.*"
+
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Скрыть панель событий"
+
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"Скрыть панель событий, которая появляется над проигрывателем, когда на "
+"канале происходит событие."
+
+msgid "setting.entry.player.hide-mouse"
+msgstr "Скрыть мышь, когда кнопки управления скрыты."
+
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Скрыть панель повторов"
+
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"Скрыть панель повтора, которая появляется над проигрывателем, когда текущий "
+"канал воспроизводит видео, а не прямой эфир."
+
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "Скрыть Панель Групповой Трансляции"
+
+msgid "setting.entry.player.home.autoplay"
+msgstr "Автовоспроизведение предложенных стримеров на главной странице."
+
+msgid "setting.entry.player.mute-click"
+msgstr ""
+"Заглушить или включить звук проигрывателя путём щелчка по средней кнопке "
+"мыши."
+
+msgid "setting.entry.player.no-autoplay"
+msgstr "Не запускать трансляции или видео автоматически."
+
+msgid "setting.entry.player.no-autoplay.description"
+msgstr ""
+"Примечание: эта функция не действует при переходе непосредственно от канала "
+"к каналу."
+
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Автоматически открывать режим кинотеатра при посещении канала."
+
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Показывать метаданные при наведении указателя мыши на проигрыватель."
+
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Скрыть личные сообщения в режиме кинотеатра."
+
+msgid "setting.entry.player.vod.autoplay"
+msgstr ""
+"Автоматическое воспроизведение следующего рекомендованного видео после его "
+"завершения."
+
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Всегда раскрывать регулятор громкости."
+
+msgid "setting.entry.player.volume-scroll"
+msgstr "Регулировать громкость колесом прокрутки."
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Эта функция не будет работать, если присутствуют расширения, с которыми "
+"включено взаимодействие мышью.*"
+
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Количество прокрутки громкости"
+
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr "Насколько громкость изменяется за одну прокрутку колёсика."
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.01"
+msgstr "1%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.02"
+msgstr "2%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.05"
+msgstr "5%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.1"
+msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.values.2"
+msgstr "Включать правой кнопкой мыши"
+
+msgid "setting.entry.player.volume-scroll.values.3"
+msgstr "Включать с помощью Alt"
+
+msgid "setting.entry.player.volume-scroll.values.4"
+msgstr "Включать с помощью Alt + Правая кнопка мыши"
+
+msgid "setting.entry.player.volume-scroll.values.5"
+msgstr "Включать с помощью Shift"
+
+msgid "setting.entry.player.volume-scroll.values.6"
+msgstr "Включать с помощью Shift + Правая кнопка мыши"
+
+msgid "setting.entry.player.volume-scroll.values.7"
+msgstr "Включать с помощью Ctrl"
+
+msgid "setting.entry.player.volume-scroll.values.8"
+msgstr "Включать с помощью Ctrl + Правая кнопка мыши"
+
+msgid "setting.entry.player.volume-scroll.values.false"
+msgstr "Выключено"
+
+msgid "setting.entry.player.volume-scroll.values.true"
+msgstr "Включено"
+
+msgid "setting.entry.profiles"
+msgstr "профили"
+
+msgid "setting.entry.reports.error.enable"
+msgstr "Автоматически посылать отчёт при возникновении ошибки."
+
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Включить снимок настроек в отчёты."
+
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Точное знание того, какие настройки действуют при возникновении ошибки, "
+"может быть невероятно полезно для воссоздания проблемы."
+
+msgid "setting.entry.reports.error.include-user"
+msgstr "Включать ID пользователя в отчётах."
+
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"Иногда бывает полезно знать у каких пользователей возникают ошибки, чтобы "
+"мы смогли проверить определённые значки, наборы смайлов или "
+"пользовательские флаги, которые создают их."
+
+msgid "setting.entry.socket.use-cluster"
+msgstr "Кластер сервера"
+
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"Изменить кластер. Не меняйте его, если не занимайтесь разработкой, иначе "
+"все функции, зависящие от сокета (информация о смайлах, подсказки ссылок и "
+"обновления данных), будут недоступны."
+
+msgid "setting.entry.socket.use-cluster.values.Development"
+msgstr "Разработка"
+
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Отключен"
+
+msgid "setting.entry.socket.use-cluster.values.Production"
+msgstr "Продукция"
+
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Отображать напоминание о Prime"
+
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Отображать корону на кнопке подписки, когда доступна бесплатная подписка с "
+"Prime."
+
+msgid "setting.entry.theme.color.accent"
+msgstr "Акцент"
+
+msgid "setting.entry.theme.color.accent.description"
+msgstr "Цвет, используемый для кнопок, ссылок и т.д."
+
+msgid "setting.entry.theme.color.background"
+msgstr "Задний фон"
+
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Попробуйте `#0E0C13` для цвета, близкому к старому тёмному оформлению, или "
+"`#0E0E0E` для приятного тёмно-серого. Прозрачные цвета не допускаются."
+
+msgid "setting.entry.theme.color.chat-accent"
+msgstr "Акцент"
+
+msgid "setting.entry.theme.color.chat-accent.description"
+msgstr "Акцентный цвет используется для кнопок, ссылок и т.д."
+
+msgid "setting.entry.theme.color.chat-background"
+msgstr "Задний фон"
+
+msgid "setting.entry.theme.color.chat-text"
+msgstr "Текст"
+
+msgid "setting.entry.theme.color.chat-text.description"
+msgstr ""
+"Если не задано, то цвет автоматически будет задан чёрным или белым, в "
+"зависимости от яркости фона."
+
+msgid "setting.entry.theme.color.text"
+msgstr "Текст"
+
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Если ничего не задано, цвет будет автоматически подобран белым или чёрным в "
+"зависимости от яркости фона."
+
+msgid "setting.entry.theme.color.tooltip.background"
+msgstr "Фон подсказки"
+
+msgid "setting.entry.theme.color.tooltip.background.description"
+msgstr ""
+"Если неуказанно, то настройки подсказки будут автоматически настроены в "
+"зависимости от яркости фона."
+
+msgid "setting.entry.theme.color.tooltip.text"
+msgstr "Текст подсказки "
+
+msgid "setting.entry.theme.dark"
+msgstr "Серый фон (без пурпурного)"
+
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Для работы требуется тёмное оформление.*\n"
+"\n"
+"Эта функция очень скоро исчезнет, с развитием новой системы оформлений.\n"
+"Код CSS, загружаемый этой функцией, очень громоздкий и может вызвать "
+"проблемы с производительностью."
+
+msgid "setting.entry.theme.font.size"
+msgstr "Размер шрифта"
+
+msgid "setting.entry.theme.font.size.description"
+msgstr ""
+"**Минимум:** `1`, **Максимум:** `25`, *По-умолчанию:* `12`\n"
+"\n"
+"Размер шрифта в пикселях. На это может влиять увеличение вашего браузера и "
+"настройки шрифта."
+
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Отображать большие изображения значков."
+
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Отображать большие изображения смайлов."
+
+msgid "setting.entry.tooltip.emote-images.animated"
+msgstr "Отображать анимированные изображения смайлов."
+
+msgid "setting.entry.tooltip.emote-images.animated.description"
+msgstr ""
+"Если этот параметр не отменён, анимированные изображения будут отображаться "
+"во всплывающих подсказках только в том случае, если [Чат > Внешний вид >> "
+"Смайлы > Анимированные смайлы](~chat.appearance.emotes) не отключены."
+
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Отображать известные источники."
+
+msgid "setting.entry.tooltip.images"
+msgstr "Отображать изображения в подсказках."
+
+msgid "setting.entry.tooltip.link-images"
+msgstr "Отображать изображения в ссылках."
+
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Включить взаимодействие с поддерживающими подсказками."
+
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Отображать потенциально непристойные изображения."
+
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr "Если включено, то FrankerFaceZ будет отображать непристойные изображения."
+
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Отображать встраиваемые подсказки для ссылок."
+
+msgid "setting.entry.whispers.show"
+msgstr "Отображать личные сообщения"
+
+msgid "setting.example"
+msgstr "Пример:"
+
+msgid "setting.experiments.about"
+msgstr ""
+"Эта функция позволяет вам переопределить экспериментальные значения. "
+"Обратите внимание, что для большинства экспериментов вам, возможно, "
+"придётся обновить страницу, чтобы изменения вступили в силу."
+
+msgid "setting.experiments.active"
+msgstr "Этот эксперимент активен."
+
+msgid "setting.experiments.entry"
+msgstr "{value,tostring} (weight: {weight,tostring})"
+
+msgid "setting.experiments.ffz"
+msgstr "Эксперименты FrankerFaceZ"
+
+msgid "setting.experiments.inactive"
+msgstr "Этот эксперимент не активен."
+
+msgid "setting.experiments.none"
+msgstr "В данный момент нет проводящихся эксперементов."
+
+msgid "setting.experiments.none-filter"
+msgstr "Нет совпадающих экспериментов."
+
+msgid "setting.experiments.show-unused"
+msgstr "Отображать неиспользованные эксперименты."
+
+msgid "setting.experiments.sort-name"
+msgstr "Сортировать по названию"
+
+msgid "setting.experiments.sort-rarity"
+msgstr "Сортировать по редкости"
+
+msgid "setting.experiments.twitch"
+msgstr "Эксперименты Twitch"
+
+msgid "setting.experiments.unique-id"
+msgstr "Уникальный ID: {id}"
+
+msgid "setting.experiments.unset"
+msgstr "Не установлено"
+
+msgid "setting.export"
+msgstr "Экспортировать"
+
+msgid "setting.false"
+msgstr "Ложь"
+
+msgid "setting.filter.if.else"
+msgstr "Иначе"
+
+msgid "setting.filter.if.then"
+msgstr "Затем"
+
+msgid "setting.filter.page.url"
+msgstr "URL: {url}"
+
+msgid "setting.filters.active"
+msgstr "Правило совпадает."
+
+msgid "setting.filters.add"
+msgstr "Добавить"
+
+msgid "setting.filters.add-new"
+msgstr "Добавить новое правило"
+
+msgid "setting.filters.empty"
+msgstr "(без фильтров)"
+
+msgid "setting.filters.if.fail"
+msgstr "Эта ветвь активна, потому что условие отключено."
+
+msgid "setting.filters.if.no_fail"
+msgstr "Эта ветвь не активна, потому что условие включено."
+
+msgid "setting.filters.if.no_pass"
+msgstr "Эта ветвь не активна, потому что условие отключено."
+
+msgid "setting.filters.if.pass"
+msgstr "Эта ветвь активна, потому что условие включено."
+
+msgid "setting.filters.inactive"
+msgstr "Правило не совпадает"
+
+msgid "setting.hidden"
+msgstr "Спрятано "
+
+msgid "setting.home"
+msgstr "Главная"
+
+msgid "setting.home.changelog"
+msgstr "Журнал изменений"
+
+msgid "setting.home.faq"
+msgstr "ЧаВо"
+
+msgid "setting.home.feedback"
+msgstr "Обратная связь"
+
+msgid "setting.home.feedback.log"
+msgstr "Журнал"
+
+msgid "setting.home.legal"
+msgstr "Политика конфиденциальности"
+
+msgid "setting.icon.clear"
+msgstr "Чистый"
+
+msgid "setting.icon.search"
+msgstr "Поиск по иконке"
+
+msgid "setting.import"
+msgstr "Импортировать..."
+
+msgid "setting.import.do"
+msgstr "Импортировать"
+
+msgid "setting.import.file"
+msgstr "Из файла"
+
+msgid "setting.import.url"
+msgstr "Из URL"
+
+msgid "setting.inheritance"
+msgstr "Точка наследования"
+
+msgid "setting.inheritance.desc"
+msgstr "Наследовать значения из профилей с более низким приоритетом в этой позиции."
+
+msgid "setting.inherited-from"
+msgstr "Унаследовано от: {title}"
+
+msgid "setting.key.alt"
+msgstr "Alt"
+
+msgid "setting.key.ctrl"
+msgstr "Ctrl"
+
+msgid "setting.key.hover"
+msgstr "Прокрутка"
+
+msgid "setting.key.meta"
+msgstr "Meta"
+
+msgid "setting.key.shift"
+msgstr "Shift"
+
+msgid "setting.new"
+msgstr "Новое"
+
+msgid "setting.new-line"
+msgstr "Новая строка"
+
+msgid "setting.new-line.desc"
+msgstr "Поместить все элементы, следующие за этим, на новую строку."
+
+msgid "setting.no-items"
+msgstr "нет элементов"
+
+msgid "setting.overridden-by"
+msgstr "Отменено: {title}"
+
+msgid "setting.paste-json"
+msgstr "Вставить JSON"
+
+msgid "setting.paste-json.json"
+msgstr "[json]"
+
+msgid "setting.paste-url.url"
+msgstr "[url]"
+
+msgid "setting.player"
+msgstr "Проигрыватель"
+
+msgid "setting.player.closed_captioning"
+msgstr "Скрытые субтитры"
+
+msgid "setting.player.closed_captioning.font"
+msgstr "Шрифт"
+
+msgid "setting.player.closed_captioning.position"
+msgstr "Положение"
+
+msgid "setting.player.compressor"
+msgstr "Компрессор"
+
+msgid "setting.player.compressor.advanced"
+msgstr "Расширенные"
+
+msgid "setting.player.compressor.description"
+msgstr ""
+"Эти параметры управляют не обязательной компрессией динамического диапазона "
+"для проигрывателя, формой обработки звука, которая уменьшает громкость "
+"громких звуков и усиливает тихие звуки, тем самым нормализуя или сжимая "
+"громкость. Здесь используется узел "
+"[DynamicsCompressorNode](https://developer.mozilla.org/en-US/docs/Web/API/"
+"DynamicsCompressorNode) из Web Audio API за сценой, если вы хотите узнать "
+"больше."
+
+msgid "setting.player.compressor.gain_control"
+msgstr "Регулировка усиления"
+
+msgid "setting.player.compressor.gain_control.description"
+msgstr ""
+"Регулировка усиления даёт вам дополнительный контроль над выходной "
+"громкостью при использовании компрессора, позволяя регулировать громкость "
+"после работы компрессора, в то время как встроенный ползунок громкости "
+"действует до компрессора. Для этого используется простой "
+"[GainNode](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) из "
+"Web Audio API, подключённый последовательно после DynamicsCompressorNode, "
+"который использует компрессор."
+
+msgid "setting.player.compressor.general"
+msgstr "Общие"
+
+msgid "setting.player.general"
+msgstr "Общие"
+
+msgid "setting.player.general.embed_and_popout"
+msgstr "Встраивание и вывод на экран"
+
+msgid "setting.player.general.extensions"
+msgstr "Расширения"
+
+msgid "setting.player.general.general"
+msgstr "Общие"
+
+msgid "setting.player.general.playback"
+msgstr "Воспроизведение"
+
+msgid "setting.player.general.theatre_mode"
+msgstr "Режим кинотеатра"
+
+msgid "setting.player.general.volume"
+msgstr "Громкость"
+
+msgid "setting.preview"
+msgstr "Предпоказ"
+
+msgid "setting.profiles.active"
+msgstr "Профиль включен и активен."
+
+msgid "setting.profiles.configure"
+msgstr "Настроить"
+
+msgid "setting.profiles.default"
+msgstr "Профиль по умолчанию"
+
+msgid "setting.profiles.default.description"
+msgstr "Настройки, которые применяются ко всему Twitch."
+
+msgid "setting.profiles.disabled"
+msgstr "Этот профиль отключен."
+
+msgid "setting.profiles.disabled.description"
+msgstr ""
+"Этот профиль был отключен, поэтому вы не увидите изменений, внесенных "
+"здесь, в Twitch."
+
+msgid "setting.profiles.disabled.rules"
+msgstr "Этот профиль включен, но неактивен из-за его правил."
+
+msgid "setting.profiles.drag"
+msgstr "Перетащите профиль, чтобы сменить его приоритет."
+
+msgid "setting.profiles.inactive"
+msgstr "Этот профиль не активен."
+
+msgid "setting.profiles.inactive.description"
+msgstr ""
+"Правила этого профиля не соответствуют текущему контексту, и поэтому он в "
+"настоящее время неактивен, поэтому вы не увидите внесенные здесь изменения, "
+"отраженные на Twitch."
+
+msgid "setting.profiles.moderation"
+msgstr "Модерация"
+
+msgid "setting.profiles.moderation.description"
+msgstr "Настройки, которые действуют, если вы модератор на канале."
+
+msgid "setting.profiles.new"
+msgstr "Новый профиль"
+
+msgid "setting.profiles.updates"
+msgstr "Этот профиль будет обновляться автоматически."
+
+msgid "setting.profiles.warn-delete"
+msgstr "Вы уверены, что хотите удалить профиль? Действие нельзя будет отменить."
+
+msgid "setting.profile.updates"
+msgstr "Этот профиль будет обновляться автоматически со следующего URL:"
+
+msgid "setting.profile.updates-about"
+msgstr ""
+"Для этого профиля включено автоматическое обновление. При обнолвении все "
+"изменённые настройки будут сброшены, в том числе и правила профиля."
+
+msgid "setting.provider.about"
+msgstr ""
+"Здесь можно изменить провайдера хранилища, используемого FrankerFaceZ при "
+"просмотре Twitch. Вы можете попробовать это, если у вас возникли проблемы с "
+"тем, что настройки не остаются постоянными. Обратите внимание, что после "
+"изменения этого параметра необходимо будет перезагрузить все вкладки Twitch."
+
+msgid "setting.provider.backup"
+msgstr "Да, я сделал резервную копию."
+
+msgid "setting.provider.has-blobs"
+msgstr "(Поддержка двоичных данных)"
+
+msgid "setting.provider.has-data"
+msgstr "(Есть данные)"
+
+msgid "setting.provider.idb.desc"
+msgstr ""
+"[IndexedDB](https://developer.mozilla.org/ru/docs/Web/API/IndexedDB_API) "
+"доступна на большинстве платформ и имеет немного более медленное время "
+"инициализации, чем локальное хранилище. IndexedDB имеет большую ёмкость "
+"хранилища и меньше вероятность неожиданного очищения."
+
+msgid "setting.provider.idb.title"
+msgstr "IndexedDB"
+
+msgid "setting.provider.local.desc"
+msgstr ""
+"[Локальное "
+"хранилище](https://developer.mozilla.org/ru/docs/Web/API/Web_Storage_API) "
+"доступно на всех платформах и быстро доступно, но имеет плохо определённые "
+"пределы ёмкости и может быть неожиданно очищено. В частности, очистка "
+"cookies и кэша в вашем браузере, скорее всего, очистит и локальное "
+"хранилище."
+
+msgid "setting.provider.local.title"
+msgstr "Локальное хранилище"
+
+msgid "setting.provider.selected"
+msgstr "(Текущее)"
+
+msgid "setting.provider.start"
+msgstr "Сменить провайдеров"
+
+msgid "setting.provider.transfer"
+msgstr "Перенос моих настроек при смене провайдера."
+
+msgid "setting.provider.transfer.desc"
+msgstr ""
+"**Примечание:** Рекомендуется оставить этот параметр включенным, если вы не "
+"знаете, что делаете."
+
+msgid "setting.provider.warn.desc"
+msgstr ""
+"Пожалуйста, закройте все другие вкладки Twitch перед использованием этого "
+"инструмента. Перед сменой провайдера **рекомендуется [создать резервную "
+"копию](~data_management.backup_and_restore)** на случай, если что-то "
+"произойдёт."
+
+msgid "setting.provider.warn.title"
+msgstr "Осторожнее!"
+
+msgid "setting.reasons.add-default"
+msgstr "Добавить причины по умолчанию"
+
+msgid "setting.reasons.add-default-tip"
+msgstr "Добавить все причины по умолчанию в профиль."
+
+msgid "setting.reasons.add-placeholder"
+msgstr "Добавить новую причину"
+
+msgid "setting.reasons.delete-all"
+msgstr "Удалить все причины из профиля."
+
+msgid "setting.reasons.info"
+msgstr ""
+"Причины могут быть выбраны с помощью контекстных меню действий, чтобы "
+"добавить дополнительную информацию о банах и ​​отстранениях."
+
+msgid "setting.reasons.no-reasons"
+msgstr "для данного профиля причины не заданы"
+
+msgid "setting.record-key"
+msgstr "Нажмите клавишу"
+
+msgid "setting.reset"
+msgstr "Сбросить по умолчанию"
+
+msgid "setting.reset-all"
+msgstr "Сбросить все по умолчанию"
+
+msgid "setting.right-click-reset"
+msgstr "Щёлкните правой кнопкой мыши для сброса"
+
+msgid "setting.save"
+msgstr "Сохранить"
+
+msgid "settings.back"
+msgstr "Назад"
+
+msgid "settings.filter.category"
+msgstr "Текущая категория"
+
+msgid "settings.filter.channel"
+msgstr "Текущий канал"
+
+msgid "settings.filter.if"
+msgstr "Если"
+
+msgid "settings.filter.invert"
+msgstr "Инвертировано "
+
+msgid "settings.filter.moderator"
+msgstr "Модератор"
+
+msgid "settings.filter.native-dark"
+msgstr "Темная тема"
+
+msgid "settings.filter.or"
+msgstr "Или"
+
+msgid "settings.filter.page"
+msgstr "Текущая страница"
+
+msgid "settings.filter.page.route.addons.deck"
+msgstr "Колода"
+
+msgid "settings.filter.page.route.addons.deck.tab"
+msgstr "Панель"
+
+msgid "settings.filter.page.route.collection"
+msgstr "Коллекция"
+
+msgid "settings.filter.page.route.command-center"
+msgstr "Центр управления"
+
+msgid "settings.filter.page.route.dash"
+msgstr "Панель управления"
+
+msgid "settings.filter.page.route.dash-achievements"
+msgstr "Панель управления: Достижения"
+
+msgid "settings.filter.page.route.dash-activity"
+msgstr "Панель управления: Активность"
+
+msgid "settings.filter.page.route.dash-channel-analytics"
+msgstr "Панель управления: Статистика канала"
+
+msgid "settings.filter.page.route.dash-channel-points"
+msgstr "Панель управления: Баллы канала"
+
+msgid "settings.filter.page.route.dash-chat"
+msgstr "Панель управления Всплывающий чат"
+
+msgid "settings.filter.page.route.dash-chat.userName"
+msgstr "Имя пользователя"
+
+msgid "settings.filter.page.route.dash-clips"
+msgstr "Панель управления: Клипы"
+
+msgid "settings.filter.page.route.dash-collections"
+msgstr "Панель управления: Коллекции"
+
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Панель управления: Редактировать коллекцию"
+
+msgid "settings.filter.page.route.dash-edit-video"
+msgstr "Панель управления: Редактировать видео"
+
+msgid "settings.filter.page.route.dash-extensions"
+msgstr "Панель управления: Расширения"
+
+msgid "settings.filter.page.route.dash-roles"
+msgstr "Панель управления: Роли"
+
+msgid "settings.filter.page.route.dash-settings-channel"
+msgstr "Панель управления: Настройки канала"
+
+msgid "settings.filter.page.route.dash-settings-moderation"
+msgstr "Панель управления: Настройки модерации"
+
+msgid "settings.filter.page.route.dash-settings-revenue"
+msgstr "Панель управления: Настройки дохода"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Панель управления: Инструменты Трансляций"
+
+msgid "settings.filter.page.route.dash-stream-manager"
+msgstr "Панель управления: Менеджер трансляций"
+
+msgid "settings.filter.page.route.dash-stream-summary"
+msgstr "Панель управления: Сводка Трансляции "
+
+msgid "settings.filter.page.route.dash-video-producer"
+msgstr "Панель управления: Видеопродюсер"
+
+msgid "settings.filter.page.route.dir"
+msgstr "Обзор"
+
+msgid "settings.filter.page.route.dir-all"
+msgstr "Просмотр каналов в сети"
+
+msgid "settings.filter.page.route.dir-following"
+msgstr "Подписан"
+
+msgid "settings.filter.page.route.dir-game-clips"
+msgstr "Клипы игры"
+
+msgid "settings.filter.page.route.dir-game-index"
+msgstr "Каталог игры"
+
+msgid "settings.filter.page.route.dir-game-videos"
+msgstr "Видео игры"
+
+msgid "settings.filter.page.route.embed-chat"
+msgstr "Встроенный Чат"
+
+msgid "settings.filter.page.route.embed-chat.userName"
+msgstr "Имя пользователя"
+
+msgid "settings.filter.page.route.event"
+msgstr "Событие"
+
+msgid "settings.filter.page.route.front-page"
+msgstr "Главная страница"
+
+msgid "settings.filter.page.route.popout"
+msgstr "Чат в отдельном окне"
+
+msgid "settings.filter.page.route.popout.userName"
+msgstr "Имя пользователя"
+
+msgid "settings.filter.page.route.prime"
+msgstr "Prime"
+
+msgid "settings.filter.page.route.product"
+msgstr "Продукт"
+
+msgid "settings.filter.page.route.squad"
+msgstr "Отряд"
+
+msgid "settings.filter.page.route.turbo"
+msgstr "Turbo"
+
+msgid "settings.filter.page.route.user"
+msgstr "Пользователь"
+
+msgid "settings.filter.page.route.user-clip"
+msgstr "Клип пользователя"
+
+msgid "settings.filter.page.route.user-clips"
+msgstr "Клипы пользователя"
+
+msgid "settings.filter.page.route.user-collections"
+msgstr "Коллекции Пользователя "
+
+msgid "settings.filter.page.route.user-events"
+msgstr "События пользователя"
+
+msgid "settings.filter.page.route.user-followers"
+msgstr "Фолловеры Пользователя"
+
+msgid "settings.filter.page.route.user-following"
+msgstr "Фолловы пользователя"
+
+msgid "settings.filter.page.route.user-video"
+msgstr "Видеоматериалы"
+
+msgid "settings.filter.page.route.user-videos"
+msgstr "Видео пользователя"
+
+msgid "settings.filter.page.route.video"
+msgstr "Видео"
+
+msgid "settings.filter.squad"
+msgstr "Режим Squad"
+
+msgid "settings.filter.theater"
+msgstr "Режим кинотеатра"
+
+msgid "settings.filter.time"
+msgstr "Время суток"
+
+msgid "settings.filter.time.end"
+msgstr "Конец:"
+
+msgid "settings.filter.time.start"
+msgstr "Начало:"
+
+msgid "settings.filter.title"
+msgstr "Текущее название"
+
+msgid "settings.filter.title.sensitive"
+msgstr "С учетом регистра"
+
+msgid "settings.filter.title.warn-complex"
+msgstr ""
+"Этот шаблон потенциально слишком сложен. Он будет отключен, чтобы избежать "
+"задержки или зависания клиента."
+
+msgid "settings.filter.title.warn-invalid"
+msgstr "Это значение неверно."
+
+msgid "settings.filter.true_false"
+msgstr "Правда или ложь"
+
+msgid "setting.space"
+msgstr "Место"
+
+msgid "setting.space.desc"
+msgstr "Поместить больший пробел между предыдущим и следующим элементом."
+
+msgid "setting.space-small"
+msgstr "Место (малое)"
+
+msgid "setting.space-small.desc"
+msgstr "Поместить небольшой пробел между предыдущим и следующим элементом."
+
+msgid "settings.term.color.tip"
+msgstr "Цвет"
+
+msgid "settings.terms.highlight"
+msgstr "Вдл"
+
+msgid "settings.terms.highlight.tip"
+msgstr ""
+"Выделять совпадения\n"
+"\n"
+"Для этого необходимо, чтобы работала настройка \"Выделять совпадающие слова "
+"в чате.\"."
+
+msgid "settings.terms.priority.tip"
+msgstr "Приоритет"
+
+msgid "settings.terms.sensitive"
+msgstr "Aa"
+
+msgid "settings.terms.sensitive.tip"
+msgstr "Чувствительность к регистру символов"
+
+msgid "settings.terms.word"
+msgstr "Abc"
+
+msgid "settings.terms.word.tip"
+msgstr "Подобрать целое слово"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Добавить новый термин"
+
+msgid "setting.terms.add-term"
+msgstr "Добавить"
+
+msgid "setting.terms.no-terms"
+msgstr "для данного профиля термины не заданы"
+
+msgid "setting.terms.please-select"
+msgstr "Пожалуйста, выберите вариант."
+
+msgid "setting.terms.remove.off"
+msgstr "Не убирать выделенные сообщения из чата."
+
+msgid "setting.terms.remove.on"
+msgstr "Убрать совпадающие сообщения из чата."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Слово)"
+
+msgid "setting.terms.type.text"
+msgstr "Текст"
+
+msgid "setting.tooltip-example"
+msgstr "В качестве примера, поставьте курсор на эту ссылку:"
+
+msgid "setting.true"
+msgstr "Правда"
+
+msgid "setting.unset"
+msgstr "Неуказанно "
+
+msgid "setting.visible"
+msgstr "Видимо"
+
+msgid "setting.warn-inheritence"
+msgstr "Эти значения переопределяются другим профилем и могут не вступать в силу."
+
+msgid "setting.warn-unsaved"
+msgstr ""
+"У вас есть несохраненные изменения. Вы уверены, что хотите покинуть "
+"редактор?"

@@ -1,0 +1,3114 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "addon.author"
+msgstr "Av: {author}"
+
+msgid "addon.deck.author"
+msgstr "SirStendec"
+
+msgid "addon.deck.name"
+msgstr "Panel"
+
+msgid "addon.dev"
+msgstr "Utvikler"
+
+msgid "addon.disable"
+msgstr "Slå av"
+
+msgid "addon.enable"
+msgstr "Aktiver"
+
+msgid "addon.enabled"
+msgstr "På"
+
+msgid "addon.ffzap-bttv.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-bttv.name"
+msgstr "BetterTTV-emoter"
+
+msgid "addon.ffzap-core.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-core.name"
+msgstr "FrankerFaceZ-tilleggspakken - Kjernen"
+
+msgid "addon.ffzap-liriklive.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-liriklive.name"
+msgstr "LirikLIVE"
+
+msgid "addon.settings"
+msgstr "Innstillinger"
+
+msgid "addon.sort-name"
+msgstr "Sorter etter: Navn"
+
+msgid "addon.unlisted"
+msgstr "Ikke oppført"
+
+msgid "addon.unlisted.add"
+msgstr "Legg til uoppførte …"
+
+msgid "addon.unlisted.explain"
+msgstr ""
+"Ulistede utvidelser er utvidelser som har gjennomgått godkjenning, men som "
+"har valgt å ikke bli listet opp i hovedlisten. Dette kan være fordi "
+"utvidelsen er siktet inn mot bestemte brukere, eller fordi utvidelsen "
+"fortsatt er under utvikling. Dersom du kjenner til en ulistet utvidelse sin "
+"ID, skriv den inn her for at den skal vises."
+
+msgid "addon.unlisted.id"
+msgstr "utvidelses-id"
+
+msgid "addon.version"
+msgstr "Versjon {version}"
+
+msgid "addon.website"
+msgstr "Nettsted"
+
+msgid "home.about"
+msgstr ""
+"Takk for at du bruker FrankerFaceZ.\n"
+"\n"
+"Versjon 4.0 av utvidelsen har vært i aktiv utvikling siden lanseringen av "
+"Twitch sitt React-drevne nettsted i slutten av 2017."
+
+msgid "home.changelog"
+msgstr "Endringslogg"
+
+msgid "home.changelog.about-nonversioned"
+msgstr ""
+"Kodeinnsmettinger uten versjonsnumre, er kodeinnsmettinger til "
+"FrankerFaceZ-kodelageret som ikke er tilknyttet en publiseringsbyggversjon. "
+"De er typisk for vedlikehold eller bidrag fra samfunnet som vil bli "
+"inkludert i en senere publiseringsversjon."
+
+msgid "home.changelog.by-line"
+msgstr "Av: {user}"
+
+msgid "home.changelog.current"
+msgstr "Nåværende versjon"
+
+msgid "home.changelog.error"
+msgstr "En feil oppsto under innlasting av endringer fra GitHub."
+
+msgid "home.changelog.load"
+msgstr "Last inn mer"
+
+msgid "home.changelog.no-more"
+msgstr "Det er ingen flere kodeinnsmettinger å laste inn."
+
+msgid "home.changelog.nonversioned"
+msgstr "Kodeinnsmetting uten versjonsnummer"
+
+msgid "home.changelog.show-nonversioned"
+msgstr "Inkluder kodeinnsmettinger uten versjonsnummer."
+
+msgid "home.discord"
+msgstr "Discord"
+
+msgid "home.faq"
+msgstr ""
+"## Vanlige spørsmål\n"
+"\n"
+"* *Hva skjedde med [funksjon]?*\n"
+"\n"
+"Det er fortsatt funksjoner som mangler i FrankerFaceZ v4.0 som var tilstede "
+"i v3.0. Dessverre er enkelte funksjoner upraktisk å oppdatere på den nye "
+"versjonen av Twitch sitt nettsted.\n"
+"\n"
+"Mange egenskaper er fortsatt planlagt å vende tilbake når utviklerne har "
+"tid til å implementere dem. Det er ingen tidsplan over avventende "
+"funksjoner. Funksjoner blir lansert umiddelbart etter de er fullført.\n"
+"\n"
+"* *Jeg har donert, men merket mitt dukker ikke opp.*\n"
+"* *Jeg la til en emote på kanalen min, men jeg ser den ikke.*\n"
+"\n"
+"På grunn av ytelsesproblemer på vårt nåværende nettsted, må vi bruke "
+"mellomlagring på API-en vår. På grunn av dette, kan det ta opp til en "
+"halvtime før endringer gjort på merker eller emoter blir tatt i bruk. Etter "
+"å ha ventet, oppfrisk siden og innholdet ditt burde dukke opp. Du kan også "
+"prøve en hard gjeninnlasting av siden.\n"
+"\n"
+"* *Jeg vil ikke ha `FFZ-supporter`-merket.*\n"
+"\n"
+"Brukere kan endre på synligheten til supportermerket hos: "
+"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"\n"
+"* *Jeg kan se emotene mine, men noen i chatten sa de ikke kunne se dem.*\n"
+"\n"
+"Brukere må ha FrankerFaceZ installert, eller en annen tredjepartsklient som "
+"støtter FFZ-emoter, for å se emoter fra FrankerFaceZ. Brukere kan kanskje "
+"heller ikke se nylig tillagte emoter, avhengig av nettlesermellomlagringen "
+"og når de senest gjeninnlastet siden.\n"
+"\n"
+"* *Jeg så en stjålet emote!*\n"
+"* *Jeg så en støtende emote!*\n"
+"\n"
+"Vennligst rapporter inn slike emoteproblemer gjennom `Report "
+"Emote`-verktøyet på nettstedet vårt. Shift-venstreklikk på den "
+"problematiske emoten for å åpne siden dens, og velg `Report Emote` i den "
+"høyre sidelinken. Du vil måtte logge på for å rapportere inn en emote."
+
+msgid "home.feedback"
+msgstr ""
+"## Tilbakemelding\n"
+"\n"
+"Du kan gi oss tilbakemelding og feilrapporter ved å [åpne en saksrapport på "
+"vårt "
+"GitHub-kodelager](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Du "
+"kan også [finne oss på GitHub](https://discord.gg/UrAkGhT) eller [tvitre "
+"til oss](https://twitter.com/FrankerFaceZ).\n"
+"\n"
+"Når du oppretter en GitHub-saksrapport, vennligst sjekk at ingen andre "
+"allerede har opprettet en sak for hva du vil diskutere eller rapportere "
+"inn. GitHub-saker burde brukes for saker om klienten, og ikke spørsmål om "
+"emote-godkjenning.\n"
+"\n"
+"Når du oppretter en sak, vennligst også last opp loggføringene som er "
+"oppgitt nedenfor, og inkluder lenken i rapporten din."
+
+msgid "home.github"
+msgstr "GitHub"
+
+msgid "home.new-settings"
+msgstr "Nye innstillinger"
+
+msgid "home.tag-line"
+msgstr "Twitch-forbedringsplattformen"
+
+msgid "home.tweets"
+msgstr "Tvitringer av FrankerFaceZ"
+
+msgid "home.twitter"
+msgstr "Twitter"
+
+msgid "home.website"
+msgstr "FrankerFaceZ-nettstedet"
+
+msgid "setting.actions.action"
+msgstr "Handling"
+
+msgid "setting.actions.add-default"
+msgstr "Legg til standardene"
+
+msgid "setting.actions.add-default-tip"
+msgstr "Legg til alle standardhandlingene til denne profilen."
+
+msgid "setting.actions.appearance"
+msgstr "Utseende"
+
+msgid "setting.actions.appearance.combo"
+msgstr "Tekst og ikon"
+
+msgid "setting.actions.appearance.icon"
+msgstr "Ikon"
+
+msgid "setting.actions.appearance.image"
+msgstr "Bilde"
+
+msgid "setting.actions.appearance.text"
+msgstr "Tekst"
+
+msgid "setting.actions.chat"
+msgstr "Chatkommando"
+
+msgid "setting.actions.color"
+msgstr "Farge"
+
+msgid "setting.actions.color.warn"
+msgstr ""
+"Denne verdien vil bli automatisk justert for synlighet basert på dine "
+"chatfargeinnstillinger."
+
+msgid "setting.actions.delete-all"
+msgstr "Slett alle denne profilens handlinger."
+
+msgid "setting.actions.drag"
+msgstr "Dra handlinger rundt for å omsortere dem."
+
+msgid "setting.actions.duration"
+msgstr "Varighet"
+
+msgid "setting.actions.edit-visible.deleted"
+msgstr "Meldingen er slettet"
+
+msgid "setting.actions.edit-visible.emote-only"
+msgstr "Modus med kun emoter"
+
+msgid "setting.actions.edit-visible.follows"
+msgstr "Modus kun for følgere"
+
+msgid "setting.actions.edit-visible.mod"
+msgstr "Moderator"
+
+msgid "setting.actions.edit-visible.mod-icons"
+msgstr "Mod-ikoner"
+
+msgid "setting.actions.edit-visible.modifier"
+msgstr "Modifikatorer"
+
+msgid "setting.actions.edit-visible.r9k"
+msgstr "R9K-modus"
+
+msgid "setting.actions.edit-visible.slow"
+msgstr "Treg modus"
+
+msgid "setting.actions.edit-visible.subs"
+msgstr "Modus kun for abonnenter"
+
+msgid "setting.actions.icon"
+msgstr "Ikon"
+
+msgid "setting.actions.new"
+msgstr "Ny..."
+
+msgid "setting.actions.no-actions"
+msgstr "ingen handlinger er definert i denne profilen"
+
+msgid "setting.actions.no-visible"
+msgstr "ingen synlige handlinger"
+
+msgid "setting.actions.preview"
+msgstr "Forhåndsvisning:"
+
+msgid "setting.actions.preview.all"
+msgstr "Vis alle"
+
+msgid "setting.actions.preview.deleted"
+msgstr "Slettet melding"
+
+msgid "setting.actions.preview.emote-only"
+msgstr "Kun emoter"
+
+msgid "setting.actions.preview.followers"
+msgstr "Kun følgere"
+
+msgid "setting.actions.preview.mod"
+msgstr "Som moderator"
+
+msgid "setting.actions.preview.mod_icons"
+msgstr "Med mod-ikoner"
+
+msgid "setting.actions.preview.r9k"
+msgstr "R9K-modus"
+
+msgid "setting.actions.preview.slow"
+msgstr "Treg modus"
+
+msgid "setting.actions.preview.subs"
+msgstr "Kun abonnenter"
+
+msgid "setting.actions.reason"
+msgstr "Standardårsak"
+
+msgid "setting.actions.set-chat"
+msgstr "Lim denne meldingen inn i chatten i stedet for å sende den direkte."
+
+msgid "setting.actions.text"
+msgstr "Merkelapp"
+
+msgid "setting.actions.tooltip"
+msgstr "Tilpasset verktøytips"
+
+msgid "setting.actions.type"
+msgstr "Skriv"
+
+msgid "setting.actions.url"
+msgstr "Adresse"
+
+msgid "setting.actions.variables"
+msgstr "Tilgjengelige variabler: {vars}"
+
+msgid "setting.actions.visibility"
+msgstr "Synlighet"
+
+msgid "setting.actions.visible"
+msgstr "synlig: {list}"
+
+msgid "setting.actions.visible.always"
+msgstr "alltid"
+
+msgid "setting.actions.visible.deleted"
+msgstr "dersom meldingen er slettet"
+
+msgid "setting.actions.visible.mod"
+msgstr "hvis man er moderator"
+
+msgid "setting.actions.visible.mod_icons"
+msgstr "når mod-ikoner vises"
+
+msgid "setting.actions.visible.slow"
+msgstr "når tregmodus er i bruk"
+
+msgid "setting.actions.visible.undeleted"
+msgstr "dersom meldingen ikke er slettet"
+
+msgid "setting.add"
+msgstr "Legg til"
+
+msgid "setting.add_ons"
+msgstr "Utvidelser"
+
+msgid "setting.add_ons.changelog"
+msgstr "Endringslogg"
+
+msgid "setting.add_ons.changelog.title"
+msgstr "Utvidelses-endringslogg"
+
+msgid "setting.add_ons.description"
+msgstr ""
+"Utvidelser er ekstra moduler, ofte laget av andre folk, som kan lastes inn "
+"automatisk av FrankerFaceZ for å legge til nye egenskaper og oppførsler til "
+"utvidelsen og Twitch."
+
+msgid "setting.add_ons.development"
+msgstr "Utvikling"
+
+msgid "setting.appearance"
+msgstr "Utseende"
+
+msgid "setting.appearance.control_center"
+msgstr "Kontrollpanel"
+
+msgid "setting.appearance.description"
+msgstr ""
+"Personliggjør utseendet til Twitch. Endre fargepaletten og skrifttyper, og "
+"juster oppsettet til å passe til din opplevelse."
+
+msgid "setting.appearance.layout"
+msgstr "Utforming"
+
+msgid "setting.appearance.layout.channel"
+msgstr "Kanal"
+
+msgid "setting.appearance.layout.clips"
+msgstr "Klippinger"
+
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Kantnavigasjon"
+
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Toppnavigasjon"
+
+msgid "setting.appearance.localization"
+msgstr "Oversettelse"
+
+msgid "setting.appearance.localization.formatting"
+msgstr "Formatering"
+
+msgid "setting.appearance.localization.general"
+msgstr "Generell"
+
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Tullespråk"
+
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Støttede språk"
+
+msgid "setting.appearance.localization.general.language.twitch"
+msgstr "Bruk Twitch sitt språk"
+
+msgid "setting.appearance.theme"
+msgstr "Tema"
+
+msgid "setting.appearance.theme.colors"
+msgstr "Farger"
+
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Dette er en rask forhåndsvisning av et nytt system som snart kommer til "
+"FrankerFaceZ. Forvent tunge endringer her, inkludert adskilte lette og "
+"avanserte moduser, og bedre fargevalg."
+
+msgid "setting.appearance.theme.fonts"
+msgstr "Skrifttyper"
+
+msgid "setting.appearance.theme.legacy"
+msgstr "Gammel versjon"
+
+msgid "setting.backup-restore.about"
+msgstr ""
+"Dette verktøyet lar deg sikkerhetskopiere og gjenopprette dine "
+"FrankerFaceZ-innstillinger, inkludert alle innstillinger fra "
+"kontrollsenteret, sammen med slike data som favorittstemplede emoter og "
+"blokkerte spill."
+
+msgid "setting.backup-restore.confirm-updates"
+msgstr ""
+"Profilen du importerer har en URL for automatiske oppdateringer. Vil du at "
+"profilen skal holde seg selv oppdatert?"
+
+msgid "setting.backup-restore.disable-auto"
+msgstr "Nei, forhindre automatiske oppdateringer."
+
+msgid "setting.backup-restore.enable-auto"
+msgstr "Ja, tillat automatiske oppdateringer."
+
+msgid "setting.backup-restore.error"
+msgstr "Det oppsto en feil under behandling av denne sikkerhetskopien."
+
+msgid "setting.backup-restore.http-loading"
+msgstr "Laster …"
+
+msgid "setting.backup-restore.imported"
+msgstr ""
+"Profilen «{name}» har blitt vellykket importert med {count,number} "
+"{count,plural,one {innstilling} other {innstillinger}}."
+
+msgid "setting.backup-restore.imported-at"
+msgstr "Importert den {now,datetime}."
+
+msgid "setting.backup-restore.non-supported"
+msgstr "Filen er ikke gjenkjent som et støttet sikkerhetskopiformat."
+
+msgid "setting.backup-restore.old-file"
+msgstr ""
+"Denne filen er ugyldig eller ble laget i en annen versjon av FrankerFaceZ, "
+"og kan ikke lastes inn."
+
+msgid "setting.backup-restore.pick-profile"
+msgstr "Velg en profil å importere."
+
+msgid "setting.backup-restore.restore-backup"
+msgstr "Gjenopprett sikkerhetskopi"
+
+msgid "setting.backup-restore.restored"
+msgstr ""
+"{count,number} gjenstander har blitt gjenopprettet. Vennligst oppfrisk "
+"denne siden."
+
+msgid "setting.backup-restore.save-backup"
+msgstr "Lagre sikkerhetskopi"
+
+msgid "setting.cancel"
+msgstr "Avbryt"
+
+msgid "setting.channel"
+msgstr "Kanal"
+
+msgid "setting.channel.appearance"
+msgstr "Utseende"
+
+msgid "setting.channel.appearance.general"
+msgstr "Generell"
+
+msgid "setting.channel.behavior"
+msgstr "Adferd"
+
+msgid "setting.channel.behavior.general"
+msgstr "Generell"
+
+msgid "setting.channel.behavior.hosting"
+msgstr "Er vertskap for"
+
+msgid "setting.channel.behavior.panels"
+msgstr "Paneler"
+
+msgid "setting.channel.behavior.raids"
+msgstr "Raid"
+
+msgid "setting.channel.behavior.squads"
+msgstr "Gjenger"
+
+msgid "setting.channel.metadata"
+msgstr "Metadata"
+
+msgid "setting.channel.metadata.appearance"
+msgstr "Utseende"
+
+msgid "setting.channel.metadata.clips"
+msgstr "Klipp"
+
+msgid "setting.channel.metadata.player"
+msgstr "Avspiller"
+
+msgid "setting.channel.metadata.subscription"
+msgstr "Abonnement"
+
+msgid "setting.chat"
+msgstr "Chat"
+
+msgid "setting.chat.actions"
+msgstr "Handlinger"
+
+msgid "setting.chat.actions.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.actions.in_line"
+msgstr "Inni-linje"
+
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Her kan du definere tilpassede handlinger som dukker opp sammen med "
+"meldinger i chatten. Dersom du ikke ser en handling som du har definert her "
+"i chatten, vennligst sørg for at du har skrudd på mod-ikoner i "
+"chatinnstillingsmenyen."
+
+msgid "setting.chat.actions.reasons"
+msgstr "Årsaker"
+
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Selvvalgte årsaker"
+
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Regler"
+
+msgid "setting.chat.actions.room"
+msgstr "Rom"
+
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Her kan du bestemme tilpassede handlinger som vil dukke opp over "
+"chat-inndataboksen."
+
+msgid "setting.chat.actions.room.general"
+msgstr "Generell"
+
+msgid "setting.chat.actions.user_context"
+msgstr "Brukersammenheng"
+
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Her kan du definere tilpassede handlinger som dukker opp i en "
+"sammenhengsmeny når du høyreklikker på et brukernavn i chatten."
+
+msgid "setting.chat.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Chatlinjer"
+
+msgid "setting.chat.appearance.colors"
+msgstr "Farger"
+
+msgid "setting.chat.appearance.community"
+msgstr "Nettsamfunn"
+
+msgid "setting.chat.appearance.community_chest"
+msgstr "Samfunnsskattekiste"
+
+msgid "setting.chat.appearance.emoji"
+msgstr "Emoji"
+
+msgid "setting.chat.appearance.emotes"
+msgstr "Emoter"
+
+msgid "setting.chat.appearance.general"
+msgstr "Generell"
+
+msgid "setting.chat.appearance.replies"
+msgstr "Svar"
+
+msgid "setting.chat.appearance.rich_content"
+msgstr "Rikt innhold"
+
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Abonnementer"
+
+msgid "setting.chat.badges"
+msgstr "Utmerkelser"
+
+msgid "setting.chat.badges.behavior"
+msgstr "Oppførsel"
+
+msgid "setting.chat.badges.tabs"
+msgstr "faner"
+
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Synlighet"
+
+msgid "setting.chat.behavior"
+msgstr "Adferd"
+
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Slettede meldinger"
+
+msgid "setting.chat.behavior.general"
+msgstr "Generell"
+
+msgid "setting.chat.behavior.scrolling"
+msgstr "Rulling"
+
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bits og jubling"
+
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Adferd"
+
+msgid "setting.chat.channel_points"
+msgstr "Kanalpoeng"
+
+msgid "setting.chat.channel_points.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.channel_points.behavior"
+msgstr "Adferd"
+
+msgid "setting.chat.channel_points.general"
+msgstr "Generell"
+
+msgid "setting.chat.chat_on_videos"
+msgstr "Chat på videoer"
+
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Denne funksjonen er for øyeblikket i beta. Dermed kan du oppleve problemer "
+"når du bruker FFZ-funksjoner i videochatter."
+
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Generell"
+
+msgid "setting.chat.emote_menu"
+msgstr "Emote-meny"
+
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.emote_menu.general"
+msgstr "Generell"
+
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Sortering"
+
+msgid "setting.chat.filtering"
+msgstr "Filtrering"
+
+msgid "setting.chat.filtering.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "AutoMod-filtre"
+
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Ekstra oppsett for Twitch sine egne `Chatfiltre`."
+
+msgid "setting.chat.filtering.behavior"
+msgstr "Adferd"
+
+msgid "setting.chat.filtering.block"
+msgstr "Blokker"
+
+msgid "setting.chat.filtering.block.badges"
+msgstr "Utmerkelser"
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Blokkerte merker"
+
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Blokkerte uttrykk"
+
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Blokkerte brukere"
+
+msgid "setting.chat.filtering.block.terms"
+msgstr "Vilkår"
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Brukere"
+
+msgid "setting.chat.filtering.general"
+msgstr "Generelt"
+
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "AutoMod-filtre"
+
+msgid "setting.chat.filtering.general.auto_mod_filters.description"
+msgstr "Ekstra oppsett for Twitch sine egne `Chatfiltre`."
+
+msgid "setting.chat.filtering.general.behavior"
+msgstr "Oppførsel"
+
+msgid "setting.chat.filtering.general.rituals"
+msgstr "Ritualer"
+
+msgid "setting.chat.filtering.highlight"
+msgstr "Marker"
+
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Fremhev merker"
+
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Utmerkelser"
+
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Fremhev uttrykk"
+
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Vilkår"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Fremhev brukere"
+
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Brukere"
+
+msgid "setting.chat.filtering.rituals"
+msgstr "Ritualer"
+
+msgid "setting.chat.input"
+msgstr "Inngang"
+
+msgid "setting.chat.input.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.input.recent_messages"
+msgstr "Nylige meldinger"
+
+msgid "setting.chat.input.tab_completion"
+msgstr "Fanefullføring"
+
+msgid "setting.chat.tooltips"
+msgstr "Verktøytips"
+
+msgid "setting.chat.tooltips.badges"
+msgstr "Utmerkelser"
+
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emoter"
+
+msgid "setting.chat.tooltips.general"
+msgstr "Generell"
+
+msgid "setting.chat.tooltips.links"
+msgstr "Lenker"
+
+msgid "setting.chat.viewer_cards"
+msgstr "Seerkort"
+
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Utseende"
+
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Adferd"
+
+msgid "setting.chat.whispers"
+msgstr "Hviskinger"
+
+msgid "setting.chat.whispers.general"
+msgstr "Generell"
+
+msgid "setting.clear"
+msgstr "Tøm"
+
+msgid "setting.clear.opt.Profiles"
+msgstr "Profiler"
+
+msgid "setting.close"
+msgstr "Lukk"
+
+msgid "setting.color.nullable"
+msgstr "Høyreklikk for å tilbakestille"
+
+msgid "setting.combo-box.custom"
+msgstr "Egendefinert"
+
+msgid "setting.configure"
+msgstr "Konfigurer"
+
+msgid "setting.copy-json"
+msgstr "Kopier"
+
+msgid "setting.data_management"
+msgstr "Databehandling"
+
+msgid "setting.data_management.backup_and_restore"
+msgstr "Sikkerhetskopier"
+
+msgid "setting.data_management.profiles"
+msgstr "Profiler"
+
+msgid "setting.data_management.profiles.edit.desc"
+msgstr "Beskrivelse"
+
+msgid "setting.data_management.profiles.edit.general"
+msgstr "Generell"
+
+msgid "setting.data_management.profiles.edit.hotkey"
+msgstr "Hurtigtast"
+
+msgid "setting.data_management.profiles.edit.name"
+msgstr "Navn"
+
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Rediger profil"
+
+msgid "setting.data_management.profiles.edit.rules"
+msgstr "Regler"
+
+msgid "setting.data_management.profiles.edit.rules.description"
+msgstr ""
+"Oppføringer lar deg definere en rekke vilkår for at profilen skal være "
+"aktiv. Dersom det er flere oppføringer, må alle samsvare for at profilen "
+"skal være aktiv. Vennligst bruk en `Eller`-regel for å lage en profil som "
+"skrus på når den samsvarer med ett av flere oppføringer."
+
+msgid "setting.data_management.profiles.edit.updates"
+msgstr "Automatiske oppdateringer"
+
+msgid "setting.data_management.reporting"
+msgstr "Rapportering"
+
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Feilrapporter"
+
+msgid "setting.data_management.reporting.example_report"
+msgstr "Eksempelrapport"
+
+msgid "setting.data_management.storage"
+msgstr "Lagring"
+
+msgid "setting.data_management.storage.tabs"
+msgstr "faner"
+
+msgid "setting.data_management.storage.tabs.clear"
+msgstr "Tøm"
+
+msgid "setting.data_management.storage.tabs.provider"
+msgstr "Tilbyder"
+
+msgid "setting.debugging"
+msgstr "Avlusing"
+
+msgid "setting.debugging.data_sources.links"
+msgstr "Lenker"
+
+msgid "setting.debugging.experiments"
+msgstr "Eksperimenter"
+
+msgid "setting.debugging.localization"
+msgstr "Oversettelse"
+
+msgid "setting.debugging.localization.editing"
+msgstr "Redigering"
+
+msgid "setting.debugging.localization.general"
+msgstr "Generell"
+
+msgid "setting.debugging.socket"
+msgstr "Sokkel"
+
+msgid "setting.debugging.socket.general"
+msgstr "Generell"
+
+msgid "setting.debugging.socket.info"
+msgstr "Info"
+
+msgid "setting.delete"
+msgstr "Slett"
+
+msgid "setting.delete-all"
+msgstr "Slett alle"
+
+msgid "setting.dev-warning"
+msgstr "Det er farlig å vandre rundt i det hele tatt."
+
+msgid "setting.directory"
+msgstr "Mappe"
+
+msgid "setting.directory.categories"
+msgstr "Kategorier"
+
+msgid "setting.directory.categories.blocked"
+msgstr "Blokkert"
+
+msgid "setting.directory.channels"
+msgstr "Kanaler"
+
+msgid "setting.directory.channels.appearance"
+msgstr "Utseende"
+
+msgid "setting.directory.channels.blocked_and_hidden_categories"
+msgstr "Blokkerte og skjulte kategorier"
+
+msgid "setting.directory.channels.description"
+msgstr ""
+"**Bemerk:** Disse innstillingene virker ikke for øyeblikket, på grunn av "
+"endringer gjort av Twitch på hvordan mappene fungerer."
+
+msgid "setting.directory.following"
+msgstr "Følger"
+
+msgid "setting.directory.following.categories"
+msgstr "Kategorier"
+
+msgid "setting.directory.following.description"
+msgstr ""
+"**Bemerk:** Disse innstillingene virker ikke for øyeblikket, på grunn av "
+"endringer gjort av Twitch på hvordan mappene fungerer."
+
+msgid "setting.directory.following.hosts"
+msgstr "Vertskaper"
+
+msgid "setting.edit"
+msgstr "Rediger"
+
+msgid "setting.entry.add-ons"
+msgstr "Utvidelser"
+
+msgid "setting.entry.addons.dev.server"
+msgstr "Bruk lokal utviklingstjener"
+
+msgid "setting.entry.addons.dev.server.description"
+msgstr ""
+"Forsøk å laste inn lokale utvidelser fra en lokal utviklingstjener på port "
+"8001."
+
+msgid "setting.entry.backup"
+msgstr "sikkerhetskopi"
+
+msgid "setting.entry.changelog"
+msgstr "endringslogg"
+
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Åpne chatten automatisk når du åpner en kanalside som ikke sender."
+
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Skjul «LIVE»-indikatoren på direktesendende kanalsider."
+
+msgid "setting.entry.channel.hide-not-live-bar"
+msgstr "Skjul «Direkte nå»-linjen."
+
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"Skjul linjen som dukker opp under klipp og videoer når senderen er direkte, "
+"som forteller deg om at de sender direkte."
+
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Skru på kanalvertskap"
+
+msgid "setting.entry.channel.metadata.force-above"
+msgstr "Tving metadata og stempler øverst på kanalinformasjonslinjen."
+
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Ikke bli automatisk med i raid."
+
+msgid "setting.entry.channel.round-avatars"
+msgstr "Tillat at avatarbilder blir runde."
+
+msgid "setting.entry.channel.show-celebrations"
+msgstr "Tillat at feiringer vises."
+
+msgid "setting.entry.channel.show-celebrations.description"
+msgstr "Feiringer er animasjoner som dekker hele Twitch-siden."
+
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "Ikke omdiriger automatisk til gjengsendinger."
+
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Vis romhandlinger over chat-inndataboksen."
+
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Inkluder det nåværende rommets regler i årsakslisten."
+
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Minimal kontrast"
+
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Velg minimumskontrastforholdet brukt av Luma-justeringer når lesbarheten "
+"skal avgjøres."
+
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Justering"
+
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Endre på brukerfarger for å sørge for at de forblir lesbare."
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Uendret"
+
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL-luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Ingen farge"
+
+msgid "setting.entry.chat.adjustment-mode.values.2"
+msgstr "Luv-luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.3"
+msgstr "HSL-loop (BTTV-aktig)"
+
+msgid "setting.entry.chat.adjustment-mode.values.4"
+msgstr "RGB-loop (Foreldet)"
+
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Merk meldinger som slettet dersom de inneholder filtrerte fraser."
+
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Fjern meldingene fullstendig dersom de inneholder filtrerte fraser."
+
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Benytt chatfiltre som en moderator."
+
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"Som standard fungerer Twitch sine chatfiltre ikke for moderatorer. Dette "
+"overstyrer den oppførselen."
+
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Bruk tilpassede moderatormerker der det er tilgjengelig."
+
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Juster merkefarger for synlighet."
+
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Sørger for at merker er synlige mot den nåværende bakgrunnen.\n"
+"\n"
+"**Bemerk:** Påvirker kun merker med tilpasset rendring. Abonnementsmerker, "
+"bit-merker, osv. er ikke påvirket."
+
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Synlighet"
+
+msgid "setting.entry.chat.badges.media-queries"
+msgstr ""
+"Bruk «@media»-forespørsler for å støtte merkebilder med høy pikseltetthet i "
+"Mozilla Firefox."
+
+msgid "setting.entry.chat.badges.media-queries.description"
+msgstr ""
+"Dette er påkrevd for å se merker med høy pikseltetthet i Firefox, fordi "
+"Firefox fortsatt ikke støtter `image-set()` etter mer enn fem år. Den kan "
+"være mindre pålitelig."
+
+msgid "setting.entry.chat.badges.style"
+msgstr "Stil"
+
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Kvadrat"
+
+msgid "setting.entry.chat.badges.style.values.1"
+msgstr "Avrundet"
+
+msgid "setting.entry.chat.badges.style.values.2"
+msgstr "Sirkulær"
+
+msgid "setting.entry.chat.badges.style.values.3"
+msgstr "Sirkulær (kun farger)"
+
+msgid "setting.entry.chat.badges.style.values.4"
+msgstr "Sirkulær (kun farger, liten)"
+
+msgid "setting.entry.chat.badges.style.values.5"
+msgstr "Gjennomsiktig"
+
+msgid "setting.entry.chat.badges.style.values.6"
+msgstr "Gjennomsiktig (med farger)"
+
+msgid "setting.entry.chat.badges.version"
+msgstr "Versjon"
+
+msgid "setting.entry.chat.badges.version.values.1"
+msgstr "1 (Før desember 2019)"
+
+msgid "setting.entry.chat.badges.version.values.2"
+msgstr "2 (Nåværende)"
+
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "La hype-toget vises i chatten."
+
+msgid "setting.entry.chat.banners.polls"
+msgstr "La avstemninger vises i chatten."
+
+msgid "setting.entry.chat.bits.animated"
+msgstr "Vis animerte jublinger."
+
+msgid "setting.entry.chat.bits.show"
+msgstr "Vis bits"
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Visningsgrensesnitt forbundet med bits. Bemerk at dette ikke vil skjule "
+"jubling i chatmeldinger."
+
+msgid "setting.entry.chat.bits.show-pinned"
+msgstr "Vis ledertavlen"
+
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr "Vis meldinger når en jubling deler belønninger med folk i chatten."
+
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"Som standard arver det dens verdi fra «Vis bits». Denne innstillingen "
+"påvirker kun nylig ankomne meldinger."
+
+msgid "setting.entry.chat.bits.stack"
+msgstr "Oppstabling av jubling"
+
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Samle alle jublinger i en melding i én enkelt jubling i starten av "
+"meldingen."
+
+msgid "setting.entry.chat.bits.stack.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.bits.stack.values.1"
+msgstr "Sortert etter type"
+
+msgid "setting.entry.chat.bits.stack.values.2"
+msgstr "Alt-i-ett"
+
+msgid "setting.entry.chat.click-emotes"
+msgstr "Åpne emoteinformasjonssider ved å Shift+venstreklikke dem."
+
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Vis samfunnsskattekistegave-plakaten."
+
+msgid "setting.entry.chat.delay"
+msgstr "Kunstig chatforsinkelse"
+
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Forsink at chatmeldinger dukker opp, slik at de kan modereres før du ser "
+"dem."
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Ingen forsinkelse"
+
+msgid "setting.entry.chat.delay.values.-1"
+msgstr "Standardforsinkelse (Romspesifikt; Kun for ikke-moderatorer)"
+
+msgid "setting.entry.chat.delay.values.10000"
+msgstr "Ekstra stor (10sek)"
+
+msgid "setting.entry.chat.delay.values.1200"
+msgstr "Normal (Menneskelig moderasjon; 1,2sek)"
+
+msgid "setting.entry.chat.delay.values.15000"
+msgstr "Ekstremt stor (15sek)"
+
+msgid "setting.entry.chat.delay.values.20000"
+msgstr "Moderatorer sover; Forsink chatten (20sek)"
+
+msgid "setting.entry.chat.delay.values.300"
+msgstr "Bitteliten (Botmoderasjon; 0,3sek)"
+
+msgid "setting.entry.chat.delay.values.30000"
+msgstr "Halvminutt (30sek)"
+
+msgid "setting.entry.chat.delay.values.5000"
+msgstr "Stor (Spoilerfjerning / Trege moderatorer; 5sek)"
+
+msgid "setting.entry.chat.delay.values.60000"
+msgstr "Hvorfor??? (1min)"
+
+msgid "setting.entry.chat.delay.values.788400000000"
+msgstr "CBenni-alternativet (Bokstavlig talt 25 år)"
+
+msgid "setting.entry.chat.emoji.style"
+msgstr "Emojistil"
+
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Innebygd"
+
+msgid "setting.entry.chat.emoji.style.values.emojione"
+msgstr "EmojiOne"
+
+msgid "setting.entry.chat.emoji.style.values.google"
+msgstr "Google (Noto)"
+
+msgid "setting.entry.chat.emoji.style.values.twitter"
+msgstr "Twitter (Twemoji)"
+
+msgid "setting.entry.chat.emote-dialogs"
+msgstr "Åpne emoteinformasjonskort for Twitch-emoter ved å klikke på dem."
+
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Vis alle emoter i én fane."
+
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Standardfane"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.all"
+msgstr "Mine emoter"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
+msgstr "Kanal"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
+msgstr "Emoji"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
+msgstr "Favoritter"
+
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Bruk FrankerFaceZ sin emotemeny."
+
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"FFZ-emotemenyen erstatter den innebygde Twitch-emotemenyen og sørger for "
+"utvidet funksjonalitet."
+
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr "Erstatt emotemenyikonet med FFZ-ikonet for den klassiske følelsen."
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.1"
+msgstr "Inni-linje"
+
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Bruk redusert innpakking."
+
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Bruk Ctrl+E til å åpne emotemenyen."
+
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr ""
+"Når dette er skrudd på og du trykker på Ctrl+E mens chatinndataen er i "
+"fokus, vil emotemenyen åpnes opp."
+
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Vis overskrifter"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.0"
+msgstr "Aldri"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.1"
+msgstr "Alltid"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.2"
+msgstr "Når det ikke søkes"
+
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Vis søkeboksen."
+
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Sorter emoter etter"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
+msgstr "Dato de ble lagt til (ID), stigende"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
+msgstr "Dato de ble lagt til (ID), synkende"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
+msgstr "Navn, stigende"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
+msgstr "Navn, synkende"
+
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Vis emoter fra høyere abonnementstrinn sist."
+
+msgid "setting.entry.chat.emotes.animated.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.emotes.animated.values.1"
+msgstr "Slått av"
+
+msgid "setting.entry.chat.emotes.enabled.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.emotes.enabled.values.2"
+msgstr "Slått av"
+
+msgid "setting.entry.chat.filtering.bold-mentions"
+msgstr "Vis nevninger i chat med en tykk skrifttype."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Skru på åpning av seerkort ved å klikke på nevninger i chatten."
+
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Klikk for å vise slettede uttrykk."
+
+msgid "setting.entry.chat.filtering.deleted-style"
+msgstr "Stil for detaljerte meldinger"
+
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Denne stilen vil bli benyttet for slettede meldinger som vises i "
+"'Detaljert'-rendringsmodus for å skille dem fra vanlige chatmeldinger."
+
+msgid "setting.entry.chat.filtering.deleted-style.values.0"
+msgstr "Tonet ut"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.1"
+msgstr "Tonet ut, gjennomstreket"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.2"
+msgstr "Gjennomstreking"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.3"
+msgstr "Ingen endring"
+
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Rendringsmodus"
+
+msgid "setting.entry.chat.filtering.display-deleted.description"
+msgstr ""
+"Når dette er valgt, overstyrer dette `Slettede meldinger`-modusen som er "
+"valgt i Twitch-chatinnstillingene, noe som normalt bare er tilgjengelig for "
+"moderatorer. 'Raskt' skjuler meldinger fullstendig og viser et varsel i "
+"chatten om at et antall meldinger ble slettet. 'Detaljert' viser innholdet "
+"til beskjeden."
+
+msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
+msgstr "Raskt"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
+msgstr "Detaljert"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.false"
+msgstr "Ikke overstyr"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
+msgstr "Gammel versjon"
+
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Vis årsak"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.0"
+msgstr "Aldri"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.1"
+msgstr "I detaljert modus"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.2"
+msgstr "Alltid"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Fremhev meldinger som nevner deg."
+
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Fremhev samsvarende ord i chatten."
+
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Ikke tøm chatten når det blir kommandert til det."
+
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Tilpasset fremhevingsfarge"
+
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Dersom dette er valgt, vil fremhevede meldinger uten noen standardfarge, "
+"bruke denne fargen i stedet for rødt."
+
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Filtrer dine egne meldinger."
+
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Fjern slettede meldinger fra chatten."
+
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Slettede meldinger blir fjernet fullstendig fra chatten. Denne "
+"innstillingen er ikke anbefalt for moderatorer."
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.0"
+msgstr "Ikke fjern"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.1"
+msgstr "Fjern usette (Standard)"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.2"
+msgstr "Fjern usette som moderator"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.3"
+msgstr "Fjern alle"
+
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Fiks problemer med Twitchs egne emoter"
+
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Rydd opp i bildene til dårlige kanal-uavhengige Twitch-emoter, ved å fjerne "
+"hvite kanter og faste bakgrunner."
+
+msgid "setting.entry.chat.font-family"
+msgstr "Skriftfamiie"
+
+msgid "setting.entry.chat.font-family.description"
+msgstr "Velg skrifttypen som brukes til å vise chatmeldinger."
+
+msgid "setting.entry.chat.font-size"
+msgstr "Skriftstørrelse"
+
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Hvor bred teksten i chatten skal være, i piksler. Dette kan bli påvirket av "
+"din nettlesers forstørrelses- og skrifttypestørrelses-innstillinger."
+
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr "Skjul alle samfunnsfremhevinger fra toppen av chatten."
+
+msgid "setting.entry.chat.hide-community-highlights.description"
+msgstr ""
+"Samfunnsfremhevinger er avstemninger, samfunnsabonnementsgivinger, osv. som "
+"svever over toppen av chatten midlertidig, uten noen måte å lukke dem på."
+
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Vis modvisningsknappen på relevante kanaler."
+
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Vis linjer med alternerende bakgrunnsfarger."
+
+msgid "setting.entry.chat.lines.borders"
+msgstr "Adskillere"
+
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.lines.borders.values.1"
+msgstr "Enkel linke (1px solid)"
+
+msgid "setting.entry.chat.lines.borders.values.2"
+msgstr "3D-linje (2px hump)"
+
+msgid "setting.entry.chat.lines.borders.values.3"
+msgstr "3D-linje (2px hump inndypning)"
+
+msgid "setting.entry.chat.lines.borders.values.4"
+msgstr "Bred linje (2px solid)"
+
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Emote-justering"
+
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Endre hvordan emoter posisjoneres i chatten, noe som potensielt kan gjøre "
+"meldinger høyere for å unngå at emoter overlapper."
+
+msgid "setting.entry.chat.lines.emote-alignment.values.0"
+msgstr "Standard"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.1"
+msgstr "Innpakket"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.2"
+msgstr "Grunnlinje (BTTV-aktig)"
+
+msgid "setting.entry.chat.lines.padding"
+msgstr "Reduser utfylling rundt linjer."
+
+msgid "setting.entry.chat.mru.enabled"
+msgstr "Tillat å trykke opp og ned for å finne igjen nylig sendte chatmeldinger."
+
+msgid "setting.entry.chat.name-format.values.2"
+msgstr "Brukernavn"
+
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Automatisk fest fast abonnementsfornyingsmeldinger i chatten."
+
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr "Fremhev meldingen i chatten når noen fremhever «Fremhev meldingen min»."
+
+msgid "setting.entry.chat.points.allow-highlight.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.points.custom-rendering"
+msgstr "Bruk tilpasset rendring for kanalpoengbelønningsbeskjeder i chatten."
+
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"Tilpasset rendring benytter en bakgrunnsfarge til fremhevede meldinger, noe "
+"som enkelte brukere kanskje ikke vil sette pris på."
+
+msgid "setting.entry.chat.points.show-button"
+msgstr "Vis kanalpoengknappen under chatten."
+
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Vis meldinger i chatten om kanalpoengbelønninger."
+
+msgid "setting.entry.chat.points.show-rewards"
+msgstr "La tilgjengelige belønninger vises ved siden av kanalpoengknappen."
+
+msgid "setting.entry.chat.replies.style"
+msgstr "Stil"
+
+msgid "setting.entry.chat.replies.style.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Vis rike innholdsinnbygginger for alle lenker."
+
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Sendere: Vennligst vær klar over at dette er en mulig innfallsvinkel for "
+"voksne bilder gjennom forhåndsvisninger, så ha det i tankene dersom du tar "
+"opp chatten mens dette er skrudd på.*"
+
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Vis rikt innhold i chatten."
+
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr "Dette viser rike innholdsblokker for ting som lenkede klipp og videoer."
+
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Skjul samsvarende lenker til rikt innhold."
+
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Nødvendig brukernivå"
+
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Bare vis rike innholdsinnbygginger på meldinger lagt ut av brukere med "
+"dette nivået eller høyere."
+
+msgid "setting.entry.chat.rich.minimum-level.values.0"
+msgstr "Alle"
+
+msgid "setting.entry.chat.rich.minimum-level.values.1"
+msgstr "Abonnent"
+
+msgid "setting.entry.chat.rich.minimum-level.values.2"
+msgstr "VIP"
+
+msgid "setting.entry.chat.rich.minimum-level.values.3"
+msgstr "Moderator"
+
+msgid "setting.entry.chat.rich.minimum-level.values.4"
+msgstr "Sender"
+
+msgid "setting.entry.chat.rituals.show"
+msgstr "Vis ritualmeldinger som f.eks. «Brukeren er ny her! Si hallo!»."
+
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Tilbakerullingslengde"
+
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Behold opp til så mange linjer i chatten. Å sette dette for høyt vil skape "
+"lagging."
+
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Sett chat-rullingen på pause"
+
+msgid "setting.entry.chat.scroller.freeze.description"
+msgstr ""
+"Automatisk stopp chatten fra å rulle når du holder musepekeren over den "
+"eller holder inn en tast.\n"
+"\n"
+"**Bemerk:** Å rulle opp i chatten vil alltid forhindre automatisk rulling, "
+"uavhengig av denne innstillingen."
+
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Krev at musepekeren er over chatten for å fryse med en hurtigtast."
+
+msgid "setting.entry.chat.scroller.freeze.values.1"
+msgstr "Ved sveving over"
+
+msgid "setting.entry.chat.scroller.freeze.values.2"
+msgstr "Når Ctrl holdes inn"
+
+msgid "setting.entry.chat.scroller.freeze.values.3"
+msgstr "Når Meta holdes inn"
+
+msgid "setting.entry.chat.scroller.freeze.values.4"
+msgstr "Når Alt holdes inn"
+
+msgid "setting.entry.chat.scroller.freeze.values.5"
+msgstr "Når Shift holdes inn"
+
+msgid "setting.entry.chat.scroller.freeze.values.6"
+msgstr "Ctrl eller oversveving"
+
+msgid "setting.entry.chat.scroller.freeze.values.7"
+msgstr "Meta eller oversveving"
+
+msgid "setting.entry.chat.scroller.freeze.values.8"
+msgstr "Alt eller oversveving"
+
+msgid "setting.entry.chat.scroller.freeze.values.9"
+msgstr "Shift eller oversveving"
+
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Sveve-tidsavbrudd"
+
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"Chatten vil kun forbli fryst etter musesveving i så lang tid etter at musen "
+"slutter å bevege på seg."
+
+msgid "setting.entry.chat.scroller.hover-delay.values.1000"
+msgstr "1 sekund"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.250"
+msgstr "0,25 sekunder"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.2500"
+msgstr "2,5 sekunder"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.500"
+msgstr "0,50 sekunder"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.5000"
+msgstr "5 sekunder"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.750"
+msgstr "0,75 sekunder"
+
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Myk rulling"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
+msgstr "Treg"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
+msgstr "Medium"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
+msgstr "Rask"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
+msgstr "Veldig rask"
+
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Åpne Twitch-abonnementssider ved å Shift-venstreklikke på emoter når det er "
+"relevant."
+
+msgid "setting.entry.chat.subs.compact"
+msgstr "Vis abonnementsnotiser i et mer kompakt (og klassisk) format."
+
+msgid "setting.entry.chat.subs.gift-banner"
+msgstr "Vis en plakat på toppen av chatten når en masseabonnementsgivning skjer."
+
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Slå sammen massegivinger av abonnementer"
+
+msgid "setting.entry.chat.subs.merge-gifts.description"
+msgstr ""
+"Slå sammen massegivinger av abonnementer til én enkelt melding, avhengig av "
+"mengden.\n"
+"**Bemerk:** Påvirker kun nylig givne abonnementer."
+
+msgid "setting.entry.chat.subs.merge-gifts.values.0"
+msgstr "Alltid"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.10"
+msgstr "Mer enn 10"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.1000"
+msgstr "Deaktivert"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.20"
+msgstr "Mer enn 20"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.5"
+msgstr "Mer enn 5"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.50"
+msgstr "Mer enn 50"
+
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Utvid sammenslåtte masseabonnementsgavemeldinger som standard."
+
+msgid "setting.entry.chat.subs.show"
+msgstr "Vis abonneringer i chatten"
+
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Bemerk**: Meldinger sendt med fornyende abonnementer vil alltid bli vist. "
+"Dette styrer kun den spesielle «X abonnerte!»-meldingen."
+
+msgid "setting.entry.chat.subs.show.values.0"
+msgstr "Ikke vis"
+
+msgid "setting.entry.chat.subs.show.values.1"
+msgstr "Fornyede abonnementer med meldinger"
+
+msgid "setting.entry.chat.subs.show.values.2"
+msgstr "Kun fornyede abonnementer"
+
+msgid "setting.entry.chat.subs.show.values.3"
+msgstr "Vis alle"
+
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Tillat fanefullføring av emojier."
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr "Tillat fanefullføring av emoter uten å skrive inn et kolon. (:)"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr "Dette vil hindre autofullføringen av brukernavn uten @-prefiksen."
+
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "Tillat fanefullføring av FrankerFaceZ-emoter."
+
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Begrens fanefullføringsresultater til 25."
+
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Prioriter favoritt-emotene øverst."
+
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Tidsstempelformat"
+
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Tidsstempler blir formattert med "
+"[Day.js](https://github.com/iamkun/dayjs#readme)-biblioteket. Mere detaljer "
+"om formattering av strenger [kan bli funnet "
+"her](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
+"list-of-all-available-formats)"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Innpakket"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Innpakket 24-timers"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Innpakket med sekunder"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Innpakket 24-timers med sekunder"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm"
+msgstr "12-timers"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm"
+msgstr "24-timers"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
+msgstr "12-timers med sekunder"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
+msgstr "24-timers med sekunder"
+
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Skru på FrankerFaceZ-egenskaper i videochatter."
+
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Vis FFZ-merker, emoter, og andre funksjoner i chatting på videoer. "
+"Moderasjonsfunksjoner kan være utilgjengelige når dette er skrudd på."
+
+msgid "setting.entry.chat.video-chat.timestamps"
+msgstr "Vis tidsstempler ved siden av chatmeldinger."
+
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Fremhevingsfarge"
+
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr "Fremhev meldinger fra brukere med åpne seerkort."
+
+msgid "setting.entry.chat.width"
+msgstr "Bredde"
+
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Hvor bred chatten skal være, i piksler. Dette kan bli påvirket av din "
+"nettlesers forstørrelses- og skrifttypestørrelses-innstillinger."
+
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Gruppevertskaper"
+
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Bare vis en bestemt bevertet kanal én gang i mappen."
+
+msgid "setting.entry.directory.following.host-menus"
+msgstr "Menyer for vertskapskanal"
+
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Vis en meny for å velge hvilken kanal som skal besøkes, når det klikkes på "
+"en bevertet kanal i mappen."
+
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.directory.following.host-menus.values.1"
+msgstr "Når flere er vertskap"
+
+msgid "setting.entry.directory.following.host-menus.values.2"
+msgstr "Alltid"
+
+msgid "setting.entry.directory.hidden.reveal"
+msgstr "Vis skjulte oppføringer ved musepekersveving"
+
+msgid "setting.entry.directory.hidden.style"
+msgstr "Skjult stil"
+
+msgid "setting.entry.directory.hidden.style.values.0"
+msgstr "Erstatt bilde"
+
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Ikke vis `Nyeste videoer` i Følger-mappen."
+
+msgid "setting.entry.directory.hide-live"
+msgstr "Ikke vis «Direkte»-indikatoren på kanaler som sender direkte."
+
+msgid "setting.entry.directory.hide-recommended"
+msgstr "Ikke vis `Anbefalte direktekanaler` i Følger-mappen."
+
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr "Ikke vis `Basert på din visningshistorikk` i Følger-mappen."
+
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "Ikke vis repriser i arkivet."
+
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Vis kanalavatarer."
+
+msgid "setting.entry.directory.uptime"
+msgstr "Sendingens oppetid"
+
+msgid "setting.entry.directory.uptime.description"
+msgstr "Vis sendingsoppetiden på kanalkort."
+
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.directory.uptime.values.1"
+msgstr "På"
+
+msgid "setting.entry.directory.uptime.values.2"
+msgstr "Skrudd på (med sekunder)"
+
+msgid "setting.entry.experiments"
+msgstr "eksperimenter"
+
+msgid "setting.entry.faq"
+msgstr "ofte stilte spørsmål"
+
+msgid "setting.entry.feedback"
+msgstr "tilbakemelding"
+
+msgid "setting.entry.feedback.log"
+msgstr "feedback.log"
+
+msgid "setting.entry.ffz.show-new-settings"
+msgstr ""
+"Vis en indikator på «FFZ-kontrollpanel»-knappen når det har blitt lagt til "
+"nye innstillinger i FrankerFaceZ."
+
+msgid "setting.entry.home"
+msgstr "hjem"
+
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Skru på meldingsinnhenting."
+
+msgid "setting.entry.i18n.debug.capture.description"
+msgstr ""
+"Innhent alle oversatte strenger, inkludert variabler og kontaktsteder, med "
+"det formål å sende dem inn til backenden. Dette brukes til å legge til nye "
+"strenger i oversettelsesprosjektet. Som standard er meldingsinnhenting "
+"skrudd på når du kjører i utviklingsmodus."
+
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Omgjøring"
+
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Transformer alle oversatte strenger for å teste strengedekning så vel som "
+"lengde."
+
+msgid "setting.entry.i18n.debug.transform.values.append_key"
+msgstr "Påfest nøkkelhint"
+
+msgid "setting.entry.i18n.debug.transform.values.double"
+msgstr "Dobbel"
+
+msgid "setting.entry.i18n.debug.transform.values.lower"
+msgstr "Små bokstaver"
+
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Deaktivert"
+
+msgid "setting.entry.i18n.debug.transform.values.owo"
+msgstr "owo hva er så dette"
+
+msgid "setting.entry.i18n.debug.transform.values.set_key"
+msgstr "Fastsett nøkkelhint"
+
+msgid "setting.entry.i18n.debug.transform.values.upper"
+msgstr "Store bokstaver"
+
+msgid "setting.entry.i18n.format.date"
+msgstr "Datoformat"
+
+msgid "setting.entry.i18n.format.time"
+msgstr "Tidsformat"
+
+msgid "setting.entry.i18n.locale"
+msgstr "Språk"
+
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FrankerFaceZ er elskverdig oversatt av frivillige fra samfunnet vårt. Tusen "
+"takk. Dersom du er interessert i å hjelpe til med å oversette FrankerFaceZ, "
+"bli med i [Discorden vår](https://discord.gg/UrAkGhT) og spør om "
+"oversetting."
+
+msgid "setting.entry.layout.discover"
+msgstr "Vis 'Oppdag'-lenke."
+
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Vis 'Motta bits'-knappen."
+
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Minimer navigeringen"
+
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr "Gli nettstedsnavigasjonslinjen ut av syne når den ikke er i bruk."
+
+msgid "setting.entry.layout.portrait"
+msgstr "Skru på portrettmodus"
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"I Portrettmodus vil chatten vises under avspilleren, dersom vinduet er "
+"høyere enn den er bred."
+
+msgid "setting.entry.layout.portrait-invert"
+msgstr "Når du er i portrettmodus, plasser chatten øverst."
+
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Portrettmodusgrense"
+
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr "Dette er bredde-høyde-forholdet der Portrettmodus vil bli satt i gang."
+
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "Skjul kanaler som er offline"
+
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Vis repriser"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.0"
+msgstr "Ikke vis"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.1"
+msgstr "Normal"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.2"
+msgstr "Tonet ut (33% fasthet)"
+
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Vis kantnavigasjonen"
+
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Vis kanal-avatarer"
+
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Vis venner som er online"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.0"
+msgstr "Aldri"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.1"
+msgstr "Alltid"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.2"
+msgstr "Når kantnavigasjonen er åpen"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Vis anbefalte/populære kanaler"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.0"
+msgstr "Aldri"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
+msgstr "Alltid"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
+msgstr "Når kantnavigasjonen er åpen"
+
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Vis anbefalte venner"
+
+msgid "setting.entry.layout.side-nav.show.values.0"
+msgstr "Aldri"
+
+msgid "setting.entry.layout.side-nav.show.values.1"
+msgstr "Alltid"
+
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Bytt om på sidelinjer"
+
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Bytt om på navigasjonen og chatten til de motsatte sidene av vinduet."
+
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Vis den minimerte navigasjonslinjen når du er i kinomodus."
+
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Skriftfamiie"
+
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Overstyr skrifttypene som brukes på hele Twitch-nettstedet. De gamle "
+"standardskrifttypene var: `\"Helvetica Neue\",Helvetica,Arial,sans-serif`"
+
+msgid "setting.entry.legal"
+msgstr "lovmessig"
+
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Fremhevet følging"
+
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr "Vis en fremhevet følgeknapp med de brukerne som er fremhevet for øyeblikket."
+
+msgid "setting.entry.metadata.host-button"
+msgstr "Vertskapsknapp"
+
+msgid "setting.entry.metadata.host-button.description"
+msgstr ""
+"Vis en vertskapsknapp med kanalen som for øyeblikket er bevertet, i "
+"verktøytipset."
+
+msgid "setting.entry.metadata.player-stats"
+msgstr "Avspillingsstatistikker"
+
+msgid "setting.entry.metadata.player-stats.description"
+msgstr ""
+"Vis den nåværende sendingsforsinkelsen, med avspillingsstørrelsen og "
+"droppede bilder i verktøytipset."
+
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Sendingsforsinkelsesadvarsel"
+
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"Når den nåværende sendingsforsinkelsen overstiger dette antallet sekunder, "
+"vis sendingsforsinkelsen i en advarselsfarge for å dra din oppmerksomhet "
+"til den store forsinkelsen. Sett til null for å skru av."
+
+msgid "setting.entry.metadata.uptime"
+msgstr "Sendingens oppetid"
+
+msgid "setting.entry.metadata.uptime.no-native"
+msgstr "Skjul Twitch sin egen sendingsoppetid-teller."
+
+msgid "setting.entry.metadata.uptime.no-native.description"
+msgstr ""
+"Dette er skrudd av som standard når enn FFZ sin egen "
+"sendingsoppetidsvisning er skrudd på, for å unngå repetitiv informasjon."
+
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Deaktivert"
+
+msgid "setting.entry.metadata.uptime.values.1"
+msgstr "På"
+
+msgid "setting.entry.metadata.uptime.values.2"
+msgstr "Skrudd på (med sekunder)"
+
+msgid "setting.entry.metadata.viewers"
+msgstr "Alternativ seerteller"
+
+msgid "setting.entry.metadata.viewers.description"
+msgstr ""
+"Dette viser den nåværende kanalens seertall uten noen animasjoner når den "
+"endres."
+
+msgid "setting.entry.metadata.viewers.no-native"
+msgstr "Skjul Twitch sin egen seerteller."
+
+msgid "setting.entry.metadata.viewers.no-native.description"
+msgstr ""
+"Dette er skrudd av som standard når enn FFZ sin egen seerteller-visning er "
+"skrudd på, for å unngå repetitiv informasjon."
+
+msgid "setting.entry.player.allow-catchup"
+msgstr "Tillatt avspilleren å spille av raskere for å redusere forsinkelser."
+
+msgid "setting.entry.player.allow-catchup.description"
+msgstr ""
+"Twitch vil som standard legge til en liten fartsboost til direktesendinger "
+"dersom du har en stor forsinkelse i forhold til senderen, for å ta igjen "
+"direktesendingen. Dette kan føre til lydforvrenging. Skru av dette for å "
+"unngå de automatiske fartsendringene."
+
+msgid "setting.entry.player.button.pip"
+msgstr "Legg til en `Bilde-i-bilde`-knapp til avspillerkontrollerne."
+
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Å klikke på BiB-knappen vil forsøke å skru av/på 'Bilde-i-bilde'-modusen "
+"til avspillerens video."
+
+msgid "setting.entry.player.button.reset"
+msgstr "Legg til en `Tilbakestill avspiller`-knapp til avspillerkontrollerne."
+
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Å dobbeltklikke «Tilbakestill avspiller»-knappen forsøker å tilbakestille "
+"Twitch-avspillerens interne tilstand, for å fikse avspillingsproblemer uten "
+"en full sidegjeninnlasting."
+
+msgid "setting.entry.player.captions.alignment"
+msgstr "Justering"
+
+msgid "setting.entry.player.captions.alignment.values.11"
+msgstr "Topp venstre"
+
+msgid "setting.entry.player.captions.alignment.values.12"
+msgstr "Midt på toppen"
+
+msgid "setting.entry.player.captions.alignment.values.13"
+msgstr "Topp høyre"
+
+msgid "setting.entry.player.captions.alignment.values.21"
+msgstr "Midt-venstre"
+
+msgid "setting.entry.player.captions.alignment.values.22"
+msgstr "Midten"
+
+msgid "setting.entry.player.captions.alignment.values.23"
+msgstr "Midt-høyre"
+
+msgid "setting.entry.player.captions.alignment.values.31"
+msgstr "Bunn venstre"
+
+msgid "setting.entry.player.captions.alignment.values.32"
+msgstr "Midt på bunnen"
+
+msgid "setting.entry.player.captions.alignment.values.33"
+msgstr "Bunn høyre"
+
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Aktiver overstyring av posisjonen og justeringen av undertekster."
+
+msgid "setting.entry.player.captions.font-family"
+msgstr "Skrifttypefamilie"
+
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Overstyr skrifttypen som brukes til å vise undertekster."
+
+msgid "setting.entry.player.captions.font-size"
+msgstr "Skriftstørrelse"
+
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"Hvor store undertekstene skal være. Dette kan være en prosentmengde, f.eks. "
+"`10%`, eller en pikselverdi, f.eks. `50px`."
+
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Vannrett posisjon"
+
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Overstyr posisjonen til undertekster. Dette kan være en prosentmengde, "
+"f.eks. `10%`, eller en pikselverdi, f.eks. `50px`."
+
+msgid "setting.entry.player.captions.vertical"
+msgstr "Loddrett posisjon"
+
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Overstyr posisjonen til undertekster. Dette kan være en prosentmengde, "
+"f.eks. `10%`, eller en pikselverdi, f.eks. `50px`."
+
+msgid "setting.entry.player.compressor.attack"
+msgstr "Komprimeringsangrep"
+
+msgid "setting.entry.player.compressor.attack.description"
+msgstr ""
+"**Rekkevidde:** 0 ~ 1\n"
+"\n"
+"Tidsmengden i sekunder som kreves for å redusere forsterkingen med 10 dB."
+
+msgid "setting.entry.player.compressor.default"
+msgstr "Aktiver kompressoren som standard."
+
+msgid "setting.entry.player.compressor.enable"
+msgstr ""
+"Skru på lydkompressoren og legg til en `Lydkompressor`-knapp til "
+"avspillerkontrollerne."
+
+msgid "setting.entry.player.compressor.knee"
+msgstr "Kne"
+
+msgid "setting.entry.player.compressor.knee.description"
+msgstr ""
+"**Rekkevidde:** 0 ~ 40\n"
+"\n"
+"En desibelverdi som representerer rekkevidden over grensen for når kurven "
+"har en myk overgang til den komprimerte delen."
+
+msgid "setting.entry.player.compressor.ratio"
+msgstr "Forhold"
+
+msgid "setting.entry.player.compressor.ratio.description"
+msgstr ""
+"**Rekkevidde:** 0 ~ 20\n"
+"\n"
+"Endringsmengden, i dB, som kreves i inndataen for en endring på 1 dB i "
+"utdataen."
+
+msgid "setting.entry.player.compressor.release"
+msgstr "Slipp"
+
+msgid "setting.entry.player.compressor.release.description"
+msgstr ""
+"**Rekkevidde:** 0 ~ 1\n"
+"\n"
+"Tidsmengden i sekunder som kreves for å øke forsterkingen med 10 dB."
+
+msgid "setting.entry.player.compressor.threshold"
+msgstr "Terskel"
+
+msgid "setting.entry.player.compressor.threshold.description"
+msgstr ""
+"**Rekkevidde:** -100 ~ 0\n"
+"\n"
+"Desibelverdien som skal overstiges for at komprimeringen skal tas i bruk."
+
+msgid "setting.entry.player.embed-metadata"
+msgstr "Vis metadata når du holder musen over avspilleren."
+
+msgid "setting.entry.player.ext-hide"
+msgstr "Vis overleggsutvidelser"
+
+msgid "setting.entry.player.ext-hide.values.0"
+msgstr "Alltid"
+
+msgid "setting.entry.player.ext-hide.values.1"
+msgstr "Med kontrollere"
+
+msgid "setting.entry.player.ext-hide.values.2"
+msgstr "Aldri"
+
+msgid "setting.entry.player.ext-interaction"
+msgstr "Tillat musesamhandling med overleggsutvidelser."
+
+msgid "setting.entry.player.gain.default"
+msgstr "Standardverdi"
+
+msgid "setting.entry.player.gain.max"
+msgstr "Maksimalt"
+
+msgid "setting.entry.player.gain.min"
+msgstr "Minimum"
+
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Skul hendelseslinjen"
+
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"Skjul hendelseslinjen som dukker opp over spilleren når det er en pågående "
+"hendelse på den nåværende kanalen."
+
+msgid "setting.entry.player.hide-mouse"
+msgstr "Skjul musepekeren når kontrollerne ikke er synlige."
+
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Skjul repriselinjen"
+
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"Skjul repriselinjen som dukker opp over avspilleren når den nåværende "
+"kanalen spiller av en video i stedet for direktesendt innhold."
+
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "Skjul gjengsendingslinjen"
+
+msgid "setting.entry.player.home.autoplay"
+msgstr "Auto-avspill fremhevede sendere på forsiden."
+
+msgid "setting.entry.player.mute-click"
+msgstr "Demp eller hør avspilleren ved å mellomklikke."
+
+msgid "setting.entry.player.no-autoplay"
+msgstr "Ikke begynn avspilling av videoer eller sendinger automatisk."
+
+msgid "setting.entry.player.no-autoplay.description"
+msgstr ""
+"Bemerk: Denne egenskapen benyttes ikke når det navigeres direkte fra kanal "
+"til kanal."
+
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Automatisk åpne Kinomodus når du besøker en kanal."
+
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Vis metadata når du holder musen over avspilleren."
+
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Skjul hviskinger når Kinomodus er skrudd på."
+
+msgid "setting.entry.player.vod.autoplay"
+msgstr "Auto-avspill den neste anbefalte videoen etter at en video er ferdigspilt."
+
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Hold volumglideren utvidet til enhver tid."
+
+msgid "setting.entry.player.volume-scroll"
+msgstr "Juster volumet ved å rulle med musehjulet."
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Denne innstillingen vil ikke fungere ordentlig på kringkastinger med "
+"synlige utvidelser, når musesamhandling med utvidelser er tillatt.*"
+
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Volumrullemengde"
+
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr "Hvor mye volumnivået endres for hver individuelle rulleinndata."
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.01"
+msgstr "1%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.02"
+msgstr "2%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.05"
+msgstr "5%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.1"
+msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.values.false"
+msgstr "Deaktivert"
+
+msgid "setting.entry.player.volume-scroll.values.true"
+msgstr "Slått av"
+
+msgid "setting.entry.profiles"
+msgstr "profiler"
+
+msgid "setting.entry.reports.error.enable"
+msgstr "Send rapporter automatisk når en feil oppstår."
+
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Inkluder et avtrykk av innstillingene i rapporter."
+
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Å vite nøyaktig hvilke innstillinger som er i bruk når en feil oppstår, kan "
+"være ekstremt nyttig for å reprodusere problemet."
+
+msgid "setting.entry.reports.error.include-user"
+msgstr "Inkluder bruker-ID-en i rapporter."
+
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"I blant er det nyttig å vite hvilke brukere som støter på feil, slik at vi "
+"kan sjekke spesifikke merker, emotesett eller brukerflagg som skaper "
+"problemer."
+
+msgid "setting.entry.socket.use-cluster"
+msgstr "Tjenerklynge"
+
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"Hvilken tjenerklynge som skal kobles til. Ikke endre dette med mindre du "
+"faktisk utfører utviklingsarbeid på sokkeltjenerens backend. Å gjøre det "
+"vil knekke alle funksjoner som avhenger på sokkeltjeneren, inkludert "
+"informasjonsoppleting, lenkeverktøytips, og sanntids dataoppdateringer."
+
+msgid "setting.entry.socket.use-cluster.values.Development"
+msgstr "Utvikling"
+
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Deaktivert"
+
+msgid "setting.entry.socket.use-cluster.values.Production"
+msgstr "Produksjon"
+
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Vis Prime-påminner"
+
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Vis en krone på abonnementsknapper når ditt gratis kanalabonnement med "
+"Prime er tilgjengelig."
+
+msgid "setting.entry.theme.color.background"
+msgstr "Bakgrunn"
+
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Prøv `#0E0C13` for noe som ligner på det gamle mørke temaet, eller "
+"`#0E0E0E` for en fin mørkegrå farge. Gjennomsiktige farger er ikke tillatt."
+
+msgid "setting.entry.theme.color.chat-background"
+msgstr "Bakgrunn"
+
+msgid "setting.entry.theme.color.chat-text"
+msgstr "Tekst"
+
+msgid "setting.entry.theme.color.chat-text.description"
+msgstr ""
+"Dersom dette ikke er valgt, vil det automatisk bli satt til hvitt eller "
+"svart, basert på lysstyrken til bakgrunnen."
+
+msgid "setting.entry.theme.color.text"
+msgstr "Tekst"
+
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Dersom dette ikke er valgt, vil det automatisk bli satt til hvitt eller "
+"svart, basert på lysstyrken til bakgrunnen."
+
+msgid "setting.entry.theme.color.tooltip.text"
+msgstr "Tekst for verktøytips"
+
+msgid "setting.entry.theme.dark"
+msgstr "Grå (ikke noe lilla)"
+
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Krever at 'Mørkt tema' er skrudd på.*\n"
+"\n"
+"Denne innstillingen vil forsvinne veldig snart, etter hvert som det nye "
+"temasystemet modnes.\n"
+"CSS-en som lastes inn av denne innstillingen er altfor tung og kan "
+"forårsake ytelsesproblemer."
+
+msgid "setting.entry.theme.font.size"
+msgstr "Skriftstørrelse"
+
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Vis store bilder for merker."
+
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Vis store bilder for emoter."
+
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Vis kjente kilder."
+
+msgid "setting.entry.tooltip.images"
+msgstr "Vis bilder i verktøytips."
+
+msgid "setting.entry.tooltip.link-images"
+msgstr "Vis bilder for lenker."
+
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Tillat samhandling med støttede lenkeverktøytips."
+
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Vis potensielt voksne bilder."
+
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"Når dette er skrudd på, vil FrankerFaceZ inkludere bilder som er merket som "
+"utrygge eller som ikke er aldersvurdert."
+
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Vis rike verktøytips for lenker."
+
+msgid "setting.entry.whispers.show"
+msgstr "Vis hviskinger"
+
+msgid "setting.example"
+msgstr "Eksempel:"
+
+msgid "setting.experiments.about"
+msgstr ""
+"Denne egenskapen lar deg overstyre eksperimentverdier. Vennligst bemerk at "
+"for de fleste eksperimenter, kan du måtte oppfriske siden for at endringene "
+"dine skal bli tatt i bruk."
+
+msgid "setting.experiments.active"
+msgstr "Dette eksperimentet er aktivt."
+
+msgid "setting.experiments.entry"
+msgstr "{value,tostring} (vektlegging: {weight,tostring})"
+
+msgid "setting.experiments.ffz"
+msgstr "FrankerFaceZ-eksperimenter"
+
+msgid "setting.experiments.inactive"
+msgstr "Dette eksperimentet er ikke aktivt."
+
+msgid "setting.experiments.none"
+msgstr "Det er ingen nåværende eksperimenter."
+
+msgid "setting.experiments.none-filter"
+msgstr "Det er ingen samsvarende eksperimenter."
+
+msgid "setting.experiments.show-unused"
+msgstr "Vis ubrukte eksperimenter."
+
+msgid "setting.experiments.sort-name"
+msgstr "Sorter etter: Navn"
+
+msgid "setting.experiments.sort-rarity"
+msgstr "Sorter etter: Sjeldenhet"
+
+msgid "setting.experiments.twitch"
+msgstr "Twitch-eksperimenter"
+
+msgid "setting.experiments.unique-id"
+msgstr "Unik ID: {id}"
+
+msgid "setting.experiments.unset"
+msgstr "annuler"
+
+msgid "setting.export"
+msgstr "Eksporter"
+
+msgid "setting.false"
+msgstr "Nei"
+
+msgid "setting.filter.if.else"
+msgstr "Hvis ikke"
+
+msgid "setting.filter.if.then"
+msgstr "Deretter"
+
+msgid "setting.filter.page.url"
+msgstr "URL: {url}"
+
+msgid "setting.filters.active"
+msgstr "Denne oppføringen samsvarer."
+
+msgid "setting.filters.add"
+msgstr "Legg til"
+
+msgid "setting.filters.add-new"
+msgstr "Legg til ny oppføring"
+
+msgid "setting.filters.empty"
+msgstr "(ingen filtre)"
+
+msgid "setting.filters.if.fail"
+msgstr "Denne grenen er aktiv fordi betingelsen er 'false' (av)."
+
+msgid "setting.filters.if.no_fail"
+msgstr "Denne grenen er inaktiv fordi betingelsen er 'true' (på)."
+
+msgid "setting.filters.if.no_pass"
+msgstr "Denne grenen er inaktiv fordi betingelsen er 'false' (av)."
+
+msgid "setting.filters.if.pass"
+msgstr "Denne grenen er aktiv fordi betingelsen er 'true' (på)."
+
+msgid "setting.filters.inactive"
+msgstr "Denne oppføringen samsvarer ikke."
+
+msgid "setting.hidden"
+msgstr "Skjult"
+
+msgid "setting.home"
+msgstr "Hjem"
+
+msgid "setting.home.changelog"
+msgstr "Endringslogg"
+
+msgid "setting.home.faq"
+msgstr "Ofte stilte spørsmål"
+
+msgid "setting.home.feedback"
+msgstr "Tilbakemelding"
+
+msgid "setting.home.feedback.log"
+msgstr "Logg"
+
+msgid "setting.home.legal"
+msgstr "Juridisk"
+
+msgid "setting.icon.clear"
+msgstr "Tøm"
+
+msgid "setting.icon.search"
+msgstr "Søk etter ikon"
+
+msgid "setting.import"
+msgstr "Importer …"
+
+msgid "setting.import.do"
+msgstr "Import"
+
+msgid "setting.import.url"
+msgstr "Fra URL"
+
+msgid "setting.inheritance"
+msgstr "Arvepunkt"
+
+msgid "setting.inheritance.desc"
+msgstr "Arv verdier fra profiler med lavere prioritet på denne posisjonen."
+
+msgid "setting.inherited-from"
+msgstr "Arvet fra: {title}"
+
+msgid "setting.key.alt"
+msgstr "Alt"
+
+msgid "setting.key.ctrl"
+msgstr "Ctrl"
+
+msgid "setting.key.hover"
+msgstr "Svev over"
+
+msgid "setting.key.meta"
+msgstr "Meta"
+
+msgid "setting.key.shift"
+msgstr "Shift"
+
+msgid "setting.new"
+msgstr "Nye"
+
+msgid "setting.overridden-by"
+msgstr "Overstyrt av: {title}"
+
+msgid "setting.paste-json"
+msgstr "Lim inn JSON"
+
+msgid "setting.paste-json.json"
+msgstr "[json]"
+
+msgid "setting.paste-url.url"
+msgstr "[url]"
+
+msgid "setting.player"
+msgstr "Avspiller"
+
+msgid "setting.player.closed_captioning"
+msgstr "Undertekster"
+
+msgid "setting.player.closed_captioning.font"
+msgstr "Skrifttype"
+
+msgid "setting.player.closed_captioning.position"
+msgstr "Posisjon"
+
+msgid "setting.player.compressor"
+msgstr "Komprimering"
+
+msgid "setting.player.compressor.advanced"
+msgstr "Avansert"
+
+msgid "setting.player.compressor.description"
+msgstr ""
+"Disse innstillingene styrer valgfri dynamisk rekkeviddekomprimering av "
+"avspilleren, en form for lydkomprimering som reduserer volumet til høye "
+"lyder, og gjør stille lyder høyere, og dermed normaliserer eller "
+"komprimerer volumet. Det bruker en "
+"[DynamicsCompressorNode](https://developer.mozilla.org/en-US/docs/Web/API/"
+"DynamicsCompressorNode) fra nettlyd-API-en bak scenen dersom du vil lære "
+"mer."
+
+msgid "setting.player.compressor.general"
+msgstr "Generell"
+
+msgid "setting.player.general"
+msgstr "Generell"
+
+msgid "setting.player.general.extensions"
+msgstr "Utvidelser"
+
+msgid "setting.player.general.general"
+msgstr "Generell"
+
+msgid "setting.player.general.playback"
+msgstr "Spill av"
+
+msgid "setting.player.general.theatre_mode"
+msgstr "Kinomodus"
+
+msgid "setting.player.general.volume"
+msgstr "Volum"
+
+msgid "setting.preview"
+msgstr "Forhåndsvis"
+
+msgid "setting.profiles.active"
+msgstr "Profilen er skrudd på og aktiv."
+
+msgid "setting.profiles.configure"
+msgstr "Konfigurer"
+
+msgid "setting.profiles.default"
+msgstr "Standardprofil"
+
+msgid "setting.profiles.default.description"
+msgstr "Innstillinger som gjelder overalt på Twitch."
+
+msgid "setting.profiles.disabled"
+msgstr "Denne profilen er deaktivert."
+
+msgid "setting.profiles.disabled.description"
+msgstr ""
+"Denne profilen har blitt skrudd av, så endringer du gjør her, blir ikke "
+"reflektert for deg på Twitch."
+
+msgid "setting.profiles.disabled.rules"
+msgstr "Denne profilen er skrudd på, men er inaktiv på grunn av dens oppføringer."
+
+msgid "setting.profiles.drag"
+msgstr "Dra profiler rundt for å endre prioriteten deres."
+
+msgid "setting.profiles.inactive"
+msgstr "Denne profilen er inaktiv."
+
+msgid "setting.profiles.inactive.description"
+msgstr ""
+"Denne profilens oppføringer samsvarer ikke med den nåværende sammenhengen "
+"og er derfor ikke aktiv, så endringer du gjør her vil ikke bli reflektert "
+"for deg på Twitch."
+
+msgid "setting.profiles.moderation"
+msgstr "Ordstyring"
+
+msgid "setting.profiles.moderation.description"
+msgstr "Innstillinger som benyttes når du er en moderator på den nåværende kanalen."
+
+msgid "setting.profiles.new"
+msgstr "Ny profil"
+
+msgid "setting.profiles.warn-delete"
+msgstr "Er du sikker på at du vil slette denne profilen? Det kan ikke bli angret på."
+
+msgid "setting.profile.updates"
+msgstr "Profilen vil oppdateres automatisk fra den følgende URL-en:"
+
+msgid "setting.provider.selected"
+msgstr "(For øyeblikket)"
+
+msgid "setting.reasons.add-default"
+msgstr "Legg til standardene"
+
+msgid "setting.reasons.add-default-tip"
+msgstr "Legg til alle standardårsakene til denne profilen."
+
+msgid "setting.reasons.add-placeholder"
+msgstr "Legg til en ny årsak"
+
+msgid "setting.reasons.delete-all"
+msgstr "Slett alle denne profilens årsaker."
+
+msgid "setting.reasons.info"
+msgstr ""
+"Årsaker kan bli valgt gjennom handlingssammenhengsmenyer for å legge til "
+"ekstra informasjon til bannlysninger og utvisinger."
+
+msgid "setting.reasons.no-reasons"
+msgstr "ingen årsaker er definert i denne profilen"
+
+msgid "setting.reset"
+msgstr "Tilbakestill til standarder"
+
+msgid "setting.reset-all"
+msgstr "Tilbakestill alle til standarder"
+
+msgid "setting.right-click-reset"
+msgstr "Høyreklikk for å tilbakestille"
+
+msgid "setting.save"
+msgstr "Lagre"
+
+msgid "settings.back"
+msgstr "Tilbake"
+
+msgid "settings.filter.category"
+msgstr "Nåværende kategori"
+
+msgid "settings.filter.channel"
+msgstr "Nåværende kanal"
+
+msgid "settings.filter.if"
+msgstr "Hvis"
+
+msgid "settings.filter.invert"
+msgstr "Inverter"
+
+msgid "settings.filter.moderator"
+msgstr "Er moderator"
+
+msgid "settings.filter.native-dark"
+msgstr "Mørkt tema"
+
+msgid "settings.filter.or"
+msgstr "Eller"
+
+msgid "settings.filter.page"
+msgstr "Gjeldende side"
+
+msgid "settings.filter.page.route.addons.deck"
+msgstr "Panel"
+
+msgid "settings.filter.page.route.addons.deck.tab"
+msgstr "Tab"
+
+msgid "settings.filter.page.route.collection"
+msgstr "Samling"
+
+msgid "settings.filter.page.route.command-center"
+msgstr "Kommandosentral"
+
+msgid "settings.filter.page.route.dash"
+msgstr "Kontrollpanel"
+
+msgid "settings.filter.page.route.dash-achievements"
+msgstr "Kontrollpanel: Oppnåelser"
+
+msgid "settings.filter.page.route.dash-activity"
+msgstr "Kontrollpanel: Aktivitet"
+
+msgid "settings.filter.page.route.dash-channel-analytics"
+msgstr "Kontrollpanel: Kanalanalystikk"
+
+msgid "settings.filter.page.route.dash-channel-points"
+msgstr "Kontrollpanel: Kanalpoeng"
+
+msgid "settings.filter.page.route.dash-chat"
+msgstr "Kontrollbord-utsprettschat"
+
+msgid "settings.filter.page.route.dash-chat.userName"
+msgstr "Brukernavn"
+
+msgid "settings.filter.page.route.dash-clips"
+msgstr "Kontrollpanel: Klipp"
+
+msgid "settings.filter.page.route.dash-collections"
+msgstr "Kontrollpanel: Samlinger"
+
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Kontrollpanel: Rediger samling"
+
+msgid "settings.filter.page.route.dash-edit-video"
+msgstr "Kontrollpanel: Rediger video"
+
+msgid "settings.filter.page.route.dash-extensions"
+msgstr "Kontrollpanel: Utvidelser"
+
+msgid "settings.filter.page.route.dash-roles"
+msgstr "Kontrollpanel: Roller"
+
+msgid "settings.filter.page.route.dash-settings-channel"
+msgstr "Kontrollpanel: Kanalinnstillinger"
+
+msgid "settings.filter.page.route.dash-settings-moderation"
+msgstr "Kontrollpanel: Modereringsinnstillinger"
+
+msgid "settings.filter.page.route.dash-settings-revenue"
+msgstr "Kontrollpanel: Inntektsinnstillinger"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Kontrollpanel: Sendingsverktøy"
+
+msgid "settings.filter.page.route.dash-stream-manager"
+msgstr "Kontrollpanel: Sendingsbehandler"
+
+msgid "settings.filter.page.route.dash-stream-summary"
+msgstr "Kontrollpanel: Sendingsoppsummering"
+
+msgid "settings.filter.page.route.dash-video-producer"
+msgstr "Kontrollpanel: Videoprodusent"
+
+msgid "settings.filter.page.route.dir"
+msgstr "Bla"
+
+msgid "settings.filter.page.route.dir-all"
+msgstr "Bla i direktekanaler"
+
+msgid "settings.filter.page.route.dir-following"
+msgstr "Følger"
+
+msgid "settings.filter.page.route.dir-game-clips"
+msgstr "Mappe-spillklipp"
+
+msgid "settings.filter.page.route.dir-game-index"
+msgstr "Mappe-spillindeks"
+
+msgid "settings.filter.page.route.dir-game-videos"
+msgstr "Mappe-spillvideoer"
+
+msgid "settings.filter.page.route.embed-chat"
+msgstr "Bygg inn chatten"
+
+msgid "settings.filter.page.route.embed-chat.userName"
+msgstr "Brukernavn"
+
+msgid "settings.filter.page.route.event"
+msgstr "Hendelse"
+
+msgid "settings.filter.page.route.front-page"
+msgstr "Forside"
+
+msgid "settings.filter.page.route.popout"
+msgstr "Sprett ut chatten"
+
+msgid "settings.filter.page.route.popout.userName"
+msgstr "Brukernavn"
+
+msgid "settings.filter.page.route.prime"
+msgstr "Prime"
+
+msgid "settings.filter.page.route.product"
+msgstr "Produkt"
+
+msgid "settings.filter.page.route.squad"
+msgstr "Gjeng"
+
+msgid "settings.filter.page.route.turbo"
+msgstr "Turbo"
+
+msgid "settings.filter.page.route.user"
+msgstr "Bruker"
+
+msgid "settings.filter.page.route.user-clip"
+msgstr "Brukerklipp"
+
+msgid "settings.filter.page.route.user-clips"
+msgstr "Brukerklipp"
+
+msgid "settings.filter.page.route.user-collections"
+msgstr "Brukersamlinger"
+
+msgid "settings.filter.page.route.user-events"
+msgstr "Brukerhendelser"
+
+msgid "settings.filter.page.route.user-followers"
+msgstr "Brukerfølgere"
+
+msgid "settings.filter.page.route.user-following"
+msgstr "Brukeren følger"
+
+msgid "settings.filter.page.route.user-video"
+msgstr "Kanalvideo"
+
+msgid "settings.filter.page.route.user-videos"
+msgstr "Brukervideoer"
+
+msgid "settings.filter.page.route.video"
+msgstr "Video"
+
+msgid "settings.filter.squad"
+msgstr "Gjengmodus"
+
+msgid "settings.filter.theater"
+msgstr "Kinomodus"
+
+msgid "settings.filter.time"
+msgstr "Tiden på døgnet"
+
+msgid "settings.filter.time.end"
+msgstr "Slutt:"
+
+msgid "settings.filter.time.start"
+msgstr "Start:"
+
+msgid "settings.filter.title"
+msgstr "Nåværende tittel"
+
+msgid "settings.filter.title.sensitive"
+msgstr "Skilling mellom store/små bokstaver"
+
+msgid "settings.filter.title.warn-complex"
+msgstr ""
+"Dette mønster er kanskje for komplekst. Den vil bli skrudd av for å hindre "
+"klient-lagging eller -frysing."
+
+msgid "settings.filter.title.warn-invalid"
+msgstr "Dette mønsteret er ugyldig."
+
+msgid "settings.filter.true_false"
+msgstr "'True' (på) eller 'False' (av)"
+
+msgid "setting.space"
+msgstr "Mellomrom"
+
+msgid "settings.term.color.tip"
+msgstr "Farge"
+
+msgid "settings.terms.priority.tip"
+msgstr "Prioritet"
+
+msgid "settings.terms.sensitive"
+msgstr "Aa"
+
+msgid "settings.terms.sensitive.tip"
+msgstr "Skill mellom små/store bokstaver"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Legg til et nytt uttrykk"
+
+msgid "setting.terms.add-term"
+msgstr "Legg til"
+
+msgid "setting.terms.no-terms"
+msgstr "ingen uttrykk er definert i denne profilen"
+
+msgid "setting.terms.please-select"
+msgstr "Vennligst ta et valg."
+
+msgid "setting.terms.remove.off"
+msgstr "Ikke fjern samsvarende meldinger fra chatten."
+
+msgid "setting.terms.remove.on"
+msgstr "Fjern samsvarende meldinger fra chatten."
+
+msgid "setting.terms.type.glob"
+msgstr "Overalt"
+
+msgid "setting.terms.type.regex"
+msgstr "RegEx"
+
+msgid "setting.terms.type.regex-word"
+msgstr "RegEx (Ord)"
+
+msgid "setting.terms.type.text"
+msgstr "Tekst"
+
+msgid "setting.tooltip-example"
+msgstr "For et eksempel, vennligst svev over denne lenken:"
+
+msgid "setting.true"
+msgstr "Sann"
+
+msgid "setting.unset"
+msgstr "Nullstill"
+
+msgid "setting.visible"
+msgstr "Synlig"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Disse verdiene overstyres av en annen profil og kan kanskje ikke bli tatt i "
+"bruk."
+
+msgid "setting.warn-unsaved"
+msgstr "Du har ulagrede endringer. Er du sikker på at du vil forlate redigereren?"

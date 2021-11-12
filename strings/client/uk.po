@@ -1,0 +1,845 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Завантажити"
+
+msgid "autocomplete.empty"
+msgstr "Немає результатів."
+
+msgid "badges.subscriber.months"
+msgstr ""
+"{title}\n"
+"({count,number} Місяці"
+
+msgid "badges.subscriber.tier-months"
+msgstr ""
+"{title}\n"
+"(Ранг {tier}, {months,number} Місяц{months,one,ь few,і other,ів})"
+
+msgid "card.empty"
+msgstr "Не отримано даних."
+
+msgid "card.error"
+msgstr "Виникла помилка."
+
+msgid "card.error.timeout"
+msgstr "Час запиту вийшов."
+
+msgid "card.loading"
+msgstr "Завантаження..."
+
+msgid "cards.user.stats"
+msgstr "Переглядів: {views,number} • Послідовників: {followers,number}"
+
+msgid "cards.user.streaming"
+msgstr "транслює {game}"
+
+msgid "channel.links.clips"
+msgstr "Кліпи"
+
+msgid "channel.links.schedule"
+msgstr "Розклад"
+
+msgid "channel.links.videos"
+msgstr "Видива"
+
+msgid "chat.actions.ban"
+msgstr "Заблокувати користувача"
+
+msgid "chat.actions.ban-reason"
+msgstr "Заблокувати користувача {user.login} за:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Заблокувати {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Команда Чату"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Видалити повідомлення користувача {user.login}"
+
+msgid "chat.actions.edit_overrides"
+msgstr "Назва Каналу та Колір"
+
+msgid "chat.actions.edit_overrides.desc"
+msgstr ""
+"Дозволяє вам визначити локальні зміни для імен користувачів та кольорів у "
+"чаті."
+
+msgid "chat.actions.msg_delete"
+msgstr "Видалити повідомлення"
+
+msgid "chat.actions.open_url"
+msgstr "Відкрити URL"
+
+msgid "chat.actions.reply"
+msgstr "Відповісти на повідомлення"
+
+msgid "chat.actions.select-reason"
+msgstr "Будь ласка, оберіть причину зі списку:"
+
+msgid "chat.actions.timeout"
+msgstr "Надати Перерву Користувачеві"
+
+msgid "chat.actions.timeout-reason"
+msgstr ""
+"Надати перерву {user.login} на {duration,number} секунд{duration,one{ду} "
+"few{ди} other{}} за:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr ""
+"Надати перерву {user.login} на {duration,number} секунд{duration,one{ду} "
+"few{ди} other{}}"
+
+msgid "chat.actions.unban"
+msgstr "Розблокувати Користувача"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "Розблокувати користувача {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Невідома дія"
+
+msgid "chat.actions.untimeout"
+msgstr "Скасувати Перерву Користувачеві"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Скасовано перерву для {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Прошепотіти Користувачеві"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Прошепотіти {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count} повідомлен{count,plural,one {ня} few{ня} other {ь}} видалено "
+"модератором."
+
+msgid "chat.ffz-badge.site"
+msgstr "Будь ласка, відвідайте {website} для зміни цього бейджа."
+
+msgid "chat.ffz-badge.site-link"
+msgstr "сайт FrankerFaceZ"
+
+msgid "chat.ffz-badge.title"
+msgstr "Бейдж FrankerFaceZ"
+
+msgid "chat.filtering.automod.A"
+msgstr "Ворожість"
+
+msgid "chat.filtering.automod.I"
+msgstr "Дискримінація"
+
+msgid "chat.filtering.automod.P"
+msgstr "Ненормативна лексика"
+
+msgid "chat.filtering.automod-term"
+msgstr "Вислів заблоковано АвтоМодом"
+
+msgid "chat.filtering.automod-why"
+msgstr "Це було позначено як: "
+
+msgid "chat.filtering.blocked-term"
+msgstr "Вислів заблоковано"
+
+msgid "chat.ignore-clear"
+msgstr "Спроба очистити чат модератором була проігнорована."
+
+msgid "chat.message-deleted"
+msgstr "<повідомлення вилучено>"
+
+msgid "chat.messages-below"
+msgstr "Чат пригальмовано через Прогортання"
+
+msgid "chat.mod-action.ban"
+msgstr "Заблоковано"
+
+msgid "chat.mod-action.by"
+msgstr "{action} користувачем {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Видалено"
+
+msgid "chat.overrides.color"
+msgstr "Колір"
+
+msgid "chat.overrides.name"
+msgstr "Ім'я"
+
+msgid "chat.paused"
+msgstr "Чат пригальмовано через {reason}"
+
+msgid "chat.points.bypass-sub"
+msgstr "Надіслати Повідомлення в Режимі Тільки-Передплатники"
+
+msgid "chat.points.choose-emote"
+msgstr "Обрати Смайлик для Розблокування"
+
+msgid "chat.points.highlighted"
+msgstr "Підсвітити Моє Повідомлення"
+
+msgid "chat.points.modify-emote"
+msgstr "Змінити Один Смайл"
+
+msgid "chat.points.random-emote"
+msgstr "Розблокувати Випадковий Смайл для Передплатників"
+
+msgid "chat.points.redeemed"
+msgstr "Скористався {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Винагорода"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} скористався {reward} {cost}"
+
+msgid "chat.reasons.evasion"
+msgstr "Уникнення Блоквання"
+
+msgid "chat.reasons.hate"
+msgstr "Ненависть / цькування"
+
+msgid "chat.reasons.links"
+msgstr "Надсилання Поганих Посилань"
+
+msgid "chat.reasons.personal"
+msgstr "Погроза / Персональна інформація"
+
+msgid "chat.reasons.spam"
+msgstr "Спам однією людиною"
+
+msgid "chat.ritual"
+msgstr "{user} тут вперше. Привітайтесь з ним!"
+
+msgid "chat.settings.back"
+msgstr "Назад"
+
+msgid "chat.settings.open-settings"
+msgstr "Відкрити Центр управління"
+
+msgid "chat.settings.pause"
+msgstr "Пригальмувати Чат"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ повністю змінює поведінку зупинки чату. Просимо "
+"використовувати налаштування прокрутки у FFZ Control Center на вкладці Чат "
+"> Поведінка."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Дарувальник-анонім"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"Вони передплачують канал вже {cumulative,number}-ий місяць, {streak,number} "
+"місяц{streak,plural,one {ь} few {і} other {ів}} поспіль!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} дарує {count,number} Передплат Рівня {tier} спільноті каналу "
+"{channel}! "
+
+msgid "chat.sub.gift-first"
+msgstr "Вони вперше дарують передплату на цьому каналі!"
+
+msgid "chat.sub.gift-months"
+msgstr ""
+"{user} подарував {months,number} Місяц{months,one,ь few,і other,ів} {plan} "
+"Передплати користувачеві {recipient}!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Рівень {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "Вони вже подарували {count} передплат на цьому каналі!"
+
+msgid "chat.sub.main"
+msgstr "{user} передплатив {plan}. "
+
+msgid "chat.sub.months"
+msgstr "Вони передплачують канал вже {count,number}-ий місяць!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} подарував Передплату {plan} користувачеві {recipient}! "
+
+msgid "chat.sub.plan"
+msgstr "на Рівні {tier}"
+
+msgid "clip.desc.1"
+msgstr "Кліп із стріму {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} займається Творчістю"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} грає у {game}"
+
+msgid "clip.unknown"
+msgstr "Невідомо"
+
+msgid "directory.block"
+msgstr "Заблокувати"
+
+msgid "directory.hide-thumbnails"
+msgstr "Сховати заставки"
+
+msgid "directory.hosted"
+msgstr "Ретрансльований канал"
+
+msgid "directory.hosted.by-many"
+msgstr "Ретранслйований  {count,number} канал{count,plural,one {ом} other {и}}"
+
+msgid "directory.hosted.by-one"
+msgstr "Ретранслюється {user}"
+
+msgid "directory.hosting"
+msgstr "Ретранслює канали"
+
+msgid "directory.show-thumbnails"
+msgstr "Показувати заставки"
+
+msgid "directory.unblock"
+msgstr "Розблокувати"
+
+msgid "directory.user-playing"
+msgstr "{user} грає {game}"
+
+msgid "emoji.category.animals___nature"
+msgstr "Тварини і природа"
+
+msgid "emoji.category.flags"
+msgstr "Прапори"
+
+msgid "emoji.category.food___drink"
+msgstr "Їжа та напої"
+
+msgid "emoji.category.objects"
+msgstr "Об'єкти"
+
+msgid "emoji.category.skin_tones"
+msgstr "Відтінки шкіри"
+
+msgid "emoji.category.smileys___people"
+msgstr "Посмішки та люди"
+
+msgid "emoji.category.symbols"
+msgstr "Символи"
+
+msgid "emoji.category.travel___places"
+msgstr "Подорожі та місця"
+
+msgid "emote.2fa"
+msgstr "Смайлик Twitch 2FA"
+
+msgid "emote.bits"
+msgstr "Винагорода за Twitch Бітси"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Канал: {channel}"
+
+msgid "emote.global"
+msgstr "Глобальні Twitch"
+
+msgid "emote.limited"
+msgstr "Смайлик Обмеженого Терміну"
+
+msgid "emote-menu.channel"
+msgstr "Канал"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Як тимчасове рішення, спробуйте вимкнути Меню смайликів FFZ у Панелі "
+"Управління FFZ."
+
+msgid "emote-menu.emoji"
+msgstr "Емодзі"
+
+msgid "emote-menu.emote-sub"
+msgstr "Передплатіть за {price}, щоб відкрити цей смайлик."
+
+msgid "emote-menu.emote-up"
+msgstr "Збільшіть рівень передплати за {price}, щоб відкрити цей смайлик."
+
+msgid "emote-menu.empty"
+msgstr "Тут нічого нема."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"У вас немає вподобаних смайлів. Аби вподобати смайл, знайдіть його та "
+"клацніть на ньому утримуючи {hotkey}."
+
+msgid "emote-menu.empty-search"
+msgstr "Немає відповідних смайликів."
+
+msgid "emote-menu.error"
+msgstr "Сталась помилка під час відображення цього меню."
+
+msgid "emote-menu.error-report"
+msgstr "Звіт про помилку було автоматично надіслано."
+
+msgid "emote-menu.favorites"
+msgstr "Улюблені"
+
+msgid "emote-menu.featured"
+msgstr "Пропоноване"
+
+msgid "emote-menu.global"
+msgstr "Глобальні смайлики"
+
+msgid "emote-menu.inventory"
+msgstr "Інвентар"
+
+msgid "emote-menu.loading"
+msgstr "Завантаження..."
+
+msgid "emote-menu.main-set"
+msgstr "Смайли каналу"
+
+msgid "emote-menu.misc"
+msgstr "Різне"
+
+msgid "emote-menu.my-emotes"
+msgstr "Мої Смайли"
+
+msgid "emote-menu.points"
+msgstr "Розблокований Очками"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Оновити Дані"
+
+msgid "emote-menu.search"
+msgstr "Пошук смайликів"
+
+msgid "emote-menu.search-emoji"
+msgstr "Шукати Емодзі"
+
+msgid "emote-menu.settings"
+msgstr "Відкрити налаштування"
+
+msgid "emote-menu.sub-basic"
+msgstr "Передплатіть, щоб відкрити деякі смайлики"
+
+msgid "emote-menu.sub-ends"
+msgstr "Ця передплата закінчиться за {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Ця подарована передплата закінчується через {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Це ваша безкоштовна передплата з Twitch Prime.\n"
+"Вона закінчиться через {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr "Ця передплата поновиться через {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Передплатні смайлики"
+
+msgid "emote-menu.sub-unlock"
+msgstr ""
+"Передплатіть за {price}, щоб відкрити {count,number} "
+"смайлик{count,plural,one {} few {и} other {ів}}"
+
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+"Управління Видимістю Смайлів дозволяє сховати смайли з меню смайлів, окремо "
+"або низками. Якщо Управління Видимістю Смайлів увімкнене, просто клацніть "
+"на смайлі, аби сховати або показати його. Зважайте, що ви все одно "
+"бачитимете їх в чаті, якщо хтось ними скористається, але їх не буде у "
+"вашому меню смайлів."
+
+msgid "emote-menu.toggle-hide.off"
+msgstr "Управління Видимістю Смайлів"
+
+msgid "emote-menu.toggle-hide.on"
+msgstr "Вийти з Управління Видимістю Смайлів"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Невідоме джерело"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "Сховані"
+
+msgid "emote-menu.visibility.visible"
+msgstr "Видимі"
+
+msgid "emote.owner"
+msgstr "Власник: {owner}"
+
+msgid "error.try-again"
+msgstr "Спробуйте ще раз"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Відписатися від {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Сповіщення наразі увімкнено. Клацніть аби вимкнути."
+
+msgid "i18n.diff.added"
+msgstr ""
+"Додано:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Вилучено:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Зацікавлені у допомозі з перекладами? Будь ласка, [долучайтесь до нашого "
+"Discord](https://discord.gg/UrAkGhT) та до чату в каналі локалізації.\n"
+"\n"
+"Це знаряддя потрібне для тестування їхніх перекладів наживо у застосунку. "
+"Таким чином можна переконатись, що виглядає доладно перш ніж надсилати свої "
+"переклади."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} (готово на {coverage,number,percent})"
+
+msgid "i18n.ui.added"
+msgstr "Нові рядки"
+
+msgid "i18n.ui.all"
+msgstr "Всі рядки"
+
+msgid "i18n.ui.changed"
+msgstr "Змінені рядки"
+
+msgid "i18n.ui.context"
+msgstr "Контекст"
+
+msgid "i18n.ui.existing"
+msgstr "Чинні Налаштування"
+
+msgid "i18n.ui.open"
+msgstr "Відкрити Тестувальник Перекладу"
+
+msgid "i18n.ui.pages"
+msgstr "Сторінка {current,number} із {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Рядки в очікуванні"
+
+msgid "i18n.ui.popout"
+msgstr "Відкрити Редактор Перекладу в Новому Вікні"
+
+msgid "i18n.ui.preview"
+msgstr "Попередній перегляд"
+
+msgid "i18n.ui.refresh"
+msgstr "Оновити Рядки"
+
+msgid "i18n.ui.search"
+msgstr "Шукати в рядках"
+
+msgid "i18n.ui.source"
+msgstr "Джерело"
+
+msgid "i18n.ui.title"
+msgstr "Тестувальник Перекладу"
+
+msgid "i18n.ui.upload"
+msgstr "Завантажити Зміни"
+
+msgid "key.alt"
+msgstr "Клавіша Alt"
+
+msgid "key.alt_mouse"
+msgstr "Клавіша Alt або Миша"
+
+msgid "key.ctrl"
+msgstr "Клавіша Ctrl"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl або Мишка"
+
+msgid "key.mouse"
+msgstr "Рух миші"
+
+msgid "key.shift"
+msgstr "Клавіша Shift"
+
+msgid "key.shift_mouse"
+msgstr "Клавіша Shift або Миша"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Позначити Всі Побаченими"
+
+msgid "main-menu.popout"
+msgstr "Відкрити налаштування у новому вікні"
+
+msgid "main-menu.search"
+msgstr "Налаштування Пошуку"
+
+msgid "main-menu.version"
+msgstr "Версія {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Пропоновані"
+
+msgid "metadata.featured-follow.title"
+msgstr "Пропоновані Канали"
+
+msgid "metadata.host.add-channel"
+msgstr "Додати до Авто-Ретрансляцій"
+
+msgid "metadata.host-button.host"
+msgstr "Ретранслювати"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Зараз ретранслюється {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Нічого"
+
+msgid "metadata.host-button.unhost"
+msgstr "Стоп ретрансляції"
+
+msgid "metadata.host-button.updating"
+msgstr "Оновлення..."
+
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr ""
+"Автоматично ретранслювати канали з вашого списку ретрансляцій коли ви поза "
+"мережею."
+
+msgid "metadata.host.setting.strategy.description"
+msgstr "Якщо увімкнено, то канали для ретрансляції обираються випадково зі списку."
+
+msgid "metadata.host.setting.strategy.title"
+msgstr "Випадковий Порядок Ретрансляції"
+
+msgid "metadata.host.setting.team-hosting.description"
+msgstr "Включати канали команди до вашого списку ретрансляцій."
+
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr ""
+"Включати канали, які транслюють попередньо записані відео, як-от Прем'єри "
+"чи Повтори"
+
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "Ретранслювати попередньо записані відео"
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Авто-Ретрансляція"
+
+msgid "metadata.host.tab.settings"
+msgstr "Налаштування"
+
+msgid "metadata.host.title"
+msgstr "Управління Авто-Ретрансляціями"
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Затримка трансляції"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "Відтворення на швидкості {rate,number}x задля зменшення затримки."
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Затримка"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Відео: {videoResolution}p{fps}\n"
+"Бітрейт відтворення: {playbackRate,number} Kbps\n"
+"Втрачено фреймів:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Про Відео"
+
+msgid "metadata.uptime.copy"
+msgstr "Скопіювати до Буферу обміну"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Тривалість"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Час Трансляції"
+
+msgid "metadata.viewers"
+msgstr "Кількість глядачів"
+
+msgid "page.next"
+msgstr "Наступна Сторінка"
+
+msgid "page.previous"
+msgstr "Попередня Сторінка"
+
+msgid "player.comp_button.disabled"
+msgstr "Неможливо увімкнути Компресор Звуку під час перегляду Кліпів."
+
+msgid "player.comp_button.help"
+msgstr ""
+"Детальніше в Центрі Управління FFZ. Якщо звук зламався, будь ласка, скиньте "
+"плеєр."
+
+msgid "player.comp_button.off"
+msgstr "Вимкнути Компресор Звуку"
+
+msgid "player.comp_button.on"
+msgstr "Аудіо-компресор"
+
+msgid "player.pip_button"
+msgstr "Картинка-в-картинці"
+
+msgid "player.pip_button.off"
+msgstr "Вийти з Картика-в-Картинці"
+
+msgid "player.reset_button"
+msgstr "Скинути Програвач (Подвійний клац)"
+
+msgid "player.reset_button.all"
+msgstr "Скинути всі Програвачі (Подвійний Клац)"
+
+msgid "popup.error"
+msgstr ""
+"Ми спробували відкрити спливаюче вікно і не змогли. Переконайтесь, що ви "
+"дозволили відкривати спливаючі вікна на Twitch."
+
+msgid "site.menu_button"
+msgstr "Центр управління FrankerFaceZ"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Ви завантажили дані додатку з місцевого розробницького сервера."
+
+msgid "site.menu_button.error"
+msgstr ""
+"Під час завантаження Центур Управління FFZ. Будь ласка, оновіть та "
+"спробуйте знов."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Ви послуговуєтесь розробницьку збірку FrankerFaceZ."
+
+msgid "site.menu_button.new-desc"
+msgstr ""
+"З'явилося {count,plural,one {одне нове налаштування} few {# нових "
+"налаштування} other {нових # налаштувань}}."
+
+msgid "site.menu_button.no-settings"
+msgstr "Налаштування в цій вкладці вимкнені через наявність \"{param}\" в URL."
+
+msgid "site.menu_button.profiles"
+msgstr "Профілі"
+
+msgid "site.menu_button.update-desc"
+msgstr "Доступне оновлення. Будь ласка, оновіть сторінку."
+
+msgid "socket.info.command"
+msgstr "Команда"
+
+msgid "socket.info.connected"
+msgstr "приєднано"
+
+msgid "socket.info.disconnected"
+msgstr "від'єднано"
+
+msgid "socket.info.local_time"
+msgstr "Місцевий час"
+
+msgid "socket.info.ping"
+msgstr "Пінґ"
+
+msgid "socket.info.server"
+msgstr "Сервер"
+
+msgid "socket.info.server_time"
+msgstr "Час на сервері"
+
+msgid "socket.info.state"
+msgstr "Стан"
+
+msgid "socket.info.stats.authenticated"
+msgstr "Автентифіковано"
+
+msgid "socket.info.stats.connected_clients"
+msgstr "Під'єднані Клієнти"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Команди"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Повідомлення"
+
+msgid "socket.info.stats.versions"
+msgstr "Версії клієнта"
+
+msgid "socket.info.version"
+msgstr "Версія"
+
+msgid "sub-button.prime"
+msgstr "Вам доступна безкоштовна передплата на канал із Prime."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Бітсів"
+
+msgid "tooltip.bits.more"
+msgstr "(та ще {count})"
+
+msgid "tooltip.channel"
+msgstr "Канал: {source}"
+
+msgid "tooltip.email-link"
+msgstr "Емейл: {address}"
+
+msgid "tooltip.emoji"
+msgstr "Емодзі — {category}"
+
+msgid "tooltip.emote"
+msgstr "Смайлик: {name}"
+
+msgid "tooltip.error"
+msgstr "Виникла помилка. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Шлях призначення: {url}"
+
+msgid "tooltip.link.urls"
+msgstr "Відвідані адреси"
+
+msgid "tooltip.render-error"
+msgstr ""
+"Під час візуалізації цієї підказки сталася помилка.\n"
+"{err}"
+
+msgid "tooltip.shift-detail"
+msgstr "(Докладніше з Shift)"
+
+msgid "video-chat.jump"
+msgstr "Перейти до Відео"
+
+msgid "video-chat.reply"
+msgstr "Відповісти"
+
+msgid "video-chat.show-more"
+msgstr "Показати більше відповідей..."
+
+msgid "video-chat.time"
+msgstr "{time,humantime} тому назад"
+
+msgid "video.desc.1"
+msgstr "Відео зі стріму {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Перегляди - {date,datetime}"
+
+msgid "video.published-on"
+msgstr "Оприлюднено:  {date,date}"

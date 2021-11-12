@@ -1,0 +1,2448 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "addon.author"
+msgstr "Od: {author}"
+
+msgid "addon.created"
+msgstr "Vytvořeno: {when,date}"
+
+msgid "addon.deck.author"
+msgstr "SirStendec"
+
+msgid "addon.deck.name"
+msgstr "Deck"
+
+msgid "addon.dev"
+msgstr "Vývojář"
+
+msgid "addon.disable"
+msgstr "Zakázat"
+
+msgid "addon.enable"
+msgstr "Povolit"
+
+msgid "addon.enabled"
+msgstr "Povoleno"
+
+msgid "addon.ffzap-bttv.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-bttv.name"
+msgstr "BetterTTV Emotikony"
+
+msgid "addon.ffzap-core.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-core.name"
+msgstr "Jádro FrankerFaceZ Add-On Packu (FFZ:AP)"
+
+msgid "addon.ffzap-liriklive.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-liriklive.name"
+msgstr "LirikLIVE"
+
+msgid "addon.filter-enabled"
+msgstr "Zobrazit pouze povolené doplňky"
+
+msgid "addon.settings"
+msgstr "Nastavení"
+
+msgid "addon.show-more"
+msgstr "(Ukázat Více)"
+
+msgid "addon.sort-name"
+msgstr "Seřadit dle: Název"
+
+msgid "addon.sort-update"
+msgstr "Seřadit dle: Aktualizováno "
+
+msgid "addon.unlisted"
+msgstr "Neveřejný"
+
+msgid "addon.unlisted.add"
+msgstr "Přidat neveřejný..."
+
+msgid "addon.unlisted.explain"
+msgstr ""
+"Neveřejné doplňky jsou doplňky, které prošly schválením, ale rozhodlo se, "
+"že nebudou uvedeny v hlavním seznamu. Může to být způsobeno tím, že se "
+"doplněk specializuje na určité uživatele, nebo je stále ve vývoji. Pokud "
+"znáte ID neveřejného doplňku, zadejte jej sem, aby se zobrazil."
+
+msgid "addon.unlisted.id"
+msgstr "id doplňku"
+
+msgid "addon.updated"
+msgstr "Aktualizováno: {when,humantime}"
+
+msgid "addon.version"
+msgstr "Verze {version}"
+
+msgid "addon.website"
+msgstr "Webová Stránka"
+
+msgid "home.about"
+msgstr ""
+"Děkujeme vám za použivání FrankerFaceZ.\n"
+"\n"
+"\n"
+"Verze rozšíření 4.0 je pod aktivním vývojem od vydání webu Twitch's Reacts "
+"na konci roku 2017."
+
+msgid "home.addon-new"
+msgstr "Nové Doplňky"
+
+msgid "home.addon-updates"
+msgstr "Aktualizované Doplňky"
+
+msgid "home.changelog"
+msgstr "Seznam Změn"
+
+msgid "home.changelog.by-line"
+msgstr "Od: {user}"
+
+msgid "home.changelog.current"
+msgstr "Současná Verze"
+
+msgid "home.changelog.load"
+msgstr "Načíst Více"
+
+msgid "home.changelog.nonversioned"
+msgstr "Neočíslovaný update"
+
+msgid "home.changelog.show-nonversioned"
+msgstr "Zahrnovat neoverzované updaty."
+
+msgid "home.discord"
+msgstr "Discord"
+
+msgid "home.faq"
+msgstr ""
+"## Často Kladené Otázky\n"
+"\n"
+"* *Co se stalo s [touhle funkcí]?*\n"
+"\n"
+"Je zde stále mnoho funkcí, které byly přítomny ve verzi 3.0 a chybí ve "
+"verzi 4.0.  Bohužel, některé funkce jsou nepraktické pro update na novou "
+"verzi webu Twitch.\n"
+"\n"
+"Mnoho funkcí je stále plánováno, že se vrátí spolu s tím, jak vývojáři "
+"budou mít čas je implementovat. Není zde žádný rozvrh pro tyto očekávané "
+"funkce. Funkce se vydávají hned po dokončení\n"
+"\n"
+"* *Přispěl jsem, ale můj odznak podporovatele FFZ se nezobrazuje.*\n"
+"* *Přidal jsem na můj kanál emotikon, ale nevidím ho.*\n"
+"\n"
+"Kvůli problémům s výkonem na našem současném webu, musíme pro naše API "
+"využívat cachování. Díky tomu může trvat až půl hodiny, než se změny "
+"projeví na odznacích podporovatele FFZ nebo emotikonech. Po čekání stačí "
+"znovu načíst stránku a váš obsah by se měl zobrazit. Můžete taky zkusit "
+"kompletně vypnout a zapnout váš prohlížeč. \n"
+"\n"
+"* *Nechci odznak `Podporovatele FFZ`.*\n"
+"\n"
+"Uživatelé si mohou přepínat viditelnost jejich odznaku podporovatele FFZ na "
+"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"\n"
+"* *Vidím svoje emotikony, ale někteří lidé v chatu píšou, že je nevidí.*\n"
+"\n"
+"Uživatelé si do jejich prohlížeče musí nainstalovat rozšíření FrankerFaceZ  "
+"nebo jinou aplikaci třetí strany, která podporuje FFZ emotikony, aby mohli "
+"vidět jakékoliv FrankerFaceZ  emotikony. Uživatelé možná také nevidí nově "
+"přidané emotikony, což záleží na cache jejich prohlížeče a kdy naposledy "
+"obnovili stránku.\n"
+"\n"
+"* *Je zde ukradený emotikon!*\n"
+"* *Je zde ofenzivní emotikon!*\n"
+"\n"
+"Prosíme, abyste jakékoli problémy s emotikony nahlašovali pomocí tlačítka "
+"`Report Emote` na naší stránce. Stikněte Shift a klikněte pro otevření "
+"stránky emotikonu a pak vyberte `Report Emote` na pravé straně stránky. "
+"Musíte být přihlášeni, abyste mohli nahlašovat emotikony."
+
+msgid "home.feedback"
+msgstr ""
+"## Zpětná Vazba\n"
+"\n"
+"Zpětnou vazbu a hlašení o chybách můžete poskytnout  [otevřením problému v "
+"našem úložišti na "
+"GitHubu](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Můžete nás "
+"také [najít na Discordu](https://discord.gg/UrAkGhT) nebo [nás označit na "
+"Twitteru](https://twitter.com/FrankerFaceZ).\n"
+"\n"
+"Při vytváření problému na GitHubu zkontrolujte, zda někdo jiný ještě "
+"nevytvořil problém pro to, o čem byste chtěli diskutovat, nebo co byste "
+"chtěli nahlásit. Problémy na GitHubu by měly být použity pro problémy s "
+"rozšířením, nikoli otázky týkající se schválení emotikonu.\n"
+"\n"
+"Při vytváření problému také nahrajte níže uvedené protokoly a zahrňte odkaz "
+"do svého hlášení."
+
+msgid "home.github"
+msgstr "GitHub"
+
+msgid "home.new-settings"
+msgstr "Nová Nastavení"
+
+msgid "home.tag-line"
+msgstr "Sada Vylepšení Twitche"
+
+msgid "home.tweets"
+msgstr "Tweety od FrankerFaceZ"
+
+msgid "home.twitter"
+msgstr "Twitter"
+
+msgid "home.website"
+msgstr "Web FrankerFaceZ"
+
+msgid "setting.actions.action"
+msgstr "Akce"
+
+msgid "setting.actions.add-default"
+msgstr "Přidat výchozí"
+
+msgid "setting.actions.appearance"
+msgstr "Vzhled"
+
+msgid "setting.actions.appearance.combo"
+msgstr "Text a Ikona"
+
+msgid "setting.actions.appearance.icon"
+msgstr "Ikona"
+
+msgid "setting.actions.appearance.image"
+msgstr "Obrázek "
+
+msgid "setting.actions.appearance.text"
+msgstr "Text"
+
+msgid "setting.actions.chat"
+msgstr "Přikaz v Chatu"
+
+msgid "setting.actions.color"
+msgstr "Barva"
+
+msgid "setting.actions.color.warn"
+msgstr ""
+"Tato hodnota bude automaticky upravena pro viditelnost na základě vašeho "
+"nastavení barev chatu."
+
+msgid "setting.actions.delete-all"
+msgstr "Odstranit všechny akce tohoto profilu."
+
+msgid "setting.actions.drag"
+msgstr "Akce můžete přeuspořádat přetažením."
+
+msgid "setting.actions.duration"
+msgstr "Doba Trvání"
+
+msgid "setting.actions.edit-visible.deleted"
+msgstr "Zpráva Smazána"
+
+msgid "setting.actions.edit-visible.emote-only"
+msgstr "Režim pouze s emotikony"
+
+msgid "setting.actions.edit-visible.follows"
+msgstr "Režim pouze pro sledující"
+
+msgid "setting.actions.edit-visible.mod"
+msgstr "Moderátor"
+
+msgid "setting.actions.edit-visible.mod-icons"
+msgstr "Moderátorské Ikony"
+
+msgid "setting.actions.edit-visible.r9k"
+msgstr "Režim R9k "
+
+msgid "setting.actions.edit-visible.slow"
+msgstr "Pomalý Režim"
+
+msgid "setting.actions.edit-visible.subs"
+msgstr "Režim pouze pro předplatitele"
+
+msgid "setting.actions.icon"
+msgstr "Ikona"
+
+msgid "setting.actions.new"
+msgstr "Nové... "
+
+msgid "setting.actions.no-actions"
+msgstr "v tomto profilu nejsou definované žádné akce"
+
+msgid "setting.actions.no-visible"
+msgstr "žádné viditelné akce"
+
+msgid "setting.actions.preview"
+msgstr "Náhled:"
+
+msgid "setting.actions.preview.all"
+msgstr "Zobrazit vše"
+
+msgid "setting.actions.preview.deleted"
+msgstr "Smazaná zpráva"
+
+msgid "setting.actions.preview.emote-only"
+msgstr "Pouze Emotikony"
+
+msgid "setting.actions.preview.followers"
+msgstr "Pouze pro Sledující"
+
+msgid "setting.actions.preview.mod"
+msgstr "Jako Moderátor "
+
+msgid "setting.actions.preview.mod_icons"
+msgstr "S Moderátorskými Ikonami"
+
+msgid "setting.actions.preview.r9k"
+msgstr "Režim R9k "
+
+msgid "setting.actions.preview.slow"
+msgstr "Pomalý Režim"
+
+msgid "setting.actions.preview.subs"
+msgstr "Pouze pro Předplatitele"
+
+msgid "setting.actions.reason"
+msgstr "Výchozí Důvod"
+
+msgid "setting.actions.set-chat"
+msgstr "Tuto zprávu vložit do chatu místo přímého odesílání."
+
+msgid "setting.actions.text"
+msgstr "Štítek"
+
+msgid "setting.actions.tooltip"
+msgstr "Vlastní Popisky"
+
+msgid "setting.actions.type"
+msgstr "Typ"
+
+msgid "setting.actions.url"
+msgstr "Odkaz"
+
+msgid "setting.actions.variables"
+msgstr "Dostupné Proměnné: {vars}"
+
+msgid "setting.actions.visibility"
+msgstr "Viditelnost"
+
+msgid "setting.actions.visible"
+msgstr "viditelnost: {list}"
+
+msgid "setting.actions.visible.always"
+msgstr "Vždy"
+
+msgid "setting.actions.visible.deleted"
+msgstr "Pokud je zpráva smazána"
+
+msgid "setting.actions.visible.mod"
+msgstr "pokud jste moderátor"
+
+msgid "setting.actions.visible.mod_icons"
+msgstr "když jsou zobrazeny moderátorské ikony "
+
+msgid "setting.actions.visible.slow"
+msgstr "při pomalém režimu"
+
+msgid "setting.actions.visible.undeleted"
+msgstr "Pokud zpráva není smazána"
+
+msgid "setting.add"
+msgstr "Přidat"
+
+msgid "setting.add_ons"
+msgstr "Doplňky"
+
+msgid "setting.add_ons.changelog"
+msgstr "Seznam Změn"
+
+msgid "setting.add_ons.changelog.title"
+msgstr "Seznam Změn Doplňků"
+
+msgid "setting.add_ons.description"
+msgstr ""
+"Doplňky jsou doplňující moduly, většinou napsané dalšími vývojáři, které "
+"mohou být načtené automaticky pomocí FrankerFaceZ pro přidání nových "
+"možností a chování do rozšíření FrankerFaceZ a Twitche."
+
+msgid "setting.add_ons.development"
+msgstr "Vývoj"
+
+msgid "setting.appearance"
+msgstr "Vzhled"
+
+msgid "setting.appearance.description"
+msgstr ""
+"Přizpůsobuje vzhled Twitche. Mění barevné schéma, spolu s písmem a ladí "
+"layout pro zlepšení vašeho zážitku. "
+
+msgid "setting.appearance.layout"
+msgstr "Rozložení"
+
+msgid "setting.appearance.layout.channel"
+msgstr "Kanál"
+
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Postranní Navigace"
+
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Horní Lišta "
+
+msgid "setting.appearance.localization"
+msgstr "Lokalizace"
+
+msgid "setting.appearance.localization.formatting"
+msgstr "Formátování"
+
+msgid "setting.appearance.localization.general"
+msgstr "Obecné "
+
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Vtipné Jazyky"
+
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Podporované Jazyky"
+
+msgid "setting.appearance.localization.general.language.twitch"
+msgstr "Použít jazyk z Twitche."
+
+msgid "setting.appearance.theme"
+msgstr "Téma"
+
+msgid "setting.appearance.theme.colors"
+msgstr "Barvy"
+
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Toto je rychlá ukázka nového systému, který přijde již brzy do "
+"FrankerFaceZ. Očekávejte zde velké změny, včetně rozdělení Základního a "
+"Rozšířeného režimu a lepšího výběru barev."
+
+msgid "setting.appearance.theme.fonts"
+msgstr "Písma"
+
+msgid "setting.backup-restore.about"
+msgstr ""
+"Tento nástroj umožňuje zálohovat a obnovit nastavení FrankerFaceZ, včetně "
+"všech nastavení Ovládacího Centra FFZ, spolu s dalšími daty, jako jsou "
+"oblíbené emotikony a blokované hry."
+
+msgid "setting.backup-restore.error"
+msgstr "Nastala chyba při zpracování zálohy."
+
+msgid "setting.backup-restore.imported-at"
+msgstr "Importováno {now,datetime}."
+
+msgid "setting.backup-restore.restore-backup"
+msgstr "Obnovit Zálohu"
+
+msgid "setting.backup-restore.save-backup"
+msgstr "Uložit Zálohu"
+
+msgid "setting.cancel"
+msgstr "Zrušit"
+
+msgid "setting.channel"
+msgstr "Kanál "
+
+msgid "setting.channel.appearance"
+msgstr "Vzhled"
+
+msgid "setting.channel.appearance.general"
+msgstr "Obecné "
+
+msgid "setting.channel.behavior"
+msgstr "Chování"
+
+msgid "setting.channel.behavior.general"
+msgstr "Obecné"
+
+msgid "setting.channel.behavior.hosting"
+msgstr "Hostování"
+
+msgid "setting.channel.behavior.panels"
+msgstr "Panely"
+
+msgid "setting.channel.behavior.raids"
+msgstr "Nájezdy"
+
+msgid "setting.channel.behavior.squads"
+msgstr "Týmová Vysílání"
+
+msgid "setting.channel.metadata"
+msgstr "Metadata"
+
+msgid "setting.channel.metadata.appearance"
+msgstr "Vzhled"
+
+msgid "setting.channel.metadata.clips"
+msgstr "Klipy"
+
+msgid "setting.channel.metadata.player"
+msgstr "Přehrávač"
+
+msgid "setting.channel.metadata.subscription"
+msgstr "Předplatné"
+
+msgid "setting.chat"
+msgstr "Chat "
+
+msgid "setting.chat.actions"
+msgstr "Akce "
+
+msgid "setting.chat.actions.in_line"
+msgstr "V řádku"
+
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Zde můžete definovat vlastní akce, které se budou zobrazovat podél zpráv v "
+"chatu.  Pokud v chatu nevidíte akci, kterou jste zde definovali, ujistěte "
+"se, že jste v nabídce nastavení chatu povolili moderátorské ikony. "
+
+msgid "setting.chat.actions.reasons"
+msgstr "Důvody "
+
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Vlastní Důvody"
+
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Pravidla"
+
+msgid "setting.chat.actions.room"
+msgstr "Místnost"
+
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Zde můžete definovat vlastní akce, které budou zobrazovány nad textovým "
+"polem chatu."
+
+msgid "setting.chat.actions.room.general"
+msgstr "Obecné"
+
+msgid "setting.chat.actions.user_context"
+msgstr "Kontext Uživatele"
+
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Zde můžete definovat vlastní akce, které se zobrazí v kontextové nabídce po "
+"kliknutí pravým tlačítkem myši na uživatelské jméno v chatu."
+
+msgid "setting.chat.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Řádky Chatu"
+
+msgid "setting.chat.appearance.colors"
+msgstr "Barvy"
+
+msgid "setting.chat.appearance.community"
+msgstr "Komunita"
+
+msgid "setting.chat.appearance.community_chest"
+msgstr "Komunitní Truhla"
+
+msgid "setting.chat.appearance.emoji"
+msgstr "Emoji"
+
+msgid "setting.chat.appearance.emotes"
+msgstr "Emotikony"
+
+msgid "setting.chat.appearance.general"
+msgstr "Obecné"
+
+msgid "setting.chat.appearance.replies"
+msgstr "Odpovědi"
+
+msgid "setting.chat.appearance.rich_content"
+msgstr "Obsah Stránek"
+
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Předplatná"
+
+msgid "setting.chat.badges"
+msgstr "Odznaky"
+
+msgid "setting.chat.badges.behavior"
+msgstr "Chování"
+
+msgid "setting.chat.badges.tabs"
+msgstr "záložky"
+
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Viditelnost"
+
+msgid "setting.chat.behavior"
+msgstr "Chování"
+
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Smazané Zprávy"
+
+msgid "setting.chat.behavior.general"
+msgstr "Obecné"
+
+msgid "setting.chat.behavior.scrolling"
+msgstr "Posouvání"
+
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bity a Fandění"
+
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Chování"
+
+msgid "setting.chat.channel_points"
+msgstr "Věrnostní Body"
+
+msgid "setting.chat.channel_points.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.channel_points.behavior"
+msgstr "Chování"
+
+msgid "setting.chat.channel_points.general"
+msgstr "Obecné "
+
+msgid "setting.chat.chat_on_videos"
+msgstr "Chat u Videí"
+
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Tahle funkce je právě v beta verzi. Proto můžou nastat nějaké potíže při "
+"používání funkcí FFZ pro Chat u Videí. "
+
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Obecné"
+
+msgid "setting.chat.emote_menu"
+msgstr "Nabídka Emotikonů"
+
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.emote_menu.general"
+msgstr "Obecné"
+
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Řazení"
+
+msgid "setting.chat.filtering"
+msgstr "Filtrování"
+
+msgid "setting.chat.filtering.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Filtry AutoModa"
+
+msgid "setting.chat.filtering.behavior"
+msgstr "Chování"
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Zablokované Odznaky"
+
+msgid "setting.chat.filtering.blocked_message_types"
+msgstr "Zablokované Typy Zpráv"
+
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Blokované Fráze"
+
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Blokovaní Uživatelé"
+
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Zvýraznit Odznaky"
+
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Zvýrazněné Fráze"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Zvýraznit Uživatele"
+
+msgid "setting.chat.filtering.rituals"
+msgstr "Rituály"
+
+msgid "setting.chat.input"
+msgstr "Zadávání"
+
+msgid "setting.chat.input.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.input.recent_messages"
+msgstr "Nedávné Zprávy"
+
+msgid "setting.chat.input.tab_completion"
+msgstr "Dokončování klávesou Tab"
+
+msgid "setting.chat.tooltips"
+msgstr "Popisky"
+
+msgid "setting.chat.tooltips.badges"
+msgstr "Odznaky"
+
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emotikony"
+
+msgid "setting.chat.tooltips.general"
+msgstr "Obecné"
+
+msgid "setting.chat.tooltips.links"
+msgstr "Odkazy"
+
+msgid "setting.chat.viewer_cards"
+msgstr "Karty Diváků"
+
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Vzhled"
+
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Chování"
+
+msgid "setting.chat.whispers"
+msgstr "Zprávy Šeptem"
+
+msgid "setting.chat.whispers.general"
+msgstr "Obecné "
+
+msgid "setting.close"
+msgstr "Vyčistit"
+
+msgid "setting.combo-box.custom"
+msgstr "Vlastní"
+
+msgid "setting.configure"
+msgstr "Konfigurovat"
+
+msgid "setting.copy-json"
+msgstr "Kopírovat"
+
+msgid "setting.data_management"
+msgstr "Správa Dat"
+
+msgid "setting.data_management.backup_and_restore"
+msgstr "Zálohování a Obnovení"
+
+msgid "setting.data_management.profiles"
+msgstr "Profily"
+
+msgid "setting.data_management.profiles.edit.desc"
+msgstr "Popisek"
+
+msgid "setting.data_management.profiles.edit.general"
+msgstr "Obecné "
+
+msgid "setting.data_management.profiles.edit.name"
+msgstr "Jméno"
+
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Editovat Profil"
+
+msgid "setting.data_management.profiles.edit.rules"
+msgstr "Pravidla"
+
+msgid "setting.data_management.reporting"
+msgstr "Nahlašování"
+
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Chybová hlášení"
+
+msgid "setting.data_management.reporting.example_report"
+msgstr "Příklad Hlášení"
+
+msgid "setting.debugging"
+msgstr "Ladění"
+
+msgid "setting.debugging.data_sources"
+msgstr "Zdroje Dat"
+
+msgid "setting.debugging.data_sources.links"
+msgstr "Odkazy"
+
+msgid "setting.debugging.experiments"
+msgstr "Experimenty"
+
+msgid "setting.debugging.localization"
+msgstr "Lokalizace"
+
+msgid "setting.debugging.localization.editing"
+msgstr "Úprava"
+
+msgid "setting.debugging.localization.general"
+msgstr "Obecné"
+
+msgid "setting.debugging.socket"
+msgstr "Socket"
+
+msgid "setting.debugging.socket.general"
+msgstr "Obecné "
+
+msgid "setting.debugging.socket.info"
+msgstr "Informace"
+
+msgid "setting.delete"
+msgstr "Smazat"
+
+msgid "setting.delete-all"
+msgstr "Smazat vše"
+
+msgid "setting.directory"
+msgstr "Procházení"
+
+msgid "setting.directory.channels"
+msgstr "Kanály"
+
+msgid "setting.directory.channels.appearance"
+msgstr "Vzhled"
+
+msgid "setting.directory.channels.blocked_and_hidden_categories"
+msgstr "Blokované a skryté kategorie"
+
+msgid "setting.directory.following"
+msgstr "Sledování"
+
+msgid "setting.directory.following.categories"
+msgstr "Kategorie"
+
+msgid "setting.directory.following.hosts"
+msgstr "Hostitelé"
+
+msgid "setting.edit"
+msgstr "Upravit"
+
+msgid "setting.entry.add-ons"
+msgstr "Doplňky"
+
+msgid "setting.entry.addons.dev.server"
+msgstr "Použít Lokální Vývojářský Server"
+
+msgid "setting.entry.addons.dev.server.description"
+msgstr "Pokousit se načíst doplňky z lokálního vývojářského serveru na portu 8001."
+
+msgid "setting.entry.backup"
+msgstr "záloha"
+
+msgid "setting.entry.changelog"
+msgstr "seznam změn"
+
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Automaticky otevřít chat, když otevíráte stránku offline kanálu."
+
+msgid "setting.entry.channel.auto-skip-trailer"
+msgstr "Automaticky přeskakovat upoutávky kanálu."
+
+msgid "setting.entry.channel.extra-links"
+msgstr "Přidat další odkazy na živé stránky kanálu vedle názvu streamera."
+
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Na stránce kanálu skrýt \"LIVE\" indikátor."
+
+msgid "setting.entry.channel.hide-unfollow"
+msgstr "Skrýt tlačítko pro zrušení sledování."
+
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Povolit hostování "
+
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Nepřipojovat se automaticky k nájezdům. "
+
+msgid "setting.entry.channel.round-avatars"
+msgstr "Povolit se zakulatit avatarům."
+
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "Neposílat automaticky na týmové vysílání."
+
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Zobrazit Akce Místnosti nad zadávacím oknem chatu."
+
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Zahrnout pravidla kanálu v seznamu důvodů."
+
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Minimální Kontrast"
+
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Nastavit minimální poměr kontrastu používaný Luma nastavením při zhoršené "
+"čitelnosti"
+
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Přizpůsobení"
+
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Upravit uživatelské barvy pro zajištění čitelnosti."
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Nezměněno"
+
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Bez Barvy"
+
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Použít vlastní moderátorské odznaky, pokud jsou dostupné. "
+
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Použít vlastní VIP odznaky, pokud jsou dostupné."
+
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Viditelnost"
+
+msgid "setting.entry.chat.badges.style"
+msgstr "Styl"
+
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Čtverec"
+
+msgid "setting.entry.chat.badges.style.values.1"
+msgstr "Zaoblené"
+
+msgid "setting.entry.chat.badges.style.values.5"
+msgstr "Transparentní"
+
+msgid "setting.entry.chat.badges.style.values.6"
+msgstr "Transparentní (Barevné)"
+
+msgid "setting.entry.chat.badges.version"
+msgstr "Verze"
+
+msgid "setting.entry.chat.badges.version.values.1"
+msgstr "1 (Před Prosincem 2019)"
+
+msgid "setting.entry.chat.badges.version.values.2"
+msgstr "2 (Aktuální)"
+
+msgid "setting.entry.chat.banners.polls"
+msgstr "Povolit Anketám, aby se v chatu zobrazily."
+
+msgid "setting.entry.chat.bits.animated"
+msgstr "Zobrazit animované fandění. "
+
+msgid "setting.entry.chat.bits.show"
+msgstr "Zobrazit bity"
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Zobrazit UI související s bity. Poznámka: Tohle neskryje fandění ve "
+"zprávách."
+
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"Ve výchozím nastavení, toto dědí jeho hodnotu z Zobrazit Bity. Toto "
+"nastavení ovlivní pouze nově přijaté zprávy."
+
+msgid "setting.entry.chat.bits.stack"
+msgstr "Seskupování Bitů"
+
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Vezme všechny bity z určité zprávy a seskupí je do jediné ikonky na začátku "
+"zprávy."
+
+msgid "setting.entry.chat.bits.stack.values.0"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.chat.bits.stack.values.1"
+msgstr "Seskupeno dle Typu"
+
+msgid "setting.entry.chat.bits.stack.values.2"
+msgstr "Vše v Jednom"
+
+msgid "setting.entry.chat.click-emotes"
+msgstr "Otevřít informace o emotikonu stisknutím klávesy Shift+Kliknutím Myši."
+
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Zobrazit banner Komunitní Darovací Truhly."
+
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Zpozdí zobrazení zpráv v chatu, což umožní moderátorům zareagovat na zprávy "
+"předtím, než je uvidíte."
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Bez Zpoždění"
+
+msgid "setting.entry.chat.delay.values.10000"
+msgstr "Extra Velký (10s)"
+
+msgid "setting.entry.chat.delay.values.1200"
+msgstr "Normální (Lidská Moderace; 1.2s)"
+
+msgid "setting.entry.chat.delay.values.15000"
+msgstr "Extrémně Velký (15s)"
+
+msgid "setting.entry.chat.delay.values.20000"
+msgstr "Moderátoři Spí; Opozdit Chat (20s)"
+
+msgid "setting.entry.chat.delay.values.300"
+msgstr "Menší (moderace botem; 0,3s) "
+
+msgid "setting.entry.chat.delay.values.30000"
+msgstr "Půl Minuty (30s)"
+
+msgid "setting.entry.chat.delay.values.60000"
+msgstr "Proč??? (1m)"
+
+msgid "setting.entry.chat.delay.values.788400000000"
+msgstr "Možnost CBenniho (Doslova 25 Let)"
+
+msgid "setting.entry.chat.emoji.style"
+msgstr "Styl Emoji"
+
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Nativní"
+
+msgid "setting.entry.chat.emoji.style.values.blob"
+msgstr "Kapka"
+
+msgid "setting.entry.chat.emoji.style.values.emojione"
+msgstr "EmojiOne"
+
+msgid "setting.entry.chat.emoji.style.values.google"
+msgstr "Google (Noto)"
+
+msgid "setting.entry.chat.emoji.style.values.open"
+msgstr "OpenMoji"
+
+msgid "setting.entry.chat.emoji.style.values.twitter"
+msgstr "Twitter (Twemoji)"
+
+msgid "setting.entry.chat.emote-dialogs"
+msgstr "Otevřít informace o Twitch emotikonech kliknutím na ně."
+
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Zobrazit všechny emotikony v jedné záložce."
+
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Výchozí Záložka"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.all"
+msgstr "Moje Emotikony"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
+msgstr "Kanál"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
+msgstr "Emoji"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
+msgstr "Oblíbené"
+
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Použít Nabídku Emotikonů FrankerFaceZ."
+
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"Nabídka Emotikonů FFZ nahrazuje vestavěnou Nabídku Emotikonů od  Twitche a "
+"poskytuje vylepšenou funkčnost."
+
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr "Nahradit ikonu Nabídky Emotikonů ikonkou FFZ pro ten pocit klasiky."
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.0"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.1"
+msgstr "V řádku"
+
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Použít Ctrl+E k otevření Nabídky Emotikonů."
+
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr ""
+"Pokud je povoleno a stisknete Ctrl + E při zadávání do chatu, otevře se "
+"Nabídka Emotikonů."
+
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Zobrazit Nadpisy"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.0"
+msgstr "Nikdy"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.1"
+msgstr "Vždy"
+
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Zobrazit vyhledávač."
+
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Seřadit Emotikony Podle"
+
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Zobrazovat emotikony vyšších úrovní jako poslední."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Povolit otevírání karet diváků kliknutím na jejich označení v chatu."
+
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Klikněte pro odhalení vymazaného obsahu."
+
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Tento styl bude použit pro smazané zprávy zobrazené v režimu podrobného "
+"zobrazení, aby byly odlišeny od běžných zpráv chatu."
+
+msgid "setting.entry.chat.filtering.deleted-style.values.0"
+msgstr "Vybledlé"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.2"
+msgstr "Přeškrtnutě"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.3"
+msgstr "Beze Změny"
+
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Mód Renderování"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
+msgstr "Stručně"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
+msgstr "Detailně"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.false"
+msgstr "Nepřepisovat"
+
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Zobrazit Důvod"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.0"
+msgstr "Nikdy"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.1"
+msgstr "V Detailním Režimu"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.2"
+msgstr "Vždy"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Zvýraznit zprávy, kde jste označen/a. "
+
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Zvýraznit nalezená slova v chatu. "
+
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Nemazat Chat na Povel Moderátora."
+
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Vlastní Barva Zvýraznění"
+
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Filtrovat vaše zprávy. "
+
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Odstranit smazané zprávy z chatu. "
+
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Odstraněné zprávy budou z chatu zcela odstraněny.  Toto nastavení se "
+"nedoporučuje pro moderátory."
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.0"
+msgstr "Nemazat"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.1"
+msgstr "Odstranit Nepatřené (Výchozí)"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.2"
+msgstr "Odebrat Nespatřené jako Moderátor"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.3"
+msgstr "Odebrat Vše"
+
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Opravit Špatné Globální Twitch Emotikony"
+
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Pročistit obrázky špatných globálních Twitch emotikonů, odstranit bílé "
+"ohraničení a solidní pozadí. "
+
+msgid "setting.entry.chat.font-family"
+msgstr "Rodina Písem"
+
+msgid "setting.entry.chat.font-family.description"
+msgstr "Vyberte písmo, které použijeme pro zobrazování zpráv v chatu."
+
+msgid "setting.entry.chat.font-size"
+msgstr "Velikost Písma"
+
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Jak velký by měl být text v chatu, v pixelech. Tohle může být ovlivněno "
+"přiblížením Vašeho prohlížeče a nastavením velikosti písma."
+
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Zobrazit tlačítko Pohledu Moderátora na kanálech, kde jste moderátor. "
+
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Zobrazovat řádky měnící se barvou pozadí."
+
+msgid "setting.entry.chat.lines.borders"
+msgstr "Oddělovače"
+
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Zarovnání Emotikonů"
+
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Změní umístění emotikonů v chatu a potenciálně může způsobit zvýšení zpráv, "
+"aby se vyhnulo překrývání emotikonů."
+
+msgid "setting.entry.chat.lines.emote-alignment.values.0"
+msgstr "Normální"
+
+msgid "setting.entry.chat.lines.padding"
+msgstr "Zmenšit výplň okolo řádků."
+
+msgid "setting.entry.chat.mru.enabled"
+msgstr "Povolit předepisování předešlých zprávy šipkami nahoru a dolů."
+
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Automaticky připnout zprávy o re-subech v chatu."
+
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr "Zvýrazní zprávu, když si někdo vyzvedne odměnu \"Zvýraznit mou zprávu\"."
+
+msgid "setting.entry.chat.points.auto-rewards"
+msgstr "Automaticky si nárokovat bonusové odměny."
+
+msgid "setting.entry.chat.points.show-button"
+msgstr "Zobrazit tlačítko věrnostních bodů pod chatem."
+
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Zobrazovat zprávy v chatu ohledně odměn z věrnostních bodů."
+
+msgid "setting.entry.chat.points.show-rewards"
+msgstr "Povolit zobrazování dostupných odměn vedle tlačítka pro věrnostní body."
+
+msgid "setting.entry.chat.replies.style.values.1"
+msgstr "Twitch (Výchozí)"
+
+msgid "setting.entry.chat.replies.style.values.2"
+msgstr "FrankerFaceZ"
+
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Zobrazovat ukázky obsahu stránek pro všechny odkazy."
+
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Zobrazit obsah stránek v chatu."
+
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr ""
+"Tohle zobrazuje obsah stránek v bloku, třeba věci jako odkazované klipy "
+"nebo videa."
+
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Schovat schodující se odkazy pro obsah stránek."
+
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Požadovaná Úroveň Uživatele"
+
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Zobrazovat ukázky obsahu stránek u zpráv napsané pouze uživateli s touto "
+"úrovní nebo vyšší."
+
+msgid "setting.entry.chat.rich.minimum-level.values.0"
+msgstr "Všichni"
+
+msgid "setting.entry.chat.rich.minimum-level.values.1"
+msgstr "Předplatitel"
+
+msgid "setting.entry.chat.rich.minimum-level.values.2"
+msgstr "VIP"
+
+msgid "setting.entry.chat.rich.minimum-level.values.3"
+msgstr "Moderátor"
+
+msgid "setting.entry.chat.rich.minimum-level.values.4"
+msgstr "Vysílající"
+
+msgid "setting.entry.chat.rituals.show"
+msgstr "Zobrazovat přivítávací zprávy jako \"Uživatel je tu nový! Řekněte Ahoj!\"."
+
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Délka Historie"
+
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Ponechat tento počet řádků v chatu. Příliš vysoké nastavení může zapříčinit "
+"lagy a problémy."
+
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Pozastavit Posouvání Chatu"
+
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Vyžadovat myš v chatu pro zastavení pomocí zkratky."
+
+msgid "setting.entry.chat.scroller.freeze.values.0"
+msgstr "Použít Twitch Nastavení"
+
+msgid "setting.entry.chat.scroller.freeze.values.1"
+msgstr "Najetí Myší"
+
+msgid "setting.entry.chat.scroller.freeze.values.2"
+msgstr "Když je držena klávesa Ctrl"
+
+msgid "setting.entry.chat.scroller.freeze.values.3"
+msgstr "Když je držena klávesa Meta"
+
+msgid "setting.entry.chat.scroller.freeze.values.4"
+msgstr "Když je držena klávesa Alt"
+
+msgid "setting.entry.chat.scroller.freeze.values.5"
+msgstr "Když je držena klávesa Shift"
+
+msgid "setting.entry.chat.scroller.freeze.values.6"
+msgstr "Ctrl nebo Najetí Myší"
+
+msgid "setting.entry.chat.scroller.freeze.values.8"
+msgstr "Alt nebo Najetí Myší"
+
+msgid "setting.entry.chat.scroller.freeze.values.9"
+msgstr "Shift nebo Najetí Myší"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.1000"
+msgstr "1 sekunda"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.250"
+msgstr "0,25 sekundy"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.2500"
+msgstr "2,5 Sekundy"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.500"
+msgstr "0,50 Sekundy"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.5000"
+msgstr "5 Sekund"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.750"
+msgstr "0,75 Sekundy"
+
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Plynulé Posouvání"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
+msgstr "Pomalé"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
+msgstr "Střední"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
+msgstr "Rychlé"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
+msgstr "Velmi Rychlé"
+
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Otevírat předplatitelské stránky na Twitch přes klávesu Shift a kliknutí, "
+"když je potřeba."
+
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Seskupit Hromadné Darování Předplatných"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.0"
+msgstr "Vždy"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.10"
+msgstr "Více než 10"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.1000"
+msgstr "Zakázáno"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.20"
+msgstr "Více než 20"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.5"
+msgstr "Více než 5"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.50"
+msgstr "Více než 50"
+
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Poznámka**: Zprávy poslané s resubem budou vždy zobrazeny. Tohle pouze "
+"ovlivňuje speciální zprávu \"X předplatných!\". "
+
+msgid "setting.entry.chat.subs.show.values.0"
+msgstr "Nezobrazovat"
+
+msgid "setting.entry.chat.subs.show.values.1"
+msgstr "Pouze Obnovení Předplatných se Zprávou"
+
+msgid "setting.entry.chat.subs.show.values.2"
+msgstr "Pouze Obnovení Předplatných"
+
+msgid "setting.entry.chat.subs.show.values.3"
+msgstr "Zobrazit Vše"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr "Povolit dokončování emotikonů klávesou Tab bez zadání dvojtečky. (:)"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr "Tím se zabrání dokončování uživatelských jmen klávesou Tab bez předpony @."
+
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "Povolit dokončování klávesou Tab pro emotikony FrankerFaceZ."
+
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Limitovat výsledky dokončování klávesou Tab na 25."
+
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Zobrazovat oblíbené emotikony jako první."
+
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Formát Časového Razítka"
+
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Časová razítka jsou formátovány pomocí knihovny "
+"[Day.js](https://github.com/iamkun/dayjs#readme). Více detailů ohledně "
+"formátování [můžete najít "
+"zde.](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
+"list-of-all-available-formats)"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm"
+msgstr "12 Hodin"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm"
+msgstr "24 Hodin"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
+msgstr "12ti Hodinový se Sekundami"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
+msgstr "24 Hodinový se Sekundami"
+
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Povolit funkce FrankerFaceZ pro Chat u Videí."
+
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Zobrazuje FFZ odznaky, emotikony a další funkce pro Chat u Videí. "
+"Moderátorské funkce mohou být nedostupné, pokud je toto zapnuto."
+
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Barva Zvýraznění"
+
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr "Zvýrazňovat zprávy uživatelů s otevřenou uživatelskou kartou."
+
+msgid "setting.entry.chat.width"
+msgstr "Šířka"
+
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Jak široký by měl chat být, v pixelech. Tohle může být ovlivněno "
+"přiblížením vašeho prohlížeče a nastavením velikosti písma."
+
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Skupinoví Hostitelé"
+
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Hostovaný kanál zobrazovat v adresáři pouze jednou."
+
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Kliknutím na hostovaný kanál v adresáři zobrazit nabídku, který kanál "
+"chcete navštívit."
+
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.directory.following.host-menus.values.2"
+msgstr "Vždy"
+
+msgid "setting.entry.directory.hidden.reveal"
+msgstr "Odhalit skryté položky při najetí myší."
+
+msgid "setting.entry.directory.hidden.style"
+msgstr "Styl skrytí"
+
+msgid "setting.entry.directory.hidden.style.values.0"
+msgstr "Nahradit Obrázek"
+
+msgid "setting.entry.directory.hidden.style.values.1"
+msgstr "Nahradit Obrázek a Rozmazat Název"
+
+msgid "setting.entry.directory.hidden.style.values.2"
+msgstr "Rozmazat Obrázek"
+
+msgid "setting.entry.directory.hidden.style.values.3"
+msgstr "Rozmazat Obrázek a Název"
+
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Nezobrazovat `Nejnovější videa` v kategorii Sledování"
+
+msgid "setting.entry.directory.hide-live"
+msgstr "Nezobrazovat indikátor LIVE u kanálů, které vysílají"
+
+msgid "setting.entry.directory.hide-promoted"
+msgstr "V prohlížení nezobrazovat propagované streamy."
+
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr "Nezobrazovat `Na základě vaší historie sledování`v kategorii Sledování."
+
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "V procházení nezobrazovat reprízy."
+
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Zobrazovat avatary kanálů."
+
+msgid "setting.entry.directory.uptime"
+msgstr "Délka streamu"
+
+msgid "setting.entry.directory.uptime.description"
+msgstr "Zobrazovat délku streamu na kartě kanálu."
+
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Zakázáno"
+
+msgid "setting.entry.directory.uptime.values.1"
+msgstr "Povoleno"
+
+msgid "setting.entry.directory.uptime.values.2"
+msgstr "Povoleno (se Sekundami) "
+
+msgid "setting.entry.experiments"
+msgstr "experimenty"
+
+msgid "setting.entry.faq"
+msgstr "faq"
+
+msgid "setting.entry.feedback"
+msgstr "zpětná vazba"
+
+msgid "setting.entry.feedback.log"
+msgstr "feedback.log"
+
+msgid "setting.entry.ffz.show-new-settings"
+msgstr ""
+"Zobrazit indikátor na ikoně kontrolního centra FFZ vždy, když jsou do "
+"FrankerFaceZ přidána nová nastavení."
+
+msgid "setting.entry.home"
+msgstr "domů"
+
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Povolit záznam zpráv."
+
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Transformace"
+
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Transformuje všechny lokalizované řádky pro testování použití řádké a taky "
+"délky."
+
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.i18n.format.date"
+msgstr "Formát data"
+
+msgid "setting.entry.i18n.format.time"
+msgstr "Formát Času"
+
+msgid "setting.entry.i18n.locale"
+msgstr "Jazyk"
+
+msgid "setting.entry.i18n.locale.description"
+msgstr "FrankerFaceZ je láskyplně překládán dobrovolníky z naší komunity. Děkujeme."
+
+msgid "setting.entry.layout.discover"
+msgstr "Zobrazit odkaz Objevit."
+
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Zobrazit tlačítko Koupit bity"
+
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Minimalizovat navigaci"
+
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr "Skrýt navigační panel nahoru jestliže není využíván."
+
+msgid "setting.entry.layout.portrait"
+msgstr "Povolit Režim na Výšku"
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Při režimu na výšku, chat bude zobrazován pod přehrávačem, okno bude vyšší "
+"než širší."
+
+msgid "setting.entry.layout.portrait-invert"
+msgstr "Při režimu na výšku chat zobrazovat nahoře."
+
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Práh Režimu na Výšku"
+
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr "Tohle je poměr šířky a výšky, při kterém se začne aktivovat Režim na Výšku."
+
+msgid "setting.entry.layout.prime-offers"
+msgstr "Zobrazit nabídky Prime Gaming."
+
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "Skrýt Offline Kanály"
+
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Zobrazovat reprízy"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.0"
+msgstr "Nezobrazovat"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.1"
+msgstr "Normálně"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.2"
+msgstr "Vybledle (33% Průhlednost)"
+
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Zobrazit Postranní Navigaci"
+
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Zobrazovat Avatary Kanálů"
+
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Zobrazovat Online Přátele"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.0"
+msgstr "Nikdy"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.1"
+msgstr "Vždy"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.2"
+msgstr "Když je Otevřená Postranní Navigace"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Zobrazovat Doporučené / Populární Kanály"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.0"
+msgstr "Nikdy"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
+msgstr "Vždy"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
+msgstr "Když je Otevřená Postranní Navigace"
+
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Zobrazit Doporučené Přátele"
+
+msgid "setting.entry.layout.side-nav.show.values.0"
+msgstr "Nikdy"
+
+msgid "setting.entry.layout.side-nav.show.values.1"
+msgstr "Vždy"
+
+msgid "setting.entry.layout.side-nav.show.values.2"
+msgstr "Skrýt v režimu na výšku"
+
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Prohodit Postranní Lišty"
+
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Zobrazit zmenšenou navigační lištu v režimu kina."
+
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Rodina Písem"
+
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Přepsat písmo použité pro celý Twitch web. Dříve používané písmo bylo: "
+"`\"Helvetica Neue\",Helvetica,Arial,sans-serif`"
+
+msgid "setting.entry.legal"
+msgstr "podmínky"
+
+msgid "setting.entry.metadata.clip-download"
+msgstr "U klipů na kanálech, kde jste editor, přidat tlačítko pro jejich stažení"
+
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr "Zobrazí tlačítko pro sledování u aktuálně doporučených předních streamerů."
+
+msgid "setting.entry.metadata.host-button"
+msgstr "Hostovací Tlačítko"
+
+msgid "setting.entry.metadata.host-button.description"
+msgstr "Zobrazí hostovací tlačítko s právě hostovaným kanálem v popisku."
+
+msgid "setting.entry.metadata.player-stats"
+msgstr "Statistiky Přehrávání"
+
+msgid "setting.entry.metadata.player-stats.description"
+msgstr ""
+"Zobrazuje aktuální odezvu streamu, spolu s rychlostí přehrávání a "
+"ztracenými snímky v popisku."
+
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Varování o Zpoždění Streamu"
+
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"Pokud aktuální zpoždění streamu překročí tento počet sekund, zobrazí "
+"zpoždění streamu varovnou barvou, abyste byli upozorněni na velké zpoždění. "
+" Chcete-li to zakázat, nastavte na 0."
+
+msgid "setting.entry.metadata.uptime"
+msgstr "Délka streamu"
+
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.metadata.uptime.values.1"
+msgstr "Povoleno"
+
+msgid "setting.entry.metadata.uptime.values.2"
+msgstr "Povolit (se sekundami) "
+
+msgid "setting.entry.metadata.viewers"
+msgstr "Alternativní Počet Diváků"
+
+msgid "setting.entry.metadata.viewers.no-native"
+msgstr "Skrýt nativní Počet Diváků od Twitche"
+
+msgid "setting.entry.player.button.pip"
+msgstr "Přidat tlačítko 'Obrázek-v-obrázku' do možností přehrávače"
+
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Kliknutím na tlačítko PiP se pokusit přepnout režim Picture-in-Picture pro "
+"video přehrávače."
+
+msgid "setting.entry.player.button.reset"
+msgstr "Přidat tlačítko 'Reset Přehrávače' do možností přehrávače."
+
+msgid "setting.entry.player.captions.alignment"
+msgstr "Zarovnání"
+
+msgid "setting.entry.player.captions.alignment.values.11"
+msgstr "Vlevo Nahoře"
+
+msgid "setting.entry.player.captions.alignment.values.12"
+msgstr "Nahoře Uprostřed"
+
+msgid "setting.entry.player.captions.alignment.values.13"
+msgstr "Vpravo Nahoře"
+
+msgid "setting.entry.player.captions.alignment.values.21"
+msgstr "Vlevo Uprostřed"
+
+msgid "setting.entry.player.captions.alignment.values.22"
+msgstr "Uprostřed"
+
+msgid "setting.entry.player.captions.alignment.values.23"
+msgstr "Vpravo Uprostřed"
+
+msgid "setting.entry.player.captions.alignment.values.31"
+msgstr "Vlevo Dole"
+
+msgid "setting.entry.player.captions.alignment.values.32"
+msgstr "Dole Uprostřed"
+
+msgid "setting.entry.player.captions.alignment.values.33"
+msgstr "Vpravo Dole"
+
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Povolit změnu pozice a zarovnání skrytých titulků."
+
+msgid "setting.entry.player.captions.font-family"
+msgstr "Rodina Písem"
+
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Mění písmo použité pro zobrazení titulků."
+
+msgid "setting.entry.player.captions.font-size"
+msgstr "Velikost Písma"
+
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"Určí, jak velké by měli být titulky. Můžete ji napsat procentem, např. "
+"`10%`, a nebo rovnou hodnotou v pixelech, např. `50px`."
+
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Vodorovná pozice"
+
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Změní pozici pro titulky. Můžete ji napsat procentem, např. `10%`, nebo "
+"hodnotou v pixelech, např. `50px`."
+
+msgid "setting.entry.player.captions.vertical"
+msgstr "Svislá pozice"
+
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Změní pozici pro skryté titulky. Můžete ji napsat procentem, např. `10%`, "
+"nebo hodnotou v pixelech, např. `50px`."
+
+msgid "setting.entry.player.ext-hide"
+msgstr "Zobrazit Rozšíření Překrývající Stream "
+
+msgid "setting.entry.player.ext-hide.values.0"
+msgstr "Vždy"
+
+msgid "setting.entry.player.ext-hide.values.2"
+msgstr "Nikdy"
+
+msgid "setting.entry.player.ext-interaction"
+msgstr "Povolit interakci myši s rozšířeními, která překrývají stream."
+
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Skrýt lištu události"
+
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"Skryje lištu události, který se zobrazuje nad přehrávačem, když zrovna na "
+"kanále probíhá nějaká událost."
+
+msgid "setting.entry.player.hide-mouse"
+msgstr "Skrýt myš, jestliže nejsou vidět možnosti."
+
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Skrýt Lištu Premiér"
+
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"Skrýt Lištu Reprízy, která se zobrazí nad přehrávačem, když aktuální kanál "
+"přehrává video, a nikoli živý obsah."
+
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "Skrýt Lištu Týmového Vysílání"
+
+msgid "setting.entry.player.no-autoplay"
+msgstr "Automaticky nepřehrávat streamy, nebo videa. "
+
+msgid "setting.entry.player.no-autoplay.description"
+msgstr "Poznámka: Tato funkce se nevztahuje na přímé přecházení z kanálu na kanál. "
+
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Automaticky otevřít režim kina při návštěvě kanálu."
+
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Zobrazovat metadata při najetí myší na přehrávač."
+
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Skrýt šepot v režimu kina."
+
+msgid "setting.entry.player.vod.autoplay"
+msgstr "Automaticky začne přehrávat další doporučené video po skončení videa."
+
+msgid "setting.entry.player.volume-scroll"
+msgstr "Nastavit hlasitost kolečkem myši při najetí na přehrávač."
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Tohle nastavení nebude fungovat správně na streamech, kde jsou viditelná "
+"rozšíření, když je interakce myši s rozšířením povolena.*"
+
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr "Jak moc bude ovlivňovat kolečko myši hlasitost každým jedním pootočením."
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.01"
+msgstr "1%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.02"
+msgstr "2%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.05"
+msgstr "5%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.1"
+msgstr "10%"
+
+msgid "setting.entry.profiles"
+msgstr "profily"
+
+msgid "setting.entry.reports.error.enable"
+msgstr "Automaticky posílat hlášení, když nastane chyba."
+
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Zahrnout snímek nastavení v hlášeních. "
+
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Vědomost o tom, jaké nastavení bylo používáno při tom, když nastala chyba, "
+"nám může pomoct znovu vytvořit tuto chybu a možná i opravit právě vaši "
+"chybu."
+
+msgid "setting.entry.reports.error.include-user"
+msgstr "Zahrnout ID uživatelů v hlášeních."
+
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"Občas tohle může být užitečné, abychom věděli kteří uživatelé mají jaké "
+"problémy, díky kterým se pak můžeme kouknout na specifické odznaky, sbírky "
+"emotikonů nebo uživatelské znaky, které mohou způsobovat problémy."
+
+msgid "setting.entry.socket.use-cluster"
+msgstr "Cluster serveru"
+
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"Ke kterému Server Clusteru se připojit. Neměňte tohle nastavení, pokud "
+"nepracujete na backendu socketového serveru. Změna může rozbít všechny "
+"funkce, které závisí na socketovém serveru, jako ukázky informací o "
+"emotikonech, ukázky obsahu stránek u odkazů a také živé aktualizace dat."
+
+msgid "setting.entry.socket.use-cluster.values.Development"
+msgstr "Vývoj"
+
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Deaktivováno"
+
+msgid "setting.entry.socket.use-cluster.values.Production"
+msgstr "Produkce"
+
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Zobrazí korunu na tlačítku předplatného, když je k dispozici vaše bezplatné "
+"předplatné pomocí Prime Gaming."
+
+msgid "setting.entry.theme.color.background"
+msgstr "Pozadí"
+
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Zkuste `#0E0C13` pro něco bližšího ke starému tmavému režimu, nebo "
+"`#0E0E0E` pro krásnou tmavě šedou. Transparentní barvy nejsou povoleny. "
+
+msgid "setting.entry.theme.color.text"
+msgstr "Text"
+
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Pokud není nastaveno, bude automaticky nastaveno na bílou nebo černou, "
+"podle jasu pozadí."
+
+msgid "setting.entry.theme.dark"
+msgstr "Šedá (ne Fialová) "
+
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Vyžaduje zapnutý Tmavý Režim*\n"
+"\n"
+"Tohle nastavení bude brzy pryč, spolu s tím jak se nový systém barevného "
+"schématu bude vyvíjet.\n"
+"Načtené CSS tímto nastavením je příliš náročné a může způsobovat problémy s "
+"výkonem."
+
+msgid "setting.entry.theme.font.size"
+msgstr "Velikost Písma"
+
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Zobrazit větší obrázky odznaků. "
+
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Zobrazit větší obrázky emotikonů. "
+
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Zobrazit známé zdroje."
+
+msgid "setting.entry.tooltip.images"
+msgstr "Zobrazovat obrázky v popiscích."
+
+msgid "setting.entry.tooltip.link-images"
+msgstr "Zobrazovat obrázek v náhledu odkazu."
+
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Povolit interakci s podporovanými popisky odkazů."
+
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Zobrazovat potencionálně nevhodné (NSFW) obrázky."
+
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"Pokud je povoleno, FrankerFaceZ bude zahrnovat obrázky, které jsou označeny "
+"jako nebezpečné, nebo které nejsou hodnoceny."
+
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Zobrazovat ukázku v popiscích na odkazech."
+
+msgid "setting.entry.whispers.show"
+msgstr "Zobrazit Zprávy Šeptem"
+
+msgid "setting.example"
+msgstr "Přiklad:"
+
+msgid "setting.experiments.active"
+msgstr "Tento experiment je aktivní."
+
+msgid "setting.experiments.entry"
+msgstr "{value,tostring} (váha: {weight,tostring})"
+
+msgid "setting.experiments.ffz"
+msgstr "Experimenty FrankerFaceZ"
+
+msgid "setting.experiments.inactive"
+msgstr "Tento experiment není aktivní."
+
+msgid "setting.experiments.sort-name"
+msgstr "Řadit Podle: Jméno"
+
+msgid "setting.experiments.sort-rarity"
+msgstr "Řadit dle: Vzácnost"
+
+msgid "setting.experiments.twitch"
+msgstr "Twitch Experimenty"
+
+msgid "setting.experiments.unique-id"
+msgstr "Jedinečné ID: {id}"
+
+msgid "setting.experiments.unset"
+msgstr "nenastaveno"
+
+msgid "setting.export"
+msgstr "Exportovat"
+
+msgid "setting.false"
+msgstr "Nepravda"
+
+msgid "setting.filter.if.else"
+msgstr "Jinak"
+
+msgid "setting.filter.if.then"
+msgstr "Pak"
+
+msgid "setting.filter.page.url"
+msgstr "Odkaz: {url}"
+
+msgid "setting.filters.active"
+msgstr "Tohle pravidlo se schoduje."
+
+msgid "setting.filters.add"
+msgstr "Přidat"
+
+msgid "setting.filters.add-new"
+msgstr "Přidat Nové Pravidlo"
+
+msgid "setting.filters.empty"
+msgstr "(žádné filtry)"
+
+msgid "setting.filters.inactive"
+msgstr "Tohle pravidlo se neschoduje."
+
+msgid "setting.hidden"
+msgstr "Skryté"
+
+msgid "setting.home"
+msgstr "Domů"
+
+msgid "setting.home.changelog"
+msgstr "Seznam Změn"
+
+msgid "setting.home.faq"
+msgstr "FAQ"
+
+msgid "setting.home.feedback"
+msgstr "Zpětná Vazba"
+
+msgid "setting.home.feedback.log"
+msgstr "Protokol"
+
+msgid "setting.home.legal"
+msgstr "Podmínky"
+
+msgid "setting.icon.search"
+msgstr "Vyhledat Ikonu"
+
+msgid "setting.import"
+msgstr "Importovat..."
+
+msgid "setting.inheritance"
+msgstr "Dědičnost"
+
+msgid "setting.inherited-from"
+msgstr "Zděděno z: {title}"
+
+msgid "setting.key.alt"
+msgstr "Alt"
+
+msgid "setting.key.ctrl"
+msgstr "Ctrl"
+
+msgid "setting.key.shift"
+msgstr "Shift"
+
+msgid "setting.new"
+msgstr "Nové"
+
+msgid "setting.paste-json"
+msgstr "Vložit JSON"
+
+msgid "setting.paste-json.json"
+msgstr "[json]"
+
+msgid "setting.player"
+msgstr "Přehrávač"
+
+msgid "setting.player.closed_captioning"
+msgstr "Skryté Titulky"
+
+msgid "setting.player.closed_captioning.font"
+msgstr "Písmo"
+
+msgid "setting.player.closed_captioning.position"
+msgstr "Pozice"
+
+msgid "setting.player.compressor"
+msgstr "Kompresor"
+
+msgid "setting.player.compressor.advanced"
+msgstr "Pokročilé"
+
+msgid "setting.player.compressor.general"
+msgstr "Obecné "
+
+msgid "setting.player.general"
+msgstr "Obecné "
+
+msgid "setting.player.general.extensions"
+msgstr "Rozšíření"
+
+msgid "setting.player.general.general"
+msgstr "Obecné "
+
+msgid "setting.player.general.playback"
+msgstr "Přehrávání"
+
+msgid "setting.player.general.theatre_mode"
+msgstr "Režim Kina"
+
+msgid "setting.player.general.volume"
+msgstr "Hlasitost"
+
+msgid "setting.preview"
+msgstr "Náhled"
+
+msgid "setting.profiles.active"
+msgstr "Tento profil je povolený a aktivní."
+
+msgid "setting.profiles.configure"
+msgstr "Konfigurovat"
+
+msgid "setting.profiles.default"
+msgstr "Výchozí Profil"
+
+msgid "setting.profiles.default.description"
+msgstr "Nastavení, která se aplikují po celém Twitchi."
+
+msgid "setting.profiles.disabled"
+msgstr "Tento profil je deaktivován."
+
+msgid "setting.profiles.disabled.rules"
+msgstr "Tento profil je povolený, ale neaktivní kvůli jeho pravidlům."
+
+msgid "setting.profiles.drag"
+msgstr "Přetažením profilů změníte jejich prioritu."
+
+msgid "setting.profiles.inactive"
+msgstr "Tento profil není aktivní."
+
+msgid "setting.profiles.inactive.description"
+msgstr ""
+"Pravidla tohoto profilu neodpovídají aktuálnímu kontextu, a proto není "
+"aktuálně aktivní, takže změny, které zde provedete, se na Twitchi neprojeví."
+
+msgid "setting.profiles.moderation"
+msgstr "Moderace"
+
+msgid "setting.profiles.moderation.description"
+msgstr "Nastavení, která se použijí, pokud jste moderátorem daného kanálu."
+
+msgid "setting.profiles.new"
+msgstr "Nový Profil"
+
+msgid "setting.profiles.warn-delete"
+msgstr "Jste si jistý, že chcete vymazat tento profil? Nelze to vrátit."
+
+msgid "setting.reasons.add-default"
+msgstr "Přidat Výchozí"
+
+msgid "setting.reasons.add-default-tip"
+msgstr "Přidejte k tomuto profilu všechny výchozí důvody."
+
+msgid "setting.reasons.add-placeholder"
+msgstr "Přidat nový důvod"
+
+msgid "setting.reasons.delete-all"
+msgstr "Odstraňte všechny důvody tohoto profilu."
+
+msgid "setting.reasons.info"
+msgstr ""
+"Důvody lze vybrat pomocí kontextových nabídek akcí a přidat tak další "
+"informace k trvalým a dočasným zablokováním."
+
+msgid "setting.reasons.no-reasons"
+msgstr "v tomto profilu nejsou definovány žádné důvody"
+
+msgid "setting.reset"
+msgstr "Obnovit Výchozí"
+
+msgid "setting.reset-all"
+msgstr "Resetovat Vše do Výchozího Nastavení"
+
+msgid "setting.save"
+msgstr "Uložit"
+
+msgid "settings.back"
+msgstr "Zpět"
+
+msgid "settings.filter.category"
+msgstr "Aktuální Kategorie"
+
+msgid "settings.filter.channel"
+msgstr "Aktuální Kanál"
+
+msgid "settings.filter.if"
+msgstr "Pokud"
+
+msgid "settings.filter.invert"
+msgstr "Převrátit"
+
+msgid "settings.filter.moderator"
+msgstr "Je Moderátor"
+
+msgid "settings.filter.native-dark"
+msgstr "Tmavý Režim"
+
+msgid "settings.filter.or"
+msgstr "Nebo"
+
+msgid "settings.filter.page"
+msgstr "Aktuální Stránka"
+
+msgid "settings.filter.page.route.addons.deck"
+msgstr "Deck"
+
+msgid "settings.filter.page.route.addons.deck.tab"
+msgstr "Záložka"
+
+msgid "settings.filter.page.route.collection"
+msgstr "Kolekce"
+
+msgid "settings.filter.page.route.dash"
+msgstr "Řídící Panel"
+
+msgid "settings.filter.page.route.dash-achievements"
+msgstr "Řídící Panel: Úspěchy"
+
+msgid "settings.filter.page.route.dash-activity"
+msgstr "Řídící Panel: Aktivita"
+
+msgid "settings.filter.page.route.dash-channel-analytics"
+msgstr "Řídící Panel: Analýza Kanálu"
+
+msgid "settings.filter.page.route.dash-channel-points"
+msgstr "Řídící Panel: Věrnostní Body"
+
+msgid "settings.filter.page.route.dash-chat.userName"
+msgstr "Uživatelské Jméno"
+
+msgid "settings.filter.page.route.dash-clips"
+msgstr "Řídící Panel: Klipy"
+
+msgid "settings.filter.page.route.dash-collections"
+msgstr "Řídící Panel: Kolekce"
+
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Řídící Panel: Upravit Kolekci"
+
+msgid "settings.filter.page.route.dash-edit-video"
+msgstr "Řídící Panel: Upravit Video"
+
+msgid "settings.filter.page.route.dash-extensions"
+msgstr "Řídící Panel: Rozšíření"
+
+msgid "settings.filter.page.route.dash-roles"
+msgstr "Řídící Panel: Role"
+
+msgid "settings.filter.page.route.dash-settings-channel"
+msgstr "Řídící Panel: Nastavení Kanálu"
+
+msgid "settings.filter.page.route.dash-settings-moderation"
+msgstr "Řídící Panel: Nastavení Moderace"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Řídící Panel: Vysílací Nástroje"
+
+msgid "settings.filter.page.route.dash-stream-manager"
+msgstr "Řídící Panel: Správa Vysílání"
+
+msgid "settings.filter.page.route.dash-stream-summary"
+msgstr "Řídící Panel: Přehled Vysílání"
+
+msgid "settings.filter.page.route.dash-video-producer"
+msgstr "Řídící Panel: Videoprodukce"
+
+msgid "settings.filter.page.route.dir"
+msgstr "Procházet"
+
+msgid "settings.filter.page.route.dir-all"
+msgstr "Prohlížet Živé Kanály"
+
+msgid "settings.filter.page.route.dir-following"
+msgstr "Sledování"
+
+msgid "settings.filter.page.route.embed-chat.userName"
+msgstr "Uživatelské Jméno"
+
+msgid "settings.filter.page.route.event"
+msgstr "Událost"
+
+msgid "settings.filter.page.route.front-page"
+msgstr "Přední Stránka"
+
+msgid "settings.filter.page.route.popout"
+msgstr "Chat v Novém Okně"
+
+msgid "settings.filter.page.route.popout.userName"
+msgstr "Uživatelské Jméno"
+
+msgid "settings.filter.page.route.prime"
+msgstr "Prime"
+
+msgid "settings.filter.page.route.product"
+msgstr "Produkt"
+
+msgid "settings.filter.page.route.squad"
+msgstr "Týmové Vysílání"
+
+msgid "settings.filter.page.route.turbo"
+msgstr "Turbo"
+
+msgid "settings.filter.page.route.user"
+msgstr "Uživatel"
+
+msgid "settings.filter.page.route.user-clip"
+msgstr "Uživatelský Klip"
+
+msgid "settings.filter.page.route.user-clips"
+msgstr "Klipy Uživatele"
+
+msgid "settings.filter.page.route.user-collections"
+msgstr "Kolekce Uživatele"
+
+msgid "settings.filter.page.route.user-events"
+msgstr "Události Uživatele"
+
+msgid "settings.filter.page.route.user-followers"
+msgstr "Sledující Uživatele"
+
+msgid "settings.filter.page.route.user-following"
+msgstr "Sledovaní Uživatelem"
+
+msgid "settings.filter.page.route.user-video"
+msgstr "Video Kanálu"
+
+msgid "settings.filter.page.route.user-videos"
+msgstr "Videa Uživatele"
+
+msgid "settings.filter.page.route.video"
+msgstr "Video"
+
+msgid "settings.filter.squad"
+msgstr "Týmové Vysílání"
+
+msgid "settings.filter.theater"
+msgstr "Režim Kina"
+
+msgid "settings.filter.time.end"
+msgstr "Konec:"
+
+msgid "settings.filter.time.start"
+msgstr "Začátek:"
+
+msgid "settings.filter.title"
+msgstr "Aktuální Název"
+
+msgid "settings.filter.true_false"
+msgstr "Pravda nebo Nepravda"
+
+msgid "settings.terms.word"
+msgstr "Abc"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Přidat nový výraz"
+
+msgid "setting.terms.add-term"
+msgstr "Přidat"
+
+msgid "setting.terms.no-terms"
+msgstr "v tomto profilu nejsou definovány žádné výrazy"
+
+msgid "setting.terms.remove.off"
+msgstr "Odpovídající zprávy neodstraňovat z chatu."
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Slovo)"
+
+msgid "setting.terms.type.text"
+msgstr "Text"
+
+msgid "setting.tooltip-example"
+msgstr "Pro příklad, zkuste najet na tento odkaz:"
+
+msgid "setting.true"
+msgstr "Pravda"
+
+msgid "setting.unset"
+msgstr "Nenastaveno"
+
+msgid "setting.visible"
+msgstr "Viditelné"

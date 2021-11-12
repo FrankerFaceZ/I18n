@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/utilities/object.js:465
+#: /src/inline-tab-completion/index.jsx:215
+#, icu-message-format, lp-defaults:"{\"pos\":5,\"total\":40}"
+msgid "addon.inlinetab.item"
+msgstr "{pos,number} of {total,number}"
+
+#: /src/inline-tab-completion/index.jsx:181
+#, icu-message-format
+msgid "addon.inlinetab.type.command"
+msgstr "Command"
+
+#: /src/inline-tab-completion/index.jsx:172
+#, icu-message-format
+msgid "addon.inlinetab.type.emoji"
+msgstr "Emoji"
+
+#: /src/inline-tab-completion/index.jsx:176
+#, icu-message-format
+msgid "addon.inlinetab.type.emote"
+msgstr "Emote"
+
+#: /src/inline-tab-completion/index.jsx:184
+#, icu-message-format
+msgid "addon.inlinetab.type.mention"
+msgstr "Mention"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab"
+msgstr "Inline Tab"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.appearance"
+msgstr "Appearance"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content"
+msgstr "Content"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content.description"
+msgstr ""
+"Please note that the built-in Twitch tab-completion will be used for "
+"content that is not included in inline tab-completion."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.general"
+msgstr "General"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.mention_prefix"
+msgstr "Always prefix mentions with `@` signs."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_commands"
+msgstr "Do not include commands in inline tab-completion."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_mentions"
+msgstr "Do not include users in inline tab-completion."
+
+#, icu-message-format
+msgid "setting.entry.addon.inlinetab.tip-count"
+msgstr "Display multiple entries in the tab-completion tooltip."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.tips"
+msgstr "Display a tooltip when using tab-completion."

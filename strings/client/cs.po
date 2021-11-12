@@ -1,0 +1,804 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Nahrát"
+
+msgid "autocomplete.empty"
+msgstr "Žádné výsledky."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title} (Předplací {count,number} měsíc{count,plural,one {} few {e} other "
+"{ů}})"
+
+msgid "badges.subscriber.months"
+msgstr ""
+"{title}\n"
+"({count,number} měsíc{count,plural,one {} few {e} other {ů}})"
+
+msgid "card.empty"
+msgstr "Nebyla navrácena žádná data."
+
+msgid "card.error"
+msgstr "Nastala chyba."
+
+msgid "card.loading"
+msgstr "Načítání..."
+
+msgid "cards.user.stats"
+msgstr "Zhlédnutí: {views,number} • Sledujících: {followers,number}"
+
+msgid "channel.links.clips"
+msgstr "Klipy"
+
+msgid "channel.links.schedule"
+msgstr "Rozvrh"
+
+msgid "channel.links.videos"
+msgstr "Videa"
+
+msgid "chat.actions.ban"
+msgstr "Trvale zablokovat uživatele"
+
+msgid "chat.actions.ban-reason"
+msgstr "Trvale zablokovat uživatele {user.login} za:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Trvale zablokovat uživatele {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Příkaz v Chatu"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Smazat zprávu uživatele {user.login}"
+
+msgid "chat.actions.edit_overrides"
+msgstr "Změnit jméno a barvu"
+
+msgid "chat.actions.edit_overrides.desc"
+msgstr "Umožňuje vám nastavit lokální přepsání uživatelského jména a barvy v chatu."
+
+msgid "chat.actions.msg_delete"
+msgstr "Smazat Zprávu"
+
+msgid "chat.actions.open_url"
+msgstr "Otevřít URL"
+
+msgid "chat.actions.reply"
+msgstr "Odpověď na zprávu"
+
+msgid "chat.actions.reply.desc"
+msgstr ""
+"Toto vám umožňuje okamžitě odpovědět na zprávu jiného uživatele. Funkční "
+"pouze, pokud je styl odpovědí chatu „FrankerFaceZ“."
+
+msgid "chat.actions.select-reason"
+msgstr "Prosím, vyberte důvod, z níže uvedených možností:"
+
+msgid "chat.actions.timeout"
+msgstr "Dočasně Zablokovat Uživatele"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} sekund{options.duration,en_plural}"
+
+msgid "chat.actions.timeout-reason"
+msgstr ""
+"Dočasně zablokovat {user.login} na {duration,number} "
+"sekund{duration,plural,\n"
+"one {u}\n"
+"few {y}\n"
+"other {}\n"
+"} z důvodu:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr ""
+"Dočasně zablokovat {user.login} na {duration,number} "
+"sekund{duration,plural,\n"
+"one {u}\n"
+"few {y}\n"
+"other {}\n"
+"}"
+
+msgid "chat.actions.unban"
+msgstr "Zrušit Trvalé Zablokování Uživatele"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "Zrušit Trvalé Zablokování Uživatele {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Neznámý Typ Akce"
+
+msgid "chat.actions.untimeout"
+msgstr "Zrušit Dočasné Zablokování Uživatele"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Zrušit dočasné zablokování uživatele {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Šeptat Uživateli"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Šeptat uživateli {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {Jedna zpráva byla smazána moderátorem.}\n"
+"few {# zprávy byly smazány moderátorem.}\n"
+"other {# zpráv bylo smazáno moderátorem.}\n"
+"}"
+
+msgid "chat.ffz-badge.site"
+msgstr "Chcete-li tento odznak změnit, navštivte prosím {website}."
+
+msgid "chat.ffz-badge.site-link"
+msgstr "Web FrankerFaceZ"
+
+msgid "chat.ffz-badge.title"
+msgstr "Odznak FrankerFaceZ"
+
+msgid "chat.filtering.automod.I"
+msgstr "Diskriminace"
+
+msgid "chat.filtering.automod-term"
+msgstr "Fráze Blokovaná AutoModem"
+
+msgid "chat.filtering.automod-why"
+msgstr "Tohle bylo označeno jako: "
+
+msgid "chat.filtering.blocked-term"
+msgstr "Zakázaná Fráze"
+
+msgid "chat.ignore-clear"
+msgstr "Vymazání chatu moderátorem bylo ignorováno. "
+
+msgid "chat.message-deleted"
+msgstr "<zpráva smazána>"
+
+msgid "chat.messages-below"
+msgstr "Chat je pozastaven kvůli posouvání"
+
+msgid "chat.mod-action.ban"
+msgstr "Trvale zablokován"
+
+msgid "chat.mod-action.by"
+msgstr "{action} uživatelem {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Smazáno"
+
+msgid "chat.mod-action.timeout"
+msgstr "Dočasně zablokován na {duration}"
+
+msgid "chat.overrides.color"
+msgstr "Barva"
+
+msgid "chat.overrides.editing"
+msgstr "Upravujete {user.login}..."
+
+msgid "chat.overrides.name"
+msgstr "Jméno"
+
+msgid "chat.paused"
+msgstr "(Chat je pozastaven z důvodu: {reason})"
+
+msgid "chat.points.choose-emote"
+msgstr "Vybrat si emotikon, který se odemkne"
+
+msgid "chat.points.highlighted"
+msgstr "Zvýraznit Mou Zprávu"
+
+msgid "chat.points.modify-emote"
+msgstr "Upravit Jeden Emotikon"
+
+msgid "chat.points.random-emote"
+msgstr "Odemknout Náhodný Předplatitelský Emotikon"
+
+msgid "chat.points.redeemed"
+msgstr "Vyzvednuto {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Odměna"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} vyzvedl {reward} {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "Ignorovat Vysílajícího / Moderátory"
+
+msgid "chat.reasons.evasion"
+msgstr "Obcházení Zablokování"
+
+msgid "chat.reply-to"
+msgstr "Odpověď na:"
+
+msgid "chat.ritual"
+msgstr "{user} je zde nový. Řekněte ahoj!"
+
+msgid "chat.settings.back"
+msgstr "Zpět"
+
+msgid "chat.settings.open-settings"
+msgstr "Otevřít Ovládací Centrum"
+
+msgid "chat.settings.pause"
+msgstr "Pozastavit Chat"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ zcela potlačuje chování Pozastavení Chatu. Použít nastavení "
+"posouvání FFZ v Kontrolním Centru FFZ v části Chat > Chování."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Anonymní Dárce"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"Předplatitelem je {cumulative,number} měsíc{cumulative, plural, few {e} "
+"other {ů}}, momentálně jede sérii {streak,number} měsíc{streak, plural, few "
+"{e} other {ů}}!"
+
+msgid "chat.sub.gift-first"
+msgstr "Tohle je jeho první darované předplatné na tomhle kanále!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Úroveň {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "Již daroval {count} předplatných na tomto kanále!"
+
+msgid "chat.sub.main"
+msgstr "{user} si předplatil {plan}. "
+
+msgid "chat.sub.months"
+msgstr "Předplatitelem je {count,number} měsíc{count, plural, few {e} other {ů}}!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} daroval {plan} předplatné uživateli {recipient}! "
+
+msgid "chat.sub.plan"
+msgstr "{tier} úrovně"
+
+msgid "chat.sub.twitch-prime"
+msgstr "s Prime Gaming"
+
+msgid "clip.desc.1"
+msgstr "Klip z kanálu {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} dělá Creative"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} hraje {game}"
+
+msgid "clip.desc.2"
+msgstr "Klipnuté uživatelem {curator} — {views,number} zhlédnutí"
+
+msgid "clip.unknown"
+msgstr "Neznámé"
+
+msgid "directory.block"
+msgstr "Zablokovat"
+
+msgid "directory.hide-thumbnails"
+msgstr "Skrýt Náhledy"
+
+msgid "directory.hosted"
+msgstr "Hostovaný Kanál"
+
+msgid "directory.hosted.by-many"
+msgstr ""
+"Hostován {count,number} kanál{count,plural,\n"
+"one {em}\n"
+"other {y}\n"
+"}"
+
+msgid "directory.hosted.by-one"
+msgstr "Hostován uživatelem {user}"
+
+msgid "directory.hosting"
+msgstr "Hostující Kanály"
+
+msgid "directory.show-thumbnails"
+msgstr "Zobrazit Náhledy"
+
+msgid "directory.unblock"
+msgstr "Odblokovat"
+
+msgid "directory.user-playing"
+msgstr "{user} hraje {game}"
+
+msgid "emoji.category.activities"
+msgstr "Aktivity"
+
+msgid "emoji.category.animals_nature"
+msgstr "Zvířata a Příroda"
+
+msgid "emoji.category.animals___nature"
+msgstr "Zvířata & Příroda"
+
+msgid "emoji.category.flags"
+msgstr "Vlajky"
+
+msgid "emoji.category.food_drink"
+msgstr "Jídlo & Pití"
+
+msgid "emoji.category.food___drink"
+msgstr "Jídlo & Pití"
+
+msgid "emoji.category.objects"
+msgstr "Objekty"
+
+msgid "emoji.category.people_body"
+msgstr "Lidé"
+
+msgid "emoji.category.skin_tones"
+msgstr "Barva Pleti"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Smajlíci & Emoce"
+
+msgid "emoji.category.smileys___people"
+msgstr "Smajlíky & Lidé"
+
+msgid "emoji.category.symbols"
+msgstr "Symboly"
+
+msgid "emoji.category.travel_places"
+msgstr "Cestování & Místa"
+
+msgid "emoji.category.travel___places"
+msgstr "Cestování & Místa"
+
+msgid "emote.2fa"
+msgstr "Twitch Emotikony za Povolení Dvoufázového Ověření"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Kanál: {channel}"
+
+msgid "emote.global"
+msgstr "Globální Twitch Emotikony"
+
+msgid "emote.limited"
+msgstr "Časově Omezený Emotikon"
+
+msgid "emote-menu.channel"
+msgstr "Kanál"
+
+msgid "emote-menu.emoji"
+msgstr "Emoji"
+
+msgid "emote-menu.emote-sub"
+msgstr "Předplaťte si tento kanál za {price} pro odemčení tohoto emotikonu."
+
+msgid "emote-menu.emote-up"
+msgstr "Vylepšete vaše předplatné za {price} pro odemčení tohoto emotu."
+
+msgid "emote-menu.empty"
+msgstr "Nic zde není.."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"Nemáš žádné oblíbené emotikony. Pro přidání je vyber v menu pomocí {hotkey} "
+"a kliknutím na ně."
+
+msgid "emote-menu.empty-search"
+msgstr "Nejsou zde žádné emotikony, které se shodují s hledaným výrazem."
+
+msgid "emote-menu.error"
+msgstr "Při vykreslování tohoto menu došlo k chybě."
+
+msgid "emote-menu.error-report"
+msgstr "Automaticky bylo odesláno chybové hlášení."
+
+msgid "emote-menu.favorites"
+msgstr "Oblíbené"
+
+msgid "emote-menu.featured"
+msgstr "Doporučené"
+
+msgid "emote-menu.global"
+msgstr "Globální Emotikony"
+
+msgid "emote-menu.inventory"
+msgstr "Inventář"
+
+msgid "emote-menu.loading"
+msgstr "Načítání..."
+
+msgid "emote-menu.main-set"
+msgstr "Emotikony Kanálu"
+
+msgid "emote-menu.misc"
+msgstr "Různé"
+
+msgid "emote-menu.my-emotes"
+msgstr "Moje Emotikony"
+
+msgid "emote-menu.points"
+msgstr "Odemknuto za Body"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Obnovit Data"
+
+msgid "emote-menu.search"
+msgstr "Hledat Emotikony"
+
+msgid "emote-menu.search-emoji"
+msgstr "Hledat Emoji"
+
+msgid "emote-menu.settings"
+msgstr "Otevřít Nastavení"
+
+msgid "emote-menu.sub-basic"
+msgstr "Předplaťte si tento kanál pro odemčení nějakých emotikonů"
+
+msgid "emote-menu.sub-ends"
+msgstr "Tohle předplatné končí za {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Tohle darované předplatné vám končí za {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Tohle je vaše bezplatné předplatné s Prime Gaming.\n"
+"Skončí za {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr "Tohle předplatné se obnoví {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Předplatitelské emoty"
+
+msgid "emote-menu.sub-unlock"
+msgstr ""
+"Předplaťte si tento kanál za {price} pro odemknutí {count,number} "
+"{count,plural,\n"
+"one {emotikonu}\n"
+"other {emotikonů}\n"
+"}"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Neznámý Zdroj"
+
+msgid "emote-menu.unknown-set"
+msgstr "Sada #{set_id}"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "Skryté"
+
+msgid "emote-menu.visibility.visible"
+msgstr "Viditelné"
+
+msgid "emote.owner"
+msgstr "Od: {owner}"
+
+msgid "error.try-again"
+msgstr "Zkusit Znovu"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Zrušit Sledování {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Notifikace jsou aktuálně zapnuty. Klikněte pro vypnutí."
+
+msgid "hl-reason.badge"
+msgstr "Zvýraznit Odznak"
+
+msgid "hl-reason.mention"
+msgstr "Zvýraznit Frázi"
+
+msgid "hl-reason.term"
+msgstr "Zvýraznit Fráze"
+
+msgid "hl-reason.user"
+msgstr "Zvýraznit Uživatele"
+
+msgid "i18n.diff.added"
+msgstr ""
+"Přidáno:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Odstraněno:\n"
+"{text}"
+
+msgid "i18n.ui.added"
+msgstr "Nové Fráze"
+
+msgid "i18n.ui.all"
+msgstr "Všechny Fráze"
+
+msgid "i18n.ui.changed"
+msgstr "Změněné Fráze"
+
+msgid "i18n.ui.context"
+msgstr "Kontext"
+
+msgid "i18n.ui.existing"
+msgstr "Stávající Fráze"
+
+msgid "i18n.ui.open"
+msgstr "Otevřít Tester Překladů"
+
+msgid "i18n.ui.pages"
+msgstr "Stránka {current,number} z {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Čekající Fráze"
+
+msgid "i18n.ui.preview"
+msgstr "Náhled"
+
+msgid "i18n.ui.refresh"
+msgstr "Znovu Načíst Fráze"
+
+msgid "i18n.ui.search"
+msgstr "Prohledat Fráze"
+
+msgid "i18n.ui.source"
+msgstr "Zdroj"
+
+msgid "i18n.ui.title"
+msgstr "Tester Překladů"
+
+msgid "i18n.ui.upload"
+msgstr "Nahrát Změny"
+
+msgid "key.alt"
+msgstr "Klávesa Alt"
+
+msgid "key.alt_mouse"
+msgstr "Klávesa Alt nebo Myš "
+
+msgid "key.ctrl"
+msgstr "Klávesa Ctrl"
+
+msgid "key.ctrl_mouse"
+msgstr "Klávesa Ctrl nebo Myš"
+
+msgid "key.hover"
+msgstr "Najetí Myší"
+
+msgid "key.meta"
+msgstr "Klávesa Meta"
+
+msgid "key.meta_mouse"
+msgstr "Klávesa Meta nebo Myš "
+
+msgid "key.mouse"
+msgstr "Pohyb Myší"
+
+msgid "key.shift"
+msgstr "Klávesa Shift"
+
+msgid "key.shift_mouse"
+msgstr "Klávesa Shift nebo Myš "
+
+msgid "main-menu.mark-all-seen"
+msgstr "Označit Vše jako Přečtené"
+
+msgid "main-menu.popout"
+msgstr "Otevřít Nastavení v Novém Okně"
+
+msgid "main-menu.search"
+msgstr "Nastavení Vyhledávání"
+
+msgid "main-menu.version"
+msgstr "Verze {version}"
+
+msgid "metadata.host.add-channel"
+msgstr "Přidat do Automatického Hostování"
+
+msgid "metadata.host-button.host"
+msgstr "Host"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Momentálně hostuje: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Žádné"
+
+msgid "metadata.host-button.unhost"
+msgstr "Zrušit Hostování"
+
+msgid "metadata.host-button.updating"
+msgstr "Aktualizuje se..."
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Automatické Hostování"
+
+msgid "metadata.host.tab.settings"
+msgstr "Nastavení"
+
+msgid "metadata.host.title"
+msgstr "Nastavení Automatického Hostování"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Poslední živé vysílání před {count,number}"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Vypadá to, že váš systémový čas je mimo o zhruba {count,number} sekund, "
+"díky čemuž může být tohle nepřesné."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Latence Streamu"
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Latence"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Kvalita videa: {videoResolution}p{fps}\n"
+"Rychlost přehrávání: {playbackRate,number} Kbps\n"
+"Ztracených snímků: {skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Informace o Videu"
+
+msgid "metadata.uptime.copy"
+msgstr "Zkopírovat do Schránky"
+
+msgid "metadata.uptime.since"
+msgstr "(od {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Délka Streamu"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Délka streamu"
+
+msgid "metadata.viewers"
+msgstr "Počet Diváků"
+
+msgid "page.next"
+msgstr "Další Strana"
+
+msgid "page.previous"
+msgstr "Předchozí Strana"
+
+msgid "player.comp_button.disabled"
+msgstr "Audio Kompresor nemůže být povolený při prohlížení Klipů."
+
+msgid "player.comp_button.off"
+msgstr "Zakázat Audio Kompresor"
+
+msgid "player.pip_button"
+msgstr "Obrázek v Obrázku"
+
+msgid "player.reset_button"
+msgstr "Resetovat Přehrávač (Dvojí-kliknutí)"
+
+msgid "popup.error"
+msgstr ""
+"Zkusili jsme otevřít vyskakovací okno, ale nemohli jsme. Ujistěte se, že "
+"máte povolená vyskakovací okna pro Twitch."
+
+msgid "site.menu_button"
+msgstr "Ovládací Centrum FrankerFaceZ"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Načetli jste data pro doplňky z lokálního vývojářského serveru."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"Při načítání Kontrolního Centra FFZ nastala nějaká chyba. Prosím, načtěte "
+"stránku znovu a zkuste to znovu."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Aktuálně u vás běží vývojářská verze FrankerFaceZ."
+
+msgid "site.menu_button.new-desc"
+msgstr ""
+"{count,plural,one {Je zde nové nastavení} few {Jsou zde # nová nastavení} "
+"other {Je zde # nových nastavení}}."
+
+msgid "site.menu_button.profiles"
+msgstr "Profily"
+
+msgid "site.menu_button.update-desc"
+msgstr "Je zde dostupná aktualizace. Prosíme, načtěte znovu Vaši stránku."
+
+msgid "socket.info.command"
+msgstr "Příkaz"
+
+msgid "socket.info.connected"
+msgstr "připojen"
+
+msgid "socket.info.count"
+msgstr "Počet"
+
+msgid "socket.info.disconnected"
+msgstr "odpojeno"
+
+msgid "socket.info.local_time"
+msgstr "Lokální Čas"
+
+msgid "socket.info.ping"
+msgstr "Odezva"
+
+msgid "socket.info.server"
+msgstr "Server"
+
+msgid "socket.info.server_time"
+msgstr "Čas Serveru"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Příkazy"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Zprávy"
+
+msgid "socket.info.topics"
+msgstr "Témata"
+
+msgid "socket.info.version"
+msgstr "Verze"
+
+msgid "sub-button.prime"
+msgstr "Vaše bezplatné předplatné s Prime Gaming je dostupné. "
+
+msgid "tooltip.bits"
+msgstr "{count,number} bitů"
+
+msgid "tooltip.bits.more"
+msgstr "(a {count,number} dalš{count,plural, one {í} other {ích}})"
+
+msgid "tooltip.channel"
+msgstr "Kanál: {source}"
+
+msgid "tooltip.emoji"
+msgstr "Emoji - {category}"
+
+msgid "tooltip.emote"
+msgstr "Emotikon: {name}"
+
+msgid "tooltip.error"
+msgstr "Objevila se chyba. ({error})"
+
+msgid "video-chat.jump"
+msgstr "Skočit na Video"
+
+msgid "video-chat.reply"
+msgstr "Odpovědět"
+
+msgid "video-chat.show-more"
+msgstr "Zobrazit více odpovědí..."
+
+msgid "video-chat.time"
+msgstr "Před {time,humantime}"
+
+msgid "video.desc.1"
+msgstr "Video z kanálu {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Zhlédnutí - {date,datetime}"
+
+msgid "video.published-on"
+msgstr "Publikováno: {date,date}"

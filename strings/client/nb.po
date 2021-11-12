@@ -1,0 +1,935 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Last opp"
+
+msgid "autocomplete.empty"
+msgstr "Det er ingen resultater."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"(Abonnert i {count,number} {count,plural,one {måned} other {måneder}})"
+
+msgid "badges.subscriber.months"
+msgstr ""
+"{title}\n"
+"({count,number} {count,plural,one {måned} other {måneder}})"
+
+msgid "badges.subscriber.tier-months"
+msgstr ""
+"{title}\n"
+"(Trinn {tier}, {months,number} {months,plural,one {måned} other {måneder}})"
+
+msgid "card.empty"
+msgstr "Ingen data ble sendt tilbake."
+
+msgid "card.error"
+msgstr "En feil oppstod."
+
+msgid "card.loading"
+msgstr "Laster ..."
+
+msgid "channel.links.clips"
+msgstr "Klipp"
+
+msgid "channel.links.schedule"
+msgstr "Strømmeplan"
+
+msgid "channel.links.videos"
+msgstr "Videoer"
+
+msgid "chat.actions.ban"
+msgstr "Utesteng bruker"
+
+msgid "chat.actions.ban-reason"
+msgstr "Bannlys {user.login} for:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Bannlys {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Chatkommando"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Slett {user.login} sin melding"
+
+msgid "chat.actions.edit_overrides"
+msgstr "Endre navn og farge"
+
+msgid "chat.actions.edit_overrides.desc"
+msgstr "Lar deg velge lokale overstyringer for en brukers navn og farger i chatten."
+
+msgid "chat.actions.msg_delete"
+msgstr "Slett melding"
+
+msgid "chat.actions.open_url"
+msgstr "Åpne URL"
+
+msgid "chat.actions.reply.thread"
+msgstr "Åpne tråd"
+
+msgid "chat.actions.select-reason"
+msgstr "Vennligst velg en årsak fra listen nedenfor:"
+
+msgid "chat.actions.timeout"
+msgstr "Utvis bruker"
+
+msgid "chat.actions.timeout.desc"
+msgstr ""
+"{options.duration,number} {options.duration,plural,one {sekund} other "
+"{sekunder}}"
+
+msgid "chat.actions.timeout-reason"
+msgstr ""
+"Utvis {user.login} i {duration,number} {duration,one {sekund} other "
+"{sekunder}} for å:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr ""
+"Utvis {user.login} i {duration,number} {duration,plural,one {sekund} other "
+"{sekunder}}"
+
+msgid "chat.actions.unban"
+msgstr "Opphev bannlysning av bruker"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "Opphev bannlysning av {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Ukjent handlingstype"
+
+msgid "chat.actions.untimeout"
+msgstr "Opphev utvisning av bruker"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Opphev utvisning av {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Hvisk til bruker"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Hvisk til {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {Én melding ble slettet av en moderator.}\n"
+"other {# meldinger ble slettet av en moderator.}\n"
+"}"
+
+msgid "chat.filtering.automod.A"
+msgstr "Fiendtlighet"
+
+msgid "chat.filtering.automod.I"
+msgstr "Diskriminering"
+
+msgid "chat.filtering.automod.P"
+msgstr "Bannord"
+
+msgid "chat.filtering.automod.S"
+msgstr "Seksuelt utartet språkbruk"
+
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod-blokkert uttrykk"
+
+msgid "chat.filtering.automod-why"
+msgstr "Dette ble flagget som: "
+
+msgid "chat.filtering.blocked-term"
+msgstr "Blokkert uttrykk"
+
+msgid "chat.ignore-clear"
+msgstr "Et forsøk av en moderator på å rydde opp i chatten ble ignorert."
+
+msgid "chat.message-deleted"
+msgstr "<meldingen ble slettet>"
+
+msgid "chat.messages-below"
+msgstr "Chat satt på pause grunnet rulling"
+
+msgid "chat.mod-action.ban"
+msgstr "Bannlyst"
+
+msgid "chat.mod-action.by"
+msgstr "{action} av {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Slettet"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} utvisning"
+
+msgid "chat.overrides.color"
+msgstr "Farge"
+
+msgid "chat.overrides.editing"
+msgstr "Redigerer {user.login} …"
+
+msgid "chat.overrides.name"
+msgstr "Navn"
+
+msgid "chat.paused"
+msgstr "Chatten er satt på pause på grunn av {reason}"
+
+msgid "chat.points.bypass-sub"
+msgstr "Send en melding mens chatten kun er for abonnenter"
+
+msgid "chat.points.choose-emote"
+msgstr "Velg en emote å låse opp"
+
+msgid "chat.points.highlighted"
+msgstr "Fremhev kommentaren min"
+
+msgid "chat.points.modify-emote"
+msgstr "Modifiser én enkelt emote"
+
+msgid "chat.points.random-emote"
+msgstr "Lås opp en tilfeldig abonnements-emote"
+
+msgid "chat.points.redeemed"
+msgstr "Løste inn {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Belønning"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} løste inn {reward} {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "Ignorerte sender/moderatorer"
+
+msgid "chat.reasons.evasion"
+msgstr "Bannlysnings-unnvikelse"
+
+msgid "chat.reasons.hate"
+msgstr "Hat / Trakassering"
+
+msgid "chat.reasons.links"
+msgstr "La ut dårlige lenker"
+
+msgid "chat.reasons.personal"
+msgstr "Trusler / Personlig info"
+
+msgid "chat.reasons.spam"
+msgstr "Énmannsspamming"
+
+msgid "chat.reply-to"
+msgstr "Svarer på:"
+
+msgid "chat.ritual"
+msgstr "{user} er ny her. Si hallo!"
+
+msgid "chat.settings.back"
+msgstr "Tilbake"
+
+msgid "chat.settings.open-settings"
+msgstr "Åpne kontrollsenteret"
+
+msgid "chat.settings.pause"
+msgstr "Sett chatten på pause"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ overstyrer oppførselen til «Sett chatten på pause» "
+"fullstendig. Vennligst bruk FFZ sine rulleinnstillinger i "
+"FFZ-kontrollpanelet i Chat → Oppførsel."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "En anonym giver"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"De har abonnert i {cumulative,number} måneder, og er for øyeblikket på en "
+"{streak,number}-måneders strekke!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} gir bort {count,number} Trinn {tier}-{count,plural,one {abonnement} "
+"other {abonnementer}} til {channel} sitt samfunn! "
+
+msgid "chat.sub.gift-first"
+msgstr "Det er første gang de gir bort et abonnement på denne kanalen!"
+
+msgid "chat.sub.gift-months"
+msgstr ""
+"{user} ga bort {months,number} {months,plural,one {måned} other {måneder}} "
+"med {plan}-abonnement til {recipient}!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Trinn {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "De har gitt bort {count} abonnementer på denne kanalen!"
+
+msgid "chat.sub.main"
+msgstr "{user} abonnerte {plan}. "
+
+msgid "chat.sub.months"
+msgstr "De har abonnert i {count,number} måneder!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} ga bort et {plan}-abonnement til {recipient}! "
+
+msgid "chat.sub.plan"
+msgstr "på trinn {tier}"
+
+msgid "chat.sub.twitch-prime"
+msgstr "med Prime Gaming"
+
+msgid "clip.desc.1"
+msgstr "Klipp av {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} er kreativ"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spiller {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Klippet av {curator} — {views,number} {views,plural,one {visning} other "
+"{visninger}}"
+
+msgid "clip.unknown"
+msgstr "Ukjent"
+
+msgid "directory.block"
+msgstr "Blokker"
+
+msgid "directory.hide-thumbnails"
+msgstr "Skjul forhåndsbilder"
+
+msgid "directory.hosted"
+msgstr "Bevertet kanal"
+
+msgid "directory.hosted.by-many"
+msgstr "Bevertet av {count,number} {count, one {kanal} other {kanaler}}"
+
+msgid "directory.hosted.by-one"
+msgstr "Bevertet av {user}"
+
+msgid "directory.hosting"
+msgstr "Vertskapskanaler"
+
+msgid "directory.show-thumbnails"
+msgstr "Vis forhåndsbilder"
+
+msgid "directory.unblock"
+msgstr "Fjern blokkering"
+
+msgid "directory.user-playing"
+msgstr "{user} spiller {game}"
+
+msgid "emoji.category.activities"
+msgstr "Aktiviteter"
+
+msgid "emoji.category.animals_nature"
+msgstr "Dyreliv og natur"
+
+msgid "emoji.category.animals___nature"
+msgstr "Dyr og natur"
+
+msgid "emoji.category.flags"
+msgstr "Flagg"
+
+msgid "emoji.category.food_drink"
+msgstr "Mat og drikke"
+
+msgid "emoji.category.food___drink"
+msgstr "Mat og drikke"
+
+msgid "emoji.category.objects"
+msgstr "Objekter"
+
+msgid "emoji.category.people_body"
+msgstr "Folk"
+
+msgid "emoji.category.skin_tones"
+msgstr "Hudfarger"
+
+msgid "emoji.category.smileys___people"
+msgstr "Smilefjes og folk"
+
+msgid "emoji.category.symbols"
+msgstr "Symboler"
+
+msgid "emoji.category.travel_places"
+msgstr "Reise og steder"
+
+msgid "emoji.category.travel___places"
+msgstr "Reise og steder"
+
+msgid "emote.2fa"
+msgstr "Twitch-totrinns-emote"
+
+msgid "emote.bits"
+msgstr "Twitch-bitbelønning"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Channel: {channel}"
+
+msgid "emote.global"
+msgstr "Twitchs egen"
+
+msgid "emote.limited"
+msgstr "Midlertidig emote"
+
+msgid "emote-menu.channel"
+msgstr "Kanal"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Som en midlertidig nødløsning, prøv å skru av FFZ-emotemenyen i "
+"FFZ-kontrollpanelet."
+
+msgid "emote-menu.emoji"
+msgstr "Emoji"
+
+msgid "emote-menu.emote-cheer"
+msgstr ""
+"Juble med {bits_remaining,number} bit{bits_remaining,en_plural} til for å "
+"låse opp denne emoten."
+
+msgid "emote-menu.emote-sub"
+msgstr "Abonner for US{price} for å låse opp emoten."
+
+msgid "emote-menu.emote-up"
+msgstr "Oppgrader ditt abonnement til US{price} for å låse opp emoten."
+
+msgid "emote-menu.empty"
+msgstr "Det er ingenting her."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"Du har ingen favorittemoter. For å gi en emote favorittstatus, finn den og "
+"{hotkey}-museklikk den."
+
+msgid "emote-menu.empty-search"
+msgstr "Det er ingen samsvarende emoter."
+
+msgid "emote-menu.error"
+msgstr "Det oppsto en feil under rendring av denne menyen."
+
+msgid "emote-menu.error-report"
+msgstr "En feilrapport har blitt automatisk sendt inn."
+
+msgid "emote-menu.favorites"
+msgstr "Favoritter"
+
+msgid "emote-menu.featured"
+msgstr "Fremhevet"
+
+msgid "emote-menu.global"
+msgstr "Nettstedsemoter"
+
+msgid "emote-menu.inventory"
+msgstr "Inventar"
+
+msgid "emote-menu.loading"
+msgstr "Laster ..."
+
+msgid "emote-menu.main-set"
+msgstr "Kanalemoter"
+
+msgid "emote-menu.misc"
+msgstr "Diverse"
+
+msgid "emote-menu.my-emotes"
+msgstr "Mine emoter"
+
+msgid "emote-menu.points"
+msgstr "Låst opp med poeng"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Oppfrisk data"
+
+msgid "emote-menu.search"
+msgstr "Søk etter emoter"
+
+msgid "emote-menu.search-emoji"
+msgstr "Søk etter emoji"
+
+msgid "emote-menu.settings"
+msgstr "Åpne Innstillinger"
+
+msgid "emote-menu.sub-basic"
+msgstr "Abonner for å låse opp noen emoter"
+
+msgid "emote-menu.sub-ends"
+msgstr "Dette abonnementet slutter om {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Det givne abonnementet slutter om {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Dette er ditt gratis abonnement med Twitch Prime.\n"
+"Det slutter om {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr "Dette abonnementet fornyes om {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Abonnements-emoter"
+
+msgid "emote-menu.sub-unlock"
+msgstr ""
+"Abonner for US{price} for å låse opp {count,number} {count,plural,one "
+"{emote} other {emoter}}"
+
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+"Emotesynlighetskontrolleren lar deg skjule emoter fra emotemenyen din, "
+"enten individuelt eller etter sett. Med Emotesynlighetskontrolleren skrudd "
+"på, er det bare å klikke på en emote for å skjule eller vise den. Vennligst "
+"bemerk at du fortsatt vil se emoter i chatten dersom noen bruker dem, men "
+"de vil ikke dukke opp i emotemenyen din."
+
+msgid "emote-menu.toggle-hide.off"
+msgstr "Emotesynlighetskontroll"
+
+msgid "emote-menu.toggle-hide.on"
+msgstr "Gå ut av emotesynlighetskontrolleren"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Ukjent kilde"
+
+msgid "emote-menu.unknown-set"
+msgstr "Sett #{set_id}"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "Skjult"
+
+msgid "emote-menu.visibility.visible"
+msgstr "Synlig"
+
+msgid "emote.owner"
+msgstr "Av: {owner}"
+
+msgid "error.try-again"
+msgstr "Prøv igjen"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Slutt å følge {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Varsler er for øyeblikket skrudd på. Klikk for å skru dem av."
+
+msgid "i18n.diff.added"
+msgstr ""
+"La til:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Fjernet:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Har du lyst til å hjelpe til med oversettelsesinnsatsen? Bli gjerne med i "
+"[Discorden vår](https://discord.gg/UrAkGhT) og bli med i "
+"oversettelseskanalchatten.\n"
+"\n"
+"Dette verktøyet lar oversettere teste strengene sine i sanntid i appen. På "
+"den måten kan du være sikker på at alt ser bra ut før du sender inn "
+"oversettelsene dine."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} fullført)"
+
+msgid "i18n.ui.added"
+msgstr "Nye strenger"
+
+msgid "i18n.ui.all"
+msgstr "Alle strenger"
+
+msgid "i18n.ui.changed"
+msgstr "Endrede strenger"
+
+msgid "i18n.ui.context"
+msgstr "Kontekst"
+
+msgid "i18n.ui.existing"
+msgstr "Eksisterende strenger"
+
+msgid "i18n.ui.open"
+msgstr "Åpne oversettelsestesteren"
+
+msgid "i18n.ui.pages"
+msgstr "Side {current,number} av {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Avventende strenger"
+
+msgid "i18n.ui.popout"
+msgstr "Åpne oversettelsesredigereren i et nytt vindu"
+
+msgid "i18n.ui.preview"
+msgstr "Forhåndsvisning"
+
+msgid "i18n.ui.refresh"
+msgstr "Oppfrisk strenger"
+
+msgid "i18n.ui.save"
+msgstr "Generer endringsblobb"
+
+msgid "i18n.ui.search"
+msgstr "Søk i strenger"
+
+msgid "i18n.ui.source"
+msgstr "Kilde"
+
+msgid "i18n.ui.title"
+msgstr "Oversettelsestester"
+
+msgid "i18n.ui.upload"
+msgstr "Last opp endringer"
+
+msgid "key.alt"
+msgstr "Alt-tast"
+
+msgid "key.alt_mouse"
+msgstr "Alt eller mus"
+
+msgid "key.ctrl"
+msgstr "Ctrl-tast"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl eller mus"
+
+msgid "key.hover"
+msgstr "Svev over"
+
+msgid "key.meta"
+msgstr "Meta-tast"
+
+msgid "key.meta_mouse"
+msgstr "Meta eller mus"
+
+msgid "key.mouse"
+msgstr "Musebeveging"
+
+msgid "key.shift"
+msgstr "Shift-tast"
+
+msgid "key.shift_mouse"
+msgstr "Shift eller mus"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Merk alle som sett"
+
+msgid "main-menu.popout"
+msgstr "Åpne innstillinger i et nytt vindu"
+
+msgid "main-menu.search"
+msgstr "Søkeinnstillinger"
+
+msgid "main-menu.version"
+msgstr "Versjon {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Fremhevet"
+
+msgid "metadata.featured-follow.title"
+msgstr "Fremhevede kanaler"
+
+msgid "metadata.host.add-channel"
+msgstr "Legg til auto-vertskap"
+
+msgid "metadata.host-button.host"
+msgstr "Bevert"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Er vertskap for: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Ingen"
+
+msgid "metadata.host-button.unhost"
+msgstr "Stopp vertskap"
+
+msgid "metadata.host-button.updating"
+msgstr "Oppdaterer..."
+
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr ""
+"Vær automatisk vertskap for kanaler fra vertskapslisten din når du er "
+"offline."
+
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "Auto-vertskap"
+
+msgid "metadata.host.setting.strategy.description"
+msgstr "Når dette er skrudd på, vil vertskapskanaler bli valgt tilfeldig fra listen."
+
+msgid "metadata.host.setting.strategy.title"
+msgstr "Tilfeldiggjør vertskapsrekkefølgen"
+
+msgid "metadata.host.setting.team-hosting.description"
+msgstr "Inkluder lagkanaler i vertskapslisten din."
+
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "Lagvertskap"
+
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr ""
+"Inkluder kanaler som strømmer forhåndsinnspilt video, slik som premierer og "
+"repriser."
+
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "Vær vert for tidligere innspilte videoer"
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Auto-vertskap"
+
+msgid "metadata.host.tab.settings"
+msgstr "Innstillinger"
+
+msgid "metadata.host.title"
+msgstr "Behandling av auto-vertskap"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Ble sendt for {count,number}s siden"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Din enhets klokke ser ut til å avvike med omtrent {count,number} sekunder, "
+"noe som kan gjøre dette unøyaktig."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Sendingsforsinkelse"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "Spiller av i {rate,number}x for å redusere forsinkelsen."
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Latens"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Videoinformasjon"
+
+msgid "metadata.uptime.copy"
+msgstr "Kopier til utklippstavlen"
+
+msgid "metadata.uptime.link-to"
+msgstr "Lenk til {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(siden {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Oppetid"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Sendingens oppetid"
+
+msgid "metadata.viewers"
+msgstr "Seerteller"
+
+msgid "page.next"
+msgstr "Neste side"
+
+msgid "page.previous"
+msgstr "Forrige side"
+
+msgid "player.comp_button.disabled"
+msgstr "Lydkompressoren kan ikke skrus på når du ser på klipp."
+
+msgid "player.comp_button.help"
+msgstr ""
+"Se FFZ-kontrollpanelet for detaljer. Dersom lyden bryter sammen, vennligst "
+"tilbakestill avspilleren."
+
+msgid "player.comp_button.off"
+msgstr "Skru av lydkompressoren"
+
+msgid "player.comp_button.on"
+msgstr "Lydkompressor"
+
+msgid "player.pip_button"
+msgstr "Bilde-i-bilde"
+
+msgid "player.pip_button.fs"
+msgstr "Kan ikke bruke bilde-i-bilde i fullskjermsmodus"
+
+msgid "player.pip_button.off"
+msgstr "Avslutt bilde-i-bilde"
+
+msgid "player.reset_button"
+msgstr "Tilbakestill avspilleren (Dobbeltklikk)"
+
+msgid "player.reset_button.all"
+msgstr "Tilbakestill alle avspillere (Dobbeltklikk)"
+
+msgid "popup.error"
+msgstr ""
+"Vi forsøkte å åpne et forgrunnsvindu og mislyktes. Sørg for å tillate "
+"forgrunnsvinduer fra Twitch."
+
+msgid "site.menu_button"
+msgstr "FrankerFaceZ-kontrollsenter"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Du har lastet inn utvidelsesdata fra en lokal utviklingstjener."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"Det oppsto en feil under innlasting av FFZ-kontrollpanel. Vennligst "
+"oppfrisk siden og prøv igjen."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Du kjører en utviklerbyggversjon av FrankerFaceZ."
+
+msgid "site.menu_button.new-desc"
+msgstr ""
+"Det {count,plural,one {er én ny innstilling} other {er # nye "
+"innstillinger}}."
+
+msgid "site.menu_button.profiles"
+msgstr "Profiler"
+
+msgid "site.menu_button.strings"
+msgstr ""
+"Det {added,plural,one {er # ny strenge} other {er # nye strenger}} og "
+"{changed,plural,one {# endret strenge} other {# endrede strenger}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "Det er en tilgjengelig oppdatering. Vennligst oppfrisk siden din."
+
+msgid "socket.info.command"
+msgstr "Kommando"
+
+msgid "socket.info.connected"
+msgstr "tilkoblet"
+
+msgid "socket.info.count"
+msgstr "Antall"
+
+msgid "socket.info.disconnected"
+msgstr "frakoblet"
+
+msgid "socket.info.local_time"
+msgstr "Lokal tid"
+
+msgid "socket.info.ping"
+msgstr "Ping"
+
+msgid "socket.info.server"
+msgstr "Server"
+
+msgid "socket.info.server_time"
+msgstr "Tjenerens tid"
+
+msgid "socket.info.state"
+msgstr "Tilstand"
+
+msgid "socket.info.stats.authenticated"
+msgstr "Autentisert"
+
+msgid "socket.info.stats.connected_clients"
+msgstr "Tilkoblede klienter"
+
+msgid "socket.info.stats.live_clients"
+msgstr "Oppegående klienter"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Kommandoer"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Meldinger"
+
+msgid "socket.info.stats.versions"
+msgstr "Klientversjoner"
+
+msgid "socket.info.time_offset"
+msgstr "Tidsavvik"
+
+msgid "socket.info.topics"
+msgstr "Emner"
+
+msgid "socket.info.version"
+msgstr "Versjon"
+
+msgid "sub-button.prime"
+msgstr "Ditt gratis kanalabonnement med Prime er tilgjengelig."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bits"
+
+msgid "tooltip.bits.more"
+msgstr "(og {count} til)"
+
+msgid "tooltip.channel"
+msgstr "Kanal: {source}"
+
+msgid "tooltip.email-link"
+msgstr "Send E-post til {address}"
+
+msgid "tooltip.emoji"
+msgstr "Emoji - {category}"
+
+msgid "tooltip.emote"
+msgstr "Emote: {name}"
+
+msgid "tooltip.error"
+msgstr "En feil oppstod. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Ankomststed: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr ""
+"Advarsel: Denne URL-en er på Google sin 'Safe Browsing'-liste grunnet: "
+"{reasons}"
+
+msgid "tooltip.render-error"
+msgstr ""
+"Det oppsto en feil under rendring av dette verktøytipset.\n"
+"{err}"
+
+msgid "video-chat.jump"
+msgstr "Hopp til videoen"
+
+msgid "video-chat.reply"
+msgstr "Svar"
+
+msgid "video-chat.show-more"
+msgstr "Vis flere svar …"
+
+msgid "video-chat.time"
+msgstr "{time,humantime} siden"
+
+msgid "video.desc.1"
+msgstr "Video av {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} visninger - {date,datetime}"
+
+msgid "video.published-on"
+msgstr "Publisert den: {date,date}"

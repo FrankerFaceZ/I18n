@@ -1,0 +1,1043 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Загрузить"
+
+msgid "autocomplete.empty"
+msgstr "Результатов нет."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"({count,number} {count,plural,one {месяц} few {месяца} other {месяцев}} "
+"подписки)"
+
+msgid "badges.subscriber.months"
+msgstr ""
+"{title} \n"
+"({count,number} {count,plural,one {месяц} few {месяца} other {месяцев}})"
+
+msgid "badges.subscriber.tier-months"
+msgstr ""
+"{title}\n"
+"(Уровень {tier}, {count,number} {count,plural,one {месяц} few {месяца} "
+"other {месяцев}})"
+
+msgid "card.empty"
+msgstr "Данные не были возвращены."
+
+msgid "card.error"
+msgstr "Произошла ошибка."
+
+msgid "card.error.timeout"
+msgstr "Время ожидания запроса истекло."
+
+msgid "card.loading"
+msgstr "Загрузка..."
+
+msgid "cards.user.stats"
+msgstr "Просмотров: {views,number} • Фолловеры: {followers,number}"
+
+msgid "cards.user.streaming"
+msgstr "транслирует {game}"
+
+msgid "channel.links.clips"
+msgstr "Клипы"
+
+msgid "channel.links.schedule"
+msgstr "Расписание"
+
+msgid "channel.links.videos"
+msgstr "Видео"
+
+msgid "chat.actions.ban"
+msgstr "Забанить пользователя"
+
+msgid "chat.actions.ban-reason"
+msgstr "Забанить {user.login} за:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Забанить {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Комнада чата"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Удалить сообщение {user.login}"
+
+msgid "chat.actions.edit_overrides"
+msgstr "Изменить имя и цвет"
+
+msgid "chat.actions.edit_overrides.desc"
+msgstr "Позволяет указать собственные никнейм и цвет пользователю в чате."
+
+msgid "chat.actions.msg_delete"
+msgstr "Удалить сообщение"
+
+msgid "chat.actions.open_url"
+msgstr "Открыть URL"
+
+msgid "chat.actions.reply"
+msgstr "Ответить на сообщение"
+
+msgid "chat.actions.reply.desc"
+msgstr ""
+"Позволяет напрямую отвечать на сообщение другого пользователя. Работает "
+"только когда используется стиль ответов \"FrankerFaceZ\"."
+
+msgid "chat.actions.reply.thread"
+msgstr "Открыть обсуждение"
+
+msgid "chat.actions.select-reason"
+msgstr "Пожалуйста, выберите причину из списка ниже:"
+
+msgid "chat.actions.timeout"
+msgstr "Дать пользователю отстранение"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} сек.{options.duration,en_plural}"
+
+msgid "chat.actions.timeout-reason"
+msgstr "Дать отстранение {user.login} на {duration,number} сек.{duration,plural} за:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr "Дать отстранение {user.login} на {duration,number} сек.{duration,plural}"
+
+msgid "chat.actions.unban"
+msgstr "Разбанить пользователя"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "Разбанить {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Неизвестный тип действия"
+
+msgid "chat.actions.untimeout"
+msgstr "Убрать отстранение"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Снять отстранение с {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Отправить личное сообщение пользователю"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Отправить личное сообщение {user.login}"
+
+msgid "chat.bits-message"
+msgstr "Подарил(-а) {count, plural, one {# Bit} few {# Bits'а} other {# Bits'ов}}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {Одно сообщение было удалено модератором.}\n"
+"few {# сообщения были удалены модератором.}\n"
+"other {# сообщений были удалены модератором.}\n"
+"}}"
+
+msgid "chat.ffz-badge.about"
+msgstr ""
+"Этот значок отображается глобально для пользователей с FrankerFaceZ. Чтобы "
+"изменить этот значок, посетите {website}."
+
+msgid "chat.ffz-badge.site"
+msgstr "Пожалуйста, поситите {website}, чтобы изменить значок."
+
+msgid "chat.ffz-badge.site-link"
+msgstr "Вебсайт FrankerFaceZ"
+
+msgid "chat.ffz-badge.title"
+msgstr "Значок FrankerFaceZ"
+
+msgid "chat.filtering.automod.A"
+msgstr "Враждебность"
+
+msgid "chat.filtering.automod.I"
+msgstr "Дискриминация"
+
+msgid "chat.filtering.automod.P"
+msgstr "Профанация"
+
+msgid "chat.filtering.automod.S"
+msgstr "Откровенно сексуальный язык"
+
+msgid "chat.filtering.automod-term"
+msgstr "Термин, заблокированный автомодерацией"
+
+msgid "chat.filtering.automod-why"
+msgstr "Это было помечено как:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Заблокированный термин"
+
+msgid "chat.identity-menu"
+msgstr "Имя в чате"
+
+msgid "chat.ignore-clear"
+msgstr "Попытка очищения чата модератором была проигнорированна."
+
+msgid "chat.message-deleted"
+msgstr "<сообщение удалено>"
+
+msgid "chat.messages-below"
+msgstr "Чат остановлен из-за прокрутки"
+
+msgid "chat.mod-action.ban"
+msgstr "В бане"
+
+msgid "chat.mod-action.by"
+msgstr "{action} от {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Удалено"
+
+msgid "chat.mod-action.timeout"
+msgstr "Отстранение на {duration}"
+
+msgid "chat.overrides.color"
+msgstr "Цвет"
+
+msgid "chat.overrides.editing"
+msgstr "Редактируется {user.login}..."
+
+msgid "chat.overrides.name"
+msgstr "Имя"
+
+msgid "chat.paused"
+msgstr "Чат остановлен из-за {reason}"
+
+msgid "chat.points.bypass-sub"
+msgstr "Отправить сообщение в чате только для подписчиков"
+
+msgid "chat.points.choose-emote"
+msgstr "Выберите смайл, чтобы разблокировать"
+
+msgid "chat.points.highlighted"
+msgstr "Выделить мое сообщение"
+
+msgid "chat.points.modify-emote"
+msgstr "Изменить один смайл"
+
+msgid "chat.points.random-emote"
+msgstr "Разблокировать случайный смайл подписчика"
+
+msgid "chat.points.redeemed"
+msgstr "Получено {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Награда"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} получил {reward} {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "Игнорирование стримера / модераторов"
+
+msgid "chat.reasons.evasion"
+msgstr "Уклонение от бана"
+
+msgid "chat.reasons.hate"
+msgstr "Ненависть / домогательство"
+
+msgid "chat.reasons.links"
+msgstr "Непристойные ссылки"
+
+msgid "chat.reasons.personal"
+msgstr "Угрозы / личная информация"
+
+msgid "chat.reasons.spam"
+msgstr "Спам"
+
+msgid "chat.reply-to"
+msgstr "Ответ:"
+
+msgid "chat.ritual"
+msgstr "{user} - новенький. Поздоровайтесь!"
+
+msgid "chat.settings.back"
+msgstr "Назад"
+
+msgid "chat.settings.open-settings"
+msgstr "Открыть центр упраления"
+
+msgid "chat.settings.pause"
+msgstr "Остановить чат"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ полностью отменяет паузы в чате. Используйте настройки "
+"прокрутки FFZ в Центре управления FFZ в разделе Чат > Поведение."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Анонимный пользователь, подаривший подписку"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"Пользователь подписан {cumulative,number} {cumulative,plural,one {месяц} "
+"few {месяца} other {месяцев}}, его серия - {streak,number} "
+"{streak,plural,one {месяц} few {месяца} other {месяцев}}!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} дарит {count,number} {count,plural,one {подписку} few {подписки} "
+"other {подписок}} {tier} уровня сообществу канала {channel}!"
+
+msgid "chat.sub.gift-first"
+msgstr " Пользователь первый раз дарит подписку на канал!"
+
+msgid "chat.sub.gift-months"
+msgstr ""
+"{user} дарит уже {months,number} месяц{months,en_plural} Подписки "
+"{recipient}!"
+
+msgid "chat.sub.gift-plan"
+msgstr "{tier} уровня"
+
+msgid "chat.sub.gift-total"
+msgstr ""
+" Он(а) подарил(а) {count,number} {count,plural,one {подписку} few "
+"{подписки} other {подписок}} на канал!"
+
+msgid "chat.sub.main"
+msgstr "{user} оформил подписку {plan}. "
+
+msgid "chat.sub.months"
+msgstr ""
+"Пользователь подписан {count,number} {count,plural,one {месяц} few {месяца} "
+"other {месяцев}}!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} подарил подписку {plan} {recipient}!"
+
+msgid "chat.sub.plan"
+msgstr "{tier} уровня"
+
+msgid "chat.sub.twitch-prime"
+msgstr "с Prime Gaming"
+
+msgid "clip.desc.1"
+msgstr "Клип пользователя {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} занимается творчеством"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} играет в {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Автор клипа: {curator} — {views,number} {views,plural,one {просмотр} few "
+"{просмотра} other {просмотров}}"
+
+msgid "clip.unknown"
+msgstr "Неизвестно"
+
+msgid "compat.bttv.emotes-on"
+msgstr ""
+"Вы включили \"Смайлы FrankerFaceZ\" в настройках BetterTTV, но у вас также "
+"установлен FrankerFaceZ. Пожалуйста, отключите \"Смайлы FrankerFaceZ\" в "
+"настройках BetterTTV. В этом нет необходимости."
+
+msgid "directory.block"
+msgstr "Заблокировать"
+
+msgid "directory.hide-thumbnails"
+msgstr "Скрыть миниатюры"
+
+msgid "directory.hosted"
+msgstr "Ретранслируемый канал"
+
+msgid "directory.hosted.by-many"
+msgstr "Ретранслируется {count,number} канал{count,en_plural}"
+
+msgid "directory.hosted.by-one"
+msgstr "Ретранслирует: {user}"
+
+msgid "directory.hosting"
+msgstr "Ретранслирующие каналы"
+
+msgid "directory.show-thumbnails"
+msgstr "Отобразить миниатюры"
+
+msgid "directory.unblock"
+msgstr "Разблокировать"
+
+msgid "directory.user-playing"
+msgstr "{user} играет в {game}"
+
+msgid "emoji.category.activities"
+msgstr "Активность"
+
+msgid "emoji.category.animals_nature"
+msgstr "Животные и Природа"
+
+msgid "emoji.category.animals___nature"
+msgstr "Животные и природа"
+
+msgid "emoji.category.flags"
+msgstr "Флаги"
+
+msgid "emoji.category.food_drink"
+msgstr "Еда и Напитки"
+
+msgid "emoji.category.food___drink"
+msgstr "Еда и напитки"
+
+msgid "emoji.category.objects"
+msgstr "Объекты"
+
+msgid "emoji.category.people_body"
+msgstr "Люди"
+
+msgid "emoji.category.skin_tones"
+msgstr "Тона кожи"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Улыбки и Эмоции"
+
+msgid "emoji.category.smileys___people"
+msgstr "Смайлики и люди"
+
+msgid "emoji.category.symbols"
+msgstr "Символы"
+
+msgid "emoji.category.travel_places"
+msgstr "Путешествия и достопримечательности "
+
+msgid "emoji.category.travel___places"
+msgstr "Путешествия и Места"
+
+msgid "emote.2fa"
+msgstr "Смайл 2FA"
+
+msgid "emote.bits"
+msgstr "Награда за Bits"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Канал: {channel}"
+
+msgid "emote.follower"
+msgstr "Смайл фолловера ({source})"
+
+msgid "emote.global"
+msgstr "Общедоступный Twitch"
+
+msgid "emote.limited"
+msgstr "Временный смайл"
+
+msgid "emote-menu.channel"
+msgstr "Канал"
+
+msgid "emote-menu.disable"
+msgstr ""
+"В качестве временного решения попробуйте отключить меню смайлов FFZ в "
+"Центре управления FFZ."
+
+msgid "emote-menu.emoji"
+msgstr "Эмодзи"
+
+msgid "emote-menu.emote-cheer"
+msgstr ""
+"Подарите дополнительные {bits_remaining,number} "
+"bit{bits_remaining,en_plural} чтобы разблокировать этот смайл."
+
+msgid "emote-menu.emote-follower"
+msgstr "Начните отслеживать {user}, чтобы разблокировать этот смайл на его канале."
+
+msgid "emote-menu.emote-sub"
+msgstr "Подпишитесь за {price}, чтобы разблокировать смайл."
+
+msgid "emote-menu.emote-up"
+msgstr "Повысьте подписку до {price}, чтобы разблокировать смайл."
+
+msgid "emote-menu.empty"
+msgstr "Здесь ничего нет."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"У вас нету избранных смайлов. Чтобы добавить смайл в избранное, щёлкните по "
+"нему мышью, удерживая {hotkey}."
+
+msgid "emote-menu.empty-search"
+msgstr "Нет совпадающих смайлов."
+
+msgid "emote-menu.error"
+msgstr "При отображении меню возникла ошибка."
+
+msgid "emote-menu.error-report"
+msgstr "Отчёт об ошибке автоматически отправлен."
+
+msgid "emote-menu.favorites"
+msgstr "Избранное"
+
+msgid "emote-menu.featured"
+msgstr "Избранные"
+
+msgid "emote-menu.global"
+msgstr "Общедоступные смайлы"
+
+msgid "emote-menu.inventory"
+msgstr "Инвентарь"
+
+msgid "emote-menu.loading"
+msgstr "Загрузка..."
+
+msgid "emote-menu.main-set"
+msgstr "Смайлы канала"
+
+msgid "emote-menu.misc"
+msgstr "Прочие"
+
+msgid "emote-menu.my-emotes"
+msgstr "Мои смайлы"
+
+msgid "emote-menu.points"
+msgstr "Открыто с помощью баллов"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Обновить данные"
+
+msgid "emote-menu.search"
+msgstr "Поиск смайлов"
+
+msgid "emote-menu.search-emoji"
+msgstr "Поиск эмодзи"
+
+msgid "emote-menu.settings"
+msgstr "Открыть настройки"
+
+msgid "emote-menu.sub-basic"
+msgstr "Подпишитесь, чтобы разблокировать смайлы"
+
+msgid "emote-menu.sub-ends"
+msgstr "Подписка истечёт {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Подаренная подписка истечёт {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Это ваша бесплатная подписка Prime.\n"
+"Она истечёт {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr "Подписка обновится {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Смайлы подписчика"
+
+msgid "emote-menu.sub-unlock"
+msgstr ""
+"Подпишитесь за {price}, чтобы разблокировать {count,number} "
+"{count,plural,one {смайл} few {смайла} other {смайлов}}"
+
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+"Управление видимостью смайлов позволяет вам скрыть смайлы в меню, как по "
+"отдельности, так и их наборы. Включив его, просто щёлкните по смайлу, чтобы "
+"скрыть или показать его. Пожалуйста, помните, что в чате смайлы всё равно "
+"будут видны, но их не будет в вашем меню смайлов."
+
+msgid "emote-menu.toggle-hide.off"
+msgstr "Управление видимостью смайлов"
+
+msgid "emote-menu.toggle-hide.on"
+msgstr "Выйти из управления видимостью смайлов"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Неизвестный источник"
+
+msgid "emote-menu.unknown-set"
+msgstr "Набор #{set_id}"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "Скрытые"
+
+msgid "emote-menu.visibility.visible"
+msgstr "Видимые"
+
+msgid "emote.owner"
+msgstr "Автор: {owner}"
+
+msgid "emote.prime"
+msgstr "Prime Gaming"
+
+msgid "error.try-again"
+msgstr "Попробуйте ещё раз"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Перестать фоловить {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Сейчас уведомления включены. Нажмите, чтобы выключить их."
+
+msgid "hl-reason.badge"
+msgstr "Выделен значок"
+
+msgid "hl-reason.mention"
+msgstr "Выделен"
+
+msgid "hl-reason.term"
+msgstr "Выделен термин"
+
+msgid "hl-reason.user"
+msgstr "Выделен пользователь"
+
+msgid "i18n.diff.added"
+msgstr ""
+"Добавлено:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Удалено:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Желаете помочь с переводом? Пожалуйста, [заходите в наш "
+"Discord](https://discord.gg/UrAkGhT) и присоединяйтесь к чату переводчиков.\n"
+"\n"
+"Эта опция позволяет опробовать перевод в реальном времени. Так вы сможете "
+"убедиться, что всё выглядит нормально, прежде чем отправлять перевод."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} (готов на {coverage,number,percent})"
+
+msgid "i18n.ui.added"
+msgstr "Новые строки"
+
+msgid "i18n.ui.all"
+msgstr "Все строки"
+
+msgid "i18n.ui.changed"
+msgstr "Измененные строки"
+
+msgid "i18n.ui.context"
+msgstr "Контекст"
+
+msgid "i18n.ui.existing"
+msgstr "Существующие строки"
+
+msgid "i18n.ui.invalid"
+msgstr "Недопустимые строки"
+
+msgid "i18n.ui.open"
+msgstr "Открыть проверку перевода"
+
+msgid "i18n.ui.pages"
+msgstr "Страница {current,number} из {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Строки в ожидании"
+
+msgid "i18n.ui.popout"
+msgstr "Открыть редактор Перевода в новом окне"
+
+msgid "i18n.ui.preview"
+msgstr "Предварительный просмотр"
+
+msgid "i18n.ui.refresh"
+msgstr "Обновить строки"
+
+msgid "i18n.ui.save"
+msgstr "Сгенерировать список изменений"
+
+msgid "i18n.ui.search"
+msgstr "Строка поиска"
+
+msgid "i18n.ui.source"
+msgstr "Источник"
+
+msgid "i18n.ui.title"
+msgstr "Проверка перевода"
+
+msgid "i18n.ui.upload"
+msgstr "Загрузить изменения"
+
+msgid "key.alt"
+msgstr "Клавиша Alt"
+
+msgid "key.alt_mouse"
+msgstr "Alt или мышь"
+
+msgid "key.ctrl"
+msgstr "Клавиша Ctrl"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl или мышь"
+
+msgid "key.hover"
+msgstr "Прокрутка"
+
+msgid "key.meta"
+msgstr "Клавиша Meta"
+
+msgid "key.meta_mouse"
+msgstr "Meta или мышь"
+
+msgid "key.mouse"
+msgstr "Движение мыши"
+
+msgid "key.shift"
+msgstr "Клавиша Shift"
+
+msgid "key.shift_mouse"
+msgstr "Shift или мышь"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Помететить всё как прочитанное"
+
+msgid "main-menu.popout"
+msgstr "Открыть настройки в новом окне"
+
+msgid "main-menu.search"
+msgstr "Поиск настроек"
+
+msgid "main-menu.version"
+msgstr "Версия {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Избранные"
+
+msgid "metadata.featured-follow.title"
+msgstr "Избранные Каналы"
+
+msgid "metadata.host.add-channel"
+msgstr "Добавить в авторетрансляции"
+
+msgid "metadata.host-button.host"
+msgstr "Ретранслировать"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Ретранслируется: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Нет"
+
+msgid "metadata.host-button.unhost"
+msgstr "Прекратить ретрансляцию"
+
+msgid "metadata.host-button.updating"
+msgstr "Обновляем..."
+
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr "Автоматически ретранслировать каналы из списка, когда вы оффлайн."
+
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "Авторетрансляция"
+
+msgid "metadata.host.setting.strategy.description"
+msgstr ""
+"Когда включено, канал для ретрансляции выбирается случайным образом из "
+"списка."
+
+msgid "metadata.host.setting.strategy.title"
+msgstr "Рандомизировать очередь ретрансляций"
+
+msgid "metadata.host.setting.team-hosting.description"
+msgstr "Включает каналы сообщества в ваш список ретрансляций."
+
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "Ретранслировать сообщество"
+
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr ""
+"Включает каналы транслирующие предзаписанные видео, по-типу премьер или "
+"повторов."
+
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "Ретранслировать предзаписанные видео"
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Авторетрансляции"
+
+msgid "metadata.host.tab.settings"
+msgstr "Настройки"
+
+msgid "metadata.host.title"
+msgstr "Управление авторетрансляциями"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Транслировалось {count,number}сек. назад"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Ваши локальные часы отстают примерно на {count,number} сек., из-за чего "
+"значение может быть неаккуратным."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Задержка"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "Проигрывается со скоростью {rate, number} для снижения задержки."
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Задержка"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Видео: {videoResolution}p{fps}\n"
+"Частота воспроизведения: {playbackRate,number} кбит/с\n"
+"Потерянные кадры:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Информация о видео"
+
+msgid "metadata.uptime.copy"
+msgstr "Скопировать в буфер обмена"
+
+msgid "metadata.uptime.link-to"
+msgstr "Ссылка на {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(c {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Время трансляции"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Время трансляции"
+
+msgid "metadata.viewers"
+msgstr "Счётчик зрителей"
+
+msgid "page.next"
+msgstr "Следующая страница"
+
+msgid "page.previous"
+msgstr "Предыдущая страница"
+
+msgid "player.comp_button.disabled"
+msgstr "Нельзя включить аудио компрессор при просмотре клипов."
+
+msgid "player.comp_button.firefox"
+msgstr ""
+"Регуляторы скорости воспроизведения не будут работать для пользователей "
+"Firefox, если включен компрессор."
+
+msgid "player.comp_button.help"
+msgstr ""
+"Подробнее смотрите в центре управления. Пожалуйста, перезагрузите "
+"проигрыватель, если звук испортился."
+
+msgid "player.comp_button.off"
+msgstr "Выключить аудио компрессор"
+
+msgid "player.comp_button.on"
+msgstr "Включить аудио компрессор"
+
+msgid "player.gain.label"
+msgstr "Регулировка усиления"
+
+msgid "player.pip_button"
+msgstr "Картинка в картинке"
+
+msgid "player.pip_button.fs"
+msgstr "Нельзя использовать картинку в картинке в полноэкранном режиме"
+
+msgid "player.pip_button.off"
+msgstr "Выход из картинки в картинке"
+
+msgid "player.reset_button"
+msgstr "Сбросить проигрыватель (щёлкните мышью по кнопке дважды)"
+
+msgid "player.reset_button.all"
+msgstr "Сброс всех проигрывателей (двойной щелчок)"
+
+msgid "popup.error"
+msgstr ""
+"Мы попытались открыть всплывающее окнно, но не смогли. Убедитесь, что "
+"всплывающие окна на Twitch не заблокированы."
+
+msgid "site.menu_button"
+msgstr "Центр управления FrankerFaceZ"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Вы загрузили данные дополнения с локального сервера разработчика."
+
+msgid "site.menu_button.changed"
+msgstr ""
+"Провайдер настроек FrankerFaceZ изменился. Пожалуйста, обновите эту "
+"вкладку, чтобы избежать странного поведения."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"Произошла ошибка при загрузке центра управления FFZ. Пожалуйста, обновите и "
+"попробуйте снова."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Запущена версия FrankerFaceZ для разработчика."
+
+msgid "site.menu_button.new-desc"
+msgstr ""
+"Есть {count,plural,one {одна новая настройка} few {# новых настройки} other "
+"{# новых настроек}}."
+
+msgid "site.menu_button.no-settings"
+msgstr ""
+"Настройки на этой вкладке отключены из-за включения \"{param}\" в "
+"URL-адресе."
+
+msgid "site.menu_button.profiles"
+msgstr "Профили"
+
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+"Ваше локальное пространство для хранения данных на этом сайте заполнено, и "
+"настройки не могут быть сохранены. Пожалуйста, создайте резервную копию "
+"настроек и переключитесь на провайдера большей ёмкости в разделе "
+"[Управление данными > Хранилище >> "
+"Провайдер](~data_management.storage.tabs.provider)."
+
+msgid "site.menu_button.strings"
+msgstr ""
+"Есть {count,plural,one {одна изменённая строка} few {# изменённых строки} "
+"other {# изменённых строки}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "Доступно обновление. Пожалуйста, обновите страницу."
+
+msgid "socket.info.command"
+msgstr "Команда"
+
+msgid "socket.info.connected"
+msgstr "подключен"
+
+msgid "socket.info.count"
+msgstr "Счетчик"
+
+msgid "socket.info.disconnected"
+msgstr "отключен"
+
+msgid "socket.info.local_time"
+msgstr "Местное время"
+
+msgid "socket.info.ping"
+msgstr "Пинг"
+
+msgid "socket.info.server"
+msgstr "Сервер"
+
+msgid "socket.info.server_time"
+msgstr "Время сервера"
+
+msgid "socket.info.state"
+msgstr "Состояние"
+
+msgid "socket.info.stats.authenticated"
+msgstr "Удостоверенный"
+
+msgid "socket.info.stats.connected_clients"
+msgstr "Подключенных клиентов"
+
+msgid "socket.info.stats.live_clients"
+msgstr "Клиентов в сети"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Команд"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Сообщений"
+
+msgid "socket.info.stats.versions"
+msgstr "Версий клиентов"
+
+msgid "socket.info.time_offset"
+msgstr "Временной сдвиг"
+
+msgid "socket.info.topics"
+msgstr "Темы"
+
+msgid "socket.info.version"
+msgstr "Версия"
+
+msgid "sub-button.prime"
+msgstr "Доступна бесплатная подписка на канал с Prime."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bits"
+
+msgid "tooltip.bits.more"
+msgstr "(и ещё {count})"
+
+msgid "tooltip.channel"
+msgstr "Канал: {source}"
+
+msgid "tooltip.email-link"
+msgstr "E-Mail {address}"
+
+msgid "tooltip.emoji"
+msgstr "Эмодзи - {category}"
+
+msgid "tooltip.emote"
+msgstr "Смайл: {name}"
+
+msgid "tooltip.error"
+msgstr "Произошла ошибка. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Назначение: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr ""
+"Внимание: Этот URL находится в безопасном просмотре Google по причине: "
+"{reasons}"
+
+msgid "tooltip.link.urls"
+msgstr "Посещённые ссылки"
+
+msgid "tooltip.render-error"
+msgstr ""
+"При отображении подсказки произошла ошибка.\n"
+"{err}"
+
+msgid "tooltip.shift-detail"
+msgstr "(Shift, чтобы увидеть больше информации)"
+
+msgid "video-chat.jump"
+msgstr "Перейти к видео"
+
+msgid "video-chat.reply"
+msgstr "Ответить"
+
+msgid "video-chat.show-more"
+msgstr "Показать больше сообщений..."
+
+msgid "video-chat.time"
+msgstr "{time,humantime} назад"
+
+msgid "video.desc.1"
+msgstr "Видео пользователя {user}"
+
+msgid "video.desc.2"
+msgstr ""
+"{length,duration} — {views,number} {views,plural,one {просмотр} few "
+"{просмотра} other {просмотров}}"
+
+msgid "video.published-on"
+msgstr "Опубликовано: {date,date}"

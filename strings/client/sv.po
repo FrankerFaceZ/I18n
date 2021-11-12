@@ -1,0 +1,705 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Ladda Upp"
+
+msgid "autocomplete.empty"
+msgstr "Det finns inga resultat."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"(Prenumererat för {count,number} Månad{count,en_plural})"
+
+msgid "card.empty"
+msgstr "Ingen data returnerades."
+
+msgid "card.error"
+msgstr "Ett fel uppstod."
+
+msgid "card.loading"
+msgstr "Laddar..."
+
+msgid "chat.actions.ban"
+msgstr "Banna Användare"
+
+msgid "chat.actions.ban-reason"
+msgstr "Banna {user.login} för:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Banna {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Chattkommando"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Radera {user.login}'s meddelande"
+
+msgid "chat.actions.msg_delete"
+msgstr "Radera Meddelanden"
+
+msgid "chat.actions.open_url"
+msgstr "Öppna URL"
+
+msgid "chat.actions.select-reason"
+msgstr "Vänligen välj en anledningen i listan nedan:"
+
+msgid "chat.actions.timeout"
+msgstr "Sätt Timeout för Användare"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,plural,one {# sekund} other {# sekunder}}"
+
+msgid "chat.actions.timeout-reason"
+msgstr ""
+"Sätt Timeout för {user.login} i {duration,plural,one {# sekund} other {# "
+"sekunder}} för:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr ""
+"Sätt Timeout för {user.login} i {duration,plural,one {# sekund} other {# "
+"sekunder}}"
+
+msgid "chat.actions.unban"
+msgstr "Avbanna Användare"
+
+msgid "chat.actions.unknown"
+msgstr "Okänd Åtgärdstyp"
+
+msgid "chat.actions.untimeout"
+msgstr "Upphäv Timeout för Användare"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Upphäv Timeout för {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Viska Användare"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Viska till {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count, plural, \n"
+"one {Ett meddelande var raderat av en moderator.}\n"
+"other {# meddelanden var raderade av en moderator.}\n"
+"}"
+
+msgid "chat.filtering.automod.A"
+msgstr "Fientlighet"
+
+msgid "chat.filtering.automod.I"
+msgstr "Diskriminering"
+
+msgid "chat.filtering.automod.P"
+msgstr "Svordomar"
+
+msgid "chat.filtering.automod.S"
+msgstr "Sexuellt språk"
+
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod Blockerat Uttryck"
+
+msgid "chat.filtering.automod-why"
+msgstr "Detta var flaggat som:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Blockerat Uttryck"
+
+msgid "chat.ignore-clear"
+msgstr "Ett försök att rensa chatten av en moderator ignorerades."
+
+msgid "chat.message-deleted"
+msgstr "<meddelandet raderat>"
+
+msgid "chat.mod-action.ban"
+msgstr "Bannad"
+
+msgid "chat.mod-action.by"
+msgstr "{action} av {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Raderat"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} Timeout"
+
+msgid "chat.points.bypass-sub"
+msgstr "Skicka ett meddelande i Endast-Sub läge"
+
+msgid "chat.points.choose-emote"
+msgstr "Välj en emote att låsa upp"
+
+msgid "chat.reason.ignore"
+msgstr "Ignorerar Streamaren / Moderatorer"
+
+msgid "chat.reasons.evasion"
+msgstr "Undvikande av Ban"
+
+msgid "chat.reasons.hate"
+msgstr "Hat / Trakasserier"
+
+msgid "chat.reasons.links"
+msgstr "Postar Opålitliga Länkar"
+
+msgid "chat.reasons.personal"
+msgstr "Hot / Personlig Information"
+
+msgid "chat.reasons.spam"
+msgstr "En-persons Spam"
+
+msgid "chat.ritual"
+msgstr "{user} är ny här. Säg hej!"
+
+msgid "chat.settings.back"
+msgstr "Tillbaka"
+
+msgid "chat.settings.open-settings"
+msgstr "Öppna Kontrollcenter"
+
+msgid "chat.settings.pause"
+msgstr "Pausa Chatten"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ upphäver beteendet av Pausa Chatten helt och hållet. Vänligen "
+"använd FFZ's Scroll-inställningar under Chat >  Beteende, i FFZ "
+"Kontrollcenter "
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "En anonym givare"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"De har prenumenerat i {cumulative, number} månader, just nu har de "
+"{streak,number} i rad!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} skänker {count, number} Nivå {tier} Prenumeration{count,en_plural} "
+"till {channel}'s gemenskap!"
+
+msgid "chat.sub.gift-first"
+msgstr "Det är deras första gång som givare av en Prenumeration i kanalen!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Nivå {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "De har givit {count} Prenumerationer i kanalen!"
+
+msgid "chat.sub.main"
+msgstr "{user} prenumenerade {plan}"
+
+msgid "chat.sub.months"
+msgstr "De har prenumenerat i {count,number} månader!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} skänker en {plan} Prenumeration till {recipient}!"
+
+msgid "chat.sub.plan"
+msgstr "av Nivå {tier}"
+
+msgid "clip.desc.1"
+msgstr "Clip av {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} är Kreativ"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spelar {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Clippad av {curator}  — {views,plural,=0 {Inga Visningar} one {En Visning} "
+"other {# Visningar}}"
+
+msgid "clip.unknown"
+msgstr "Okänd"
+
+msgid "directory.block"
+msgstr "Blockera"
+
+msgid "directory.hide-thumbnails"
+msgstr "Göm Miniatyrbilder"
+
+msgid "directory.hosted"
+msgstr "Hostad Kanal"
+
+msgid "directory.hosted.by-many"
+msgstr "Hostad av {count,plural,one {# kanal} other {# kanaler}}"
+
+msgid "directory.hosted.by-one"
+msgstr "Hostad av {user}"
+
+msgid "directory.hosting"
+msgstr "Hostade Kanaler"
+
+msgid "directory.show-thumbnails"
+msgstr "Visa Miniatyrbilder"
+
+msgid "directory.unblock"
+msgstr "Avblockera"
+
+msgid "directory.user-playing"
+msgstr "{user} spelar {game}"
+
+msgid "emoji.category.activities"
+msgstr "Aktiviteter"
+
+msgid "emoji.category.animals___nature"
+msgstr "Djur & Natur"
+
+msgid "emoji.category.flags"
+msgstr "Flaggor"
+
+msgid "emoji.category.food___drink"
+msgstr "Mat & Dryck"
+
+msgid "emoji.category.objects"
+msgstr "Objekt"
+
+msgid "emoji.category.skin_tones"
+msgstr "Hudtoner"
+
+msgid "emoji.category.smileys___people"
+msgstr "Smileys & Folk"
+
+msgid "emoji.category.symbols"
+msgstr "Symboler"
+
+msgid "emoji.category.travel___places"
+msgstr "Resa & Platser"
+
+msgid "emote.global"
+msgstr "Global för Twitch"
+
+msgid "emote.limited"
+msgstr "Endast Begränsad Tidsbestämd  Emote"
+
+msgid "emote-menu.channel"
+msgstr "Kanal"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Som en tillfällig lösning, försök att inaktivera FFZ Emote Menyn i FFZ "
+"Control Center"
+
+msgid "emote-menu.emoji"
+msgstr "Emoji"
+
+msgid "emote-menu.emote-sub"
+msgstr "Prenumenera för {price} för att låsa upp denna emoten."
+
+msgid "emote-menu.emote-up"
+msgstr "Uppgradera din prenumeneration för {price} för att låsa upp denna emoten."
+
+msgid "emote-menu.empty"
+msgstr "Det finns inget här."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"Du har inge favorit-emotes. För att lägga till en emote bland dina "
+"favoriter, hitta den och {hotkey}-klicka på den."
+
+msgid "emote-menu.empty-search"
+msgstr "Det finns ingen emote som matchade."
+
+msgid "emote-menu.error"
+msgstr "Det uppstod ett fel vid renderingen av denna menyn."
+
+msgid "emote-menu.error-report"
+msgstr "En felrapport har automatiskt skickats."
+
+msgid "emote-menu.favorites"
+msgstr "Favoriter"
+
+msgid "emote-menu.featured"
+msgstr "Framhävd"
+
+msgid "emote-menu.global"
+msgstr "Globala Emotes"
+
+msgid "emote-menu.inventory"
+msgstr "Användarförråd"
+
+msgid "emote-menu.loading"
+msgstr "Laddar..."
+
+msgid "emote-menu.main-set"
+msgstr "Kanal-emotes"
+
+msgid "emote-menu.misc"
+msgstr "Diverse"
+
+msgid "emote-menu.my-emotes"
+msgstr "Mina Emotes"
+
+msgid "emote-menu.points"
+msgstr "Upplåst genom Poäng"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Uppdatera Data"
+
+msgid "emote-menu.search"
+msgstr "Sök efter Emotes"
+
+msgid "emote-menu.search-emoji"
+msgstr "Sök efter Emoji"
+
+msgid "emote-menu.settings"
+msgstr "Öppna Inställningar"
+
+msgid "emote-menu.sub-basic"
+msgstr "Prenumenera för att låsa upp några emotes"
+
+msgid "emote-menu.sub-ends"
+msgstr "Denna prenumeration avslutas om {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Denna gåvoprenumerationen löper ut om {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Detta är den prenumeration du får gratis med Twitch Prime.\n"
+"Den slutar om {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr "Denna prenumeration förnyas om {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Prenumerant-emotes"
+
+msgid "emote-menu.sub-unlock"
+msgstr ""
+"Prenumerera för {price} för att låsa upp {count,plural,one {en emote} other "
+"{# emotes}}"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Okänd Källa"
+
+msgid "emote-menu.unknown-set"
+msgstr "Set #{set_id}"
+
+msgid "emote.owner"
+msgstr "Av: {owner}"
+
+msgid "error.try-again"
+msgstr "Försök Igen"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Sluta Följa {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Notifikationer är aktiverade. Klicka för att avaktivera."
+
+msgid "i18n.diff.added"
+msgstr ""
+"Lade till:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Tog bort:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Intresserad av att hjälpa till med lokaliseringsarbetet? Vänligen [kom till "
+"oss på Discord](https://discord.gg/UrAkGhT) och joina chatten i den "
+"lokaliserade kanalen.\n"
+"\n"
+"Detta verktyget tillåter översättare att testa deras strängar i nutid i "
+"appen. På det sättet kan du vara säker allt ser korrekt ut innan du skickar "
+"in översättningarna."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} Komplett)"
+
+msgid "i18n.ui.added"
+msgstr "Nya Strängar"
+
+msgid "i18n.ui.all"
+msgstr "Alla Strängar"
+
+msgid "i18n.ui.changed"
+msgstr "Ändrade Strängar"
+
+msgid "i18n.ui.context"
+msgstr "Sammanhang"
+
+msgid "i18n.ui.existing"
+msgstr "Existerande Strängar"
+
+msgid "i18n.ui.open"
+msgstr "Öppna Översättningstestaren"
+
+msgid "i18n.ui.pages"
+msgstr "Sida {current,number} av {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Väntande Strängar"
+
+msgid "i18n.ui.preview"
+msgstr "Förhandsvisa"
+
+msgid "i18n.ui.refresh"
+msgstr "Uppdatera Strängar"
+
+msgid "i18n.ui.save"
+msgstr "Skapa Ändrings-blob"
+
+msgid "i18n.ui.search"
+msgstr "Sök Strängar"
+
+msgid "i18n.ui.source"
+msgstr "Källa"
+
+msgid "i18n.ui.title"
+msgstr "Översättningstestaren"
+
+msgid "i18n.ui.upload"
+msgstr "Ladda upp ändringar."
+
+msgid "key.alt"
+msgstr "Alt-tangenten"
+
+msgid "key.alt_mouse"
+msgstr "Alt eller Mus"
+
+msgid "key.ctrl"
+msgstr "Ctrl-tangenten"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl eller Mus"
+
+msgid "key.hover"
+msgstr "Muspekaren är ovan"
+
+msgid "key.meta"
+msgstr "Meta-tangenten\n"
+
+msgid "key.meta_mouse"
+msgstr "Meta eller Mus"
+
+msgid "key.mouse"
+msgstr "Mus Rörelse"
+
+msgid "key.shift"
+msgstr "Skift-tangenten"
+
+msgid "key.shift_mouse"
+msgstr "Skift eller Mus"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Markera Alla som Sedda"
+
+msgid "main-menu.popout"
+msgstr "Öppna Inställningar i Nytt Fönster"
+
+msgid "main-menu.search"
+msgstr "Sök i Inställningar"
+
+msgid "main-menu.version"
+msgstr "Version {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Framhävd"
+
+msgid "metadata.featured-follow.title"
+msgstr "Framhävda Kanaler"
+
+msgid "metadata.host.add-channel"
+msgstr "Lägg Till i Auto-hosting"
+
+msgid "metadata.host-button.host"
+msgstr "Host"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Hostar just nu: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Ingen"
+
+msgid "metadata.host-button.unhost"
+msgstr "Avsluta Host"
+
+msgid "metadata.host-button.updating"
+msgstr "Uppdaterar..."
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Auto-host"
+
+msgid "metadata.host.tab.settings"
+msgstr "Inställningar"
+
+msgid "metadata.host.title"
+msgstr "Automatisk Host-hantering"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Sände för {count,number}s sedan"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Din lokala klocka verkar visa fel på ett ungefär {count,number} sekunder, "
+"some skulle kunna göra detta felaktigt."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Stream-latens"
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Latens"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Video: {videoResolution}p{fps}\n"
+"Uppspelningshastighet: {playbackRate,number} Kbps\n"
+"Tappade bildrutor:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Video Information"
+
+msgid "metadata.uptime.copy"
+msgstr "Kopiera till Urklipp"
+
+msgid "metadata.uptime.link-to"
+msgstr "Länk till {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(sedan {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Upptid"
+
+msgid "metadata.uptime.tooltip"
+msgstr "quaStream Upptid"
+
+msgid "page.next"
+msgstr "Nästa Sida"
+
+msgid "page.previous"
+msgstr "Föregående Sida"
+
+msgid "player.pip_button"
+msgstr "Klicka för att Växla Bild-i-Bild-läge."
+
+msgid "player.pip_button.off"
+msgstr "Gå ur Bild-i-Bild läget."
+
+msgid "player.reset_button"
+msgstr "Dubbelklicka för att Återställa Spelaren."
+
+msgid "player.reset_button.all"
+msgstr "Dubbelklicka för att Återställa alla Spelare."
+
+msgid "popup.error"
+msgstr ""
+"Vi försökte öppna ett pop-up fönster och kunde inte. Kontrollera att du "
+"tillåter pop-ups från Twitch."
+
+msgid "site.menu_button"
+msgstr "FrankerFaceZ Kontrollcenter"
+
+msgid "site.menu_button.addon-dev"
+msgstr "en-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Du har laddat tilläggsdata från en lokal utvecklings server."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"Det uppstod ett fel vid laddningen av FFZ Kontrol Center. Vänligen "
+"uppdatera sidan och försök igen."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Du använder en utvecklar-variant av FrankerFaceZ."
+
+msgid "site.menu_button.new-desc"
+msgstr ""
+"Det finns {count,plural,one {en ny inställning} other {# nya "
+"inställningar}}."
+
+msgid "site.menu_button.profiles"
+msgstr "Profiler"
+
+msgid "site.menu_button.strings"
+msgstr ""
+"Det finns {added,plural,one {en ny sträng} other {# nya stränger}} samt "
+"{changed,plural,one {en ändrad sträng} other {# ändrade stränger}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "Det finns en uppdatering tillgänglig. Vänligen uppdatera sidan."
+
+msgid "sub-button.prime"
+msgstr "Din gratis-prenumeration med Prime är tillgänglig."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bits"
+
+msgid "tooltip.bits.more"
+msgstr "(och {count} mera)"
+
+msgid "tooltip.channel"
+msgstr "Kanal: {source}"
+
+msgid "tooltip.email-link"
+msgstr "E-Post {address}"
+
+msgid "tooltip.emoji"
+msgstr "Emoji - {category}"
+
+msgid "tooltip.emote"
+msgstr "Emote: {name}"
+
+msgid "tooltip.error"
+msgstr "Ett fel uppstod. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Destination: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr "Varning: Denna URL'en finns på Google's Safe Browsing List för: {reasons}"
+
+msgid "tooltip.render-error"
+msgstr ""
+"Det uppstod ett problem att rendera denna info rutan.\n"
+"{err}"
+
+msgid "video-chat.jump"
+msgstr "Hoppa till Video"
+
+msgid "video-chat.reply"
+msgstr "Svara"
+
+msgid "video-chat.show-more"
+msgstr "Visa fler svar..."
+
+msgid "video-chat.time"
+msgstr "{time,humantime} sedan"
+
+msgid "video.desc.1"
+msgstr "Video av {user}"
+
+msgid "video.desc.2"
+msgstr ""
+"{length,duration} — {views,plural,=0 {Inga Visningar} one {# Visning} other "
+"{# Visningar}} - {date,datetime}"

@@ -1,0 +1,17 @@
+{
+  "name": "@ffz/i18n",
+  "private": true,
+  "description": "Localizable strings for the FrankerFaceZ project, and their translations.",
+  "scripts": {
+    "addblob": "node scripts/add-blob.mjs",
+    "add-blob": "node scripts/add-blob.mjs",
+    "build": "node scripts/build.mjs",
+    "fetch-legacy": "node scripts/fetch-legacy.mjs"
+  },
+  "dependencies": {
+    "@formatjs/icu-messageformat-parser": "^2.0.11",
+    "gettext-parser": "^4.0.4",
+    "node-fetch": "^2.6.1",
+    "rimraf": "^3.0.2"
+  }
+}

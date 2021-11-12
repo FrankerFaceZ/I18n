@@ -1,0 +1,596 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Feltöltés"
+
+msgid "card.empty"
+msgstr "Nem kapta meg a szükséges adatokat."
+
+msgid "card.error"
+msgstr "Hiba történt."
+
+msgid "card.loading"
+msgstr "Betöltés..."
+
+msgid "channel.links.clips"
+msgstr "Klippek"
+
+msgid "channel.links.schedule"
+msgstr "Menetrend"
+
+msgid "channel.links.videos"
+msgstr "Videók"
+
+msgid "chat.actions.ban"
+msgstr "Felhasználó Kitiltása"
+
+msgid "chat.actions.ban-reason"
+msgstr "{user.login} kitiltása, ennyi időre:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "{user.login} kitiltása"
+
+msgid "chat.actions.chat"
+msgstr "Chat Parancs"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "{user.login} üzenetének törlése"
+
+msgid "chat.actions.edit_overrides"
+msgstr "Név és szín módosítása"
+
+msgid "chat.actions.msg_delete"
+msgstr "Üzenet Törlése"
+
+msgid "chat.actions.open_url"
+msgstr "URL megnyitása"
+
+msgid "chat.actions.select-reason"
+msgstr "Kérjük, válasszon egy okot az alábbi listából:"
+
+msgid "chat.actions.timeout-reason"
+msgstr "{user.login} ideiglenes kitiltása {duration,number} másodpercre, ezért:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr "{user.login} ideiglenes kitiltása {duration,number} másodpercre"
+
+msgid "chat.actions.unban"
+msgstr "Felhasználó Feloldása"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "{user.login} feloldása"
+
+msgid "chat.actions.unknown"
+msgstr "Ismeretlen Művelettípus"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Ideiglenes kitiltás feloldása rajta: {user.login}"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Suttogás vele: {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"egy {One message was deleted by a moderator.}\n"
+"több {# messages were deleted by a moderator.}\n"
+"}"
+
+msgid "chat.ffz-badge.site-link"
+msgstr "FrankerFaceZ weboldal"
+
+msgid "chat.ffz-badge.title"
+msgstr "FrankerFaceZ Jelvény"
+
+msgid "chat.filtering.automod.P"
+msgstr "Káromkodás"
+
+msgid "chat.filtering.automod.S"
+msgstr "Szexuálisan Kifejezett Nyelv"
+
+msgid "chat.filtering.automod-term"
+msgstr "Letiltott Kifejezések az AutoMod által."
+
+msgid "chat.filtering.automod-why"
+msgstr "Megjelölték:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Letiltott Kifejezések"
+
+msgid "chat.ignore-clear"
+msgstr ""
+"Az egyik moderátor megkísérelte a csevegés törlését, de figyelmen kívül "
+"lett hagyva."
+
+msgid "chat.message-deleted"
+msgstr "<üzenet törölve>"
+
+msgid "chat.messages-below"
+msgstr "Csevegés megállítva a görgetés érdekében."
+
+msgid "chat.mod-action.ban"
+msgstr "Kitiltva"
+
+msgid "chat.mod-action.by"
+msgstr "{action} általa: {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Törölt"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} másodperc ideiglenes kitiltás"
+
+msgid "chat.overrides.color"
+msgstr "Szín"
+
+msgid "chat.overrides.editing"
+msgstr "Szerkesztés {user.login}..."
+
+msgid "chat.overrides.name"
+msgstr "Név"
+
+msgid "chat.paused"
+msgstr "Csevegés megállítva {reason} indokkal"
+
+msgid "chat.points.bypass-sub"
+msgstr "Üzenetküldés csak előfizetői módban"
+
+msgid "chat.points.choose-emote"
+msgstr "Választható hangulatjel feloldása"
+
+msgid "chat.points.highlighted"
+msgstr "Üzenet kiemelése"
+
+msgid "chat.points.modify-emote"
+msgstr "Egy hangulatjel módosítása"
+
+msgid "chat.points.random-emote"
+msgstr "Véletlenszerű előfizetői hangulatjel feloldása"
+
+msgid "chat.points.redeemed"
+msgstr "Beváltotta {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Jutalom"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} beváltotta {reward} {cost}"
+
+msgid "chat.settings.back"
+msgstr "Vissza"
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Egy ismeretlen ajándékozó"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"{cumulative,number} hónapja feliratkozó, jelenleg {streak,number} hónapos "
+"sorozatban van."
+
+msgid "chat.sub.gift-first"
+msgstr "Most először ajándékozott feliratkozást a csatornán."
+
+msgid "chat.sub.gift-plan"
+msgstr "{tier}. fokozat"
+
+msgid "chat.sub.gift-total"
+msgstr "{count} feliratkozást ajándékozott a csatornán."
+
+msgid "chat.sub.main"
+msgstr "{user} feliratkozott {plan}."
+
+msgid "chat.sub.months"
+msgstr "Feliratkozott {count,number} hónapra."
+
+msgid "chat.sub.plan"
+msgstr "{tier}. fokozattal"
+
+msgid "clip.desc.1"
+msgstr "{user} klippje"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} kreatív"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} jelenleg játékban: {game}"
+
+msgid "clip.unknown"
+msgstr "Ismeretlen"
+
+msgid "directory.hosted"
+msgstr "Hosztolt Csatorna"
+
+msgid "directory.hosted.by-many"
+msgstr "Hosztolva általa: {count,number} {count,en_plural}"
+
+msgid "directory.hosting"
+msgstr "Hosztolt Csatornák"
+
+msgid "emoji.category.animals_nature"
+msgstr "Állatok & Természet"
+
+msgid "emoji.category.animals___nature"
+msgstr "Állatok & Természet"
+
+msgid "emoji.category.flags"
+msgstr "Zászlók"
+
+msgid "emoji.category.food_drink"
+msgstr "Étel & Ital"
+
+msgid "emoji.category.food___drink"
+msgstr "Étel & Ital"
+
+msgid "emoji.category.people_body"
+msgstr "Emberek"
+
+msgid "emoji.category.symbols"
+msgstr "Szimbólumok"
+
+msgid "emoji.category.travel_places"
+msgstr "Utazás & Helyek"
+
+msgid "emoji.category.travel___places"
+msgstr "Utazás & Helyek"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Hangulatjel"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Csatorna: {channel}"
+
+msgid "emote-menu.channel"
+msgstr "Csatorna"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Ideiglenes megoldásként tiltsa le az FFZ Emote Menüt az FFZ "
+"Vezérlőközpontban."
+
+msgid "emote-menu.emoji"
+msgstr "Hangulatjel"
+
+msgid "emote-menu.emote-sub"
+msgstr "Iratkozz fel {price}-ért a hangulatjel feloldásához."
+
+msgid "emote-menu.emote-up"
+msgstr "Frissítsd a feliratkozásod {price} a hangulatjel feloldásához."
+
+msgid "emote-menu.empty"
+msgstr "Nem található itt semmi."
+
+msgid "emote-menu.empty-search"
+msgstr "Nincs egyező hangulatjel."
+
+msgid "emote-menu.error"
+msgstr "Hiba történt a menü létrehozásakor."
+
+msgid "emote-menu.error-report"
+msgstr "A hibajelentést automatikusan elküldtük."
+
+msgid "emote-menu.favorites"
+msgstr "Kedvencek"
+
+msgid "emote-menu.loading"
+msgstr "Betöltés..."
+
+msgid "emote-menu.main-set"
+msgstr "Csatorna Hangulatjelek"
+
+msgid "emote-menu.my-emotes"
+msgstr "Hangulatjeleim"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.search"
+msgstr "Hangulatjelek Keresése"
+
+msgid "emote-menu.search-emoji"
+msgstr "Hangulatjel keresése"
+
+msgid "emote-menu.settings"
+msgstr "Beállítások Megnyitása"
+
+msgid "emote-menu.sub-basic"
+msgstr "Iratkozz fel a hangulatjelek feloldásához"
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Ezen ajándékozott feliratkozás lejárata: {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Ez egy ingyenes feliratkozás a Twitch Prime-al.\n"
+"Lejárata: {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Előfizetői Hangulatjelek"
+
+msgid "emote-menu.sub-unlock"
+msgstr "Feliratkozás {price}-ért, hogy feloldd a {count,number} hangulatjelet."
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Ismeretlen Forrás"
+
+msgid "emote-menu.unknown-set"
+msgstr "Készlet #{set_id}"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "Rejtett"
+
+msgid "emote-menu.visibility.visible"
+msgstr "Látható"
+
+msgid "emote.owner"
+msgstr "Általa: {owner}"
+
+msgid "emote.prime"
+msgstr "Prime Gaming"
+
+msgid "error.try-again"
+msgstr "Próbáld Újra"
+
+msgid "i18n.diff.added"
+msgstr ""
+"Hozzáadva:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Eltávolítva:\n"
+"{text}"
+
+msgid "i18n.ui.added"
+msgstr "Új karakterláncok"
+
+msgid "i18n.ui.all"
+msgstr "Összes karakterlánc"
+
+msgid "i18n.ui.preview"
+msgstr "Előnézet"
+
+msgid "i18n.ui.upload"
+msgstr "Változások Feltöltése"
+
+msgid "key.alt"
+msgstr "Alt Billentyű"
+
+msgid "key.alt_mouse"
+msgstr "Alt vagy Egér"
+
+msgid "key.ctrl"
+msgstr "Ctrl Billentyű"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl vagy Egér"
+
+msgid "key.hover"
+msgstr "Lebegés"
+
+msgid "key.meta"
+msgstr "Meta Billentyű"
+
+msgid "key.meta_mouse"
+msgstr "Meta vagy Egér"
+
+msgid "key.mouse"
+msgstr "Egér mozgása"
+
+msgid "key.shift"
+msgstr "Shift Billentyű"
+
+msgid "key.shift_mouse"
+msgstr "Shift vagy Egér"
+
+msgid "main-menu.popout"
+msgstr "Nyisd meg a beállításokat egy új ablakban"
+
+msgid "main-menu.search"
+msgstr "Beállítások Keresése"
+
+msgid "main-menu.version"
+msgstr "Verzió {version}"
+
+msgid "metadata.host.add-channel"
+msgstr "Hozzáadás az automatikus hosztoláshoz"
+
+msgid "metadata.host-button.host"
+msgstr "Hosztolás"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Jelenleg hosztolod: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Senki"
+
+msgid "metadata.host-button.unhost"
+msgstr "Hosztolás megszüntetése"
+
+msgid "metadata.host-button.updating"
+msgstr "Frissítés..."
+
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "Automatikus Hosztolás"
+
+msgid "metadata.host.setting.strategy.title"
+msgstr "Hosztolási Lista Randomizálása"
+
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "Csapatos Hosztolás"
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Automatikus Hosztolás"
+
+msgid "metadata.host.tab.settings"
+msgstr "Beállítások"
+
+msgid "metadata.host.title"
+msgstr "Automatikus Hosztolás Menedzselése."
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Közvetít: {count,number}s óta"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Úgy tűnik, hogy a helyi órád nagyjából {count,number} másodperccel késik, "
+"ezért pontatlan lehet."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Adatfolyam Késleltetése"
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Késleltetés"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Videó: {videoResolution}p{fps}\n"
+"Lejátszási Arány: {playbackRate,number} Kbps\n"
+"Elejtett Képkockák: {skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Videó Információ"
+
+msgid "metadata.uptime.copy"
+msgstr "Másolás a vágólapra"
+
+msgid "metadata.uptime.since"
+msgstr "({since,datetime} óta)"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Közvetítés Ideje"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Közvetítés Ideje"
+
+msgid "metadata.viewers"
+msgstr "Nézőszám"
+
+msgid "page.next"
+msgstr "Következő oldal"
+
+msgid "page.previous"
+msgstr "Előző oldal"
+
+msgid "player.pip_button"
+msgstr "Kép a képben"
+
+msgid "popup.error"
+msgstr ""
+"Megpróbáltunk megnyitni egy felugró ablakot, de nem sikerült. Engedélyezd a "
+"felugró ablakokat."
+
+msgid "site.menu_button.addon-dev"
+msgstr "al-fejlesztő"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Bővítmény kiegészítőt töltöttél be egy hely szerverről."
+
+msgid "site.menu_button.dev"
+msgstr "fejlesztő"
+
+msgid "site.menu_button.new-desc"
+msgstr "Itt van {count,plural,one {is one new setting} other {are # new settings}}."
+
+msgid "site.menu_button.profiles"
+msgstr "Profilok"
+
+msgid "site.menu_button.update-desc"
+msgstr "Frissítés érhető el. Frissítsd az oldalt."
+
+msgid "socket.info.command"
+msgstr "Parancs"
+
+msgid "socket.info.connected"
+msgstr "csatlakoztatva"
+
+msgid "socket.info.count"
+msgstr "Mennyiség"
+
+msgid "socket.info.local_time"
+msgstr "Helyi Idő"
+
+msgid "socket.info.ping"
+msgstr "Ping"
+
+msgid "socket.info.server"
+msgstr "Szerver"
+
+msgid "socket.info.server_time"
+msgstr "Szerver Idő"
+
+msgid "socket.info.state"
+msgstr "Állapot"
+
+msgid "socket.info.stats.authenticated"
+msgstr "Hitelesített"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Parancsok"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Üzenetek"
+
+msgid "socket.info.stats.versions"
+msgstr "Kliens Verziók"
+
+msgid "socket.info.version"
+msgstr "Verziók"
+
+msgid "sub-button.prime"
+msgstr "Az ingyenes Prime feliratkozásod elérhetővé vált."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bit"
+
+msgid "tooltip.bits.more"
+msgstr "(és {count} még)"
+
+msgid "tooltip.channel"
+msgstr "Csatorna: {source}"
+
+msgid "tooltip.email-link"
+msgstr "E-Mail {address}"
+
+msgid "tooltip.emoji"
+msgstr "Hangulatjel - {category}"
+
+msgid "tooltip.error"
+msgstr "Hiba történt. ({error})"
+
+msgid "tooltip.link-unsafe"
+msgstr ""
+"Figyelmeztetés: Ez az URL a Google Biztonsági Böngészés Listáján szerepel "
+"{reasons} okkal."
+
+msgid "tooltip.shift-detail"
+msgstr "(Shift a részletekért)"
+
+msgid "video-chat.jump"
+msgstr "Ugrás a videóhoz"
+
+msgid "video-chat.reply"
+msgstr "Válasz"
+
+msgid "video-chat.show-more"
+msgstr "További válaszok megjelenítése..."
+
+msgid "video-chat.time"
+msgstr "{time,humantime} óta"
+
+msgid "video.desc.1"
+msgstr "{user} videója"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Megtekintés - {date,datetime}"

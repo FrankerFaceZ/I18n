@@ -1,0 +1,869 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "업로드"
+
+msgid "autocomplete.empty"
+msgstr "결과가 없습니다."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"({count,number}개월간{count,en_plural} 구독했습니다!)"
+
+msgid "badges.subscriber.months"
+msgstr "{title} ({count,number}개월"
+
+msgid "card.empty"
+msgstr "아무런 데이터도 반환되지 않았습니다."
+
+msgid "card.error"
+msgstr "오류가 발생했습니다."
+
+msgid "card.loading"
+msgstr "불러오는 중..."
+
+msgid "channel.links.clips"
+msgstr "클립"
+
+msgid "channel.links.schedule"
+msgstr "스케줄"
+
+msgid "channel.links.videos"
+msgstr "동영상"
+
+msgid "chat.actions.ban"
+msgstr "유저 밴"
+
+msgid "chat.actions.ban-reason"
+msgstr "{user.login}을 이와 같은 이유로 강제퇴장함:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "{user.login}을 강제퇴장"
+
+msgid "chat.actions.chat"
+msgstr "채팅 명령"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "{user.login}의 메시지를 삭제"
+
+msgid "chat.actions.edit_overrides"
+msgstr "이름 & 컬러 바꾸기"
+
+msgid "chat.actions.msg_delete"
+msgstr "메시지 삭제"
+
+msgid "chat.actions.open_url"
+msgstr "링크 열기"
+
+msgid "chat.actions.reply"
+msgstr "메세지에 답장하기"
+
+msgid "chat.actions.select-reason"
+msgstr "아래 목록에서 이유를 선택하십시오."
+
+msgid "chat.actions.timeout"
+msgstr "유저 타임아웃"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number}초{options.duration,en_plural}"
+
+msgid "chat.actions.timeout-reason"
+msgstr "{user.login}을 {duration,number}초{duration,en_plural}동안 강제 퇴장한 사유:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr "{user.login}을 {duration,number}초{duration,en_plural}동안강제 퇴장"
+
+msgid "chat.actions.unban"
+msgstr "강제퇴장 해제"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "{user.login} 밴 풀어주기"
+
+msgid "chat.actions.unknown"
+msgstr "알 수 없는 행동"
+
+msgid "chat.actions.untimeout"
+msgstr "사용자 타임아웃 해제"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "{user.login}의 타임아웃 취소"
+
+msgid "chat.actions.whisper"
+msgstr "유저 귓속말"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "{user.login}에게 귓속말"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {One message was deleted by a moderator.}\n"
+"other {# messages were deleted by a moderator.}\n"
+"}"
+
+msgid "chat.ffz-badge.site-link"
+msgstr "FrankerFaceZ 웹사이트"
+
+msgid "chat.filtering.automod.A"
+msgstr "적대감"
+
+msgid "chat.filtering.automod.I"
+msgstr "차별"
+
+msgid "chat.filtering.automod.P"
+msgstr "욕설"
+
+msgid "chat.filtering.automod.S"
+msgstr "노골적인 언어"
+
+msgid "chat.filtering.automod-term"
+msgstr "자동매니저에게 차단된 단어"
+
+msgid "chat.filtering.automod-why"
+msgstr "다음과 같이 표시됨:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "금지된 단어"
+
+msgid "chat.ignore-clear"
+msgstr "매니저의 채팅창 클리어가 무시되었습니다."
+
+msgid "chat.message-deleted"
+msgstr "<메시지 삭제됨>"
+
+msgid "chat.messages-below"
+msgstr "아래에서 더 많은 메시지를 확인하세요."
+
+msgid "chat.mod-action.ban"
+msgstr "퇴장 당함"
+
+msgid "chat.mod-action.by"
+msgstr "{login}에 의한 {action}"
+
+msgid "chat.mod-action.delete"
+msgstr "삭제됨"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} 타임아웃"
+
+msgid "chat.overrides.color"
+msgstr "색상"
+
+msgid "chat.overrides.name"
+msgstr "이름"
+
+msgid "chat.paused"
+msgstr "(채팅창이 {reason}의 이유로 멈췄습니다)"
+
+msgid "chat.points.bypass-sub"
+msgstr "구독자 전용 채팅에 메시지 보내기"
+
+msgid "chat.points.choose-emote"
+msgstr "잠금해제할 이모티콘을 고르세요"
+
+msgid "chat.points.highlighted"
+msgstr "내 메시지를 강조"
+
+msgid "chat.points.modify-emote"
+msgstr "이모티콘 하나 수정"
+
+msgid "chat.points.random-emote"
+msgstr "랜덤 구독티콘 잠금해제"
+
+msgid "chat.points.redeemed"
+msgstr "{reward} 구매하였습니다 {cost}"
+
+msgid "chat.points.reward"
+msgstr "보상"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} 가 {reward}를 구매하였습니다 {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "스트리머 / 매니저 무시함"
+
+msgid "chat.reasons.evasion"
+msgstr "추방 회피"
+
+msgid "chat.reasons.hate"
+msgstr "괴롭힘"
+
+msgid "chat.reasons.links"
+msgstr "악성 링크"
+
+msgid "chat.reasons.personal"
+msgstr "협박 / 개인 정보"
+
+msgid "chat.reasons.spam"
+msgstr "도배"
+
+msgid "chat.reply-to"
+msgstr "답장 중:"
+
+msgid "chat.ritual"
+msgstr "{user}은 이곳이 처음이에요. 인사하세요!"
+
+msgid "chat.settings.back"
+msgstr "뒤로"
+
+msgid "chat.settings.open-settings"
+msgstr "컨트롤 센터 열기"
+
+msgid "chat.settings.pause"
+msgstr "채팅 일시정지"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ는 채팅 멈춤의 행동을 무시합니다. 채팅 > 동작에서 FFZ 컨트롤 센터 내에서 FFZ의 스크롤 설정을 "
+"사용하십시오."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "익명의 선물자"
+
+msgid "chat.sub.cumulative-months"
+msgstr "{cumulative,number}개월동안 구독했습니다! 현재 {streak,number}개월 연속!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user}이(가) {count,number}개의 {tier}티어 {count,en_plural}구독을  {channel}의 커뮤니티에 "
+"선물하고 있습니다!"
+
+msgid "chat.sub.gift-first"
+msgstr "처음으로 구독권 선물!"
+
+msgid "chat.sub.gift-plan"
+msgstr "티어 {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "이 채널에 {count}개의 구독권을 선물하였습니다!"
+
+msgid "chat.sub.main"
+msgstr "{user}이(가) {plan} 구독했습니다! "
+
+msgid "chat.sub.months"
+msgstr "{count,number} 개월동안 구독했습니다!"
+
+msgid "chat.sub.mystery"
+msgstr "{user}이(가) {recipient}에게 {plan}구독 선물!"
+
+msgid "chat.sub.plan"
+msgstr "티어 {tier} "
+
+msgid "clip.desc.1"
+msgstr "{user} 의 클립"
+
+msgid "clip.desc.1.creative"
+msgstr "{user}이(가) 창의적임"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} 는 {game} 플레이중"
+
+msgid "clip.desc.2"
+msgstr "{curator}에 의해 제작된 클립 — {views,number}회 시청{views,en_plural}"
+
+msgid "clip.unknown"
+msgstr "알 수 없음"
+
+msgid "directory.block"
+msgstr "차단"
+
+msgid "directory.hide-thumbnails"
+msgstr "썸네일 숨기기"
+
+msgid "directory.hosted"
+msgstr "호스트된 채널"
+
+msgid "directory.hosted.by-many"
+msgstr "채널{count,en_plural}에게 {count,number}호스트 받음"
+
+msgid "directory.hosted.by-one"
+msgstr "{user}에게 호스트됨"
+
+msgid "directory.hosting"
+msgstr "호스팅중인 채널"
+
+msgid "directory.show-thumbnails"
+msgstr "썸네일 보이기"
+
+msgid "directory.unblock"
+msgstr "차단 해제"
+
+msgid "directory.user-playing"
+msgstr "{user}가 {game} 플레이 중"
+
+msgid "emoji.category.activities"
+msgstr "활동"
+
+msgid "emoji.category.animals_nature"
+msgstr "동물 & 자연"
+
+msgid "emoji.category.animals___nature"
+msgstr "동물 & 자연"
+
+msgid "emoji.category.flags"
+msgstr "깃발"
+
+msgid "emoji.category.food_drink"
+msgstr "음식 & 음료"
+
+msgid "emoji.category.food___drink"
+msgstr "음식 & 음료"
+
+msgid "emoji.category.objects"
+msgstr "물건"
+
+msgid "emoji.category.people_body"
+msgstr "인물"
+
+msgid "emoji.category.skin_tones"
+msgstr "피부색"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "얼굴 이모티콘"
+
+msgid "emoji.category.smileys___people"
+msgstr "얼굴 & 사람"
+
+msgid "emoji.category.symbols"
+msgstr "기호"
+
+msgid "emoji.category.travel_places"
+msgstr "여행 & 장소"
+
+msgid "emoji.category.travel___places"
+msgstr "여행 & 장소"
+
+msgid "emote.2fa"
+msgstr "트위치 2FA 이모티콘"
+
+msgid "emote.bits"
+msgstr "트위치 비트 보상"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"채널: {channel}"
+
+msgid "emote.global"
+msgstr "트위치 글로벌"
+
+msgid "emote.limited"
+msgstr "한정판 이모티콘"
+
+msgid "emote-menu.channel"
+msgstr "채널"
+
+msgid "emote-menu.disable"
+msgstr "일시적인 해결 방법으로 FFZ 컨트롤 센터에서 FFZ 이모티콘 메뉴를 비활성화 해보세요."
+
+msgid "emote-menu.emoji"
+msgstr "이모티콘"
+
+msgid "emote-menu.emote-sub"
+msgstr "{price}를 내고 구독하여 이모티콘 잠금해제"
+
+msgid "emote-menu.emote-up"
+msgstr "{price}로 구독티어 업그레이드 하여 이 이모티콘 잠금해제"
+
+msgid "emote-menu.empty"
+msgstr "여기엔 아무것도 없다"
+
+msgid "emote-menu.empty-favs"
+msgstr "즐겨찾는 이모티콘이 없습니다. {hotkey}-클릭으로 즐겨찾기 설정을 할 수 있습니다."
+
+msgid "emote-menu.empty-search"
+msgstr "맞는 이모티콘이 없습니다."
+
+msgid "emote-menu.error"
+msgstr "메뉴를 렌더링하는 도중 오류가 발생했습니다."
+
+msgid "emote-menu.error-report"
+msgstr "오류 보고서가 자동으로 제출되었습니다."
+
+msgid "emote-menu.favorites"
+msgstr "즐겨찾기"
+
+msgid "emote-menu.featured"
+msgstr "피처링"
+
+msgid "emote-menu.global"
+msgstr "글로벌 이모티콘"
+
+msgid "emote-menu.inventory"
+msgstr "인벤토리"
+
+msgid "emote-menu.loading"
+msgstr "불러오는 중..."
+
+msgid "emote-menu.main-set"
+msgstr "채널 이모티콘"
+
+msgid "emote-menu.misc"
+msgstr "여러가지"
+
+msgid "emote-menu.my-emotes"
+msgstr "내 이모티콘"
+
+msgid "emote-menu.points"
+msgstr "포인트로 해금됨"
+
+msgid "emote_menu.prime"
+msgstr "프라임"
+
+msgid "emote-menu.prime"
+msgstr "프라임"
+
+msgid "emote-menu.refresh"
+msgstr "새로고침"
+
+msgid "emote-menu.search"
+msgstr "이모티콘 검색"
+
+msgid "emote-menu.search-emoji"
+msgstr "이모티콘 검색"
+
+msgid "emote-menu.settings"
+msgstr "설정 열기"
+
+msgid "emote-menu.sub-basic"
+msgstr "이모티콘 잠금해제를 위해 구독하세요."
+
+msgid "emote-menu.sub-ends"
+msgstr "{seconds,humantime}뒤에 구독이 만료됩니다."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "선물받은 구독권은 {seconds,humantime} 뒤 만료됩니다."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"트위치 프라임 무료 구독입니다.\n"
+"{seconds,humantime}뒤에 만료됩니다."
+
+msgid "emote-menu.sub-renews"
+msgstr "이 구독은 {seconds,humantime}뒤에 갱신됩니다."
+
+msgid "emote-menu.sub-set"
+msgstr "구독자 이모티콘"
+
+msgid "emote-menu.sub-unlock"
+msgstr "{count,number}이모티콘{count,en_plural}을 잠금해제하기 위해 {price}를 구독하세요."
+
+msgid "emote-menu.toggle-hide.off"
+msgstr "이모티콘 외형 관리"
+
+msgid "emote-menu.toggle-hide.on"
+msgstr "이모티콘 외형 관리 나가기"
+
+msgid "emote-menu.twitch"
+msgstr "트위치"
+
+msgid "emote-menu.unknown"
+msgstr "알수없는 근원"
+
+msgid "emote-menu.unknown-set"
+msgstr "#{set_id} 설정"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "비공개"
+
+msgid "emote-menu.visibility.visible"
+msgstr "공개"
+
+msgid "emote.owner"
+msgstr "{owner}에 의해"
+
+msgid "emote.prime"
+msgstr "프라임 게이밍"
+
+msgid "error.try-again"
+msgstr "다시 시도"
+
+msgid "featured-follow.button.unfollow"
+msgstr "{user} 팔로우 해제"
+
+msgid "featured-follow.notify.on"
+msgstr "알림이 현재 활성화되어 있습니다. 사용하지 않으려면 클릭하세요."
+
+msgid "i18n.diff.added"
+msgstr ""
+"추가됨:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"제거됨:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"현지화 작업에 관심이 있으십니까? [Discord](https://discord.gg/UrAkGhT)에 가입하고 현지화 채널에서 채팅에 "
+"참여하세요!.\n"
+"\n"
+"이 도구는 번역자가 앱에서 실시간으로 문자열을 테스트할 수 있게 해줍니다. 그렇게 하면 번역을 제출하기 전에 모든 것이 제대로 보이는지 "
+"확인할 수 있습니다."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} 완성)"
+
+msgid "i18n.ui.added"
+msgstr "새로운 문자열"
+
+msgid "i18n.ui.all"
+msgstr "모든 문자열"
+
+msgid "i18n.ui.changed"
+msgstr "바뀐 문자열"
+
+msgid "i18n.ui.context"
+msgstr "맥락"
+
+msgid "i18n.ui.existing"
+msgstr "기존 문자열"
+
+msgid "i18n.ui.open"
+msgstr "번역 테스터 열기"
+
+msgid "i18n.ui.pages"
+msgstr "{total,number}페이지 중 {current,number}페이지"
+
+msgid "i18n.ui.pending"
+msgstr "보류 중인 문자열"
+
+msgid "i18n.ui.popout"
+msgstr "새 창에 번역 에디터 열기"
+
+msgid "i18n.ui.preview"
+msgstr "미리보기"
+
+msgid "i18n.ui.refresh"
+msgstr "문자열 새로고침"
+
+msgid "i18n.ui.save"
+msgstr "변경 방울 생성"
+
+msgid "i18n.ui.search"
+msgstr "문자열 검색"
+
+msgid "i18n.ui.source"
+msgstr "출처"
+
+msgid "i18n.ui.title"
+msgstr "번역 테스터"
+
+msgid "i18n.ui.upload"
+msgstr "변경사항 업로드"
+
+msgid "key.alt"
+msgstr "알트 키"
+
+msgid "key.alt_mouse"
+msgstr "알트 혹은 마우스"
+
+msgid "key.ctrl"
+msgstr "Ctrl 키"
+
+msgid "key.ctrl_mouse"
+msgstr "컨트롤 혹은 마우스"
+
+msgid "key.hover"
+msgstr "마우스로 가리키기"
+
+msgid "key.meta"
+msgstr "메타 키"
+
+msgid "key.meta_mouse"
+msgstr "메타 혹은 마우스"
+
+msgid "key.mouse"
+msgstr "마우스 움직임"
+
+msgid "key.shift"
+msgstr "쉬프트 키"
+
+msgid "key.shift_mouse"
+msgstr "쉬프트 혹은 마우스"
+
+msgid "main-menu.mark-all-seen"
+msgstr "전부 확인함 표시"
+
+msgid "main-menu.popout"
+msgstr "설정창을 새 윈도우에 열기"
+
+msgid "main-menu.search"
+msgstr "검색 설정"
+
+msgid "main-menu.version"
+msgstr "버전 {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "피처링"
+
+msgid "metadata.featured-follow.title"
+msgstr "채널 피처링"
+
+msgid "metadata.host.add-channel"
+msgstr "자동 호스트에 추가"
+
+msgid "metadata.host-button.host"
+msgstr "호스트"
+
+msgid "metadata.host-button.tooltip"
+msgstr "현재 호스팅중인 채널: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "없음"
+
+msgid "metadata.host-button.unhost"
+msgstr "호스트 취소"
+
+msgid "metadata.host-button.updating"
+msgstr "업데이트중..."
+
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "자동 호스팅"
+
+msgid "metadata.host.setting.strategy.description"
+msgstr "활성화시 호스트 채널은 리스트 중 랜덤으로 선택됩니다 "
+
+msgid "metadata.host.setting.strategy.title"
+msgstr "호스팅 순서 랜덤으로 하기"
+
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "팀 호스팅"
+
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "녹방 호스트하기"
+
+msgid "metadata.host.tab.auto-host"
+msgstr "자동 호스트"
+
+msgid "metadata.host.tab.settings"
+msgstr "설정"
+
+msgid "metadata.host.title"
+msgstr "자동 호스트 관리"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "{count,numbers} 전 방송"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr "로컬 시계가 {count,number}초 만큼 달라서 이 기능이 정확하지 않을 수 있습니다"
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "방송 지연시간"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "딜레이를 줄이기 위해 {rate,number}배 속도로 영상 재생중"
+
+msgid "metadata.player-stats.subtitle"
+msgstr "지연 시간"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"동영상: {videoResolution}p{fps}\n"
+"재생 속도: {playbackRate,number} Kbps\n"
+"건너뛴 프레임:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "동영상 정보"
+
+msgid "metadata.uptime.copy"
+msgstr "클립보드에 복사"
+
+msgid "metadata.uptime.link-to"
+msgstr "{time}으로의 링크"
+
+msgid "metadata.uptime.since"
+msgstr "({since,datetime} 부터)"
+
+msgid "metadata.uptime.subtitle"
+msgstr "업타임"
+
+msgid "metadata.uptime.tooltip"
+msgstr "방송 업타임"
+
+msgid "metadata.viewers"
+msgstr "시청자 수"
+
+msgid "page.next"
+msgstr "다음 페이지"
+
+msgid "page.previous"
+msgstr "이전 페이지"
+
+msgid "player.comp_button.help"
+msgstr "FFZ 컨트롤 센터에서 자세한 사항을 확인해주세요. 오디오가 고장나면 플레이어를 리셋해주세요"
+
+msgid "player.comp_button.off"
+msgstr "오디오 컴프레서 비활성화"
+
+msgid "player.pip_button"
+msgstr "픽쳐인픽쳐"
+
+msgid "player.pip_button.fs"
+msgstr "전체화면일 때엔 픽쳐인픽쳐를 사용할 수 없습니다."
+
+msgid "player.pip_button.off"
+msgstr "픽쳐인픽쳐 나가기"
+
+msgid "player.reset_button"
+msgstr "더블클릭 시 플레이어 리셋"
+
+msgid "player.reset_button.all"
+msgstr "동영상 플레이어 리셋 (더블 클릭)"
+
+msgid "popup.error"
+msgstr "팝업 창을 여는데 실패했습니다. Twitch에서 팝업을 허용해주세요."
+
+msgid "site.menu_button"
+msgstr "FrankerFaceZ 컨트롤 센터"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "로컬 개발 서버에서 애드온 데이터를 불러왔습니다."
+
+msgid "site.menu_button.dev"
+msgstr "개발자"
+
+msgid "site.menu_button.error"
+msgstr "FFZ 컨트롤 센터를 불러오는 중 오류가 발생했습니다. 새로 고친 후 다시 시도하세요."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "FrankerFaceZ의 개발자 빌드를 실행중입니다."
+
+msgid "site.menu_button.new-desc"
+msgstr "이곳 {count,plural,one {is one new setting} other {에 # 개의 새로운 설정이 생겼습니다!}}."
+
+msgid "site.menu_button.profiles"
+msgstr "프로필"
+
+msgid "site.menu_button.strings"
+msgstr ""
+"이곳 {added,plural,one {에 # 개의 새로운 스트링} other {에 # 개의 새로운 스트링}} "
+"그리고{changed,plural,one {# changed string} other {바뀐 스트링 #개}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "업데이트가 있습니다. 페이지를 새로고침하세요."
+
+msgid "socket.info.command"
+msgstr "명령"
+
+msgid "socket.info.connected"
+msgstr "연결됨"
+
+msgid "socket.info.count"
+msgstr "카운트"
+
+msgid "socket.info.disconnected"
+msgstr "연결 끊어짐"
+
+msgid "socket.info.local_time"
+msgstr "현지 시간"
+
+msgid "socket.info.ping"
+msgstr "핑"
+
+msgid "socket.info.server"
+msgstr "서버"
+
+msgid "socket.info.server_time"
+msgstr "서버 타임"
+
+msgid "socket.info.stats.authenticated"
+msgstr "인증됨"
+
+msgid "socket.info.stats.connected_clients"
+msgstr "연결된 클라이언트"
+
+msgid "socket.info.stats.live_clients"
+msgstr "라이브 클라이언트"
+
+msgid "socket.info.stats.total_commands"
+msgstr "커맨드"
+
+msgid "socket.info.stats.total_messages"
+msgstr "메시지"
+
+msgid "socket.info.stats.versions"
+msgstr "클라이언트 버전"
+
+msgid "socket.info.time_offset"
+msgstr "시차 오프셋"
+
+msgid "socket.info.topics"
+msgstr "주제"
+
+msgid "socket.info.version"
+msgstr "버전"
+
+msgid "sub-button.prime"
+msgstr "무료 프라임 구독을 이용할 수 있습니다."
+
+msgid "tooltip.bits"
+msgstr "{count,number}개의 비트"
+
+msgid "tooltip.bits.more"
+msgstr "(그리고 {count} 개 더)"
+
+msgid "tooltip.channel"
+msgstr "채널: {source}"
+
+msgid "tooltip.email-link"
+msgstr "{address}에게 이메일"
+
+msgid "tooltip.emoji"
+msgstr "이모티콘 - {category}"
+
+msgid "tooltip.emote"
+msgstr "이모티콘: {name}"
+
+msgid "tooltip.error"
+msgstr "문제가 발생했습니다 ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "대상: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr "경고: 이 URL은 {reasons} 의 이유로 구글의  안전 브라우징 리스트에 있음"
+
+msgid "tooltip.link.urls"
+msgstr "방문한 URL"
+
+msgid "tooltip.render-error"
+msgstr ""
+"이 툴팁을 렌더링하는 동안 오류가 발생하였습니다.\n"
+"{err}"
+
+msgid "tooltip.shift-detail"
+msgstr "(디테일을 보려면 쉬프트를 누르세요)"
+
+msgid "video-chat.jump"
+msgstr "동영상으로 스킵"
+
+msgid "video-chat.reply"
+msgstr "답장"
+
+msgid "video-chat.show-more"
+msgstr "더 보기"
+
+msgid "video-chat.time"
+msgstr "{time,humantime} 전"
+
+msgid "video.desc.1"
+msgstr "{user}의 동영상"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} 시청자 - {date,datetime}"
+
+msgid "video.published-on"
+msgstr "{date,date} 에 게시됨"

@@ -1,0 +1,646 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Karşıya yükle"
+
+msgid "autocomplete.empty"
+msgstr "Gösterilecek sonuç yok"
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"({count,number} aydır {count,en_plural} abone)"
+
+msgid "card.empty"
+msgstr "Data_kurtarılamadı"
+
+msgid "card.error"
+msgstr "Bir_hata_oluştu"
+
+msgid "card.loading"
+msgstr "Yükleniyor..."
+
+msgid "chat.actions.ban"
+msgstr "Kullanıcıyı yasakla"
+
+msgid "chat.actions.ban-reason"
+msgstr " {user.login} şundan dolayı yasakla:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Yasakla {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Chat komutu"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "{user.login} mesajlarını sil"
+
+msgid "chat.actions.msg_delete"
+msgstr "Mesajı sil"
+
+msgid "chat.actions.open_url"
+msgstr "URL'yi aç"
+
+msgid "chat.actions.select-reason"
+msgstr "Lütfen_aşağıdaki_listeden_bir_neden_seçin"
+
+msgid "chat.actions.timeout"
+msgstr "Kullanıcıyı geçici sustur"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} saniye{options.duration,en_plural}"
+
+msgid "chat.actions.timeout-reason"
+msgstr ""
+"Sustur {user.login} süresince {duration,number} saniye{duration,en_plural} "
+"yüzünden:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr "Sustur {user.login} yüzünden {duration,number} saniye{duration,en_plural}"
+
+msgid "chat.actions.unban"
+msgstr "Kullanıcının yasağını kaldır"
+
+msgid "chat.actions.unknown"
+msgstr "Bilinmeyen_Eylem_Tipi"
+
+msgid "chat.actions.untimeout"
+msgstr "Susturmayı geri al"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Susturmayı kaldır {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Kullanıcıya fısıltı gönder"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Fısıltı {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {Bu mesaj moderatör tarafından silindi.}\n"
+"other {# mesajlar moderatör tarafından silindi.}\n"
+"}"
+
+msgid "chat.filtering.automod.A"
+msgstr "Düşmanca tavırlar"
+
+msgid "chat.filtering.automod.I"
+msgstr "Ayrımcılık "
+
+msgid "chat.filtering.automod.P"
+msgstr "Küfürlü konuşma"
+
+msgid "chat.filtering.automod.S"
+msgstr "Cinsel içerikli söylem"
+
+msgid "chat.filtering.automod-term"
+msgstr "OtoMod_Engellenmiş_Kelime"
+
+msgid "chat.filtering.automod-why"
+msgstr "Bu şekilde işaretlendi:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Engellenmiş kelime"
+
+msgid "chat.ignore-clear"
+msgstr "Moderatörün chati temizleme girişimi yok sayıldı."
+
+msgid "chat.message-deleted"
+msgstr "<mesaj silindi>"
+
+msgid "chat.mod-action.ban"
+msgstr "Yasaklanmış"
+
+msgid "chat.mod-action.by"
+msgstr "{action} tarafından {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Silinmiş"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} Sustur"
+
+msgid "chat.reason.ignore"
+msgstr "Moderatör veya yayıncıyı görmezden gel"
+
+msgid "chat.reasons.evasion"
+msgstr "Yasaktan kaçınma"
+
+msgid "chat.reasons.hate"
+msgstr "Nefret / Taciz etme"
+
+msgid "chat.reasons.links"
+msgstr "Yasak link yayınlama"
+
+msgid "chat.reasons.personal"
+msgstr "Tehdit / Kişisel bilgi ifşası"
+
+msgid "chat.reasons.spam"
+msgstr "Tek kişilik spam"
+
+msgid "chat.ritual"
+msgstr "{user} burada yeni, selamlayalım!"
+
+msgid "chat.settings.back"
+msgstr "Geri"
+
+msgid "chat.settings.open-settings"
+msgstr "Kontrol panelini aç"
+
+msgid "chat.settings.pause"
+msgstr "Chati duraklat"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"Chat duraklama ayarları FFZ kurallarına göre çalışır. FFZ kaydırma "
+"ayarlarına Chat > Etkileşim bölümünden ulaşabilirsiniz."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Anonim bir kişiden hediye"
+
+msgid "chat.sub.cumulative-months"
+msgstr "O {cumulative,number} aydır abone, ardı ardına {streak,number} ay olmuş!"
+
+msgid "chat.sub.gift"
+msgstr "{user}, {channel} topluluğuna {count,number} adet abonelik hediye etti! "
+
+msgid "chat.sub.gift-first"
+msgstr "Bu onun kanala ilk defa abone oluşu!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Seviye {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "Kanala {count} abone hediye edildi!"
+
+msgid "chat.sub.main"
+msgstr "{user} {plan} abone oldu. "
+
+msgid "chat.sub.months"
+msgstr "O {count,number} aydır abone!"
+
+msgid "chat.sub.mystery"
+msgstr "{user}, {recipient} adlı kullanıcıya {plan} abonelik hediye etti! "
+
+msgid "chat.sub.plan"
+msgstr "{tier} seviyede "
+
+msgid "clip.desc.1"
+msgstr "Klibi {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} Yaratıcı bölümde"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} oynuyor {game}"
+
+msgid "clip.desc.2"
+msgstr "{curator} tarafından kliplendi — {views,number} görüntüleme{views,en_plural}"
+
+msgid "clip.unknown"
+msgstr "Bilinmeyen"
+
+msgid "directory.block"
+msgstr "Engelle"
+
+msgid "directory.hide-thumbnails"
+msgstr "Küçük resimleri sakla"
+
+msgid "directory.hosted"
+msgstr "Misafir kanal"
+
+msgid "directory.hosted.by-many"
+msgstr "{count,number} kanal tarafından{count,en_plural} misafir edildi "
+
+msgid "directory.hosted.by-one"
+msgstr "{user} tarafından misafir yayın yapılıyor"
+
+msgid "directory.hosting"
+msgstr "Misafir edilen kanallar"
+
+msgid "directory.show-thumbnails"
+msgstr "Küçük resimleri göster"
+
+msgid "directory.unblock"
+msgstr "Engeli kaldır"
+
+msgid "directory.user-playing"
+msgstr "{user} oynuyor {game}"
+
+msgid "emoji.category.activities"
+msgstr "Etkinlikler"
+
+msgid "emoji.category.animals___nature"
+msgstr "Hayvanlar & Doğa"
+
+msgid "emoji.category.flags"
+msgstr "Bayraklar"
+
+msgid "emoji.category.food___drink"
+msgstr "Yeme & İçme"
+
+msgid "emoji.category.objects"
+msgstr "Nesneler"
+
+msgid "emoji.category.skin_tones"
+msgstr "Ten rengi tonları"
+
+msgid "emoji.category.smileys___people"
+msgstr "Emojiler & İnsanlar"
+
+msgid "emoji.category.symbols"
+msgstr "Semboller"
+
+msgid "emoji.category.travel___places"
+msgstr "Gezi & Mekanlar"
+
+msgid "emote.global"
+msgstr "Twitch Global"
+
+msgid "emote.limited"
+msgstr "Sınırlı süreli emoji"
+
+msgid "emote-menu.channel"
+msgstr "Kanal"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Geçici çözüm olarak kontrol merkezinden FFZ emoji menüsünü devre dışı "
+"bırakın."
+
+msgid "emote-menu.emoji"
+msgstr "Emoji"
+
+msgid "emote-menu.emote-sub"
+msgstr "Kanala {price} karşılığında abone olduğunuzda bu emoji açılacaktır."
+
+msgid "emote-menu.emote-up"
+msgstr "Aboneliğinizi {price} karşılığında yükseltip bu emojiyi açabilirsiniz."
+
+msgid "emote-menu.empty"
+msgstr "Burada birşey yok."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"Favori emojilerin yok. Eklemek için emojini seç ve {hotkey} basılı tutarak "
+"fareyle tıkla. "
+
+msgid "emote-menu.empty-search"
+msgstr "Uyuşan bir emoji yok"
+
+msgid "emote-menu.error"
+msgstr "Bu menüyü görüntülemede bir sorun oluştu."
+
+msgid "emote-menu.error-report"
+msgstr "Bir hata raporu otomatik olarak gönderildi."
+
+msgid "emote-menu.favorites"
+msgstr "Favoriler"
+
+msgid "emote-menu.featured"
+msgstr "Öne çıkanlar"
+
+msgid "emote-menu.global"
+msgstr "Global emojiler"
+
+msgid "emote-menu.inventory"
+msgstr "Envanter"
+
+msgid "emote-menu.loading"
+msgstr "Yükleniyor..."
+
+msgid "emote-menu.main-set"
+msgstr "Kanal emojileri"
+
+msgid "emote-menu.misc"
+msgstr "Çeşitli"
+
+msgid "emote-menu.my-emotes"
+msgstr "Emojilerim"
+
+msgid "emote-menu.points"
+msgstr "Puanlarla açılmış"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Datayı yeniden yükle"
+
+msgid "emote-menu.search"
+msgstr "Emojilerde ara"
+
+msgid "emote-menu.search-emoji"
+msgstr "Emojilerde ara"
+
+msgid "emote-menu.settings"
+msgstr "Ayarları aç"
+
+msgid "emote-menu.sub-basic"
+msgstr "Emojileri açmak için abone olun."
+
+msgid "emote-menu.sub-ends"
+msgstr "Bu abonelik {seconds,humantime} içinde bitecek"
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Bu abonelik  {seconds,humantime} içerisinde bitecektir.."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Bu sizin bedava Twitch Prime aboneliğiniz.\n"
+"{seconds,humantime} sürede bitecektir."
+
+msgid "emote-menu.sub-renews"
+msgstr "Bu abonelik {seconds,humantime} içerisinde yenilenecek"
+
+msgid "emote-menu.sub-set"
+msgstr "Abone emojileri"
+
+msgid "emote-menu.sub-unlock"
+msgstr "{price} karşılığında abone olarak {count,number} kadar emojiyi açabilirsiniz"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Bilinmeyen Kaynak"
+
+msgid "emote-menu.unknown-set"
+msgstr "Set #{set_id}"
+
+msgid "emote.owner"
+msgstr "Tarafından: {owner}"
+
+msgid "error.try-again"
+msgstr "Yeniden dene"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Takibi bırak {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Uyarılar an itibariyle açık. Kapamak için tıklayın."
+
+msgid "i18n.diff.added"
+msgstr ""
+"Eklendi:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Silindi:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Çeviride yardımcı olmak istiyor musunuz? Bu linkten "
+"(https://discord.gg/UrAkGhT) discord serverına katılıp daha fazla bilgi "
+"alabilirsiniz."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} Tamamlandı)"
+
+msgid "i18n.ui.context"
+msgstr "İçerik"
+
+msgid "i18n.ui.open"
+msgstr "Çeviri testini aç"
+
+msgid "i18n.ui.pages"
+msgstr "{total,number} sayfanın {current,number} sayfası"
+
+msgid "i18n.ui.preview"
+msgstr "Ön izleme"
+
+msgid "i18n.ui.search"
+msgstr "Stringlerde ara"
+
+msgid "i18n.ui.source"
+msgstr "Kaynak"
+
+msgid "i18n.ui.title"
+msgstr "Çeviri deneyici"
+
+msgid "i18n.ui.upload"
+msgstr "Değişiklikleri karşıya yükle"
+
+msgid "key.alt"
+msgstr "Alt_tuşu"
+
+msgid "key.alt_mouse"
+msgstr "Alt_veya_Fare"
+
+msgid "key.ctrl"
+msgstr "Ctrl_tuşu"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl veya Fare"
+
+msgid "key.hover"
+msgstr "Üzerinde dolaş"
+
+msgid "key.meta"
+msgstr "Meta_tuşu"
+
+msgid "key.meta_mouse"
+msgstr "Meta_veya_Fare"
+
+msgid "key.mouse"
+msgstr "Fare_Hareketi"
+
+msgid "key.shift"
+msgstr "Shift_tuşu"
+
+msgid "key.shift_mouse"
+msgstr "Shift_veya_Fare"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Tümünü görüldü olarak işaretle"
+
+msgid "main-menu.popout"
+msgstr "Ayarları yeni pencerede aç"
+
+msgid "main-menu.search"
+msgstr "Ayarlarda ara"
+
+msgid "main-menu.version"
+msgstr "Sürüm {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Öne çıkanlar"
+
+msgid "metadata.featured-follow.title"
+msgstr "Öne çıkarılmış kanallar"
+
+msgid "metadata.host.add-channel"
+msgstr "Otomatik Misafir Yayıncı Listesine Ekle"
+
+msgid "metadata.host-button.host"
+msgstr "Misafir yayın"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Misafir yayını: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Hiçbiri"
+
+msgid "metadata.host-button.unhost"
+msgstr "Konuk etmeyi bırak"
+
+msgid "metadata.host-button.updating"
+msgstr "Güncelleniyor..."
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Otomatik Misafir Yayın"
+
+msgid "metadata.host.tab.settings"
+msgstr "Ayarlar"
+
+msgid "metadata.host.title"
+msgstr "Otomatik Misafir Yayın Ayarları"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Yayın {count,number} dan önce"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr "Yerel saatiniz yaklaşık olarak {count,number} saniye hatalı gözüküyor"
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Yayın gecikmesi"
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Gecikme"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Video: {videoResolution}p{fps}\n"
+"Yayın Kalitesi: {playbackRate,number} Kbps\n"
+"Kayıp Kareler:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Video İçeriği"
+
+msgid "metadata.uptime.copy"
+msgstr "Panoya kopyala"
+
+msgid "metadata.uptime.link-to"
+msgstr "Bu zamana link ver {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(den beri {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Yayın Süresi"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Yayın süresi"
+
+msgid "page.next"
+msgstr "Sonraki sayfa"
+
+msgid "page.previous"
+msgstr "Önceki sayfa"
+
+msgid "player.pip_button.off"
+msgstr "Ekran içinde ekran modundan çık"
+
+msgid "player.reset_button.all"
+msgstr "Tüm oynatıcıları baştan başlat"
+
+msgid "popup.error"
+msgstr ""
+"Bir pop-up penceresi açmaya çalıştık fakat Twitch'ten gelen pop'uplara izin "
+"verip vermeyeceğimize karar veremedik. "
+
+msgid "site.menu_button"
+msgstr "FFZ Kontrol Merkezi"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-geliştirici"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Yerel geliştirici serverından eklenti datası yüklediniz."
+
+msgid "site.menu_button.dev"
+msgstr "geliştirici"
+
+msgid "site.menu_button.error"
+msgstr ""
+"FFZ kontrol panelinin yüklenmesinde bir sorun oluştu, lütfen sayfayı "
+"yenileyip yeniden deneyin"
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "FFZ'nin geliştirici sürümünü kullanıyorsunuz."
+
+msgid "site.menu_button.new-desc"
+msgstr "Yeni {count,plural,one {bir ayar} other {# ayarlar}}."
+
+msgid "site.menu_button.profiles"
+msgstr "Profiller"
+
+msgid "site.menu_button.update-desc"
+msgstr "Bir güncelleme mevcut. Lütfen sayfayı yenileyin."
+
+msgid "sub-button.prime"
+msgstr "Bedava Twitch Prime Üyeliğiniz hazır."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bits"
+
+msgid "tooltip.bits.more"
+msgstr "(ve {count} bir bu kadar daha)"
+
+msgid "tooltip.channel"
+msgstr "Kanal: {source}"
+
+msgid "tooltip.email-link"
+msgstr "E-Mail {address}"
+
+msgid "tooltip.emoji"
+msgstr "Emoji - {category}"
+
+msgid "tooltip.emote"
+msgstr "Emoji: {name}"
+
+msgid "tooltip.error"
+msgstr "Bir hata oluştu ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Hedef: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr "Uyarı: Bu URL Google'ın güvenilir listesinde:: {reasons}"
+
+msgid "tooltip.render-error"
+msgstr ""
+"Bu ipucunu gösterirken bir hata oluştu.\n"
+"{err}"
+
+msgid "video-chat.jump"
+msgstr "Video'ya geç"
+
+msgid "video-chat.reply"
+msgstr "Cevap"
+
+msgid "video-chat.show-more"
+msgstr "Daha fazla cevap göster"
+
+msgid "video-chat.time"
+msgstr "{time,humantime} öncesinde"
+
+msgid "video.desc.1"
+msgstr "Videosu {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} İzlenme sayısı - {date,datetime}"

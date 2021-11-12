@@ -1,0 +1,175 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/fs-chat/index.jsx:330
+#, icu-message-format
+msgid "addon.fs-chat.button.active"
+msgstr "Disable FS Chat"
+
+#: /src/fs-chat/index.jsx:331
+#, icu-message-format
+msgid "addon.fs-chat.button.inactive"
+msgstr "FS Chat"
+
+#: /src/settings/components/basic-toggle.vue:67
+#, icu-message-format
+msgid "addon.fs-chat.using"
+msgstr "Using FS Chat"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat"
+msgstr "FS Chat"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.appearance"
+msgstr "Appearance"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.behavior"
+msgstr "Behavior"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.size_and_position"
+msgstr "Size and Position"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.automatic"
+msgstr "Automatically open FS Chat when entering fullscreen."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur"
+msgstr "Background Blur"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:180
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur.description"
+msgstr ""
+"**Note:** Blur may cause performance issues depending on your browser and "
+"PC specs."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.bg.blur.values.0"
+msgstr "Disabled"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.bg.blur.values.10"
+msgstr "Large (10px)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.bg.blur.values.2"
+msgstr "Minor (2px)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.bg.blur.values.5"
+msgstr "Normal (5px)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.bg.blur.values.50"
+msgstr "Extreme (50px)"
+
+#: /src/modules/main_menu/components/setting-color-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.color"
+msgstr "Background Color"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height"
+msgstr "Height"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height.description"
+msgstr ""
+"How tall FS Chat should be, in pixels. If you know CSS, you can enter a "
+"different unit."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.metadata"
+msgstr "Metadata Position"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.metadata.values.0"
+msgstr "Disabled"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.metadata.values.1"
+msgstr "Above Chat"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.metadata.values.2"
+msgstr "Below Chat"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal"
+msgstr "Minimal Mode"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal.description"
+msgstr "This hides the chat header and input buttons when FS Chat is open."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.no-input"
+msgstr "Do not display chat input."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.round"
+msgstr "Use rounded corners."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut"
+msgstr "Shortcut Key"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut.description"
+msgstr "This key sequence can be used to toggle FS Chat when in fullscreen."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width"
+msgstr "Width"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width.description"
+msgstr ""
+"How wide FS Chat should be, in pixels. Defaults to normal chat width. If "
+"you know CSS, you can enter a different unit."

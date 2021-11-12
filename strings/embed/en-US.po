@@ -1,0 +1,31 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"#readherefirst\"}"
+msgid "embed.discord.channel"
+msgstr "Channel: {name}"
+
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "embed.discord.invite"
+msgstr "Discord Invite"
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"The Cohhilition\"}"
+msgid "embed.discord.server"
+msgstr "Server: {name}"
+
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
+msgid "embed.twitter.info-line"
+msgstr ""
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
+"Retweets}} • {likes,plural,one {# Like} other {# Likes}}"
+
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
+msgid "embed.twitter.tweeted"
+msgstr "tweeted: {tweet}"

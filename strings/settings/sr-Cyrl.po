@@ -1,0 +1,2754 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "addon.author"
+msgstr "Од: {author}"
+
+msgid "addon.disable"
+msgstr "Онемогући"
+
+msgid "addon.enable"
+msgstr "Омогући"
+
+msgid "addon.enabled"
+msgstr "Омогућено"
+
+msgid "addon.settings"
+msgstr "Подешавања"
+
+msgid "addon.unlisted"
+msgstr "Нераспоређено"
+
+msgid "addon.unlisted.add"
+msgstr "Додај неуврштене..."
+
+msgid "addon.unlisted.explain"
+msgstr ""
+"Несврстани додаци су додаци који су прошли одобрење, али су одлучили да "
+"избегну да буду наведени у главном списку. Ово може да значити да је "
+"додатак направљен само за одређене кориснике или је и даље у активном "
+"развоју. Уколико имате несврстан ИД додатка (add-on's ID), укуцајте га овде "
+"како би се додатак приказао."
+
+msgid "addon.unlisted.id"
+msgstr "add-on id"
+
+msgid "addon.version"
+msgstr "Верзија {version}"
+
+msgid "addon.website"
+msgstr "Веб сајт"
+
+msgid "home.about"
+msgstr ""
+"Хвала вам што користите FrankerFaceZ апликацију.\n"
+"\n"
+"Верзија 4.0 апликације је у активном развоју од када је Twitch променуо "
+"технологију коју користи за развој у касној 2017. години."
+
+msgid "home.changelog"
+msgstr "Измене"
+
+msgid "home.changelog.about-nonversioned"
+msgstr ""
+"Non-versioned commits are commits to the FrankerFaceZ repository not "
+"associated with a release build. They typically represent maintenance or "
+"contributions from the community that will be included in a subsequent "
+"release."
+
+msgid "home.changelog.by-line"
+msgstr "Од: {user}"
+
+msgid "home.changelog.current"
+msgstr "Тренута верзија"
+
+msgid "home.changelog.error"
+msgstr "Дошло је до грешке приликом учитавања промена са GitHub-a."
+
+msgid "home.changelog.load"
+msgstr "Учитај више"
+
+msgid "home.changelog.no-more"
+msgstr "Не постоји ниједна промена која није учитана."
+
+msgid "home.changelog.nonversioned"
+msgstr "Non-Versioned Commit"
+
+msgid "home.changelog.show-nonversioned"
+msgstr "Include non-versioned commits."
+
+msgid "home.discord"
+msgstr "Discord"
+
+msgid "home.faq"
+msgstr ""
+"## Често постављена питања\n"
+"\n"
+"* * Шта се десило са [функцијом]?*\n"
+"У верзији 4.0 апликације FrankerFaceZ и даље недостају функције које су "
+"представљене у верзији 3.0. Нажалост, неке од фунцкија неће бити убачене "
+"због нове верзије Twitch веб сајта.\n"
+"\n"
+"Многе функције су у плану за повратак. Не постоји одређен датум када ће оне "
+"бити имплементиране али свака функција ће бити додата када се заврши њен "
+"развој.\n"
+"\n"
+"* *Донирао/ла сам али се мој беџ не приказује.*\n"
+"* *Додао/ла сам емотикон на мој канал али се он не приказује.*\n"
+"\n"
+"Због проблема са перформансама на нашем тренутном веб сајту, морамо да "
+"кеширамо наш API. Због тога, свака промена на каналу нпр. додавање новог "
+"емотикона или промена беџа, може потрајати и до пола сата. Саветујемо вас "
+"да сачекате пола сата и да онда освежите ваш претраживач, након тога, све "
+"проемне би требало да буду доступне и видљиве. Исто тако можете покушати са "
+"методом 'hard refresh' тако што ћете задржати цтрл тастер и притиснути ф5.\n"
+"\n"
+"* *Не желим `FFZ Supporter` беџ.*\n"
+"\n"
+"Корисници могу да искључе или прикажу беџ на следећем линку:  "
+"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"\n"
+"* *Ја могу да видим своје емотиконе али неки корисници кажу да их они не "
+"виде.*\n"
+"\n"
+"Да би корисници видели FrankerFaceZ емотиконе, они морају имати "
+"FrankerFaceZ апликацију инсталирану. Корисници такође могу имати проблема "
+"са видљивошћу емотикона уколико је емотикон недавно додат или је њихов "
+"претраживач кеширао податке или они нису освежили страницу.\n"
+"\n"
+"* *Видео/ла сам украден емотикон!*\n"
+"* *Видео/ла сам емотикон који није прикладан!*\n"
+"\n"
+"Молимо вас да било какав проблем са емотикона пријавите тако што ћете "
+"кликнути на 'Report Emote' алатку на нашем веб сајту. Ово можете урадити "
+"тако што ћете да држите шифт тастер и кликнете на емотикон који није "
+"прикладан, након тога можете кликнути 'Report Emote' на десној страни. "
+"Морате бити пријављени како би пријавили емотикон."
+
+msgid "home.feedback"
+msgstr ""
+"## Повратне информације\n"
+"\n"
+"Све повратне информације и багове можете пријавити тако што ћете отворити "
+"нови проблем на нашем [GitHub "
+"репозиторијуму](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). "
+"Такође нас можете наћи на нашем [Discord "
+"серверу](https://discord.gg/UrAkGhT) или "
+"[твитујте](https://twitter.com/FrankerFaceZ).\n"
+"\n"
+"Када отварате нови проблем на GitHub репозиторијуму, молимо вас да "
+"проверите да ли је неко већ пријавио овај проблем. GitHub пријаве проблема "
+"само треба користити уколико се проблеми појављују на клијенту, а не за "
+"одобравање емотикона.\n"
+"\n"
+"Када отварате нови проблем, молимо вас да отпермите логове и линк до ваше "
+"пријаве."
+
+msgid "home.tag-line"
+msgstr "The Twitch Enhancement Suite"
+
+msgid "home.tweets"
+msgstr "Твитови од FrankerFaceZ"
+
+msgid "home.twitter"
+msgstr "Twitter"
+
+msgid "home.website"
+msgstr "FrankerFaceZ веб сајт"
+
+msgid "setting.actions.action"
+msgstr "Акција"
+
+msgid "setting.actions.add-default"
+msgstr "Додај подразумеване вредности"
+
+msgid "setting.actions.add-default-tip"
+msgstr "Додај све подразумеване вредности у овај профил."
+
+msgid "setting.actions.appearance"
+msgstr "Изглед"
+
+msgid "setting.actions.appearance.combo"
+msgstr "Текст и иконице"
+
+msgid "setting.actions.appearance.icon"
+msgstr "Иконица"
+
+msgid "setting.actions.appearance.image"
+msgstr "Слика"
+
+msgid "setting.actions.appearance.text"
+msgstr "Текст"
+
+msgid "setting.actions.chat"
+msgstr "Команде ћаскања"
+
+msgid "setting.actions.color"
+msgstr "Боја"
+
+msgid "setting.actions.color.warn"
+msgstr ""
+"Ова вредност ће бити аутоматски подешена за видљивост, базирано на вашим "
+"подешавањима боја."
+
+msgid "setting.actions.delete-all"
+msgstr "Избриши све акције овог профила."
+
+msgid "setting.actions.drag"
+msgstr "Превуци акције како бисте их распоредили."
+
+msgid "setting.actions.duration"
+msgstr "Трајање"
+
+msgid "setting.actions.edit-visible.deleted"
+msgstr "Порука избрисана"
+
+msgid "setting.actions.edit-visible.emote-only"
+msgstr "Само емотикони"
+
+msgid "setting.actions.edit-visible.follows"
+msgstr "Само пратиоци"
+
+msgid "setting.actions.edit-visible.mod"
+msgstr "Модератор"
+
+msgid "setting.actions.edit-visible.mod-icons"
+msgstr "Иконице модератора"
+
+msgid "setting.actions.edit-visible.modifier"
+msgstr "Модификатори"
+
+msgid "setting.actions.edit-visible.r9k"
+msgstr "R9k мод"
+
+msgid "setting.actions.edit-visible.slow"
+msgstr "Спори мод"
+
+msgid "setting.actions.edit-visible.subs"
+msgstr "Само претплатници"
+
+msgid "setting.actions.icon"
+msgstr "Иконица"
+
+msgid "setting.actions.new"
+msgstr "Ново..."
+
+msgid "setting.actions.no-actions"
+msgstr "ниједна акција није дефинисана за овај профил"
+
+msgid "setting.actions.no-visible"
+msgstr "без видљивих радњи"
+
+msgid "setting.actions.preview"
+msgstr "Прегледај:"
+
+msgid "setting.actions.preview.all"
+msgstr "Прикажи све"
+
+msgid "setting.actions.preview.deleted"
+msgstr "Избрисане поруке"
+
+msgid "setting.actions.preview.emote-only"
+msgstr "Само емотикони"
+
+msgid "setting.actions.preview.followers"
+msgstr "Само пратиоци"
+
+msgid "setting.actions.preview.mod"
+msgstr "Као модератор"
+
+msgid "setting.actions.preview.mod_icons"
+msgstr "Са иконицама модератора"
+
+msgid "setting.actions.preview.r9k"
+msgstr "R9k мод"
+
+msgid "setting.actions.preview.slow"
+msgstr "Спор мод"
+
+msgid "setting.actions.preview.subs"
+msgstr "Само претлатници"
+
+msgid "setting.actions.reason"
+msgstr "Задати разлози"
+
+msgid "setting.actions.set-chat"
+msgstr "Налепи ову поруку у ћаскање уместо да шаљете поруку директно."
+
+msgid "setting.actions.text"
+msgstr "Ознака"
+
+msgid "setting.actions.tooltip"
+msgstr "Прилагођени тултипови"
+
+msgid "setting.actions.type"
+msgstr "Тип"
+
+msgid "setting.actions.url"
+msgstr "УРЛ"
+
+msgid "setting.actions.variables"
+msgstr "Доступне променљиве (варијабле): {vars}"
+
+msgid "setting.actions.visibility"
+msgstr "Видљивост"
+
+msgid "setting.actions.visible"
+msgstr "видљиво: {list}"
+
+msgid "setting.actions.visible.always"
+msgstr "увек"
+
+msgid "setting.actions.visible.deleted"
+msgstr "ако је порука избрисана"
+
+msgid "setting.actions.visible.mod"
+msgstr "када модератор"
+
+msgid "setting.actions.visible.mod_icons"
+msgstr "када се приказују иконице модератора"
+
+msgid "setting.actions.visible.slow"
+msgstr "када у спором моду"
+
+msgid "setting.actions.visible.undeleted"
+msgstr "ако порука није избрисана"
+
+msgid "setting.add"
+msgstr "Додај"
+
+msgid "setting.add_ons"
+msgstr "Додаци"
+
+msgid "setting.add_ons.changelog"
+msgstr "Измене"
+
+msgid "setting.add_ons.changelog.title"
+msgstr "Измене додатака"
+
+msgid "setting.add_ons.description"
+msgstr ""
+"Додаци су додатни модули (функције), често писане од стране других људи, "
+"који могу бити учитани аутоматски од стране FrankerFaceZ апликације како би "
+"се додале нове могућности и проширења у функцијама и на Twitch - у."
+
+msgid "setting.add_ons.development"
+msgstr "Развој"
+
+msgid "setting.appearance"
+msgstr "Изглед"
+
+msgid "setting.appearance.description"
+msgstr ""
+"Персонализујте изглед Twitch - а. Промените боју, фонтове и прилагодите "
+"изглед како би ваше искуство на Twitch - у било још боље."
+
+msgid "setting.appearance.layout"
+msgstr "Изглед"
+
+msgid "setting.appearance.layout.channel"
+msgstr "Канал"
+
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Бочна навигација"
+
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Навигација"
+
+msgid "setting.appearance.localization"
+msgstr "Локализација"
+
+msgid "setting.appearance.localization.general"
+msgstr "Опште"
+
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Шаљиви језици"
+
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Подржани језици"
+
+msgid "setting.appearance.localization.general.language.twitch"
+msgstr "Користи језик од Twitch - a"
+
+msgid "setting.appearance.theme"
+msgstr "Тема"
+
+msgid "setting.appearance.theme.colors"
+msgstr "Боје"
+
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Ово је преглед новог система који ускоро долази на FrankerFaceZ апликацију, "
+"очекујте велике промене овде, укључујући обичне и напредне методе и боље "
+"селекције боја."
+
+msgid "setting.appearance.theme.fonts"
+msgstr "Фонтови"
+
+msgid "setting.appearance.theme.legacy"
+msgstr "Наслеђе"
+
+msgid "setting.backup-restore.about"
+msgstr ""
+"Ова алатка вам омогућава прављење резервних копија и враћање подешавања у "
+"FrankerFaceZ апликацији, укључујући сва подешавања контролонг центра, и "
+"осталих подешавања као што су омиљени емотикони и блокиране игрице."
+
+msgid "setting.backup-restore.confirm-updates"
+msgstr ""
+"Профил који тренутно уносите садржи аутоматски ажурирану УРЛ адресу. Да ли "
+"желите да се профил аутоматски ажурира?"
+
+msgid "setting.backup-restore.disable-auto"
+msgstr "Не, немој аутоматски ажурирати."
+
+msgid "setting.backup-restore.enable-auto"
+msgstr "Да, допусти аутоматско ажурирање."
+
+msgid "setting.backup-restore.error"
+msgstr "Дошло је до грешке приликом обраде резервне копије."
+
+msgid "setting.backup-restore.imported"
+msgstr ""
+"Профил \"{name}\" је успешно унет са {count,plural,\n"
+"one {#. подешавањем} \n"
+"few {# подешавања}\n"
+"other {# подешавања}}."
+
+msgid "setting.backup-restore.imported-at"
+msgstr "Унето датума {now,datetime}."
+
+msgid "setting.backup-restore.non-supported"
+msgstr "Овај профил није препознат као подржан формат резервне копије."
+
+msgid "setting.backup-restore.old-file"
+msgstr ""
+"Овај фајл није валидан или је направљен у некој од других верзија "
+"FrankerFaceZ апликације и не може бити учитан. "
+
+msgid "setting.backup-restore.pick-profile"
+msgstr "Молимо вас да одаберете профил за унос."
+
+msgid "setting.backup-restore.restore-backup"
+msgstr "Врати копију"
+
+msgid "setting.backup-restore.restored"
+msgstr ""
+"{count,plural,\n"
+"one {#. ставка је обновљена} \n"
+"few {#. ставке су обновљене}\n"
+"other {#. ставки су обновљене}}  ристорована. Молимо вас да освежите "
+"страницу."
+
+msgid "setting.backup-restore.save-backup"
+msgstr "Сачувај копију"
+
+msgid "setting.cancel"
+msgstr "Поништи"
+
+msgid "setting.channel"
+msgstr "Канал"
+
+msgid "setting.channel.appearance"
+msgstr "Изглед"
+
+msgid "setting.channel.appearance.general"
+msgstr "Опште"
+
+msgid "setting.channel.behavior"
+msgstr "Понашање"
+
+msgid "setting.channel.behavior.hosting"
+msgstr "Хостовање"
+
+msgid "setting.channel.behavior.raids"
+msgstr "Рејдови"
+
+msgid "setting.channel.behavior.squads"
+msgstr "Групе"
+
+msgid "setting.channel.metadata"
+msgstr "Метаподаци"
+
+msgid "setting.channel.metadata.appearance"
+msgstr "Изглед"
+
+msgid "setting.channel.metadata.player"
+msgstr "Плејер"
+
+msgid "setting.channel.metadata.subscription"
+msgstr "Претплата"
+
+msgid "setting.chat"
+msgstr "Ћаскање"
+
+msgid "setting.chat.actions"
+msgstr "Акције"
+
+msgid "setting.chat.actions.in_line"
+msgstr "У линији"
+
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Овде можете дефинисати прилагођене акције како ће се поруке у ћаскању "
+"приказивати. Уколико не видите промене које сте дефинисали, молимо вас да "
+"проверите да ли сте укључили иконице модератора у опцијама ћаскања."
+
+msgid "setting.chat.actions.reasons"
+msgstr "Разлози"
+
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Прилагођени разлози"
+
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Правила"
+
+msgid "setting.chat.actions.room"
+msgstr "Соба"
+
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Овде можете дефинисати прилагођене акције које ће се приказати изнад поља "
+"за унос порука."
+
+msgid "setting.chat.actions.room.general"
+msgstr "Опште"
+
+msgid "setting.chat.actions.user_context"
+msgstr "Кориснички додатак"
+
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Овде можете дефинисати прилагођене акције које ће се приказати у менију "
+"додатка када притиснете десни клик на име корисника у ћаскању."
+
+msgid "setting.chat.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Линије ћаскања"
+
+msgid "setting.chat.appearance.colors"
+msgstr "Боје"
+
+msgid "setting.chat.appearance.community"
+msgstr "Заједница"
+
+msgid "setting.chat.appearance.community_chest"
+msgstr "Кутија заједнице"
+
+msgid "setting.chat.appearance.emoji"
+msgstr "Емотикон"
+
+msgid "setting.chat.appearance.emotes"
+msgstr "Емотикони"
+
+msgid "setting.chat.appearance.general"
+msgstr "Опште"
+
+msgid "setting.chat.appearance.rich_content"
+msgstr "Богат садржај"
+
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Преплате"
+
+msgid "setting.chat.badges"
+msgstr "Беџеви"
+
+msgid "setting.chat.badges.tabs"
+msgstr "табови"
+
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Видљивост"
+
+msgid "setting.chat.behavior"
+msgstr "Понашање"
+
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Избрисане поруке"
+
+msgid "setting.chat.behavior.general"
+msgstr "Опште"
+
+msgid "setting.chat.behavior.scrolling"
+msgstr "Помицање"
+
+msgid "setting.chat.bits_and_cheering"
+msgstr "Битови и бодрење"
+
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Понашање"
+
+msgid "setting.chat.channel_points"
+msgstr "Поени канала"
+
+msgid "setting.chat.channel_points.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.channel_points.behavior"
+msgstr "Понашање"
+
+msgid "setting.chat.channel_points.general"
+msgstr "Опште"
+
+msgid "setting.chat.chat_on_videos"
+msgstr "Ћаскање на видео снимцима"
+
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Ова функција је тренутно у бета верзији. При том, појаве проблема су могуће "
+"док будете користили FFZ функцију ћаскање на видео снимцима."
+
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Опште"
+
+msgid "setting.chat.emote_menu"
+msgstr "Мени емотикона"
+
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.emote_menu.general"
+msgstr "Опште"
+
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Сортирање"
+
+msgid "setting.chat.filtering"
+msgstr "Филтрирање"
+
+msgid "setting.chat.filtering.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Филтери AutoMod-а"
+
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Додатна конфигурација за Twitch - ове 'Филтере ћаскања'."
+
+msgid "setting.chat.filtering.behavior"
+msgstr "Понашање"
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Блокирани беџеви"
+
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Блокирани термини"
+
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Блокирани корисници"
+
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Истакни беџеве"
+
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Истакни термине"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Истакни кориснике"
+
+msgid "setting.chat.filtering.rituals"
+msgstr "Ритуали"
+
+msgid "setting.chat.input"
+msgstr "Инпут"
+
+msgid "setting.chat.input.recent_messages"
+msgstr "Скорашње поруке"
+
+msgid "setting.chat.input.tab_completion"
+msgstr "Комплетирање табом"
+
+msgid "setting.chat.tooltips"
+msgstr "Тултипови"
+
+msgid "setting.chat.tooltips.badges"
+msgstr "Беџеви"
+
+msgid "setting.chat.tooltips.emotes"
+msgstr "Емотикони"
+
+msgid "setting.chat.tooltips.general"
+msgstr "Опште"
+
+msgid "setting.chat.tooltips.links"
+msgstr "Линкови"
+
+msgid "setting.chat.viewer_cards"
+msgstr "Картице корисника"
+
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Изглед"
+
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Понашање"
+
+msgid "setting.chat.whispers"
+msgstr "Шапати"
+
+msgid "setting.chat.whispers.general"
+msgstr "Опште"
+
+msgid "setting.close"
+msgstr "Затвори"
+
+msgid "setting.combo-box.custom"
+msgstr "Прилагођено"
+
+msgid "setting.configure"
+msgstr "Конфигуришите"
+
+msgid "setting.data_management"
+msgstr "Управљање подацима"
+
+msgid "setting.data_management.backup_and_restore"
+msgstr "Израда сигурносних копија и враћање"
+
+msgid "setting.data_management.profiles"
+msgstr "Профили"
+
+msgid "setting.data_management.profiles.edit.desc"
+msgstr "Опис"
+
+msgid "setting.data_management.profiles.edit.general"
+msgstr "Опште"
+
+msgid "setting.data_management.profiles.edit.name"
+msgstr "Име"
+
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Измени профил"
+
+msgid "setting.data_management.profiles.edit.rules"
+msgstr "Правила"
+
+msgid "setting.data_management.profiles.edit.rules.description"
+msgstr ""
+"Правила вам омогућавају да дефинишете низ услова под којима ће овај профил "
+"бити активан. Уколико постоји више правила, свако правило мора да одговара "
+"једно другом како би се профил активирао. Молимо вас да користите `Or` "
+"(или) правило да бисте направили профил који се активира уколико одговара "
+"једном или више правила."
+
+msgid "setting.data_management.reporting"
+msgstr "Извештавање"
+
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Извештај грешака"
+
+msgid "setting.data_management.reporting.example_report"
+msgstr "Пример извештаја"
+
+msgid "setting.debugging"
+msgstr "Отклањање грешака"
+
+msgid "setting.debugging.experiments"
+msgstr "Експерименти"
+
+msgid "setting.debugging.localization"
+msgstr "Локализација"
+
+msgid "setting.debugging.localization.editing"
+msgstr "Уређивање"
+
+msgid "setting.debugging.localization.general"
+msgstr "Опште"
+
+msgid "setting.debugging.socket"
+msgstr "Подножје"
+
+msgid "setting.debugging.socket.general"
+msgstr "Опште"
+
+msgid "setting.debugging.socket.info"
+msgstr "Инфо"
+
+msgid "setting.delete"
+msgstr "Избриши"
+
+msgid "setting.delete-all"
+msgstr "Избриши све"
+
+msgid "setting.directory"
+msgstr "Директоријум"
+
+msgid "setting.directory.channels"
+msgstr "Канали"
+
+msgid "setting.directory.channels.appearance"
+msgstr "Изглед"
+
+msgid "setting.directory.following"
+msgstr "Праћење"
+
+msgid "setting.directory.following.categories"
+msgstr "Категорије"
+
+msgid "setting.directory.following.hosts"
+msgstr "Хостови"
+
+msgid "setting.edit"
+msgstr "Уреди"
+
+msgid "setting.entry.add-ons"
+msgstr "Додаци"
+
+msgid "setting.entry.addons.dev.server"
+msgstr "Користи локални сервер за развој"
+
+msgid "setting.entry.addons.dev.server.description"
+msgstr "Attempt to load add-ons from local development server on port 8001."
+
+msgid "setting.entry.backup"
+msgstr "резервна копија"
+
+msgid "setting.entry.changelog"
+msgstr "измене"
+
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Сакриј \"LIVE\" индикатор на каналима уживо."
+
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"Сакриј прозорчић који се појављује испод клипова и видеа који вам говори да "
+"је корисник тренутно уживо."
+
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Дозволи хостовање канала"
+
+msgid "setting.entry.channel.metadata.force-above"
+msgstr "Форсирај метаподатке и тагове на врх прозорчића о информацијама канал."
+
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Немој ме аутоматски прикључити у рејдове."
+
+msgid "setting.entry.channel.round-avatars"
+msgstr "Дозволи да аватари буду заобљени."
+
+msgid "setting.entry.channel.show-celebrations"
+msgstr "Дозволи приказ прослава."
+
+msgid "setting.entry.channel.show-celebrations.description"
+msgstr "Прославе су анимације које прекрију целу страницу."
+
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "Немој ме аутоматски преусмеравати у групне стримове."
+
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Прикажи акције собе изнад поља за унос порука."
+
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Укључите правила тренутне собе у листу разлога."
+
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Минималан контраст"
+
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Постави минималан однос контраста користећи Лума прилагођавања приликом "
+"одређивања читљивости."
+
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Подешавање"
+
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr ""
+"Измените боје корисничких имена, како би били сигурни да корисничка имена "
+"остану читљива."
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Непромењено"
+
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Без боје"
+
+msgid "setting.entry.chat.adjustment-mode.values.2"
+msgstr "Luv Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.3"
+msgstr "HSL Loop (као BTTV)"
+
+msgid "setting.entry.chat.adjustment-mode.values.4"
+msgstr "RGB Loop (избачено)"
+
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Означи поруке као обрисане уколико оне садрже филтриране фразе."
+
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Избриши поруке у потпуности уколико оне садрже филтриране фразе."
+
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Користи филтрирано ћаскање као модератор."
+
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"Подразумевано, филтрирано ћаскање од Twitch - а не укључује функцију за "
+"модерацију. Ово ће поништити то понашање."
+
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Користи прилагођене беџеве модератора уколико су доступни."
+
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Подесите боју беџева ради боље прегледности."
+
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Осигурава да беџеви увек буду видљиви у зависности од позадине.\n"
+"\n"
+"**Напомена:** Ова опција утиче само на беџеве са прилагођеним приказивањем. "
+"Беџеви претплатника, беџеви битова, итд. нису под утицајем ове опције."
+
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Видљивост"
+
+msgid "setting.entry.chat.badges.media-queries"
+msgstr "Use @media queries to support High-DPI Badge images in Mozilla Firefox."
+
+msgid "setting.entry.chat.badges.media-queries.description"
+msgstr ""
+"This is required to see high-DPI badges on Firefox because Firefox still "
+"has yet to support `image-set()` after more than five years. It may be less "
+"reliable."
+
+msgid "setting.entry.chat.badges.style"
+msgstr "Стил"
+
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Квадрат"
+
+msgid "setting.entry.chat.badges.style.values.1"
+msgstr "Заобљено"
+
+msgid "setting.entry.chat.badges.style.values.2"
+msgstr "Кружно"
+
+msgid "setting.entry.chat.badges.style.values.3"
+msgstr "Кружно (само боја)"
+
+msgid "setting.entry.chat.badges.style.values.4"
+msgstr "Кружно (само боја, мало)"
+
+msgid "setting.entry.chat.badges.style.values.5"
+msgstr "Транспарентно"
+
+msgid "setting.entry.chat.badges.style.values.6"
+msgstr "Транспарентно (обојено)"
+
+msgid "setting.entry.chat.badges.version"
+msgstr "Верзија"
+
+msgid "setting.entry.chat.badges.version.values.1"
+msgstr "1 (пре Децембра 2019)"
+
+msgid "setting.entry.chat.badges.version.values.2"
+msgstr "2 (тренутно)"
+
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Дозволи приказ 'Hype Train' у ћаскању."
+
+msgid "setting.entry.chat.banners.polls"
+msgstr "Дозволи приказ анкета у ћаскању."
+
+msgid "setting.entry.chat.bits.animated"
+msgstr "Прикажи анимације бодрења."
+
+msgid "setting.entry.chat.bits.show"
+msgstr "Прикажи битове"
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Прикажи кориснички интерфејс удружен са битовима. Белешка: Ово неће сакрити "
+"бодрења у ћаскању."
+
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr "Прикажи поруке када бодрење подели награде корнисицима у ћаскању."
+
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"Подразумевано, ово ће наследити вредност из 'прикажи битове' секције. Ова "
+"опција ће утицати само на нове поруке у ћаскању."
+
+msgid "setting.entry.chat.bits.stack"
+msgstr "Наслагивање порука бодрења"
+
+msgid "setting.entry.chat.bits.stack.description"
+msgstr "Прикупи све поруке бодрења у једно бодрење на почетку поруке."
+
+msgid "setting.entry.chat.bits.stack.values.0"
+msgstr "Онемогућено"
+
+msgid "setting.entry.chat.bits.stack.values.1"
+msgstr "Груписано по типу"
+
+msgid "setting.entry.chat.bits.stack.values.2"
+msgstr "Све у једном"
+
+msgid "setting.entry.chat.click-emotes"
+msgstr ""
+"Отвори страницу са информацијама о емотиконима када држите шифт тастер и "
+"кликнете на емотикон."
+
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Прикажи 'Community Gift Chest' транспарент."
+
+msgid "setting.entry.chat.delay"
+msgstr "Вештачко одлагање ћаскања"
+
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Прикажи поруке у ћаскању са закашњењм, како би поруке могле да буду "
+"прегледане од стране модератора."
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Без кашњења"
+
+msgid "setting.entry.chat.delay.values.-1"
+msgstr "Подразумевано кашњење  (Room Specific; Non-Mod Only)"
+
+msgid "setting.entry.chat.delay.values.10000"
+msgstr "Велики (10с)"
+
+msgid "setting.entry.chat.delay.values.1200"
+msgstr "Нормалан (људска модерација; 1.2с)"
+
+msgid "setting.entry.chat.delay.values.15000"
+msgstr "Огроман (15с)"
+
+msgid "setting.entry.chat.delay.values.20000"
+msgstr "Модератори спавају; Одгоди ћаскање (20с)"
+
+msgid "setting.entry.chat.delay.values.300"
+msgstr "Мали (ботовска модерација; 0.3с)"
+
+msgid "setting.entry.chat.delay.values.30000"
+msgstr "Пола минуита (30с)"
+
+msgid "setting.entry.chat.delay.values.5000"
+msgstr "Већи (брисање спојлера / спори мод; 5с)"
+
+msgid "setting.entry.chat.delay.values.60000"
+msgstr "Зашто??? (1м)"
+
+msgid "setting.entry.chat.delay.values.788400000000"
+msgstr "CBenni опција (буквално 25 година)"
+
+msgid "setting.entry.chat.emoji.style"
+msgstr "Стил емотикона"
+
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Природно"
+
+msgid "setting.entry.chat.emoji.style.values.emojione"
+msgstr "EmojiOne"
+
+msgid "setting.entry.chat.emote-dialogs"
+msgstr ""
+"Отвори картицу са информацијама о емотикону за Twitch емотиконе када "
+"кликете на емотикон."
+
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Прикажи све емотиконе у једном табу."
+
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Подразумевана картица"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.all"
+msgstr "Моји емотикони"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
+msgstr "Канал"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
+msgstr "Емотикон"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
+msgstr "Омиљени"
+
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Користи FrankerFaceZ мени емотикона."
+
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"FrankerFaceZ мени емотикона који садржи унапређене функционалности, ће "
+"заменити подразумевани Twitch мени емотикона."
+
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr "Замени иконицу менија емотикона са FFZ иконицом за тај класичан осећај."
+
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Користи смањено испуњење."
+
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Прикажи хедере"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.0"
+msgstr "Никад"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.1"
+msgstr "Увек"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.2"
+msgstr "Када не претражује"
+
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Прикажи оквир за претрагу."
+
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Сортирај емотиконе по"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
+msgstr "Поређај по: додато (ID), растуће"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
+msgstr "Додато (ID), опадајуће"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
+msgstr "Име, растуће"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
+msgstr "Име, опадајуће"
+
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Сортирај емотиконе по већем нивоу претплате до мањег нивоа претплате."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr ""
+"Дозволи отварање корисникове картице уколико кликнете на име у поруци у "
+"којој је поменут."
+
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Кликните како бисте приказали избрисане термине."
+
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Овај стил ће се применити на избрисане поруке приказане у режиму детаљног "
+"приказивања како би се разликовале од уобичајених порука за ћаскање."
+
+msgid "setting.entry.chat.filtering.deleted-style.values.0"
+msgstr "Замагљено"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.1"
+msgstr "Замагљено, прецртано"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.2"
+msgstr "Прецртано"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.3"
+msgstr "Без промене"
+
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Режим приказивања"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
+msgstr "Укратко"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
+msgstr "Детаљно"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.false"
+msgstr "Немој надгласити"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
+msgstr "Наслеђе"
+
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Прикажи разлог"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.0"
+msgstr "Никад"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.1"
+msgstr "У детаљном моду"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.2"
+msgstr "Увек"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Истакни поруке у којима сте поменути."
+
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Истакни поруке које се подурарају."
+
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Не бриши ћаскање када је наређено."
+
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Боја истакнутих порука"
+
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Ако је ово постављено, означене поруке ће бити приказане у изабраној боји а "
+"не у црвеној."
+
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Филтрирај своје поруке."
+
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Уклони избрисане поруке из ћаскања."
+
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Избрисане поруке ће бити уклоњене у потпуности. Ова опција није препоручена "
+"за модераторе."
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.0"
+msgstr "Не бриши"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.1"
+msgstr "Избриши непрочитано (подразумевано)"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.2"
+msgstr "Избриши непрочитано као модератор"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.3"
+msgstr "Избриши све"
+
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Поправи лоше глобалне Twitch емотиконе"
+
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Ова опција ће очистити лоше глобалне Twitch емотиконе, уклањајући беле "
+"ивице и непрозирне позадине."
+
+msgid "setting.entry.chat.font-family"
+msgstr "Font Family"
+
+msgid "setting.entry.chat.font-family.description"
+msgstr "Постави фонт који се користи за приказивање порука у ћаскању."
+
+msgid "setting.entry.chat.font-size"
+msgstr "Величина фонта"
+
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Колика би величина фонта требла да буде у пикселима. На ово могу утицати "
+"подешавања зума и величине фонта вашег прегледача."
+
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr "Сакриј све 'Community Highlights' са врха ћаскања."
+
+msgid "setting.entry.chat.hide-community-highlights.description"
+msgstr ""
+"Истакнуто од заједнице (Community Highlights) су гласања, поклоњене "
+"претплате, итд. који се привремено приказују на врху ћаскања без могућности "
+"затварања тог прозорчића."
+
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Прикажи линије са наизменичним бојама позадине."
+
+msgid "setting.entry.chat.lines.borders"
+msgstr "Сепаратори"
+
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Онемогућено"
+
+msgid "setting.entry.chat.lines.borders.values.1"
+msgstr "Обична линија (1px солидна)"
+
+msgid "setting.entry.chat.lines.borders.values.2"
+msgstr "3D линија (2px Groove)"
+
+msgid "setting.entry.chat.lines.borders.values.3"
+msgstr "3D линија (2px Groove Inset)"
+
+msgid "setting.entry.chat.lines.borders.values.4"
+msgstr "Широка линија (2px солидна)"
+
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Сврставање емотикона"
+
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Промени позицију емотикона у ћаскању тј. повећај величину порука, како не "
+"би дошло до преклапања са другим емотиконима."
+
+msgid "setting.entry.chat.lines.emote-alignment.values.0"
+msgstr "Стандардно"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.1"
+msgstr "Подстављено"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.2"
+msgstr "Основна линија (као BTTV)"
+
+msgid "setting.entry.chat.lines.padding"
+msgstr "Смањи повећање око линија."
+
+msgid "setting.entry.chat.mru.enabled"
+msgstr ""
+"Прикажи последње послате поруке уколико притиснете стрелицу на горе или "
+"доле."
+
+msgid "setting.entry.chat.pin-resubs"
+msgstr ""
+"Аутоматски закачи поруке у ћаскању од корисника коју су се поново "
+"претплатили."
+
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr "Истакни поруку у ћаскању уколико корисник купи 'истакни моју поруку'."
+
+msgid "setting.entry.chat.points.custom-rendering"
+msgstr "Користите прилагођено рендеровање за поруке које шаљете поенима."
+
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"Прилагођено рендеровање се аплицира на позадиснку боју поруке, које неки "
+"корисници можда неће ценити."
+
+msgid "setting.entry.chat.points.show-button"
+msgstr "Прикажи поени канала дугме испод ћаскања."
+
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Прикажи поруке у ћаскању које се тичу награда поена канала."
+
+msgid "setting.entry.chat.points.show-rewards"
+msgstr ""
+"Дозволи приказ расположивих награда да се приказују поред 'поени канала' "
+"(Channel Points) дугмета."
+
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Прикажи богат садржај за све линкове."
+
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Стримери: Упозоравамо вас да ће ова опција да приказује сличице у ћаскању "
+"које могу бити опасне. Молим вас будите опрезни када користите ово.*"
+
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Прикажи богат садржај у ћаскању."
+
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr ""
+"Ова функција приказује блокове богатог садржаја за ствари као што су "
+"линковани клипови и видео снимци."
+
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Сакри одговарајуће линкове за богат садржај."
+
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Неопходан ниво корисника"
+
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Прикажи богат садржај у ћаскању само од стране корисника са овим или већим "
+"нивоом."
+
+msgid "setting.entry.chat.rich.minimum-level.values.0"
+msgstr "Сви"
+
+msgid "setting.entry.chat.rich.minimum-level.values.1"
+msgstr "Претплатник"
+
+msgid "setting.entry.chat.rich.minimum-level.values.2"
+msgstr "VIP"
+
+msgid "setting.entry.chat.rich.minimum-level.values.3"
+msgstr "Модератор"
+
+msgid "setting.entry.chat.rich.minimum-level.values.4"
+msgstr "Стример"
+
+msgid "setting.entry.chat.rituals.show"
+msgstr "Прикажи ритуалне поруке као такве \"Корисник је нови овде! Реци здраво!\"."
+
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Дужина 'скролбека'"
+
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Задржи оволико линија у ћаскању. Уколико поставите велики број овде, доћиће "
+"до застојања (лага)."
+
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Паузирај помицање ћаскања"
+
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Захтевај да миш буде преко ћаскања да би се ћаскање заледило са тастером."
+
+msgid "setting.entry.chat.scroller.freeze.values.1"
+msgstr "On Hover"
+
+msgid "setting.entry.chat.scroller.freeze.values.2"
+msgstr "Када држите ЦТРЛ тастер"
+
+msgid "setting.entry.chat.scroller.freeze.values.3"
+msgstr "When Meta is Held"
+
+msgid "setting.entry.chat.scroller.freeze.values.4"
+msgstr "Када држите Мета тастер"
+
+msgid "setting.entry.chat.scroller.freeze.values.5"
+msgstr "c"
+
+msgid "setting.entry.chat.scroller.freeze.values.6"
+msgstr "Ctrl or Hover"
+
+msgid "setting.entry.chat.scroller.freeze.values.7"
+msgstr "Meta or Hover"
+
+msgid "setting.entry.chat.scroller.freeze.values.8"
+msgstr "Alt or Hover"
+
+msgid "setting.entry.chat.scroller.freeze.values.9"
+msgstr "Shift or Hover"
+
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Време"
+
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"Ћаскање ће остати залеђено само ако је миш оволико дуго преко ћаскања када "
+"миш стане са померањем."
+
+msgid "setting.entry.chat.scroller.hover-delay.values.1000"
+msgstr "1. Секунда"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.250"
+msgstr "0.25 Секунди"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.2500"
+msgstr "2.5 Секунде"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.500"
+msgstr "0.50 Секунди"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.5000"
+msgstr "5 Секунди"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.750"
+msgstr "0.75 Секунди"
+
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Глатко помицање"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Онемогућено"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
+msgstr "Споро"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
+msgstr "Средње"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
+msgstr "Брзо"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
+msgstr "Веома брзо"
+
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Отвори страницу за претплату када притиснете емотикон док држите шифт "
+"тастер уколико је то релевантно."
+
+msgid "setting.entry.chat.subs.compact"
+msgstr "Прикажи обавештења претплата у комапктном (класичном) формату."
+
+msgid "setting.entry.chat.subs.gift-banner"
+msgstr "Прикажи банер на врху ћаскања када се поклони пуно претплата."
+
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Споји масивне поклоњене претплате"
+
+msgid "setting.entry.chat.subs.merge-gifts.description"
+msgstr ""
+"Споји масивне поклоњене претплате и једну поруку, у зависности од количине.\n"
+"**Белешка:** Ова опција ће бити примењена само на нове поклоњене претплате."
+
+msgid "setting.entry.chat.subs.merge-gifts.values.0"
+msgstr "Увек"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.10"
+msgstr "Више од 10"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.1000"
+msgstr "Онемогућено"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.20"
+msgstr "Више од 20"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.5"
+msgstr "Више од 5"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.50"
+msgstr "Више од 50"
+
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expand merged mass sub gift messages by default."
+
+msgid "setting.entry.chat.subs.show"
+msgstr "Прикажи претплате у ћаскању"
+
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Напомена:** Поруке послате од стране корисника када се поново претплати "
+"ће увек бити приказане. Ова опција контролише само специјалне поруке \"X се "
+"претплатио/ла!\"."
+
+msgid "setting.entry.chat.subs.show.values.0"
+msgstr "Не приказуј"
+
+msgid "setting.entry.chat.subs.show.values.1"
+msgstr "Само поновне претплате са порукама"
+
+msgid "setting.entry.chat.subs.show.values.2"
+msgstr "Само поновне претплате"
+
+msgid "setting.entry.chat.subs.show.values.3"
+msgstr "Прикажи све"
+
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Дозволи аутоматско комплетирање емотикона притиском на таб тастер."
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr ""
+"Дозволи аутоматско комплетирање емотикона притиском на таб тастер без "
+"писања двотачке. (:)"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr ""
+"Ова опција ће спречити аутоматско исписвање корисничких имена уколико нема "
+"@ префикса."
+
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr ""
+"Дозволи аутоматско исписивање FrankerFaceZ емотикона када притиснете таб "
+"тастер."
+
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Ограничи сугестије за аутоматско комплетирање емотикона на 25."
+
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Приоритизуј омиљене емотиконе на врху."
+
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Временски формат"
+
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Време је форматирано са [Day.js](https://github.com/iamkun/dayjs#readme) "
+"библиотеком. Више детаља о форматирању можете пронаћи "
+"[овде](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
+"list-of-all-available-formats)."
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Постављено"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Постављено 24 сата"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Постављено са секундама"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Постављено 24 сата са секундама"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm"
+msgstr "12 Сати"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm"
+msgstr "24 Сата"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
+msgstr "12 Сати са секундама"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
+msgstr "24 Сата са секундама"
+
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Омогући FrankerFaceZ функцију за ћаскање на видео снимцима."
+
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Прикажи FFZ беџеве, емотиконе и остале функције у ћаскању на видео "
+"снимцима. Функције модератора можда неће бити доступне кад је ово укључено."
+
+msgid "setting.entry.chat.video-chat.timestamps"
+msgstr "Прикажи временске ознаке поред порука у ћаскању."
+
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Изаберите боју ознаке"
+
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr "Означи поруке од корисника када је корисникова картица отворена."
+
+msgid "setting.entry.chat.width"
+msgstr "Ширина"
+
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Колико широко би ћаскање требало да буде у пикселима. На ово може утицати "
+"ширина вашег претраживача и величина фонта."
+
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Групни хостови"
+
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Прикажи хостоване канале само једном у директоријуму."
+
+msgid "setting.entry.directory.following.host-menus"
+msgstr "Мени хостованих канала"
+
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Прикажи мени како би изабрали које канале да посетите када кликнете на "
+"'хостовани канали' у директоријуму."
+
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Онемогућено"
+
+msgid "setting.entry.directory.following.host-menus.values.1"
+msgstr "Када више њих хостује"
+
+msgid "setting.entry.directory.following.host-menus.values.2"
+msgstr "Увек"
+
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Не приказуј 'Најновији видео' у 'пратите' директоријуму."
+
+msgid "setting.entry.directory.hide-live"
+msgstr "Не приказуј 'уживо' индикатор на каналима који су уживо."
+
+msgid "setting.entry.directory.hide-recommended"
+msgstr "Не приказуј препоручене канале уживо."
+
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr ""
+"Не приказуј 'Базирано на вашој историји прегледања' у 'пратите' "
+"директоријуму."
+
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "Не приказуј репродукције у директоријуму."
+
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Прикажи аватаре канала."
+
+msgid "setting.entry.directory.uptime"
+msgstr "Уживо"
+
+msgid "setting.entry.directory.uptime.description"
+msgstr "Прикажи колико је тренутни корисник уживо, у картицама канала."
+
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Онемогућено"
+
+msgid "setting.entry.directory.uptime.values.1"
+msgstr "Омогућено"
+
+msgid "setting.entry.directory.uptime.values.2"
+msgstr "Омогућено (са секундама)"
+
+msgid "setting.entry.experiments"
+msgstr "експерименти"
+
+msgid "setting.entry.faq"
+msgstr "чпп"
+
+msgid "setting.entry.feedback"
+msgstr "повратне информације"
+
+msgid "setting.entry.feedback.log"
+msgstr "feedback.log"
+
+msgid "setting.entry.ffz.show-new-settings"
+msgstr ""
+"Прикажи обавештење на FFZ  дугмету када су нове опције додате у "
+"FrankerFaceZ аплицкацију."
+
+msgid "setting.entry.home"
+msgstr "почетна"
+
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Дозволи снимање порука."
+
+msgid "setting.entry.i18n.debug.capture.description"
+msgstr ""
+"Capture all localized strings, including variables and call locations, for "
+"the purpose of reporting them to the backend. This is used to add new "
+"strings to the translation project. By default, message capture is enabled "
+"when running in development mode."
+
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Трансформација"
+
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Трансформишите све локализоване стрингове да бисте тестирали покривеност и "
+"дужину."
+
+msgid "setting.entry.i18n.debug.transform.values.append_key"
+msgstr "Додај тастер"
+
+msgid "setting.entry.i18n.debug.transform.values.double"
+msgstr "Дупло"
+
+msgid "setting.entry.i18n.debug.transform.values.lower"
+msgstr "Мала слова"
+
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Онемогућено"
+
+msgid "setting.entry.i18n.debug.transform.values.owo"
+msgstr "owo what's this"
+
+msgid "setting.entry.i18n.debug.transform.values.set_key"
+msgstr "Стави на тастер"
+
+msgid "setting.entry.i18n.debug.transform.values.upper"
+msgstr "Велика слова"
+
+msgid "setting.entry.i18n.locale"
+msgstr "Језик"
+
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FrankerFaceZ апликацију добровољно преводе волонтери наше заједнице. Хвала. "
+"Ако сте заинтересовани да помогнете у превођењу FrankerFaceZ апликације, "
+"молимо вас да се придружите [нашем Discord "
+"серверу](https://discord.gg/UrAkGhT) и да питате за локализацију."
+
+msgid "setting.entry.layout.discover"
+msgstr "Прикажи пронађи линк."
+
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Прикажи 'Get Bits' дугме."
+
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Минимализуј навигацију"
+
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr "Сакриј навигацију сајта уколико није у употреби."
+
+msgid "setting.entry.layout.portrait"
+msgstr "Дозволи портер мод"
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"У портрет моду, ћаскање ће бити приказано испод плејера када је прозор већи "
+"него што је шири."
+
+msgid "setting.entry.layout.portrait-invert"
+msgstr "Када је ћаскање у портрет моду, постави га на врх."
+
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Почетак портрет мода"
+
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr "Ово је однос ширине и висине у коме ће се портрет мод почети активирати."
+
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "Сакриј пријатеље који нису на мрежи"
+
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Прикажи поновне стримове"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.0"
+msgstr "Не приказуј"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.1"
+msgstr "Нормално"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.2"
+msgstr "Изблеђено (33% непровидност)"
+
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Прикажи бочну навигацију"
+
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Прикажи аватаре канала"
+
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Прикажи пријатеље који су на мрежи"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.0"
+msgstr "Никад"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.1"
+msgstr "Увек"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.2"
+msgstr "Када је бочна навигација отворена"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Прикажи препоручене / популарне канале"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.0"
+msgstr "Никад"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
+msgstr "Увек"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
+msgstr "Када је бочна навигација отворена"
+
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Прикажи препоручене пријатеље"
+
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Замени бочну навигацију и ћаскање."
+
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Замени навигацију и ћаскање у супротном смеру прозора."
+
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Прикажи минимализовану навигацију када је плејер у позориште моду."
+
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Font Family"
+
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Измени фонт који користи Twitch. Стари фонт је био: `\"Helvetica "
+"Neue\",Helvetica,Arial,sans-serif`"
+
+msgid "setting.entry.legal"
+msgstr "легално"
+
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Истакнути пратиоци"
+
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr ""
+"Прикажи 'истакнути пратиоци' (Featured Follow) дугме са тренутним изабраним "
+"корисницима."
+
+msgid "setting.entry.metadata.host-button"
+msgstr "Хост дугме"
+
+msgid "setting.entry.metadata.host-button.description"
+msgstr ""
+"Прикажи хост дугме са тренутно хостованим каналима уколико је тултип "
+"отворен."
+
+msgid "setting.entry.metadata.player-stats"
+msgstr "Статистика репродукције"
+
+msgid "setting.entry.metadata.player-stats.description"
+msgstr "Прикажи колико тренути снимак уживо касни, са додатним информацијама."
+
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Упозорење кашњења преноса уживо"
+
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"Када тренутно кашњење снимка уживо премаши овај број секунди, прикажи "
+"упозорење у боји које ће вам скренути пажњу да је кашњење превелико. "
+"Уколико желите да искључите ово, поставите вредност на 0."
+
+msgid "setting.entry.metadata.uptime"
+msgstr "Уживо"
+
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Онемогућено"
+
+msgid "setting.entry.metadata.uptime.values.1"
+msgstr "Омогућено"
+
+msgid "setting.entry.metadata.uptime.values.2"
+msgstr "Омогућено (са секундама)"
+
+msgid "setting.entry.player.allow-catchup"
+msgstr "Дозволите да плејер аутоматски убрза како би смањио кашњење стрима."
+
+msgid "setting.entry.player.allow-catchup.description"
+msgstr ""
+"Подразумевано, Twitch - ов плејер ће аутоматски мало убрзати пренос како би "
+"достигао тренутни пренос уживо, ово се аплицира само ако имате кашњење. Ово "
+"може изазвати неправилности са звуком. Искључите ово ако желите да спречите "
+"плејер да аутоматски убрзава."
+
+msgid "setting.entry.player.button.pip"
+msgstr "Додај `Слика у слици` дугме у контроле плејера."
+
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Уколико кликнете на Сус дугме, плејер ће покушати да се пребаци на Слика у "
+"слици мод."
+
+msgid "setting.entry.player.button.reset"
+msgstr "Додај 'Ресетуј Плејер' дугме у контроле плејера."
+
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Дупли клик на 'Рестартуј плејер' дугмету ће рестартовати Twitch плејер како "
+"би поправио кашњење стрима, без да освежавате целу страницу."
+
+msgid "setting.entry.player.captions.alignment"
+msgstr "Поравнање"
+
+msgid "setting.entry.player.captions.alignment.values.11"
+msgstr "Горе лево"
+
+msgid "setting.entry.player.captions.alignment.values.12"
+msgstr "Горе у средини"
+
+msgid "setting.entry.player.captions.alignment.values.13"
+msgstr "Горе десно"
+
+msgid "setting.entry.player.captions.alignment.values.21"
+msgstr "У средини, лево"
+
+msgid "setting.entry.player.captions.alignment.values.22"
+msgstr "У средини, центрирано"
+
+msgid "setting.entry.player.captions.alignment.values.23"
+msgstr "У средини, десно"
+
+msgid "setting.entry.player.captions.alignment.values.31"
+msgstr "Доле лево"
+
+msgid "setting.entry.player.captions.alignment.values.32"
+msgstr "Доле центрирано"
+
+msgid "setting.entry.player.captions.alignment.values.33"
+msgstr "Доле десно"
+
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Омогући промену позиције и величине титлова."
+
+msgid "setting.entry.player.captions.font-family"
+msgstr "Font Family"
+
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Промени фонт титлова."
+
+msgid "setting.entry.player.captions.font-size"
+msgstr "Величина фонта"
+
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"Колико велики титлови би требали да буду. Ова опција може да буде у "
+"процентима, нпр. `10%` или у пиксел вредностима нпр. `50px`."
+
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Водоравна (хоризонтална) позиција"
+
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Промени позицију титлова. Вредност може бити нпр. 10% или вредност у "
+"пикселима нпр. 50px."
+
+msgid "setting.entry.player.captions.vertical"
+msgstr "Усправна (вертикална) позиција"
+
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Промени позицију титлова. Вредност може бити нпр. 10% или вредност у "
+"пикселима нпр. 50px."
+
+msgid "setting.entry.player.compressor.attack"
+msgstr "Напад"
+
+msgid "setting.entry.player.compressor.attack.description"
+msgstr ""
+"**Распон:** 0 ~ 1\n"
+"\n"
+"Колико времена у секундама, је потребно како би се вредност смањила за 10 "
+"децибела."
+
+msgid "setting.entry.player.compressor.default"
+msgstr "Омогућите компресор подразумевано."
+
+msgid "setting.entry.player.compressor.enable"
+msgstr "Омогући аудио компресор и додај 'Аудио компресор' дугме у контроле плејера."
+
+msgid "setting.entry.player.compressor.knee"
+msgstr "Колено"
+
+msgid "setting.entry.player.compressor.knee.description"
+msgstr ""
+"**Распон:** 0 ~ 40\n"
+"\n"
+"Вредност у децибелима, која представља распон изнад прага где крива глатко "
+"прелази до компресованог дела."
+
+msgid "setting.entry.player.compressor.ratio"
+msgstr "Однос"
+
+msgid "setting.entry.player.compressor.ratio.description"
+msgstr ""
+"**Распон:** 0 ~ 20\n"
+"\n"
+"Количина односа у децибелима, која је потребна у улазу за промену од 1. "
+"децибела на излазу."
+
+msgid "setting.entry.player.compressor.release"
+msgstr "Пуштање"
+
+msgid "setting.entry.player.compressor.release.description"
+msgstr ""
+"**Распон:** 0 ~ 1\n"
+"\n"
+"Колико времена у секундама, је потребно како би се вредност повећала за 10 "
+"децибела."
+
+msgid "setting.entry.player.compressor.threshold"
+msgstr "Праг"
+
+msgid "setting.entry.player.compressor.threshold.description"
+msgstr ""
+"**Распон:** -100 ~ 0\n"
+"\n"
+"Вредност у дециблеима, изнад које компресија почиње да ступа на снагу."
+
+msgid "setting.entry.player.ext-hide"
+msgstr "Прикажи додатке на екрану"
+
+msgid "setting.entry.player.ext-hide.values.0"
+msgstr "Увек"
+
+msgid "setting.entry.player.ext-hide.values.1"
+msgstr "Са контролама"
+
+msgid "setting.entry.player.ext-hide.values.2"
+msgstr "Никад"
+
+msgid "setting.entry.player.ext-interaction"
+msgstr "Дозволи интеракцију миша са додацима на екрану."
+
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Сакриј 'догађај' (Event) прозорчић"
+
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr "Сакри прозорчић који приказује да се на каналу тренутно дешава догађај."
+
+msgid "setting.entry.player.hide-mouse"
+msgstr "Сакриј миш уколико контроле плејера нису видљиве."
+
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Сакриј 'поновни приказ' (Rerun) прозорчић"
+
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"Сакриј 'поновни приказ' (Rerun) прозорчић који се приказује изнад плејера "
+"када тренутни канал пушта видео а није уживо."
+
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "Сакриј 'групни стримови' (Squad Streaming) прозорчић"
+
+msgid "setting.entry.player.home.autoplay"
+msgstr "Аутоматски покрени снимке уживо на почетној страници."
+
+msgid "setting.entry.player.no-autoplay"
+msgstr "Спречи аутоматско приказивање преноса уживо када дођете на канал."
+
+msgid "setting.entry.player.no-autoplay.description"
+msgstr "Напомена: Ова функција се не понавља при директном мењању канала."
+
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Аутоматски отвори позориште мод када посетите канал."
+
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Прикажи метаподатке када је миш на плејеру."
+
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Сакриј шапате ако је позориште мод активан."
+
+msgid "setting.entry.player.vod.autoplay"
+msgstr "Аутоматски покрени следећи препоручен видео при завршетку видео снимка."
+
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Увек прикажи клизач за јачину звука."
+
+msgid "setting.entry.player.volume-scroll"
+msgstr "Дозволи подешавање звука скролом од миша."
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Ова функција неће радити подразумевано уколико канал садржи додатке који "
+"дозвољавају интеракцију миша са додацима.*"
+
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Количина помицања"
+
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr "Количина помицања при једном померају скрола."
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.01"
+msgstr "1%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.02"
+msgstr "2%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.05"
+msgstr "5%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.1"
+msgstr "10%"
+
+msgid "setting.entry.profiles"
+msgstr "профили"
+
+msgid "setting.entry.reports.error.enable"
+msgstr "Аутоматски пошаљи извештај када дође до грешке."
+
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Пошаљи и снимак подешавања у извештају."
+
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Знајући тачно која подешавања користите када дође до грешке, намa користи "
+"за репродукцију проблема."
+
+msgid "setting.entry.reports.error.include-user"
+msgstr "Пошаљи и ID корисника када се шаље извештај."
+
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"Повремено је корисно да знамо који корисници се суочавају са проблемима у "
+"оквиру апликације, како би ми могли да проверимо специфичан емотикон, беџ, "
+"сет... који изазива проблеме."
+
+msgid "setting.entry.socket.use-cluster"
+msgstr "Server Cluster"
+
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"Which server cluster to connect to. Do not change this unless you are "
+"actually doing development work on the socket server backend. Doing so will "
+"break all features relying on the socket server, including emote "
+"information lookups, link tooltips, and live data updates."
+
+msgid "setting.entry.socket.use-cluster.values.Development"
+msgstr "Развој"
+
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Онемогућено"
+
+msgid "setting.entry.socket.use-cluster.values.Production"
+msgstr "Продукција"
+
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Прикажи Twitch Prime подсетник."
+
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Прикажи круну на дугмету за претплату када имате могућност претплате са "
+"Twitch Prime - ом."
+
+msgid "setting.entry.theme.color.background"
+msgstr "Позадина"
+
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"За нешто слично тамној теми, покушајте `#0E0C13` или `#0E0E0E` за пријатну "
+"црно-сиву тему. Прозирне (транспарентне) боје нису дозвољене."
+
+msgid "setting.entry.theme.color.text"
+msgstr "Текст"
+
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Ако ово није подешено, аутоматски ће бити подешено на црно или бело у "
+"зависности од светлости позадине."
+
+msgid "setting.entry.theme.dark"
+msgstr "Сива (без љубичасте)"
+
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"Ова опција захтева да је тамна тема укључена.\n"
+"\n"
+"Ова опција ће бити избачена у скорије време, како нови систем тема сазрева.\n"
+"CSS који се учитава помоћу ове опције је превелик и изазива проблеме са "
+"перфомансама."
+
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Прикажи велике слике беџева."
+
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Прикажи велике слике емотикона."
+
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Прикажи познате изворе."
+
+msgid "setting.entry.tooltip.images"
+msgstr "Прикажи слике у тултиповима."
+
+msgid "setting.entry.tooltip.link-images"
+msgstr "Прикажи слике за линкове."
+
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Дозволи интеракцију са линковима који подржавају тултипове."
+
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Прокажи слике које нису потенцијално безбедне."
+
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"Када је омогућено, FrankerFaceZ апликација ће да обухвати слике које су "
+"таговане као неприкладне."
+
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Прикажи тултипове за линкове."
+
+msgid "setting.entry.whispers.show"
+msgstr "Прикажи шапате"
+
+msgid "setting.example"
+msgstr "Пример:"
+
+msgid "setting.experiments.about"
+msgstr ""
+"Ова опција вам дозвољава да надгласите експериментне вредности. Молимо вас "
+"да имате на уму да је за већину експеримената потребно да освежите страницу "
+"како би промене биле видљиве."
+
+msgid "setting.experiments.active"
+msgstr "Овај експеримент је активан."
+
+msgid "setting.experiments.entry"
+msgstr "{value,tostring} (weight: {weight,tostring})"
+
+msgid "setting.experiments.ffz"
+msgstr "FrankerFaceZ Експерименти"
+
+msgid "setting.experiments.inactive"
+msgstr "Овај експеримент није активан."
+
+msgid "setting.experiments.sort-name"
+msgstr "Сортирај по: Имену"
+
+msgid "setting.experiments.sort-rarity"
+msgstr "Сортирај по: Реткости"
+
+msgid "setting.experiments.twitch"
+msgstr "Twitch експериметни"
+
+msgid "setting.experiments.unique-id"
+msgstr "Уникатан ID: {id}"
+
+msgid "setting.experiments.unset"
+msgstr "избриши"
+
+msgid "setting.export"
+msgstr "Експортуј"
+
+msgid "setting.false"
+msgstr "Нетачно"
+
+msgid "setting.filter.if.else"
+msgstr "Или"
+
+msgid "setting.filter.if.then"
+msgstr "Онда"
+
+msgid "setting.filter.page.url"
+msgstr "УРЛ: {url}"
+
+msgid "setting.filters.active"
+msgstr "Ово правило се подудара."
+
+msgid "setting.filters.add"
+msgstr "Додајте"
+
+msgid "setting.filters.add-new"
+msgstr "Додај ново правило"
+
+msgid "setting.filters.empty"
+msgstr "(без филтера)"
+
+msgid "setting.filters.if.fail"
+msgstr "Ова грана је активна зато што је услов нетачан."
+
+msgid "setting.filters.if.no_fail"
+msgstr "Ова грана није активна зато што је услов тачан."
+
+msgid "setting.filters.if.no_pass"
+msgstr "Ова грана није активна зато што је услов нетачан."
+
+msgid "setting.filters.if.pass"
+msgstr "Ова грана је активна зато што је услов тачан."
+
+msgid "setting.filters.inactive"
+msgstr "Ово правило се не подудара"
+
+msgid "setting.hidden"
+msgstr "Сакривено"
+
+msgid "setting.home"
+msgstr "Почетна"
+
+msgid "setting.home.changelog"
+msgstr "Измене"
+
+msgid "setting.home.faq"
+msgstr "ЧПП"
+
+msgid "setting.home.feedback"
+msgstr "Повратне информације"
+
+msgid "setting.home.feedback.log"
+msgstr "Логови"
+
+msgid "setting.home.legal"
+msgstr "Легално"
+
+msgid "setting.icon.clear"
+msgstr "Избриши"
+
+msgid "setting.icon.search"
+msgstr "Претражите иконицу"
+
+msgid "setting.import"
+msgstr "Унесите..."
+
+msgid "setting.inheritance"
+msgstr "Тачка наслеђивања"
+
+msgid "setting.inherited-from"
+msgstr "Наслеђено од: {title}"
+
+msgid "setting.key.alt"
+msgstr "Алт"
+
+msgid "setting.key.ctrl"
+msgstr "Цтрл"
+
+msgid "setting.key.meta"
+msgstr "Мета"
+
+msgid "setting.key.shift"
+msgstr "Шифт"
+
+msgid "setting.new"
+msgstr "Ново"
+
+msgid "setting.overridden-by"
+msgstr "Надглашено од: {title}"
+
+msgid "setting.player"
+msgstr "Плејер"
+
+msgid "setting.player.closed_captioning"
+msgstr "Затворено титловање"
+
+msgid "setting.player.closed_captioning.font"
+msgstr "Фонт"
+
+msgid "setting.player.closed_captioning.position"
+msgstr "Положај"
+
+msgid "setting.player.compressor"
+msgstr "Компресор звука"
+
+msgid "setting.player.compressor.advanced"
+msgstr "Напредно"
+
+msgid "setting.player.compressor.description"
+msgstr ""
+"Ова подешавања управљају опционом компресијом динамичког распона за плејер, "
+"облик обраде звука који смањује јачину гласних звукова и појачава тихе "
+"звукове, нормализујући или компримирајући јачину. Алатка коришћена за "
+"компресију је "
+"[DynamicsCompressorNode](https://developer.mozilla.org/en-US/docs/Web/API/"
+"DynamicsCompressorNode) Web Audio API кликните на линк уколико желите да "
+"сазнате више."
+
+msgid "setting.player.compressor.general"
+msgstr "Опште"
+
+msgid "setting.player.general"
+msgstr "Опште"
+
+msgid "setting.player.general.extensions"
+msgstr "Додаци"
+
+msgid "setting.player.general.general"
+msgstr "Опште"
+
+msgid "setting.player.general.playback"
+msgstr "Репродукција"
+
+msgid "setting.player.general.theatre_mode"
+msgstr "Позориште мод"
+
+msgid "setting.player.general.volume"
+msgstr "Звук"
+
+msgid "setting.profiles.active"
+msgstr "Овај профил је омогућен и активан."
+
+msgid "setting.profiles.configure"
+msgstr "Конфигуришите"
+
+msgid "setting.profiles.default"
+msgstr "Уобичајени профил"
+
+msgid "setting.profiles.default.description"
+msgstr "Подешавања која ће се аплицирати свугде на Twitch - у."
+
+msgid "setting.profiles.disabled"
+msgstr "Овај профил је онемогућен."
+
+msgid "setting.profiles.disabled.description"
+msgstr ""
+"Овај профил је онемогућен, тако да промене које буду извршене овде, неће "
+"утицати на Twitch."
+
+msgid "setting.profiles.disabled.rules"
+msgstr "Овај профил је омогућен, али није активан због његових правила."
+
+msgid "setting.profiles.drag"
+msgstr "Превуците профиле како бисте променили њихов приоритет."
+
+msgid "setting.profiles.inactive"
+msgstr "Овај профил није активан."
+
+msgid "setting.profiles.inactive.description"
+msgstr ""
+"Ова правила профила се не поклапају са тренутним контекстом, због тога, "
+"профил није тренутно активан и промене неће бити приказане на Twitch - у."
+
+msgid "setting.profiles.moderation"
+msgstr "Модерација"
+
+msgid "setting.profiles.moderation.description"
+msgstr "Подешавања која ће се аплицирати када сте модератор тренутног канала."
+
+msgid "setting.profiles.new"
+msgstr "Нови профил"
+
+msgid "setting.profiles.warn-delete"
+msgstr ""
+"Да ли сте сигурни да желите да обришете овај профил? Ово не може бити "
+"враћено."
+
+msgid "setting.profile.updates"
+msgstr "Овај профил ће се аутоматски ажутирати из следеће УРЛ адресе:"
+
+msgid "setting.reasons.add-default"
+msgstr "Додај подразумевано"
+
+msgid "setting.reasons.add-default-tip"
+msgstr "Додај све подразумеване разлоге на овај профил."
+
+msgid "setting.reasons.add-placeholder"
+msgstr "Додај нови разлог"
+
+msgid "setting.reasons.delete-all"
+msgstr "Избриши све профиле разлога."
+
+msgid "setting.reasons.info"
+msgstr ""
+"'Разлози' могу бити изабрани и кориштени као додатне информације при "
+"бановању корисника."
+
+msgid "setting.reasons.no-reasons"
+msgstr "ниједан разлог није дефинисан за овај профил"
+
+msgid "setting.reset"
+msgstr "Ресетуј подешавања на подразумевана"
+
+msgid "setting.reset-all"
+msgstr "Врати све на подразумевано"
+
+msgid "setting.right-click-reset"
+msgstr "Десни клик да ресетујете"
+
+msgid "setting.save"
+msgstr "Сачувај"
+
+msgid "settings.back"
+msgstr "Назад"
+
+msgid "settings.filter.category"
+msgstr "Тренутна категорија"
+
+msgid "settings.filter.channel"
+msgstr "Тренутни канал"
+
+msgid "settings.filter.if"
+msgstr "Ако"
+
+msgid "settings.filter.invert"
+msgstr "Обрни"
+
+msgid "settings.filter.moderator"
+msgstr "Је модератор"
+
+msgid "settings.filter.native-dark"
+msgstr "Црна тема"
+
+msgid "settings.filter.or"
+msgstr "Или"
+
+msgid "settings.filter.page"
+msgstr "Тренутна страница"
+
+msgid "settings.filter.page.route.addons.deck"
+msgstr "Deck"
+
+msgid "settings.filter.page.route.addons.deck.tab"
+msgstr "Таб тастер"
+
+msgid "settings.filter.page.route.collection"
+msgstr "Колекција"
+
+msgid "settings.filter.page.route.command-center"
+msgstr "Командни центар"
+
+msgid "settings.filter.page.route.dash"
+msgstr "Контролна табла"
+
+msgid "settings.filter.page.route.dash-achievements"
+msgstr "Командна табла: Достигнућа"
+
+msgid "settings.filter.page.route.dash-activity"
+msgstr "Командна табла: Активност"
+
+msgid "settings.filter.page.route.dash-channel-analytics"
+msgstr "Командна табла: Статистике канала"
+
+msgid "settings.filter.page.route.dash-channel-points"
+msgstr "Командна табла: Поени канала"
+
+msgid "settings.filter.page.route.dash-chat"
+msgstr "Контролна табла ћаскања у новом прозорчићу"
+
+msgid "settings.filter.page.route.dash-chat.userName"
+msgstr "Корисничко име"
+
+msgid "settings.filter.page.route.dash-clips"
+msgstr "Командна табла: Клипови"
+
+msgid "settings.filter.page.route.dash-collections"
+msgstr "Командна табла: Колекције"
+
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Командна табла: Измени колекције"
+
+msgid "settings.filter.page.route.dash-edit-video"
+msgstr "Командна табла: Измени видео"
+
+msgid "settings.filter.page.route.dash-extensions"
+msgstr "Командна табла: Додаци"
+
+msgid "settings.filter.page.route.dash-roles"
+msgstr "Командна табла: Улоге"
+
+msgid "settings.filter.page.route.dash-settings-channel"
+msgstr "Командна табла: Подешавања канала"
+
+msgid "settings.filter.page.route.dash-settings-moderation"
+msgstr "Командна табла: Подешавања модерације"
+
+msgid "settings.filter.page.route.dash-settings-revenue"
+msgstr "Командна табла: Подешавања прихода"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Командна табла: Алатке стрима"
+
+msgid "settings.filter.page.route.dash-stream-manager"
+msgstr "Командна табла: Менаџер стрима"
+
+msgid "settings.filter.page.route.dash-stream-summary"
+msgstr "Командна табла: Преглед стрима"
+
+msgid "settings.filter.page.route.dash-video-producer"
+msgstr "Командна табла: Видео продуцент"
+
+msgid "settings.filter.page.route.dir"
+msgstr "Претражите"
+
+msgid "settings.filter.page.route.dir-all"
+msgstr "Претражи канале уживо"
+
+msgid "settings.filter.page.route.dir-following"
+msgstr "Пратите"
+
+msgid "settings.filter.page.route.dir-game-clips"
+msgstr "Директоријум клипова од игрица"
+
+msgid "settings.filter.page.route.dir-game-index"
+msgstr "Директоријум индекса од игрица"
+
+msgid "settings.filter.page.route.dir-game-videos"
+msgstr "Директоријум видеа од игрица"
+
+msgid "settings.filter.page.route.embed-chat"
+msgstr "Угради ћаскање"
+
+msgid "settings.filter.page.route.embed-chat.userName"
+msgstr "Корисничко име"
+
+msgid "settings.filter.page.route.event"
+msgstr "Догађај"
+
+msgid "settings.filter.page.route.front-page"
+msgstr "Почетна страница"
+
+msgid "settings.filter.page.route.popout"
+msgstr "Прикажи ћаскање у новом прозорчићу"
+
+msgid "settings.filter.page.route.popout.userName"
+msgstr "Корисничко име"
+
+msgid "settings.filter.page.route.prime"
+msgstr "Prime"
+
+msgid "settings.filter.page.route.product"
+msgstr "Производ"
+
+msgid "settings.filter.page.route.squad"
+msgstr "Група"
+
+msgid "settings.filter.page.route.turbo"
+msgstr "Турбо"
+
+msgid "settings.filter.page.route.user"
+msgstr "Корисник"
+
+msgid "settings.filter.page.route.user-clip"
+msgstr "Клипови корисника"
+
+msgid "settings.filter.page.route.user-clips"
+msgstr "Клипови корисника"
+
+msgid "settings.filter.page.route.user-collections"
+msgstr "Колекције корисника"
+
+msgid "settings.filter.page.route.user-events"
+msgstr "Догађаји корисника"
+
+msgid "settings.filter.page.route.user-followers"
+msgstr "Пратиоци корисника"
+
+msgid "settings.filter.page.route.user-following"
+msgstr "Корисник прати"
+
+msgid "settings.filter.page.route.user-video"
+msgstr "Видео канала"
+
+msgid "settings.filter.page.route.user-videos"
+msgstr "Видео снимци корисника"
+
+msgid "settings.filter.page.route.video"
+msgstr "Видео"
+
+msgid "settings.filter.squad"
+msgstr "Групни режим"
+
+msgid "settings.filter.theater"
+msgstr "Режим позоришта"
+
+msgid "settings.filter.time"
+msgstr "Доба дана"
+
+msgid "settings.filter.time.end"
+msgstr "Крај:"
+
+msgid "settings.filter.time.start"
+msgstr "Почетак:"
+
+msgid "settings.filter.title"
+msgstr "Тренутни наслов"
+
+msgid "settings.filter.title.sensitive"
+msgstr "Велика и мала слова"
+
+msgid "settings.filter.title.warn-complex"
+msgstr ""
+"Овај шаблон је потенцијално превише комплексан. Биће искључен како би се "
+"избегли проблеми са перформансама."
+
+msgid "settings.filter.title.warn-invalid"
+msgstr "Овај шаблон није валидан."
+
+msgid "settings.filter.true_false"
+msgstr "Тачно или нетачно"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Додај нови термин"
+
+msgid "setting.terms.add-term"
+msgstr "Додај"
+
+msgid "setting.terms.no-terms"
+msgstr "ниједан термин није дефинисан за овај прoфил"
+
+msgid "setting.terms.remove.off"
+msgstr "Немој да бришеш подударајуће поруке из ћаскања."
+
+msgid "setting.terms.remove.on"
+msgstr "Ижбриши исте поруке у ћаскању."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+msgid "setting.terms.type.text"
+msgstr "Текст"
+
+msgid "setting.tooltip-example"
+msgstr "Ради примера, молимо вас да мишем пређете преко овог линка:"
+
+msgid "setting.true"
+msgstr "Тачно"
+
+msgid "setting.unset"
+msgstr "Поништи"
+
+msgid "setting.visible"
+msgstr "Видљиво"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Ове вредности су надглашене од стране другог профила и можда неће имати "
+"никакав ефекат."
+
+msgid "setting.warn-unsaved"
+msgstr ""
+"Имате несачуваних подешавања. Да ли сте сигурни да желите да изађете из "
+"едитора?"

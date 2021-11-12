@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/ffzap-core/components/highlight-sound.vue:73
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-file"
+msgstr "Custom (File)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:60
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-url"
+msgstr "Custom (URL)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:47
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.preset-sound"
+msgstr "Preset Sound"
+
+#: /src/ffzap-core/components/highlight-sound.vue:139
+#, icu-message-format
+msgid "addon.ffzap-core.no-file-support"
+msgstr ""
+"Custom files are not supported by the current storage provider.\n"
+"Please change your storage provider in Data Management > Storage >> "
+"Provider."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "FFZ:AP Core"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Emotes"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Highlight Sounds"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Sound Trigger Settings"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Enable Highlight Sound"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Hear a sound every time a message is highlighted."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Sound"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Change the sound that will play when a sound trigger is activated."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Prevent In Own Channel"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Prevent the sound from playing in your own channel."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
+msgstr "Play When Badge Highlighted"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Play a highlight sound when a badge from the \"Highlight Badges\" list is "
+"being highlighted."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Play When Mentioned"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr ""
+"Play a highlight sound when you are being mentioned in chat by your "
+"username."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Play When"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Play a highlight sound when a chat line is highlighted for one of the "
+"selected reasons."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term"
+msgstr "Play When Term Highlighted"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Play a highlight sound when a term from the \"Highlight Terms\" list is "
+"being highlighted."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user"
+msgstr "Play When User Highlighted"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Play When New Account Highlighted"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Play a highlight sound when a new account is being highlighted. (Requires "
+"\"New Account Highlighter\" add-on)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Play a highlight sound when a user from the \"Highlight Users\" list is "
+"being highlighted."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Highlight Sound Volume"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Change the volume at which the highlight sounds will be played at."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.10"
+msgstr "10%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.100"
+msgstr "100%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.20"
+msgstr "20%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.30"
+msgstr "30%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.40"
+msgstr "40%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.5"
+msgstr "5%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.50"
+msgstr "50%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.60"
+msgstr "60%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.70"
+msgstr "70%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.80"
+msgstr "80%"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.highlight_sound_volume.values.90"
+msgstr "90%"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Message User-Level Filtering"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Messages will be removed from chat entirely if they aren't sent by a user "
+"of this level or higher."
+
+#, icu-message-format
+msgid "setting.entry.ffzap.core.message_deletion.values.0"
+msgstr "Display All Messages"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.message_deletion.values.1"
+msgstr "Display Subscriber Messages"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.core.message_deletion.values.2"
+msgstr "Display Moderator Messages"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "Remove Spaces Between Emotes"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces.description"
+msgstr ""
+"Remove spaces inbetween emotes when they are right after one another. (e.g. "
+"combo emotes)"

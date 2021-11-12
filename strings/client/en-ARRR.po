@@ -1,0 +1,1024 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Upload"
+
+msgid "autocomplete.empty"
+msgstr "There be no results."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"(Subscribed fer {count,number} Month{count,en_plural})"
+
+msgid "badges.subscriber.months"
+msgstr ""
+"{title}\n"
+"({count,number} Month{count,en_plural})"
+
+msgid "badges.subscriber.tier-months"
+msgstr ""
+"{title}\n"
+"(Tier {tier}, {months,number} Month{months,en_plural})"
+
+msgid "card.empty"
+msgstr "No data was returned."
+
+msgid "card.error"
+msgstr "An error occurred."
+
+msgid "card.error.timeout"
+msgstr "The request timed out."
+
+msgid "card.loading"
+msgstr "Loadin'..."
+
+msgid "cards.user.stats"
+msgstr "Views: {views,number} • Followers: {followers,number}"
+
+msgid "cards.user.streaming"
+msgstr "streamin' {game}"
+
+msgid "channel.links.clips"
+msgstr "Clips"
+
+msgid "channel.links.schedule"
+msgstr "Schedule"
+
+msgid "channel.links.videos"
+msgstr "Videos"
+
+msgid "chat.actions.ban"
+msgstr "Ban User"
+
+msgid "chat.actions.ban-reason"
+msgstr "Ban {user.login} fer:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Ban {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Chat Command"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Scuttle {user.login}'s message"
+
+msgid "chat.actions.edit_overrides"
+msgstr "Change Name & Color"
+
+msgid "chat.actions.edit_overrides.desc"
+msgstr "Allows ye t' set local overrides fer a user's name an' color in chat."
+
+msgid "chat.actions.msg_delete"
+msgstr "Scuttle Message"
+
+msgid "chat.actions.open_url"
+msgstr "Open URL"
+
+msgid "chat.actions.reply"
+msgstr "Reply t' Message"
+
+msgid "chat.actions.reply.desc"
+msgstr ""
+"Allows ye t' directly reply t' another user's message. Only functions when "
+"the Chat Replies Style be \"FrankerFaceZ\"."
+
+msgid "chat.actions.reply.thread"
+msgstr "Open Thread"
+
+msgid "chat.actions.select-reason"
+msgstr "Please select a reason from the list below:"
+
+msgid "chat.actions.timeout"
+msgstr "Timeout User"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} second{options.duration,en_plural}"
+
+msgid "chat.actions.timeout-reason"
+msgstr "Timeout {user.login} fer {duration,number} second{duration,en_plural} fer:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr "Timeout {user.login} fer {duration,number} second{duration,en_plural}"
+
+msgid "chat.actions.unban"
+msgstr "Unban User"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "Unban {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Unknown Action Type"
+
+msgid "chat.actions.untimeout"
+msgstr "Untimeout User"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Untimeout {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Whisper User"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Whisper {user.login}"
+
+msgid "chat.bits-message"
+msgstr "Cheered {count, plural, one {# Bit} other {# Bits}}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {One message was scuttled by a moderator.}\n"
+"other {# messages were scuttled by a moderator.}\n"
+"}"
+
+msgid "chat.ffz-badge.about"
+msgstr ""
+"This 'ere badge appears globally fer users with FrankerFaceZ. Please visit "
+"the {website} t' change this here badge."
+
+msgid "chat.ffz-badge.site"
+msgstr "Please visit the {website} t' change this 'ere badge."
+
+msgid "chat.ffz-badge.site-link"
+msgstr "FrankerFaceZ website"
+
+msgid "chat.ffz-badge.title"
+msgstr "FrankerFaceZ Badge"
+
+msgid "chat.filtering.automod.A"
+msgstr "'ostility"
+
+msgid "chat.filtering.automod.I"
+msgstr "Discrimination"
+
+msgid "chat.filtering.automod.P"
+msgstr "Profanity"
+
+msgid "chat.filtering.automod.S"
+msgstr "Sexually Explicit Language"
+
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod Blocked Term"
+
+msgid "chat.filtering.automod-why"
+msgstr "This 'ere been flagged as:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Blocked Term"
+
+msgid "chat.identity-menu"
+msgstr "Chat Identity"
+
+msgid "chat.ignore-clear"
+msgstr "An attempt by a moderator t' clear chat been ignored."
+
+msgid "chat.message-deleted"
+msgstr "<message scuttled>"
+
+msgid "chat.messages-below"
+msgstr "Chat Paused Due t' Scroll"
+
+msgid "chat.mod-action.ban"
+msgstr "Banned"
+
+msgid "chat.mod-action.by"
+msgstr "{action} by {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Scuttled"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} Timeout"
+
+msgid "chat.overrides.color"
+msgstr "Color"
+
+msgid "chat.overrides.editing"
+msgstr "Editin' {user.login}..."
+
+msgid "chat.overrides.name"
+msgstr "Name"
+
+msgid "chat.paused"
+msgstr "Chat Paused Due t' {reason}"
+
+msgid "chat.points.bypass-sub"
+msgstr "Send a Message in Sub-Only Mode"
+
+msgid "chat.points.choose-emote"
+msgstr "Choose an Emote t' Unlock"
+
+msgid "chat.points.highlighted"
+msgstr "'ighlight Me Message"
+
+msgid "chat.points.modify-emote"
+msgstr "Modify a Single Emote"
+
+msgid "chat.points.random-emote"
+msgstr "Unlock a Random Sub Emote"
+
+msgid "chat.points.redeemed"
+msgstr "Redeemed {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Reward"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} redeemed {reward} {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "Ignorin' Broadcaster / Moderators"
+
+msgid "chat.reasons.evasion"
+msgstr "Ban Evasion"
+
+msgid "chat.reasons.hate"
+msgstr "'ate / 'arassment"
+
+msgid "chat.reasons.links"
+msgstr "Postin' Bad Links"
+
+msgid "chat.reasons.personal"
+msgstr "Threats / Personal Info"
+
+msgid "chat.reasons.spam"
+msgstr "One-Scallywag Spam"
+
+msgid "chat.reply-to"
+msgstr "Replyin' T':"
+
+msgid "chat.ritual"
+msgstr "{user} be new 'ere. Say Ahoy!"
+
+msgid "chat.settings.back"
+msgstr "Back"
+
+msgid "chat.settings.open-settings"
+msgstr "Open Control Center"
+
+msgid "chat.settings.pause"
+msgstr "Pause Chat"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ overrides the behavior o' Pause Chat entirely. Please use "
+"FFZ's Scrollin' settin's wit'in the FFZ Control Center under Chat > "
+"Behavior."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "An anonymous gifter"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"They've subscribed fer {cumulative,number} months, currently on a "
+"{streak,number} month streak!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} is giftin' {count,number} Tier {tier} Sub{count,en_plural} t' "
+"{channel}'s crew! "
+
+msgid "chat.sub.gift-first"
+msgstr "It be their first time giftin' a Sub in the channel!"
+
+msgid "chat.sub.gift-months"
+msgstr ""
+"{user} gifted {months,number} month{months,en_plural} of {plan} Sub t' "
+"{recipient}!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Tier {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "They've gifted {count} Subs in the channel!"
+
+msgid "chat.sub.main"
+msgstr "{user} subscribed {plan}. "
+
+msgid "chat.sub.months"
+msgstr "They've subscribed fer {count,number} months!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} gifted a {plan} Sub t' {recipient}! "
+
+msgid "chat.sub.plan"
+msgstr "at Tier {tier}"
+
+msgid "chat.sub.twitch-prime"
+msgstr "wit' Prime Gamin'"
+
+msgid "clip.desc.1"
+msgstr "Clip o' {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} bein' Creative"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} playin' {game}"
+
+msgid "clip.desc.2"
+msgstr "Clipped by {curator} — {views,number} View{views,en_plural}"
+
+msgid "clip.unknown"
+msgstr "Unknown"
+
+msgid "compat.bttv.emotes-on"
+msgstr ""
+"Ye 'ave \"FrankerFaceZ Emotes\" turned on in BetterTTV's settings, but ye "
+"also 'ave FrankerFaceZ installed. Please disable \"FrankerFaceZ Emotes\" in "
+"BetterTTV's settings. It isn't necessary."
+
+msgid "directory.block"
+msgstr "Block"
+
+msgid "directory.hide-thumbnails"
+msgstr "'ide thumbnails"
+
+msgid "directory.hosted"
+msgstr "'osted Channel"
+
+msgid "directory.hosted.by-many"
+msgstr "'osted by {count,number} channel{count,en_plural}"
+
+msgid "directory.hosted.by-one"
+msgstr "'osted by {user}"
+
+msgid "directory.hosting"
+msgstr "'ostin' Channels"
+
+msgid "directory.show-thumbnails"
+msgstr "Show Thumbnails"
+
+msgid "directory.unblock"
+msgstr "Unblock"
+
+msgid "directory.user-playing"
+msgstr "{user} playin' {game}"
+
+msgid "emoji.category.activities"
+msgstr "Activities"
+
+msgid "emoji.category.animals_nature"
+msgstr "Animals & Nature"
+
+msgid "emoji.category.animals___nature"
+msgstr "Animals & Nature"
+
+msgid "emoji.category.flags"
+msgstr "Flags"
+
+msgid "emoji.category.food_drink"
+msgstr "Grub & Drink"
+
+msgid "emoji.category.food___drink"
+msgstr "Food & Drink"
+
+msgid "emoji.category.objects"
+msgstr "Objects"
+
+msgid "emoji.category.people_body"
+msgstr "People"
+
+msgid "emoji.category.skin_tones"
+msgstr "Skin Tones"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Smileys & Emotions"
+
+msgid "emoji.category.smileys___people"
+msgstr "Smileys & People"
+
+msgid "emoji.category.symbols"
+msgstr "Symbols"
+
+msgid "emoji.category.travel_places"
+msgstr "Travel & Places"
+
+msgid "emoji.category.travel___places"
+msgstr "Travel & Places"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Emote"
+
+msgid "emote.bits"
+msgstr "Twitch Bits Reward"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Channel: {channel}"
+
+msgid "emote.follower"
+msgstr "Follower Emote ({source})"
+
+msgid "emote.global"
+msgstr "Twitch Global"
+
+msgid "emote.limited"
+msgstr "Limited-Time Only Emote"
+
+msgid "emote-menu.channel"
+msgstr "Channel"
+
+msgid "emote-menu.disable"
+msgstr ""
+"As a temporary workaround, try disablin' the FFZ emote menu in the FFZ "
+"Control Center."
+
+msgid "emote-menu.emoji"
+msgstr "Emoji"
+
+msgid "emote-menu.emote-cheer"
+msgstr ""
+"Cheer an additional {bits_remaining,number} bit{bits_remaining,en_plural} "
+"t' unlock this 'ere emote."
+
+msgid "emote-menu.emote-follower"
+msgstr "Follow {user} t' unlock this 'ere emote in their channel."
+
+msgid "emote-menu.emote-sub"
+msgstr "Subscribe fer {price} t' unlock this 'ere emote."
+
+msgid "emote-menu.emote-up"
+msgstr "Upgrade yer sub t' {price} t' unlock this 'ere emote."
+
+msgid "emote-menu.empty"
+msgstr "There be nothin' 'ere."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"Ye don't 'ave any favorite emotes. T' favorite an emote, find it an' "
+"{hotkey}-click it."
+
+msgid "emote-menu.empty-search"
+msgstr "There be no matchin' emotes."
+
+msgid "emote-menu.error"
+msgstr "There been an error renderin' this 'ere menu."
+
+msgid "emote-menu.error-report"
+msgstr "An error report has been automatically submitted."
+
+msgid "emote-menu.favorites"
+msgstr "Favorites"
+
+msgid "emote-menu.featured"
+msgstr "Featured"
+
+msgid "emote-menu.global"
+msgstr "Global Emotes"
+
+msgid "emote-menu.inventory"
+msgstr "Inventory"
+
+msgid "emote-menu.loading"
+msgstr "Loadin'..."
+
+msgid "emote-menu.main-set"
+msgstr "Channel Emotes"
+
+msgid "emote-menu.misc"
+msgstr "Miscellaneous"
+
+msgid "emote-menu.my-emotes"
+msgstr "Me Emotes"
+
+msgid "emote-menu.points"
+msgstr "Unlocked wit' Points"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Refresh Data"
+
+msgid "emote-menu.search"
+msgstr "Search fer Emotes"
+
+msgid "emote-menu.search-emoji"
+msgstr "Search fer Emoji"
+
+msgid "emote-menu.settings"
+msgstr "Open Settin's"
+
+msgid "emote-menu.sub-basic"
+msgstr "Subscribe t' unlock some emotes"
+
+msgid "emote-menu.sub-ends"
+msgstr "This 'ere sub ends in {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "This 'ere gifted sub ends in {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"This 'ere be yer free sub wit' Twitch Prime.\n"
+"It ends in {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr "This 'ere sub renews in {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Subscriber Emotes"
+
+msgid "emote-menu.sub-unlock"
+msgstr "Subscribe fer {price} t' unlock {count,number} emote{count,en_plural}"
+
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+"Emote Visibility Control allows ye t' 'ide emotes from yer emote menu, "
+"either individually or by set. With Emote Visibility Control enabled, just "
+"click an emote t' 'ide or un'ide it. Please note that ye will still see the "
+"emotes in chat if someone uses them, but they won't appear in yer emote "
+"menu."
+
+msgid "emote-menu.toggle-hide.off"
+msgstr "Emote Visibility Control"
+
+msgid "emote-menu.toggle-hide.on"
+msgstr "Exit Emote Visibility Control"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Unknown Source"
+
+msgid "emote-menu.unknown-set"
+msgstr "Set #{set_id}"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "'idden"
+
+msgid "emote-menu.visibility.visible"
+msgstr "Visible"
+
+msgid "emote.owner"
+msgstr "By: {owner}"
+
+msgid "emote.prime"
+msgstr "Prime Gamin'"
+
+msgid "error.try-again"
+msgstr "Try Again"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Unfollow {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Notifications be currently enabled. Click t' disable."
+
+msgid "hl-reason.badge"
+msgstr "'ighlight Badge"
+
+msgid "hl-reason.mention"
+msgstr "Mentioned"
+
+msgid "hl-reason.term"
+msgstr "'ighlight Term"
+
+msgid "hl-reason.user"
+msgstr "'ighlight User"
+
+msgid "i18n.diff.added"
+msgstr ""
+"Added:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Removed:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Interested in 'elpin' out with the localization efforts? Please [join our "
+"Discord](https://discord.gg/UrAkGhT) an' join the chat in the localization "
+"channel.\n"
+" \n"
+"This 'ere tool allows translators t' test their strings in real-time in the "
+"app. That way ye can be sure everythin' looks right before submittin' yer "
+"translations."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} Complete)"
+
+msgid "i18n.ui.added"
+msgstr "New Strings"
+
+msgid "i18n.ui.all"
+msgstr "All Strings"
+
+msgid "i18n.ui.changed"
+msgstr "Changed Strings"
+
+msgid "i18n.ui.context"
+msgstr "Context"
+
+msgid "i18n.ui.existing"
+msgstr "Existin' Strings"
+
+msgid "i18n.ui.invalid"
+msgstr "Invalid Strings"
+
+msgid "i18n.ui.open"
+msgstr "Open Translation Tester"
+
+msgid "i18n.ui.pages"
+msgstr "Page {current,number} o' {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Pendin' Strings"
+
+msgid "i18n.ui.popout"
+msgstr "Open the Translation Editor in a New Window"
+
+msgid "i18n.ui.preview"
+msgstr "Preview"
+
+msgid "i18n.ui.refresh"
+msgstr "Refresh Strings"
+
+msgid "i18n.ui.save"
+msgstr "Generate Change Blob"
+
+msgid "i18n.ui.search"
+msgstr "Search Strings"
+
+msgid "i18n.ui.source"
+msgstr "Source"
+
+msgid "i18n.ui.title"
+msgstr "Translation Tester"
+
+msgid "i18n.ui.upload"
+msgstr "Upload Changes"
+
+msgid "key.alt"
+msgstr "Alt Key"
+
+msgid "key.alt_mouse"
+msgstr "Alt or Mouse"
+
+msgid "key.ctrl"
+msgstr "Ctrl Key"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl or Mouse"
+
+msgid "key.hover"
+msgstr "Hover"
+
+msgid "key.meta"
+msgstr "Meta Key"
+
+msgid "key.meta_mouse"
+msgstr "Meta or Mouse"
+
+msgid "key.mouse"
+msgstr "Mouse Movement"
+
+msgid "key.shift"
+msgstr "Shift Key"
+
+msgid "key.shift_mouse"
+msgstr "Shift or Mouse"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Marrrk All Seen"
+
+msgid "main-menu.popout"
+msgstr "Open Settin's in a New Window"
+
+msgid "main-menu.search"
+msgstr "Search Settin's"
+
+msgid "main-menu.version"
+msgstr "Version {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Featured"
+
+msgid "metadata.featured-follow.title"
+msgstr "Featured Channels"
+
+msgid "metadata.host.add-channel"
+msgstr "Add T' Auto 'ost"
+
+msgid "metadata.host-button.host"
+msgstr "'ost"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Currently 'ostin': {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "None"
+
+msgid "metadata.host-button.unhost"
+msgstr "Un'ost"
+
+msgid "metadata.host-button.updating"
+msgstr "Updatin'..."
+
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr "Automatically 'ost channels from yer 'ost list when ye be offline."
+
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "Auto 'osting"
+
+msgid "metadata.host.setting.strategy.description"
+msgstr "When enabled, 'ost channels be chosen randomly from the list."
+
+msgid "metadata.host.setting.strategy.title"
+msgstr "Randomize 'ost Order"
+
+msgid "metadata.host.setting.team-hosting.description"
+msgstr "Include team channels in yer 'ost list."
+
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "Team 'ostin'"
+
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr "Include channels streamin' pre-recorded video, like Premieres or Reruns"
+
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "'ost pre-recorded videos"
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Auto 'ost"
+
+msgid "metadata.host.tab.settings"
+msgstr "Settin's"
+
+msgid "metadata.host.title"
+msgstr "Auto 'ost Management"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Broadcast {count,number}s Ago"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Yer local clock seems t' be off by roughly {count,number} seconds, which "
+"could make this 'ere inaccurate."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Stream Latency"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "Playin' at {rate,number}x speed t' reduce delay."
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Latency"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Video: {videoResolution}p{fps}\n"
+"Playback Rate: {playbackRate, number} Kbps\n"
+"Dropped Frames: {skippedFrames, number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Video Information"
+
+msgid "metadata.uptime.copy"
+msgstr "Copy t' Clipboard"
+
+msgid "metadata.uptime.link-to"
+msgstr "Link t' {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(since {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Uptime"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Stream Uptime"
+
+msgid "metadata.viewers"
+msgstr "Viewer Count"
+
+msgid "page.next"
+msgstr "Next Page"
+
+msgid "page.previous"
+msgstr "Previous Page"
+
+msgid "player.comp_button.disabled"
+msgstr "Audio Compressor cannot be enabled when viewin' Clips."
+
+msgid "player.comp_button.firefox"
+msgstr ""
+"Playback Speed controls will not function fer Firefox users when the "
+"Compressor has been enabled."
+
+msgid "player.comp_button.help"
+msgstr ""
+"See the FFZ Control Center fer details. If audio breaks, please reset the "
+"player."
+
+msgid "player.comp_button.off"
+msgstr "Disable Audio Compressor"
+
+msgid "player.comp_button.on"
+msgstr "Audio Compressor"
+
+msgid "player.gain.label"
+msgstr "Gain Control"
+
+msgid "player.pip_button"
+msgstr "Picture-in-Picture"
+
+msgid "player.pip_button.fs"
+msgstr "Cannot use Picture-in-Picture when Fullscreen"
+
+msgid "player.pip_button.off"
+msgstr "Exit Picture-in-Picture"
+
+msgid "player.reset_button"
+msgstr "Reset Player (Double-Click)"
+
+msgid "player.reset_button.all"
+msgstr "Reset All Players (Double-Click)"
+
+msgid "popup.error"
+msgstr ""
+"We tried openin' a pop-up window an' could not. Make sure to allow pop-ups "
+"from Twitch."
+
+msgid "site.menu_button"
+msgstr "FrankerFaceZ Control Center"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Ye 'ave loaded add-on data from a local development server."
+
+msgid "site.menu_button.changed"
+msgstr ""
+"The FrankerFaceZ settin's provider 'as changed. Please refresh this 'ere "
+"tab to' avoid strange behavior."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"There been an error loadin' the FFZ Control Center. Please refresh an' try "
+"again."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Ye be runnin' a developer build o' FrankerFaceZ."
+
+msgid "site.menu_button.new-desc"
+msgstr "There {count,plural,one {be one new settin'} other {be # new settin's}}."
+
+msgid "site.menu_button.no-settings"
+msgstr ""
+"Settin's be disabled in this 'ere tab due t' the inclusion o' \"{param}\" "
+"in the URL."
+
+msgid "site.menu_button.profiles"
+msgstr "Profiles"
+
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+"Yer local storage space fer this 'ere website be full, an' settings cannot "
+"be saved. Please backup yer settings an' switch t' a 'igher capacity "
+"provider in [Data Management > Storage >> "
+"Provider](~data_management.storage.tabs.provider)."
+
+msgid "site.menu_button.strings"
+msgstr ""
+"There {added,plural,one {be # new string} other {be # new strings}} an' "
+"{changed,plural,one {# changed string} other {# changed strings}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "There be an update available. Please refresh yer page."
+
+msgid "socket.info.command"
+msgstr "Command"
+
+msgid "socket.info.connected"
+msgstr "connected"
+
+msgid "socket.info.count"
+msgstr "Count"
+
+msgid "socket.info.disconnected"
+msgstr "disconnected"
+
+msgid "socket.info.local_time"
+msgstr "Local Time"
+
+msgid "socket.info.ping"
+msgstr "Ping"
+
+msgid "socket.info.server"
+msgstr "Server"
+
+msgid "socket.info.server_time"
+msgstr "Server Time"
+
+msgid "socket.info.state"
+msgstr "State"
+
+msgid "socket.info.stats.authenticated"
+msgstr "Authenticated"
+
+msgid "socket.info.stats.connected_clients"
+msgstr "Connected Clients"
+
+msgid "socket.info.stats.live_clients"
+msgstr "Live Clients"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Commands"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Messages"
+
+msgid "socket.info.stats.versions"
+msgstr "Client Versions"
+
+msgid "socket.info.time_offset"
+msgstr "Time Offset"
+
+msgid "socket.info.topics"
+msgstr "Topics"
+
+msgid "socket.info.version"
+msgstr "Version"
+
+msgid "sub-button.prime"
+msgstr "Yer free channel sub with Prime be available."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bits"
+
+msgid "tooltip.bits.more"
+msgstr "(an' {count} more)"
+
+msgid "tooltip.channel"
+msgstr "Channel: {source}"
+
+msgid "tooltip.email-link"
+msgstr "E-Mail {address}"
+
+msgid "tooltip.emoji"
+msgstr "Emoji - {category}"
+
+msgid "tooltip.emote"
+msgstr "Emote: {name}"
+
+msgid "tooltip.error"
+msgstr "An error occurred. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Destination: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr "Caution: This 'ere URL be on Google's Safe Browsin' List fer: {reasons}"
+
+msgid "tooltip.link.urls"
+msgstr "Visited URRRLs"
+
+msgid "tooltip.render-error"
+msgstr ""
+"There been an error renderin' this 'ere tooltip.\n"
+"{err}"
+
+msgid "tooltip.shift-detail"
+msgstr "(Shift for Details)"
+
+msgid "video-chat.jump"
+msgstr "Jump t' Video"
+
+msgid "video-chat.reply"
+msgstr "Reply"
+
+msgid "video-chat.show-more"
+msgstr "Show more replies..."
+
+msgid "video-chat.time"
+msgstr "{time,humantime} ago"
+
+msgid "video.desc.1"
+msgstr "Video o' {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Views - {date,datetime}"
+
+msgid "video.published-on"
+msgstr "Published on: {date,date}"

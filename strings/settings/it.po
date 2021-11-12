@@ -1,0 +1,2892 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "addon.author"
+msgstr "Di: {author}"
+
+msgid "addon.deck.author"
+msgstr "SirStendec"
+
+msgid "addon.deck.name"
+msgstr "Deck"
+
+msgid "addon.disable"
+msgstr "Disattiva"
+
+msgid "addon.enable"
+msgstr "Attiva"
+
+msgid "addon.enabled"
+msgstr "Attivato"
+
+msgid "addon.ffzap-bttv.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-bttv.name"
+msgstr "Emote di BetterTTV"
+
+msgid "addon.ffzap-core.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-core.name"
+msgstr "Pacchetto principale di componenti aggiuntivi di FrankerFaceZ"
+
+msgid "addon.ffzap-liriklive.author"
+msgstr "Lordmau5"
+
+msgid "addon.ffzap-liriklive.name"
+msgstr "LirikLIVE"
+
+msgid "addon.settings"
+msgstr "Impostazioni"
+
+msgid "addon.unlisted"
+msgstr "Non in lista"
+
+msgid "addon.unlisted.add"
+msgstr "Aggiungine un altro..."
+
+msgid "addon.unlisted.explain"
+msgstr ""
+"I componenti aggiuntivi non indicizzati sono stati analizzati e approvati "
+"ma hanno deciso di non essere mostrati sulla lista principale. Un possibile "
+"motivo è che il componente aggiuntivo è specializzato per una certa "
+"categoria di utenti, o perché ancora in sviluppo. Se conosci l'ID di un "
+"componente aggiuntivo non indicizzato, inseriscilo qui per poterlo "
+"visualizzare."
+
+msgid "addon.unlisted.id"
+msgstr "ID del componente aggiuntivo"
+
+msgid "addon.version"
+msgstr "Versione {version}"
+
+msgid "addon.website"
+msgstr "Sito web"
+
+msgid "home.about"
+msgstr ""
+"Grazie per utilizzare FrankerFaceZ.\n"
+"\n"
+"La versione 4.0 di questa estensione è sotto sviluppo attivo da quando "
+"Twitch ha rilasciato la sua versione del sito gestita da React nel 2017."
+
+msgid "home.changelog"
+msgstr "Note di rilascio"
+
+msgid "home.changelog.about-nonversioned"
+msgstr ""
+"Le commit senza versione sono commit alla repository di FrankerFaceZ che "
+"non sono associate alla build finale rilasciata al pubblico. Queste "
+"rappresentano manutenzione o contributi dalla comunità che sono state "
+"incluse in una versione sucessiva ad esse."
+
+msgid "home.changelog.by-line"
+msgstr "Da: {user}"
+
+msgid "home.changelog.current"
+msgstr "Versione attuale"
+
+msgid "home.changelog.error"
+msgstr "Si è verificato un errore nel caricamento dei cambiamenti da GitHub."
+
+msgid "home.changelog.load"
+msgstr "Carica le note di rilascio più vecchie"
+
+msgid "home.changelog.no-more"
+msgstr "Non ci sono altre commit da caricare."
+
+msgid "home.changelog.nonversioned"
+msgstr "Commit senza versione"
+
+msgid "home.changelog.show-nonversioned"
+msgstr "Includi le commit senza versione."
+
+msgid "home.discord"
+msgstr "Discord"
+
+msgid "home.faq"
+msgstr ""
+"## Domande frequenti\n"
+"\n"
+"* *Cosa è successo a [una determinata funzionalità]?*\n"
+"\n"
+"Ci sono ancora delle funzionalità mancanti da FrankerFaceZ v4.0 che erano "
+"presenti nella v3.0. Purtroppo, alcune funzioni sono poco pratiche da "
+"aggiungere alla nuova versione del sito web di Twitch.\n"
+"\n"
+"Molte funzioni sono in programma per fare il loro ritorno fintanto che gli "
+"sviluppatori hanno tempo a disposizione per implementarle. Non esiste una "
+"programmazione temporale per le impostazioni rimanenti. Le impostazioni "
+"vengono rilasciate non appena completate.\n"
+"\n"
+"* *Ho donato, ma il mio stemma non appare.*\n"
+"* *Ho aggiunto un'emote al mio canale ma non la vedo.*\n"
+"\n"
+"Per via di alcuni problemi di prestazioni sul nostro sito web, dobbiamo "
+"conservare dati sotto forma di cache nel nostro API. Per questo, potrebbe "
+"volerci fino a mezz'ora prima che i cambiamenti fatti a stemmi ed emote "
+"diventino effettivi. Dopo aver atteso, aggiorna la pagina ed il tuo "
+"contenuto dovrebbe apparire. Puoi anche provare ad eliminare le cache.\n"
+"\n"
+"* *Non voglio lo stemma da sostenitore di FFZ.*\n"
+"\n"
+"Gli utenti possono modificare la visibilità del loro stemma da sostenitore "
+"su: "
+"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"\n"
+"* *Posso vedere le mie emote, ma qualcuno in chat dice che non può.*\n"
+"\n"
+"Gli utenti devono avere FrankerFaceZ installato, o un altro client di terze "
+"parti che supporta le emote di FFZ, al fine di visualizzare le emote da "
+"FFZ. Gli utenti potrebbero anche non riuscire a vedere nuove emote in base "
+"alle cache del loro browser ed all'ultima volta che hanno aggiornato la "
+"pagina.\n"
+"\n"
+"* *C'è un'emote rubata!*\n"
+"* *C'è un'emote offensiva!*\n"
+"\n"
+"Si prega di segnalare qualsiasi problematica con le emote usando lo "
+"strumento `Segnala l'emote`. Clicca sull'emote che ritieni offensiva "
+"tenendo premuto MAIUSC, e seleziona `Segnala l'emote` sulla barra laterale "
+"destra. Devi aver effettuato l'accesso per poter segnalare un'emote."
+
+msgid "home.feedback"
+msgstr ""
+"## Feedback\n"
+"\n"
+"Puoi inviare feedback e segnalazioni di bug [inviando il problema sulla "
+"nostra repository di "
+"GitHub](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Puoi anche "
+"[trovarci sul nostro server di Discord](https://discord.gg/UrAkGhT) o con "
+"un [tweet](https://twitter.com/FrankerFaceZ).\n"
+"\n"
+"Se vuoi inviare un problema attraverso GitHub, controlla prima che non sia "
+"già stato segnalato da qualcun altro. Le segnalazioni su GitHub devono "
+"essere inviate solo per problemi riguardanti il client, non per "
+"l'approvazione di emote.\n"
+"\n"
+"Durante la segnalazione di un problema, carica il log fornito qui sotto e "
+"includi il link nella tua segnalazione."
+
+msgid "home.tag-line"
+msgstr "L'estensione che migliora Twitch"
+
+msgid "home.tweets"
+msgstr "Tweet da FrankerFaceZ"
+
+msgid "home.twitter"
+msgstr "Twitter"
+
+msgid "home.website"
+msgstr "Sito web di FrankerFaceZ"
+
+msgid "setting.actions.action"
+msgstr "Azione"
+
+msgid "setting.actions.add-default"
+msgstr "Aggiungi dei valori predefiniti"
+
+msgid "setting.actions.add-default-tip"
+msgstr "Aggiungi tutte le azioni predefinite a questo profilo."
+
+msgid "setting.actions.appearance"
+msgstr "Aspetto"
+
+msgid "setting.actions.appearance.combo"
+msgstr "Testo e icona"
+
+msgid "setting.actions.appearance.icon"
+msgstr "Icona"
+
+msgid "setting.actions.appearance.image"
+msgstr "Immagine"
+
+msgid "setting.actions.appearance.text"
+msgstr "Testo"
+
+msgid "setting.actions.chat"
+msgstr "Comando della chat"
+
+msgid "setting.actions.color"
+msgstr "Colore"
+
+msgid "setting.actions.color.warn"
+msgstr ""
+"Questo valore sarà modificato automaticamente per essere più visibile in "
+"base al colore della tua chat."
+
+msgid "setting.actions.delete-all"
+msgstr "Elimina tutte le azioni di questo profilo."
+
+msgid "setting.actions.drag"
+msgstr "Trascina le azioni per metterle in ordine."
+
+msgid "setting.actions.duration"
+msgstr "Durata"
+
+msgid "setting.actions.edit-visible.deleted"
+msgstr "Messaggio eliminato"
+
+msgid "setting.actions.edit-visible.emote-only"
+msgstr "Modalità solo emote"
+
+msgid "setting.actions.edit-visible.follows"
+msgstr "Modalità solo follower"
+
+msgid "setting.actions.edit-visible.mod"
+msgstr "Moderatore"
+
+msgid "setting.actions.edit-visible.mod-icons"
+msgstr "Icona del moderatore"
+
+msgid "setting.actions.edit-visible.modifier"
+msgstr "Modificatori"
+
+msgid "setting.actions.edit-visible.r9k"
+msgstr "Modalità R9k"
+
+msgid "setting.actions.edit-visible.slow"
+msgstr "Modalità lenta"
+
+msgid "setting.actions.edit-visible.subs"
+msgstr "Modalità abbonati"
+
+msgid "setting.actions.icon"
+msgstr "Icona"
+
+msgid "setting.actions.new"
+msgstr "Nuovo..."
+
+msgid "setting.actions.no-actions"
+msgstr "nessuna azione è definita su questo profilo"
+
+msgid "setting.actions.no-visible"
+msgstr "nessuna azione visibile"
+
+msgid "setting.actions.preview"
+msgstr "Anteprima:"
+
+msgid "setting.actions.preview.all"
+msgstr "Mostra tutto"
+
+msgid "setting.actions.preview.deleted"
+msgstr "Se il messaggio è stato eliminato"
+
+msgid "setting.actions.preview.emote-only"
+msgstr "Solo emote"
+
+msgid "setting.actions.preview.followers"
+msgstr "Solo follower"
+
+msgid "setting.actions.preview.mod"
+msgstr "Come moderatore"
+
+msgid "setting.actions.preview.mod_icons"
+msgstr "Con le icone da moderatore"
+
+msgid "setting.actions.preview.r9k"
+msgstr "Modalità R9k"
+
+msgid "setting.actions.preview.slow"
+msgstr "Modalità lenta"
+
+msgid "setting.actions.preview.subs"
+msgstr "Solo abbonati"
+
+msgid "setting.actions.reason"
+msgstr "Motivazione predefinita"
+
+msgid "setting.actions.set-chat"
+msgstr "Incolla questo messaggio nella chat invece di inviarlo direttamente."
+
+msgid "setting.actions.text"
+msgstr "Etichetta"
+
+msgid "setting.actions.tooltip"
+msgstr "Finestrella dei suggerimenti personalizzabile"
+
+msgid "setting.actions.type"
+msgstr "Tipo"
+
+msgid "setting.actions.url"
+msgstr "URL"
+
+msgid "setting.actions.variables"
+msgstr "Variabili disponibili: {vars}"
+
+msgid "setting.actions.visibility"
+msgstr "Visibilità"
+
+msgid "setting.actions.visible"
+msgstr "Visibile solo: {list}"
+
+msgid "setting.actions.visible.always"
+msgstr "sempre"
+
+msgid "setting.actions.visible.deleted"
+msgstr "se il messaggio è stato eliminato"
+
+msgid "setting.actions.visible.mod"
+msgstr "quando sei un moderatore"
+
+msgid "setting.actions.visible.mod_icons"
+msgstr "quando le icone da moderatore sono visibili"
+
+msgid "setting.actions.visible.slow"
+msgstr "quando la modalità lenta"
+
+msgid "setting.actions.visible.undeleted"
+msgstr "se il messaggio non è stato eliminato"
+
+msgid "setting.add"
+msgstr "Aggiungi"
+
+msgid "setting.add_ons"
+msgstr "Componenti aggiuntivi"
+
+msgid "setting.add_ons.changelog"
+msgstr "Note di rilascio"
+
+msgid "setting.add_ons.changelog.title"
+msgstr "Note di rilascio dei componenti aggiuntivi"
+
+msgid "setting.add_ons.description"
+msgstr ""
+"I componenti aggiuntivi sono dei moduli extra, spesso codificati da altre "
+"persone, che possono essere automaticamente caricati da FrankerFaceZ per "
+"aggiungere nuove funzionalità e comportamenti all'estensione e a Twitch."
+
+msgid "setting.add_ons.development"
+msgstr "Sviluppo"
+
+msgid "setting.appearance"
+msgstr "Aspetto"
+
+msgid "setting.appearance.description"
+msgstr ""
+"Personalizza l'aspetto di Twitch. Cambia lo schema dei colori ed i "
+"caratteri e regola la disposizione dell'interfaccia per ottimizzare la tua "
+"esperienza."
+
+msgid "setting.appearance.layout"
+msgstr "Disposizione dell'interfaccia"
+
+msgid "setting.appearance.layout.channel"
+msgstr "Canale"
+
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Navigazione laterale"
+
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Navigazione in alto"
+
+msgid "setting.appearance.localization"
+msgstr "Traduzione"
+
+msgid "setting.appearance.localization.general"
+msgstr "Generale"
+
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Lingue divertenti"
+
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Lingue supportate"
+
+msgid "setting.appearance.localization.general.language.twitch"
+msgstr "Utilizza la lingua di Twitch"
+
+msgid "setting.appearance.theme"
+msgstr "Tema"
+
+msgid "setting.appearance.theme.colors"
+msgstr "Colori"
+
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Questa è un'anteprima veloce di un nuovo sistema presto disponibile su "
+"FrankerFaceZ. Aspettati grandi cambiamenti, tra cui la separazione delle "
+"modalità base e avanzata, ed una più ampia selezione di colori."
+
+msgid "setting.appearance.theme.fonts"
+msgstr "Caratteri"
+
+msgid "setting.appearance.theme.legacy"
+msgstr "Impostazioni legacy"
+
+msgid "setting.backup-restore.about"
+msgstr ""
+"Questo strumento ti consente di eseguire un backup e di ripristinare le "
+"impostazioni di FrankerFaceZ, incluse tutte le impostazioni dal pannello "
+"delle impostazioni insieme ad altri dati come le tue emote preferite ed i "
+"giochi bloccati."
+
+msgid "setting.backup-restore.confirm-updates"
+msgstr ""
+"Il profilo che stai importando ha un URL di aggioramento automatico. Vuoi "
+"che il profilo rimanga aggiornato?"
+
+msgid "setting.backup-restore.disable-auto"
+msgstr "No, disattiva gli aggiornamenti automatici."
+
+msgid "setting.backup-restore.enable-auto"
+msgstr "Sì, attiva gli aggiornamenti automatici."
+
+msgid "setting.backup-restore.error"
+msgstr "Si è verificato un errore durante l'elaborazione di questo backup."
+
+msgid "setting.backup-restore.imported"
+msgstr ""
+"Il profilo «{name}» è stato importato con successo, {count,plural,one{una "
+"sola impostazione rilevata} other{# impostazioni rilevate}}."
+
+msgid "setting.backup-restore.imported-at"
+msgstr "Importato il giorno {now,datetime}."
+
+msgid "setting.backup-restore.non-supported"
+msgstr "Questo file non è riconosciuto come un formato di backup supportato."
+
+msgid "setting.backup-restore.old-file"
+msgstr ""
+"Questo file non è valido oppure è stato creato in un'altra versione di "
+"FrankerFaceZ e non può essere caricato."
+
+msgid "setting.backup-restore.pick-profile"
+msgstr "Per favore, seleziona un profilo da importare."
+
+msgid "setting.backup-restore.restore-backup"
+msgstr "Ripristina un backup"
+
+msgid "setting.backup-restore.restored"
+msgstr ""
+"{count,plural,one{Una impostazione è stata ripristinata} other{# "
+"impostazioni sono state ripristinate}}. Aggiorna questa pagina per "
+"applicarle."
+
+msgid "setting.backup-restore.save-backup"
+msgstr "Salva un backup"
+
+msgid "setting.cancel"
+msgstr "Annulla"
+
+msgid "setting.channel"
+msgstr "Canale"
+
+msgid "setting.channel.appearance"
+msgstr "Aspetto"
+
+msgid "setting.channel.appearance.general"
+msgstr "Generale"
+
+msgid "setting.channel.behavior"
+msgstr "Comportamento"
+
+msgid "setting.channel.behavior.general"
+msgstr "Generale"
+
+msgid "setting.channel.behavior.hosting"
+msgstr "Ospitare"
+
+msgid "setting.channel.behavior.raids"
+msgstr "Raid"
+
+msgid "setting.channel.behavior.squads"
+msgstr "Gruppi"
+
+msgid "setting.channel.metadata"
+msgstr "Metadati"
+
+msgid "setting.channel.metadata.appearance"
+msgstr "Aspetto"
+
+msgid "setting.channel.metadata.player"
+msgstr "Player"
+
+msgid "setting.channel.metadata.subscription"
+msgstr "Abbonamento"
+
+msgid "setting.chat"
+msgstr "Chat"
+
+msgid "setting.chat.actions"
+msgstr "Azioni"
+
+msgid "setting.chat.actions.in_line"
+msgstr "In linea"
+
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Qui puoi definire azioni personalizzate che appariranno insieme ai messaggi "
+"di chat. Se non riesci a vedere un'azione che hai definito qui nella chat, "
+"assicurati di aver attivato le icone mod nel menù delle impostazioni della "
+"chat."
+
+msgid "setting.chat.actions.reasons"
+msgstr "Motivazioni"
+
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Motivazioni personalizzate"
+
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Regole"
+
+msgid "setting.chat.actions.room"
+msgstr "Stanza"
+
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Qui puoi definire le azioni personalizzate che appariranno sopra alla "
+"casella di input della chat."
+
+msgid "setting.chat.actions.room.general"
+msgstr "Generale"
+
+msgid "setting.chat.actions.user_context"
+msgstr "Contesto utente"
+
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Qui puoi definire le azioni personalizzate che appariranno in un menù di "
+"contesto quando clicchi con il tasto destro del mouse su un nome utente in "
+"chat."
+
+msgid "setting.chat.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Righe della chat"
+
+msgid "setting.chat.appearance.colors"
+msgstr "Colori"
+
+msgid "setting.chat.appearance.community"
+msgstr "Comunità"
+
+msgid "setting.chat.appearance.community_chest"
+msgstr "Scrigno della comunità"
+
+msgid "setting.chat.appearance.emoji"
+msgstr "Emoji"
+
+msgid "setting.chat.appearance.emotes"
+msgstr "Emote"
+
+msgid "setting.chat.appearance.general"
+msgstr "Generale"
+
+msgid "setting.chat.appearance.rich_content"
+msgstr "Contenuto multimediale"
+
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Abbonamenti"
+
+msgid "setting.chat.badges"
+msgstr "Stemmi"
+
+msgid "setting.chat.badges.tabs"
+msgstr "schede"
+
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Visibilità"
+
+msgid "setting.chat.behavior"
+msgstr "Comportamento"
+
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Messaggi eliminati"
+
+msgid "setting.chat.behavior.general"
+msgstr "Generale"
+
+msgid "setting.chat.behavior.scrolling"
+msgstr "Scorrimento"
+
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bit e tifo"
+
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Comportamento"
+
+msgid "setting.chat.channel_points"
+msgstr "Punti del canale"
+
+msgid "setting.chat.channel_points.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.channel_points.behavior"
+msgstr "Comportamento"
+
+msgid "setting.chat.channel_points.general"
+msgstr "Generale"
+
+msgid "setting.chat.chat_on_videos"
+msgstr "Chat dei video"
+
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Questa funzione è al momento in beta. Per questo, potresti rilevare delle "
+"problematiche quando usi le impostazioni di FFZ con la Chat dei video."
+
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Generale"
+
+msgid "setting.chat.emote_menu"
+msgstr "Menù delle emote"
+
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.emote_menu.general"
+msgstr "Generale"
+
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Ordinamento"
+
+msgid "setting.chat.filtering"
+msgstr "Filtro"
+
+msgid "setting.chat.filtering.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Filtri di AutoMod"
+
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Configurazione extra per i `Filtri della chat` nativi di Twitch."
+
+msgid "setting.chat.filtering.behavior"
+msgstr "Comportamento"
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Stemmi bloccati"
+
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Termini bloccati"
+
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Utenti bloccati"
+
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Evidenzia gli stemmi"
+
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Evidenzia i termini"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Evidenzia gli utenti"
+
+msgid "setting.chat.filtering.rituals"
+msgstr "Rituali"
+
+msgid "setting.chat.input"
+msgstr "Input"
+
+msgid "setting.chat.input.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.input.recent_messages"
+msgstr "Messaggi recenti"
+
+msgid "setting.chat.input.tab_completion"
+msgstr "Autocompletamento tramite il pulsante TAB"
+
+msgid "setting.chat.tooltips"
+msgstr "Finestrelle dei suggerimenti"
+
+msgid "setting.chat.tooltips.badges"
+msgstr "Stemmi"
+
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emote"
+
+msgid "setting.chat.tooltips.general"
+msgstr "Generale"
+
+msgid "setting.chat.tooltips.links"
+msgstr "Link"
+
+msgid "setting.chat.viewer_cards"
+msgstr "Biglietto da visita dello spettatore"
+
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Aspetto"
+
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Comportamento"
+
+msgid "setting.chat.whispers"
+msgstr "Messaggi privati"
+
+msgid "setting.chat.whispers.general"
+msgstr "Generale"
+
+msgid "setting.close"
+msgstr "Chiudi"
+
+msgid "setting.combo-box.custom"
+msgstr "Personalizzato"
+
+msgid "setting.configure"
+msgstr "Configura"
+
+msgid "setting.copy-json"
+msgstr "Copia"
+
+msgid "setting.data_management"
+msgstr "Gestione dei dati"
+
+msgid "setting.data_management.backup_and_restore"
+msgstr "Backup e ripristino"
+
+msgid "setting.data_management.profiles"
+msgstr "Profili"
+
+msgid "setting.data_management.profiles.edit.desc"
+msgstr "Descrizione"
+
+msgid "setting.data_management.profiles.edit.general"
+msgstr "Generale"
+
+msgid "setting.data_management.profiles.edit.name"
+msgstr "Nome"
+
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Modifica profilo"
+
+msgid "setting.data_management.profiles.edit.rules"
+msgstr "Regole"
+
+msgid "setting.data_management.profiles.edit.rules.description"
+msgstr ""
+"Le regole ti consentono di definire una serie di condizioni sotto le quali "
+"questo profilo sarà attivo. Quando ci sono molteplici regole, tutte "
+"dovranno combaciare per poter attivare il profilo. Puoi usare una regola "
+"`Or` per creare un profilo che si attiva combaciando una delle tante regole."
+
+msgid "setting.data_management.reporting"
+msgstr "Segnalazioni"
+
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Segnalazioni di errore"
+
+msgid "setting.data_management.reporting.example_report"
+msgstr "Esempio di segnalazione"
+
+msgid "setting.debugging"
+msgstr "Debugging"
+
+msgid "setting.debugging.experiments"
+msgstr "Esperimenti"
+
+msgid "setting.debugging.localization"
+msgstr "Localizzazione"
+
+msgid "setting.debugging.localization.editing"
+msgstr "Modifiche"
+
+msgid "setting.debugging.localization.general"
+msgstr "Generale"
+
+msgid "setting.debugging.socket"
+msgstr "Socket"
+
+msgid "setting.debugging.socket.general"
+msgstr "Generale"
+
+msgid "setting.debugging.socket.info"
+msgstr "Informazioni"
+
+msgid "setting.delete"
+msgstr "Elimina"
+
+msgid "setting.delete-all"
+msgstr "Elimina tutto"
+
+msgid "setting.dev-warning"
+msgstr "Attenzione, è pericoloso continuare."
+
+msgid "setting.directory"
+msgstr "Sfoglia"
+
+msgid "setting.directory.channels"
+msgstr "Canali"
+
+msgid "setting.directory.channels.appearance"
+msgstr "Aspetto"
+
+msgid "setting.directory.channels.description"
+msgstr ""
+"**Nota:** queste impostazioni attualmente non funzionano perché Twitch ha "
+"effettuato modifiche al funzionamento della pagina «Sfoglia»."
+
+msgid "setting.directory.following"
+msgstr "Seguito"
+
+msgid "setting.directory.following.categories"
+msgstr "Categorie"
+
+msgid "setting.directory.following.description"
+msgstr ""
+"**Nota:** queste impostazioni attualmente non funzionano perché Twitch ha "
+"effettuato modifiche al funzionamento della pagina «Sfoglia»."
+
+msgid "setting.directory.following.hosts"
+msgstr "Ospita"
+
+msgid "setting.edit"
+msgstr "Modifica"
+
+msgid "setting.entry.add-ons"
+msgstr "Componenti aggiuntivi"
+
+msgid "setting.entry.addons.dev.server"
+msgstr "Usa il server di sviluppo locale"
+
+msgid "setting.entry.addons.dev.server.description"
+msgstr ""
+"Tenta di caricare i componenti aggiuntivi dal server di sviluppo locale "
+"sulla porta 8001."
+
+msgid "setting.entry.backup"
+msgstr "backup"
+
+msgid "setting.entry.changelog"
+msgstr "note di rilascio"
+
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Apri la chat automaticamente quando apri la pagina di un canale offline."
+
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Nascondi l'indicatore «LIVE» sui canali che sono in diretta."
+
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"Nascondi la barra che appare sotto alle clip ed ai video quando lo streamer "
+"è in diretta, per dirti che quello streamer è in diretta."
+
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Consenti di ospitare un canale"
+
+msgid "setting.entry.channel.metadata.force-above"
+msgstr ""
+"Forza i metadati ed i tag al di sopra della barra di informazione del "
+"canale."
+
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Non partecipare automaticamente ai raid."
+
+msgid "setting.entry.channel.round-avatars"
+msgstr "Consenti l'arrotondamento dell'avatar."
+
+msgid "setting.entry.channel.show-celebrations"
+msgstr "Consenti alle celebrazioni di apparire a schermo."
+
+msgid "setting.entry.channel.show-celebrations.description"
+msgstr "Le celebrazioni sono animazioni che coprono tutta la pagina di Twitch."
+
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "Non reindirizzare automaticamente alle dirette di gruppo."
+
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Mostra le azioni della stanza sopra alla casella di input della chat."
+
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Includi le regole della stanza attuale nella lista delle motivazioni."
+
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Contrasto minimo"
+
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Imposta il rapporto minimo di contrasto usato dagli adattamenti Luma quando "
+"viene determinata la leggibilità."
+
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Adattamento"
+
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Modifica i colori dell'utente per assicurarti che rimangano leggibili."
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Non modificato"
+
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Nessun colore"
+
+msgid "setting.entry.chat.adjustment-mode.values.2"
+msgstr "Luv Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.3"
+msgstr "Ripetizione HSL (Come BTTV)"
+
+msgid "setting.entry.chat.adjustment-mode.values.4"
+msgstr "Ripetizione RGB (obsoleto)"
+
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Segna i messaggi come eliminati se contengono frasi filtrate."
+
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Rimuovi i messaggi completamente se contengono frasi filtrate."
+
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Usa i filtri della chat come moderatore."
+
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"In modo predefinito, la funzione filtri della chat di Twitch non funziona "
+"per i moderatori. Questo sovrascriverà questo comportamento."
+
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Usa gli stemmi personalizzati dei moderatori quando disponibili."
+
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Regola i colori degli stemmi per la visibilità."
+
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Vengono modificati i colori degli stemmi in modo che siano visibili sullo "
+"sfondo attuale.\n"
+"\n"
+"**Nota:** si applica solo agli stemmi con rendering personalizzato. Gli "
+"stemmi degli abbonati, stemmi dei bit, ecc. non verranno modificati."
+
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Visibilità"
+
+msgid "setting.entry.chat.badges.media-queries"
+msgstr ""
+"Utilizza la query @media per supportare gli stemmi con DPI alti in Mozilla "
+"Firefox."
+
+msgid "setting.entry.chat.badges.media-queries.description"
+msgstr ""
+"Questo è un requisito per poter vedere gli stemmi con DPI alti su Firefox "
+"perché Firefox non supporta ancora la funzionalità `image-set()` dopo più "
+"di cinque anni dalla sua introduzione. Potrebbe essere meno affidabile."
+
+msgid "setting.entry.chat.badges.style"
+msgstr "Stile"
+
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Quadrato"
+
+msgid "setting.entry.chat.badges.style.values.1"
+msgstr "Arrotondati"
+
+msgid "setting.entry.chat.badges.style.values.2"
+msgstr "Circolari"
+
+msgid "setting.entry.chat.badges.style.values.3"
+msgstr "Circolari (solo i colori)"
+
+msgid "setting.entry.chat.badges.style.values.4"
+msgstr "Circolari (solo i colori, piccoli)"
+
+msgid "setting.entry.chat.badges.style.values.5"
+msgstr "Trasparenti"
+
+msgid "setting.entry.chat.badges.style.values.6"
+msgstr "Trasparenti (colorati)"
+
+msgid "setting.entry.chat.badges.version"
+msgstr "Versione"
+
+msgid "setting.entry.chat.badges.version.values.1"
+msgstr "1 (prima di dicembre 2019)"
+
+msgid "setting.entry.chat.badges.version.values.2"
+msgstr "2 (attuale)"
+
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Permetti all'Hype Train di essere mostrato in chat."
+
+msgid "setting.entry.chat.banners.polls"
+msgstr "Consenti ai sondaggi di essere visualizzati nella chat."
+
+msgid "setting.entry.chat.bits.animated"
+msgstr "Mostra l'animazione del tifo."
+
+msgid "setting.entry.chat.bits.show"
+msgstr "Mostra i bit."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Mostra l'interfaccia utente associata ai bit. Nota: questo non nasconde il "
+"tifo nei messaggi della chat."
+
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr ""
+"Mostra i messaggi quando un tifo condivide ricompense con le persone nella "
+"chat."
+
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"In modo predefinito, viene utilizzato lo stesso valore assegnato a «Mostra "
+"i bit». Questa funzionalità si applica solo ai nuovi messaggi arrivati."
+
+msgid "setting.entry.chat.bits.stack"
+msgstr "Raggruppamento del tifo"
+
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Unisci tutte le volte che viene fatto il tifo all'interno dello stesso "
+"messaggio in un unico evento di tifo all'inizio del messaggio."
+
+msgid "setting.entry.chat.bits.stack.values.0"
+msgstr "Disattivato"
+
+msgid "setting.entry.chat.bits.stack.values.1"
+msgstr "Raggruppata per tipo"
+
+msgid "setting.entry.chat.bits.stack.values.2"
+msgstr "Tutte una sola volta"
+
+msgid "setting.entry.chat.click-emotes"
+msgstr ""
+"Apri la pagina delle informazioni delle emote cliccando su di esse mentre "
+"tieni premuto MAIUSC."
+
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Mostra il banner dello Scrigno di doni della comunità."
+
+msgid "setting.entry.chat.delay"
+msgstr "Ritardo artificiale della chat"
+
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Ritarda la comparsa dei messaggi in chat per consentirne la moderazione "
+"prima che appaiano."
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Nessun ritardo"
+
+msgid "setting.entry.chat.delay.values.-1"
+msgstr "Ritardo predefinito (specifico per le stanze, solo per non-moderatori)"
+
+msgid "setting.entry.chat.delay.values.10000"
+msgstr "Tantissimo (10s)"
+
+msgid "setting.entry.chat.delay.values.1200"
+msgstr "Normale (moderazione con umani: 1,2s)"
+
+msgid "setting.entry.chat.delay.values.15000"
+msgstr "Estremo (15s)"
+
+msgid "setting.entry.chat.delay.values.20000"
+msgstr "I moderatori stanno dormendo; rallentiamo la chat (20s)"
+
+msgid "setting.entry.chat.delay.values.300"
+msgstr "Poco (moderazione con bot: 0,3s)"
+
+msgid "setting.entry.chat.delay.values.30000"
+msgstr "Mezzo minuto (30s)"
+
+msgid "setting.entry.chat.delay.values.5000"
+msgstr "Tanto (rimozione di spoiler / moderatori lenti: 5s)"
+
+msgid "setting.entry.chat.delay.values.60000"
+msgstr "Perché??? (1m)"
+
+msgid "setting.entry.chat.delay.values.788400000000"
+msgstr "L'opzione CBenni (letteralmente 25 anni)"
+
+msgid "setting.entry.chat.emoji.style"
+msgstr "Stile delle emoji"
+
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Native"
+
+msgid "setting.entry.chat.emoji.style.values.emojione"
+msgstr "EmojiOne"
+
+msgid "setting.entry.chat.emote-dialogs"
+msgstr "Apri le finestre di informazione delle emote di Twitch cliccandoci sopra."
+
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Mostra tutte le emote in una scheda."
+
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Scheda predefinita"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.all"
+msgstr "Le mie emote"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
+msgstr "Canale"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
+msgstr "Emoji"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
+msgstr "Preferiti"
+
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Usa il menù delle emote di FrankerFaceZ."
+
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"Il menù delle emote FFZ rimpiazza il menù delle emote di Twitch e fornisce "
+"delle funzionalità supplementari."
+
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr ""
+"Sostituisce l'icona del menù delle emote con l'icona di FFZ per un tocco "
+"nostalgico."
+
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Riduci la spaziatura."
+
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Usa CTRL + E per aprire il menù delle emote."
+
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr ""
+"Quando attivato, premendo la combinazione di tasti CTRL + E mentre la chat "
+"è selezionata, il menù delle emote si aprirà."
+
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Mostra le intestazioni"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.0"
+msgstr "Mai"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.1"
+msgstr "Sempre"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.2"
+msgstr "Quando non stai cercando"
+
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Mostra la barra di ricerca."
+
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Ordina le emote per"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
+msgstr "Identificativo (ordine di aggiunta), crescente"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
+msgstr "Identificativo (ordine di aggiunta), decrescente"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
+msgstr "Nome, crescente"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
+msgstr "Nome, decrescente"
+
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Elenca le emote partendo dal livello più basso di abbonamento."
+
+msgid "setting.entry.chat.filtering.bold-mentions"
+msgstr "Mostra con un carattere in grassetto le menzioni nella chat."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr ""
+"Consenti l'apertura dei biglietti da visita dello spettatore cliccandone le "
+"menzioni in chat."
+
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Clicca per rivelare i termini rimossi."
+
+msgid "setting.entry.chat.filtering.deleted-style"
+msgstr "Stile dettagliato dei messaggi"
+
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Questo stile verrà applicato ai messaggi rimossi mostrati nella modalità di "
+"visualizzazione dettagliata per distinguerli dai normali messaggi di chat."
+
+msgid "setting.entry.chat.filtering.deleted-style.values.0"
+msgstr "Sbiadito"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.1"
+msgstr "Sbiadito e barrato"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.2"
+msgstr "Barrato"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.3"
+msgstr "Nessun cambiamento"
+
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Modalità di visualizzazione"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
+msgstr "Breve"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
+msgstr "Dettagliato"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.false"
+msgstr "Non sovrascrivere"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
+msgstr "Impostazioni legacy"
+
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Mostra la motivazione"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.0"
+msgstr "Mai"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.1"
+msgstr "In modalità dettagliata"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.2"
+msgstr "Sempre"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Evidenzia i messaggi che ti menzionano."
+
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Evidenzia le parole che corrispondono in chat."
+
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Non pulire la chat quando richiesto."
+
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Colore di evidenziamento personalizzato"
+
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Se impostato, i messaggi evidenziati che non hanno un colore preimpostato, "
+"utilizzeranno questo colore invece del rosso."
+
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Filtra i tuoi messaggi."
+
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Elimina i messaggi rimossi dalla chat."
+
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"I messaggi rimosso verranno cancellati interamente dalla chat. Questa "
+"impostazione non è consigliata per i moderatori."
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.0"
+msgstr "Non rimuovere"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.1"
+msgstr "Rimuovi quelli non letti (predefinito)"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.2"
+msgstr "Rimuovi quelli non letti da moderatore"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.3"
+msgstr "Rimuovi tutto"
+
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Migliora le emote globali di Twitch dal brutto aspetto"
+
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Perfeziona le immagini delle emote globali di Twitch dal brutto aspetto, "
+"rimuovendone i bordi bianchi e gli sfondi non trasparenti."
+
+msgid "setting.entry.chat.font-family"
+msgstr "Famiglia di caratteri"
+
+msgid "setting.entry.chat.font-family.description"
+msgstr "Imposta il carattere usato per mostrare i messaggi della chat."
+
+msgid "setting.entry.chat.font-size"
+msgstr "Dimensioni del carattere"
+
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Quanto grande il testo dovrebbe essere nella chat, valore espresso in "
+"pixel. Questo potrebbe essere influenzato dallo zoom e dalle impostazioni "
+"delle dimensioni del carattere nel tuo browser."
+
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr ""
+"Nascondi tutti i momenti salienti della comunità nella parte superiore "
+"della chat."
+
+msgid "setting.entry.chat.hide-community-highlights.description"
+msgstr ""
+"I momenti salienti della comunità sono sondaggi, donazioni di abbonamenti, "
+"ecc. Rimangono in cima alla chat temporaneamente e non vi è modo di "
+"chiuderli."
+
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Mostra il pulsante della Vista moderatore nei canali rilevanti."
+
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Mostra le righe con colori di sfondo alternati."
+
+msgid "setting.entry.chat.lines.borders"
+msgstr "Separatori"
+
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Disattivato"
+
+msgid "setting.entry.chat.lines.borders.values.1"
+msgstr "Linea semplice (continua da 1 pixel)"
+
+msgid "setting.entry.chat.lines.borders.values.2"
+msgstr "Linea 3D (sporgente da 2 pixel)"
+
+msgid "setting.entry.chat.lines.borders.values.3"
+msgstr "Linea 3D (incavata da 2 pixel)"
+
+msgid "setting.entry.chat.lines.borders.values.4"
+msgstr "Linea spessa (continua da 2 pixel)"
+
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Allineamento delle emote"
+
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Modifica come le emote vengono posizionate in chat, rendendo i messaggi "
+"potenzialmente più alti per evitare che le emote si sovrappongano."
+
+msgid "setting.entry.chat.lines.emote-alignment.values.0"
+msgstr "Standard"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.1"
+msgstr "Spaziate"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.2"
+msgstr "Linea di base (Come BTTV)"
+
+msgid "setting.entry.chat.lines.padding"
+msgstr "Riduci la spaziatura attorno alle linee."
+
+msgid "setting.entry.chat.mru.enabled"
+msgstr ""
+"Utilizza le frecce della tastiera «su» e «giù» per riscrivere i messaggi "
+"inviati in precedenza."
+
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Fissa automaticamente i messaggi di riabbonamento nella chat."
+
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr ""
+"Evidenzia il messaggio nella chat quando qualcuno riscatta la funzionalità "
+"«Evidenzia il mio messaggio»."
+
+msgid "setting.entry.chat.points.custom-rendering"
+msgstr ""
+"Usa un sistema di rendering personalizzato per i messaggi relativi alle "
+"ricompense di punti del canale."
+
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"Il sistema di rendering personalizzato applica un colore di sfondo ai "
+"messaggi in evidenza, potrebbe non piacere ad alcuni utenti."
+
+msgid "setting.entry.chat.points.show-button"
+msgstr "Mostra il pulsante dei punti del canale sotto la chat."
+
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Mostra messaggi in chat relativi alle ricompense dei punti del canale."
+
+msgid "setting.entry.chat.points.show-rewards"
+msgstr ""
+"Consenti ai premi disponibili di apparire vicino al pulsante dei punti del "
+"canale."
+
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Mostra l'anteprima dei contenuti multimediali per tutti i link."
+
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*A tutti gli streamer: siate consapevoli del fatto che questo è un "
+"potenziale strumento per i furbacchioni, potrebbero essere mostrate "
+"immagini per adulti tramite le miniature, quindi fate attenzione quando "
+"catturate la chat con questa opzione attivata.*"
+
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Mostra contenuti multimediali nella chat."
+
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr ""
+"Mostra l'anteprima dei contenuti multimediali per elementi come video e "
+"clip inviati sotto forma di link."
+
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Nascondi i link corrispondenti per i contenuti multimediali."
+
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Livello utente richiesto"
+
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Mostra solo l'anteprima dei contenuti multimediali nei messaggi inviati "
+"dagli utenti con questo livello o superiore."
+
+msgid "setting.entry.chat.rich.minimum-level.values.0"
+msgstr "Tutti"
+
+msgid "setting.entry.chat.rich.minimum-level.values.1"
+msgstr "Abbonato"
+
+msgid "setting.entry.chat.rich.minimum-level.values.2"
+msgstr "VIP"
+
+msgid "setting.entry.chat.rich.minimum-level.values.3"
+msgstr "Moderatore"
+
+msgid "setting.entry.chat.rich.minimum-level.values.4"
+msgstr "Broadcaster"
+
+msgid "setting.entry.chat.rituals.show"
+msgstr ""
+"Mostra i messaggi rituali come: «Un utente è nuovo da queste parti! Di' "
+"ciao!»."
+
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Numero di righe da caricare ogni volta che si scorre verso l'alto"
+
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Ogni volta che viene superato questo numero di righe, ne verranno caricate "
+"delle altre. Valori troppo alti posso creare rallentamenti."
+
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Ferma lo scorrimento della chat"
+
+msgid "setting.entry.chat.scroller.freeze.description"
+msgstr ""
+"Interrompi il movimento della chat quando il mouse si trova sopra di essa o "
+"quando tieni premuto un tasto.\n"
+"\n"
+"**Nota:** scorrere verso l'alto nella chat previene sempre il movimento "
+"della chat, a prescindere da questa impostazione."
+
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Necessita che il mouse sia posto al di sopra della chat per bloccarla con "
+"una scorciatoia."
+
+msgid "setting.entry.chat.scroller.freeze.values.1"
+msgstr "Portando il mouse sopra"
+
+msgid "setting.entry.chat.scroller.freeze.values.2"
+msgstr "Quando CTRL è tenuto premuto"
+
+msgid "setting.entry.chat.scroller.freeze.values.3"
+msgstr "Quando META è tenuto premuto"
+
+msgid "setting.entry.chat.scroller.freeze.values.4"
+msgstr "Quando ALT è tenuto premuto"
+
+msgid "setting.entry.chat.scroller.freeze.values.5"
+msgstr "Quando MAIUSC è tenuto premuto"
+
+msgid "setting.entry.chat.scroller.freeze.values.6"
+msgstr "CTRL o porta il mouse sopra"
+
+msgid "setting.entry.chat.scroller.freeze.values.7"
+msgstr "META o porta il mouse sopra"
+
+msgid "setting.entry.chat.scroller.freeze.values.8"
+msgstr "ALT o porta il mouse sopra"
+
+msgid "setting.entry.chat.scroller.freeze.values.9"
+msgstr "MAIUSC o porta il mouse sopra"
+
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Ferma lo scorrimento quando il mouse passa sopra"
+
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"La chat smetterà di scorrere per questo lasso di tempo da quando il mouse "
+"si ferma passandogli sopra."
+
+msgid "setting.entry.chat.scroller.hover-delay.values.1000"
+msgstr "1 secondo"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.250"
+msgstr "0,25 secondi"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.2500"
+msgstr "2,5 secondi"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.500"
+msgstr "0,50 secondi"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.5000"
+msgstr "5 secondi"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.750"
+msgstr "0,75 secondi"
+
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Scorrimento fluido"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Disattivato"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
+msgstr "Lento"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
+msgstr "Medio"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
+msgstr "Veloce"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
+msgstr "Molto veloce"
+
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Apri la pagina degli abbonamenti di Twitch facendo clic tenendo premuto il "
+"pulsante MAIUSC sulle emote quando richiesto."
+
+msgid "setting.entry.chat.subs.compact"
+msgstr ""
+"Mostra le notifiche di abbonamento in una forma più compatta (stile "
+"classico)."
+
+msgid "setting.entry.chat.subs.gift-banner"
+msgstr ""
+"Mostra un banner sopra la chat quando vengono regalati gli abbonamenti in "
+"massa."
+
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Unifica in modo più compatto gli abbonamenti regalati in massa"
+
+msgid "setting.entry.chat.subs.merge-gifts.description"
+msgstr ""
+"Unifica in modo più compatto gli abbonamenti regalati in massa in un "
+"singolo messaggio, a seconda della quantità.\n"
+"**Nota:** si applica solo ai nuovi abbonamenti regalati."
+
+msgid "setting.entry.chat.subs.merge-gifts.values.0"
+msgstr "Sempre"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.10"
+msgstr "Più di 10"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.1000"
+msgstr "Disattivato"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.20"
+msgstr "Più di 20"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.5"
+msgstr "Più di 5"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.50"
+msgstr "Più di 50"
+
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Espandi i messaggi degli abbonamenti regalati in massa in modo predefinito."
+
+msgid "setting.entry.chat.subs.show"
+msgstr "Mostra gli abbonamenti nella chat"
+
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Nota**: i messaggi inviati con il rinnovo dell'abbonamento saranno sempre "
+"mostrati. Questa funzione controlla solo il messaggio speciale: «Tizio si è "
+"abbonato!»."
+
+msgid "setting.entry.chat.subs.show.values.0"
+msgstr "Non mostrare"
+
+msgid "setting.entry.chat.subs.show.values.1"
+msgstr "I riabbonamenti solo con i messaggi"
+
+msgid "setting.entry.chat.subs.show.values.2"
+msgstr "Solo i riabbonamenti"
+
+msgid "setting.entry.chat.subs.show.values.3"
+msgstr "Mostra tutti"
+
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Consenti l'autocompletamento tramite TAB delle emoji."
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr ""
+"Consenti l'autocompletamento tramite TAB delle emoji, senza dover digitare "
+"i due punti. (:)"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr ""
+"Questo impedirà il completamento col tasto TAB dei nomi utente se non sono "
+"preceduti da @."
+
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "Attiva il completamento col tasto TAB delle emote di FrankerFaceZ."
+
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Limita l'autocompletamento dei risultati a 25."
+
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Dà priorità alle emote preferite ponendole in alto."
+
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Formato della data e dell'ora"
+
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"I formati della data e dell'ora sono definiti tramite la libreria di "
+"[Day.js](https://github.com/iamkun/dayjs#readme). Ulteriori informazioni "
+"sul formato [posso essere visualizzate "
+"qui](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
+"list-of-all-available-formats) (in inglese)."
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "12 ore con lo zero davanti"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "24 ore con lo zero davanti"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "12 ore con lo zero davanti e i secondi"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "24 ore con lo zero davanti e i secondi"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm"
+msgstr "12 ore"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm"
+msgstr "24 ore"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
+msgstr "12 ore con i secondi"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
+msgstr "24 ore con i secondi"
+
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Attiva le impostazioni di FrankerFaceZ per la Chat dei video."
+
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Mostra stemmi FFZ, emote, ed altri elementi nella Chat dei video. Le "
+"funzioni di moderazione potrebbero non essere disponibili quando questa "
+"impostazione è attivata."
+
+msgid "setting.entry.chat.video-chat.timestamps"
+msgstr "Mostra l'orario di fianco ai messaggi nella chat."
+
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Colore di evidenziamento"
+
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr "Evidenzia i messaggi degli utenti il cui biglietto da visita è aperto."
+
+msgid "setting.entry.chat.width"
+msgstr "Larghezza"
+
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Quanto la chat dovrebbe essere larga, valore espresso in pixel. Lo zoom e "
+"la dimensione del carattere del tuo browser può modificare questo valore."
+
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Host di gruppo"
+
+msgid "setting.entry.directory.following.host-menus"
+msgstr "Menù dei canali ospitati"
+
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Mostra un menù per selezionare quale canale visitare quando viene fatto "
+"clic su un canale ospitato nella pagina «Sfoglia»."
+
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Disattivato"
+
+msgid "setting.entry.directory.following.host-menus.values.1"
+msgstr "Quando molti stanno ospitando"
+
+msgid "setting.entry.directory.following.host-menus.values.2"
+msgstr "Sempre"
+
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Non mostrare «Ultimi video» nell'elenco dei canali seguiti."
+
+msgid "setting.entry.directory.hide-live"
+msgstr "Nascondi l'indicatore «LIVE» sui canali che sono in diretta."
+
+msgid "setting.entry.directory.hide-recommended"
+msgstr "Non mostrare i `canali in diretta consigliati` nella pagina Seguito."
+
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr ""
+"Non mostrare `Basato sulla tua cronologia di visualizzazione` nell'elenco "
+"dei canali seguiti."
+
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "Non mostrare le rerun nella pagina «Sfoglia»."
+
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Mostra gli avatar dei canali."
+
+msgid "setting.entry.directory.uptime"
+msgstr "Durata della diretta"
+
+msgid "setting.entry.directory.uptime.description"
+msgstr "Mostra la durata della diretta nelle carte del canale."
+
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Disattivato"
+
+msgid "setting.entry.directory.uptime.values.1"
+msgstr "Attivato"
+
+msgid "setting.entry.directory.uptime.values.2"
+msgstr "Attivato (con i secondi)"
+
+msgid "setting.entry.experiments"
+msgstr "esperimenti"
+
+msgid "setting.entry.faq"
+msgstr "domande frequenti"
+
+msgid "setting.entry.feedback"
+msgstr "feedback"
+
+msgid "setting.entry.feedback.log"
+msgstr "feedback.log"
+
+msgid "setting.entry.ffz.show-new-settings"
+msgstr ""
+"Mostra un indicatore sul pulsante del pannello delle impostazioni di FFZ "
+"nel caso vengano aggiunte nuove funzionalità a FrankerFaceZ."
+
+msgid "setting.entry.home"
+msgstr "pagina principale"
+
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Attiva la cattura dei messaggi."
+
+msgid "setting.entry.i18n.debug.capture.description"
+msgstr ""
+"Cattura tutte le stringhe di testo, incluse le variabili e le chiamate di "
+"posizione, per poterle segnalare al back-end. Questo è utile per aggiungere "
+"nuove stringhe al progetto di traduzione. In modo predefinito, la cattura "
+"dei messaggi è attivata quando è attiva la modalità sviluppatore."
+
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Trasformazione del testo"
+
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Trasforma tutte le stringhe di testo per testare la copertura e la "
+"lunghezza di esse."
+
+msgid "setting.entry.i18n.debug.transform.values.append_key"
+msgstr "Aggiungi la chiave"
+
+msgid "setting.entry.i18n.debug.transform.values.double"
+msgstr "Doppia"
+
+msgid "setting.entry.i18n.debug.transform.values.lower"
+msgstr "Tutto minuscolo"
+
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Disattivato"
+
+msgid "setting.entry.i18n.debug.transform.values.owo"
+msgstr "owo cos'è questo"
+
+msgid "setting.entry.i18n.debug.transform.values.set_key"
+msgstr "Imposta sulla chiave"
+
+msgid "setting.entry.i18n.debug.transform.values.upper"
+msgstr "Tutto maiuscolo"
+
+msgid "setting.entry.i18n.locale"
+msgstr "Lingua"
+
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FrankerFaceZ è tradotto con tanto amore dai volontari della nostra "
+"comunità. Se sei interessato ad aiutare a tradurre FrankerFaceZ, per favore "
+"[unisciti al nostro server di Discord](https://discord.gg/UrAkGhT) e chiedi "
+"informazioni sulla traduzione («Can I join the localization team?»)."
+
+msgid "setting.entry.layout.discover"
+msgstr "Mostra la scheda Discover."
+
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Mostra il pulsante per ottenere i bit."
+
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Minimizza la barra di navigazione"
+
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr "Nascondi la barra di navigazione in alto quando questa non viene utilizzata."
+
+msgid "setting.entry.layout.portrait"
+msgstr "Attiva la modalità verticale."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Nella modalità verticale la chat verrà mostrata sotto al video quando la "
+"finestra è più alta che lunga."
+
+msgid "setting.entry.layout.portrait-invert"
+msgstr "Quando è attiva la modalità verticale, posiziona la chat in alto."
+
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Limite della modalità verticale"
+
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr ""
+"Questo è il rapporto tra larghezza e altezza, superato questo rapporto, la "
+"modalità verticale verrà attivata."
+
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "Nascondi i canali offline"
+
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Mostra le repliche (reruns)"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.0"
+msgstr "Non mostrarle"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.1"
+msgstr "Normalmente"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.2"
+msgstr "In modo sbiadito (con il 33 % di opacità)"
+
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Mostra la navigazione laterale"
+
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Mostra gli avatar dei canali"
+
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Mostra gli amici online"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.0"
+msgstr "Mai"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.1"
+msgstr "Sempre"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.2"
+msgstr "Quando la navigazione laterale è aperta"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Mostra i canali consigliati / popolari"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.0"
+msgstr "Mai"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
+msgstr "Sempre"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
+msgstr "Quando la navigazione laterale è aperta"
+
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Mostra gli amici suggeriti da Twitch."
+
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Inverti le barre laterali."
+
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Scambia la barra di navigazione e la chat ai lati opposti delle finestra."
+
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Mostra la barra di navigazione minimizzata quando sei nella modalità teatro"
+
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Famiglia di caratteri"
+
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Sovrascrivi il carattere visualizzato in tutto il sito web di Twitch. Il "
+"vecchio carattere predefinito era: `\"Helvetica "
+"Neue\",Helvetica,Arial,sans-serif`"
+
+msgid "setting.entry.legal"
+msgstr "informazioni legali"
+
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Segui i canali in evidenza."
+
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr ""
+"Mostra un pulsante per seguire i canali in evidenza con gli attuali utenti "
+"in evidenza."
+
+msgid "setting.entry.metadata.host-button"
+msgstr "Pulsante per ospitare."
+
+msgid "setting.entry.metadata.host-button.description"
+msgstr ""
+"Mostra un pulsante per ospitare, con all'interno il canale da ospitare "
+"nella finestrella dei suggerimenti."
+
+msgid "setting.entry.metadata.player-stats"
+msgstr "Statistiche di riproduzione."
+
+msgid "setting.entry.metadata.player-stats.description"
+msgstr ""
+"Mostra il ritardo attuale della diretta, con la velocità dei fotogrammi di "
+"riproduzione ed i fotogrammi persi in una finestrella dei suggerimenti."
+
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Avviso del ritardo della diretta"
+
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"Quando il ritardo attuale della diretta supera questo numero di secondi, "
+"mostra il ritardo della trasmissione in un colore di avviso per attirare "
+"l'attenzione all'ampio ritardo. Imposta su zero per disattivare."
+
+msgid "setting.entry.metadata.uptime"
+msgstr "Durata della diretta"
+
+msgid "setting.entry.metadata.uptime.no-native"
+msgstr "Nascondi la durata della diretta fornita da Twitch."
+
+msgid "setting.entry.metadata.uptime.no-native.description"
+msgstr ""
+"In modo predefinito, questa funzionalità è attivata quando la durata della "
+"diretta fornita da FFZ è attivata, per evitare informazioni ridondanti."
+
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Disattivato"
+
+msgid "setting.entry.metadata.uptime.values.1"
+msgstr "Attivato"
+
+msgid "setting.entry.metadata.uptime.values.2"
+msgstr "Attivato (con i secondi)"
+
+msgid "setting.entry.player.allow-catchup"
+msgstr "Consenti al player di aumentare la velocità per ridurre il ritardo."
+
+msgid "setting.entry.player.allow-catchup.description"
+msgstr ""
+"Twitch applicherà un minimo aumento della velocità ai video in diretta in "
+"modo predefinito quando il tuo ritardo è considerevole rispetto allo "
+"streamer, al fine di rimettersi al passo della trasmissione in diretta. "
+"Questo può risultare in una distorsione dell'audio. Disabilita questa "
+"funzione per prevenite i cambiamenti di velocità automatici."
+
+msgid "setting.entry.player.button.pip"
+msgstr "Aggiungi il pulsante `Picture-in-picture` ai controlli del player."
+
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Cliccando sul pulsante picture-in-picture verrà attivata o disattivata una "
+"finestra separata con il player al suo interno."
+
+msgid "setting.entry.player.button.reset"
+msgstr "Aggiungi il pulsante `Riavvia il player` ai controlli del player."
+
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Facendo doppio clic sul pulsante «Riavvia il player», verrà eseguito un "
+"tentativo di ripristino dello stato interno del player di Twitch. Questo "
+"dovrebbe risolvere i problemi di riproduzione senza dover ricaricare la "
+"pagina."
+
+msgid "setting.entry.player.captions.alignment"
+msgstr "Allineamento"
+
+msgid "setting.entry.player.captions.alignment.values.11"
+msgstr "In alto a sinistra"
+
+msgid "setting.entry.player.captions.alignment.values.12"
+msgstr "In alto al centro"
+
+msgid "setting.entry.player.captions.alignment.values.13"
+msgstr "In alto a destra"
+
+msgid "setting.entry.player.captions.alignment.values.21"
+msgstr "In mezzo a sinistra"
+
+msgid "setting.entry.player.captions.alignment.values.22"
+msgstr "In mezzo al centro"
+
+msgid "setting.entry.player.captions.alignment.values.23"
+msgstr "In mezzo a destra"
+
+msgid "setting.entry.player.captions.alignment.values.31"
+msgstr "In basso a sinistra"
+
+msgid "setting.entry.player.captions.alignment.values.32"
+msgstr "In basso al centro"
+
+msgid "setting.entry.player.captions.alignment.values.33"
+msgstr "In basso a destra"
+
+msgid "setting.entry.player.captions.custom-position"
+msgstr ""
+"Attiva la sovrascrittura della posizione e allineamento dei sottotitoli per "
+"non udenti."
+
+msgid "setting.entry.player.captions.font-family"
+msgstr "Famiglia di caratteri"
+
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Sovrascrive il carattere dei sottotitoli per non udenti."
+
+msgid "setting.entry.player.captions.font-size"
+msgstr "Dimensioni del carattere"
+
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"La dimensione dei sottotitoli per non udenti. Questo valore può essere "
+"espresso in percentuale, per esempio `10%`; o con un valore in pixel, "
+"`50px`."
+
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Posizione orizzontale"
+
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Sovrascrive la posizione dei sottotitoli per non udenti. Questo valore può "
+"essere espresso in percentuale, per esempio `10%`; o con un valore in "
+"pixel, `50px`."
+
+msgid "setting.entry.player.captions.vertical"
+msgstr "Posizione verticale"
+
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Sovrascrive la posizione dei sottotitoli per non udenti. Questo valore può "
+"essere espresso in percentuale, per esempio `10%`; o con un valore in "
+"pixel, `50px`."
+
+msgid "setting.entry.player.compressor.attack"
+msgstr "Attacco (Attack)"
+
+msgid "setting.entry.player.compressor.attack.description"
+msgstr ""
+"**Intervallo:** 0 ~ 1\n"
+"Il lasso di tempo, in secondi, richiesto per aumentare il guadagno di 10 dB."
+
+msgid "setting.entry.player.compressor.default"
+msgstr "Attiva il compressore in modo predefinito."
+
+msgid "setting.entry.player.compressor.enable"
+msgstr ""
+"Attiva il compressore audio ed aggiungi un pulsante «Compressore audio» ai "
+"controlli del player."
+
+msgid "setting.entry.player.compressor.knee"
+msgstr "Ginocchio (Knee)"
+
+msgid "setting.entry.player.compressor.knee.description"
+msgstr ""
+"**Intervallo:** 0 ~ 40\n"
+"\n"
+"Un valore in decibel che rappresenta l'intervallo al di sopra del limite "
+"dove la curva passa alla porzione compressa."
+
+msgid "setting.entry.player.compressor.ratio"
+msgstr "Rapporto"
+
+msgid "setting.entry.player.compressor.ratio.description"
+msgstr ""
+"**Intervallo:** 0 ~ 20\n"
+"\n"
+"La differenza in dB richiesta per l'input per poter cambiare di 1 dB "
+"l'output."
+
+msgid "setting.entry.player.compressor.release"
+msgstr "Rilascio"
+
+msgid "setting.entry.player.compressor.release.description"
+msgstr ""
+"**Intervallo:** 0 ~ 1\n"
+"Il lasso di tempo, in secondi, richiesto per aumentare il guadagno di 10 dB."
+
+msgid "setting.entry.player.compressor.threshold"
+msgstr "Limite"
+
+msgid "setting.entry.player.compressor.threshold.description"
+msgstr ""
+"**Intervallo:** -100 ~ 0\n"
+"\n"
+"Il valore in decibel al di sopra del quale la compressione inizierà ad "
+"essere attiva."
+
+msgid "setting.entry.player.ext-hide"
+msgstr "Mostra le estensioni nell'overlay"
+
+msgid "setting.entry.player.ext-hide.values.0"
+msgstr "Sempre"
+
+msgid "setting.entry.player.ext-hide.values.1"
+msgstr "Con i controlli"
+
+msgid "setting.entry.player.ext-hide.values.2"
+msgstr "Mai"
+
+msgid "setting.entry.player.ext-interaction"
+msgstr "Consenti le interazioni con il mouse nelle estensioni dell'overlay."
+
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Nascondi la barra degli eventi."
+
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"Nascondi la barra degli eventi che appare sopra al video quando è in corso "
+"un evento in quello stesso canale."
+
+msgid "setting.entry.player.hide-mouse"
+msgstr "Nascondi il puntatore del mouse quando i controlli non sono visibili."
+
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Nascondi la barra della replica (rerun)."
+
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"Nasconde la barra della replica che appare sopra al video quando il canale "
+"attuale sta trasmettendo un video, e non contenuti in diretta."
+
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "Nascondi la barra della diretta di gruppo"
+
+msgid "setting.entry.player.home.autoplay"
+msgstr "Riproduci automaticamente le dirette in evidenza nella pagina principale."
+
+msgid "setting.entry.player.mute-click"
+msgstr "Silenzia o desilenzia il player cliccando con il tasto centrale del mouse."
+
+msgid "setting.entry.player.no-autoplay"
+msgstr "Non avviare la riproduzione di video o stream automaticamente"
+
+msgid "setting.entry.player.no-autoplay.description"
+msgstr ""
+"Nota: questa funzione non viene applicata quando si naviga direttamente da "
+"canale a canale."
+
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Apri la modalità teatro automaticamente quando visiti un canale."
+
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Mostra i metadati quando viene mosso il mouse sopra al player del video."
+
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Nascondi i messaggi privati quando la modalità verticale è attivata."
+
+msgid "setting.entry.player.vod.autoplay"
+msgstr ""
+"Riproduci automaticamente il prossimo video consigliato dopo che un video "
+"finisce."
+
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Mantieni la barra del volume sempre visibile."
+
+msgid "setting.entry.player.volume-scroll"
+msgstr "Regola il volume con la rotellina del mouse."
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Questa opzione non funzionerà correttamente nelle dirette che hanno delle "
+"estensioni visibili se l'interazione con il mouse è attivata.*"
+
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Quantità di volume modificato"
+
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr ""
+"Quanto il livello del volume viene modificato ogni volta che la rotellina "
+"del mouse viene usata."
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.01"
+msgstr "1 %"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.02"
+msgstr "2 %"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.05"
+msgstr "5 %"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.1"
+msgstr "10 %"
+
+msgid "setting.entry.profiles"
+msgstr "profili"
+
+msgid "setting.entry.reports.error.enable"
+msgstr "Invia automaticamente le segnalazioni quando si verifica un errore."
+
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Includi un'immagine delle impostazioni nelle segnalazioni."
+
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Conoscere con esattezza quali impostazioni sono attive quando si verifica "
+"un errore può rivelarsi incredibilmente utile per ricreare la problematica."
+
+msgid "setting.entry.reports.error.include-user"
+msgstr "Includi l'ID dell'utente nelle segnalazioni."
+
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"A volte, è utile sapere quali utenti stanno sperimentando problemi così che "
+"possiamo effettuare controlli per specifici stemmi, set di emote, o flag "
+"degli utenti che stanno causando problemi."
+
+msgid "setting.entry.socket.use-cluster"
+msgstr "Cluster di server"
+
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"Indica il cluster di server a cui connettersi. Non modificare questo valore "
+"a meno che tu non voglia sviluppare back-end con nuove funzionalità lato "
+"server. Se modifichi il valore, tutte le funzionalità che si affidano ad un "
+"socket smetteranno di funzionare, comprese le informazioni sulle emote, le "
+"finestrelle dei suggerimenti dei link e tutti i tipi di dati che si "
+"aggiornano in tempo reale."
+
+msgid "setting.entry.socket.use-cluster.values.Development"
+msgstr "Sviluppo"
+
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Disattivato"
+
+msgid "setting.entry.socket.use-cluster.values.Production"
+msgstr "Produzione"
+
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Mostra il promemoria di Prime"
+
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Mostra una corona sui pulsanti dell'abbonamento quando la tua iscrizione "
+"gratuita tramite Prime diventa disponibile."
+
+msgid "setting.entry.theme.color.background"
+msgstr "Sfondo"
+
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Prova ad utilizzare `#0E0C13` per avere un colore simile a quello del "
+"vecchio tema a colori scuri, o `#0E0E0E` per un bel grigio scuro. I colori "
+"trasparenti non sono consentiti."
+
+msgid "setting.entry.theme.color.text"
+msgstr "Testo"
+
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Se non impostato, questo verrà automaticamente mostrato come bianco o nero "
+"in base alla luminosità del colore di sfondo."
+
+msgid "setting.entry.theme.dark"
+msgstr "Grigio (senza viola)"
+
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Per funzionare, deve essere attivato il tema scuro*\n"
+"\n"
+"Questa impostazione verrà presto rimossa con lo sviluppo del nuovo sistema "
+"di temi.\n"
+"Il CSS caricato da questa impostazione è troppo pesante e può causare "
+"problemi nelle prestazioni."
+
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Mostra le immagini grandi degli stemmi."
+
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Mostra le immagini grandi delle emote."
+
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Mostra fonti note."
+
+msgid "setting.entry.tooltip.images"
+msgstr "Mostra le immagini nelle finestrelle dei suggerimenti."
+
+msgid "setting.entry.tooltip.link-images"
+msgstr "Mostra le immagini per i link."
+
+msgid "setting.entry.tooltip.link-interaction"
+msgstr ""
+"Attiva le interazioni con le finestrelle dei suggerimenti dei link "
+"supportati."
+
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Mostra le immagini potenzialmente per adulti."
+
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"Quando attivo, FrankerFaceZ includerà immagini segnate come non sicure o "
+"non classificate."
+
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Mostra l'anteprima in una finestrella dei suggerimenti per i link."
+
+msgid "setting.entry.whispers.show"
+msgstr "Mostra i messaggi privati"
+
+msgid "setting.example"
+msgstr "Per esempio:"
+
+msgid "setting.experiments.about"
+msgstr ""
+"Questa funzione ti consente di sovrascrivere i valori sperimentali. Nota "
+"bene: la maggior parte degli esperimenti, richiede l'aggiornamento della "
+"pagina per applicare le tue modifiche."
+
+msgid "setting.experiments.active"
+msgstr "Questo esperimento è attivo."
+
+msgid "setting.experiments.entry"
+msgstr "{value,tostring} (peso: {weight,tostring})"
+
+msgid "setting.experiments.ffz"
+msgstr "Esperimenti di FrankerFaceZ"
+
+msgid "setting.experiments.inactive"
+msgstr "Questo esperimento non è attivo."
+
+msgid "setting.experiments.none"
+msgstr "Non ci sono esperimenti attuali."
+
+msgid "setting.experiments.none-filter"
+msgstr "Non ci sono esperimenti che corrispondono."
+
+msgid "setting.experiments.show-unused"
+msgstr "Mostra gli esperimenti non utilizzati."
+
+msgid "setting.experiments.sort-name"
+msgstr "Ordina per: nome"
+
+msgid "setting.experiments.sort-rarity"
+msgstr "Ordina per: rarità"
+
+msgid "setting.experiments.twitch"
+msgstr "Esperimenti di Twitch"
+
+msgid "setting.experiments.unique-id"
+msgstr "ID univoco: {id}"
+
+msgid "setting.experiments.unset"
+msgstr "non impostato"
+
+msgid "setting.export"
+msgstr "Esporta"
+
+msgid "setting.false"
+msgstr "Falso"
+
+msgid "setting.filter.if.else"
+msgstr "Altrimenti"
+
+msgid "setting.filter.if.then"
+msgstr "Allora"
+
+msgid "setting.filter.page.url"
+msgstr "URL: {url}"
+
+msgid "setting.filters.active"
+msgstr "Questa regola corrisponde."
+
+msgid "setting.filters.add"
+msgstr "Aggiungi"
+
+msgid "setting.filters.add-new"
+msgstr "Aggiungi una nuova regola"
+
+msgid "setting.filters.empty"
+msgstr "(nessun filtro)"
+
+msgid "setting.filters.if.fail"
+msgstr "Questo filtro è attivo perché la condizione è falsa."
+
+msgid "setting.filters.if.no_fail"
+msgstr "Questo filtro non è attivo perché la condizione è vera."
+
+msgid "setting.filters.if.no_pass"
+msgstr "Questo filtro non è attivo perché la condizione è falsa."
+
+msgid "setting.filters.if.pass"
+msgstr "Questo filtro è attivo perché la condizione è vera."
+
+msgid "setting.filters.inactive"
+msgstr "Questa regola non corrisponde."
+
+msgid "setting.hidden"
+msgstr "Nascosto"
+
+msgid "setting.home"
+msgstr "Pagina principale"
+
+msgid "setting.home.changelog"
+msgstr "Note di rilascio"
+
+msgid "setting.home.faq"
+msgstr "Domande frequenti"
+
+msgid "setting.home.feedback"
+msgstr "Feedback"
+
+msgid "setting.home.feedback.log"
+msgstr "Log"
+
+msgid "setting.home.legal"
+msgstr "Informazioni legali"
+
+msgid "setting.icon.clear"
+msgstr "Ripulisci"
+
+msgid "setting.icon.search"
+msgstr "Cerca tra le icone"
+
+msgid "setting.import"
+msgstr "Importa..."
+
+msgid "setting.inheritance"
+msgstr "Punto di ereditarietà"
+
+msgid "setting.inheritance.desc"
+msgstr "Eredita il valore da un profilo di priorità inferiore per questa posizione."
+
+msgid "setting.inherited-from"
+msgstr "Valore ottenuto da: {title}"
+
+msgid "setting.key.alt"
+msgstr "ALT"
+
+msgid "setting.key.ctrl"
+msgstr "CTRL"
+
+msgid "setting.key.meta"
+msgstr "META"
+
+msgid "setting.key.shift"
+msgstr "MAIUSC"
+
+msgid "setting.new"
+msgstr "Novità"
+
+msgid "setting.overridden-by"
+msgstr "Sovrascritto da: {title}"
+
+msgid "setting.paste-json"
+msgstr "Incolla JSON"
+
+msgid "setting.paste-json.json"
+msgstr "[json]"
+
+msgid "setting.player"
+msgstr "Player"
+
+msgid "setting.player.closed_captioning"
+msgstr "Sottotitoli per non udenti"
+
+msgid "setting.player.closed_captioning.font"
+msgstr "Carattere"
+
+msgid "setting.player.closed_captioning.position"
+msgstr "Posizione"
+
+msgid "setting.player.compressor"
+msgstr "Compressore"
+
+msgid "setting.player.compressor.advanced"
+msgstr "Avanzato"
+
+msgid "setting.player.compressor.description"
+msgstr ""
+"Queste impostazioni controllano la compressione della gamma dinamica "
+"opzionale per il lettore, una forma di elaborazione audio che riduce il "
+"volume dei suoni forti e amplifica i suoni deboli, normalizzando o "
+"comprimendo così il volume. Questo usa "
+"[DynamicsCompressorNode](https://developer.mozilla.org/en-US/docs/Web/API/"
+"DynamicsCompressorNode) dall'API Web Audio presente dietro le quinte, se "
+"vuoi saperne di più."
+
+msgid "setting.player.compressor.general"
+msgstr "Generale"
+
+msgid "setting.player.general"
+msgstr "Generale"
+
+msgid "setting.player.general.extensions"
+msgstr "Estensioni"
+
+msgid "setting.player.general.general"
+msgstr "Generale"
+
+msgid "setting.player.general.playback"
+msgstr "Riproduzione"
+
+msgid "setting.player.general.theatre_mode"
+msgstr "Modalità teatro"
+
+msgid "setting.player.general.volume"
+msgstr "Volume"
+
+msgid "setting.profiles.active"
+msgstr "Questo profilo è attivato e attivo."
+
+msgid "setting.profiles.configure"
+msgstr "Configura"
+
+msgid "setting.profiles.default"
+msgstr "Profilo predefinito"
+
+msgid "setting.profiles.default.description"
+msgstr "Impostazioni che vengono applicate ovunque su Twitch."
+
+msgid "setting.profiles.disabled"
+msgstr "Questo profilo è disattivato."
+
+msgid "setting.profiles.disabled.description"
+msgstr ""
+"Questo profilo è stato disattivato, se effettui delle modifiche non vedrai "
+"dei cambiamenti all'interno di Twitch."
+
+msgid "setting.profiles.disabled.rules"
+msgstr "Questo profilo è attivato, ma non è attivo per via delle sue regole."
+
+msgid "setting.profiles.drag"
+msgstr "Trascina i profili per cambiare la loro priorità."
+
+msgid "setting.profiles.inactive"
+msgstr "Questo profilo non è attivo."
+
+msgid "setting.profiles.inactive.description"
+msgstr ""
+"Le regole di questo profilo non corrispondono al contesto corrente, e "
+"questo non è quindi attivo al momento, quindi non vedrai le modifiche che "
+"compi qui riflettersi su Twitch."
+
+msgid "setting.profiles.moderation"
+msgstr "Moderazione"
+
+msgid "setting.profiles.moderation.description"
+msgstr "Impostazioni che si applicano quando sei un moderatore del canale corrente."
+
+msgid "setting.profiles.new"
+msgstr "Nuovo profilo"
+
+msgid "setting.profiles.warn-delete"
+msgstr ""
+"Sei sicuro di voler cancellare questo profilo? Il profilo non potrà essere "
+"ripristinato."
+
+msgid "setting.profile.updates"
+msgstr "Questo profilo si aggiornerà automaticamente a partire dal seguente URL:"
+
+msgid "setting.reasons.add-default"
+msgstr "Aggiungi dei valori predefiniti"
+
+msgid "setting.reasons.add-default-tip"
+msgstr "Aggiungi tutte le motivazioni predefinite a questo profilo."
+
+msgid "setting.reasons.add-placeholder"
+msgstr "Aggiungi una nuova motivazione"
+
+msgid "setting.reasons.delete-all"
+msgstr "Elimina tutte le motivazioni di questo profilo."
+
+msgid "setting.reasons.info"
+msgstr ""
+"Le motivazioni possono essere selezionate usando i menù di contesto "
+"d'azione per aggiungere informazioni extra relative a ban e sospensioni."
+
+msgid "setting.reasons.no-reasons"
+msgstr "Non sono state definite motivazioni su questo profilo."
+
+msgid "setting.reset"
+msgstr "Ripristina ai valori predefiniti"
+
+msgid "setting.reset-all"
+msgstr "Ripristina tutto ai valori predefiniti"
+
+msgid "setting.right-click-reset"
+msgstr "Fai clic con il tasto destro per ripristinare"
+
+msgid "setting.save"
+msgstr "Salva"
+
+msgid "settings.back"
+msgstr "Indietro"
+
+msgid "settings.filter.category"
+msgstr "Categoria attuale"
+
+msgid "settings.filter.channel"
+msgstr "Canale attuale"
+
+msgid "settings.filter.if"
+msgstr "Se"
+
+msgid "settings.filter.invert"
+msgstr "Inverti"
+
+msgid "settings.filter.moderator"
+msgstr "È un moderatore"
+
+msgid "settings.filter.native-dark"
+msgstr "Tema scuro"
+
+msgid "settings.filter.or"
+msgstr "Oppure"
+
+msgid "settings.filter.page"
+msgstr "Pagina attuale"
+
+msgid "settings.filter.page.route.addons.deck"
+msgstr "Deck"
+
+msgid "settings.filter.page.route.addons.deck.tab"
+msgstr "Scheda"
+
+msgid "settings.filter.page.route.collection"
+msgstr "Collezione"
+
+msgid "settings.filter.page.route.command-center"
+msgstr "Centro dei comandi"
+
+msgid "settings.filter.page.route.dash"
+msgstr "Dashboard"
+
+msgid "settings.filter.page.route.dash-achievements"
+msgstr "Dashboard: obiettivi"
+
+msgid "settings.filter.page.route.dash-activity"
+msgstr "Dashboard: attività"
+
+msgid "settings.filter.page.route.dash-channel-analytics"
+msgstr "Dashboard: statistiche del canale"
+
+msgid "settings.filter.page.route.dash-channel-points"
+msgstr "Dashboard: punti del canale"
+
+msgid "settings.filter.page.route.dash-chat.userName"
+msgstr "Nome utente"
+
+msgid "settings.filter.page.route.dash-clips"
+msgstr "Dashboard: clip"
+
+msgid "settings.filter.page.route.dash-collections"
+msgstr "Dashboard: collezioni"
+
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Dashboard: modifica collezione"
+
+msgid "settings.filter.page.route.dash-edit-video"
+msgstr "Dashboard: modifica video"
+
+msgid "settings.filter.page.route.dash-extensions"
+msgstr "Dashboard: estensioni"
+
+msgid "settings.filter.page.route.dash-roles"
+msgstr "Dashboard: ruoli"
+
+msgid "settings.filter.page.route.dash-settings-channel"
+msgstr "Dashboard: impostazione del canale"
+
+msgid "settings.filter.page.route.dash-settings-moderation"
+msgstr "Dashboard: impostazione della moderazione"
+
+msgid "settings.filter.page.route.dash-settings-revenue"
+msgstr "Dashboard: impostazione dei guadagni"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Dashboard: strumenti delle dirette"
+
+msgid "settings.filter.page.route.dash-stream-manager"
+msgstr "Dashboard: manager della diretta"
+
+msgid "settings.filter.page.route.dash-stream-summary"
+msgstr "Dashboard: riepilogo della diretta"
+
+msgid "settings.filter.page.route.dash-video-producer"
+msgstr "Dashboard: produttore video"
+
+msgid "settings.filter.page.route.dir"
+msgstr "Sfoglia"
+
+msgid "settings.filter.page.route.dir-all"
+msgstr "Sfoglia i canali in diretta"
+
+msgid "settings.filter.page.route.dir-following"
+msgstr "Seguito"
+
+msgid "settings.filter.page.route.embed-chat"
+msgstr "Incorpora chat"
+
+msgid "settings.filter.page.route.embed-chat.userName"
+msgstr "Nome utente"
+
+msgid "settings.filter.page.route.event"
+msgstr "Evento"
+
+msgid "settings.filter.page.route.front-page"
+msgstr "Prima pagina"
+
+msgid "settings.filter.page.route.popout"
+msgstr "Apri la chat in una nuova finestra"
+
+msgid "settings.filter.page.route.popout.userName"
+msgstr "Nome utente"
+
+msgid "settings.filter.page.route.prime"
+msgstr "Prime"
+
+msgid "settings.filter.page.route.product"
+msgstr "Prodotto"
+
+msgid "settings.filter.page.route.squad"
+msgstr "Squadra"
+
+msgid "settings.filter.page.route.turbo"
+msgstr "Turbo"
+
+msgid "settings.filter.page.route.user"
+msgstr "Utente"
+
+msgid "settings.filter.page.route.user-clip"
+msgstr "Clip dell'utente"
+
+msgid "settings.filter.page.route.user-clips"
+msgstr "Clip dell'utente"
+
+msgid "settings.filter.page.route.user-collections"
+msgstr "Collezioni dell'utente"
+
+msgid "settings.filter.page.route.user-events"
+msgstr "Eventi dell'utente"
+
+msgid "settings.filter.page.route.user-followers"
+msgstr "Follower dell'utente"
+
+msgid "settings.filter.page.route.user-following"
+msgstr "Profili seguiti dall'utente"
+
+msgid "settings.filter.page.route.user-video"
+msgstr "Video del canale"
+
+msgid "settings.filter.page.route.user-videos"
+msgstr "Video dell'utente"
+
+msgid "settings.filter.page.route.video"
+msgstr "Video"
+
+msgid "settings.filter.squad"
+msgstr "Modalità squadra"
+
+msgid "settings.filter.theater"
+msgstr "Modalità teatro"
+
+msgid "settings.filter.time"
+msgstr "Ora del giorno"
+
+msgid "settings.filter.time.end"
+msgstr "Fine:"
+
+msgid "settings.filter.time.start"
+msgstr "Inizio:"
+
+msgid "settings.filter.title"
+msgstr "Titolo attuale"
+
+msgid "settings.filter.title.sensitive"
+msgstr "Differenza tra maiuscole e minuscole"
+
+msgid "settings.filter.title.warn-complex"
+msgstr ""
+"Questo schema è potenzialmente troppo complesso. Sarà disattivato per "
+"evitare rallentamenti."
+
+msgid "settings.filter.title.warn-invalid"
+msgstr "Questo schema non è valido."
+
+msgid "settings.filter.true_false"
+msgstr "Vero o falso"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Aggiungi un nuovo termine"
+
+msgid "setting.terms.add-term"
+msgstr "Aggiungi"
+
+msgid "setting.terms.no-terms"
+msgstr "Non sono stati definiti termini su questo profilo"
+
+msgid "setting.terms.remove.off"
+msgstr "Non rimuovere i messaggi che combaciano nella chat."
+
+msgid "setting.terms.remove.on"
+msgstr "Rimuovi i messaggi che combaciano dalla chat."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Espressione regolare"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Espressione regolare (parola)"
+
+msgid "setting.terms.type.text"
+msgstr "Testo"
+
+msgid "setting.tooltip-example"
+msgstr "Per esempio, porta il mouse sopra questo link:"
+
+msgid "setting.true"
+msgstr "Vero"
+
+msgid "setting.unset"
+msgstr "Non impostato"
+
+msgid "setting.visible"
+msgstr "Visibile"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Questi valori sono stati sovrascritti da un altro profilo e potrebbero non "
+"avere più effetto."
+
+msgid "setting.warn-unsaved"
+msgstr "Delle modifiche non sono state salvate. Vuoi davvero uscire dall'editor?"

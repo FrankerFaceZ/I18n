@@ -1,0 +1,866 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Отпреми"
+
+msgid "autocomplete.empty"
+msgstr "Нема резултата."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"(је претплаћен/а  {count,plural,\n"
+"one {# месец} \n"
+"few {# месеца}\n"
+"many {#.месеца}\n"
+"other {# месеци}})"
+
+msgid "card.empty"
+msgstr "Ниједан податак није враћен."
+
+msgid "card.error"
+msgstr "Дошло је до грешке."
+
+msgid "card.loading"
+msgstr "Учитавање..."
+
+msgid "chat.actions.ban"
+msgstr "Банју корисника"
+
+msgid "chat.actions.ban-reason"
+msgstr "Бануј корисника {user.login} због:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Бануј корисника {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Команде ћаскања"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Избриши поруку од корисника {user.login}"
+
+msgid "chat.actions.msg_delete"
+msgstr "Избриши поруку"
+
+msgid "chat.actions.open_url"
+msgstr "Отвори УРЛ"
+
+msgid "chat.actions.select-reason"
+msgstr "Молим вас изаберите разлог из листе:"
+
+msgid "chat.actions.timeout"
+msgstr "Бануј корисника"
+
+msgid "chat.actions.timeout.desc"
+msgstr ""
+"{options.duration,plural,\n"
+"one {#. секунда} \n"
+"few {# секунде}\n"
+"other{# секунди}}"
+
+msgid "chat.actions.timeout-reason"
+msgstr "Бануј корисника {user.login} на {duration,number} секунди/у {duration} због:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr "Бануј корисника {user.login} на {duration,number}. секунди/у {duration}"
+
+msgid "chat.actions.unban"
+msgstr "Одбануј корисника"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "Одбанју {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Непознат тип акције"
+
+msgid "chat.actions.untimeout"
+msgstr "Избриши корисников бан"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Избриши бан од корисника {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Шапни кориснику"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Шапни кориснику {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {Једна порука је избрисана од стране модератора.}\n"
+"other {#. поруке су избрисане од стране модератора.}\n"
+"}"
+
+msgid "chat.filtering.automod.A"
+msgstr "Непријатељство"
+
+msgid "chat.filtering.automod.I"
+msgstr "Дискриминација"
+
+msgid "chat.filtering.automod.P"
+msgstr "Вулгарност"
+
+msgid "chat.filtering.automod.S"
+msgstr "Сексуално експлицитни језик"
+
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod је блокирао термин"
+
+msgid "chat.filtering.automod-why"
+msgstr "Ово је означено као:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Блокирани термин"
+
+msgid "chat.ignore-clear"
+msgstr "Покушај модератора да обрише ћаскање је игнорисан."
+
+msgid "chat.message-deleted"
+msgstr "<избрисана порука>"
+
+msgid "chat.messages-below"
+msgstr "Ћаскање је паузирано због скрола."
+
+msgid "chat.mod-action.ban"
+msgstr "Банован"
+
+msgid "chat.mod-action.by"
+msgstr "{action} од стране корисника {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Избрисан"
+
+msgid "chat.mod-action.timeout"
+msgstr ""
+"{duration,plural,\n"
+"one {#. секунда} \n"
+"few {#. секунде}\n"
+"many {#. секунде}\n"
+"other {#. секунди}} бан"
+
+msgid "chat.paused"
+msgstr "Ћаскање је паузирано због {reason}"
+
+msgid "chat.points.bypass-sub"
+msgstr "Пошаљи поруку у само претплаћени корисници моду."
+
+msgid "chat.points.choose-emote"
+msgstr "Изаберите емотикон који желите да откључате"
+
+msgid "chat.points.highlighted"
+msgstr "Истакни моју поруку"
+
+msgid "chat.points.modify-emote"
+msgstr "Модификујте један емотикон"
+
+msgid "chat.points.random-emote"
+msgstr "Откључајте насумичан претплатнички емотикон"
+
+msgid "chat.points.redeemed"
+msgstr "Је откупио/ла {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Награда"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} је откупио/ла {reward} {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "Игнорисање стримера / модератора"
+
+msgid "chat.reasons.evasion"
+msgstr "Избегавање бана"
+
+msgid "chat.reasons.hate"
+msgstr "Мржња / узнемиравање"
+
+msgid "chat.reasons.links"
+msgstr "Слање опасних линкова"
+
+msgid "chat.reasons.personal"
+msgstr "Претња / персоналне информације"
+
+msgid "chat.reasons.spam"
+msgstr "Спам једне особе"
+
+msgid "chat.ritual"
+msgstr "{user} је нов/а овде. Кажи здраво!"
+
+msgid "chat.settings.back"
+msgstr "Назад"
+
+msgid "chat.settings.open-settings"
+msgstr "Отвори контролни центар"
+
+msgid "chat.settings.pause"
+msgstr "Паузирај ћаскање"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ ће поништити понашање функције 'Pause Chat' (паузирај ћаскање) "
+"у потпуности. Молимо вас користите FFZ опције 'скролбека' које се налазе у "
+"секцији 'Контролни центар',  'Ћаскање' > 'Понашање'."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Анонимни давалац"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"Претплаћени су {cumulative, plural, \n"
+"one {# месец} \n"
+"few {# месеца} \n"
+"other {# месеци}} и тренутно су на {streak,number}. узастопном месецу!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} поклања {count,plural,\n"
+"one {#. претплату} \n"
+"few {#. претплате}\n"
+"other {#. претплата}} на нивоу {tier}  за {channel} заједницу! "
+
+msgid "chat.sub.gift-first"
+msgstr "Ово је њихов први пут да поклањају претплату на каналу!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Ниво {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr ""
+"Укупно су поклонили {count,plural, one {#. претплату} \n"
+"few {#. претплатe}\n"
+"many {#. претплате}\n"
+"other {#. претплата}} на каналу!"
+
+msgid "chat.sub.main"
+msgstr "{user} се претплатио/ла {plan}. "
+
+msgid "chat.sub.months"
+msgstr ""
+"Претплаћени су {count,plural,\n"
+"one {# месец} \n"
+"few {# месеца} \n"
+"other {# месеци}}!"
+
+msgid "chat.sub.mystery"
+msgstr "{user}  је поклонио {plan} претплату кориснику {recipient}! "
+
+msgid "chat.sub.plan"
+msgstr "на нивоу {tier}"
+
+msgid "clip.desc.1"
+msgstr "Клип од корисника {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} је креативан"
+
+msgid "clip.desc.1.playing"
+msgstr "корисник {user} игра {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Клип од {curator} — {views,plural,\n"
+"one {# преглед} \n"
+"other {# прегледа}}"
+
+msgid "clip.unknown"
+msgstr "Непознато"
+
+msgid "directory.block"
+msgstr "Блокирај"
+
+msgid "directory.hide-thumbnails"
+msgstr "Сакриј сличице"
+
+msgid "directory.hosted"
+msgstr "Хостовани канали"
+
+msgid "directory.hosted.by-many"
+msgstr "Је хостован од стране {count,number}. канала."
+
+msgid "directory.hosted.by-one"
+msgstr "Хостован од стране {user}"
+
+msgid "directory.hosting"
+msgstr "Хостује канале"
+
+msgid "directory.show-thumbnails"
+msgstr "Прикажи сличице"
+
+msgid "directory.unblock"
+msgstr "Одблокирај"
+
+msgid "directory.user-playing"
+msgstr "{user} игра {game}"
+
+msgid "emoji.category.activities"
+msgstr "Активности"
+
+msgid "emoji.category.animals___nature"
+msgstr "Животиње & природа"
+
+msgid "emoji.category.flags"
+msgstr "Заставе"
+
+msgid "emoji.category.food___drink"
+msgstr "Храна & пиће"
+
+msgid "emoji.category.objects"
+msgstr "Објекти"
+
+msgid "emoji.category.skin_tones"
+msgstr "Тен"
+
+msgid "emoji.category.smileys___people"
+msgstr "Смајлији & људи"
+
+msgid "emoji.category.symbols"
+msgstr "Симболи"
+
+msgid "emoji.category.travel___places"
+msgstr "Путовања & места"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Емотикон"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Канал: {channel}"
+
+msgid "emote.global"
+msgstr "Twitch глобал"
+
+msgid "emote.limited"
+msgstr "Временски ограничен емотикон"
+
+msgid "emote-menu.channel"
+msgstr "Канал"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Као привремено решење покушајте да онемогућите FFZ емотикон мени у FFZ "
+"контролном центру."
+
+msgid "emote-menu.emoji"
+msgstr "Емотикон"
+
+msgid "emote-menu.emote-sub"
+msgstr "Претплатите се по цени од {price} да бисте откључали овај емотикон."
+
+msgid "emote-menu.emote-up"
+msgstr ""
+"Унапредите своју претплату по цени од {price} да бисте откључали овај "
+"емотикон."
+
+msgid "emote-menu.empty"
+msgstr "Овде нема ништа."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"Тренутно немате ниједан омиљени емотикон. Да бисте означили емотикон као "
+"омиљени, нађите га и притисните {hotkey}."
+
+msgid "emote-menu.empty-search"
+msgstr "Не постоји подударајући емотикон."
+
+msgid "emote-menu.error"
+msgstr "Дошло је до грешке приликом приказивања овог менија."
+
+msgid "emote-menu.error-report"
+msgstr "Извештај о грешци је аутоматски послат."
+
+msgid "emote-menu.favorites"
+msgstr "Омиљени"
+
+msgid "emote-menu.featured"
+msgstr "Истакнуто"
+
+msgid "emote-menu.global"
+msgstr "Глобални емотикони"
+
+msgid "emote-menu.inventory"
+msgstr "Инвентар"
+
+msgid "emote-menu.loading"
+msgstr "Учитавање..."
+
+msgid "emote-menu.main-set"
+msgstr "Емотикони канала"
+
+msgid "emote-menu.misc"
+msgstr "Остало"
+
+msgid "emote-menu.my-emotes"
+msgstr "Моји емотикони"
+
+msgid "emote-menu.points"
+msgstr "Откључано са поенима"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Освежи податке"
+
+msgid "emote-menu.search"
+msgstr "Претражи емотиконе"
+
+msgid "emote-menu.search-emoji"
+msgstr "Претражи емотикон"
+
+msgid "emote-menu.settings"
+msgstr "Отвори подешавања"
+
+msgid "emote-menu.sub-basic"
+msgstr "Да бисте откључали неке од емитокина, морате се претплатити."
+
+msgid "emote-menu.sub-ends"
+msgstr "Ова претплата се завршава за {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Ова поклоњена претплата се завршава за {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Ово је ваша бесплатна Twitch Prime претплата.\n"
+"Завршава се за {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr ""
+"Ова претплата ће бити обновљена за {seconds,plural,\n"
+"one {# секунду} \n"
+"few {# секунде}\n"
+"many {# секнуди}\n"
+"other {# секнуди}}."
+
+msgid "emote-menu.sub-set"
+msgstr "Емотикони претплатника"
+
+msgid "emote-menu.sub-unlock"
+msgstr ""
+"Претплатите се по цени од {price} да бисте откључали {count, plural, \n"
+"one {# емотикон} \n"
+"other {# емотикона}}"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Непознат извор"
+
+msgid "emote-menu.unknown-set"
+msgstr "Постави #{set_id}"
+
+msgid "emote.owner"
+msgstr "Од: {owner}"
+
+msgid "error.try-again"
+msgstr "Покушајте поново"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Отрпати {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Обавештења су тренутно омогућена. Кликните да бисте искључили."
+
+msgid "i18n.diff.added"
+msgstr ""
+"Додато:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Уклоњено:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Заинтересовани сте да помогнете са локализацијом? Молимо вас да прикључите "
+"нашем [Discord](https://discord.gg/UrAkGhT) серверу и прикључите каналу "
+"локализација.\n"
+"\n"
+"Ова алатка дозвољава преводиоцима да тестирају преведене речи у реалном "
+"времену. Тако можете да се уверите да је све у реду пре него што прихватите "
+"преведену реч или реченицу."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} одрађено)"
+
+msgid "i18n.ui.added"
+msgstr "Нове речи"
+
+msgid "i18n.ui.all"
+msgstr "Све речи"
+
+msgid "i18n.ui.changed"
+msgstr "Промењене речи"
+
+msgid "i18n.ui.context"
+msgstr "Контекст"
+
+msgid "i18n.ui.existing"
+msgstr "Постојеће речи"
+
+msgid "i18n.ui.open"
+msgstr "Отвори тестер преводилаца"
+
+msgid "i18n.ui.pages"
+msgstr "Страница {current,number} од {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Нерешене речи"
+
+msgid "i18n.ui.popout"
+msgstr "Отворите едитор преводиоца у новом прозору"
+
+msgid "i18n.ui.preview"
+msgstr "Преглед"
+
+msgid "i18n.ui.refresh"
+msgstr "Освежи речи"
+
+msgid "i18n.ui.save"
+msgstr "Generate Change Blob"
+
+msgid "i18n.ui.search"
+msgstr "Претражи речи"
+
+msgid "i18n.ui.source"
+msgstr "Извор"
+
+msgid "i18n.ui.title"
+msgstr "Тестер преводилаца"
+
+msgid "i18n.ui.upload"
+msgstr "Отпреми промене"
+
+msgid "key.alt"
+msgstr "Алт тастер"
+
+msgid "key.alt_mouse"
+msgstr "Алт или миш"
+
+msgid "key.ctrl"
+msgstr "Цтрл тастер"
+
+msgid "key.ctrl_mouse"
+msgstr "Цтрл тастер или миш"
+
+msgid "key.hover"
+msgstr "Hover"
+
+msgid "key.meta"
+msgstr "Мета тастер"
+
+msgid "key.meta_mouse"
+msgstr "Мета или миш"
+
+msgid "key.mouse"
+msgstr "Ако померате миш"
+
+msgid "key.shift"
+msgstr "Шифт тастер"
+
+msgid "key.shift_mouse"
+msgstr "Шифт или миш"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Означи све као прочитано"
+
+msgid "main-menu.popout"
+msgstr "Отвори подешавања у новом прозору"
+
+msgid "main-menu.search"
+msgstr "Подешавања претраге"
+
+msgid "main-menu.version"
+msgstr "Верзија {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Истакнуто"
+
+msgid "metadata.featured-follow.title"
+msgstr "Истакнути канали"
+
+msgid "metadata.host.add-channel"
+msgstr "Додај у аутоматско хостовање"
+
+msgid "metadata.host-button.host"
+msgstr "Хост"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Тренутно хостујете: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Ниједан"
+
+msgid "metadata.host-button.unhost"
+msgstr "Прекини хостовање"
+
+msgid "metadata.host-button.updating"
+msgstr "Ажурирање..."
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Аутоматско хостовање"
+
+msgid "metadata.host.tab.settings"
+msgstr "Подешавања"
+
+msgid "metadata.host.title"
+msgstr "Подешавања аутоматског хостовања"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Емитовање пре {count,number}с"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Чини се да је ваш локани сат оптрилике {count,number} секунде нетачан, што "
+"може ово учинити нетачним."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Статистика стрима"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "Снимак је убрзан за {rate,number}x како би се смањило кашњење."
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Кашњење"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Video: {videoResolution}p{fps}\n"
+"Playback Rate: {playbackRate,number} Kbps\n"
+"Dropped Frames:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Информације видео снимка"
+
+msgid "metadata.uptime.copy"
+msgstr "Копирај"
+
+msgid "metadata.uptime.link-to"
+msgstr "Линк до {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(Од {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Уживо"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Уживо"
+
+msgid "page.next"
+msgstr "Следећа страница"
+
+msgid "page.previous"
+msgstr "Претходна страница"
+
+msgid "player.comp_button.disabled"
+msgstr "Компресор звука не може бити омогућен када гледате клипове."
+
+msgid "player.comp_button.help"
+msgstr ""
+"За више детаља молимо вас да посетите FFZ контролни центар. Уколико нестане "
+"звука или нешто није у реду са њим, молимо вас да ресетујете плејер."
+
+msgid "player.comp_button.off"
+msgstr "Онемогући компресор звука"
+
+msgid "player.comp_button.on"
+msgstr "Омогући компресор звука"
+
+msgid "player.pip_button"
+msgstr "Слика у слици"
+
+msgid "player.pip_button.fs"
+msgstr ""
+"Није могуће коришћење 'слика у слици' мода уколико је слика преко целог "
+"екрана."
+
+msgid "player.pip_button.off"
+msgstr "Изађи из слика у слици мода"
+
+msgid "player.reset_button"
+msgstr "Рестартуј плејер (дупли клик)"
+
+msgid "player.reset_button.all"
+msgstr "Рестартуј све плејере (дупли клик)"
+
+msgid "popup.error"
+msgstr ""
+"Дошло је до грешке приликом отварања искачућег прозора. Морате омогућити "
+"искачуће прозоре на Twitch - у."
+
+msgid "site.menu_button"
+msgstr "FrankerFaceZ контролни центар"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Учитали сте податке додатка са локалног развојног сервера."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"Дошло је до грешке приликом учитавања FFZ контролонг центра. Молимо ва да "
+"освежите страницу."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Тренутно користите мод за програмере од FrankerFaceZ апликације."
+
+msgid "site.menu_button.new-desc"
+msgstr ""
+"{count,plural,\n"
+"one {Једна нова опција је доступна} \n"
+"few {#. Нове опције су доступне}\n"
+"other {#. Нових опција је доступно}}."
+
+msgid "site.menu_button.profiles"
+msgstr "Профили"
+
+msgid "site.menu_button.strings"
+msgstr ""
+"{added,plural,\n"
+"one {Додата је једна нова реч} \n"
+"few {Додате су # нове речи}\n"
+"other {Додато је # нових речи}} и {changed,plural,\n"
+"one {промењена је једна реч} \n"
+"few {промењене су # речи}\n"
+"other {промењене су # речи}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "Ажурирање је доступно. Молим вас освежите страницу."
+
+msgid "socket.info.command"
+msgstr "Команда"
+
+msgid "socket.info.connected"
+msgstr "прикључен"
+
+msgid "socket.info.count"
+msgstr "Укупно"
+
+msgid "socket.info.disconnected"
+msgstr "искључен"
+
+msgid "socket.info.local_time"
+msgstr "Локално време"
+
+msgid "socket.info.ping"
+msgstr "Пинг"
+
+msgid "socket.info.server"
+msgstr "Сервер"
+
+msgid "socket.info.server_time"
+msgstr "Серверско време"
+
+msgid "socket.info.state"
+msgstr "Стање"
+
+msgid "socket.info.stats.authenticated"
+msgstr "Ауторизован"
+
+msgid "socket.info.stats.connected_clients"
+msgstr "Повезани клијенти"
+
+msgid "socket.info.stats.live_clients"
+msgstr "Клијенти уживо"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Команде"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Поруке"
+
+msgid "socket.info.stats.versions"
+msgstr "Верзије клијента"
+
+msgid "socket.info.time_offset"
+msgstr "Временски размак"
+
+msgid "socket.info.topics"
+msgstr "Теме"
+
+msgid "socket.info.version"
+msgstr "Верзија"
+
+msgid "sub-button.prime"
+msgstr "Ваша бесплатна Twitch претплата је доступна."
+
+msgid "tooltip.bits"
+msgstr ""
+"{count,plural,\n"
+"one {#. Бит} \n"
+"few {#. Бита}\n"
+"other {#. Битова}}"
+
+msgid "tooltip.bits.more"
+msgstr "(и {count} више)"
+
+msgid "tooltip.channel"
+msgstr "Канал: {source}"
+
+msgid "tooltip.email-link"
+msgstr "Е-Маил {address}"
+
+msgid "tooltip.emoji"
+msgstr "Емотикони - {category}"
+
+msgid "tooltip.emote"
+msgstr "Емотикон: {name}"
+
+msgid "tooltip.error"
+msgstr "Дошло је до грешке. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Дестинација: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr ""
+"Опрез: Овај УРЛ се налази на гугловој листи сигурног прегледавања због: "
+"{reasons}"
+
+msgid "tooltip.render-error"
+msgstr ""
+"Дошло је до грешке приликом рендеровања овог тултипа.\n"
+"{err}"
+
+msgid "video-chat.jump"
+msgstr "Иди на видео"
+
+msgid "video-chat.reply"
+msgstr "Снимак"
+
+msgid "video-chat.show-more"
+msgstr "Прикажи још одговора..."
+
+msgid "video-chat.time"
+msgstr "пре {time,humantime}"
+
+msgid "video.desc.1"
+msgstr "Видео снимак од корисника {user}"
+
+msgid "video.desc.2"
+msgstr ""
+"{length,duration} — {views,plural,\n"
+"one {# преглед} \n"
+"other {# прегледа}} - {date,datetime}"
+
+msgid "video.published-on"
+msgstr "Објављено: {date,date}"

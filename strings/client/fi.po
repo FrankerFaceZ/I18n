@@ -1,0 +1,729 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Lataa"
+
+msgid "autocomplete.empty"
+msgstr "Ei tuloksia."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"(Tilaaja ({count,number} {count,plural,one {kuukauden} other {kuukautta}})"
+
+msgid "card.empty"
+msgstr "Ei tietoja."
+
+msgid "card.error"
+msgstr "Virhe."
+
+msgid "card.loading"
+msgstr "Ladataan..."
+
+msgid "chat.actions.ban"
+msgstr "Estä käyttäjä."
+
+msgid "chat.actions.ban-reason"
+msgstr "Estä käyttäjä {user.login} syystä:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Estä käyttäjä {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Chat -komento"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Poista käyttäjän {user.login} viesti"
+
+msgid "chat.actions.msg_delete"
+msgstr "Poista viesti"
+
+msgid "chat.actions.open_url"
+msgstr "Avaa URL"
+
+msgid "chat.actions.select-reason"
+msgstr "Valitse syy allaolevasta listasta:"
+
+msgid "chat.actions.timeout"
+msgstr "Aseta käyttäjä jäähylle"
+
+msgid "chat.actions.timeout.desc"
+msgstr ""
+"{options.duration,number} {options.duration,plural,one {sekunti} other "
+"{sekuntia}}"
+
+msgid "chat.actions.timeout-reason"
+msgstr "Aseta käyttäjä {user.login} {duration,number} sekunnin jäähylle syystä:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr "Aseta käyttäjä {user.login} {duration,number} sekunnin jäähylle"
+
+msgid "chat.actions.unban"
+msgstr "Poista esto käyttäjältä {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Tuntematon toimenpide"
+
+msgid "chat.actions.untimeout"
+msgstr "Poista jäähy käyttäjältä"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Peruuta käyttäjän {user.login} jäähy"
+
+msgid "chat.actions.whisper"
+msgstr "Kuiskaa käyttäjälle"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Kuiskaa käyttäjälle {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {Moderaattori poisti yhden viestin.}\n"
+"other {Moderaattori poisti # viestiä.}\n"
+"}"
+
+msgid "chat.filtering.automod.A"
+msgstr "Aggressiivisuus"
+
+msgid "chat.filtering.automod.I"
+msgstr "Syrjintä"
+
+msgid "chat.filtering.automod.P"
+msgstr "Hävyttömyyksiä"
+
+msgid "chat.filtering.automod.S"
+msgstr "Seksuaalinen sisältö"
+
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod torjutut sanat ja lauseet"
+
+msgid "chat.filtering.automod-why"
+msgstr "Tämä merkattiin:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Estetty sana"
+
+msgid "chat.ignore-clear"
+msgstr "Moderaattorin pyyntöä tyhjentää chat ei huomioitu."
+
+msgid "chat.message-deleted"
+msgstr "<viesti poistettu>"
+
+msgid "chat.messages-below"
+msgstr "Automaattinen vieritys pysäytetty manuaalisen vierityksen takia"
+
+msgid "chat.mod-action.ban"
+msgstr "Estetty"
+
+msgid "chat.mod-action.by"
+msgstr "{action} käyttäjän {login} toimesta"
+
+msgid "chat.mod-action.delete"
+msgstr "Poistettu"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} jäähy"
+
+msgid "chat.paused"
+msgstr "Automaattinen vieritys pysäytetty: {reason}"
+
+msgid "chat.points.bypass-sub"
+msgstr "Lähetä viesti Vain tilaajat -tilassa"
+
+msgid "chat.points.choose-emote"
+msgstr "Vapauta yksi hymiö"
+
+msgid "chat.points.highlighted"
+msgstr "Korota viesti"
+
+msgid "chat.points.modify-emote"
+msgstr "Muokkaa yhtä hymiötä"
+
+msgid "chat.points.random-emote"
+msgstr "Vapauta satunnainen hymiö"
+
+msgid "chat.points.redeemed"
+msgstr "Lunasti {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Palkinto"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} lunasti {reward} {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "Lähettäjän tai Moderaattorin ohjeiden sivuuttaminen"
+
+msgid "chat.reasons.evasion"
+msgstr "Eston kiertäminen"
+
+msgid "chat.reasons.hate"
+msgstr "Vihapuhe tai häiriköinti"
+
+msgid "chat.reasons.links"
+msgstr "Vaarallisten linkkien lähettäminen"
+
+msgid "chat.reasons.personal"
+msgstr "Uhkaukset tai henkilökohtaisten tietojen jakaminen"
+
+msgid "chat.reasons.spam"
+msgstr "Roskapostin lähettminen"
+
+msgid "chat.ritual"
+msgstr "{user} on uusi täällä. Sano hei!"
+
+msgid "chat.settings.back"
+msgstr "Takaisin"
+
+msgid "chat.settings.open-settings"
+msgstr "Avaa Ohjauskeskus"
+
+msgid "chat.settings.pause"
+msgstr "Keskeytä chatti"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ ohittaa `Keskeytä chatti` toiminnon kokonaan. Käytä FFZ:n "
+"asetuksia FFZ:n Ohjauskeskusessa."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Anonyymi lahjoittaja"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"Käyttäjä on tilannut kanavan yhteensä {cumulative,number} kuukautta, josta "
+"{streak,number} kuukautta yhtäjaksoisesti!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} lahjoittaa {count,plural, one {yhden} other {#}} tason {tier} "
+"{count,plural, one {tilauksen} other {tilausta}} kanavan {channel} "
+"yhteisölle! "
+
+msgid "chat.sub.gift-first"
+msgstr "Kyseessä on käyttäjän ensimmäinen lahjoitettu tilaus!"
+
+msgid "chat.sub.gift-plan"
+msgstr "taso {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "Käyttäjä on lahjoittanut {count} tilausta kanavalle!"
+
+msgid "chat.sub.main"
+msgstr "{user} teki tilauksen {plan}. "
+
+msgid "chat.sub.months"
+msgstr "Käyttäjä on tilannut kanavan {count,number} kuukautta!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} lahjoitti {plan} tilauksen käyttäjälle {recipient}! "
+
+msgid "chat.sub.plan"
+msgstr "tasolla {tier}"
+
+msgid "clip.desc.1"
+msgstr "Käyttäjän {user} leike"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} on Creative"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} pelaa {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Leikkeen tekijä {curator} — {views,number} {views,plural,one {katselukerta} "
+"other {katselukertaa}}"
+
+msgid "clip.unknown"
+msgstr "Tuntematon"
+
+msgid "directory.block"
+msgstr "Estä"
+
+msgid "directory.hide-thumbnails"
+msgstr "Piilota esikatselukuvat"
+
+msgid "directory.hosted"
+msgstr "Jaettu kanava"
+
+msgid "directory.hosted.by-many"
+msgstr "Kanavaa jakaa {count,number} {count,plural,one {kanava} other {kanavaa}}"
+
+msgid "directory.hosted.by-one"
+msgstr "Jakaa {user}"
+
+msgid "directory.hosting"
+msgstr "Jakavat kanavat"
+
+msgid "directory.show-thumbnails"
+msgstr "Näytä esikatselukuvat"
+
+msgid "directory.unblock"
+msgstr "Poista esto"
+
+msgid "directory.user-playing"
+msgstr "{user} pelaa {game}"
+
+msgid "emoji.category.activities"
+msgstr "Aktiviteetit"
+
+msgid "emoji.category.animals___nature"
+msgstr "Eläimet & Luonto"
+
+msgid "emoji.category.flags"
+msgstr "Liput"
+
+msgid "emoji.category.food___drink"
+msgstr "Ruoat & Juomat"
+
+msgid "emoji.category.objects"
+msgstr "Objektit"
+
+msgid "emoji.category.skin_tones"
+msgstr "Ihonvärit"
+
+msgid "emoji.category.smileys___people"
+msgstr "Hymiöt & Ihmiset"
+
+msgid "emoji.category.symbols"
+msgstr "Symbolit"
+
+msgid "emoji.category.travel___places"
+msgstr "Matkustus & Paikat"
+
+msgid "emote.global"
+msgstr "Twitch Globaalit"
+
+msgid "emote.limited"
+msgstr "Rajoitetun ajan hymiö"
+
+msgid "emote-menu.channel"
+msgstr "Kanava"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Tilapäisenä korjauskeinona voitte kokeilla FFZ hymiövalikon ottamista pois "
+"käytöstä."
+
+msgid "emote-menu.emoji"
+msgstr "Hymiö"
+
+msgid "emote-menu.emote-sub"
+msgstr "Tilaa tasolla {price} käyttääksesi tätä hymiötä."
+
+msgid "emote-menu.emote-up"
+msgstr "Päivitä tilauksesi tasolle {price} käyttääksesi tätä hymiötä."
+
+msgid "emote-menu.empty"
+msgstr "Tyhjää täynnä."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"Sinulla ei ole suosikkihymiöitä. Valitse suosikkihymiöitä klikkaamalla "
+"{hotkey} -näppäin painettuna."
+
+msgid "emote-menu.empty-search"
+msgstr "Ei löytynyt vastaavia hymiöitä."
+
+msgid "emote-menu.error"
+msgstr "Tämän valikon piirtämisessä tapahtui virhe."
+
+msgid "emote-menu.error-report"
+msgstr "Virheraportti on lähetetty automaattisesti."
+
+msgid "emote-menu.favorites"
+msgstr "Suosikit"
+
+msgid "emote-menu.featured"
+msgstr "Esillä olevat"
+
+msgid "emote-menu.global"
+msgstr "Globaalit hymiöt"
+
+msgid "emote-menu.inventory"
+msgstr "Inventaario"
+
+msgid "emote-menu.loading"
+msgstr "Ladataan..."
+
+msgid "emote-menu.main-set"
+msgstr "Kanavan hymiöt"
+
+msgid "emote-menu.misc"
+msgstr "Sekalaiset"
+
+msgid "emote-menu.my-emotes"
+msgstr "Omat hymiöt"
+
+msgid "emote-menu.points"
+msgstr "Avattu pisteillä"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Päivitä tiedot"
+
+msgid "emote-menu.search"
+msgstr "Hae hymiöitä"
+
+msgid "emote-menu.search-emoji"
+msgstr "Etsi hymiötä"
+
+msgid "emote-menu.settings"
+msgstr "Avaa asetukset"
+
+msgid "emote-menu.sub-basic"
+msgstr "Tilaa käyttääksesi hymiöitä"
+
+msgid "emote-menu.sub-ends"
+msgstr "Tämä tilaus päättyy {seconds,humantime}."
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Tämä lahjatilaus päättyy {seconds,humantime} päästä."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Tämä on ilmainen Twitch Prime tilauksesi.\n"
+"Se päättyy {seconds,humantime} päästä."
+
+msgid "emote-menu.sub-renews"
+msgstr "Tämä tilauksen uusiutumiseen {seconds,humantime}."
+
+msgid "emote-menu.sub-set"
+msgstr "Tilaajahymiöt"
+
+msgid "emote-menu.sub-unlock"
+msgstr "Tilaa tasolla {price} käytääksesi {count,number} hymiötä"
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Tuntematon lähde"
+
+msgid "emote-menu.unknown-set"
+msgstr "Set #{set_id}"
+
+msgid "emote.owner"
+msgstr "Tekijä: {owner}"
+
+msgid "error.try-again"
+msgstr "Yritä uudelleen"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Lopeta käytäjän {user} seuraaminen"
+
+msgid "featured-follow.notify.on"
+msgstr "Ilmoitukset ovat käytössä. Klikkaa poistaaksesi ne käytöstä."
+
+msgid "i18n.diff.added"
+msgstr ""
+"Lisätty:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Poistettu:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"Oletko kiinnostunut osallistumaan käännöstyöhin? Liity "
+"[Discordiin](https://discord.gg/UrAkGhT) ja liity lokalisointikanavalle.\n"
+"\n"
+"Tämä työkalu mahdollistaa käännösten testaamisen reaaliajassa, tällä tavoin "
+"voi testata käännösten toimivuuden ennen niiden lähettämistä."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} valmis)"
+
+msgid "i18n.ui.added"
+msgstr "Uudet merkkijonot"
+
+msgid "i18n.ui.all"
+msgstr "Kaikki merkkijonot"
+
+msgid "i18n.ui.changed"
+msgstr "Muutetut merkkijonot"
+
+msgid "i18n.ui.context"
+msgstr "Konteksti"
+
+msgid "i18n.ui.existing"
+msgstr "Olemassaolevat merkkijonot"
+
+msgid "i18n.ui.open"
+msgstr "Avaa käännösten testityökalu"
+
+msgid "i18n.ui.pages"
+msgstr "Sivu {current,number} / {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Odottavat merkkijonot"
+
+msgid "i18n.ui.preview"
+msgstr "Esikatselu"
+
+msgid "i18n.ui.refresh"
+msgstr "Päivitä merkkijonot"
+
+msgid "i18n.ui.save"
+msgstr "Generoi muutosaineisto"
+
+msgid "i18n.ui.search"
+msgstr "Hae merkkijonoja"
+
+msgid "i18n.ui.source"
+msgstr "Lähde"
+
+msgid "i18n.ui.title"
+msgstr "Käännösten testityökalu"
+
+msgid "i18n.ui.upload"
+msgstr "Lähetä muutokset"
+
+msgid "key.alt"
+msgstr "Alt -näppäin"
+
+msgid "key.alt_mouse"
+msgstr "Alt tai hiiren kursori"
+
+msgid "key.ctrl"
+msgstr "Ctrl -näppäin"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl -näppäin tai hiiren kursori"
+
+msgid "key.hover"
+msgstr "Leijua"
+
+msgid "key.meta"
+msgstr "Meta -näppäin"
+
+msgid "key.meta_mouse"
+msgstr "Meta tai hiiren kursi"
+
+msgid "key.mouse"
+msgstr "Hiiren kursori"
+
+msgid "key.shift"
+msgstr "Shift -näppäin"
+
+msgid "key.shift_mouse"
+msgstr "Shift tai hiiren kursori"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Merkitse kaikki nähdyksi"
+
+msgid "main-menu.popout"
+msgstr "Avaa asetukset uuteen ikkunaan"
+
+msgid "main-menu.search"
+msgstr "Hae asetuksista"
+
+msgid "main-menu.version"
+msgstr "Versio {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Esillä olevat."
+
+msgid "metadata.featured-follow.title"
+msgstr "Esillä olevat kanavat"
+
+msgid "metadata.host.add-channel"
+msgstr "Lisä automaattisen jakamisen listalle"
+
+msgid "metadata.host-button.host"
+msgstr "Jako"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Jakaa parhaillaan: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Ei mitään"
+
+msgid "metadata.host-button.unhost"
+msgstr "Lopeta jako"
+
+msgid "metadata.host-button.updating"
+msgstr "Päivitetään..."
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Automaattinen jakaminen"
+
+msgid "metadata.host.tab.settings"
+msgstr "Asetukset"
+
+msgid "metadata.host.title"
+msgstr "Automaattinen jakamisen hallinta"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Lähetetty {count,number} sekuntia sitten"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Paikallinen kellosi vaikuttaa olevan {count,number} sekuntia väärässä, mikä "
+"voi tehdä tehdä tästä epätarkan."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Lähetyksen viive"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "Toistetaan {rate,number} kertaisella nopeudella viiveen poistamiseksi."
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Viive"
+
+msgid "metadata.player-stats.video-info"
+msgstr ""
+"Videon resoluutio: {videoResolution}p{fps}\n"
+"Toistonopeus: {playbackRate,number} Kbps\n"
+"Ohitetut kuvat:{skippedFrames,number}"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Videon tiedot"
+
+msgid "metadata.uptime.copy"
+msgstr "Kopioi leikepöydälle"
+
+msgid "metadata.uptime.link-to"
+msgstr "Linkki aikaleimaan {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(alkaen {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Uptime"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Lähetyksen kesto"
+
+msgid "page.next"
+msgstr "Seuraava sivu"
+
+msgid "page.previous"
+msgstr "Edellinen sivu"
+
+msgid "player.pip_button"
+msgstr "Klikkaa kytkeäksesi Picture-in-Picture päälle tai pois."
+
+msgid "player.pip_button.fs"
+msgstr "Ei voi käyttää Picture-in-Picture'iä kokonäyttötilassa"
+
+msgid "player.pip_button.off"
+msgstr "Poistu Picture-in-Picture tilasta"
+
+msgid "player.reset_button"
+msgstr "Tuplaklikkaa resetoidaksesi soitin."
+
+msgid "player.reset_button.all"
+msgstr "Resetoi kaikki soittimet (tuplaklikkaus)"
+
+msgid "popup.error"
+msgstr ""
+"Ponnahdusikkunan avaaminen ei onnistunut. Varmista, että ponnahdusikkunat "
+"Twitchistä ovat saallittuja."
+
+msgid "site.menu_button"
+msgstr "FrankerFaceZ Ohjauskeskus"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Olet ladannut lisätiedot paikalliselta kehityspalvelimelta."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"FFZ Ohjauskeskuksen avauksessa tapahtui virhe. Uudelleenlataa sivu ja yritä "
+"uudestaan."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Käytössä on kehittäjäversio FrankeFaceZ:sta"
+
+msgid "site.menu_button.new-desc"
+msgstr "{count,plural,one {Uusi asetus} other {# uutta asetusta}}."
+
+msgid "site.menu_button.profiles"
+msgstr "Profiilit"
+
+msgid "site.menu_button.strings"
+msgstr ""
+"Löytyi {added,plural,one {# uusi merkkijono} other {# uutta merkkijonoa}} "
+"ja {changed,plural,one {# muutettu merkkijono} other {# muutettua "
+"merkkijonoa}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "Päivitys saatavilla. Uudelleenlataa sivu."
+
+msgid "sub-button.prime"
+msgstr "Ilmainen Prime tilaus on käytettävissä."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bittiä"
+
+msgid "tooltip.bits.more"
+msgstr "(ja {count} lisää)"
+
+msgid "tooltip.channel"
+msgstr "Kanava: {source}"
+
+msgid "tooltip.email-link"
+msgstr "E-Mail {address}"
+
+msgid "tooltip.emoji"
+msgstr "Emoji - {category}"
+
+msgid "tooltip.emote"
+msgstr "Hymiö: {name}"
+
+msgid "tooltip.error"
+msgstr "Virhe. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Kohde: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr "Varoitus: Tämä URL on Googles Safe Browsing listalla syystä: {reasons}"
+
+msgid "tooltip.render-error"
+msgstr ""
+"Vihjeikkunan luonnissa tapahtui virhe.\n"
+"{err}"
+
+msgid "video-chat.jump"
+msgstr "Hyppää videoon"
+
+msgid "video-chat.reply"
+msgstr "Vastaa"
+
+msgid "video-chat.show-more"
+msgstr "Näytä lisää vastauksia..."
+
+msgid "video-chat.time"
+msgstr "{time,humantime} sitten"
+
+msgid "video.desc.1"
+msgstr "Käyttäjän {user} video"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} katselukertaa - {date}"
+
+msgid "video.published-on"
+msgstr "Julkaistu {date,date}"

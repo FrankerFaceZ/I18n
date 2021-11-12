@@ -1,0 +1,983 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "async-text.upload"
+msgstr "Subir"
+
+msgid "autocomplete.empty"
+msgstr "No hay resultados."
+
+msgid "badges.founder.months"
+msgstr ""
+"{title}\n"
+"(Suscrito por {count,number} {count,plural, one {mes} other {meses}})"
+
+msgid "badges.subscriber.months"
+msgstr ""
+"{title}\n"
+"({count,number} {count,plural, one {mes} other {meses}})"
+
+msgid "badges.subscriber.tier-months"
+msgstr ""
+"{title}\n"
+"(Nivel {tier}, {months, number} {months,plural, one {mes} other {meses}})"
+
+msgid "card.empty"
+msgstr "No hubo respuesta a los datos."
+
+msgid "card.error"
+msgstr "Ha ocurrido un error."
+
+msgid "card.error.timeout"
+msgstr "Tiempo de solicitud caducado."
+
+msgid "card.loading"
+msgstr "Cargando..."
+
+msgid "cards.user.stats"
+msgstr "Vistas: {views,number} • Seguidores: {followers,number}"
+
+msgid "cards.user.streaming"
+msgstr "transmitiendo {game}"
+
+msgid "channel.links.clips"
+msgstr "Clips"
+
+msgid "channel.links.schedule"
+msgstr "Calendario"
+
+msgid "channel.links.videos"
+msgstr "Vídeos"
+
+msgid "chat.actions.ban"
+msgstr "Banear usuario"
+
+msgid "chat.actions.ban-reason"
+msgstr "Vetar a {user.login} por:"
+
+msgid "chat.actions.ban.tooltip"
+msgstr "Vetar a {user.login}"
+
+msgid "chat.actions.chat"
+msgstr "Comando de chat"
+
+msgid "chat.actions.chat.desc"
+msgstr "{options.command}"
+
+msgid "chat.actions.delete.tooltip"
+msgstr "Borrar el mensaje de {user.login}"
+
+msgid "chat.actions.edit_overrides"
+msgstr "Cambiar Nombre y Color"
+
+msgid "chat.actions.edit_overrides.desc"
+msgstr ""
+"Te permite establecer anulaciones locales para el nombre y el color de un "
+"usuario en el chat."
+
+msgid "chat.actions.msg_delete"
+msgstr "Eliminar Mensaje"
+
+msgid "chat.actions.open_url"
+msgstr "Abrir URL"
+
+msgid "chat.actions.reply"
+msgstr "Responder al Mensaje"
+
+msgid "chat.actions.reply.desc"
+msgstr ""
+"Te permite responder al mensaje de otro usuario directamente. Sólo funciona "
+"cuando el Estilo de Respuestas es \"FrankerFaceZ\". "
+
+msgid "chat.actions.reply.thread"
+msgstr "Abrir Hilo"
+
+msgid "chat.actions.select-reason"
+msgstr "Por favor, elige una razón de la siguiente lista:"
+
+msgid "chat.actions.timeout"
+msgstr "Expulsar Temporalmente Usuario "
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} segundos{options.duration,en_plural}"
+
+msgid "chat.actions.timeout-reason"
+msgstr ""
+"Expulsar temporalmente a {user.login} por {duration,number} "
+"segundo{duration,en_plural} por:"
+
+msgid "chat.actions.timeout.tooltip"
+msgstr ""
+"Expulsar temporalmente a {user.login} por {duration,number} "
+"segundo{duration,en_plural}"
+
+msgid "chat.actions.unban"
+msgstr "Quitar Vetado a usuario"
+
+msgid "chat.actions.unban.tooltip"
+msgstr "Desbancar {user.login}"
+
+msgid "chat.actions.unknown"
+msgstr "Tipo de acción desconocido"
+
+msgid "chat.actions.untimeout"
+msgstr "Retirar Expulsión Temporal a Usuario"
+
+msgid "chat.actions.untimeout.tooltip"
+msgstr "Quitar expulsión {user.login}"
+
+msgid "chat.actions.whisper"
+msgstr "Susurrar usuario"
+
+msgid "chat.actions.whisper.tooltip"
+msgstr "Susurrar a {user.login}"
+
+msgid "chat.deleted-messages"
+msgstr ""
+"{count,plural,\n"
+"one {Un mensaje fue borrado por un moderador.}\n"
+"other {# mensajes fueron borrados por un moderador.}\n"
+"}"
+
+msgid "chat.ffz-badge.site"
+msgstr "Porfavor visita {website} para cambiar este emblema."
+
+msgid "chat.ffz-badge.site-link"
+msgstr "Sito web de FrankerFaceZ"
+
+msgid "chat.ffz-badge.title"
+msgstr "Emblema de FrankerFaceZ"
+
+msgid "chat.filtering.automod.A"
+msgstr "Hostilidad"
+
+msgid "chat.filtering.automod.I"
+msgstr "Discriminación"
+
+msgid "chat.filtering.automod.P"
+msgstr "Blasfemia"
+
+msgid "chat.filtering.automod.S"
+msgstr "Lenguaje Sexualmente Explícito"
+
+msgid "chat.filtering.automod-term"
+msgstr "Término bloqueado por AutoMod"
+
+msgid "chat.filtering.automod-why"
+msgstr "Esto ha sido marcado como:"
+
+msgid "chat.filtering.blocked-term"
+msgstr "Término bloqueado"
+
+msgid "chat.ignore-clear"
+msgstr "Se ha ignorado el intento de un moderador para borrar el chat."
+
+msgid "chat.message-deleted"
+msgstr "<mensaje eliminado>"
+
+msgid "chat.messages-below"
+msgstr "Chat Pausado Por Desplazamiento"
+
+msgid "chat.mod-action.ban"
+msgstr "Vetado"
+
+msgid "chat.mod-action.by"
+msgstr "{action} por {login}"
+
+msgid "chat.mod-action.delete"
+msgstr "Eliminado"
+
+msgid "chat.mod-action.timeout"
+msgstr "{duration} Expulsado temporalmente"
+
+msgid "chat.overrides.color"
+msgstr "Color"
+
+msgid "chat.overrides.editing"
+msgstr "Editando {user.login}..."
+
+msgid "chat.overrides.name"
+msgstr "Nombre"
+
+msgid "chat.paused"
+msgstr "(Chat Pausado por {reason})"
+
+msgid "chat.points.bypass-sub"
+msgstr "Enviar un mensaje en modo solo suscriptores."
+
+msgid "chat.points.choose-emote"
+msgstr "Escoge un emoticono para desbloquear"
+
+msgid "chat.points.highlighted"
+msgstr "Destacar mi mensaje"
+
+msgid "chat.points.modify-emote"
+msgstr "Modificar un solo emoticono"
+
+msgid "chat.points.random-emote"
+msgstr "Desbloquea un emoticono de suscriptor aleatorio"
+
+msgid "chat.points.redeemed"
+msgstr "Canjeado {reward} {cost}"
+
+msgid "chat.points.reward"
+msgstr "Recompensa"
+
+msgid "chat.points.user-redeemed"
+msgstr "{user} ha canjeado {reward} {cost}"
+
+msgid "chat.reason.ignore"
+msgstr "Haciendo caso omiso del Emisor / Moderadores"
+
+msgid "chat.reasons.evasion"
+msgstr "Evasión de Vetado"
+
+msgid "chat.reasons.hate"
+msgstr "Odio / Acoso"
+
+msgid "chat.reasons.links"
+msgstr "Publicar enlaces maliciosos"
+
+msgid "chat.reasons.personal"
+msgstr "Amenazas / Información personal"
+
+msgid "chat.reasons.spam"
+msgstr "Spam de Un-Solo-Individuo"
+
+msgid "chat.reply-to"
+msgstr "Respondiendo a:"
+
+msgid "chat.ritual"
+msgstr "{user} es nuevo aquí. Saluda!"
+
+msgid "chat.settings.back"
+msgstr "Atrás"
+
+msgid "chat.settings.open-settings"
+msgstr "Abrir panel de control"
+
+msgid "chat.settings.pause"
+msgstr "Pausar chat"
+
+msgid "chat.settings.pause-explain"
+msgstr ""
+"FrankerFaceZ anula por completo el comportamiento de Pausar el Chat. "
+"Utilice la configuración de desplazamiento de FFZ en el Centro de control "
+"de FFZ en Chat> Comportamiento."
+
+msgid "chat.sub.anonymous-gifter"
+msgstr "Un regalador anónimo"
+
+msgid "chat.sub.cumulative-months"
+msgstr ""
+"Se ha suscrito por {cumulative,number} meses, actualmente en una racha de "
+"{streak,number} meses!"
+
+msgid "chat.sub.gift"
+msgstr ""
+"{user} está regalando {count,plural, one{# suscripción} other{# "
+"suscripciones}} de Nivel {tier} a la comunidad de {channel}! "
+
+msgid "chat.sub.gift-first"
+msgstr "¡Es su primera vez regalando una Suscripción en el canal!"
+
+msgid "chat.sub.gift-months"
+msgstr ""
+"{user} le ha regalado una suscripción de {plan} por {months,plural,one{# "
+"mes} other{# meses}} a {recipient}!"
+
+msgid "chat.sub.gift-plan"
+msgstr "Nivel {tier}"
+
+msgid "chat.sub.gift-total"
+msgstr "¡Ha regalado {count} suscripciones en este canal!"
+
+msgid "chat.sub.main"
+msgstr "{user} se ha suscrito {plan}. "
+
+msgid "chat.sub.months"
+msgstr "¡Se ha suscrito por {count,number} meses!"
+
+msgid "chat.sub.mystery"
+msgstr "{user} le ha regalado una suscripción de {plan} a {recipient}!"
+
+msgid "chat.sub.plan"
+msgstr "de nivel {tier}"
+
+msgid "chat.sub.twitch-prime"
+msgstr "con Prime Gaming"
+
+msgid "clip.desc.1"
+msgstr "Clip de {user}"
+
+msgid "clip.desc.1.creative"
+msgstr "{user} siendo Creativo"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} jugando a {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Recortado por {curator} — {views,number}\n"
+"Visita{views,en_plural}"
+
+msgid "clip.unknown"
+msgstr "Desconocido"
+
+msgid "directory.block"
+msgstr "Bloquear"
+
+msgid "directory.hide-thumbnails"
+msgstr "Ocultar miniaturas"
+
+msgid "directory.hosted"
+msgstr "Canal alojado"
+
+msgid "directory.hosted.by-many"
+msgstr "Alojado por {count,number} canal{count,en_plural}"
+
+msgid "directory.hosted.by-one"
+msgstr "Alojado por {user}"
+
+msgid "directory.hosting"
+msgstr "Canales Alojando"
+
+msgid "directory.show-thumbnails"
+msgstr "Mostrar miniaturas"
+
+msgid "directory.unblock"
+msgstr "Desbloquear"
+
+msgid "directory.user-playing"
+msgstr "{user} está jugando {game}"
+
+msgid "emoji.category.activities"
+msgstr "Actividades"
+
+msgid "emoji.category.animals_nature"
+msgstr "Animales y Naturaleza"
+
+msgid "emoji.category.animals___nature"
+msgstr "Animales y naturaleza"
+
+msgid "emoji.category.flags"
+msgstr "Banderas"
+
+msgid "emoji.category.food_drink"
+msgstr "Comida y Bebida"
+
+msgid "emoji.category.food___drink"
+msgstr "Comida y bebida"
+
+msgid "emoji.category.objects"
+msgstr "Objetos"
+
+msgid "emoji.category.people_body"
+msgstr "Gente"
+
+msgid "emoji.category.skin_tones"
+msgstr "Tonos de piel"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Emoticonos"
+
+msgid "emoji.category.smileys___people"
+msgstr "Smileys y Personas"
+
+msgid "emoji.category.symbols"
+msgstr "Símbolos"
+
+msgid "emoji.category.travel_places"
+msgstr "Viaje y Lugares"
+
+msgid "emoji.category.travel___places"
+msgstr "Viajes y Lugares"
+
+msgid "emote.2fa"
+msgstr "Emoticono Twitch 2FA"
+
+msgid "emote.bits"
+msgstr "Recompensa de Twitch Bits"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Canal: {channel}"
+
+msgid "emote.global"
+msgstr "Twitch Global"
+
+msgid "emote.limited"
+msgstr "Emoticonos de tiempo limitado"
+
+msgid "emote-menu.channel"
+msgstr "Canal"
+
+msgid "emote-menu.disable"
+msgstr ""
+"Como una solución temporal, intenta deshabilitar el Menú de Emoticonos de "
+"FFZ en el Centro de Control de FFZ."
+
+msgid "emote-menu.emoji"
+msgstr "Emoji"
+
+msgid "emote-menu.emote-cheer"
+msgstr ""
+"Este emoticono se desbloque dentro de {bits_remaining,number} "
+"bit{bits_remaining,en_plural}."
+
+msgid "emote-menu.emote-sub"
+msgstr "Mejora tu suscripción a {price} para desbloquear este emoticono."
+
+msgid "emote-menu.emote-up"
+msgstr "Mejora tu suscripción a {price} para desbloquear este emoticono."
+
+msgid "emote-menu.empty"
+msgstr "No hay nada aquí."
+
+msgid "emote-menu.empty-favs"
+msgstr ""
+"No tienes ningún emoticono favorito. Para agregar un emoticono como "
+"favorito encuéntralo y seleccionalo mientras presionas la tecla {hotkey}."
+
+msgid "emote-menu.empty-search"
+msgstr "No hay emoticonos que coincidan."
+
+msgid "emote-menu.error"
+msgstr "Ha habido un error al renderizar este menú."
+
+msgid "emote-menu.error-report"
+msgstr "Un reporte de errores ha sido automáticamente entregado."
+
+msgid "emote-menu.favorites"
+msgstr "Favoritos"
+
+msgid "emote-menu.featured"
+msgstr "Destacado"
+
+msgid "emote-menu.global"
+msgstr "Emoticonos globales"
+
+msgid "emote-menu.inventory"
+msgstr "Inventario"
+
+msgid "emote-menu.loading"
+msgstr "Cargando..."
+
+msgid "emote-menu.main-set"
+msgstr "Emoticonos del canal"
+
+msgid "emote-menu.misc"
+msgstr "Varios"
+
+msgid "emote-menu.my-emotes"
+msgstr "Mis emoticonos"
+
+msgid "emote-menu.points"
+msgstr "Desbloqueado con Puntos"
+
+msgid "emote_menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.prime"
+msgstr "Prime"
+
+msgid "emote-menu.refresh"
+msgstr "Recargar datos"
+
+msgid "emote-menu.search"
+msgstr "Buscar emoticonos"
+
+msgid "emote-menu.search-emoji"
+msgstr "Buscar emoji"
+
+msgid "emote-menu.settings"
+msgstr "Abrir Configuración"
+
+msgid "emote-menu.sub-basic"
+msgstr "Suscríbete para desbloquear varios emoticonos"
+
+msgid "emote-menu.sub-ends"
+msgstr "Esta suscripción termina en {seconds,humantime}"
+
+msgid "emote-menu.sub-gift-ends"
+msgstr "Ésta suscripción regalada termina en {seconds,humantime}."
+
+msgid "emote-menu.sub-prime"
+msgstr ""
+"Ésta es tu suscripción gratuita con Twitch Prime.\n"
+"Termina en {seconds,humantime}."
+
+msgid "emote-menu.sub-renews"
+msgstr "Esta suscripción se renueva en {seconds,humantime}"
+
+msgid "emote-menu.sub-set"
+msgstr "Emoticonos de Suscriptores"
+
+msgid "emote-menu.sub-unlock"
+msgstr ""
+"Mejora tu suscripción a {price} para desbloquear {count,number} "
+"emoticono{count,en_plural}"
+
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+"El Control de Visibilidad de Emoticonos te permite esconder emoticonos del "
+"menú, ya sea individualmente o por conjunto. Con el Control de Visibilidad "
+"de Emoticonos activado, sólo haz click en un emoticono para esconderlo o "
+"mostrarlo. Toma en cuenta que los emoticonos serán visibles en chat cuando "
+"alguien los use, pero no aparecerán en tu menú."
+
+msgid "emote-menu.toggle-hide.off"
+msgstr "Control de Visibilidad de Emoticonos"
+
+msgid "emote-menu.toggle-hide.on"
+msgstr "Salir del Control de Visibilidad de Emoticonos."
+
+msgid "emote-menu.twitch"
+msgstr "Twitch"
+
+msgid "emote-menu.unknown"
+msgstr "Fuente desconocida"
+
+msgid "emote-menu.unknown-set"
+msgstr "Establecer #{set_id}"
+
+msgid "emote-menu.visibility.hidden"
+msgstr "Escondido"
+
+msgid "emote-menu.visibility.visible"
+msgstr "Visible"
+
+msgid "emote.owner"
+msgstr "Por: {owner}"
+
+msgid "emote.prime"
+msgstr "Prime Gaming"
+
+msgid "error.try-again"
+msgstr "Intentar de nuevo"
+
+msgid "featured-follow.button.unfollow"
+msgstr "Dejar de seguir a {user}"
+
+msgid "featured-follow.notify.on"
+msgstr "Notificaciones activas. Click para desactivarlas."
+
+msgid "i18n.diff.added"
+msgstr ""
+"Añadido:\n"
+"{text}"
+
+msgid "i18n.diff.removed"
+msgstr ""
+"Removido:\n"
+"{text}"
+
+msgid "i18n.interest"
+msgstr ""
+"¿Interesado en ayudar con los esfuerzos de localización? Por favor [entra a "
+"nuestro Discord](https://discord.gg/UrAkGhT) y únete al chat en el canal de "
+"localización.\n"
+"\n"
+"Esta herramienta permite a los traductores probar sus cadenas en tiempo "
+"real en la aplicación. De esa manera, pueden estar seguros de que todo se "
+"ve bien antes de enviar sus traducciones."
+
+msgid "i18n.locale-coverage"
+msgstr "{name} ({coverage,number,percent} Completado)"
+
+msgid "i18n.ui.added"
+msgstr "Nuevas Cadenas"
+
+msgid "i18n.ui.all"
+msgstr "Todas las Cadenas"
+
+msgid "i18n.ui.changed"
+msgstr "Cadenas Cambiadas"
+
+msgid "i18n.ui.context"
+msgstr "Contexto"
+
+msgid "i18n.ui.existing"
+msgstr "Cadenas Existentes"
+
+msgid "i18n.ui.open"
+msgstr "Abrir Probador de Traducción"
+
+msgid "i18n.ui.pages"
+msgstr "Página {current,number} de {total,number}"
+
+msgid "i18n.ui.pending"
+msgstr "Cadenas Pendientes"
+
+msgid "i18n.ui.popout"
+msgstr "Abrir el Editor de Traducción en una Nueva Ventana"
+
+msgid "i18n.ui.preview"
+msgstr "Vista Previa"
+
+msgid "i18n.ui.refresh"
+msgstr "Refrescar Cuerdas"
+
+msgid "i18n.ui.save"
+msgstr "Generar Cambio Blob"
+
+msgid "i18n.ui.search"
+msgstr "Buscar Cuerdas"
+
+msgid "i18n.ui.source"
+msgstr "Fuente"
+
+msgid "i18n.ui.title"
+msgstr "Probador de traducción"
+
+msgid "i18n.ui.upload"
+msgstr "Subir cambios"
+
+msgid "key.alt"
+msgstr "Tecla Alt"
+
+msgid "key.alt_mouse"
+msgstr "Alt o ratón"
+
+msgid "key.ctrl"
+msgstr "Tecla Ctrl"
+
+msgid "key.ctrl_mouse"
+msgstr "Ctrl o ratón"
+
+msgid "key.hover"
+msgstr "Pasar"
+
+msgid "key.meta"
+msgstr "Tecla Meta"
+
+msgid "key.meta_mouse"
+msgstr "Meta o Ratón"
+
+msgid "key.mouse"
+msgstr "Movimiento del ratón"
+
+msgid "key.shift"
+msgstr "Tecla Mayúscula"
+
+msgid "key.shift_mouse"
+msgstr "Mayúscula o Ratón"
+
+msgid "main-menu.mark-all-seen"
+msgstr "Marcar Todo como Leído"
+
+msgid "main-menu.popout"
+msgstr "Abrir ajustes en una nueva ventana"
+
+msgid "main-menu.search"
+msgstr "Ajustes de búsqueda"
+
+msgid "main-menu.version"
+msgstr "Version {version}"
+
+msgid "metadata.featured-follow.button.featured"
+msgstr "Destacado"
+
+msgid "metadata.featured-follow.title"
+msgstr "Canales destacados"
+
+msgid "metadata.host.add-channel"
+msgstr "Añadir a auto-alojamiento"
+
+msgid "metadata.host-button.host"
+msgstr "Alojar"
+
+msgid "metadata.host-button.tooltip"
+msgstr "Alojando actualmente: {channel}"
+
+msgid "metadata.host-button.tooltip.none"
+msgstr "Ninguno"
+
+msgid "metadata.host-button.unhost"
+msgstr "Desalojar"
+
+msgid "metadata.host-button.updating"
+msgstr "Actualizando..."
+
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr ""
+"Alojar canales de tu lista de anfitriones automáticamente cuando estás "
+"desconectado."
+
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "Auto Alojar"
+
+msgid "metadata.host.setting.strategy.description"
+msgstr ""
+"Al habilitar, los canales a alojar son elegidos aleatoriamente desde la "
+"lista."
+
+msgid "metadata.host.setting.strategy.title"
+msgstr "Orden de alojamiento aleatorio"
+
+msgid "metadata.host.setting.team-hosting.description"
+msgstr "Incluir canales de equipo en tu lista de anfitriones."
+
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "Alojamiento de Equipo"
+
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr ""
+"Incluir canales que transmiten videos pregrabados, como Estrenos o "
+"Repeticiones"
+
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "Alojar videos pregrabados"
+
+msgid "metadata.host.tab.auto-host"
+msgstr "Auto-alojamiento"
+
+msgid "metadata.host.tab.settings"
+msgstr "Ajustes"
+
+msgid "metadata.host.title"
+msgstr "Gestión de auto-alojamiento"
+
+msgid "metadata.player-stats.broadcast-ago"
+msgstr "Retransmisión hace {count,number}s"
+
+msgid "metadata.player-stats.delay-warning"
+msgstr ""
+"Tu reloj local está desfasado aproximadamente por {count,number} segundos, "
+"lo que puede hacer esto inexacto."
+
+msgid "metadata.player-stats.latency-tip"
+msgstr "Latencia del stream"
+
+msgid "metadata.player-stats.rate-warning"
+msgstr "Reproduciendo en {rate,number}x de velocidad para reducir el retraso."
+
+msgid "metadata.player-stats.subtitle"
+msgstr "Latencia"
+
+msgid "metadata.player-stats.video-tip"
+msgstr "Información del vídeo"
+
+msgid "metadata.uptime.copy"
+msgstr "Copiar al portapapeles"
+
+msgid "metadata.uptime.link-to"
+msgstr "Enlazar a {time}"
+
+msgid "metadata.uptime.since"
+msgstr "(desde {since,datetime})"
+
+msgid "metadata.uptime.subtitle"
+msgstr "Tiempo activo"
+
+msgid "metadata.uptime.tooltip"
+msgstr "Tiempo de actividad de la transmisión."
+
+msgid "metadata.viewers"
+msgstr "Contador de Espectadores"
+
+msgid "page.next"
+msgstr "Siguiente página"
+
+msgid "page.previous"
+msgstr "Página anterior"
+
+msgid "player.comp_button.disabled"
+msgstr "El Compresor de Audio no puede ser activado en Clips."
+
+msgid "player.comp_button.help"
+msgstr ""
+"Consulta el Centro de control FFZ para obtener más detalles. Si el audio se "
+"interrumpe, reinicia el reproductor."
+
+msgid "player.comp_button.off"
+msgstr "Deshabilitar Compresor de Audio"
+
+msgid "player.comp_button.on"
+msgstr "Compresor de Audio"
+
+msgid "player.pip_button"
+msgstr "Imagen-en-Imagen"
+
+msgid "player.pip_button.fs"
+msgstr "No puedes usar Imagen-en-Imagen estando en Pantalla Completa"
+
+msgid "player.pip_button.off"
+msgstr "Salir de Imagen-en-Imagen"
+
+msgid "player.reset_button"
+msgstr "Reiniciar Interfaz (Doble-Clic)"
+
+msgid "player.reset_button.all"
+msgstr "Resetear Todos los Reproductores (Doble Click)"
+
+msgid "popup.error"
+msgstr ""
+"Hemos intentado abrir una ventana emergente pero no pudimos. Asegúrate de "
+"permitir las ventanas emergentes de Twitch."
+
+msgid "site.menu_button"
+msgstr "Centro de Control de FrankerFaceZ"
+
+msgid "site.menu_button.addon-dev"
+msgstr "a-dev"
+
+msgid "site.menu_button.addon-dev-desc"
+msgstr "Has cargado datos de complementos desde un servidor de desarrollo local."
+
+msgid "site.menu_button.changed"
+msgstr ""
+"El proveedor the FrankerFaceZ ha cambiado. Porfavor actualize la pagina "
+"para prevenir comportamientos extraños."
+
+msgid "site.menu_button.dev"
+msgstr "dev"
+
+msgid "site.menu_button.error"
+msgstr ""
+"Se produjo un error al cargar el Centro de control de FFZ. Por favor, "
+"actualice y pruebe de nuevo."
+
+msgid "site.menu_button.main-dev"
+msgstr "m-dev"
+
+msgid "site.menu_button.main-dev-desc"
+msgstr "Estás ejecutando una versión de desarrollador de FrankerFaceZ."
+
+msgid "site.menu_button.new-desc"
+msgstr "Hay {count,plural,one {un nuevo ajuste} other {# nuevos ajustes}}."
+
+msgid "site.menu_button.no-settings"
+msgstr ""
+"Configuraciones deshabilitadas en esta pestaña por la inclusión de "
+"\"{param}\" en la URL."
+
+msgid "site.menu_button.profiles"
+msgstr "Perfiles"
+
+msgid "site.menu_button.strings"
+msgstr ""
+"Hay {added,plural,one {# nueva cadena} other {# nuevas cadenas}} y "
+"{changed,plural,one {# cadena cambiada} other {# cadenas cambiadas}}."
+
+msgid "site.menu_button.update-desc"
+msgstr "Hay una actualización disponible. Por favor, refresca la página."
+
+msgid "socket.info.command"
+msgstr "Comando"
+
+msgid "socket.info.connected"
+msgstr "conectado"
+
+msgid "socket.info.count"
+msgstr "Contador"
+
+msgid "socket.info.disconnected"
+msgstr "desconectado"
+
+msgid "socket.info.local_time"
+msgstr "Tiempo Local"
+
+msgid "socket.info.ping"
+msgstr "Ping"
+
+msgid "socket.info.server"
+msgstr "Servidor"
+
+msgid "socket.info.server_time"
+msgstr "Tiempo del Servidor"
+
+msgid "socket.info.state"
+msgstr "Estado"
+
+msgid "socket.info.stats.authenticated"
+msgstr "Autenticado"
+
+msgid "socket.info.stats.connected_clients"
+msgstr "Clientes Conectados"
+
+msgid "socket.info.stats.live_clients"
+msgstr "Clientes en Vivo"
+
+msgid "socket.info.stats.total_commands"
+msgstr "Comandos"
+
+msgid "socket.info.stats.total_messages"
+msgstr "Mensajes"
+
+msgid "socket.info.stats.versions"
+msgstr "Versiones de Cliente"
+
+msgid "socket.info.time_offset"
+msgstr "Diferencia de Tiempo"
+
+msgid "socket.info.topics"
+msgstr "Temas"
+
+msgid "socket.info.version"
+msgstr "Versión"
+
+msgid "sub-button.prime"
+msgstr "Tu suscripción gratis con Prime está disponible."
+
+msgid "tooltip.bits"
+msgstr "{count,number} Bits"
+
+msgid "tooltip.bits.more"
+msgstr "(y {count} más)"
+
+msgid "tooltip.channel"
+msgstr "Canal: {source}"
+
+msgid "tooltip.email-link"
+msgstr "Email {address}"
+
+msgid "tooltip.emoji"
+msgstr "Emoji - {category}"
+
+msgid "tooltip.emote"
+msgstr "Emoticono: {name}"
+
+msgid "tooltip.error"
+msgstr "Ha ocurrido un error. ({error})"
+
+msgid "tooltip.link-destination"
+msgstr "Destino: {url}"
+
+msgid "tooltip.link-unsafe"
+msgstr ""
+"Precaución: Esta URL está en la lista de navegación segura de Google por: "
+"{reasons}"
+
+msgid "tooltip.link.urls"
+msgstr "Enlaces Visitados."
+
+msgid "tooltip.render-error"
+msgstr ""
+"Ocurrió un error al crear esta pista.\n"
+"{err}"
+
+msgid "tooltip.shift-detail"
+msgstr "(Shift para más detalles)"
+
+msgid "video-chat.jump"
+msgstr "Saltar a Vídeo"
+
+msgid "video-chat.reply"
+msgstr "Responder"
+
+msgid "video-chat.show-more"
+msgstr "Mostrar más respuestas..."
+
+msgid "video-chat.time"
+msgstr "Hace {time,humantime}"
+
+msgid "video.desc.1"
+msgstr "Vídeo de {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Visitas - {date,datetime}"
+
+msgid "video.published-on"
+msgstr "Publicado el: {date,date}"

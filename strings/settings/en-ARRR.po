@@ -1,0 +1,3962 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+msgid "addon.author"
+msgstr "By: {author}"
+
+msgid "addon.created"
+msgstr "Created: {when,date}"
+
+msgid "addon.deck.author"
+msgstr "Captain SirStendec"
+
+msgid "addon.deck.name"
+msgstr "Deck"
+
+msgid "addon.dev"
+msgstr "Developer"
+
+msgid "addon.disable"
+msgstr "Disable"
+
+msgid "addon.enable"
+msgstr "Enable"
+
+msgid "addon.enabled"
+msgstr "Enabled"
+
+msgid "addon.ffzap-bttv.author"
+msgstr "First Mate Lordmau5"
+
+msgid "addon.ffzap-bttv.name"
+msgstr "BetterTTV Emotes"
+
+msgid "addon.ffzap-core.author"
+msgstr "First Mate Lordmau5"
+
+msgid "addon.ffzap-core.name"
+msgstr "The FrankerFaceZ Add-On Pack - Core"
+
+msgid "addon.ffzap-liriklive.author"
+msgstr "First Mate Lordmau5"
+
+msgid "addon.ffzap-liriklive.name"
+msgstr "LirikLIVE"
+
+msgid "addon.filter-enabled"
+msgstr "Only display enabled add-ons."
+
+msgid "addon.settings"
+msgstr "Settin's"
+
+msgid "addon.show-more"
+msgstr "(Show More)"
+
+msgid "addon.sort-create"
+msgstr "Sort By: Created"
+
+msgid "addon.sort-name"
+msgstr "Sort By: Name"
+
+msgid "addon.sort-update"
+msgstr "Sort By: Updated"
+
+msgid "addon.unlisted"
+msgstr "Unlisted"
+
+msgid "addon.unlisted.add"
+msgstr "Add Unlisted..."
+
+msgid "addon.unlisted.explain"
+msgstr ""
+"Unlisted Add-Ons be add-ons that 'ave undergone approval but 'ave opted t' "
+"avoid bein' listed in the main listin'. This 'ere could be due t' the "
+"add-on bein' specialized fer certain users, or due t' the add-on bein' "
+"still under development. If ye know an unlisted add-on's ID, enter it 'ere "
+"fer it t' be displayed."
+
+msgid "addon.unlisted.id"
+msgstr "add-on id"
+
+msgid "addon.updated"
+msgstr "Updated: {when,humantime}"
+
+msgid "addon.version"
+msgstr "Version {version}"
+
+msgid "addon.website"
+msgstr "Website"
+
+msgid "home.about"
+msgstr ""
+"Thank ye fer usin' FrankerFaceZ.\n"
+" \n"
+"Version 4.0 o' the extension been under active development since the "
+"release o' Twitch's React-powered website in late 2017."
+
+msgid "home.addon-new"
+msgstr "New Add-Ons"
+
+msgid "home.addon-new.desc"
+msgstr ""
+"These add-ons was published wit'in the past seven days. Check them out in "
+"[Add-Ons](~add_ons)."
+
+msgid "home.addon-updates"
+msgstr "Updated Add-Ons"
+
+msgid "home.addon-updates.desc"
+msgstr ""
+"These add-ons 'ave updated within the past seven days. Check the "
+"[changelog](~add_ons.changelog) t' see what's changed."
+
+msgid "home.changelog"
+msgstr "Changelog"
+
+msgid "home.changelog.about-nonversioned"
+msgstr ""
+"Non-versioned commits be commits t' the FrankerFaceZ repository not "
+"associated wit' a release build. They typically represent maintenance or "
+"contributions from the crew that be included in a subsequent release."
+
+msgid "home.changelog.by-line"
+msgstr "By: {user}"
+
+msgid "home.changelog.current"
+msgstr "Current Version"
+
+msgid "home.changelog.error"
+msgstr "An error occured loadin' changes from GitHub."
+
+msgid "home.changelog.load"
+msgstr "Load More"
+
+msgid "home.changelog.no-more"
+msgstr "There be no more commits t' load."
+
+msgid "home.changelog.nonversioned"
+msgstr "Non-Versioned Commit"
+
+msgid "home.changelog.show-nonversioned"
+msgstr "Include non-versioned commits."
+
+msgid "home.discord"
+msgstr "Discord"
+
+msgid "home.faq"
+msgstr ""
+"## Frequent Questions\n"
+"\n"
+"* *What 'appened to [feature]?*\n"
+"\n"
+"There still be features missin' from FrankerFaceZ v4.0 that was present in "
+"v3.0. Unfortunately, a few features be impractical t' update on the new "
+"version o' Twitch's website.\n"
+" \n"
+"Many features still be planned to return as the developers 'ave time to "
+"implement them. There be no schedule o' pendin' features. Features be "
+"released immediately upon completion.\n"
+" \n"
+"* *I've donated, but me badge don't show up.*\n"
+"* *I added an emote to me channel but I don't see it.*\n"
+"\n"
+"Due t' performance problems wit' our current website, we 'ave t' use "
+"cachin' on our API. Because o' this 'ere, it can take up t' 'alf an 'our "
+"fer changes made t' badges or emotes t' take effect. After waiting, refresh "
+"the page an' yer content should appear. Ye can also try performin' a 'ard "
+"refresh.\n"
+" \n"
+"* *I don't want the `FFZ Supporter` badge.*\n"
+"\n"
+"Users can toggle the visibility o' their supporter badge at: "
+"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"\n"
+"* *I can see me emotes, but someone in chat said they can't.*\n"
+"\n"
+"Users need FrankerFaceZ installed, or another third-party client that "
+"supports FFZ emotes, t' see emotes from FrankerFaceZ. Users might also not "
+"see newly added emotes, dependin' on their browser cache an' when they last "
+"refreshed.\n"
+" \n"
+"* *There be a stolen emote!*\n"
+"* *There be an offensive emote!*\n"
+"\n"
+"Please report any issues wit' emotes usin' the `Report Emote` tool on our "
+"website. Shift-Click the offendin' emote t' open it's page, an' select "
+"`Report Emote` in the starboard side-barrr. Ye'll need to sign in t' report "
+"an emote."
+
+msgid "home.feedback"
+msgstr ""
+"## Feedback\n"
+"\n"
+"Ye can provide feedback an' bug reports by [openin' an issue at our GitHub "
+"repository](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Ye can "
+"also [find us on Discord](https://discord.gg/RrAkGhT) or [tweet at "
+"us](https://twitter.com/FrankerFaceZ).\n"
+" \n"
+"When creatin' a GitHub issue, please check that someone else 'asn't already "
+"created one fer what ye'd like t' discuss or report. Github issues should "
+"be used fer issues wit' the client, an' not questions regardin' emote "
+"approval.\n"
+" \n"
+"When creatin' an issue, please also upload the logs provided below an' "
+"include the link in yer report."
+
+msgid "home.github"
+msgstr "GitHub"
+
+msgid "home.new-settings"
+msgstr "New Settin's"
+
+msgid "home.new-settings.desc"
+msgstr "These be settings that ye 'aven't looked at yet."
+
+msgid "home.tag-line"
+msgstr "The Twitch Enhancement Suite"
+
+msgid "home.term-syntax"
+msgstr ""
+"This 'ere be a guide t' the different term syntax options available. "
+"Internally,\n"
+"FrankerFaceZ converts yer 'ighlight an' block terms int' regularrr\n"
+"expressions.\n"
+" \n"
+"\n"
+"### Types\n"
+"\n"
+"#### 1. Text\n"
+"\n"
+"Text 'as no special behavior. Any characters with special meanin' in "
+"regularrr\n"
+"expressions be escaped.\n"
+" \n"
+"\n"
+"#### 2. Glob\n"
+"\n"
+"[Globs](https://en.wikipedia.org/wiki/Glob_(programming)) provide simple, "
+"easy\n"
+"t' write pattern matchin' with wildcard characters. Fer example, the glob\n"
+"`cir*` would match all words startin' with the letters `cir`, includin' "
+"just\n"
+"`cir` by itself. The `*` be a wildcard matchin' any number o' characters.\n"
+" \n"
+"| Wildcard | Description | Example | Matches | Does Not Match |\n"
+"| :------: | :---------- | :-----: | :-----: | :------------: |\n"
+"| `*` | Matches any number o' non-space characters, includin' none. | "
+"`cir*` | `cir`, `circle`, `cirfairy`, `circumstance` | `ci`, `sir`, `pizza` "
+"|\n"
+"| `**` | Matches any number o' any characters, includin' none. Unlike a "
+"single `*`, this 'ere will match space characters. | `hello**!` | `hello!`, "
+"`hello, streamer!` |\n"
+"| `?` | Matches any single character. | `?at` | `cat`, `hat`, `pat` | `at`\n"
+"| `[abc]` | Matches one character from within the brackets. | `[cp]at` | "
+"`cat`, `pat` | `hat`, `at`\n"
+"| `[a-z]` | Matches one character from the range within the brackets. | "
+"`Kappa[0-9]` | `Kappa1`, `Kappa2`,... `Kappa0` | `Kappa`, `KappaHD`\n"
+"| `[!abc]` | Matches one character that be *not* within the brackets. | "
+"`[!cp]at` | `bat`, `rat`, `hat` | `at`, `cat`, `pat`\n"
+"| `[!a-z]` | Matches one character that be *not* within the range within "
+"the brackets. | `Kappa[!0-9]` | `Kappa?`, `Kappaf` | `Kappa`, `Kappa0`, "
+"`Kappa4`\n"
+"| `'{'abc,d?f'}'` | Matches one o' the possibilities from a comma-separated "
+"list. | `cir'{'no,Fairy'}'` | `cirno`, `cirFairy` | `cir`, `circle`\n"
+"\n"
+"\n"
+"#### 3. Regex\n"
+"\n"
+"[Regular Expressions](https://en.wikipedia.org/wiki/Regular_expression) be "
+"complex\n"
+"pattern strings used in programmin'. They be meant fer advanced users.\n"
+" \n"
+"FrankerFaceZ uses yer browser's built-in engine fer handlin' regularrr "
+"expressions,\n"
+"with all the limitations that come with it. Regex terms be packaged int' "
+"the\n"
+"generated regularrr expressions the same as both other modes. Ye should not "
+"an' can\n"
+"not use capture groups.\n"
+" \n"
+"FrankerFaceZ uses rudimentary logic t' ensure yer regularrr expression be "
+"not\n"
+"catastrophically slow, but ye should still be careful to avoid slow "
+"expressions\n"
+"as they be run frequently.\n"
+" \n"
+"\n"
+"### Modes\n"
+"\n"
+"#### Case Sensitive\n"
+"\n"
+"This 'ere attempts t' match yer term in a case-sensitive manner. "
+"Effectively, this\n"
+"option disables the `/i` flag on the generated regularrr expression. Due t'\n"
+"limitations in yer browser's regex engine, case insensitivity may not work "
+"on\n"
+"some characters.\n"
+" \n"
+"\n"
+"#### Match Whole Word\n"
+"\n"
+"This 'ere requires that yer term be an entire word. Fer example, the term "
+"`test`\n"
+"without \"Match Whole Word\" could just as easily match `testing` or "
+"`tested`\n"
+"as it matches `test`. With \"Watch Whole Word\" enabled, it will **only** "
+"match\n"
+"`test`.\n"
+" \n"
+"This be done by wrappin' the generated regularrr expression in extra "
+"pattern\n"
+"matchers fer non-word characters, such as spaces an' punctuation.\n"
+" \n"
+"\n"
+"#### 'ighlight Matches\n"
+"\n"
+"When this 'ere be enabled, an' the matchin' settin' in [Chat > Filterin' > "
+"General](~)\n"
+"be enabled, any matched terms be 'ighlighted in chat so ye can see what\n"
+"exactly matched yer term.\n"
+" \n"
+"Any matches will not be displayed as emotes, links, etc.\n"
+" \n"
+"This be a bit slower than not 'ighlightin' the match, so ye may wish t' "
+"only use\n"
+"this when testin' an' then disable it when ye know yer term works 'ow ye "
+"wish."
+
+msgid "home.tweets"
+msgstr "Tweets by FrankerFaceZ"
+
+msgid "home.twitter"
+msgstr "Twitter"
+
+msgid "home.website"
+msgstr "FrankerFaceZ Website"
+
+msgid "setting.actions.action"
+msgstr "Action"
+
+msgid "setting.actions.add-default"
+msgstr "Add Defaults"
+
+msgid "setting.actions.add-default-tip"
+msgstr "Add all o' the default actions t' this 'ere profile."
+
+msgid "setting.actions.appearance"
+msgstr "Appearance"
+
+msgid "setting.actions.appearance.combo"
+msgstr "Text an' Icon"
+
+msgid "setting.actions.appearance.icon"
+msgstr "Icon"
+
+msgid "setting.actions.appearance.image"
+msgstr "Image"
+
+msgid "setting.actions.appearance.text"
+msgstr "Text"
+
+msgid "setting.actions.chat"
+msgstr "Chat Command"
+
+msgid "setting.actions.color"
+msgstr "Color"
+
+msgid "setting.actions.color.warn"
+msgstr ""
+"This 'ere value be automatically adjusted fer visibility based on yer chat "
+"color settin's."
+
+msgid "setting.actions.delete-all"
+msgstr "Scuttle all o' this here profile's actions."
+
+msgid "setting.actions.drag"
+msgstr "Drag actions t' re-order them."
+
+msgid "setting.actions.duration"
+msgstr "Duration"
+
+msgid "setting.actions.edit-visible.deleted"
+msgstr "Message Scuttled"
+
+msgid "setting.actions.edit-visible.emote-only"
+msgstr "Emote-Only Mode"
+
+msgid "setting.actions.edit-visible.follows"
+msgstr "Follower-Only Mode"
+
+msgid "setting.actions.edit-visible.mod"
+msgstr "Moderator"
+
+msgid "setting.actions.edit-visible.mod-icons"
+msgstr "Mod Icons"
+
+msgid "setting.actions.edit-visible.modifier"
+msgstr "Modifiers"
+
+msgid "setting.actions.edit-visible.r9k"
+msgstr "R9k Mode"
+
+msgid "setting.actions.edit-visible.slow"
+msgstr "Slow Mode"
+
+msgid "setting.actions.edit-visible.subs"
+msgstr "Subs Mode"
+
+msgid "setting.actions.icon"
+msgstr "Icon"
+
+msgid "setting.actions.new"
+msgstr "New..."
+
+msgid "setting.actions.no-actions"
+msgstr "no actions be defined in this 'ere profile"
+
+msgid "setting.actions.no-visible"
+msgstr "no visible actions"
+
+msgid "setting.actions.preview"
+msgstr "Preview:"
+
+msgid "setting.actions.preview.all"
+msgstr "Show All"
+
+msgid "setting.actions.preview.deleted"
+msgstr "Scuttled Message"
+
+msgid "setting.actions.preview.emote-only"
+msgstr "Emote-Only"
+
+msgid "setting.actions.preview.followers"
+msgstr "Followers-Only"
+
+msgid "setting.actions.preview.mod"
+msgstr "As Moderator"
+
+msgid "setting.actions.preview.mod_icons"
+msgstr "Wit' Mod Icons"
+
+msgid "setting.actions.preview.r9k"
+msgstr "R9k Mode"
+
+msgid "setting.actions.preview.slow"
+msgstr "Slow Mode"
+
+msgid "setting.actions.preview.subs"
+msgstr "Subs Only"
+
+msgid "setting.actions.reason"
+msgstr "Default Reason"
+
+msgid "setting.actions.set-chat"
+msgstr "Paste this 'ere message int' chat rather than sendin' it directly."
+
+msgid "setting.actions.text"
+msgstr "Label"
+
+msgid "setting.actions.tooltip"
+msgstr "Custom Tooltip"
+
+msgid "setting.actions.type"
+msgstr "Type"
+
+msgid "setting.actions.url"
+msgstr "URL"
+
+msgid "setting.actions.variables"
+msgstr "Available Variables: {vars}"
+
+msgid "setting.actions.visibility"
+msgstr "Visibility"
+
+msgid "setting.actions.visible"
+msgstr "visible: {list}"
+
+msgid "setting.actions.visible.always"
+msgstr "always"
+
+msgid "setting.actions.visible.deleted"
+msgstr "if message scuttled"
+
+msgid "setting.actions.visible.hover"
+msgstr "when 'overin'"
+
+msgid "setting.actions.visible.mod"
+msgstr "when moderator"
+
+msgid "setting.actions.visible.mod_icons"
+msgstr "when mod icons be shown"
+
+msgid "setting.actions.visible.modifier"
+msgstr "when {key_list} {keys, plural, one {be} other {be}} 'eld"
+
+msgid "setting.actions.visible.slow"
+msgstr "when slow mode"
+
+msgid "setting.actions.visible.undeleted"
+msgstr "if message not scuttled"
+
+msgid "setting.actions.warn-hidden"
+msgstr ""
+"Ye currently 'ave Mod icons turned off in yer Twitch chat settings, so some "
+"actions might be 'idden as a result. Use the settings menu in chat t' "
+"toggle them."
+
+msgid "setting.add"
+msgstr "Add"
+
+msgid "setting.add_ons"
+msgstr "Add-Ons"
+
+msgid "setting.add_ons.changelog"
+msgstr "Changelog"
+
+msgid "setting.add_ons.changelog.title"
+msgstr "Add-Ons Changelog"
+
+msgid "setting.add_ons.description"
+msgstr ""
+"Add-Ons be additional modules, often written by other scallywags, that can "
+"be loaded automatically by FrankerFaceZ t' add new capabilities an' "
+"behaviors t' the extension an' Twitch."
+
+msgid "setting.add_ons.development"
+msgstr "Development"
+
+msgid "setting.appearance"
+msgstr "Appearance"
+
+msgid "setting.appearance.control_center"
+msgstr "Control Center"
+
+msgid "setting.appearance.control_center.search"
+msgstr "Search"
+
+msgid "setting.appearance.description"
+msgstr ""
+"Personalize the appearance o' Twitch. Change the color scheme an' fonts an' "
+"tune the layout t' optimize yer experience."
+
+msgid "setting.appearance.layout"
+msgstr "Layout"
+
+msgid "setting.appearance.layout.channel"
+msgstr "Channel"
+
+msgid "setting.appearance.layout.clips"
+msgstr "Clips"
+
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Side Navigation"
+
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Top Navigation"
+
+msgid "setting.appearance.localization"
+msgstr "Localization"
+
+msgid "setting.appearance.localization.formatting"
+msgstr "Formattin'"
+
+msgid "setting.appearance.localization.general"
+msgstr "General"
+
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Joke Languages"
+
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Supported Languages"
+
+msgid "setting.appearance.localization.general.language.twitch"
+msgstr "Use Twitch's Language"
+
+msgid "setting.appearance.theme"
+msgstr "Theme"
+
+msgid "setting.appearance.theme.chat_colors"
+msgstr "Chat Colors"
+
+msgid "setting.appearance.theme.colors"
+msgstr "Colors"
+
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"This 'ere be a quick preview o' a new system comin' soon to FrankerFaceZ. "
+"Expect 'eavy changes 'ere, includin' separate Basic an' Advanced modes, an' "
+"better color selection."
+
+msgid "setting.appearance.theme.fonts"
+msgstr "Fonts"
+
+msgid "setting.appearance.theme.legacy"
+msgstr "Legacy"
+
+msgid "setting.backup-restore.about"
+msgstr ""
+"This 'ere tool allows ye t' backup an' restore yer FrankerFaceZ settin's, "
+"includin' all settin's from the Control Center along wit' other data such "
+"as favorited emotes an' blocked games."
+
+msgid "setting.backup-restore.confirm-updates"
+msgstr ""
+"The profile ye be importin' 'as an automatic update URL. Do ye want the "
+"profile t' keep itself up t' date?"
+
+msgid "setting.backup-restore.disable-auto"
+msgstr "No, prevent automatic updates."
+
+msgid "setting.backup-restore.enable-auto"
+msgstr "Yes, allow automatic updates."
+
+msgid "setting.backup-restore.error"
+msgstr "There been an error processin' this 'ere backup."
+
+msgid "setting.backup-restore.http-error"
+msgstr "Unable to read JSON from the provided URL."
+
+msgid "setting.backup-restore.http-loading"
+msgstr "Loadin'..."
+
+msgid "setting.backup-restore.imported"
+msgstr ""
+"The profile \"{name}\" 'as been successfully imported wit' {count,number} "
+"settin'{count,en_plural}."
+
+msgid "setting.backup-restore.imported-at"
+msgstr "Imported at {now,datetime}."
+
+msgid "setting.backup-restore.non-supported"
+msgstr "This 'ere file be not recognized as a supported backup format."
+
+msgid "setting.backup-restore.old-file"
+msgstr ""
+"This 'ere file be invalid or been created in another version o' "
+"FrankerFaceZ an' cannot be loaded."
+
+msgid "setting.backup-restore.pick-profile"
+msgstr "Please select a profile t' import."
+
+msgid "setting.backup-restore.restore-backup"
+msgstr "Restore Backup"
+
+msgid "setting.backup-restore.restored"
+msgstr "{count,number} items 'ave been restored. Please refresh this 'ere page."
+
+msgid "setting.backup-restore.save-backup"
+msgstr "Save Backup"
+
+msgid "setting.badges.hidden"
+msgstr "{count,plural,one{# badge is} other{# badges are} } hidden in this set"
+
+msgid "setting.cancel"
+msgstr "Cancel"
+
+msgid "setting.channel"
+msgstr "Channel"
+
+msgid "setting.channel.appearance"
+msgstr "Appearance"
+
+msgid "setting.channel.appearance.general"
+msgstr "General"
+
+msgid "setting.channel.behavior"
+msgstr "Behavior"
+
+msgid "setting.channel.behavior.general"
+msgstr "General"
+
+msgid "setting.channel.behavior.hosting"
+msgstr "'ostin'"
+
+msgid "setting.channel.behavior.panels"
+msgstr "Panels"
+
+msgid "setting.channel.behavior.raids"
+msgstr "Raids"
+
+msgid "setting.channel.behavior.squads"
+msgstr "Squads"
+
+msgid "setting.channel.metadata"
+msgstr "Metadata"
+
+msgid "setting.channel.metadata.appearance"
+msgstr "Appearance"
+
+msgid "setting.channel.metadata.clips"
+msgstr "Clips"
+
+msgid "setting.channel.metadata.mod_view"
+msgstr "Mod View"
+
+msgid "setting.channel.metadata.player"
+msgstr "Player"
+
+msgid "setting.channel.metadata.subscription"
+msgstr "Subscription"
+
+msgid "setting.chat"
+msgstr "Chat"
+
+msgid "setting.chat.actions"
+msgstr "Actions"
+
+msgid "setting.chat.actions.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.actions.in_line"
+msgstr "In-Line"
+
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"'ere, ye can define custom actions that will appear along messages in chat. "
+"If ye arrren't seein' an action ye've defined 'ere in chat, please make "
+"sure that there ye 'ave enabled Mod Icons in the chat settin's menu."
+
+msgid "setting.chat.actions.reasons"
+msgstr "Reasons"
+
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Custom Reasons"
+
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Rules"
+
+msgid "setting.chat.actions.room"
+msgstr "Room"
+
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"'ere, ye can define custom actions that will appear above the chat input "
+"box."
+
+msgid "setting.chat.actions.room.general"
+msgstr "General"
+
+msgid "setting.chat.actions.user_context"
+msgstr "User Context"
+
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"'ere, ye can define custom actions that will appear in a context menu when "
+"ye right-click a username in chat."
+
+msgid "setting.chat.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Chat Lines"
+
+msgid "setting.chat.appearance.colors"
+msgstr "Colors"
+
+msgid "setting.chat.appearance.community"
+msgstr "Crew"
+
+msgid "setting.chat.appearance.community_chest"
+msgstr "Crew Chest"
+
+msgid "setting.chat.appearance.emoji"
+msgstr "Emoji"
+
+msgid "setting.chat.appearance.emotes"
+msgstr "Emotes"
+
+msgid "setting.chat.appearance.general"
+msgstr "General"
+
+msgid "setting.chat.appearance.replies"
+msgstr "Replies"
+
+msgid "setting.chat.appearance.rich_content"
+msgstr "Rich Content"
+
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Subscriptions"
+
+msgid "setting.chat.appearance.usernames"
+msgstr "Usernames"
+
+msgid "setting.chat.badges"
+msgstr "Badges"
+
+msgid "setting.chat.badges.behavior"
+msgstr "Behavior"
+
+msgid "setting.chat.badges.tabs"
+msgstr "tabs"
+
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Visibility"
+
+msgid "setting.chat.behavior"
+msgstr "Behavior"
+
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Scuttled Messages"
+
+msgid "setting.chat.behavior.general"
+msgstr "General"
+
+msgid "setting.chat.behavior.scrolling"
+msgstr "Scrollin'"
+
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bits an' Cheerin'"
+
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Behavior"
+
+msgid "setting.chat.channel_points"
+msgstr "Channel Points"
+
+msgid "setting.chat.channel_points.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.channel_points.behavior"
+msgstr "Behavior"
+
+msgid "setting.chat.channel_points.general"
+msgstr "General"
+
+msgid "setting.chat.chat_on_videos"
+msgstr "Chat on Videos"
+
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"This 'ere feature be currently in beta. As such, ye may experience issues "
+"when usin' FFZ features wit' Chat on Videos."
+
+msgid "setting.chat.chat_on_videos.general"
+msgstr "General"
+
+msgid "setting.chat.emote_menu"
+msgstr "Emote Menu"
+
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.emote_menu.general"
+msgstr "General"
+
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Sorting"
+
+msgid "setting.chat.filtering"
+msgstr "Filtering"
+
+msgid "setting.chat.filtering.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "AutoMod Filters"
+
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Extra configuration fer Twitch's native `Chat Filters`."
+
+msgid "setting.chat.filtering.behavior"
+msgstr "Behavior"
+
+msgid "setting.chat.filtering.block"
+msgstr "Block"
+
+msgid "setting.chat.filtering.block.badges"
+msgstr "Badges"
+
+msgid "setting.chat.filtering.block.badges.description"
+msgstr ""
+"**Note:** This 'ere section be fer filterin' messages out o' chat from "
+"users with specific badges. If ye wish to 'ide a badge, go t' [Chat > "
+"Badges >> Visibility](~chat.badges.tabs.visibility)."
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Blocked Badges"
+
+msgid "setting.chat.filtering.blocked_badges.description"
+msgstr ""
+"**Note:** This 'ere section be fer filterin' messages out o' chat from "
+"users with specific badges. If ye wish t' 'ide a badge, go t' [Chat > "
+"Badges >> Visibility](~chat.badges.tabs.visibility)."
+
+msgid "setting.chat.filtering.blocked_message_types"
+msgstr "Blocked Message Types"
+
+msgid "setting.chat.filtering.blocked_message_types.description"
+msgstr ""
+"This 'ere filter allows ye t' remove all messages o' a certain type from "
+"Twitch chat. It can be used t' filter system messages, such as 'osts or "
+"Raids. Some types, such as moderation actions, cannot be blocked t' prevent "
+"chat functionality from breakin'."
+
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Blocked Terms"
+
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Blocked Users"
+
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Message Types"
+
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"This 'ere filter allows ye t' remove all messages o' a certain type from "
+"Twitch chat. It can be used t' filter system messages, such as 'osts or "
+"Raids. Some types, such as moderation actions, cannot be blocked t' prevent "
+"chat functionality from breakin'."
+
+msgid "setting.chat.filtering.block.terms"
+msgstr "Terms"
+
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Please see [Chat > Filterin' > Syntax Help](~) fer details on 'ow t' use "
+"terms."
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Users"
+
+msgid "setting.chat.filtering.general"
+msgstr "General"
+
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "AutoMod Filters"
+
+msgid "setting.chat.filtering.general.auto_mod_filters.description"
+msgstr "Extra configuration fer Twitch's native `Chat Filters`."
+
+msgid "setting.chat.filtering.general.behavior"
+msgstr "Behavior"
+
+msgid "setting.chat.filtering.general.rituals"
+msgstr "Rituals"
+
+msgid "setting.chat.filtering.highlight"
+msgstr "'ighlight"
+
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "'ighlight Badges"
+
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Badges"
+
+msgid "setting.chat.filtering.highlight.description"
+msgstr ""
+"These settin's allow ye t' 'ighlight messages in chat based on their "
+"contents. Settin' priorities on rules allows ye t' determine which "
+"'ighlight color should be applied if a message matches multiple rules. "
+"Rules with a 'igher priority take priority over rules with lower "
+"priorities.\n"
+" \n"
+"Ye can also create a rule that removes 'ighlights from messages, preventin' "
+"lower priority rules from 'ighlightin' them, by settin' a color with an "
+"alpha value o' zero. Example: `#00000000`"
+
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "'ighlight Terms"
+
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Terms"
+
+msgid "setting.chat.filtering.highlight.terms.description"
+msgstr ""
+"Please see [Chat > Filterin' > Syntax Help](~) fer details on 'ow t' use "
+"terms."
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "'ighlight Users"
+
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Users"
+
+msgid "setting.chat.filtering.rituals"
+msgstr "Rituals"
+
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Syntax Help"
+
+msgid "setting.chat.input"
+msgstr "Input"
+
+msgid "setting.chat.input.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.input.recent_messages"
+msgstr "Recent Messages"
+
+msgid "setting.chat.input.tab_completion"
+msgstr "Tab Completion"
+
+msgid "setting.chat.tooltips"
+msgstr "Tooltips"
+
+msgid "setting.chat.tooltips.badges"
+msgstr "Badges"
+
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emotes"
+
+msgid "setting.chat.tooltips.general"
+msgstr "General"
+
+msgid "setting.chat.tooltips.links"
+msgstr "Links"
+
+msgid "setting.chat.viewer_cards"
+msgstr "Viewer Carrrds"
+
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Appearance"
+
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Behavior"
+
+msgid "setting.chat.whispers"
+msgstr "Whispers"
+
+msgid "setting.chat.whispers.general"
+msgstr "General"
+
+msgid "setting.clear"
+msgstr "Clear"
+
+msgid "setting.clear.done"
+msgstr ""
+"Yer settin's 'ave been cleared. Please refresh any applicable Twitch pages "
+"t' ensure no cached data remains."
+
+msgid "setting.clear.opt.DeckTabs"
+msgstr "Deck Tabs"
+
+msgid "setting.clear.opt.Everything"
+msgstr "Absolutely Everythin'"
+
+msgid "setting.clear.opt.Experiments"
+msgstr "Experiment Overrides"
+
+msgid "setting.clear.opt.FavoriteEmotes"
+msgstr "Favorited Emotes"
+
+msgid "setting.clear.opt.HiddenEmotes"
+msgstr "'idden Emotes"
+
+msgid "setting.clear.opt.Overrides"
+msgstr "Name an' Color Overrides"
+
+msgid "setting.clear.opt.Profiles"
+msgstr "Profiles"
+
+msgid "setting.clear.start"
+msgstr "Clear Me Data"
+
+msgid "setting.clear.step-1"
+msgstr "Please select which types o' data ye wish t' clear:"
+
+msgid "setting.clear.step-2"
+msgstr "Be ye really sure? Please enter `{code}` in the text box below t' confirm."
+
+msgid "setting.clear.warning"
+msgstr "Be careful! This 'ere be permanent."
+
+msgid "setting.clear.warning-explain"
+msgstr ""
+"Deletin' yer data wit' this 'ere tool cannot be reversed. Make sure ye 'ave "
+"a backup!"
+
+msgid "setting.close"
+msgstr "Close"
+
+msgid "setting.color.nullable"
+msgstr "Right-Click t' Reset"
+
+msgid "setting.combo-box.custom"
+msgstr "Custom"
+
+msgid "setting.configure"
+msgstr "Configure"
+
+msgid "setting.copy-json"
+msgstr "Copy"
+
+msgid "setting.data_management"
+msgstr "Data Management"
+
+msgid "setting.data_management.backup_and_restore"
+msgstr "Backup an' Restore"
+
+msgid "setting.data_management.profiles"
+msgstr "Profiles"
+
+msgid "setting.data_management.profiles.edit.desc"
+msgstr "Description"
+
+msgid "setting.data_management.profiles.edit.general"
+msgstr "General"
+
+msgid "setting.data_management.profiles.edit.hotkey"
+msgstr "Hotkey"
+
+msgid "setting.data_management.profiles.edit.name"
+msgstr "Name"
+
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Edit Profile"
+
+msgid "setting.data_management.profiles.edit.rules"
+msgstr "Rules"
+
+msgid "setting.data_management.profiles.edit.rules.description"
+msgstr ""
+"Rules allows ye t' define a series o' conditions under which this 'ere "
+"profile be active. When there be multiple rules, they must all match fer "
+"the profile t' activate. Please use an `Or` rule to create a profile that "
+"activates by matchin' one o' several rules."
+
+msgid "setting.data_management.profiles.edit.update"
+msgstr "Automatically update this 'ere profile."
+
+msgid "setting.data_management.profiles.edit.updates"
+msgstr "Automatic Updates"
+
+msgid "setting.data_management.profiles.edit.updates.description"
+msgstr ""
+"This 'ere profile 'as an associated URL fer automatic updates. When updates "
+"be enabled an' the profile updates, all settin's associated with the "
+"profile be reset. The profile's rules be reset as well. The Name, "
+"Description, an' Hotkey will not reset."
+
+msgid "setting.data_management.profiles.edit.url"
+msgstr "Update URL"
+
+msgid "setting.data_management.profiles.hotkey.desc"
+msgstr ""
+"Settin' a 'otkey allows ye t' toggle a profile on or off at any time by "
+"usin' the 'otkey.\n"
+" \n"
+"**Note:** A Profile that be toggled on may still be inactive due t' its "
+"rules."
+
+msgid "setting.data_management.reporting"
+msgstr "Reportin'"
+
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Error Reports"
+
+msgid "setting.data_management.reporting.example_report"
+msgstr "Example Report"
+
+msgid "setting.data_management.storage"
+msgstr "Storage"
+
+msgid "setting.data_management.storage.tabs"
+msgstr "tabs"
+
+msgid "setting.data_management.storage.tabs.clear"
+msgstr "Clear"
+
+msgid "setting.data_management.storage.tabs.provider"
+msgstr "Provider"
+
+msgid "setting.debugging"
+msgstr "Debuggin'"
+
+msgid "setting.debugging.data_sources"
+msgstr "Data Sources"
+
+msgid "setting.debugging.data_sources.links"
+msgstr "Links"
+
+msgid "setting.debugging.experiments"
+msgstr "Experiments"
+
+msgid "setting.debugging.localization"
+msgstr "Localization"
+
+msgid "setting.debugging.localization.editing"
+msgstr "Editin'"
+
+msgid "setting.debugging.localization.general"
+msgstr "General"
+
+msgid "setting.debugging.socket"
+msgstr "Socket"
+
+msgid "setting.debugging.socket.general"
+msgstr "General"
+
+msgid "setting.debugging.socket.info"
+msgstr "Info"
+
+msgid "setting.delete"
+msgstr "Scuttle"
+
+msgid "setting.delete-all"
+msgstr "Scuttle All"
+
+msgid "setting.dev-warning"
+msgstr "It be dangerous t' go at all."
+
+msgid "setting.dev-warning.explain"
+msgstr ""
+"Be careful, this 'ere be an advanced feature intended fer developer use "
+"only. Normal users should steer clear. Adjustin' yer experiments can 'ave "
+"unexpected impacts on yer Twitch experience. FrankerFaceZ be not "
+"responsible fer any issues ye encounter as a result o' tamperin' wit' "
+"experiments, an' we will not provide support.\n"
+" \n"
+"If ye be sure about this 'ere, please type `{code}` into the box below an' "
+"hit enter."
+
+msgid "setting.directory"
+msgstr "Directory"
+
+msgid "setting.directory.categories"
+msgstr "Categories"
+
+msgid "setting.directory.categories.blocked"
+msgstr "Blocked"
+
+msgid "setting.directory.categories.description"
+msgstr ""
+"Please note that due t' limitations in Twitch's website, names 'ere must be "
+"formatted exactly as displayed in yer client. Fer best results, ye can "
+"block or unblock categories directly from directory pages."
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "'idden Thumbnails"
+
+msgid "setting.directory.categories.hidden_thumbnail_style"
+msgstr "'idden Thumbnail Style"
+
+msgid "setting.directory.channels"
+msgstr "Channels"
+
+msgid "setting.directory.channels.appearance"
+msgstr "Appearance"
+
+msgid "setting.directory.channels.blocked_and_hidden_categories"
+msgstr "Blocked an' 'idden Categories"
+
+msgid "setting.directory.channels.description"
+msgstr ""
+"**Note:** These settin's do not currently work due t' changes made by "
+"Twitch t' 'ow the directory works."
+
+msgid "setting.directory.following"
+msgstr "Followin'"
+
+msgid "setting.directory.following.categories"
+msgstr "Categories"
+
+msgid "setting.directory.following.description"
+msgstr ""
+"**Note:** These settin's do not currently work due t' changes made by "
+"Twitch t' 'ow the directory works."
+
+msgid "setting.directory.following.hosts"
+msgstr "'osts"
+
+msgid "setting.edit"
+msgstr "Edit"
+
+msgid "setting.entry.add-ons"
+msgstr "Add-Ons"
+
+msgid "setting.entry.addons.dev.server"
+msgstr "Use Local Development Server"
+
+msgid "setting.entry.addons.dev.server.description"
+msgstr "Attempt t' load add-ons from local development server on port 8001."
+
+msgid "setting.entry.backup"
+msgstr "backup"
+
+msgid "setting.entry.changelog"
+msgstr "changelog"
+
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Automatically open chat when openin' an offline channel page."
+
+msgid "setting.entry.channel.auto-skip-trailer"
+msgstr "Automatically skip channel trailers."
+
+msgid "setting.entry.channel.extra-links"
+msgstr "Add extra links t' live channel pages, next t' the streamer's name."
+
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "'ide the \"LIVE\" indicator on live channel pages."
+
+msgid "setting.entry.channel.hide-not-live-bar"
+msgstr "'ide the \"Now Live\" barrr."
+
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"'ide the barrr which appears beneath clips an' videos when the streamer be "
+"live, tellin' ye they be live."
+
+msgid "setting.entry.channel.hide-unfollow"
+msgstr "'ide the Unfollow button."
+
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Enable Channel 'ostin'"
+
+msgid "setting.entry.channel.metadata.force-above"
+msgstr "Force metadata an' tags t' the top o' the channel information barrr."
+
+msgid "setting.entry.channel.panel-tips"
+msgstr "Display rich tool-tips fer links in channel panels."
+
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Do not automatically join raids."
+
+msgid "setting.entry.channel.round-avatars"
+msgstr "Allow avatarrr images t' be rounded."
+
+msgid "setting.entry.channel.show-celebrations"
+msgstr "Allow Celebrations t' appear."
+
+msgid "setting.entry.channel.show-celebrations.description"
+msgstr "Celebrations be animations that cover the entire Twitch page."
+
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "Do not be automatically redirect'n t' Squad Streams."
+
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Display Room Actions above the chat input box."
+
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Include the current room's rules in the list o' reasons."
+
+msgid "setting.entry.chat.actions.size"
+msgstr "Action Size"
+
+msgid "setting.entry.chat.actions.size.description"
+msgstr ""
+"'ow tall actions should be, in pixels. This may be affected by yer "
+"browser's zoom an' font size settings."
+
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Minimum Contrast"
+
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Set the minimum contrast ratio used by Luma adjustments when determinin' "
+"readability."
+
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Adjustment"
+
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Alter user colors t' ensure that they remain readable."
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Unchanged"
+
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "No Color"
+
+msgid "setting.entry.chat.adjustment-mode.values.2"
+msgstr "Luv Luma"
+
+msgid "setting.entry.chat.adjustment-mode.values.3"
+msgstr "HSL Loop (BTTV-Like)"
+
+msgid "setting.entry.chat.adjustment-mode.values.4"
+msgstr "RGB Loop (Deprecated)"
+
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Marrrk messages as scuttled if they contain filtered phrases."
+
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Remove messages entirely if they contain filtered phrases."
+
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Use Chat Filters as a moderator."
+
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"By default, Twitch's Chat Filters feature don't function fer moderators. "
+"This 'ere overrides that behavior."
+
+msgid "setting.entry.chat.badges.clickable"
+msgstr "Allow clickin' badges."
+
+msgid "setting.entry.chat.badges.clickable.description"
+msgstr ""
+"Certain badges, such as Prime Gaming, act as links when this 'ere be "
+"enabled."
+
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Use custom moderator badges where available."
+
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Use custom VIP badges where available."
+
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Adjust badge colors fer visibility."
+
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Ensures that badges be visible against the current background.\n"
+"\n"
+"**Note:** Only affects badges wit' custom renderin'. Subscriber badges, bit "
+"badges, etc. ain't affected."
+
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Visibility"
+
+msgid "setting.entry.chat.badges.media-queries"
+msgstr "Use @media queries t' support 'igh-DPI badge images in Mozilla Firefox."
+
+msgid "setting.entry.chat.badges.media-queries.description"
+msgstr ""
+"This 'ere be required t' see 'igh-DPI badges on Firefox because Firefox "
+"still 'as yet t' support `image-set()` after more than five years. It may "
+"be less reliable."
+
+msgid "setting.entry.chat.badges.style"
+msgstr "Style"
+
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Square"
+
+msgid "setting.entry.chat.badges.style.values.1"
+msgstr "Rounded"
+
+msgid "setting.entry.chat.badges.style.values.2"
+msgstr "Circularrr"
+
+msgid "setting.entry.chat.badges.style.values.3"
+msgstr "Circularrr (Color Only)"
+
+msgid "setting.entry.chat.badges.style.values.4"
+msgstr "Circularrr (Color Only, Small)"
+
+msgid "setting.entry.chat.badges.style.values.5"
+msgstr "Transparent"
+
+msgid "setting.entry.chat.badges.style.values.6"
+msgstr "Transparent (Colored)"
+
+msgid "setting.entry.chat.badges.version"
+msgstr "Version"
+
+msgid "setting.entry.chat.badges.version.values.1"
+msgstr "1 (Pre December 2019)"
+
+msgid "setting.entry.chat.badges.version.values.2"
+msgstr "2 (Current)"
+
+msgid "setting.entry.chat.banners.drops"
+msgstr "Allow messages about Drops t' be displayed in chat."
+
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Allow the 'ype Train t' be displayed in chat."
+
+msgid "setting.entry.chat.banners.polls"
+msgstr "Allow Polls t' be displayed in chat."
+
+msgid "setting.entry.chat.banners.prediction"
+msgstr "Allow Predictions t' be displayed in chat."
+
+msgid "setting.entry.chat.bits.animated"
+msgstr "Display animated cheers."
+
+msgid "setting.entry.chat.bits.cheer-notice"
+msgstr "Display a notice on chat messages that include cheers."
+
+msgid "setting.entry.chat.bits.cheer-notice.description"
+msgstr ""
+"This 'ere feature be intended to prevent possible confusion from chatters "
+"usin' emotes t' fake cheers in messages. When enabled, messages that "
+"contain real cheers will display a message above them, similar to 'ow "
+"resubscription messages or point redemptions with messages function."
+
+msgid "setting.entry.chat.bits.show"
+msgstr "Display Bits"
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Display UI associated wit' bits. Note: This 'ere will not 'ide cheerin' in "
+"chat messages."
+
+msgid "setting.entry.chat.bits.show-pinned"
+msgstr "Display Leaderboard"
+
+msgid "setting.entry.chat.bits.show-pinned.description"
+msgstr ""
+"The leaderboard shows the top cheerers an' sub gifters in a channel.\n"
+" \n"
+"By default due t' a previous implementation, this 'ere inherits its value "
+"from [Chat > Bits an' Cheerin' > Display Bits](~chat.bits_and_cheering)."
+
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr "Display messages when a cheer shares rewards t' scallywags in chat."
+
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"By default, this 'ere inherits its value from Display Bits. This 'ere "
+"settin' only affects newly arrived messages."
+
+msgid "setting.entry.chat.bits.stack"
+msgstr "Cheer Stackin'"
+
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Collect all the cheers in a message int' a single cheer at the start o' the "
+"message."
+
+msgid "setting.entry.chat.bits.stack.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.bits.stack.values.1"
+msgstr "Grouped by Type"
+
+msgid "setting.entry.chat.bits.stack.values.2"
+msgstr "All in One"
+
+msgid "setting.entry.chat.click-emotes"
+msgstr "Open emote information pages by Shift-Clickin' them."
+
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Display the Crew Gift Chest banner."
+
+msgid "setting.entry.chat.delay"
+msgstr "Arrrtificial Chat Delay"
+
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Delay the appearance o' chat messages t' allow fer moderation before ye see "
+"them."
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "No Delay"
+
+msgid "setting.entry.chat.delay.values.-1"
+msgstr "Default Delay (Room Specific; Non-Mod Only)"
+
+msgid "setting.entry.chat.delay.values.10000"
+msgstr "Extra Larrrge (10s)"
+
+msgid "setting.entry.chat.delay.values.1200"
+msgstr "Normal ('uman Moderation; 1.2s)"
+
+msgid "setting.entry.chat.delay.values.15000"
+msgstr "Extremely Larrrge (15s)"
+
+msgid "setting.entry.chat.delay.values.20000"
+msgstr "Mods Asleep; Delay Chat (20s)"
+
+msgid "setting.entry.chat.delay.values.300"
+msgstr "Minor (Bot Moderation; 0.3s)"
+
+msgid "setting.entry.chat.delay.values.30000"
+msgstr "'alf a Minute (30s)"
+
+msgid "setting.entry.chat.delay.values.5000"
+msgstr "Larrrge (Spoiler Removal / Slow Mods; 5s)"
+
+msgid "setting.entry.chat.delay.values.60000"
+msgstr "Why??? (1m)"
+
+msgid "setting.entry.chat.delay.values.788400000000"
+msgstr "The CBenni Option (Literally 25 Years)"
+
+msgid "setting.entry.chat.emoji.style"
+msgstr "Emoji Style"
+
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Native"
+
+msgid "setting.entry.chat.emoji.style.values.blob"
+msgstr "Blob"
+
+msgid "setting.entry.chat.emoji.style.values.emojione"
+msgstr "EmojiOne"
+
+msgid "setting.entry.chat.emoji.style.values.google"
+msgstr "Google (Noto)"
+
+msgid "setting.entry.chat.emoji.style.values.open"
+msgstr "OpenMoji"
+
+msgid "setting.entry.chat.emoji.style.values.twitter"
+msgstr "Twitter (Twemoji)"
+
+msgid "setting.entry.chat.emote-dialogs"
+msgstr "Open emote information carrrds fer Twitch emotes by clickin' them."
+
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Display all emotes on one tab."
+
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Default Tab"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.all"
+msgstr "Me Emotes"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
+msgstr "Channel"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
+msgstr "Emoji"
+
+msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
+msgstr "Favorites"
+
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Use the FrankerFaceZ Emote Menu."
+
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"The FFZ emote menu replaces the built-in Twitch emote menu an' provides "
+"enhanced functionality."
+
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr "Replace the emote menu icon with the FFZ icon fer that there classic feel."
+
+msgid "setting.entry.chat.emote-menu.modifiers"
+msgstr "Emote Modifiers"
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.emote-menu.modifiers.values.1"
+msgstr "In-Line"
+
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Use reduced paddin'."
+
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Use Ctrl+E t' open the Emote Menu."
+
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr ""
+"When enabled an' ye press Ctrl+E wit' the chat input focused, the emote "
+"menu will open."
+
+msgid "setting.entry.chat.emote-menu.show-emoji"
+msgstr "Display emoji in the emote menu."
+
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Show Headers"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.0"
+msgstr "Never"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.1"
+msgstr "Always"
+
+msgid "setting.entry.chat.emote-menu.show-heading.values.2"
+msgstr "When Not Searchin'"
+
+msgid "setting.entry.chat.emote-menu.show-quick-nav"
+msgstr "Show a quick navigation barrr along the side o' the menu."
+
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Show the search box."
+
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Sort Emotes By"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
+msgstr "Order Added (ID), Ascendin'"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
+msgstr "Order Added (ID), Descendin'"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
+msgstr "Name, Ascendin'"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
+msgstr "Name, Descendin'"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.4"
+msgstr "Native Order, Ascendin'"
+
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.5"
+msgstr "Native Order, Descendin'"
+
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "List emotes from 'igher sub tiers last."
+
+msgid "setting.entry.chat.emote-menu.stay-loaded"
+msgstr "Stay loaded after openin'."
+
+msgid "setting.entry.chat.emote-menu.stay-loaded.description"
+msgstr ""
+"This 'ere causes the emote menu t' stay in the DOM even when it be not "
+"visible. Enablin' this 'ere may 'elp the site perform better when openin' "
+"the menu if it be slow. By default, this 'ere settin' be enabled when usin' "
+"`Display all emotes on one tab.`"
+
+msgid "setting.entry.chat.emote-menu.tall"
+msgstr "Use extra 'eight fer the emote menu."
+
+msgid "setting.entry.chat.emotes.2x"
+msgstr "Larger Emotes"
+
+msgid "setting.entry.chat.emotes.2x.description"
+msgstr ""
+"This 'ere settin' will make emotes appear twice as large in chat. It be "
+"jolly fer use with larger fonts or just if ye really like emotes."
+
+msgid "setting.entry.chat.emotes.animated"
+msgstr "Animated Emotes"
+
+msgid "setting.entry.chat.emotes.animated.description"
+msgstr ""
+"This 'ere controls whether or not animated emotes be allowed to play in "
+"chat. When this 'ere be `Disabled`, emotes will appear as static images. "
+"Settin' this 'ere t' `Enable on Hover` may cause performance issues."
+
+msgid "setting.entry.chat.emotes.animated.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.emotes.animated.values.1"
+msgstr "Enabled"
+
+msgid "setting.entry.chat.emotes.animated.values.2"
+msgstr "Enable on Hover"
+
+msgid "setting.entry.chat.emotes.enabled"
+msgstr "Display Emotes"
+
+msgid "setting.entry.chat.emotes.enabled.description"
+msgstr "If ye do not wish t' see emotes, ye can disable them 'ere."
+
+msgid "setting.entry.chat.emotes.enabled.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.emotes.enabled.values.1"
+msgstr "Twitch Only"
+
+msgid "setting.entry.chat.emotes.enabled.values.2"
+msgstr "Enabled"
+
+msgid "setting.entry.chat.extra-timestamps"
+msgstr "Display timestamps on notices."
+
+msgid "setting.entry.chat.extra-timestamps.description"
+msgstr ""
+"When enabled, timestamps be displayed on point redemptions, subscriptions, "
+"etc."
+
+msgid "setting.entry.chat.filtering.bold-mentions"
+msgstr "Display mentions in chat wit' a bold font."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Enable openin' viewer carrrds by clickin' mentions in chat."
+
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Click t' reveal scuttled terms."
+
+msgid "setting.entry.chat.filtering.color-mentions"
+msgstr "Display mentions in chat wit' username colors."
+
+msgid "setting.entry.chat.filtering.color-mentions.description"
+msgstr ""
+"**Note:** Not compatible wit' color overrides as mentions do not include "
+"user IDs."
+
+msgid "setting.entry.chat.filtering.debug"
+msgstr "Display a list o' 'ighlight reasons on every chat message fer debuggin'."
+
+msgid "setting.entry.chat.filtering.deleted-style"
+msgstr "Detailed Message Style"
+
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"This 'ere style be applied t' scuttled messages showed in Detailed "
+"renderin' mode t' differentiate them from normal chat messages."
+
+msgid "setting.entry.chat.filtering.deleted-style.values.0"
+msgstr "Faded"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.1"
+msgstr "Faded, Line Through"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.2"
+msgstr "Line Through"
+
+msgid "setting.entry.chat.filtering.deleted-style.values.3"
+msgstr "No Change"
+
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Renderin' Mode"
+
+msgid "setting.entry.chat.filtering.display-deleted.description"
+msgstr ""
+"This 'ere, when set, overrides the `Scuttled Messages` mode selected in "
+"Twitch chat settin's, which be normally only accessible fer moderators. "
+"Brief 'ides messages entirely an' shows a notice in chat that a number o' "
+"messages was 'idden. Detailed shows the contents o' the message. Legacy "
+"shows `<message scuttled>` with click t' reveal."
+
+msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
+msgstr "Brief"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
+msgstr "Detailed"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.false"
+msgstr "Do Not Override"
+
+msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
+msgstr "Legacy"
+
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Display Reason"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.0"
+msgstr "Never"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.1"
+msgstr "In Detailed Mode"
+
+msgid "setting.entry.chat.filtering.display-mod-action.values.2"
+msgstr "Always"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "'ighlight messages that mention ye."
+
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "'ighlight matched words in chat."
+
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Do Not Clear Chat when commanded to."
+
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Custom 'ighlight Color"
+
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"If this 'ere be set, 'ighlighted messages with no default color set will "
+"use this 'ere color rather than red."
+
+msgid "setting.entry.chat.filtering.mention-priority"
+msgstr "Mention Priority"
+
+msgid "setting.entry.chat.filtering.mention-priority.description"
+msgstr ""
+"Mentions o' yer name 'ave this 'ere priority fer the purpose o' "
+"'ighlightin'. See [Chat > Filterin' > Highlight](~chat.filtering.highlight) "
+"fer more details."
+
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Filter yer own messages."
+
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Remove scuttled messages from chat."
+
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Scuttled messages be removed from chat entirely. This 'ere settin' be not "
+"recommended fer moderators."
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.0"
+msgstr "Do Not Remove"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.1"
+msgstr "Remove Unseen (Default)"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.2"
+msgstr "Remove Unseen as Moderator"
+
+msgid "setting.entry.chat.filtering.remove-deleted.values.3"
+msgstr "Remove All"
+
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Fix Bad Twitch Global Emotes"
+
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Clean up the images fer bad Twitch global emotes, removin' white borders "
+"an' solid backgrounds."
+
+msgid "setting.entry.chat.font-family"
+msgstr "Font Family"
+
+msgid "setting.entry.chat.font-family.description"
+msgstr "Set the font used fer displayin' chat messages."
+
+msgid "setting.entry.chat.font-size"
+msgstr "Font Size"
+
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"'ow larrrge should text in chat be, in pixels. This 'ere may be affected by "
+"yer browser's zoom an' font size settin's."
+
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr "'ide all Crew 'ighlights from the top o' chat."
+
+msgid "setting.entry.chat.hide-community-highlights.description"
+msgstr ""
+"Crew 'ighlights be polls, crew gift subs, etc. that float over the top o' "
+"chat temporarily with no way t' close them."
+
+msgid "setting.entry.chat.input.hide-identity"
+msgstr ""
+"Display \"Chat Identity\" in the chat settings menu rather than the input "
+"box."
+
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Display the Mod View button in relevant channels."
+
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Display lines wit' alternatin' background colors."
+
+msgid "setting.entry.chat.lines.borders"
+msgstr "Separators"
+
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.lines.borders.values.1"
+msgstr "Basic Line (1px Solid)"
+
+msgid "setting.entry.chat.lines.borders.values.2"
+msgstr "3D Line (2px Groove)"
+
+msgid "setting.entry.chat.lines.borders.values.3"
+msgstr "3D Line (2px Groove Inset)"
+
+msgid "setting.entry.chat.lines.borders.values.4"
+msgstr "Wide Line (2px Solid)"
+
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Emote Alignment"
+
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Change 'ow emotes be positioned in chat, potentially makin' messages taller "
+"in order t' avoid 'avin' emotes overlap."
+
+msgid "setting.entry.chat.lines.emote-alignment.values.0"
+msgstr "Standarrrd"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.1"
+msgstr "Padded"
+
+msgid "setting.entry.chat.lines.emote-alignment.values.2"
+msgstr "Baseline (BTTV-Like)"
+
+msgid "setting.entry.chat.lines.padding"
+msgstr "Reduce paddin' around lines."
+
+msgid "setting.entry.chat.me-style"
+msgstr "Action Style"
+
+msgid "setting.entry.chat.me-style.description"
+msgstr "When someone uses `/me`, the message be rendered in this 'ere style."
+
+msgid "setting.entry.chat.me-style.values.0"
+msgstr "No Style"
+
+msgid "setting.entry.chat.me-style.values.1"
+msgstr "Colorized (Old Style)"
+
+msgid "setting.entry.chat.me-style.values.2"
+msgstr "Italic (New Style)"
+
+msgid "setting.entry.chat.me-style.values.3"
+msgstr "Colorized Italic"
+
+msgid "setting.entry.chat.mru.enabled"
+msgstr "Allow pressin' up an' down t' recall previously sent chat messages."
+
+msgid "setting.entry.chat.name-format"
+msgstr "Display Style"
+
+msgid "setting.entry.chat.name-format.description"
+msgstr ""
+"Change 'ow usernames be displayed in chat when users 'ave an international "
+"display name set."
+
+msgid "setting.entry.chat.name-format.values.0"
+msgstr "International Name (Username) <Default>"
+
+msgid "setting.entry.chat.name-format.values.1"
+msgstr "International Name"
+
+msgid "setting.entry.chat.name-format.values.2"
+msgstr "Username"
+
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Automatically pin re-subscription messages in chat."
+
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr "'ighlight the message in chat when someone redeems 'ighlight Me Message."
+
+msgid "setting.entry.chat.points.allow-highlight.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.points.allow-highlight.values.1"
+msgstr "Twitch Style"
+
+msgid "setting.entry.chat.points.allow-highlight.values.2"
+msgstr "FFZ Style"
+
+msgid "setting.entry.chat.points.auto-rewards"
+msgstr "Automatically claim bonus rewards."
+
+msgid "setting.entry.chat.points.custom-rendering"
+msgstr "Use custom renderin' fer channel points reward messages in chat."
+
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"Custom renderin' applies a background color to 'ighlighted messages, which "
+"some users may not appreciate."
+
+msgid "setting.entry.chat.points.show-button"
+msgstr "Display Channel Points button beneath chat."
+
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Display messages in chat about Channel Points rewards."
+
+msgid "setting.entry.chat.points.show-rewards"
+msgstr "Allow available rewards t' appear next to the Channel Points button."
+
+msgid "setting.entry.chat.replies.style"
+msgstr "Style"
+
+msgid "setting.entry.chat.replies.style.description"
+msgstr ""
+"Twitch's default style adds a floatin' button t' chat starboard an' "
+"displays a notice above messages that be replies. FrankerFaceZ uses an "
+"In-Line Chat Action (that can be removed in Chat > Actions > "
+"In-Line)(~chat.actions.in_line)) an' uses an in-line mention t' denote "
+"replies."
+
+msgid "setting.entry.chat.replies.style.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.replies.style.values.1"
+msgstr "Twitch (Default)"
+
+msgid "setting.entry.chat.replies.style.values.2"
+msgstr "FrankerFaceZ"
+
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Display rich content embeds fer all links."
+
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Streamers: Please be aware that this 'ere be a potential vector fer NSFW "
+"imagery via thumbnails, so be mindful when capturin' chat with this 'ere "
+"enabled.*"
+
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Display rich content in chat."
+
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr ""
+"This 'ere displays rich content blocks fer things like linked clips an' "
+"videos."
+
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "'ide matchin' links fer rich content."
+
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Required User Level"
+
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Only display rich content embeds on messages posted by users wit' this 'ere "
+"level or 'igher."
+
+msgid "setting.entry.chat.rich.minimum-level.values.0"
+msgstr "Everyone"
+
+msgid "setting.entry.chat.rich.minimum-level.values.1"
+msgstr "Subscriber"
+
+msgid "setting.entry.chat.rich.minimum-level.values.2"
+msgstr "VIP"
+
+msgid "setting.entry.chat.rich.minimum-level.values.3"
+msgstr "Moderator"
+
+msgid "setting.entry.chat.rich.minimum-level.values.4"
+msgstr "Broadcaster"
+
+msgid "setting.entry.chat.rituals.show"
+msgstr "Display ritual messages such as \"User be new 'ere! Say Ahoy!\"."
+
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Scrollback Length"
+
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Keep up to this 'ere many lines in chat. Settin' this 'ere too high will "
+"create lag."
+
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Pause Chat Scrollin'"
+
+msgid "setting.entry.chat.scroller.freeze.description"
+msgstr ""
+"Automatically avast chat from scrollin' when movin' the mouse over it or "
+"'oldin' a key.\n"
+" \n"
+"**Note:** Scrollin' up in chat will always prevent automatic scrollin', "
+"regardless o' this 'ere settin'."
+
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Require the mouse t' be over chat to freeze wit' a hotkey."
+
+msgid "setting.entry.chat.scroller.freeze.values.0"
+msgstr "Use Twitch Settin'"
+
+msgid "setting.entry.chat.scroller.freeze.values.1"
+msgstr "On 'over"
+
+msgid "setting.entry.chat.scroller.freeze.values.2"
+msgstr "When Ctrl be 'eld"
+
+msgid "setting.entry.chat.scroller.freeze.values.3"
+msgstr "When Meta be 'eld"
+
+msgid "setting.entry.chat.scroller.freeze.values.4"
+msgstr "When Alt be 'eld"
+
+msgid "setting.entry.chat.scroller.freeze.values.5"
+msgstr "When Shift be 'eld"
+
+msgid "setting.entry.chat.scroller.freeze.values.6"
+msgstr "Ctrl or 'over"
+
+msgid "setting.entry.chat.scroller.freeze.values.7"
+msgstr "Meta or 'over"
+
+msgid "setting.entry.chat.scroller.freeze.values.8"
+msgstr "Alt or 'over"
+
+msgid "setting.entry.chat.scroller.freeze.values.9"
+msgstr "Shift or 'over"
+
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Hover Timeout"
+
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"Chat will only remain frozen due t' mouse hoverin' fer this 'ere long after "
+"the mouse stops movin'."
+
+msgid "setting.entry.chat.scroller.hover-delay.values.1000"
+msgstr "1 Second"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.250"
+msgstr "0.25 Seconds"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.2500"
+msgstr "2.5 Seconds"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.500"
+msgstr "0.50 Seconds"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.5000"
+msgstr "5 Seconds"
+
+msgid "setting.entry.chat.scroller.hover-delay.values.750"
+msgstr "0.75 Seconds"
+
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Smooth Scrollin'"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.description"
+msgstr ""
+"**Note:** This 'ere may not behave well dependin' on yer browser. Disable "
+"this if ye encounter issues.\n"
+" \n"
+"Smoothly slide new chat messages int' view. Speed will increase as "
+"necessary t' keep up with chat."
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
+msgstr "Slow"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
+msgstr "Medium"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
+msgstr "Fast"
+
+msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
+msgstr "Very Fast"
+
+msgid "setting.entry.chat.sub-emotes"
+msgstr "Open Twitch subscription pages by Shift-Clickin' emotes when relevant."
+
+msgid "setting.entry.chat.subs.compact"
+msgstr "Display subscription notices in a more compact (classic style) form."
+
+msgid "setting.entry.chat.subs.gift-banner"
+msgstr "Display a banner at the top o' chat when a mass gift sub 'appens."
+
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Merge Mass Sub Gifts"
+
+msgid "setting.entry.chat.subs.merge-gifts.description"
+msgstr ""
+"Merge mass gift subscriptions int' a single message, dependin' on the "
+"quantity.\n"
+"**Note:** Only affects newly gifted subs."
+
+msgid "setting.entry.chat.subs.merge-gifts.values.0"
+msgstr "Always"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.10"
+msgstr "More than 10"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.1000"
+msgstr "Disabled"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.20"
+msgstr "More than 20"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.5"
+msgstr "More than 5"
+
+msgid "setting.entry.chat.subs.merge-gifts.values.50"
+msgstr "More than 50"
+
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expand merged mass sub gift messages by default."
+
+msgid "setting.entry.chat.subs.show"
+msgstr "Display Subs in Chat"
+
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Note**: Messages sent with re-subs will always be displayed. This 'ere "
+"only controls the special \"X subscribed!\" message."
+
+msgid "setting.entry.chat.subs.show.values.0"
+msgstr "Do Not Display"
+
+msgid "setting.entry.chat.subs.show.values.1"
+msgstr "Re-Subs wit' Messages Only"
+
+msgid "setting.entry.chat.subs.show.values.2"
+msgstr "Re-Subs Only"
+
+msgid "setting.entry.chat.subs.show.values.3"
+msgstr "Display All"
+
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Allow tab-completion o' emoji."
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr "Allow tab-completion o' emotes wit'out typin' a colon. (:)"
+
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr "This 'ere will prevent the tab-completion o' usernames wit'out the @ prefix."
+
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "Allow tab-completion o' FrankerFaceZ emotes."
+
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Limit tab-completion results t' 25."
+
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Prioritize favorite emotes at the top."
+
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Timestamp Format"
+
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Timestamps be formatted usin' the "
+"[Day.js](https://github.com/iamkun/dayjs#readme) library. More details "
+"about formattin' strings [can be found "
+"here](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
+"list-of-all-available-formats)"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Padded"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Padded 24 'our"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Padded wit' Seconds"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Padded 24 'our wit' Seconds"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm"
+msgstr "12 'our"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm"
+msgstr "24 'our"
+
+msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
+msgstr "12 'our wit' Seconds"
+
+msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
+msgstr "24 'our wit' Seconds"
+
+msgid "setting.entry.chat.timestamp-size"
+msgstr "Timestamp Font Size"
+
+msgid "setting.entry.chat.timestamp-size.description"
+msgstr "'ow large should timestamps be, in pixels. Defaults t' Font Size if not set."
+
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Enable FrankerFaceZ features fer Chat on Videos."
+
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Display FFZ badges, emotes, an' other features in Chat on Videos. "
+"Moderation features may be unavailable when this 'ere be enabled."
+
+msgid "setting.entry.chat.video-chat.timestamps"
+msgstr "Display timestamps alongside chat messages."
+
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "'ighlight Color"
+
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr "'ighlight messages from users wit' open viewer carrrds."
+
+msgid "setting.entry.chat.width"
+msgstr "Width"
+
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"'ow wide chat should be, in pixels. This 'ere may be affected by yer "
+"browser's zoom an' font size settin's."
+
+msgid "setting.entry.clips.layout.big"
+msgstr "Allow the player t' get larger on `clips.twitch.tv` pages."
+
+msgid "setting.entry.clips.layout.big.description"
+msgstr ""
+"This 'ere only affects windows at least 1,200 pixels wide an' attempts t' "
+"make the player an' chat replay as large as possible."
+
+msgid "setting.entry.debug.link-resolver.source"
+msgstr "Link Resolver"
+
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Crew 'osts"
+
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Only show a given 'osted channel once in the directory."
+
+msgid "setting.entry.directory.following.host-menus"
+msgstr "'osted Channel Menus"
+
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Display a menu t' select which channel t' visit when clickin' a 'osted "
+"channel in the directory."
+
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.directory.following.host-menus.values.1"
+msgstr "When Multiple be 'ostin'"
+
+msgid "setting.entry.directory.following.host-menus.values.2"
+msgstr "Always"
+
+msgid "setting.entry.directory.hidden.reveal"
+msgstr "Reveal 'idden entries on mouse 'over."
+
+msgid "setting.entry.directory.hidden.style"
+msgstr "'idden Style"
+
+msgid "setting.entry.directory.hidden.style.values.0"
+msgstr "Replace Image"
+
+msgid "setting.entry.directory.hidden.style.values.1"
+msgstr "Replace Image an' Blur Title"
+
+msgid "setting.entry.directory.hidden.style.values.2"
+msgstr "Blur Image"
+
+msgid "setting.entry.directory.hidden.style.values.3"
+msgstr "Blur Image an' Title"
+
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Do not show `Latest Videos` in the Followin' Directory."
+
+msgid "setting.entry.directory.hide-live"
+msgstr "Do not show the live indicator on channels that be live."
+
+msgid "setting.entry.directory.hide-promoted"
+msgstr "Do not show Promoted streams in the directory."
+
+msgid "setting.entry.directory.hide-recommended"
+msgstr "Do not show `Recommended Live Channels` in the Followin' Directory."
+
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr "Do not show `Based on yer viewin' 'istory` in the Followin' Directory."
+
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "Do not show reruns in the directory."
+
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Display channel avatarrrs."
+
+msgid "setting.entry.directory.uptime"
+msgstr "Stream Uptime"
+
+msgid "setting.entry.directory.uptime.description"
+msgstr "Display the stream uptime on the channel carrrds."
+
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.directory.uptime.values.1"
+msgstr "Enabled"
+
+msgid "setting.entry.directory.uptime.values.2"
+msgstr "Enabled (wit' Seconds)"
+
+msgid "setting.entry.experiments"
+msgstr "experiments"
+
+msgid "setting.entry.faq"
+msgstr "faq"
+
+msgid "setting.entry.feedback"
+msgstr "feedback"
+
+msgid "setting.entry.feedback.log"
+msgstr "feedback.log"
+
+msgid "setting.entry.ffz.search.matches-only"
+msgstr "'ide items that do not match completely when searchin'."
+
+msgid "setting.entry.ffz.show-new-settings"
+msgstr ""
+"Display an indicator on the FFZ Control Center button whenever there be new "
+"settin's added t' FrankerFaceZ."
+
+msgid "setting.entry.home"
+msgstr "home"
+
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Enable message capture."
+
+msgid "setting.entry.i18n.debug.capture.description"
+msgstr ""
+"Capture all localized strings, includin' variables an' call locations, fer "
+"the purpose o' reportin' them t' the backend. This 'ere be used t' add new "
+"strings t' the translation project. By default, message capture be enabled "
+"when runnin' in development mode."
+
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Transformation"
+
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr "Transform all localized strings t' test string coverage as well as length."
+
+msgid "setting.entry.i18n.debug.transform.values.append_key"
+msgstr "Append Key"
+
+msgid "setting.entry.i18n.debug.transform.values.double"
+msgstr "Double"
+
+msgid "setting.entry.i18n.debug.transform.values.lower"
+msgstr "Lower Case"
+
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Disabled"
+
+msgid "setting.entry.i18n.debug.transform.values.owo"
+msgstr "owo what's this 'ere"
+
+msgid "setting.entry.i18n.debug.transform.values.set_key"
+msgstr "Set t' Key"
+
+msgid "setting.entry.i18n.debug.transform.values.upper"
+msgstr "Upper Case"
+
+msgid "setting.entry.i18n.format.date"
+msgstr "Date Format"
+
+msgid "setting.entry.i18n.format.date.description"
+msgstr ""
+"The default date format. Custom date formats be formated usin' the "
+"[Day.js](https://day.js.org/docs/en/display/format) library."
+
+msgid "setting.entry.i18n.format.datetime"
+msgstr "Date-Time Format"
+
+msgid "setting.entry.i18n.format.datetime.description"
+msgstr ""
+"The default combined date-time format. Custom time formats be formated "
+"usin' the [Day.js](https://day.js.org/docs/en/display/format) library."
+
+msgid "setting.entry.i18n.format.time"
+msgstr "Time Format"
+
+msgid "setting.entry.i18n.format.time.description"
+msgstr ""
+"The default time format. Custom time formats be formated usin' the "
+"[Day.js](https://day.js.org/docs/en/display/format) library."
+
+msgid "setting.entry.i18n.locale"
+msgstr "Language"
+
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FrankerFaceZ be lovingly translated by volunteers from our crew. Thank ye. "
+"If ye be interested in 'elpin' t' translate FrankerFaceZ, please [join our "
+"Discord](https://discord.gg/UrAkGhT) an' ask about localization."
+
+msgid "setting.entry.layout.discover"
+msgstr "Show Discover link."
+
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Show the Get Bits button."
+
+msgid "setting.entry.layout.display-bits-button.description"
+msgstr ""
+"By default, this 'ere inherits its value from [Chat > Bits an' Cheerin' > "
+"Display Bits](~chat.bits_and_cheering)"
+
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Minimize Navigation"
+
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr "Slide the site navigation barrr up out o' view when it ain't in use."
+
+msgid "setting.entry.layout.portrait"
+msgstr "Enable Portrait Mode"
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"In Portrait Mode, chat be displayed beneath the player when the window be "
+"taller than it be wide."
+
+msgid "setting.entry.layout.portrait-invert"
+msgstr "When in Portrait Mode, place chat at the top."
+
+msgid "setting.entry.layout.portrait-min-chat"
+msgstr "Use compact chat in Portrait Mode."
+
+msgid "setting.entry.layout.portrait-min-chat.description"
+msgstr ""
+"When enabled, this 'ere minimizes the chat 'eader an' places the chat input "
+"box in line wit' the chat buttons in order t' present a more compact chat "
+"able t' display more lines wit' limited vertical space."
+
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Portrait Mode Threshold"
+
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr ""
+"This 'ere be the Width t' Height ratio at which point Portrait Mode will "
+"begin to activate."
+
+msgid "setting.entry.layout.prime-offers"
+msgstr "Show Prime Gamin' Loot."
+
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "'ide Offline Channels"
+
+msgid "setting.entry.layout.side-nav.hide-viewers"
+msgstr "'ide Channel View Counts"
+
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Display Reruns"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.0"
+msgstr "Do Not Display"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.1"
+msgstr "Normally"
+
+msgid "setting.entry.layout.side-nav.rerun-style.values.2"
+msgstr "Faded (33% Opacity)"
+
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Display Side Navigation"
+
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Display Channel Avatarrrs"
+
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Display Online Mates"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.0"
+msgstr "Never"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.1"
+msgstr "Always"
+
+msgid "setting.entry.layout.side-nav.show-friends.values.2"
+msgstr "When Side Navigation be Open"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Display Recommended / Popularrr Channels"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.0"
+msgstr "Never"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
+msgstr "Always"
+
+msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
+msgstr "When Side Navigation be Open"
+
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Display Recommended Mates"
+
+msgid "setting.entry.layout.side-nav.show.values.0"
+msgstr "Never"
+
+msgid "setting.entry.layout.side-nav.show.values.1"
+msgstr "Always"
+
+msgid "setting.entry.layout.side-nav.show.values.2"
+msgstr "'ide in Portrait"
+
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Swap Sidebarrrs"
+
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Swap navigation an' chat to the opposite sides o' the window."
+
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Show the minimized navigation barrr when in theatre mode."
+
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Font Family"
+
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Override the font used fer the entire Twitch website. The old default font "
+"been: `\"Helvetica Neue\",Helvetica,Arial,sans-serif`\n"
+"\n"
+"Any font available via [Google Fonts](https://fonts.google.com/) can be "
+"loaded by prefixin' the font name with `google:`."
+
+msgid "setting.entry.legal"
+msgstr "legal"
+
+msgid "setting.entry.metadata.clip-download"
+msgstr "Add a Download button fer editors t' clip pages."
+
+msgid "setting.entry.metadata.clip-download.description"
+msgstr ""
+"This 'ere adds a download button beneath the player on clip pages (the main "
+"site, not on `clips.twitch.tv`) fer broadcasters an' their editors."
+
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Featured Follow"
+
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr "Show a featured follow button wit' the currently featured users."
+
+msgid "setting.entry.metadata.host-button"
+msgstr "'ost Button"
+
+msgid "setting.entry.metadata.host-button.description"
+msgstr "Show a 'ost button wit' the current 'osted channel in the tooltip."
+
+msgid "setting.entry.metadata.modview.hide-info"
+msgstr "'ide \" 'ide Stream Info Stripe\" button."
+
+msgid "setting.entry.metadata.player-stats"
+msgstr "Playback Statistics"
+
+msgid "setting.entry.metadata.player-stats.description"
+msgstr ""
+"Show the current stream delay, wit' playback rate an' dropped frames in the "
+"tooltip."
+
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Stream Delay Warnin'"
+
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"When the current stream delay exceeds this 'ere number o' seconds, display "
+"the stream delay in a warnin' color t' draw attention t' the larrrge delay. "
+"Set t' zero t' disable."
+
+msgid "setting.entry.metadata.uptime"
+msgstr "Stream Uptime"
+
+msgid "setting.entry.metadata.uptime.no-native"
+msgstr "Hide Twitch's native Stream Uptime."
+
+msgid "setting.entry.metadata.uptime.no-native.description"
+msgstr ""
+"By default, this 'ere be enabled whenever FFZ's own Stream Uptime display "
+"be enabled t' avoid redundant information."
+
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Disabled"
+
+msgid "setting.entry.metadata.uptime.values.1"
+msgstr "Enabled"
+
+msgid "setting.entry.metadata.uptime.values.2"
+msgstr "Enabled (wit' Seconds)"
+
+msgid "setting.entry.metadata.viewers"
+msgstr "Alternative Viewer Count"
+
+msgid "setting.entry.metadata.viewers.description"
+msgstr ""
+"This 'ere displays the current channel's viewer count wit'out an animation "
+"when it changes."
+
+msgid "setting.entry.metadata.viewers.no-native"
+msgstr "'ide Twitch's native Viewer Count."
+
+msgid "setting.entry.metadata.viewers.no-native.description"
+msgstr ""
+"By default, this 'ere be enabled whenever FFZ's own viewer count display be "
+"enabled t' avoid redundant information."
+
+msgid "setting.entry.player.allow-catchup"
+msgstr "Allow the player t' speed up t' reduce delay."
+
+msgid "setting.entry.player.allow-catchup.description"
+msgstr ""
+"Twitch, by default, will apply a minor speed up t' live video when ye 'ave "
+"a larrrge delay t' the broadcaster in order t' catch back up with the live "
+"broadcast. This 'ere may result in audio distortion. Disable this 'ere t' "
+"prevent the automatic speed changes."
+
+msgid "setting.entry.player.button.pip"
+msgstr "Add a `Picture-in-Picture` button t' the player controls."
+
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Clickin' the PiP button attempts t' toggle Picture-in-Picture mode fer the "
+"player's video."
+
+msgid "setting.entry.player.button.reset"
+msgstr "Add a `Reset Player` button t' the player controls."
+
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Double-clickin' the Reset Player button attempts t' reset the Twitch "
+"player's internal state, fixin' playback issues wit'out a full page refresh."
+
+msgid "setting.entry.player.captions.alignment"
+msgstr "Alignment"
+
+msgid "setting.entry.player.captions.alignment.values.11"
+msgstr "Top Left"
+
+msgid "setting.entry.player.captions.alignment.values.12"
+msgstr "Top Center"
+
+msgid "setting.entry.player.captions.alignment.values.13"
+msgstr "Top Right"
+
+msgid "setting.entry.player.captions.alignment.values.21"
+msgstr "Middle Left"
+
+msgid "setting.entry.player.captions.alignment.values.22"
+msgstr "Middle Center"
+
+msgid "setting.entry.player.captions.alignment.values.23"
+msgstr "Middle Right"
+
+msgid "setting.entry.player.captions.alignment.values.31"
+msgstr "Bottom Left"
+
+msgid "setting.entry.player.captions.alignment.values.32"
+msgstr "Bottom Center"
+
+msgid "setting.entry.player.captions.alignment.values.33"
+msgstr "Bottom Right"
+
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Enable overridin' the position an' alignment o' closed captions."
+
+msgid "setting.entry.player.captions.font-family"
+msgstr "Font Family"
+
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Override the font used fer displayin' Closed Captions."
+
+msgid "setting.entry.player.captions.font-size"
+msgstr "Font Size"
+
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"'ow larrrge should captions be. This 'ere can be a percentage, such as "
+"`10%`, or a pixel value, such as `50px`."
+
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Horizontal Position"
+
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Override the position fer Closed Captions. This 'ere can be a percentage, "
+"such as `10%`, or a pixel value, such as `50px`."
+
+msgid "setting.entry.player.captions.vertical"
+msgstr "Vertical Position"
+
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Override the position fer Closed Captions. This 'ere can be a percentage, "
+"such as `10%`, or a pixel value, such as `50px`."
+
+msgid "setting.entry.player.compressor.attack"
+msgstr "Attack"
+
+msgid "setting.entry.player.compressor.attack.description"
+msgstr ""
+"Range: 0 ~ 1\n"
+"\n"
+"The amount o' time, in seconds, required t' reduce the gain by 10 dB."
+
+msgid "setting.entry.player.compressor.default"
+msgstr "Enable the compressor by default."
+
+msgid "setting.entry.player.compressor.enable"
+msgstr ""
+"Enable the audio compressor an' add an `Audio Compressor` button t' the "
+"player controls."
+
+msgid "setting.entry.player.compressor.knee"
+msgstr "Knee"
+
+msgid "setting.entry.player.compressor.knee.description"
+msgstr ""
+"Range: 0 ~ 40\n"
+"\n"
+"A decibel value representin' the range above the threshold where the curve "
+"smoothly transitions t' the compressed portion."
+
+msgid "setting.entry.player.compressor.ratio"
+msgstr "Ratio"
+
+msgid "setting.entry.player.compressor.ratio.description"
+msgstr ""
+"Range: 0 ~ 20\n"
+"\n"
+"The amount o' change, in dB, needed in the input fer a 1 dB change in the "
+"output."
+
+msgid "setting.entry.player.compressor.release"
+msgstr "Release"
+
+msgid "setting.entry.player.compressor.release.description"
+msgstr ""
+"Range: 0 ~ 1\n"
+"The amount o' time, in seconds, required t' increase the gain by 10 dB."
+
+msgid "setting.entry.player.compressor.shortcut"
+msgstr "Shortcut Key"
+
+msgid "setting.entry.player.compressor.shortcut.description"
+msgstr "This 'ere key sequence can be used t' toggle the compressor."
+
+msgid "setting.entry.player.compressor.threshold"
+msgstr "Threshold"
+
+msgid "setting.entry.player.compressor.threshold.description"
+msgstr ""
+"Range: -100 ~ 0\n"
+"\n"
+"The decibel value above which the compression will start takin' effect."
+
+msgid "setting.entry.player.embed-metadata"
+msgstr "Show metadata when mousin' over the player."
+
+msgid "setting.entry.player.ext-hide"
+msgstr "Show Overlay Extensions"
+
+msgid "setting.entry.player.ext-hide.description"
+msgstr ""
+"Note: This 'ere feature does not prevent extensions from loadin'. 'idden "
+"extensions be merely invisible. 'idin' extensions with this 'ere feature "
+"will not improve yer security.\n"
+
+msgid "setting.entry.player.ext-hide.values.0"
+msgstr "Always"
+
+msgid "setting.entry.player.ext-hide.values.1"
+msgstr "Wit' Controls"
+
+msgid "setting.entry.player.ext-hide.values.2"
+msgstr "Never"
+
+msgid "setting.entry.player.ext-interaction"
+msgstr "Allow mouse interaction wit' overlay extensions."
+
+msgid "setting.entry.player.gain.default"
+msgstr "Default Value"
+
+msgid "setting.entry.player.gain.default.description"
+msgstr ""
+"The default value fer gain control, when gain control be enabled. 100% "
+"means no change in volume."
+
+msgid "setting.entry.player.gain.enable"
+msgstr "Enable gain control when the audio compressor be enabled."
+
+msgid "setting.entry.player.gain.max"
+msgstr "Maximum"
+
+msgid "setting.entry.player.gain.max.description"
+msgstr ""
+"**Range:** 100 ~ 1000\n"
+"\n"
+"The maximum allowed value fer gain control. 100% be no change. 200% be "
+"double the volume."
+
+msgid "setting.entry.player.gain.min"
+msgstr "Minimum"
+
+msgid "setting.entry.player.gain.min.description"
+msgstr ""
+"**Range:** 0 ~ 100\n"
+"\n"
+"The minimum allowed value fer gain control. 0% be effectively muted."
+
+msgid "setting.entry.player.gain.no-volume"
+msgstr "Force built-in volume t' 100% when the audio compressor be enabled."
+
+msgid "setting.entry.player.gain.no-volume.description"
+msgstr ""
+"With this 'ere enabled, the built-in volume be 'idden an' the Gain Control "
+"be the only way t' change volume."
+
+msgid "setting.entry.player.gain.scroll"
+msgstr "Scroll Adjust"
+
+msgid "setting.entry.player.gain.scroll.description"
+msgstr ""
+"Adjust the gain by scrollin' with the mouse wheel. This 'ere settin' takes "
+"precedence over adjustin' the volume by scrollin'. *This settin' will not "
+"work properly on streams with visible extensions when mouse interaction "
+"with extensions be allowed.*"
+
+msgid "setting.entry.player.hide-event-bar"
+msgstr "'ide the Event Barrr"
+
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"'ide the Event Barrr which appears above the player when there be an "
+"ongoin' event fer the current channel."
+
+msgid "setting.entry.player.hide-mouse"
+msgstr "'ide mouse when controls aren't visible."
+
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "'ide the Rerun Barrr"
+
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"'ide the Rerun Barrr which appears above the player when the current "
+"channel be playin' a video rather than live content."
+
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "'ide the Squad Streamin' Barrr"
+
+msgid "setting.entry.player.home.autoplay"
+msgstr "Auto-play featured broadcasters on the fore page."
+
+msgid "setting.entry.player.mute-click"
+msgstr "Mute or unmute the player by middle-clickin'."
+
+msgid "setting.entry.player.no-autoplay"
+msgstr "Do not automatically start playin' videos or streams."
+
+msgid "setting.entry.player.no-autoplay.description"
+msgstr ""
+"Note: This 'ere feature don't apply when navigatin' directly from channel "
+"t' channel."
+
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Automatically open Theatre Mode when visitin' a channel."
+
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Show metadata when mousin' over the player."
+
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "'ide whispers when Theatre Mode be enabled."
+
+msgid "setting.entry.player.vod.autoplay"
+msgstr "Auto-play the next recommended video after a video finishes."
+
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Keep the volume slider expanded at all times."
+
+msgid "setting.entry.player.volume-scroll"
+msgstr "Adjust volume by scrollin' with the mouse wheel."
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*This settin' will not work properly on streams wit' visible extensions "
+"when mouse interaction wit' extensions be allowed.*"
+
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Volume scroll amount"
+
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr "'ow much the volume level be changed per individual scroll input."
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.01"
+msgstr "1%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.02"
+msgstr "2%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.05"
+msgstr "5%"
+
+msgid "setting.entry.player.volume-scroll-steps.values.0.1"
+msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.values.2"
+msgstr "Enabled with Right-Click"
+
+msgid "setting.entry.player.volume-scroll.values.3"
+msgstr "Enabled with Alt"
+
+msgid "setting.entry.player.volume-scroll.values.4"
+msgstr "Enabled with Alt + Right-Click"
+
+msgid "setting.entry.player.volume-scroll.values.5"
+msgstr "Enabled with Shift"
+
+msgid "setting.entry.player.volume-scroll.values.6"
+msgstr "Enabled with Shift + Right-Click"
+
+msgid "setting.entry.player.volume-scroll.values.7"
+msgstr "Enabled with Ctrl"
+
+msgid "setting.entry.player.volume-scroll.values.8"
+msgstr "Enabled with Ctrl + Right-Click"
+
+msgid "setting.entry.player.volume-scroll.values.false"
+msgstr "Disabled"
+
+msgid "setting.entry.player.volume-scroll.values.true"
+msgstr "Enabled"
+
+msgid "setting.entry.profiles"
+msgstr "profiles"
+
+msgid "setting.entry.reports.error.enable"
+msgstr "Automatically send reports when an error occurs."
+
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Include a settin's snapshot in reports."
+
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Knowin' exactly what settin's be in effect when an error 'appens can be "
+"incredibly useful fer recreatin' the issue."
+
+msgid "setting.entry.reports.error.include-user"
+msgstr "Include user IDs in reports."
+
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"Occasionally, it be useful t' know which users be encounterin' issues so "
+"that we can check fer specific badges, emote sets, or user flags that be "
+"causin' issues."
+
+msgid "setting.entry.socket.use-cluster"
+msgstr "Server Cluster"
+
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"Which server cluster t' connect to. Do not change this 'ere unless ye "
+"actually be doin' development work on the socket server backend. Doin' so "
+"will break all features relyin' on the socket server, includin' emote "
+"information lookups, link tooltips, an' live data updates."
+
+msgid "setting.entry.socket.use-cluster.values.Development"
+msgstr "Development"
+
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Disabled"
+
+msgid "setting.entry.socket.use-cluster.values.Production"
+msgstr "Production"
+
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Show Prime Reminder"
+
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Display a crown on subscription buttons when yer free channel sub wit' "
+"Prime be available."
+
+msgid "setting.entry.theme.color.accent"
+msgstr "Accent"
+
+msgid "setting.entry.theme.color.accent.description"
+msgstr "The accent color be used for buttons, links, etc."
+
+msgid "setting.entry.theme.color.background"
+msgstr "Background"
+
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Try `#0E0C13` fer somethin' close t' the old dark theme, or `#0E0E0E` fer a "
+"nice dark gray. Transparent colors not allowed."
+
+msgid "setting.entry.theme.color.chat-accent"
+msgstr "Accent"
+
+msgid "setting.entry.theme.color.chat-accent.description"
+msgstr "The accent color be used fer buttons, links, etc."
+
+msgid "setting.entry.theme.color.chat-background"
+msgstr "Background"
+
+msgid "setting.entry.theme.color.chat-text"
+msgstr "Text"
+
+msgid "setting.entry.theme.color.chat-text.description"
+msgstr ""
+"If not set, this 'ere will automatically be set t' white or black based on "
+"the brightness o' the background."
+
+msgid "setting.entry.theme.color.text"
+msgstr "Text"
+
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"If not set, this 'ere will automatically be set t' white or black based on "
+"the brightness o' the background."
+
+msgid "setting.entry.theme.color.tooltip.background"
+msgstr "Tooltip Background"
+
+msgid "setting.entry.theme.color.tooltip.background.description"
+msgstr ""
+"If not set, the tooltip settin's be automatically adjusted based on the "
+"brightness o' the background."
+
+msgid "setting.entry.theme.color.tooltip.text"
+msgstr "Tooltip Text"
+
+msgid "setting.entry.theme.dark"
+msgstr "Gray (no Purple)"
+
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Requires Dark Theme t' be Enabled.*\n"
+"\n"
+"This 'ere settin' be goin' away very soon, as the new theme system matures.\n"
+"The CSS loaded by this 'ere setting be farrr too 'eavy an' can cause "
+"performance issues."
+
+msgid "setting.entry.theme.font.size"
+msgstr "Font Size"
+
+msgid "setting.entry.theme.font.size.description"
+msgstr ""
+"**Minimum:** `1`, **Maximum:** `25`, *Old Default:* `12`\n"
+"\n"
+"'ow large should normal text be, in pixels. This 'ere may be affected by "
+"yer browser's zoom an' font settin's."
+
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Display larrrge images o' badges."
+
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Display larrrge images o' emotes."
+
+msgid "setting.entry.tooltip.emote-images.animated"
+msgstr "Display animated images o' emotes."
+
+msgid "setting.entry.tooltip.emote-images.animated.description"
+msgstr ""
+"If this 'ere be not overridden, animated images be only shown in emote "
+"tool-tips if [Chat > Appearance >> Emotes > Animated "
+"Emotes](~chat.appearance.emotes) be not disabled."
+
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Display known sources."
+
+msgid "setting.entry.tooltip.images"
+msgstr "Display images in tooltips."
+
+msgid "setting.entry.tooltip.link-images"
+msgstr "Display images fer links."
+
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Allow interaction wit' supported link tooltips."
+
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Display potentially NSFW images."
+
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"When enabled, FrankerFaceZ will include images that be tagged as unsafe or "
+"that ain't be rated."
+
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Display rich tooltips fer links."
+
+msgid "setting.entry.whispers.show"
+msgstr "Display Whispers"
+
+msgid "setting.example"
+msgstr "Example:"
+
+msgid "setting.experiments.about"
+msgstr ""
+"This 'ere feature allows ye to override experiment values. Please note "
+"that, fer most experiments, ye may 'ave t' refresh the page fer yer changes "
+"t' take effect."
+
+msgid "setting.experiments.active"
+msgstr "This 'ere experiment be active."
+
+msgid "setting.experiments.entry"
+msgstr "{value,tostring} (weight: {weight,tostring})"
+
+msgid "setting.experiments.ffz"
+msgstr "FrankerFaceZ Experiments"
+
+msgid "setting.experiments.inactive"
+msgstr "This 'ere experiment be not active."
+
+msgid "setting.experiments.none"
+msgstr "There be no current experiments."
+
+msgid "setting.experiments.none-filter"
+msgstr "There be no matchin' experiments."
+
+msgid "setting.experiments.show-unused"
+msgstr "Display unused experiments."
+
+msgid "setting.experiments.sort-name"
+msgstr "Sort By: Name"
+
+msgid "setting.experiments.sort-rarity"
+msgstr "Sort By: Rarity"
+
+msgid "setting.experiments.twitch"
+msgstr "Twitch Experiments"
+
+msgid "setting.experiments.unique-id"
+msgstr "Unique ID: {id}"
+
+msgid "setting.experiments.unset"
+msgstr "unset"
+
+msgid "setting.export"
+msgstr "Export"
+
+msgid "setting.false"
+msgstr "False"
+
+msgid "setting.filter.if.else"
+msgstr "Else"
+
+msgid "setting.filter.if.then"
+msgstr "Then"
+
+msgid "setting.filter.page.url"
+msgstr "URL: {url}"
+
+msgid "setting.filters.active"
+msgstr "This 'ere rule matches."
+
+msgid "setting.filters.add"
+msgstr "Add"
+
+msgid "setting.filters.add-new"
+msgstr "Add New Rule"
+
+msgid "setting.filters.empty"
+msgstr "(no filters)"
+
+msgid "setting.filters.if.fail"
+msgstr "This 'ere branch be active because the condition be false."
+
+msgid "setting.filters.if.no_fail"
+msgstr "This 'ere branch be not active because the condition be true."
+
+msgid "setting.filters.if.no_pass"
+msgstr "This 'ere branch be not active because the condition be false."
+
+msgid "setting.filters.if.pass"
+msgstr "This 'ere branch be active because the condition be true."
+
+msgid "setting.filters.inactive"
+msgstr "This 'ere rule don't match."
+
+msgid "setting.font.builtin"
+msgstr "Built-in Fonts"
+
+msgid "setting.font.default"
+msgstr "Default"
+
+msgid "setting.font.dyslexic"
+msgstr "Dyslexia Fonts"
+
+msgid "setting.font.google"
+msgstr "Google Fonts"
+
+msgid "setting.hidden"
+msgstr "'idden"
+
+msgid "setting.home"
+msgstr "Home"
+
+msgid "setting.home.changelog"
+msgstr "Changelog"
+
+msgid "setting.home.faq"
+msgstr "FAQ"
+
+msgid "setting.home.feedback"
+msgstr "Feedback"
+
+msgid "setting.home.feedback.log"
+msgstr "Log"
+
+msgid "setting.home.legal"
+msgstr "Legal"
+
+msgid "setting.icon.clear"
+msgstr "Clear"
+
+msgid "setting.icon.search"
+msgstr "Search fer Icon"
+
+msgid "setting.import"
+msgstr "Import…"
+
+msgid "setting.import.do"
+msgstr "Import"
+
+msgid "setting.import.file"
+msgstr "From File"
+
+msgid "setting.import.url"
+msgstr "From URL"
+
+msgid "setting.inheritance"
+msgstr "Inheritance Point"
+
+msgid "setting.inheritance.desc"
+msgstr "Inherit values from lower priority profiles at this 'ere position."
+
+msgid "setting.inherited-from"
+msgstr "Inherited From: {title}"
+
+msgid "setting.key.alt"
+msgstr "Alt"
+
+msgid "setting.key.ctrl"
+msgstr "Ctrl"
+
+msgid "setting.key.hover"
+msgstr "'over"
+
+msgid "setting.key.meta"
+msgstr "Meta"
+
+msgid "setting.key.shift"
+msgstr "Shift"
+
+msgid "setting.new"
+msgstr "New"
+
+msgid "setting.new-line"
+msgstr "New Line"
+
+msgid "setting.new-line.desc"
+msgstr "Place all items followin' this 'ere on a new line."
+
+msgid "setting.no-items"
+msgstr "no items"
+
+msgid "setting.overridden-by"
+msgstr "Overridden By: {title}"
+
+msgid "setting.paste-json"
+msgstr "Paste JSON"
+
+msgid "setting.paste-json.json"
+msgstr "[json]"
+
+msgid "setting.paste-url.url"
+msgstr "[url]"
+
+msgid "setting.player"
+msgstr "Player"
+
+msgid "setting.player.closed_captioning"
+msgstr "Closed Captionin'"
+
+msgid "setting.player.closed_captioning.font"
+msgstr "Font"
+
+msgid "setting.player.closed_captioning.position"
+msgstr "Position"
+
+msgid "setting.player.compressor"
+msgstr "Compressor"
+
+msgid "setting.player.compressor.advanced"
+msgstr "Advanced"
+
+msgid "setting.player.compressor.description"
+msgstr ""
+"These settings control optional dynamic range compression fer the player, a "
+"form o' audio processin' that reduces the volume o' loud sounds an' "
+"amplifies quiet sounds, thus normalizin' or compressin' the volume. This "
+"'ere uses a "
+"[DynamicsCompressorNode](https://developer.mozilla.org/en-US/docs/Web/API/"
+"DynamicsCompressorNode) from the Web Audio API behind the scenes if ye want "
+"t' learn more."
+
+msgid "setting.player.compressor.gain_control"
+msgstr "Gain Control"
+
+msgid "setting.player.compressor.gain_control.description"
+msgstr ""
+"Gain Control gives ye extra control over the output volume when usin' the "
+"Compressor by lettin' ye adjust the volume after the Compressor runs, while "
+"the built-in volume slider takes affect before the Compressor. This 'ere "
+"uses a simple "
+"[GainNode](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) from "
+"the Web Audio API, connected in sequence after the DynamicsCompressorNode "
+"the Compressor uses."
+
+msgid "setting.player.compressor.general"
+msgstr "General"
+
+msgid "setting.player.general"
+msgstr "General"
+
+msgid "setting.player.general.embed_and_popout"
+msgstr "Embed an' Popout"
+
+msgid "setting.player.general.extensions"
+msgstr "Extensions"
+
+msgid "setting.player.general.general"
+msgstr "General"
+
+msgid "setting.player.general.playback"
+msgstr "Playback"
+
+msgid "setting.player.general.theatre_mode"
+msgstr "Theatre Mode"
+
+msgid "setting.player.general.volume"
+msgstr "Volume"
+
+msgid "setting.preview"
+msgstr "Preview"
+
+msgid "setting.profiles.active"
+msgstr "This 'ere profile be enabled an' active."
+
+msgid "setting.profiles.configure"
+msgstr "Configure"
+
+msgid "setting.profiles.default"
+msgstr "Default Profile"
+
+msgid "setting.profiles.default.description"
+msgstr "Settin's that apply everywhere on Twitch."
+
+msgid "setting.profiles.disabled"
+msgstr "This 'ere profile be disabled."
+
+msgid "setting.profiles.disabled.description"
+msgstr ""
+"This 'ere profile been disabled, so ye won't see changes ye make 'ere "
+"reflected on Twitch."
+
+msgid "setting.profiles.disabled.rules"
+msgstr "This 'ere profile be enabled, but inactive due t' its rules."
+
+msgid "setting.profiles.drag"
+msgstr "Drag profiles t' change their priority."
+
+msgid "setting.profiles.inactive"
+msgstr "This 'ere profile be not active."
+
+msgid "setting.profiles.inactive.description"
+msgstr ""
+"This 'ere profile's rules don't match the current context an' it therefore "
+"isn't currently active, so ye won't see changes ye make 'ere reflected on "
+"Twitch."
+
+msgid "setting.profiles.moderation"
+msgstr "Moderation"
+
+msgid "setting.profiles.moderation.description"
+msgstr "Settin's that apply when ye be a moderator o' the current channel."
+
+msgid "setting.profiles.new"
+msgstr "New Profile"
+
+msgid "setting.profiles.updates"
+msgstr "This 'ere profile will update automatically."
+
+msgid "setting.profiles.warn-delete"
+msgstr "Ye be sure ye wish to scuttle this 'ere profile? It cannot be undone."
+
+msgid "setting.profile.updates"
+msgstr "This 'ere profile will update automatically from the followin' URL:"
+
+msgid "setting.profile.updates-about"
+msgstr ""
+"This 'ere profile be set t' automatically update. When it does, any changed "
+"settin's within it be reset. Profile rules be reset as well."
+
+msgid "setting.provider.about"
+msgstr ""
+"'ere, ye can change the storage provider used by FrankerFaceZ when browsin' "
+"Twitch. Ye can try this 'ere if ye be 'avin' a problem with yer settings "
+"not remainin' persistent. Please note that ye will need to reload any an' "
+"all Twitch tabs after changin' this."
+
+msgid "setting.provider.backup"
+msgstr "Aye, I made a backup."
+
+msgid "setting.provider.has-blobs"
+msgstr "(Supports Binary Data)"
+
+msgid "setting.provider.has-data"
+msgstr "(Has Data)"
+
+msgid "setting.provider.idb.desc"
+msgstr ""
+"[IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) "
+"be available on most platforms, an' 'as a slightly slower initialization "
+"time than Local Storage. IndexedDB 'as a 'igher storage capacity an' be "
+"less likely t' be cleared unexpectedly."
+
+msgid "setting.provider.idb.title"
+msgstr "IndexedDB"
+
+msgid "setting.provider.local.desc"
+msgstr ""
+"[Local "
+"Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) "
+"be available on all platforms an' fast t' access, but 'as poorly defined "
+"capacity limits an' may be cleared unexpectedly. Particularly, clearin' "
+"cookies an' cache in yer browser will likely clear Local Storage as well."
+
+msgid "setting.provider.local.title"
+msgstr "Local Storage"
+
+msgid "setting.provider.selected"
+msgstr "(Current)"
+
+msgid "setting.provider.start"
+msgstr "Change Providers"
+
+msgid "setting.provider.transfer"
+msgstr "Transfer me settin's when switchin' provider."
+
+msgid "setting.provider.transfer.desc"
+msgstr ""
+"**Note:** It be recommended to leave this 'ere enabled unless ye know what "
+"ye be doin'."
+
+msgid "setting.provider.warn.desc"
+msgstr ""
+"Please close any other Twitch tabs before usin' this 'ere tool. It be "
+"**recommended t' [create a backup](~data_management.backup_and_restore)** "
+"before changin' yer provider, in case anythin' 'appens."
+
+msgid "setting.provider.warn.title"
+msgstr "Be careful!"
+
+msgid "setting.reasons.add-default"
+msgstr "Add Defaults"
+
+msgid "setting.reasons.add-default-tip"
+msgstr "Add all o' the default reasons t' this 'ere profile."
+
+msgid "setting.reasons.add-placeholder"
+msgstr "Add a new reason"
+
+msgid "setting.reasons.delete-all"
+msgstr "Scuttle all o' this 'ere profile's reasons."
+
+msgid "setting.reasons.info"
+msgstr ""
+"Reasons can be selected usin' action context menus t' add extra information "
+"t' bans an' timeouts."
+
+msgid "setting.reasons.no-reasons"
+msgstr "no reasons be defined in this 'ere profile"
+
+msgid "setting.record-key"
+msgstr "Press a Key"
+
+msgid "setting.reset"
+msgstr "Reset t' Default"
+
+msgid "setting.reset-all"
+msgstr "Reset All t' Default"
+
+msgid "setting.right-click-reset"
+msgstr "Right-Click t' Reset"
+
+msgid "setting.save"
+msgstr "Save"
+
+msgid "settings.back"
+msgstr "Back"
+
+msgid "settings.filter.category"
+msgstr "Current Category"
+
+msgid "settings.filter.channel"
+msgstr "Current Channel"
+
+msgid "settings.filter.if"
+msgstr "If"
+
+msgid "settings.filter.invert"
+msgstr "Invert"
+
+msgid "settings.filter.moderator"
+msgstr "Be Moderator"
+
+msgid "settings.filter.native-dark"
+msgstr "Dark Theme"
+
+msgid "settings.filter.or"
+msgstr "Or"
+
+msgid "settings.filter.page"
+msgstr "Current Page"
+
+msgid "settings.filter.page.route.addons.deck"
+msgstr "Deck"
+
+msgid "settings.filter.page.route.addons.deck.tab"
+msgstr "Tab"
+
+msgid "settings.filter.page.route.collection"
+msgstr "Collection"
+
+msgid "settings.filter.page.route.command-center"
+msgstr "Command Center"
+
+msgid "settings.filter.page.route.dash"
+msgstr "Dashboard"
+
+msgid "settings.filter.page.route.dash-achievements"
+msgstr "Dashboard: Achievements"
+
+msgid "settings.filter.page.route.dash-activity"
+msgstr "Dashboard: Activity"
+
+msgid "settings.filter.page.route.dash-channel-analytics"
+msgstr "Dashboard: Channel Analytics"
+
+msgid "settings.filter.page.route.dash-channel-points"
+msgstr "Dashboard: Channel Points"
+
+msgid "settings.filter.page.route.dash-chat"
+msgstr "Dashboard Popout Chat"
+
+msgid "settings.filter.page.route.dash-chat.userName"
+msgstr "User Name"
+
+msgid "settings.filter.page.route.dash-clips"
+msgstr "Dashboard: Clips"
+
+msgid "settings.filter.page.route.dash-collections"
+msgstr "Dashboard: Collections"
+
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Dashboard: Edit Collection"
+
+msgid "settings.filter.page.route.dash-edit-video"
+msgstr "Dashboard: Edit Video"
+
+msgid "settings.filter.page.route.dash-extensions"
+msgstr "Dashboard: Extensions"
+
+msgid "settings.filter.page.route.dash-roles"
+msgstr "Dashboard: Roles"
+
+msgid "settings.filter.page.route.dash-settings-channel"
+msgstr "Dashboard: Settin's Channel"
+
+msgid "settings.filter.page.route.dash-settings-moderation"
+msgstr "Dashboard: Settin's Moderation"
+
+msgid "settings.filter.page.route.dash-settings-revenue"
+msgstr "Dashboard: Settin's Revenue"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Dashboard: Streamin' Tools"
+
+msgid "settings.filter.page.route.dash-stream-manager"
+msgstr "Dashboard: Stream Manager"
+
+msgid "settings.filter.page.route.dash-stream-summary"
+msgstr "Dashboard: Stream Summary"
+
+msgid "settings.filter.page.route.dash-video-producer"
+msgstr "Dashboard: Video Producer"
+
+msgid "settings.filter.page.route.dir"
+msgstr "Browse"
+
+msgid "settings.filter.page.route.dir-all"
+msgstr "Browse Live Channels"
+
+msgid "settings.filter.page.route.dir-following"
+msgstr "Followin'"
+
+msgid "settings.filter.page.route.dir-game-clips"
+msgstr "Dir Game Clips"
+
+msgid "settings.filter.page.route.dir-game-index"
+msgstr "Dir Game Index"
+
+msgid "settings.filter.page.route.dir-game-videos"
+msgstr "Dir Game Videos"
+
+msgid "settings.filter.page.route.embed-chat"
+msgstr "Embed Chat"
+
+msgid "settings.filter.page.route.embed-chat.userName"
+msgstr "User Name"
+
+msgid "settings.filter.page.route.event"
+msgstr "Event"
+
+msgid "settings.filter.page.route.front-page"
+msgstr "Fore Page"
+
+msgid "settings.filter.page.route.popout"
+msgstr "Popout Chat"
+
+msgid "settings.filter.page.route.popout.userName"
+msgstr "User Name"
+
+msgid "settings.filter.page.route.prime"
+msgstr "Prime"
+
+msgid "settings.filter.page.route.product"
+msgstr "Product"
+
+msgid "settings.filter.page.route.squad"
+msgstr "Squad"
+
+msgid "settings.filter.page.route.turbo"
+msgstr "Turbo"
+
+msgid "settings.filter.page.route.user"
+msgstr "User"
+
+msgid "settings.filter.page.route.user-clip"
+msgstr "User Clip"
+
+msgid "settings.filter.page.route.user-clips"
+msgstr "User Clips"
+
+msgid "settings.filter.page.route.user-collections"
+msgstr "User Collections"
+
+msgid "settings.filter.page.route.user-events"
+msgstr "User Events"
+
+msgid "settings.filter.page.route.user-followers"
+msgstr "User Followers"
+
+msgid "settings.filter.page.route.user-following"
+msgstr "User Followin'"
+
+msgid "settings.filter.page.route.user-video"
+msgstr "Channel Video"
+
+msgid "settings.filter.page.route.user-videos"
+msgstr "User Videos"
+
+msgid "settings.filter.page.route.video"
+msgstr "Video"
+
+msgid "settings.filter.squad"
+msgstr "Squad Mode"
+
+msgid "settings.filter.theater"
+msgstr "Theater Mode"
+
+msgid "settings.filter.time"
+msgstr "Time o' Day"
+
+msgid "settings.filter.time.end"
+msgstr "End:"
+
+msgid "settings.filter.time.start"
+msgstr "Start:"
+
+msgid "settings.filter.title"
+msgstr "Current Title"
+
+msgid "settings.filter.title.sensitive"
+msgstr "Case Sensitive"
+
+msgid "settings.filter.title.warn-complex"
+msgstr ""
+"This 'ere pattern be potentially too complex. It be disabled t' avoid "
+"client lag or freezin'."
+
+msgid "settings.filter.title.warn-invalid"
+msgstr "This 'ere pattern be invalid."
+
+msgid "settings.filter.true_false"
+msgstr "True or False"
+
+msgid "setting.space"
+msgstr "Space"
+
+msgid "setting.space.desc"
+msgstr ""
+"Place as larrrge a space as possible between the previous item an' the next "
+"item."
+
+msgid "setting.space-small"
+msgstr "Space (Small)"
+
+msgid "setting.space-small.desc"
+msgstr "Place a small space between the previous item an' the next item."
+
+msgid "settings.term.color.tip"
+msgstr "Color"
+
+msgid "settings.terms.highlight"
+msgstr "Hlt"
+
+msgid "settings.terms.highlight.tip"
+msgstr ""
+"'ighlight Matches\n"
+"\n"
+"This 'ere requires the 'Highlight matched words in chat.' settin' t' work."
+
+msgid "settings.terms.priority.tip"
+msgstr "Priority"
+
+msgid "settings.terms.sensitive"
+msgstr "Aa"
+
+msgid "settings.terms.sensitive.tip"
+msgstr "Case Sensitive"
+
+msgid "settings.terms.word"
+msgstr "Abc"
+
+msgid "settings.terms.word.tip"
+msgstr "Match Whole Words"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Add a new term"
+
+msgid "setting.terms.add-term"
+msgstr "Add"
+
+msgid "setting.terms.no-terms"
+msgstr "no terms be defined in this 'ere profile"
+
+msgid "setting.terms.please-select"
+msgstr "Please select an option."
+
+msgid "setting.terms.remove.off"
+msgstr "Do not remove matchin' messages from chat."
+
+msgid "setting.terms.remove.on"
+msgstr "Remove matchin' messages from chat."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+msgid "setting.terms.type.text"
+msgstr "Text"
+
+msgid "setting.tooltip-example"
+msgstr "Fer an example, please 'over this 'ere link:"
+
+msgid "setting.true"
+msgstr "True"
+
+msgid "setting.unset"
+msgstr "Unset"
+
+msgid "setting.visible"
+msgstr "Visible"
+
+msgid "setting.warn-inheritence"
+msgstr "These values bein' overridden by another profile an' may not take effect."
+
+msgid "setting.warn-unsaved"
+msgstr "Ye 'ave unsaved changes. Be ye sure ye want t' leave the editor?"
