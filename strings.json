@@ -1,5 +1,761 @@
 {
 	"addon.deck": {
+		"addon.deck.auto-refresh": {
+			"id": "addon.deck.auto-refresh",
+			"doc": "addon.deck",
+			"default": "Automatically refreshing in {delay}",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:290:0)",
+			"context": "{\"delay\":\"1:27\"}"
+		},
+		"addon.deck.cancel": {
+			"id": "addon.deck.cancel",
+			"doc": "addon.deck",
+			"default": "Cancel",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:89:0)",
+			"context": null
+		},
+		"addon.deck.category": {
+			"id": "addon.deck.category",
+			"doc": "addon.deck",
+			"default": "Category",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.category.clip": {
+			"id": "addon.deck.category.clip",
+			"doc": "addon.deck",
+			"default": "Clips",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.category.clip-tip": {
+			"id": "addon.deck.category.clip-tip",
+			"doc": "addon.deck",
+			"default": "This column shows clips from a specific category.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.category.live": {
+			"id": "addon.deck.category.live",
+			"doc": "addon.deck",
+			"default": "Streams",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.category.live-tip": {
+			"id": "addon.deck.category.live-tip",
+			"doc": "addon.deck",
+			"default": "This column shows live channels streaming a specific category. For example, you can create an example showing all channels playing Super Mario 64.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.category.video": {
+			"id": "addon.deck.category.video",
+			"doc": "addon.deck",
+			"default": "Videos",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.category.video-tip": {
+			"id": "addon.deck.category.video-tip",
+			"doc": "addon.deck",
+			"default": "This column shows videos in a specific category.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.channel": {
+			"id": "addon.deck.channel",
+			"doc": "addon.deck",
+			"default": "Channel",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.channel.clip-tip": {
+			"id": "addon.deck.channel.clip-tip",
+			"doc": "addon.deck",
+			"default": "This column shows clips from a specific channel.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.channel.video-tip": {
+			"id": "addon.deck.channel.video-tip",
+			"doc": "addon.deck",
+			"default": "This column shows videos from a specific channel.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.clip-period.24-hours": {
+			"id": "addon.deck.clip-period.24-hours",
+			"doc": "addon.deck",
+			"default": "24 Hours",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-edit-clip.vue?vue&type=template&id=2a722d98&.staticRenderFns (/src/deck/components/bd-edit-clip.vue:35:0)",
+			"context": null
+		},
+		"addon.deck.clip-period.30-days": {
+			"id": "addon.deck.clip-period.30-days",
+			"doc": "addon.deck",
+			"default": "30 Days",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-edit-clip.vue?vue&type=template&id=2a722d98&.staticRenderFns (/src/deck/components/bd-edit-clip.vue:35:0)",
+			"context": null
+		},
+		"addon.deck.clip-period.7-days": {
+			"id": "addon.deck.clip-period.7-days",
+			"doc": "addon.deck",
+			"default": "7 Days",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:153:0)\nVueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-edit-clip.vue?vue&type=template&id=2a722d98&.staticRenderFns (/src/deck/components/bd-edit-clip.vue:35:0)",
+			"context": null
+		},
+		"addon.deck.clip-period.7d": {
+			"id": "addon.deck.clip-period.7d",
+			"doc": "addon.deck",
+			"default": "7 Days",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)",
+			"context": null
+		},
+		"addon.deck.clip-period.all-time": {
+			"id": "addon.deck.clip-period.all-time",
+			"doc": "addon.deck",
+			"default": "All TIme",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-edit-clip.vue?vue&type=template&id=2a722d98&.staticRenderFns (/src/deck/components/bd-edit-clip.vue:35:0)",
+			"context": null
+		},
+		"addon.deck.column-count": {
+			"id": "addon.deck.column-count",
+			"doc": "addon.deck",
+			"default": "{count,number} column{count,en_plural}",
+			"source": "VueComponent.render (/src/deck/components/bd-tab-editor.vue:33:0)",
+			"context": "{\"count\":0}"
+		},
+		"addon.deck.copy": {
+			"id": "addon.deck.copy",
+			"doc": "addon.deck",
+			"default": "Copy",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:133:0)",
+			"context": null
+		},
+		"addon.deck.default-tab": {
+			"id": "addon.deck.default-tab",
+			"doc": "addon.deck",
+			"default": "Default Tab",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:361:0)\nVueComponent.title (/src/deck/components/bd-tab-editor.vue:199:0)",
+			"context": null
+		},
+		"addon.deck.delete": {
+			"id": "addon.deck.delete",
+			"doc": "addon.deck",
+			"default": "Delete",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:159:0)\nVueComponent.render (/src/deck/components/bd-column-editor.vue:110:0)",
+			"context": null
+		},
+		"addon.deck.edit.appearance": {
+			"id": "addon.deck.edit.appearance",
+			"doc": "addon.deck",
+			"default": "Appearance",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:228:0)",
+			"context": null
+		},
+		"addon.deck.edit.avatars": {
+			"id": "addon.deck.edit.avatars",
+			"doc": "addon.deck",
+			"default": "Do not display avatars.",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:600:0)",
+			"context": null
+		},
+		"addon.deck.edit.behavior": {
+			"id": "addon.deck.edit.behavior",
+			"doc": "addon.deck",
+			"default": "Behavior",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:700:0)",
+			"context": null
+		},
+		"addon.deck.edit.card-width": {
+			"id": "addon.deck.edit.card-width",
+			"doc": "addon.deck",
+			"default": "Card Size:",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:402:0)",
+			"context": null
+		},
+		"addon.deck.edit.channel": {
+			"id": "addon.deck.edit.channel",
+			"doc": "addon.deck",
+			"default": "Channel:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-channel.vue:18:0)",
+			"context": null
+		},
+		"addon.deck.edit.channels": {
+			"id": "addon.deck.edit.channels",
+			"doc": "addon.deck",
+			"default": "Channels:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-channels.vue:18:0)",
+			"context": null
+		},
+		"addon.deck.edit.color": {
+			"id": "addon.deck.edit.color",
+			"doc": "addon.deck",
+			"default": "Color:",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:313:0)",
+			"context": null
+		},
+		"addon.deck.edit.column": {
+			"id": "addon.deck.edit.column",
+			"doc": "addon.deck",
+			"default": "Edit Column",
+			"source": "VueComponent.inst_title (/src/deck/components/bd-column-editor.vue:359:0)",
+			"context": null
+		},
+		"addon.deck.edit.columns": {
+			"id": "addon.deck.edit.columns",
+			"doc": "addon.deck",
+			"default": "Columns:",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:345:0)",
+			"context": null
+		},
+		"addon.deck.edit.count": {
+			"id": "addon.deck.edit.count",
+			"doc": "addon.deck",
+			"default": "Count:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-count.vue:11:0)",
+			"context": null
+		},
+		"addon.deck.edit.game": {
+			"id": "addon.deck.edit.game",
+			"doc": "addon.deck",
+			"default": "Category:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-category.vue:18:0)",
+			"context": null
+		},
+		"addon.deck.edit.icon": {
+			"id": "addon.deck.edit.icon",
+			"doc": "addon.deck",
+			"default": "Icon:",
+			"source": "VueComponent.render (/src/deck/components/bd-tab-editor.vue:129:0)\nVueComponent.render (/src/deck/components/bd-column-editor.vue:285:0)",
+			"context": null
+		},
+		"addon.deck.edit.max-tags": {
+			"id": "addon.deck.edit.max-tags",
+			"doc": "addon.deck",
+			"default": "Show Tags:",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:483:0)",
+			"context": null
+		},
+		"addon.deck.edit.period": {
+			"id": "addon.deck.edit.period",
+			"doc": "addon.deck",
+			"default": "Period:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-clip.vue:10:0)",
+			"context": null
+		},
+		"addon.deck.edit.refresh": {
+			"id": "addon.deck.edit.refresh",
+			"doc": "addon.deck",
+			"default": "Auto Refresh:",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:719:0)",
+			"context": null
+		},
+		"addon.deck.edit.required-tags": {
+			"id": "addon.deck.edit.required-tags",
+			"doc": "addon.deck",
+			"default": "Required Tags:",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:826:0)",
+			"context": null
+		},
+		"addon.deck.edit.search": {
+			"id": "addon.deck.edit.search",
+			"doc": "addon.deck",
+			"default": "Search:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-search.vue:14:0)",
+			"context": null
+		},
+		"addon.deck.edit.sort": {
+			"id": "addon.deck.edit.sort",
+			"doc": "addon.deck",
+			"default": "Sort By:",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:789:0)",
+			"context": null
+		},
+		"addon.deck.edit.tags": {
+			"id": "addon.deck.edit.tags",
+			"doc": "addon.deck",
+			"default": "Tags:",
+			"source": "VueComponent.render (/src/deck/components/bd-tab-editor.vue:163:0)",
+			"context": null
+		},
+		"addon.deck.edit.team": {
+			"id": "addon.deck.edit.team",
+			"doc": "addon.deck",
+			"default": "Team:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-team.vue:14:0)",
+			"context": null
+		},
+		"addon.deck.edit.title": {
+			"id": "addon.deck.edit.title",
+			"doc": "addon.deck",
+			"default": "Title:",
+			"source": "VueComponent.render (/src/deck/components/bd-tab-editor.vue:86:0)\nVueComponent.render (/src/deck/components/bd-column-editor.vue:240:0)",
+			"context": null
+		},
+		"addon.deck.edit.viewers": {
+			"id": "addon.deck.edit.viewers",
+			"doc": "addon.deck",
+			"default": "Do not display views / viewers.",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:678:0)",
+			"context": null
+		},
+		"addon.deck.end": {
+			"id": "addon.deck.end",
+			"doc": "addon.deck",
+			"default": "You have reached the end.",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:491:0)",
+			"context": null
+		},
+		"addon.deck.featured": {
+			"id": "addon.deck.featured",
+			"doc": "addon.deck",
+			"default": "Featured",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.featured.live-tip": {
+			"id": "addon.deck.featured.live-tip",
+			"doc": "addon.deck",
+			"default": "This column shows live featured channels.\n\nFeatured channels are typically shown at the top of Twitch's homepage in the carousel.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.filtered": {
+			"id": "addon.deck.filtered",
+			"doc": "addon.deck",
+			"default": "Filtered by",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:446:0)",
+			"context": null
+		},
+		"addon.deck.followed": {
+			"id": "addon.deck.followed",
+			"doc": "addon.deck",
+			"default": "Followed",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.followed.live-tip": {
+			"id": "addon.deck.followed.live-tip",
+			"doc": "addon.deck",
+			"default": "This column shows live channels that you're following.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.followed.video-tip": {
+			"id": "addon.deck.followed.video-tip",
+			"doc": "addon.deck",
+			"default": "This column shows videos from channels you've followed.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.go-to-top": {
+			"id": "addon.deck.go-to-top",
+			"doc": "addon.deck",
+			"default": "Return to Top",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:352:0)",
+			"context": null
+		},
+		"addon.deck.hosted": {
+			"id": "addon.deck.hosted",
+			"doc": "addon.deck",
+			"default": "Hosted",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.hosted.live-tip": {
+			"id": "addon.deck.hosted.live-tip",
+			"doc": "addon.deck",
+			"default": "This column shows live channels being hosted by channels you follow.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.intro": {
+			"id": "addon.deck.intro",
+			"doc": "addon.deck",
+			"default": "Welcome to Deck, the best way to discover content on Twitch.\n\nYou need to start by adding a column using the New button.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:550:0)",
+			"context": null
+		},
+		"addon.deck.live-category": {
+			"id": "addon.deck.live-category",
+			"doc": "addon.deck",
+			"default": "{name} Streams",
+			"source": "VueComponent.title (/src/deck/components/bd-shelf.vue:169:0)\nVueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": "{\"name\":\"Final Fantasy XIV Online\"}"
+		},
+		"addon.deck.live-channels": {
+			"id": "addon.deck.live-channels",
+			"doc": "addon.deck",
+			"default": "Live Channels",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)\nVueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.live-channels.tip": {
+			"id": "addon.deck.live-channels.tip",
+			"doc": "addon.deck",
+			"default": "This column shows all live channels on Twitch. It's useful for filtering by certain tags.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.live-featured": {
+			"id": "addon.deck.live-featured",
+			"doc": "addon.deck",
+			"default": "Featured Streams",
+			"source": "VueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.live-followed": {
+			"id": "addon.deck.live-followed",
+			"doc": "addon.deck",
+			"default": "Followed Streams",
+			"source": "VueComponent.title (/src/deck/components/bd-shelf.vue:169:0)\nVueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.live-hosted": {
+			"id": "addon.deck.live-hosted",
+			"doc": "addon.deck",
+			"default": "Hosted Streams",
+			"source": "VueComponent.title (/src/deck/components/bd-shelf.vue:169:0)\nVueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.live-recommended": {
+			"id": "addon.deck.live-recommended",
+			"doc": "addon.deck",
+			"default": "Recommended Streams",
+			"source": "VueComponent.title (/src/deck/components/bd-shelf.vue:169:0)\nVueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.live.recent": {
+			"id": "addon.deck.live.recent",
+			"doc": "addon.deck",
+			"default": "Recently Started",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.live.recommended": {
+			"id": "addon.deck.live.recommended",
+			"doc": "addon.deck",
+			"default": "Recommended for You",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.loading": {
+			"id": "addon.deck.loading",
+			"doc": "addon.deck",
+			"default": "Loading...",
+			"source": "factory (/src/utilities/dialog.js:150:19)\nVueComponent.render (/src/deck/components/bd-column.vue:678:0)\nBrowseDeck.buildDialog (/src/deck/index.jsx:335:6)",
+			"context": null
+		},
+		"addon.deck.need-config": {
+			"id": "addon.deck.need-config",
+			"doc": "addon.deck",
+			"default": "You need to finish configuring this column.",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:433:0)",
+			"context": null
+		},
+		"addon.deck.new": {
+			"id": "addon.deck.new",
+			"doc": "addon.deck",
+			"default": "New...",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:54:0)",
+			"context": null
+		},
+		"addon.deck.new-tab": {
+			"id": "addon.deck.new-tab",
+			"doc": "addon.deck",
+			"default": "New Tab",
+			"source": "VueComponent.render (/src/deck/components/bd-tab-settings.vue:49:0)",
+			"context": null
+		},
+		"addon.deck.no-live": {
+			"id": "addon.deck.no-live",
+			"doc": "addon.deck",
+			"default": "Do not display the channel's live broadcast when they are streaming.",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-video-channel.vue:65:0)",
+			"context": null
+		},
+		"addon.deck.no-recordings": {
+			"id": "addon.deck.no-recordings",
+			"doc": "addon.deck",
+			"default": "Do not display videos from in-progress broadcasts.",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-video.vue:69:0)",
+			"context": null
+		},
+		"addon.deck.no-state": {
+			"id": "addon.deck.no-state",
+			"doc": "addon.deck",
+			"default": "(what am i doing)",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:699:0)",
+			"context": null
+		},
+		"addon.deck.no-tags": {
+			"id": "addon.deck.no-tags",
+			"doc": "addon.deck",
+			"default": "no tags",
+			"source": "VueComponent.render (/src/deck/components/bd-tag-selector.vue:36:0)",
+			"context": null
+		},
+		"addon.deck.no-users": {
+			"id": "addon.deck.no-users",
+			"doc": "addon.deck",
+			"default": "no users",
+			"source": "VueComponent.render (/src/deck/components/bd-channel-selector.vue:44:0)",
+			"context": null
+		},
+		"addon.deck.open-settings": {
+			"id": "addon.deck.open-settings",
+			"doc": "addon.deck",
+			"default": "Open Settings",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:232:0)\nVueComponent.render (/src/deck/components/bd-column.vue:459:0)",
+			"context": null
+		},
+		"addon.deck.published": {
+			"id": "addon.deck.published",
+			"doc": "addon.deck",
+			"default": "Published on {published,date} at {published,time}",
+			"source": "fn (/src/deck/components/bd-video-card.vue:77:0)",
+			"context": "{\"published\":{}}"
+		},
+		"addon.deck.published-human": {
+			"id": "addon.deck.published-human",
+			"doc": "addon.deck",
+			"default": "{published,humantime,1}",
+			"source": "fn (/src/deck/components/bd-video-card.vue:56:0)",
+			"context": "{\"published\":{}}"
+		},
+		"addon.deck.recommended": {
+			"id": "addon.deck.recommended",
+			"doc": "addon.deck",
+			"default": "Recommended",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.recommended.live-tip": {
+			"id": "addon.deck.recommended.live-tip",
+			"doc": "addon.deck",
+			"default": "This column shows live channels that Twitch recommends for you, based on your viewing history.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.refresh": {
+			"id": "addon.deck.refresh",
+			"doc": "addon.deck",
+			"default": "Refresh",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:329:0)",
+			"context": null
+		},
+		"addon.deck.refresh-all": {
+			"id": "addon.deck.refresh-all",
+			"doc": "addon.deck",
+			"default": "Refresh All",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:346:0)",
+			"context": null
+		},
+		"addon.deck.refresh.disabled": {
+			"id": "addon.deck.refresh.disabled",
+			"doc": "addon.deck",
+			"default": "Disabled",
+			"source": "VueComponent.refreshLabel (/src/deck/components/bd-column-editor.vue:335:0)",
+			"context": null
+		},
+		"addon.deck.save": {
+			"id": "addon.deck.save",
+			"doc": "addon.deck",
+			"default": "Save",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:180:0)",
+			"context": null
+		},
+		"addon.deck.search": {
+			"id": "addon.deck.search",
+			"doc": "addon.deck",
+			"default": "Search",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.search-tags": {
+			"id": "addon.deck.search-tags",
+			"doc": "addon.deck",
+			"default": "Search Tags",
+			"source": "VueComponent.render (/src/deck/components/bd-tag-selector.vue:19:0)",
+			"context": null
+		},
+		"addon.deck.search-users": {
+			"id": "addon.deck.search-users",
+			"doc": "addon.deck",
+			"default": "Search Users",
+			"source": "VueComponent.render (/src/deck/components/bd-channel-selector.vue:19:0)",
+			"context": null
+		},
+		"addon.deck.search.live-tip": {
+			"id": "addon.deck.search.live-tip",
+			"doc": "addon.deck",
+			"default": "This column shows live channels that match a search query.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.show-less": {
+			"id": "addon.deck.show-less",
+			"doc": "addon.deck",
+			"default": "Show Less",
+			"source": "VueComponent.render (/src/deck/components/bd-shelf.vue:181:0)",
+			"context": null
+		},
+		"addon.deck.show-more": {
+			"id": "addon.deck.show-more",
+			"doc": "addon.deck",
+			"default": "Show More",
+			"source": "VueComponent.render (/src/deck/components/bd-shelf.vue:162:0)",
+			"context": null
+		},
+		"addon.deck.sort.clip.created-asc": {
+			"id": "addon.deck.sort.clip.created-asc",
+			"doc": "addon.deck",
+			"default": "Recently Created",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.sort.clip.created-desc": {
+			"id": "addon.deck.sort.clip.created-desc",
+			"doc": "addon.deck",
+			"default": "Oldest First",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.sort.clip.views-asc": {
+			"id": "addon.deck.sort.clip.views-asc",
+			"doc": "addon.deck",
+			"default": "Views (Low to High)",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.sort.clip.views-desc": {
+			"id": "addon.deck.sort.clip.views-desc",
+			"doc": "addon.deck",
+			"default": "Views (High to Low)",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:153:0)\nVueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.sort.live.viewers": {
+			"id": "addon.deck.sort.live.viewers",
+			"doc": "addon.deck",
+			"default": "Viewers (High to Low)",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:153:0)\nVueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.sort.live.viewers-asc": {
+			"id": "addon.deck.sort.live.viewers-asc",
+			"doc": "addon.deck",
+			"default": "Viewers (Low to High)",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.sort.sub.viewers": {
+			"id": "addon.deck.sort.sub.viewers",
+			"doc": "addon.deck",
+			"default": "Viewers",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)",
+			"context": null
+		},
+		"addon.deck.sort.sub.views": {
+			"id": "addon.deck.sort.sub.views",
+			"doc": "addon.deck",
+			"default": "Views",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)",
+			"context": null
+		},
+		"addon.deck.sort.trending": {
+			"id": "addon.deck.sort.trending",
+			"doc": "addon.deck",
+			"default": "Trending",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.sort.video.recent": {
+			"id": "addon.deck.sort.video.recent",
+			"doc": "addon.deck",
+			"default": "Recently Published",
+			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)\nVueComponent.render (/src/deck/components/bd-column.vue:153:0)",
+			"context": null
+		},
+		"addon.deck.sort.video.views": {
+			"id": "addon.deck.sort.video.views",
+			"doc": "addon.deck",
+			"default": "Views (High to Low)",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:153:0)\nVueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-column-editor.vue?vue&type=template&id=105b0a76&.staticRenderFns (/src/deck/components/bd-column-editor.vue:881:0)",
+			"context": null
+		},
+		"addon.deck.specific-users": {
+			"id": "addon.deck.specific-users",
+			"doc": "addon.deck",
+			"default": "Specific Users",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)\nVueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.specific-users.tip": {
+			"id": "addon.deck.specific-users.tip",
+			"doc": "addon.deck",
+			"default": "This column shows all live channels from a custom, set list.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.sub.recent": {
+			"id": "addon.deck.sub.recent",
+			"doc": "addon.deck",
+			"default": "Recent",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)",
+			"context": null
+		},
+		"addon.deck.sub.tags": {
+			"id": "addon.deck.sub.tags",
+			"doc": "addon.deck",
+			"default": "{count,number} tag{count,en_plural}",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)\nVueComponent.render (/src/deck/components/bd-column.vue:153:0)",
+			"context": "{\"count\":1}"
+		},
+		"addon.deck.sub.views": {
+			"id": "addon.deck.sub.views",
+			"doc": "addon.deck",
+			"default": "Views",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)",
+			"context": null
+		},
+		"addon.deck.tab-name": {
+			"id": "addon.deck.tab-name",
+			"doc": "addon.deck",
+			"default": "Tab #{count}",
+			"source": "VueComponent.addTab (/src/deck/components/bd-tab-settings.vue:80:0)",
+			"context": null
+		},
+		"addon.deck.tab-settings": {
+			"id": "addon.deck.tab-settings",
+			"doc": "addon.deck",
+			"default": "Tab Settings",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:423:0)\nfn (/src/deck/components/bd-tab-settings.vue:17:0)",
+			"context": null
+		},
+		"addon.deck.team": {
+			"id": "addon.deck.team",
+			"doc": "addon.deck",
+			"default": "Team",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.team.live-tip": {
+			"id": "addon.deck.team.live-tip",
+			"doc": "addon.deck",
+			"default": "This column shows live channels from members of a specific Team.",
+			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
+			"context": null
+		},
+		"addon.deck.throttled": {
+			"id": "addon.deck.throttled",
+			"doc": "addon.deck",
+			"default": "Waiting a bit...",
+			"source": "VueComponent.render (/src/deck/components/bd-column.vue:689:0)",
+			"context": null
+		},
 		"addon.deck.title": {
 			"id": "addon.deck.title",
 			"doc": "deck",
@@ -7,6 +763,104 @@
 			"source": "BrowseDeck.updateNavButton (/src/deck/index.jsx:227:16)",
 			"context": null,
 			"revision": 1
+		},
+		"addon.deck.type.ARCHIVE": {
+			"id": "addon.deck.type.ARCHIVE",
+			"doc": "addon.deck",
+			"default": "Past Broadcast",
+			"source": "VueComponent.useLabel (/src/deck/components/bd-stream-indicator.vue:56:0)",
+			"context": null
+		},
+		"addon.deck.type.host": {
+			"id": "addon.deck.type.host",
+			"doc": "addon.deck",
+			"default": "Hosting",
+			"source": "VueComponent.useLabel (/src/deck/components/bd-stream-indicator.vue:56:0)",
+			"context": null
+		},
+		"addon.deck.unset": {
+			"id": "addon.deck.unset",
+			"doc": "addon.deck",
+			"default": "(Unset)",
+			"source": "VueComponent.title (/src/deck/components/bd-column.vue:384:0)\nVueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.video-followed": {
+			"id": "addon.deck.video-followed",
+			"doc": "addon.deck",
+			"default": "Followed Videos",
+			"source": "VueComponent.titlePlaceholder (/src/deck/components/bd-column-editor.vue:325:0)",
+			"context": null
+		},
+		"addon.deck.video-type.archive": {
+			"id": "addon.deck.video-type.archive",
+			"doc": "addon.deck",
+			"default": "Past Broadcasts",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-video.vue:92:0)",
+			"context": null
+		},
+		"addon.deck.video-type.highlight": {
+			"id": "addon.deck.video-type.highlight",
+			"doc": "addon.deck",
+			"default": "Highlights",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-video.vue:92:0)",
+			"context": null
+		},
+		"addon.deck.video-type.past_premiere": {
+			"id": "addon.deck.video-type.past_premiere",
+			"doc": "addon.deck",
+			"default": "Past Premieres",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-video.vue:92:0)",
+			"context": null
+		},
+		"addon.deck.video-type.upload": {
+			"id": "addon.deck.video-type.upload",
+			"doc": "addon.deck",
+			"default": "Uploads",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-video.vue:92:0)",
+			"context": null
+		},
+		"addon.deck.video-types": {
+			"id": "addon.deck.video-types",
+			"doc": "addon.deck",
+			"default": "Video Types:",
+			"source": "VueComponent.render (/src/deck/components/bd-edit-video.vue:85:0)",
+			"context": null
+		},
+		"addon.deck.viewers": {
+			"id": "addon.deck.viewers",
+			"doc": "addon.deck",
+			"default": "{viewers,number} viewer{viewers,en_plural}",
+			"source": "VueComponent.render (/src/deck/components/bd-live-card.vue:21:0)\nVueComponent.renderTooltip (/src/deck/components/bd-live-shelf-card.vue:132:0)\nVueComponent.render (/src/deck/components/bd-host-card.vue:17:0)",
+			"context": "{\"viewers\":1589}"
+		},
+		"addon.deck.views": {
+			"id": "addon.deck.views",
+			"doc": "addon.deck",
+			"default": "{count,number} view{count,en_plural}",
+			"source": "VueComponent.render (/src/deck/components/bd-video-card.vue:25:0)",
+			"context": "{}"
+		},
+		"addon.deck.width.0": {
+			"id": "addon.deck.width.0",
+			"doc": "addon.deck",
+			"default": "Small",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:447:0)",
+			"context": null
+		},
+		"addon.deck.width.1": {
+			"id": "addon.deck.width.1",
+			"doc": "addon.deck",
+			"default": "Normal",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:455:0)",
+			"context": null
+		},
+		"addon.deck.width.2": {
+			"id": "addon.deck.width.2",
+			"doc": "addon.deck",
+			"default": "Large",
+			"source": "VueComponent.render (/src/deck/components/bd-column-editor.vue:463:0)",
+			"context": null
 		},
 		"addons.deck.title": {
 			"id": "addons.deck.title",
@@ -1020,6 +1874,13 @@
 			"context": null,
 			"revision": 1
 		},
+		"card.error.invalid-host": {
+			"id": "card.error.invalid-host",
+			"doc": "client",
+			"default": "The provided URL has an invalid host and cannot be checked.",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
 		"card.error.timeout": {
 			"id": "card.error.timeout",
 			"doc": "core",
@@ -1807,9 +2668,9 @@
 		"directory.hosted.by-many": {
 			"id": "directory.hosted.by-many",
 			"doc": "core",
-			"default": "Hosted by {count,number} channel{count,en_plural}",
+			"default": "Hosted by {count, plural, one {# channel} other {# channels}}",
 			"source": "/src/sites/twitch-twilight/modules/directory/index.jsx:299:9",
-			"context": null,
+			"context": "{\"count\":2}",
 			"revision": 1
 		},
 		"directory.hosted.by-one": {
@@ -7104,6 +7965,13 @@
 			"context": null,
 			"revision": 1
 		},
+		"setting.entry.chat.emote-menu.icon.description": {
+			"id": "setting.entry.chat.emote-menu.icon.description",
+			"doc": "settings",
+			"default": "**Note:** This setting may be forcibly enabled if other emote menus are detected, to ensure you can visually identify the FFZ Emote Menu.",
+			"source": "t (/src/modules/main_menu/index.js:641:28)",
+			"context": null
+		},
 		"setting.entry.chat.emote-menu.modifiers": {
 			"id": "setting.entry.chat.emote-menu.modifiers",
 			"doc": "core",
@@ -9295,6 +10163,13 @@
 			"source": "FFZ Control Center",
 			"context": null,
 			"revision": 2
+		},
+		"setting.entry.layout.hide-discover-luna": {
+			"id": "setting.entry.layout.hide-discover-luna",
+			"doc": "settings",
+			"default": "Hide the \"Discover Luna\" link.",
+			"source": "t (/src/modules/main_menu/index.js:634:28)",
+			"context": null
 		},
 		"setting.entry.layout.minimal-navigation": {
 			"id": "setting.entry.layout.minimal-navigation",

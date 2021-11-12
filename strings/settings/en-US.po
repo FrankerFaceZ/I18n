@@ -2575,6 +2575,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.icon"
 msgstr "Replace the emote menu icon with the FFZ icon for that classic feel."
 
+#: /src/modules/main_menu/index.js:641
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emote-menu.icon.description"
+msgstr ""
+"**Note:** This setting may be forcibly enabled if other emote menus are "
+"detected, to ensure you can visually identify the FFZ Emote Menu."
+
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4054,6 +4061,11 @@ msgid "setting.entry.layout.display-bits-button.description"
 msgstr ""
 "By default, this inherits its value from [Chat > Bits and Cheering > "
 "Display Bits](~chat.bits_and_cheering)"
+
+#: /src/modules/main_menu/index.js:634
+#, icu-message-format
+msgid "setting.entry.layout.hide-discover-luna"
+msgstr "Hide the \"Discover Luna\" link."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
