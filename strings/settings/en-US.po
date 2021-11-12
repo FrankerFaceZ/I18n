@@ -895,8 +895,8 @@ msgstr "Loading..."
 #, icu-message-format, lp-defaults:"{\"name\":\"Test Profile\",\"count\":1}"
 msgid "setting.backup-restore.imported"
 msgstr ""
-"The profile \"{name}\" has been successfully imported with {count,number} "
-"setting{count,en_plural}."
+"The profile \"{name}\" has been successfully imported with {count, plural, "
+"one {# setting} other {# settings}}."
 
 #: /src/modules/main_menu/components/profile-manager.vue:350
 #, icu-message-format, lp-defaults:"{\"now\":\"2019-10-31T01:02:03.004Z\"}"

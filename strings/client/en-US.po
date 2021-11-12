@@ -16,7 +16,7 @@ msgstr "There are no results."
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Subscribed for {count,number} Month{count,en_plural})"
+"(Subscribers for {count, plural, one {# Month} other {# Months}})"
 
 #: /src/modules/chat/badges.jsx:287:15
 #, icu-message-format, lp-defaults:"{\"title\":\"Subscriber\",\"count\":\"1\"}"
@@ -465,8 +465,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"coount\":5,\"tier\":\"1\",\"channel\":\"Quoteconut\"}"
 msgid "chat.sub.gift"
 msgstr ""
-"{user} is gifting {count,number} Tier {tier} Sub{count,en_plural} to "
-"{channel}'s community! "
+"{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier "
+"{tier} Subs} to {channel}'s community!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -476,8 +476,8 @@ msgstr "It's their first time gifting a Sub in the channel!"
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} gifted {months,number} month{months,en_plural} of {plan} Sub to "
-"{recipient}!"
+"{user} gifted {months, plural, one {# month} other {# months}} of {plan} "
+"Sub to {recipient}!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:567:7
 #, icu-message-format
@@ -846,7 +846,9 @@ msgstr "Subscriber Emotes"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6
 #, icu-message-format
 msgid "emote-menu.sub-unlock"
-msgstr "Subscribe for {price} to unlock {count,number} emote{count,en_plural}"
+msgstr ""
+"Subscribe for {price} to unlock {count, plural, one {# emote} other {# "
+"emotes}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
 #, icu-message-format
