@@ -42,6 +42,11 @@ msgstr "No data was returned."
 msgid "card.error"
 msgstr "An error occurred."
 
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "The provided URL has an invalid host and cannot be checked."
+
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format
@@ -549,9 +554,9 @@ msgid "directory.hosted"
 msgstr "Hosted Channel"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:299:9
-#, icu-message-format
+#, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "directory.hosted.by-many"
-msgstr "Hosted by {count,number} channel{count,en_plural}"
+msgstr "Hosted by {count, plural, one {# channel} other {# channels}}"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:300:9
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\"}"
