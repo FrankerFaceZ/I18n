@@ -139,7 +139,7 @@ const file = args[1];
 	// set up a new branch in git and make a pull request.
 
 	const git = simpleGit();
-	const bid = v4();
+	const bid = `sources/${v4()}`;
 
 	try {
 		await git.checkout('main');
@@ -167,7 +167,7 @@ const file = args[1];
 			await git.add(fn);
 		}
 
-		await git.commit(`[Sources] Add ${added.length} strings and update ${changed.length} strings.`, undefined, {'--author': `"${user}" <bot@frankerfacez.com>`});
+		await git.commit(`Add ${added.length} strings and update ${changed.length} strings.`, undefined, {'--author': `"${user}" <bot@frankerfacez.com>`});
 		await git.push('origin', bid);
 		await git.checkout('main');
 
