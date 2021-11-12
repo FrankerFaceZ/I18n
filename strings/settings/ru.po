@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-12 23:52+0000\n"
+"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/settings/ru/>\n"
+"Language: ru\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.author"
 msgstr "Автор: {author}"
@@ -396,7 +406,7 @@ msgid "setting.actions.edit-visible.mod-icons"
 msgstr "Иконки модератора"
 
 msgid "setting.actions.edit-visible.modifier"
-msgstr "Модификаторы "
+msgstr "Модификаторы"
 
 msgid "setting.actions.edit-visible.r9k"
 msgstr "Режим R9k"
@@ -483,7 +493,7 @@ msgid "setting.actions.visible.deleted"
 msgstr "если сообщение удалено"
 
 msgid "setting.actions.visible.hover"
-msgstr "при прокрутке "
+msgstr "при прокрутке"
 
 msgid "setting.actions.visible.mod"
 msgstr "когда модератор"
@@ -3962,3 +3972,13 @@ msgstr "Abc"
 
 msgid "settings.terms.word.tip"
 msgstr "Подобрать целое слово"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emoji"
+msgstr "Эмодзи"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.style"
+msgstr "Стиль эмодзи"
