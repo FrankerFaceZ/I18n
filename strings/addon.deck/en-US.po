@@ -63,11 +63,6 @@ msgstr "This column shows clips from a specific channel."
 msgid "addon.deck.channel.video-tip"
 msgstr "This column shows videos from a specific channel."
 
-#: /src/deck/components/bd-column.vue:384
-#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
-msgid "addon.deck.clip-category"
-msgstr "{name} Clips"
-
 #: /src/deck/components/bd-edit-clip.vue:35
 #, icu-message-format
 msgid "addon.deck.clip-period.24-hours"
@@ -94,14 +89,10 @@ msgstr "7 Days"
 msgid "addon.deck.clip-period.all-time"
 msgstr "All TIme"
 
-#, icu-message-format, lp-defaults:"{\"user\":null}"
-msgid "addon.deck.clipped-by"
-msgstr "Clipped by {user}"
-
 #: /src/deck/components/bd-tab-editor.vue:33
 #, icu-message-format, lp-defaults:"{\"count\":0}"
 msgid "addon.deck.column-count"
-msgstr "{count,number} column{count,en_plural}"
+msgstr "{count, plural, one {# column} other {# columns}}"
 
 #: /src/deck/components/bd-column-editor.vue:133
 #, icu-message-format
@@ -170,11 +161,6 @@ msgstr "Columns:"
 msgid "addon.deck.edit.count"
 msgstr "Count:"
 
-#: /src/deck/components/bd-column-editor.vue:350
-#, icu-message-format
-msgid "addon.deck.edit.default_count"
-msgstr "Default Size:"
-
 #: /src/deck/components/bd-edit-category.vue:18
 #, icu-message-format
 msgid "addon.deck.edit.game"
@@ -211,11 +197,6 @@ msgstr "Required Tags:"
 msgid "addon.deck.edit.search"
 msgstr "Search:"
 
-#: /src/deck/components/bd-tab-editor.vue:192
-#, icu-message-format
-msgid "addon.deck.edit.sidebar"
-msgstr "Use Tab as Sidebar"
-
 #: /src/deck/components/bd-column-editor.vue:789
 #, icu-message-format
 msgid "addon.deck.edit.sort"
@@ -246,13 +227,6 @@ msgstr "Do not display views / viewers."
 #, icu-message-format
 msgid "addon.deck.end"
 msgstr "You have reached the end."
-
-#: /src/deck/components/bd-column.vue:504
-#, icu-message-format, lp-defaults:"{\"removed\":1,\"total\":11}"
-msgid "addon.deck.end-filtered"
-msgstr ""
-"({removed,number} of {total, plural, one {# item} other {# items} } have "
-"been hidden by client-side filtering.)"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
@@ -385,11 +359,6 @@ msgstr "You need to finish configuring this column."
 #, icu-message-format
 msgid "addon.deck.new"
 msgstr "New..."
-
-#: /src/deck/components/bd-tab-settings.vue:51
-#, icu-message-format
-msgid "addon.deck.new-sidebar"
-msgstr "New Sidebar Tab"
 
 #: /src/deck/components/bd-tab-settings.vue:49
 #, icu-message-format
@@ -579,13 +548,7 @@ msgstr "Recent"
 #: /src/deck/components/bd-column.vue:153
 #, icu-message-format, lp-defaults:"{\"count\":1}"
 msgid "addon.deck.sub.tags"
-msgstr "{count,number} tag{count,en_plural}"
-
-#: /src/deck/components/bd-column.vue:122
-#: /src/deck/components/bd-column.vue:154
-#, icu-message-format, lp-defaults:"{\"count\":2}"
-msgid "addon.deck.sub.users"
-msgstr "{count, plural, one {# User} other {# Users}}"
+msgstr "{count, plural, one {# tag} other {# tags}}"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
@@ -597,22 +560,11 @@ msgstr "Views"
 msgid "addon.deck.tab-name"
 msgstr "Tab #{count}"
 
-#: /src/deck/components/bd-tab-settings.vue:106
-#, icu-message-format
-msgid "addon.deck.tab-name.sidebar"
-msgstr "Sidebar Tab"
-
 #: /src/deck/components/browse-deck.vue:423
 #: /src/deck/components/bd-tab-settings.vue:17
 #, icu-message-format
 msgid "addon.deck.tab-settings"
 msgstr "Tab Settings"
-
-#: /src/deck/components/browse-deck.vue:361
-#: /src/deck/components/bd-tab-editor.vue:33
-#, icu-message-format
-msgid "addon.deck.tab-sidebar"
-msgstr "This tab is being used as your sidebar."
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
@@ -683,7 +635,7 @@ msgstr "Video Types:"
 #: /src/deck/components/bd-live-card.vue:21
 #: /src/deck/components/bd-live-shelf-card.vue:132
 #: /src/deck/components/bd-host-card.vue:17
-#, icu-message-format, lp-defaults:"{\"viewers\":49}"
+#, icu-message-format, lp-defaults:"{\"viewers\":1589}"
 msgid "addon.deck.viewers"
 msgstr "{viewers, plural, one {# viewer} other {# viewers}}"
 

@@ -84,13 +84,6 @@
 			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
 			"context": null
 		},
-		"addon.deck.clip-category": {
-			"id": "addon.deck.clip-category",
-			"doc": "addon.deck",
-			"default": "{name} Clips",
-			"source": "VueComponent.title (/src/deck/components/bd-column.vue:384:0)",
-			"context": "{\"name\":\"Final Fantasy XIV Online\"}"
-		},
 		"addon.deck.clip-period.24-hours": {
 			"id": "addon.deck.clip-period.24-hours",
 			"doc": "addon.deck",
@@ -126,17 +119,10 @@
 			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-edit-clip.vue?vue&type=template&id=2a722d98&.staticRenderFns (/src/deck/components/bd-edit-clip.vue:35:0)",
 			"context": null
 		},
-		"addon.deck.clipped-by": {
-			"id": "addon.deck.clipped-by",
-			"doc": "addon.deck",
-			"default": "Clipped by {user}",
-			"source": "",
-			"context": "{\"user\":null}"
-		},
 		"addon.deck.column-count": {
 			"id": "addon.deck.column-count",
 			"doc": "addon.deck",
-			"default": "{count,number} column{count,en_plural}",
+			"default": "{count, plural, one {# column} other {# columns}}",
 			"source": "VueComponent.render (/src/deck/components/bd-tab-editor.vue:33:0)",
 			"context": "{\"count\":0}"
 		},
@@ -231,13 +217,6 @@
 			"source": "VueComponent.render (/src/deck/components/bd-edit-count.vue:11:0)",
 			"context": null
 		},
-		"addon.deck.edit.default_count": {
-			"id": "addon.deck.edit.default_count",
-			"doc": "addon.deck",
-			"default": "Default Size:",
-			"source": "Vue Component (/src/deck/components/bd-column-editor.vue:350:0)",
-			"context": null
-		},
 		"addon.deck.edit.game": {
 			"id": "addon.deck.edit.game",
 			"doc": "addon.deck",
@@ -287,13 +266,6 @@
 			"source": "VueComponent.render (/src/deck/components/bd-edit-search.vue:14:0)",
 			"context": null
 		},
-		"addon.deck.edit.sidebar": {
-			"id": "addon.deck.edit.sidebar",
-			"doc": "addon.deck",
-			"default": "Use Tab as Sidebar",
-			"source": "Vue Component (/src/deck/components/bd-tab-editor.vue:192:0)",
-			"context": null
-		},
 		"addon.deck.edit.sort": {
 			"id": "addon.deck.edit.sort",
 			"doc": "addon.deck",
@@ -335,13 +307,6 @@
 			"default": "You have reached the end.",
 			"source": "VueComponent.render (/src/deck/components/bd-column.vue:491:0)",
 			"context": null
-		},
-		"addon.deck.end-filtered": {
-			"id": "addon.deck.end-filtered",
-			"doc": "addon.deck",
-			"default": "({removed,number} of {total, plural, one {# item} other {# items} } have been hidden by client-side filtering.)",
-			"source": "Vue Component (/src/deck/components/bd-column.vue:504:0)",
-			"context": "{\"removed\":1,\"total\":11}"
 		},
 		"addon.deck.featured": {
 			"id": "addon.deck.featured",
@@ -495,13 +460,6 @@
 			"doc": "addon.deck",
 			"default": "New...",
 			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:54:0)",
-			"context": null
-		},
-		"addon.deck.new-sidebar": {
-			"id": "addon.deck.new-sidebar",
-			"doc": "addon.deck",
-			"default": "New Sidebar Tab",
-			"source": "Vue Component (/src/deck/components/bd-tab-settings.vue:51:0)",
 			"context": null
 		},
 		"addon.deck.new-tab": {
@@ -752,16 +710,9 @@
 		"addon.deck.sub.tags": {
 			"id": "addon.deck.sub.tags",
 			"doc": "addon.deck",
-			"default": "{count,number} tag{count,en_plural}",
+			"default": "{count, plural, one {# tag} other {# tags}}",
 			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)\nVueComponent.render (/src/deck/components/bd-column.vue:153:0)",
 			"context": "{\"count\":1}"
-		},
-		"addon.deck.sub.users": {
-			"id": "addon.deck.sub.users",
-			"doc": "addon.deck",
-			"default": "{count, plural, one {# User} other {# Users}}",
-			"source": "Vue Component (/src/deck/components/bd-column.vue:122:0)\nVue Component (/src/deck/components/bd-column.vue:154:0)",
-			"context": "{\"count\":2}"
 		},
 		"addon.deck.sub.views": {
 			"id": "addon.deck.sub.views",
@@ -777,25 +728,11 @@
 			"source": "VueComponent.addTab (/src/deck/components/bd-tab-settings.vue:80:0)",
 			"context": null
 		},
-		"addon.deck.tab-name.sidebar": {
-			"id": "addon.deck.tab-name.sidebar",
-			"doc": "addon.deck",
-			"default": "Sidebar Tab",
-			"source": "VueComponent.addSidebarTab (/src/deck/components/bd-tab-settings.vue:106:0)",
-			"context": null
-		},
 		"addon.deck.tab-settings": {
 			"id": "addon.deck.tab-settings",
 			"doc": "addon.deck",
 			"default": "Tab Settings",
 			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:423:0)\nfn (/src/deck/components/bd-tab-settings.vue:17:0)",
-			"context": null
-		},
-		"addon.deck.tab-sidebar": {
-			"id": "addon.deck.tab-sidebar",
-			"doc": "addon.deck",
-			"default": "This tab is being used as your sidebar.",
-			"source": "Vue Component (/src/deck/components/browse-deck.vue:361:0)\nVue Component (/src/deck/components/bd-tab-editor.vue:33:0)",
 			"context": null
 		},
 		"addon.deck.team": {
@@ -895,7 +832,7 @@
 			"doc": "addon.deck",
 			"default": "{viewers, plural, one {# viewer} other {# viewers}}",
 			"source": "VueComponent.render (/src/deck/components/bd-live-card.vue:21:0)\nVueComponent.renderTooltip (/src/deck/components/bd-live-shelf-card.vue:132:0)\nVueComponent.render (/src/deck/components/bd-host-card.vue:17:0)",
-			"context": "{\"viewers\":49}"
+			"context": "{\"viewers\":1589}"
 		},
 		"addon.deck.views": {
 			"id": "addon.deck.views",
@@ -1863,13 +1800,6 @@
 			"context": null,
 			"revision": 1
 		},
-		"setting.add_ons.pronouns.per_badge_colors": {
-			"id": "setting.add_ons.pronouns.per_badge_colors",
-			"doc": "addon.pronouns",
-			"default": "Per-Badge Colors",
-			"source": "FFZ Control Center",
-			"context": null
-		},
 		"setting.entry.addon.pronouns.border": {
 			"id": "setting.entry.addon.pronouns.border",
 			"doc": "core",
@@ -1907,7 +1837,7 @@
 		"badges.founder.months": {
 			"id": "badges.founder.months",
 			"doc": "core",
-			"default": "{title}\n(Subscribed for {count,number} Month{count,en_plural})",
+			"default": "{title}\n(Subscribers for {count, plural, one {# Month} other {# Months}})",
 			"source": "tooltips.types.badge (/src/modules/chat/badges.jsx:292:15)",
 			"context": "{\"title\":\"Founder\",\"count\":\"18\"}",
 			"revision": 1
@@ -1925,7 +1855,7 @@
 			"doc": "core",
 			"default": "{title}\n(Tier {tier}, {months, plural, one {# Month} other {# Months}})",
 			"source": "tooltips.types.badge (/src/modules/chat/badges.jsx:366:16)",
-			"context": "{\"title\":\"2-Year Subscriber\",\"tier\":3,\"months\":\"55\"}",
+			"context": "{\"title\":\"3-Year Subscriber\",\"tier\":3,\"months\":69}",
 			"revision": 1
 		},
 		"card.empty": {
@@ -1948,13 +1878,6 @@
 			"id": "card.error.invalid-host",
 			"doc": "client",
 			"default": "The provided URL has an invalid host and cannot be checked.",
-			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
-			"context": null
-		},
-		"card.error.network": {
-			"id": "card.error.network",
-			"doc": "client",
-			"default": "A network error occured.",
 			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
 			"context": null
 		},
@@ -2155,7 +2078,7 @@
 			"doc": "core",
 			"default": "Timeout {user.login} for {duration, plural, one {# second} other {# seconds}}",
 			"source": "/src/modules/chat/actions/types.jsx:207:9",
-			"context": "{\"user.login\":\"quoteconut\",\"duration\":600}",
+			"context": null,
 			"revision": 1
 		},
 		"chat.actions.unban": {
@@ -2593,7 +2516,7 @@
 		"chat.sub.gift": {
 			"id": "chat.sub.gift",
 			"doc": "core",
-			"default": "{user} is gifting {count,number} Tier {tier} Sub{count,en_plural} to {channel}'s community! ",
+			"default": "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier {tier} Subs} to {channel}'s community!",
 			"source": "/src/sites/twitch-twilight/modules/chat/line.js:468:21",
 			"context": "{\"user\":\"SirStendec\",\"coount\":5,\"tier\":\"1\",\"channel\":\"Quoteconut\"}",
 			"revision": 1
@@ -2609,7 +2532,7 @@
 		"chat.sub.gift-months": {
 			"id": "chat.sub.gift-months",
 			"doc": "core",
-			"default": "{user} gifted {months,number} month{months,en_plural} of {plan} Sub to {recipient}!",
+			"default": "{user} gifted {months, plural, one {# month} other {# months}} of {plan} Sub to {recipient}!",
 			"source": "",
 			"context": "{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}",
 			"revision": 1
@@ -2699,7 +2622,7 @@
 			"doc": "core",
 			"default": "Clipped by {curator} — {views, plural, one {# View} other {# Views}}",
 			"source": "/src/modules/chat/rich_providers.js:133:13",
-			"context": "{\"curator\":{\"type\":\"link\",\"url\":\"https://www.twitch.tv/warchamp7\",\"content\":{\"type\":\"style\",\"color\":\"alt-2\",\"content\":\"Warchamp7\"}},\"views\":47}",
+			"context": "{\n    \"curator\": \"EdvinB\",\n    \"views\": 120565\n}",
 			"revision": 2
 		},
 		"clip.unknown": {
@@ -3169,7 +3092,7 @@
 		"emote-menu.sub-unlock": {
 			"id": "emote-menu.sub-unlock",
 			"doc": "core",
-			"default": "Subscribe for {price} to unlock {count,number} emote{count,en_plural}",
+			"default": "Subscribe for {price} to unlock {count, plural, one {# emote} other {# emotes}}",
 			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6",
 			"context": null,
 			"revision": 1
@@ -5597,7 +5520,7 @@
 		"setting.backup-restore.imported": {
 			"id": "setting.backup-restore.imported",
 			"doc": "core",
-			"default": "The profile \"{name}\" has been successfully imported with {count,number} setting{count,en_plural}.",
+			"default": "The profile \"{name}\" has been successfully imported with {count, plural, one {# setting} other {# settings}}.",
 			"source": "VueComponent.confirmImport (/src/modules/main_menu/components/profile-manager.vue:375:0)",
 			"context": "{\"name\":\"Test Profile\",\"count\":1}",
 			"revision": 1
