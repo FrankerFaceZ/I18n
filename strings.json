@@ -84,6 +84,13 @@
 			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:191:0)",
 			"context": null
 		},
+		"addon.deck.clip-category": {
+			"id": "addon.deck.clip-category",
+			"doc": "addon.deck",
+			"default": "{name} Clips",
+			"source": "VueComponent.title (/src/deck/components/bd-column.vue:384:0)",
+			"context": "{\"name\":\"Final Fantasy XIV Online\"}"
+		},
 		"addon.deck.clip-period.24-hours": {
 			"id": "addon.deck.clip-period.24-hours",
 			"doc": "addon.deck",
@@ -118,6 +125,13 @@
 			"default": "All TIme",
 			"source": "VueComponent.push../node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/deck/components/bd-edit-clip.vue?vue&type=template&id=2a722d98&.staticRenderFns (/src/deck/components/bd-edit-clip.vue:35:0)",
 			"context": null
+		},
+		"addon.deck.clipped-by": {
+			"id": "addon.deck.clipped-by",
+			"doc": "addon.deck",
+			"default": "Clipped by {user}",
+			"source": "",
+			"context": "{\"user\":null}"
 		},
 		"addon.deck.column-count": {
 			"id": "addon.deck.column-count",
@@ -217,6 +231,13 @@
 			"source": "VueComponent.render (/src/deck/components/bd-edit-count.vue:11:0)",
 			"context": null
 		},
+		"addon.deck.edit.default_count": {
+			"id": "addon.deck.edit.default_count",
+			"doc": "addon.deck",
+			"default": "Default Size:",
+			"source": "Vue Component (/src/deck/components/bd-column-editor.vue:350:0)",
+			"context": null
+		},
 		"addon.deck.edit.game": {
 			"id": "addon.deck.edit.game",
 			"doc": "addon.deck",
@@ -266,6 +287,13 @@
 			"source": "VueComponent.render (/src/deck/components/bd-edit-search.vue:14:0)",
 			"context": null
 		},
+		"addon.deck.edit.sidebar": {
+			"id": "addon.deck.edit.sidebar",
+			"doc": "addon.deck",
+			"default": "Use Tab as Sidebar",
+			"source": "Vue Component (/src/deck/components/bd-tab-editor.vue:192:0)",
+			"context": null
+		},
 		"addon.deck.edit.sort": {
 			"id": "addon.deck.edit.sort",
 			"doc": "addon.deck",
@@ -307,6 +335,13 @@
 			"default": "You have reached the end.",
 			"source": "VueComponent.render (/src/deck/components/bd-column.vue:491:0)",
 			"context": null
+		},
+		"addon.deck.end-filtered": {
+			"id": "addon.deck.end-filtered",
+			"doc": "addon.deck",
+			"default": "({removed,number} of {total, plural, one {# item} other {# items} } have been hidden by client-side filtering.)",
+			"source": "Vue Component (/src/deck/components/bd-column.vue:504:0)",
+			"context": "{\"removed\":1,\"total\":11}"
 		},
 		"addon.deck.featured": {
 			"id": "addon.deck.featured",
@@ -460,6 +495,13 @@
 			"doc": "addon.deck",
 			"default": "New...",
 			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:54:0)",
+			"context": null
+		},
+		"addon.deck.new-sidebar": {
+			"id": "addon.deck.new-sidebar",
+			"doc": "addon.deck",
+			"default": "New Sidebar Tab",
+			"source": "Vue Component (/src/deck/components/bd-tab-settings.vue:51:0)",
 			"context": null
 		},
 		"addon.deck.new-tab": {
@@ -714,6 +756,13 @@
 			"source": "VueComponent.render (/src/deck/components/bd-column.vue:121:0)\nVueComponent.render (/src/deck/components/bd-column.vue:153:0)",
 			"context": "{\"count\":1}"
 		},
+		"addon.deck.sub.users": {
+			"id": "addon.deck.sub.users",
+			"doc": "addon.deck",
+			"default": "{count, plural, one {# User} other {# Users}}",
+			"source": "Vue Component (/src/deck/components/bd-column.vue:122:0)\nVue Component (/src/deck/components/bd-column.vue:154:0)",
+			"context": "{\"count\":2}"
+		},
 		"addon.deck.sub.views": {
 			"id": "addon.deck.sub.views",
 			"doc": "addon.deck",
@@ -728,11 +777,25 @@
 			"source": "VueComponent.addTab (/src/deck/components/bd-tab-settings.vue:80:0)",
 			"context": null
 		},
+		"addon.deck.tab-name.sidebar": {
+			"id": "addon.deck.tab-name.sidebar",
+			"doc": "addon.deck",
+			"default": "Sidebar Tab",
+			"source": "VueComponent.addSidebarTab (/src/deck/components/bd-tab-settings.vue:106:0)",
+			"context": null
+		},
 		"addon.deck.tab-settings": {
 			"id": "addon.deck.tab-settings",
 			"doc": "addon.deck",
 			"default": "Tab Settings",
 			"source": "VueComponent.render (/src/deck/components/browse-deck.vue:423:0)\nfn (/src/deck/components/bd-tab-settings.vue:17:0)",
+			"context": null
+		},
+		"addon.deck.tab-sidebar": {
+			"id": "addon.deck.tab-sidebar",
+			"doc": "addon.deck",
+			"default": "This tab is being used as your sidebar.",
+			"source": "Vue Component (/src/deck/components/browse-deck.vue:361:0)\nVue Component (/src/deck/components/bd-tab-editor.vue:33:0)",
 			"context": null
 		},
 		"addon.deck.team": {
@@ -830,14 +893,14 @@
 		"addon.deck.viewers": {
 			"id": "addon.deck.viewers",
 			"doc": "addon.deck",
-			"default": "{viewers,number} viewer{viewers,en_plural}",
+			"default": "{viewers, plural, one {# viewer} other {# viewers}}",
 			"source": "VueComponent.render (/src/deck/components/bd-live-card.vue:21:0)\nVueComponent.renderTooltip (/src/deck/components/bd-live-shelf-card.vue:132:0)\nVueComponent.render (/src/deck/components/bd-host-card.vue:17:0)",
-			"context": "{\"viewers\":1589}"
+			"context": "{\"viewers\":49}"
 		},
 		"addon.deck.views": {
 			"id": "addon.deck.views",
 			"doc": "addon.deck",
-			"default": "{count,number} view{count,en_plural}",
+			"default": "{count, plural, one {# view} other {# views}}",
 			"source": "VueComponent.render (/src/deck/components/bd-video-card.vue:25:0)",
 			"context": "{}"
 		},
@@ -1800,6 +1863,13 @@
 			"context": null,
 			"revision": 1
 		},
+		"setting.add_ons.pronouns.per_badge_colors": {
+			"id": "setting.add_ons.pronouns.per_badge_colors",
+			"doc": "addon.pronouns",
+			"default": "Per-Badge Colors",
+			"source": "FFZ Control Center",
+			"context": null
+		},
 		"setting.entry.addon.pronouns.border": {
 			"id": "setting.entry.addon.pronouns.border",
 			"doc": "core",
@@ -1845,7 +1915,7 @@
 		"badges.subscriber.months": {
 			"id": "badges.subscriber.months",
 			"doc": "core",
-			"default": "{title}\n({count,number} Month{count,en_plural})",
+			"default": "{title}\n({count, plural, one {# Month} other {# Months}})",
 			"source": "/src/modules/chat/badges.jsx:287:15",
 			"context": "{\"title\":\"Subscriber\",\"count\":\"1\"}",
 			"revision": 3
@@ -1853,9 +1923,9 @@
 		"badges.subscriber.tier-months": {
 			"id": "badges.subscriber.tier-months",
 			"doc": "core",
-			"default": "{title}\n(Tier {tier}, {months,number} Month{months,en_plural})",
+			"default": "{title}\n(Tier {tier}, {months, plural, one {# Month} other {# Months}})",
 			"source": "tooltips.types.badge (/src/modules/chat/badges.jsx:366:16)",
-			"context": "{\"title\":\"3-Year Subscriber\",\"tier\":3,\"months\":69}",
+			"context": "{\"title\":\"2-Year Subscriber\",\"tier\":3,\"months\":\"55\"}",
 			"revision": 1
 		},
 		"card.empty": {
@@ -1878,6 +1948,13 @@
 			"id": "card.error.invalid-host",
 			"doc": "client",
 			"default": "The provided URL has an invalid host and cannot be checked.",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"card.error.network": {
+			"id": "card.error.network",
+			"doc": "client",
+			"default": "A network error occured.",
 			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
 			"context": null
 		},
@@ -2060,7 +2137,7 @@
 		"chat.actions.timeout-reason": {
 			"id": "chat.actions.timeout-reason",
 			"doc": "core",
-			"default": "Timeout {user.login} for {duration,number} second{duration,en_plural} for:",
+			"default": "Timeout {user.login} for {duration, plural, one {# second} other {# seconds}} for:",
 			"source": "/src/modules/chat/actions/types.jsx:197:9",
 			"context": null,
 			"revision": 1
@@ -2068,7 +2145,7 @@
 		"chat.actions.timeout.desc": {
 			"id": "chat.actions.timeout.desc",
 			"doc": "core",
-			"default": "{options.duration,number} second{options.duration,en_plural}",
+			"default": "{options.duration, plural, one {# second} other {# seconds}}",
 			"source": "VueComponent.description (/src/modules/main_menu/components/action-editor.vue:545:0)",
 			"context": "{\n    \"action\": \"timeout\",\n    \"appearance\": {\n        \"type\": \"icon\",\n        \"icon\": \"ffz-i-clock\"\n    },\n    \"display\": {\n        \"mod\": true,\n        \"mod_icons\": true\n    },\n    \"options\": {\n        \"duration\": 600\n    }\n}",
 			"revision": 1
@@ -2076,9 +2153,9 @@
 		"chat.actions.timeout.tooltip": {
 			"id": "chat.actions.timeout.tooltip",
 			"doc": "core",
-			"default": "Timeout {user.login} for {duration,number} second{duration,en_plural}",
+			"default": "Timeout {user.login} for {duration, plural, one {# second} other {# seconds}}",
 			"source": "/src/modules/chat/actions/types.jsx:207:9",
-			"context": null,
+			"context": "{\"user.login\":\"quoteconut\",\"duration\":600}",
 			"revision": 1
 		},
 		"chat.actions.unban": {
@@ -2620,9 +2697,9 @@
 		"clip.desc.2": {
 			"id": "clip.desc.2",
 			"doc": "core",
-			"default": "Clipped by {curator} — {views,number} View{views,en_plural}",
+			"default": "Clipped by {curator} — {views, plural, one {# View} other {# Views}}",
 			"source": "/src/modules/chat/rich_providers.js:133:13",
-			"context": "{\n    \"curator\": \"EdvinB\",\n    \"views\": 120565\n}",
+			"context": "{\"curator\":{\"type\":\"link\",\"url\":\"https://www.twitch.tv/warchamp7\",\"content\":{\"type\":\"style\",\"color\":\"alt-2\",\"content\":\"Warchamp7\"}},\"views\":47}",
 			"revision": 2
 		},
 		"clip.unknown": {
@@ -2860,7 +2937,7 @@
 		"emote-menu.emote-cheer": {
 			"id": "emote-menu.emote-cheer",
 			"doc": "core",
-			"default": "Cheer an additional {bits_remaining,number} bit{bits_remaining,en_plural} to unlock this emote.",
+			"default": "Cheer an additional {bits_remaining, plural, one {# bit} other {# bits}} to unlock this emote.",
 			"source": "map (/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635:59)",
 			"context": "{\"bits_remaining\":1000}",
 			"revision": 1
