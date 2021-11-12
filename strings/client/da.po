@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-12 23:52+0000\n"
+"Last-Translator: Taizun <original.taizun+ffz@gmail.com>\n"
+"Language-Team: Danish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/da/>\n"
+"Language: da\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "card.empty"
 msgstr "Data kunne ikke indlæses."
@@ -243,3 +252,13 @@ msgstr "Video af {user}"
 
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Visninger - {date,datetime}"
+
+#: /src/std-components/autocomplete.vue:182
+#, icu-message-format
+msgid "autocomplete.empty"
+msgstr "Der er ingen resultater."
+
+#: /src/modules/main_menu/components/async-text.vue:52
+#, icu-message-format
+msgid "async-text.upload"
+msgstr "Upload"
