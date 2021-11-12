@@ -1,11 +1,9 @@
 'use strict';
 
 import simpleGit from 'simple-git';
-import { Octokit } from '@octokit/rest';
 import fs from 'fs';
 import path from 'path';
 import GTP from 'gettext-parser';
-import { stringsToComponents } from './utilities.mjs';
 import { keyToComponent } from './utilities.mjs';
 import { v4 } from 'uuid';
 import { componentToPO } from './utilities.mjs';
