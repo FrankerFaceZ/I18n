@@ -136,9 +136,9 @@
 		"addon.deck.column-count": {
 			"id": "addon.deck.column-count",
 			"doc": "addon.deck",
-			"default": "{count, plural, one {# column} other {# columns}}",
+			"default": "{count, plural, one {# column} other {# columns} }",
 			"source": "VueComponent.render (/src/deck/components/bd-tab-editor.vue:33:0)",
-			"context": "{\"count\":0}"
+			"context": "{\"count\":4}"
 		},
 		"addon.deck.copy": {
 			"id": "addon.deck.copy",
@@ -1887,6 +1887,106 @@
 			"revision": 1
 		}
 	},
+	"addon.seventv_emotes": {
+		"setting.entry.addon.seventv_emotes.animated_avatars": {
+			"id": "setting.entry.addon.seventv_emotes.animated_avatars",
+			"doc": "addon.seventv_emotes",
+			"default": "Animated Avatars",
+			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.animated_avatars.description": {
+			"id": "setting.entry.addon.seventv_emotes.animated_avatars.description",
+			"doc": "addon.seventv_emotes",
+			"default": "Show 7TV animated avatars. [(7TV Subscriber Perk)](https://7tv.app/subscribe)",
+			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.badges": {
+			"id": "setting.entry.addon.seventv_emotes.badges",
+			"doc": "addon.seventv_emotes",
+			"default": "Badges",
+			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.badges.description": {
+			"id": "setting.entry.addon.seventv_emotes.badges.description",
+			"doc": "addon.seventv_emotes",
+			"default": "Show 7TV user badges. (Per-badge visibilty can be set in [Chat >> Badges > Visibilty > Add-Ons](~chat.badges))",
+			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.channel_emotes": {
+			"id": "setting.entry.addon.seventv_emotes.channel_emotes",
+			"doc": "addon.seventv_emotes",
+			"default": "Channel Emotes",
+			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.channel_emotes.description": {
+			"id": "setting.entry.addon.seventv_emotes.channel_emotes.description",
+			"doc": "addon.seventv_emotes",
+			"default": "Enables channel specific emotes from 7TV.",
+			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.emote_updates": {
+			"id": "setting.entry.addon.seventv_emotes.emote_updates",
+			"doc": "addon.seventv_emotes",
+			"default": "Enable emote updates",
+			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.emote_updates.description": {
+			"id": "setting.entry.addon.seventv_emotes.emote_updates.description",
+			"doc": "addon.seventv_emotes",
+			"default": "Enables live updates when a 7TV emote is added or removed in the current channel.",
+			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.global_emotes": {
+			"id": "setting.entry.addon.seventv_emotes.global_emotes",
+			"doc": "addon.seventv_emotes",
+			"default": "Global Emotes",
+			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.global_emotes.description": {
+			"id": "setting.entry.addon.seventv_emotes.global_emotes.description",
+			"doc": "addon.seventv_emotes",
+			"default": "Enables global emotes from 7TV.",
+			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.unlisted_emotes": {
+			"id": "setting.entry.addon.seventv_emotes.unlisted_emotes",
+			"doc": "addon.seventv_emotes",
+			"default": "Show unlisted emotes",
+			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.unlisted_emotes.description": {
+			"id": "setting.entry.addon.seventv_emotes.unlisted_emotes.description",
+			"doc": "addon.seventv_emotes",
+			"default": "Show emotes which have been deemed non-TOS friendly by 7TV moderators.",
+			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.update_messages": {
+			"id": "setting.entry.addon.seventv_emotes.update_messages",
+			"doc": "addon.seventv_emotes",
+			"default": "Show update messages",
+			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
+			"context": null
+		},
+		"setting.entry.addon.seventv_emotes.update_messages.description": {
+			"id": "setting.entry.addon.seventv_emotes.update_messages.description",
+			"doc": "addon.seventv_emotes",
+			"default": "Show messages in chat when emotes are updated in the current channel.",
+			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
+			"context": null
+		}
+	},
 	"client": {
 		"async-text.upload": {
 			"id": "async-text.upload",
@@ -1944,10 +2044,31 @@
 			"context": null,
 			"revision": 1
 		},
+		"card.error.empty": {
+			"id": "card.error.empty",
+			"doc": "client",
+			"default": "No Information Available",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
 		"card.error.invalid-host": {
 			"id": "card.error.invalid-host",
 			"doc": "client",
 			"default": "The provided URL has an invalid host and cannot be checked.",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"card.error.invalid-port": {
+			"id": "card.error.invalid-port",
+			"doc": "client",
+			"default": "The provided URL has a non-standard port and will not be checked.",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"card.error.invalid-scheme": {
+			"id": "card.error.invalid-scheme",
+			"doc": "client",
+			"default": "The provided URL does not use HTTP and will not be checked.",
 			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
 			"context": null
 		},
@@ -1965,6 +2086,13 @@
 			"source": "renderTokens (/src/sites/twitch-twilight/modules/chat/rich_content.jsx:182:19)\ntList (/src/utilities/rich_tokens.js:802:11)",
 			"context": null,
 			"revision": 1
+		},
+		"card.error.unhandled": {
+			"id": "card.error.unhandled",
+			"doc": "client",
+			"default": "No handler supports this URL.",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
 		},
 		"card.loading": {
 			"id": "card.loading",
@@ -2593,9 +2721,9 @@
 		"chat.sub.gift": {
 			"id": "chat.sub.gift",
 			"doc": "core",
-			"default": "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier {tier} Subs}} to {channel}'s community!",
+			"default": "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier {tier} Subs}} to {channel}'s community! ",
 			"source": "/src/sites/twitch-twilight/modules/chat/line.js:468:21",
-			"context": "{\"user\":\"SirStendec\",\"coount\":5,\"tier\":\"1\",\"channel\":\"Quoteconut\"}",
+			"context": "{\"count\":10,\"channel\":\"pyromancer\"}",
 			"revision": 1
 		},
 		"chat.sub.gift-first": {
@@ -2625,9 +2753,9 @@
 		"chat.sub.gift-total": {
 			"id": "chat.sub.gift-total",
 			"doc": "core",
-			"default": "They've gifted {count} Subs in the channel!",
+			"default": "They've gifted {count,number} Subs in the channel!",
 			"source": "/src/sites/twitch-twilight/modules/chat/line.js:486:19",
-			"context": null,
+			"context": "{\"count\":36}",
 			"revision": 1
 		},
 		"chat.sub.main": {
@@ -2699,7 +2827,7 @@
 			"doc": "core",
 			"default": "Clipped by {curator} — {views, plural, one {# View} other {# Views}}",
 			"source": "/src/modules/chat/rich_providers.js:133:13",
-			"context": "{\"curator\":{\"type\":\"link\",\"url\":\"https://www.twitch.tv/warchamp7\",\"content\":{\"type\":\"style\",\"color\":\"alt-2\",\"content\":\"Warchamp7\"}},\"views\":47}",
+			"context": "{\"curator\":{\"type\":\"link\",\"url\":\"https://www.twitch.tv/dexm23\",\"content\":{\"type\":\"style\",\"color\":\"alt-2\",\"content\":\"DexM23\"}},\"views\":43807}",
 			"revision": 2
 		},
 		"clip.unknown": {
@@ -2717,6 +2845,69 @@
 			"source": "tList (/src/sites/twitch-twilight/modules/menu_button.jsx:428:36)",
 			"context": null,
 			"revision": 1
+		},
+		"debug.link-provider.allow.media": {
+			"id": "debug.link-provider.allow.media",
+			"doc": "client",
+			"default": "Allow Media",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:2463)",
+			"context": null
+		},
+		"debug.link-provider.allow.unsafe": {
+			"id": "debug.link-provider.allow.unsafe",
+			"doc": "client",
+			"default": "Allow NSFW",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:2933)",
+			"context": null
+		},
+		"debug.link-provider.embed": {
+			"id": "debug.link-provider.embed",
+			"doc": "client",
+			"default": "Rich Embed",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:4612)",
+			"context": null
+		},
+		"debug.link-provider.force-tooltip": {
+			"id": "debug.link-provider.force-tooltip",
+			"doc": "client",
+			"default": "Force Tooltip",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:3887)",
+			"context": null
+		},
+		"debug.link-provider.full-embed": {
+			"id": "debug.link-provider.full-embed",
+			"doc": "client",
+			"default": "Full Embed",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:5026)",
+			"context": null
+		},
+		"debug.link-provider.link": {
+			"id": "debug.link-provider.link",
+			"doc": "client",
+			"default": "Chat Link",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:3423)",
+			"context": null
+		},
+		"debug.link-provider.raw": {
+			"id": "debug.link-provider.raw",
+			"doc": "client",
+			"default": "Raw Data",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:5463)",
+			"context": null
+		},
+		"debug.link-provider.refresh": {
+			"id": "debug.link-provider.refresh",
+			"doc": "client",
+			"default": "Refresh",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:1884)\nt (/src/modules/main_menu/components/link-tester.vue:1:3198)",
+			"context": null
+		},
+		"debug.link-provider.url": {
+			"id": "debug.link-provider.url",
+			"doc": "client",
+			"default": "Test URL",
+			"source": "t (/src/modules/main_menu/components/link-tester.vue:1:343)",
+			"context": null
 		},
 		"directory.block": {
 			"id": "directory.block",
@@ -3261,6 +3452,13 @@
 			"source": "Chat.tooltip (/src/modules/chat/tokenizers.jsx:1054:15)",
 			"context": "{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}",
 			"revision": 1
+		},
+		"emote.ffz.status.1": {
+			"id": "emote.ffz.status.1",
+			"doc": "client",
+			"default": "Approved",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
 		},
 		"emote.follower": {
 			"id": "emote.follower",
@@ -4337,9 +4535,9 @@
 		"tooltip.link-unsafe": {
 			"id": "tooltip.link-unsafe",
 			"doc": "core",
-			"default": "Caution: This URL is on Google's Safe Browsing List for: {reasons}",
+			"default": "Caution: This URL is has been flagged as potentially harmful by: {reasons}",
 			"source": "/src/modules/chat/tokenizers.jsx:68:14",
-			"context": null,
+			"context": "{\"reasons\":\"malware\"}",
 			"revision": 1
 		},
 		"tooltip.link.urls": {
@@ -4409,9 +4607,9 @@
 		"video.desc.2": {
 			"id": "video.desc.2",
 			"doc": "core",
-			"default": "{length,duration} — {views,number} Views - {date,datetime}",
+			"default": "{length,duration} — {views,number} Views — {date,datetime}",
 			"source": "/src/modules/chat/rich_providers.js:197:13",
-			"context": "{\"length\":12345,\"views\":12,\"date\":\"2010-01-01T00:00:00.0000Z\"}",
+			"context": "{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}",
 			"revision": 2
 		},
 		"video.published-on": {
@@ -4424,6 +4622,34 @@
 		}
 	},
 	"embed": {
+		"embed.bttv.animated-emote": {
+			"id": "embed.bttv.animated-emote",
+			"doc": "embed",
+			"default": "Animated Emote",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.bttv.by-line": {
+			"id": "embed.bttv.by-line",
+			"doc": "embed",
+			"default": "By: {user}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"user\":{\"type\":\"link\",\"url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"content\":{\"type\":\"style\",\"weight\":\"semibold\",\"content\":\"MadLittleCat\"}}}"
+		},
+		"embed.bttv.status.approved": {
+			"id": "embed.bttv.status.approved",
+			"doc": "embed",
+			"default": "Approved",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.bttv.uploader": {
+			"id": "embed.bttv.uploader",
+			"doc": "embed",
+			"default": "Uploader",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
 		"embed.discord.channel": {
 			"id": "embed.discord.channel",
 			"doc": "core",
@@ -4448,6 +4674,265 @@
 			"context": "{\"name\":{\"type\":\"style\",\"weight\":\"semibold\",\"content\":\"The Cohhilition\"}}",
 			"revision": 1
 		},
+		"embed.ffz.by-line": {
+			"id": "embed.ffz.by-line",
+			"doc": "embed",
+			"default": "By: {user}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"user\":{\"type\":\"link\",\"url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"content\":{\"type\":\"style\",\"weight\":\"semibold\",\"content\":\"SirStendec\"}}}"
+		},
+		"embed.ffz.emote": {
+			"id": "embed.ffz.emote",
+			"doc": "embed",
+			"default": "Emote",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.ffz.owner": {
+			"id": "embed.ffz.owner",
+			"doc": "embed",
+			"default": "Owner",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.ffz.public": {
+			"id": "embed.ffz.public",
+			"doc": "embed",
+			"default": "Public",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.ffz.user-line": {
+			"id": "embed.ffz.user-line",
+			"doc": "embed",
+			"default": "{count,plural,one {# User} other {{count,number} Users}}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"count\":1423}"
+		},
+		"embed.ffz.users": {
+			"id": "embed.ffz.users",
+			"doc": "embed",
+			"default": "Users",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.horaro.ended": {
+			"id": "embed.horaro.ended",
+			"doc": "embed",
+			"default": "Ended {when}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"when\":{\"type\":\"format\",\"format\":\"relative\",\"value\":\"2021-02-21T05:20:00.000Z\"}}"
+		},
+		"embed.horaro.event-ended": {
+			"id": "embed.horaro.event-ended",
+			"doc": "embed",
+			"default": "Event has ended",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.horaro.last": {
+			"id": "embed.horaro.last",
+			"doc": "embed",
+			"default": "Last",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.horaro.range": {
+			"id": "embed.horaro.range",
+			"doc": "embed",
+			"default": "{start} to {end}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"start\":{\"type\":\"format\",\"format\":\"datetime\",\"value\":\"2021-02-21T04:30:00.000Z\"},\"end\":{\"type\":\"format\",\"format\":\"time\",\"value\":\"2021-02-21T05:20:00.000Z\"}}"
+		},
+		"embed.imgur.album": {
+			"id": "embed.imgur.album",
+			"doc": "embed",
+			"default": "Imgur Album",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.imgur.album-stats": {
+			"id": "embed.imgur.album-stats",
+			"doc": "embed",
+			"default": "{images,plural,one{# Image}other{# Images}} • {views,plural,one{# View}other{{views,number} Views}}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"images\":28,\"views\":84647}"
+		},
+		"embed.imgur.by": {
+			"id": "embed.imgur.by",
+			"doc": "embed",
+			"default": "By: {user}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"user\":{\"type\":\"link\",\"url\":\"https://imgur.com/user/CovertFlamingo\",\"content\":{\"type\":\"style\",\"weight\":\"semibold\",\"color\":\"alt-2\",\"content\":\"CovertFlamingo\"}}}"
+		},
+		"embed.imgur.dimensions": {
+			"id": "embed.imgur.dimensions",
+			"doc": "embed",
+			"default": "Dimensions",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.imgur.dislikes": {
+			"id": "embed.imgur.dislikes",
+			"doc": "embed",
+			"default": "Downvotes",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.imgur.gallery": {
+			"id": "embed.imgur.gallery",
+			"doc": "embed",
+			"default": "Imgur Gallery",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.imgur.gallery-extra": {
+			"id": "embed.imgur.gallery-extra",
+			"doc": "embed",
+			"default": "{posted,datetime} • {points,plural,one{# Point}other{{points,number} Points}} • 👍 {likes,number}  • 👎 {dislikes,number}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
+		},
+		"embed.imgur.images": {
+			"id": "embed.imgur.images",
+			"doc": "embed",
+			"default": "Images",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.imgur.likes": {
+			"id": "embed.imgur.likes",
+			"doc": "embed",
+			"default": "Upvotes",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.imgur.more": {
+			"id": "embed.imgur.more",
+			"doc": "embed",
+			"default": "and {count,number} more",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"count\":24}"
+		},
+		"embed.imgur.score": {
+			"id": "embed.imgur.score",
+			"doc": "embed",
+			"default": "Score",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.imgur.views": {
+			"id": "embed.imgur.views",
+			"doc": "embed",
+			"default": "Views",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.metadata.untitled": {
+			"id": "embed.metadata.untitled",
+			"doc": "embed",
+			"default": "Untitled HTML Document",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.igt": {
+			"id": "embed.src.igt",
+			"doc": "embed",
+			"default": "IGT",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.joined": {
+			"id": "embed.src.joined",
+			"doc": "embed",
+			"default": "Joined {when}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"when\":{\"type\":\"format\",\"format\":\"date\",\"value\":\"2014-11-13T13:08:31Z\"}}"
+		},
+		"embed.src.more": {
+			"id": "embed.src.more",
+			"doc": "embed",
+			"default": "(and {count} more)",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"count\":32}"
+		},
+		"embed.src.pbs": {
+			"id": "embed.src.pbs",
+			"doc": "embed",
+			"default": "{user}'s Personal Bests",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"user\":\"Milk\"}"
+		},
+		"embed.src.place": {
+			"id": "embed.src.place",
+			"doc": "embed",
+			"default": "{place,selectordinal,one {#st} two {#nd} few {#rd} other {#th}}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"place\":47}"
+		},
+		"embed.src.rt": {
+			"id": "embed.src.rt",
+			"doc": "embed",
+			"default": "RT",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.subtitle": {
+			"id": "embed.src.subtitle",
+			"doc": "embed",
+			"default": "{wrs,plural,one {# Record} other {# Records}} • {runs,plural,one {# Run} other {# Runs}} • {games,plural,one {# Game} other {# Games}} • {cats,plural,one {# Category} other {# Categories}}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
+		},
+		"embed.src.t-cat": {
+			"id": "embed.src.t-cat",
+			"doc": "embed",
+			"default": "Category",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.t-game": {
+			"id": "embed.src.t-game",
+			"doc": "embed",
+			"default": "Game",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.t-place": {
+			"id": "embed.src.t-place",
+			"doc": "embed",
+			"default": "Place",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.t-submitted": {
+			"id": "embed.src.t-submitted",
+			"doc": "embed",
+			"default": "Submitted",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.t-time": {
+			"id": "embed.src.t-time",
+			"doc": "embed",
+			"default": "Time",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.src.with": {
+			"id": "embed.src.with",
+			"doc": "embed",
+			"default": "with {players}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"players\":[{\"type\":\"link\",\"url\":\"https://www.speedrun.com/user/LoveBot\",\"content\":\"LoveBot\"}]}"
+		},
+		"embed.twitter.following": {
+			"id": "embed.twitter.following",
+			"doc": "embed",
+			"default": "Following",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
 		"embed.twitter.info-line": {
 			"id": "embed.twitter.info-line",
 			"doc": "core",
@@ -4456,6 +4941,27 @@
 			"context": "{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}",
 			"revision": 1
 		},
+		"embed.twitter.likes": {
+			"id": "embed.twitter.likes",
+			"doc": "embed",
+			"default": "Likes",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.twitter.profile-line": {
+			"id": "embed.twitter.profile-line",
+			"doc": "embed",
+			"default": "{tweets,plural,one {# Tweet} other {# Tweets}} • {following,number} Following • {followers,number} Followers • Joined {joined,date}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
+		},
+		"embed.twitter.retweets": {
+			"id": "embed.twitter.retweets",
+			"doc": "embed",
+			"default": "Retweets",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
 		"embed.twitter.tweeted": {
 			"id": "embed.twitter.tweeted",
 			"doc": "core",
@@ -4463,6 +4969,20 @@
 			"source": "tList (/src/utilities/rich_tokens.js:802:11)",
 			"context": "{\"tweet\":\"This is some kind of tweet text.\"}",
 			"revision": 1
+		},
+		"embed.twitter.tweets": {
+			"id": "embed.twitter.tweets",
+			"doc": "embed",
+			"default": "Tweets",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": null
+		},
+		"embed.youtube.info-1": {
+			"id": "embed.youtube.info-1",
+			"doc": "embed",
+			"default": "{channel} • {views,plural,one {# View} other {{views,number} Views}} • 👍 {likes,number}  • 👎 {dislikes,number}",
+			"source": "tList (/src/utilities/rich_tokens.js:814:11)",
+			"context": "{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 		}
 	},
 	"settings": {
@@ -4593,6 +5113,13 @@
 			"source": "Proxy.render (/src/modules/main_menu/components/addon.vue?b78f:220:0)",
 			"context": null,
 			"revision": 1
+		},
+		"addon.show-less": {
+			"id": "addon.show-less",
+			"doc": "settings",
+			"default": "(Show Less)",
+			"source": "t (/src/modules/main_menu/components/addon.vue:3:1100)",
+			"context": null
 		},
 		"addon.show-more": {
 			"id": "addon.show-more",
@@ -5337,6 +5864,41 @@
 			"source": "FFZ Control Center",
 			"context": null,
 			"revision": 1
+		},
+		"setting.add_ons.7tv_emotes": {
+			"id": "setting.add_ons.7tv_emotes",
+			"doc": "settings",
+			"default": "7TV Emotes",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\n_l (/src/modules/main_menu/components/menu-tree.vue:1:1220)\n_l (/src/modules/main_menu/components/menu-page.vue:1:179)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.emotes": {
+			"id": "setting.add_ons.7tv_emotes.emotes",
+			"doc": "settings",
+			"default": "Emotes",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.emotes.emote_visibility": {
+			"id": "setting.add_ons.7tv_emotes.emotes.emote_visibility",
+			"doc": "settings",
+			"default": "Emote Visibility",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.emotes.live_emote_updates": {
+			"id": "setting.add_ons.7tv_emotes.emotes.live_emote_updates",
+			"doc": "settings",
+			"default": "Live Emote Updates",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.user_cosmetics": {
+			"id": "setting.add_ons.7tv_emotes.user_cosmetics",
+			"doc": "settings",
+			"default": "User Cosmetics",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
 		},
 		"setting.add_ons.changelog": {
 			"id": "setting.add_ons.changelog",
@@ -9808,6 +10370,41 @@
 			"source": "",
 			"context": null,
 			"revision": 1
+		},
+		"setting.entry.debug.link-resolver.source.values.dev": {
+			"id": "setting.entry.debug.link-resolver.source.values.dev",
+			"doc": "settings",
+			"default": "localhost",
+			"source": "_l (/src/modules/main_menu/components/setting-select-box.vue:1:827)",
+			"context": null
+		},
+		"setting.entry.debug.link-resolver.source.values.null": {
+			"id": "setting.entry.debug.link-resolver.source.values.null",
+			"doc": "settings",
+			"default": "Automatic",
+			"source": "_l (/src/modules/main_menu/components/setting-select-box.vue:1:827)",
+			"context": null
+		},
+		"setting.entry.debug.link-resolver.source.values.prod": {
+			"id": "setting.entry.debug.link-resolver.source.values.prod",
+			"doc": "settings",
+			"default": "API Production",
+			"source": "_l (/src/modules/main_menu/components/setting-select-box.vue:1:827)",
+			"context": null
+		},
+		"setting.entry.debug.link-resolver.source.values.socket": {
+			"id": "setting.entry.debug.link-resolver.source.values.socket",
+			"doc": "settings",
+			"default": "Socket Cluster (Deprecated)",
+			"source": "_l (/src/modules/main_menu/components/setting-select-box.vue:1:827)",
+			"context": null
+		},
+		"setting.entry.debug.link-resolver.source.values.test": {
+			"id": "setting.entry.debug.link-resolver.source.values.test",
+			"doc": "settings",
+			"default": "API Test",
+			"source": "_l (/src/modules/main_menu/components/setting-select-box.vue:1:827)",
+			"context": null
 		},
 		"setting.entry.directory.following.group-hosts": {
 			"id": "setting.entry.directory.following.group-hosts",

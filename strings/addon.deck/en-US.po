@@ -99,9 +99,9 @@ msgid "addon.deck.clipped-by"
 msgstr "Clipped by {user}"
 
 #: /src/deck/components/bd-tab-editor.vue:33
-#, icu-message-format, lp-defaults:"{\"count\":0}"
+#, icu-message-format, lp-defaults:"{\"count\":4}"
 msgid "addon.deck.column-count"
-msgstr "{count, plural, one {# column} other {# columns}}"
+msgstr "{count, plural, one {# column} other {# columns} }"
 
 #: /src/deck/components/bd-column-editor.vue:133
 #, icu-message-format

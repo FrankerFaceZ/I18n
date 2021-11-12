@@ -81,6 +81,11 @@ msgstr "Only display enabled add-ons."
 msgid "addon.settings"
 msgstr "Settings"
 
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Show Less)"
+
 #: /src/modules/main_menu/components/addon.vue:134
 #, icu-message-format
 msgid "addon.show-more"
@@ -714,6 +719,37 @@ msgstr "Add"
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons"
 msgstr "Add-Ons"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-tree.vue:1
+#: /src/modules/main_menu/components/menu-page.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes"
+msgstr "7TV Emotes"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes"
+msgstr "Emotes"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes.emote_visibility"
+msgstr "Emote Visibility"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes.live_emote_updates"
+msgstr "Live Emote Updates"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.user_cosmetics"
+msgstr "User Cosmetics"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
@@ -3770,6 +3806,31 @@ msgstr ""
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source"
 msgstr "Link Resolver"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.dev"
+msgstr "localhost"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.null"
+msgstr "Automatic"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.prod"
+msgstr "API Production"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.socket"
+msgstr "Socket Cluster (Deprecated)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.test"
+msgstr "API Test"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"

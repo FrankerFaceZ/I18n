@@ -44,8 +44,23 @@ msgstr "An error occurred."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgid "card.error.empty"
+msgstr "No Information Available"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
 msgid "card.error.invalid-host"
 msgstr "The provided URL has an invalid host and cannot be checked."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "The provided URL has a non-standard port and will not be checked."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "The provided URL does not use HTTP and will not be checked."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -57,6 +72,11 @@ msgstr "A network error occured."
 #, icu-message-format
 msgid "card.error.timeout"
 msgstr "The request timed out."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "No handler supports this URL."
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:101:14
 #, icu-message-format
@@ -462,11 +482,11 @@ msgstr ""
 "{streak,number} month streak!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:468:21
-#, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"coount\":5,\"tier\":\"1\",\"channel\":\"Quoteconut\"}"
+#, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
 msgid "chat.sub.gift"
 msgstr ""
 "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier "
-"{tier} Subs}} to {channel}'s community!"
+"{tier} Subs}} to {channel}'s community! "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -485,9 +505,9 @@ msgid "chat.sub.gift-plan"
 msgstr "Tier {tier}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:486:19
-#, icu-message-format
+#, icu-message-format, lp-defaults:"{\"count\":36}"
 msgid "chat.sub.gift-total"
-msgstr "They've gifted {count} Subs in the channel!"
+msgstr "They've gifted {count,number} Subs in the channel!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:614
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\"}"
@@ -530,7 +550,7 @@ msgid "clip.desc.1.playing"
 msgstr "{user} playing {game}"
 
 #: /src/modules/chat/rich_providers.js:133:13
-#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/warchamp7\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"Warchamp7\",\"views\":47}"
+#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
 msgid "clip.desc.2"
 msgstr "Clipped by {curator} — {views, plural, one {# View} other {# Views}}"
 
@@ -546,6 +566,52 @@ msgstr ""
 "You have \"FrankerFaceZ Emotes\" turned on in BetterTTV's settings, but you "
 "also have FrankerFaceZ installed. Please disable \"FrankerFaceZ Emotes\" in "
 "BetterTTV's settings. It isn't necessary."
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr "Allow Media"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr "Allow NSFW"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr "Rich Embed"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr "Force Tooltip"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr "Full Embed"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr "Chat Link"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr "Raw Data"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr "Refresh"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr "Test URL"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:97:5
 #, icu-message-format
@@ -911,6 +977,11 @@ msgid "emote.bits-owner"
 msgstr ""
 "{source}\n"
 "Channel: {channel}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr "Approved"
 
 #: /src/modules/chat/tokenizers.jsx:1365
 #, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
@@ -1627,9 +1698,9 @@ msgid "tooltip.link-destination"
 msgstr "Destination: {url}"
 
 #: /src/modules/chat/tokenizers.jsx:68:14
-#, icu-message-format
+#, icu-message-format, lp-defaults:"{\"reasons\":\"malware\"}"
 msgid "tooltip.link-unsafe"
-msgstr "Caution: This URL is on Google's Safe Browsing List for: {reasons}"
+msgstr "Caution: This URL is has been flagged as potentially harmful by: {reasons}"
 
 #, icu-message-format
 msgid "tooltip.link.urls"
@@ -1671,9 +1742,9 @@ msgid "video.desc.1"
 msgstr "Video of {user}"
 
 #: /src/modules/chat/rich_providers.js:197:13
-#, icu-message-format, lp-defaults:"{\"length\":12345,\"views\":12,\"date\":\"2010-01-01T00:00:00.0000Z\"}"
+#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
 msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Views - {date,datetime}"
+msgstr "{length,duration} — {views,number} Views — {date,datetime}"
 
 #: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
