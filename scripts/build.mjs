@@ -115,7 +115,28 @@ for(const lang of Object.keys(output)) {
 
 await Promise.all(promises);
 
+
 const compare = new Intl.Collator();
+
+// Strings File
+
+const raw_strings = JSON.parse(await fs.promises.readFile('strings.json', {encoding: 'utf8'}));
+const strings = [];
+
+for(const data of Object.values(raw_strings))
+	for(const entry of Object.values(data))
+		if (entry?.id) {
+			if (entry.revision)
+				entry.revision = undefined;
+
+			strings.push(entry);
+		}
+
+strings.sort((a,b) => compare.compare(a.id, b.id));
+const string_out = JSON.stringify(strings);
+const string_hash = crypto.createHash('sha256').update(string_out).digest('hex').slice(0,20);
+
+// locales.json hashing and sorting
 
 const vals = Object.values(manifest);
 vals.sort((a,b) => compare.compare(a.id, b.id));
@@ -123,9 +144,12 @@ vals.sort((a,b) => compare.compare(a.id, b.id));
 const out = JSON.stringify(vals);
 const hash = crypto.createHash('sha256').update(out).digest('hex').slice(0,20);
 
+// final writing
+await fs.promises.writeFile(path.join('dist', `strings.${string_hash}.json`), string_out);
 await fs.promises.writeFile(path.join('dist', `locales.${hash}.json`), out);
 await fs.promises.writeFile(path.join('dist', 'manifest.json'), JSON.stringify({
-	'locale/locales.json': `locale/locales.${hash}.json`
+	'locale/locales.json': `locale/locales.${hash}.json`,
+	'locale/strings.json': `locale/strings.${string_hash}.json`
 }));
 
 })();
