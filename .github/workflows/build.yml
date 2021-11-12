@@ -1,0 +1,48 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '16.x'
+
+    - name: Install Dependencies
+      run: npm ci
+
+    - name: Build
+      run: npm run build
+
+    - name: Deploy (Clean)
+      uses: garygrossgarten/github-action-ssh@release
+      with:
+        command: $HOME/clean-locale.sh
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Deploy (Copy)
+      uses: garygrossgarten/github-action-scp@release
+      with:
+        local: dist
+        remote: locale
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Deploy (Execute)
+      uses: garygrossgarten/github-action-ssh@release
+      with:
+        command:  $HOME/update-locale.sh
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
