@@ -466,7 +466,7 @@ msgstr ""
 msgid "chat.sub.gift"
 msgstr ""
 "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier "
-"{tier} Subs} to {channel}'s community!"
+"{tier} Subs}} to {channel}'s community!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -1594,7 +1594,7 @@ msgstr "{count,number} Bits"
 #: /src/modules/chat/tokenizers.jsx:790:13
 #, icu-message-format
 msgid "tooltip.bits.more"
-msgstr "(and {count} more)"
+msgstr "(and {count, number} more)"
 
 #: /src/modules/chat/tokenizers.jsx:1044:14
 #, icu-message-format, lp-defaults:"{\"source\":\"sirstendec\"}"

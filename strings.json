@@ -2593,7 +2593,7 @@
 		"chat.sub.gift": {
 			"id": "chat.sub.gift",
 			"doc": "core",
-			"default": "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier {tier} Subs} to {channel}'s community!",
+			"default": "{user} is gifting {count, plural, one {# Tier {tier} Sub} other {# Tier {tier} Subs}} to {channel}'s community!",
 			"source": "/src/sites/twitch-twilight/modules/chat/line.js:468:21",
 			"context": "{\"user\":\"SirStendec\",\"coount\":5,\"tier\":\"1\",\"channel\":\"Quoteconut\"}",
 			"revision": 1
@@ -4281,7 +4281,7 @@
 		"tooltip.bits.more": {
 			"id": "tooltip.bits.more",
 			"doc": "core",
-			"default": "(and {count} more)",
+			"default": "(and {count, number} more)",
 			"source": "/src/modules/chat/tokenizers.jsx:790:13",
 			"context": null,
 			"revision": 1
