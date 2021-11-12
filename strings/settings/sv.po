@@ -671,6 +671,9 @@ msgstr "Säkerhetskopiering och Återställning"
 msgid "setting.data_management.profiles"
 msgstr "Profiler"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Redigera Profil"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Beskrivning"
 
@@ -679,9 +682,6 @@ msgstr "Allmänt"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Namn"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Redigera Profil"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Regler"
@@ -813,14 +813,14 @@ msgstr "Justering"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Ändra användarnamnens färg så det blir läsbara."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Ingen Färg"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Oförändrade"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Ingen Färg"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -878,11 +878,6 @@ msgstr "Visa animerade cheers."
 msgid "setting.entry.chat.bits.show"
 msgstr "Visa Bitar"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Visa användargränssnitt som är kopplat till bitar. Notera: Detta gömmer "
-"inte cheers i chat meddelanden."
-
 msgid "setting.entry.chat.bits.show-rewards"
 msgstr "Visa meddelanden när en cheer delar belöningar med folk i chatten."
 
@@ -890,6 +885,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Som standard, ärver detta sitt värde från Visa Bitar. Denna inställningen "
 "påverkar bara nya meddelanden."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Visa användargränssnitt som är kopplat till bitar. Notera: Detta gömmer "
+"inte cheers i chat meddelanden."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Cheer Stapling"
@@ -922,11 +922,11 @@ msgstr ""
 "Försena uppkomsten av chat meddelanden genom att tillåta moderation innan "
 "du ser dem."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Ingen Fördröjning"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Standardfördröjning (Rumspecifikt, Endast för Icke-Moderatorer)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Ingen Fördröjning"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra Lång (10s)"
@@ -1032,11 +1032,11 @@ msgstr "Namn, Fallande"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
 msgstr "Lista emotes efter högre prenumerations nivåer sist."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Aktivera öppning av tittarkort genom att klicka på omnämnanden i chatten."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Klicka för att visa raderade termer."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Aktivera öppning av tittarkort genom att klicka på omnämnanden i chatten."
 
 msgid "setting.entry.chat.filtering.deleted-style.description"
 msgstr ""
@@ -1362,6 +1362,9 @@ msgstr "Visa prenumerations notiser i en mer kompakt (klassik stil) form."
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Slå samman Mass Prenumerations Gåvor"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Utvigda sammanslagna mass gåvoprenumerationer som standard."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Slå samman gåvoprenumerationer till ett meddelande, beroende på antalet.\n"
@@ -1384,9 +1387,6 @@ msgstr "Fler än 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Fler än 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Utvigda sammanslagna mass gåvoprenumerationer som standard."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Visa Prenumerationer i chatten."
@@ -1440,18 +1440,6 @@ msgstr ""
 "här](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Med Utrymme Omkring"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "24 Timmar Med Utrymme Omkring 24"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Sekunder Med Utrymme Omkring"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "24 Timmar med Sekunder Med Utrymme Omkring"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Timmar"
 
@@ -1463,6 +1451,18 @@ msgstr "12 Timmar med Sekunder"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Timmar med Sekunder"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Med Utrymme Omkring"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "24 Timmar Med Utrymme Omkring 24"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Sekunder Med Utrymme Omkring"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "24 Timmar med Sekunder Med Utrymme Omkring"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Aktivera FrankerFaceZ funktion för Chat på Videos."
@@ -1627,11 +1627,6 @@ msgstr "Skjut upp hemsidans navigeringsfält ur vyn när den inte används."
 msgid "setting.entry.layout.portrait"
 msgstr "Aktivera Porträttläge."
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"I Porträttläge visas chatten under spelaren när fönstret är bredare än det "
-"är högt."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Placera chatten överst i porträttläge."
 
@@ -1640,6 +1635,11 @@ msgstr "Tröskelvärde för Porträttläge"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Detta är Bredd till Höjd ration när Porträtt Mode kommer att aktiveras."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"I Porträttläge visas chatten under spelaren när fönstret är bredare än det "
+"är högt."
 
 msgid "setting.entry.layout.side-nav.hide-offline"
 msgstr "Göm offline-kanaler"
@@ -1898,11 +1898,6 @@ msgstr "Visa alltid volymreglaget."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Justera volymen genom att röra på mushjulet."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Denna inställningen kommer inte att fungera korrekt med synliga tillägg "
-"när mus interaktion med tillägg är tillåtna.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Volymrullningsbelopp"
 
@@ -1920,6 +1915,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Denna inställningen kommer inte att fungera korrekt med synliga tillägg "
+"när mus interaktion med tillägg är tillåtna.*"
 
 msgid "setting.entry.profiles"
 msgstr "profiler"
@@ -2196,6 +2196,9 @@ msgstr "Teaterläge"
 msgid "setting.player.general.volume"
 msgstr "Volym"
 
+msgid "setting.profile.updates"
+msgstr "Denna profilen kommer automatiskt uppdateras från följande URL:"
+
 msgid "setting.profiles.active"
 msgstr "Denna profil är aktiverad och aktiv."
 
@@ -2244,9 +2247,6 @@ msgstr ""
 "Är du säker på att du vill radera denna profil? Profilen kan inte "
 "återställas."
 
-msgid "setting.profile.updates"
-msgstr "Denna profilen kommer automatiskt uppdateras från följande URL:"
-
 msgid "setting.reasons.add-default"
 msgstr "Lägg till Standardvärden"
 
@@ -2275,6 +2275,50 @@ msgstr "Återställ Alla till Standardvärden"
 
 msgid "setting.save"
 msgstr "Spara"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Lägg till en ny term"
+
+msgid "setting.terms.add-term"
+msgstr "Lägg till"
+
+msgid "setting.terms.no-terms"
+msgstr "Inga termer är definerade i denna profilen"
+
+msgid "setting.terms.remove.off"
+msgstr "Ta inte bort matchande meddelanden från chatten."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Ord)"
+
+msgid "setting.terms.type.text"
+msgstr "Text"
+
+msgid "setting.tooltip-example"
+msgstr "Till exempel, vänligen för muspekaren över denna länken:"
+
+msgid "setting.true"
+msgstr "Sant"
+
+msgid "setting.unset"
+msgstr "Ta bort"
+
+msgid "setting.visible"
+msgstr "Synlig"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Dessa värden överskrids av en annan profil och kommer eventuellt inte att "
+"ta effekt."
+
+msgid "setting.warn-unsaved"
+msgstr "Du har osparade ändringar. Är du säker på att du vill lämna redigeraren?"
 
 msgid "settings.filter.category"
 msgstr "Aktuell Kategori"
@@ -2413,47 +2457,3 @@ msgstr "Startar:"
 
 msgid "settings.filter.true_false"
 msgstr "Sant eller Falskt"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Lägg till en ny term"
-
-msgid "setting.terms.add-term"
-msgstr "Lägg till"
-
-msgid "setting.terms.no-terms"
-msgstr "Inga termer är definerade i denna profilen"
-
-msgid "setting.terms.remove.off"
-msgstr "Ta inte bort matchande meddelanden från chatten."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Ord)"
-
-msgid "setting.terms.type.text"
-msgstr "Text"
-
-msgid "setting.tooltip-example"
-msgstr "Till exempel, vänligen för muspekaren över denna länken:"
-
-msgid "setting.true"
-msgstr "Sant"
-
-msgid "setting.unset"
-msgstr "Ta bort"
-
-msgid "setting.visible"
-msgstr "Synlig"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Dessa värden överskrids av en annan profil och kommer eventuellt inte att "
-"ta effekt."
-
-msgid "setting.warn-unsaved"
-msgstr "Du har osparade ändringar. Är du säker på att du vill lämna redigeraren?"

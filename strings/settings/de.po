@@ -790,6 +790,28 @@ msgstr ""
 "ausblenden möchtest, gehe zu [Chat > Abzeichen >> "
 "Sichtbarkeit](~chat.badges.tabs.visibility)."
 
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Nachrichtenarten"
+
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"Dieser Filter ermöglicht das Entfernen aller Nachrichten einer bestimmten "
+"Art aus dem Twitch-Chat. Er kann zum Filtern von Systemnachrichten, wie z. "
+"B. Hosts oder Raids, verwendet werden. Einige Arten, wie z. B. "
+"Moderationsaktionen, können nicht blockiert werden, um die "
+"Chatfunktionalität nicht zu beeinträchtigen."
+
+msgid "setting.chat.filtering.block.terms"
+msgstr "Begriffe"
+
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Einzelheiten zur Verwendung von Begriffen findest du unter [Chat > "
+"Filterung > Hilfe zur Syntax](~chat.filtering.syntax_help)."
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Benutzer"
+
 msgid "setting.chat.filtering.blocked_badges"
 msgstr "Blockierte Abzeichen"
 
@@ -817,28 +839,6 @@ msgstr "Blockierte Begriffe"
 msgid "setting.chat.filtering.blocked_users"
 msgstr "Blockierte Benutzer"
 
-msgid "setting.chat.filtering.block.message_types"
-msgstr "Nachrichtenarten"
-
-msgid "setting.chat.filtering.block.message_types.description"
-msgstr ""
-"Dieser Filter ermöglicht das Entfernen aller Nachrichten einer bestimmten "
-"Art aus dem Twitch-Chat. Er kann zum Filtern von Systemnachrichten, wie z. "
-"B. Hosts oder Raids, verwendet werden. Einige Arten, wie z. B. "
-"Moderationsaktionen, können nicht blockiert werden, um die "
-"Chatfunktionalität nicht zu beeinträchtigen."
-
-msgid "setting.chat.filtering.block.terms"
-msgstr "Begriffe"
-
-msgid "setting.chat.filtering.block.terms.description"
-msgstr ""
-"Einzelheiten zur Verwendung von Begriffen findest du unter [Chat > "
-"Filterung > Hilfe zur Syntax](~chat.filtering.syntax_help)."
-
-msgid "setting.chat.filtering.block.users"
-msgstr "Benutzer"
-
 msgid "setting.chat.filtering.general"
 msgstr "Allgemein"
 
@@ -863,6 +863,12 @@ msgstr "Hervorhebung"
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "Hervorgehobene Abzeichen"
 
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Hervorgehobene Begriffe"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Hervorgehobene Benutzer"
+
 msgid "setting.chat.filtering.highlight.badges"
 msgstr "Abzeichen"
 
@@ -879,9 +885,6 @@ msgstr ""
 "hervorheben, indem du eine Farbe mit einem Alphawert von Null festlegst. "
 "Beispiel: `#00000000`"
 
-msgid "setting.chat.filtering.highlight_terms"
-msgstr "Hervorgehobene Begriffe"
-
 msgid "setting.chat.filtering.highlight.terms"
 msgstr "Begriffe"
 
@@ -889,9 +892,6 @@ msgid "setting.chat.filtering.highlight.terms.description"
 msgstr ""
 "Einzelheiten zur Verwendung von Begriffen findest du unter [Chat > "
 "Filterung > Hilfe zur Syntax](~chat.filtering.syntax_help)."
-
-msgid "setting.chat.filtering.highlight_users"
-msgstr "Hervorgehobene Benutzer"
 
 msgid "setting.chat.filtering.highlight.users"
 msgstr "Benutzer"
@@ -1016,6 +1016,9 @@ msgstr "Sichern und Wiederherstellen"
 msgid "setting.data_management.profiles"
 msgstr "Profile"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Profil bearbeiten"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Beschreibung"
 
@@ -1027,9 +1030,6 @@ msgstr "Hotkey"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Name"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Profil bearbeiten"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Regeln"
@@ -1155,11 +1155,11 @@ msgstr ""
 "werden. Um beste Ergebnisse zu erzielen, kannst du Kategorien direkt von "
 "den Verzeichnisseiten aus blockieren oder die Blockierung aufheben."
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Verborgene Thumbnails"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "Stil für verborgene Thumbnails"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Verborgene Thumbnails"
 
 msgid "setting.directory.channels"
 msgstr "Kanäle"
@@ -1300,14 +1300,14 @@ msgstr "Anpassung"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Ändert die Benutzerfarben, um sicherzustellen, dass sie lesbar bleiben."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Keine Farbe"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Unverändert"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Keine Farbe"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1432,11 +1432,6 @@ msgstr ""
 msgid "setting.entry.chat.bits.show"
 msgstr "Bits anzeigen"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Mit Bits verknüpfte Benutzeroberfläche anzeigen. Hinweis: Dies wird "
-"Cheering nicht in Chatnachrichten verbergen."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Ranglisten anzeigen"
 
@@ -1457,6 +1452,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Standardmäßig erbt dieser seinen Wert von Bits anzeigen. Diese Einstellung "
 "betrifft nur neue Nachrichten."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Mit Bits verknüpfte Benutzeroberfläche anzeigen. Hinweis: Dies wird "
+"Cheering nicht in Chatnachrichten verbergen."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Cheer stapeln"
@@ -1491,11 +1491,11 @@ msgstr ""
 "Verzögere die Erscheinung von Chatnachrichten, um eine Moderation zu "
 "ermöglichen, bevor du sie siehst."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Keine Verzögerung"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Standardverzögerung (Raum spezifisch; kein Mod only)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Keine Verzögerung"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra lange (10 Sekunden)"
@@ -1713,13 +1713,13 @@ msgstr ""
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Erwähnungen im Chat fett gedruckt anzeigen."
 
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Klicken, um gelöschte Begriffe anzuzeigen."
+
 msgid "setting.entry.chat.filtering.clickable-mentions"
 msgstr ""
 "Öffnen von Zuschauerkarten durch Anklicken von Erwähnungen im Chat "
 "aktivieren."
-
-msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr "Klicken, um gelöschte Begriffe anzuzeigen."
 
 msgid "setting.entry.chat.filtering.color-mentions"
 msgstr "Erwähnungen im Chat mit der Farbe des Benutzers anzeigen."
@@ -2095,6 +2095,11 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Chatdurchlauf anhalten"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Die Maus muss sich über dem Chat befinden, um diesen mit einem Hotkey "
+"anzuhalten."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Verhindert, dass der Chat durchscrollt, wenn du die Maus über den Chat "
@@ -2102,11 +2107,6 @@ msgstr ""
 "\n"
 "**Hinweis:** Wenn du im Chat nach oben scrollst, wird das automatische "
 "Scrollen immer verhindert, unabhängig von dieser Einstellung."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr ""
-"Die Maus muss sich über dem Chat befinden, um diesen mit einem Hotkey "
-"anzuhalten."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
 msgstr "Einstellung von Twitch verwenden"
@@ -2206,6 +2206,9 @@ msgstr "Banner über dem Chat anzeigen, wenn mehrere Abos verschenkt werden."
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Verschenkte Abos zusammenfassen"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Zusammenfassung von verschenkten Massengeschenkabos automatisch erweitern."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Massengeschenkabos in einer einzigen Nachricht zusammenfassen, abhängig von "
@@ -2229,9 +2232,6 @@ msgstr "Mehr als 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Mehr als 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Zusammenfassung von verschenkten Massengeschenkabos automatisch erweitern."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Abonnements im Chat anzeigen"
@@ -2287,18 +2287,6 @@ msgstr ""
 "hier](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)."
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "12 Stunden mit führender Null"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "24 Stunden mit führender Null"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "12 Stunden mit führender Null (mit Sekunden)"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "24 Stunden mit führender Null (mit Sekunden)"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Stunden"
 
@@ -2310,6 +2298,18 @@ msgstr "12 Stunden (mit Sekunden)"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Stunden (mit Sekunden)"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "12 Stunden mit führender Null"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "24 Stunden mit führender Null"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "12 Stunden mit führender Null (mit Sekunden)"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "24 Stunden mit führender Null (mit Sekunden)"
 
 msgid "setting.entry.chat.timestamp-size"
 msgstr "Zeitstempel Schriftgröße"
@@ -2553,11 +2553,6 @@ msgstr ""
 msgid "setting.entry.layout.portrait"
 msgstr "Porträtmodus aktivieren"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"Im Porträtmodus wird der Chat unterhalb des Videoplayers angezeigt, wenn "
-"das Fenster höher als breit ist."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Chat über dem Videoplayer anzeigen, wenn der Porträtmodus aktiviert ist."
 
@@ -2578,6 +2573,11 @@ msgid "setting.entry.layout.portrait-threshold.description"
 msgstr ""
 "Dies ist das Verhältnis von Breite zu Höhe, ab dem der Porträtmodus "
 "aktiviert wird."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Im Porträtmodus wird der Chat unterhalb des Videoplayers angezeigt, wenn "
+"das Fenster höher als breit ist."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Prime-Loot anzeigen."
@@ -3045,12 +3045,6 @@ msgstr "Lautstärkeregler durchgehend erweitert lassen."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Lautstärke anpassen, indem du mit dem Mausrad scrollst."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Diese Einstellung wird bei Streams mit sichtbaren Erweiterungen nicht "
-"korrekt funktionieren, wenn die Mausinteraktion mit Erweiterungen erlaubt "
-"ist.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Lautstärkeänderung"
 
@@ -3070,6 +3064,12 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Diese Einstellung wird bei Streams mit sichtbaren Erweiterungen nicht "
+"korrekt funktionieren, wenn die Mausinteraktion mit Erweiterungen erlaubt "
+"ist.*"
 
 msgid "setting.entry.player.volume-scroll.values.2"
 msgstr "Aktiviert mit Rechtsklick"
@@ -3522,6 +3522,15 @@ msgstr "Lautstärke"
 msgid "setting.preview"
 msgstr "Hörprobe"
 
+msgid "setting.profile.updates"
+msgstr "Dieses Profil wird automatisch über die folgende URL aktualisiert: "
+
+msgid "setting.profile.updates-about"
+msgstr ""
+"Dieses Profil ist so eingestellt, dass es automatisch aktualisiert wird. "
+"Wenn dies geschieht, werden alle darin geänderten Einstellungen "
+"zurückgesetzt. Die Profilregeln werden ebenfalls zurückgesetzt."
+
 msgid "setting.profiles.active"
 msgstr "Dieses Profil ist aktiviert und aktiv."
 
@@ -3573,15 +3582,6 @@ msgid "setting.profiles.warn-delete"
 msgstr ""
 "Bist du sicher, dass du dieses Profil löschen möchtest? Dieser Vorgang kann "
 "nicht rückgängig gemacht werden."
-
-msgid "setting.profile.updates"
-msgstr "Dieses Profil wird automatisch über die folgende URL aktualisiert: "
-
-msgid "setting.profile.updates-about"
-msgstr ""
-"Dieses Profil ist so eingestellt, dass es automatisch aktualisiert wird. "
-"Wenn dies geschieht, werden alle darin geänderten Einstellungen "
-"zurückgesetzt. Die Profilregeln werden ebenfalls zurückgesetzt."
 
 msgid "setting.provider.about"
 msgstr ""
@@ -3681,6 +3681,74 @@ msgstr "Rechtsklick zum Zurücksetzen"
 msgid "setting.save"
 msgstr "Speichern"
 
+msgid "setting.space"
+msgstr "Abstand"
+
+msgid "setting.space-small"
+msgstr "Abstand (klein)"
+
+msgid "setting.space-small.desc"
+msgstr ""
+"Platziert einen kleinen Abstand zwischen dem vorherigen und dem "
+"nachfolgenden Element."
+
+msgid "setting.space.desc"
+msgstr ""
+"Platziert einen möglichst großen Abstand zwischen dem vorherigen und dem "
+"nachfolgenden Element."
+
+msgid "setting.terms.add-placeholder"
+msgstr "Neuen Begriff hinzufügen"
+
+msgid "setting.terms.add-term"
+msgstr "Hinzufügen"
+
+msgid "setting.terms.no-terms"
+msgstr "In diesem Profil sind keine Begriffe definiert."
+
+msgid "setting.terms.please-select"
+msgstr "Bitte wähle eine Option aus."
+
+msgid "setting.terms.remove.off"
+msgstr "Übereinstimmende Nachrichten nicht aus dem Chat entfernen."
+
+msgid "setting.terms.remove.on"
+msgstr "Übereinstimmende Nachrichten aus dem Chat entfernen."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Wort)"
+
+msgid "setting.terms.type.text"
+msgstr "Text"
+
+msgid "setting.tooltip-example"
+msgstr "Für ein Beispiel, fahre mit der Maus über diesen Link:"
+
+msgid "setting.true"
+msgstr "Wahr"
+
+msgid "setting.unset"
+msgstr "nicht gesetzt"
+
+msgid "setting.visible"
+msgstr "Sichtbar"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Diese Werte werden von einem anderen Profil überschrieben und könnten nicht "
+"funktionieren."
+
+msgid "setting.warn-unsaved"
+msgstr ""
+"Du hast nicht gespeicherte Änderungen. Bist du sicher, dass du den Editor "
+"verlassen möchtest?"
+
 msgid "settings.back"
 msgstr "Zurück"
 
@@ -3768,14 +3836,14 @@ msgstr "Dashboard: Präferenzen Moderation"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Dashboard: Präferenzen Affiliate"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Dashboard: Streaming-Tools"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Dashboard: Stream-Manager"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Dashboard: Stream-Übersicht"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Dashboard: Streaming-Tools"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Dashboard: Videoproduzent"
@@ -3890,22 +3958,6 @@ msgstr "Dieses Muster ist ungültig."
 msgid "settings.filter.true_false"
 msgstr "Wahr oder Falsch"
 
-msgid "setting.space"
-msgstr "Abstand"
-
-msgid "setting.space.desc"
-msgstr ""
-"Platziert einen möglichst großen Abstand zwischen dem vorherigen und dem "
-"nachfolgenden Element."
-
-msgid "setting.space-small"
-msgstr "Abstand (klein)"
-
-msgid "setting.space-small.desc"
-msgstr ""
-"Platziert einen kleinen Abstand zwischen dem vorherigen und dem "
-"nachfolgenden Element."
-
 msgid "settings.term.color.tip"
 msgstr "Farbe"
 
@@ -3933,55 +3985,3 @@ msgstr "Abc"
 
 msgid "settings.terms.word.tip"
 msgstr "Ganze Wörter abgleichen"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Neuen Begriff hinzufügen"
-
-msgid "setting.terms.add-term"
-msgstr "Hinzufügen"
-
-msgid "setting.terms.no-terms"
-msgstr "In diesem Profil sind keine Begriffe definiert."
-
-msgid "setting.terms.please-select"
-msgstr "Bitte wähle eine Option aus."
-
-msgid "setting.terms.remove.off"
-msgstr "Übereinstimmende Nachrichten nicht aus dem Chat entfernen."
-
-msgid "setting.terms.remove.on"
-msgstr "Übereinstimmende Nachrichten aus dem Chat entfernen."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Wort)"
-
-msgid "setting.terms.type.text"
-msgstr "Text"
-
-msgid "setting.tooltip-example"
-msgstr "Für ein Beispiel, fahre mit der Maus über diesen Link:"
-
-msgid "setting.true"
-msgstr "Wahr"
-
-msgid "setting.unset"
-msgstr "nicht gesetzt"
-
-msgid "setting.visible"
-msgstr "Sichtbar"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Diese Werte werden von einem anderen Profil überschrieben und könnten nicht "
-"funktionieren."
-
-msgid "setting.warn-unsaved"
-msgstr ""
-"Du hast nicht gespeicherte Änderungen. Bist du sicher, dass du den Editor "
-"verlassen möchtest?"

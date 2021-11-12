@@ -811,6 +811,9 @@ msgstr "Backup e Restauração"
 msgid "setting.data_management.profiles"
 msgstr "Perfis"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Editar Perfil"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Descrição"
 
@@ -819,9 +822,6 @@ msgstr "Geral"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Nome"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Editar Perfil"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Regras"
@@ -909,11 +909,11 @@ msgstr ""
 "resultado você pode bloquear ou desbloquear categorias diretamente na "
 "página de diretórios."
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Miniatura Oculta"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "Estilo de Miniatura Escondida"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Miniatura Oculta"
 
 msgid "setting.directory.channels"
 msgstr "Canais"
@@ -1046,14 +1046,14 @@ msgstr "Ajuste"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Altera as cores de usuário para garantir que elas permaneçam legíveis."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Sem Cor"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Não Modificado"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Sem Cor"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1161,11 +1161,6 @@ msgstr "Exibir cheers animados."
 msgid "setting.entry.chat.bits.show"
 msgstr "Exibir Bits"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Exibe a interface associada com bits. Nota: Isto não esconderá os cheers em "
-"mensagens no chat."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Exibir Maiores Torcedores"
 
@@ -1178,6 +1173,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Por padrão, este valor corresponde ao de Exibir Bits. Esta configuração "
 "afetará apenas as novas mensagens."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Exibe a interface associada com bits. Nota: Isto não esconderá os cheers em "
+"mensagens no chat."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Mesclagem de Cheers"
@@ -1212,11 +1212,11 @@ msgstr ""
 "Atrasa a exibição de mensagens no chat para permitir moderação antes da "
 "exibição."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Sem Atraso"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Atraso Padrão (Específico de Sala; Apenas para Não-Mods)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Sem Atraso"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra Grande (10s)"
@@ -1350,11 +1350,11 @@ msgstr "Emotes Largos"
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Exibir menções no bate papo com uma fonte destacada."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Ativar a abertura do cartão de espectador clicando em menções no chat."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Clicar para revelar os termos excluídos."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Ativar a abertura do cartão de espectador clicando em menções no chat."
 
 msgid "setting.entry.chat.filtering.color-mentions"
 msgstr "Exibir menções no bate papo com a cor dos usuários."
@@ -1665,6 +1665,11 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Pausar a Rolagem do Bate-Papo"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Requirir que o cursor do mouse esteja sobre o bate-papo para trancar a "
+"rolagem com uma tecla de atalho."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Para automaticamente a rolagem do chat quando o mose estiver sobreposto ou "
@@ -1672,11 +1677,6 @@ msgstr ""
 "\n"
 "**Nota:** Rolar o chat para cima sempre irá impedir a rolagem do chat, "
 "independente desta configuração."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr ""
-"Requirir que o cursor do mouse esteja sobre o bate-papo para trancar a "
-"rolagem com uma tecla de atalho."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
 msgstr "Utilizar Configuração do Twitch"
@@ -1766,6 +1766,11 @@ msgstr "Exibir um banner no topo do chat quando ocorrer presente de subs em mass
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Unificar Presentes de Inscrições em Massa"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr ""
+"Expandir mensagens unificadas de inscrições presenteadas em massa por "
+"padrão."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Unifica presentes de inscrições em massa para apenas uma única mensagem, "
@@ -1789,11 +1794,6 @@ msgstr "Mais do que 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Mais do que 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr ""
-"Expandir mensagens unificadas de inscrições presenteadas em massa por "
-"padrão."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Exibir Inscritos no Bate-Papo"
@@ -1848,18 +1848,6 @@ msgstr ""
 "página](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Espaçado"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "24 Horas Espaçado"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Espaçado com Segundos"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "24 Horas Espaçado com Segundos"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Horas"
 
@@ -1871,6 +1859,18 @@ msgstr "12 Horas com Segundos"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Horas com Segundos"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Espaçado"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "24 Horas Espaçado"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Espaçado com Segundos"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "24 Horas Espaçado com Segundos"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Ative os recursos do FrankerFaceZ para o Bate-Papo em Vídeos."
@@ -2089,11 +2089,6 @@ msgstr "Desliza a barra de navegação para cima quando não estiver em uso."
 msgid "setting.entry.layout.portrait"
 msgstr "Ativar Modo Retrato"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"Quando estiver no Modo Retrato, o bate-papo será exibido abaixo do player "
-"quando a janela tiver mais altura do que largura."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Quando estiver no Modo Retrato, colocar o bate-papo no topo."
 
@@ -2111,6 +2106,11 @@ msgstr "Limite para o Modo Retrato"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Esta é a escala de Largura e Altura para que o Modo Retrato seja ativado."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Quando estiver no Modo Retrato, o bate-papo será exibido abaixo do player "
+"quando a janela tiver mais altura do que largura."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Exibir ofertas do Prime Gaming."
@@ -2469,12 +2469,6 @@ msgstr "Manter a barra de volume sempre expandida."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Ajustar o volume ao girar o scroll do mouse."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Esta configuração não irá funcionar apropriadamente nas transmissões que "
-"tenham extensões visíveis quando a interação com mouse nas extensões "
-"estiver autorizada.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Quantidade da alteração no volume"
 
@@ -2492,6 +2486,12 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Esta configuração não irá funcionar apropriadamente nas transmissões que "
+"tenham extensões visíveis quando a interação com mouse nas extensões "
+"estiver autorizada.*"
 
 msgid "setting.entry.profiles"
 msgstr "perfis"
@@ -2853,6 +2853,9 @@ msgstr "Volume"
 msgid "setting.preview"
 msgstr "Previsualizar"
 
+msgid "setting.profile.updates"
+msgstr "Este perfil irá atualizar automaticamente a partir da URL: "
+
 msgid "setting.profiles.active"
 msgstr "Este perfil está habilitado e ativo."
 
@@ -2901,9 +2904,6 @@ msgid "setting.profiles.warn-delete"
 msgstr ""
 "Você tem certeza de que deseja deletar este perfil? Isso não pode ser "
 "desfeito."
-
-msgid "setting.profile.updates"
-msgstr "Este perfil irá atualizar automaticamente a partir da URL: "
 
 msgid "setting.provider.about"
 msgstr ""
@@ -2990,6 +2990,53 @@ msgstr "Clique Direito para Reiniciar"
 
 msgid "setting.save"
 msgstr "Salvar"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Adiciona um novo termo"
+
+msgid "setting.terms.add-term"
+msgstr "Adicionar"
+
+msgid "setting.terms.no-terms"
+msgstr "nenhum termo está definido neste perfil"
+
+msgid "setting.terms.remove.off"
+msgstr "Não remover mensagens correspondentes do bate-papo."
+
+msgid "setting.terms.remove.on"
+msgstr "Remover do bate papo mensagens correspondentes."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Palavra)"
+
+msgid "setting.terms.type.text"
+msgstr "Texto"
+
+msgid "setting.tooltip-example"
+msgstr "Para um exemplo, por favor sobreponha o mouse nesse link:"
+
+msgid "setting.true"
+msgstr "Verdadeiro"
+
+msgid "setting.unset"
+msgstr "Desmarcar"
+
+msgid "setting.visible"
+msgstr "Visível"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Estes valores estão sendo subistituídos por outro perfil e não estarão em "
+"vigor."
+
+msgid "setting.warn-unsaved"
+msgstr "Você tem mudanças não salvas. Tem certeza que deseja sair do editor?"
 
 msgid "settings.back"
 msgstr "Voltar"
@@ -3078,14 +3125,14 @@ msgstr "Dashboard: Configurações de Moderação"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Dashboard: Configurações de Ganhos"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Dashboard: Ferramentas de Transmissão"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Dashboard: Gerenciador de Transmissões"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Dashboard: Resumo da Transmissão"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Dashboard: Ferramentas de Transmissão"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Dashboard: Produtor de Vídeos"
@@ -3199,50 +3246,3 @@ msgstr "Este padrão é inválido."
 
 msgid "settings.filter.true_false"
 msgstr "Verdadeiro ou Falso"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Adiciona um novo termo"
-
-msgid "setting.terms.add-term"
-msgstr "Adicionar"
-
-msgid "setting.terms.no-terms"
-msgstr "nenhum termo está definido neste perfil"
-
-msgid "setting.terms.remove.off"
-msgstr "Não remover mensagens correspondentes do bate-papo."
-
-msgid "setting.terms.remove.on"
-msgstr "Remover do bate papo mensagens correspondentes."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Palavra)"
-
-msgid "setting.terms.type.text"
-msgstr "Texto"
-
-msgid "setting.tooltip-example"
-msgstr "Para um exemplo, por favor sobreponha o mouse nesse link:"
-
-msgid "setting.true"
-msgstr "Verdadeiro"
-
-msgid "setting.unset"
-msgstr "Desmarcar"
-
-msgid "setting.visible"
-msgstr "Visível"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Estes valores estão sendo subistituídos por outro perfil e não estarão em "
-"vigor."
-
-msgid "setting.warn-unsaved"
-msgstr "Você tem mudanças não salvas. Tem certeza que deseja sair do editor?"

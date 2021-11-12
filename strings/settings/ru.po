@@ -886,6 +886,28 @@ msgstr ""
 "перейдите в раздел [Чат > Значки >> "
 "Видимость](~chat.badges.tabs.visibility)."
 
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Типы сообщений"
+
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"Этот фильтр позволяет удалить все сообщения определённого типа из чата "
+"Twitch. Его можно использовать для фильтрации системных сообщений, таких "
+"как ретрансляции или рейды. Некоторые типы, такие как действия модерации, "
+"не могут быть заблокированы, чтобы предотвратить нарушение функциональности "
+"чата."
+
+msgid "setting.chat.filtering.block.terms"
+msgstr "Термины"
+
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Подробную информацию об использовании терминов см. в [Чат > Фильтрация > "
+"Помощь по синтаксису](~)."
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Пользователи"
+
 msgid "setting.chat.filtering.blocked_badges"
 msgstr "Заблокированные значки"
 
@@ -912,28 +934,6 @@ msgstr "Заблокированные термины"
 msgid "setting.chat.filtering.blocked_users"
 msgstr "Заблокированные пользователи"
 
-msgid "setting.chat.filtering.block.message_types"
-msgstr "Типы сообщений"
-
-msgid "setting.chat.filtering.block.message_types.description"
-msgstr ""
-"Этот фильтр позволяет удалить все сообщения определённого типа из чата "
-"Twitch. Его можно использовать для фильтрации системных сообщений, таких "
-"как ретрансляции или рейды. Некоторые типы, такие как действия модерации, "
-"не могут быть заблокированы, чтобы предотвратить нарушение функциональности "
-"чата."
-
-msgid "setting.chat.filtering.block.terms"
-msgstr "Термины"
-
-msgid "setting.chat.filtering.block.terms.description"
-msgstr ""
-"Подробную информацию об использовании терминов см. в [Чат > Фильтрация > "
-"Помощь по синтаксису](~)."
-
-msgid "setting.chat.filtering.block.users"
-msgstr "Пользователи"
-
 msgid "setting.chat.filtering.general"
 msgstr "Общие"
 
@@ -958,6 +958,12 @@ msgstr "Выделение"
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "Выделенные значки"
 
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Выделенные термины"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Выделенные пользователи"
+
 msgid "setting.chat.filtering.highlight.badges"
 msgstr "Значки"
 
@@ -973,9 +979,6 @@ msgstr ""
 "позволяя правилам с более низким приоритетом выделять их, задав цвет с "
 "альфа-значением, равным нулю. Пример: `#00000000`"
 
-msgid "setting.chat.filtering.highlight_terms"
-msgstr "Выделенные термины"
-
 msgid "setting.chat.filtering.highlight.terms"
 msgstr "Термины"
 
@@ -983,9 +986,6 @@ msgid "setting.chat.filtering.highlight.terms.description"
 msgstr ""
 "Подробную информацию об использовании терминов см. в [Чат > Фильтрация > "
 "Помощь по синтаксису](~)."
-
-msgid "setting.chat.filtering.highlight_users"
-msgstr "Выделенные пользователи"
 
 msgid "setting.chat.filtering.highlight.users"
 msgstr "Пользователи"
@@ -1110,6 +1110,9 @@ msgstr "Резервное копирование и восстановлени�
 msgid "setting.data_management.profiles"
 msgstr "Профили"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Изменить профиль"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Описание"
 
@@ -1121,9 +1124,6 @@ msgstr "Горячая клавиша"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Имя"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Изменить профиль"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Правила"
@@ -1246,11 +1246,11 @@ msgstr ""
 "достижения наилучших результатов вы можете заблокировать или разблокировать "
 "категории непосредственно на страницах каталога."
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Скрытые миниатюры"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "Стиль скрытых миниатюр"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Скрытые миниатюры"
 
 msgid "setting.directory.channels"
 msgstr "Каналы"
@@ -1387,14 +1387,14 @@ msgstr "Регулировка"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Изменить цвета пользователей, чтобы они были читабельными."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Нет цвета"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Без изменений"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Нет цвета"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1517,11 +1517,6 @@ msgstr ""
 msgid "setting.entry.chat.bits.show"
 msgstr "Отображать Bits"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Отображать интерфейс, связанный с Bits. Примечание: это не скроет "
-"cheer-сообщения в чате."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Отображать таблицу лидеров"
 
@@ -1540,6 +1535,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "По-умолчанию он наследует своё значение от отображения Bits. Этот параметр "
 "влияет только на недавно поступившие сообщения."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Отображать интерфейс, связанный с Bits. Примечание: это не скроет "
+"cheer-сообщения в чате."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Сбор cheer'ов"
@@ -1570,11 +1570,11 @@ msgstr ""
 "Отложить появление сообщений чата, чтобы они могли пройти модерацию, прежде "
 "чем вы их увидите."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Без задержки"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Задержка по умолчанию (для каждой комнаты; не для модераторов)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Без задержки"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Очень большая (10 с)"
@@ -1787,11 +1787,11 @@ msgstr ""
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Выделять обращения в чате жирным шрифтом."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Включить открытие карточек пользователей путём щелчка по обращению."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Отобразить удаленные термины по щелчку мыши."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Включить открытие карточек пользователей путём щелчка по обращению."
 
 msgid "setting.entry.chat.filtering.color-mentions"
 msgstr "Отображать упоминания пользователей в чата с их цветом никнейма."
@@ -2151,15 +2151,15 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Остановить прокрутку чата"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Требовать, чтобы мышь была на чате, чтобы заморозить его кнопкой."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Автоматически останавливать прокрутку чата при наведении на него мыши или "
 "удерживании клавиши.\n"
 "**Примечание:** Прокрутка вверх в чате всегда предотвращает автоматическую "
 "прокрутку, независимо от этого параметра."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr "Требовать, чтобы мышь была на чате, чтобы заморозить его кнопкой."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
 msgstr "Использовать настройки Twitch"
@@ -2257,6 +2257,9 @@ msgstr "Отображать панель наверху чата, когда д
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Объединить массовые подарки подписок"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Разворачивать объединённые массовые подарки подписок, по-умолчанию."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Объединить массовые подарки подписок в одно сообщение, в зависимости от "
@@ -2280,9 +2283,6 @@ msgstr "Более 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Более 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Разворачивать объединённые массовые подарки подписок, по-умолчанию."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Отображать подписки в чате"
@@ -2333,18 +2333,6 @@ msgstr ""
 "здесь](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Дополненное "
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Дополненное 24 часа"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Дополненное с секундами"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Дополненное 24 часа с секундами"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 часов"
 
@@ -2356,6 +2344,18 @@ msgstr "12 часов с секундами"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 часа с секундами"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Дополненное "
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Дополненное 24 часа"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Дополненное с секундами"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Дополненное 24 часа с секундами"
 
 msgid "setting.entry.chat.timestamp-size"
 msgstr "Размер шрифта метки времени"
@@ -2594,11 +2594,6 @@ msgstr "Сворачивать верхнюю навигацию, если он�
 msgid "setting.entry.layout.portrait"
 msgstr "Включить портретный режим"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"В портретном режиме чат будет отображаться под проигрывателем, если высота "
-"окна превышает его ширину."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Когда в портретном режиме, переместить чат на верх."
 
@@ -2617,6 +2612,11 @@ msgstr "Порог портретного режима"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Это соотношение ширины к высоте, при котором активируется портретный режим."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"В портретном режиме чат будет отображаться под проигрывателем, если высота "
+"окна превышает его ширину."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Отображать трофеи Prime."
@@ -3055,11 +3055,6 @@ msgstr "Всегда раскрывать регулятор громкости.
 msgid "setting.entry.player.volume-scroll"
 msgstr "Регулировать громкость колесом прокрутки."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Эта функция не будет работать, если присутствуют расширения, с которыми "
-"включено взаимодействие мышью.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Количество прокрутки громкости"
 
@@ -3077,6 +3072,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Эта функция не будет работать, если присутствуют расширения, с которыми "
+"включено взаимодействие мышью.*"
 
 msgid "setting.entry.player.volume-scroll.values.2"
 msgstr "Включать правой кнопкой мыши"
@@ -3509,6 +3509,14 @@ msgstr "Громкость"
 msgid "setting.preview"
 msgstr "Предпоказ"
 
+msgid "setting.profile.updates"
+msgstr "Этот профиль будет обновляться автоматически со следующего URL:"
+
+msgid "setting.profile.updates-about"
+msgstr ""
+"Для этого профиля включено автоматическое обновление. При обнолвении все "
+"изменённые настройки будут сброшены, в том числе и правила профиля."
+
 msgid "setting.profiles.active"
 msgstr "Профиль включен и активен."
 
@@ -3558,14 +3566,6 @@ msgstr "Этот профиль будет обновляться автомат
 
 msgid "setting.profiles.warn-delete"
 msgstr "Вы уверены, что хотите удалить профиль? Действие нельзя будет отменить."
-
-msgid "setting.profile.updates"
-msgstr "Этот профиль будет обновляться автоматически со следующего URL:"
-
-msgid "setting.profile.updates-about"
-msgstr ""
-"Для этого профиля включено автоматическое обновление. При обнолвении все "
-"изменённые настройки будут сброшены, в том числе и правила профиля."
 
 msgid "setting.provider.about"
 msgstr ""
@@ -3664,6 +3664,68 @@ msgstr "Щёлкните правой кнопкой мыши для сброс�
 msgid "setting.save"
 msgstr "Сохранить"
 
+msgid "setting.space"
+msgstr "Место"
+
+msgid "setting.space-small"
+msgstr "Место (малое)"
+
+msgid "setting.space-small.desc"
+msgstr "Поместить небольшой пробел между предыдущим и следующим элементом."
+
+msgid "setting.space.desc"
+msgstr "Поместить больший пробел между предыдущим и следующим элементом."
+
+msgid "setting.terms.add-placeholder"
+msgstr "Добавить новый термин"
+
+msgid "setting.terms.add-term"
+msgstr "Добавить"
+
+msgid "setting.terms.no-terms"
+msgstr "для данного профиля термины не заданы"
+
+msgid "setting.terms.please-select"
+msgstr "Пожалуйста, выберите вариант."
+
+msgid "setting.terms.remove.off"
+msgstr "Не убирать выделенные сообщения из чата."
+
+msgid "setting.terms.remove.on"
+msgstr "Убрать совпадающие сообщения из чата."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Слово)"
+
+msgid "setting.terms.type.text"
+msgstr "Текст"
+
+msgid "setting.tooltip-example"
+msgstr "В качестве примера, поставьте курсор на эту ссылку:"
+
+msgid "setting.true"
+msgstr "Правда"
+
+msgid "setting.unset"
+msgstr "Неуказанно "
+
+msgid "setting.visible"
+msgstr "Видимо"
+
+msgid "setting.warn-inheritence"
+msgstr "Эти значения переопределяются другим профилем и могут не вступать в силу."
+
+msgid "setting.warn-unsaved"
+msgstr ""
+"У вас есть несохраненные изменения. Вы уверены, что хотите покинуть "
+"редактор?"
+
 msgid "settings.back"
 msgstr "Назад"
 
@@ -3751,14 +3813,14 @@ msgstr "Панель управления: Настройки модерации
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Панель управления: Настройки дохода"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Панель управления: Инструменты Трансляций"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Панель управления: Менеджер трансляций"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Панель управления: Сводка Трансляции "
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Панель управления: Инструменты Трансляций"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Панель управления: Видеопродюсер"
@@ -3873,18 +3935,6 @@ msgstr "Это значение неверно."
 msgid "settings.filter.true_false"
 msgstr "Правда или ложь"
 
-msgid "setting.space"
-msgstr "Место"
-
-msgid "setting.space.desc"
-msgstr "Поместить больший пробел между предыдущим и следующим элементом."
-
-msgid "setting.space-small"
-msgstr "Место (малое)"
-
-msgid "setting.space-small.desc"
-msgstr "Поместить небольшой пробел между предыдущим и следующим элементом."
-
 msgid "settings.term.color.tip"
 msgstr "Цвет"
 
@@ -3912,53 +3962,3 @@ msgstr "Abc"
 
 msgid "settings.terms.word.tip"
 msgstr "Подобрать целое слово"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Добавить новый термин"
-
-msgid "setting.terms.add-term"
-msgstr "Добавить"
-
-msgid "setting.terms.no-terms"
-msgstr "для данного профиля термины не заданы"
-
-msgid "setting.terms.please-select"
-msgstr "Пожалуйста, выберите вариант."
-
-msgid "setting.terms.remove.off"
-msgstr "Не убирать выделенные сообщения из чата."
-
-msgid "setting.terms.remove.on"
-msgstr "Убрать совпадающие сообщения из чата."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Слово)"
-
-msgid "setting.terms.type.text"
-msgstr "Текст"
-
-msgid "setting.tooltip-example"
-msgstr "В качестве примера, поставьте курсор на эту ссылку:"
-
-msgid "setting.true"
-msgstr "Правда"
-
-msgid "setting.unset"
-msgstr "Неуказанно "
-
-msgid "setting.visible"
-msgstr "Видимо"
-
-msgid "setting.warn-inheritence"
-msgstr "Эти значения переопределяются другим профилем и могут не вступать в силу."
-
-msgid "setting.warn-unsaved"
-msgstr ""
-"У вас есть несохраненные изменения. Вы уверены, что хотите покинуть "
-"редактор?"

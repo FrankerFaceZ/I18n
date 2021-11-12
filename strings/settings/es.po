@@ -835,6 +835,9 @@ msgstr "Copia de seguridad y restauración"
 msgid "setting.data_management.profiles"
 msgstr "Perfiles"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Editar perfil"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Descripción"
 
@@ -843,9 +846,6 @@ msgstr "General"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Nombre"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Editar perfil"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Reglas"
@@ -933,11 +933,11 @@ msgstr ""
 "cliente. Para mejores resultados, puedes bloquear o desbloquear categorías "
 "directamente desde las páginas de directorio."
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Miniaturas Ocultas"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "Estilo de Miniaturas Ocultas"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Miniaturas Ocultas"
 
 msgid "setting.directory.channels"
 msgstr "Canales"
@@ -1072,14 +1072,14 @@ msgstr ""
 "Alterar los colores de los usuarios para garantizar que sigan siendo "
 "legibles."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Sin color"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Sin alterar"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Sin color"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1187,11 +1187,6 @@ msgstr "Mostrar Cheers animados."
 msgid "setting.entry.chat.bits.show"
 msgstr "Mostrar Bits"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Mostrar IU asociada con los bits. Nota: Esto no esconderá los mensajes con "
-"cheer en el chat."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Mostrar Tabla de Clasificación"
 
@@ -1212,6 +1207,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Por defecto, esto hereda su valor de Display Bits. Esta configuración solo "
 "afecta a los mensajes nuevos."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Mostrar IU asociada con los bits. Nota: Esto no esconderá los mensajes con "
+"cheer en el chat."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Cheer apilado"
@@ -1242,11 +1242,11 @@ msgstr ""
 "Retrasar la aparición de mensajes de chat para permitir la moderación antes "
 "de verlos."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Sin retraso"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Retraso predeterminado (Específico de la sala;  Solo para No moderador)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Sin retraso"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra largo (10s)"
@@ -1387,13 +1387,13 @@ msgstr ""
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Mostrar menciones en el chat en negrita."
 
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Click para mostrar términos eliminados."
+
 msgid "setting.entry.chat.filtering.clickable-mentions"
 msgstr ""
 "Habilita abrir las cartas de espectador haciendo click en las menciones del "
 "chat."
-
-msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr "Click para mostrar términos eliminados."
 
 msgid "setting.entry.chat.filtering.color-mentions"
 msgstr "Mostrar menciones en el chat con colores de nombres de usuario."
@@ -1707,13 +1707,13 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Pausar desplazamiento del chat"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Requerir que el mouse esté sobre el chat para detener con una tecla."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Detener el desplazamiento del chat automáticamente cuando al pasar el ratón "
 "por encima o al dejar una tecla presionada."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr "Requerir que el mouse esté sobre el chat para detener con una tecla."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
 msgstr "Utilizar Configuración de Twitch"
@@ -1813,6 +1813,11 @@ msgstr ""
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Fusionar regalos masivos de suscripción."
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr ""
+"Expandir mensajes masivos comprimidos de suscripciones regaladas por "
+"defecto."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Fusionar regalos de suscripciones masivos en un solo mensaje, dependiendo "
@@ -1835,11 +1840,6 @@ msgstr "Más de 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Más de 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr ""
-"Expandir mensajes masivos comprimidos de suscripciones regaladas por "
-"defecto."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Mostrar suscriptores en el chat"
@@ -1894,18 +1894,6 @@ msgstr ""
 "[aquí](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)."
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Espaciado"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Espaciado 24 Horas"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Espaciado con Segundos"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Espaciado 24 Horas con Segundos"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Horas"
 
@@ -1917,6 +1905,18 @@ msgstr "12 Horas con Segundos"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Horas con Segundos"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Espaciado"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Espaciado 24 Horas"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Espaciado con Segundos"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Espaciado 24 Horas con Segundos"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Permitir funcionalidades de FrankerFaceZ en el chat de los vídeos."
@@ -2143,11 +2143,6 @@ msgstr ""
 msgid "setting.entry.layout.portrait"
 msgstr "Activar modo retrato"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"En modo retrato, el chat aparecerá debajo del reproductor cuando la ventana "
-"sea más alta que ancha."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "En modo retrato, mostrar el chat arriba."
 
@@ -2168,6 +2163,11 @@ msgid "setting.entry.layout.portrait-threshold.description"
 msgstr ""
 "Esta es la relación Ancho a Altura en cuyo punto el Modo Retrato comenzará "
 "a activarse."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"En modo retrato, el chat aparecerá debajo del reproductor cuando la ventana "
+"sea más alta que ancha."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Mostrar Botín de Prime Gaming."
@@ -2540,12 +2540,6 @@ msgstr "Mantener el control de volumen abierto todo el tiempo."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Ajustar volumen con la rueda del ratón."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Esta configuración no funcionará correctamente en transmisiones con "
-"extensiones visibles cuando se permite la interacción del mouse con las "
-"extensiones.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Cantidad de desplazamiento de volumen."
 
@@ -2563,6 +2557,12 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Esta configuración no funcionará correctamente en transmisiones con "
+"extensiones visibles cuando se permite la interacción del mouse con las "
+"extensiones.*"
 
 msgid "setting.entry.player.volume-scroll.values.2"
 msgstr "Activado con el click derecho"
@@ -2939,6 +2939,9 @@ msgstr "Volumen."
 msgid "setting.preview"
 msgstr "Vista Previa"
 
+msgid "setting.profile.updates"
+msgstr "Este perfil se actualizará automáticamente desde el siguiente enlace:"
+
 msgid "setting.profiles.active"
 msgstr "Este perfil está activo."
 
@@ -2985,9 +2988,6 @@ msgstr "Nuevo perfil"
 
 msgid "setting.profiles.warn-delete"
 msgstr "¿Seguro que quieres eliminar este perfil? No podrás dar marcha atrás."
-
-msgid "setting.profile.updates"
-msgstr "Este perfil se actualizará automáticamente desde el siguiente enlace:"
 
 msgid "setting.provider.about"
 msgstr ""
@@ -3047,6 +3047,53 @@ msgstr "Click derecho para Restablecer"
 
 msgid "setting.save"
 msgstr "Guardar"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Añadir un término nuevo"
+
+msgid "setting.terms.add-term"
+msgstr "Añadir"
+
+msgid "setting.terms.no-terms"
+msgstr "no hay términos definidos en este perfil"
+
+msgid "setting.terms.remove.off"
+msgstr "No eliminar mensajes iguales del chat."
+
+msgid "setting.terms.remove.on"
+msgstr "Eliminar mensajes iguales del chat."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Palabra)"
+
+msgid "setting.terms.type.text"
+msgstr "Texto"
+
+msgid "setting.tooltip-example"
+msgstr "Por ejemplo, pase el cursor por este enlace:"
+
+msgid "setting.true"
+msgstr "Verdadero"
+
+msgid "setting.unset"
+msgstr "Desarmado"
+
+msgid "setting.visible"
+msgstr "Visible"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Estos valores están siendo anulados por otro perfil y podrían no tener "
+"efecto."
+
+msgid "setting.warn-unsaved"
+msgstr "Tienes cambios sin guardar. ¿Seguro que quieres abandonar el editor?"
 
 msgid "settings.back"
 msgstr "Atrás"
@@ -3135,14 +3182,14 @@ msgstr "Panel de Control: Moderación de Configuración"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Panel de Control: Ingresos de Configuración"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Panel de control: Herramientas de stream"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Panel de control: Administrador de stream"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Panel de control: Resumen de stream"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Panel de control: Herramientas de stream"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Panel de control: Estudio de video"
@@ -3256,50 +3303,3 @@ msgstr "Este patrón es inválido."
 
 msgid "settings.filter.true_false"
 msgstr "Verdadero o Falso"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Añadir un término nuevo"
-
-msgid "setting.terms.add-term"
-msgstr "Añadir"
-
-msgid "setting.terms.no-terms"
-msgstr "no hay términos definidos en este perfil"
-
-msgid "setting.terms.remove.off"
-msgstr "No eliminar mensajes iguales del chat."
-
-msgid "setting.terms.remove.on"
-msgstr "Eliminar mensajes iguales del chat."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Palabra)"
-
-msgid "setting.terms.type.text"
-msgstr "Texto"
-
-msgid "setting.tooltip-example"
-msgstr "Por ejemplo, pase el cursor por este enlace:"
-
-msgid "setting.true"
-msgstr "Verdadero"
-
-msgid "setting.unset"
-msgstr "Desarmado"
-
-msgid "setting.visible"
-msgstr "Visible"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Estos valores están siendo anulados por otro perfil y podrían no tener "
-"efecto."
-
-msgid "setting.warn-unsaved"
-msgstr "Tienes cambios sin guardar. ¿Seguro que quieres abandonar el editor?"

@@ -696,6 +696,9 @@ msgstr "백업 & 복원"
 msgid "setting.data_management.profiles"
 msgstr "프로필"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "프로필 수정"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "설명"
 
@@ -704,9 +707,6 @@ msgstr "일반"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "이름"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "프로필 수정"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "규칙"
@@ -864,14 +864,14 @@ msgstr "조정"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "사용자 색상을 변경하여 읽을 수 있는지 확인하십시오."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "색상 없음"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "변함없음"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "색상 없음"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -954,9 +954,6 @@ msgstr "움직이는 응원 표시"
 msgid "setting.entry.chat.bits.show"
 msgstr "비트 보이기"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr "비트와 연결된 UI 표시: 채팅 메시지에서 응원하는 것을 숨기지 않습니다."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "최고 응원 표시"
 
@@ -965,6 +962,9 @@ msgstr "응원이 채팅에서 사람들에게 보상을 할 때 메시지를 �
 
 msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr "기본적으로 이 값은 표시된 비트로부터 상속된다. 이 설정은 새로 도착한 메시지에만 영향을 미칩니다."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr "비트와 연결된 UI 표시: 채팅 메시지에서 응원하는 것을 숨기지 않습니다."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "응원 병합"
@@ -993,11 +993,11 @@ msgstr "인공 채팅 딜레이"
 msgid "setting.entry.chat.delay.description"
 msgstr "관리를 위해 채팅 표시에 지연을 두기"
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "지연 없음"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "기본 지연 (채널마다 다름; 일반 시청자만)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "지연 없음"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "매우 큼 (10초)"
@@ -1116,11 +1116,11 @@ msgstr "티어가 높은 구독의 이모티콘 부터 정렬"
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "채팅창의 @멘션을 볼드체로 표시하기"
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "채팅창의 언급을 클릭하여 시청자 카드를 여는것을 활성화."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "삭제된 메시지를 클릭하여 확인하기"
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "채팅창의 언급을 클릭하여 시청자 카드를 여는것을 활성화."
 
 msgid "setting.entry.chat.filtering.deleted-style"
 msgstr "디테일한 메시지 스타일"
@@ -1461,6 +1461,9 @@ msgstr "대량 구독 선물이 있을때, 채팅창 상단에 배너를 표시�
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "대량 구독 선물 병합"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "기본적으로 병합된 대용량 하위 선물 메시지를 확장합니다."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "대량으로 구독권을 선물할 때, 갯수에 따라 한 메시지로 표시합니다\n"
@@ -1483,9 +1486,6 @@ msgstr "5보다 많음"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "50보다 많음"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "기본적으로 병합된 대용량 하위 선물 메시지를 확장합니다."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "채팅창에 구독 표시"
@@ -1533,18 +1533,6 @@ msgstr ""
 "[여기](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)를 참조하세요."
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "패딩됨"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "24시간 패딩됨"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "초 단위로 패딩됨"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "24시간과 초 단위로 패딩됨"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 시간"
 
@@ -1556,6 +1544,18 @@ msgstr "12 시간 + 초"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 시간 + 초"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "패딩됨"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "24시간 패딩됨"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "초 단위로 패딩됨"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "24시간과 초 단위로 패딩됨"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "동영상 채팅에 FrankerFaceZ 기능 활성화"
@@ -1716,9 +1716,6 @@ msgstr "사용하지 않을 때 탐색 바를 시야 밖으로 밀어버립니�
 msgid "setting.entry.layout.portrait"
 msgstr "세로 모드 활성화"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr "세로 모드일 때, 윈도우의 세로 길이가 가로 길이보다 길면 채팅창이 플레이어 하단에 배치됩니다"
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "세로 모드일 때, 채팅창을 상단에 놓기"
 
@@ -1727,6 +1724,9 @@ msgstr "세로 모드 한계점"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "이것은 세로 모드가 활성화되기 시작하는 너비 대 높이 비율입니다."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr "세로 모드일 때, 윈도우의 세로 길이가 가로 길이보다 길면 채팅창이 플레이어 하단에 배치됩니다"
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "트위치 프라임 제안 표시"
@@ -2004,9 +2004,6 @@ msgstr "볼륨 슬라이더를 항상 확장합니다."
 msgid "setting.entry.player.volume-scroll"
 msgstr "마우스 휠로 음량 조절"
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr "*채널에서 확장 프로그램의 마우스 상호작용이 허용될 경우 이 설정은 확장자가 보이는 방송에서 제대로 작동하지 않습니다.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "음량 스크롤 양"
 
@@ -2024,6 +2021,9 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr "*채널에서 확장 프로그램의 마우스 상호작용이 허용될 경우 이 설정은 확장자가 보이는 방송에서 제대로 작동하지 않습니다.*"
 
 msgid "setting.entry.profiles"
 msgstr "프로필"
@@ -2312,6 +2312,9 @@ msgstr "음량"
 msgid "setting.preview"
 msgstr "미리보기"
 
+msgid "setting.profile.updates"
+msgstr "이 프로필은 다음 URL에서 자동으로 업데이트됩니다:"
+
 msgid "setting.profiles.active"
 msgstr "프로필이 활성화 되었습니다"
 
@@ -2354,9 +2357,6 @@ msgstr "새 프로필"
 msgid "setting.profiles.warn-delete"
 msgstr "이 프로필을 정말 삭제하시겠습니까? 이 선택은 되돌릴 수 없습니다."
 
-msgid "setting.profile.updates"
-msgstr "이 프로필은 다음 URL에서 자동으로 업데이트됩니다:"
-
 msgid "setting.provider.backup"
 msgstr "네, 백업을 했습니다"
 
@@ -2392,6 +2392,48 @@ msgstr "우클릭으로 리셋"
 
 msgid "setting.save"
 msgstr "저장"
+
+msgid "setting.terms.add-placeholder"
+msgstr "새로운 단어 추가"
+
+msgid "setting.terms.add-term"
+msgstr "추가"
+
+msgid "setting.terms.no-terms"
+msgstr "이 프로필에 정의된 용어가 없습니다.\n"
+
+msgid "setting.terms.remove.off"
+msgstr "채팅에서 일치하는 메시지를 제거하지 마세요."
+
+msgid "setting.terms.type.glob"
+msgstr "방울"
+
+msgid "setting.terms.type.regex"
+msgstr "정규표현식"
+
+msgid "setting.terms.type.regex-word"
+msgstr "정규표현식 (단어)"
+
+msgid "setting.terms.type.text"
+msgstr "텍스트"
+
+msgid "setting.tooltip-example"
+msgstr "이 링크에서 예시를 볼 수 있습니다:"
+
+msgid "setting.true"
+msgstr "진실"
+
+msgid "setting.unset"
+msgstr "설정 해제"
+
+msgid "setting.visible"
+msgstr "공개됨"
+
+msgid "setting.warn-inheritence"
+msgstr "이러한 값은 다른 프로필에 의해 재정의되고 있으며 적용되지 않을 수 있습니다."
+
+msgid "setting.warn-unsaved"
+msgstr "저장하지 않은 변경사항이 있습니다. 정말 떠나시겠습니까?"
 
 msgid "settings.back"
 msgstr "뒤로"
@@ -2480,14 +2522,14 @@ msgstr "대시보드: 관리자 설정"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "대시보드: 수익 설정"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "대시보드: 방송 도구"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "대시보드: 방송 매니저"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "대시보드: 생방송 요약"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "대시보드: 방송 도구"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "대시보드: 동영상 프로듀서"
@@ -2599,45 +2641,3 @@ msgstr "이 패턴은 유효하지 않습니다."
 
 msgid "settings.filter.true_false"
 msgstr "진실 혹은 거짓"
-
-msgid "setting.terms.add-placeholder"
-msgstr "새로운 단어 추가"
-
-msgid "setting.terms.add-term"
-msgstr "추가"
-
-msgid "setting.terms.no-terms"
-msgstr "이 프로필에 정의된 용어가 없습니다.\n"
-
-msgid "setting.terms.remove.off"
-msgstr "채팅에서 일치하는 메시지를 제거하지 마세요."
-
-msgid "setting.terms.type.glob"
-msgstr "방울"
-
-msgid "setting.terms.type.regex"
-msgstr "정규표현식"
-
-msgid "setting.terms.type.regex-word"
-msgstr "정규표현식 (단어)"
-
-msgid "setting.terms.type.text"
-msgstr "텍스트"
-
-msgid "setting.tooltip-example"
-msgstr "이 링크에서 예시를 볼 수 있습니다:"
-
-msgid "setting.true"
-msgstr "진실"
-
-msgid "setting.unset"
-msgstr "설정 해제"
-
-msgid "setting.visible"
-msgstr "공개됨"
-
-msgid "setting.warn-inheritence"
-msgstr "이러한 값은 다른 프로필에 의해 재정의되고 있으며 적용되지 않을 수 있습니다."
-
-msgid "setting.warn-unsaved"
-msgstr "저장하지 않은 변경사항이 있습니다. 정말 떠나시겠습니까?"

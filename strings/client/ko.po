@@ -69,11 +69,11 @@ msgstr "아래 목록에서 이유를 선택하십시오."
 msgid "chat.actions.timeout"
 msgstr "유저 타임아웃"
 
-msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number}초{options.duration,en_plural}"
-
 msgid "chat.actions.timeout-reason"
 msgstr "{user.login}을 {duration,number}초{duration,en_plural}동안 강제 퇴장한 사유:"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number}초{options.duration,en_plural}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr "{user.login}을 {duration,number}초{duration,en_plural}동안강제 퇴장"
@@ -109,6 +109,12 @@ msgstr ""
 msgid "chat.ffz-badge.site-link"
 msgstr "FrankerFaceZ 웹사이트"
 
+msgid "chat.filtering.automod-term"
+msgstr "자동매니저에게 차단된 단어"
+
+msgid "chat.filtering.automod-why"
+msgstr "다음과 같이 표시됨:"
+
 msgid "chat.filtering.automod.A"
 msgstr "적대감"
 
@@ -120,12 +126,6 @@ msgstr "욕설"
 
 msgid "chat.filtering.automod.S"
 msgstr "노골적인 언어"
-
-msgid "chat.filtering.automod-term"
-msgstr "자동매니저에게 차단된 단어"
-
-msgid "chat.filtering.automod-why"
-msgstr "다음과 같이 표시됨:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "금지된 단어"
@@ -299,19 +299,19 @@ msgstr "{user}가 {game} 플레이 중"
 msgid "emoji.category.activities"
 msgstr "활동"
 
-msgid "emoji.category.animals_nature"
+msgid "emoji.category.animals___nature"
 msgstr "동물 & 자연"
 
-msgid "emoji.category.animals___nature"
+msgid "emoji.category.animals_nature"
 msgstr "동물 & 자연"
 
 msgid "emoji.category.flags"
 msgstr "깃발"
 
-msgid "emoji.category.food_drink"
+msgid "emoji.category.food___drink"
 msgstr "음식 & 음료"
 
-msgid "emoji.category.food___drink"
+msgid "emoji.category.food_drink"
 msgstr "음식 & 음료"
 
 msgid "emoji.category.objects"
@@ -323,37 +323,23 @@ msgstr "인물"
 msgid "emoji.category.skin_tones"
 msgstr "피부색"
 
-msgid "emoji.category.smileys_emotion"
-msgstr "얼굴 이모티콘"
-
 msgid "emoji.category.smileys___people"
 msgstr "얼굴 & 사람"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "얼굴 이모티콘"
 
 msgid "emoji.category.symbols"
 msgstr "기호"
 
-msgid "emoji.category.travel_places"
-msgstr "여행 & 장소"
-
 msgid "emoji.category.travel___places"
 msgstr "여행 & 장소"
 
-msgid "emote.2fa"
-msgstr "트위치 2FA 이모티콘"
+msgid "emoji.category.travel_places"
+msgstr "여행 & 장소"
 
-msgid "emote.bits"
-msgstr "트위치 비트 보상"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"채널: {channel}"
-
-msgid "emote.global"
-msgstr "트위치 글로벌"
-
-msgid "emote.limited"
-msgstr "한정판 이모티콘"
+msgid "emote_menu.prime"
+msgstr "프라임"
 
 msgid "emote-menu.channel"
 msgstr "채널"
@@ -411,9 +397,6 @@ msgstr "내 이모티콘"
 
 msgid "emote-menu.points"
 msgstr "포인트로 해금됨"
-
-msgid "emote_menu.prime"
-msgstr "프라임"
 
 msgid "emote-menu.prime"
 msgstr "프라임"
@@ -473,6 +456,23 @@ msgstr "비공개"
 
 msgid "emote-menu.visibility.visible"
 msgstr "공개"
+
+msgid "emote.2fa"
+msgstr "트위치 2FA 이모티콘"
+
+msgid "emote.bits"
+msgstr "트위치 비트 보상"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"채널: {channel}"
+
+msgid "emote.global"
+msgstr "트위치 글로벌"
+
+msgid "emote.limited"
+msgstr "한정판 이모티콘"
 
 msgid "emote.owner"
 msgstr "{owner}에 의해"
@@ -606,9 +606,6 @@ msgstr "피처링"
 msgid "metadata.featured-follow.title"
 msgstr "채널 피처링"
 
-msgid "metadata.host.add-channel"
-msgstr "자동 호스트에 추가"
-
 msgid "metadata.host-button.host"
 msgstr "호스트"
 
@@ -623,6 +620,9 @@ msgstr "호스트 취소"
 
 msgid "metadata.host-button.updating"
 msgstr "업데이트중..."
+
+msgid "metadata.host.add-channel"
+msgstr "자동 호스트에 추가"
 
 msgid "metadata.host.setting.auto-hosting.title"
 msgstr "자동 호스팅"

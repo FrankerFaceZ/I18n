@@ -82,9 +82,6 @@ msgstr "Prosím, vyberte důvod, z níže uvedených možností:"
 msgid "chat.actions.timeout"
 msgstr "Dočasně Zablokovat Uživatele"
 
-msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} sekund{options.duration,en_plural}"
-
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Dočasně zablokovat {user.login} na {duration,number} "
@@ -93,6 +90,9 @@ msgstr ""
 "few {y}\n"
 "other {}\n"
 "} z důvodu:"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} sekund{options.duration,en_plural}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
@@ -141,14 +141,14 @@ msgstr "Web FrankerFaceZ"
 msgid "chat.ffz-badge.title"
 msgstr "Odznak FrankerFaceZ"
 
-msgid "chat.filtering.automod.I"
-msgstr "Diskriminace"
-
 msgid "chat.filtering.automod-term"
 msgstr "Fráze Blokovaná AutoModem"
 
 msgid "chat.filtering.automod-why"
 msgstr "Tohle bylo označeno jako: "
+
+msgid "chat.filtering.automod.I"
+msgstr "Diskriminace"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Zakázaná Fráze"
@@ -315,19 +315,19 @@ msgstr "{user} hraje {game}"
 msgid "emoji.category.activities"
 msgstr "Aktivity"
 
-msgid "emoji.category.animals_nature"
-msgstr "Zvířata a Příroda"
-
 msgid "emoji.category.animals___nature"
 msgstr "Zvířata & Příroda"
+
+msgid "emoji.category.animals_nature"
+msgstr "Zvířata a Příroda"
 
 msgid "emoji.category.flags"
 msgstr "Vlajky"
 
-msgid "emoji.category.food_drink"
+msgid "emoji.category.food___drink"
 msgstr "Jídlo & Pití"
 
-msgid "emoji.category.food___drink"
+msgid "emoji.category.food_drink"
 msgstr "Jídlo & Pití"
 
 msgid "emoji.category.objects"
@@ -339,34 +339,23 @@ msgstr "Lidé"
 msgid "emoji.category.skin_tones"
 msgstr "Barva Pleti"
 
-msgid "emoji.category.smileys_emotion"
-msgstr "Smajlíci & Emoce"
-
 msgid "emoji.category.smileys___people"
 msgstr "Smajlíky & Lidé"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Smajlíci & Emoce"
 
 msgid "emoji.category.symbols"
 msgstr "Symboly"
 
-msgid "emoji.category.travel_places"
-msgstr "Cestování & Místa"
-
 msgid "emoji.category.travel___places"
 msgstr "Cestování & Místa"
 
-msgid "emote.2fa"
-msgstr "Twitch Emotikony za Povolení Dvoufázového Ověření"
+msgid "emoji.category.travel_places"
+msgstr "Cestování & Místa"
 
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Kanál: {channel}"
-
-msgid "emote.global"
-msgstr "Globální Twitch Emotikony"
-
-msgid "emote.limited"
-msgstr "Časově Omezený Emotikon"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanál"
@@ -423,9 +412,6 @@ msgstr "Moje Emotikony"
 
 msgid "emote-menu.points"
 msgstr "Odemknuto za Body"
-
-msgid "emote_menu.prime"
-msgstr "Prime"
 
 msgid "emote-menu.prime"
 msgstr "Prime"
@@ -484,6 +470,20 @@ msgstr "Skryté"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Viditelné"
+
+msgid "emote.2fa"
+msgstr "Twitch Emotikony za Povolení Dvoufázového Ověření"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Kanál: {channel}"
+
+msgid "emote.global"
+msgstr "Globální Twitch Emotikony"
+
+msgid "emote.limited"
+msgstr "Časově Omezený Emotikon"
 
 msgid "emote.owner"
 msgstr "Od: {owner}"
@@ -603,9 +603,6 @@ msgstr "Nastavení Vyhledávání"
 msgid "main-menu.version"
 msgstr "Verze {version}"
 
-msgid "metadata.host.add-channel"
-msgstr "Přidat do Automatického Hostování"
-
 msgid "metadata.host-button.host"
 msgstr "Host"
 
@@ -620,6 +617,9 @@ msgstr "Zrušit Hostování"
 
 msgid "metadata.host-button.updating"
 msgstr "Aktualizuje se..."
+
+msgid "metadata.host.add-channel"
+msgstr "Přidat do Automatického Hostování"
 
 msgid "metadata.host.tab.auto-host"
 msgstr "Automatické Hostování"

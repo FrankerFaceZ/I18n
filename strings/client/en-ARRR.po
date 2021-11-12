@@ -96,11 +96,11 @@ msgstr "Please select a reason from the list below:"
 msgid "chat.actions.timeout"
 msgstr "Timeout User"
 
-msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} second{options.duration,en_plural}"
-
 msgid "chat.actions.timeout-reason"
 msgstr "Timeout {user.login} fer {duration,number} second{duration,en_plural} fer:"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} second{options.duration,en_plural}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr "Timeout {user.login} fer {duration,number} second{duration,en_plural}"
@@ -150,6 +150,12 @@ msgstr "FrankerFaceZ website"
 msgid "chat.ffz-badge.title"
 msgstr "FrankerFaceZ Badge"
 
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod Blocked Term"
+
+msgid "chat.filtering.automod-why"
+msgstr "This 'ere been flagged as:"
+
 msgid "chat.filtering.automod.A"
 msgstr "'ostility"
 
@@ -161,12 +167,6 @@ msgstr "Profanity"
 
 msgid "chat.filtering.automod.S"
 msgstr "Sexually Explicit Language"
-
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod Blocked Term"
-
-msgid "chat.filtering.automod-why"
-msgstr "This 'ere been flagged as:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Blocked Term"
@@ -363,20 +363,20 @@ msgstr "{user} playin' {game}"
 msgid "emoji.category.activities"
 msgstr "Activities"
 
-msgid "emoji.category.animals_nature"
+msgid "emoji.category.animals___nature"
 msgstr "Animals & Nature"
 
-msgid "emoji.category.animals___nature"
+msgid "emoji.category.animals_nature"
 msgstr "Animals & Nature"
 
 msgid "emoji.category.flags"
 msgstr "Flags"
 
-msgid "emoji.category.food_drink"
-msgstr "Grub & Drink"
-
 msgid "emoji.category.food___drink"
 msgstr "Food & Drink"
+
+msgid "emoji.category.food_drink"
+msgstr "Grub & Drink"
 
 msgid "emoji.category.objects"
 msgstr "Objects"
@@ -387,40 +387,23 @@ msgstr "People"
 msgid "emoji.category.skin_tones"
 msgstr "Skin Tones"
 
-msgid "emoji.category.smileys_emotion"
-msgstr "Smileys & Emotions"
-
 msgid "emoji.category.smileys___people"
 msgstr "Smileys & People"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Smileys & Emotions"
 
 msgid "emoji.category.symbols"
 msgstr "Symbols"
 
-msgid "emoji.category.travel_places"
-msgstr "Travel & Places"
-
 msgid "emoji.category.travel___places"
 msgstr "Travel & Places"
 
-msgid "emote.2fa"
-msgstr "Twitch 2FA Emote"
+msgid "emoji.category.travel_places"
+msgstr "Travel & Places"
 
-msgid "emote.bits"
-msgstr "Twitch Bits Reward"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Channel: {channel}"
-
-msgid "emote.follower"
-msgstr "Follower Emote ({source})"
-
-msgid "emote.global"
-msgstr "Twitch Global"
-
-msgid "emote.limited"
-msgstr "Limited-Time Only Emote"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Channel"
@@ -491,9 +474,6 @@ msgstr "Me Emotes"
 msgid "emote-menu.points"
 msgstr "Unlocked wit' Points"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -560,6 +540,26 @@ msgstr "'idden"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Visible"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Emote"
+
+msgid "emote.bits"
+msgstr "Twitch Bits Reward"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Channel: {channel}"
+
+msgid "emote.follower"
+msgstr "Follower Emote ({source})"
+
+msgid "emote.global"
+msgstr "Twitch Global"
+
+msgid "emote.limited"
+msgstr "Limited-Time Only Emote"
 
 msgid "emote.owner"
 msgstr "By: {owner}"
@@ -710,9 +710,6 @@ msgstr "Featured"
 msgid "metadata.featured-follow.title"
 msgstr "Featured Channels"
 
-msgid "metadata.host.add-channel"
-msgstr "Add T' Auto 'ost"
-
 msgid "metadata.host-button.host"
 msgstr "'ost"
 
@@ -727,6 +724,9 @@ msgstr "Un'ost"
 
 msgid "metadata.host-button.updating"
 msgstr "Updatin'..."
+
+msgid "metadata.host.add-channel"
+msgstr "Add T' Auto 'ost"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr "Automatically 'ost channels from yer 'ost list when ye be offline."

@@ -881,6 +881,27 @@ msgstr ""
 "users with specific badges. If ye wish to 'ide a badge, go t' [Chat > "
 "Badges >> Visibility](~chat.badges.tabs.visibility)."
 
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Message Types"
+
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"This 'ere filter allows ye t' remove all messages o' a certain type from "
+"Twitch chat. It can be used t' filter system messages, such as 'osts or "
+"Raids. Some types, such as moderation actions, cannot be blocked t' prevent "
+"chat functionality from breakin'."
+
+msgid "setting.chat.filtering.block.terms"
+msgstr "Terms"
+
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Please see [Chat > Filterin' > Syntax Help](~) fer details on 'ow t' use "
+"terms."
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Users"
+
 msgid "setting.chat.filtering.blocked_badges"
 msgstr "Blocked Badges"
 
@@ -906,27 +927,6 @@ msgstr "Blocked Terms"
 msgid "setting.chat.filtering.blocked_users"
 msgstr "Blocked Users"
 
-msgid "setting.chat.filtering.block.message_types"
-msgstr "Message Types"
-
-msgid "setting.chat.filtering.block.message_types.description"
-msgstr ""
-"This 'ere filter allows ye t' remove all messages o' a certain type from "
-"Twitch chat. It can be used t' filter system messages, such as 'osts or "
-"Raids. Some types, such as moderation actions, cannot be blocked t' prevent "
-"chat functionality from breakin'."
-
-msgid "setting.chat.filtering.block.terms"
-msgstr "Terms"
-
-msgid "setting.chat.filtering.block.terms.description"
-msgstr ""
-"Please see [Chat > Filterin' > Syntax Help](~) fer details on 'ow t' use "
-"terms."
-
-msgid "setting.chat.filtering.block.users"
-msgstr "Users"
-
 msgid "setting.chat.filtering.general"
 msgstr "General"
 
@@ -951,6 +951,12 @@ msgstr "'ighlight"
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "'ighlight Badges"
 
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "'ighlight Terms"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "'ighlight Users"
+
 msgid "setting.chat.filtering.highlight.badges"
 msgstr "Badges"
 
@@ -966,9 +972,6 @@ msgstr ""
 "lower priority rules from 'ighlightin' them, by settin' a color with an "
 "alpha value o' zero. Example: `#00000000`"
 
-msgid "setting.chat.filtering.highlight_terms"
-msgstr "'ighlight Terms"
-
 msgid "setting.chat.filtering.highlight.terms"
 msgstr "Terms"
 
@@ -976,9 +979,6 @@ msgid "setting.chat.filtering.highlight.terms.description"
 msgstr ""
 "Please see [Chat > Filterin' > Syntax Help](~) fer details on 'ow t' use "
 "terms."
-
-msgid "setting.chat.filtering.highlight_users"
-msgstr "'ighlight Users"
 
 msgid "setting.chat.filtering.highlight.users"
 msgstr "Users"
@@ -1101,6 +1101,9 @@ msgstr "Backup an' Restore"
 msgid "setting.data_management.profiles"
 msgstr "Profiles"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Edit Profile"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Description"
 
@@ -1112,9 +1115,6 @@ msgstr "Hotkey"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Name"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Edit Profile"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Rules"
@@ -1236,11 +1236,11 @@ msgstr ""
 "formatted exactly as displayed in yer client. Fer best results, ye can "
 "block or unblock categories directly from directory pages."
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "'idden Thumbnails"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "'idden Thumbnail Style"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "'idden Thumbnails"
 
 msgid "setting.directory.channels"
 msgstr "Channels"
@@ -1375,14 +1375,14 @@ msgstr "Adjustment"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Alter user colors t' ensure that they remain readable."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "No Color"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Unchanged"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "No Color"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1504,11 +1504,6 @@ msgstr ""
 msgid "setting.entry.chat.bits.show"
 msgstr "Display Bits"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Display UI associated wit' bits. Note: This 'ere will not 'ide cheerin' in "
-"chat messages."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Display Leaderboard"
 
@@ -1526,6 +1521,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "By default, this 'ere inherits its value from Display Bits. This 'ere "
 "settin' only affects newly arrived messages."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Display UI associated wit' bits. Note: This 'ere will not 'ide cheerin' in "
+"chat messages."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Cheer Stackin'"
@@ -1558,11 +1558,11 @@ msgstr ""
 "Delay the appearance o' chat messages t' allow fer moderation before ye see "
 "them."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "No Delay"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Default Delay (Room Specific; Non-Mod Only)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "No Delay"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra Larrrge (10s)"
@@ -1774,11 +1774,11 @@ msgstr ""
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Display mentions in chat wit' a bold font."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Enable openin' viewer carrrds by clickin' mentions in chat."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Click t' reveal scuttled terms."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Enable openin' viewer carrrds by clickin' mentions in chat."
 
 msgid "setting.entry.chat.filtering.color-mentions"
 msgstr "Display mentions in chat wit' username colors."
@@ -2142,6 +2142,9 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Pause Chat Scrollin'"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Require the mouse t' be over chat to freeze wit' a hotkey."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Automatically avast chat from scrollin' when movin' the mouse over it or "
@@ -2149,9 +2152,6 @@ msgstr ""
 " \n"
 "**Note:** Scrollin' up in chat will always prevent automatic scrollin', "
 "regardless o' this 'ere settin'."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr "Require the mouse t' be over chat to freeze wit' a hotkey."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
 msgstr "Use Twitch Settin'"
@@ -2247,6 +2247,9 @@ msgstr "Display a banner at the top o' chat when a mass gift sub 'appens."
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Merge Mass Sub Gifts"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expand merged mass sub gift messages by default."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Merge mass gift subscriptions int' a single message, dependin' on the "
@@ -2270,9 +2273,6 @@ msgstr "More than 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "More than 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Expand merged mass sub gift messages by default."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Display Subs in Chat"
@@ -2323,18 +2323,6 @@ msgstr ""
 "here](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Padded"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Padded 24 'our"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Padded wit' Seconds"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Padded 24 'our wit' Seconds"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 'our"
 
@@ -2346,6 +2334,18 @@ msgstr "12 'our wit' Seconds"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 'our wit' Seconds"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Padded"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Padded 24 'our"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Padded wit' Seconds"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Padded 24 'our wit' Seconds"
 
 msgid "setting.entry.chat.timestamp-size"
 msgstr "Timestamp Font Size"
@@ -2579,11 +2579,6 @@ msgstr "Slide the site navigation barrr up out o' view when it ain't in use."
 msgid "setting.entry.layout.portrait"
 msgstr "Enable Portrait Mode"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"In Portrait Mode, chat be displayed beneath the player when the window be "
-"taller than it be wide."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "When in Portrait Mode, place chat at the top."
 
@@ -2603,6 +2598,11 @@ msgid "setting.entry.layout.portrait-threshold.description"
 msgstr ""
 "This 'ere be the Width t' Height ratio at which point Portrait Mode will "
 "begin to activate."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"In Portrait Mode, chat be displayed beneath the player when the window be "
+"taller than it be wide."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Show Prime Gamin' Loot."
@@ -3041,11 +3041,6 @@ msgstr "Keep the volume slider expanded at all times."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Adjust volume by scrollin' with the mouse wheel."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*This settin' will not work properly on streams wit' visible extensions "
-"when mouse interaction wit' extensions be allowed.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Volume scroll amount"
 
@@ -3063,6 +3058,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*This settin' will not work properly on streams wit' visible extensions "
+"when mouse interaction wit' extensions be allowed.*"
 
 msgid "setting.entry.player.volume-scroll.values.2"
 msgstr "Enabled with Right-Click"
@@ -3510,6 +3510,14 @@ msgstr "Volume"
 msgid "setting.preview"
 msgstr "Preview"
 
+msgid "setting.profile.updates"
+msgstr "This 'ere profile will update automatically from the followin' URL:"
+
+msgid "setting.profile.updates-about"
+msgstr ""
+"This 'ere profile be set t' automatically update. When it does, any changed "
+"settin's within it be reset. Profile rules be reset as well."
+
 msgid "setting.profiles.active"
 msgstr "This 'ere profile be enabled an' active."
 
@@ -3559,14 +3567,6 @@ msgstr "This 'ere profile will update automatically."
 
 msgid "setting.profiles.warn-delete"
 msgstr "Ye be sure ye wish to scuttle this 'ere profile? It cannot be undone."
-
-msgid "setting.profile.updates"
-msgstr "This 'ere profile will update automatically from the followin' URL:"
-
-msgid "setting.profile.updates-about"
-msgstr ""
-"This 'ere profile be set t' automatically update. When it does, any changed "
-"settin's within it be reset. Profile rules be reset as well."
 
 msgid "setting.provider.about"
 msgstr ""
@@ -3663,6 +3663,68 @@ msgstr "Right-Click t' Reset"
 msgid "setting.save"
 msgstr "Save"
 
+msgid "setting.space"
+msgstr "Space"
+
+msgid "setting.space-small"
+msgstr "Space (Small)"
+
+msgid "setting.space-small.desc"
+msgstr "Place a small space between the previous item an' the next item."
+
+msgid "setting.space.desc"
+msgstr ""
+"Place as larrrge a space as possible between the previous item an' the next "
+"item."
+
+msgid "setting.terms.add-placeholder"
+msgstr "Add a new term"
+
+msgid "setting.terms.add-term"
+msgstr "Add"
+
+msgid "setting.terms.no-terms"
+msgstr "no terms be defined in this 'ere profile"
+
+msgid "setting.terms.please-select"
+msgstr "Please select an option."
+
+msgid "setting.terms.remove.off"
+msgstr "Do not remove matchin' messages from chat."
+
+msgid "setting.terms.remove.on"
+msgstr "Remove matchin' messages from chat."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+msgid "setting.terms.type.text"
+msgstr "Text"
+
+msgid "setting.tooltip-example"
+msgstr "Fer an example, please 'over this 'ere link:"
+
+msgid "setting.true"
+msgstr "True"
+
+msgid "setting.unset"
+msgstr "Unset"
+
+msgid "setting.visible"
+msgstr "Visible"
+
+msgid "setting.warn-inheritence"
+msgstr "These values bein' overridden by another profile an' may not take effect."
+
+msgid "setting.warn-unsaved"
+msgstr "Ye 'ave unsaved changes. Be ye sure ye want t' leave the editor?"
+
 msgid "settings.back"
 msgstr "Back"
 
@@ -3750,14 +3812,14 @@ msgstr "Dashboard: Settin's Moderation"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Dashboard: Settin's Revenue"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Dashboard: Streamin' Tools"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Dashboard: Stream Manager"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Dashboard: Stream Summary"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Dashboard: Streamin' Tools"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Dashboard: Video Producer"
@@ -3872,20 +3934,6 @@ msgstr "This 'ere pattern be invalid."
 msgid "settings.filter.true_false"
 msgstr "True or False"
 
-msgid "setting.space"
-msgstr "Space"
-
-msgid "setting.space.desc"
-msgstr ""
-"Place as larrrge a space as possible between the previous item an' the next "
-"item."
-
-msgid "setting.space-small"
-msgstr "Space (Small)"
-
-msgid "setting.space-small.desc"
-msgstr "Place a small space between the previous item an' the next item."
-
 msgid "settings.term.color.tip"
 msgstr "Color"
 
@@ -3912,51 +3960,3 @@ msgstr "Abc"
 
 msgid "settings.terms.word.tip"
 msgstr "Match Whole Words"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Add a new term"
-
-msgid "setting.terms.add-term"
-msgstr "Add"
-
-msgid "setting.terms.no-terms"
-msgstr "no terms be defined in this 'ere profile"
-
-msgid "setting.terms.please-select"
-msgstr "Please select an option."
-
-msgid "setting.terms.remove.off"
-msgstr "Do not remove matchin' messages from chat."
-
-msgid "setting.terms.remove.on"
-msgstr "Remove matchin' messages from chat."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Word)"
-
-msgid "setting.terms.type.text"
-msgstr "Text"
-
-msgid "setting.tooltip-example"
-msgstr "Fer an example, please 'over this 'ere link:"
-
-msgid "setting.true"
-msgstr "True"
-
-msgid "setting.unset"
-msgstr "Unset"
-
-msgid "setting.visible"
-msgstr "Visible"
-
-msgid "setting.warn-inheritence"
-msgstr "These values bein' overridden by another profile an' may not take effect."
-
-msgid "setting.warn-unsaved"
-msgstr "Ye 'ave unsaved changes. Be ye sure ye want t' leave the editor?"

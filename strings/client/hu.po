@@ -86,17 +86,17 @@ msgstr "FrankerFaceZ weboldal"
 msgid "chat.ffz-badge.title"
 msgstr "FrankerFaceZ Jelvény"
 
-msgid "chat.filtering.automod.P"
-msgstr "Káromkodás"
-
-msgid "chat.filtering.automod.S"
-msgstr "Szexuálisan Kifejezett Nyelv"
-
 msgid "chat.filtering.automod-term"
 msgstr "Letiltott Kifejezések az AutoMod által."
 
 msgid "chat.filtering.automod-why"
 msgstr "Megjelölték:"
+
+msgid "chat.filtering.automod.P"
+msgstr "Káromkodás"
+
+msgid "chat.filtering.automod.S"
+msgstr "Szexuálisan Kifejezett Nyelv"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Letiltott Kifejezések"
@@ -210,19 +210,19 @@ msgstr "Hosztolva általa: {count,number} {count,en_plural}"
 msgid "directory.hosting"
 msgstr "Hosztolt Csatornák"
 
-msgid "emoji.category.animals_nature"
+msgid "emoji.category.animals___nature"
 msgstr "Állatok & Természet"
 
-msgid "emoji.category.animals___nature"
+msgid "emoji.category.animals_nature"
 msgstr "Állatok & Természet"
 
 msgid "emoji.category.flags"
 msgstr "Zászlók"
 
-msgid "emoji.category.food_drink"
+msgid "emoji.category.food___drink"
 msgstr "Étel & Ital"
 
-msgid "emoji.category.food___drink"
+msgid "emoji.category.food_drink"
 msgstr "Étel & Ital"
 
 msgid "emoji.category.people_body"
@@ -231,19 +231,14 @@ msgstr "Emberek"
 msgid "emoji.category.symbols"
 msgstr "Szimbólumok"
 
-msgid "emoji.category.travel_places"
-msgstr "Utazás & Helyek"
-
 msgid "emoji.category.travel___places"
 msgstr "Utazás & Helyek"
 
-msgid "emote.2fa"
-msgstr "Twitch 2FA Hangulatjel"
+msgid "emoji.category.travel_places"
+msgstr "Utazás & Helyek"
 
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Csatorna: {channel}"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Csatorna"
@@ -285,9 +280,6 @@ msgstr "Csatorna Hangulatjelek"
 
 msgid "emote-menu.my-emotes"
 msgstr "Hangulatjeleim"
-
-msgid "emote_menu.prime"
-msgstr "Prime"
 
 msgid "emote-menu.prime"
 msgstr "Prime"
@@ -332,6 +324,14 @@ msgstr "Rejtett"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Látható"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Hangulatjel"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Csatorna: {channel}"
 
 msgid "emote.owner"
 msgstr "Általa: {owner}"
@@ -403,9 +403,6 @@ msgstr "Beállítások Keresése"
 msgid "main-menu.version"
 msgstr "Verzió {version}"
 
-msgid "metadata.host.add-channel"
-msgstr "Hozzáadás az automatikus hosztoláshoz"
-
 msgid "metadata.host-button.host"
 msgstr "Hosztolás"
 
@@ -420,6 +417,9 @@ msgstr "Hosztolás megszüntetése"
 
 msgid "metadata.host-button.updating"
 msgstr "Frissítés..."
+
+msgid "metadata.host.add-channel"
+msgstr "Hozzáadás az automatikus hosztoláshoz"
 
 msgid "metadata.host.setting.auto-hosting.title"
 msgstr "Automatikus Hosztolás"

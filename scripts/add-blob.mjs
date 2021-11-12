@@ -89,8 +89,8 @@ const file = args[1];
 	const added = [];
 	const modified = new Set();
 
-	for(const [key, strings] of Object.entries(components)) {
-		const exist = existing[key] ?? (existing[key] = {});
+	for(const [cmp, strings] of Object.entries(components)) {
+		const exist = existing[cmp] ?? (existing[cmp] = {});
 
 		for(const entry of strings) {
 			const key = entry.id,
@@ -116,13 +116,13 @@ const file = args[1];
 
 				if (update) {
 					changed.push(key);
-					modified.add(key);
+					modified.add(cmp);
 				}
 
 			} else {
 				exist[key] = entry;
 				added.push(key);
-				modified.add(key);
+				modified.add(cmp);
 			}
 		}
 	}
@@ -142,20 +142,32 @@ const file = args[1];
 	const bid = v4();
 
 	try {
+		/*await git.checkout('main');
 		await git.pull();
-		await git.checkout(["-b", bid]);
+		await git.checkout(["-b", bid]);*/
 
-		await fs.promises.writeFile('strings.json', JSON.stringify(existing));
-		await git.add('strings.json');
+		const out = {};
+		for(const [key,val] of GetSortedEntries(existing))
+			out[key] = SortObject(val);
+
+		await fs.promises.writeFile('strings.json', JSON.stringify(out, null, '\t'));
+		//await git.add('strings.json');
 
 		for(const key of modified) {
-			const out = await componentToPO(key, existing[key]);
+			let out;
+			try {
+				out = await componentToPO(key, existing[key]);
+			} catch(err) {
+				console.error(key, err);
+				console.log(existing[key]);
+				process.exit(1);
+			}
 			const fn = path.join('strings', key, 'en-US.po');
 			await fs.promises.writeFile(fn, out);
-			await git.add(fn);
+			//await git.add(fn);
 		}
 
-		await git.commit(`Add ${added.length} strings and update ${changed.length} strings.`, undefined, {'--author': `"${user}" <bot@frankerfacez.com>`});
+		//await git.commit(`Add ${added.length} strings and update ${changed.length} strings.`, undefined, {'--author': `"${user}" <bot@frankerfacez.com>`});
 
 	} catch(err) {
 		console.error('Error while running Git commands.');

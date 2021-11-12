@@ -38,6 +38,22 @@ const SETTING_TEST = /^settings?\.(entry\.)?(.+)$/,
 	BAD_ADDON_KEYS = ['author', 'name'];
 
 
+const sort = new Intl.Collator;
+
+export function GetSortedEntries(obj) {
+	const entries = [...Object.entries(obj)];
+	entries.sort((a,b) => sort.compare(a[0], b[0]));
+	return entries;
+}
+
+export function SortObject(obj) {
+	const result = {};
+	for(const [key,val] of GetSortedEntries(obj))
+		result[key] = val;
+	return result;
+}
+
+
 export function keyToComponent(key) {
 	let match = ADDON_TEST.exec(key);
 	if ( match && ! BAD_ADDONS.includes(match[1]) && ! BAD_ADDON_KEYS.includes(match[2]) )
@@ -179,7 +195,7 @@ export function componentToPO(component, strings, original_strings, lang = 'en-U
 			}
 		};
 
-	for(const [key, string] of Object.entries(strings)) {
+	for(const [key, string] of GetSortedEntries(strings)) {
 		const thing = string.default ? string : {
 			...original_strings[key],
 			default: string

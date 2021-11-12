@@ -51,13 +51,13 @@ msgstr "Vänligen välj en anledningen i listan nedan:"
 msgid "chat.actions.timeout"
 msgstr "Sätt Timeout för Användare"
 
-msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,plural,one {# sekund} other {# sekunder}}"
-
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Sätt Timeout för {user.login} i {duration,plural,one {# sekund} other {# "
 "sekunder}} för:"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,plural,one {# sekund} other {# sekunder}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
@@ -89,6 +89,12 @@ msgstr ""
 "other {# meddelanden var raderade av en moderator.}\n"
 "}"
 
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod Blockerat Uttryck"
+
+msgid "chat.filtering.automod-why"
+msgstr "Detta var flaggat som:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Fientlighet"
 
@@ -100,12 +106,6 @@ msgstr "Svordomar"
 
 msgid "chat.filtering.automod.S"
 msgstr "Sexuellt språk"
-
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod Blockerat Uttryck"
-
-msgid "chat.filtering.automod-why"
-msgstr "Detta var flaggat som:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Blockerat Uttryck"
@@ -275,11 +275,8 @@ msgstr "Symboler"
 msgid "emoji.category.travel___places"
 msgstr "Resa & Platser"
 
-msgid "emote.global"
-msgstr "Global för Twitch"
-
-msgid "emote.limited"
-msgstr "Endast Begränsad Tidsbestämd  Emote"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanal"
@@ -342,9 +339,6 @@ msgstr "Mina Emotes"
 msgid "emote-menu.points"
 msgstr "Upplåst genom Poäng"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -393,6 +387,12 @@ msgstr "Okänd Källa"
 
 msgid "emote-menu.unknown-set"
 msgstr "Set #{set_id}"
+
+msgid "emote.global"
+msgstr "Global för Twitch"
+
+msgid "emote.limited"
+msgstr "Endast Begränsad Tidsbestämd  Emote"
 
 msgid "emote.owner"
 msgstr "Av: {owner}"
@@ -522,9 +522,6 @@ msgstr "Framhävd"
 msgid "metadata.featured-follow.title"
 msgstr "Framhävda Kanaler"
 
-msgid "metadata.host.add-channel"
-msgstr "Lägg Till i Auto-hosting"
-
 msgid "metadata.host-button.host"
 msgstr "Host"
 
@@ -539,6 +536,9 @@ msgstr "Avsluta Host"
 
 msgid "metadata.host-button.updating"
 msgstr "Uppdaterar..."
+
+msgid "metadata.host.add-channel"
+msgstr "Lägg Till i Auto-hosting"
 
 msgid "metadata.host.tab.auto-host"
 msgstr "Auto-host"

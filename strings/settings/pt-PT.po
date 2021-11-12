@@ -706,6 +706,20 @@ msgstr "Bloco"
 msgid "setting.chat.filtering.block.badges"
 msgstr "Distintivos"
 
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Tipos de Mensagens"
+
+msgid "setting.chat.filtering.block.terms"
+msgstr "Termos"
+
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Vê [Chat > Filteração > Ajuda de Sintaxe](~) para obter detalhes sobre como "
+"usar os termos."
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Utilizadores"
+
 msgid "setting.chat.filtering.blocked_badges"
 msgstr "Distintivos Bloqueados"
 
@@ -724,20 +738,6 @@ msgstr "Termos Bloqueados"
 
 msgid "setting.chat.filtering.blocked_users"
 msgstr "Utilizadores Bloqueados"
-
-msgid "setting.chat.filtering.block.message_types"
-msgstr "Tipos de Mensagens"
-
-msgid "setting.chat.filtering.block.terms"
-msgstr "Termos"
-
-msgid "setting.chat.filtering.block.terms.description"
-msgstr ""
-"Vê [Chat > Filteração > Ajuda de Sintaxe](~) para obter detalhes sobre como "
-"usar os termos."
-
-msgid "setting.chat.filtering.block.users"
-msgstr "Utilizadores"
 
 msgid "setting.chat.filtering.general"
 msgstr "Geral"
@@ -763,11 +763,14 @@ msgstr "Destacar"
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "Destacar Distintivos"
 
-msgid "setting.chat.filtering.highlight.badges"
-msgstr "Distintivos"
-
 msgid "setting.chat.filtering.highlight_terms"
 msgstr "Termos de Destaque"
+
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Destacar Utilizadores"
+
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Distintivos"
 
 msgid "setting.chat.filtering.highlight.terms"
 msgstr "Termos"
@@ -776,9 +779,6 @@ msgid "setting.chat.filtering.highlight.terms.description"
 msgstr ""
 "Vê [Chat > Filteração > Ajuda de Sintaxe](~) para obter detalhes sobre como "
 "usar os termos."
-
-msgid "setting.chat.filtering.highlight_users"
-msgstr "Destacar Utilizadores"
 
 msgid "setting.chat.filtering.highlight.users"
 msgstr "Utilizadores"
@@ -900,6 +900,9 @@ msgstr "Backup e Restauração"
 msgid "setting.data_management.profiles"
 msgstr "Perfis"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Editar Perfil"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Descrição"
 
@@ -911,9 +914,6 @@ msgstr "Tecla de Atalho"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Nome"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Editar Perfil"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Regras"
@@ -1010,11 +1010,11 @@ msgstr ""
 "resultados, podes bloquear ou desbloquear categorias diretamente nas "
 "páginas do diretório."
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Miniaturas Ocultas"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "Estilo de Miniatura Escondida"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Miniaturas Ocultas"
 
 msgid "setting.directory.channels"
 msgstr "Canais"
@@ -1153,14 +1153,14 @@ msgstr "Ajuste"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Alterar cores do utilizador de forma a garantir que permaneçam legíveis."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Sem Cor"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Sem Alteração"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Sem Cor"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1268,11 +1268,6 @@ msgstr "Exibir cheers animados."
 msgid "setting.entry.chat.bits.show"
 msgstr "Exibir Bits"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Exibir a interface associada aos bits. Nota: Isto não esconderá os cheers "
-"nas mensagens do chat."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Exibir Maiores Apoiantes"
 
@@ -1285,6 +1280,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Por padrão, este valor corresponde ao de Exibir Bits. Esta configuração "
 "afeta apenas as novas mensagens."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Exibir a interface associada aos bits. Nota: Isto não esconderá os cheers "
+"nas mensagens do chat."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Mesclagem de Cheers"
@@ -1317,11 +1317,11 @@ msgstr ""
 "Atrasa o aparecimento de mensagens no chat para permitir moderação antes "
 "que as vejas."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Sem Atraso"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Atraso Padrão (Específico por Sala; Apenas Não-Mods)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Sem Atraso"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra Grande (10s)"
@@ -1460,11 +1460,11 @@ msgstr ""
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Exibir menções no chat a negrito."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Ativar a abertura de cartões de espetador clicando em menções no chat."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Clicar para revelar termos apagados."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Ativar a abertura de cartões de espetador clicando em menções no chat."
 
 msgid "setting.entry.chat.filtering.color-mentions"
 msgstr "Exibir menções no chat com a cor dos utilizadores."
@@ -1774,6 +1774,11 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Pausar o Scroll do Chat"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Exigir que o cursor do rato esteja sobre o chat para bloquear o scroll com "
+"uma tecla de atalho."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Para automaticamente a deslocação do chat quando o rato estiver sobreposto "
@@ -1781,11 +1786,6 @@ msgstr ""
 "\n"
 "**Nota:** Deslocar o chat para cima irá impedir a deslocação do chat "
 "sempre, independentemente desta configuração."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr ""
-"Exigir que o cursor do rato esteja sobre o chat para bloquear o scroll com "
-"uma tecla de atalho."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
 msgstr "Utilizar Configurações da Twitch"
@@ -1877,6 +1877,9 @@ msgstr ""
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Juntar Presentes em Massa de Subscrições"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expandir mensagens de presentes em massa de subscrições por padrão."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Combinar presentes em massa de subscrições numa única mensagem, dependendo "
@@ -1900,9 +1903,6 @@ msgstr "Mais de 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Mais de 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Expandir mensagens de presentes em massa de subscrições por padrão."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Exibir Subscrições no Chat"
@@ -1953,18 +1953,6 @@ msgstr ""
 "página](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Espaçado"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "24 Horas Espaçado"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Espaçado com Segundos"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "24 Horas Espaçado com Segundos"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Horas"
 
@@ -1976,6 +1964,18 @@ msgstr "12 Horas com Segundos"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Horas com Segundos"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Espaçado"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "24 Horas Espaçado"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Espaçado com Segundos"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "24 Horas Espaçado com Segundos"
 
 msgid "setting.entry.chat.timestamp-size"
 msgstr "Tamanha da fonte dos Registros de Data e Hora"
@@ -2207,11 +2207,6 @@ msgstr "Desliza a barra de navegação para cima quando não estiver em uso."
 msgid "setting.entry.layout.portrait"
 msgstr "Ativar o Modo Retrato"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"No Modo Retrato, o chat será exibido abaixo do player quando a janela tiver "
-"mais altura do que largura."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "No Modo Retrato, colocar o chat no topo."
 
@@ -2229,6 +2224,11 @@ msgstr "Limite para o Modo Retrato"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Esta é a escala de Largura e Altura em que o Modo Retrato é ativado."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"No Modo Retrato, o chat será exibido abaixo do player quando a janela tiver "
+"mais altura do que largura."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Exibir ofertas do Prime Gaming."
@@ -2609,11 +2609,6 @@ msgstr "Exibir sempre a barra de volume."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Ajustar o volume ao dar scroll com o rato."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Esta configuração não funcionará corretamente com extensões visíveis "
-"enquanto a interação do rato com extensões está ativada.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Quantidade de volume ao dar scroll"
 
@@ -2631,6 +2626,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Esta configuração não funcionará corretamente com extensões visíveis "
+"enquanto a interação do rato com extensões está ativada.*"
 
 msgid "setting.entry.player.volume-scroll.values.2"
 msgstr "Ativado com click direito"
@@ -3023,6 +3023,9 @@ msgstr "Volume"
 msgid "setting.preview"
 msgstr "Pré-Visualização"
 
+msgid "setting.profile.updates"
+msgstr "Este perfil atualizará automaticamente a partir do URL: "
+
 msgid "setting.profiles.active"
 msgstr "Este perfil está ativo."
 
@@ -3074,9 +3077,6 @@ msgid "setting.profiles.warn-delete"
 msgstr ""
 "Tens a certeza de que desejas apagar este perfil? Isto não pode ser "
 "desfeito."
-
-msgid "setting.profile.updates"
-msgstr "Este perfil atualizará automaticamente a partir do URL: "
 
 msgid "setting.provider.about"
 msgstr ""
@@ -3151,6 +3151,56 @@ msgstr "Clique Direito para Reiniciar"
 
 msgid "setting.save"
 msgstr "Salvar"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Adicionar um novo termo"
+
+msgid "setting.terms.add-term"
+msgstr "Adicionar"
+
+msgid "setting.terms.no-terms"
+msgstr "nenhum termo está definido neste perfil"
+
+msgid "setting.terms.please-select"
+msgstr "Seleciona uma opção."
+
+msgid "setting.terms.remove.off"
+msgstr "Não remover mensagens correspondentes no chat."
+
+msgid "setting.terms.remove.on"
+msgstr "Remover mensagens do chat correspondentes."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Palavra)"
+
+msgid "setting.terms.type.text"
+msgstr "Texto"
+
+msgid "setting.tooltip-example"
+msgstr "Para ver um exemplo, passe o rato por cima deste link:"
+
+msgid "setting.true"
+msgstr "Verdadeiro"
+
+msgid "setting.unset"
+msgstr "Não Definido"
+
+msgid "setting.visible"
+msgstr "Visível"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Estes valores estão a ser substituídos por outro perfil e poderão não estar "
+"em vigor."
+
+msgid "setting.warn-unsaved"
+msgstr "Tens mudanças não salvas. Tens a certeza que queres sair do editor?"
 
 msgid "settings.back"
 msgstr "Voltar"
@@ -3239,14 +3289,14 @@ msgstr "Painel de Controlo: Configurações de Moderação"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Painel de Controlo: Configuração de Ganhos"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Painel de Controlo: Ferramentas de Transmissão"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Painel de Controlo: Gerenciador de Transmissões"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Painel de Controlo: Resumo da Transmissão"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Painel de Controlo: Ferramentas de Transmissão"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Painel de Controlo: Produtor de Vídeos"
@@ -3360,53 +3410,3 @@ msgstr "Este padrão é inválido."
 
 msgid "settings.filter.true_false"
 msgstr "Verdadeiro ou Falso"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Adicionar um novo termo"
-
-msgid "setting.terms.add-term"
-msgstr "Adicionar"
-
-msgid "setting.terms.no-terms"
-msgstr "nenhum termo está definido neste perfil"
-
-msgid "setting.terms.please-select"
-msgstr "Seleciona uma opção."
-
-msgid "setting.terms.remove.off"
-msgstr "Não remover mensagens correspondentes no chat."
-
-msgid "setting.terms.remove.on"
-msgstr "Remover mensagens do chat correspondentes."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Palavra)"
-
-msgid "setting.terms.type.text"
-msgstr "Texto"
-
-msgid "setting.tooltip-example"
-msgstr "Para ver um exemplo, passe o rato por cima deste link:"
-
-msgid "setting.true"
-msgstr "Verdadeiro"
-
-msgid "setting.unset"
-msgstr "Não Definido"
-
-msgid "setting.visible"
-msgstr "Visível"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Estes valores estão a ser substituídos por outro perfil e poderão não estar "
-"em vigor."
-
-msgid "setting.warn-unsaved"
-msgstr "Tens mudanças não salvas. Tens a certeza que queres sair do editor?"

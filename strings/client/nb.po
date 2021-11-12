@@ -79,15 +79,15 @@ msgstr "Vennligst velg en årsak fra listen nedenfor:"
 msgid "chat.actions.timeout"
 msgstr "Utvis bruker"
 
-msgid "chat.actions.timeout.desc"
-msgstr ""
-"{options.duration,number} {options.duration,plural,one {sekund} other "
-"{sekunder}}"
-
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Utvis {user.login} i {duration,number} {duration,one {sekund} other "
 "{sekunder}} for å:"
+
+msgid "chat.actions.timeout.desc"
+msgstr ""
+"{options.duration,number} {options.duration,plural,one {sekund} other "
+"{sekunder}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
@@ -122,6 +122,12 @@ msgstr ""
 "other {# meldinger ble slettet av en moderator.}\n"
 "}"
 
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod-blokkert uttrykk"
+
+msgid "chat.filtering.automod-why"
+msgstr "Dette ble flagget som: "
+
 msgid "chat.filtering.automod.A"
 msgstr "Fiendtlighet"
 
@@ -133,12 +139,6 @@ msgstr "Bannord"
 
 msgid "chat.filtering.automod.S"
 msgstr "Seksuelt utartet språkbruk"
-
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod-blokkert uttrykk"
-
-msgid "chat.filtering.automod-why"
-msgstr "Dette ble flagget som: "
 
 msgid "chat.filtering.blocked-term"
 msgstr "Blokkert uttrykk"
@@ -328,19 +328,19 @@ msgstr "{user} spiller {game}"
 msgid "emoji.category.activities"
 msgstr "Aktiviteter"
 
-msgid "emoji.category.animals_nature"
-msgstr "Dyreliv og natur"
-
 msgid "emoji.category.animals___nature"
 msgstr "Dyr og natur"
+
+msgid "emoji.category.animals_nature"
+msgstr "Dyreliv og natur"
 
 msgid "emoji.category.flags"
 msgstr "Flagg"
 
-msgid "emoji.category.food_drink"
+msgid "emoji.category.food___drink"
 msgstr "Mat og drikke"
 
-msgid "emoji.category.food___drink"
+msgid "emoji.category.food_drink"
 msgstr "Mat og drikke"
 
 msgid "emoji.category.objects"
@@ -358,28 +358,14 @@ msgstr "Smilefjes og folk"
 msgid "emoji.category.symbols"
 msgstr "Symboler"
 
-msgid "emoji.category.travel_places"
-msgstr "Reise og steder"
-
 msgid "emoji.category.travel___places"
 msgstr "Reise og steder"
 
-msgid "emote.2fa"
-msgstr "Twitch-totrinns-emote"
+msgid "emoji.category.travel_places"
+msgstr "Reise og steder"
 
-msgid "emote.bits"
-msgstr "Twitch-bitbelønning"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Channel: {channel}"
-
-msgid "emote.global"
-msgstr "Twitchs egen"
-
-msgid "emote.limited"
-msgstr "Midlertidig emote"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanal"
@@ -446,9 +432,6 @@ msgstr "Mine emoter"
 
 msgid "emote-menu.points"
 msgstr "Låst opp med poeng"
-
-msgid "emote_menu.prime"
-msgstr "Prime"
 
 msgid "emote-menu.prime"
 msgstr "Prime"
@@ -518,6 +501,23 @@ msgstr "Skjult"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Synlig"
+
+msgid "emote.2fa"
+msgstr "Twitch-totrinns-emote"
+
+msgid "emote.bits"
+msgstr "Twitch-bitbelønning"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Channel: {channel}"
+
+msgid "emote.global"
+msgstr "Twitchs egen"
+
+msgid "emote.limited"
+msgstr "Midlertidig emote"
 
 msgid "emote.owner"
 msgstr "Av: {owner}"
@@ -650,9 +650,6 @@ msgstr "Fremhevet"
 msgid "metadata.featured-follow.title"
 msgstr "Fremhevede kanaler"
 
-msgid "metadata.host.add-channel"
-msgstr "Legg til auto-vertskap"
-
 msgid "metadata.host-button.host"
 msgstr "Bevert"
 
@@ -667,6 +664,9 @@ msgstr "Stopp vertskap"
 
 msgid "metadata.host-button.updating"
 msgstr "Oppdaterer..."
+
+msgid "metadata.host.add-channel"
+msgstr "Legg til auto-vertskap"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr ""

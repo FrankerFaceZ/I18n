@@ -716,6 +716,9 @@ msgstr "Израда сигурносних копија и враћање"
 msgid "setting.data_management.profiles"
 msgstr "Профили"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Измени профил"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Опис"
 
@@ -724,9 +727,6 @@ msgstr "Опште"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Име"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Измени профил"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Правила"
@@ -877,14 +877,14 @@ msgstr ""
 "Измените боје корисничких имена, како би били сигурни да корисничка имена "
 "остану читљива."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Без боје"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Непромењено"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Без боје"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -979,11 +979,6 @@ msgstr "Прикажи анимације бодрења."
 msgid "setting.entry.chat.bits.show"
 msgstr "Прикажи битове"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Прикажи кориснички интерфејс удружен са битовима. Белешка: Ово неће сакрити "
-"бодрења у ћаскању."
-
 msgid "setting.entry.chat.bits.show-rewards"
 msgstr "Прикажи поруке када бодрење подели награде корнисицима у ћаскању."
 
@@ -991,6 +986,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Подразумевано, ово ће наследити вредност из 'прикажи битове' секције. Ова "
 "опција ће утицати само на нове поруке у ћаскању."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Прикажи кориснички интерфејс удружен са битовима. Белешка: Ово неће сакрити "
+"бодрења у ћаскању."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Наслагивање порука бодрења"
@@ -1023,11 +1023,11 @@ msgstr ""
 "Прикажи поруке у ћаскању са закашњењм, како би поруке могле да буду "
 "прегледане од стране модератора."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Без кашњења"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Подразумевано кашњење  (Room Specific; Non-Mod Only)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Без кашњења"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Велики (10с)"
@@ -1135,13 +1135,13 @@ msgstr "Име, опадајуће"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
 msgstr "Сортирај емотиконе по већем нивоу претплате до мањег нивоа претплате."
 
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Кликните како бисте приказали избрисане термине."
+
 msgid "setting.entry.chat.filtering.clickable-mentions"
 msgstr ""
 "Дозволи отварање корисникове картице уколико кликнете на име у поруци у "
 "којој је поменут."
-
-msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr "Кликните како бисте приказали избрисане термине."
 
 msgid "setting.entry.chat.filtering.deleted-style.description"
 msgstr ""
@@ -1493,6 +1493,9 @@ msgstr "Прикажи банер на врху ћаскања када се п�
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Споји масивне поклоњене претплате"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expand merged mass sub gift messages by default."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Споји масивне поклоњене претплате и једну поруку, у зависности од количине.\n"
@@ -1515,9 +1518,6 @@ msgstr "Више од 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Више од 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Expand merged mass sub gift messages by default."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Прикажи претплате у ћаскању"
@@ -1574,18 +1574,6 @@ msgstr ""
 "[овде](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)."
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Постављено"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Постављено 24 сата"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Постављено са секундама"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Постављено 24 сата са секундама"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Сати"
 
@@ -1597,6 +1585,18 @@ msgstr "12 Сати са секундама"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Сата са секундама"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Постављено"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Постављено 24 сата"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Постављено са секундама"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Постављено 24 сата са секундама"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Омогући FrankerFaceZ функцију за ћаскање на видео снимцима."
@@ -1765,11 +1765,6 @@ msgstr "Сакриј навигацију сајта уколико није у 
 msgid "setting.entry.layout.portrait"
 msgstr "Дозволи портер мод"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"У портрет моду, ћаскање ће бити приказано испод плејера када је прозор већи "
-"него што је шири."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Када је ћаскање у портрет моду, постави га на врх."
 
@@ -1778,6 +1773,11 @@ msgstr "Почетак портрет мода"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Ово је однос ширине и висине у коме ће се портрет мод почети активирати."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"У портрет моду, ћаскање ће бити приказано испод плејера када је прозор већи "
+"него што је шири."
 
 msgid "setting.entry.layout.side-nav.hide-offline"
 msgstr "Сакриј пријатеље који нису на мрежи"
@@ -2096,11 +2096,6 @@ msgstr "Увек прикажи клизач за јачину звука."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Дозволи подешавање звука скролом од миша."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Ова функција неће радити подразумевано уколико канал садржи додатке који "
-"дозвољавају интеракцију миша са додацима.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Количина помицања"
 
@@ -2118,6 +2113,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Ова функција неће радити подразумевано уколико канал садржи додатке који "
+"дозвољавају интеракцију миша са додацима.*"
 
 msgid "setting.entry.profiles"
 msgstr "профили"
@@ -2412,6 +2412,9 @@ msgstr "Позориште мод"
 msgid "setting.player.general.volume"
 msgstr "Звук"
 
+msgid "setting.profile.updates"
+msgstr "Овај профил ће се аутоматски ажутирати из следеће УРЛ адресе:"
+
 msgid "setting.profiles.active"
 msgstr "Овај профил је омогућен и активан."
 
@@ -2460,9 +2463,6 @@ msgstr ""
 "Да ли сте сигурни да желите да обришете овај профил? Ово не може бити "
 "враћено."
 
-msgid "setting.profile.updates"
-msgstr "Овај профил ће се аутоматски ажутирати из следеће УРЛ адресе:"
-
 msgid "setting.reasons.add-default"
 msgstr "Додај подразумевано"
 
@@ -2494,6 +2494,55 @@ msgstr "Десни клик да ресетујете"
 
 msgid "setting.save"
 msgstr "Сачувај"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Додај нови термин"
+
+msgid "setting.terms.add-term"
+msgstr "Додај"
+
+msgid "setting.terms.no-terms"
+msgstr "ниједан термин није дефинисан за овај прoфил"
+
+msgid "setting.terms.remove.off"
+msgstr "Немој да бришеш подударајуће поруке из ћаскања."
+
+msgid "setting.terms.remove.on"
+msgstr "Ижбриши исте поруке у ћаскању."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+msgid "setting.terms.type.text"
+msgstr "Текст"
+
+msgid "setting.tooltip-example"
+msgstr "Ради примера, молимо вас да мишем пређете преко овог линка:"
+
+msgid "setting.true"
+msgstr "Тачно"
+
+msgid "setting.unset"
+msgstr "Поништи"
+
+msgid "setting.visible"
+msgstr "Видљиво"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Ове вредности су надглашене од стране другог профила и можда неће имати "
+"никакав ефекат."
+
+msgid "setting.warn-unsaved"
+msgstr ""
+"Имате несачуваних подешавања. Да ли сте сигурни да желите да изађете из "
+"едитора?"
 
 msgid "settings.back"
 msgstr "Назад"
@@ -2582,14 +2631,14 @@ msgstr "Командна табла: Подешавања модерације"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Командна табла: Подешавања прихода"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Командна табла: Алатке стрима"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Командна табла: Менаџер стрима"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Командна табла: Преглед стрима"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Командна табла: Алатке стрима"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Командна табла: Видео продуцент"
@@ -2703,52 +2752,3 @@ msgstr "Овај шаблон није валидан."
 
 msgid "settings.filter.true_false"
 msgstr "Тачно или нетачно"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Додај нови термин"
-
-msgid "setting.terms.add-term"
-msgstr "Додај"
-
-msgid "setting.terms.no-terms"
-msgstr "ниједан термин није дефинисан за овај прoфил"
-
-msgid "setting.terms.remove.off"
-msgstr "Немој да бришеш подударајуће поруке из ћаскања."
-
-msgid "setting.terms.remove.on"
-msgstr "Ижбриши исте поруке у ћаскању."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Word)"
-
-msgid "setting.terms.type.text"
-msgstr "Текст"
-
-msgid "setting.tooltip-example"
-msgstr "Ради примера, молимо вас да мишем пређете преко овог линка:"
-
-msgid "setting.true"
-msgstr "Тачно"
-
-msgid "setting.unset"
-msgstr "Поништи"
-
-msgid "setting.visible"
-msgstr "Видљиво"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Ове вредности су надглашене од стране другог профила и можда неће имати "
-"никакав ефекат."
-
-msgid "setting.warn-unsaved"
-msgstr ""
-"Имате несачуваних подешавања. Да ли сте сигурни да желите да изађете из "
-"едитора?"

@@ -765,6 +765,9 @@ msgstr "Izrada sigurnosnih kopija i vraćanje"
 msgid "setting.data_management.profiles"
 msgstr "Profili"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Izmeni profil"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Opis"
 
@@ -773,9 +776,6 @@ msgstr "Opšte"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Ime"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Izmeni profil"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Pravila"
@@ -848,11 +848,11 @@ msgstr "Kategorije"
 msgid "setting.directory.categories.blocked"
 msgstr "Blokirano"
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Sakrivene sličice"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "Stil sakrivenih sličica"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Sakrivene sličice"
 
 msgid "setting.directory.channels"
 msgstr "Kanali"
@@ -960,14 +960,14 @@ msgstr ""
 "Izmenite boje korisničkih imena, kako bi bili sigurni da korisnička imena "
 "ostanu čitljiva."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Bez boje"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Nepromenjeno"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Bez boje"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1063,11 +1063,6 @@ msgstr "Prikaži animacije bodrenja."
 msgid "setting.entry.chat.bits.show"
 msgstr "Prikaži bitove"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Prikaži korisnički interfejs udružen sa bitovima. Napomena: Ovo neće "
-"sakriti bodrenja u ćaskanju."
-
 msgid "setting.entry.chat.bits.show-rewards"
 msgstr "Prikaži poruke kada bodrenje podeli nagrade kornisicima u ćaskanju."
 
@@ -1075,6 +1070,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Podrazumevano, ovo će naslediti vrednost iz 'prikaži bitove' sekcije. Ova "
 "opcija će uticati samo na nove poruke u ćaskanju."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Prikaži korisnički interfejs udružen sa bitovima. Napomena: Ovo neće "
+"sakriti bodrenja u ćaskanju."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Naslagivanje poruka bodrenja"
@@ -1107,11 +1107,11 @@ msgstr ""
 "Prikaži poruke u ćaskanju sa zakašnjenjm, kako bi poruke mogle da budu "
 "pregledane od strane moderatora."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Bez kašnjenja"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Podrazumevano kašnjenje  (Room Specific; Non-Mod Only)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Bez kašnjenja"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Veliki (10s)"
@@ -1228,13 +1228,13 @@ msgstr "Sortiraj emotikone po većem nivou pretplate do manjeg nivoa pretplate."
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Prikaži pomene u ćaskanju u podebljanim fontom."
 
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Kliknite kako biste prikazali izbrisane termine."
+
 msgid "setting.entry.chat.filtering.clickable-mentions"
 msgstr ""
 "Dozvoli otvaranje korisnikove kartice ukoliko kliknete na ime u poruci u "
 "kojoj je pomenut."
-
-msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr "Kliknite kako biste prikazali izbrisane termine."
 
 msgid "setting.entry.chat.filtering.deleted-style.description"
 msgstr ""
@@ -1510,6 +1510,9 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Pauziraj pomicanje ćaskanja"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Zahtevaj da miš bude preko ćaskanja da bi se ćaskanje zaledilo sa tasterom."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Automatski pauziraj ćaskanje ukoliko se miš pomera preko ćaskanja ili dok "
@@ -1517,9 +1520,6 @@ msgstr ""
 "\n"
 "**Note:** Scrolling up in chat will always prevent automatic scrolling, "
 "regardless of this setting."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr "Zahtevaj da miš bude preko ćaskanja da bi se ćaskanje zaledilo sa tasterom."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
 msgstr "Koristi podešavanje Twitch - a"
@@ -1609,6 +1609,9 @@ msgstr "Prikaži baner na vrhu ćaskanja kada se pokloni puno pretplata."
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Spoji masivne poklonjene pretplate"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expand merged mass sub gift messages by default."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Spoji masivne poklonjene pretplate i jednu poruku, u zavisnosti od "
@@ -1633,9 +1636,6 @@ msgstr "Više od 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Više od 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Expand merged mass sub gift messages by default."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Prikaži pretplate u ćaskanju"
@@ -1692,18 +1692,6 @@ msgstr ""
 "[ovde](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)."
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Postavljeno"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Postavljeno 24 sata"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Postavljeno sa sekundama"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Postavljeno 24 sata sa sekundama"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Sati"
 
@@ -1715,6 +1703,18 @@ msgstr "12 Sati sa sekundama"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Sata sa sekundama"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Postavljeno"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Postavljeno 24 sata"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Postavljeno sa sekundama"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Postavljeno 24 sata sa sekundama"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Omogući FrankerFaceZ funkciju za ćaskanje na video snimcima."
@@ -1898,11 +1898,6 @@ msgstr "Sakrij navigaciju sajta ukoliko nije u upotrebi."
 msgid "setting.entry.layout.portrait"
 msgstr "Dozvoli porter mod"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"U portret modu, ćaskanje će biti prikazano ispod plejera kada je prozor "
-"veći nego što je širi."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Kada je ćaskanje u portret modu, postavi ga na vrh."
 
@@ -1911,6 +1906,11 @@ msgstr "Početak portret moda"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Ovo je odnos širine i visine u kome će se portret mod početi aktivirati."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"U portret modu, ćaskanje će biti prikazano ispod plejera kada je prozor "
+"veći nego što je širi."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Prikaži Prime Gaming loot."
@@ -2247,11 +2247,6 @@ msgstr "Uvek prikaži klizač za jačinu zvuka."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Dozvoli podešavanje zvuka skrolom od miša."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Ova funkcija neće raditi podrazumevano ukoliko kanal sadrži dodatke koji "
-"dozvoljavaju interakciju miša sa dodacima.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Količina pomicanja"
 
@@ -2269,6 +2264,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Ova funkcija neće raditi podrazumevano ukoliko kanal sadrži dodatke koji "
+"dozvoljavaju interakciju miša sa dodacima.*"
 
 msgid "setting.entry.profiles"
 msgstr "profili"
@@ -2605,6 +2605,9 @@ msgstr "Zvuk"
 msgid "setting.preview"
 msgstr "Pregled"
 
+msgid "setting.profile.updates"
+msgstr "Ovaj profil će se automatski ažutirati iz sledeće URL adrese:"
+
 msgid "setting.profiles.active"
 msgstr "Ovaj profil je omogućen i aktivan."
 
@@ -2653,9 +2656,6 @@ msgstr ""
 "Da li ste sigurni da želite da obrišete ovaj profil? Ovo ne može biti "
 "vraćeno."
 
-msgid "setting.profile.updates"
-msgstr "Ovaj profil će se automatski ažutirati iz sledeće URL adrese:"
-
 msgid "setting.reasons.add-default"
 msgstr "Dodaj podrazumevano"
 
@@ -2687,6 +2687,55 @@ msgstr "Desni klik da resetujete"
 
 msgid "setting.save"
 msgstr "Sačuvaj"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Dodaj novi termin"
+
+msgid "setting.terms.add-term"
+msgstr "Dodaj"
+
+msgid "setting.terms.no-terms"
+msgstr "nijedan termin nije definisan za ovaj profil"
+
+msgid "setting.terms.remove.off"
+msgstr "Nemoj da brišeš podudarajuće poruke iz ćaskanja."
+
+msgid "setting.terms.remove.on"
+msgstr "Ižbriši iste poruke u ćaskanju."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+msgid "setting.terms.type.text"
+msgstr "Tekst"
+
+msgid "setting.tooltip-example"
+msgstr "Radi primera, molimo vas da mišem pređete preko ovog linka:"
+
+msgid "setting.true"
+msgstr "Tačno"
+
+msgid "setting.unset"
+msgstr "Poništi"
+
+msgid "setting.visible"
+msgstr "Vidljivo"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Ove vrednosti su nadglašene od strane drugog profila i možda neće imati "
+"nikakav efekat."
+
+msgid "setting.warn-unsaved"
+msgstr ""
+"Imate nesačuvanih podešavanja. Da li ste sigurni da želite da izađete iz "
+"editora?"
 
 msgid "settings.back"
 msgstr "Nazad"
@@ -2775,14 +2824,14 @@ msgstr "Komandna tabla: Podešavanja moderacije"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Komandna tabla: Podešavanja prihoda"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Komandna tabla: Alatke strima"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Komandna tabla: Menadžer strima"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Komandna tabla: Pregled strima"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Komandna tabla: Alatke strima"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Komandna tabla: Video producent"
@@ -2896,52 +2945,3 @@ msgstr "Ovaj šablon nije validan."
 
 msgid "settings.filter.true_false"
 msgstr "Tačno ili netačno"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Dodaj novi termin"
-
-msgid "setting.terms.add-term"
-msgstr "Dodaj"
-
-msgid "setting.terms.no-terms"
-msgstr "nijedan termin nije definisan za ovaj profil"
-
-msgid "setting.terms.remove.off"
-msgstr "Nemoj da brišeš podudarajuće poruke iz ćaskanja."
-
-msgid "setting.terms.remove.on"
-msgstr "Ižbriši iste poruke u ćaskanju."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Word)"
-
-msgid "setting.terms.type.text"
-msgstr "Tekst"
-
-msgid "setting.tooltip-example"
-msgstr "Radi primera, molimo vas da mišem pređete preko ovog linka:"
-
-msgid "setting.true"
-msgstr "Tačno"
-
-msgid "setting.unset"
-msgstr "Poništi"
-
-msgid "setting.visible"
-msgstr "Vidljivo"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Ove vrednosti su nadglašene od strane drugog profila i možda neće imati "
-"nikakav efekat."
-
-msgid "setting.warn-unsaved"
-msgstr ""
-"Imate nesačuvanih podešavanja. Da li ste sigurni da želite da izađete iz "
-"editora?"

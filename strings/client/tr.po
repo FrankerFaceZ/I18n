@@ -51,13 +51,13 @@ msgstr "Lütfen_aşağıdaki_listeden_bir_neden_seçin"
 msgid "chat.actions.timeout"
 msgstr "Kullanıcıyı geçici sustur"
 
-msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} saniye{options.duration,en_plural}"
-
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Sustur {user.login} süresince {duration,number} saniye{duration,en_plural} "
 "yüzünden:"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} saniye{options.duration,en_plural}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr "Sustur {user.login} yüzünden {duration,number} saniye{duration,en_plural}"
@@ -87,6 +87,12 @@ msgstr ""
 "other {# mesajlar moderatör tarafından silindi.}\n"
 "}"
 
+msgid "chat.filtering.automod-term"
+msgstr "OtoMod_Engellenmiş_Kelime"
+
+msgid "chat.filtering.automod-why"
+msgstr "Bu şekilde işaretlendi:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Düşmanca tavırlar"
 
@@ -98,12 +104,6 @@ msgstr "Küfürlü konuşma"
 
 msgid "chat.filtering.automod.S"
 msgstr "Cinsel içerikli söylem"
-
-msgid "chat.filtering.automod-term"
-msgstr "OtoMod_Engellenmiş_Kelime"
-
-msgid "chat.filtering.automod-why"
-msgstr "Bu şekilde işaretlendi:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Engellenmiş kelime"
@@ -260,11 +260,8 @@ msgstr "Semboller"
 msgid "emoji.category.travel___places"
 msgstr "Gezi & Mekanlar"
 
-msgid "emote.global"
-msgstr "Twitch Global"
-
-msgid "emote.limited"
-msgstr "Sınırlı süreli emoji"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanal"
@@ -327,9 +324,6 @@ msgstr "Emojilerim"
 msgid "emote-menu.points"
 msgstr "Puanlarla açılmış"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -376,6 +370,12 @@ msgstr "Bilinmeyen Kaynak"
 
 msgid "emote-menu.unknown-set"
 msgstr "Set #{set_id}"
+
+msgid "emote.global"
+msgstr "Twitch Global"
+
+msgid "emote.limited"
+msgstr "Sınırlı süreli emoji"
 
 msgid "emote.owner"
 msgstr "Tarafından: {owner}"
@@ -480,9 +480,6 @@ msgstr "Öne çıkanlar"
 msgid "metadata.featured-follow.title"
 msgstr "Öne çıkarılmış kanallar"
 
-msgid "metadata.host.add-channel"
-msgstr "Otomatik Misafir Yayıncı Listesine Ekle"
-
 msgid "metadata.host-button.host"
 msgstr "Misafir yayın"
 
@@ -497,6 +494,9 @@ msgstr "Konuk etmeyi bırak"
 
 msgid "metadata.host-button.updating"
 msgstr "Güncelleniyor..."
+
+msgid "metadata.host.add-channel"
+msgstr "Otomatik Misafir Yayıncı Listesine Ekle"
 
 msgid "metadata.host.tab.auto-host"
 msgstr "Otomatik Misafir Yayın"

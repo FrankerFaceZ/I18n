@@ -736,6 +736,9 @@ msgstr "Zálohování a Obnovení"
 msgid "setting.data_management.profiles"
 msgstr "Profily"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Editovat Profil"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Popisek"
 
@@ -744,9 +747,6 @@ msgstr "Obecné "
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Jméno"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Editovat Profil"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Pravidla"
@@ -894,11 +894,11 @@ msgstr "Přizpůsobení"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Upravit uživatelské barvy pro zajištění čitelnosti."
 
-msgid "setting.entry.chat.adjustment-mode.values.0"
-msgstr "Nezměněno"
-
 msgid "setting.entry.chat.adjustment-mode.values.-1"
 msgstr "Bez Barvy"
+
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Nezměněno"
 
 msgid "setting.entry.chat.badges.custom-mod"
 msgstr "Použít vlastní moderátorské odznaky, pokud jsou dostupné. "
@@ -942,15 +942,15 @@ msgstr "Zobrazit animované fandění. "
 msgid "setting.entry.chat.bits.show"
 msgstr "Zobrazit bity"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Zobrazit UI související s bity. Poznámka: Tohle neskryje fandění ve "
-"zprávách."
-
 msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Ve výchozím nastavení, toto dědí jeho hodnotu z Zobrazit Bity. Toto "
 "nastavení ovlivní pouze nově přijaté zprávy."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Zobrazit UI související s bity. Poznámka: Tohle neskryje fandění ve "
+"zprávách."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Seskupování Bitů"
@@ -1092,11 +1092,11 @@ msgstr "Seřadit Emotikony Podle"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
 msgstr "Zobrazovat emotikony vyšších úrovní jako poslední."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Povolit otevírání karet diváků kliknutím na jejich označení v chatu."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Klikněte pro odhalení vymazaného obsahu."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Povolit otevírání karet diváků kliknutím na jejich označení v chatu."
 
 msgid "setting.entry.chat.filtering.deleted-style.description"
 msgstr ""
@@ -1613,11 +1613,6 @@ msgstr "Skrýt navigační panel nahoru jestliže není využíván."
 msgid "setting.entry.layout.portrait"
 msgstr "Povolit Režim na Výšku"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"Při režimu na výšku, chat bude zobrazován pod přehrávačem, okno bude vyšší "
-"než širší."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Při režimu na výšku chat zobrazovat nahoře."
 
@@ -1626,6 +1621,11 @@ msgstr "Práh Režimu na Výšku"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Tohle je poměr šířky a výšky, při kterém se začne aktivovat Režim na Výšku."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Při režimu na výšku, chat bude zobrazován pod přehrávačem, okno bude vyšší "
+"než širší."
 
 msgid "setting.entry.layout.prime-offers"
 msgstr "Zobrazit nabídky Prime Gaming."
@@ -1880,11 +1880,6 @@ msgstr "Automaticky začne přehrávat další doporučené video po skončení 
 msgid "setting.entry.player.volume-scroll"
 msgstr "Nastavit hlasitost kolečkem myši při najetí na přehrávač."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Tohle nastavení nebude fungovat správně na streamech, kde jsou viditelná "
-"rozšíření, když je interakce myši s rozšířením povolena.*"
-
 msgid "setting.entry.player.volume-scroll-steps.description"
 msgstr "Jak moc bude ovlivňovat kolečko myši hlasitost každým jedním pootočením."
 
@@ -1899,6 +1894,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Tohle nastavení nebude fungovat správně na streamech, kde jsou viditelná "
+"rozšíření, když je interakce myši s rozšířením povolena.*"
 
 msgid "setting.entry.profiles"
 msgstr "profily"
@@ -2237,6 +2237,39 @@ msgstr "Resetovat Vše do Výchozího Nastavení"
 msgid "setting.save"
 msgstr "Uložit"
 
+msgid "setting.terms.add-placeholder"
+msgstr "Přidat nový výraz"
+
+msgid "setting.terms.add-term"
+msgstr "Přidat"
+
+msgid "setting.terms.no-terms"
+msgstr "v tomto profilu nejsou definovány žádné výrazy"
+
+msgid "setting.terms.remove.off"
+msgstr "Odpovídající zprávy neodstraňovat z chatu."
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Slovo)"
+
+msgid "setting.terms.type.text"
+msgstr "Text"
+
+msgid "setting.tooltip-example"
+msgstr "Pro příklad, zkuste najet na tento odkaz:"
+
+msgid "setting.true"
+msgstr "Pravda"
+
+msgid "setting.unset"
+msgstr "Nenastaveno"
+
+msgid "setting.visible"
+msgstr "Viditelné"
+
 msgid "settings.back"
 msgstr "Zpět"
 
@@ -2315,14 +2348,14 @@ msgstr "Řídící Panel: Nastavení Kanálu"
 msgid "settings.filter.page.route.dash-settings-moderation"
 msgstr "Řídící Panel: Nastavení Moderace"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Řídící Panel: Vysílací Nástroje"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Řídící Panel: Správa Vysílání"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Řídící Panel: Přehled Vysílání"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Řídící Panel: Vysílací Nástroje"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Řídící Panel: Videoprodukce"
@@ -2413,36 +2446,3 @@ msgstr "Pravda nebo Nepravda"
 
 msgid "settings.terms.word"
 msgstr "Abc"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Přidat nový výraz"
-
-msgid "setting.terms.add-term"
-msgstr "Přidat"
-
-msgid "setting.terms.no-terms"
-msgstr "v tomto profilu nejsou definovány žádné výrazy"
-
-msgid "setting.terms.remove.off"
-msgstr "Odpovídající zprávy neodstraňovat z chatu."
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Slovo)"
-
-msgid "setting.terms.type.text"
-msgstr "Text"
-
-msgid "setting.tooltip-example"
-msgstr "Pro příklad, zkuste najet na tento odkaz:"
-
-msgid "setting.true"
-msgstr "Pravda"
-
-msgid "setting.unset"
-msgstr "Nenastaveno"
-
-msgid "setting.visible"
-msgstr "Viditelné"

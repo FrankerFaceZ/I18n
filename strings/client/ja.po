@@ -61,11 +61,6 @@ msgstr "{count,number}個のチャンネルにホストされました。"
 msgid "directory.hosting"
 msgstr "ホスト中のチャンネル"
 
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"チャンネル: {channel}"
-
 msgid "emote-menu.disable"
 msgstr "一時的な回避策として、FFZコントロールセンターのFFZ Emoteメニューを無効にしてみてください。"
 
@@ -103,6 +98,11 @@ msgstr "{price}でサブスクライブすると{count,number}個のエモート
 
 msgid "emote-menu.unknown"
 msgstr "不明なソース"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"チャンネル: {channel}"
 
 msgid "error.try-again"
 msgstr "再試行"

@@ -99,15 +99,15 @@ msgstr "Wähle einen Grund aus der folgenden Liste aus:"
 msgid "chat.actions.timeout"
 msgstr "Benutzer in Time-Out versetzen"
 
-msgid "chat.actions.timeout.desc"
-msgstr ""
-"{options.duration,number} "
-"{options.duration,plural,one{Sekunde}other{Sekunden}"
-
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "{user.login} für {duration,number} "
 "{duration,plural,one{Sekunde}other{Sekunden}} in Time-Out versetzen. Grund:"
+
+msgid "chat.actions.timeout.desc"
+msgstr ""
+"{options.duration,number} "
+"{options.duration,plural,one{Sekunde}other{Sekunden}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
@@ -159,6 +159,12 @@ msgstr "FrankerFaceZ Website"
 msgid "chat.ffz-badge.title"
 msgstr "FrankerFaceZ Abzeichen"
 
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod Blockierter Begriff"
+
+msgid "chat.filtering.automod-why"
+msgstr "Dies wurde gekennzeichnet als:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Feindseligkeit"
 
@@ -170,12 +176,6 @@ msgstr "Obszönität"
 
 msgid "chat.filtering.automod.S"
 msgstr "Sexuell explizite Sprache"
-
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod Blockierter Begriff"
-
-msgid "chat.filtering.automod-why"
-msgstr "Dies wurde gekennzeichnet als:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Blockierter Begriff"
@@ -378,19 +378,19 @@ msgstr "{user} spielt {game}"
 msgid "emoji.category.activities"
 msgstr "Aktivitäten"
 
-msgid "emoji.category.animals_nature"
+msgid "emoji.category.animals___nature"
 msgstr "Tiere & Natur"
 
-msgid "emoji.category.animals___nature"
+msgid "emoji.category.animals_nature"
 msgstr "Tiere & Natur"
 
 msgid "emoji.category.flags"
 msgstr "Flaggen"
 
-msgid "emoji.category.food_drink"
+msgid "emoji.category.food___drink"
 msgstr "Essen & Trinken"
 
-msgid "emoji.category.food___drink"
+msgid "emoji.category.food_drink"
 msgstr "Essen & Trinken"
 
 msgid "emoji.category.objects"
@@ -402,40 +402,23 @@ msgstr "Personen"
 msgid "emoji.category.skin_tones"
 msgstr "Hauttöne"
 
-msgid "emoji.category.smileys_emotion"
-msgstr "Smileys & Emotionen"
-
 msgid "emoji.category.smileys___people"
 msgstr "Smileys & Personen"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Smileys & Emotionen"
 
 msgid "emoji.category.symbols"
 msgstr "Symbole"
 
-msgid "emoji.category.travel_places"
-msgstr "Reisen & Orte"
-
 msgid "emoji.category.travel___places"
 msgstr "Reisen & Orte"
 
-msgid "emote.2fa"
-msgstr "Twitch 2FA Emote"
+msgid "emoji.category.travel_places"
+msgstr "Reisen & Orte"
 
-msgid "emote.bits"
-msgstr "Twitch Bits Belohnung"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Kanal: {channel}"
-
-msgid "emote.follower"
-msgstr "Follower-Emote ({source})"
-
-msgid "emote.global"
-msgstr "Twitch Global"
-
-msgid "emote.limited"
-msgstr "Zeitlich begrenztes Emote"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanal"
@@ -507,9 +490,6 @@ msgstr "Meine Emotes"
 msgid "emote-menu.points"
 msgstr "Mit Kanalpunkten freigeschaltet"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -579,6 +559,26 @@ msgstr "Versteckt"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Sichtbar"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Emote"
+
+msgid "emote.bits"
+msgstr "Twitch Bits Belohnung"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Kanal: {channel}"
+
+msgid "emote.follower"
+msgstr "Follower-Emote ({source})"
+
+msgid "emote.global"
+msgstr "Twitch Global"
+
+msgid "emote.limited"
+msgstr "Zeitlich begrenztes Emote"
 
 msgid "emote.owner"
 msgstr "Von: {owner}"
@@ -729,9 +729,6 @@ msgstr "Empfohlen"
 msgid "metadata.featured-follow.title"
 msgstr "Empfohlene Kanäle"
 
-msgid "metadata.host.add-channel"
-msgstr "Zum automatischen Host hinzufügen"
-
 msgid "metadata.host-button.host"
 msgstr "Host"
 
@@ -746,6 +743,9 @@ msgstr "Host entfernen"
 
 msgid "metadata.host-button.updating"
 msgstr "Aktualisiere..."
+
+msgid "metadata.host.add-channel"
+msgstr "Zum automatischen Host hinzufügen"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr "Hoste automatisch Kanäle von deiner Host-Liste, wenn du offline bist."

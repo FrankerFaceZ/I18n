@@ -130,6 +130,12 @@ msgstr "сайт FrankerFaceZ"
 msgid "chat.ffz-badge.title"
 msgstr "Бейдж FrankerFaceZ"
 
+msgid "chat.filtering.automod-term"
+msgstr "Вислів заблоковано АвтоМодом"
+
+msgid "chat.filtering.automod-why"
+msgstr "Це було позначено як: "
+
 msgid "chat.filtering.automod.A"
 msgstr "Ворожість"
 
@@ -138,12 +144,6 @@ msgstr "Дискримінація"
 
 msgid "chat.filtering.automod.P"
 msgstr "Ненормативна лексика"
-
-msgid "chat.filtering.automod-term"
-msgstr "Вислів заблоковано АвтоМодом"
-
-msgid "chat.filtering.automod-why"
-msgstr "Це було позначено як: "
 
 msgid "chat.filtering.blocked-term"
 msgstr "Вислів заблоковано"
@@ -334,22 +334,8 @@ msgstr "Символи"
 msgid "emoji.category.travel___places"
 msgstr "Подорожі та місця"
 
-msgid "emote.2fa"
-msgstr "Смайлик Twitch 2FA"
-
-msgid "emote.bits"
-msgstr "Винагорода за Twitch Бітси"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Канал: {channel}"
-
-msgid "emote.global"
-msgstr "Глобальні Twitch"
-
-msgid "emote.limited"
-msgstr "Смайлик Обмеженого Терміну"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Канал"
@@ -411,9 +397,6 @@ msgstr "Мої Смайли"
 
 msgid "emote-menu.points"
 msgstr "Розблокований Очками"
-
-msgid "emote_menu.prime"
-msgstr "Prime"
 
 msgid "emote-menu.refresh"
 msgstr "Оновити Дані"
@@ -477,6 +460,23 @@ msgstr "Сховані"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Видимі"
+
+msgid "emote.2fa"
+msgstr "Смайлик Twitch 2FA"
+
+msgid "emote.bits"
+msgstr "Винагорода за Twitch Бітси"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Канал: {channel}"
+
+msgid "emote.global"
+msgstr "Глобальні Twitch"
+
+msgid "emote.limited"
+msgstr "Смайлик Обмеженого Терміну"
 
 msgid "emote.owner"
 msgstr "Власник: {owner}"
@@ -596,9 +596,6 @@ msgstr "Пропоновані"
 msgid "metadata.featured-follow.title"
 msgstr "Пропоновані Канали"
 
-msgid "metadata.host.add-channel"
-msgstr "Додати до Авто-Ретрансляцій"
-
 msgid "metadata.host-button.host"
 msgstr "Ретранслювати"
 
@@ -613,6 +610,9 @@ msgstr "Стоп ретрансляції"
 
 msgid "metadata.host-button.updating"
 msgstr "Оновлення..."
+
+msgid "metadata.host.add-channel"
+msgstr "Додати до Авто-Ретрансляцій"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr ""

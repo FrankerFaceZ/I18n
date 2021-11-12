@@ -1328,41 +1328,6 @@ msgstr ""
 "with specific badges. If you wish to hide a badge, go to [Chat > Badges >> "
 "Visibility](~chat.badges.tabs.visibility)."
 
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.chat.filtering.blocked_badges"
-msgstr "Blocked Badges"
-
-#: /src/modules/main_menu/index.js:593
-#, icu-message-format, md-text
-msgid "setting.chat.filtering.blocked_badges.description"
-msgstr ""
-"**Note:** This section is for filtering messages out of chat from users "
-"with specific badges. If you wish to hide a badge, go to [Chat > Badges >> "
-"Visibility](~chat.badges.tabs.visibility)."
-
-#, icu-message-format
-msgid "setting.chat.filtering.blocked_message_types"
-msgstr "Blocked Message Types"
-
-#, icu-message-format, md-text
-msgid "setting.chat.filtering.blocked_message_types.description"
-msgstr ""
-"This filter allows you to remove all messages of a certain type from Twitch "
-"chat. It can be used to filter system messages, such as Hosts or Raids. "
-"Some types, such as moderation actions, cannot be blocked to prevent chat "
-"functionality from breaking."
-
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.chat.filtering.blocked_terms"
-msgstr "Blocked Terms"
-
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.chat.filtering.blocked_users"
-msgstr "Blocked Users"
-
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1398,6 +1363,41 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.users"
 msgstr "Users"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Blocked Badges"
+
+#: /src/modules/main_menu/index.js:593
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_badges.description"
+msgstr ""
+"**Note:** This section is for filtering messages out of chat from users "
+"with specific badges. If you wish to hide a badge, go to [Chat > Badges >> "
+"Visibility](~chat.badges.tabs.visibility)."
+
+#, icu-message-format
+msgid "setting.chat.filtering.blocked_message_types"
+msgstr "Blocked Message Types"
+
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_message_types.description"
+msgstr ""
+"This filter allows you to remove all messages of a certain type from Twitch "
+"chat. It can be used to filter system messages, such as Hosts or Raids. "
+"Some types, such as moderation actions, cannot be blocked to prevent chat "
+"functionality from breaking."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Blocked Terms"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Blocked Users"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
@@ -1442,6 +1442,16 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "Highlight Badges"
 
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Highlight Terms"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Highlight Users"
+
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1462,11 +1472,6 @@ msgstr ""
 "preventing lower priority rules from highlighting them, by setting a color "
 "with an alpha value of zero. Example: `#00000000`"
 
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.chat.filtering.highlight_terms"
-msgstr "Highlight Terms"
-
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1480,11 +1485,6 @@ msgid "setting.chat.filtering.highlight.terms.description"
 msgstr ""
 "Please see [Chat > Filtering > Syntax Help](~) for details on how to use "
 "terms."
-
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.chat.filtering.highlight_users"
-msgstr "Highlight Users"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1687,6 +1687,11 @@ msgctxt "FFZ Control Center"
 msgid "setting.data_management.profiles"
 msgstr "Profiles"
 
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Edit Profile"
+
 #: /src/modules/main_menu/components/profile-editor.vue:267
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.desc"
@@ -1706,11 +1711,6 @@ msgstr "Hotkey"
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Name"
-
-#: /src/modules/main_menu/components/menu-page.vue:12
-#, icu-message-format
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Edit Profile"
 
 #: /src/modules/main_menu/components/profile-editor.vue:310
 #, icu-message-format
@@ -1913,14 +1913,14 @@ msgstr ""
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Hidden Thumbnails"
+msgid "setting.directory.categories.hidden_thumbnail_style"
+msgstr "Hidden Thumbnail Style"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
-msgid "setting.directory.categories.hidden_thumbnail_style"
-msgstr "Hidden Thumbnail Style"
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Hidden Thumbnails"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2142,6 +2142,11 @@ msgstr "Alter user colors to ensure that they remain readable."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "No Color"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Unchanged"
 
@@ -2149,11 +2154,6 @@ msgstr "Unchanged"
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-#: /src/modules/main_menu/components/setting-select-box.vue:35
-#, icu-message-format
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "No Color"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2350,13 +2350,6 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show"
 msgstr "Display Bits"
 
-#, icu-message-format, md-text
-msgctxt "FFZ Control Center"
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Display UI associated with bits. Note: This will not hide cheering in chat "
-"messages."
-
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned"
@@ -2382,6 +2375,13 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "By default, this inherits its value from Display Bits. This setting only "
 "affects newly arrived messages."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Display UI associated with bits. Note: This will not hide cheering in chat "
+"messages."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2434,13 +2434,13 @@ msgstr ""
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
-msgid "setting.entry.chat.delay.values.0"
-msgstr "No Delay"
+msgid "setting.entry.chat.delay.values.-1"
+msgstr "Default Delay (Room Specific; Non-Mod Only)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
-msgid "setting.entry.chat.delay.values.-1"
-msgstr "Default Delay (Room Specific; Non-Mod Only)"
+msgid "setting.entry.chat.delay.values.0"
+msgstr "No Delay"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2790,13 +2790,13 @@ msgstr "Display mentions in chat with a bold font."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Enable opening viewer cards by clicking mentions in chat."
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Click to reveal deleted terms."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
-msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr "Click to reveal deleted terms."
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Enable opening viewer cards by clicking mentions in chat."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3371,6 +3371,11 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Pause Chat Scrolling"
 
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Require the mouse to be over chat to freeze with a hotkey."
+
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze.description"
@@ -3380,11 +3385,6 @@ msgstr ""
 "\n"
 "**Note:** Scrolling up in chat will always prevent automatic scrolling, "
 "regardless of this setting."
-
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr "Require the mouse to be over chat to freeze with a hotkey."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3538,6 +3538,11 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Merge Mass Sub Gifts"
 
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expand merged mass sub gift messages by default."
+
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts.description"
@@ -3575,11 +3580,6 @@ msgstr "More than 5"
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "More than 50"
-
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Expand merged mass sub gift messages by default."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3660,26 +3660,6 @@ msgstr ""
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Padded"
-
-#: /src/modules/main_menu/components/setting-combo-box.vue:41
-#, icu-message-format
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Padded 24 Hour"
-
-#: /src/modules/main_menu/components/setting-combo-box.vue:41
-#, icu-message-format
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Padded with Seconds"
-
-#: /src/modules/main_menu/components/setting-combo-box.vue:41
-#, icu-message-format
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Padded 24 Hour with Seconds"
-
-#: /src/modules/main_menu/components/setting-combo-box.vue:41
-#, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Hour"
 
@@ -3697,6 +3677,26 @@ msgstr "12 Hour with Seconds"
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Hour with Seconds"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:41
+#, icu-message-format
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Padded"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:41
+#, icu-message-format
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Padded 24 Hour"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:41
+#, icu-message-format
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Padded with Seconds"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:41
+#, icu-message-format
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Padded 24 Hour with Seconds"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4070,13 +4070,6 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait"
 msgstr "Enable Portrait Mode"
 
-#, icu-message-format, md-text
-msgctxt "FFZ Control Center"
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"In Portrait Mode, chat will be displayed beneath the player when the window "
-"is taller than it is wide."
-
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait-invert"
@@ -4104,6 +4097,13 @@ msgid "setting.entry.layout.portrait-threshold.description"
 msgstr ""
 "This is the Width to Height ratio at which point Portrait Mode will begin "
 "to activate."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"In Portrait Mode, chat will be displayed beneath the player when the window "
+"is taller than it is wide."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4816,13 +4816,6 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll"
 msgstr "Adjust volume by scrolling with the mouse wheel."
 
-#, icu-message-format, md-text
-msgctxt "FFZ Control Center"
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*This setting will not work properly on streams with visible extensions "
-"when mouse interaction with extensions is allowed.*"
-
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll-steps"
@@ -4852,6 +4845,13 @@ msgstr "5%"
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*This setting will not work properly on streams with visible extensions "
+"when mouse interaction with extensions is allowed.*"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -5569,6 +5569,19 @@ msgstr "Volume"
 msgid "setting.preview"
 msgstr "Preview"
 
+#: /src/modules/main_menu/components/profile-manager.vue:406
+#: /src/modules/main_menu/components/profile-editor.vue:188
+#, icu-message-format
+msgid "setting.profile.updates"
+msgstr "This profile will update automatically from the following URL:"
+
+#: /src/modules/main_menu/components/menu-page.vue:125
+#, icu-message-format
+msgid "setting.profile.updates-about"
+msgstr ""
+"This profile is set to automatically update. When it does, any changed "
+"settings within it will be reset. Profile Rules will be reset as well."
+
 #: /src/modules/main_menu/components/profile-selector.vue:170
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:286
 #: /src/modules/main_menu/components/profile-manager.vue:406
@@ -5666,19 +5679,6 @@ msgstr "This profile will update automatically."
 #, icu-message-format
 msgid "setting.profiles.warn-delete"
 msgstr "Are you sure you wish to delete this profile? It cannot be undone."
-
-#: /src/modules/main_menu/components/profile-manager.vue:406
-#: /src/modules/main_menu/components/profile-editor.vue:188
-#, icu-message-format
-msgid "setting.profile.updates"
-msgstr "This profile will update automatically from the following URL:"
-
-#: /src/modules/main_menu/components/menu-page.vue:125
-#, icu-message-format
-msgid "setting.profile.updates-about"
-msgstr ""
-"This profile is set to automatically update. When it does, any changed "
-"settings within it will be reset. Profile Rules will be reset as well."
 
 #: /src/modules/main_menu/components/provider.vue:44
 #, icu-message-format
@@ -5831,6 +5831,117 @@ msgstr "Right-Click to Reset"
 #, icu-message-format
 msgid "setting.save"
 msgstr "Save"
+
+#: /src/modules/main_menu/components/action-editor.vue:552
+#, icu-message-format
+msgid "setting.space"
+msgstr "Space"
+
+#: /src/modules/main_menu/components/action-editor.vue:549
+#, icu-message-format
+msgid "setting.space-small"
+msgstr "Space (Small)"
+
+#: /src/modules/main_menu/components/action-editor.vue:581
+#, icu-message-format
+msgid "setting.space-small.desc"
+msgstr "Place a small space between the previous item and the next item."
+
+#: /src/modules/main_menu/components/action-editor.vue:584
+#, icu-message-format
+msgid "setting.space.desc"
+msgstr ""
+"Place as large a space as possible between the previous item and the next "
+"item."
+
+#: /src/modules/main_menu/components/term-editor.vue:93
+#, icu-message-format
+msgid "setting.terms.add-placeholder"
+msgstr "Add a new term"
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:213
+#: /src/modules/main_menu/components/term-editor.vue:300
+#, icu-message-format
+msgid "setting.terms.add-term"
+msgstr "Add"
+
+#: /src/modules/main_menu/components/badge-highlighting.vue:31
+#: /src/modules/main_menu/components/basic-terms.vue:31
+#, icu-message-format
+msgid "setting.terms.no-terms"
+msgstr "no terms are defined in this profile"
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:84
+#: /src/modules/main_menu/components/blocked-type-editor.vue:60
+#, icu-message-format
+msgid "setting.terms.please-select"
+msgstr "Please select an option."
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:190
+#: /src/modules/main_menu/components/term-editor.vue:277
+#, icu-message-format
+msgid "setting.terms.remove.off"
+msgstr "Do not remove matching messages from chat."
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:178
+#, icu-message-format
+msgid "setting.terms.remove.on"
+msgstr "Remove matching messages from chat."
+
+#: /src/modules/main_menu/components/term-editor.vue:193
+#, icu-message-format
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+#: /src/modules/main_menu/components/term-editor.vue:216
+#, icu-message-format
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+#: /src/modules/main_menu/components/term-editor.vue:203
+#, icu-message-format
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+#: /src/modules/main_menu/components/term-editor.vue:185
+#, icu-message-format
+msgid "setting.terms.type.text"
+msgstr "Text"
+
+#: /src/modules/main_menu/components/chat-tooltip-example.vue:9
+#, icu-message-format
+msgid "setting.tooltip-example"
+msgstr "For an example, please hover this link:"
+
+#: /src/modules/main_menu/components/action-editor.vue:330
+#: /src/modules/main_menu/components/action-editor.vue:517
+#, icu-message-format
+msgid "setting.true"
+msgstr "True"
+
+#: /src/modules/main_menu/components/action-editor.vue:321
+#: /src/modules/main_menu/components/action-editor.vue:411
+#: /src/modules/main_menu/components/action-editor.vue:507
+#, icu-message-format
+msgid "setting.unset"
+msgstr "Unset"
+
+#: /src/modules/main_menu/components/action-editor.vue:422
+#, icu-message-format
+msgid "setting.visible"
+msgstr "Visible"
+
+#: /src/modules/main_menu/components/chat-actions.vue:21
+#, icu-message-format
+msgid "setting.warn-inheritence"
+msgstr ""
+"These values are being overridden by another profile and may not take "
+"effect."
+
+#: /src/modules/main_menu/components/profile-editor.vue:304
+#, icu-message-format
+msgid "setting.warn-unsaved"
+msgstr "You have unsaved changes. Are you sure you want to leave the editor?"
 
 #: /src/modules/main_menu/components/socket-info.vue:104
 #, icu-message-format
@@ -5987,11 +6098,6 @@ msgstr "Dashboard: Settings Revenue"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Dashboard: Streaming Tools"
-
-#: /src/settings/components/page.vue:142
-#, icu-message-format
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Dashboard: Stream Manager"
 
@@ -5999,6 +6105,11 @@ msgstr "Dashboard: Stream Manager"
 #, icu-message-format
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Dashboard: Stream Summary"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Dashboard: Streaming Tools"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
@@ -6191,28 +6302,6 @@ msgstr "This pattern is invalid."
 msgid "settings.filter.true_false"
 msgstr "True or False"
 
-#: /src/modules/main_menu/components/action-editor.vue:552
-#, icu-message-format
-msgid "setting.space"
-msgstr "Space"
-
-#: /src/modules/main_menu/components/action-editor.vue:584
-#, icu-message-format
-msgid "setting.space.desc"
-msgstr ""
-"Place as large a space as possible between the previous item and the next "
-"item."
-
-#: /src/modules/main_menu/components/action-editor.vue:549
-#, icu-message-format
-msgid "setting.space-small"
-msgstr "Space (Small)"
-
-#: /src/modules/main_menu/components/action-editor.vue:581
-#, icu-message-format
-msgid "setting.space-small.desc"
-msgstr "Place a small space between the previous item and the next item."
-
 #, icu-message-format
 msgid "settings.term.color.tip"
 msgstr "Color"
@@ -6253,92 +6342,3 @@ msgstr "Abc"
 #, icu-message-format
 msgid "settings.terms.word.tip"
 msgstr "Match Whole Words"
-
-#: /src/modules/main_menu/components/term-editor.vue:93
-#, icu-message-format
-msgid "setting.terms.add-placeholder"
-msgstr "Add a new term"
-
-#: /src/modules/main_menu/components/badge-term-editor.vue:213
-#: /src/modules/main_menu/components/term-editor.vue:300
-#, icu-message-format
-msgid "setting.terms.add-term"
-msgstr "Add"
-
-#: /src/modules/main_menu/components/badge-highlighting.vue:31
-#: /src/modules/main_menu/components/basic-terms.vue:31
-#, icu-message-format
-msgid "setting.terms.no-terms"
-msgstr "no terms are defined in this profile"
-
-#: /src/modules/main_menu/components/badge-term-editor.vue:84
-#: /src/modules/main_menu/components/blocked-type-editor.vue:60
-#, icu-message-format
-msgid "setting.terms.please-select"
-msgstr "Please select an option."
-
-#: /src/modules/main_menu/components/badge-term-editor.vue:190
-#: /src/modules/main_menu/components/term-editor.vue:277
-#, icu-message-format
-msgid "setting.terms.remove.off"
-msgstr "Do not remove matching messages from chat."
-
-#: /src/modules/main_menu/components/badge-term-editor.vue:178
-#, icu-message-format
-msgid "setting.terms.remove.on"
-msgstr "Remove matching messages from chat."
-
-#: /src/modules/main_menu/components/term-editor.vue:193
-#, icu-message-format
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-#: /src/modules/main_menu/components/term-editor.vue:216
-#, icu-message-format
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-#: /src/modules/main_menu/components/term-editor.vue:203
-#, icu-message-format
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Word)"
-
-#: /src/modules/main_menu/components/term-editor.vue:185
-#, icu-message-format
-msgid "setting.terms.type.text"
-msgstr "Text"
-
-#: /src/modules/main_menu/components/chat-tooltip-example.vue:9
-#, icu-message-format
-msgid "setting.tooltip-example"
-msgstr "For an example, please hover this link:"
-
-#: /src/modules/main_menu/components/action-editor.vue:330
-#: /src/modules/main_menu/components/action-editor.vue:517
-#, icu-message-format
-msgid "setting.true"
-msgstr "True"
-
-#: /src/modules/main_menu/components/action-editor.vue:321
-#: /src/modules/main_menu/components/action-editor.vue:411
-#: /src/modules/main_menu/components/action-editor.vue:507
-#, icu-message-format
-msgid "setting.unset"
-msgstr "Unset"
-
-#: /src/modules/main_menu/components/action-editor.vue:422
-#, icu-message-format
-msgid "setting.visible"
-msgstr "Visible"
-
-#: /src/modules/main_menu/components/chat-actions.vue:21
-#, icu-message-format
-msgid "setting.warn-inheritence"
-msgstr ""
-"These values are being overridden by another profile and may not take "
-"effect."
-
-#: /src/modules/main_menu/components/profile-editor.vue:304
-#, icu-message-format
-msgid "setting.warn-unsaved"
-msgstr "You have unsaved changes. Are you sure you want to leave the editor?"

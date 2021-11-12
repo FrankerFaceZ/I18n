@@ -393,11 +393,11 @@ msgstr "Tevékenység"
 msgid "setting.chat.filtering.block.badges"
 msgstr "Jelvények"
 
-msgid "setting.chat.filtering.blocked_badges"
-msgstr "Letiltott Jelvények"
-
 msgid "setting.chat.filtering.block.users"
 msgstr "Felhasználók"
+
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Letiltott Jelvények"
 
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "Kiemelt Jelvények"
@@ -465,6 +465,9 @@ msgstr "Biztonsági mentés és visszaállítás"
 msgid "setting.data_management.profiles"
 msgstr "Profilok"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Profil Szerkesztése"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Leírás"
 
@@ -473,9 +476,6 @@ msgstr "Általános"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Név"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Profil Szerkesztése"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Szabályok"
@@ -564,14 +564,14 @@ msgstr "chat.actions.room"
 msgid "setting.entry.chat.actions.user-context"
 msgstr "chat.actions.user-context"
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Nincs szín"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Változatlan"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Nincs szín"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -1314,6 +1314,18 @@ msgstr "Visszaállítás Alapértelmezettre"
 msgid "setting.save"
 msgstr "Mentés"
 
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.text"
+msgstr "Szöveg"
+
+msgid "setting.true"
+msgstr "Igaz"
+
+msgid "setting.visible"
+msgstr "Látható"
+
 msgid "settings.back"
 msgstr "Vissza"
 
@@ -1356,11 +1368,11 @@ msgstr "Irányítópult: Beállítások Moderálás"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Irányítópult: Beállítások Bevétel"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Irányítópult: Közvetítési eszközök"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Irányítópult: Közvetítéskezelő"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Irányítópult: Közvetítési eszközök"
 
 msgid "settings.filter.page.route.prime"
 msgstr "Prime"
@@ -1388,15 +1400,3 @@ msgstr "Aa"
 
 msgid "settings.terms.word"
 msgstr "Abc"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.text"
-msgstr "Szöveg"
-
-msgid "setting.true"
-msgstr "Igaz"
-
-msgid "setting.visible"
-msgstr "Látható"

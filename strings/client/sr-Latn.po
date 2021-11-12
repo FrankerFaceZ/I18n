@@ -70,15 +70,15 @@ msgstr "Molim vas izaberite razlog iz liste:"
 msgid "chat.actions.timeout"
 msgstr "Banuj korisnika"
 
+msgid "chat.actions.timeout-reason"
+msgstr "Banuj korisnika {user.login} na {duration,number} sekundi/u {duration} zbog:"
+
 msgid "chat.actions.timeout.desc"
 msgstr ""
 "{options.duration,plural,\n"
 "one {#. sekunda} \n"
 "few {# sekunde}\n"
 "other{# sekundi}}"
-
-msgid "chat.actions.timeout-reason"
-msgstr "Banuj korisnika {user.login} na {duration,number} sekundi/u {duration} zbog:"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr "Banuj korisnika {user.login} na {duration,number}. sekundi/u {duration}"
@@ -117,6 +117,12 @@ msgstr "FrankerFaceZ vebsajt"
 msgid "chat.ffz-badge.title"
 msgstr "FrankerFaceZ Bedž"
 
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod je blokirao termin"
+
+msgid "chat.filtering.automod-why"
+msgstr "Ovo je označeno kao:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Neprijateljstvo"
 
@@ -128,12 +134,6 @@ msgstr "Vulgarnost"
 
 msgid "chat.filtering.automod.S"
 msgstr "Seksualno eksplicitni jezik"
-
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod je blokirao termin"
-
-msgid "chat.filtering.automod-why"
-msgstr "Ovo je označeno kao:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Blokirani termin"
@@ -333,20 +333,20 @@ msgstr "{user} igra {game}"
 msgid "emoji.category.activities"
 msgstr "Aktivnosti"
 
-msgid "emoji.category.animals_nature"
-msgstr "Životinje & Priroda"
-
 msgid "emoji.category.animals___nature"
 msgstr "Životinje & priroda"
+
+msgid "emoji.category.animals_nature"
+msgstr "Životinje & Priroda"
 
 msgid "emoji.category.flags"
 msgstr "Zastave"
 
-msgid "emoji.category.food_drink"
-msgstr "Hrana & Piće"
-
 msgid "emoji.category.food___drink"
 msgstr "Hrana & piće"
+
+msgid "emoji.category.food_drink"
+msgstr "Hrana & Piće"
 
 msgid "emoji.category.objects"
 msgstr "Objekti"
@@ -363,19 +363,8 @@ msgstr "Simboli"
 msgid "emoji.category.travel___places"
 msgstr "Putovanja & mesta"
 
-msgid "emote.2fa"
-msgstr "Twitch 2FA Emotikon"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Kanal: {channel}"
-
-msgid "emote.global"
-msgstr "Twitch global"
-
-msgid "emote.limited"
-msgstr "Vremenski ograničen emotikon"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanal"
@@ -439,9 +428,6 @@ msgstr "Moji emotikoni"
 
 msgid "emote-menu.points"
 msgstr "Otključano sa poenima"
-
-msgid "emote_menu.prime"
-msgstr "Prime"
 
 msgid "emote-menu.prime"
 msgstr "Prime"
@@ -509,6 +495,20 @@ msgstr "Sakriveno"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Vidljivo"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Emotikon"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Kanal: {channel}"
+
+msgid "emote.global"
+msgstr "Twitch global"
+
+msgid "emote.limited"
+msgstr "Vremenski ograničen emotikon"
 
 msgid "emote.owner"
 msgstr "Od: {owner}"
@@ -644,9 +644,6 @@ msgstr "Istaknuto"
 msgid "metadata.featured-follow.title"
 msgstr "Istaknuti kanali"
 
-msgid "metadata.host.add-channel"
-msgstr "Dodaj u automatsko hostovanje"
-
 msgid "metadata.host-button.host"
 msgstr "Host"
 
@@ -661,6 +658,9 @@ msgstr "Prekini hostovanje"
 
 msgid "metadata.host-button.updating"
 msgstr "Ažuriranje..."
+
+msgid "metadata.host.add-channel"
+msgstr "Dodaj u automatsko hostovanje"
 
 msgid "metadata.host.setting.auto-hosting.title"
 msgstr "Automatsko hostovanje"

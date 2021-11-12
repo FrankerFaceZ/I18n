@@ -700,6 +700,9 @@ msgstr "Varmistus ja palautus"
 msgid "setting.data_management.profiles"
 msgstr "Profiilit"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Muokkaa profiilia"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Kuvaus"
 
@@ -708,9 +711,6 @@ msgstr "Yleinen"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Nimi"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Muokkaa profiilia"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Säännöt"
@@ -842,14 +842,14 @@ msgstr "Värien korjaus"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Muuta käyttäjien värejä, että ne ovat luettavia."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Ei väriä"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Ei muutosta"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Ei väriä"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -923,11 +923,6 @@ msgstr "Näytä animoidut hurraukset."
 msgid "setting.entry.chat.bits.show"
 msgstr "Näytä bitit"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Näytä bitteihin liittyvät käyttöliittymäelementit. Huom. tämä ei piilota "
-"chatissa näkyviä hurrauksia."
-
 msgid "setting.entry.chat.bits.show-rewards"
 msgstr "Näytä viesti, kun hurraus jakaa palkintoja chatissa olijoille."
 
@@ -935,6 +930,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Oletuksena tämä perii arvonsta Näytä bitit -asetuksesta. Koskee vain uusia "
 "viestejä."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Näytä bitteihin liittyvät käyttöliittymäelementit. Huom. tämä ei piilota "
+"chatissa näkyviä hurrauksia."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Hurrausten pinoaminen"
@@ -967,11 +967,11 @@ msgstr ""
 "Viivästytä uusien viestien näkymistä chatissa, jotta moderaattorit ehtivät "
 "nähdä ne ennen sinua."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Ei viivettä"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Oletus viivästys (huonekohtainen, ei-moderaattorit)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Ei viivettä"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Todella suuri (10s)"
@@ -1080,11 +1080,11 @@ msgstr "Nimi laskeva"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
 msgstr "Näytä hymiöt korkeimmilta tilaustasoilta viimeisenä."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Avaa katsojakortti klikkaamalla nimen mainintaa chatissa"
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Klikkaa poistettua sisältöä näyttääksesi se."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Avaa katsojakortti klikkaamalla nimen mainintaa chatissa"
 
 msgid "setting.entry.chat.filtering.deleted-style.description"
 msgstr ""
@@ -1428,6 +1428,9 @@ msgstr "Näytä viesti chatin yläreunassa, kun lahjoitetaan suuri määrä tila
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Yhdistä useampi kerralla tehty lahjatilaus."
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Laajenna yhdistetyt lahjatilausten viestit oletuksena."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Yhdistää yhdellä kertaa annetut lahjatilaukset yhteen viestiin riippuen "
@@ -1451,9 +1454,6 @@ msgstr "Yli 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Yli 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Laajenna yhdistetyt lahjatilausten viestit oletuksena."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Näytä tilaukset chatissa"
@@ -1504,18 +1504,6 @@ msgstr ""
 "täältä](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "12 tuntia etunollilla"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "24 tuntia etunollilla"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "12 tuntia etunollilla (sekuntien kanssa)"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "24 tuntia etunollilla (sekuntien kanssa)"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 tuntia"
 
@@ -1527,6 +1515,18 @@ msgstr "12 tuntia (sekuntien kanssa)"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 tuntia (sekuntien kanssa)"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "12 tuntia etunollilla"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "24 tuntia etunollilla"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "12 tuntia etunollilla (sekuntien kanssa)"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "24 tuntia etunollilla (sekuntien kanssa)"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Ota käyttöön FrankerFaceZ -ominaisuudet videoiden chatissa."
@@ -1687,11 +1687,6 @@ msgstr "Piilota navigointipalkki ylös kun se ei ole käytössä."
 msgid "setting.entry.layout.portrait"
 msgstr "Ota käyttöön pystytila."
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"Pystytilassa chat näytettään soittimen alla, jos ikkuna on korkeampi kuin "
-"leveämpi."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Pystytilassa chat yläreunassa."
 
@@ -1700,6 +1695,11 @@ msgstr "Pystytilan aktivointiraja"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Korkeuden ja leveyden suhde, jolloin pystytila aktivoituu."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Pystytilassa chat näytettään soittimen alla, jos ikkuna on korkeampi kuin "
+"leveämpi."
 
 msgid "setting.entry.layout.side-nav.hide-offline"
 msgstr "Piilota offline -kanavat"
@@ -1960,11 +1960,6 @@ msgstr "Pidä äänenvoimakkuuden säädin laajennettuna aina."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Säädä äänenvoimakkuutta hiiren vieritysrullalla."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Tämä asetus ei toimi oikein, jos kanavalla on käytössä soittimen päällä "
-"olevia laajenuksia ja vuorovaikutus laajennusten kanssa on sallittu.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Äänenvoimakkuuden muutos"
 
@@ -1984,6 +1979,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Tämä asetus ei toimi oikein, jos kanavalla on käytössä soittimen päällä "
+"olevia laajenuksia ja vuorovaikutus laajennusten kanssa on sallittu.*"
 
 msgid "setting.entry.profiles"
 msgstr "profiilit"
@@ -2258,6 +2258,9 @@ msgstr "Teatteritila"
 msgid "setting.player.general.volume"
 msgstr "Äänenvoimakkuus"
 
+msgid "setting.profile.updates"
+msgstr "Tämä profiili päivittyy automaattisesti URL osoitteesta:"
+
 msgid "setting.profiles.active"
 msgstr "Tämä profiili on käytössä ja aktiivinen."
 
@@ -2306,9 +2309,6 @@ msgstr ""
 "Haluatko varmasti poistaa tämän profiilin? Poistettua profiilia ei voi "
 "palauttaa."
 
-msgid "setting.profile.updates"
-msgstr "Tämä profiili päivittyy automaattisesti URL osoitteesta:"
-
 msgid "setting.reasons.add-default"
 msgstr "Lisää oletukset"
 
@@ -2340,6 +2340,50 @@ msgstr "Palauta oletusarvo klikkaamalla hiiren oikeaa painiketta"
 
 msgid "setting.save"
 msgstr "Tallenna"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Lisää uusi sana"
+
+msgid "setting.terms.add-term"
+msgstr "Lisää"
+
+msgid "setting.terms.no-terms"
+msgstr "tähän profiiliin ei ole määritelty sanoja"
+
+msgid "setting.terms.remove.off"
+msgstr "Älä poista täsmääviä viestejä chatista."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Sana)"
+
+msgid "setting.terms.type.text"
+msgstr "Teksti"
+
+msgid "setting.tooltip-example"
+msgstr "Nähdäksesi esimerkin, vie kursori tämän linkin päälle:"
+
+msgid "setting.true"
+msgstr "Tosi"
+
+msgid "setting.unset"
+msgstr "Peru"
+
+msgid "setting.visible"
+msgstr "Näkyvä"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Toinen profiili hallitsee näitä asetuksia, eivätkä ne välttämättä vaikuta "
+"toimintaan."
+
+msgid "setting.warn-unsaved"
+msgstr "Sinulla on tallentamattomia muutoksia, haluatko poistua editorista?"
 
 msgid "settings.filter.category"
 msgstr "Nykyinen kategoria"
@@ -2425,14 +2469,14 @@ msgstr "Kojelauta: Moderoinnin asetukset"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Kojelauta: Tulojen asetukset"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Kojelauta: Suoralähetysten työkalut"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Kojelauta: Suoralähetyksen hallinta"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Kojelauta: Suoralähetyksen tiivistelmä"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Kojelauta: Suoralähetysten työkalut"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Kojelauta: Videotuottaja"
@@ -2546,47 +2590,3 @@ msgstr "Tämä suodatin on virheelinen."
 
 msgid "settings.filter.true_false"
 msgstr "Tosi tai epätosi"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Lisää uusi sana"
-
-msgid "setting.terms.add-term"
-msgstr "Lisää"
-
-msgid "setting.terms.no-terms"
-msgstr "tähän profiiliin ei ole määritelty sanoja"
-
-msgid "setting.terms.remove.off"
-msgstr "Älä poista täsmääviä viestejä chatista."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Sana)"
-
-msgid "setting.terms.type.text"
-msgstr "Teksti"
-
-msgid "setting.tooltip-example"
-msgstr "Nähdäksesi esimerkin, vie kursori tämän linkin päälle:"
-
-msgid "setting.true"
-msgstr "Tosi"
-
-msgid "setting.unset"
-msgstr "Peru"
-
-msgid "setting.visible"
-msgstr "Näkyvä"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Toinen profiili hallitsee näitä asetuksia, eivätkä ne välttämättä vaikuta "
-"toimintaan."
-
-msgid "setting.warn-unsaved"
-msgstr "Sinulla on tallentamattomia muutoksia, haluatko poistua editorista?"

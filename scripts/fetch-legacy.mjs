@@ -9,6 +9,8 @@ import raw_rimraf from 'rimraf';
 import { getFlags, fixSources, flatten } from './utilities.mjs';
 import { stringsToComponents } from './utilities.mjs';
 import { componentToPO } from './utilities.mjs';
+import { GetSortedEntries } from './utilities.mjs';
+import { SortObject } from './utilities.mjs';
 
 const rimraf = promisify(raw_rimraf);
 const po = GTP.po;
@@ -65,7 +67,7 @@ function localeToPO(component, sources, strings, lang) {
 
 	let count = 0;
 
-	for(const [key, source] of Object.entries(sources)) {
+	for(const [key, source] of GetSortedEntries(sources)) {
 		if ( ! strings[key] )
 			continue;
 
@@ -127,5 +129,9 @@ fetchStrings().then(stringsToComponents).then(async data => {
 		}
 	}
 
-	fs.writeFileSync('strings.json', JSON.stringify(data, null, '\t'));
+	const out = {};
+	for(const [key,val] of GetSortedEntries(data))
+		out[key] = SortObject(val);
+
+	fs.writeFileSync('strings.json', JSON.stringify(out, null, '\t'));
 });

@@ -98,11 +98,11 @@ msgstr "Пожалуйста, выберите причину из списка 
 msgid "chat.actions.timeout"
 msgstr "Дать пользователю отстранение"
 
-msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} сек.{options.duration,en_plural}"
-
 msgid "chat.actions.timeout-reason"
 msgstr "Дать отстранение {user.login} на {duration,number} сек.{duration,plural} за:"
+
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} сек.{options.duration,en_plural}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr "Дать отстранение {user.login} на {duration,number} сек.{duration,plural}"
@@ -153,6 +153,12 @@ msgstr "Вебсайт FrankerFaceZ"
 msgid "chat.ffz-badge.title"
 msgstr "Значок FrankerFaceZ"
 
+msgid "chat.filtering.automod-term"
+msgstr "Термин, заблокированный автомодерацией"
+
+msgid "chat.filtering.automod-why"
+msgstr "Это было помечено как:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Враждебность"
 
@@ -164,12 +170,6 @@ msgstr "Профанация"
 
 msgid "chat.filtering.automod.S"
 msgstr "Откровенно сексуальный язык"
-
-msgid "chat.filtering.automod-term"
-msgstr "Термин, заблокированный автомодерацией"
-
-msgid "chat.filtering.automod-why"
-msgstr "Это было помечено как:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Заблокированный термин"
@@ -372,20 +372,20 @@ msgstr "{user} играет в {game}"
 msgid "emoji.category.activities"
 msgstr "Активность"
 
-msgid "emoji.category.animals_nature"
-msgstr "Животные и Природа"
-
 msgid "emoji.category.animals___nature"
 msgstr "Животные и природа"
+
+msgid "emoji.category.animals_nature"
+msgstr "Животные и Природа"
 
 msgid "emoji.category.flags"
 msgstr "Флаги"
 
-msgid "emoji.category.food_drink"
-msgstr "Еда и Напитки"
-
 msgid "emoji.category.food___drink"
 msgstr "Еда и напитки"
+
+msgid "emoji.category.food_drink"
+msgstr "Еда и Напитки"
 
 msgid "emoji.category.objects"
 msgstr "Объекты"
@@ -396,40 +396,23 @@ msgstr "Люди"
 msgid "emoji.category.skin_tones"
 msgstr "Тона кожи"
 
-msgid "emoji.category.smileys_emotion"
-msgstr "Улыбки и Эмоции"
-
 msgid "emoji.category.smileys___people"
 msgstr "Смайлики и люди"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Улыбки и Эмоции"
 
 msgid "emoji.category.symbols"
 msgstr "Символы"
 
-msgid "emoji.category.travel_places"
-msgstr "Путешествия и достопримечательности "
-
 msgid "emoji.category.travel___places"
 msgstr "Путешествия и Места"
 
-msgid "emote.2fa"
-msgstr "Смайл 2FA"
+msgid "emoji.category.travel_places"
+msgstr "Путешествия и достопримечательности "
 
-msgid "emote.bits"
-msgstr "Награда за Bits"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Канал: {channel}"
-
-msgid "emote.follower"
-msgstr "Смайл фолловера ({source})"
-
-msgid "emote.global"
-msgstr "Общедоступный Twitch"
-
-msgid "emote.limited"
-msgstr "Временный смайл"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Канал"
@@ -500,9 +483,6 @@ msgstr "Мои смайлы"
 msgid "emote-menu.points"
 msgstr "Открыто с помощью баллов"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -570,6 +550,26 @@ msgstr "Скрытые"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Видимые"
+
+msgid "emote.2fa"
+msgstr "Смайл 2FA"
+
+msgid "emote.bits"
+msgstr "Награда за Bits"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Канал: {channel}"
+
+msgid "emote.follower"
+msgstr "Смайл фолловера ({source})"
+
+msgid "emote.global"
+msgstr "Общедоступный Twitch"
+
+msgid "emote.limited"
+msgstr "Временный смайл"
 
 msgid "emote.owner"
 msgstr "Автор: {owner}"
@@ -718,9 +718,6 @@ msgstr "Избранные"
 msgid "metadata.featured-follow.title"
 msgstr "Избранные Каналы"
 
-msgid "metadata.host.add-channel"
-msgstr "Добавить в авторетрансляции"
-
 msgid "metadata.host-button.host"
 msgstr "Ретранслировать"
 
@@ -735,6 +732,9 @@ msgstr "Прекратить ретрансляцию"
 
 msgid "metadata.host-button.updating"
 msgstr "Обновляем..."
+
+msgid "metadata.host.add-channel"
+msgstr "Добавить в авторетрансляции"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr "Автоматически ретранслировать каналы из списка, когда вы оффлайн."

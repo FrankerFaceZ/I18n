@@ -51,13 +51,13 @@ msgstr "Valitse syy allaolevasta listasta:"
 msgid "chat.actions.timeout"
 msgstr "Aseta käyttäjä jäähylle"
 
+msgid "chat.actions.timeout-reason"
+msgstr "Aseta käyttäjä {user.login} {duration,number} sekunnin jäähylle syystä:"
+
 msgid "chat.actions.timeout.desc"
 msgstr ""
 "{options.duration,number} {options.duration,plural,one {sekunti} other "
 "{sekuntia}}"
-
-msgid "chat.actions.timeout-reason"
-msgstr "Aseta käyttäjä {user.login} {duration,number} sekunnin jäähylle syystä:"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr "Aseta käyttäjä {user.login} {duration,number} sekunnin jäähylle"
@@ -87,6 +87,12 @@ msgstr ""
 "other {Moderaattori poisti # viestiä.}\n"
 "}"
 
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod torjutut sanat ja lauseet"
+
+msgid "chat.filtering.automod-why"
+msgstr "Tämä merkattiin:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Aggressiivisuus"
 
@@ -98,12 +104,6 @@ msgstr "Hävyttömyyksiä"
 
 msgid "chat.filtering.automod.S"
 msgstr "Seksuaalinen sisältö"
-
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod torjutut sanat ja lauseet"
-
-msgid "chat.filtering.automod-why"
-msgstr "Tämä merkattiin:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Estetty sana"
@@ -297,11 +297,8 @@ msgstr "Symbolit"
 msgid "emoji.category.travel___places"
 msgstr "Matkustus & Paikat"
 
-msgid "emote.global"
-msgstr "Twitch Globaalit"
-
-msgid "emote.limited"
-msgstr "Rajoitetun ajan hymiö"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanava"
@@ -364,9 +361,6 @@ msgstr "Omat hymiöt"
 msgid "emote-menu.points"
 msgstr "Avattu pisteillä"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -413,6 +407,12 @@ msgstr "Tuntematon lähde"
 
 msgid "emote-menu.unknown-set"
 msgstr "Set #{set_id}"
+
+msgid "emote.global"
+msgstr "Twitch Globaalit"
+
+msgid "emote.limited"
+msgstr "Rajoitetun ajan hymiö"
 
 msgid "emote.owner"
 msgstr "Tekijä: {owner}"
@@ -540,9 +540,6 @@ msgstr "Esillä olevat."
 msgid "metadata.featured-follow.title"
 msgstr "Esillä olevat kanavat"
 
-msgid "metadata.host.add-channel"
-msgstr "Lisä automaattisen jakamisen listalle"
-
 msgid "metadata.host-button.host"
 msgstr "Jako"
 
@@ -557,6 +554,9 @@ msgstr "Lopeta jako"
 
 msgid "metadata.host-button.updating"
 msgstr "Päivitetään..."
+
+msgid "metadata.host.add-channel"
+msgstr "Lisä automaattisen jakamisen listalle"
 
 msgid "metadata.host.tab.auto-host"
 msgstr "Automaattinen jakaminen"

@@ -100,15 +100,15 @@ msgstr "Wybierz powód z poniższej listy:"
 msgid "chat.actions.timeout"
 msgstr "Wykluczenie użytkownika"
 
-msgid "chat.actions.timeout.desc"
-msgstr ""
-"{options.duration,number} {options.duration,plural, one {sekunda} few "
-"{sekundy} many {sekund}}"
-
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Wyklucz {user.login} na {duration,number} {duration,plural, one {sekundę} "
 "few {sekundy} many {sekund} }"
+
+msgid "chat.actions.timeout.desc"
+msgstr ""
+"{options.duration,number} {options.duration,plural, one {sekunda} few "
+"{sekundy} many {sekund}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
@@ -161,6 +161,12 @@ msgstr "Strona internetowa FrankerFaceZ"
 msgid "chat.ffz-badge.title"
 msgstr "Odznaka FrankerFaceZ"
 
+msgid "chat.filtering.automod-term"
+msgstr "Wyrażenie zablokowane przez AutoModa"
+
+msgid "chat.filtering.automod-why"
+msgstr "Zostało to oflagowane jako:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Wrogość"
 
@@ -172,12 +178,6 @@ msgstr "Wulgarność"
 
 msgid "chat.filtering.automod.S"
 msgstr "Nacechowane seksualnie słownictwo"
-
-msgid "chat.filtering.automod-term"
-msgstr "Wyrażenie zablokowane przez AutoModa"
-
-msgid "chat.filtering.automod-why"
-msgstr "Zostało to oflagowane jako:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Wyrażenie zablokowane"
@@ -377,19 +377,19 @@ msgstr "{user} gra w {game}"
 msgid "emoji.category.activities"
 msgstr "Aktywności"
 
-msgid "emoji.category.animals_nature"
+msgid "emoji.category.animals___nature"
 msgstr "Zwierzęta i natura"
 
-msgid "emoji.category.animals___nature"
+msgid "emoji.category.animals_nature"
 msgstr "Zwierzęta i natura"
 
 msgid "emoji.category.flags"
 msgstr "Flagi"
 
-msgid "emoji.category.food_drink"
+msgid "emoji.category.food___drink"
 msgstr "Żywność i napoje"
 
-msgid "emoji.category.food___drink"
+msgid "emoji.category.food_drink"
 msgstr "Żywność i napoje"
 
 msgid "emoji.category.objects"
@@ -401,40 +401,23 @@ msgstr "Ludzie"
 msgid "emoji.category.skin_tones"
 msgstr "Kolory skóry"
 
-msgid "emoji.category.smileys_emotion"
-msgstr "Buźki i emocje"
-
 msgid "emoji.category.smileys___people"
 msgstr "Buźki i osoby"
+
+msgid "emoji.category.smileys_emotion"
+msgstr "Buźki i emocje"
 
 msgid "emoji.category.symbols"
 msgstr "Symbole"
 
-msgid "emoji.category.travel_places"
-msgstr "Podróże i miejsca"
-
 msgid "emoji.category.travel___places"
 msgstr "Podróże i miejsca"
 
-msgid "emote.2fa"
-msgstr "Emotka Twitcha z wer. dwu-etap."
+msgid "emoji.category.travel_places"
+msgstr "Podróże i miejsca"
 
-msgid "emote.bits"
-msgstr "Nagroda za bitsy"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Kanał: {channel}"
-
-msgid "emote.follower"
-msgstr "Emotka obserwującego ({source})"
-
-msgid "emote.global"
-msgstr "Globalny Twitch"
-
-msgid "emote.limited"
-msgstr "Emotka ograniczona czasowo"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Kanał"
@@ -506,9 +489,6 @@ msgstr "Moje emotki"
 msgid "emote-menu.points"
 msgstr "Odblokowane za punkty"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -577,6 +557,26 @@ msgstr "Ukryte"
 
 msgid "emote-menu.visibility.visible"
 msgstr "Widoczne"
+
+msgid "emote.2fa"
+msgstr "Emotka Twitcha z wer. dwu-etap."
+
+msgid "emote.bits"
+msgstr "Nagroda za bitsy"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Kanał: {channel}"
+
+msgid "emote.follower"
+msgstr "Emotka obserwującego ({source})"
+
+msgid "emote.global"
+msgstr "Globalny Twitch"
+
+msgid "emote.limited"
+msgstr "Emotka ograniczona czasowo"
 
 msgid "emote.owner"
 msgstr "Stworzona przez: {owner}"
@@ -727,9 +727,6 @@ msgstr "Polecane"
 msgid "metadata.featured-follow.title"
 msgstr "Polecane kanały"
 
-msgid "metadata.host.add-channel"
-msgstr "Dodaj do autohostowania"
-
 msgid "metadata.host-button.host"
 msgstr "Hostuj"
 
@@ -744,6 +741,9 @@ msgstr "Przestań hostować"
 
 msgid "metadata.host-button.updating"
 msgstr "Aktualizowanie..."
+
+msgid "metadata.host.add-channel"
+msgstr "Dodaj do autohostowania"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr "Automatycznie hostuj kanały z twojej listy gdy jesteś offline."

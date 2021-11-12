@@ -704,6 +704,12 @@ msgstr "Blokker"
 msgid "setting.chat.filtering.block.badges"
 msgstr "Utmerkelser"
 
+msgid "setting.chat.filtering.block.terms"
+msgstr "Vilkår"
+
+msgid "setting.chat.filtering.block.users"
+msgstr "Brukere"
+
 msgid "setting.chat.filtering.blocked_badges"
 msgstr "Blokkerte merker"
 
@@ -712,12 +718,6 @@ msgstr "Blokkerte uttrykk"
 
 msgid "setting.chat.filtering.blocked_users"
 msgstr "Blokkerte brukere"
-
-msgid "setting.chat.filtering.block.terms"
-msgstr "Vilkår"
-
-msgid "setting.chat.filtering.block.users"
-msgstr "Brukere"
 
 msgid "setting.chat.filtering.general"
 msgstr "Generelt"
@@ -743,17 +743,17 @@ msgstr "Marker"
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "Fremhev merker"
 
-msgid "setting.chat.filtering.highlight.badges"
-msgstr "Utmerkelser"
-
 msgid "setting.chat.filtering.highlight_terms"
 msgstr "Fremhev uttrykk"
 
-msgid "setting.chat.filtering.highlight.terms"
-msgstr "Vilkår"
-
 msgid "setting.chat.filtering.highlight_users"
 msgstr "Fremhev brukere"
+
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Utmerkelser"
+
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Vilkår"
 
 msgid "setting.chat.filtering.highlight.users"
 msgstr "Brukere"
@@ -833,6 +833,9 @@ msgstr "Sikkerhetskopier"
 msgid "setting.data_management.profiles"
 msgstr "Profiler"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Rediger profil"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Beskrivelse"
 
@@ -844,9 +847,6 @@ msgstr "Hurtigtast"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Navn"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Rediger profil"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Regler"
@@ -1042,14 +1042,14 @@ msgstr "Justering"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Endre på brukerfarger for å sørge for at de forblir lesbare."
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Ingen farge"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Uendret"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL-luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Ingen farge"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv-luma"
@@ -1146,11 +1146,6 @@ msgstr "Vis animerte jublinger."
 msgid "setting.entry.chat.bits.show"
 msgstr "Vis bits"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Visningsgrensesnitt forbundet med bits. Bemerk at dette ikke vil skjule "
-"jubling i chatmeldinger."
-
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Vis ledertavlen"
 
@@ -1161,6 +1156,11 @@ msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Som standard arver det dens verdi fra «Vis bits». Denne innstillingen "
 "påvirker kun nylig ankomne meldinger."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Visningsgrensesnitt forbundet med bits. Bemerk at dette ikke vil skjule "
+"jubling i chatmeldinger."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Oppstabling av jubling"
@@ -1193,11 +1193,11 @@ msgstr ""
 "Forsink at chatmeldinger dukker opp, slik at de kan modereres før du ser "
 "dem."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Ingen forsinkelse"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Standardforsinkelse (Romspesifikt; Kun for ikke-moderatorer)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Ingen forsinkelse"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Ekstra stor (10sek)"
@@ -1338,11 +1338,11 @@ msgstr "Slått av"
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Vis nevninger i chat med en tykk skrifttype."
 
-msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr "Skru på åpning av seerkort ved å klikke på nevninger i chatten."
-
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Klikk for å vise slettede uttrykk."
+
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr "Skru på åpning av seerkort ved å klikke på nevninger i chatten."
 
 msgid "setting.entry.chat.filtering.deleted-style"
 msgstr "Stil for detaljerte meldinger"
@@ -1624,6 +1624,9 @@ msgstr ""
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Sett chat-rullingen på pause"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr "Krev at musepekeren er over chatten for å fryse med en hurtigtast."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Automatisk stopp chatten fra å rulle når du holder musepekeren over den "
@@ -1631,9 +1634,6 @@ msgstr ""
 "\n"
 "**Bemerk:** Å rulle opp i chatten vil alltid forhindre automatisk rulling, "
 "uavhengig av denne innstillingen."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr "Krev at musepekeren er over chatten for å fryse med en hurtigtast."
 
 msgid "setting.entry.chat.scroller.freeze.values.1"
 msgstr "Ved sveving over"
@@ -1720,6 +1720,9 @@ msgstr "Vis en plakat på toppen av chatten når en masseabonnementsgivning skje
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Slå sammen massegivinger av abonnementer"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Utvid sammenslåtte masseabonnementsgavemeldinger som standard."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Slå sammen massegivinger av abonnementer til én enkelt melding, avhengig av "
@@ -1743,9 +1746,6 @@ msgstr "Mer enn 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "Mer enn 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Utvid sammenslåtte masseabonnementsgavemeldinger som standard."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Vis abonneringer i chatten"
@@ -1796,18 +1796,6 @@ msgstr ""
 "her](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Innpakket"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Innpakket 24-timers"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Innpakket med sekunder"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Innpakket 24-timers med sekunder"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12-timers"
 
@@ -1819,6 +1807,18 @@ msgstr "12-timers med sekunder"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24-timers med sekunder"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Innpakket"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Innpakket 24-timers"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Innpakket med sekunder"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Innpakket 24-timers med sekunder"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Skru på FrankerFaceZ-egenskaper i videochatter."
@@ -2000,11 +2000,6 @@ msgstr "Gli nettstedsnavigasjonslinjen ut av syne når den ikke er i bruk."
 msgid "setting.entry.layout.portrait"
 msgstr "Skru på portrettmodus"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"I Portrettmodus vil chatten vises under avspilleren, dersom vinduet er "
-"høyere enn den er bred."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Når du er i portrettmodus, plasser chatten øverst."
 
@@ -2013,6 +2008,11 @@ msgstr "Portrettmodusgrense"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Dette er bredde-høyde-forholdet der Portrettmodus vil bli satt i gang."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"I Portrettmodus vil chatten vises under avspilleren, dersom vinduet er "
+"høyere enn den er bred."
 
 msgid "setting.entry.layout.side-nav.hide-offline"
 msgstr "Skjul kanaler som er offline"
@@ -2381,11 +2381,6 @@ msgstr "Hold volumglideren utvidet til enhver tid."
 msgid "setting.entry.player.volume-scroll"
 msgstr "Juster volumet ved å rulle med musehjulet."
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Denne innstillingen vil ikke fungere ordentlig på kringkastinger med "
-"synlige utvidelser, når musesamhandling med utvidelser er tillatt.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Volumrullemengde"
 
@@ -2403,6 +2398,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Denne innstillingen vil ikke fungere ordentlig på kringkastinger med "
+"synlige utvidelser, når musesamhandling med utvidelser er tillatt.*"
 
 msgid "setting.entry.player.volume-scroll.values.false"
 msgstr "Deaktivert"
@@ -2754,6 +2754,9 @@ msgstr "Volum"
 msgid "setting.preview"
 msgstr "Forhåndsvis"
 
+msgid "setting.profile.updates"
+msgstr "Profilen vil oppdateres automatisk fra den følgende URL-en:"
+
 msgid "setting.profiles.active"
 msgstr "Profilen er skrudd på og aktiv."
 
@@ -2801,9 +2804,6 @@ msgstr "Ny profil"
 msgid "setting.profiles.warn-delete"
 msgstr "Er du sikker på at du vil slette denne profilen? Det kan ikke bli angret på."
 
-msgid "setting.profile.updates"
-msgstr "Profilen vil oppdateres automatisk fra den følgende URL-en:"
-
 msgid "setting.provider.selected"
 msgstr "(For øyeblikket)"
 
@@ -2838,6 +2838,59 @@ msgstr "Høyreklikk for å tilbakestille"
 
 msgid "setting.save"
 msgstr "Lagre"
+
+msgid "setting.space"
+msgstr "Mellomrom"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Legg til et nytt uttrykk"
+
+msgid "setting.terms.add-term"
+msgstr "Legg til"
+
+msgid "setting.terms.no-terms"
+msgstr "ingen uttrykk er definert i denne profilen"
+
+msgid "setting.terms.please-select"
+msgstr "Vennligst ta et valg."
+
+msgid "setting.terms.remove.off"
+msgstr "Ikke fjern samsvarende meldinger fra chatten."
+
+msgid "setting.terms.remove.on"
+msgstr "Fjern samsvarende meldinger fra chatten."
+
+msgid "setting.terms.type.glob"
+msgstr "Overalt"
+
+msgid "setting.terms.type.regex"
+msgstr "RegEx"
+
+msgid "setting.terms.type.regex-word"
+msgstr "RegEx (Ord)"
+
+msgid "setting.terms.type.text"
+msgstr "Tekst"
+
+msgid "setting.tooltip-example"
+msgstr "For et eksempel, vennligst svev over denne lenken:"
+
+msgid "setting.true"
+msgstr "Sann"
+
+msgid "setting.unset"
+msgstr "Nullstill"
+
+msgid "setting.visible"
+msgstr "Synlig"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Disse verdiene overstyres av en annen profil og kan kanskje ikke bli tatt i "
+"bruk."
+
+msgid "setting.warn-unsaved"
+msgstr "Du har ulagrede endringer. Er du sikker på at du vil forlate redigereren?"
 
 msgid "settings.back"
 msgstr "Tilbake"
@@ -2926,14 +2979,14 @@ msgstr "Kontrollpanel: Modereringsinnstillinger"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Kontrollpanel: Inntektsinnstillinger"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Kontrollpanel: Sendingsverktøy"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Kontrollpanel: Sendingsbehandler"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Kontrollpanel: Sendingsoppsummering"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Kontrollpanel: Sendingsverktøy"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Kontrollpanel: Videoprodusent"
@@ -3048,9 +3101,6 @@ msgstr "Dette mønsteret er ugyldig."
 msgid "settings.filter.true_false"
 msgstr "'True' (på) eller 'False' (av)"
 
-msgid "setting.space"
-msgstr "Mellomrom"
-
 msgid "settings.term.color.tip"
 msgstr "Farge"
 
@@ -3062,53 +3112,3 @@ msgstr "Aa"
 
 msgid "settings.terms.sensitive.tip"
 msgstr "Skill mellom små/store bokstaver"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Legg til et nytt uttrykk"
-
-msgid "setting.terms.add-term"
-msgstr "Legg til"
-
-msgid "setting.terms.no-terms"
-msgstr "ingen uttrykk er definert i denne profilen"
-
-msgid "setting.terms.please-select"
-msgstr "Vennligst ta et valg."
-
-msgid "setting.terms.remove.off"
-msgstr "Ikke fjern samsvarende meldinger fra chatten."
-
-msgid "setting.terms.remove.on"
-msgstr "Fjern samsvarende meldinger fra chatten."
-
-msgid "setting.terms.type.glob"
-msgstr "Overalt"
-
-msgid "setting.terms.type.regex"
-msgstr "RegEx"
-
-msgid "setting.terms.type.regex-word"
-msgstr "RegEx (Ord)"
-
-msgid "setting.terms.type.text"
-msgstr "Tekst"
-
-msgid "setting.tooltip-example"
-msgstr "For et eksempel, vennligst svev over denne lenken:"
-
-msgid "setting.true"
-msgstr "Sann"
-
-msgid "setting.unset"
-msgstr "Nullstill"
-
-msgid "setting.visible"
-msgstr "Synlig"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Disse verdiene overstyres av en annen profil og kan kanskje ikke bli tatt i "
-"bruk."
-
-msgid "setting.warn-unsaved"
-msgstr "Du har ulagrede endringer. Er du sikker på at du vil forlate redigereren?"

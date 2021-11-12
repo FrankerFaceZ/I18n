@@ -39,9 +39,6 @@ msgstr "'ear a sound every time a message be 'ighlighted."
 msgid "setting.entry.ffzap.core.highlight_sound"
 msgstr "Sound"
 
-msgid "setting.entry.ffzap.core.highlight_sound.description"
-msgstr "Change the sound that will play when a sound trigger be activated."
-
 msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
 msgstr "Prevent In Own Channel"
 
@@ -61,14 +58,6 @@ msgstr "Play When Mentioned"
 
 msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
 msgstr "Play a 'ighlight sound when ye be bein' mentioned in chat by yer username."
-
-msgid "setting.entry.ffzap.core.highlight_sound_types"
-msgstr "Play When"
-
-msgid "setting.entry.ffzap.core.highlight_sound_types.description"
-msgstr ""
-"Play a 'ighlight sound when a chat line be 'ighlighted fer one o' the "
-"selected reasons."
 
 msgid "setting.entry.ffzap.core.highlight_sound_type_term"
 msgstr "Play When Term 'ighlighted"
@@ -93,6 +82,14 @@ msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
 msgstr ""
 "Play a 'ighlight sound when a user from the \"Highlight Users\" list be "
 "bein' 'ighlighted."
+
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Play When"
+
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Play a 'ighlight sound when a chat line be 'ighlighted fer one o' the "
+"selected reasons."
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume"
 msgstr "'ighlight Sound Volume"
@@ -132,6 +129,9 @@ msgstr "80%"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.90"
 msgstr "90%"
+
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Change the sound that will play when a sound trigger be activated."
 
 msgid "setting.entry.ffzap.core.message_deletion"
 msgstr "Message User-Level Filterin'"

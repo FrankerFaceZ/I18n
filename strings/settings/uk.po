@@ -638,6 +638,9 @@ msgstr "Резервне копіювання та Відновлення"
 msgid "setting.data_management.profiles"
 msgstr "Профілі"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Редагувати профіль"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Опис"
 
@@ -646,9 +649,6 @@ msgstr "Загальне"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Ім'я"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Редагувати профіль"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Правила"
@@ -711,11 +711,11 @@ msgstr ""
 "Найзручніше буде блокувати та розблокувати категорії просто зі сторінки "
 "директорії."
 
-msgid "setting.directory.categories.hidden_thumbnails"
-msgstr "Приховані ескізи"
-
 msgid "setting.directory.categories.hidden_thumbnail_style"
 msgstr "Стиль прихованих ескізів"
+
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Приховані ескізи"
 
 msgid "setting.directory.channels"
 msgstr "Канали"
@@ -917,15 +917,15 @@ msgstr "Показувати анімацію камінців"
 msgid "setting.entry.chat.bits.show"
 msgstr "Показувати бітси"
 
-msgid "setting.entry.chat.bits.show.description"
-msgstr ""
-"Показувати елементи інтерфейсу, що стосуються бітсів. Примітка: це не ховає "
-"камінці і повідомлення з ними в чаті."
-
 msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
 "Це значення береться з Показувати Бітси, за замовченням. Це налаштування "
 "впливає лишень на нові повідомлення."
+
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Показувати елементи інтерфейсу, що стосуються бітсів. Примітка: це не ховає "
+"камінці і повідомлення з ними в чаті."
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Згрупування камінців"
@@ -956,11 +956,11 @@ msgstr ""
 "Затримувати появу повідомлень у чаті, щоб модератори їх перевірили, перед "
 "тим, як ви їх побачите."
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Без Затримки"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Звичайна Затримка (Визначена для Кімнати; Лишень для не модераторів)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Без Затримки"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Надвелика (10c)"
@@ -1301,6 +1301,11 @@ msgstr "Довжина зворотної прокрутки"
 msgid "setting.entry.chat.scroller.freeze"
 msgstr "Зупинка прокрутки чату"
 
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Вимагати зависання вказівника миші над чатом разом із комбінацією клавіш "
+"для пригальмовування чату."
+
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "Автоматично зупиняти прогортання чату, коли вказівник мишки стає над чатом "
@@ -1308,11 +1313,6 @@ msgstr ""
 "\n"
 "**Примітка:** Прогортання чату вгору завжди запобігатиме автоматичному "
 "прогортанню незалежно від налаштування."
-
-msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr ""
-"Вимагати зависання вказівника миші над чатом разом із комбінацією клавіш "
-"для пригальмовування чату."
 
 msgid "setting.entry.chat.scroller.freeze.values.2"
 msgstr "Коли натиснена Ctrl"
@@ -1378,6 +1378,9 @@ msgstr ""
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Об’єднувати подаровані передплати"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Розгортати об’єднані повідомлення про передплати за промовчуванням."
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Об’єднувати багато подарованих передплат в одне повідомлення, залежно від "
@@ -1401,9 +1404,6 @@ msgstr "більш, ніж 5"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "більш, ніж 50"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Розгортати об’єднані повідомлення про передплати за промовчуванням."
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Показувати передплатників у чаті"
@@ -1630,11 +1630,6 @@ msgstr "Згортати панель навігації вгору, коли в
 msgid "setting.entry.layout.portrait"
 msgstr "Увімкнути Режим Портрету"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"В Режимі Портрету чат показуватиметься під програвачем, коли вікно більше "
-"заввишки ніж завширшки."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Показувати чат згори програвача в режимі портрету."
 
@@ -1652,6 +1647,11 @@ msgstr "Поріг переходу до Портретного Режиму"
 
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr "Це співвідношення Ширини до Висоти при якому активується Режим Портрету."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"В Режимі Портрету чат показуватиметься під програвачем, коли вікно більше "
+"заввишки ніж завширшки."
 
 msgid "setting.entry.layout.side-nav.hide-offline"
 msgstr "Сховати канали не в мережі"
@@ -1985,11 +1985,6 @@ msgstr "Постійно відображати повзунок гучност�
 msgid "setting.entry.player.volume-scroll"
 msgstr "Змінювати гучність прокруткою колесика миші"
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Це налаштування не працюватиме належним чином на стрімах з видимими "
-"додатками, якщо увімкнено взаємодію з додатком.*"
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Зміна гучності при прокрутці"
 
@@ -2007,6 +2002,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Це налаштування не працюватиме належним чином на стрімах з видимими "
+"додатками, якщо увімкнено взаємодію з додатком.*"
 
 msgid "setting.entry.profiles"
 msgstr "профілі"
@@ -2317,6 +2317,9 @@ msgstr "Гучність"
 msgid "setting.preview"
 msgstr "Перегляд"
 
+msgid "setting.profile.updates"
+msgstr "Цей профіль автоматично оновиться з цього URL: "
+
 msgid "setting.profiles.active"
 msgstr "Цей профіль увімкнений."
 
@@ -2362,9 +2365,6 @@ msgstr "Новий профіль"
 msgid "setting.profiles.warn-delete"
 msgstr "Ви впевнені, що хочете видалити цей профіль? Ця дія незворотна."
 
-msgid "setting.profile.updates"
-msgstr "Цей профіль автоматично оновиться з цього URL: "
-
 msgid "setting.reasons.add-default"
 msgstr "Додати Замовчення"
 
@@ -2393,6 +2393,53 @@ msgstr "Клац правою кнопкою мишки щоб Скинути"
 
 msgid "setting.save"
 msgstr "Зберегти"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Додати новий вираз"
+
+msgid "setting.terms.add-term"
+msgstr "Додати"
+
+msgid "setting.terms.no-terms"
+msgstr "в цьому профілі немає визначених виразів"
+
+msgid "setting.terms.remove.off"
+msgstr "Не вилучати з чату підхожі повідомлення."
+
+msgid "setting.terms.remove.on"
+msgstr "Вилучати відповідні повідомлення з чату."
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Регулярний вираз"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Регулярний вираз (Слово)"
+
+msgid "setting.terms.type.text"
+msgstr "Текст"
+
+msgid "setting.tooltip-example"
+msgstr "Для прикладу, наведіть вказівник мишки на це посилання:"
+
+msgid "setting.true"
+msgstr "Так"
+
+msgid "setting.unset"
+msgstr "Прибрати"
+
+msgid "setting.visible"
+msgstr "Видимий"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Ці значення перекриваються такими з іншого профілю і можливо не матимуть "
+"впливу."
+
+msgid "setting.warn-unsaved"
+msgstr "Ви маєте незбережені зміни. Ви впевнені, що хочете покинути редактор?"
 
 msgid "settings.back"
 msgstr "Назад"
@@ -2478,14 +2525,14 @@ msgstr "Щиток: Налаштування Модерування"
 msgid "settings.filter.page.route.dash-settings-revenue"
 msgstr "Щиток: Налаштування Дохід"
 
-msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Щиток: Засоби для трансляцій"
-
 msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Щиток: Трансляція Управління"
 
 msgid "settings.filter.page.route.dash-stream-summary"
 msgstr "Щиток: Трансляція Підсумки"
+
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Щиток: Засоби для трансляцій"
 
 msgid "settings.filter.page.route.dash-video-producer"
 msgstr "Щиток: Створення Відео"
@@ -2576,50 +2623,3 @@ msgstr "Шаблон недійсний"
 
 msgid "settings.filter.true_false"
 msgstr "Правдиво чи Неправдиво"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Додати новий вираз"
-
-msgid "setting.terms.add-term"
-msgstr "Додати"
-
-msgid "setting.terms.no-terms"
-msgstr "в цьому профілі немає визначених виразів"
-
-msgid "setting.terms.remove.off"
-msgstr "Не вилучати з чату підхожі повідомлення."
-
-msgid "setting.terms.remove.on"
-msgstr "Вилучати відповідні повідомлення з чату."
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Регулярний вираз"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Регулярний вираз (Слово)"
-
-msgid "setting.terms.type.text"
-msgstr "Текст"
-
-msgid "setting.tooltip-example"
-msgstr "Для прикладу, наведіть вказівник мишки на це посилання:"
-
-msgid "setting.true"
-msgstr "Так"
-
-msgid "setting.unset"
-msgstr "Прибрати"
-
-msgid "setting.visible"
-msgstr "Видимий"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Ці значення перекриваються такими з іншого профілю і можливо не матимуть "
-"впливу."
-
-msgid "setting.warn-unsaved"
-msgstr "Ви маєте незбережені зміни. Ви впевнені, що хочете покинути редактор?"

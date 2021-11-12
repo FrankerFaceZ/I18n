@@ -64,11 +64,6 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound"
 msgstr "Sound"
 
-#, icu-message-format, md-text
-msgctxt "FFZ Control Center"
-msgid "setting.entry.ffzap.core.highlight_sound.description"
-msgstr "Change the sound that will play when a sound trigger is activated."
-
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
@@ -102,20 +97,6 @@ msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
 msgstr ""
 "Play a highlight sound when you are being mentioned in chat by your "
 "username."
-
-#: /src/modules/main_menu/components/setting-select-box.vue:22
-#, icu-message-format
-msgctxt "FFZ Control Center"
-msgid "setting.entry.ffzap.core.highlight_sound_types"
-msgstr "Play When"
-
-#: /src/modules/main_menu/components/setting-select-box.vue:194
-#, icu-message-format, md-text
-msgctxt "FFZ Control Center"
-msgid "setting.entry.ffzap.core.highlight_sound_types.description"
-msgstr ""
-"Play a highlight sound when a chat line is highlighted for one of the "
-"selected reasons."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -152,6 +133,20 @@ msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
 msgstr ""
 "Play a highlight sound when a user from the \"Highlight Users\" list is "
 "being highlighted."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Play When"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Play a highlight sound when a chat line is highlighted for one of the "
+"selected reasons."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -217,6 +212,11 @@ msgstr "80%"
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.90"
 msgstr "90%"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Change the sound that will play when a sound trigger is activated."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"

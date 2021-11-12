@@ -55,15 +55,15 @@ msgstr "Молим вас изаберите разлог из листе:"
 msgid "chat.actions.timeout"
 msgstr "Бануј корисника"
 
+msgid "chat.actions.timeout-reason"
+msgstr "Бануј корисника {user.login} на {duration,number} секунди/у {duration} због:"
+
 msgid "chat.actions.timeout.desc"
 msgstr ""
 "{options.duration,plural,\n"
 "one {#. секунда} \n"
 "few {# секунде}\n"
 "other{# секунди}}"
-
-msgid "chat.actions.timeout-reason"
-msgstr "Бануј корисника {user.login} на {duration,number} секунди/у {duration} због:"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr "Бануј корисника {user.login} на {duration,number}. секунди/у {duration}"
@@ -96,6 +96,12 @@ msgstr ""
 "other {#. поруке су избрисане од стране модератора.}\n"
 "}"
 
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod је блокирао термин"
+
+msgid "chat.filtering.automod-why"
+msgstr "Ово је означено као:"
+
 msgid "chat.filtering.automod.A"
 msgstr "Непријатељство"
 
@@ -107,12 +113,6 @@ msgstr "Вулгарност"
 
 msgid "chat.filtering.automod.S"
 msgstr "Сексуално експлицитни језик"
-
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod је блокирао термин"
-
-msgid "chat.filtering.automod-why"
-msgstr "Ово је означено као:"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Блокирани термин"
@@ -324,19 +324,8 @@ msgstr "Симболи"
 msgid "emoji.category.travel___places"
 msgstr "Путовања & места"
 
-msgid "emote.2fa"
-msgstr "Twitch 2FA Емотикон"
-
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Канал: {channel}"
-
-msgid "emote.global"
-msgstr "Twitch глобал"
-
-msgid "emote.limited"
-msgstr "Временски ограничен емотикон"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 msgid "emote-menu.channel"
 msgstr "Канал"
@@ -401,9 +390,6 @@ msgstr "Моји емотикони"
 msgid "emote-menu.points"
 msgstr "Откључано са поенима"
 
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 msgid "emote-menu.prime"
 msgstr "Prime"
 
@@ -458,6 +444,20 @@ msgstr "Непознат извор"
 
 msgid "emote-menu.unknown-set"
 msgstr "Постави #{set_id}"
+
+msgid "emote.2fa"
+msgstr "Twitch 2FA Емотикон"
+
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Канал: {channel}"
+
+msgid "emote.global"
+msgstr "Twitch глобал"
+
+msgid "emote.limited"
+msgstr "Временски ограничен емотикон"
 
 msgid "emote.owner"
 msgstr "Од: {owner}"
@@ -590,9 +590,6 @@ msgstr "Истакнуто"
 msgid "metadata.featured-follow.title"
 msgstr "Истакнути канали"
 
-msgid "metadata.host.add-channel"
-msgstr "Додај у аутоматско хостовање"
-
 msgid "metadata.host-button.host"
 msgstr "Хост"
 
@@ -607,6 +604,9 @@ msgstr "Прекини хостовање"
 
 msgid "metadata.host-button.updating"
 msgstr "Ажурирање..."
+
+msgid "metadata.host.add-channel"
+msgstr "Додај у аутоматско хостовање"
 
 msgid "metadata.host.tab.auto-host"
 msgstr "Аутоматско хостовање"

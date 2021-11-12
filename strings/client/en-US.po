@@ -157,15 +157,15 @@ msgstr "Please select a reason from the list below:"
 msgid "chat.actions.timeout"
 msgstr "Timeout User"
 
-#: /src/modules/main_menu/components/action-editor.vue:545
-#, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
-msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} second{options.duration,en_plural}"
-
 #: /src/modules/chat/actions/types.jsx:197:9
 #, icu-message-format
 msgid "chat.actions.timeout-reason"
 msgstr "Timeout {user.login} for {duration,number} second{duration,en_plural} for:"
+
+#: /src/modules/main_menu/components/action-editor.vue:545
+#, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
+msgid "chat.actions.timeout.desc"
+msgstr "{options.duration,number} second{options.duration,en_plural}"
 
 #: /src/modules/chat/actions/types.jsx:207:9
 #, icu-message-format
@@ -244,6 +244,16 @@ msgstr "FrankerFaceZ website"
 msgid "chat.ffz-badge.title"
 msgstr "FrankerFaceZ Badge"
 
+#: /src/modules/chat/tokenizers.jsx:616:4
+#, icu-message-format
+msgid "chat.filtering.automod-term"
+msgstr "AutoMod Blocked Term"
+
+#: /src/modules/chat/tokenizers.jsx:618:3
+#, icu-message-format
+msgid "chat.filtering.automod-why"
+msgstr "This was flagged as: "
+
 #, icu-message-format
 msgid "chat.filtering.automod.A"
 msgstr "Hostility"
@@ -260,16 +270,6 @@ msgstr "Profanity"
 #, icu-message-format
 msgid "chat.filtering.automod.S"
 msgstr "Sexually Explicit Language"
-
-#: /src/modules/chat/tokenizers.jsx:616:4
-#, icu-message-format
-msgid "chat.filtering.automod-term"
-msgstr "AutoMod Blocked Term"
-
-#: /src/modules/chat/tokenizers.jsx:618:3
-#, icu-message-format
-msgid "chat.filtering.automod-why"
-msgstr "This was flagged as: "
 
 #: /src/modules/chat/tokenizers.jsx:540:4
 #, icu-message-format
@@ -584,6 +584,12 @@ msgstr "{user} playing {game}"
 msgid "emoji.category.activities"
 msgstr "Activities"
 
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
+#: /src/modules/chat/tokenizers.jsx:1089
+#, icu-message-format
+msgid "emoji.category.animals___nature"
+msgstr "Animals & Nature"
+
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.animals_nature"
@@ -592,24 +598,18 @@ msgstr "Animals & Nature"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
-msgid "emoji.category.animals___nature"
-msgstr "Animals & Nature"
-
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
-#: /src/modules/chat/tokenizers.jsx:1089
-#, icu-message-format
 msgid "emoji.category.flags"
 msgstr "Flags"
-
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
-#, icu-message-format
-msgid "emoji.category.food_drink"
-msgstr "Food & Drink"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.food___drink"
+msgstr "Food & Drink"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.food_drink"
 msgstr "Food & Drink"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
@@ -628,6 +628,12 @@ msgstr "People"
 msgid "emoji.category.skin_tones"
 msgstr "Skin Tones"
 
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
+#: /src/modules/chat/tokenizers.jsx:1089
+#, icu-message-format
+msgid "emoji.category.smileys___people"
+msgstr "Smileys & People"
+
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.smileys_emotion"
@@ -636,19 +642,8 @@ msgstr "Smileys & Emotions"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
-msgid "emoji.category.smileys___people"
-msgstr "Smileys & People"
-
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
-#: /src/modules/chat/tokenizers.jsx:1089
-#, icu-message-format
 msgid "emoji.category.symbols"
 msgstr "Symbols"
-
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
-#, icu-message-format
-msgid "emoji.category.travel_places"
-msgstr "Travel & Places"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
@@ -656,37 +651,15 @@ msgstr "Travel & Places"
 msgid "emoji.category.travel___places"
 msgstr "Travel & Places"
 
-#: /src/modules/chat/tokenizers.jsx:1063
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
-msgid "emote.2fa"
-msgstr "Twitch 2FA Emote"
+msgid "emoji.category.travel_places"
+msgstr "Travel & Places"
 
-#: /src/modules/chat/tokenizers.jsx:1052
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1272
 #, icu-message-format
-msgid "emote.bits"
-msgstr "Twitch Bits Reward"
-
-#: /src/modules/chat/tokenizers.jsx:1054
-#, icu-message-format, lp-defaults:"{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}"
-msgid "emote.bits-owner"
-msgstr ""
-"{source}\n"
-"Channel: {channel}"
-
-#: /src/modules/chat/tokenizers.jsx:1365
-#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
-msgid "emote.follower"
-msgstr "Follower Emote ({source})"
-
-#: /src/modules/chat/tokenizers.jsx:1038:14
-#, icu-message-format
-msgid "emote.global"
-msgstr "Twitch Global"
-
-#: /src/modules/chat/tokenizers.jsx:1054
-#, icu-message-format
-msgid "emote.limited"
-msgstr "Limited-Time Only Emote"
+msgid "emote_menu.prime"
+msgstr "Prime"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1734:22
 #, icu-message-format
@@ -799,11 +772,6 @@ msgstr "My Emotes"
 msgid "emote-menu.points"
 msgstr "Unlocked with Points"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1272
-#, icu-message-format
-msgid "emote_menu.prime"
-msgstr "Prime"
-
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1255:16
 #, icu-message-format
 msgid "emote-menu.prime"
@@ -910,6 +878,38 @@ msgstr "Hidden"
 #, icu-message-format
 msgid "emote-menu.visibility.visible"
 msgstr "Visible"
+
+#: /src/modules/chat/tokenizers.jsx:1063
+#, icu-message-format
+msgid "emote.2fa"
+msgstr "Twitch 2FA Emote"
+
+#: /src/modules/chat/tokenizers.jsx:1052
+#, icu-message-format
+msgid "emote.bits"
+msgstr "Twitch Bits Reward"
+
+#: /src/modules/chat/tokenizers.jsx:1054
+#, icu-message-format, lp-defaults:"{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}"
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Channel: {channel}"
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr "Follower Emote ({source})"
+
+#: /src/modules/chat/tokenizers.jsx:1038:14
+#, icu-message-format
+msgid "emote.global"
+msgstr "Twitch Global"
+
+#: /src/modules/chat/tokenizers.jsx:1054
+#, icu-message-format
+msgid "emote.limited"
+msgstr "Limited-Time Only Emote"
 
 #: /src/modules/chat/tokenizers.jsx:1060:13
 #, icu-message-format, lp-defaults:"{\"owner\":\"Dubhzo\"}"
@@ -1159,11 +1159,6 @@ msgstr "Featured"
 msgid "metadata.featured-follow.title"
 msgstr "Featured Channels"
 
-#: /src/sites/twitch-twilight/modules/host_button.js:209
-#, icu-message-format
-msgid "metadata.host.add-channel"
-msgstr "Add To Auto Host"
-
 #: /src/sites/twitch-twilight/modules/host_button.js:94:7
 #, icu-message-format
 msgid "metadata.host-button.host"
@@ -1188,6 +1183,11 @@ msgstr "Unhost"
 #, icu-message-format
 msgid "metadata.host-button.updating"
 msgstr "Updating..."
+
+#: /src/sites/twitch-twilight/modules/host_button.js:209
+#, icu-message-format
+msgid "metadata.host.add-channel"
+msgstr "Add To Auto Host"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
 #, icu-message-format

@@ -41,9 +41,6 @@ msgstr "Entendre un son à chaque fois qu'un message est surligné."
 msgid "setting.entry.ffzap.core.highlight_sound"
 msgstr "Son"
 
-msgid "setting.entry.ffzap.core.highlight_sound.description"
-msgstr "Change le son qui sera joué lorsqu'un déclencheur sonore sera activé."
-
 msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
 msgstr "Prévenir sur sa propre chaîne"
 
@@ -65,14 +62,6 @@ msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
 msgstr ""
 "Joue un son de notification qaund vous êtes mentionné dans le chat par "
 "votre nom d'utilisateur."
-
-msgid "setting.entry.ffzap.core.highlight_sound_types"
-msgstr "Jouer_quand"
-
-msgid "setting.entry.ffzap.core.highlight_sound_types.description"
-msgstr ""
-"Joue un son de notification quand une ligne du chat est surligné pour une "
-"des raisons sélectionnées."
 
 msgid "setting.entry.ffzap.core.highlight_sound_type_term"
 msgstr "Jouer quand un terme est surligné."
@@ -97,6 +86,14 @@ msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
 msgstr ""
 "Jouer un son de notification quand un utilisateur de la liste "
 "\"utilisateurs surlignés\" est surligné."
+
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Jouer_quand"
+
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Joue un son de notification quand une ligne du chat est surligné pour une "
+"des raisons sélectionnées."
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume"
 msgstr "Volume du son de notification des mentions"
@@ -136,6 +133,9 @@ msgstr "80%"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.90"
 msgstr "90%"
+
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Change le son qui sera joué lorsqu'un déclencheur sonore sera activé."
 
 msgid "setting.entry.ffzap.core.message_deletion"
 msgstr "Filtrer les messages en fonction du niveau de l'utilisateur·ice"

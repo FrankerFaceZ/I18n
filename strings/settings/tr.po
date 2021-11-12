@@ -620,6 +620,9 @@ msgstr "Yedekleme ve Tekrar Yükleme"
 msgid "setting.data_management.profiles"
 msgstr "Profiller"
 
+msgid "setting.data_management.profiles.edit_profile"
+msgstr "Profili düzenle"
+
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Açıklama"
 
@@ -628,9 +631,6 @@ msgstr "Genel"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "İsim"
-
-msgid "setting.data_management.profiles.edit_profile"
-msgstr "Profili düzenle"
 
 msgid "setting.data_management.profiles.edit.rules"
 msgstr "Kurallar"
@@ -761,14 +761,14 @@ msgstr "Ayarlama"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Kullanıcı "
 
+msgid "setting.entry.chat.adjustment-mode.values.-1"
+msgstr "Renk yok"
+
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Değişmemiş"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
-
-msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Renk yok"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
@@ -826,13 +826,13 @@ msgstr "Animasyonlu cheerları göster"
 msgid "setting.entry.chat.bits.show"
 msgstr "Bitsleri göster"
 
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr "Cheer yollayan kişi diğerleri ile ödülleri paylaşınca bir uyarı göster"
+
 msgid "setting.entry.chat.bits.show.description"
 msgstr ""
 "Bitslerle alakalı arayüzleri göster. Not: Bu bitslerin chatte "
 "görüntülenmesini engellemeyecektir."
-
-msgid "setting.entry.chat.bits.show-rewards"
-msgstr "Cheer yollayan kişi diğerleri ile ödülleri paylaşınca bir uyarı göster"
 
 msgid "setting.entry.chat.bits.stack"
 msgstr "Cheer Yığını"
@@ -863,11 +863,11 @@ msgstr "Sanal Chat Gecikmesi"
 msgid "setting.entry.chat.delay.description"
 msgstr "Moderasyon için mesajların chatte gözükmeden önce gecikmesini sağla"
 
-msgid "setting.entry.chat.delay.values.0"
-msgstr "Gecikme yok"
-
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Varsayılan gecikme (odaya özel; sadece mod olmayan kullanıcı)"
+
+msgid "setting.entry.chat.delay.values.0"
+msgstr "Gecikme yok"
 
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Ekstra büyük (10s)"
@@ -973,13 +973,13 @@ msgstr "İsme göre inici"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
 msgstr "Yüksek seviyedeki emojileri en sonda göster"
 
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Silinen yazıyı görüntülemek için üstüne bas"
+
 msgid "setting.entry.chat.filtering.clickable-mentions"
 msgstr ""
 "@ verilen kullanıcının detaylarının isminin üzerine basarak görülmesine "
 "izin ver"
-
-msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr "Silinen yazıyı görüntülemek için üstüne bas"
 
 msgid "setting.entry.chat.filtering.deleted-style.description"
 msgstr ""
@@ -1303,6 +1303,9 @@ msgstr "Abonelik uyarılarını daha ufak bir stilde göster"
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Toplu abone hediyelerini birleştir"
 
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Birleştirilmiş toplu abonelik mesajlarını açarak göster"
+
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
 "Toplu abone hediyelerini bir mesajda, sayısına göre birleştirir\n"
@@ -1325,9 +1328,6 @@ msgstr "5'den fazla"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "50'den fazla"
-
-msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "Birleştirilmiş toplu abonelik mesajlarını açarak göster"
 
 msgid "setting.entry.chat.subs.show"
 msgstr "Chatteki aboneleri göster"
@@ -1379,18 +1379,6 @@ msgstr ""
 "(https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#list-of-"
 "all-available-formats)"
 
-msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "Fon rengi eklenmiş"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "Fon rengi eklenmiş 24 saat"
-
-msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "Fon rengi eklenmiş, saniyeli"
-
-msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "Fon rengi eklenmiş 24 saat, saniyeli"
-
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 saat"
 
@@ -1402,6 +1390,18 @@ msgstr "12 saat, saniyeli"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 saat, saniyeli"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm"
+msgstr "Fon rengi eklenmiş"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm"
+msgstr "Fon rengi eklenmiş 24 saat"
+
+msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
+msgstr "Fon rengi eklenmiş, saniyeli"
+
+msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
+msgstr "Fon rengi eklenmiş 24 saat, saniyeli"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Videodaki chatte FFZ özelliklerini etkinleştir"
@@ -1557,11 +1557,6 @@ msgstr "Gezinme çubuğunu kullanımda değilken yukarıya gizle"
 msgid "setting.entry.layout.portrait"
 msgstr "Portre modunu etkinleştir"
 
-msgid "setting.entry.layout.portrait.description"
-msgstr ""
-"Portre modunda eğer chat genişten ziyade uzun kalırsa oynatıcının altına "
-"yerleştirilecektir."
-
 msgid "setting.entry.layout.portrait-invert"
 msgstr "Portre modunda chati yukarı yerleştir"
 
@@ -1572,6 +1567,11 @@ msgid "setting.entry.layout.portrait-threshold.description"
 msgstr ""
 "Burada portre modunun aktif hale gelmesi için gerekli genişlik ve uzunluk "
 "ayarları yer almaktadır."
+
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"Portre modunda eğer chat genişten ziyade uzun kalırsa oynatıcının altına "
+"yerleştirilecektir."
 
 msgid "setting.entry.layout.side-nav.hide-offline"
 msgstr "Offline kanalları gizle"
@@ -1814,11 +1814,6 @@ msgstr "Ses yüksekliği kaydırgacını hep görünür halde tut"
 msgid "setting.entry.player.volume-scroll"
 msgstr "Ses seviyesi fare tekerleği ile ayarlanabilir"
 
-msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
-"*Bu ayar oynatıcı üstünde görünür eklentileri olan yayınlarda düzgün "
-"çalışmayabilir.\""
-
 msgid "setting.entry.player.volume-scroll-steps"
 msgstr "Ses kaydırma miktarı"
 
@@ -1836,6 +1831,11 @@ msgstr "5%"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
 msgstr "10%"
+
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Bu ayar oynatıcı üstünde görünür eklentileri olan yayınlarda düzgün "
+"çalışmayabilir.\""
 
 msgid "setting.entry.profiles"
 msgstr "Profiller"
@@ -2094,6 +2094,9 @@ msgstr "Tiyatro modu"
 msgid "setting.player.general.volume"
 msgstr "Ses"
 
+msgid "setting.profile.updates"
+msgstr "Bu profil bu URL'den otomatik olarak güncellenecektir: "
+
 msgid "setting.profiles.active"
 msgstr "Bu profil etkinleştirildi ve aktiftir."
 
@@ -2137,9 +2140,6 @@ msgstr "Yeni Profil"
 msgid "setting.profiles.warn-delete"
 msgstr "Bu profili silmek istediğinize emin misiniz? Bu geri döndürülemez."
 
-msgid "setting.profile.updates"
-msgstr "Bu profil bu URL'den otomatik olarak güncellenecektir: "
-
 msgid "setting.reasons.add-default"
 msgstr "Varsayılan ekle"
 
@@ -2168,6 +2168,50 @@ msgstr "Herşeyi varsayılanlara sıfırla"
 
 msgid "setting.save"
 msgstr "Kayıt"
+
+msgid "setting.terms.add-placeholder"
+msgstr "Yeni bir terim ekle"
+
+msgid "setting.terms.add-term"
+msgstr "Ekle"
+
+msgid "setting.terms.no-terms"
+msgstr "bu profilde terimler belirtilmemiş"
+
+msgid "setting.terms.remove.off"
+msgstr "Benzer mesajları chatten temizlemeyi engelle"
+
+msgid "setting.terms.type.glob"
+msgstr "Glob"
+
+msgid "setting.terms.type.regex"
+msgstr "Regex"
+
+msgid "setting.terms.type.regex-word"
+msgstr "Regex (Word)"
+
+msgid "setting.terms.type.text"
+msgstr "Yazı"
+
+msgid "setting.tooltip-example"
+msgstr "Örnek olarak fareyi bu linkin üzerinde tutun"
+
+msgid "setting.true"
+msgstr "Doğru"
+
+msgid "setting.unset"
+msgstr "Kurulmamış"
+
+msgid "setting.visible"
+msgstr "Görünür"
+
+msgid "setting.warn-inheritence"
+msgstr ""
+"Bu değerler başka bir profil tarafından yok sayıldığı için "
+"etkinleşmeyecektir."
+
+msgid "setting.warn-unsaved"
+msgstr "Değişiklikleri kaydetmediniz, çıkmak istediğinize emin misiniz?"
 
 msgid "settings.filter.category"
 msgstr "Bulunduğunuz kategori"
@@ -2306,47 +2350,3 @@ msgstr "Başlangıç:"
 
 msgid "settings.filter.true_false"
 msgstr "Doğru veya Yanlış"
-
-msgid "setting.terms.add-placeholder"
-msgstr "Yeni bir terim ekle"
-
-msgid "setting.terms.add-term"
-msgstr "Ekle"
-
-msgid "setting.terms.no-terms"
-msgstr "bu profilde terimler belirtilmemiş"
-
-msgid "setting.terms.remove.off"
-msgstr "Benzer mesajları chatten temizlemeyi engelle"
-
-msgid "setting.terms.type.glob"
-msgstr "Glob"
-
-msgid "setting.terms.type.regex"
-msgstr "Regex"
-
-msgid "setting.terms.type.regex-word"
-msgstr "Regex (Word)"
-
-msgid "setting.terms.type.text"
-msgstr "Yazı"
-
-msgid "setting.tooltip-example"
-msgstr "Örnek olarak fareyi bu linkin üzerinde tutun"
-
-msgid "setting.true"
-msgstr "Doğru"
-
-msgid "setting.unset"
-msgstr "Kurulmamış"
-
-msgid "setting.visible"
-msgstr "Görünür"
-
-msgid "setting.warn-inheritence"
-msgstr ""
-"Bu değerler başka bir profil tarafından yok sayıldığı için "
-"etkinleşmeyecektir."
-
-msgid "setting.warn-unsaved"
-msgstr "Değişiklikleri kaydetmediniz, çıkmak istediğinize emin misiniz?"
