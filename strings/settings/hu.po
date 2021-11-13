@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 16:15+0000\n"
+"Last-Translator: Dániel Pelle <pelledani6@gmail.com>\n"
+"Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/settings/hu/>\n"
+"Language: hu\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.author"
 msgstr "Készítő: {author}"
@@ -41,7 +50,7 @@ msgid "addon.settings"
 msgstr "Beállítások"
 
 msgid "addon.show-more"
-msgstr "(Mutass többet)"
+msgstr "(Több mutatása)"
 
 msgid "addon.unlisted"
 msgstr "Nem listázott"
@@ -1400,3 +1409,41 @@ msgstr "Aa"
 
 msgid "settings.terms.word"
 msgstr "Abc"
+
+#: /src/modules/main_menu/components/addon.vue:195
+#, icu-message-format
+msgid "addon.disable"
+msgstr "Kikapcsolás"
+
+#: /src/modules/main_menu/components/addon.vue:157
+#, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
+msgid "addon.created"
+msgstr "Létrehozva: {when,date}"
+
+#: /src/modules/main_menu/components/addon-list.vue:110
+#, icu-message-format
+msgid "addon.filter-enabled"
+msgstr "Csak az engedélyezett bővítményeket jeleníti meg."
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Kevesebb mutatása)"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.product"
+msgstr "Termék"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.event"
+msgstr "Esemény"
+
+#, icu-message-format
+msgid "settings.terms.priority.tip"
+msgstr "Prioritás"
+
+#, icu-message-format
+msgid "settings.term.color.tip"
+msgstr "Szín"
