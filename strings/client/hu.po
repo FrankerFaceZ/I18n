@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 16:15+0000\n"
+"Last-Translator: Dániel Pelle <pelledani6@gmail.com>\n"
+"Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/hu/>\n"
+"Language: hu\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Feltöltés"
@@ -594,3 +603,50 @@ msgstr "{user} videója"
 
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Megtekintés - {date,datetime}"
+
+#: /src/std-components/autocomplete.vue:182
+#, icu-message-format
+msgid "autocomplete.empty"
+msgstr "Nincsenek eredmények."
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr "NSFW engedélyezése"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr "URL tesztelése"
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "közvetít {game}"
+
+#: /src/modules/chat/tokenizers.jsx:1105:51
+#, icu-message-format, lp-defaults:"{\"name\":\"6Head\"}"
+msgid "tooltip.emote"
+msgstr "Hangulatjel: {name}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Nem áll rendelkezésre információ"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr "Média engedélyezése"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr "Frissítés"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr "Jóváhagyott"
