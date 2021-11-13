@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 06:16+0000\n"
+"Last-Translator: Łukasz Ordon <lukaszordon21@gmail.com>\n"
+"Language-Team: Polish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-pronouns/pl/>\n"
+"Language: pl\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.pronouns.title"
 msgstr "Zaimki: {value}"
@@ -15,3 +25,8 @@ msgstr "Wyświetlaj obwódkę wokół odznaki."
 
 msgid "setting.entry.addon.pronouns.color"
 msgstr "Kolor odznaki"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.pronouns.per_badge_colors"
+msgstr "Kolory według odznak"
