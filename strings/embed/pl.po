@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"PO-Revision-Date: 2021-11-13 06:15+0000\n"
 "Last-Translator: Łukasz Ordon <lukaszordon21@gmail.com>\n"
 "Language-Team: Polish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/pl/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "other {# Like'ów}}"
 
 msgid "embed.twitter.tweeted"
-msgstr "tweeted: {tweet}"
+msgstr "zatweetował: {tweet}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -103,3 +103,174 @@ msgstr "{start} do {end}"
 #, icu-message-format
 msgid "embed.imgur.album"
 msgstr "Album Imgur"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.likes"
+msgstr "Głosy za"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.score"
+msgstr "Wynik"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.views"
+msgstr "Wyświetlenia"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.igt"
+msgstr "IGT"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
+msgid "embed.src.joined"
+msgstr "Dołączono {when}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":32}"
+msgid "embed.src.more"
+msgstr "(i {count} więcej)"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
+msgid "embed.src.pbs"
+msgstr "Najlepsze osobiste użytkownika {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"place\":47}"
+msgid "embed.src.place"
+msgstr "{place, number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.rt"
+msgstr "RT"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-cat"
+msgstr "Kategoria"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-game"
+msgstr "Gra"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-place"
+msgstr "Miejsce"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-submitted"
+msgstr "Wysłane"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-time"
+msgstr "Czas"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
+msgid "embed.src.with"
+msgstr "z {players}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.following"
+msgstr "Obserwowane"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.images"
+msgstr "Obrazy"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":24}"
+msgid "embed.imgur.more"
+msgstr "i {count,number} więcej"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.metadata.untitled"
+msgstr "Dokument HTML bez nazwy"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
+msgid "embed.src.subtitle"
+msgstr ""
+"{wrs,plural,one {# Rekord} few {# Rekordy} other {# Rekordów}} • {"
+"runs,plural,one {# Run} few {# Runy} other {# Runów}} • {games,plural,one {# "
+"Gra} few {# Gry} other {# Gier}} • {cats,plural,one {# Kategoria} few {# "
+"Kategorie} other {# Kategorii}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.likes"
+msgstr "Like'i"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
+msgid "embed.twitter.profile-line"
+msgstr ""
+"{tweets,plural,one {# Tweet} few{# Tweety} other {# Tweetów}} • {"
+"following,plural,one {# Obserwowany} other {# Obserwowanych}} Obserwowanych •"
+" {followers,plural,one {# Obserwujący} other {# Obserwujących}} • Dołączono "
+"{joined,date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
+msgid "embed.imgur.album-stats"
+msgstr ""
+"{images,plural,one{# Obraz}few{# Obrazy}many{# Obrazów}other{# Obrazów}} • "
+"{views,plural,one{# Wyświetlenie}few{# Wyświetlenia}many{# Wyświetleń}other{#"
+" Wyświetleń}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
+msgid "embed.imgur.by"
+msgstr "Przez: {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.dimensions"
+msgstr "Wymiary"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.dislikes"
+msgstr "Głosy przeciw"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.gallery"
+msgstr "Galeria Imgur"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
+msgid "embed.imgur.gallery-extra"
+msgstr ""
+"{posted,datetime} • {points,plural,one{# Punkt}few{{points,number} "
+"Punkty}other{{points,number} Punków}}  • 👍 {likes,number}  • 👎 "
+"{dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.retweets"
+msgstr "Retweety"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.tweets"
+msgstr "Tweety"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
+msgid "embed.youtube.info-1"
+msgstr ""
+"{channel} • {views,plural,one {# Wyświetlenie} few {# Wyświetlenia} other "
+"{{views,number} Wyświetleń}} • 👍 {likes,number}  • 👎 {dislikes,number}"
