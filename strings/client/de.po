@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 23:15+0000\n"
+"Last-Translator: Acursen <acursen@mailbox.org>\n"
+"Language-Team: German <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Hochladen"
@@ -15,12 +24,12 @@ msgstr ""
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
-"({count,number} {count,plural,one{Monat} other{Monate}})"
+"({count, plural, one {# Monat} other {# Monate}})"
 
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Stufe {tier}, {months,number} {months,plural,one{Monat} other{Monate}})"
+"(Stufe {tier}, {months, plural, one {# Monat} other {# Monate}})"
 
 msgid "card.empty"
 msgstr "Es wurden keine Daten zurückgegeben."
@@ -101,18 +110,16 @@ msgstr "Benutzer in Time-Out versetzen"
 
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"{user.login} für {duration,number} "
-"{duration,plural,one{Sekunde}other{Sekunden}} in Time-Out versetzen. Grund:"
+"{user.login} für {duration, plural, one {# Sekunde} other {# Sekunden}} in "
+"Time-Out versetzen. Grund:"
 
 msgid "chat.actions.timeout.desc"
-msgstr ""
-"{options.duration,number} "
-"{options.duration,plural,one{Sekunde}other{Sekunden}"
+msgstr "{options.duration, plural, one {# Sekunde} other {# Sekunden}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"{user.login} für {duration,number} "
-"{duration,plural,one{Sekunde}other{Sekunden}} in Time-Out versetzen"
+"{user.login} für {duration, plural, one {# Sekunde} other {# Sekunden}}in "
+"Time-Out versetzen"
 
 msgid "chat.actions.unban"
 msgstr "Benutzer entsperren"
@@ -289,9 +296,8 @@ msgstr ""
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} verschenkt {count,number} "
-"Stufe-{tier}-{count,plural,one{Abo}other{Abos}} an die Community von "
-"{channel}! "
+"{user} verschenkt {count, plural, one {# Stufe-{tier}-Abo} other {# "
+"Stufe-{tier}-Abos}} an die Community von {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr ""
@@ -300,14 +306,15 @@ msgstr ""
 
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} hat {recipient} ein {plan}-Abo für {months,number} "
-"{months,plural,one{Monat}other{Monate}} geschenkt. "
+"{user} hat {recipient} ein {plan}-Abo für {months, plural, one {# Monat} "
+"other {# Monate}} geschenkt!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Stufe-{tier}"
 
 msgid "chat.sub.gift-total"
-msgstr "Diese Person hat insgesamt {count} Abos auf diesem Kanal verschenkt!"
+msgstr ""
+"Diese Person hat insgesamt {count,number} Abos auf diesem Kanal verschenkt!"
 
 msgid "chat.sub.main"
 msgstr "{user} abonniert {plan}. "
@@ -335,8 +342,8 @@ msgstr "{user} spielt {game}"
 
 msgid "clip.desc.2"
 msgstr ""
-"Clip erstellt von: {curator} — {views,number} {views,plural,one {Aufruf} "
-"other {Aufrufe}}"
+"Clip erstellt von: {curator} — {views, plural, one {# Aufruf} other {# "
+"Aufrufe}}"
 
 msgid "clip.unknown"
 msgstr "Unbekannt"
@@ -433,9 +440,8 @@ msgstr "Emojis"
 
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Cheere {bits_remaining,plural,one{einen weiteren "
-"Bit}other{{bits_remaining,number} weitere Bits}}, um dieses Emote "
-"freizuschalten."
+"Cheere {bits_remaining, plural, one {# einen weiteren Bit} other {# weitere "
+"Bits}}, um dieses Emote freizuschalten."
 
 msgid "emote-menu.emote-follower"
 msgstr "Folge {user}, um dieses Emote für diesen Kanal freizuchalten."
@@ -527,7 +533,7 @@ msgstr "Abonnenten-Emotes"
 
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Abonniere für {price}, um {count,number} Emote{count,en_plural} "
+"Abonniere für {price}, um {count, plural, one {# Emote} other {# Emotes}} "
 "freizuschalten."
 
 msgid "emote-menu.toggle-hide.info"
@@ -995,7 +1001,7 @@ msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
 msgid "tooltip.bits.more"
-msgstr "(und {count} weitere)"
+msgstr "(und {count, number} mehr)"
 
 msgid "tooltip.channel"
 msgstr "Kanal: {source}"
@@ -1017,8 +1023,7 @@ msgstr "Ziel: {url}"
 
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Achtung: Diese URL ist auf der Safe Browsing Liste von Google. Grund: "
-"{reasons}"
+"Achtung: Diese URL wurde als potenziell schädlich eingestuft durch: {reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "Besuchte URLs"
@@ -1047,7 +1052,20 @@ msgid "video.desc.1"
 msgstr "Video von {user}"
 
 msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Aufrufe - {date,datetime}"
+msgstr "{length,duration} — {views,number} Aufrufe — {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Veröffentlicht am: {date,date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+"Die angegebene URL hat einen nicht standardisierten Port und wird nicht "
+"überprüft."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+"Die angegebene URL verwendet kein HTTP und wird deswegen nicht überprüft."
