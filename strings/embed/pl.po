@@ -93,3 +93,13 @@ msgstr "Wydarzenie skończyło się"
 #, icu-message-format
 msgid "embed.horaro.last"
 msgstr "Ostatni"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgid "embed.horaro.range"
+msgstr "{start} do {end}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.album"
+msgstr "Album Imgur"
