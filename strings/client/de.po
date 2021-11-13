@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-11-13 23:15+0000\n"
-"Last-Translator: Acursen <acursen@mailbox.org>\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/de/>\n"
 "Language: de\n"
@@ -1069,3 +1069,25 @@ msgstr ""
 msgid "card.error.invalid-scheme"
 msgstr ""
 "Die angegebene URL verwendet kein HTTP und wird deswegen nicht überprüft."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Keine Informationen verfügbar"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Ein Netzwerkfehler ist aufgetreten."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr "Genehmigt"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+"Die angegebene URL hat einen ungültigen Host und kann somit nicht überprüft "
+"werden."
