@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-fullscreen-chat/es/>\n"
+"Language: es\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.fs-chat.button.active"
 msgstr "Desactivar Chat PC"
@@ -98,3 +107,117 @@ msgstr ""
 "Cuán ancho debería ser el Chat en Pantalla Completa, en pixeles. Por "
 "defecto es el ancho del chat normal. Si sabes CSS, puedes ingresar un valor "
 "diferente."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat"
+msgstr "Chat PC"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.automatic"
+msgstr "Automáticamente abrir el Chat PC cuando se entra en pantalla completa."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height.description"
+msgstr ""
+"La altura que debería tener el chat PC, en píxeles. Si sabes CSS, puedes "
+"introducir una unidad diferente."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal"
+msgstr "Modo mínimo"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal.description"
+msgstr ""
+"Esto oculta el encabezado del chat e introduce botones cuando el chat PC "
+"está abierto."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.behavior"
+msgstr "Comportamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.size_and_position"
+msgstr "Tamaño y Posición"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur"
+msgstr "Desenfoque de fondo"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:180
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur.description"
+msgstr ""
+"**Nota:** El desenfoque puede ocasionar problemas de rendimiento dependiendo "
+"de tu navegador y especificaciones de ordenador."
+
+#: /src/modules/main_menu/components/setting-color-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.color"
+msgstr "Color de fondo"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height"
+msgstr "Altura"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.metadata"
+msgstr "Posición de metadatos"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.no-input"
+msgstr "No mostrar la entrada de chat."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.round"
+msgstr "Usar esquinas redondeadas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut"
+msgstr "Tecla de acceso directo"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut.description"
+msgstr ""
+"Esta secuencia de teclas puede usarse para alternar el chat PC cuando está "
+"en pantalla completa."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width"
+msgstr "Ancho"
