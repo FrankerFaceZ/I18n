@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-12 23:52+0000\n"
-"Last-Translator: Jack Jofa <velkka@snoerf.org>\n"
+"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"Last-Translator: Jack Jofa <jackjofa@protonmail.com>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fi/>\n"
 "Language: fi\n"
@@ -212,8 +212,8 @@ msgstr ""
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} lahjoittaa {count,plural, one {yhden} other {#}} tason {tier} "
-"{count,plural, one {tilauksen} other {tilausta}} kanavan {channel} "
+"{user} lahjoittaa {count,plural, one {yhden} other {#}} tason {tier} {"
+"count,plural, one {tilauksen} other {tilausta}} kanavan {channel} "
 "yhteisölle! "
 
 msgid "chat.sub.gift-first"
@@ -223,7 +223,7 @@ msgid "chat.sub.gift-plan"
 msgstr "taso {tier}"
 
 msgid "chat.sub.gift-total"
-msgstr "Käyttäjä on lahjoittanut {count} tilausta kanavalle!"
+msgstr "Käyttäjä on lahjoittanut {count,number} tilausta kanavalle!"
 
 msgid "chat.sub.main"
 msgstr "{user} teki tilauksen {plan}. "
@@ -248,8 +248,8 @@ msgstr "{user} pelaa {game}"
 
 msgid "clip.desc.2"
 msgstr ""
-"Leikkeen tekijä {curator} — {views,number} {views,plural,one {katselukerta} "
-"other {katselukertaa}}"
+"Leikkeen tekijä {curator} — {views, plural, one {katselukerta} other "
+"{katselukertaa}}"
 
 msgid "clip.unknown"
 msgstr "Tuntematon"
@@ -408,7 +408,9 @@ msgid "emote-menu.sub-set"
 msgstr "Tilaajahymiöt"
 
 msgid "emote-menu.sub-unlock"
-msgstr "Tilaa tasolla {price} käytääksesi {count,number} hymiötä"
+msgstr ""
+"Tilaa tasolla {price} käyttääksesi {count, plural, one {hymiötö} other "
+"{hymiöitä}}"
 
 msgid "emote-menu.twitch"
 msgstr "Twitch"
@@ -546,7 +548,7 @@ msgid "main-menu.version"
 msgstr "Versio {version}"
 
 msgid "metadata.featured-follow.button.featured"
-msgstr "Esillä olevat."
+msgstr "Esillä olevat"
 
 msgid "metadata.featured-follow.title"
 msgstr "Esillä olevat kanavat"
@@ -584,7 +586,7 @@ msgstr "Lähetetty {count,number} sekuntia sitten"
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
 "Paikallinen kellosi vaikuttaa olevan {count,number} sekuntia väärässä, mikä "
-"voi tehdä tehdä tästä epätarkan."
+"voi tehdä tästä epätarkan."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Lähetyksen viive"
@@ -626,16 +628,16 @@ msgid "page.previous"
 msgstr "Edellinen sivu"
 
 msgid "player.pip_button"
-msgstr "Klikkaa kytkeäksesi Picture-in-Picture päälle tai pois."
+msgstr "Kuva kuvassa"
 
 msgid "player.pip_button.fs"
-msgstr "Ei voi käyttää Picture-in-Picture'iä kokonäyttötilassa"
+msgstr "Kuva kuvassa -toimintoa ei voi käyttää kokonäyttötilassa"
 
 msgid "player.pip_button.off"
-msgstr "Poistu Picture-in-Picture tilasta"
+msgstr "Poistu kuva kuvassa -tilasta"
 
 msgid "player.reset_button"
-msgstr "Tuplaklikkaa resetoidaksesi soitin."
+msgstr "Tuplaklikkaa resetoidaksesi soitin"
 
 msgid "player.reset_button.all"
 msgstr "Resetoi kaikki soittimet (tuplaklikkaus)"
@@ -666,7 +668,7 @@ msgid "site.menu_button.main-dev"
 msgstr "m-dev"
 
 msgid "site.menu_button.main-dev-desc"
-msgstr "Käytössä on kehittäjäversio FrankeFaceZ:sta"
+msgstr "Käytössä on kehittäjäversio FrankeFaceZ:sta."
 
 msgid "site.menu_button.new-desc"
 msgstr "{count,plural,one {Uusi asetus} other {# uutta asetusta}}."
@@ -690,7 +692,7 @@ msgid "tooltip.bits"
 msgstr "{count,number} Bittiä"
 
 msgid "tooltip.bits.more"
-msgstr "(ja {count} lisää)"
+msgstr "(ja {count, number} lisää)"
 
 msgid "tooltip.channel"
 msgstr "Kanava: {source}"
@@ -711,7 +713,8 @@ msgid "tooltip.link-destination"
 msgstr "Kohde: {url}"
 
 msgid "tooltip.link-unsafe"
-msgstr "Varoitus: Tämä URL on Googles Safe Browsing listalla syystä: {reasons}"
+msgstr ""
+"Varoitus: Tämä URL on tunnistettu mahdollisesti haitalliseksi: {reasons}"
 
 msgid "tooltip.render-error"
 msgstr ""
@@ -734,7 +737,7 @@ msgid "video.desc.1"
 msgstr "Käyttäjän {user} video"
 
 msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} katselukertaa - {date}"
+msgstr "{length,duration} — {views,number} katselukertaa — {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Julkaistu {date,date}"
@@ -879,3 +882,409 @@ msgstr "Nimi"
 #, icu-message-format
 msgid "chat.reply-to"
 msgstr "Vastaus:"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.smileys_emotion"
+msgstr "Hymiöt & Ihmiset"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "Annettu URL ei käytä HTTP-protokollaa, eikä sitä voida tarkistaa."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Mikään käsittelijä ei tue tätä osoitetta."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:623:8
+#, icu-message-format
+msgid "chat.sub.twitch-prime"
+msgstr "Prime Gaming:lla"
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:428
+#, icu-message-format
+msgid "compat.bttv.emotes-on"
+msgstr ""
+"Olet ottanut \"FrankerFaceZ Emotes\" -toiminnin käyttöön BetterTTV -"
+"asetuksissa ja FrankerFaceZ on asennettu samaan aikaan. Poista \"FrankerFaceZ"
+" Emotes\" käytöstä BetterTTV -asetuksista, sillä se ei oel tarpeen."
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr "Salli media"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr "Salli NSFW"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr "Rikastettu upotus"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr "Pakota työkaluvihje"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr "Täysi upotus"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr "Chat linkki"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr "Raakadata"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr "Päivitä"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr "Testattava URL"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.food_drink"
+msgstr "Ruoat & Juomat"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
+#, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
+msgid "emote-menu.emote-follower"
+msgstr "Seuraa käyttäjää {user} käyttääksesi tätä hymiötä heidän kanavallaan."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
+#, icu-message-format
+msgid "emote-menu.toggle-hide.off"
+msgstr "Aseta hymiöiden näkyvyys"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2071
+#, icu-message-format
+msgid "emote-menu.toggle-hide.on"
+msgstr "Poistu hymiöiden näkyvyyden asetuksesta"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:677
+#, icu-message-format
+msgid "emote-menu.visibility.hidden"
+msgstr "Piilotettu"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:678
+#, icu-message-format
+msgid "emote-menu.visibility.visible"
+msgstr "Näkyvillä"
+
+#: /src/modules/chat/tokenizers.jsx:1063
+#, icu-message-format
+msgid "emote.2fa"
+msgstr "Twitch 2FA hymiö"
+
+#: /src/modules/chat/tokenizers.jsx:1052
+#, icu-message-format
+msgid "emote.bits"
+msgstr "Twitch Bitti-palkintohymiö"
+
+#: /src/modules/chat/tokenizers.jsx:1054
+#, icu-message-format, lp-defaults:"{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}"
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Kanava: {channel}"
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr "Seuraajahymiö ({source})"
+
+#: /src/modules/chat/tokenizers.jsx:1041:14
+#, icu-message-format
+msgid "emote.prime"
+msgstr "Prime Gaming"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.badge"
+msgstr "Korostettu merkki"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.term"
+msgstr "Korostettu termi"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.user"
+msgstr "Korostettu käyttäjänimi"
+
+#: /src/modules/translation_ui/index.js:77
+#: /src/modules/translation_ui/components/translation-ui.vue:202
+#, icu-message-format
+msgid "i18n.ui.popout"
+msgstr "Avaa käännösten muokkaustyökalu uuteen ikkunaan"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
+#, icu-message-format
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "Automaattinen jakaminen"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:516
+#, icu-message-format
+msgid "metadata.host.setting.strategy.description"
+msgstr "Kun valittuna, jaettavat kanvat valitaan satunnaisesti listalta."
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:492
+#, icu-message-format
+msgid "metadata.host.setting.strategy.title"
+msgstr "Satunnainen jakojärjestys"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:358
+#, icu-message-format
+msgid "metadata.host.setting.team-hosting.description"
+msgstr "Sisällytä oman tiimisi kanavat jakolistalle."
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
+#, icu-message-format
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "Jaa ennalta tallennettua materiaalia"
+
+#: /src/modules/metadata.jsx:110
+#, icu-message-format
+msgid "metadata.viewers"
+msgstr "Katsojamäärä"
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1014
+#, icu-message-format
+msgid "player.comp_button.disabled"
+msgstr "Kompressoria ei voi käyttää Leikkeiden kanssa."
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1115
+#, icu-message-format
+msgid "player.comp_button.firefox"
+msgstr ""
+"Toiston nopeuden säätäminen ei toimi Firefoxilla, jos kompressori on "
+"käytössä."
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1002
+#, icu-message-format
+msgid "player.comp_button.off"
+msgstr "Poista kompressori käytöstä"
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1003
+#, icu-message-format
+msgid "player.comp_button.on"
+msgstr "Kompressori"
+
+#: /src/sites/shared/player.jsx:1113
+#: /src/sites/shared/player.jsx:1172
+#, icu-message-format
+msgid "player.gain.label"
+msgstr "Vahvistuksen säätö"
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:333
+#, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
+msgid "site.menu_button.no-settings"
+msgstr ""
+"Asetukset ovat poistettu käytöstä tässä välilehdessä, koska URL:ssa on \""
+"{param}\"."
+
+#: /src/modules/main_menu/components/socket-info.vue:154
+#: /src/modules/main_menu/components/socket-info.vue:122
+#, icu-message-format
+msgid "socket.info.count"
+msgstr "Määrä"
+
+#: /src/modules/main_menu/components/socket-info.vue:247
+#, icu-message-format
+msgid "socket.info.disconnected"
+msgstr "ei yhdistetty"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.local_time"
+msgstr "Paikallinen aika"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.ping"
+msgstr "Ping"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.server_time"
+msgstr "Palvelimen aika"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.state"
+msgstr "Tila"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.stats.authenticated"
+msgstr "Autentikoitu"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.connected_clients"
+msgstr "Yhdistettyjä asiakkaita"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.live_clients"
+msgstr "Live asiakkaita"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.total_commands"
+msgstr "Komentoja"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.total_messages"
+msgstr "Viestejä"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.versions"
+msgstr "Asiakkaan versioita"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.time_offset"
+msgstr "aikaero"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.topics"
+msgstr "Aiheita"
+
+#: /src/modules/main_menu/components/socket-info.vue:119
+#, icu-message-format
+msgid "socket.info.version"
+msgstr "Versio"
+
+#, icu-message-format
+msgid "tooltip.shift-detail"
+msgstr "(Paina shift nähdäksesi lisätietoja)"
+
+#, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
+msgid "chat.sub.gift-months"
+msgstr ""
+"{user} lahjoitti {months, plural, one {kuukauden} other {kuukauden}} tason "
+"{plan} tilauksen käyttäjälle {recipient}!"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Ei tietoja saatavilla"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "Annettu URL sisältää ei-tavallisen portin, eikä sitä voida tarkistaa."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.animals_nature"
+msgstr "Eläimet & Luonto"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.travel_places"
+msgstr "Matkustus & Paikat"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
+#, icu-message-format
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+"Hymiöiden näkyvyydellä voit piilottaa hymiöitä listalta yksittäin tai "
+"ryhmissä. Hymiöiden näkyvyyden ollessa käytössä klikkaa hymiötä "
+"piilottaaksesi tai tuodaksesi sen takaisin näyviin. Huomaa, että hymiöt "
+"näkyvät chatissa, jos joku käyttää niitä, mutta ne eivät näy hymiölistalla."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr "Hyväksytty"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.mention"
+msgstr "Mainittu"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
+#, icu-message-format
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr "Jaa kanavia jakolistaltasi automaattisesti, kun olet offline."
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:334
+#, icu-message-format
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "Tiimin jakaminen"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
+#, icu-message-format
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr "Sisällytä kanavat, jotka lähettävät ennalta tallennettua materiaalia"
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1016
+#, icu-message-format
+msgid "player.comp_button.help"
+msgstr ""
+"Katso lisätietoja FFZ ohjauskeskuksesta. Jos äänessä ilmenee häiriöitä, "
+"uudelleenkäynnistä soitin."
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:321
+#, icu-message-format
+msgid "site.menu_button.changed"
+msgstr ""
+"FrankerFaceZ asetusten tarjaoja on muuttunut. Päivitä välilehti välttääksesi "
+"erikoista käytöstä."
+
+#: /src/modules/main_menu/components/socket-info.vue:243
+#, icu-message-format
+msgid "socket.info.connected"
+msgstr "yhdistetty"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.server"
+msgstr "Palvelin"
+
+#, icu-message-format
+msgid "tooltip.link.urls"
+msgstr "Vieraillut URL:t"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
+#, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
+msgid "emote-menu.emote-cheer"
+msgstr ""
+"Hurraa vielä {bits_remaining, plural, one {bitti} other {bittiä}} "
+"käyttääksesi tätä hymiötä."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.people_body"
+msgstr "Ihmiset"
+
+#, icu-message-format
+msgid "i18n.ui.invalid"
+msgstr "Virheelliset merkkijonot"
+
+#: /src/modules/main_menu/components/socket-info.vue:151
+#, icu-message-format
+msgid "socket.info.command"
+msgstr "Komento"
