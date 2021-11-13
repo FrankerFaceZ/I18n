@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-12 23:52+0000\n"
+"PO-Revision-Date: 2021-11-13 01:03+0000\n"
 "Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/fr/>\n"
@@ -4014,3 +4014,10 @@ msgstr "Correspondre les mots entiers"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.community"
 msgstr "Communauté"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight"
+msgstr "Surligner"
