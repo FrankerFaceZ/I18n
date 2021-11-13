@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-11-13 23:15+0000\n"
-"Last-Translator: Acursen <acursen@mailbox.org>\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
 "Language: de\n"
@@ -3992,3 +3992,20 @@ msgstr "Abc"
 
 msgid "settings.terms.word.tip"
 msgstr "Ganze Wörter abgleichen"
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Weniger anzeigen)"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons"
+msgstr "Add-Ons"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.changelog"
+msgstr "Änderungsprotokoll"
