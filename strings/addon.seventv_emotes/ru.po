@@ -1,89 +1,101 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-7tv-emotes/ru/>\n"
 "Language: ru\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.9\n"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.animated_avatars"
-msgstr ""
+msgstr "Анамированные аватарки"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.animated_avatars.description"
 msgstr ""
+"Отображать аватарки 7TV. [(Бонус за подписку)](https://7tv.app/subscribe)"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.badges"
-msgstr ""
+msgstr "Значки"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.badges.description"
 msgstr ""
+"Отображать значки 7TV (Видимость каждого значака можно задать в [Чат » "
+"Значки » Видимость » Дополнения](~chat.badges))"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.channel_emotes"
-msgstr ""
+msgstr "Смайлы канала"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.channel_emotes.description"
-msgstr ""
+msgstr "Отображать смайлы канала 7TV."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.emote_updates"
-msgstr ""
+msgstr "Вклчючить обновления смайлов"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.emote_updates.description"
 msgstr ""
+"Включает обновления смайлов в реальном времени когда смайл 7TV добавляют или "
+"удалают с канала."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.global_emotes"
-msgstr ""
+msgstr "Общедоступные смайлы"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.global_emotes.description"
-msgstr ""
+msgstr "Отображать общедоступные смайлы 7TV."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.unlisted_emotes"
-msgstr ""
+msgstr "Отображать скрытые смайлы"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.unlisted_emotes.description"
-msgstr ""
+msgstr "Отображать смайлы, не соответствующие условиям пользования 7TV."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.update_messages"
-msgstr ""
+msgstr "Отображать сообщения об обновлениях"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.update_messages.description"
-msgstr ""
+msgstr "Отображать сообщения в чате когда смайлы на канале обновляются."
