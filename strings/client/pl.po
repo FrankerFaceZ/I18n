@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 06:15+0000\n"
+"Last-Translator: Łukasz Ordon <lukaszordon21@gmail.com>\n"
+"Language-Team: Polish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/pl/>\n"
+"Language: pl\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Prześlij"
@@ -10,25 +20,25 @@ msgstr "Brak wyników."
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Subskrybuje od {count,number} miesi{count, plural, one {ąca} other {ęcy}})"
+"(Subskrybuje przez {count, plural, one {# Miesiąc} few {# Miesiące} other {# "
+"Miesięcy}}"
 
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
-"({count, number} {count,plural, one {miesiąc} few {miesiące} other "
-"{miesięcy}})"
+"({count, plural, one {# Miesiąc} few {# Miesiące} other {# Miesięcy}})"
 
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Poziom {tier}, {months, number} {months,plural, one {miesiąc} few "
-"{miesiące} other {miesięcy}})"
+"(Poziom {tier}, {months, plural, one {# Miesiąc} few {# Miesiące} other {# "
+"Miesięcy}})"
 
 msgid "card.empty"
 msgstr "Żadne dane nie zostały zwrócone."
 
 msgid "card.error"
-msgstr "Wystapił błąd."
+msgstr "Wystąpił błąd."
 
 msgid "card.error.timeout"
 msgstr "Upłynął limit czasu żądania."
@@ -102,18 +112,17 @@ msgstr "Wykluczenie użytkownika"
 
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"Wyklucz {user.login} na {duration,number} {duration,plural, one {sekundę} "
-"few {sekundy} many {sekund} }"
+"Wyklucz {user.login} na {duration, plural, one {# sekundę} few {# sekundy} "
+"other {# sekund}} za:"
 
 msgid "chat.actions.timeout.desc"
 msgstr ""
-"{options.duration,number} {options.duration,plural, one {sekunda} few "
-"{sekundy} many {sekund}}"
+"{options.duration, plural, one {# sekunda} few {# sekundy} other {# sekund}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"Wyklucz {user.login} na {duration,number} {duration,plural, one {sekundę} "
-"few {sekundy} many {sekund} }"
+"Wyklucz {user.login} na {duration, plural, one {# sekundę} few {# sekundy} "
+"other{# sekund} }"
 
 msgid "chat.actions.unban"
 msgstr "Odblokuj użytkownika"
@@ -144,7 +153,7 @@ msgstr ""
 "{count,plural,\n"
 "one {Jedna wiadomość została usunięta przez moderatora.}\n"
 "few {# wiadomości zostały usunięte przez moderatora.}\n"
-"many {# wiadomości zostało usunięte przez moderatora.}\n"
+"other {# wiadomości zostało usuniętych przez moderatora.}\n"
 "}"
 
 msgid "chat.ffz-badge.about"
@@ -165,7 +174,7 @@ msgid "chat.filtering.automod-term"
 msgstr "Wyrażenie zablokowane przez AutoModa"
 
 msgid "chat.filtering.automod-why"
-msgstr "Zostało to oflagowane jako:"
+msgstr "Zostało to oflagowane jako: "
 
 msgid "chat.filtering.automod.A"
 msgstr "Wrogość"
@@ -290,31 +299,33 @@ msgstr ""
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} sprezentował {count,number} {count,plural, one{suba} few{suby} "
-"many{subów}} poziomu {tier} dla społeczności {channel}!"
+"{user} sprezentował {count, plural, one{# suba} few{# suby} other{# subów}} "
+"poziomu {tier} dla społeczności {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "Jest to jego pierwszy raz gdy prezentuje suby na tym kanale!"
 
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} podarował {months,number} {months,plural, one{miesiąc} few{miesiące} "
-"other{miesięcy}} subskrypcji {plan} dla {recipient}!"
+"{user} podarował {months, plural, one{# miesiąc} few{# miesiące} other{# "
+"miesięcy}} subskrypcji {plan} dla {recipient}!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Poziom {tier}"
 
 msgid "chat.sub.gift-total"
-msgstr "Sprezentował on {count} subów na kanale!"
+msgstr ""
+"Sprezentował on {count, plural, one {# suba} few {# suby} other {# subów}} "
+"na kanale!"
 
 msgid "chat.sub.main"
-msgstr "{user} zasubskrybował {plan}."
+msgstr "{user} zasubskrybował {plan}. "
 
 msgid "chat.sub.months"
 msgstr "Subskrybuje już przez {count,number} miesięcy!"
 
 msgid "chat.sub.mystery"
-msgstr "{user} sprezentował suba {plan} dla {recipient}!"
+msgstr "{user} sprezentował suba {plan} dla {recipient}! "
 
 msgid "chat.sub.plan"
 msgstr "na poziomie {tier}"
@@ -333,8 +344,8 @@ msgstr "{user} gra w {game}"
 
 msgid "clip.desc.2"
 msgstr ""
-"Klip użytkownika {curator} — {views,number} {views,plural, one "
-"{wyświetlenie} few {wyświetlenia} other {wyświetleń}}"
+"Klip użytkownika {curator} — {views,plural, one {# wyświetlenie} few {# "
+"wyświetlenia} other {# wyświetleń}}"
 
 msgid "clip.unknown"
 msgstr "Nieznany"
@@ -356,8 +367,8 @@ msgstr "Hostowany kanał"
 
 msgid "directory.hosted.by-many"
 msgstr ""
-"Hostowany przez {count,number} {count,plural, one{kanał} few{kanały} "
-"many{kanałów}}"
+"Hostowany przez {count,number} {count,plural, one{kanał} few{kanały} other "
+"{kanałów}}"
 
 msgid "directory.hosted.by-one"
 msgstr "Hostowany przez {user}"
@@ -425,16 +436,15 @@ msgstr "Kanał"
 msgid "emote-menu.disable"
 msgstr ""
 "Tymczasowe obejście problemu: spróbuj wyłączyć menu emotek FFZ w panelu "
-"sterowania FFZ"
+"sterowania FFZ."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
 
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Wyślij dodatkow{bits_remaining, plural, one {ego} few{e} other{ych}} "
-"{bits_remaining,number} bits{bits_remaining, plural, one{a} few{y} "
-"other{ów}} aby odblokować tę emotkę."
+"Wyślij {bits_remaining, plural, one {# dodatkowego bitsa} few{# dodatkowe "
+"bitsy} other{# dodatkowych bitsów}} aby odblokować tę emotkę."
 
 msgid "emote-menu.emote-follower"
 msgstr "Zaobserwuj {user} aby odblokować tę emotkę na tym kanale."
@@ -454,7 +464,7 @@ msgstr ""
 "ją i kliknij {hotkey}."
 
 msgid "emote-menu.empty-search"
-msgstr "Brak pasujących emotek"
+msgstr "Brak pasujących emotek."
 
 msgid "emote-menu.error"
 msgstr "Wystąpił błąd podczas renderowania tego menu."
@@ -511,7 +521,7 @@ msgid "emote-menu.sub-ends"
 msgstr "Subskrypcja kończy się za {seconds,humantime}."
 
 msgid "emote-menu.sub-gift-ends"
-msgstr "Ten sprezentowany sub kończy się za {seconds,humantime}"
+msgstr "Ten sprezentowany sub kończy się za {seconds,humantime}."
 
 msgid "emote-menu.sub-prime"
 msgstr ""
@@ -526,8 +536,8 @@ msgstr "Emotki subskrybentów"
 
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Zasubskrybuj za {price} by odblokować {count,number} {count,plural, "
-"one{emotkę} few{emotki} many{emotek}}"
+"Zasubskrybuj za {price} by odblokować {count, plural, one{# emotkę} few{# "
+"emotki} other{# emotek}}"
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
@@ -559,7 +569,7 @@ msgid "emote-menu.visibility.visible"
 msgstr "Widoczne"
 
 msgid "emote.2fa"
-msgstr "Emotka Twitcha z wer. dwu-etap."
+msgstr "Emotka Twitcha z wer. dwu-etap"
 
 msgid "emote.bits"
 msgstr "Nagroda za bitsy"
@@ -766,7 +776,7 @@ msgstr "Hostowanie teamu"
 msgid "metadata.host.setting.vodcast-hosting.description"
 msgstr ""
 "Uwzględniaj kanały streamujące wcześniej nagrane widea takie jak Premiery "
-"lub Powtórki."
+"lub Powtórki"
 
 msgid "metadata.host.setting.vodcast-hosting.title"
 msgstr "Hostuj wcześniej nagrane widea"
@@ -785,8 +795,8 @@ msgstr "Nadawane na żywo {count,number}s temu"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Wygląda na to, że twój czas lokalny się późni o {count,number} "
-"{count,plural, one {sekundę} few {sekundy} other {sekund}}"
+"Wygląda na to, że twój czas lokalny się późni o {count,number} {"
+"count,plural, one {sekundę} few {sekundy} other {sekund}}."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Opóźnienie transmisji"
@@ -903,7 +913,7 @@ msgstr "Używasz FrankerFaceZ w wersji deweloperskiej."
 msgid "site.menu_button.new-desc"
 msgstr ""
 "Dostępne {count,plural, one {jest jedno nowe ustawienie} few {są # nowe "
-"ustawienia} many {jest # nowych ustawień}}"
+"ustawienia} other{jest # nowych ustawień}}."
 
 msgid "site.menu_button.no-settings"
 msgstr ""
@@ -923,8 +933,8 @@ msgstr ""
 msgid "site.menu_button.strings"
 msgstr ""
 "{added,plural,one {Dodana jest # nowa linia} few {Dodane są # nowe linie} "
-"many {Dodane jest # nowych linii}} oraz zmienion{changed,plural, one {a "
-"jest # linia} few {e są # linie} many {e jest # linii}}."
+"other {Dodane jest # nowych linii}} oraz zmienion{changed,plural, one {a "
+"jest # linia} few {e są # linie} other{e jest # linii}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "Aktualizacja jest dostępna. Proszę odśwież stronę."
@@ -987,10 +997,10 @@ msgid "sub-button.prime"
 msgstr "Twoja darmowa subskrypcja z Prime jest dostępna."
 
 msgid "tooltip.bits"
-msgstr "{count,number} {count,plural, one {Bits} few {Bitsy} many {Bitsów}}"
+msgstr "{count,number} {count, plural, one {Bits} few {Bitsy} other{Bitsów}}"
 
 msgid "tooltip.bits.more"
-msgstr "(i {count} więcej)"
+msgstr "(i {count, number} więcej)"
 
 msgid "tooltip.channel"
 msgstr "Kanał: {source}"
@@ -1011,7 +1021,8 @@ msgid "tooltip.link-destination"
 msgstr "Cel: {url}"
 
 msgid "tooltip.link-unsafe"
-msgstr "Uwaga: Ten URL jest na liście Safe Browsing Google'a z powodu:"
+msgstr ""
+"Uwaga: Ten URL jest oznaczony jako potencjalnie szkodliwy z powodu: {reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "Odwiedzone URLe"
@@ -1031,7 +1042,7 @@ msgid "video-chat.reply"
 msgstr "Odpowiedz"
 
 msgid "video-chat.show-more"
-msgstr "Pokaż więcej odpowiedzi"
+msgstr "Pokaż więcej odpowiedzi..."
 
 msgid "video-chat.time"
 msgstr "{time,humantime} temu"
@@ -1041,8 +1052,89 @@ msgstr "Film {user}"
 
 msgid "video.desc.2"
 msgstr ""
-"{length,duration} — {views,number} {views,plural, one {wyświetlenie} few "
-"{wyświetlenia} many {wyświetleń} } - {date,datetime}"
+"{length,duration} — {views, plural, one {# Wyświetlenie} few {# Wyświetlenia}"
+" other {# Wyświetleń}} — {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Opublikowano: {date, date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "Podany URL ma nieprawidłowego hosta i nie może być sprawdzony."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "Podany URL nie używa HTTP i nie będzie sprawdzony."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Żaden identyfikator nie wspiera tego URL."
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr "Pokazuj Media"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr "Zezwalaj na NSFW"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr "Rich Embed"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr "Pełny Embed"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr "Link czatu"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr "Surowe dane"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr "Odśwież"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr "Testuj URL"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr "Zatwierdzono"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Brak dostępnych informacji"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "Podany URL ma niestandardowy port i nie będzie sprawdzony."
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr "Wymuś podpowiedź"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Wystąpił błąd sieci."
