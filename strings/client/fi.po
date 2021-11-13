@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"PO-Revision-Date: 2021-11-13 06:15+0000\n"
 "Last-Translator: Jack Jofa <jackjofa@protonmail.com>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fi/>\n"
@@ -19,7 +19,7 @@ msgstr "Ei tuloksia."
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Tilaaja {count,number} {count,plural,one {kuukausi} other {kuukautta}}"
+"(Tilaaja {count, plural, one {# kuukausi} other {# kuukautta}})"
 
 msgid "card.empty"
 msgstr "Ei tietoja."
@@ -248,8 +248,8 @@ msgstr "{user} pelaa {game}"
 
 msgid "clip.desc.2"
 msgstr ""
-"Leikkeen tekijä {curator} — {views, plural, one {katselukerta} other "
-"{katselukertaa}}"
+"Leikkeen tekijä {curator} — {views, plural, one {# katselukerta} other {# "
+"katselukertaa}}"
 
 msgid "clip.unknown"
 msgstr "Tuntematon"
@@ -747,14 +747,14 @@ msgstr "Julkaistu {date,date}"
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
-"({count, plural, one {kuukausi} other {kuukautta}})"
+"({count, plural, one {# kuukausi} other {# kuukautta}})"
 
 #: /src/modules/chat/badges.jsx:366
 #, icu-message-format, lp-defaults:"{\"title\":\"2-Year Subscriber\",\"tier\":3,\"months\":\"55\"}"
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Taso {tier}, {months, plural, one {kuukausi} other {kuukautta}})"
+"(Taso {tier}, {months, plural, one {# kuukausi} other {# kuukautta}})"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1288,3 +1288,12 @@ msgstr "Virheelliset merkkijonot"
 #, icu-message-format
 msgid "socket.info.command"
 msgstr "Komento"
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:441
+#, icu-message-format
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+"Selaimesi tälle sivustolle varattu local storage tila on täynnä, eikä "
+"asetuksia voida tallentaa. Lataa varmuuskopio asetuksistasi ja vaihda "
+"suuremman kapasiteetin tallennustailaan asetuksissa [Tiedon halinta > "
+"Tallennussijainti >> Tarjoaja](~data_management.storage.tabs.provider)."
