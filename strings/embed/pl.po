@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"Last-Translator: Łukasz Ordon <lukaszordon21@gmail.com>\n"
+"Language-Team: Polish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/embed/pl/>\n"
+"Language: pl\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "embed.discord.channel"
 msgstr "Kanał: {name}"
@@ -18,3 +28,68 @@ msgstr ""
 
 msgid "embed.twitter.tweeted"
 msgstr "tweeted: {tweet}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.animated-emote"
+msgstr "Animowane Emotki"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
+msgid "embed.bttv.by-line"
+msgstr "Przez: {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.status.approved"
+msgstr "Zatwierdzone"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.uploader"
+msgstr "Uploader"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
+msgid "embed.ffz.by-line"
+msgstr "Przez: {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.emote"
+msgstr "Emotka"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.owner"
+msgstr "Właściciel"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.public"
+msgstr "Publiczny"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":1423}"
+msgid "embed.ffz.user-line"
+msgstr "{count, plural, one {# Użykownik} other {{count,number} Użytkowników}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.users"
+msgstr "Użytkownicy"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgid "embed.horaro.ended"
+msgstr "Ukończono {when}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.horaro.event-ended"
+msgstr "Wydarzenie skończyło się"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.horaro.last"
+msgstr "Ostatni"
