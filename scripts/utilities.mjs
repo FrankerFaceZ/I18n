@@ -13,6 +13,7 @@ const MAPPED_ADDON_ENTRIES = {
 
 const MAPPED_ADDON_KEYS = {
 	'better_ttv_emotes': 'ffzap-bttv',
+	'7tv_emotes': '7tv-emotes',
 	'seventv_emotes': '7tv-emotes',
 	'deck': 'deck',
 	'ffz_ap_core': 'ffzap-core',

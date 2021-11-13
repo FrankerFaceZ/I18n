@@ -1888,6 +1888,41 @@
 		}
 	},
 	"addon.7tv-emotes": {
+		"setting.add_ons.7tv_emotes": {
+			"id": "setting.add_ons.7tv_emotes",
+			"doc": "addon.7tv-emotes",
+			"default": "7TV Emotes",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\n_l (/src/modules/main_menu/components/menu-tree.vue:1:1220)\n_l (/src/modules/main_menu/components/menu-page.vue:1:179)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.emotes": {
+			"id": "setting.add_ons.7tv_emotes.emotes",
+			"doc": "addon.7tv-emotes",
+			"default": "Emotes",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.emotes.emote_visibility": {
+			"id": "setting.add_ons.7tv_emotes.emotes.emote_visibility",
+			"doc": "addon.7tv-emotes",
+			"default": "Emote Visibility",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.emotes.live_emote_updates": {
+			"id": "setting.add_ons.7tv_emotes.emotes.live_emote_updates",
+			"doc": "addon.7tv-emotes",
+			"default": "Live Emote Updates",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
+		},
+		"setting.add_ons.7tv_emotes.user_cosmetics": {
+			"id": "setting.add_ons.7tv_emotes.user_cosmetics",
+			"doc": "addon.7tv-emotes",
+			"default": "User Cosmetics",
+			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
+			"context": null
+		},
 		"setting.entry.addon.seventv_emotes.animated_avatars": {
 			"id": "setting.entry.addon.seventv_emotes.animated_avatars",
 			"doc": "addon.7tv-emotes",
@@ -5864,41 +5899,6 @@
 			"source": "FFZ Control Center",
 			"context": null,
 			"revision": 1
-		},
-		"setting.add_ons.7tv_emotes": {
-			"id": "setting.add_ons.7tv_emotes",
-			"doc": "settings",
-			"default": "7TV Emotes",
-			"source": "t (/src/modules/main_menu/index.js:674:65)\n_l (/src/modules/main_menu/components/menu-tree.vue:1:1220)\n_l (/src/modules/main_menu/components/menu-page.vue:1:179)",
-			"context": null
-		},
-		"setting.add_ons.7tv_emotes.emotes": {
-			"id": "setting.add_ons.7tv_emotes.emotes",
-			"doc": "settings",
-			"default": "Emotes",
-			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
-			"context": null
-		},
-		"setting.add_ons.7tv_emotes.emotes.emote_visibility": {
-			"id": "setting.add_ons.7tv_emotes.emotes.emote_visibility",
-			"doc": "settings",
-			"default": "Emote Visibility",
-			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
-			"context": null
-		},
-		"setting.add_ons.7tv_emotes.emotes.live_emote_updates": {
-			"id": "setting.add_ons.7tv_emotes.emotes.live_emote_updates",
-			"doc": "settings",
-			"default": "Live Emote Updates",
-			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
-			"context": null
-		},
-		"setting.add_ons.7tv_emotes.user_cosmetics": {
-			"id": "setting.add_ons.7tv_emotes.user_cosmetics",
-			"doc": "settings",
-			"default": "User Cosmetics",
-			"source": "t (/src/modules/main_menu/index.js:674:65)\nt (/src/modules/main_menu/components/menu-container.vue:1:240)",
-			"context": null
 		},
 		"setting.add_ons.changelog": {
 			"id": "setting.add_ons.changelog",
