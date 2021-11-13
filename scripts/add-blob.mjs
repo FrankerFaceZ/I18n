@@ -55,8 +55,8 @@ const file = args[1];
 
 		const cmp = keyToComponent(entry.key);
 
-		let source = entry.calls.join('\n').substr(0, 512);
-		if ( source.includes('MainMenu.getSettingsTree') )
+		let source = entry.calls ? entry.calls.join('\n').substr(0, 512) : null;
+		if ( source?.includes('MainMenu.getSettingsTree') )
 			source = 'FFZ Control Center';
 
 		const context = entry.options ? JSON.stringify(entry.options) : null;
@@ -162,7 +162,17 @@ const file = args[1];
 				console.log(existing[key]);
 				process.exit(1);
 			}
-			const fn = path.join('strings', key, 'en-US.po');
+
+			const dir = path.join('strings', key);
+
+			try {
+				await fs.promises.mkdir(dir, {recursive: true});
+			} catch(err) {
+				console.error(err);
+				continue;
+			}
+
+			const fn = path.join(dir, 'en-US.po');
 			await fs.promises.writeFile(fn, out);
 			await git.add(fn);
 		}

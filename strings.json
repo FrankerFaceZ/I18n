@@ -1887,101 +1887,101 @@
 			"revision": 1
 		}
 	},
-	"addon.seventv_emotes": {
+	"addon.7tv-emotes": {
 		"setting.entry.addon.seventv_emotes.animated_avatars": {
 			"id": "setting.entry.addon.seventv_emotes.animated_avatars",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Animated Avatars",
 			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.animated_avatars.description": {
 			"id": "setting.entry.addon.seventv_emotes.animated_avatars.description",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Show 7TV animated avatars. [(7TV Subscriber Perk)](https://7tv.app/subscribe)",
 			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.badges": {
 			"id": "setting.entry.addon.seventv_emotes.badges",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Badges",
 			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.badges.description": {
 			"id": "setting.entry.addon.seventv_emotes.badges.description",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Show 7TV user badges. (Per-badge visibilty can be set in [Chat >> Badges > Visibilty > Add-Ons](~chat.badges))",
 			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.channel_emotes": {
 			"id": "setting.entry.addon.seventv_emotes.channel_emotes",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Channel Emotes",
 			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.channel_emotes.description": {
 			"id": "setting.entry.addon.seventv_emotes.channel_emotes.description",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Enables channel specific emotes from 7TV.",
 			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.emote_updates": {
 			"id": "setting.entry.addon.seventv_emotes.emote_updates",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Enable emote updates",
 			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.emote_updates.description": {
 			"id": "setting.entry.addon.seventv_emotes.emote_updates.description",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Enables live updates when a 7TV emote is added or removed in the current channel.",
 			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.global_emotes": {
 			"id": "setting.entry.addon.seventv_emotes.global_emotes",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Global Emotes",
 			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.global_emotes.description": {
 			"id": "setting.entry.addon.seventv_emotes.global_emotes.description",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Enables global emotes from 7TV.",
 			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.unlisted_emotes": {
 			"id": "setting.entry.addon.seventv_emotes.unlisted_emotes",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Show unlisted emotes",
 			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.unlisted_emotes.description": {
 			"id": "setting.entry.addon.seventv_emotes.unlisted_emotes.description",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Show emotes which have been deemed non-TOS friendly by 7TV moderators.",
 			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.update_messages": {
 			"id": "setting.entry.addon.seventv_emotes.update_messages",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Show update messages",
 			"source": "t (/src/modules/main_menu/index.js:635:43)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:624)",
 			"context": null
 		},
 		"setting.entry.addon.seventv_emotes.update_messages.description": {
 			"id": "setting.entry.addon.seventv_emotes.update_messages.description",
-			"doc": "addon.seventv_emotes",
+			"doc": "addon.7tv-emotes",
 			"default": "Show messages in chat when emotes are updated in the current channel.",
 			"source": "t (/src/modules/main_menu/index.js:642:48)\nt (/src/modules/main_menu/components/setting-check-box.vue:1:1870)",
 			"context": null

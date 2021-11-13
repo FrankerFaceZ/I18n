@@ -5,6 +5,7 @@ const po = GTP.po;
 
 const MAPPED_ADDON_ENTRIES = {
 	'deck': 'deck',
+	'seventv_emotes': '7tv-emotes',
 	'ffzap.betterttv': 'ffzap-bttv',
 	'ffzap.core': 'ffzap-core',
 	'ffzap.liriklive': 'ffzap-liriklive'
@@ -12,6 +13,7 @@ const MAPPED_ADDON_ENTRIES = {
 
 const MAPPED_ADDON_KEYS = {
 	'better_ttv_emotes': 'ffzap-bttv',
+	'seventv_emotes': '7tv-emotes',
 	'deck': 'deck',
 	'ffz_ap_core': 'ffzap-core',
 	'fs_chat': 'fs-chat',
