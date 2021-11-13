@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 18:51+0000\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"Language-Team: German <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/embed/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "embed.discord.channel"
 msgstr "Kanal: {name}"
@@ -15,3 +24,8 @@ msgstr ""
 "{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
 "Retweets}} • {likes,plural,one {# „Gefällt mir“-Angabe} other {# „Gefällt "
 "mir“-Angaben}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.album"
+msgstr "Imgur Album"
