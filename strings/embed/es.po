@@ -1,262 +1,281 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/embed/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.animated-emote"
-msgstr ""
+msgstr "Emoticono Animado"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
 msgid "embed.bttv.by-line"
-msgstr ""
+msgstr "Por: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.status.approved"
-msgstr ""
+msgstr "Aprobado"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "embed.bttv.uploader"
-msgstr ""
+msgstr "Cargador"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"#readherefirst\"}"
 msgid "embed.discord.channel"
-msgstr ""
+msgstr "Canal: {name}"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format
 msgid "embed.discord.invite"
-msgstr ""
+msgstr "Invitación a Discord"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"The Cohhilition\"}"
 msgid "embed.discord.server"
-msgstr ""
+msgstr "Servidor: {name}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
 msgid "embed.ffz.by-line"
-msgstr ""
+msgstr "Por: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.emote"
-msgstr ""
+msgstr "Emoticono"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.owner"
-msgstr ""
+msgstr "Dueño"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.public"
-msgstr ""
+msgstr "Público"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
-msgstr ""
+msgstr "{count,plural,one {# Usuario} other {{count,number} Usuarios}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.users"
-msgstr ""
+msgstr "Usuarios"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.ended"
-msgstr ""
+msgstr "Finalizó {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.event-ended"
-msgstr ""
+msgstr "El evento ha finalizado"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.last"
-msgstr ""
+msgstr "Último"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.range"
-msgstr ""
+msgstr "{start} a {end}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.album"
-msgstr ""
+msgstr "Álbum de Imgur"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
+"{images,plural,one{# Imagen}other{# Imágenes}} • {views,plural,one{# "
+"Visita}other{{views,number} Visitas}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
 msgid "embed.imgur.by"
-msgstr ""
+msgstr "Por: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dimensions"
-msgstr ""
+msgstr "Dimensiones"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dislikes"
-msgstr ""
+msgstr "Votos negativos"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.gallery"
-msgstr ""
+msgstr "Galería de Imgur"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
+"{posted,datetime} • {points,plural,one{# Punto}other{{points,number} Puntos}}"
+" • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.images"
-msgstr ""
+msgstr "Imágenes"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.likes"
-msgstr ""
+msgstr "Votos positivos"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":24}"
 msgid "embed.imgur.more"
-msgstr ""
+msgstr "y {count,number} más"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.score"
-msgstr ""
+msgstr "Puntuación"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.views"
-msgstr ""
+msgstr "Visitas"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.metadata.untitled"
-msgstr ""
+msgstr "Documento HTML sin título"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "embed.src.igt"
-msgstr ""
+msgstr "IGT"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
 msgid "embed.src.joined"
-msgstr ""
+msgstr "Unido el {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":32}"
 msgid "embed.src.more"
-msgstr ""
+msgstr "(y {count} más)"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
+#, fuzzy, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
 msgid "embed.src.pbs"
-msgstr ""
+msgstr "Mejores Marcas Personales de {user}"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format, lp-defaults:"{\"place\":47}"
+#, fuzzy, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
-msgstr ""
+msgstr "{place,selectordinal,one {#º} two {#º} few {#º} other {#º}}"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "embed.src.rt"
-msgstr ""
+msgstr "RT"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
+#, \"cats\":37}", \"games\":25, \"runs\":37, fuzzy, icu-message-format, lp-defaults:"{\"wrs\":2
 msgid "embed.src.subtitle"
 msgstr ""
+"{wrs,plural,one {# Registro} other {# Registros}} • {runs,plural,one {# "
+"Carrera} other {# Carreras}} • {games,plural,one {# Juego} other {# Juegos}} "
+"• {cats,plural,one {# Categoría} other {# Categorías}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-cat"
-msgstr ""
+msgstr "Categoría"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-game"
-msgstr ""
+msgstr "Juego"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-place"
-msgstr ""
+msgstr "Posición"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-submitted"
-msgstr ""
+msgstr "Enviado"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-time"
-msgstr ""
+msgstr "Tiempo"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
 msgid "embed.src.with"
-msgstr ""
+msgstr "con {players}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.following"
-msgstr ""
+msgstr "Siguiendo"
 
 #: /src/utilities/rich_tokens.js:802
-#, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
+#, \"likes\":150}", \"retweets\":12, fuzzy, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\"
 msgid "embed.twitter.info-line"
 msgstr ""
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
+"Retweets}} • {likes,plural,one {# Me gusta} other {# Me gusta}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.likes"
-msgstr ""
+msgstr "Me gusta"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
+#, \"followers\":11844, \"following\":2, \"joined\":\"2014-07-12T06:00:54.000Z\"}", fuzzy, icu-message-format, lp-defaults:"{\"tweets\":1125
 msgid "embed.twitter.profile-line"
 msgstr ""
+"{tweets,plural,one {# Tweet} other {# Tweets}} • {following,number} "
+"Siguiendo • {followers,number} Seguidores • Unido el {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "embed.twitter.retweets"
-msgstr ""
+msgstr "Retweets"
 
 #: /src/utilities/rich_tokens.js:802
-#, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
+#, fuzzy, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
 msgid "embed.twitter.tweeted"
-msgstr ""
+msgstr "tuiteado: {tweet}"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "embed.twitter.tweets"
-msgstr ""
+msgstr "Tweets"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
+"{channel} • {views,plural,one {# Visita} other {{views,number} Visitas}} • 👍 "
+"{likes,number}  • 👎 {dislikes,number}"
