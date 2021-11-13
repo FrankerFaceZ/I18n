@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 06:16+0000\n"
+"Last-Translator: Jack Jofa <jackjofa@protonmail.com>\n"
+"Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-ffzap-core/fi/>\n"
+"Language: fi\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "setting.add_ons.ffz_ap_core"
 msgstr "FFZ:AP Core"
@@ -71,3 +80,187 @@ msgstr "Näytä moderaattoreiden viestit"
 
 msgid "setting.entry.ffzap.core.remove_spaces"
 msgstr "Poista hymiöiden väliset välilyönnit"
+
+#: /src/ffzap-core/components/highlight-sound.vue:73
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-file"
+msgstr "Mukautettu (Tiedosto)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:139
+#, icu-message-format
+msgid "addon.ffzap-core.no-file-support"
+msgstr ""
+"Käytössä oleva tallennustila ei tue mukautettuja tiedostoja. \n"
+"Vaihda tallennustilaa Tiedon hallinta > Tallennustila >> Tarjoaja."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Toista huomioääni, kun \"korostetut merkit\" -listalla oleva merkki "
+"korostetaan."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr "Toista huomioääni kun käyttäjänimesi mainitaan chatissa."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Toista huomioääni, kun uusi käyttäjätili korostetaan (Vaatii \"New Account "
+"Highlighter\" laajennuksen)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Viestejä ei näytetä chatissa, jos ne eivät ole tämän tai ylemmän tasoisilta "
+"käyttäjiltä."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces.description"
+msgstr "Poistaa hymiöiden välissä olevat väillyönnit (esim. kombohymiöt)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:60
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-url"
+msgstr "Mukautettu (URL)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:47
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.preset-sound"
+msgstr "Vakioääni"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "FFZ:AP Ydin"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Chatti"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Hymiöt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Huomioäänet"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Huomioäänen asetukset"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Ota huomioääni käyttöön"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Soita huomioääni aina kun viesti korostetaan."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Ääni"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Estä omalla kanavalla"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Estää huomioäänen toistamisen omalla kanavalla."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
+msgstr "Toista kun merkki korostettu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Toista kun mainittu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term"
+msgstr "Toista kun termi korostettu"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Toista huomioääni, kun \"Korostetut termit\" -listalla oleva termi "
+"korostetaan."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user"
+msgstr "Toista kun käyttäjä korostettaan"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Toista kun uusi tili korostetaan"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Toista huomioääni, kun \"Korostetut käyttäjät\" -listalla oleva käyttäjä "
+"korostetaan."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Toista kun"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Toista huomioääni, kun chat-viesti korostetaan jostain valituista syistä."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Huomioäänen äänenvoimakkuus"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Aseta huomioäänen äänenvoimakkuus."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Valitse ääni jota käytetään huomioäänenä."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Viestien suodatus käyttäjätasolla"
+
+#, icu-message-format
+msgid "setting.entry.ffzap.core.message_deletion.values.0"
+msgstr "Näytä kaikki viestit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "Poista välilyönnit hymiöiden väleistä"
