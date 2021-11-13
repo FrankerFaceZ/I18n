@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"PO-Revision-Date: 2021-11-13 16:15+0000\n"
 "Last-Translator: Rubén <rubfercru@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/es/>\n"
@@ -189,7 +189,7 @@ msgstr "Mejores Marcas Personales de {user}"
 #: /src/utilities/rich_tokens.js:814
 #, fuzzy, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
-msgstr "{place,selectordinal,one {#º} two {#º} few {#º} other {#º}}"
+msgstr "{place, number}º"
 
 #: /src/utilities/rich_tokens.js:814
 #, fuzzy, icu-message-format
