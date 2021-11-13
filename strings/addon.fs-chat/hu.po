@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-13 16:15+0000\n"
+"Last-Translator: Dániel Pelle <pelledani6@gmail.com>\n"
+"Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-fullscreen-chat/hu/>\n"
+"Language: hu\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.fs-chat.button.active"
 msgstr "FS Chat kikapcsolása"
@@ -57,3 +66,27 @@ msgstr "Minimális Mód"
 
 msgid "setting.entry.addon.fs-chat.width"
 msgstr "Szélesség"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height"
+msgstr "Magasság"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.appearance"
+msgstr "Megjelenés"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat"
+msgstr "FS Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.size_and_position"
+msgstr "Méret és pozíció"
