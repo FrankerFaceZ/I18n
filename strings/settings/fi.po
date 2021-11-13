@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-12 23:52+0000\n"
-"Last-Translator: Jack Jofa <velkka@snoerf.org>\n"
+"PO-Revision-Date: 2021-11-13 06:15+0000\n"
+"Last-Translator: Jack Jofa <jackjofa@protonmail.com>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/fi/>\n"
 "Language: fi\n"
@@ -38,7 +38,7 @@ msgid "addon.ffzap-core.author"
 msgstr "Lordmau5"
 
 msgid "addon.ffzap-core.name"
-msgstr "FrankerFaceZ Lisäosa - Ydin"
+msgstr "FrankerFaceZ Laajennus - Ydin"
 
 msgid "addon.ffzap-liriklive.author"
 msgstr "Lordmau5"
@@ -2608,17 +2608,17 @@ msgstr "Luotu: {when,date}"
 #: /src/modules/main_menu/components/addon-list.vue:138
 #, icu-message-format
 msgid "addon.unlisted.id"
-msgstr "Lisäosan id"
+msgstr "Laajennuksen id"
 
 #: /src/modules/main_menu/components/addon-list.vue:120
 #, icu-message-format
 msgid "addon.unlisted.explain"
 msgstr ""
-"Listaamattomat lisäosat ovat lisäosia, jotka ovat läpäisseet "
+"Listaamattomat laajennukset ovat laajennuksia, jotka ovat läpäisseet "
 "hyväksyntäprosessin, mutta joiden kehittäjät eivät ole halunneet lisätä "
-"niitä lisäosien listaukseen. Tämä voi johtua esim. erityisestä "
-"käyttötarkoituksesta tai lisäosa on vielä kehityksen alla. Voit näyttää "
-"listaamattoman lisäosan, jos tiedät sen ID:n."
+"niitä laajennuksien listaukseen. Tämä voi johtua esim. erityisestä "
+"käyttötarkoituksesta tai, että laajennus on vielä kehityksen alla. Voit "
+"näyttää listaamattoman laajennuksen, jos tiedät sen ID:n."
 
 #, icu-message-format
 msgid "home.github"
@@ -2636,7 +2636,7 @@ msgstr "Kehittäjä"
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
 msgid "addon.filter-enabled"
-msgstr "Näytä vain käytössä olevat lisäosat."
+msgstr "Näytä vain käytössä olevat laajennukset."
 
 #: /src/modules/main_menu/components/addon.vue:134
 #, icu-message-format
@@ -2665,11 +2665,11 @@ msgstr "Päivitetty: {when,humantime}"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
-msgstr "Uudet lisäosat"
+msgstr "Uudet laajennukset"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
-msgstr "Päivitetyt lisäosat"
+msgstr "Päivitetyt laajennukset"
 
 #, icu-message-format
 msgid "home.new-settings"
@@ -2684,3 +2684,27 @@ msgstr "Lisää oletukset"
 #, icu-message-format
 msgid "setting.actions.add-default-tip"
 msgstr "Lisää kaikki oletustoiminnot tähän profiiliin."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage"
+msgstr "Tallennussijainti"
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Näytä vähemmän)"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons"
+msgstr "Laajennukset"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-tree.vue:1
+#: /src/modules/main_menu/components/menu-page.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes"
+msgstr "7TV Hymiöt"
