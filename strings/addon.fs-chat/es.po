@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"PO-Revision-Date: 2021-11-13 06:16+0000\n"
 "Last-Translator: Rubén <rubfercru@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-fullscreen-chat/es/>\n"
@@ -221,3 +221,11 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.width"
 msgstr "Ancho"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width.description"
+msgstr ""
+"La anchura que debería tener el chat PC, en píxeles. Predeterminado al ancho "
+"de chat normal. Si sabes CSS, puedes introducir una unidad diferente."
