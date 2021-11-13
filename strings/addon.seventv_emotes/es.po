@@ -1,89 +1,106 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-7tv-emotes/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.animated_avatars"
-msgstr ""
+msgstr "Avatares animados"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.animated_avatars.description"
 msgstr ""
+"Mostrar avatares animados de 7TV. [(Ventaja de suscriptor de "
+"7TV)](https://7tv.app/subscribe)"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.badges"
-msgstr ""
+msgstr "Medallas"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.badges.description"
 msgstr ""
+"Mostrar medallas de usuario de 7TV. (La visibilidad de cada medalla puede "
+"ser ajustada en [Chat >> Medallas > Visibilidad > Complementos](~chat."
+"badges))"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.channel_emotes"
-msgstr ""
+msgstr "Emoticonos del canal"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.channel_emotes.description"
-msgstr ""
+msgstr "Activa los emoticonos de 7TV para canales específicos."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.emote_updates"
-msgstr ""
+msgstr "Activar actualizaciones de emoticonos"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.emote_updates.description"
 msgstr ""
+"Activa actualizaciones a tiempo real cuando un emoticono de 7TV es añadido o "
+"eliminado en el canal actual."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.global_emotes"
-msgstr ""
+msgstr "Emoticonos Globales"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.global_emotes.description"
-msgstr ""
+msgstr "Activa los emoticonos globales de 7TV."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.unlisted_emotes"
-msgstr ""
+msgstr "Mostrar emoticonos descatalogados"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.unlisted_emotes.description"
 msgstr ""
+"Mostrar emoticonos que los mods de 7TV hayan considerado que no cumpla los "
+"TOS."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.update_messages"
-msgstr ""
+msgstr "Mostrar mensajes de actualización"
 
 #: /src/modules/main_menu/index.js:642
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.update_messages.description"
 msgstr ""
+"Mostrar mensajes en el chat cuando los emoticonos son actualizados en el "
+"canal actual."
