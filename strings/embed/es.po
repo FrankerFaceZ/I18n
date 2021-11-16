@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 16:15+0000\n"
+"PO-Revision-Date: 2021-11-17 00:16+0000\n"
 "Last-Translator: Rubén <rubfercru@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/es/>\n"
@@ -26,7 +26,7 @@ msgid "embed.bttv.status.approved"
 msgstr "Aprobado"
 
 #: /src/utilities/rich_tokens.js:814
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgid "embed.bttv.uploader"
 msgstr "Cargador"
 
@@ -167,7 +167,7 @@ msgid "embed.metadata.untitled"
 msgstr "Documento HTML sin título"
 
 #: /src/utilities/rich_tokens.js:814
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgid "embed.src.igt"
 msgstr "IGT"
 
@@ -182,22 +182,22 @@ msgid "embed.src.more"
 msgstr "(y {count} más)"
 
 #: /src/utilities/rich_tokens.js:814
-#, fuzzy, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
+#, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
 msgid "embed.src.pbs"
 msgstr "Mejores Marcas Personales de {user}"
 
 #: /src/utilities/rich_tokens.js:814
-#, fuzzy, icu-message-format, lp-defaults:"{\"place\":47}"
+#, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
 msgstr "{place, number}º"
 
 #: /src/utilities/rich_tokens.js:814
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgid "embed.src.rt"
 msgstr "RT"
 
 #: /src/utilities/rich_tokens.js:814
-#, \"cats\":37}", \"games\":25, \"runs\":37, fuzzy, icu-message-format, lp-defaults:"{\"wrs\":2
+#, \"cats\":37}", \"games\":25, \"runs\":37, icu-message-format, lp-defaults:"{\"wrs\":2
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# Registro} other {# Registros}} • {runs,plural,one {# "
@@ -240,7 +240,7 @@ msgid "embed.twitter.following"
 msgstr "Siguiendo"
 
 #: /src/utilities/rich_tokens.js:802
-#, \"likes\":150}", \"retweets\":12, fuzzy, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\"
+#, \"likes\":150}", \"retweets\":12, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\"
 msgid "embed.twitter.info-line"
 msgstr ""
 "{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
@@ -252,24 +252,24 @@ msgid "embed.twitter.likes"
 msgstr "Me gusta"
 
 #: /src/utilities/rich_tokens.js:814
-#, \"followers\":11844, \"following\":2, \"joined\":\"2014-07-12T06:00:54.000Z\"}", fuzzy, icu-message-format, lp-defaults:"{\"tweets\":1125
+#, \"followers\":11844, \"following\":2, \"joined\":\"2014-07-12T06:00:54.000Z\"}", icu-message-format, lp-defaults:"{\"tweets\":1125
 msgid "embed.twitter.profile-line"
 msgstr ""
 "{tweets,plural,one {# Tweet} other {# Tweets}} • {following,number} "
 "Siguiendo • {followers,number} Seguidores • Unido el {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgid "embed.twitter.retweets"
 msgstr "Retweets"
 
 #: /src/utilities/rich_tokens.js:802
-#, fuzzy, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
+#, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
 msgid "embed.twitter.tweeted"
 msgstr "tuiteado: {tweet}"
 
 #: /src/utilities/rich_tokens.js:814
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgid "embed.twitter.tweets"
 msgstr "Tweets"
 
