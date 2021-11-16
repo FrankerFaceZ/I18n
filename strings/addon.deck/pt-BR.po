@@ -1,5 +1,39 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-17 00:16+0000\n"
+"Last-Translator: Rodrigo Badin <r.badin@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://weblate.frankerfacez.com/"
+"projects/frankerfacez/addon-deck/pt_BR/>\n"
+"Language: pt-BR\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.deck.title"
 msgstr "Conjunto"
+
+#: /src/deck/components/bd-column.vue:290
+#, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
+msgid "addon.deck.auto-refresh"
+msgstr "Atualizando automaticamente em {delay}"
+
+#: /src/deck/components/bd-column-editor.vue:89
+#, icu-message-format
+msgid "addon.deck.cancel"
+msgstr "Cancelar"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category"
+msgstr "Categoria"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip"
+msgstr "Clipes"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip-tip"
+msgstr "Essa coluna mostra clipes de uma categoria específica."
