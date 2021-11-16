@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-15 02:15+0000\n"
+"PO-Revision-Date: 2021-11-16 15:25+0000\n"
 "Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/fr/>\n"
@@ -36,3 +36,8 @@ msgstr "24 heures"
 #, icu-message-format
 msgid "addon.deck.clip-period.30-days"
 msgstr "30 Jours"
+
+#: /src/deck/components/bd-column.vue:290
+#, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
+msgid "addon.deck.auto-refresh"
+msgstr "Actualisation automatique en {delay}"
