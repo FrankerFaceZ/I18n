@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-16 17:04+0000\n"
+"PO-Revision-Date: 2021-11-17 00:16+0000\n"
 "Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/fr/>\n"
@@ -87,3 +87,54 @@ msgstr "7 Jours"
 #, icu-message-format
 msgid "addon.deck.clip-period.7d"
 msgstr "7 jours"
+
+#: /src/deck/components/bd-column-editor.vue:228
+#, icu-message-format
+msgid "addon.deck.edit.appearance"
+msgstr "Apparence"
+
+#: /src/deck/components/bd-edit-clip.vue:10
+#, icu-message-format
+msgid "addon.deck.edit.period"
+msgstr "Période :"
+
+#: /src/deck/components/bd-column-editor.vue:600
+#, icu-message-format
+msgid "addon.deck.edit.avatars"
+msgstr "Ne pas afficher les avatars."
+
+#: /src/deck/components/bd-column-editor.vue:700
+#, icu-message-format
+msgid "addon.deck.edit.behavior"
+msgstr "Comportement"
+
+#: /src/deck/components/bd-column-editor.vue:313
+#, icu-message-format
+msgid "addon.deck.edit.color"
+msgstr "Couleur :"
+
+#: /src/deck/components/bd-column-editor.vue:345
+#, icu-message-format
+msgid "addon.deck.edit.columns"
+msgstr "Colonnes :"
+
+#: /src/deck/components/bd-edit-category.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.game"
+msgstr "Catégorie :"
+
+#: /src/deck/components/bd-tab-editor.vue:163
+#, icu-message-format
+msgid "addon.deck.edit.tags"
+msgstr "Tags :"
+
+#: /src/deck/components/bd-tab-editor.vue:86
+#: /src/deck/components/bd-column-editor.vue:240
+#, icu-message-format
+msgid "addon.deck.edit.title"
+msgstr "Titre :"
+
+#: /src/deck/components/browse-deck.vue:446
+#, icu-message-format
+msgid "addon.deck.filtered"
+msgstr "Filtré par"
