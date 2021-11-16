@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-17 00:15+0000\n"
+"Last-Translator: Rodrigo Badin <r.badin@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://weblate.frankerfacez.com/"
+"projects/frankerfacez/settings/pt_BR/>\n"
+"Language: pt-BR\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.author"
 msgstr "Por: {author}"
@@ -3246,3 +3255,18 @@ msgstr "Este padrão é inválido."
 
 msgid "settings.filter.true_false"
 msgstr "Verdadeiro ou Falso"
+
+#: /src/modules/main_menu/components/addon.vue:157
+#, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
+msgid "addon.created"
+msgstr "Criado: {when,date}"
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Mostrar Menos)"
+
+#: /src/modules/main_menu/components/addon.vue:136
+#, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
+msgid "addon.updated"
+msgstr "Atualizado: {when,humantime}"
