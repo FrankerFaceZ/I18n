@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-17 00:16+0000\n"
+"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-ffzap-core/es/>\n"
+"Language: es\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "setting.add_ons.ffz_ap_core"
 msgstr "FFZ:AP Core"
@@ -89,3 +98,192 @@ msgstr "Mostrar Mensajes de Moderador"
 
 msgid "setting.entry.ffzap.core.remove_spaces"
 msgstr "Eliminar espacios entre emoticonos"
+
+#: /src/ffzap-core/components/highlight-sound.vue:73
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-file"
+msgstr "Persnalizado (Archivo)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:139
+#, icu-message-format
+msgid "addon.ffzap-core.no-file-support"
+msgstr ""
+"Los archivos personalizados no están soportados por el proveedor actual de "
+"almacenamiento.\n"
+"Por favor cambia tu proveedor de almacenamiento en Gestión de datos > "
+"Almacenamiento >> Proveedor."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Escuchar un sonido cada vez que un mensaje es destacado."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Reproducir un sonido destacado cuando una medalla de la lista de \"Medallas "
+"destacadas\" está siendo destacada."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Reproducir un sonido cuando una nueva cuenta está siendo destacada. ("
+"Requiere el addon de \"Nueva cuenta destacada\")"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Los mensajes serán removidos completamente del chat si no son enviados por "
+"un usuario de este nivel o superior."
+
+#: /src/ffzap-core/components/highlight-sound.vue:60
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-url"
+msgstr "Personalizado (URL)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:47
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.preset-sound"
+msgstr "Sonido preestablecido"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "FFZ:AP Núcleo"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Emoticonos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Sonidos destacados"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Ajustes de disparadores de sonido"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Activar sonido destacado"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Sonido"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Prevenir en canal propio"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Prevenir el sonido de sonar en tu propio canal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
+msgstr "Reproducir cuando la medalla sea destacada"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Reproducir cuando sea mencionado"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr ""
+"Reproducir un sonido destacado cuando eres mencionado en el chat por tu "
+"nombre de usuario."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term"
+msgstr "Reproducir cuando un término sea destacado"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Reproducir un sonido destacado cuando un término de la lista de \"Términos "
+"destacados\" esté siendo destacada."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user"
+msgstr "Reproducir cuando un usuario es destacado"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Reproducir cuando una nueva cuenta es destacada"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Reproducir un sonido destacado cuando un usuario de la lista de \"Usuarios "
+"destacados\" está siendo destacado."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Reproducir cuando"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Reproducir un sonido destacado cuando una línea de chat es destacada por una "
+"de las razones seleccionadas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Volumen de sonido destacado"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Cambiar el volumen en el cual el sonido destacado será reproducido."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr ""
+"Cambia el sonido que se reproducirá cuando un disparador de sonido es "
+"activado."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Filtrado de mensaje a nivel de usuario"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "Elimina espacios entre emoticonos"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces.description"
+msgstr ""
+"Eliminar espacios entre emoticonos cuando son usados justo después de otro. ("
+"por ejemplo, los emoticonos de combo)"
