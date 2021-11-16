@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-16 15:25+0000\n"
-"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
+"PO-Revision-Date: 2021-11-16 17:03+0000\n"
+"Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/fr/>\n"
 "Language: fr\n"
@@ -40,4 +40,9 @@ msgstr "30 Jours"
 #: /src/deck/components/bd-column.vue:290
 #, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
 msgid "addon.deck.auto-refresh"
-msgstr "Actualisation automatique en {delay}"
+msgstr "Actualisation automatique dans {delay}"
+
+#: /src/deck/components/bd-column.vue:384
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.clip-category"
+msgstr "Clips de {name}"
