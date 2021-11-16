@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 01:03+0000\n"
+"PO-Revision-Date: 2021-11-17 00:16+0000\n"
 "Last-Translator: Rubén <rubfercru@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-7tv-emotes/es/>\n"
@@ -104,3 +104,34 @@ msgid "setting.entry.addon.seventv_emotes.update_messages.description"
 msgstr ""
 "Mostrar mensajes en el chat cuando los emoticonos son actualizados en el "
 "canal actual."
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes.live_emote_updates"
+msgstr "Actualizaciones de emoticonos en directo"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-tree.vue:1
+#: /src/modules/main_menu/components/menu-page.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes"
+msgstr "Emoticonos de 7TV"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes"
+msgstr "Emoticonos"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes.emote_visibility"
+msgstr "Visibilidad de Emoticono"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.user_cosmetics"
+msgstr "Cosméticos de usuario"
