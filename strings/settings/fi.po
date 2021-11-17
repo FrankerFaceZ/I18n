@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 06:15+0000\n"
-"Last-Translator: Jack Jofa <jackjofa@protonmail.com>\n"
+"PO-Revision-Date: 2021-11-18 17:16+0000\n"
+"Last-Translator: Jonni Rauhansalo <joromonni@protonmail.com>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/fi/>\n"
 "Language: fi\n"
@@ -2700,4 +2700,701 @@ msgstr "(Näytä vähemmän)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons"
-msgstr "Laajennukset"
+msgstr "Lisäosat"
+
+#, icu-message-format, md-text
+msgid "home.addon-new.desc"
+msgstr ""
+"Nämä lisäosat on julkaistu viimeisen seitsemän päivän aikana. Selaa niitä "
+"[Lisäosissa](~add_ons)."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center"
+msgstr "Ohjauskeskus"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.description"
+msgstr ""
+"Mukauta Twitch:in ulkonäköä. Muuta värimaailma ja fontit ja säädä asettelua "
+"optimoidaksesi kokemustasi."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Reuna Navigointi"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:136
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization"
+msgstr "Lokalisointi"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel"
+msgstr "Kanava"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Mukautetut Syyt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.replies"
+msgstr "Vastaukset"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Tilaukset"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Käyttäytyminen"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Täällä voit määrittää mukautettuja toimintoja jotka tulevat näkymään "
+"viestien kanssa chatissa. Jos et nää chatissa toimintoa jonka olet "
+"määrittänyt täällä, varmista että olet ottanut käyttöön Moderaattori "
+"Kuvakkeet chatin asetus valikosta."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Tämä ominaisuus on tällä hetkellä betassa. Sellaisenaan, voit kokea ongelmia "
+"käyttäessäsi FFZ toimintoja Chatti Videoilla- kanssa."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges.description"
+msgstr ""
+"**Huom:** Tämä kohta on viestien suoddatamiseen käyttäjiltä joilla on "
+"tiettyjä kunniamerkkejä. Jos toivot piilottaa kunniamerkin, mene [Chatti > "
+"Kunniamerkit > Näkyvyys](~chat.badges.tabs.visibility)."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"Tämä suodatin sallii sinun poistaa kaikki tietyn tyyppiset viestit chatista. "
+"Sitä voi käyttää suodattamaan järjestelmäviestit, kuten Hostit ja Raidit. "
+"Joitain tyyppejä, kuten moderointi toimintoja, ei voida estää chatin "
+"toiminnallisuuden rikkomiseneston vuoksi."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.badges"
+msgstr "Kunniamerkit"
+
+#, icu-message-format, md-text
+msgid "setting.entry.chat.badges.clickable.description"
+msgstr ""
+"Tietyt kunniamerkit, kuten Prime Gaming, toimii linkkeinä kun tämä on päällä."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Säädä kunniamerkkivärejä näkyvyydelle."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:124
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Varmistaa että kunniamerkit näkyvät nykyistä taustaa vasten.\n"
+"\n"
+"**Huom:** Vaikuttaa vain kunniamerkkeihin mukautetulla renderöinnillä. "
+"Tilaaja kunniamerkkeihin, bitti kunniamerkkeihin, etc. ei vaikutusta."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Tämä on pieni esikatselu uudesta FrankerFaceZ:iin tulevasta järjestelmästä. "
+"Oleta tähän vahvoja muutoksia, mukaan lukien erilliset Yleis- ja "
+"Lisäasetukset, sekä parempi värivalikoima."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout"
+msgstr "Asettelu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.channel"
+msgstr "Kanava"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.clips"
+msgstr "Leikkeet"
+
+#, icu-message-format
+msgid "setting.appearance.localization.formatting"
+msgstr "Muotoilu"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Vitsikielet"
+
+#, icu-message-format
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Tuetut kielet"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme"
+msgstr "Teema"
+
+#, icu-message-format
+msgid "setting.appearance.theme.chat_colors"
+msgstr "Chatin Värit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors"
+msgstr "Värit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.fonts"
+msgstr "Kirjaisimet"
+
+#: /src/modules/main_menu/components/profile-manager.vue:429
+#, icu-message-format
+msgid "setting.backup-restore.http-error"
+msgstr "Ei voit lukea JSON:ia annetusta URL:ista."
+
+#: /src/modules/main_menu/components/profile-manager.vue:416
+#, icu-message-format
+msgid "setting.backup-restore.http-loading"
+msgstr "Ladataan..."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Ylänavigointi"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.legacy"
+msgstr "Legacy"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior"
+msgstr "Käyttäytyminen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.hosting"
+msgstr "Hostaus"
+
+#, icu-message-format
+msgid "setting.channel.behavior.panels"
+msgstr "Panelit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.raids"
+msgstr "Raidit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.squads"
+msgstr "Ryhmät"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata"
+msgstr "Metatiedot"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.appearance"
+msgstr "Ulkonäkö"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.clips"
+msgstr "Leikkeet"
+
+#: /src/modules/main_menu/index.js:509
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgid "setting.channel.metadata.mod_view"
+msgstr "Moderaattori näkymä"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.player"
+msgstr "Toistin"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.subscription"
+msgstr "Tilaus"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat"
+msgstr "Chatti"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions"
+msgstr "Toiminnot"
+
+#: /src/modules/main_menu/index.js:583
+#, icu-message-format
+msgid "setting.chat.actions.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.in_line"
+msgstr "In-Line"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons"
+msgstr "Syyt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Säännöt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room"
+msgstr "Huone"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.user_context"
+msgstr "Käyttäjä konteksti"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Chatti rivit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.colors"
+msgstr "Värit"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community"
+msgstr "Yhteisö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community_chest"
+msgstr "Yhteisö arkku"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emoji"
+msgstr "Hymiö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emotes"
+msgstr "Hymiö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.general"
+msgstr "Yleinen"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Täällä voit määrittää mukautettuja toimintoja jotka tulevat näkymään chatin "
+"syöttölaatikon yläpuolella."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Täällä voit määritellä mukautettuja toimintoja jotka tulevat näkymään "
+"kontekstivalikossa kun napsautat käyttäjänimeä chatissa oikealla "
+"painikkeella."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.usernames"
+msgstr "Käyttäjatunnukset"
+
+#, icu-message-format
+msgid "setting.chat.badges.behavior"
+msgstr "Käyttäytyminen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs"
+msgstr "välilehdet"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Näkyvyys"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior"
+msgstr "Käyttäytyminen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Poistetut Viestit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.scrolling"
+msgstr "Vieritys"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bitit ja Kannustukset"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points"
+msgstr "Kanavapisteet"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.behavior"
+msgstr "Käyttäytyminen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos"
+msgstr "Chatti Videoissa"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu"
+msgstr "Hymiö Valikko"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Lajittelu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering"
+msgstr "Suodatus"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.appearance"
+msgstr "Ulkonäkö"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "AutoModerointi Suodattimet"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Lisäkonfigurointia Twitch:in natiivi `Chatti Suodattimiin`."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.behavior"
+msgstr "Käyttäytyminen"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block"
+msgstr "Estä"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges"
+msgstr "Kunniamerkit"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges"
+msgstr "Kunniamerkit"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Viestityypit"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms"
+msgstr "Termit"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Katso [Chatti > Suodatus > Syntaksi Apu](~) lisätietoja termien käyttämistä "
+"varten."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.users"
+msgstr "Käyttäjät"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Estetyt Kunniamerkit"
+
+#: /src/modules/main_menu/index.js:593
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_badges.description"
+msgstr ""
+"**Huom:** Tämä kohta on viestien suoddatamiseen chatista käyttäjiltä joilla "
+"on tiettyjä kunniamerkkejä. Jos toivot piilottaa kunniamerkin, mene [Chatti "
+"> Kunniamerkit > Näkyvyys](~chat.badges.tabs.visibility)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Kohosta Kunniamerkit"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Kunniamerkit"
+
+#, icu-message-format
+msgid "setting.chat.filtering.blocked_message_types"
+msgstr "Estetyt Viestityypit"
+
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_message_types.description"
+msgstr ""
+"Tämä suodatin sallii sinun poistaa kaikki tietyn tyypin viestit Twitch "
+"chatista. Sillä voi suodattaa järjestelmäviestit, kuten Hostit ja Raidit. "
+"Joitakin tyyppejä, kuten moderaattori toimintoja, ei voida estää chatin "
+"toiminnalisuuden rikkomisen estämiseksi."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Estetyt Termit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Estetyt Käyttäjät"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general"
+msgstr "Yleinen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "AutoMod Suodattimet"
+
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable"
+msgstr "Salli kunniamerkkien painaminen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Käytä mukautettuja moderaattori kunniamerkkejä missä mahdollista."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Käytä mukautettuja VIP kunniamerkkejä missä mahdollista."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Näkyvyys"
+
+#: /src/modules/main_menu/index.js:410
+#, icu-message-format
+msgid "setting.entry.chat.badges.media-queries"
+msgstr ""
+"Käytä @media kyselyjä tukeaksesi korkea DPI:siä Kunniamerkkikuvia Mozilla "
+"Firefoxissa."
+
+#: /src/modules/main_menu/index.js:417
+#, icu-message-format, md-text
+msgid "setting.entry.chat.badges.media-queries.description"
+msgstr ""
+"Tämä vaaditaan korkea DPI:siin kunniamerkkien näkemiseen Firefoxilla koska "
+"Firefox ei vieläkään tue `image-set()` yli viiden vuoden jälkeen. Se voi "
+"olla vähemmän luotettava."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.style"
+msgstr "Tyyli"
+
+#, icu-message-format, md-text
+msgid "home.addon-updates.desc"
+msgstr ""
+"Nämä lisäosat ovat päivittyneet viimeisen seitsemän päivän aikana. Tarkista "
+"[muutosloki](~add_ons.changelog) nähdäksesi mikä on muuttunut."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.changelog"
+msgstr "Muutosloki"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.development"
+msgstr "Kehittäminen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Ulkonäkö"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center.search"
+msgstr "Haku"
+
+#: /src/modules/main_menu/components/chat-actions.vue:1
+#, icu-message-format
+msgid "setting.actions.warn-hidden"
+msgstr ""
+"Sinulla on tällä hetkellä Moderaattori Kuvakkeet pois päältä Twitch Chatin "
+"asetuksissa, joten jotkut toiminnot saattaa olla piilossa sen johdosta. "
+"Käytä asetusvalikkoa chatissa ottaaksesi ne käyttöön."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.description"
+msgstr ""
+"Lisäosat ovat lisännäisiä moduuleja, usein muiden ihmisten kirjoittamia, "
+"jotka FrankerFaceZ voi ladata automaattisesti uusien lisäosa ja Twitch "
+"toimintojen ja käyttäytymisten lisäämiseen."
