@@ -1,53 +1,59 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-11-18 17:16+0000\n"
+"Last-Translator: Jonni Rauhansalo <joromonni@protonmail.com>\n"
+"Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-inline-tab-completion/fi/>\n"
 "Language: fi\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 #: /src/utilities/object.js:465
 #: /src/inline-tab-completion/index.jsx:215
 #, icu-message-format, lp-defaults:"{\"pos\":5,\"total\":40}"
 msgid "addon.inlinetab.item"
-msgstr ""
+msgstr "{pos,number}:ta {total,number}:sta"
 
 #: /src/inline-tab-completion/index.jsx:181
 #, icu-message-format
 msgid "addon.inlinetab.type.command"
-msgstr ""
+msgstr "Komento"
 
 #: /src/inline-tab-completion/index.jsx:172
 #, icu-message-format
 msgid "addon.inlinetab.type.emoji"
-msgstr ""
+msgstr "Hymiö"
 
 #: /src/inline-tab-completion/index.jsx:176
 #, icu-message-format
 msgid "addon.inlinetab.type.emote"
-msgstr ""
+msgstr "Hymiö"
 
 #: /src/inline-tab-completion/index.jsx:184
 #, icu-message-format
 msgid "addon.inlinetab.type.mention"
-msgstr ""
+msgstr "Maininta"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab"
-msgstr ""
+msgstr "Rivitys välilehti"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.appearance"
-msgstr ""
+msgstr "Ulkonäkö"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.content"
-msgstr ""
+msgstr "Sisältö"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
@@ -59,13 +65,13 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.general"
-msgstr ""
+msgstr "Yleinen"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.mention_prefix"
-msgstr ""
+msgstr "Aina lisää mainintoihin `@` etuliite."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
