@@ -1,65 +1,71 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-11-18 17:16+0000\n"
+"Last-Translator: Jonni Rauhansalo <joromonni@protonmail.com>\n"
+"Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/embed/fi/>\n"
 "Language: fi\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.animated-emote"
-msgstr ""
+msgstr "Animoitu Hymiö"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
 msgid "embed.bttv.by-line"
-msgstr ""
+msgstr "{user}:tä"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.status.approved"
-msgstr ""
+msgstr "Hyväksytty"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.uploader"
-msgstr ""
+msgstr "Lähettäjä"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"#readherefirst\"}"
 msgid "embed.discord.channel"
-msgstr ""
+msgstr "Kanava: {name}"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format
 msgid "embed.discord.invite"
-msgstr ""
+msgstr "Discord Kutsu"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"The Cohhilition\"}"
 msgid "embed.discord.server"
-msgstr ""
+msgstr "Palvelin: {name}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
 msgid "embed.ffz.by-line"
-msgstr ""
+msgstr "{user}:tä"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.emote"
-msgstr ""
+msgstr "Hymiö"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.owner"
-msgstr ""
+msgstr "Omistaja"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.public"
-msgstr ""
+msgstr "Julkinen"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
@@ -69,32 +75,32 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.users"
-msgstr ""
+msgstr "Käyttäjät"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.ended"
-msgstr ""
+msgstr "Loppui {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.event-ended"
-msgstr ""
+msgstr "Tapahtuma on loppunut"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.last"
-msgstr ""
+msgstr "Viimeinen"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.range"
-msgstr ""
+msgstr "{start}:ta {end}:en"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.album"
-msgstr ""
+msgstr "Imgur Albumi"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
@@ -109,17 +115,17 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dimensions"
-msgstr ""
+msgstr "Mitat"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dislikes"
-msgstr ""
+msgstr "Miinusäänestykset"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.gallery"
-msgstr ""
+msgstr "Imgur Galleria"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
@@ -129,52 +135,52 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.images"
-msgstr ""
+msgstr "Kuvia"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.likes"
-msgstr ""
+msgstr "Plussat"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":24}"
 msgid "embed.imgur.more"
-msgstr ""
+msgstr "ja {count,number} lisää"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.score"
-msgstr ""
+msgstr "PIstetys"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.views"
-msgstr ""
+msgstr "Katsojat"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.metadata.untitled"
-msgstr ""
+msgstr "Nimeämätön HTML tiedosto"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.igt"
-msgstr ""
+msgstr "IGT"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
 msgid "embed.src.joined"
-msgstr ""
+msgstr "Liittyi {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":32}"
 msgid "embed.src.more"
-msgstr ""
+msgstr "(ja {count} lisää)"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
 msgid "embed.src.pbs"
-msgstr ""
+msgstr "{user}:n Henkilökohtaiset Parhaat"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"place\":47}"
@@ -184,7 +190,7 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.rt"
-msgstr ""
+msgstr "RT"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
@@ -194,27 +200,27 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-cat"
-msgstr ""
+msgstr "Kategoria"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-game"
-msgstr ""
+msgstr "Peli"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-place"
-msgstr ""
+msgstr "Paikka"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-submitted"
-msgstr ""
+msgstr "Lähetetty"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-time"
-msgstr ""
+msgstr "Aika"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
@@ -224,7 +230,7 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.following"
-msgstr ""
+msgstr "Seurataan"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
@@ -234,7 +240,7 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.likes"
-msgstr ""
+msgstr "Tykkäykset"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
@@ -244,17 +250,17 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.retweets"
-msgstr ""
+msgstr "Retweetit"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
 msgid "embed.twitter.tweeted"
-msgstr ""
+msgstr "Twiittasi: {tweet}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.tweets"
-msgstr ""
+msgstr "Twiitit"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
