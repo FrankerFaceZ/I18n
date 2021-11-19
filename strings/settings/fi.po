@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-18 17:16+0000\n"
+"PO-Revision-Date: 2021-11-20 20:16+0000\n"
 "Last-Translator: Jonni Rauhansalo <joromonni@protonmail.com>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/fi/>\n"
@@ -399,8 +399,8 @@ msgstr ""
 
 msgid "setting.backup-restore.confirm-updates"
 msgstr ""
-"Poriilissa, jota olet lataamassa, on automaattisen päivityksen URL. "
-"Haluatko profiilin päivittävän itsensä automaattisesti? "
+"Profilissa, jota olet lataamassa, on automaattisen päivityksen URL. Haluatko "
+"profiilin päivittävän itsensä automaattisesti?"
 
 msgid "setting.backup-restore.disable-auto"
 msgstr "Ei, estä automaattiset päivitykset."
@@ -413,8 +413,8 @@ msgstr "Varmistuksen käsittelyssä tapahtui virhe."
 
 msgid "setting.backup-restore.imported"
 msgstr ""
-"Profiili \"{name}\" on onnistuneesti ladattu sisältäen {count,number} "
-"asetus{count,plural, one {} other{ta}}."
+"Profiili \"{name}\" on onnistuneesti ladattu, sisältäen {count, plural, one "
+"{# asetuksen} other {# asetusta}}."
 
 msgid "setting.backup-restore.imported-at"
 msgstr "Tuotu {now,datetime}."
@@ -1016,10 +1016,10 @@ msgid "setting.entry.chat.emoji.style.values.0"
 msgstr "Alkuperäinen"
 
 msgid "setting.entry.chat.emoji.style.values.emojione"
-msgstr "EmojiOne"
+msgstr "HymiöYksi"
 
 msgid "setting.entry.chat.emoji.style.values.twitter"
-msgstr "Twitter (Twemoji)"
+msgstr "Twitter (Twymiö)"
 
 msgid "setting.entry.chat.emote-dialogs"
 msgstr "Avaa hymiön tietokortti Twitch -hymiöille klikkaamalla hymiötä."
@@ -2160,22 +2160,22 @@ msgid "setting.filters.add"
 msgstr "Lisää"
 
 msgid "setting.filters.add-new"
-msgstr "Lisää uusi sääntö."
+msgstr "Lisää uusi sääntö"
 
 msgid "setting.filters.empty"
 msgstr "(ei suodattimia)"
 
 msgid "setting.filters.if.fail"
-msgstr "Tämä haara on aktiivinen, koska ehto on epätosi"
+msgstr "Tämä haara on aktiivinen, koska ehto on epätosi."
 
 msgid "setting.filters.if.no_fail"
 msgstr "Tämä haara ei ole aktiivinen, koska ehto on tosi."
 
 msgid "setting.filters.if.no_pass"
-msgstr "Tämä haara ei ole aktiivinen, koska ehto on epätosi"
+msgstr "Tämä haara ei ole aktiivinen, koska ehto on epätosi."
 
 msgid "setting.filters.if.pass"
-msgstr "Tämä haara on aktiivinen, koska ehto on tosi"
+msgstr "Tämä haara on aktiivinen, koska ehto on tosi."
 
 msgid "setting.filters.inactive"
 msgstr "Tämä sääntö ei täsmää."
@@ -2208,7 +2208,7 @@ msgid "setting.icon.search"
 msgstr "Etsi ikonia"
 
 msgid "setting.import"
-msgstr "Tuo..."
+msgstr "Tuo…"
 
 msgid "setting.inheritance"
 msgstr "Perinnän piste"
@@ -2308,7 +2308,7 @@ msgid "setting.profiles.moderation"
 msgstr "Moderointi"
 
 msgid "setting.profiles.moderation.description"
-msgstr "Asetukset,  joita käytetään, kun olet nykyisen kanavan moderaattori."
+msgstr "Asetukset, joita käytetään, kun olet nykyisen kanavan moderaattori."
 
 msgid "setting.profiles.new"
 msgstr "Uusi profiili"
@@ -2419,7 +2419,7 @@ msgid "settings.filter.page"
 msgstr "Nykyinen sivu"
 
 msgid "settings.filter.page.route.addons.deck"
-msgstr "Deck"
+msgstr "Pakka"
 
 msgid "settings.filter.page.route.addons.deck.tab"
 msgstr "Tab"
@@ -2494,7 +2494,7 @@ msgid "settings.filter.page.route.dir"
 msgstr "Selaa"
 
 msgid "settings.filter.page.route.dir-all"
-msgstr "Selaa lähettäviä kanavia."
+msgstr "Selaa lähettäviä kanavia"
 
 msgid "settings.filter.page.route.dir-following"
 msgstr "Seurannassa"
@@ -2533,7 +2533,7 @@ msgid "settings.filter.page.route.product"
 msgstr "Tuote"
 
 msgid "settings.filter.page.route.squad"
-msgstr "Squad"
+msgstr "Joukkue"
 
 msgid "settings.filter.page.route.turbo"
 msgstr "Turbo"
@@ -3398,3 +3398,71 @@ msgstr ""
 "Lisäosat ovat lisännäisiä moduuleja, usein muiden ihmisten kirjoittamia, "
 "jotka FrankerFaceZ voi ladata automaattisesti uusien lisäosa ja Twitch "
 "toimintojen ja käyttäytymisten lisäämiseen."
+
+#: /src/modules/main_menu/components/badge-visibility.vue:56
+#, icu-message-format, lp-defaults:"{\"count\":57}"
+msgid "setting.badges.hidden"
+msgstr ""
+"{count,plural,one{# kunniamerkki on} other{# kunniamerkkiä on} } piilotettu "
+"tässä setissä"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.behavior"
+msgstr "Käyttäytyminen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.rituals"
+msgstr "Rituaalit"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight"
+msgstr "Kohotus"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Kohota termejä"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Kohota käyttäjiä"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Termit"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Käyttäjät"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.rituals"
+msgstr "Rituaalit"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Syntaksi Apu"
+
+#: /src/modules/main_menu/components/action-editor.vue:680
+#, icu-message-format
+msgid "setting.actions.visible.hover"
+msgstr "päällä pitäessä"
+
+#: /src/modules/main_menu/components/action-editor.vue:673
+#, icu-message-format, lp-defaults:"{\"key_list\":\"Ctrl\",\"keys\":1}"
+msgid "setting.actions.visible.modifier"
+msgstr "kun {key_list} {keys, plural, one {on} other {on}} pidetty"
