@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-18 17:16+0000\n"
+"PO-Revision-Date: 2021-11-20 20:16+0000\n"
 "Last-Translator: Jonni Rauhansalo <joromonni@protonmail.com>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/fi/>\n"
@@ -70,7 +70,7 @@ msgstr "Julkinen"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
-msgstr ""
+msgstr "{count,plural,one {# Käyttäjä} other {{count,number} Käyttäjät}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -106,11 +106,13 @@ msgstr "Imgur Albumi"
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
+"{images,plural,one{# Kuva}other{# Kuvia}} • {views,plural,one{# "
+"Katsoja}other{{views,number} Katsojia}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
 msgid "embed.imgur.by"
-msgstr ""
+msgstr "{user}:lta"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -131,6 +133,8 @@ msgstr "Imgur Galleria"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
+"{posted,datetime} • {points,plural,one{# Piste}other{{points,number} "
+"Pisteet}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -185,7 +189,7 @@ msgstr "{user}:n Henkilökohtaiset Parhaat"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
-msgstr ""
+msgstr "{place,selectordinal,one {#.} two {#.} few {#.} other {#.}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -196,6 +200,9 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
+"{wrs,plural,one {# Tallenne} other {# Tallennetta}} • {runs,plural,one {# "
+"Suoritus} other {# Suoritusta}} • {games,plural,one {# Peli} other {# Peliä}}"
+" • {cats,plural,one {# Kategoria} other {# Kategoriaa}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -225,7 +232,7 @@ msgstr "Aika"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
 msgid "embed.src.with"
-msgstr ""
+msgstr "{players} kanssa"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -236,6 +243,9 @@ msgstr "Seurataan"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
+"{created,time} • {created,date} • {retweets,plural,one {# Uudelleentwiittaus}"
+" other {# Uudelleentwiittausta}} • {likes,plural,one {# Tykkäys} other {# "
+"Tykkäystä}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -246,6 +256,8 @@ msgstr "Tykkäykset"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
+"{tweets,plural,one {# Twiitti} other {# Twiittiä}} • {following,number} "
+"Seuraa • {followers,number} Seuraajaa • Liittyi {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -266,3 +278,5 @@ msgstr "Twiitit"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
+"{channel} • {views,plural,one {# Katsoja} other {{views,number} Katsojaa}} • "
+"👍 {likes,number}  • 👎 {dislikes,number}"
