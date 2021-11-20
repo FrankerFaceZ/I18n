@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-20 22:19+0000\n"
+"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
+"Language-Team: French <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/fr/>\n"
+"Language: fr\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Mettre en ligne"
@@ -1016,3 +1025,8 @@ msgstr "{length,duration} — {views,number} Vues - {date}"
 
 msgid "video.published-on"
 msgstr "Publié le: {date,date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Pas d'information disponible"
