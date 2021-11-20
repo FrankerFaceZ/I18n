@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-20 11:49+0000\n"
+"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
+"Language-Team: French <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-inline-tab-completion/fr/>\n"
+"Language: fr\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "setting.add_ons.inline_tab.appearance"
 msgstr "Apparence"
@@ -9,3 +18,14 @@ msgstr "Contenu"
 
 msgid "setting.add_ons.inline_tab.general"
 msgstr "Général"
+
+#: /src/utilities/object.js:465
+#: /src/inline-tab-completion/index.jsx:215
+#, icu-message-format, lp-defaults:"{\"pos\":5,\"total\":40}"
+msgid "addon.inlinetab.item"
+msgstr "{pos,number} sur {total,number}"
+
+#: /src/inline-tab-completion/index.jsx:181
+#, icu-message-format
+msgid "addon.inlinetab.type.command"
+msgstr "Commander"
