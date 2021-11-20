@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-20 20:16+0000\n"
-"Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
+"PO-Revision-Date: 2021-11-20 22:25+0000\n"
+"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-inline-tab-completion/fr/>\n"
 "Language: fr\n"
@@ -29,3 +29,20 @@ msgstr "{pos,number} sur {total,number}"
 #, icu-message-format
 msgid "addon.inlinetab.type.command"
 msgstr "Commande"
+
+#: /src/inline-tab-completion/index.jsx:184
+#, icu-message-format
+msgid "addon.inlinetab.type.mention"
+msgstr "Mention"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.appearance"
+msgstr "Apparence"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.general"
+msgstr "Général"
