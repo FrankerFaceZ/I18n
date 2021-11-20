@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-20 22:25+0000\n"
+"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
+"Language-Team: French <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-fullscreen-chat/fr/>\n"
+"Language: fr\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.fs-chat.button.active"
 msgstr "Désactiver le chat PÉ"
@@ -98,3 +107,14 @@ msgid "setting.entry.addon.fs-chat.width.description"
 msgstr ""
 "La largeur du chat plein écran, en pixels. Si vous connaissez le CSS, vous "
 "pouvez utiliser une autre unité de mesure."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.appearance"
+msgstr "Apparence"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.size_and_position"
+msgstr "Taille et Position"
