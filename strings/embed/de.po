@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-11-21 13:16+0000\n"
-"Last-Translator: Acursen <acursen@mailbox.org>\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/de/>\n"
 "Language: de\n"
@@ -28,7 +28,7 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.album"
-msgstr "Imgur Album"
+msgstr "Imgur-Album"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -200,3 +200,63 @@ msgid "embed.youtube.info-1"
 msgstr ""
 "{channel} • {views,plural,one {# Aufruf} other {{views,number} Aufrufe}} • 👍 "
 "{likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
+msgid "embed.imgur.by"
+msgstr "Von: {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.horaro.event-ended"
+msgstr "Event ist beendet"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.images"
+msgstr "Bilder"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":24}"
+msgid "embed.imgur.more"
+msgstr "und {count,number} weitere"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.views"
+msgstr "Aufrufe"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.metadata.untitled"
+msgstr "Unbenanntes HTML-Dokument"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":32}"
+msgid "embed.src.more"
+msgstr "(und {count} weitere)"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-cat"
+msgstr "Kategorie"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-game"
+msgstr "Spiel"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-time"
+msgstr "Zeit"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
+msgid "embed.src.with"
+msgstr "mit {players}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.retweets"
+msgstr "Retweets"
