@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-11-21 13:16+0000\n"
-"Last-Translator: Acursen <acursen@mailbox.org>\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/de/>\n"
 "Language: de\n"
@@ -128,7 +128,7 @@ msgid "chat.actions.unban.tooltip"
 msgstr "Sperre von {user.login} aufheben"
 
 msgid "chat.actions.unknown"
-msgstr "Unbekannter Aktionstyp."
+msgstr "Unbekannter Aktionstyp"
 
 msgid "chat.actions.untimeout"
 msgstr "Time-Out aufheben"
@@ -1091,3 +1091,29 @@ msgid "card.error.invalid-host"
 msgstr ""
 "Die angegebene URL hat einen ungültigen Host und kann somit nicht überprüft "
 "werden."
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr "NSFW erlauben"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr "Rohdaten"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr "Aktualisieren"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr "Test-URL"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr "Medien erlauben"
