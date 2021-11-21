@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 18:51+0000\n"
-"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"PO-Revision-Date: 2021-11-21 13:16+0000\n"
+"Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/de/>\n"
 "Language: de\n"
@@ -29,3 +29,174 @@ msgstr ""
 #, icu-message-format
 msgid "embed.imgur.album"
 msgstr "Imgur Album"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.gallery"
+msgstr "Imgur-Gallerie"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
+msgid "embed.bttv.by-line"
+msgstr "Von: {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
+msgid "embed.imgur.gallery-extra"
+msgstr ""
+"{posted,datetime} • {points,plural,one{# Punkt}other{{points,number} Punkte}}"
+" • 👍 {likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
+msgid "embed.src.joined"
+msgstr "Beigetreten am {when}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
+msgid "embed.twitter.profile-line"
+msgstr ""
+"{tweets,plural,one {# Tweet} other {# Tweets}} • {following,number} Folge "
+"ich • {followers,number} Follower • Beigetreten am {joined,date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.animated-emote"
+msgstr "Animiertes Emote"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.status.approved"
+msgstr "Genehmigt"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
+msgid "embed.ffz.by-line"
+msgstr "Von: {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.emote"
+msgstr "Emote"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.public"
+msgstr "Öffentlich"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.users"
+msgstr "Benutzer"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":1423}"
+msgid "embed.ffz.user-line"
+msgstr "{count,plural,one {# Benutzer} other {{count,number} Benutzer}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgid "embed.horaro.ended"
+msgstr "Beendet {when}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.horaro.last"
+msgstr "Zuletzt"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgid "embed.horaro.range"
+msgstr "{start} bis {end}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
+msgid "embed.imgur.album-stats"
+msgstr ""
+"{images,plural,one{# Bild}other{# Bilder}} • {views,plural,one{# "
+"Aufruf}other{{views,number} Aufrufe}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.dislikes"
+msgstr "Downvotes"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.uploader"
+msgstr "Uploader"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.likes"
+msgstr "Upvotes"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.score"
+msgstr "Score"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.igt"
+msgstr "IGT"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"place\":47}"
+msgid "embed.src.place"
+msgstr "{place, number}."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
+msgid "embed.src.pbs"
+msgstr "Bestzeiten von {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.rt"
+msgstr "RT"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
+msgid "embed.src.subtitle"
+msgstr ""
+"{wrs,plural,one {# Rekord} other {# Rekorde}} • {runs,plural,one {# Run} "
+"other {# Runs}} • {games,plural,one {# Spiel} other {# Spiele}} • {"
+"cats,plural,one {# Kategorie} other {# Kategorien}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-place"
+msgstr "Platz"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-submitted"
+msgstr "Eingereicht"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.following"
+msgstr "Folge ich"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.likes"
+msgstr "„Gefällt mir“-Angaben"
+
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
+msgid "embed.twitter.tweeted"
+msgstr "Twittert: {tweet}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.tweets"
+msgstr "Tweets"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
+msgid "embed.youtube.info-1"
+msgstr ""
+"{channel} • {views,plural,one {# Aufruf} other {{views,number} Aufrufe}} • 👍 "
+"{likes,number}  • 👎 {dislikes,number}"
