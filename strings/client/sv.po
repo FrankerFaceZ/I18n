@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-11-26 16:16+0000\n"
+"Last-Translator: Jim Ottesen <social@jimthesfn.one>\n"
+"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Ladda Upp"
@@ -167,8 +176,7 @@ msgstr "Pausa Chatten"
 msgid "chat.settings.pause-explain"
 msgstr ""
 "FrankerFaceZ upphäver beteendet av Pausa Chatten helt och hållet. Vänligen "
-"använd FFZ's Scroll-inställningar under Chat >  Beteende, i FFZ "
-"Kontrollcenter "
+"använd FFZ's Scroll-inställningar under Chat > Beteende, i FFZ Kontrollcenter"
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "En anonym givare"
@@ -181,7 +189,7 @@ msgstr ""
 msgid "chat.sub.gift"
 msgstr ""
 "{user} skänker {count, number} Nivå {tier} Prenumeration{count,en_plural} "
-"till {channel}'s gemenskap!"
+"till {channel}'s gemenskap! "
 
 msgid "chat.sub.gift-first"
 msgstr "Det är deras första gång som givare av en Prenumeration i kanalen!"
@@ -215,7 +223,7 @@ msgstr "{user} spelar {game}"
 
 msgid "clip.desc.2"
 msgstr ""
-"Clippad av {curator}  — {views,plural,=0 {Inga Visningar} one {En Visning} "
+"Clippad av {curator} — {views,plural,=0 {Inga Visningar} one {En Visning} "
 "other {# Visningar}}"
 
 msgid "clip.unknown"
@@ -585,7 +593,7 @@ msgid "metadata.uptime.subtitle"
 msgstr "Upptid"
 
 msgid "metadata.uptime.tooltip"
-msgstr "quaStream Upptid"
+msgstr "Stream Upptid"
 
 msgid "page.next"
 msgstr "Nästa Sida"
@@ -677,7 +685,9 @@ msgid "tooltip.link-destination"
 msgstr "Destination: {url}"
 
 msgid "tooltip.link-unsafe"
-msgstr "Varning: Denna URL'en finns på Google's Safe Browsing List för: {reasons}"
+msgstr ""
+"Varning: Denna URL:en har blivit flaggad som potentiellt farlig för: "
+"{reasons}"
 
 msgid "tooltip.render-error"
 msgstr ""
@@ -703,3 +713,617 @@ msgid "video.desc.2"
 msgstr ""
 "{length,duration} — {views,plural,=0 {Inga Visningar} one {# Visning} other "
 "{# Visningar}} - {date,datetime}"
+
+#, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
+msgid "chat.sub.gift-months"
+msgstr ""
+"{user} skänker {months, plural, one {# month} other {# months}} av {plan} "
+"Prenumeration till {recipient}!"
+
+#, icu-message-format
+msgid "channel.links.clips"
+msgstr "Klipp"
+
+#: /src/modules/chat/badges.jsx:366
+#, icu-message-format, lp-defaults:"{\"title\":\"2-Year Subscriber\",\"tier\":3,\"months\":\"55\"}"
+msgid "badges.subscriber.tier-months"
+msgstr ""
+"{title}\n"
+"(Tier {tier}, {months, plural, one {# Month} other {# Months}})"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Ingen information tillgänglig"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "Den angivna URL-adressen har en ogiltig värd och kan inte kontrolleras."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+"Den angivna URL-adressen har en icke-standardiserad port och kommer inte att "
+"kontrolleras."
+
+#: /src/modules/chat/rich_providers.js:119
+#: /src/modules/chat/rich_providers.js:123
+#, icu-message-format, lp-defaults:"{\"views\":33736583,\"followers\":167372}"
+msgid "cards.user.stats"
+msgstr "Visningar: {views,number} • Följare: {followers,number}"
+
+#: /src/modules/chat/actions/types.jsx:245
+#, icu-message-format, lp-defaults:"{\"user.login\":\"sirstendec\"}"
+msgid "chat.actions.unban.tooltip"
+msgstr "Avbanna {user.login}"
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.site"
+msgstr "Vänligen besök {website} för att ändra detta märket."
+
+#: /src/modules/chat/overrides.js:94
+#: /src/modules/chat/override-editor.vue:97
+#, icu-message-format
+msgid "chat.overrides.color"
+msgstr "Färg"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:718
+#, icu-message-format, lp-defaults:"{\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
+msgid "chat.points.redeemed"
+msgstr "Inlösta {reward} {cost}"
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:428
+#, icu-message-format
+msgid "compat.bttv.emotes-on"
+msgstr ""
+"Du har \"FrankerFaceZ Emotes\" påslaget i BetterTTV's inställningar, men du "
+"har också FrankerFaceZ installerat. Vänligen stäng av \"FrankerFaceZ Emotes\""
+" i BetterTTV's inställningar. Det är inte nödvändigt."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.travel_places"
+msgstr "Resa & Platser"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
+#, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
+msgid "emote-menu.emote-follower"
+msgstr "Följ {user} för att låsa upp denna emote i deras kanal."
+
+#: /src/modules/chat/badges.jsx:287:15
+#, icu-message-format, lp-defaults:"{\"title\":\"Subscriber\",\"count\":\"1\"}"
+msgid "badges.subscriber.months"
+msgstr ""
+"{title}\n"
+"({count, plural, one {# Month} other {# Months}})"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
+#, icu-message-format
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+"Emote Synlighetskontroll tillåter dig att gömma emotes från din emote meny, "
+"antingen individuellt eller i grupp. När Emote Synlighetskontroll är "
+"aktiverad, bara klicka på en emote för att dölja eller att icke dölja den. "
+"Vänligen observera att du fortfarande kommer att se emotes i din chatt om "
+"någon använder dem, men de kommer inte visas i den emote meny."
+
+#, icu-message-format
+msgid "i18n.ui.invalid"
+msgstr "Ogiltiga Strängar"
+
+#: /src/modules/translation_ui/index.js:77
+#: /src/modules/translation_ui/components/translation-ui.vue:202
+#, icu-message-format
+msgid "i18n.ui.popout"
+msgstr "Öppna Översättningsredigeraren i ett Nytt Fönster"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
+#, icu-message-format
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr "Automatiskt hosta av kanaler från din hostlista när du är offline."
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:516
+#, icu-message-format
+msgid "metadata.host.setting.strategy.description"
+msgstr "När den är aktiverad, host kanaler väljs slumpmässigt från listan."
+
+#: /src/modules/metadata.jsx:319
+#, icu-message-format, lp-defaults:"{\"rate\":\"1.03\"}"
+msgid "metadata.player-stats.rate-warning"
+msgstr "Spela med {rate,number}x hastighet för att minska fördröjningen."
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1014
+#, icu-message-format
+msgid "player.comp_button.disabled"
+msgstr "Ljudkompressorn kan inte aktiveras när du tittar på Klipp."
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1115
+#, icu-message-format
+msgid "player.comp_button.firefox"
+msgstr ""
+"Kontrollerna för Uppspelningshastigheten kommer inte att fungera för Firefox "
+"användare när Kompressorn är aktiverad."
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:321
+#, icu-message-format
+msgid "site.menu_button.changed"
+msgstr ""
+"FrankerFaceZ inställningsleverantör har ändrats. Vänligen uppdatera den här "
+"fliken för att undvika konstiga beteenden."
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.ping"
+msgstr "Ping"
+
+#, icu-message-format
+msgid "tooltip.link.urls"
+msgstr "Besökta URL:er"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+"Den angivna URL-adressen använder inte HTTP och kommer inte kontrolleras."
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "card.error.timeout"
+msgstr "Förfrågan tog för lång tid."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Ingen hanterare stödjer denna URL-adressen."
+
+#, icu-message-format
+msgid "channel.links.schedule"
+msgstr "Schema"
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "streamar {game}"
+
+#, icu-message-format
+msgid "channel.links.videos"
+msgstr "Videor"
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
+#, icu-message-format
+msgid "chat.identity-menu"
+msgstr "Chatt Identitet"
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:296
+#, icu-message-format
+msgid "chat.ffz-badge.site-link"
+msgstr "FrankerFaceZ hemsida"
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
+#, icu-message-format
+msgid "chat.ffz-badge.title"
+msgstr "FrankerFaceZ Märke"
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.about"
+msgstr ""
+"Detta märket visas globalt för alla användare med FrankerFaceZ. Vänligen "
+"besök {website} för att ändra detta märket."
+
+#: /src/sites/twitch-twilight/modules/chat/scroller.js:587:11
+#, icu-message-format
+msgid "chat.messages-below"
+msgstr "Chatten Pausad på grund av Skrollning"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:855
+#, icu-message-format, lp-defaults:"{\"count\":100}"
+msgid "chat.bits-message"
+msgstr "Cheerade {count, plural, one {# Bit} other {# Bits}}"
+
+#: /src/modules/chat/override-editor.vue:23
+#, icu-message-format, lp-defaults:"{\"user.login\":\"SirStendec\"}"
+msgid "chat.overrides.editing"
+msgstr "Redigera {user.login}..."
+
+#: /src/modules/chat/overrides.js:94
+#: /src/modules/chat/override-editor.vue:45
+#, icu-message-format
+msgid "chat.overrides.name"
+msgstr "Namn"
+
+#: /src/sites/twitch-twilight/modules/chat/scroller.js:581:11
+#, icu-message-format, lp-defaults:"{\"reason\":\"Ctrl or Mouse\"}"
+msgid "chat.paused"
+msgstr "Chatten Pausad på grund av {reason}"
+
+#, icu-message-format
+msgid "chat.points.modify-emote"
+msgstr "Modifiera en Enskild Emote"
+
+#, icu-message-format
+msgid "chat.points.random-emote"
+msgstr "Lås upp en Slumpmässig Prenumerations Emote"
+
+#, icu-message-format
+msgid "chat.points.reward"
+msgstr "Belöning"
+
+#, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
+msgid "chat.points.user-redeemed"
+msgstr "{user} löste in {reward} {cost}"
+
+#: /src/modules/chat/tokenizers.jsx:274
+#, icu-message-format
+msgid "chat.reply-to"
+msgstr "Svarar På:"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:623:8
+#, icu-message-format
+msgid "chat.sub.twitch-prime"
+msgstr "med Prime Gaming"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr "Tillåt Media"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr "Tillåt Olämpligt Innehåll"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr "Tvinga Verktygstips"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr "Fullständig Inbäddning"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr "Rå Data"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr "Uppdatera"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.animals_nature"
+msgstr "Djur & Natur"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.food_drink"
+msgstr "Mat & Dryck"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.smileys_emotion"
+msgstr "Smileys & Känslor"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.people_body"
+msgstr "Människor"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr "Rik Inbäddning"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr "Chatt Länk"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr "Test URL"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
+#, icu-message-format
+msgid "emote-menu.toggle-hide.off"
+msgstr "Emote Synlighetskontroll"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2071
+#, icu-message-format
+msgid "emote-menu.toggle-hide.on"
+msgstr "Avsluta Emote Synlighetskontroll"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:677
+#, icu-message-format
+msgid "emote-menu.visibility.hidden"
+msgstr "Gömd"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:678
+#, icu-message-format
+msgid "emote-menu.visibility.visible"
+msgstr "Synlig"
+
+#: /src/modules/chat/tokenizers.jsx:1063
+#, icu-message-format
+msgid "emote.2fa"
+msgstr "Twitch 2FA Emote"
+
+#: /src/modules/chat/tokenizers.jsx:1052
+#, icu-message-format
+msgid "emote.bits"
+msgstr "Twitch Cheer Belöning"
+
+#: /src/modules/chat/tokenizers.jsx:1054
+#, icu-message-format, lp-defaults:"{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}"
+msgid "emote.bits-owner"
+msgstr ""
+"{source}\n"
+"Kanal: {channel}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr "Godkänd"
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr "Följare Emote ({source})"
+
+#: /src/modules/chat/tokenizers.jsx:1041:14
+#, icu-message-format
+msgid "emote.prime"
+msgstr "Prime Gaming"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.badge"
+msgstr "Markera Märke"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.mention"
+msgstr "Nämnad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.term"
+msgstr "Markera Term"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.user"
+msgstr "Markera Användare"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
+#, icu-message-format
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr "Automatisk Hosting"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:492
+#, icu-message-format
+msgid "metadata.host.setting.strategy.title"
+msgstr "Slumpa Host Ordningen"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:358
+#, icu-message-format
+msgid "metadata.host.setting.team-hosting.description"
+msgstr "Inkludera team kanaler i din host lista."
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:334
+#, icu-message-format
+msgid "metadata.host.setting.team-hosting.title"
+msgstr "Team Hostar"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
+#, icu-message-format
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr ""
+"Inkludera kanaler som streamar förinspelad video, som Premiärer eller "
+"Repriser"
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
+#, icu-message-format
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr "Hosta förinspelade videon"
+
+#: /src/modules/metadata.jsx:110
+#, icu-message-format
+msgid "metadata.viewers"
+msgstr "Antal Tittare"
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1016
+#, icu-message-format
+msgid "player.comp_button.help"
+msgstr ""
+"Se FFZ Kontroll Center för detaljer. Om problem med ljudet, återställ "
+"spelaren."
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1002
+#, icu-message-format
+msgid "player.comp_button.off"
+msgstr "Inaktivera Ljudkompressorn"
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1003
+#, icu-message-format
+msgid "player.comp_button.on"
+msgstr "Ljudkompressorn"
+
+#: /src/sites/shared/player.jsx:1113
+#: /src/sites/shared/player.jsx:1172
+#, icu-message-format
+msgid "player.gain.label"
+msgstr "Förstärkningskontrollen"
+
+#: /src/sites/twitch-twilight/modules/player.jsx:865
+#, icu-message-format
+msgid "player.pip_button.fs"
+msgstr "Kan inte använda Bild-i-Bild när du använder Helskärm."
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:333
+#, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
+msgid "site.menu_button.no-settings"
+msgstr ""
+"Inställningar är inaktiverade på den här fliken eftersom \"{param}\" ingår i "
+"URL:en."
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:441
+#, icu-message-format
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+"Din lokala lagringsutrymme för den här webbplatsen är full och inställningar "
+"kan inte sparas. Vänligen gör en säkerhetskopia av dina inställningar och "
+"byt till en leverantör med högre kapacitet i [Datahantering > Lagring "
+">>Leverantör] (~data_management.storage.tabs.provider)."
+
+#: /src/modules/main_menu/components/socket-info.vue:151
+#, icu-message-format
+msgid "socket.info.command"
+msgstr "Kommando"
+
+#: /src/modules/main_menu/components/socket-info.vue:243
+#, icu-message-format
+msgid "socket.info.connected"
+msgstr "ansluten"
+
+#: /src/modules/main_menu/components/socket-info.vue:247
+#, icu-message-format
+msgid "socket.info.disconnected"
+msgstr "bortkopplad"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.local_time"
+msgstr "Lokal Tid"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.server"
+msgstr "Server"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.server_time"
+msgstr "Server Tid"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.state"
+msgstr "Tillstånd"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.stats.authenticated"
+msgstr "Autentiserad"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.connected_clients"
+msgstr "Anslutna Klienter"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.live_clients"
+msgstr "Liveklienter"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.total_commands"
+msgstr "Kommando"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.total_messages"
+msgstr "Meddelanden"
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.versions"
+msgstr "Klient Versioner"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.time_offset"
+msgstr "Tidsförskjutning"
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.topics"
+msgstr "Ämnen"
+
+#: /src/modules/main_menu/components/socket-info.vue:119
+#, icu-message-format
+msgid "socket.info.version"
+msgstr "Version"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
+#, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
+msgid "emote-menu.emote-cheer"
+msgstr ""
+"Cheera ytterligare {bits_remaining, plural, one {# bit} other {# bits}} för "
+"att låsa upp denna emote."
+
+#, icu-message-format
+msgid "tooltip.shift-detail"
+msgstr "(Skift för Detaljer)"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Ett nätverksfel uppstod."
+
+#: /src/modules/main_menu/components/action-editor.vue:579
+#, icu-message-format
+msgid "chat.actions.edit_overrides.desc"
+msgstr ""
+"Låter dig ställa in lokala åsidosättningar för en användares namn och färg i "
+"chatten."
+
+#: /src/modules/chat/actions/types.jsx:21
+#, icu-message-format
+msgid "chat.actions.edit_overrides"
+msgstr "Ändra Namn & Färg"
+
+#: /src/modules/chat/actions/types.jsx:24
+#, icu-message-format
+msgid "chat.actions.reply"
+msgstr "Svara på Meddelande"
+
+#: /src/modules/main_menu/components/action-editor.vue:595
+#, icu-message-format
+msgid "chat.actions.reply.desc"
+msgstr ""
+"Gör att du kan svara direkt på en annan användares meddelande. Fungerar "
+"endast när Chat Svars Stilen är \"FrankerFaceZ\"."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:559
+#, icu-message-format
+msgid "chat.actions.reply.thread"
+msgstr "Öppen Tråd"
+
+#: /src/sites/twitch-twilight/modules/chat/points.js:33
+#, icu-message-format
+msgid "chat.points.highlighted"
+msgstr "Lyft fram Mitt Meddelande"
+
+#: /src/modules/main_menu/components/socket-info.vue:154
+#: /src/modules/main_menu/components/socket-info.vue:122
+#, icu-message-format
+msgid "socket.info.count"
+msgstr "Räkna"
+
+#: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
+#, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
+msgid "video.published-on"
+msgstr "Publicerad på: {date,date}"
