@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-11 23:34+0000\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"Language-Team: German <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-fullscreen-chat/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.fs-chat.button.active"
 msgstr "FS Chat deaktivieren"
@@ -101,3 +110,65 @@ msgstr ""
 "Wie breit der FS Chat in Pixel sein soll. Standardmäßig wird die normale "
 "Chatbreite verwendet. Wenn du dich mit CSS auskennst, kannst du auch eine "
 "andere Einheit eingeben."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat"
+msgstr "FS Chat"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height"
+msgstr "Höhe"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal"
+msgstr "Minimaler Modus"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.metadata"
+msgstr "Metadatenposition"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.appearance"
+msgstr "Erscheinungsbild"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.behavior"
+msgstr "Verhalten"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.size_and_position"
+msgstr "Größe und Position"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur"
+msgstr "Hintergrundunschärfe"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:180
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur.description"
+msgstr ""
+"**Hinweis:** Unschärfe kann je nach Browser- und PC-Spezifikation zu "
+"Leistungseinbußen führen."
+
+#: /src/modules/main_menu/components/setting-color-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.color"
+msgstr "Hintergrundfarbe"
