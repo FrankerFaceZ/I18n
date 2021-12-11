@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-11 23:34+0000\n"
-"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-fullscreen-chat/de/>\n"
 "Language: de\n"
@@ -172,3 +172,25 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.bg.color"
 msgstr "Hintergrundfarbe"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.automatic"
+msgstr "Automatisch den FS-Chat öffnen, wenn der Vollbildmodus aufgerufen wird."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height.description"
+msgstr ""
+"Wie hoch der FS-Chat in Pixel sein soll. Wenn du dich mit CSS auskennst, "
+"kannst du auch eine andere Einheit eingeben."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal.description"
+msgstr ""
+"Dies versteckt die Kopfzeile des Chats und die Eingabeschaltflächen, wenn "
+"der FS-Chat geöffnet ist."
