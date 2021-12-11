@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-12 17:11+0000\n"
+"Last-Translator: PixelBeast <jacobweiss.mm@gmail.com>\n"
+"Language-Team: German <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-ffzap-core/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.ffzap-core.highlight-sound.custom-file"
 msgstr "Benutzerdefiniert (Datei)"
@@ -163,3 +172,167 @@ msgid "setting.entry.ffzap.core.remove_spaces.description"
 msgstr ""
 "Leerzeichen zwischen den Emotes entfernen, wenn diese direkt "
 "aufeinanderfolgen (z. B. kombinierte Emotes)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "FFZ:AP Kern"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Sound-Trigger-Einstellungen"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Höre jedes Mal einen Sound, wenn eine Nachricht hervorgehoben wird."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Spiele einen Benachrichtigungssound, wenn ein Abzeichen von den "
+"\"Hervorgehobenen Abzeichen\" hervorgehoben wird."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Spiele einen Benachrichtigungssound, wenn ein neuer Account hervorgehoben "
+"wird. (Benötigt \"Neuer Account Highlighter\" Add-on)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr ""
+"Ändere den Sound, der abgespielt wird, wenn ein Sound-Trigger aktiviert wird."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Nachrichten werden vollständig aus dem Chat entfernt, wenn sie nicht von "
+"einem Benutzer mit diesem oder höherem Level gesendet wurden."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Ändere die Lautstärke des Benachrichtigungssounds."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Emotes"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Sounds hervorheben"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Benachrichtigungssound aktivieren"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Ton"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Auf eigenem Kanal verhindern"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Verhindert, dass der Sound auf dem eigenen Kanal abgespielt wird."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
+msgstr "Spiele, wenn Abzeichen hervorgehoben"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Spiele, wenn erwähnt"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr ""
+"Spiele einen Benachrichtigungssound wenn du im Chat mit deinem Benutzernamen "
+"erwähnt wurdest."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term"
+msgstr "Spiele, wenn Begriff hervorgehoben"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Spiele einen Benachrichtigungssound, wenn ein Begriff von den "
+"\"Hervorgehobenen Begriffen\" hervorgehoben wird."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user"
+msgstr "Spiele, wenn Benutzer hervorgehoben"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Spiele, wenn neuer Account hervorgehoben"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Spiele einen Benachrichtigungssound, wenn ein Benutzer von den "
+"\"Hervorgehobenen benutzern\" hervorgehoben wird."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Abspielen, wenn"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Einen Benachrichtigungssound abspielen, wenn eine Chatzeile aus einem der "
+"markierten Gründe hervorgehoben wird."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Benachrichtigungssoundlautstärke"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Benutzerlevel Filterung für Nachrichten"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "Leerzeichen zwischen Emotes entfernen"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces.description"
+msgstr ""
+"Entfernt Leerzeichen zwischen den Emotes, wenn sie direkt aufeinanderfolgen. "
+"(z. B. kombinierte Emotes)"
