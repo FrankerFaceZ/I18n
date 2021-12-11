@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-12 17:11+0000\n"
+"Last-Translator: PixelBeast <jacobweiss.mm@gmail.com>\n"
+"Language-Team: German <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-deck/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "addon.deck.title"
 msgstr "Deck"
@@ -18,3 +27,742 @@ msgstr "Einstellungen beim Anlegen einer neuen Spalte automatisch öffnen."
 
 msgid "setting.entry.deck.link"
 msgstr "Deck-Verknüpfung zur Navigationsleiste hinzufügen."
+
+#: /src/deck/components/bd-tab-editor.vue:33
+#, icu-message-format, lp-defaults:"{\"count\":4}"
+msgid "addon.deck.column-count"
+msgstr "{count, plural, one {# Spalte} other {# Spalten} }"
+
+#: /src/deck/components/bd-column.vue:121
+#: /src/deck/components/bd-column.vue:153
+#, icu-message-format, lp-defaults:"{\"count\":1}"
+msgid "addon.deck.sub.tags"
+msgstr "{count, plural, one {# Tag} other {# Tags}}"
+
+#: /src/deck/components/bd-column.vue:290
+#, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
+msgid "addon.deck.auto-refresh"
+msgstr "Automatische Aktualisierung in {delay}"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip-tip"
+msgstr "Diese Spalte zeigt Clips aus einer bestimmten Kategorie an."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live-tip"
+msgstr ""
+"Diese Spalte zeigt Live-Kanäle, die in einer bestimmten Kategorie streamen. "
+"Beispielsweise kannst du eine Spalte erstellen, die alle Kanäle zeigt, die "
+"Super Mario 64 spielen."
+
+#: /src/deck/components/browse-deck.vue:361
+#: /src/deck/components/bd-tab-editor.vue:199
+#, icu-message-format
+msgid "addon.deck.default-tab"
+msgstr "Standard-Tab"
+
+#: /src/deck/components/bd-column-editor.vue:350
+#, icu-message-format
+msgid "addon.deck.edit.default_count"
+msgstr "Standardgröße:"
+
+#: /src/deck/components/bd-column-editor.vue:678
+#, icu-message-format
+msgid "addon.deck.edit.viewers"
+msgstr "Zuschauer / Aufrufe ausblenden."
+
+#: /src/deck/components/bd-column.vue:504
+#, icu-message-format, lp-defaults:"{\"removed\":1,\"total\":11}"
+msgid "addon.deck.end-filtered"
+msgstr ""
+"({removed,number} of {total, plural, one {# Element wurde} other {# Elemente "
+"wurden} } durch clientseitige Filterung ausgeblendet.)"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.hosted.live-tip"
+msgstr ""
+"Diese Spalte zeigt Live-Kanäle, die von Kanälen, denen du folgst, gehostet "
+"werden."
+
+#: /src/deck/components/browse-deck.vue:550
+#, icu-message-format
+msgid "addon.deck.intro"
+msgstr ""
+"Willkommen beim Deck - der besten Möglichkeit, Inhalte auf Twitch zu "
+"entdecken.\n"
+"\n"
+"Beginne mit dem Hinzufügen einer Spalte über die Schaltfläche \"Neu...\"."
+
+#: /src/deck/components/bd-edit-video-channel.vue:65
+#, icu-message-format
+msgid "addon.deck.no-live"
+msgstr "Zeige die Live-Übertragung des Kanals nicht an, wenn sie streamen."
+
+#: /src/deck/components/bd-column.vue:699
+#, icu-message-format
+msgid "addon.deck.no-state"
+msgstr "(was tue ich)"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.recommended.live-tip"
+msgstr ""
+"Diese Spalte zeigt Live-Kanäle, die Twitch basierend auf deinem Verlauf für "
+"dich empfiehlt."
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers"
+msgstr "Zuschauer (Absteigend)"
+
+#: /src/deck/components/bd-column.vue:122
+#: /src/deck/components/bd-column.vue:154
+#, icu-message-format, lp-defaults:"{\"count\":2}"
+msgid "addon.deck.sub.users"
+msgstr "{count, plural, one {# Benutzer} other {# Benutzer}}"
+
+#: /src/deck/components/bd-edit-video.vue:85
+#, icu-message-format
+msgid "addon.deck.video-types"
+msgstr "Videotypen:"
+
+#: /src/deck/components/bd-live-card.vue:21
+#: /src/deck/components/bd-live-shelf-card.vue:132
+#: /src/deck/components/bd-host-card.vue:17
+#, icu-message-format, lp-defaults:"{\"viewers\":49}"
+msgid "addon.deck.viewers"
+msgstr "{viewers, plural, one {# Zuschauer} other {# Zuschauer}}"
+
+#: /src/deck/components/bd-shelf.vue:181
+#, icu-message-format
+msgid "addon.deck.show-less"
+msgstr "Weniger anzeigen"
+
+#: /src/deck/components/bd-shelf.vue:162
+#, icu-message-format
+msgid "addon.deck.show-more"
+msgstr "Mehr anzeigen"
+
+#: /src/deck/components/bd-column-editor.vue:89
+#, icu-message-format
+msgid "addon.deck.cancel"
+msgstr "Abbrechen"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category"
+msgstr "Kategorie"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip"
+msgstr "Clips"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live"
+msgstr "Streams"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.video"
+msgstr "Videos"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.video-tip"
+msgstr "Diese Spalte zeigt Videos in einer bestimmten Kategorie an."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel"
+msgstr "Kanal"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.clip-tip"
+msgstr "Diese Spalte zeigt Clips von einem bestimmten Kanal an."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.video-tip"
+msgstr "Diese Spalte zeigt Videos von einem bestimmten Kanal an."
+
+#: /src/deck/components/bd-column.vue:384
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.clip-category"
+msgstr "{name} Clips"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.24-hours"
+msgstr "24 Stunden"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.30-days"
+msgstr "30 Tage"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.7-days"
+msgstr "7 Tage"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.clip-period.7d"
+msgstr "7 Tage"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.all-time"
+msgstr "Gesamter Zeitraum"
+
+#, icu-message-format, lp-defaults:"{\"user\":null}"
+msgid "addon.deck.clipped-by"
+msgstr "Clip erstellt von {user}"
+
+#: /src/deck/components/bd-column-editor.vue:133
+#, icu-message-format
+msgid "addon.deck.copy"
+msgstr "Kopieren"
+
+#: /src/deck/components/bd-column-editor.vue:159
+#: /src/deck/components/bd-column-editor.vue:110
+#, icu-message-format
+msgid "addon.deck.delete"
+msgstr "Löschen"
+
+#: /src/deck/components/bd-column-editor.vue:228
+#, icu-message-format
+msgid "addon.deck.edit.appearance"
+msgstr "Erscheinungsbild"
+
+#: /src/deck/components/bd-column-editor.vue:600
+#, icu-message-format
+msgid "addon.deck.edit.avatars"
+msgstr "Avatare nicht anzeigen."
+
+#: /src/deck/components/bd-column-editor.vue:700
+#, icu-message-format
+msgid "addon.deck.edit.behavior"
+msgstr "Verhalten"
+
+#: /src/deck/components/bd-column-editor.vue:402
+#, icu-message-format
+msgid "addon.deck.edit.card-width"
+msgstr "Kartengröße:"
+
+#: /src/deck/components/bd-edit-channel.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channel"
+msgstr "Kanal:"
+
+#: /src/deck/components/bd-edit-channels.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channels"
+msgstr "Kanäle:"
+
+#: /src/deck/components/bd-column-editor.vue:313
+#, icu-message-format
+msgid "addon.deck.edit.color"
+msgstr "Farbe:"
+
+#: /src/deck/components/bd-column-editor.vue:359
+#, icu-message-format
+msgid "addon.deck.edit.column"
+msgstr "Spalte bearbeiten"
+
+#: /src/deck/components/bd-column-editor.vue:345
+#, icu-message-format
+msgid "addon.deck.edit.columns"
+msgstr "Spalten:"
+
+#: /src/deck/components/bd-edit-count.vue:11
+#, icu-message-format
+msgid "addon.deck.edit.count"
+msgstr "Anzahl:"
+
+#: /src/deck/components/bd-edit-category.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.game"
+msgstr "Kategorie:"
+
+#: /src/deck/components/bd-tab-editor.vue:129
+#: /src/deck/components/bd-column-editor.vue:285
+#, icu-message-format
+msgid "addon.deck.edit.icon"
+msgstr "Symbol:"
+
+#: /src/deck/components/bd-column-editor.vue:483
+#, icu-message-format
+msgid "addon.deck.edit.max-tags"
+msgstr "Tags anzeigen:"
+
+#: /src/deck/components/bd-edit-clip.vue:10
+#, icu-message-format
+msgid "addon.deck.edit.period"
+msgstr "Zeitraum:"
+
+#: /src/deck/components/bd-column-editor.vue:719
+#, icu-message-format
+msgid "addon.deck.edit.refresh"
+msgstr "Automatische Aktualisierung:"
+
+#: /src/deck/components/bd-column-editor.vue:826
+#, icu-message-format
+msgid "addon.deck.edit.required-tags"
+msgstr "Erforderliche Tags:"
+
+#: /src/deck/components/bd-edit-search.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.search"
+msgstr "Suche:"
+
+#: /src/deck/components/bd-tab-editor.vue:192
+#, icu-message-format
+msgid "addon.deck.edit.sidebar"
+msgstr "Tab als Seitennavigation verwenden"
+
+#: /src/deck/components/bd-column-editor.vue:789
+#, icu-message-format
+msgid "addon.deck.edit.sort"
+msgstr "Sortieren nach:"
+
+#: /src/deck/components/bd-tab-editor.vue:163
+#, icu-message-format
+msgid "addon.deck.edit.tags"
+msgstr "Tags:"
+
+#: /src/deck/components/bd-edit-team.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.team"
+msgstr "Team:"
+
+#: /src/deck/components/bd-tab-editor.vue:86
+#: /src/deck/components/bd-column-editor.vue:240
+#, icu-message-format
+msgid "addon.deck.edit.title"
+msgstr "Titel:"
+
+#: /src/deck/components/bd-column.vue:491
+#, icu-message-format
+msgid "addon.deck.end"
+msgstr "Du hast das Ende erreicht."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.featured"
+msgstr "Vorgestellt"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.featured.live-tip"
+msgstr ""
+"Diese Spalte zeigt vorgestellte Live-Kanäle.\n"
+"\n"
+"Vorgestellte Kanäle werden üblicherweise oben auf der Twitch-Startseite im "
+"Karussell angezeigt."
+
+#: /src/deck/components/browse-deck.vue:446
+#, icu-message-format
+msgid "addon.deck.filtered"
+msgstr "Gefiltert nach"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed"
+msgstr "Gefolgt"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed.live-tip"
+msgstr "Diese Spalte zeigt Live-Kanäle, denen du folgst."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed.video-tip"
+msgstr "Diese Spalte zeigt Kanäle, denen du folgst."
+
+#: /src/deck/components/bd-column.vue:352
+#, icu-message-format
+msgid "addon.deck.go-to-top"
+msgstr "Zurück nach oben"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.hosted"
+msgstr "Gehostet"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.live-category"
+msgstr "{name} Streams"
+
+#: /src/deck/components/browse-deck.vue:191
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-channels"
+msgstr "Live-Kanäle"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.live-channels.tip"
+msgstr ""
+"Diese Spalte zeigt alle Live-Kanäle auf Twitch. Dies ist nützlich, um nach "
+"bestimmten Tags zu filtern."
+
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-featured"
+msgstr "Vorgestellte Streams"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-followed"
+msgstr "Gefolgte Streams"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-hosted"
+msgstr "Gehostete Streams"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-recommended"
+msgstr "Empfohlene Streams"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recent"
+msgstr "Kürzlich gestartet"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recommended"
+msgstr "Für dich empfohlen"
+
+#: /src/utilities/dialog.js:150
+#: /src/deck/components/bd-column.vue:678
+#: /src/deck/index.jsx:335
+#, icu-message-format
+msgid "addon.deck.loading"
+msgstr "Lädt..."
+
+#: /src/deck/components/bd-column.vue:433
+#, icu-message-format
+msgid "addon.deck.need-config"
+msgstr "Du musst diese Spalte noch fertig konfigurieren."
+
+#: /src/deck/components/browse-deck.vue:54
+#, icu-message-format
+msgid "addon.deck.new"
+msgstr "Neu..."
+
+#: /src/deck/components/bd-tab-settings.vue:51
+#, icu-message-format
+msgid "addon.deck.new-sidebar"
+msgstr "Neuer Seitenleisten-Tab"
+
+#: /src/deck/components/bd-tab-settings.vue:49
+#, icu-message-format
+msgid "addon.deck.new-tab"
+msgstr "Neuer Tab"
+
+#: /src/deck/components/bd-edit-video.vue:69
+#, icu-message-format
+msgid "addon.deck.no-recordings"
+msgstr "Zeige keine Videos von laufenden Übertragungen an."
+
+#: /src/deck/components/bd-tag-selector.vue:36
+#, icu-message-format
+msgid "addon.deck.no-tags"
+msgstr "keine Tags"
+
+#: /src/deck/components/bd-channel-selector.vue:44
+#, icu-message-format
+msgid "addon.deck.no-users"
+msgstr "keine Benutzer"
+
+#: /src/deck/components/bd-column.vue:232
+#: /src/deck/components/bd-column.vue:459
+#, icu-message-format
+msgid "addon.deck.open-settings"
+msgstr "Einstellungen öffnen"
+
+#: /src/deck/components/bd-video-card.vue:77
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published"
+msgstr "Veröffentlicht am {published,date} um {published,time}"
+
+#: /src/deck/components/bd-video-card.vue:56
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published-human"
+msgstr "{published,humantime,1}"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.recommended"
+msgstr "Empfohlen"
+
+#: /src/deck/components/bd-column.vue:329
+#, icu-message-format
+msgid "addon.deck.refresh"
+msgstr "Aktualisieren"
+
+#: /src/deck/components/browse-deck.vue:346
+#, icu-message-format
+msgid "addon.deck.refresh-all"
+msgstr "Alle aktualisieren"
+
+#: /src/deck/components/bd-column-editor.vue:335
+#, icu-message-format
+msgid "addon.deck.refresh.disabled"
+msgstr "Deaktiviert"
+
+#: /src/deck/components/bd-column-editor.vue:180
+#, icu-message-format
+msgid "addon.deck.save"
+msgstr "Speichern"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.search"
+msgstr "Suche"
+
+#: /src/deck/components/bd-tag-selector.vue:19
+#, icu-message-format
+msgid "addon.deck.search-tags"
+msgstr "Tags durchsuchen"
+
+#: /src/deck/components/bd-channel-selector.vue:19
+#, icu-message-format
+msgid "addon.deck.search-users"
+msgstr "Benutzer durchsuchen"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.search.live-tip"
+msgstr ""
+"Diese Spalte zeigt Live-Kanäle, die mit einer Suchanfrage übereinstimmen."
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-asc"
+msgstr "Kürzlich erstellt"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-desc"
+msgstr "Älteste zuerst"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-asc"
+msgstr "Aufrufe (Aufsteigend)"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-desc"
+msgstr "Aufrufe (Absteigend)"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers-asc"
+msgstr "Zuschauer (Aufsteigend)"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sort.sub.viewers"
+msgstr "Zuschauer"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sort.sub.views"
+msgstr "Aufrufe"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.trending"
+msgstr "Im Trend"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#: /src/deck/components/bd-column.vue:153
+#, icu-message-format
+msgid "addon.deck.sort.video.recent"
+msgstr "Kürzlich veröffentlicht"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.video.views"
+msgstr "Aufrufe (Absteigend)"
+
+#: /src/deck/components/browse-deck.vue:191
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.specific-users"
+msgstr "Bestimmter Benutzer"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.specific-users.tip"
+msgstr ""
+"Diese Spalte zeigt alle Live-Kanäle aus einer individuellen, festgelegten "
+"Liste an."
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sub.recent"
+msgstr "Kürzlich"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sub.views"
+msgstr "Aufrufe"
+
+#: /src/deck/components/bd-tab-settings.vue:80
+#, icu-message-format
+msgid "addon.deck.tab-name"
+msgstr "Tab #{count}"
+
+#: /src/deck/components/bd-tab-settings.vue:106
+#, icu-message-format
+msgid "addon.deck.tab-name.sidebar"
+msgstr "Seitenleisten-Tab"
+
+#: /src/deck/components/browse-deck.vue:423
+#: /src/deck/components/bd-tab-settings.vue:17
+#, icu-message-format
+msgid "addon.deck.tab-settings"
+msgstr "Tab-Einstellungen"
+
+#: /src/deck/components/browse-deck.vue:361
+#: /src/deck/components/bd-tab-editor.vue:33
+#, icu-message-format
+msgid "addon.deck.tab-sidebar"
+msgstr "Dieser Tab wird als deine Seitenleiste verwendet."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.team"
+msgstr "Team"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.team.live-tip"
+msgstr "Diese Spalte zeigt Live-Kanäle von Mitgliedern eines bestimmten Teams."
+
+#: /src/deck/components/bd-column.vue:689
+#, icu-message-format
+msgid "addon.deck.throttled"
+msgstr "Warte ein bisschen..."
+
+#: /src/deck/components/bd-stream-indicator.vue:56
+#, icu-message-format
+msgid "addon.deck.type.ARCHIVE"
+msgstr "Frühere Übertragungen"
+
+#: /src/deck/components/bd-stream-indicator.vue:56
+#, icu-message-format
+msgid "addon.deck.type.host"
+msgstr "Hostet gerade"
+
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.unset"
+msgstr "(Nicht festgelegt)"
+
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.video-followed"
+msgstr "Gefolgte Videos"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.archive"
+msgstr "Frühere Übertragungen"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.highlight"
+msgstr "Highlights"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.past_premiere"
+msgstr "Frühere Premieren"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.upload"
+msgstr "Hochgeladenes"
+
+#: /src/deck/components/bd-video-card.vue:25
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.views"
+msgstr "{count, plural, one {# Aufruf} other {# Aufrufe}}"
+
+#: /src/deck/components/bd-column-editor.vue:447
+#, icu-message-format
+msgid "addon.deck.width.0"
+msgstr "Klein"
+
+#: /src/deck/components/bd-column-editor.vue:455
+#, icu-message-format
+msgid "addon.deck.width.1"
+msgstr "Normal"
+
+#: /src/deck/components/bd-column-editor.vue:463
+#, icu-message-format
+msgid "addon.deck.width.2"
+msgstr "Groß"
+
+#: /src/deck/index.jsx:227
+#, icu-message-format
+msgid "addons.deck.title"
+msgstr "Deck"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.deck"
+msgstr "Deck"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.deck.appearance"
+msgstr "Erscheinungsbild"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.deck.behavior"
+msgstr "Verhalten"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.deck.auto-settings"
+msgstr "Einstellungen automatisch öffnen, wenn eine neue Spalte erstellt wird."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.deck.link"
+msgstr "Deck-Verknüpfung zur oberen Navigationsleiste hinzufügen."
