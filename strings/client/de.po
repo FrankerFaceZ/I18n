@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/de/>\n"
 "Language: de\n"
@@ -16,6 +16,7 @@ msgstr "Hochladen"
 msgid "autocomplete.empty"
 msgstr "Es gibt keine Ergebnisse."
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
@@ -283,8 +284,8 @@ msgstr "Chat anhalten"
 msgid "chat.settings.pause-explain"
 msgstr ""
 "FrankerFaceZ überschreibt das komplette Verhalten vom angehalteten Chat. "
-"Bitte verwende die Scroll-Einstellungen von FFZ im FFZ Kontrollzentrum "
-"unter \"Chat\" > \"Verhalten\"."
+"Bitte verwende die Scroll-Einstellungen von FFZ im FFZ Kontrollzentrum unter "
+"\"Chat\" > \"Verhalten\"."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "Ein anonymer Geschenkgeber"
@@ -350,10 +351,10 @@ msgstr "Unbekannt"
 
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Du hast \"FrankerFaceZ Emotes\" in den Einstellungen von BetterTTV "
-"aktiviert und zugleich FrankerFaceZ installiert. Bitte deaktiviere "
-"\"FrankerFaceZ Emotes\" in den Einstellungen von BetterTTV. Dies ist nicht "
-"zwingend notwendig."
+"Du hast \"FrankerFaceZ Emotes\" in den Einstellungen von BetterTTV aktiviert "
+"und zugleich FrankerFaceZ installiert. Bitte deaktiviere \"FrankerFaceZ "
+"Emotes\" in den Einstellungen von BetterTTV. Dies ist nicht zwingend "
+"notwendig."
 
 msgid "directory.block"
 msgstr "Blockieren"
@@ -450,7 +451,8 @@ msgid "emote-menu.emote-sub"
 msgstr "Abonniere für {price}, um dieses Emote freizuschalten."
 
 msgid "emote-menu.emote-up"
-msgstr "Erhöhe deine Abonnement-Stufe auf {price}, um dieses Emote freizuschalten."
+msgstr ""
+"Erhöhe deine Abonnement-Stufe auf {price}, um dieses Emote freizuschalten."
 
 msgid "emote-menu.empty"
 msgstr "Hier ist nichts."
@@ -538,9 +540,9 @@ msgstr ""
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"Die Emote-Sichtbarkeitssteuerung erlaubt das Verstecken von Emotes in "
-"deinem Emote-Menü, entweder einzeln oder als Set. Wenn die "
-"Emote-Sichtbarkeitssteuerung aktiv ist, klicke einfach auf ein Emote, um es "
+"Die Emote-Sichtbarkeitssteuerung erlaubt das Verstecken von Emotes in deinem "
+"Emote-Menü, entweder einzeln oder als Set. Wenn die Emote-"
+"Sichtbarkeitssteuerung aktiv ist, klicke einfach auf ein Emote, um es "
 "auszublenden oder anzuzeigen. Bitte beachte, dass du immer noch die Emotes, "
 "die jemand anderes im Chat benutzt, sehen kannst, aber sie erscheinen nicht "
 "mehr in deinem Emote-Menü."
@@ -599,7 +601,8 @@ msgid "featured-follow.button.unfollow"
 msgstr "{user} entfolgen"
 
 msgid "featured-follow.notify.on"
-msgstr "Benachrichtigungen sind aktuell aktiviert. Klicke, um sie zu deaktivieren."
+msgstr ""
+"Benachrichtigungen sind aktuell aktiviert. Klicke, um sie zu deaktivieren."
 
 msgid "hl-reason.badge"
 msgstr "Abzeichen hervorgehoben"
@@ -626,8 +629,8 @@ msgstr ""
 msgid "i18n.interest"
 msgstr ""
 "Möchtest du bei der Lokalisierung mitwirken? Dann [tritt unserem Discord "
-"bei](https://discord.gg/UrAkGhT) und melde dich bezüglich der "
-"Lokalisierung.\n"
+"bei](https://discord.gg/UrAkGhT) und melde dich bezüglich der Lokalisierung."
+"\n"
 "\n"
 "Dieses Tool erlaubt den Übersetzern ihre Übersetzungen in Echtzeit zu "
 "testen. So können sie sicherstellen, dass alles richtig aussieht, bevor sie "
@@ -845,13 +848,13 @@ msgstr "Der Audio-Kompressor kann bei Clips nicht aktiviert werden."
 
 msgid "player.comp_button.firefox"
 msgstr ""
-"Die Steuerung der Wiedergabegeschwindigkeit funktioniert für "
-"Firefox-Benutzer nicht, wenn der Kompressor aktiviert wurde."
+"Die Steuerung der Wiedergabegeschwindigkeit funktioniert für Firefox-"
+"Benutzer nicht, wenn der Kompressor aktiviert wurde."
 
 msgid "player.comp_button.help"
 msgstr ""
-"Einzelheiten findest du im FFZ Kontrollzentrum. Wenn der Ton ausfällt, "
-"setze den Videoplayer zurück."
+"Einzelheiten findest du im FFZ Kontrollzentrum. Wenn der Ton ausfällt, setze "
+"den Videoplayer zurück."
 
 msgid "player.comp_button.off"
 msgstr "Audio-Kompressor deaktivieren"
@@ -927,15 +930,14 @@ msgid "site.menu_button.quota-exceeded"
 msgstr ""
 "Dein lokaler Speicherplatz für diese Website ist voll und die Einstellungen "
 "können nicht gespeichert werden. Bitte sichere deine Einstellungen und "
-"wechsel unter [Datenverwaltung > Speicher >> "
-"Provider](~data_management.storage.tabs.provider) zu einem Provider mit "
-"höherer Kapazität."
+"wechsel unter [Datenverwaltung > Speicher >> Provider](~data_management."
+"storage.tabs.provider) zu einem Provider mit höherer Kapazität."
 
 msgid "site.menu_button.strings"
 msgstr ""
-"Es gibt {added,plural,one {# neue Zeichenkette} other {# neue "
-"Zeichenketten}} und {changed,plural,one {# veränderte Zeichenkette} other "
-"{# veränderte Zeichenketten}}."
+"Es gibt {added,plural,one {# neue Zeichenkette} other {# neue Zeichenketten}}"
+" und {changed,plural,one {# veränderte Zeichenkette} other {# veränderte "
+"Zeichenketten}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "Ein Update steht zur Verfügung. Bitte lade die Seite neu."
@@ -1117,3 +1119,28 @@ msgstr "Test-URL"
 #, icu-message-format
 msgid "debug.link-provider.allow.media"
 msgstr "Medien erlauben"
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr ""
