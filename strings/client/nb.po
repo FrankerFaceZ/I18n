@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-12 17:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Norwegian Bokmål <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/nb_NO/>\n"
+"Language: nb\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Last opp"
@@ -7,16 +16,19 @@ msgstr "Last opp"
 msgid "autocomplete.empty"
 msgstr "Det er ingen resultater."
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
 "(Abonnert i {count,number} {count,plural,one {måned} other {måneder}})"
 
+#, fuzzy
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
 "({count,number} {count,plural,one {måned} other {måneder}})"
 
+#, fuzzy
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
@@ -62,7 +74,8 @@ msgid "chat.actions.edit_overrides"
 msgstr "Endre navn og farge"
 
 msgid "chat.actions.edit_overrides.desc"
-msgstr "Lar deg velge lokale overstyringer for en brukers navn og farger i chatten."
+msgstr ""
+"Lar deg velge lokale overstyringer for en brukers navn og farger i chatten."
 
 msgid "chat.actions.msg_delete"
 msgstr "Slett melding"
@@ -79,16 +92,19 @@ msgstr "Vennligst velg en årsak fra listen nedenfor:"
 msgid "chat.actions.timeout"
 msgstr "Utvis bruker"
 
+#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Utvis {user.login} i {duration,number} {duration,one {sekund} other "
 "{sekunder}} for å:"
 
+#, fuzzy
 msgid "chat.actions.timeout.desc"
 msgstr ""
 "{options.duration,number} {options.duration,plural,one {sekund} other "
 "{sekunder}}"
 
+#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
 "Utvis {user.login} i {duration,number} {duration,plural,one {sekund} other "
@@ -235,9 +251,9 @@ msgstr "Sett chatten på pause"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ overstyrer oppførselen til «Sett chatten på pause» "
-"fullstendig. Vennligst bruk FFZ sine rulleinnstillinger i "
-"FFZ-kontrollpanelet i Chat → Oppførsel."
+"FrankerFaceZ overstyrer oppførselen til «Sett chatten på pause» fullstendig. "
+"Vennligst bruk FFZ sine rulleinnstillinger i FFZ-kontrollpanelet i Chat → "
+"Oppførsel."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "En anonym giver"
@@ -247,6 +263,7 @@ msgstr ""
 "De har abonnert i {cumulative,number} måneder, og er for øyeblikket på en "
 "{streak,number}-måneders strekke!"
 
+#, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
 "{user} gir bort {count,number} Trinn {tier}-{count,plural,one {abonnement} "
@@ -255,6 +272,7 @@ msgstr ""
 msgid "chat.sub.gift-first"
 msgstr "Det er første gang de gir bort et abonnement på denne kanalen!"
 
+#, fuzzy
 msgid "chat.sub.gift-months"
 msgstr ""
 "{user} ga bort {months,number} {months,plural,one {måned} other {måneder}} "
@@ -263,6 +281,7 @@ msgstr ""
 msgid "chat.sub.gift-plan"
 msgstr "Trinn {tier}"
 
+#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr "De har gitt bort {count} abonnementer på denne kanalen!"
 
@@ -290,6 +309,7 @@ msgstr "{user} er kreativ"
 msgid "clip.desc.1.playing"
 msgstr "{user} spiller {game}"
 
+#, fuzzy
 msgid "clip.desc.2"
 msgstr ""
 "Klippet av {curator} — {views,number} {views,plural,one {visning} other "
@@ -372,12 +392,13 @@ msgstr "Kanal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Som en midlertidig nødløsning, prøv å skru av FFZ-emotemenyen i "
-"FFZ-kontrollpanelet."
+"Som en midlertidig nødløsning, prøv å skru av FFZ-emotemenyen i FFZ-"
+"kontrollpanelet."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
 
+#, fuzzy
 msgid "emote-menu.emote-cheer"
 msgstr ""
 "Juble med {bits_remaining,number} bit{bits_remaining,en_plural} til for å "
@@ -468,18 +489,19 @@ msgstr "Dette abonnementet fornyes om {seconds,humantime}."
 msgid "emote-menu.sub-set"
 msgstr "Abonnements-emoter"
 
+#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Abonner for US{price} for å låse opp {count,number} {count,plural,one "
-"{emote} other {emoter}}"
+"Abonner for US{price} for å låse opp {count,number} {count,plural,one {emote}"
+" other {emoter}}"
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"Emotesynlighetskontrolleren lar deg skjule emoter fra emotemenyen din, "
-"enten individuelt eller etter sett. Med Emotesynlighetskontrolleren skrudd "
-"på, er det bare å klikke på en emote for å skjule eller vise den. Vennligst "
-"bemerk at du fortsatt vil se emoter i chatten dersom noen bruker dem, men "
-"de vil ikke dukke opp i emotemenyen din."
+"Emotesynlighetskontrolleren lar deg skjule emoter fra emotemenyen din, enten "
+"individuelt eller etter sett. Med Emotesynlighetskontrolleren skrudd på, er "
+"det bare å klikke på en emote for å skjule eller vise den. Vennligst bemerk "
+"at du fortsatt vil se emoter i chatten dersom noen bruker dem, men de vil "
+"ikke dukke opp i emotemenyen din."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Emotesynlighetskontroll"
@@ -543,8 +565,8 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Har du lyst til å hjelpe til med oversettelsesinnsatsen? Bli gjerne med i "
-"[Discorden vår](https://discord.gg/UrAkGhT) og bli med i "
+"Har du lyst til å hjelpe til med oversettelsesinnsatsen? Bli gjerne med i ["
+"Discorden vår](https://discord.gg/UrAkGhT) og bli med i "
 "oversettelseskanalchatten.\n"
 "\n"
 "Dette verktøyet lar oversettere teste strengene sine i sanntid i appen. På "
@@ -677,7 +699,8 @@ msgid "metadata.host.setting.auto-hosting.title"
 msgstr "Auto-vertskap"
 
 msgid "metadata.host.setting.strategy.description"
-msgstr "Når dette er skrudd på, vil vertskapskanaler bli valgt tilfeldig fra listen."
+msgstr ""
+"Når dette er skrudd på, vil vertskapskanaler bli valgt tilfeldig fra listen."
 
 msgid "metadata.host.setting.strategy.title"
 msgstr "Tilfeldiggjør vertskapsrekkefølgen"
@@ -797,8 +820,8 @@ msgstr "dev"
 
 msgid "site.menu_button.error"
 msgstr ""
-"Det oppsto en feil under innlasting av FFZ-kontrollpanel. Vennligst "
-"oppfrisk siden og prøv igjen."
+"Det oppsto en feil under innlasting av FFZ-kontrollpanel. Vennligst oppfrisk "
+"siden og prøv igjen."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -808,16 +831,15 @@ msgstr "Du kjører en utviklerbyggversjon av FrankerFaceZ."
 
 msgid "site.menu_button.new-desc"
 msgstr ""
-"Det {count,plural,one {er én ny innstilling} other {er # nye "
-"innstillinger}}."
+"Det {count,plural,one {er én ny innstilling} other {er # nye innstillinger}}."
 
 msgid "site.menu_button.profiles"
 msgstr "Profiler"
 
 msgid "site.menu_button.strings"
 msgstr ""
-"Det {added,plural,one {er # ny strenge} other {er # nye strenger}} og "
-"{changed,plural,one {# endret strenge} other {# endrede strenger}}."
+"Det {added,plural,one {er # ny strenge} other {er # nye strenger}} og {"
+"changed,plural,one {# endret strenge} other {# endrede strenger}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "Det er en tilgjengelig oppdatering. Vennligst oppfrisk siden din."
@@ -882,6 +904,7 @@ msgstr "Ditt gratis kanalabonnement med Prime er tilgjengelig."
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
+#, fuzzy
 msgid "tooltip.bits.more"
 msgstr "(og {count} til)"
 
@@ -903,6 +926,7 @@ msgstr "En feil oppstod. ({error})"
 msgid "tooltip.link-destination"
 msgstr "Ankomststed: {url}"
 
+#, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr ""
 "Advarsel: Denne URL-en er på Google sin 'Safe Browsing'-liste grunnet: "
@@ -928,8 +952,236 @@ msgstr "{time,humantime} siden"
 msgid "video.desc.1"
 msgstr "Video av {user}"
 
+#, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} visninger - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Publisert den: {date,date}"
+
+#: /src/modules/chat/actions/types.jsx:24
+#, icu-message-format
+msgid "chat.actions.reply"
+msgstr ""
+
+#: /src/modules/main_menu/components/action-editor.vue:595
+#, icu-message-format
+msgid "chat.actions.reply.desc"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
+#, icu-message-format
+msgid "chat.ffz-badge.title"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
+#, icu-message-format
+msgid "chat.identity-menu"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:428
+#, icu-message-format
+msgid "compat.bttv.emotes-on"
+msgstr ""
+
+#, icu-message-format
+msgid "i18n.ui.invalid"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
+#, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
+msgid "emote-menu.emote-follower"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "card.error.timeout"
+msgstr ""
+
+#: /src/modules/chat/rich_providers.js:119
+#: /src/modules/chat/rich_providers.js:123
+#, icu-message-format, lp-defaults:"{\"views\":33736583,\"followers\":167372}"
+msgid "cards.user.stats"
+msgstr ""
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:855
+#, icu-message-format, lp-defaults:"{\"count\":100}"
+msgid "chat.bits-message"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.about"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.site"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:296
+#, icu-message-format
+msgid "chat.ffz-badge.site-link"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.smileys_emotion"
+msgstr ""
+
+#, icu-message-format
+msgid "tooltip.link.urls"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1041:14
+#, icu-message-format
+msgid "emote.prime"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.badge"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.mention"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.term"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.user"
+msgstr ""
+
+#: /src/modules/metadata.jsx:235:18
+#, icu-message-format, lp-defaults:"{\"videoResolution\":\"1920x1080\",\"fps\":\"60\",\"playbackRate\":8207,\"skippedFrames\":3}"
+msgid "metadata.player-stats.video-info"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1115
+#, icu-message-format
+msgid "player.comp_button.firefox"
+msgstr ""
+
+#: /src/sites/shared/player.jsx:1113
+#: /src/sites/shared/player.jsx:1172
+#, icu-message-format
+msgid "player.gain.label"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:321
+#, icu-message-format
+msgid "site.menu_button.changed"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:333
+#, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
+msgid "site.menu_button.no-settings"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:441
+#, icu-message-format
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr ""
+
+#, icu-message-format
+msgid "tooltip.shift-detail"
+msgstr ""
