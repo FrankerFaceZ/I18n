@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-20 22:25+0000\n"
-"Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
+"PO-Revision-Date: 2021-12-12 17:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fr/>\n"
 "Language: fr\n"
@@ -16,16 +16,19 @@ msgstr "Mettre en ligne"
 msgid "autocomplete.empty"
 msgstr "Il n'y a aucun résultat"
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
 "(Abonné·e depuis {count,number} mois)"
 
+#, fuzzy
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
 "({count,number} Mois)"
 
+#, fuzzy
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
@@ -95,9 +98,8 @@ msgstr "Répondre au message"
 
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Vous permet de répondre directement à un message d'un·e autre "
-"utilisateur·rice. Ne fonctionne que si le Style de Réponse est défini à "
-"\"FrankerFaceZ\"."
+"Vous permet de répondre directement à un message d'un·e autre utilisateur·"
+"rice. Ne fonctionne que si le Style de Réponse est défini à \"FrankerFaceZ\"."
 
 msgid "chat.actions.reply.thread"
 msgstr "Ouvrir fil"
@@ -108,14 +110,18 @@ msgstr "Veuillez sélectionner une raison depuis la liste ci-dessous:"
 msgid "chat.actions.timeout"
 msgstr "Bannir temporairement l'utilisateur·ice"
 
+#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Bannir temporairement {user.login} pendant {duration,number} "
 "seconde{duration,plural,one{}other{s}} pour:"
 
+#, fuzzy
 msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} seconde{options.duration,plural,one{}other{s}}}"
+msgstr ""
+"{options.duration,number} seconde{options.duration,plural,one{}other{s}}}"
 
+#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
 "Bannir temporairement {user.login} pendant {duration,number} "
@@ -291,20 +297,24 @@ msgstr ""
 "C'est son {cumulative,number}e mois d'abonnement, dont {streak,number} mois "
 "consécutifs! "
 
+#, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
-"{user} offre {count,number} abonnement{count,plural,one{}other{s}} de "
-"niveau {tier} à la communauté de {channel}! "
+"{user} offre {count,number} abonnement{count,plural,one{}other{s}} de niveau "
+"{tier} à la communauté de {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "C'est son premier abonnement offert!"
 
+#, fuzzy
 msgid "chat.sub.gift-months"
-msgstr "{user} a offert {months,number} mois d'abonnement de {plan} à {recipient}! "
+msgstr ""
+"{user} a offert {months,number} mois d'abonnement de {plan} à {recipient}! "
 
 msgid "chat.sub.gift-plan"
 msgstr "niveau {tier}"
 
+#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr "Cette personne a offert {count} abonnements sur cette chaîne!"
 
@@ -332,8 +342,10 @@ msgstr "{user} en train de streamer Creative"
 msgid "clip.desc.1.playing"
 msgstr "{user} joue à {game}"
 
+#, fuzzy
 msgid "clip.desc.2"
-msgstr "Clip créé par {curator} — {views,number} Vue{views,plural,one{}other{s}}"
+msgstr ""
+"Clip créé par {curator} — {views,number} Vue{views,plural,one{}other{s}}"
 
 msgid "clip.unknown"
 msgstr "Inconnu"
@@ -341,9 +353,8 @@ msgstr "Inconnu"
 msgid "compat.bttv.emotes-on"
 msgstr ""
 "Vous avez \"FrankerFaceZ Emotes\" activé dans les paramètres de BetterTTV, "
-"mais FrankerFaceZ est également installé. Veuillez désactiver "
-"\"FrankerFaceZ Emotes\" dans les paramètres de BetterTTV. Ce n'est pas "
-"nécessaire."
+"mais FrankerFaceZ est également installé. Veuillez désactiver \"FrankerFaceZ "
+"Emotes\" dans les paramètres de BetterTTV. Ce n'est pas nécessaire."
 
 msgid "directory.block"
 msgstr "Bloquer"
@@ -428,6 +439,7 @@ msgstr ""
 msgid "emote-menu.emoji"
 msgstr "Émojis"
 
+#, fuzzy
 msgid "emote-menu.emote-cheer"
 msgstr ""
 "Utilisez encore {bits_remaining,number} "
@@ -520,6 +532,7 @@ msgstr "Cet abonnement se renouvelle dans {seconds,humantime}"
 msgid "emote-menu.sub-set"
 msgstr "Émoticônes d'abonné·e·s"
 
+#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
 "Abonnez-vous pour {price} afin de débloquer {count,number} "
@@ -610,13 +623,13 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Vous souhaitez nous aider à améliorer la traduction ? Vous pouvez "
-"[rejoindre notre Discord](https://discord.gg/UrAkGhT) et rejoindre le salon "
-"de traduction.\n"
+"Vous souhaitez nous aider à améliorer la traduction ? Vous pouvez [rejoindre "
+"notre Discord](https://discord.gg/UrAkGhT) et rejoindre le salon de "
+"traduction.\n"
 "\n"
-"Cet outil permet aux traducteur·rice·s de tester leurs chaînes de "
-"caractères en temps réel dans l'application. De cette manière, vous pouvez "
-"être certain que tout est en ordre avant de soumettre vos traductions."
+"Cet outil permet aux traducteur·rice·s de tester leurs chaînes de caractères "
+"en temps réel dans l'application. De cette manière, vous pouvez être certain "
+"que tout est en ordre avant de soumettre vos traductions."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} complet )"
@@ -817,7 +830,8 @@ msgid "page.previous"
 msgstr "Page précédente"
 
 msgid "player.comp_button.disabled"
-msgstr "Le compresseur audio ne peut pas être activé lors du visionnement de clips."
+msgstr ""
+"Le compresseur audio ne peut pas être activé lors du visionnement de clips."
 
 msgid "player.comp_button.firefox"
 msgstr ""
@@ -871,8 +885,8 @@ msgstr ""
 
 msgid "site.menu_button.changed"
 msgstr ""
-"Le fournisseur de règlage FrankerFaceZ a été changé. Veuillez rafraîchir "
-"cet onglet pour éviter des comportements bizarres."
+"Le fournisseur de règlage FrankerFaceZ a été changé. Veuillez rafraîchir cet "
+"onglet pour éviter des comportements bizarres."
 
 msgid "site.menu_button.dev"
 msgstr "dev"
@@ -970,6 +984,7 @@ msgstr "Votre abonnement gratuit avec Prime est disponible."
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
+#, fuzzy
 msgid "tooltip.bits.more"
 msgstr "(et {count} de plus)"
 
@@ -991,8 +1006,10 @@ msgstr "Une erreur est survenue. ({error})"
 msgid "tooltip.link-destination"
 msgstr "Destination: {url}"
 
+#, fuzzy
 msgid "tooltip.link-unsafe"
-msgstr "Attention: Cette URL est sur la liste de sécurité de Google pour: {reasons}"
+msgstr ""
+"Attention: Cette URL est sur la liste de sécurité de Google pour: {reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "Liens visités"
@@ -1020,6 +1037,7 @@ msgstr "Il y a {time,humantime}"
 msgid "video.desc.1"
 msgstr "Vidéo de {user}"
 
+#, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Vues - {date}"
 
@@ -1030,3 +1048,108 @@ msgstr "Publié le: {date,date}"
 #, icu-message-format
 msgid "card.error.empty"
 msgstr "Aucune information disponible"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr ""
+
+#, icu-message-format
+msgid "i18n.ui.invalid"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:855
+#, icu-message-format, lp-defaults:"{\"count\":100}"
+msgid "chat.bits-message"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
+#, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
+msgid "emote-menu.emote-follower"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr ""
+
+#: /src/modules/metadata.jsx:235:18
+#, icu-message-format, lp-defaults:"{\"videoResolution\":\"1920x1080\",\"fps\":\"60\",\"playbackRate\":8207,\"skippedFrames\":3}"
+msgid "metadata.player-stats.video-info"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:441
+#, icu-message-format
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
