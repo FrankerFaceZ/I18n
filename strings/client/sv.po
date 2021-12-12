@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: Jim Ottesen <social@jimthesfn.one>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
 "Language: sv\n"
@@ -16,6 +16,7 @@ msgstr "Ladda Upp"
 msgid "autocomplete.empty"
 msgstr "Det finns inga resultat."
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
@@ -60,14 +61,17 @@ msgstr "Vänligen välj en anledningen i listan nedan:"
 msgid "chat.actions.timeout"
 msgstr "Sätt Timeout för Användare"
 
+#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Sätt Timeout för {user.login} i {duration,plural,one {# sekund} other {# "
 "sekunder}} för:"
 
+#, fuzzy
 msgid "chat.actions.timeout.desc"
 msgstr "{options.duration,plural,one {# sekund} other {# sekunder}}"
 
+#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
 "Sätt Timeout för {user.login} i {duration,plural,one {# sekund} other {# "
@@ -197,6 +201,7 @@ msgstr "Det är deras första gång som givare av en Prenumeration i kanalen!"
 msgid "chat.sub.gift-plan"
 msgstr "Nivå {tier}"
 
+#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr "De har givit {count} Prenumerationer i kanalen!"
 
@@ -301,7 +306,8 @@ msgid "emote-menu.emote-sub"
 msgstr "Prenumenera för {price} för att låsa upp denna emoten."
 
 msgid "emote-menu.emote-up"
-msgstr "Uppgradera din prenumeneration för {price} för att låsa upp denna emoten."
+msgstr ""
+"Uppgradera din prenumeneration för {price} för att låsa upp denna emoten."
 
 msgid "emote-menu.empty"
 msgstr "Det finns inget här."
@@ -382,6 +388,7 @@ msgstr "Denna prenumeration förnyas om {seconds,humantime}."
 msgid "emote-menu.sub-set"
 msgstr "Prenumerant-emotes"
 
+#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
 "Prenumerera för {price} för att låsa upp {count,plural,one {en emote} other "
@@ -632,8 +639,8 @@ msgstr "dev"
 
 msgid "site.menu_button.error"
 msgstr ""
-"Det uppstod ett fel vid laddningen av FFZ Kontrol Center. Vänligen "
-"uppdatera sidan och försök igen."
+"Det uppstod ett fel vid laddningen av FFZ Kontrol Center. Vänligen uppdatera "
+"sidan och försök igen."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -643,16 +650,15 @@ msgstr "Du använder en utvecklar-variant av FrankerFaceZ."
 
 msgid "site.menu_button.new-desc"
 msgstr ""
-"Det finns {count,plural,one {en ny inställning} other {# nya "
-"inställningar}}."
+"Det finns {count,plural,one {en ny inställning} other {# nya inställningar}}."
 
 msgid "site.menu_button.profiles"
 msgstr "Profiler"
 
 msgid "site.menu_button.strings"
 msgstr ""
-"Det finns {added,plural,one {en ny sträng} other {# nya stränger}} samt "
-"{changed,plural,one {en ändrad sträng} other {# ändrade stränger}}."
+"Det finns {added,plural,one {en ny sträng} other {# nya stränger}} samt {"
+"changed,plural,one {en ändrad sträng} other {# ändrade stränger}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "Det finns en uppdatering tillgänglig. Vänligen uppdatera sidan."
@@ -663,6 +669,7 @@ msgstr "Din gratis-prenumeration med Prime är tillgänglig."
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
+#, fuzzy
 msgid "tooltip.bits.more"
 msgstr "(och {count} mera)"
 
@@ -709,6 +716,7 @@ msgstr "{time,humantime} sedan"
 msgid "video.desc.1"
 msgstr "Video av {user}"
 
+#, fuzzy
 msgid "video.desc.2"
 msgstr ""
 "{length,duration} — {views,plural,=0 {Inga Visningar} one {# Visning} other "
