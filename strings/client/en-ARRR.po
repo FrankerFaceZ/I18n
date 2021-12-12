@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-12 17:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Pirate English <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/en_ARRR/>\n"
+"Language: en-ARRR\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Upload"
@@ -7,16 +16,19 @@ msgstr "Upload"
 msgid "autocomplete.empty"
 msgstr "There be no results."
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
 "(Subscribed fer {count,number} Month{count,en_plural})"
 
+#, fuzzy
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
 "({count,number} Month{count,en_plural})"
 
+#, fuzzy
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
@@ -96,12 +108,16 @@ msgstr "Please select a reason from the list below:"
 msgid "chat.actions.timeout"
 msgstr "Timeout User"
 
+#, fuzzy
 msgid "chat.actions.timeout-reason"
-msgstr "Timeout {user.login} fer {duration,number} second{duration,en_plural} fer:"
+msgstr ""
+"Timeout {user.login} fer {duration,number} second{duration,en_plural} fer:"
 
+#, fuzzy
 msgid "chat.actions.timeout.desc"
 msgstr "{options.duration,number} second{options.duration,en_plural}"
 
+#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr "Timeout {user.login} fer {duration,number} second{duration,en_plural}"
 
@@ -266,9 +282,8 @@ msgstr "Pause Chat"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ overrides the behavior o' Pause Chat entirely. Please use "
-"FFZ's Scrollin' settin's wit'in the FFZ Control Center under Chat > "
-"Behavior."
+"FrankerFaceZ overrides the behavior o' Pause Chat entirely. Please use FFZ's "
+"Scrollin' settin's wit'in the FFZ Control Center under Chat > Behavior."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "An anonymous gifter"
@@ -278,6 +293,7 @@ msgstr ""
 "They've subscribed fer {cumulative,number} months, currently on a "
 "{streak,number} month streak!"
 
+#, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
 "{user} is giftin' {count,number} Tier {tier} Sub{count,en_plural} t' "
@@ -286,6 +302,7 @@ msgstr ""
 msgid "chat.sub.gift-first"
 msgstr "It be their first time giftin' a Sub in the channel!"
 
+#, fuzzy
 msgid "chat.sub.gift-months"
 msgstr ""
 "{user} gifted {months,number} month{months,en_plural} of {plan} Sub t' "
@@ -294,6 +311,7 @@ msgstr ""
 msgid "chat.sub.gift-plan"
 msgstr "Tier {tier}"
 
+#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr "They've gifted {count} Subs in the channel!"
 
@@ -321,6 +339,7 @@ msgstr "{user} bein' Creative"
 msgid "clip.desc.1.playing"
 msgstr "{user} playin' {game}"
 
+#, fuzzy
 msgid "clip.desc.2"
 msgstr "Clipped by {curator} — {views,number} View{views,en_plural}"
 
@@ -416,10 +435,11 @@ msgstr ""
 msgid "emote-menu.emoji"
 msgstr "Emoji"
 
+#, fuzzy
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Cheer an additional {bits_remaining,number} bit{bits_remaining,en_plural} "
-"t' unlock this 'ere emote."
+"Cheer an additional {bits_remaining,number} bit{bits_remaining,en_plural} t' "
+"unlock this 'ere emote."
 
 msgid "emote-menu.emote-follower"
 msgstr "Follow {user} t' unlock this 'ere emote in their channel."
@@ -509,6 +529,7 @@ msgstr "This 'ere sub renews in {seconds,humantime}."
 msgid "emote-menu.sub-set"
 msgstr "Subscriber Emotes"
 
+#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr "Subscribe fer {price} t' unlock {count,number} emote{count,en_plural}"
 
@@ -517,8 +538,7 @@ msgstr ""
 "Emote Visibility Control allows ye t' 'ide emotes from yer emote menu, "
 "either individually or by set. With Emote Visibility Control enabled, just "
 "click an emote t' 'ide or un'ide it. Please note that ye will still see the "
-"emotes in chat if someone uses them, but they won't appear in yer emote "
-"menu."
+"emotes in chat if someone uses them, but they won't appear in yer emote menu."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Emote Visibility Control"
@@ -864,8 +884,8 @@ msgstr "Ye 'ave loaded add-on data from a local development server."
 
 msgid "site.menu_button.changed"
 msgstr ""
-"The FrankerFaceZ settin's provider 'as changed. Please refresh this 'ere "
-"tab to' avoid strange behavior."
+"The FrankerFaceZ settin's provider 'as changed. Please refresh this 'ere tab "
+"to' avoid strange behavior."
 
 msgid "site.menu_button.dev"
 msgstr "dev"
@@ -882,12 +902,13 @@ msgid "site.menu_button.main-dev-desc"
 msgstr "Ye be runnin' a developer build o' FrankerFaceZ."
 
 msgid "site.menu_button.new-desc"
-msgstr "There {count,plural,one {be one new settin'} other {be # new settin's}}."
+msgstr ""
+"There {count,plural,one {be one new settin'} other {be # new settin's}}."
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Settin's be disabled in this 'ere tab due t' the inclusion o' \"{param}\" "
-"in the URL."
+"Settin's be disabled in this 'ere tab due t' the inclusion o' \"{param}\" in "
+"the URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Profiles"
@@ -896,13 +917,13 @@ msgid "site.menu_button.quota-exceeded"
 msgstr ""
 "Yer local storage space fer this 'ere website be full, an' settings cannot "
 "be saved. Please backup yer settings an' switch t' a 'igher capacity "
-"provider in [Data Management > Storage >> "
-"Provider](~data_management.storage.tabs.provider)."
+"provider in [Data Management > Storage >> Provider](~data_management.storage."
+"tabs.provider)."
 
 msgid "site.menu_button.strings"
 msgstr ""
-"There {added,plural,one {be # new string} other {be # new strings}} an' "
-"{changed,plural,one {# changed string} other {# changed strings}}."
+"There {added,plural,one {be # new string} other {be # new strings}} an' {"
+"changed,plural,one {# changed string} other {# changed strings}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "There be an update available. Please refresh yer page."
@@ -967,6 +988,7 @@ msgstr "Yer free channel sub with Prime be available."
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
+#, fuzzy
 msgid "tooltip.bits.more"
 msgstr "(an' {count} more)"
 
@@ -988,6 +1010,7 @@ msgstr "An error occurred. ({error})"
 msgid "tooltip.link-destination"
 msgstr "Destination: {url}"
 
+#, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr "Caution: This 'ere URL be on Google's Safe Browsin' List fer: {reasons}"
 
@@ -1017,8 +1040,90 @@ msgstr "{time,humantime} ago"
 msgid "video.desc.1"
 msgstr "Video o' {user}"
 
+#, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Views - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Published on: {date,date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr ""
