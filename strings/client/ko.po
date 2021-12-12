@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-12 17:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Korean <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/ko/>\n"
+"Language: ko\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "업로드"
@@ -7,11 +16,13 @@ msgstr "업로드"
 msgid "autocomplete.empty"
 msgstr "결과가 없습니다."
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
 "({count,number}개월간{count,en_plural} 구독했습니다!)"
 
+#, fuzzy
 msgid "badges.subscriber.months"
 msgstr "{title} ({count,number}개월"
 
@@ -69,12 +80,15 @@ msgstr "아래 목록에서 이유를 선택하십시오."
 msgid "chat.actions.timeout"
 msgstr "유저 타임아웃"
 
+#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr "{user.login}을 {duration,number}초{duration,en_plural}동안 강제 퇴장한 사유:"
 
+#, fuzzy
 msgid "chat.actions.timeout.desc"
 msgstr "{options.duration,number}초{options.duration,en_plural}"
 
+#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr "{user.login}을 {duration,number}초{duration,en_plural}동안강제 퇴장"
 
@@ -219,8 +233,7 @@ msgstr "채팅 일시정지"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ는 채팅 멈춤의 행동을 무시합니다. 채팅 > 동작에서 FFZ 컨트롤 센터 내에서 FFZ의 스크롤 설정을 "
-"사용하십시오."
+"FrankerFaceZ는 채팅 멈춤의 행동을 무시합니다. 채팅 > 동작에서 FFZ 컨트롤 센터 내에서 FFZ의 스크롤 설정을 사용하십시오."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "익명의 선물자"
@@ -228,6 +241,7 @@ msgstr "익명의 선물자"
 msgid "chat.sub.cumulative-months"
 msgstr "{cumulative,number}개월동안 구독했습니다! 현재 {streak,number}개월 연속!"
 
+#, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
 "{user}이(가) {count,number}개의 {tier}티어 {count,en_plural}구독을  {channel}의 커뮤니티에 "
@@ -239,6 +253,7 @@ msgstr "처음으로 구독권 선물!"
 msgid "chat.sub.gift-plan"
 msgstr "티어 {tier}"
 
+#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr "이 채널에 {count}개의 구독권을 선물하였습니다!"
 
@@ -263,6 +278,7 @@ msgstr "{user}이(가) 창의적임"
 msgid "clip.desc.1.playing"
 msgstr "{user} 는 {game} 플레이중"
 
+#, fuzzy
 msgid "clip.desc.2"
 msgstr "{curator}에 의해 제작된 클립 — {views,number}회 시청{views,en_plural}"
 
@@ -433,6 +449,7 @@ msgstr "이 구독은 {seconds,humantime}뒤에 갱신됩니다."
 msgid "emote-menu.sub-set"
 msgstr "구독자 이모티콘"
 
+#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr "{count,number}이모티콘{count,en_plural}을 잠금해제하기 위해 {price}를 구독하세요."
 
@@ -742,15 +759,16 @@ msgid "site.menu_button.main-dev-desc"
 msgstr "FrankerFaceZ의 개발자 빌드를 실행중입니다."
 
 msgid "site.menu_button.new-desc"
-msgstr "이곳 {count,plural,one {is one new setting} other {에 # 개의 새로운 설정이 생겼습니다!}}."
+msgstr ""
+"이곳 {count,plural,one {is one new setting} other {에 # 개의 새로운 설정이 생겼습니다!}}."
 
 msgid "site.menu_button.profiles"
 msgstr "프로필"
 
 msgid "site.menu_button.strings"
 msgstr ""
-"이곳 {added,plural,one {에 # 개의 새로운 스트링} other {에 # 개의 새로운 스트링}} "
-"그리고{changed,plural,one {# changed string} other {바뀐 스트링 #개}}."
+"이곳 {added,plural,one {에 # 개의 새로운 스트링} other {에 # 개의 새로운 스트링}} 그리고{"
+"changed,plural,one {# changed string} other {바뀐 스트링 #개}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "업데이트가 있습니다. 페이지를 새로고침하세요."
@@ -812,6 +830,7 @@ msgstr "무료 프라임 구독을 이용할 수 있습니다."
 msgid "tooltip.bits"
 msgstr "{count,number}개의 비트"
 
+#, fuzzy
 msgid "tooltip.bits.more"
 msgstr "(그리고 {count} 개 더)"
 
@@ -833,6 +852,7 @@ msgstr "문제가 발생했습니다 ({error})"
 msgid "tooltip.link-destination"
 msgstr "대상: {url}"
 
+#, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr "경고: 이 URL은 {reasons} 의 이유로 구글의  안전 브라우징 리스트에 있음"
 
@@ -862,8 +882,272 @@ msgstr "{time,humantime} 전"
 msgid "video.desc.1"
 msgstr "{user}의 동영상"
 
+#, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} 시청자 - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "{date,date} 에 게시됨"
+
+#, icu-message-format
+msgid "i18n.ui.invalid"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1003
+#, icu-message-format
+msgid "player.comp_button.on"
+msgstr ""
+
+#: /src/sites/shared/player.jsx:1113
+#: /src/sites/shared/player.jsx:1172
+#, icu-message-format
+msgid "player.gain.label"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.state"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
+#, icu-message-format
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.badge"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.mention"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.term"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.user"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
+#, icu-message-format
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:358
+#, icu-message-format
+msgid "metadata.host.setting.team-hosting.description"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
+#, icu-message-format
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1014
+#, icu-message-format
+msgid "player.comp_button.disabled"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1115
+#, icu-message-format
+msgid "player.comp_button.firefox"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:321
+#, icu-message-format
+msgid "site.menu_button.changed"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:333
+#, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
+msgid "site.menu_button.no-settings"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:441
+#, icu-message-format
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+
+#, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
+msgid "chat.sub.gift-months"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+
+#: /src/modules/chat/badges.jsx:366
+#, icu-message-format, lp-defaults:"{\"title\":\"2-Year Subscriber\",\"tier\":3,\"months\":\"55\"}"
+msgid "badges.subscriber.tier-months"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "card.error.timeout"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+
+#: /src/modules/chat/rich_providers.js:119
+#: /src/modules/chat/rich_providers.js:123
+#, icu-message-format, lp-defaults:"{\"views\":33736583,\"followers\":167372}"
+msgid "cards.user.stats"
+msgstr ""
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr ""
+
+#: /src/modules/main_menu/components/action-editor.vue:579
+#, icu-message-format
+msgid "chat.actions.edit_overrides.desc"
+msgstr ""
+
+#: /src/modules/main_menu/components/action-editor.vue:595
+#, icu-message-format
+msgid "chat.actions.reply.desc"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:559
+#, icu-message-format
+msgid "chat.actions.reply.thread"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:855
+#, icu-message-format, lp-defaults:"{\"count\":100}"
+msgid "chat.bits-message"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.about"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.site"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
+#, icu-message-format
+msgid "chat.ffz-badge.title"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
+#, icu-message-format
+msgid "chat.identity-menu"
+msgstr ""
+
+#: /src/modules/chat/override-editor.vue:23
+#, icu-message-format, lp-defaults:"{\"user.login\":\"SirStendec\"}"
+msgid "chat.overrides.editing"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:428
+#, icu-message-format
+msgid "compat.bttv.emotes-on"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
+#, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
+msgid "emote-menu.emote-follower"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
+#, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
+msgid "emote-menu.emote-cheer"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:623:8
+#, icu-message-format
+msgid "chat.sub.twitch-prime"
+msgstr ""
