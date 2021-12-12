@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-12 17:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Portuguese (Portugal) <https://weblate.frankerfacez.com/"
+"projects/frankerfacez/client/pt_PT/>\n"
+"Language: pt-PT\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Enviar"
@@ -7,16 +16,19 @@ msgstr "Enviar"
 msgid "autocomplete.empty"
 msgstr "Não há resultados."
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
 "(Subscrito há {count,plural, =1 {# mês} other {# meses}})"
 
+#, fuzzy
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
 "{count,plural, one {1 Mês} other {# Meses}}"
 
+#, fuzzy
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
@@ -71,7 +83,8 @@ msgid "chat.actions.edit_overrides"
 msgstr "Mudar Nome & Cor"
 
 msgid "chat.actions.edit_overrides.desc"
-msgstr "Permite definir substituições locais do nome e cor de um utilizador no chat."
+msgstr ""
+"Permite definir substituições locais do nome e cor de um utilizador no chat."
 
 msgid "chat.actions.msg_delete"
 msgstr "Apagar Mensagem"
@@ -96,14 +109,17 @@ msgstr "Por favor, seleciona uma das razões da lista abaixo:"
 msgid "chat.actions.timeout"
 msgstr "Suspender Utilizador"
 
+#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Banir temporariamente {user.login} durante {duration,number} "
 "segundo{duration,en_plural} por:"
 
+#, fuzzy
 msgid "chat.actions.timeout.desc"
 msgstr "{options.duration, plural, =1 {# segundo} other {# segundos}}"
 
+#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
 "Banir temporariamente  {user.login} durante {duration,number} "
@@ -271,22 +287,25 @@ msgstr ""
 "Subscreveu por {cumulative,number} meses, atualmente numa sequência de "
 "{streak,number} meses!"
 
+#, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
-"{user} está a oferecer {count,plural, one{# subscrição} other{# "
-"subscrições}} de escalão {tier} à comunidade de {channel}!"
+"{user} está a oferecer {count,plural, one{# subscrição} other{# subscrições}}"
+" de escalão {tier} à comunidade de {channel}!"
 
 msgid "chat.sub.gift-first"
 msgstr "É a primeira vez a oferecer uma subscrição neste canal!"
 
+#, fuzzy
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} ofereceu uma subscrição de {months, number} {months,plural, one "
-"{mês} other {meses}} de {plan} a {recipient}!"
+"{user} ofereceu uma subscrição de {months, number} {months,plural, one {mês} "
+"other {meses}} de {plan} a {recipient}!"
 
 msgid "chat.sub.gift-plan"
 msgstr "escalão {tier}"
 
+#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr "  Já ofereceu um total de {count} subscrições no canal!"
 
@@ -311,6 +330,7 @@ msgstr "{user} a ser criativo"
 msgid "clip.desc.1.playing"
 msgstr "{user} a jogar {game}"
 
+#, fuzzy
 msgid "clip.desc.2"
 msgstr "Clipado por {curator} — {views,number} Visualizações{views,en_plural}"
 
@@ -400,6 +420,7 @@ msgstr ""
 msgid "emote-menu.emoji"
 msgstr "Emoji"
 
+#, fuzzy
 msgid "emote-menu.emote-cheer"
 msgstr ""
 "Cheer mais {bits_remaining,number} bit{bits_remaining,en_plural} para "
@@ -490,6 +511,7 @@ msgstr "Esta subscrição renova em {seconds,humantime}."
 msgid "emote-menu.sub-set"
 msgstr "Emotes de Subscritor"
 
+#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
 "Subscreve-te por {price} para desbloquear {count,plural, =1 {# emote} other "
@@ -568,12 +590,12 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Interessado em ajudar com os esforços de localização? Por favor [junta-te "
-"ao nosso Discord](https://discord.gg/UrAkGhT) e ao chat no canal de "
-"localização.\n"
+"Interessado em ajudar com os esforços de localização? Por favor [junta-te ao "
+"nosso Discord](https://discord.gg/UrAkGhT) e ao chat no canal de localização."
 "\n"
-"Essa ferramenta permite aos tradutores testarem as palavras em tempo real "
-"no aplicativo. Desta forma consegues ter a certeza de que tudo parece certo "
+"\n"
+"Essa ferramenta permite aos tradutores testarem as palavras em tempo real no "
+"aplicativo. Desta forma consegues ter a certeza de que tudo parece certo "
 "antes de enviar as traduções."
 
 msgid "i18n.locale-coverage"
@@ -703,8 +725,8 @@ msgstr "Hospedagem Automática"
 
 msgid "metadata.host.setting.strategy.description"
 msgstr ""
-"Quando habilitado, canais a serem hospedados serão escolhidos "
-"aleatoriamente da lista."
+"Quando habilitado, canais a serem hospedados serão escolhidos aleatoriamente "
+"da lista."
 
 msgid "metadata.host.setting.strategy.title"
 msgstr "Randomizar Ordem de Hospedagem"
@@ -716,7 +738,8 @@ msgid "metadata.host.setting.team-hosting.title"
 msgstr "Hospedagem de Equipa"
 
 msgid "metadata.host.setting.vodcast-hosting.description"
-msgstr "Incluir canais transmitindo conteúdo pré-gravado como Reruns e Estréias."
+msgstr ""
+"Incluir canais transmitindo conteúdo pré-gravado como Reruns e Estréias."
 
 msgid "metadata.host.setting.vodcast-hosting.title"
 msgstr "Hospedar vídeos pré-gravados."
@@ -786,7 +809,8 @@ msgid "player.comp_button.disabled"
 msgstr "O Compressor de Áudio não pode ser ativado ao assistir Clipes."
 
 msgid "player.comp_button.help"
-msgstr "Abre o FFZ para obter detalhes. Se o áudio interromper, reinicia o player."
+msgstr ""
+"Abre o FFZ para obter detalhes. Se o áudio interromper, reinicia o player."
 
 msgid "player.comp_button.off"
 msgstr "Desativar Compressor de Áudio"
@@ -821,7 +845,8 @@ msgid "site.menu_button.addon-dev"
 msgstr "um-desenvolvedor"
 
 msgid "site.menu_button.addon-dev-desc"
-msgstr "Tens dados carregados de um add-on de um servidor local de desenvovlimento."
+msgstr ""
+"Tens dados carregados de um add-on de um servidor local de desenvovlimento."
 
 msgid "site.menu_button.changed"
 msgstr ""
@@ -849,8 +874,8 @@ msgstr ""
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Configurações são desabilitadas nesta aba devido à inclusão do parâmetro  "
-"\"{param}\" no URL."
+"Configurações são desabilitadas nesta aba devido à inclusão do parâmetro  \""
+"{param}\" no URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Perfis"
@@ -923,6 +948,7 @@ msgstr "A tua subscrição gratuita com Prime está disponível."
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
+#, fuzzy
 msgid "tooltip.bits.more"
 msgstr "(e {count} mais)"
 
@@ -944,8 +970,10 @@ msgstr "Um erro ocorreu. ({error})"
 msgid "tooltip.link-destination"
 msgstr "Destinação: {url}"
 
+#, fuzzy
 msgid "tooltip.link-unsafe"
-msgstr "Atenção: Este URL está na Lista de Navegação Segura da Google por: {reasons}"
+msgstr ""
+"Atenção: Este URL está na Lista de Navegação Segura da Google por: {reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "URLs visitados"
@@ -973,8 +1001,165 @@ msgstr "{time,humantime} atrás"
 msgid "video.desc.1"
 msgstr "Vídeo de {user}"
 
+#, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Visualizações - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Publicado em: {date,date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:855
+#, icu-message-format, lp-defaults:"{\"count\":100}"
+msgid "chat.bits-message"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.about"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
+#, icu-message-format
+msgid "chat.identity-menu"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:623:8
+#, icu-message-format
+msgid "chat.sub.twitch-prime"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:428
+#, icu-message-format
+msgid "compat.bttv.emotes-on"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
+#, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
+msgid "emote-menu.emote-follower"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.badge"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.mention"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.term"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.user"
+msgstr ""
+
+#, icu-message-format
+msgid "i18n.ui.invalid"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1115
+#, icu-message-format
+msgid "player.comp_button.firefox"
+msgstr ""
+
+#: /src/sites/shared/player.jsx:1113
+#: /src/sites/shared/player.jsx:1172
+#, icu-message-format
+msgid "player.gain.label"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:441
+#, icu-message-format
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr ""
