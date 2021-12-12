@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:11+0000\n"
-"Last-Translator: PixelBeast <jacobweiss.mm@gmail.com>\n"
+"PO-Revision-Date: 2021-12-13 19:16+0000\n"
+"Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-ffzap-core/de/>\n"
 "Language: de\n"
@@ -176,7 +176,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core"
-msgstr "FFZ:AP Kern"
+msgstr "FFZ:AP Core"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -186,7 +186,8 @@ msgstr "Sound-Trigger-Einstellungen"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
-msgstr "Höre jedes Mal einen Sound, wenn eine Nachricht hervorgehoben wird."
+msgstr ""
+"Jedes Mal, wenn eine Nachricht hervorgehoben wird, ist ein Sound zu hören."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -212,8 +213,8 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.message_deletion.description"
 msgstr ""
-"Nachrichten werden vollständig aus dem Chat entfernt, wenn sie nicht von "
-"einem Benutzer mit diesem oder höherem Level gesendet wurden."
+"Nachrichten, die nicht vom ausgewählten Filter-Level oder höher sind, werden "
+"vollständig aus dem Chat entfernt."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -233,7 +234,7 @@ msgstr "Emotes"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
-msgstr "Sounds hervorheben"
+msgstr "Benachrichtigungssounds"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -243,7 +244,7 @@ msgstr "Benachrichtigungssound aktivieren"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound"
-msgstr "Ton"
+msgstr "Sound"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -269,8 +270,8 @@ msgstr "Spiele, wenn erwähnt"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
 msgstr ""
-"Spiele einen Benachrichtigungssound wenn du im Chat mit deinem Benutzernamen "
-"erwähnt wurdest."
+"Spiele einen Benachrichtigungssound, wenn du im Chat mit deinem "
+"Benutzernamen erwähnt wurdest."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -312,18 +313,18 @@ msgstr "Abspielen, wenn"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_types.description"
 msgstr ""
-"Einen Benachrichtigungssound abspielen, wenn eine Chatzeile aus einem der "
-"markierten Gründe hervorgehoben wird."
+"Jedes Mal, wenn eine Chatzeile aus einem der ausgewählten Gründe "
+"hervorgehoben wird, wird ein Sound abgespielt."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_volume"
-msgstr "Benachrichtigungssoundlautstärke"
+msgstr "Soundlautstärke"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.message_deletion"
-msgstr "Benutzerlevel Filterung für Nachrichten"
+msgstr "Filter-Level für Nachrichten"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
