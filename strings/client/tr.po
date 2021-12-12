@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-12 17:16+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/tr/>\n"
+"Language: tr\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
 msgstr "Karşıya yükle"
@@ -7,6 +16,7 @@ msgstr "Karşıya yükle"
 msgid "autocomplete.empty"
 msgstr "Gösterilecek sonuç yok"
 
+#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
@@ -51,16 +61,20 @@ msgstr "Lütfen_aşağıdaki_listeden_bir_neden_seçin"
 msgid "chat.actions.timeout"
 msgstr "Kullanıcıyı geçici sustur"
 
+#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Sustur {user.login} süresince {duration,number} saniye{duration,en_plural} "
 "yüzünden:"
 
+#, fuzzy
 msgid "chat.actions.timeout.desc"
 msgstr "{options.duration,number} saniye{options.duration,en_plural}"
 
+#, fuzzy
 msgid "chat.actions.timeout.tooltip"
-msgstr "Sustur {user.login} yüzünden {duration,number} saniye{duration,en_plural}"
+msgstr ""
+"Sustur {user.login} yüzünden {duration,number} saniye{duration,en_plural}"
 
 msgid "chat.actions.unban"
 msgstr "Kullanıcının yasağını kaldır"
@@ -165,10 +179,13 @@ msgid "chat.sub.anonymous-gifter"
 msgstr "Anonim bir kişiden hediye"
 
 msgid "chat.sub.cumulative-months"
-msgstr "O {cumulative,number} aydır abone, ardı ardına {streak,number} ay olmuş!"
+msgstr ""
+"O {cumulative,number} aydır abone, ardı ardına {streak,number} ay olmuş!"
 
+#, fuzzy
 msgid "chat.sub.gift"
-msgstr "{user}, {channel} topluluğuna {count,number} adet abonelik hediye etti! "
+msgstr ""
+"{user}, {channel} topluluğuna {count,number} adet abonelik hediye etti! "
 
 msgid "chat.sub.gift-first"
 msgstr "Bu onun kanala ilk defa abone oluşu!"
@@ -176,6 +193,7 @@ msgstr "Bu onun kanala ilk defa abone oluşu!"
 msgid "chat.sub.gift-plan"
 msgstr "Seviye {tier}"
 
+#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr "Kanala {count} abone hediye edildi!"
 
@@ -200,8 +218,10 @@ msgstr "{user} Yaratıcı bölümde"
 msgid "clip.desc.1.playing"
 msgstr "{user} oynuyor {game}"
 
+#, fuzzy
 msgid "clip.desc.2"
-msgstr "{curator} tarafından kliplendi — {views,number} görüntüleme{views,en_plural}"
+msgstr ""
+"{curator} tarafından kliplendi — {views,number} görüntüleme{views,en_plural}"
 
 msgid "clip.unknown"
 msgstr "Bilinmeyen"
@@ -359,8 +379,10 @@ msgstr "Bu abonelik {seconds,humantime} içerisinde yenilenecek"
 msgid "emote-menu.sub-set"
 msgstr "Abone emojileri"
 
+#, fuzzy
 msgid "emote-menu.sub-unlock"
-msgstr "{price} karşılığında abone olarak {count,number} kadar emojiyi açabilirsiniz"
+msgstr ""
+"{price} karşılığında abone olarak {count,number} kadar emojiyi açabilirsiniz"
 
 msgid "emote-menu.twitch"
 msgstr "Twitch"
@@ -401,9 +423,8 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Çeviride yardımcı olmak istiyor musunuz? Bu linkten "
-"(https://discord.gg/UrAkGhT) discord serverına katılıp daha fazla bilgi "
-"alabilirsiniz."
+"Çeviride yardımcı olmak istiyor musunuz? Bu linkten (https://discord.gg/"
+"UrAkGhT) discord serverına katılıp daha fazla bilgi alabilirsiniz."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} Tamamlandı)"
@@ -598,6 +619,7 @@ msgstr "Bedava Twitch Prime Üyeliğiniz hazır."
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
+#, fuzzy
 msgid "tooltip.bits.more"
 msgstr "(ve {count} bir bu kadar daha)"
 
@@ -619,6 +641,7 @@ msgstr "Bir hata oluştu ({error})"
 msgid "tooltip.link-destination"
 msgstr "Hedef: {url}"
 
+#, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr "Uyarı: Bu URL Google'ın güvenilir listesinde:: {reasons}"
 
@@ -642,5 +665,637 @@ msgstr "{time,humantime} öncesinde"
 msgid "video.desc.1"
 msgstr "Videosu {user}"
 
+#, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} İzlenme sayısı - {date,datetime}"
+
+#: /src/modules/chat/actions/types.jsx:245
+#, icu-message-format, lp-defaults:"{\"user.login\":\"sirstendec\"}"
+msgid "chat.actions.unban.tooltip"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.mention"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.term"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.user"
+msgstr ""
+
+#: /src/modules/translation_ui/components/translation-ui.vue:484
+#, icu-message-format
+msgid "i18n.ui.added"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.versions"
+msgstr ""
+
+#: /src/modules/chat/actions/types.jsx:24
+#, icu-message-format
+msgid "chat.actions.reply"
+msgstr ""
+
+#: /src/modules/main_menu/components/action-editor.vue:595
+#, icu-message-format
+msgid "chat.actions.reply.desc"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:559
+#, icu-message-format
+msgid "chat.actions.reply.thread"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:855
+#, icu-message-format, lp-defaults:"{\"count\":100}"
+msgid "chat.bits-message"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.about"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
+#, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
+msgid "chat.ffz-badge.site"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:296
+#, icu-message-format
+msgid "chat.ffz-badge.site-link"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
+#, icu-message-format
+msgid "chat.ffz-badge.title"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
+#, icu-message-format
+msgid "chat.identity-menu"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/scroller.js:587:11
+#, icu-message-format
+msgid "chat.messages-below"
+msgstr ""
+
+#: /src/modules/chat/overrides.js:94
+#: /src/modules/chat/override-editor.vue:97
+#, icu-message-format
+msgid "chat.overrides.color"
+msgstr ""
+
+#: /src/modules/chat/override-editor.vue:23
+#, icu-message-format, lp-defaults:"{\"user.login\":\"SirStendec\"}"
+msgid "chat.overrides.editing"
+msgstr ""
+
+#: /src/modules/chat/overrides.js:94
+#: /src/modules/chat/override-editor.vue:45
+#, icu-message-format
+msgid "chat.overrides.name"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/scroller.js:581:11
+#, icu-message-format, lp-defaults:"{\"reason\":\"Ctrl or Mouse\"}"
+msgid "chat.paused"
+msgstr ""
+
+#, icu-message-format
+msgid "chat.points.bypass-sub"
+msgstr ""
+
+#, icu-message-format
+msgid "chat.points.choose-emote"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/points.js:33
+#, icu-message-format
+msgid "chat.points.highlighted"
+msgstr ""
+
+#, icu-message-format
+msgid "chat.points.modify-emote"
+msgstr ""
+
+#, icu-message-format
+msgid "chat.points.random-emote"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:718
+#, icu-message-format, lp-defaults:"{\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
+msgid "chat.points.redeemed"
+msgstr ""
+
+#, icu-message-format
+msgid "chat.points.reward"
+msgstr ""
+
+#, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
+msgid "chat.points.user-redeemed"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:274
+#, icu-message-format
+msgid "chat.reply-to"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:623:8
+#, icu-message-format
+msgid "chat.sub.twitch-prime"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:428
+#, icu-message-format
+msgid "compat.bttv.emotes-on"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.media"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.allow.unsafe"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.force-tooltip"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.full-embed"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.link"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.raw"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.refresh"
+msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:1
+#, icu-message-format
+msgid "debug.link-provider.url"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.animals_nature"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.food_drink"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.people_body"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.smileys_emotion"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
+#, icu-message-format
+msgid "emoji.category.travel_places"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
+#, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
+msgid "emote-menu.emote-follower"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
+#, icu-message-format
+msgid "emote-menu.toggle-hide.info"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
+#, icu-message-format
+msgid "emote-menu.toggle-hide.off"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2071
+#, icu-message-format
+msgid "emote-menu.toggle-hide.on"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:677
+#, icu-message-format
+msgid "emote-menu.visibility.hidden"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:678
+#, icu-message-format
+msgid "emote-menu.visibility.visible"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1054
+#, icu-message-format, lp-defaults:"{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}"
+msgid "emote.bits-owner"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "emote.ffz.status.1"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1365
+#, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
+msgid "emote.follower"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1041:14
+#, icu-message-format
+msgid "emote.prime"
+msgstr ""
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "hl-reason.badge"
+msgstr ""
+
+#, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
+msgid "chat.sub.gift-months"
+msgstr ""
+
+#: /src/modules/translation_ui/components/translation-ui.vue:373
+#, icu-message-format
+msgid "i18n.ui.all"
+msgstr ""
+
+#: /src/modules/translation_ui/components/translation-ui.vue:540
+#, icu-message-format
+msgid "i18n.ui.changed"
+msgstr ""
+
+#: /src/modules/translation_ui/components/translation-ui.vue:428
+#, icu-message-format
+msgid "i18n.ui.existing"
+msgstr ""
+
+#, icu-message-format
+msgid "i18n.ui.invalid"
+msgstr ""
+
+#: /src/modules/translation_ui/components/translation-ui.vue:597
+#, icu-message-format
+msgid "i18n.ui.pending"
+msgstr ""
+
+#: /src/modules/translation_ui/index.js:77
+#: /src/modules/translation_ui/components/translation-ui.vue:202
+#, icu-message-format
+msgid "i18n.ui.popout"
+msgstr ""
+
+#: /src/modules/translation_ui/components/translation-ui.vue:123
+#, icu-message-format
+msgid "i18n.ui.refresh"
+msgstr ""
+
+#: /src/modules/translation_ui/components/translation-ui.vue:96
+#, icu-message-format
+msgid "i18n.ui.save"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
+#, icu-message-format
+msgid "metadata.host.setting.auto-hosting.description"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
+#, icu-message-format
+msgid "metadata.host.setting.auto-hosting.title"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:516
+#, icu-message-format
+msgid "metadata.host.setting.strategy.description"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:492
+#, icu-message-format
+msgid "metadata.host.setting.strategy.title"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:358
+#, icu-message-format
+msgid "metadata.host.setting.team-hosting.description"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:334
+#, icu-message-format
+msgid "metadata.host.setting.team-hosting.title"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
+#, icu-message-format
+msgid "metadata.host.setting.vodcast-hosting.description"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
+#, icu-message-format
+msgid "metadata.host.setting.vodcast-hosting.title"
+msgstr ""
+
+#: /src/modules/metadata.jsx:319
+#, icu-message-format, lp-defaults:"{\"rate\":\"1.03\"}"
+msgid "metadata.player-stats.rate-warning"
+msgstr ""
+
+#: /src/modules/metadata.jsx:110
+#, icu-message-format
+msgid "metadata.viewers"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1014
+#, icu-message-format
+msgid "player.comp_button.disabled"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1115
+#, icu-message-format
+msgid "player.comp_button.firefox"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1016
+#, icu-message-format
+msgid "player.comp_button.help"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1002
+#, icu-message-format
+msgid "player.comp_button.off"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:1003
+#, icu-message-format
+msgid "player.comp_button.on"
+msgstr ""
+
+#: /src/sites/shared/player.jsx:1113
+#: /src/sites/shared/player.jsx:1172
+#, icu-message-format
+msgid "player.gain.label"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:823:20
+#, icu-message-format
+msgid "player.pip_button"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:865
+#, icu-message-format
+msgid "player.pip_button.fs"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/player.jsx:881:20
+#, icu-message-format
+msgid "player.reset_button"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:321
+#, icu-message-format
+msgid "site.menu_button.changed"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:333
+#, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
+msgid "site.menu_button.no-settings"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:441
+#, icu-message-format
+msgid "site.menu_button.quota-exceeded"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:190
+#, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
+msgid "site.menu_button.strings"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:151
+#, icu-message-format
+msgid "socket.info.command"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:243
+#, icu-message-format
+msgid "socket.info.connected"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:154
+#: /src/modules/main_menu/components/socket-info.vue:122
+#, icu-message-format
+msgid "socket.info.count"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:247
+#, icu-message-format
+msgid "socket.info.disconnected"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.local_time"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.ping"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.server"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.server_time"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.state"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.stats.authenticated"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.connected_clients"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.live_clients"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.total_commands"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:49
+#, icu-message-format
+msgid "socket.info.stats.total_messages"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.time_offset"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:10
+#, icu-message-format
+msgid "socket.info.topics"
+msgstr ""
+
+#: /src/modules/main_menu/components/socket-info.vue:119
+#, icu-message-format
+msgid "socket.info.version"
+msgstr ""
+
+#, icu-message-format
+msgid "tooltip.link.urls"
+msgstr ""
+
+#, icu-message-format
+msgid "tooltip.shift-detail"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
+#, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
+msgid "video.published-on"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1063
+#, icu-message-format
+msgid "emote.2fa"
+msgstr ""
+
+#: /src/modules/chat/tokenizers.jsx:1052
+#, icu-message-format
+msgid "emote.bits"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+
+#: /src/modules/chat/badges.jsx:287:15
+#, icu-message-format, lp-defaults:"{\"title\":\"Subscriber\",\"count\":\"1\"}"
+msgid "badges.subscriber.months"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "card.error.timeout"
+msgstr ""
+
+#: /src/modules/chat/badges.jsx:366
+#, icu-message-format, lp-defaults:"{\"title\":\"2-Year Subscriber\",\"tier\":3,\"months\":\"55\"}"
+msgid "badges.subscriber.tier-months"
+msgstr ""
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
+#, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
+msgid "emote-menu.emote-cheer"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr ""
+
+#: /src/modules/chat/rich_providers.js:119
+#: /src/modules/chat/rich_providers.js:123
+#, icu-message-format, lp-defaults:"{\"views\":33736583,\"followers\":167372}"
+msgid "cards.user.stats"
+msgstr ""
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr ""
+
+#, icu-message-format
+msgid "channel.links.clips"
+msgstr ""
+
+#, icu-message-format
+msgid "channel.links.schedule"
+msgstr ""
+
+#, icu-message-format
+msgid "channel.links.videos"
+msgstr ""
+
+#: /src/modules/chat/actions/types.jsx:21
+#, icu-message-format
+msgid "chat.actions.edit_overrides"
+msgstr ""
+
+#: /src/modules/main_menu/components/action-editor.vue:579
+#, icu-message-format
+msgid "chat.actions.edit_overrides.desc"
+msgstr ""
