@@ -60,7 +60,7 @@ for(const name of dirs) {
 
 		for(const group of Object.values(data)) {
 			for(const entry of Object.values(group)) {
-				if (entry?.msgid && entry.msgstr)
+				if (entry?.msgid && entry.msgstr?.[0]?.length)
 					strings[entry.msgid] = entry.msgstr[0];
 			}
 		}
