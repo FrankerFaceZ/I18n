@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2021-12-22 12:16+0000\n"
+"Last-Translator: Jim Ottesen <social@jimthesfn.one>\n"
+"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-ffzap-core/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
 
 msgid "setting.add_ons.ffz_ap_core"
 msgstr "FFZ:AP Core"
@@ -71,3 +80,30 @@ msgstr "Visa Moderator-meddelanden"
 
 msgid "setting.entry.ffzap.core.remove_spaces"
 msgstr "Göm Mellanslag Mellan Emotes"
+
+#: /src/ffzap-core/components/highlight-sound.vue:73
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-file"
+msgstr "Anpassad (Fil)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:60
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-url"
+msgstr "Anpassad (URL)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:139
+#, icu-message-format
+msgid "addon.ffzap-core.no-file-support"
+msgstr ""
+"Anpassade filer stöds inte av den aktuella lagringsleverantören.\n"
+"Ändra din lagringsleverantör under Datahantering > Lagring >> Leverantör."
+
+#: /src/ffzap-core/components/highlight-sound.vue:47
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.preset-sound"
+msgstr "Förinställt Ljud"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "FFZ:AP Core"
