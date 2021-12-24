@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-20 22:25+0000\n"
+"PO-Revision-Date: 2021-12-24 14:33+0000\n"
 "Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-fullscreen-chat/fr/>\n"
@@ -118,3 +118,17 @@ msgstr "Apparence"
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat.size_and_position"
 msgstr "Taille et Position"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur"
+msgstr "Flou d'arrière-plan"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:180
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur.description"
+msgstr ""
+"**Note :** Le flou peut entraîner des problèmes de performances en fonction "
+"des spécifications de votre navigateur et de votre PC."
