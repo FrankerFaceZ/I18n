@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-31 18:16+0000\n"
-"Last-Translator: Acursen <acursen@mailbox.org>\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-fullscreen-chat/de/>\n"
 "Language: de\n"
@@ -216,3 +216,20 @@ msgstr ""
 "Wie breit der FS-Chat in Pixel sein soll. Standardmäßig wird die normale "
 "Chatbreite verwendet. Wenn du dich mit CSS auskennst, kannst du auch eine "
 "andere Einheit eingeben."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.round"
+msgstr "Abgerundete Ecken verwenden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut"
+msgstr "Tastenkürzel"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width"
+msgstr "Breite"
