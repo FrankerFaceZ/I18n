@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-11 23:34+0000\n"
+"PO-Revision-Date: 2021-12-31 18:16+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-fullscreen-chat/de/>\n"
@@ -194,3 +194,25 @@ msgid "setting.entry.addon.fs-chat.minimal.description"
 msgstr ""
 "Dies versteckt die Kopfzeile des Chats und die Eingabeschaltflächen, wenn "
 "der FS-Chat geöffnet ist."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.no-input"
+msgstr "Chat-Feld ausblenden."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut.description"
+msgstr ""
+"Mit dieser Tastenkombination kann der FS-Chat im Vollbildmodus de- und "
+"aktiviert werden."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width.description"
+msgstr ""
+"Wie breit der FS-Chat in Pixel sein soll. Standardmäßig wird die normale "
+"Chatbreite verwendet. Wenn du dich mit CSS auskennst, kannst du auch eine "
+"andere Einheit eingeben."
