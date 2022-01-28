@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 16:15+0000\n"
-"Last-Translator: Dániel Pelle <pelledani6@gmail.com>\n"
+"PO-Revision-Date: 2022-01-28 20:31+0000\n"
+"Last-Translator: Ferenc Kölcsei <kolcseiferenc@gmail.com>\n"
 "Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.author"
 msgstr "Készítő: {author}"
@@ -1447,3 +1447,18 @@ msgstr "Prioritás"
 #, icu-message-format
 msgid "settings.term.color.tip"
 msgstr "Szín"
+
+#: /src/modules/main_menu/components/addon-list.vue:172
+#, icu-message-format
+msgid "addon.sort-create"
+msgstr "Rendezés: Létrehozás dátuma"
+
+#: /src/modules/main_menu/components/addon-list.vue:90
+#, icu-message-format
+msgid "addon.sort-name"
+msgstr "Rendezés: Név alapján"
+
+#: /src/modules/main_menu/components/addon-list.vue:98
+#, icu-message-format
+msgid "addon.sort-update"
+msgstr "Rendezés: Utoljára frissítve"
