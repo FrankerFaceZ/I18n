@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-25 15:16+0000\n"
-"Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
+"PO-Revision-Date: 2022-01-28 20:31+0000\n"
+"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-fullscreen-chat/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.fs-chat.button.active"
 msgstr "Désactiver le chat PÉ"
@@ -132,3 +132,9 @@ msgid "setting.entry.addon.fs-chat.bg.blur.description"
 msgstr ""
 "**Note :** Le flou peut causer des problèmes de performances dépendamment de "
 "votre navigateur et des spécifications de votre PC"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height"
+msgstr "Hauteur"
