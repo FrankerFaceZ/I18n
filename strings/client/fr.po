@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-28 19:05+0000\n"
-"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
+"PO-Revision-Date: 2022-01-28 20:31+0000\n"
+"Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fr/>\n"
 "Language: fr\n"
@@ -116,10 +116,8 @@ msgstr ""
 "Bannir temporairement {user.login} pendant {duration,number} "
 "seconde{duration,plural,one{}other{s}} pour:"
 
-#, fuzzy
 msgid "chat.actions.timeout.desc"
-msgstr ""
-"{options.duration,number} seconde{options.duration,plural,one{}other{s}}}"
+msgstr "{options.duration, plural, one {# seconde} other {# secondes}}"
 
 #, fuzzy
 msgid "chat.actions.timeout.tooltip"
@@ -157,8 +155,8 @@ msgstr ""
 
 msgid "chat.ffz-badge.about"
 msgstr ""
-"{title}: Ce badge apparaît globalement pour tous les utilisateurs de "
-"FrankerFaceZ."
+"Ce badge apparaît globalement pour tous les utilisateurs de FrankerFaceZ. "
+"Veuillez visiter le {website} afin de changer ce badge."
 
 msgid "chat.ffz-badge.site"
 msgstr "Veuillez visiter le {website} pour changer cette badge."
@@ -314,9 +312,8 @@ msgstr ""
 msgid "chat.sub.gift-plan"
 msgstr "niveau {tier}"
 
-#, fuzzy
 msgid "chat.sub.gift-total"
-msgstr "Cette personne a offert {count} abonnements sur cette chaîne!"
+msgstr "Cette personne a offert {count,number} abonnements sur cette chaîne !"
 
 msgid "chat.sub.main"
 msgstr "{user} a pris un abonnement {plan}. "
@@ -984,9 +981,8 @@ msgstr "Votre abonnement gratuit avec Prime est disponible."
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
-#, fuzzy
 msgid "tooltip.bits.more"
-msgstr "(et {count} de plus)"
+msgstr "(et {count, number} de plus)"
 
 msgid "tooltip.channel"
 msgstr "Chaîne: {source}"
@@ -1137,7 +1133,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr "Suivez {user} pour déverrouiller cet emote dans sa chaîne."
+msgstr "Suivez {user} pour déverrouiller cette émoticône dans sa chaîne."
 
 #: /src/modules/chat/tokenizers.jsx:1365
 #, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
