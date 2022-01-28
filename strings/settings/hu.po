@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-28 20:31+0000\n"
+"PO-Revision-Date: 2022-01-28 23:00+0000\n"
 "Last-Translator: Ferenc Kölcsei <kolcseiferenc@gmail.com>\n"
 "Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/hu/>\n"
@@ -1462,3 +1462,48 @@ msgstr "Rendezés: Név alapján"
 #, icu-message-format
 msgid "addon.sort-update"
 msgstr "Rendezés: Utoljára frissítve"
+
+#: /src/modules/main_menu/components/addon-list.vue:120
+#, icu-message-format
+msgid "addon.unlisted.explain"
+msgstr ""
+"A listázatlan kiegészítők már sikeresen átmentek az elfogadási procedúrán, "
+"de a készítőjük nem szerette volna láthatóvá tenni ezeket publikusan. Ez "
+"lehet amiatt, mert specifikusan egy kis felhasználói csoportot céloz meg, "
+"vagy mert még fejlesztés alatt áll. Ha ismered egy ilyen kiegészítőnek az ID-"
+"ját, illeszd be ide, hogy megjelenjen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.description"
+msgstr ""
+"A Kiegészítők olyan hozzáadott modulok, amelyeket gyakran más felhasználók/"
+"fejlesztők írnak, és automatikusan betölthetőek a FrankerFaceZ által, hogy "
+"új lehetőségeket és viselkedést adjon az FFZ-hez és rajta keresztül a Twitch-"
+"hez is."
+
+#: /src/modules/main_menu/components/addon.vue:136
+#, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
+msgid "addon.updated"
+msgstr "Utoljára frissítve: {when,humantime}"
+
+#: /src/modules/main_menu/components/addon-list.vue:97
+#, icu-message-format
+msgid "addon.unlisted.add"
+msgstr "Listázatlan hozzáadása..."
+
+#, icu-message-format, md-text
+msgid "home.about"
+msgstr ""
+"Köszönjük, hogy a FrankerFaceZ közösség tagja vagy!\n"
+"\n"
+"A kiegészítő 4.0 verziója folyamatos fejlesztés alatt áll, a Twitch "
+"weboldalának, a React-ra való átállása óta 2017 őszétől."
+
+#, icu-message-format, md-text
+msgid "home.addon-new"
+msgstr "Új Kiegészítők"
+
+#, icu-message-format, md-text
+msgid "home.addon-updates"
+msgstr "Frissített Kiegészítők"
