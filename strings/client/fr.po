@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
+"PO-Revision-Date: 2022-01-28 19:05+0000\n"
+"Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "async-text.upload"
 msgstr "Mettre en ligne"
@@ -1052,7 +1052,7 @@ msgstr "Aucune information disponible"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.unhandled"
-msgstr ""
+msgstr "Aucun gestionnaire ne prend en charge cette URL."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1066,12 +1066,12 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-host"
-msgstr ""
+msgstr "L'URL fournie a un hôte non valide et ne peut pas être vérifiée."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.network"
-msgstr ""
+msgstr "Une erreur réseau s'est produite."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1137,7 +1137,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr ""
+msgstr "Suivez {user} pour déverrouiller cet emote dans sa chaîne."
 
 #: /src/modules/chat/tokenizers.jsx:1365
 #, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
