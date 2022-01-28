@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-01-28 23:00+0000\n"
-"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-inline-tab-completion/de/>\n"
 "Language: de\n"
@@ -75,3 +75,10 @@ msgstr "Inhalt"
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.general"
 msgstr "Allgemein"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab"
+msgstr "Inline Tab"
