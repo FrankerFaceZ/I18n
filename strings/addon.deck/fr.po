@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-25 15:16+0000\n"
+"PO-Revision-Date: 2022-01-28 18:49+0000\n"
 "Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/fr/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.deck.title"
 msgstr "Deck"
@@ -169,3 +169,11 @@ msgstr "Chaînes :"
 #, icu-message-format
 msgid "addon.deck.edit.team"
 msgstr "Équipe :"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live-tip"
+msgstr ""
+"Cette colonne affiche les chaînes en direct diffusant une catégorie "
+"spécifique. Par exemple, vous pouvez créer un exemple montrant toutes les "
+"chaînes jouant à Super Mario 64."
