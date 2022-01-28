@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-01-28 23:00+0000\n"
+"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"Language-Team: German <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-inline-tab-completion/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.inlinetab.item"
 msgstr "{pos,number} von {total,number}"
@@ -48,3 +57,21 @@ msgstr "Anzeige mehrerer Einträge im Tooltip der Tab-Vervollständigung."
 
 msgid "setting.entry.addon.inlinetab.tips"
 msgstr "Tooltip anzeigen, wenn die Tab-Vervollständigung verwendet wird."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.appearance"
+msgstr "Erscheinungsbild"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content"
+msgstr "Inhalt"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.general"
+msgstr "Allgemein"
