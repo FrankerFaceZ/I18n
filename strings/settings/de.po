@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-01-28 23:00+0000\n"
-"Last-Translator: MrJenz <mrjenzzed@gmail.com>\n"
+"Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
 "Language: de\n"
@@ -364,7 +364,7 @@ msgid "setting.actions.text"
 msgstr "Bezeichnung"
 
 msgid "setting.actions.tooltip"
-msgstr "Benutzerdefinierter Tooltip"
+msgstr "Individueller Tooltip"
 
 msgid "setting.actions.type"
 msgstr "Art"
@@ -4205,3 +4205,74 @@ msgstr "Erscheinungsbild"
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.control_center.search"
 msgstr "Suche"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Hier kannst du individuelle Aktionen definieren, die zusammen mit "
+"Chatnachrichten angezeigt werden. Wenn du keine Aktion im Chat siehst, die "
+"du hier definiert hast, überprüfe, ob die Option »Mod-Symbole anzeigen« in "
+"den Chat-Einstellungen aktiviert ist."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Individuelle Abzeichen für Moderatoren verwenden, sofern verfügbar."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:124
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Stellt sicher, dass Abzeichen vor dem aktuellen Hintergrund sichtbar sind.\n"
+"\n"
+"**Hinweis:** Betrifft nur Abzeichen mit benutzerdefinierter Darstellung. "
+"Abonnenten-Abzeichen, Bit-Abzeichen usw. sind nicht betroffen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.date.description"
+msgstr ""
+"Das standardmäßige Datumsformat. Benutzerdefinierte Datumsformate werden mit "
+"der [Day.js](https://day.js.org/docs/en/display/format)-Bibliothek "
+"formatiert."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.time.description"
+msgstr ""
+"Das standardmäßige Zeitformat. Benutzerdefinierte Zeitformate werden mit der "
+"[Day.js](https://day.js.org/docs/en/display/format)-Bibliothek formatiert."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Hier kannst du individuelle Aktionen definieren, die unter dem Chat-Feld "
+"angezeigt werden."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Hier kannst du individuelle Aktionen definieren, die angezeigt werden, wenn "
+"du mit Rechtsklick einen Benutzer im Chat anklickst."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Individuelle Abzeichen für VIPs verwenden, sofern verfügbar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Hervorhebungsfarbe"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.datetime.description"
+msgstr ""
+"Das standardmäßige Datums- & Uhrzeitformat. Benutzerdefinierte Zeitformate "
+"werden mit der [Day.js](https://day.js.org/docs/en/display/format)-"
+"Bibliothek formatiert."
