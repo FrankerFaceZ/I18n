@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-17 00:15+0000\n"
+"PO-Revision-Date: 2022-02-15 21:31+0000\n"
 "Last-Translator: Rodrigo Badin <r.badin@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/pt_BR/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.author"
 msgstr "Por: {author}"
@@ -56,13 +56,13 @@ msgid "addon.show-more"
 msgstr "(Exibir Mais)"
 
 msgid "addon.sort-create"
-msgstr "Ordenar por Criação"
+msgstr "Ordenar por: Criação"
 
 msgid "addon.unlisted"
 msgstr "Não listado"
 
 msgid "addon.unlisted.add"
-msgstr "Adicionar Não Listado"
+msgstr "Adicionar Não Listado..."
 
 msgid "addon.unlisted.explain"
 msgstr ""
@@ -3270,3 +3270,32 @@ msgstr "(Mostrar Menos)"
 #, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
 msgid "addon.updated"
 msgstr "Atualizado: {when,humantime}"
+
+#: /src/modules/main_menu/components/addon-list.vue:110
+#, icu-message-format
+msgid "addon.filter-enabled"
+msgstr "Mostrar somente add-ons habilitados."
+
+#: /src/modules/main_menu/components/addon-list.vue:90
+#, icu-message-format
+msgid "addon.sort-name"
+msgstr "Ordenar por: Nome"
+
+#: /src/modules/main_menu/components/addon-list.vue:98
+#, icu-message-format
+msgid "addon.sort-update"
+msgstr "Ordenar por: Atualização"
+
+#, icu-message-format, md-text
+msgid "home.addon-new"
+msgstr "Novos Add-Ons"
+
+#, icu-message-format, md-text
+msgid "home.addon-new.desc"
+msgstr ""
+"Esses add-ons foram publicados nos últimos 7 dias. Verifique-os em [Add-"
+"Ons](~add_ons)."
+
+#, icu-message-format, md-text
+msgid "home.addon-updates"
+msgstr "Add-Ons Atualizados"
