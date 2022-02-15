@@ -1,94 +1,100 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-02-15 21:31+0000\n"
+"Last-Translator: 老立 <lather0519@hotmail.com>\n"
+"Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"addon-deck/yue/>\n"
 "Language: yue\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/deck/components/bd-column.vue:290
 #, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
 msgid "addon.deck.auto-refresh"
-msgstr ""
+msgstr "自動刷新於{delay}"
 
 #: /src/deck/components/bd-column-editor.vue:89
 #, icu-message-format
 msgid "addon.deck.cancel"
-msgstr ""
+msgstr "取消"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category"
-msgstr ""
+msgstr "類別"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category.clip"
-msgstr ""
+msgstr "剪輯"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category.clip-tip"
-msgstr ""
+msgstr "此列顯示來自特定類別的剪輯。"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category.live"
-msgstr ""
+msgstr "直播"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category.live-tip"
-msgstr ""
+msgstr "此列顯示特定類別的直播頻道。例如，您可以創建一個示例，顯示所有播放超級馬里奧 64 的頻道。"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category.video"
-msgstr ""
+msgstr "視頻"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category.video-tip"
-msgstr ""
+msgstr "此列顯示特定類別中的視頻。"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.channel"
-msgstr ""
+msgstr "頻道"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.channel.clip-tip"
-msgstr ""
+msgstr "此列顯示來自特定頻道的剪輯。"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.channel.video-tip"
-msgstr ""
+msgstr "此列顯示來自特定頻道的視頻。"
 
 #: /src/deck/components/bd-column.vue:384
 #, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
 msgid "addon.deck.clip-category"
-msgstr ""
+msgstr "{name}剪輯"
 
 #: /src/deck/components/bd-edit-clip.vue:35
 #, icu-message-format
 msgid "addon.deck.clip-period.24-hours"
-msgstr ""
+msgstr "24 小時"
 
 #: /src/deck/components/bd-edit-clip.vue:35
 #, icu-message-format
 msgid "addon.deck.clip-period.30-days"
-msgstr ""
+msgstr "30 天"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-edit-clip.vue:35
 #, icu-message-format
 msgid "addon.deck.clip-period.7-days"
-msgstr ""
+msgstr "7 天"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.clip-period.7d"
-msgstr ""
+msgstr "7 天"
 
 #: /src/deck/components/bd-edit-clip.vue:35
 #, icu-message-format
@@ -97,7 +103,7 @@ msgstr ""
 
 #, icu-message-format, lp-defaults:"{\"user\":null}"
 msgid "addon.deck.clipped-by"
-msgstr ""
+msgstr "由 {user} 剪切"
 
 #: /src/deck/components/bd-tab-editor.vue:33
 #, icu-message-format, lp-defaults:"{\"count\":4}"
@@ -107,54 +113,54 @@ msgstr ""
 #: /src/deck/components/bd-column-editor.vue:133
 #, icu-message-format
 msgid "addon.deck.copy"
-msgstr ""
+msgstr "複製"
 
 #: /src/deck/components/browse-deck.vue:361
 #: /src/deck/components/bd-tab-editor.vue:199
 #, icu-message-format
 msgid "addon.deck.default-tab"
-msgstr ""
+msgstr "默認選項"
 
 #: /src/deck/components/bd-column-editor.vue:159
 #: /src/deck/components/bd-column-editor.vue:110
 #, icu-message-format
 msgid "addon.deck.delete"
-msgstr ""
+msgstr "刪除"
 
 #: /src/deck/components/bd-column-editor.vue:228
 #, icu-message-format
 msgid "addon.deck.edit.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/deck/components/bd-column-editor.vue:600
 #, icu-message-format
 msgid "addon.deck.edit.avatars"
-msgstr ""
+msgstr "不顯示頭像。"
 
 #: /src/deck/components/bd-column-editor.vue:700
 #, icu-message-format
 msgid "addon.deck.edit.behavior"
-msgstr ""
+msgstr "行為"
 
 #: /src/deck/components/bd-column-editor.vue:402
 #, icu-message-format
 msgid "addon.deck.edit.card-width"
-msgstr ""
+msgstr "卡的尺寸："
 
 #: /src/deck/components/bd-edit-channel.vue:18
 #, icu-message-format
 msgid "addon.deck.edit.channel"
-msgstr ""
+msgstr "頻道:"
 
 #: /src/deck/components/bd-edit-channels.vue:18
 #, icu-message-format
 msgid "addon.deck.edit.channels"
-msgstr ""
+msgstr "多個頻道:"
 
 #: /src/deck/components/bd-column-editor.vue:313
 #, icu-message-format
 msgid "addon.deck.edit.color"
-msgstr ""
+msgstr "顏色:"
 
 #: /src/deck/components/bd-column-editor.vue:359
 #, icu-message-format
