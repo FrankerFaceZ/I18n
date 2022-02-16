@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-15 21:31+0000\n"
+"PO-Revision-Date: 2022-02-17 19:31+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -99,7 +99,7 @@ msgstr "7 天"
 #: /src/deck/components/bd-edit-clip.vue:35
 #, icu-message-format
 msgid "addon.deck.clip-period.all-time"
-msgstr ""
+msgstr "所有時間"
 
 #, icu-message-format, lp-defaults:"{\"user\":null}"
 msgid "addon.deck.clipped-by"
@@ -145,7 +145,7 @@ msgstr "行為"
 #: /src/deck/components/bd-column-editor.vue:402
 #, icu-message-format
 msgid "addon.deck.edit.card-width"
-msgstr "卡的尺寸："
+msgstr "卡片尺寸:"
 
 #: /src/deck/components/bd-edit-channel.vue:18
 #, icu-message-format
@@ -165,12 +165,12 @@ msgstr "顏色:"
 #: /src/deck/components/bd-column-editor.vue:359
 #, icu-message-format
 msgid "addon.deck.edit.column"
-msgstr ""
+msgstr "編輯列"
 
 #: /src/deck/components/bd-column-editor.vue:345
 #, icu-message-format
 msgid "addon.deck.edit.columns"
-msgstr ""
+msgstr "列:"
 
 #: /src/deck/components/bd-edit-count.vue:11
 #, icu-message-format
@@ -180,79 +180,79 @@ msgstr ""
 #: /src/deck/components/bd-column-editor.vue:350
 #, icu-message-format
 msgid "addon.deck.edit.default_count"
-msgstr ""
+msgstr "默認尺寸:"
 
 #: /src/deck/components/bd-edit-category.vue:18
 #, icu-message-format
 msgid "addon.deck.edit.game"
-msgstr ""
+msgstr "類別:"
 
 #: /src/deck/components/bd-tab-editor.vue:129
 #: /src/deck/components/bd-column-editor.vue:285
 #, icu-message-format
 msgid "addon.deck.edit.icon"
-msgstr ""
+msgstr "圖標:"
 
 #: /src/deck/components/bd-column-editor.vue:483
 #, icu-message-format
 msgid "addon.deck.edit.max-tags"
-msgstr ""
+msgstr "顯示標籤:"
 
 #: /src/deck/components/bd-edit-clip.vue:10
 #, icu-message-format
 msgid "addon.deck.edit.period"
-msgstr ""
+msgstr "時期:"
 
 #: /src/deck/components/bd-column-editor.vue:719
 #, icu-message-format
 msgid "addon.deck.edit.refresh"
-msgstr ""
+msgstr "自動刷新:"
 
 #: /src/deck/components/bd-column-editor.vue:826
 #, icu-message-format
 msgid "addon.deck.edit.required-tags"
-msgstr ""
+msgstr "必需標籤:"
 
 #: /src/deck/components/bd-edit-search.vue:14
 #, icu-message-format
 msgid "addon.deck.edit.search"
-msgstr ""
+msgstr "搜索:"
 
 #: /src/deck/components/bd-tab-editor.vue:192
 #, icu-message-format
 msgid "addon.deck.edit.sidebar"
-msgstr ""
+msgstr "使用標籤作為側邊欄"
 
 #: /src/deck/components/bd-column-editor.vue:789
 #, icu-message-format
 msgid "addon.deck.edit.sort"
-msgstr ""
+msgstr "排序方式:"
 
 #: /src/deck/components/bd-tab-editor.vue:163
 #, icu-message-format
 msgid "addon.deck.edit.tags"
-msgstr ""
+msgstr "標籤:"
 
 #: /src/deck/components/bd-edit-team.vue:14
 #, icu-message-format
 msgid "addon.deck.edit.team"
-msgstr ""
+msgstr "團隊:"
 
 #: /src/deck/components/bd-tab-editor.vue:86
 #: /src/deck/components/bd-column-editor.vue:240
 #, icu-message-format
 msgid "addon.deck.edit.title"
-msgstr ""
+msgstr "標題:"
 
 #: /src/deck/components/bd-column-editor.vue:678
 #, icu-message-format
 msgid "addon.deck.edit.viewers"
-msgstr ""
+msgstr "不顯示視圖/查看器。"
 
 #: /src/deck/components/bd-column.vue:491
 #, icu-message-format
 msgid "addon.deck.end"
-msgstr ""
+msgstr "你已經看完所有東西了。"
 
 #: /src/deck/components/bd-column.vue:504
 #, icu-message-format, lp-defaults:"{\"removed\":1,\"total\":11}"
@@ -262,140 +262,146 @@ msgstr ""
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.featured"
-msgstr ""
+msgstr "精選"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.featured.live-tip"
 msgstr ""
+"此列顯示實時精選頻道。 \n"
+"\n"
+"精選頻道通常顯示在輪播中 Twitch 主頁的頂部。"
 
 #: /src/deck/components/browse-deck.vue:446
 #, icu-message-format
 msgid "addon.deck.filtered"
-msgstr ""
+msgstr "篩選條件"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.followed"
-msgstr ""
+msgstr "已關注"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.followed.live-tip"
-msgstr ""
+msgstr "此列顯示您正在關注的直播頻道。"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.followed.video-tip"
-msgstr ""
+msgstr "此列顯示來自您已關注的頻道的視頻。"
 
 #: /src/deck/components/bd-column.vue:352
 #, icu-message-format
 msgid "addon.deck.go-to-top"
-msgstr ""
+msgstr "返回頂部"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.hosted"
-msgstr ""
+msgstr "主持"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.hosted.live-tip"
-msgstr ""
+msgstr "此列顯示由您關注的頻道主持的直播頻道。"
 
 #: /src/deck/components/browse-deck.vue:550
 #, icu-message-format
 msgid "addon.deck.intro"
 msgstr ""
+"歡迎來到瀏覽版，這是在 Twitch 上發現內容的最佳方式。 \n"
+"\n"
+"您需要首先使用“新建”按鈕添加一列。"
 
 #: /src/deck/components/bd-shelf.vue:169
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
 msgid "addon.deck.live-category"
-msgstr ""
+msgstr "{name} 直播"
 
 #: /src/deck/components/browse-deck.vue:191
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.live-channels"
-msgstr ""
+msgstr "實時頻道"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.live-channels.tip"
-msgstr ""
+msgstr "此列顯示 Twitch 上的所有實時頻道。它對於按某些標籤進行過濾很有用。"
 
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.live-featured"
-msgstr ""
+msgstr "精選直播"
 
 #: /src/deck/components/bd-shelf.vue:169
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.live-followed"
-msgstr ""
+msgstr "已關注直播"
 
 #: /src/deck/components/bd-shelf.vue:169
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.live-hosted"
-msgstr ""
+msgstr "主持直播"
 
 #: /src/deck/components/bd-shelf.vue:169
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.live-recommended"
-msgstr ""
+msgstr "推薦直播"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.live.recent"
-msgstr ""
+msgstr "最新開播"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.live.recommended"
-msgstr ""
+msgstr "為你推薦"
 
 #: /src/utilities/dialog.js:150
 #: /src/deck/components/bd-column.vue:678
 #: /src/deck/index.jsx:335
 #, icu-message-format
 msgid "addon.deck.loading"
-msgstr ""
+msgstr "正在載入..."
 
 #: /src/deck/components/bd-column.vue:433
 #, icu-message-format
 msgid "addon.deck.need-config"
-msgstr ""
+msgstr "您需要完成此列的配置。"
 
 #: /src/deck/components/browse-deck.vue:54
 #, icu-message-format
 msgid "addon.deck.new"
-msgstr ""
+msgstr "新..."
 
 #: /src/deck/components/bd-tab-settings.vue:51
 #, icu-message-format
 msgid "addon.deck.new-sidebar"
-msgstr ""
+msgstr "新的側邊欄標籤"
 
 #: /src/deck/components/bd-tab-settings.vue:49
 #, icu-message-format
 msgid "addon.deck.new-tab"
-msgstr ""
+msgstr "新標籤"
 
 #: /src/deck/components/bd-edit-video-channel.vue:65
 #, icu-message-format
 msgid "addon.deck.no-live"
-msgstr ""
+msgstr "直播時不要顯示播主頻道的實時轉播。"
 
 #: /src/deck/components/bd-edit-video.vue:69
 #, icu-message-format
@@ -405,98 +411,98 @@ msgstr ""
 #: /src/deck/components/bd-column.vue:699
 #, icu-message-format
 msgid "addon.deck.no-state"
-msgstr ""
+msgstr "(我在做什麼)"
 
 #: /src/deck/components/bd-tag-selector.vue:36
 #, icu-message-format
 msgid "addon.deck.no-tags"
-msgstr ""
+msgstr "沒有標籤"
 
 #: /src/deck/components/bd-channel-selector.vue:44
 #, icu-message-format
 msgid "addon.deck.no-users"
-msgstr ""
+msgstr "沒有用戶"
 
 #: /src/deck/components/bd-column.vue:232
 #: /src/deck/components/bd-column.vue:459
 #, icu-message-format
 msgid "addon.deck.open-settings"
-msgstr ""
+msgstr "打開設置"
 
 #: /src/deck/components/bd-video-card.vue:77
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.published"
-msgstr ""
+msgstr "發佈於 {published,date} {published,time}"
 
 #: /src/deck/components/bd-video-card.vue:56
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.published-human"
-msgstr ""
+msgstr "{published,humantime,1}"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.recommended"
-msgstr ""
+msgstr "受到推崇"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.recommended.live-tip"
-msgstr ""
+msgstr "此欄顯示 Twitch 根據您的觀看歷史為您推薦的直播頻道。"
 
 #: /src/deck/components/bd-column.vue:329
 #, icu-message-format
 msgid "addon.deck.refresh"
-msgstr ""
+msgstr "刷新"
 
 #: /src/deck/components/browse-deck.vue:346
 #, icu-message-format
 msgid "addon.deck.refresh-all"
-msgstr ""
+msgstr "全部刷新"
 
 #: /src/deck/components/bd-column-editor.vue:335
 #, icu-message-format
 msgid "addon.deck.refresh.disabled"
-msgstr ""
+msgstr "已禁用"
 
 #: /src/deck/components/bd-column-editor.vue:180
 #, icu-message-format
 msgid "addon.deck.save"
-msgstr ""
+msgstr "保存"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.search"
-msgstr ""
+msgstr "搜索"
 
 #: /src/deck/components/bd-tag-selector.vue:19
 #, icu-message-format
 msgid "addon.deck.search-tags"
-msgstr ""
+msgstr "標籤搜索"
 
 #: /src/deck/components/bd-channel-selector.vue:19
 #, icu-message-format
 msgid "addon.deck.search-users"
-msgstr ""
+msgstr "用戶搜索"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.search.live-tip"
-msgstr ""
+msgstr "此列顯示與搜索查詢匹配的直播頻道。"
 
 #: /src/deck/components/bd-shelf.vue:181
 #, icu-message-format
 msgid "addon.deck.show-less"
-msgstr ""
+msgstr "顯示較少"
 
 #: /src/deck/components/bd-shelf.vue:162
 #, icu-message-format
 msgid "addon.deck.show-more"
-msgstr ""
+msgstr "顯示更多"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.created-asc"
-msgstr ""
+msgstr "最近創建"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
