@@ -1,241 +1,249 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-02-20 13:31+0000\n"
+"Last-Translator: 老立 <lather0519@hotmail.com>\n"
+"Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"addon-ffzap-core/yue/>\n"
 "Language: yue\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/ffzap-core/components/highlight-sound.vue:73
 #, icu-message-format
 msgid "addon.ffzap-core.highlight-sound.custom-file"
-msgstr ""
+msgstr "自定義 (文件)"
 
 #: /src/ffzap-core/components/highlight-sound.vue:60
 #, icu-message-format
 msgid "addon.ffzap-core.highlight-sound.custom-url"
-msgstr ""
+msgstr "自定義 (網址)"
 
 #: /src/ffzap-core/components/highlight-sound.vue:47
 #, icu-message-format
 msgid "addon.ffzap-core.highlight-sound.preset-sound"
-msgstr ""
+msgstr "預設聲音"
 
 #: /src/ffzap-core/components/highlight-sound.vue:139
 #, icu-message-format
 msgid "addon.ffzap-core.no-file-support"
 msgstr ""
+"當前存儲提供程序不支持自定義文件。\n"
+"請在數據管理 > 存儲 >> 提供者中更改您的存儲提供者。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core"
-msgstr ""
+msgstr "FFZ:AP 核心"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core.chat"
-msgstr ""
+msgstr "聊天"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core.emotes"
-msgstr ""
+msgstr "表情"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
-msgstr ""
+msgstr "高亮顯示提示音"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
-msgstr ""
+msgstr "提示音觸發設置"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.enable_highlight_sound"
-msgstr ""
+msgstr "啟用高亮顯示提示音"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
-msgstr ""
+msgstr "每次高亮顯示消息時都會聽到提示音。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound"
-msgstr ""
+msgstr "聲音"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
-msgstr ""
+msgstr "忽略自己的頻道"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
-msgstr ""
+msgstr "阻止提示音在您自己的頻道中播放。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
-msgstr ""
+msgstr "高亮顯示徽章時播放"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
-msgstr ""
+msgstr "當高亮顯示 “高亮顯示徽章” 列表中的徽章時播放高亮顯示聲音。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
-msgstr ""
+msgstr "提及 時播放"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
-msgstr ""
+msgstr "當您的用戶名在聊天中被提及時，播放高亮顯示的聲音。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_term"
-msgstr ""
+msgstr "突出顯示 Term 時播放"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
-msgstr ""
+msgstr "當高亮顯示 “高亮顯示 Term” 列表中的 Term 時播放高亮顯示聲音。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_user"
-msgstr ""
+msgstr "當用戶高亮顯示時播放"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
-msgstr ""
+msgstr "高亮顯示新帳戶時播放"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
-msgstr ""
+msgstr "當高亮顯示 “高亮顯示新帳戶” 列表中的新帳戶時播放高亮顯示聲音。(需要“新帳戶高亮顯示器”插件)"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
-msgstr ""
+msgstr "當高亮顯示 “高亮顯示用戶” 列表中的用戶時播放高亮顯示聲音。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:22
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_types"
-msgstr ""
+msgstr "當……時播放"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:194
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_types.description"
-msgstr ""
+msgstr "當\"聊天線\"因選定原因之一高亮顯示時播放高亮顯示聲音。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_volume"
-msgstr ""
+msgstr "高亮顯示提示音量"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
-msgstr ""
+msgstr "當你更改\"高亮顯示聲音觸發器\"時，將播放聲音。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.10"
-msgstr ""
+msgstr "10%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.100"
-msgstr ""
+msgstr "100%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.20"
-msgstr ""
+msgstr "20%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.30"
-msgstr ""
+msgstr "30%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.40"
-msgstr ""
+msgstr "40%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.5"
-msgstr ""
+msgstr "5%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.50"
-msgstr ""
+msgstr "50%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.60"
-msgstr ""
+msgstr "60%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.70"
-msgstr ""
+msgstr "70%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.80"
-msgstr ""
+msgstr "80%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.90"
-msgstr ""
+msgstr "90%"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound.description"
-msgstr ""
+msgstr "更改激活聲音觸發器時將播放的聲音。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.message_deletion"
-msgstr ""
+msgstr "過濾用戶級消息"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.message_deletion.description"
-msgstr ""
+msgstr "如果消息不是由此級別或更高級別的用戶發送的，則消息將從聊天中完全刪除。"
 
 #, icu-message-format
 msgid "setting.entry.ffzap.core.message_deletion.values.0"
-msgstr ""
+msgstr "顯示所有消息"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.message_deletion.values.1"
-msgstr ""
+msgstr "顯示訂閱用戶消息"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.ffzap.core.message_deletion.values.2"
-msgstr ""
+msgstr "顯示主持人消息"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.remove_spaces"
-msgstr ""
+msgstr "刪除表情符號之間的空格"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.remove_spaces.description"
-msgstr ""
+msgstr "刪除連續的表情符號之間的空格。 (例如組合表情)"
