@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-20 13:31+0000\n"
+"PO-Revision-Date: 2022-02-21 10:31+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -197,83 +197,87 @@ msgstr "用戶超時"
 #: /src/modules/chat/actions/types.jsx:197:9
 #, icu-message-format
 msgid "chat.actions.timeout-reason"
-msgstr ""
+msgstr "{期間, 複數, 一{# 秒} 其他 {# 秒}} 的超時 {user.login}:"
 
 #: /src/modules/main_menu/components/action-editor.vue:545
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
 msgid "chat.actions.timeout.desc"
-msgstr ""
+msgstr "{選項, 期間, 複數, 一{# 秒} 其他 {# 秒}}"
 
 #: /src/modules/chat/actions/types.jsx:207:9
 #, icu-message-format, lp-defaults:"{\"user.login\":\"quoteconut\",\"duration\":600}"
 msgid "chat.actions.timeout.tooltip"
-msgstr ""
+msgstr "{期間, 複數, 一{# 秒} 其他 {# 秒}} 的超時 {user.login}"
 
 #: /src/modules/chat/actions/types.jsx:245:9
 #: /src/modules/main_menu/components/action-editor.vue:514
 #, icu-message-format, lp-defaults:"{\"action\":\"unban\",\"title\":\"Unban User\",\"title_i18n\":\"chat.actions.unban\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-ok\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.unban"
-msgstr ""
+msgstr "解禁用戶"
 
 #: /src/modules/chat/actions/types.jsx:245
 #, icu-message-format, lp-defaults:"{\"user.login\":\"sirstendec\"}"
 msgid "chat.actions.unban.tooltip"
-msgstr ""
+msgstr "解禁 {user.login}"
 
 #: /src/modules/chat/actions/index.jsx:216:11
 #, icu-message-format
 msgid "chat.actions.unknown"
-msgstr ""
+msgstr "未知操作類型"
 
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"action\":\"untimeout\",\"title\":\"Untimeout User\",\"title_i18n\":\"chat.actions.untimeout\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-ok\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.untimeout"
-msgstr ""
+msgstr "未超時用戶"
 
 #: /src/modules/chat/actions/types.jsx:272:9
 #, icu-message-format
 msgid "chat.actions.untimeout.tooltip"
-msgstr ""
+msgstr "未超時{user.login}"
 
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"action\":\"whisper\",\"title\":\"Whisper User\",\"title_i18n\":\"chat.actions.whisper\",\"value.v\":null,\"appearance.type\":\"text\",\"appearance.text\":\"W\"}"
 msgid "chat.actions.whisper"
-msgstr ""
+msgstr "私聊用戶"
 
 #: /src/modules/chat/actions/types.jsx:298:9
 #, icu-message-format
 msgid "chat.actions.whisper.tooltip"
-msgstr ""
+msgstr "私聊 {user.login}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
 msgid "chat.bits-message"
-msgstr ""
+msgstr "歡呼 {計數, 複數, 一 {# Bit} 其他 {# Bits}}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:311:9
 #, icu-message-format
 msgid "chat.deleted-messages"
 msgstr ""
+"{計數, 複數,\n"
+"一 {一條消息已被管理員刪除。}\n"
+"其他 {聊天消息已被版主刪除。}\n"
+"}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
-msgstr ""
+msgstr "此徽章會針對擁有 FrankerFaceZ 的用戶在全局範圍內顯示。請訪問 {website} 更改此徽章。"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.site"
-msgstr ""
+msgstr "請訪問 {website} 更改此徽章。"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:296
 #, icu-message-format
 msgid "chat.ffz-badge.site-link"
-msgstr ""
+msgstr "FrankerFaceZ 網站"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
 #, icu-message-format
 msgid "chat.ffz-badge.title"
-msgstr ""
+msgstr "FrankerFaceZ 徽章"
 
 #: /src/modules/chat/tokenizers.jsx:616:4
 #, icu-message-format
