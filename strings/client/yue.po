@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-21 10:31+0000\n"
+"PO-Revision-Date: 2022-02-24 17:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -59,7 +59,7 @@ msgstr "無資料"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-host"
-msgstr "提供的 URL 的 host 無效，無法檢查。"
+msgstr "提供的 URL 的主機無效，無法檢查。"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -120,7 +120,7 @@ msgstr "視頻"
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"action\":\"ban\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-block\",\"appearance.color\":\"#D62929\",\"appearance.tooltip\":\"\",\"display.mod\":true,\"display.mod_icons\":true,\"display.deleted\":false}"
 msgid "chat.actions.ban"
-msgstr "禁止用戶"
+msgstr "封鎖用戶"
 
 #: /src/modules/chat/actions/types.jsx:154:9
 #, icu-message-format
@@ -213,12 +213,12 @@ msgstr "{期間, 複數, 一{# 秒} 其他 {# 秒}} 的超時 {user.login}"
 #: /src/modules/main_menu/components/action-editor.vue:514
 #, icu-message-format, lp-defaults:"{\"action\":\"unban\",\"title\":\"Unban User\",\"title_i18n\":\"chat.actions.unban\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-ok\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.unban"
-msgstr "解禁用戶"
+msgstr "解封用戶"
 
 #: /src/modules/chat/actions/types.jsx:245
 #, icu-message-format, lp-defaults:"{\"user.login\":\"sirstendec\"}"
 msgid "chat.actions.unban.tooltip"
-msgstr "解禁 {user.login}"
+msgstr "解封 {user.login}"
 
 #: /src/modules/chat/actions/index.jsx:216:11
 #, icu-message-format
@@ -282,1407 +282,1433 @@ msgstr "FrankerFaceZ 徽章"
 #: /src/modules/chat/tokenizers.jsx:616:4
 #, icu-message-format
 msgid "chat.filtering.automod-term"
-msgstr ""
+msgstr "自動屏蔽字詞"
 
 #: /src/modules/chat/tokenizers.jsx:618:3
 #, icu-message-format
 msgid "chat.filtering.automod-why"
-msgstr ""
+msgstr "這個被標記為: "
 
 #, icu-message-format
 msgid "chat.filtering.automod.A"
-msgstr ""
+msgstr "惡意"
 
 #, icu-message-format
 msgid "chat.filtering.automod.I"
-msgstr ""
+msgstr "歧視"
 
 #: /src/modules/chat/tokenizers.jsx:606
 #, icu-message-format
 msgid "chat.filtering.automod.P"
-msgstr ""
+msgstr "鄙褻"
 
 #, icu-message-format
 msgid "chat.filtering.automod.S"
-msgstr ""
+msgstr "色情暗示言論"
 
 #: /src/modules/chat/tokenizers.jsx:540:4
 #, icu-message-format
 msgid "chat.filtering.blocked-term"
-msgstr ""
+msgstr "屏蔽字詞"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
 #, icu-message-format
 msgid "chat.identity-menu"
-msgstr ""
+msgstr "聊天身份"
 
 #: /src/sites/twitch-twilight/modules/chat/index.js:1157:18
 #, icu-message-format
 msgid "chat.ignore-clear"
-msgstr ""
+msgstr "版主清除聊天的嘗試被忽略。"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:184:10
 #, icu-message-format
 msgid "chat.message-deleted"
-msgstr ""
+msgstr "<聊天消息已被刪除>"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:587:11
 #, icu-message-format
 msgid "chat.messages-below"
-msgstr ""
+msgstr "聊天因滾動而暫停"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:342:20
 #, icu-message-format
 msgid "chat.mod-action.ban"
-msgstr ""
+msgstr "已封禁"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:347:20
 #, icu-message-format
 msgid "chat.mod-action.by"
-msgstr ""
+msgstr "{login} 的 {action}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:344:20
 #, icu-message-format
 msgid "chat.mod-action.delete"
-msgstr ""
+msgstr "已刪除"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:336:20
 #, icu-message-format
 msgid "chat.mod-action.timeout"
-msgstr ""
+msgstr "{duration} 超時"
 
 #: /src/modules/chat/overrides.js:94
 #: /src/modules/chat/override-editor.vue:97
 #, icu-message-format
 msgid "chat.overrides.color"
-msgstr ""
+msgstr "顏色"
 
 #: /src/modules/chat/override-editor.vue:23
 #, icu-message-format, lp-defaults:"{\"user.login\":\"SirStendec\"}"
 msgid "chat.overrides.editing"
-msgstr ""
+msgstr "編輯 {user.login}..."
 
 #: /src/modules/chat/overrides.js:94
 #: /src/modules/chat/override-editor.vue:45
 #, icu-message-format
 msgid "chat.overrides.name"
-msgstr ""
+msgstr "姓名"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:581:11
 #, icu-message-format, lp-defaults:"{\"reason\":\"Ctrl or Mouse\"}"
 msgid "chat.paused"
-msgstr ""
+msgstr "聊天因 {reason} 而暫停"
 
 #, icu-message-format
 msgid "chat.points.bypass-sub"
-msgstr ""
+msgstr "以 訂閱者模式 發送消息"
 
 #, icu-message-format
 msgid "chat.points.choose-emote"
-msgstr ""
+msgstr "選擇要解鎖的表情"
 
 #: /src/sites/twitch-twilight/modules/chat/points.js:33
 #, icu-message-format
 msgid "chat.points.highlighted"
-msgstr ""
+msgstr "高亮顯示我的信息"
 
 #, icu-message-format
 msgid "chat.points.modify-emote"
-msgstr ""
+msgstr "修改單個表情"
 
 #, icu-message-format
 msgid "chat.points.random-emote"
-msgstr ""
+msgstr "解鎖隨機訂閱表情"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:718
 #, icu-message-format, lp-defaults:"{\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
 msgid "chat.points.redeemed"
-msgstr ""
+msgstr "贖回 {reward} {cost}"
 
 #, icu-message-format
 msgid "chat.points.reward"
-msgstr ""
+msgstr "報酬"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
 msgid "chat.points.user-redeemed"
-msgstr ""
+msgstr "{user} 贖回 {reward} {cost}"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reason.ignore"
-msgstr ""
+msgstr "忽略轉播 / 主持人"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.evasion"
-msgstr ""
+msgstr "禁止規避"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.hate"
-msgstr ""
+msgstr "仇恨 / 騷擾"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.links"
-msgstr ""
+msgstr "發布不良鏈接"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.personal"
-msgstr ""
+msgstr "威脅 / 個人信息"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.spam"
-msgstr ""
+msgstr "個人垃圾郵件"
 
 #: /src/modules/chat/tokenizers.jsx:274
 #, icu-message-format
 msgid "chat.reply-to"
-msgstr ""
+msgstr "正在回复到:"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:673:7
 #, icu-message-format, lp-defaults:"{\"user\":\"FrankerFaceZ\"}"
 msgid "chat.ritual"
-msgstr ""
+msgstr "{user} 是新來的。Say 哈囉！"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:122:13
 #, icu-message-format
 msgid "chat.settings.back"
-msgstr ""
+msgstr "後退"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:140:14
 #, icu-message-format
 msgid "chat.settings.open-settings"
-msgstr ""
+msgstr "打開控制中心"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:93:9
 #, icu-message-format
 msgid "chat.settings.pause"
-msgstr ""
+msgstr "暫停聊天室"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:131:12
 #, icu-message-format
 msgid "chat.settings.pause-explain"
-msgstr ""
+msgstr "FrankerFaceZ 完全覆蓋了暫停聊天的行為。請在 FFZ 控制中心的聊天 > 行為下使用 FFZ 的滾動設定。"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:470:7
 #, icu-message-format
 msgid "chat.sub.anonymous-gifter"
-msgstr ""
+msgstr "匿名送禮人"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:628:20
 #, icu-message-format
 msgid "chat.sub.cumulative-months"
-msgstr ""
+msgstr "他們訂閱了 {cumulative,number} 個月，目前連續 {streak,number} 個月！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:468:21
 #, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
 msgid "chat.sub.gift"
 msgstr ""
+"{user} 正在向 {channel} 的社區贈送 {計數, 複數, 一個 {# 等級 {tier} 訂閱} 其他 {# 等級 {tier} 訂閱}}！"
+" "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
 msgid "chat.sub.gift-first"
-msgstr ""
+msgstr "這是他們第一次在頻道中贈送訂閱！"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
-msgstr ""
+msgstr "{user} 將 {月, 複數, 一個 {#月} 其他 {#月}} 的 {plan} 訂閱贈予 {recipient}！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:567:7
 #, icu-message-format
 msgid "chat.sub.gift-plan"
-msgstr ""
+msgstr "等級 {tier}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:486:19
 #, icu-message-format, lp-defaults:"{\"count\":36}"
 msgid "chat.sub.gift-total"
-msgstr ""
+msgstr "他們在頻道中贈送了 {count,number} 個訂閱者！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:614
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\"}"
 msgid "chat.sub.main"
-msgstr ""
+msgstr "{user} 訂閱了 {plan}. "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:638:20
 #, icu-message-format
 msgid "chat.sub.months"
-msgstr ""
+msgstr "他們訂閱了 {count,number} 個月！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:556:21
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\",\"recipient\":\"Quoteconut\"}"
 msgid "chat.sub.mystery"
-msgstr ""
+msgstr "{user} 將 {plan} 訂閱贈送給 {recipient}！ "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:624:8
 #, icu-message-format
 msgid "chat.sub.plan"
-msgstr ""
+msgstr "在第 {tier} 等級"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
 #, icu-message-format
 msgid "chat.sub.twitch-prime"
-msgstr ""
+msgstr "與 Prime 遊戲"
 
 #: /src/modules/chat/rich_providers.js:126:14
 #, icu-message-format
 msgid "clip.desc.1"
-msgstr ""
+msgstr "{user} 的剪輯"
 
 #: /src/modules/chat/rich_providers.js:115:14
 #, icu-message-format
 msgid "clip.desc.1.creative"
-msgstr ""
+msgstr "{user} 有創意"
 
 #: /src/modules/chat/rich_providers.js:120:14
 #, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
 msgid "clip.desc.1.playing"
-msgstr ""
+msgstr "{user} 正在玩 {game}"
 
 #: /src/modules/chat/rich_providers.js:133:13
 #, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
 msgid "clip.desc.2"
-msgstr ""
+msgstr "剪輯者 {curator} — {觀看次數, 複數, 一個 {# 觀看次數} 其它 {# 觀看次數}}"
 
 #: /src/modules/chat/rich_providers.js:134:57
 #, icu-message-format
 msgid "clip.unknown"
-msgstr ""
+msgstr "未知"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:428
 #, icu-message-format
 msgid "compat.bttv.emotes-on"
 msgstr ""
+"您在 BetterTTV 的設定中打開了“FrankerFaceZ Emotes”，但您也安裝了 FrankerFaceZ。請在 BetterTTV "
+"的設定中禁用“FrankerFaceZ Emotes”。這是沒有必要的。"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.media"
-msgstr ""
+msgstr "允許媒體"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.unsafe"
-msgstr ""
+msgstr "允許 NSFW"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.embed"
-msgstr ""
+msgstr "充實嵌入"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
-msgstr ""
+msgstr "強制工具提示"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.full-embed"
-msgstr ""
+msgstr "完全嵌入"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.link"
-msgstr ""
+msgstr "聊天鏈接"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.raw"
-msgstr ""
+msgstr "原始數據"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.refresh"
-msgstr ""
+msgstr "刷新"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.url"
-msgstr ""
+msgstr "測試URL"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:97:5
 #, icu-message-format
 msgid "directory.block"
-msgstr ""
+msgstr "攔截"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:106:5
 #, icu-message-format
 msgid "directory.hide-thumbnails"
-msgstr ""
+msgstr "隱藏縮略圖"
 
 #: /src/sites/twitch-twilight/modules/directory/following.jsx:242:4
 #, icu-message-format
 msgid "directory.hosted"
-msgstr ""
+msgstr "已託管的頻道"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:299:9
 #, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "directory.hosted.by-many"
-msgstr ""
+msgstr "由 {計數, 複數, 一個 {#頻道} 其他 {#頻道}} 託管"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:300:9
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\"}"
 msgid "directory.hosted.by-one"
-msgstr ""
+msgstr "由 {user} 託管"
 
 #: /src/sites/twitch-twilight/modules/directory/following.jsx:263:4
 #, icu-message-format
 msgid "directory.hosting"
-msgstr ""
+msgstr "正在託管頻道"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:105:5
 #, icu-message-format
 msgid "directory.show-thumbnails"
-msgstr ""
+msgstr "顯示縮略圖"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:96:5
 #, icu-message-format
 msgid "directory.unblock"
-msgstr ""
+msgstr "解除攔截"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:289:10
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"game\":\"Portal 2\"}"
 msgid "directory.user-playing"
-msgstr ""
+msgstr "{user} 正在玩 {game}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.activities"
-msgstr ""
+msgstr "活動"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.animals___nature"
-msgstr ""
+msgstr "動物與自然"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.animals_nature"
-msgstr ""
+msgstr "動物與自然"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.flags"
-msgstr ""
+msgstr "標識"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.food___drink"
-msgstr ""
+msgstr "食物和飲料"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.food_drink"
-msgstr ""
+msgstr "食物和飲料"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.objects"
-msgstr ""
+msgstr "重點關注"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.people_body"
-msgstr ""
+msgstr "人"
 
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.skin_tones"
-msgstr ""
+msgstr "膚色"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.smileys___people"
-msgstr ""
+msgstr "笑臉與人"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.smileys_emotion"
-msgstr ""
+msgstr "笑臉和情緒"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.symbols"
-msgstr ""
+msgstr "符號"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.travel___places"
-msgstr ""
+msgstr "旅行和地方"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.travel_places"
-msgstr ""
+msgstr "旅行和地方"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1272
 #, icu-message-format
 msgid "emote_menu.prime"
-msgstr ""
+msgstr "Prime"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1734:22
 #, icu-message-format
 msgid "emote-menu.channel"
-msgstr ""
+msgstr "頻道"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:793:12
 #, icu-message-format
 msgid "emote-menu.disable"
-msgstr ""
+msgstr "作為臨時解決方法，請嘗試禁用 FFZ 控制中心中的 FFZ 表情菜單。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1112:15
 #, icu-message-format
 msgid "emote-menu.emoji"
-msgstr ""
+msgstr "表情符號"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
-msgstr ""
+msgstr "歡呼一個額外的 {bits_其餘的, 複數, 一個 {# bit} 其他 {# bits}} 來解鎖這個表情。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr ""
+msgstr "關注 {user} 以解鎖這個在他們的頻道表情。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:609:8
 #, icu-message-format
 msgid "emote-menu.emote-sub"
-msgstr ""
+msgstr "訂閱 {price} 即可解鎖此表情。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:610:8
 #, icu-message-format
 msgid "emote-menu.emote-up"
-msgstr ""
+msgstr "將您的訂閱升級到 {price} 以解鎖此表情。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1620:7
 #, icu-message-format
 msgid "emote-menu.empty"
-msgstr ""
+msgstr "這裡什麼都沒有。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1619:7
 #, icu-message-format, lp-defaults:"{\"hotkey\":\"Ctrl\"}"
 msgid "emote-menu.empty-favs"
-msgstr ""
+msgstr "你沒有最喜歡的表情。要收藏一個表情，找到它並 {hotkey} -點擊它。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1617:6
 #, icu-message-format
 msgid "emote-menu.empty-search"
-msgstr ""
+msgstr "沒有匹配的表情。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:786:11
 #, icu-message-format
 msgid "emote-menu.error"
-msgstr ""
+msgstr "呈現此菜單時出錯。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:789:11
 #, icu-message-format
 msgid "emote-menu.error-report"
-msgstr ""
+msgstr "已自動提交錯誤報告。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1720:22
 #, icu-message-format
 msgid "emote-menu.favorites"
-msgstr ""
+msgstr "最愛的"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1513
 #, icu-message-format, lp-defaults:"{\"name\":\"Featured\",\"i18n_key\":\"emote-menu.featured\",\"sort_key\":75}"
 msgid "emote-menu.featured"
-msgstr ""
+msgstr "精選"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1263:17
 #, icu-message-format
 msgid "emote-menu.global"
-msgstr ""
+msgstr "全局表情"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1249:16
 #, icu-message-format
 msgid "emote-menu.inventory"
-msgstr ""
+msgstr "清單"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1627:6
 #, icu-message-format
 msgid "emote-menu.loading"
-msgstr ""
+msgstr "正在加載..."
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1518:6
 #, icu-message-format
 msgid "emote-menu.main-set"
-msgstr ""
+msgstr "頻道表情"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1278
 #, icu-message-format
 msgid "emote-menu.misc"
-msgstr ""
+msgstr "各種各樣的"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1748:22
 #, icu-message-format
 msgid "emote-menu.my-emotes"
-msgstr ""
+msgstr "我的表情"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1261
 #, icu-message-format
 msgid "emote-menu.points"
-msgstr ""
+msgstr "用點數解鎖"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1255:16
 #, icu-message-format
 msgid "emote-menu.prime"
-msgstr ""
+msgstr "Prime"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1775:22
 #, icu-message-format
 msgid "emote-menu.refresh"
-msgstr ""
+msgstr "刷新數據"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1697:12
 #, icu-message-format
 msgid "emote-menu.search"
-msgstr ""
+msgstr "搜索表情"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1696:12
 #, icu-message-format
 msgid "emote-menu.search-emoji"
-msgstr ""
+msgstr "搜索表情符號"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1891
 #, icu-message-format
 msgid "emote-menu.settings"
-msgstr ""
+msgstr "打開設定"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:673:6
 #, icu-message-format
 msgid "emote-menu.sub-basic"
-msgstr ""
+msgstr "訂閱以解鎖部分表情"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:574:16
 #, icu-message-format, lp-defaults:"{\"seconds\":2402847.089}"
 msgid "emote-menu.sub-ends"
-msgstr ""
+msgstr "這個訂閱結束於 {seconds,humantime} 。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:569:16
 #, icu-message-format
 msgid "emote-menu.sub-gift-ends"
-msgstr ""
+msgstr "這個贈送的訂閱結束於 {seconds,humantime}。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:564:16
 #, icu-message-format
 msgid "emote-menu.sub-prime"
 msgstr ""
+"這是您來自 Twitch Prime 上的免費訂閱。\n"
+"它結束於 {seconds,humantime}。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:556:15
 #, icu-message-format, lp-defaults:"{\"seconds\":388800.09}"
 msgid "emote-menu.sub-renews"
-msgstr ""
+msgstr "這個訂閱更新於 {seconds,humantime}。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1375:14
 #, icu-message-format
 msgid "emote-menu.sub-set"
-msgstr ""
+msgstr "訂閱者表情"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6
 #, icu-message-format
 msgid "emote-menu.sub-unlock"
-msgstr ""
+msgstr "訂閱 {price} 以解鎖 {計數, 複數, 一個 {# 表情} 其它 {# 表情}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
 #, icu-message-format
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
+"表情可見性控制允許您從表情菜單中單獨或按組隱藏表情。啟用表情可見性控制後，只需單擊一個表情即可隱藏或取消隱藏它。請注意，如果有人使用它們，您仍然會在聊天中"
+"看到這些表情，但它們不會出現在您的表情菜單中。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
 #, icu-message-format
 msgid "emote-menu.toggle-hide.off"
-msgstr ""
+msgstr "表情可見性控制"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2071
 #, icu-message-format
 msgid "emote-menu.toggle-hide.on"
-msgstr ""
+msgstr "退出表情可見性控制"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1300:16
 #, icu-message-format
 msgid "emote-menu.twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582:22
 #, icu-message-format
 msgid "emote-menu.unknown"
-msgstr ""
+msgstr "未知來源"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1272:16
 #, icu-message-format, lp-defaults:"{\"set_id\":300206295}"
 msgid "emote-menu.unknown-set"
-msgstr ""
+msgstr "設定 #{set_id}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:677
 #, icu-message-format
 msgid "emote-menu.visibility.hidden"
-msgstr ""
+msgstr "隱藏"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:678
 #, icu-message-format
 msgid "emote-menu.visibility.visible"
-msgstr ""
+msgstr "可見的"
 
 #: /src/modules/chat/tokenizers.jsx:1063
 #, icu-message-format
 msgid "emote.2fa"
-msgstr ""
+msgstr "Twitch 2FA 表情"
 
 #: /src/modules/chat/tokenizers.jsx:1052
 #, icu-message-format
 msgid "emote.bits"
-msgstr ""
+msgstr "Twitch Bits 獎勵"
 
 #: /src/modules/chat/tokenizers.jsx:1054
 #, icu-message-format, lp-defaults:"{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}"
 msgid "emote.bits-owner"
 msgstr ""
+"{source}\n"
+"頻道: {channel}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "emote.ffz.status.1"
-msgstr ""
+msgstr "得到正式認可的"
 
 #: /src/modules/chat/tokenizers.jsx:1365
 #, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
 msgid "emote.follower"
-msgstr ""
+msgstr "追隨者表情 ({source})"
 
 #: /src/modules/chat/tokenizers.jsx:1038:14
 #, icu-message-format
 msgid "emote.global"
-msgstr ""
+msgstr "Twitch 全局"
 
 #: /src/modules/chat/tokenizers.jsx:1054
 #, icu-message-format
 msgid "emote.limited"
-msgstr ""
+msgstr "限時表情"
 
 #: /src/modules/chat/tokenizers.jsx:1060:13
 #, icu-message-format, lp-defaults:"{\"owner\":\"Dubhzo\"}"
 msgid "emote.owner"
-msgstr ""
+msgstr "來自: {owner}"
 
 #: /src/modules/chat/tokenizers.jsx:1041:14
 #, icu-message-format
 msgid "emote.prime"
-msgstr ""
+msgstr "Prime Gaming"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1602:8
 #, icu-message-format
 msgid "error.try-again"
-msgstr ""
+msgstr "再試一次"
 
 #: /src/sites/twitch-twilight/modules/featured_follow.js:131
 #, icu-message-format, lp-defaults:"{\"user\":\"Drast\"}"
 msgid "featured-follow.button.unfollow"
-msgstr ""
+msgstr "取消跟隨 {user}"
 
 #: /src/sites/twitch-twilight/modules/featured_follow.js:131
 #, icu-message-format
 msgid "featured-follow.notify.on"
-msgstr ""
+msgstr "當前已啟用通知。單擊以禁用。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.badge"
-msgstr ""
+msgstr "高亮顯示徽章"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.mention"
-msgstr ""
+msgstr "提及"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.term"
-msgstr ""
+msgstr "高亮顯示字詞"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.user"
-msgstr ""
+msgstr "高亮顯示用戶"
 
 #: /src/modules/translation_ui/components/i18n-entry.vue:257
 #, icu-message-format, lp-defaults:"{\"text\":\"U\"}"
 msgid "i18n.diff.added"
 msgstr ""
+"补充:\n"
+"{text}"
 
 #: /src/modules/translation_ui/components/i18n-entry.vue:254
 #, icu-message-format, lp-defaults:"{\"text\":\".login}\"}"
 msgid "i18n.diff.removed"
 msgstr ""
+"已移除:\n"
+"{text}"
 
 #: /src/modules/main_menu/components/i18n-open.vue:9
 #, icu-message-format
 msgid "i18n.interest"
 msgstr ""
+"有興趣幫助本地化工作嗎？請[加入我們的 Discord](https://discord.gg/UrAkGhT) 並加入本地化頻道中的聊天。\n"
+"\n"
+"該工具允許翻譯人員在應用程序中實時測試他們的字符串。這樣您就可以在提交翻譯之前確保一切正常。"
 
 #: /src/modules/main_menu/setting-mixin.js:67
 #, icu-message-format, lp-defaults:"{\"name\":\"suomi\",\"coverage\":0.98}"
 msgid "i18n.locale-coverage"
-msgstr ""
+msgstr "{name} ({coverage,number,percent} 已完成)"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:484
 #, icu-message-format
 msgid "i18n.ui.added"
-msgstr ""
+msgstr "新字符串"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:373
 #, icu-message-format
 msgid "i18n.ui.all"
-msgstr ""
+msgstr "所有字符串"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:540
 #, icu-message-format
 msgid "i18n.ui.changed"
-msgstr ""
+msgstr "更改的字符串"
 
 #: /src/modules/translation_ui/components/i18n-entry.vue:129
 #: /src/modules/translation_ui/components/i18n-entry.vue:186
 #, icu-message-format
 msgid "i18n.ui.context"
-msgstr ""
+msgstr "語境"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:428
 #, icu-message-format
 msgid "i18n.ui.existing"
-msgstr ""
+msgstr "現有字符串"
 
 #, icu-message-format
 msgid "i18n.ui.invalid"
-msgstr ""
+msgstr "無效的字符串"
 
 #: /src/modules/main_menu/components/i18n-open.vue:19
 #, icu-message-format
 msgid "i18n.ui.open"
-msgstr ""
+msgstr "打開翻譯測試器"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:265
 #, icu-message-format, lp-defaults:"{\"current\":4,\"total\":4}"
 msgid "i18n.ui.pages"
-msgstr ""
+msgstr "第 {current,number} 頁，共 {total,number} 頁"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:597
 #, icu-message-format
 msgid "i18n.ui.pending"
-msgstr ""
+msgstr "待處理的字符串"
 
 #: /src/modules/translation_ui/index.js:77
 #: /src/modules/translation_ui/components/translation-ui.vue:202
 #, icu-message-format
 msgid "i18n.ui.popout"
-msgstr ""
+msgstr "在新窗口中打開翻譯編輯器"
 
 #: /src/modules/translation_ui/components/i18n-entry.vue:161
 #, icu-message-format
 msgid "i18n.ui.preview"
-msgstr ""
+msgstr "预览"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:123
 #, icu-message-format
 msgid "i18n.ui.refresh"
-msgstr ""
+msgstr "刷新字符串"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:96
 #, icu-message-format
 msgid "i18n.ui.save"
-msgstr ""
+msgstr "生成更改 Blob"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:37
 #: /src/modules/translation_ui/components/translation-ui.vue:56
 #, icu-message-format
 msgid "i18n.ui.search"
-msgstr ""
+msgstr "搜索字符串"
 
 #: /src/modules/translation_ui/components/i18n-entry.vue:106
 #, icu-message-format
 msgid "i18n.ui.source"
-msgstr ""
+msgstr "来源"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:26
 #, icu-message-format
 msgid "i18n.ui.title"
-msgstr ""
+msgstr "翻譯測試員"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:124
 #, icu-message-format
 msgid "i18n.ui.upload"
-msgstr ""
+msgstr "上傳更改"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:573:18
 #, icu-message-format
 msgid "key.alt"
-msgstr ""
+msgstr "ALT 鍵"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:577:22
 #, icu-message-format
 msgid "key.alt_mouse"
-msgstr ""
+msgstr "Alt 或 鼠標"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:571:25
 #, icu-message-format
 msgid "key.ctrl"
-msgstr ""
+msgstr "Ctrl 鍵"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:575:20
 #, icu-message-format
 msgid "key.ctrl_mouse"
-msgstr ""
+msgstr "Ctrl 或 鼠標"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:83:13
 #, icu-message-format
 msgid "key.hover"
-msgstr ""
+msgstr "浮動"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:572:17
 #, icu-message-format
 msgid "key.meta"
-msgstr ""
+msgstr "元鍵"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:576:21
 #, icu-message-format
 msgid "key.meta_mouse"
-msgstr ""
+msgstr "元鍵 或 鼠標"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:579:14
 #, icu-message-format
 msgid "key.mouse"
-msgstr ""
+msgstr "鼠標移動"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:574:19
 #, icu-message-format
 msgid "key.shift"
-msgstr ""
+msgstr "Shift 鍵"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:578:23
 #, icu-message-format
 msgid "key.shift_mouse"
-msgstr ""
+msgstr "Shift or 鼠標"
 
 #: /src/modules/main_menu/index.js:202
 #: /src/modules/main_menu/components/main-menu.vue:225
 #, icu-message-format
 msgid "main-menu.mark-all-seen"
-msgstr ""
+msgstr "標記所有已查看"
 
 #: /src/modules/main_menu/index.js:202
 #: /src/modules/main_menu/components/main-menu.vue:124
 #, icu-message-format
 msgid "main-menu.popout"
-msgstr ""
+msgstr "在新窗口中打開設定"
 
 #: /src/modules/main_menu/index.js:202
 #: /src/modules/main_menu/components/main-menu.vue:42
 #: /src/modules/main_menu/components/main-menu.vue:61
 #, icu-message-format
 msgid "main-menu.search"
-msgstr ""
+msgstr "搜索設定"
 
 #: /src/modules/main_menu/index.js:202
 #: /src/modules/main_menu/components/main-menu.vue:267
 #, icu-message-format, lp-defaults:"{\"version\":\"4.12.4-dev\"}"
 msgid "main-menu.version"
-msgstr ""
+msgstr "版本 {version}"
 
 #: /src/sites/twitch-twilight/modules/featured_follow.js:78:11
 #, icu-message-format
 msgid "metadata.featured-follow.button.featured"
-msgstr ""
+msgstr "精選"
 
 #: /src/sites/twitch-twilight/modules/featured-follow.vue:19
 #, icu-message-format
 msgid "metadata.featured-follow.title"
-msgstr ""
+msgstr "精選頻道"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:94:7
 #, icu-message-format
 msgid "metadata.host-button.host"
-msgstr ""
+msgstr "託管"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:103:12
 #, icu-message-format, lp-defaults:"{\"channel\":\"None\"}"
 msgid "metadata.host-button.tooltip"
-msgstr ""
+msgstr "當前正在託管: {channel}"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:106:45
 #, icu-message-format
 msgid "metadata.host-button.tooltip.none"
-msgstr ""
+msgstr "沒有"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:93:7
 #, icu-message-format
 msgid "metadata.host-button.unhost"
-msgstr ""
+msgstr "取消託管"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:90:12
 #, icu-message-format
 msgid "metadata.host-button.updating"
-msgstr ""
+msgstr "更新中..."
 
 #: /src/sites/twitch-twilight/modules/host_button.js:209
 #, icu-message-format
 msgid "metadata.host.add-channel"
-msgstr ""
+msgstr "添加到自動託管"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
 #, icu-message-format
 msgid "metadata.host.setting.auto-hosting.description"
-msgstr ""
+msgstr "當您離線時，自動從您的託管列表中託管頻道。"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
 #, icu-message-format
 msgid "metadata.host.setting.auto-hosting.title"
-msgstr ""
+msgstr "自動託管中"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:516
 #, icu-message-format
 msgid "metadata.host.setting.strategy.description"
-msgstr ""
+msgstr "啟用後，託管頻道會從列表中隨機選擇。"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:492
 #, icu-message-format
 msgid "metadata.host.setting.strategy.title"
-msgstr ""
+msgstr "隨機化託管順序"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:358
 #, icu-message-format
 msgid "metadata.host.setting.team-hosting.description"
-msgstr ""
+msgstr "在您的託管列表中包含團隊頻道。"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:334
 #, icu-message-format
 msgid "metadata.host.setting.team-hosting.title"
-msgstr ""
+msgstr "團隊託管中"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.description"
-msgstr ""
+msgstr "包括串流預先錄製的視頻的頻道，例如首映或重播"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.title"
-msgstr ""
+msgstr "託管預先錄製的視頻"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:209
 #, icu-message-format
 msgid "metadata.host.tab.auto-host"
-msgstr ""
+msgstr "自動託管"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:209
 #, icu-message-format
 msgid "metadata.host.tab.settings"
-msgstr ""
+msgstr "設定"
 
 #: /src/sites/twitch-twilight/modules/host-options.vue:17
 #, icu-message-format
 msgid "metadata.host.title"
-msgstr ""
+msgstr "自動託管管理"
 
 #: /src/modules/metadata.jsx:245:30
 #, icu-message-format
 msgid "metadata.player-stats.broadcast-ago"
-msgstr ""
+msgstr "轉播於 {count,number}秒前"
 
 #: /src/modules/metadata.jsx:224:8
 #, icu-message-format
 msgid "metadata.player-stats.delay-warning"
-msgstr ""
+msgstr "您的本地時鐘似乎偏離了大約 {count,number} 秒，這可能會造成不准確。"
 
 #: /src/modules/metadata.jsx:232:22
 #, icu-message-format
 msgid "metadata.player-stats.latency-tip"
-msgstr ""
+msgstr "直播延遲"
 
 #: /src/modules/metadata.jsx:319
 #, icu-message-format, lp-defaults:"{\"rate\":\"1.03\"}"
 msgid "metadata.player-stats.rate-warning"
-msgstr ""
+msgstr "以 {rate,number}x 速度播放以減少延遲。"
 
 #: /src/modules/metadata.jsx:179:19
 #, icu-message-format
 msgid "metadata.player-stats.subtitle"
-msgstr ""
+msgstr "延迟"
 
 #: /src/modules/metadata.jsx:235:18
 #, icu-message-format, lp-defaults:"{\"videoResolution\":\"1920x1080\",\"fps\":\"60\",\"playbackRate\":8207,\"skippedFrames\":3}"
 msgid "metadata.player-stats.video-info"
 msgstr ""
+"視頻: {videoResolution}p{fps}\n"
+"播放速率: {playbackRate, number} Kbps\n"
+"丟幀: {skippedFrames, number}"
 
 #: /src/modules/metadata.jsx:242:25
 #, icu-message-format
 msgid "metadata.player-stats.video-tip"
-msgstr ""
+msgstr "視頻信息"
 
 #: /src/modules/metadata.jsx:164
 #: /src/modules/metadata.jsx:174
 #, icu-message-format
 msgid "metadata.uptime.copy"
-msgstr ""
+msgstr "複製到剪切板"
 
 #: /src/modules/metadata.jsx:150
 #, icu-message-format, lp-defaults:"{\"time\":\"1:02:31\"}"
 msgid "metadata.uptime.link-to"
-msgstr ""
+msgstr "鏈接到 {time}"
 
 #: /src/modules/metadata.jsx:116:29
 #, icu-message-format, lp-defaults:"{}"
 msgid "metadata.uptime.since"
-msgstr ""
+msgstr "（自 {since,datetime} 起）"
 
 #: /src/modules/metadata.jsx:107:19
 #, icu-message-format
 msgid "metadata.uptime.subtitle"
-msgstr ""
+msgstr "在線時間"
 
 #: /src/modules/metadata.jsx:113:14
 #, icu-message-format
 msgid "metadata.uptime.tooltip"
-msgstr ""
+msgstr "在線直播時間"
 
 #: /src/modules/metadata.jsx:110
 #, icu-message-format
 msgid "metadata.viewers"
-msgstr ""
+msgstr "觀眾人數"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:321
 #, icu-message-format
 msgid "page.next"
-msgstr ""
+msgstr "下一頁"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:246
 #, icu-message-format
 msgid "page.previous"
-msgstr ""
+msgstr "上一頁"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1014
 #, icu-message-format
 msgid "player.comp_button.disabled"
-msgstr ""
+msgstr "查看剪輯時無法啟用音頻壓縮。"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1115
 #, icu-message-format
 msgid "player.comp_button.firefox"
-msgstr ""
+msgstr "啟用壓縮後，Firefox 用戶將無法控製播放速度。"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1016
 #, icu-message-format
 msgid "player.comp_button.help"
-msgstr ""
+msgstr "有關詳細信息，請參閱 FFZ 控制中心。如果音頻中斷，請重置播放器。"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1002
 #, icu-message-format
 msgid "player.comp_button.off"
-msgstr ""
+msgstr "禁用音頻壓縮"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1003
 #, icu-message-format
 msgid "player.comp_button.on"
-msgstr ""
+msgstr "音頻壓縮"
 
 #: /src/sites/shared/player.jsx:1113
 #: /src/sites/shared/player.jsx:1172
 #, icu-message-format
 msgid "player.gain.label"
-msgstr ""
+msgstr "增益控制"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:823:20
 #, icu-message-format
 msgid "player.pip_button"
-msgstr ""
+msgstr "畫中畫"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:865
 #, icu-message-format
 msgid "player.pip_button.fs"
-msgstr ""
+msgstr "全屏時無法使用畫中畫"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:819
 #, icu-message-format
 msgid "player.pip_button.off"
-msgstr ""
+msgstr "退出畫中畫"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:881:20
 #, icu-message-format
 msgid "player.reset_button"
-msgstr ""
+msgstr "重置播放器 (雙擊)"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:406
 #, icu-message-format
 msgid "player.reset_button.all"
-msgstr ""
+msgstr "重置所有玩家 (雙擊)"
 
 #: /src/modules/main_menu/index.js:793:11
 #, icu-message-format
 msgid "popup.error"
-msgstr ""
+msgstr "我們嘗試打開一個彈出窗口，但失敗了。確保允許來自 Twitch 的彈出窗口。"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:63:9
 #, icu-message-format
 msgid "site.menu_button"
-msgstr ""
+msgstr "FrankerFaceZ 控制中心"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:107:10
 #, icu-message-format
 msgid "site.menu_button.addon-dev"
-msgstr ""
+msgstr "a-開發版"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:184:7
 #, icu-message-format
 msgid "site.menu_button.addon-dev-desc"
-msgstr ""
+msgstr "您已從本地開發服務器加載附加數據。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:321
 #, icu-message-format
 msgid "site.menu_button.changed"
-msgstr ""
+msgstr "FrankerFaceZ 設置提供程序已更改。請刷新此選項卡以避免奇怪的行為。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:101:10
 #, icu-message-format
 msgid "site.menu_button.dev"
-msgstr ""
+msgstr "開發版"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:219
 #, icu-message-format
 msgid "site.menu_button.error"
-msgstr ""
+msgstr "加載 FFZ 控制中心時出錯。請刷新並重試。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:104:10
 #, icu-message-format
 msgid "site.menu_button.main-dev"
-msgstr ""
+msgstr "m-開發版"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:181:7
 #, icu-message-format
 msgid "site.menu_button.main-dev-desc"
-msgstr ""
+msgstr "您正在運行 FrankerFaceZ 的開發人員版本。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:178:7
 #, icu-message-format
 msgid "site.menu_button.new-desc"
-msgstr ""
+msgstr "有 {計數, 複數, 一 {是一個新設置} 其他 {是 # 個新設置}}。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:333
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
 msgid "site.menu_button.no-settings"
-msgstr ""
+msgstr "由於 URL 中包含“{param}”，此選項卡中的設置被禁用。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:359
 #, icu-message-format
 msgid "site.menu_button.profiles"
-msgstr ""
+msgstr "簡介"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:441
 #, icu-message-format
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
+"您於此網站的本地存儲空間已滿，無法保存設定。請備份您的設定並在 [數據管理 > 存儲 >> 提供程序](~數據_管理.儲存.選項卡.提供者) "
+"中切換到更高容量的提供程序。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:190
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
 msgid "site.menu_button.strings"
 msgstr ""
+"有 {增加, 複數, 一 {是 # 新字符串} 其它 {是 # 新字符串}} 和 {已改變, 複數, 一 {# 已改變字符串} 其它 {# "
+"已改變字符串}}。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:175:7
 #, icu-message-format
 msgid "site.menu_button.update-desc"
-msgstr ""
+msgstr "有可用的更新。請刷新您的頁面。"
 
 #: /src/modules/main_menu/components/socket-info.vue:151
 #, icu-message-format
 msgid "socket.info.command"
-msgstr ""
+msgstr "命令"
 
 #: /src/modules/main_menu/components/socket-info.vue:243
 #, icu-message-format
 msgid "socket.info.connected"
-msgstr ""
+msgstr "連接的"
 
 #: /src/modules/main_menu/components/socket-info.vue:154
 #: /src/modules/main_menu/components/socket-info.vue:122
 #, icu-message-format
 msgid "socket.info.count"
-msgstr ""
+msgstr "計數"
 
 #: /src/modules/main_menu/components/socket-info.vue:247
 #, icu-message-format
 msgid "socket.info.disconnected"
-msgstr ""
+msgstr "斷開連接"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.local_time"
-msgstr ""
+msgstr "本地時間"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.ping"
-msgstr ""
+msgstr "Ping"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.server"
-msgstr ""
+msgstr "伺服器"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.server_time"
-msgstr ""
+msgstr "伺服器時間"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.state"
-msgstr ""
+msgstr "狀態"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.stats.authenticated"
-msgstr ""
+msgstr "已認證"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.connected_clients"
-msgstr ""
+msgstr "連接的客戶端"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.live_clients"
-msgstr ""
+msgstr "活動的客戶端"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.total_commands"
-msgstr ""
+msgstr "命令"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.total_messages"
-msgstr ""
+msgstr "聊天消息"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.versions"
-msgstr ""
+msgstr "客戶端版本"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.time_offset"
-msgstr ""
+msgstr "時間偏差"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.topics"
-msgstr ""
+msgstr "話題"
 
 #: /src/modules/main_menu/components/socket-info.vue:119
 #, icu-message-format
 msgid "socket.info.version"
-msgstr ""
+msgstr "版本"
 
 #: /src/sites/twitch-twilight/modules/sub_button.jsx:92:17
 #, icu-message-format
 msgid "sub-button.prime"
-msgstr ""
+msgstr "您可以使用 Prime 的免費頻道訂閱。"
 
 #: /src/modules/chat/tokenizers.jsx:771:3
 #, icu-message-format
 msgid "tooltip.bits"
-msgstr ""
+msgstr "{count,number} Bits"
 
 #: /src/modules/chat/tokenizers.jsx:790:13
 #, icu-message-format
 msgid "tooltip.bits.more"
-msgstr ""
+msgstr "(還有 {count, number} 個)"
 
 #: /src/modules/chat/tokenizers.jsx:1044:14
 #, icu-message-format, lp-defaults:"{\"source\":\"sirstendec\"}"
 msgid "tooltip.channel"
-msgstr ""
+msgstr "頻道: {source}"
 
 #: /src/modules/chat/tokenizers.jsx:48:11
 #, icu-message-format
 msgid "tooltip.email-link"
-msgstr ""
+msgstr "電子郵箱 {address}"
 
 #: /src/modules/chat/tokenizers.jsx:1088:12
 #, icu-message-format, lp-defaults:"{\"category\":\"Smileys & People\"}"
 msgid "tooltip.emoji"
-msgstr ""
+msgstr "表情符號 - {category}"
 
 #: /src/modules/chat/tokenizers.jsx:1105:51
 #, icu-message-format, lp-defaults:"{\"name\":\"6Head\"}"
 msgid "tooltip.emote"
-msgstr ""
+msgstr "表情: {name}"
 
 #: /src/modules/chat/tokenizers.jsx:100:12
 #, icu-message-format
 msgid "tooltip.error"
-msgstr ""
+msgstr "發生錯誤。{error}"
 
 #: /src/modules/chat/tokenizers.jsx:60:14
 #, icu-message-format, lp-defaults:"{\"url\":\"https://www.twitch.tv/products/pangaeapanga/ticket\"}"
 msgid "tooltip.link-destination"
-msgstr ""
+msgstr "目標地址: {url}"
 
 #: /src/modules/chat/tokenizers.jsx:68:14
 #, icu-message-format, lp-defaults:"{\"reasons\":\"malware\"}"
 msgid "tooltip.link-unsafe"
-msgstr ""
+msgstr "警告：此 URL 已被標記為可能有害: {reasons}"
 
 #, icu-message-format
 msgid "tooltip.link.urls"
-msgstr ""
+msgstr "訪問過的網址"
 
 #, icu-message-format, lp-defaults:"{\"err\":\"TypeError: Something bad happened in JavaScript land.\"}"
 msgid "tooltip.render-error"
 msgstr ""
+"呈現此工具提示時出錯。\n"
+"{err}"
 
 #, icu-message-format
 msgid "tooltip.shift-detail"
-msgstr ""
+msgstr "(移到更多細節)"
 
 #: /src/sites/twitch-twilight/modules/video_chat/index.jsx:298:11
 #, icu-message-format
 msgid "video-chat.jump"
-msgstr ""
+msgstr "跳轉到視頻"
 
 #: /src/sites/twitch-twilight/modules/video_chat/index.jsx:255:46
 #, icu-message-format
 msgid "video-chat.reply"
-msgstr ""
+msgstr "回复"
 
 #: /src/sites/twitch-twilight/modules/video_chat/index.jsx:310:11
 #, icu-message-format
 msgid "video-chat.show-more"
-msgstr ""
+msgstr "顯示更多回复..."
 
 #: /src/sites/twitch-twilight/modules/video_chat/index.jsx:258:10
 #, icu-message-format
 msgid "video-chat.time"
-msgstr ""
+msgstr "{time,humantime} 之前"
 
 #: /src/modules/chat/rich_providers.js:190:14
 #, icu-message-format
 msgid "video.desc.1"
-msgstr ""
+msgstr "{user} 的視頻"
 
 #: /src/modules/chat/rich_providers.js:197:13
 #, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
 msgid "video.desc.2"
-msgstr ""
+msgstr "{length,duration} — {views,number} 觀看次數 — {date,datetime}"
 
 #: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
 msgid "video.published-on"
-msgstr ""
+msgstr "發表於: {date,date}"
