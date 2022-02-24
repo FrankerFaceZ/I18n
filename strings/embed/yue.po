@@ -1,100 +1,106 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-02-24 17:31+0000\n"
+"Last-Translator: 老立 <lather0519@hotmail.com>\n"
+"Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"embed/yue/>\n"
 "Language: yue\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.animated-emote"
-msgstr ""
+msgstr "動畫表情"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
 msgid "embed.bttv.by-line"
-msgstr ""
+msgstr "來自: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.status.approved"
-msgstr ""
+msgstr "得到正式認可的"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.uploader"
-msgstr ""
+msgstr "上傳者"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"#readherefirst\"}"
 msgid "embed.discord.channel"
-msgstr ""
+msgstr "頻道: {name}"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format
 msgid "embed.discord.invite"
-msgstr ""
+msgstr "Discord 邀請"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"The Cohhilition\"}"
 msgid "embed.discord.server"
-msgstr ""
+msgstr "伺服器: {name}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
 msgid "embed.ffz.by-line"
-msgstr ""
+msgstr "來自: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.emote"
-msgstr ""
+msgstr "表情"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.owner"
-msgstr ""
+msgstr "所有者"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.public"
-msgstr ""
+msgstr "公開"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
-msgstr ""
+msgstr "{計數, 複數, 一 {# 個用戶} 其他 {{count,number} 個用戶}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.users"
-msgstr ""
+msgstr "用戶"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.ended"
-msgstr ""
+msgstr "已結束於 {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.event-ended"
-msgstr ""
+msgstr "活動已結束"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.last"
-msgstr ""
+msgstr "最後的"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.range"
-msgstr ""
+msgstr "{start} 到 {end}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.album"
-msgstr ""
+msgstr "相冊"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
