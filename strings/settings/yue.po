@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-18 22:31+0000\n"
+"PO-Revision-Date: 2022-02-25 09:31+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -209,12 +209,12 @@ msgstr "沒有更多的提交要載入。"
 #: /src/modules/main_menu/components/changelog.vue:72
 #, icu-message-format
 msgid "home.changelog.nonversioned"
-msgstr ""
+msgstr "非版本化提交"
 
 #: /src/modules/main_menu/components/changelog.vue:61
 #, icu-message-format
 msgid "home.changelog.show-nonversioned"
-msgstr ""
+msgstr "包括非版本化提交。"
 
 #, icu-message-format
 msgid "home.discord"
@@ -251,7 +251,7 @@ msgstr ""
 "* *有一個被盜的表情！*\n"
 "* *有一個攻擊性的表情！*\n"
 "\n"
-"請使用我們網站上的`報告表情`工具報告任何有關表情的問題。 Shift-單擊有問題的表情以打開它的頁面，然後在右側欄中選擇`報告表情`。 "
+"請使用我們網站上的`報告表情`工具報告任何有關表情的問題。 單擊 Shift 以打開有問題的表情的頁面，然後在右側欄中選擇`報告表情`。 "
 "您需要登錄才能舉報表情。"
 
 #: /src/modules/main_menu/components/feedback-page.vue:8
@@ -289,148 +289,232 @@ msgstr "Twitch 增強套件"
 #, icu-message-format, md-text
 msgid "home.term-syntax"
 msgstr ""
+"這是可用的不同字詞語法選項的指南。在這裡，\n"
+"FrankerFaceZ 將您的高亮顯示和封鎖字詞轉換為常規\n"
+"表達式。\n"
+"\n"
+"\n"
+"### 類型\n"
+"\n"
+"#### 1. 文字\n"
+"\n"
+"文本沒有特殊行為。正則中任何具有特殊含義的字符\n"
+"表達式被規避。\n"
+"\n"
+"\n"
+"#### 2. 全局\n"
+"\n"
+"[Globs](https://en.wikipedia.org/wiki/Glob_(programming)) 提供簡單、容易\n"
+"使用通配符編寫模式匹配。例如，全局\n"
+"`cir*` 將匹配所有以字母 `cir` 開頭的單詞，包括`cir` 本身。\n"
+"`*` 是一個匹配任意數量字符的通配符。\n"
+"\n"
+"|通配符 |說明 |示例 |匹配 |不匹配 |\n"
+"| :--------: | :------------ | :-----: | :-----: | :------------: |\n"
+"| `*` |——匹配任意數量的非空格字符，包括無。—— | `cir*` | `cir`, `circle`, `cirFairy`, "
+"`circumstance` | `ci`, `sir`, `pizza` |\n"
+"| `**` |——匹配任意數量的任意字符，包括無。與單個 `*` 不同，這將匹配空格字符。—— | `hello**!` | `hello!`, `"
+"hello, streamer!` |\n"
+"| `?` |——匹配任何單個字符。—— | `?at` | `cat`, `hat`, `pat` | `at` |\n"
+"| `[abc]` ——|匹配括號內的一個字符。—— | `[cp]at` | `cat`, `pat` | `hat`, `at` |\n"
+"| `[a-z]` |——匹配括號範圍內的一個字符。—— | `Kappa[0-9]` | `Kappa1`, `Kappa2`, ... "
+"`Kappa0` | `Kappa`, `KappaHD` |\n"
+"| `[!abc]` |——匹配 *不在* 括號內的一個字符。—— | `[!cp]at` | `bat`, `rat`, `hat` | `at`, "
+"`cat`, `pat` |\n"
+"| `[!a-z]` |——匹配 *不在* 括號範圍內的一個字符。—— | `Kappa[!0-9]` | `Kappa?`, `KappaF` | "
+"`Kappa`, `Kappa0`, `Kappa4` |\n"
+"| `'{'abc,d?f'}'` |——匹配逗號分隔列表中的一種可能性。—— | `cir'{'no,Fairy'}'` | `cirno`, "
+"`cirFairy` | `cir`, `circle` |\n"
+"\n"
+"\n"
+"#### 3. 正則表達式\n"
+"\n"
+"[正則表達式](https://en.wikipedia.org/wiki/Regular_expression) 很複雜\n"
+"編程中使用的模式字符串。適用於 [了解如何使用它們] 的 [高級用戶]。\n"
+"\n"
+"FrankerFaceZ 使用瀏覽器的內置引擎來處理正則表達式，\n"
+"以及隨之而來的所有限制。正則表達式字詞被打包到\n"
+"生成的正則表達式與其他兩種模式相同。你不應該亦可以\n"
+"不使用捕獲組。\n"
+"\n"
+"FrankerFaceZ 使用基本邏輯來確保您的正則表達式不\n"
+"會異常性的緩慢，但您仍應注意避免緩慢的表達\n"
+"，因為它們經常運行。\n"
+"\n"
+"\n"
+"### 模式\n"
+"\n"
+"#### 區分大小寫\n"
+"\n"
+"這會嘗試以區分大小寫的方式匹配您的字詞。實際上，這\n"
+"選項禁用生成的正則表達式上的 `/i` 標誌。由於\n"
+"瀏覽器正則表達式引擎的限制，若不區分大小寫\n"
+"一些字符可能無法正常工作。\n"
+"\n"
+"\n"
+"#### 匹配整個單詞\n"
+"\n"
+"這要求您的字詞是一個整體的單詞。例如，字詞 `test`\n"
+"在禁用“匹配整個單詞”會很容易地匹配 `testing` 或 `tested`\n"
+"因為它匹配`test`。啟用“匹配整個單詞”後，它將**僅**匹配\n"
+"`test`。\n"
+"\n"
+"這是通過將生成的正則表達式包裝在額外的模式中來完成的\n"
+"非單詞字符的匹配器，例如空格和標點符號。\n"
+"\n"
+"\n"
+"#### 高亮匹配\n"
+"\n"
+"啟用後，[聊天>過濾>常規]中的匹配設置（~）\n"
+"已啟用，任何匹配的字詞都會在聊天中突出顯示，以便您查看\n"
+"完全符合你的條件。\n"
+"\n"
+"任何匹配都不會顯示為表情、鏈接等。\n"
+"\n"
+"這比不高亮顯示匹配要慢，因此您可能希望只在測試時使用\n"
+"這功能，然後在您知道您的字詞按您希望的方式工作時禁用它。\n"
 
 #, icu-message-format
 msgid "home.tweets"
-msgstr ""
+msgstr "FrankerFaceZ 的推文"
 
 #, icu-message-format
 msgid "home.twitter"
-msgstr ""
+msgstr "推特"
 
 #, icu-message-format
 msgid "home.website"
-msgstr ""
+msgstr "FrankerFaceZ 網站"
 
 #: /src/modules/main_menu/components/action-editor.vue:1189
 #, icu-message-format
 msgid "setting.actions.action"
-msgstr ""
+msgstr "功能"
 
 #: /src/modules/main_menu/components/chat-actions.vue:635
 #, icu-message-format
 msgid "setting.actions.add-default"
-msgstr ""
+msgstr "添加默認值"
 
 #: /src/modules/main_menu/components/chat-actions.vue:651
 #, icu-message-format
 msgid "setting.actions.add-default-tip"
-msgstr ""
+msgstr "將所有默認操作添加到此配置文件。"
 
 #: /src/modules/main_menu/components/action-editor.vue:49
 #, icu-message-format
 msgid "setting.actions.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format
 msgid "setting.actions.appearance.combo"
-msgstr ""
+msgstr "文本和圖標"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format, lp-defaults:"{\"title\":\"Icon\",\"title_i18n\":\"setting.actions.appearance.icon\",\"colored\":true,\"editor\":null,\"load\":null,\"component\":null,\"render\":null}"
 msgid "setting.actions.appearance.icon"
-msgstr ""
+msgstr "圖標"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format, lp-defaults:"{\"title\":\"Image\",\"title_i18n\":\"setting.actions.appearance.image\",\"editor\":null,\"component\":null,\"render\":null}"
 msgid "setting.actions.appearance.image"
-msgstr ""
+msgstr "圖片"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format, lp-defaults:"{\"title\":\"Text\",\"title_i18n\":\"setting.actions.appearance.text\",\"colored\":true,\"editor\":null,\"component\":null,\"render\":null}"
 msgid "setting.actions.appearance.text"
-msgstr ""
+msgstr "文本"
 
 #: /src/modules/chat/actions/components/edit-chat.vue:12
 #, icu-message-format
 msgid "setting.actions.chat"
-msgstr ""
+msgstr "聊天室命令"
 
 #: /src/modules/main_menu/components/action-editor.vue:183
 #, icu-message-format
 msgid "setting.actions.color"
-msgstr ""
+msgstr "顏色"
 
 #: /src/modules/main_menu/components/action-editor.vue:216
 #, icu-message-format
 msgid "setting.actions.color.warn"
-msgstr ""
+msgstr "此值將根據您的聊天顏色設置自動調整可見性。"
 
 #: /src/modules/main_menu/components/chat-actions.vue:545
 #, icu-message-format
 msgid "setting.actions.delete-all"
-msgstr ""
+msgstr "刪除此配置文件的所有操作。"
 
 #: /src/modules/main_menu/components/chat-actions.vue:378
 #, icu-message-format
 msgid "setting.actions.drag"
-msgstr ""
+msgstr "拖動動作以重新排序。"
 
 #: /src/modules/chat/actions/components/edit-timeout.vue:10
 #, icu-message-format
 msgid "setting.actions.duration"
-msgstr ""
+msgstr "期間"
 
 #: /src/modules/main_menu/components/action-editor.vue:452
 #, icu-message-format
 msgid "setting.actions.edit-visible.deleted"
-msgstr ""
+msgstr "消息已刪除"
 
 #: /src/modules/main_menu/components/action-editor.vue:544
 #, icu-message-format
 msgid "setting.actions.edit-visible.emote-only"
-msgstr ""
+msgstr "僅表情模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:728
 #, icu-message-format
 msgid "setting.actions.edit-visible.follows"
-msgstr ""
+msgstr "追隨者模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:268
 #, icu-message-format
 msgid "setting.actions.edit-visible.mod"
-msgstr ""
+msgstr "維護者"
 
 #: /src/modules/main_menu/components/action-editor.vue:356
 #, icu-message-format
 msgid "setting.actions.edit-visible.mod-icons"
-msgstr ""
+msgstr "Mod 圖標"
 
 #: /src/modules/main_menu/components/action-editor.vue:1005
 #, icu-message-format
 msgid "setting.actions.edit-visible.modifier"
-msgstr ""
+msgstr "修飾符"
 
 #: /src/modules/main_menu/components/action-editor.vue:913
 #, icu-message-format
 msgid "setting.actions.edit-visible.r9k"
-msgstr ""
+msgstr "R9k 模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:636
 #, icu-message-format
 msgid "setting.actions.edit-visible.slow"
-msgstr ""
+msgstr "慢速模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:821
 #, icu-message-format
 msgid "setting.actions.edit-visible.subs"
-msgstr ""
+msgstr "替換模式"
 
 #: /src/modules/chat/actions/components/edit-icon.vue:11
 #, icu-message-format
 msgid "setting.actions.icon"
-msgstr ""
+msgstr "圖標"
 
 #: /src/modules/main_menu/components/chat-actions.vue:409
 #, icu-message-format
 msgid "setting.actions.new"
-msgstr ""
+msgstr "新的..."
 
 #: /src/modules/main_menu/components/chat-actions.vue:680
 #, icu-message-format
 msgid "setting.actions.no-actions"
-msgstr ""
+msgstr "此配置文件中未定義任何操作"
 
 #: /src/modules/main_menu/components/chat-actions.vue:334
 #, icu-message-format
