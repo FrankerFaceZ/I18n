@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-25 09:31+0000\n"
+"PO-Revision-Date: 2022-02-26 07:31+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -145,7 +145,7 @@ msgstr "{options.command}"
 #: /src/modules/chat/actions/types.jsx:121:9
 #, icu-message-format
 msgid "chat.actions.delete.tooltip"
-msgstr "刪除 {user.login} 的聊天消息"
+msgstr "刪除 {user.login} 的聊天訊息"
 
 #: /src/modules/chat/actions/types.jsx:21
 #, icu-message-format
@@ -161,7 +161,7 @@ msgstr "允許您在聊天中設置用戶名和顏色的本地覆蓋。"
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"action\":\"msg_delete\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-trash\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.msg_delete"
-msgstr "刪除聊天消息"
+msgstr "刪除聊天訊息"
 
 #: /src/modules/chat/actions/types.jsx:31:4
 #, icu-message-format, lp-defaults:"{\"action\":\"open_url\",\"title\":\"Open URL\",\"title_i18n\":\"chat.actions.open_url\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-link-ext\"}"
@@ -171,12 +171,12 @@ msgstr "打開 URL"
 #: /src/modules/chat/actions/types.jsx:24
 #, icu-message-format
 msgid "chat.actions.reply"
-msgstr "回复聊天消息"
+msgstr "回复聊天訊息"
 
 #: /src/modules/main_menu/components/action-editor.vue:595
 #, icu-message-format
 msgid "chat.actions.reply.desc"
-msgstr "允許您直接回復其他用戶的消息。僅當聊天回复樣式為“FrankerFaceZ”時才起作用。"
+msgstr "允許您直接回復其他用戶的訊息。僅當聊天回复樣式為“FrankerFaceZ”時才起作用。"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:559
 #, icu-message-format
@@ -255,8 +255,8 @@ msgstr "歡呼 {計數, 複數, 一 {# Bit} 其他 {# Bits}}"
 msgid "chat.deleted-messages"
 msgstr ""
 "{計數, 複數,\n"
-"一 {一條消息已被管理員刪除。}\n"
-"其他 {聊天消息已被管理員刪除。}\n"
+"一 {一條訊息已被管理員刪除。}\n"
+"其他 {聊天訊息已被管理員刪除。}\n"
 "}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
@@ -324,7 +324,7 @@ msgstr "版主清除聊天的嘗試被忽略。"
 #: /src/sites/twitch-twilight/modules/chat/line.js:184:10
 #, icu-message-format
 msgid "chat.message-deleted"
-msgstr "<聊天消息已被刪除>"
+msgstr "<聊天訊息已被刪除>"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:587:11
 #, icu-message-format
@@ -375,7 +375,7 @@ msgstr "聊天因 {reason} 而暫停"
 
 #, icu-message-format
 msgid "chat.points.bypass-sub"
-msgstr "以 訂閱者模式 發送消息"
+msgstr "以 訂閱者模式 發送訊息"
 
 #, icu-message-format
 msgid "chat.points.choose-emote"
@@ -1592,7 +1592,7 @@ msgstr "命令"
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.total_messages"
-msgstr "聊天消息"
+msgstr "聊天訊息"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
