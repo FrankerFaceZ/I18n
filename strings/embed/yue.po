@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-26 15:31+0000\n"
+"PO-Revision-Date: 2022-02-27 16:31+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "embed/yue/>\n"
@@ -100,97 +100,101 @@ msgstr "{start} 到 {end}"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.album"
-msgstr "相冊"
+msgstr "Imgur 相冊"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
+"{圖像, 複數, 一個 {# 圖像} 其它 {# 圖像}} • {觀看次數, 複數, 一個 {# 觀看次數} 其它 {{views,number} "
+"觀看次數}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
 msgid "embed.imgur.by"
-msgstr ""
+msgstr "來自: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dimensions"
-msgstr ""
+msgstr "尺寸"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dislikes"
-msgstr ""
+msgstr "倒彩"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.gallery"
-msgstr ""
+msgstr "Imgur 圖庫"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
+"{posted,datetime} • {點數, 複數, 一個 {# 點數} 其它 {{points,number} 點數}} • 👍 "
+"{likes,number}  • 👎{dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.images"
-msgstr ""
+msgstr "圖像"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.likes"
-msgstr ""
+msgstr "點讚"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":24}"
 msgid "embed.imgur.more"
-msgstr ""
+msgstr "仲有多 {count,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.score"
-msgstr ""
+msgstr "分數"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.views"
-msgstr ""
+msgstr "觀看次數"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.metadata.untitled"
-msgstr ""
+msgstr "無標題 HTML 文檔"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.igt"
-msgstr ""
+msgstr "IGT"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
 msgid "embed.src.joined"
-msgstr ""
+msgstr "加入於 {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":32}"
 msgid "embed.src.more"
-msgstr ""
+msgstr "(仲有多 {count})"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
 msgid "embed.src.pbs"
-msgstr ""
+msgstr "{user} 嘅單人最好成績"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
-msgstr ""
+msgstr "{位置, 選擇序號, 一個 {# 第一} 兩個 {# 第二} 少數 {# 第三} 其餘 {# 第四之後}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.rt"
-msgstr ""
+msgstr "RT"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
