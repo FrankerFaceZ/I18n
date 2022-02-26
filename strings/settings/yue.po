@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-25 09:31+0000\n"
+"PO-Revision-Date: 2022-02-26 15:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -58,7 +58,7 @@ msgstr "Lordmau5"
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-bttv.name"
-msgstr "BetterTTV 表情"
+msgstr "BetterTTV 表情符號"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
@@ -68,7 +68,7 @@ msgstr "Lordmau5"
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-core.name"
-msgstr "FrankerFaceZ 附加包 - 核心"
+msgstr "FrankerFaceZ 擴充包 - 核心"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
@@ -83,12 +83,12 @@ msgstr "LirikLIVE"
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
 msgid "addon.filter-enabled"
-msgstr "僅顯示啟用的附加組件。"
+msgstr "僅顯示啟用嘅插件。"
 
 #: /src/modules/main_menu/components/addon.vue:220
 #, icu-message-format
 msgid "addon.settings"
-msgstr "設置"
+msgstr "設定"
 
 #: /src/modules/main_menu/components/addon.vue:3
 #, icu-message-format
@@ -129,7 +129,7 @@ msgstr "添加未列出..."
 #, icu-message-format
 msgid "addon.unlisted.explain"
 msgstr ""
-"未列出的附加組件是已獲得批准但已選擇避免在主列表中列出的附加組件。這可能是由於插件專門針對某些用戶，或者由於插件仍在開發中。如果您知道未列出的附加組件的 "
+"未列出嘅插件是已獲得批准但已選擇避免在主列表中列出嘅插件。可能係由於插件專門針對某些用戶，抑或由於插件仍在開發中。如果你知道未列出嘅插件嘅 "
 "ID，請在此處輸入以使其顯示。"
 
 #: /src/modules/main_menu/components/addon-list.vue:138
@@ -155,25 +155,25 @@ msgstr "網站"
 #, icu-message-format, md-text
 msgid "home.about"
 msgstr ""
-"感謝您使用 FrankerFaceZ。 \n"
+"感謝你使用 FrankerFaceZ。 \n"
 "\n"
-"自 2017 年底 Twitch 的基於 React 的網站發布以來，該擴展的 4.0 版一直在積極開發中。"
+"自 2017 年底 Twitch 嘅基於 React 嘅網站發布以來，該擴展嘅 4.0 版一直喺喥積極開發中。"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
-msgstr "新的附加組件"
+msgstr "新嘅插件"
 
 #, icu-message-format, md-text
 msgid "home.addon-new.desc"
-msgstr "這些附加組件是在過去 7 天內發布的。在 [附加組件](~插件) 中查看它們。"
+msgstr "這些插件係喺過去 7 日內發布嘅。喺 [插件](~插件) 中查看佢哋。"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
-msgstr "已更新的附加組件"
+msgstr "已更新嘅插件"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates.desc"
-msgstr "這些附加組件在過去 7 天內已更新。檢查 [變更日誌](插件变更日志 ) 以查看更改的內容。"
+msgstr "這些插件喺過去 7 日內已更新。檢查 [變更日誌](插件变更日志 ) 以查看更改嘅內容。"
 
 #: /src/modules/main_menu/components/changelog.vue:7
 #, icu-message-format
@@ -183,7 +183,7 @@ msgstr "變更日誌"
 #: /src/modules/main_menu/components/changelog.vue:81
 #, icu-message-format
 msgid "home.changelog.about-nonversioned"
-msgstr "非版本化提交是對 FrankerFaceZ 存儲庫的提交，與發布版本無關。它們通常代表將包含在後續版本中的社區維護或貢獻。"
+msgstr "非版本化提交是對 FrankerFaceZ 存儲庫嘅提交，與發布版本無關。佢哋通常代表將包含喺後續版本中嘅社區維護或貢獻。"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"Lordmau5\"}"
 msgid "home.changelog.by-line"
@@ -204,7 +204,7 @@ msgstr "載入更多"
 
 #, icu-message-format
 msgid "home.changelog.no-more"
-msgstr "沒有更多的提交要載入。"
+msgstr "冇更多嘅提交要載入。"
 
 #: /src/modules/main_menu/components/changelog.vue:72
 #, icu-message-format
@@ -218,7 +218,7 @@ msgstr "包括非版本化提交。"
 
 #, icu-message-format
 msgid "home.discord"
-msgstr "Discord(不和諧)"
+msgstr "Discord(唔和諧)"
 
 #: /src/modules/main_menu/components/faq-page.vue:8
 #, icu-message-format, md-text
@@ -226,33 +226,33 @@ msgid "home.faq"
 msgstr ""
 "## 常見問題\n"
 "\n"
-"* *[功能]發生了什麼？*\n"
+"* *[功能]發生乜嘢變化?*\n"
 "\n"
-"FrankerFaceZ v4.0 中仍然缺少 v3.0 中存在的功能。不幸的是，在 Twitch 網站的新版本上更新一些功能是不切實際的。\n"
+"FrankerFaceZ v4.0中仍然缺少v3.0中存在嘅功能。 不幸嘅係，喺Twitch網站嘅新版本上更新一啲功能係不切實際嘅。\n"
 "\n"
-"許多功能仍計劃返回，因為開發人員有時間實施它們。沒有待定功能的時間表。功能在完成後立即發布。\n"
+"好多功能仍計劃返回，這樣開發人員有時間去開發佢哋。 未待定功能嘅時間表。 功能喺完成後立即發佈。\n"
 "\n"
-"* *我已經打賞，但我的徽章沒有出現。*\n"
-"* *我在我的頻道中添加了一個表情，但我沒有看到它。*\n"
+"* *我已經打賞，但我嘅徽章冇出現。*\n"
+"* *我喺我嘅頻道中添加咗一個表情符號，但我未睇到佢。*\n"
 "\n"
-"由於我們當前網站的性能問題，我們必須在我們的 API "
-"上使用緩存。因此，對徽章或表情所做的更改最多可能需要半小時才能生效。等待後，刷新頁面，您的內容應該會出現。您也可以嘗試執行硬刷新。\n"
+"由於我哋當前網站嘅性能問題，我哋必須喺我哋嘅API上使用緩存。 因此，對徽章或表情符號所做嘅更改最多可能需要半粒鐘才能生效。 "
+"等待之後，刷新頁面，你嘅內容應該會出現。 你都可以嘗試執行硬刷新。\n"
 "\n"
-"* *我不想要 “FFZ 支持者” 徽章。*\n"
+"* *我唔想要 “FFZ 支持者” 徽章。*\n"
 "\n"
-"用戶可以在以下位置切換其支持者徽章的可見性： [https://www.frankerfacez.com/donate](https://www."
+"用戶可以喺以下位置切換其支持者徽章嘅可見性： [https://www.frankerfacez.com/donate](https://www."
 "frankerfacez.com/donate)\n"
 "\n"
-"* *我可以看到我的表情，但聊天中有人說他們看不到。*\n"
+"* *我可以睇到我嘅表情符號，但聊天中有人話佢地睇唔到。*\n"
 "\n"
-"用戶需要安裝 FrankerFaceZ 或其他支持 FFZ 表情的第三方客戶端，才能看到來自 FrankerFaceZ 的表情。 "
-"用戶也可能看不到新添加的表情，這取決於他們的瀏覽器緩存和上次刷新的時間。\n"
+"用戶需要安裝 FrankerFaceZ 或其他支持 FFZ 表情符號嘅第三方客戶端，才能看到來自 FrankerFaceZ 嘅表情符號。 "
+"用戶也可能看不到新添加嘅表情符號，這取決於佢哋嘅瀏覽器緩存同上次刷新嘅時間。\n"
 "\n"
-"* *有一個被盜的表情！*\n"
-"* *有一個攻擊性的表情！*\n"
+"* *有一個被盜嘅表情符號！*\n"
+"* *有一個攻擊性嘅表情符號！*\n"
 "\n"
-"請使用我們網站上的`報告表情`工具報告任何有關表情的問題。 單擊 Shift 以打開有問題的表情的頁面，然後在右側欄中選擇`報告表情`。 "
-"您需要登錄才能舉報表情。"
+"請使用我們網站上嘅`報告表情符號`工具報告任何有關表情符號嘅問題。 單擊 Shift 以打開有問題嘅表情符號嘅頁面，然後喺右側欄中選擇`報告表情符號`。 "
+"你需要登錄才能舉報表情符號。"
 
 #: /src/modules/main_menu/components/feedback-page.vue:8
 #, icu-message-format, md-text
@@ -260,14 +260,14 @@ msgid "home.feedback"
 msgstr ""
 "## 反饋\n"
 "\n"
-"您可以通過 [在我們的 GitHub 存儲庫中打開問題](https://github.com/FrankerFaceZ/FrankerFaceZ/"
-"issues) 來提供反饋和錯誤報告。你也可以 [在 Discord 上找到我們](https://discord.gg/UrAkGhT) 或 "
-"[在我們發推文](https://twitter.com/FrankerFaceZ)。\n"
+"你可以通過 [喺我們嘅 GitHub 存儲庫中打開問題](https://github.com/FrankerFaceZ/FrankerFaceZ/"
+"issues) 來提供反饋同錯誤報告。你也可以 [喺 Discord 上找到我們](https://discord.gg/UrAkGhT) 或 "
+"[喺我們發推文](https://twitter.com/FrankerFaceZ)。\n"
 "\n"
-"創建 GitHub 問題時，請檢查其他人是否尚未為您要討論或報告的內容創建問題。 GitHub 問題應該用於與客戶有關的問題，而不是關於表情批准的問題。"
+"創建 GitHub 問題時，請檢查其他人是否尚未為你要討論或報告嘅內容創建問題。 GitHub "
+"問題應該用於與客戶有關嘅問題，而唔係關於表情符號批准嘅問題。\n"
 "\n"
-"\n"
-"創建問題時，請同時上傳下面提供的日誌並將鏈接包含在您的報告中。"
+"創建問題時，請同時上傳下面提供嘅日誌並將連結包含喺你嘅報告中。"
 
 #, icu-message-format
 msgid "home.github"
@@ -275,11 +275,11 @@ msgstr "GitHub"
 
 #, icu-message-format
 msgid "home.new-settings"
-msgstr "新設置"
+msgstr "新設定"
 
 #, icu-message-format
 msgid "home.new-settings.desc"
-msgstr "這些是您尚未查看的設置。"
+msgstr "這些是你尚未查看嘅設定。"
 
 #, icu-message-format
 msgid "home.tag-line"
@@ -289,8 +289,8 @@ msgstr "Twitch 增強套件"
 #, icu-message-format, md-text
 msgid "home.term-syntax"
 msgstr ""
-"這是可用的不同字詞語法選項的指南。在這裡，\n"
-"FrankerFaceZ 將您的高亮顯示和封鎖字詞轉換為常規\n"
+"呢個係可用嘅唔同字詞語法選項嘅指南。喺這裡，\n"
+"FrankerFaceZ 將你嘅高亮顯示同封鎖字詞轉換為常規\n"
 "表達式。\n"
 "\n"
 "\n"
@@ -298,7 +298,7 @@ msgstr ""
 "\n"
 "#### 1. 文字\n"
 "\n"
-"文本沒有特殊行為。正則中任何具有特殊含義的字符\n"
+"文本冇特殊行為。正則中任何具有特殊含義嘅字符\n"
 "表達式被規避。\n"
 "\n"
 "\n"
@@ -306,77 +306,77 @@ msgstr ""
 "\n"
 "[Globs](https://en.wikipedia.org/wiki/Glob_(programming)) 提供簡單、容易\n"
 "使用通配符編寫模式匹配。例如，全局\n"
-"`cir*` 將匹配所有以字母 `cir` 開頭的單詞，包括`cir` 本身。\n"
-"`*` 是一個匹配任意數量字符的通配符。\n"
+"`cir*` 將匹配所有以字母 `cir` 開頭嘅單詞，包括`cir` 本身。\n"
+"`*` 是一個匹配任意數量字符嘅通配符。\n"
 "\n"
-"|通配符 |說明 |示例 |匹配 |不匹配 |\n"
+"|通配符 |說明 |示例 |匹配 |唔匹配 |\n"
 "| :--------: | :------------ | :-----: | :-----: | :------------: |\n"
-"| `*` |——匹配任意數量的非空格字符，包括無。—— | `cir*` | `cir`, `circle`, `cirFairy`, "
+"| `*` |——匹配任意數量嘅非空格字符，包括無。—— | `cir*` | `cir`, `circle`, `cirFairy`, "
 "`circumstance` | `ci`, `sir`, `pizza` |\n"
-"| `**` |——匹配任意數量的任意字符，包括無。與單個 `*` 不同，這將匹配空格字符。—— | `hello**!` | `hello!`, `"
+"| `**` |——匹配任意數量嘅任意字符，包括無。與單個 `*` 唔同，這將匹配空格字符。—— | `hello**!` | `hello!`, `"
 "hello, streamer!` |\n"
 "| `?` |——匹配任何單個字符。—— | `?at` | `cat`, `hat`, `pat` | `at` |\n"
-"| `[abc]` ——|匹配括號內的一個字符。—— | `[cp]at` | `cat`, `pat` | `hat`, `at` |\n"
-"| `[a-z]` |——匹配括號範圍內的一個字符。—— | `Kappa[0-9]` | `Kappa1`, `Kappa2`, ... "
+"| `[abc]` ——|匹配括號內嘅一個字符。—— | `[cp]at` | `cat`, `pat` | `hat`, `at` |\n"
+"| `[a-z]` |——匹配括號範圍內嘅一個字符。—— | `Kappa[0-9]` | `Kappa1`, `Kappa2`, ... "
 "`Kappa0` | `Kappa`, `KappaHD` |\n"
-"| `[!abc]` |——匹配 *不在* 括號內的一個字符。—— | `[!cp]at` | `bat`, `rat`, `hat` | `at`, "
+"| `[!abc]` |——匹配 *唔喺* 括號內嘅一個字符。—— | `[!cp]at` | `bat`, `rat`, `hat` | `at`, "
 "`cat`, `pat` |\n"
-"| `[!a-z]` |——匹配 *不在* 括號範圍內的一個字符。—— | `Kappa[!0-9]` | `Kappa?`, `KappaF` | "
+"| `[!a-z]` |——匹配 *唔喺* 括號範圍內嘅一個字符。—— | `Kappa[!0-9]` | `Kappa?`, `KappaF` | "
 "`Kappa`, `Kappa0`, `Kappa4` |\n"
-"| `'{'abc,d?f'}'` |——匹配逗號分隔列表中的一種可能性。—— | `cir'{'no,Fairy'}'` | `cirno`, "
+"| `'{'abc,d?f'}'` |——匹配逗號分隔列表中嘅一種可能性。—— | `cir'{'no,Fairy'}'` | `cirno`, "
 "`cirFairy` | `cir`, `circle` |\n"
 "\n"
 "\n"
 "#### 3. 正則表達式\n"
 "\n"
 "[正則表達式](https://en.wikipedia.org/wiki/Regular_expression) 很複雜\n"
-"編程中使用的模式字符串。適用於 [了解如何使用它們] 的 [高級用戶]。\n"
+"編程中使用嘅模式字符串。適用於 [了解如何使用佢哋] 嘅 [高級用戶]。\n"
 "\n"
-"FrankerFaceZ 使用瀏覽器的內置引擎來處理正則表達式，\n"
-"以及隨之而來的所有限制。正則表達式字詞被打包到\n"
-"生成的正則表達式與其他兩種模式相同。你不應該亦可以\n"
-"不使用捕獲組。\n"
+"FrankerFaceZ 使用瀏覽器嘅內置引擎來處理正則表達式，\n"
+"以及隨之而來嘅所有限制。正則表達式字詞被打包到\n"
+"生成嘅正則表達式與其他兩種模式相同。你唔應該亦可以\n"
+"唔使用捕獲組。\n"
 "\n"
-"FrankerFaceZ 使用基本邏輯來確保您的正則表達式不\n"
-"會異常性的緩慢，但您仍應注意避免緩慢的表達\n"
-"，因為它們經常運行。\n"
+"FrankerFaceZ 使用基本邏輯來確保你嘅正則表達式唔\n"
+"會異常性嘅緩慢，但你仍應注意避免緩慢嘅表達\n"
+"，因為佢哋經常運行。\n"
 "\n"
 "\n"
 "### 模式\n"
 "\n"
 "#### 區分大小寫\n"
 "\n"
-"這會嘗試以區分大小寫的方式匹配您的字詞。實際上，這\n"
-"選項禁用生成的正則表達式上的 `/i` 標誌。由於\n"
-"瀏覽器正則表達式引擎的限制，若不區分大小寫\n"
+"這會嘗試以區分大小寫嘅方式匹配你嘅字詞。實際上，這\n"
+"選項禁用生成嘅正則表達式上嘅 `/i` 標誌。由於\n"
+"瀏覽器正則表達式引擎嘅限制，若唔區分大小寫\n"
 "一些字符可能無法正常工作。\n"
 "\n"
 "\n"
 "#### 匹配整個單詞\n"
 "\n"
-"這要求您的字詞是一個整體的單詞。例如，字詞 `test`\n"
-"在禁用“匹配整個單詞”會很容易地匹配 `testing` 或 `tested`\n"
-"因為它匹配`test`。啟用“匹配整個單詞”後，它將**僅**匹配\n"
+"這要求你嘅字詞是一個整體嘅單詞。例如，字詞 `test`\n"
+"喺禁用“匹配整個單詞”會很容易地匹配 `testing` 或 `tested`\n"
+"因為佢匹配`test`。啟用“匹配整個單詞”後，佢將**僅**匹配\n"
 "`test`。\n"
 "\n"
-"這是通過將生成的正則表達式包裝在額外的模式中來完成的\n"
-"非單詞字符的匹配器，例如空格和標點符號。\n"
+"係通過將生成嘅正則表達式包裝喺額外嘅模式中來完成嘅\n"
+"非單詞字符嘅匹配器，例如空格與標點符號。\n"
 "\n"
 "\n"
 "#### 高亮匹配\n"
 "\n"
-"啟用後，[聊天>過濾>常規]中的匹配設置（~）\n"
-"已啟用，任何匹配的字詞都會在聊天中突出顯示，以便您查看\n"
-"完全符合你的條件。\n"
+"啟用後，[聊天>過濾>常規]中嘅匹配設定（~）\n"
+"已啟用，任何匹配嘅字詞都會喺聊天中高亮顯示，以便你查看\n"
+"完全符合你嘅條件。\n"
 "\n"
-"任何匹配都不會顯示為表情、鏈接等。\n"
+"任何匹配都唔會顯示為表情符號、連結等。\n"
 "\n"
-"這比不高亮顯示匹配要慢，因此您可能希望只在測試時使用\n"
-"這功能，然後在您知道您的字詞按您希望的方式工作時禁用它。\n"
+"這比唔高亮顯示匹配要慢，因此你可能希望只喺測試時使用\n"
+"這功能，然後喺你知道你嘅字詞按你希望嘅方式工作時禁用佢。\n"
 
 #, icu-message-format
 msgid "home.tweets"
-msgstr "FrankerFaceZ 的推文"
+msgstr "FrankerFaceZ 嘅推文"
 
 #, icu-message-format
 msgid "home.twitter"
@@ -404,12 +404,12 @@ msgstr "將所有默認操作添加到此配置文件。"
 #: /src/modules/main_menu/components/action-editor.vue:49
 #, icu-message-format
 msgid "setting.actions.appearance"
-msgstr "外觀"
+msgstr "首次亮相"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format
 msgid "setting.actions.appearance.combo"
-msgstr "文本和圖標"
+msgstr "文本與圖標"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format, lp-defaults:"{\"title\":\"Icon\",\"title_i18n\":\"setting.actions.appearance.icon\",\"colored\":true,\"editor\":null,\"load\":null,\"component\":null,\"render\":null}"
@@ -439,12 +439,12 @@ msgstr "顏色"
 #: /src/modules/main_menu/components/action-editor.vue:216
 #, icu-message-format
 msgid "setting.actions.color.warn"
-msgstr "此值將根據您的聊天顏色設置自動調整可見性。"
+msgstr "此值將根據你嘅聊天顏色設定自動調整可見性。"
 
 #: /src/modules/main_menu/components/chat-actions.vue:545
 #, icu-message-format
 msgid "setting.actions.delete-all"
-msgstr "刪除此配置文件的所有操作。"
+msgstr "刪除此配置文件嘅所有操作。"
 
 #: /src/modules/main_menu/components/chat-actions.vue:378
 #, icu-message-format
@@ -459,22 +459,22 @@ msgstr "期間"
 #: /src/modules/main_menu/components/action-editor.vue:452
 #, icu-message-format
 msgid "setting.actions.edit-visible.deleted"
-msgstr "消息已刪除"
+msgstr "訊息已刪除"
 
 #: /src/modules/main_menu/components/action-editor.vue:544
 #, icu-message-format
 msgid "setting.actions.edit-visible.emote-only"
-msgstr "僅表情模式"
+msgstr "僅限表情符號模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:728
 #, icu-message-format
 msgid "setting.actions.edit-visible.follows"
-msgstr "追隨者模式"
+msgstr "僅限跟隨者模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:268
 #, icu-message-format
 msgid "setting.actions.edit-visible.mod"
-msgstr "維護者"
+msgstr "版主(審核人)"
 
 #: /src/modules/main_menu/components/action-editor.vue:356
 #, icu-message-format
@@ -499,7 +499,7 @@ msgstr "慢速模式"
 #: /src/modules/main_menu/components/action-editor.vue:821
 #, icu-message-format
 msgid "setting.actions.edit-visible.subs"
-msgstr "替換模式"
+msgstr "訂閱模式"
 
 #: /src/modules/chat/actions/components/edit-icon.vue:11
 #, icu-message-format
@@ -509,7 +509,7 @@ msgstr "圖標"
 #: /src/modules/main_menu/components/chat-actions.vue:409
 #, icu-message-format
 msgid "setting.actions.new"
-msgstr "新的..."
+msgstr "新嘅..."
 
 #: /src/modules/main_menu/components/chat-actions.vue:680
 #, icu-message-format
@@ -519,229 +519,229 @@ msgstr "此配置文件中未定義任何操作"
 #: /src/modules/main_menu/components/chat-actions.vue:334
 #, icu-message-format
 msgid "setting.actions.no-visible"
-msgstr ""
+msgstr "冇可見嘅操作"
 
 #: /src/modules/main_menu/components/chat-actions.vue:42
 #, icu-message-format
 msgid "setting.actions.preview"
-msgstr ""
+msgstr "預覽:"
 
 #: /src/modules/main_menu/components/chat-actions.vue:302
 #, icu-message-format
 msgid "setting.actions.preview.all"
-msgstr ""
+msgstr "顯示所有"
 
 #: /src/modules/main_menu/components/chat-actions.vue:89
 #, icu-message-format
 msgid "setting.actions.preview.deleted"
-msgstr ""
+msgstr "已刪除嘅訊息"
 
 #: /src/modules/main_menu/components/chat-actions.vue:182
 #, icu-message-format
 msgid "setting.actions.preview.emote-only"
-msgstr ""
+msgstr "僅限表情符號"
 
 #: /src/modules/main_menu/components/chat-actions.vue:243
 #, icu-message-format
 msgid "setting.actions.preview.followers"
-msgstr ""
+msgstr "僅限跟隨者"
 
 #: /src/modules/main_menu/components/chat-actions.vue:61
 #, icu-message-format
 msgid "setting.actions.preview.mod"
-msgstr ""
+msgstr "成為版主"
 
 #: /src/modules/main_menu/components/chat-actions.vue:121
 #, icu-message-format
 msgid "setting.actions.preview.mod_icons"
-msgstr ""
+msgstr "帶有 Mod 圖標"
 
 #: /src/modules/main_menu/components/chat-actions.vue:275
 #, icu-message-format
 msgid "setting.actions.preview.r9k"
-msgstr ""
+msgstr "R9k 模式"
 
 #: /src/modules/main_menu/components/chat-actions.vue:153
 #, icu-message-format
 msgid "setting.actions.preview.slow"
-msgstr ""
+msgstr "慢速模式"
 
 #: /src/modules/main_menu/components/chat-actions.vue:214
 #, icu-message-format
 msgid "setting.actions.preview.subs"
-msgstr ""
+msgstr "僅限訂閱"
 
 #: /src/modules/chat/actions/components/edit-ban.vue:10
 #: /src/modules/chat/actions/components/edit-timeout.vue:56
 #, icu-message-format
 msgid "setting.actions.reason"
-msgstr ""
+msgstr "默認原因"
 
 #: /src/modules/chat/actions/components/edit-chat.vue:118
 #, icu-message-format
 msgid "setting.actions.set-chat"
-msgstr ""
+msgstr "將此訊息粘貼到聊天中，而唔係直接發送。"
 
 #: /src/modules/chat/actions/components/edit-text.vue:7
 #, icu-message-format
 msgid "setting.actions.text"
-msgstr ""
+msgstr "標籤"
 
 #: /src/modules/main_menu/components/action-editor.vue:62
 #, icu-message-format
 msgid "setting.actions.tooltip"
-msgstr ""
+msgstr "自定義工具提示"
 
 #: /src/modules/main_menu/components/action-editor.vue:106
 #: /src/modules/main_menu/components/action-editor.vue:1199
 #, icu-message-format
 msgid "setting.actions.type"
-msgstr ""
+msgstr "類型"
 
 #: /src/modules/chat/actions/components/edit-image.vue:7
 #: /src/modules/chat/actions/components/edit-url.vue:7
 #, icu-message-format
 msgid "setting.actions.url"
-msgstr ""
+msgstr "URL"
 
 #: /src/modules/chat/actions/components/edit-url.vue:43
 #: /src/modules/chat/actions/components/edit-chat.vue:51
 #, icu-message-format, lp-defaults:"{\"vars\":\"{{user.login}}, {{user.displayName}}, {{user.id}}, {{user.type}}, {{room.login}}, {{room.id}}, {{message.id}}, {{message.text}}\"}"
 msgid "setting.actions.variables"
-msgstr ""
+msgstr "可用變量: {vars}"
 
 #: /src/modules/main_menu/components/action-editor.vue:255
 #, icu-message-format
 msgid "setting.actions.visibility"
-msgstr ""
+msgstr "能見度"
 
 #: /src/modules/main_menu/components/action-editor.vue:31
 #, icu-message-format, lp-defaults:"{\"list\":\"if message deleted\"}"
 msgid "setting.actions.visible"
-msgstr ""
+msgstr "可見嘅: {list}"
 
 #: /src/modules/main_menu/components/action-editor.vue:630
 #, icu-message-format
 msgid "setting.actions.visible.always"
-msgstr ""
+msgstr "總是"
 
 #: /src/modules/main_menu/components/action-editor.vue:579
 #, icu-message-format
 msgid "setting.actions.visible.deleted"
-msgstr ""
+msgstr "如果訊息被刪除"
 
 #: /src/modules/main_menu/components/action-editor.vue:680
 #, icu-message-format
 msgid "setting.actions.visible.hover"
-msgstr ""
+msgstr "懸停時"
 
 #: /src/modules/main_menu/components/action-editor.vue:561
 #, icu-message-format
 msgid "setting.actions.visible.mod"
-msgstr ""
+msgstr "當版主(審核人)"
 
 #: /src/modules/main_menu/components/action-editor.vue:567
 #, icu-message-format
 msgid "setting.actions.visible.mod_icons"
-msgstr ""
+msgstr "當顯示 mod 圖標時"
 
 #: /src/modules/main_menu/components/action-editor.vue:673
 #, icu-message-format, lp-defaults:"{\"key_list\":\"Ctrl\",\"keys\":1}"
 msgid "setting.actions.visible.modifier"
-msgstr ""
+msgstr "當 {key_list} {鍵, 複數, 一個 {是} 其他 {是}} 持有"
 
 #: /src/modules/main_menu/components/action-editor.vue:591
 #, icu-message-format
 msgid "setting.actions.visible.slow"
-msgstr ""
+msgstr "當慢速模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:582
 #, icu-message-format
 msgid "setting.actions.visible.undeleted"
-msgstr ""
+msgstr "如果訊息未刪除"
 
 #: /src/modules/main_menu/components/chat-actions.vue:1
 #, icu-message-format
 msgid "setting.actions.warn-hidden"
-msgstr ""
+msgstr "你當前喺 Twitch 聊天設定中關閉咗 Mod 圖標，因此可能會隱藏某些操作。使用聊天中嘅設定菜單來切換佢哋。"
 
 #: /src/modules/main_menu/components/reason-editor.vue:61
 #, icu-message-format
 msgid "setting.add"
-msgstr ""
+msgstr "添加"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons"
-msgstr ""
+msgstr "插件"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.changelog"
-msgstr ""
+msgstr "變更日誌"
 
 #: /src/modules/main_menu/components/changelog.vue:12
 #, icu-message-format
 msgid "setting.add_ons.changelog.title"
-msgstr ""
+msgstr "插件變更日記"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.description"
-msgstr ""
+msgstr "插件是通常由其他人編寫嘅外掛模組，可以由 FrankerFaceZ 自動加載，以向擴展程序同 Twitch 添加新功能與行為。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.development"
-msgstr ""
+msgstr "開發進度"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance"
-msgstr ""
+msgstr "首次亮相"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.control_center"
-msgstr ""
+msgstr "控制中心"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.control_center.search"
-msgstr ""
+msgstr "搜索"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.description"
-msgstr ""
+msgstr "個性化 Twitch 嘅外觀。更改配色方案與字體並調整佈局以優化你嘅體驗。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout"
-msgstr ""
+msgstr "佈局"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.channel"
-msgstr ""
+msgstr "頻道"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.clips"
-msgstr ""
+msgstr "剪輯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.side_navigation"
-msgstr ""
+msgstr "頁面導航"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.top_navigation"
-msgstr ""
+msgstr "頂部導航"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:136
@@ -749,94 +749,94 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.localization"
-msgstr ""
+msgstr "本土化"
 
 #, icu-message-format
 msgid "setting.appearance.localization.formatting"
-msgstr ""
+msgstr "格式化"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.localization.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgid "setting.appearance.localization.general.language.joke"
-msgstr ""
+msgstr "笑話語言"
 
 #, icu-message-format
 msgid "setting.appearance.localization.general.language.languages"
-msgstr ""
+msgstr "支持嘅語言"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.appearance.localization.general.language.twitch"
-msgstr ""
+msgstr "使用 Twitch 嘅語言"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme"
-msgstr ""
+msgstr "主題"
 
 #, icu-message-format
 msgid "setting.appearance.theme.chat_colors"
-msgstr ""
+msgstr "聊天顏色"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.colors"
-msgstr ""
+msgstr "顏色"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.colors.description"
-msgstr ""
+msgstr "呢個係 FrankerFaceZ 即將推出嘅新系統嘅快速預覽。預計這裡會有重大變化，包括單獨嘅基本同高級模式，以及更好嘅顏色選擇。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.fonts"
-msgstr ""
+msgstr "字體"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.legacy"
-msgstr ""
+msgstr "遺產"
 
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr ""
+msgstr "此工具可讓你備份同恢復 FrankerFaceZ 設置，包括控制中心嘅所有設置以及其他數據，例如最鐘意嘅表情符號同被阻止嘅遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
 msgid "setting.backup-restore.confirm-updates"
-msgstr ""
+msgstr "你喺喥導入嘅配置文件有一個自動更新 URL。你希望配置文件保持最新嗎？"
 
 #: /src/modules/main_menu/components/profile-manager.vue:360
 #, icu-message-format
 msgid "setting.backup-restore.disable-auto"
-msgstr ""
+msgstr "否，防止自動更新。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:326
 #, icu-message-format
 msgid "setting.backup-restore.enable-auto"
-msgstr ""
+msgstr "係，允許自動更新。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:79
 #, icu-message-format
 msgid "setting.backup-restore.error"
-msgstr ""
+msgstr "處理此備份時出錯。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:429
 #, icu-message-format
 msgid "setting.backup-restore.http-error"
-msgstr ""
+msgstr "無法從提供嘅 URL 讀取 JSON。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:416
 #, icu-message-format
 msgid "setting.backup-restore.http-loading"
-msgstr ""
+msgstr "加載中..."
 
 #: /src/modules/main_menu/components/profile-manager.vue:375
 #, icu-message-format, lp-defaults:"{\"name\":\"Test Profile\",\"count\":1}"
@@ -964,7 +964,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.metadata.subscription"
-msgstr ""
+msgstr "訂閱"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1085,7 +1085,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.subscriptions"
-msgstr ""
+msgstr "訂閱"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1154,23 +1154,23 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points"
-msgstr ""
+msgstr "頻道點數"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points.appearance"
-msgstr ""
+msgstr "首次亮相"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points.behavior"
-msgstr ""
+msgstr "行为"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2092,6 +2092,9 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.fix-colors.description"
 msgstr ""
+"確保徽章喺當前背景下可見。\n"
+"\n"
+"**注意:** 僅影響帶有自定義渲染嘅徽章。訂閱用戶徽章、小奇點徽章等唔受影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2200,6 +2203,8 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.cheer-notice.description"
 msgstr ""
+"此功能旨係防止使用表情符號嘅聊天者喺訊息中假裝歡呼可能造成混淆。啟用後，包含真正歡呼嘅訊息將喺其上方顯示一條訊息，類似於重新訂閱訊息或使用訊息進行點數兌換"
+"嘅功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2615,7 +2620,7 @@ msgstr ""
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.extra-timestamps.description"
-msgstr ""
+msgstr "啟用後，將喺點數兌換、訂閱等上顯示時間戳。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2867,7 +2872,7 @@ msgstr ""
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.hide-community-highlights.description"
-msgstr ""
+msgstr "社區亮點是民意調查、社區禮物訂閱等，佢哋暫時漂浮喺聊天頂部，無法關閉佢哋。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3006,59 +3011,59 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.pin-resubs"
-msgstr ""
+msgstr "喺聊天中自動固定重新訂閱訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.allow-highlight"
-msgstr ""
+msgstr "當有人兌換 \"高亮顯示我嘅訊息時\"，高亮顯示聊天中嘅訊息。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.0"
-msgstr ""
+msgstr "已禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.1"
-msgstr ""
+msgstr "Twitch 風格"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.2"
-msgstr ""
+msgstr "FFZ 風格"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.auto-rewards"
-msgstr ""
+msgstr "自動領取紅利獎勵。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering"
-msgstr ""
+msgstr "對聊天中嘅頻道點數獎勵訊息使用自定義渲染。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering.description"
-msgstr ""
+msgstr "自定義呈現將背景顏色應用於高亮顯示嘅訊息，某些用戶可能唔鐘意。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-button"
-msgstr ""
+msgstr "喺聊天下方顯示頻道點數按鈕。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-callouts"
-msgstr ""
+msgstr "喺聊天中顯示有關頻道點數獎勵嘅訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-rewards"
-msgstr ""
+msgstr "允許可用獎勵出現喺頻道點數按鈕旁邊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3128,7 +3133,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.1"
-msgstr ""
+msgstr "訂閱用戶"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3303,92 +3308,94 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.sub-emotes"
-msgstr ""
+msgstr "相關時，按住 Shift 並單擊表情符號打開 Twitch 訂閱頁面。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.compact"
-msgstr ""
+msgstr "以更緊湊 (經典風格) 嘅形式顯示訂閱通知。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.gift-banner"
-msgstr ""
+msgstr "當大量禮物訂閱發生時，喺聊天頂部顯示橫幅。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts"
-msgstr ""
+msgstr "合併批量訂閱禮物"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr ""
+msgstr "默認展開合併嘅批量訂閱禮物訊息。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts.description"
 msgstr ""
+"根據數量將大量禮物訂閱合併到一條訊息中。\n"
+"**注意:** 僅影響新贈送嘅訂閱。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.0"
-msgstr ""
+msgstr "總是"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.10"
-msgstr ""
+msgstr "至少 10份"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.1000"
-msgstr ""
+msgstr "已禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.20"
-msgstr ""
+msgstr "至少 20份"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.5"
-msgstr ""
+msgstr "至少 5份"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
-msgstr ""
+msgstr "至少 50份"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.show"
-msgstr ""
+msgstr "喺聊天中顯示訂閱用戶"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.show.description"
-msgstr ""
+msgstr "**注意**: 將始終顯示通過重新成為訂閱用戶發送嘅訊息。這僅控制特殊嘅“X 訂閱！”訊息。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.0"
-msgstr ""
+msgstr "唔顯示"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.1"
-msgstr ""
+msgstr "重新訂閱僅顯示訊息"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.2"
-msgstr ""
+msgstr "僅限重新訂閱"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.3"
-msgstr ""
+msgstr "顯示全部"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3868,7 +3875,7 @@ msgstr ""
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait-threshold.description"
-msgstr ""
+msgstr "呢個係縱向模式將開始激活時嘅寬高比。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4660,7 +4667,7 @@ msgstr ""
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.sub-button.prime-notice.description"
-msgstr ""
+msgstr "當你嘅免費頻道訂閱與 Prime 可用時，喺訂閱按鈕上顯示一個皇冠。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5039,7 +5046,7 @@ msgstr ""
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"disabled\":false,\"title\":\"Inheritance Point\",\"title_i18n\":\"setting.inheritance\",\"value.t\":\"inherit\"}"
 msgid "setting.inheritance"
-msgstr ""
+msgstr "點數遺產"
 
 #: /src/modules/main_menu/components/action-editor.vue:557
 #, icu-message-format
@@ -5652,7 +5659,7 @@ msgstr ""
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.dash-channel-points"
-msgstr ""
+msgstr "儀表板: 頻道點數"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
