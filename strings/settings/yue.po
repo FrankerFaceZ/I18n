@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-27 16:32+0000\n"
+"PO-Revision-Date: 2022-02-28 10:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -806,7 +806,7 @@ msgstr "遺產"
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr "此工具可讓你備份同恢復 FrankerFaceZ 設置，包括控制中心嘅所有設置以及其他數據，例如最鐘意嘅表情符號同被阻止嘅遊戲。"
+msgstr "此工具可讓你備份同恢復 FrankerFaceZ 設置，包括控制中心嘅所有設置以及其他數據，例如最中意嘅表情符號同被阻止嘅遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
@@ -841,125 +841,125 @@ msgstr "加載中..."
 #: /src/modules/main_menu/components/profile-manager.vue:375
 #, icu-message-format, lp-defaults:"{\"name\":\"Test Profile\",\"count\":1}"
 msgid "setting.backup-restore.imported"
-msgstr ""
+msgstr "配置文件\"{name}\"已成功導入 {計數, 複數, 一 {# 設定} 其它 {# 設定}}。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:350
 #, icu-message-format, lp-defaults:"{\"now\":\"2019-10-31T01:02:03.004Z\"}"
 msgid "setting.backup-restore.imported-at"
-msgstr ""
+msgstr "於 {now,datetime} 導入。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:322
 #, icu-message-format
 msgid "setting.backup-restore.non-supported"
-msgstr ""
+msgstr "此文件未被識別為受支持嘅備份格式。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:110
 #, icu-message-format
 msgid "setting.backup-restore.old-file"
-msgstr ""
+msgstr "此文件無效，抑或係喺FrankerFaceZ嘅另一個版本中創建嘅，無法加載。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:183
 #, icu-message-format
 msgid "setting.backup-restore.pick-profile"
-msgstr ""
+msgstr "請選擇要導入嘅配置文件。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:54
 #, icu-message-format
 msgid "setting.backup-restore.restore-backup"
-msgstr ""
+msgstr "還原備份"
 
 #: /src/modules/main_menu/components/backup-restore.vue:135
 #, icu-message-format, lp-defaults:"{\"count\":96}"
 msgid "setting.backup-restore.restored"
-msgstr ""
+msgstr "{count,number} 項已恢復。 請刷新此頁面。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:36
 #, icu-message-format
 msgid "setting.backup-restore.save-backup"
-msgstr ""
+msgstr "保存備份"
 
 #: /src/modules/main_menu/components/badge-visibility.vue:56
 #, icu-message-format, lp-defaults:"{\"count\":57}"
 msgid "setting.badges.hidden"
-msgstr ""
+msgstr "{計數, 複數, 一個 {# 徽章} 其它 {# 徽章}} 隱藏喺此集合中"
 
 #: /src/modules/main_menu/components/action-editor.vue:1348
 #: /src/modules/main_menu/components/action-editor.vue:1396
 #: /src/modules/main_menu/components/reason-editor.vue:176
 #, icu-message-format
 msgid "setting.cancel"
-msgstr ""
+msgstr "取消"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel"
-msgstr ""
+msgstr "頻道"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.appearance"
-msgstr ""
+msgstr "外觀"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.appearance.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior"
-msgstr ""
+msgstr "行為"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.hosting"
-msgstr ""
+msgstr "轉流中"
 
 #, icu-message-format
 msgid "setting.channel.behavior.panels"
-msgstr ""
+msgstr "镶板"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.raids"
-msgstr ""
+msgstr "偷袭"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.squads"
-msgstr ""
+msgstr "巡查組"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.metadata"
-msgstr ""
+msgstr "元數據"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.metadata.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.metadata.clips"
-msgstr ""
+msgstr "剪輯"
 
 #: /src/modules/main_menu/index.js:509
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgid "setting.channel.metadata.mod_view"
-msgstr ""
+msgstr "觀看模組"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.metadata.player"
-msgstr ""
+msgstr "播放器"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -969,113 +969,113 @@ msgstr "訂閱"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat"
-msgstr ""
+msgstr "聊天室"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions"
-msgstr ""
+msgstr "行動"
 
 #: /src/modules/main_menu/index.js:583
 #, icu-message-format
 msgid "setting.chat.actions.appearance"
-msgstr ""
+msgstr "外觀"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line"
-msgstr ""
+msgstr "内嵌"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line.description"
-msgstr ""
+msgstr "喺呢喥，你可以自定義於聊天中嘅消息一起顯示嘅操作。 如果你未喺聊天中睇到你喺此處定義嘅操作，請確保你已喺聊天設定菜單中啟用咗圖標模塊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.reasons"
-msgstr ""
+msgstr "原因"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.reasons.custom_reasons"
-msgstr ""
+msgstr "自定義原因"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.reasons.rules"
-msgstr ""
+msgstr "規則"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room"
-msgstr ""
+msgstr "房間"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room.description"
-msgstr ""
+msgstr "喺呢喥，你可以自定義將顯示喺聊天輸入框上方嘅操作。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.user_context"
-msgstr ""
+msgstr "用戶上下文"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.user_context.description"
-msgstr ""
+msgstr "喺呢喥，你可以自定義操作，當你喺聊天中右鍵單擊用戶名時，呢啲操作將顯示喺上下文菜單中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance"
-msgstr ""
+msgstr "外觀"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.chat_lines"
-msgstr ""
+msgstr "聊天線"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.colors"
-msgstr ""
+msgstr "顏色"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.community"
-msgstr ""
+msgstr "社區"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.community_chest"
-msgstr ""
+msgstr "社區盒"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emoji"
-msgstr ""
+msgstr "表情符號"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emotes"
-msgstr ""
+msgstr "表情"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.replies"
-msgstr ""
+msgstr "回覆"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3048,7 +3048,7 @@ msgstr "對聊天中嘅頻道點數獎勵訊息使用自定義渲染。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering.description"
-msgstr "自定義呈現將背景顏色應用於高亮顯示嘅訊息，某些用戶可能唔鐘意。"
+msgstr "自定義呈現將背景顏色應用於高亮顯示嘅訊息，某些用戶可能唔中意。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
