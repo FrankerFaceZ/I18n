@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-27 16:31+0000\n"
+"PO-Revision-Date: 2022-02-28 10:31+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "embed/yue/>\n"
@@ -200,73 +200,82 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
+"{wrs,plural,one {# Record} other {# Records}} • {runs,plural,one {# Run} "
+"other {# Runs}} • {games,plural,one {# Game} other {# Games}} • {"
+"cats,plural,one {# Category} other {# Categories}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-cat"
-msgstr ""
+msgstr "類別"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-game"
-msgstr ""
+msgstr "遊戲"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-place"
-msgstr ""
+msgstr "位置"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-submitted"
-msgstr ""
+msgstr "已提交"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-time"
-msgstr ""
+msgstr "時間"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
 msgid "embed.src.with"
-msgstr ""
+msgstr "與 {players}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.following"
-msgstr ""
+msgstr "跟隨中"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
+"{created,time} • {created,date} • {轉推, 複數, 一 {# 轉推} 其它 {# 轉推}} • {中意, 複數, 一 "
+"{# 中意} 其它 {# 中意}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.likes"
-msgstr ""
+msgstr "中意"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
+"{推文, 複數, 一 {# 推文} 其它 {# 推文}} • {following,number} 跟隨中 • {followers,number} "
+"跟隨者 • 已加入 {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.retweets"
-msgstr ""
+msgstr "轉推"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
 msgid "embed.twitter.tweeted"
-msgstr ""
+msgstr "已推文: {tweet}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.tweets"
-msgstr ""
+msgstr "推文"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
+"{channel} • {觀看次數, 複數, 一 {# 觀看次數} 其它 {{views,number} 觀看次數}} • 👍 "
+"{likes,number}  • 👎 {dislikes,number}"
