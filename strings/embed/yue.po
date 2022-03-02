@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-28 10:31+0000\n"
+"PO-Revision-Date: 2022-03-02 21:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "embed/yue/>\n"
@@ -106,8 +106,8 @@ msgstr "Imgur 相冊"
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
-"{圖像, 複數, 一個 {# 圖像} 其它 {# 圖像}} • {觀看次數, 複數, 一個 {# 觀看次數} 其它 {{views,number} "
-"觀看次數}}"
+"{圖像, 複數, 一個 {# 圖像} 其它 {# 圖像}} • {觀睇次數, 複數, 一個 {# 觀睇次數} 其它 {{views,number} "
+"觀睇次數}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
@@ -159,7 +159,7 @@ msgstr "分數"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.views"
-msgstr "觀看次數"
+msgstr "觀睇次數"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -277,5 +277,5 @@ msgstr "推文"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {觀看次數, 複數, 一 {# 觀看次數} 其它 {{views,number} 觀看次數}} • 👍 "
+"{channel} • {觀睇次數, 複數, 一 {# 觀睇次數} 其它 {{views,number} 觀睇次數}} • 👍 "
 "{likes,number}  • 👎 {dislikes,number}"
