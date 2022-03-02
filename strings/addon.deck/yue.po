@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-26 15:31+0000\n"
+"PO-Revision-Date: 2022-03-02 21:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -130,7 +130,7 @@ msgstr "刪除"
 #: /src/deck/components/bd-column-editor.vue:228
 #, icu-message-format
 msgid "addon.deck.edit.appearance"
-msgstr "首次亮相"
+msgstr "外觀"
 
 #: /src/deck/components/bd-column-editor.vue:600
 #, icu-message-format
@@ -140,7 +140,7 @@ msgstr "唔顯示頭像。"
 #: /src/deck/components/bd-column-editor.vue:700
 #, icu-message-format
 msgid "addon.deck.edit.behavior"
-msgstr "行為"
+msgstr "表現"
 
 #: /src/deck/components/bd-column-editor.vue:402
 #, icu-message-format
@@ -247,7 +247,7 @@ msgstr "標題:"
 #: /src/deck/components/bd-column-editor.vue:678
 #, icu-message-format
 msgid "addon.deck.edit.viewers"
-msgstr "唔顯示視圖/查看器。"
+msgstr "唔顯示視圖/查睇器。"
 
 #: /src/deck/components/bd-column.vue:491
 #, icu-message-format
@@ -447,7 +447,7 @@ msgstr "受到推崇"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.recommended.live-tip"
-msgstr "此欄顯示 Twitch 根據你嘅觀看歷史為你推薦嘅實時頻道。"
+msgstr "此欄顯示 Twitch 根據你嘅觀睇歷史為你推薦嘅實時頻道。"
 
 #: /src/deck/components/bd-column.vue:329
 #, icu-message-format
@@ -512,13 +512,13 @@ msgstr "由舊到新"
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.views-asc"
-msgstr "觀看次數 (由低到高)"
+msgstr "觀睇次數 (由低到高)"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.views-desc"
-msgstr "觀看次數(由高到低)"
+msgstr "觀睇次數(由高到低)"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-column-editor.vue:881
@@ -539,7 +539,7 @@ msgstr "觀眾"
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sort.sub.views"
-msgstr "觀看次數"
+msgstr "觀睇次數"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
@@ -556,7 +556,7 @@ msgstr "最近發布"
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.video.views"
-msgstr "觀看次數(由高到低)"
+msgstr "觀睇次數(由高到低)"
 
 #: /src/deck/components/browse-deck.vue:191
 #: /src/deck/components/bd-column.vue:384
@@ -590,7 +590,7 @@ msgstr "{計數, 複數, 一個 {# 用戶} 其他 {# 用戶} }"
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sub.views"
-msgstr "觀看次數"
+msgstr "觀睇次數"
 
 #: /src/deck/components/bd-tab-settings.vue:80
 #, icu-message-format
@@ -690,7 +690,7 @@ msgstr "{觀眾, 負數, 一個 {# 觀眾} 其他 {# 觀眾}}"
 #: /src/deck/components/bd-video-card.vue:25
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.views"
-msgstr "{計數, 複數, 一個 {# 觀看} 其他 {# 觀看} }"
+msgstr "{計數, 複數, 一個 {# 觀睇} 其他 {# 觀睇} }"
 
 #: /src/deck/components/bd-column-editor.vue:447
 #, icu-message-format
@@ -721,7 +721,7 @@ msgstr "Deck"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.deck.appearance"
-msgstr "首次亮相"
+msgstr "外觀"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
