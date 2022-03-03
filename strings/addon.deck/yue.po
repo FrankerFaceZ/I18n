@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-02 21:32+0000\n"
+"PO-Revision-Date: 2022-03-03 10:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -140,7 +140,7 @@ msgstr "唔顯示頭像。"
 #: /src/deck/components/bd-column-editor.vue:700
 #, icu-message-format
 msgid "addon.deck.edit.behavior"
-msgstr "表現"
+msgstr "行為"
 
 #: /src/deck/components/bd-column-editor.vue:402
 #, icu-message-format
@@ -247,7 +247,7 @@ msgstr "標題:"
 #: /src/deck/components/bd-column-editor.vue:678
 #, icu-message-format
 msgid "addon.deck.edit.viewers"
-msgstr "唔顯示視圖/查睇器。"
+msgstr "唔顯示觀看次數 / 觀眾數。"
 
 #: /src/deck/components/bd-column.vue:491
 #, icu-message-format
@@ -524,17 +524,17 @@ msgstr "觀睇次數(由高到低)"
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.live.viewers"
-msgstr "觀眾 (由高到低)"
+msgstr "觀眾數 (由高到低)"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.live.viewers-asc"
-msgstr "觀眾 (由低到高)"
+msgstr "觀眾數 (由低到高)"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sort.sub.viewers"
-msgstr "觀眾"
+msgstr "觀眾數"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
@@ -685,7 +685,7 @@ msgstr "視頻類型:"
 #: /src/deck/components/bd-host-card.vue:17
 #, icu-message-format, lp-defaults:"{\"viewers\":49}"
 msgid "addon.deck.viewers"
-msgstr "{觀眾, 負數, 一個 {# 觀眾} 其他 {# 觀眾}}"
+msgstr "{觀眾數, 負數, 一個 {# 觀眾} 其他 {# 觀眾}}"
 
 #: /src/deck/components/bd-video-card.vue:25
 #, icu-message-format, lp-defaults:"{}"
@@ -726,7 +726,7 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.deck.behavior"
-msgstr "表現"
+msgstr "行為"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
