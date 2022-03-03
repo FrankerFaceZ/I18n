@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-03 10:32+0000\n"
+"PO-Revision-Date: 2022-03-03 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -28,7 +28,7 @@ msgstr "SirStendec"
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.deck.name"
-msgstr "平台"
+msgstr "甲板"
 
 #: /src/modules/main_menu/components/addon.vue:51
 #, icu-message-format
@@ -246,7 +246,7 @@ msgstr ""
 "* *我可以睇到我嘅表情，但聊天中有人話佢地睇唔到。*\n"
 "\n"
 "用戶需要安裝 FrankerFaceZ 或其他支持 FFZ 表情嘅第三方客戶端，先至睇到來自 FrankerFaceZ 嘅表情。 "
-"用戶也可能睇不到新添加嘅表情，這取決於佢哋嘅瀏覽器緩存同上次刷新嘅時間。\n"
+"用戶也可能睇唔到新添加嘅表情，這取決於佢哋嘅瀏覽器緩存同上次刷新嘅時間。\n"
 "\n"
 "* *有一個被盜嘅表情！*\n"
 "* *有一個攻擊性嘅表情！*\n"
@@ -806,7 +806,7 @@ msgstr "遺產"
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr "此工具可讓你備份同恢復 FrankerFaceZ 設置，包括控制中心嘅所有設置以及其他數據，例如最中意嘅表情同被阻止嘅遊戲。"
+msgstr "此工具可讓你備份同恢復 FrankerFaceZ 設置，包括控制中心嘅所有設置以及其他數據，例如最鐘意嘅表情同被阻止嘅遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
@@ -918,7 +918,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.hosting"
-msgstr "轉流中"
+msgstr "轉播中"
 
 #, icu-message-format
 msgid "setting.channel.behavior.panels"
@@ -927,12 +927,12 @@ msgstr "镶板"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.raids"
-msgstr "突擊檢查"
+msgstr "突擊"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.squads"
-msgstr "巡查組"
+msgstr "小隊"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1271,8 +1271,7 @@ msgstr "訊息類型"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.message_types.description"
 msgstr ""
-"此過濾器允許你喺Twitch聊天中刪除特定類型嘅所有訊息。 佢可用于過濾系統訊息，例如託管或突擊檢查。 "
-"為防止聊天功能中斷，無法阻止某些功能(例如審核行為)。"
+"此過濾器允許你喺Twitch聊天中刪除特定類型嘅所有訊息。 佢可用于過濾系統訊息，例如轉播或突擊。 為防止聊天功能中斷，無法阻止某些功能(例如審核行為)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1298,7 +1297,7 @@ msgid "setting.chat.filtering.blocked_badges"
 msgstr "被阻止嘅徽章"
 
 #: /src/modules/main_menu/index.js:593
-#, fuzzy, icu-message-format, md-text
+#, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
 "**注意:**此部分用于過濾來自具有特定徽章嘅用戶嘅聊天消息。 如果你想隱藏徽章，請轉到[聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
@@ -1307,13 +1306,12 @@ msgstr ""
 msgid "setting.chat.filtering.blocked_message_types"
 msgstr "阻止訊息類型"
 
-#, fuzzy, icu-message-format, md-text
+#, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_message_types.description"
 msgstr ""
-"此過濾器允許你喺Twitch聊天中刪除特定類型嘅所有訊息。 佢可用于過濾系統訊息，例如託管或突擊檢查。 "
-"為防止聊天功能中斷，無法阻止某些功能(例如審核行為)。"
+"此過濾器允許你喺Twitch聊天中刪除特定類型嘅所有訊息。 佢可用于過濾系統訊息，例如轉播或突擊。 為防止聊天功能中斷，無法阻止某些功能(例如審核行為)。"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_terms"
 msgstr "阻止嘅字詞"
@@ -1324,12 +1322,12 @@ msgid "setting.chat.filtering.blocked_users"
 msgstr "阻止嘅用戶"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general"
 msgstr "一般"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.appearance"
 msgstr "外觀"
@@ -1339,12 +1337,12 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters"
 msgstr "自動過濾模組"
 
-#, fuzzy, icu-message-format, md-text
+#, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters.description"
 msgstr "Twitch 原始`聊天過濾器`嘅額外配置。"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.behavior"
 msgstr "行為"
@@ -1361,23 +1359,23 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight"
 msgstr "高亮"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_badges"
 msgstr "高亮徽章"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_terms"
 msgstr "高亮字詞"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_users"
 msgstr "高亮用戶"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.badges"
 msgstr "徽章"
@@ -1392,24 +1390,24 @@ msgstr ""
 "你仲可以創建一個規則，透過設置Alpha值為零嘅色水，從訊息中刪除高亮，防止優先級較低嘅規則高亮呢啲規則。 示例:`#00000000`"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms"
 msgstr "字詞"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
-#, fuzzy, icu-message-format, md-text
+#, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms.description"
 msgstr "有關如何使用字詞嘅詳細信息，請參閱[聊天>過濾>語法幫助](~)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.users"
 msgstr "用戶"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.rituals"
 msgstr "禮儀"
@@ -1426,7 +1424,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.input"
 msgstr "輸入"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.input.appearance"
 msgstr "外觀"
@@ -1446,17 +1444,17 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips"
 msgstr "工具提示"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.badges"
 msgstr "徽章"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.emotes"
 msgstr "表情"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.general"
 msgstr "一般"
@@ -1471,12 +1469,12 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards"
 msgstr "觀眾卡片"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards.appearance"
 msgstr "外觀"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards.behavior"
 msgstr "行為"
@@ -1486,7 +1484,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.whispers"
 msgstr "私聊"
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.whispers.general"
 msgstr "一般"
@@ -1504,249 +1502,256 @@ msgstr "您的設置已清除。 請刷新所有嘅Twitch頁面，以確保冇�
 #: /src/modules/main_menu/components/clear-settings.vue:1
 #, icu-message-format
 msgid "setting.clear.opt.DeckTabs"
-msgstr ""
+msgstr "甲板標籤"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Everything"
-msgstr ""
+msgstr "所有嘅一切嘢"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Experiments"
-msgstr ""
+msgstr "實驗覆蓋"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.FavoriteEmotes"
-msgstr ""
+msgstr "最鐘意嘅表情"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.HiddenEmotes"
-msgstr ""
+msgstr "隱藏嘅表情"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Overrides"
-msgstr ""
+msgstr "名稱和顏色覆蓋"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Profiles"
-msgstr ""
+msgstr "配置文件"
 
 #: /src/modules/main_menu/components/clear-settings.vue:154
 #, icu-message-format
 msgid "setting.clear.start"
-msgstr ""
+msgstr "清除我嘅數據"
 
 #: /src/modules/main_menu/components/clear-settings.vue:41
 #, icu-message-format
 msgid "setting.clear.step-1"
-msgstr ""
+msgstr "請選擇要清除嘅數據類型："
 
 #: /src/modules/main_menu/components/clear-settings.vue:95
 #, icu-message-format, lp-defaults:"{\"code\":\"5456d490\"}"
 msgid "setting.clear.step-2"
-msgstr ""
+msgstr "若果你已經下定決心，請喺下面嘅文本框中輸入 `{code}` 進行確認。"
 
 #: /src/modules/main_menu/components/clear-settings.vue:17
 #, icu-message-format
 msgid "setting.clear.warning"
-msgstr ""
+msgstr "注意! 呢個係永久性嘅清除。"
 
 #: /src/modules/main_menu/components/clear-settings.vue:25
 #, icu-message-format
 msgid "setting.clear.warning-explain"
-msgstr ""
+msgstr "使用此工具刪除數據無法撤消。 確保你有備份！"
 
 #: /src/modules/main_menu/components/profile-manager.vue:114
 #, icu-message-format
 msgid "setting.close"
-msgstr ""
+msgstr "關閉"
 
 #, icu-message-format
 msgid "setting.color.nullable"
-msgstr ""
+msgstr "右鍵單擊以重置"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:63
 #, icu-message-format
 msgid "setting.combo-box.custom"
-msgstr ""
+msgstr "習慣"
 
 #: /src/modules/main_menu/components/profile-manager.vue:406
 #, icu-message-format
 msgid "setting.configure"
-msgstr ""
+msgstr "配置"
 
 #: /src/modules/main_menu/components/action-editor.vue:1453
 #, icu-message-format
 msgid "setting.copy-json"
-msgstr ""
+msgstr "複製"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management"
-msgstr ""
+msgstr "數據管理"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.backup_and_restore"
-msgstr ""
+msgstr "備份同還原"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.profiles"
-msgstr ""
+msgstr "配置文件"
 
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgid "setting.data_management.profiles.edit_profile"
-msgstr ""
+msgstr "編輯個人資料"
 
 #: /src/modules/main_menu/components/profile-editor.vue:267
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.desc"
-msgstr ""
+msgstr "描述"
 
 #: /src/modules/main_menu/components/profile-editor.vue:220
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.general"
-msgstr ""
+msgstr "一般"
 
 #: /src/modules/main_menu/components/profile-editor.vue:309
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.hotkey"
-msgstr ""
+msgstr "熱鍵"
 
 #: /src/modules/main_menu/components/profile-editor.vue:231
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.name"
-msgstr ""
+msgstr "姓名"
 
 #: /src/modules/main_menu/components/profile-editor.vue:310
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.rules"
-msgstr ""
+msgstr "規則"
 
 #: /src/modules/main_menu/components/profile-editor.vue:320
 #, icu-message-format, md-text
 msgid "setting.data_management.profiles.edit.rules.description"
 msgstr ""
+"規則允許你定義此配置文件處於活動狀態嘅一系列條件。 当存在多個規則時，它們必須全部匹配才能激活配置文件。 "
+"請使用`Or`規則創建透過匹配多個規則之一來激活嘅配置文件。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:390
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.update"
-msgstr ""
+msgstr "自動更新此配置文件。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:322
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.updates"
-msgstr ""
+msgstr "自動更新"
 
 #: /src/modules/main_menu/components/profile-editor.vue:335
 #, icu-message-format, md-text
 msgid "setting.data_management.profiles.edit.updates.description"
 msgstr ""
+"此配置文件具有用于自動更新嘅關聯URL。 啟用更新並更新配置文件之後，將重置與配置文件關聯嘅所有設置。 配置文件嘅規則都將重置。 "
+"名稱、描述同熱鍵將唔會重置。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:349
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.url"
-msgstr ""
+msgstr "更新 URL"
 
 #: /src/modules/main_menu/components/profile-editor.vue:301
 #, icu-message-format
 msgid "setting.data_management.profiles.hotkey.desc"
 msgstr ""
+"設置熱鍵允許你使用熱鍵隨時打開或關閉配置文件。\n"
+"\n"
+"**注意:**打開嘅配置文件可能由于其規則而依然處於非活動狀態。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.reporting"
-msgstr ""
+msgstr "報告中"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.reporting.error_reports"
-msgstr ""
+msgstr "错误报告"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.reporting.example_report"
-msgstr ""
+msgstr "示例報告"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage"
-msgstr ""
+msgstr "存儲"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage.tabs"
-msgstr ""
+msgstr "標籤"
 
 #: /src/std-components/tab-container.vue:178
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage.tabs.clear"
-msgstr ""
+msgstr "清除"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage.tabs.provider"
-msgstr ""
+msgstr "供應商"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging"
-msgstr ""
+msgstr "程式除錯"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources"
-msgstr ""
+msgstr "數據源"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources.links"
-msgstr ""
+msgstr "連結"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.experiments"
-msgstr ""
+msgstr "實驗"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.localization"
-msgstr ""
+msgstr "本地化"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.localization.editing"
-msgstr ""
+msgstr "編輯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.localization.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.socket"
-msgstr ""
+msgstr "插座"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.socket.general"
-msgstr ""
+msgstr "一般"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.socket.info"
-msgstr ""
+msgstr "信息"
 
 #: /src/modules/main_menu/components/action-editor.vue:1442
 #: /src/modules/main_menu/components/reason-editor.vue:233
@@ -1757,227 +1762,232 @@ msgstr ""
 #: Proxy.render (/src/modules/main_menu/c
 #, icu-message-format
 msgid "setting.delete"
-msgstr ""
+msgstr "刪除"
 
 #: /src/modules/main_menu/components/chat-actions.vue:530
 #: /src/modules/main_menu/components/chat-reasons.vue:35
 #, icu-message-format
 msgid "setting.delete-all"
-msgstr ""
+msgstr "全部刪除"
 
 #: /src/modules/main_menu/components/experiments.vue:32
 #, icu-message-format
 msgid "setting.dev-warning"
-msgstr ""
+msgstr "喐一啲都好牙煙。"
 
 #: /src/modules/main_menu/components/experiments.vue:43
 #, icu-message-format, lp-defaults:"{\"code\":\"sv_cheats 1\"}"
 msgid "setting.dev-warning.explain"
 msgstr ""
+"請注意，呢個係一項僅供開發人員使用嘅高級功能。 普通用戶應避開。 調整實驗可能會對你嘅Twitch體驗產生意想唔到嘅影響。 "
+"FrankerFaceZ對你因篡改實驗而遇到嘅任何問題概不負責，我們將唔提供支持。\n"
+"\n"
+"如果你確定呢一點，請喺下面嘅框中鍵入`{code}`，然後揿回車鍵。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory"
-msgstr ""
+msgstr "目錄"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories"
-msgstr ""
+msgstr "類別"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.blocked"
-msgstr ""
+msgstr "已阻止"
 
 #: /src/modules/main_menu/components/menu-page.vue:137
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.description"
 msgstr ""
+"請注意，由於Twitch網站嘅限制，此處名稱嘅格式必須同你嘅客戶端中顯示嘅名稱完全相同。 為獲得最佳效果，你可以直接從目錄頁中阻止或取消阻止類別。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.hidden_thumbnail_style"
-msgstr ""
+msgstr "隱藏嘅縮略圖样式"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.hidden_thumbnails"
-msgstr ""
+msgstr "隱藏縮略圖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels"
-msgstr ""
+msgstr "頻道"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.blocked_and_hidden_categories"
-msgstr ""
+msgstr "阻止同隱藏嘅類別"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.description"
-msgstr ""
+msgstr "**注意:**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設置當前唔起作用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following"
-msgstr ""
+msgstr "跟隨"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.categories"
-msgstr ""
+msgstr "類別"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.description"
-msgstr ""
+msgstr "**注意:**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設置當前唔起作用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.hosts"
-msgstr ""
+msgstr "轉播"
 
 #: /src/modules/main_menu/components/action-editor.vue:1419
 #: /src/modules/main_menu/components/reason-editor.vue:203
 #: /src/modules/main_menu/components/badge-term-editor.vue:355
 #, icu-message-format
 msgid "setting.edit"
-msgstr ""
+msgstr "編輯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.add-ons"
-msgstr ""
+msgstr "插件"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addons.dev.server"
-msgstr ""
+msgstr "使用本地開發服務器"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addons.dev.server.description"
-msgstr ""
+msgstr "嘗試由端口8001上嘅本地開發服務器載入插件。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.backup"
-msgstr ""
+msgstr "備份"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.changelog"
-msgstr ""
+msgstr "變更日誌"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.auto-click-chat"
-msgstr ""
+msgstr "打開離線頻道頁面時自動打開聊天。"
 
 #, icu-message-format
 msgid "setting.entry.channel.auto-skip-trailer"
-msgstr ""
+msgstr "自動跳過頻道預告片。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.extra-links"
-msgstr ""
+msgstr "喺主播姓名隔离添加指向直播頻道頁面嘅額外連結。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-live-indicator"
-msgstr ""
+msgstr "隱藏直播頻道頁面上嘅\"LIVE\"指示器。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-not-live-bar"
-msgstr ""
+msgstr "隱藏\"現已直播\"条。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-not-live-bar.description"
-msgstr ""
+msgstr "隱藏主播直播時顯示喺剪輯和視頻下方嘅\"正在直播\"通知条。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-unfollow"
-msgstr ""
+msgstr "隱藏取消關注撳掣。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hosting.enable"
-msgstr ""
+msgstr "啟用頻道轉播"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.metadata.force-above"
-msgstr ""
+msgstr "強制元數據同標記位於通道信息條嘅頂部。"
 
 #, icu-message-format
 msgid "setting.entry.channel.panel-tips"
-msgstr ""
+msgstr "顯示通道面板中連結嘅豐富工具提示。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.raids.no-autojoin"
-msgstr ""
+msgstr "唔好自動加入突襲。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.round-avatars"
-msgstr ""
+msgstr "允許對頭像圖像進行变圆。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations"
-msgstr ""
+msgstr "允許顯示慶祝活動。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations.description"
-msgstr ""
+msgstr "慶祝活動係覆蓋成個Twitch頁面嘅動畫。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.squads.no-autojoin"
-msgstr ""
+msgstr "唔好自動重定向到小隊直播。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.inline"
-msgstr ""
+msgstr "聊天.動作.串聯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.reasons"
-msgstr ""
+msgstr "聊天.動作.原因"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.room"
-msgstr ""
+msgstr "聊天.動作.房間"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.room-above"
-msgstr ""
+msgstr "在聊天輸入框上方顯示聊天室操作。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3058,7 +3068,7 @@ msgstr "對聊天中嘅頻道點數獎勵訊息使用自定義渲染。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering.description"
-msgstr "自定義呈現將背景顏色應用於高亮嘅訊息，某些用戶可能唔中意。"
+msgstr "自定義呈現將背景顏色應用於高亮嘅訊息，某些用戶可能唔鐘意。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3318,7 +3328,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.sub-emotes"
-msgstr "相關時，摁住 Shift 並點擊表情打開 Twitch 訂閱頁面。"
+msgstr "相關時，揿住 Shift 並點擊表情打開 Twitch 訂閱頁面。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
