@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-03 10:32+0000\n"
+"PO-Revision-Date: 2022-03-03 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -155,7 +155,7 @@ msgstr "頻道:"
 #: /src/deck/components/bd-edit-channels.vue:18
 #, icu-message-format
 msgid "addon.deck.edit.channels"
-msgstr "多個頻道:"
+msgstr "頻道:"
 
 #: /src/deck/components/bd-column-editor.vue:313
 #, icu-message-format
@@ -300,18 +300,18 @@ msgstr "返回頂部"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.hosted"
-msgstr "已轉流"
+msgstr "已轉播"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.hosted.live-tip"
-msgstr "此列顯示由你關注嘅已轉流嘅實時頻道。"
+msgstr "此列顯示由你關注嘅已轉播嘅實時頻道。"
 
 #: /src/deck/components/browse-deck.vue:550
 #, icu-message-format
 msgid "addon.deck.intro"
 msgstr ""
-"歡迎來到瀏覽版，係喺 Twitch 上發現內容嘅最佳方式。\n"
+"歡迎來到甲板，係喺 Twitch 上發現內容嘅最佳方式。\n"
 "\n"
 "你需要首先使用“新建”按鈕添加一列。"
 
@@ -352,7 +352,7 @@ msgstr "已跟隨嘅直播"
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.live-hosted"
-msgstr "已轉流嘅直播"
+msgstr "已轉播嘅直播"
 
 #: /src/deck/components/bd-shelf.vue:169
 #: /src/deck/components/bd-column.vue:384
@@ -401,7 +401,7 @@ msgstr "新標籤"
 #: /src/deck/components/bd-edit-video-channel.vue:65
 #, icu-message-format
 msgid "addon.deck.no-live"
-msgstr "頻道串流時唔好顯示頻道嘅實時轉流。"
+msgstr "頻道串流時唔好顯示頻道嘅實時轉播。"
 
 #: /src/deck/components/bd-edit-video.vue:69
 #, icu-message-format
@@ -632,7 +632,7 @@ msgstr "稍等..."
 #: /src/deck/index.jsx:227
 #, icu-message-format
 msgid "addon.deck.title"
-msgstr "Deck"
+msgstr "甲板"
 
 #: /src/deck/components/bd-stream-indicator.vue:56
 #, icu-message-format
@@ -642,7 +642,7 @@ msgstr "過去嘅播送"
 #: /src/deck/components/bd-stream-indicator.vue:56
 #, icu-message-format
 msgid "addon.deck.type.host"
-msgstr "轉流中"
+msgstr "轉播中"
 
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
@@ -710,13 +710,13 @@ msgstr "大"
 #: /src/deck/index.jsx:227
 #, icu-message-format
 msgid "addons.deck.title"
-msgstr "Deck"
+msgstr "甲板"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.deck"
-msgstr "Deck"
+msgstr "甲板"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -736,4 +736,4 @@ msgstr "創建新列時自動打開設定。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.deck.link"
-msgstr "喺 Twitch 頂部添加一個 Deck 連結。"
+msgstr "喺 Twitch 頂部添加一個 甲板 連結。"
