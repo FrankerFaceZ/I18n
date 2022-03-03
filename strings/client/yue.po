@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-03 10:32+0000\n"
+"PO-Revision-Date: 2022-03-03 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -410,7 +410,7 @@ msgstr "{user} 贖回 {reward} {cost}"
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reason.ignore"
-msgstr "忽略轉流(轉播員) / 審核員"
+msgstr "忽略 轉播員 / 審核員"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
@@ -619,22 +619,22 @@ msgstr "隱藏縮略圖"
 #: /src/sites/twitch-twilight/modules/directory/following.jsx:242:4
 #, icu-message-format
 msgid "directory.hosted"
-msgstr "已轉流嘅頻道"
+msgstr "已轉播嘅頻道"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:299:9
 #, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "directory.hosted.by-many"
-msgstr "由 {計數, 複數, 一個 {#頻道} 其他 {#頻道}} 轉流"
+msgstr "由 {計數, 複數, 一個 {#頻道} 其他 {#頻道}} 轉播"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:300:9
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\"}"
 msgid "directory.hosted.by-one"
-msgstr "由 {user} 轉流"
+msgstr "由 {user} 轉播"
 
 #: /src/sites/twitch-twilight/modules/directory/following.jsx:263:4
 #, icu-message-format
 msgid "directory.hosting"
-msgstr "喺喥轉流頻道"
+msgstr "喺喥轉播頻道"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:105:5
 #, icu-message-format
@@ -745,7 +745,7 @@ msgid "emote-menu.disable"
 msgstr "作為臨時解決方法，請嘗試禁用 FFZ 控制中心中嘅 FFZ 表情菜單。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1112:15
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgid "emote-menu.emoji"
 msgstr "表情"
 
@@ -1227,12 +1227,12 @@ msgstr "精選頻道"
 #: /src/sites/twitch-twilight/modules/host_button.js:94:7
 #, icu-message-format
 msgid "metadata.host-button.host"
-msgstr "轉流"
+msgstr "轉播"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:103:12
 #, icu-message-format, lp-defaults:"{\"channel\":\"None\"}"
 msgid "metadata.host-button.tooltip"
-msgstr "當前喺喥轉流: {channel}"
+msgstr "當前喺喥轉播: {channel}"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:106:45
 #, icu-message-format
@@ -1242,7 +1242,7 @@ msgstr "無"
 #: /src/sites/twitch-twilight/modules/host_button.js:93:7
 #, icu-message-format
 msgid "metadata.host-button.unhost"
-msgstr "取消轉流"
+msgstr "取消轉播"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:90:12
 #, icu-message-format
@@ -1252,37 +1252,37 @@ msgstr "更新中..."
 #: /src/sites/twitch-twilight/modules/host_button.js:209
 #, icu-message-format
 msgid "metadata.host.add-channel"
-msgstr "添加到自動轉流"
+msgstr "添加到自動轉播"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
 #, icu-message-format
 msgid "metadata.host.setting.auto-hosting.description"
-msgstr "當你離線時，自動從你嘅轉流列表中轉流頻道。"
+msgstr "當你離線時，自動從你嘅轉播列表中轉播頻道。"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
 #, icu-message-format
 msgid "metadata.host.setting.auto-hosting.title"
-msgstr "自動轉流中"
+msgstr "自動轉播中"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:516
 #, icu-message-format
 msgid "metadata.host.setting.strategy.description"
-msgstr "啟用後，轉流頻道會從列表中隨機選擇。"
+msgstr "啟用後，轉播頻道會從列表中隨機選擇。"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:492
 #, icu-message-format
 msgid "metadata.host.setting.strategy.title"
-msgstr "隨機化轉流順序"
+msgstr "隨機化轉播順序"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:358
 #, icu-message-format
 msgid "metadata.host.setting.team-hosting.description"
-msgstr "喺你嘅轉流列表中包含團隊頻道。"
+msgstr "喺你嘅轉播列表中包含團隊頻道。"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:334
 #, icu-message-format
 msgid "metadata.host.setting.team-hosting.title"
-msgstr "團隊轉流中"
+msgstr "團隊轉播中"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
 #, icu-message-format
@@ -1292,12 +1292,12 @@ msgstr "包括串流預先錄製嘅視頻嘅頻道，例如首映或重播"
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.title"
-msgstr "轉流預先錄製嘅視頻"
+msgstr "轉播預先錄製嘅視頻"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:209
 #, icu-message-format
 msgid "metadata.host.tab.auto-host"
-msgstr "自動轉流"
+msgstr "自動轉播"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:209
 #, icu-message-format
@@ -1307,12 +1307,12 @@ msgstr "設定"
 #: /src/sites/twitch-twilight/modules/host-options.vue:17
 #, icu-message-format
 msgid "metadata.host.title"
-msgstr "自動轉流管理"
+msgstr "自動轉播管理"
 
 #: /src/modules/metadata.jsx:245:30
 #, icu-message-format
 msgid "metadata.player-stats.broadcast-ago"
-msgstr "轉流於 {count,number}秒前"
+msgstr "轉播於 {count,number}秒前"
 
 #: /src/modules/metadata.jsx:224:8
 #, icu-message-format
