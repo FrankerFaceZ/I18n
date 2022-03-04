@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-03 14:32+0000\n"
+"PO-Revision-Date: 2022-03-04 18:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -238,14 +238,14 @@ msgstr ""
 "由於我哋當前網站嘅性能問題，我哋必須喺我哋嘅API上使用緩存。 因此，對徽章或表情所做嘅更改最多可能需要半粒鐘先至生效。 "
 "等待之後，刷新頁面，你嘅內容應該會出現。 你都可以嘗試執行硬刷新。\n"
 "\n"
-"* *我唔想要 “FFZ 支持者” 徽章。*\n"
+"* *我唔想要 “FFZ 支援者” 徽章。*\n"
 "\n"
-"用戶可以喺以下位置切換其支持者徽章嘅可見性： [https://www.frankerfacez.com/donate](https://www."
+"用戶可以喺以下位置切換其支援者徽章嘅可見性： [https://www.frankerfacez.com/donate](https://www."
 "frankerfacez.com/donate)\n"
 "\n"
 "* *我可以睇到我嘅表情，但聊天中有人話佢地睇唔到。*\n"
 "\n"
-"用戶需要安裝 FrankerFaceZ 或其他支持 FFZ 表情嘅第三方客戶端，先至睇到來自 FrankerFaceZ 嘅表情。 "
+"用戶需要安裝 FrankerFaceZ 或其他支援 FFZ 表情嘅第三方客戶端，先至睇到來自 FrankerFaceZ 嘅表情。 "
 "用戶也可能睇唔到新添加嘅表情，這取決於佢哋嘅瀏覽器緩存同上次刷新嘅時間。\n"
 "\n"
 "* *有一個被盜嘅表情！*\n"
@@ -344,11 +344,11 @@ msgstr ""
 "\n"
 "### 模式\n"
 "\n"
-"#### 區分大小寫\n"
+"#### 區分大細寫\n"
 "\n"
-"這會嘗試以區分大小寫嘅方式匹配你嘅字詞。實際上，這\n"
+"這會嘗試以區分大細寫嘅方式匹配你嘅字詞。實際上，這\n"
 "選項禁用生成嘅正則表達式上嘅 `/i` 標誌。由於\n"
-"瀏覽器正則表達式引擎嘅限制，若唔區分大小寫\n"
+"瀏覽器正則表達式引擎嘅限制，若唔區分大細寫\n"
 "一些字符可能無法正常工作。\n"
 "\n"
 "\n"
@@ -767,7 +767,7 @@ msgstr "笑話語言"
 
 #, icu-message-format
 msgid "setting.appearance.localization.general.language.languages"
-msgstr "支持嘅語言"
+msgstr "支援嘅語言"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -806,7 +806,7 @@ msgstr "遺產"
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr "此工具可讓你備份同恢復 FrankerFaceZ 設置，包括控制中心嘅所有設置以及其他數據，例如最鐘意嘅表情同被阻止嘅遊戲。"
+msgstr "此工具可讓你備份同恢復 FrankerFaceZ 設定，包括控制中心嘅所有設定以及其他數據，例如最鐘意嘅表情同被阻止嘅遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
@@ -851,7 +851,7 @@ msgstr "於 {now,datetime} 導入。"
 #: /src/modules/main_menu/components/profile-manager.vue:322
 #, icu-message-format
 msgid "setting.backup-restore.non-supported"
-msgstr "此文件未被識別為受支持嘅備份格式。"
+msgstr "此文件未被識別為受支援嘅備份格式。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:110
 #, icu-message-format
@@ -1384,10 +1384,10 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.description"
 msgstr ""
-"呢啲設置允許你根據聊天中嘅內容高亮訊息。 通過設置規則嘅優先級，您可以確定喺郵件同多個規則匹配時應使用邊種高亮顏色。 "
+"呢啲設定允許你根據聊天中嘅內容高亮訊息。 通過設定規則嘅優先級，您可以確定喺郵件同多個規則匹配時應使用邊種高亮顏色。 "
 "優先級較高嘅規則優先於優先級較低嘅規則。\n"
 "\n"
-"你仲可以創建一個規則，透過設置Alpha值為零嘅色水，從訊息中刪除高亮，防止優先級較低嘅規則高亮呢啲規則。 示例:`#00000000`"
+"你仲可以創建一個規則，透過設定Alpha值為零嘅色水，從訊息中刪除高亮，防止優先級較低嘅規則高亮呢啲規則。 示例:`#00000000`"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1497,7 +1497,7 @@ msgstr "清除"
 #: /src/modules/main_menu/components/clear-settings.vue:187
 #, icu-message-format
 msgid "setting.clear.done"
-msgstr "您的設置已清除。 請刷新所有嘅Twitch頁面，以確保冇緩存嘅數據保留。"
+msgstr "您的設定已清除。 請刷新所有嘅Twitch頁面，以確保冇緩存嘅數據保留。"
 
 #: /src/modules/main_menu/components/clear-settings.vue:1
 #, icu-message-format
@@ -1649,7 +1649,7 @@ msgstr "自動更新"
 #, icu-message-format, md-text
 msgid "setting.data_management.profiles.edit.updates.description"
 msgstr ""
-"此配置文件具有用于自動更新嘅關聯URL。 啟用更新並更新配置文件之後，將重置與配置文件關聯嘅所有設置。 配置文件嘅規則都將重置。 "
+"此配置文件具有用于自動更新嘅關聯URL。 啟用更新並更新配置文件之後，將重置與配置文件關聯嘅所有設定。 配置文件嘅規則都將重置。 "
 "名稱、描述同熱鍵將唔會重置。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:349
@@ -1661,7 +1661,7 @@ msgstr "更新 URL"
 #, icu-message-format
 msgid "setting.data_management.profiles.hotkey.desc"
 msgstr ""
-"設置熱鍵允許你使用熱鍵隨時打開或關閉配置文件。\n"
+"設定熱鍵允許你使用熱鍵隨時打開或關閉配置文件。\n"
 "\n"
 "**注意:**打開嘅配置文件可能由于其規則而依然處於非活動狀態。"
 
@@ -1780,7 +1780,7 @@ msgstr "喐一啲都好牙煙。"
 msgid "setting.dev-warning.explain"
 msgstr ""
 "請注意，呢個係一項僅供開發人員使用嘅高級功能。 普通用戶應避開。 調整實驗可能會對你嘅Twitch體驗產生意想唔到嘅影響。 "
-"FrankerFaceZ對你因篡改實驗而遇到嘅任何問題概不負責，我們將唔提供支持。\n"
+"FrankerFaceZ對你因篡改實驗而遇到嘅任何問題概不負責，我們將唔提供支援。\n"
 "\n"
 "如果你確定呢一點，請喺下面嘅框中鍵入`{code}`，然後揿回車鍵。"
 
@@ -1840,7 +1840,7 @@ msgstr "阻止同隱藏嘅類別"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.description"
-msgstr "**注意:**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設置當前唔起作用。"
+msgstr "**注意:**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設定當前唔起作用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1855,7 +1855,7 @@ msgstr "類別"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.description"
-msgstr "**注意:**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設置當前唔起作用。"
+msgstr "**注意:**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設定當前唔起作用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1952,7 +1952,7 @@ msgstr "唔好自動加入突襲。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.round-avatars"
-msgstr "允許對頭像圖像進行变圆。"
+msgstr "允許對頭像圖像变圆角。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1992,72 +1992,72 @@ msgstr "在聊天輸入框上方顯示聊天室操作。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.rules-as-reasons"
-msgstr ""
+msgstr "原因列表中包括當前文件室緊嘅規則。"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.chat.actions.size"
-msgstr ""
+msgstr "操作大細"
 
 #: /src/modules/main_menu/index.js:552
 #, icu-message-format, md-text
 msgid "setting.entry.chat.actions.size.description"
-msgstr ""
+msgstr "動作嘅高度應該以像素為單位。 可能會受到瀏覽器嘅縮放同字體大小設定嘅影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.user-context"
-msgstr ""
+msgstr "聊天.動作.用戶-上下文"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-contrast"
-msgstr ""
+msgstr "最細對比度"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-contrast.description"
-msgstr ""
+msgstr "喺確定可讀性時，設定亮度調整使用嘅最細對比度。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-mode"
-msgstr ""
+msgstr "調整"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-mode.description"
-msgstr ""
+msgstr "更改用戶顏色以確保佢哋保持可讀性。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr ""
+msgstr "冇顏色"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.0"
-msgstr ""
+msgstr "冇改變"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.1"
-msgstr ""
+msgstr "HSL Luma"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.2"
-msgstr ""
+msgstr "Luv Luma"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.3"
-msgstr ""
+msgstr "HSL Loop (與BTTV類似)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.4"
-msgstr ""
+msgstr "RGB Loop (已棄用)"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
@@ -2085,27 +2085,27 @@ msgstr "默認情況下，Twitch嘅聊天過濾器功能唔適用於審核員。
 
 #, icu-message-format
 msgid "setting.entry.chat.badges.clickable"
-msgstr ""
+msgstr "允許點擊徽章。"
 
 #, icu-message-format, md-text
 msgid "setting.entry.chat.badges.clickable.description"
-msgstr ""
+msgstr "某些徽(Prime Gaming )喺此功能啟用時充當超鏈。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-mod"
-msgstr ""
+msgstr "使用自定義審核員徽章(如果可用)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-vip"
-msgstr ""
+msgstr "喺可用嘅情況下使用自定義VIP徽章。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.fix-colors"
-msgstr ""
+msgstr "調整徽章顏色以提高可見性。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:124
 #, icu-message-format, md-text
@@ -2119,57 +2119,57 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.hidden"
-msgstr ""
+msgstr "可見性"
 
 #: /src/modules/main_menu/index.js:410
 #, icu-message-format
 msgid "setting.entry.chat.badges.media-queries"
-msgstr ""
+msgstr "使用@media查詢嚟支援Mozilla Firefox中嘅高DPI徽章圖像。"
 
 #: /src/modules/main_menu/index.js:417
 #, icu-message-format, md-text
 msgid "setting.entry.chat.badges.media-queries.description"
-msgstr ""
+msgstr "呢個係喺Firefox上睇到高DPI徽章所必需嘅，因為Firefox喺五年幾之後仍然唔支援`image-set()`。 它可能唔太可靠。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.style"
-msgstr ""
+msgstr "風格"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.0"
-msgstr ""
+msgstr "方形"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.1"
-msgstr ""
+msgstr "圓角方形"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.2"
-msgstr ""
+msgstr "圓形"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.3"
-msgstr ""
+msgstr "圓形(得返彩色)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.4"
-msgstr ""
+msgstr "圓形(得返彩色，縮細)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.5"
-msgstr ""
+msgstr "底部透明"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.6"
-msgstr ""
+msgstr "底部透明(圖標上返色)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -2334,113 +2334,113 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.300"
-msgstr ""
+msgstr "幫手 (機械人審核; 0.3秒)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.30000"
-msgstr ""
+msgstr "半分鐘 (30秒)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.5000"
-msgstr ""
+msgstr "大（擾流板移除 / 慢速模式; 5秒）"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.60000"
-msgstr ""
+msgstr "點解??? (1分鐘)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.788400000000"
-msgstr ""
+msgstr "CBenni選項 (字面意思係25年)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.style"
-msgstr ""
+msgstr "Emoji風格"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.0"
-msgstr ""
+msgstr "原始"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.blob"
-msgstr ""
+msgstr "果冻"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.emojione"
-msgstr ""
+msgstr "Emoji一代"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.google"
-msgstr ""
+msgstr "谷歌(Noto)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.open"
-msgstr ""
+msgstr "開源Moji"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.twitter"
-msgstr ""
+msgstr "推特(Twemoji)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-dialogs"
-msgstr ""
+msgstr "透過單擊Twitch表情打開佢哋嘅表情信息卡。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.combine-tabs"
-msgstr ""
+msgstr "喺一個標籤上顯示所有表情。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.default-tab"
-msgstr ""
+msgstr "默認標籤"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.default-tab.values.all"
-msgstr ""
+msgstr "我嘅表情"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
-msgstr ""
+msgstr "頻道"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
-msgstr ""
+msgstr "表情"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.default-tab.values.fav"
-msgstr ""
+msgstr "收藏夾"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.enabled"
-msgstr ""
+msgstr "使用 FrankerFaceZ 表情菜單。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.enabled.description"
-msgstr ""
+msgstr "FFZ表情菜單取代咗內置嘅Twitch表情菜單，並提供增強咗嘅功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.icon"
-msgstr ""
+msgstr "將表情菜單圖標替換為FFZ圖標，以獲得經典嘅感覺。"
 
 #: /src/modules/main_menu/index.js:641
 #, icu-message-format, md-text
