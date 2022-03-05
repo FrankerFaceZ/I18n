@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 11:32+0000\n"
+"PO-Revision-Date: 2022-03-05 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -48,7 +48,7 @@ msgstr "啟用"
 #: /src/modules/main_menu/components/addon.vue:40
 #, icu-message-format
 msgid "addon.enabled"
-msgstr "已啟用"
+msgstr "啟用"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
@@ -311,19 +311,19 @@ msgstr ""
 "\n"
 "|通配符 |說明 |示例 |匹配 |唔匹配 |\n"
 "| :--------: | :------------ | :-----: | :-----: | :------------: |\n"
-"| `*` |——匹配任意數量嘅非空格字符，包括無。—— | `cir*` | `cir`, `circle`, `cirFairy`, "
+"| `*` |匹配任意數量嘅冇空格字符，包括無。 | `cir*` | `cir`, `circle`, `cirFairy`, "
 "`circumstance` | `ci`, `sir`, `pizza` |\n"
-"| `**` |——匹配任意數量嘅任意字符，包括無。與單個 `*` 唔同，這將匹配空格字符。—— | `hello**!` | `hello!`, `"
+"| `**` |匹配任意數量嘅任意字符，包括無。與單個 `*` 唔同，這將匹配空格字符。 | `hello**!` | `hello!`, `"
 "hello, streamer!` |\n"
-"| `?` |——匹配任何單個字符。—— | `?at` | `cat`, `hat`, `pat` | `at` |\n"
-"| `[abc]` ——|匹配括號內嘅一個字符。—— | `[cp]at` | `cat`, `pat` | `hat`, `at` |\n"
-"| `[a-z]` |——匹配括號範圍內嘅一個字符。—— | `Kappa[0-9]` | `Kappa1`, `Kappa2`, ... "
-"`Kappa0` | `Kappa`, `KappaHD` |\n"
-"| `[!abc]` |——匹配 *唔喺* 括號內嘅一個字符。—— | `[!cp]at` | `bat`, `rat`, `hat` | `at`, "
-"`cat`, `pat` |\n"
-"| `[!a-z]` |——匹配 *唔喺* 括號範圍內嘅一個字符。—— | `Kappa[!0-9]` | `Kappa?`, `KappaF` | "
+"| `?` |匹配任何單個字符。 | `?at` | `cat`, `hat`, `pat` | `at` |\n"
+"| `[abc]` |匹配括號內嘅一個字符。 | `[cp]at` | `cat`, `pat` | `hat`, `at` |\n"
+"| `[a-z]` |匹配括號範圍內嘅一個字符。 | `Kappa[0-9]` | `Kappa1`, `Kappa2`, ... `Kappa0` | "
+"`Kappa`, `KappaHD` |\n"
+"| `[!abc]` |匹配 *唔喺* 括號內嘅一個字符。 | `[!cp]at` | `bat`, `rat`, `hat` | `at`, `cat`"
+", `pat` |\n"
+"| `[!a-z]` |匹配 *唔喺* 括號中範圍內嘅一個字符。 | `Kappa[!0-9]` | `Kappa?`, `KappaF` | "
 "`Kappa`, `Kappa0`, `Kappa4` |\n"
-"| `'{'abc,d?f'}'` |——匹配逗號分隔列表中嘅一種可能性。—— | `cir'{'no,Fairy'}'` | `cirno`, "
+"| `'{'abc,d?f'}'` |匹配逗號分隔列表中嘅一種可能性。 | `cir'{'no,Fairy'}'` | `cirno`, "
 "`cirFairy` | `cir`, `circle` |\n"
 "\n"
 "\n"
@@ -366,7 +366,7 @@ msgstr ""
 "#### 高亮匹配\n"
 "\n"
 "啟用後，[聊天>過濾>常規]中嘅匹配設定（~）\n"
-"已啟用，任何匹配嘅字詞都會喺聊天中高亮，以便你查睇\n"
+"啟用，任何匹配嘅字詞都會喺聊天中高亮，以便你查睇\n"
 "完全符合你嘅條件。\n"
 "\n"
 "任何匹配都唔會顯示為表情符號、連結等。\n"
@@ -464,7 +464,7 @@ msgstr "訊息已刪除"
 #: /src/modules/main_menu/components/action-editor.vue:544
 #, icu-message-format
 msgid "setting.actions.edit-visible.emote-only"
-msgstr "僅限表情符號模式"
+msgstr "僅限Twitch表情符號模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:728
 #, icu-message-format
@@ -539,7 +539,7 @@ msgstr "已刪除嘅訊息"
 #: /src/modules/main_menu/components/chat-actions.vue:182
 #, icu-message-format
 msgid "setting.actions.preview.emote-only"
-msgstr "僅限表情符號"
+msgstr "僅限Twitch表情符號"
 
 #: /src/modules/main_menu/components/chat-actions.vue:243
 #, icu-message-format
@@ -1467,7 +1467,7 @@ msgstr "連結"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards"
-msgstr "觀眾卡片"
+msgstr "觀眾名片"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1706,7 +1706,7 @@ msgstr "供應商"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging"
-msgstr "程式除錯"
+msgstr "調試"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources"
@@ -2456,7 +2456,7 @@ msgstr "表情符號修飾符"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.modifiers.values.0"
-msgstr "已禁用"
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2466,7 +2466,7 @@ msgstr "内嵌"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.reduced-padding"
-msgstr "使用減少嘅填充物。"
+msgstr "緊湊顯示。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2501,140 +2501,142 @@ msgstr "總是"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.show-heading.values.2"
-msgstr "搜索時"
+msgstr "唔搜索時"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.show-quick-nav"
-msgstr ""
+msgstr "喺菜單側面顯示快速導航欄。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.show-search"
-msgstr ""
+msgstr "顯示搜索框。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-emotes"
-msgstr ""
+msgstr "表情排序依據"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
-msgstr ""
+msgstr "添加嘅順序( ID )，舊前"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
-msgstr ""
+msgstr "添加嘅順序( ID )，新前"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
-msgstr ""
+msgstr "名稱，A-Z"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
-msgstr ""
+msgstr "名稱，Z-A"
 
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.4"
-msgstr ""
+msgstr "默認順序，升序"
 
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.5"
-msgstr ""
+msgstr "默認順序，降序"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
-msgstr ""
+msgstr "最後列出來自較高訂閱層級嘅表情符號。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.stay-loaded"
-msgstr ""
+msgstr "打開後保持就緒狀態。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.stay-loaded.description"
 msgstr ""
+"會導致表情菜單保留喺DOM中，即使你睇唔到。 如果菜單速度較慢，啟用此功能可能有助於網站喺打開菜單時有更好嘅性能。 "
+"默認情況下，當開啟`喺一個選項卡上顯示所有表情符號。`時，此設置處於啟用狀態。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.tall"
-msgstr ""
+msgstr "為表情菜單使用額外嘅高度。"
 
 #: /src/modules/main_menu/index.js:477
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x"
-msgstr ""
+msgstr "仲大一倍嘅表情"
 
 #: /src/modules/main_menu/index.js:484
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.2x.description"
-msgstr ""
+msgstr "此設置將使表情在聊天中顯示兩倍大。 佢非常適合同較大嘅字體一起使用，或者只係你超級鐘意表情符號。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated"
-msgstr ""
+msgstr "動畫表情符號"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
-msgstr ""
+msgstr "將控制係咪允許動畫表情喺聊天中播放。 当此值為`禁用`時，表情符號將顯示為靜態圖像。 把此項設定為`懸停時啟用`可能會導致性能問題。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.1"
-msgstr ""
+msgstr "啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.2"
-msgstr ""
+msgstr "懸停時啟用"
 
 #: /src/modules/main_menu/index.js:625
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled"
-msgstr ""
+msgstr "顯示表情符號"
 
 #: /src/modules/main_menu/index.js:632
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.enabled.description"
-msgstr ""
+msgstr "如果你唔想睇到表情符號，可以喺呢喥禁用佢哋。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.1"
-msgstr ""
+msgstr "僅限Twitch"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.2"
-msgstr ""
+msgstr "啟用"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.extra-timestamps"
-msgstr ""
+msgstr "喺通知上顯示時間戳。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
@@ -2645,37 +2647,37 @@ msgstr "啟用後，將喺點數兌換、訂閱等上顯示時間戳。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.bold-mentions"
-msgstr ""
+msgstr "被提及時喺聊天中以粗體顯示。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr ""
+msgstr "單擊以顯示已刪除嘅字詞。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr ""
+msgstr "透過單擊聊天中嘅提及嚟打開觀眾名片。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions"
-msgstr ""
+msgstr "顯示用戶名顏色喺聊天中嘅提及。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions.description"
-msgstr ""
+msgstr "**注意:**與顏色覆蓋唔兼容，因為提及唔包括用戶ID。"
 
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
-msgstr ""
+msgstr "喺每條聊天訊息上顯示一個因咩事高亮嘅列表，方便進行調試。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style"
-msgstr ""
+msgstr "詳細的消息風格"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3041,7 +3043,7 @@ msgstr "當有人兌換 \"高亮我嘅訊息時\"，高亮聊天中嘅訊息。"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.0"
-msgstr "已禁用"
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -3370,7 +3372,7 @@ msgstr "至少 10份"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.1000"
-msgstr "已禁用"
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
