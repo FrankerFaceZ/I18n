@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 14:32+0000\n"
+"PO-Revision-Date: 2022-03-06 12:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -129,8 +129,8 @@ msgstr "添加未列出..."
 #, icu-message-format
 msgid "addon.unlisted.explain"
 msgstr ""
-"未列出嘅插件係已獲得批准但已選擇避免在主列表中列出嘅插件。可能係由於插件專門針對某些用戶，抑或由於插件仍在開發中。如果你知道未列出嘅插件嘅 "
-"ID，請在此處輸入以使其顯示。"
+"未列出嘅插件係已獲得批准但已選擇避免喺主列表中列出嘅插件。可能係由於插件專門針對某些用戶，抑或由於插件仲喺喥開發緊。如果你知道未列出嘅插件嘅 "
+"ID，請喺呢喥輸入以令佢顯示。"
 
 #: /src/modules/main_menu/components/addon-list.vue:138
 #, icu-message-format
@@ -590,7 +590,7 @@ msgstr "標籤"
 #: /src/modules/main_menu/components/action-editor.vue:62
 #, icu-message-format
 msgid "setting.actions.tooltip"
-msgstr "自定義工具提示"
+msgstr "自定製工具提示"
 
 #: /src/modules/main_menu/components/action-editor.vue:106
 #: /src/modules/main_menu/components/action-editor.vue:1199
@@ -989,7 +989,7 @@ msgstr "内嵌"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line.description"
-msgstr "喺呢喥，你可以自定義於聊天中嘅消息一起顯示嘅動作。 如果你未喺聊天中睇到你喺此處定義嘅動作，請確保你已喺聊天設定菜單中啟用咗圖標模塊。"
+msgstr "喺呢喥，你可以自定製於聊天中嘅訊息一起顯示嘅動作。 如果你未喺聊天中睇到你喺此處定義嘅動作，請確保你已喺聊天設定菜單中啟用咗圖標模塊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -999,7 +999,7 @@ msgstr "原因"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.reasons.custom_reasons"
-msgstr "自定義原因"
+msgstr "自定製原因"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1014,7 +1014,7 @@ msgstr "房間"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room.description"
-msgstr "喺呢喥，你可以自定義將顯示喺聊天輸入框上方嘅動作。"
+msgstr "喺呢喥，你可以自定製將顯示喺聊天輸入框上方嘅動作。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1029,7 +1029,7 @@ msgstr "用戶上下文"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.user_context.description"
-msgstr "喺呢喥，你可以自定義動作，當你喺聊天中右鍵單擊用戶名時，呢啲動作將顯示喺上下文菜單中。"
+msgstr "喺呢喥，你可以自定製動作，當你喺聊天中右鍵單擊用戶名時，呢啲動作將顯示喺上下文菜單中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1258,7 +1258,7 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges.description"
 msgstr ""
-"**注意:**此部分用于過濾來自具有特定徽章嘅用戶嘅聊天消息。 如果你想隱藏徽章，請轉到[聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意:**此部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。 如果你想隱藏徽章，請轉到[聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1300,7 +1300,7 @@ msgstr "被阻止嘅徽章"
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
-"**注意:**此部分用于過濾來自具有特定徽章嘅用戶嘅聊天消息。 如果你想隱藏徽章，請轉到[聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意:**此部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。 如果你想隱藏徽章，請轉到[聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #, icu-message-format
 msgid "setting.chat.filtering.blocked_message_types"
@@ -1987,7 +1987,7 @@ msgstr "聊天.動作.房間"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.room-above"
-msgstr "在聊天輸入框上方顯示聊天室操作。"
+msgstr "喺聊天輸入框上方顯示聊天室操作。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2094,12 +2094,12 @@ msgstr "某些徽(Prime Gaming )喺此功能啟用時充當超鏈。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-mod"
-msgstr "使用自定義審核員徽章(如果可用)。"
+msgstr "使用自定製審核員徽章(如果可用)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-vip"
-msgstr "喺可用嘅情況下使用自定義VIP徽章。"
+msgstr "喺可用嘅情況下使用自定製VIP徽章。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
@@ -2114,7 +2114,7 @@ msgid "setting.entry.chat.badges.fix-colors.description"
 msgstr ""
 "確保徽章喺當前背景下可見。\n"
 "\n"
-"**注意:** 僅影響帶有自定義渲染嘅徽章。訂閱用戶徽章、小奇點徽章等唔受影響。"
+"**注意:** 僅影響帶有自定製渲染嘅徽章。訂閱用戶徽章、小奇點徽章等唔受影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2175,48 +2175,48 @@ msgstr "底部透明(圖標上返色)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.version"
-msgstr ""
+msgstr "版本"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:38
 #, icu-message-format
 msgid "setting.entry.chat.badges.version.values.1"
-msgstr ""
+msgstr "1 (2019年12月前)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:38
 #, icu-message-format
 msgid "setting.entry.chat.badges.version.values.2"
-msgstr ""
+msgstr "2 (當前)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.drops"
-msgstr ""
+msgstr "允許喺聊天中顯示有關掉寶嘅訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.hype-train"
-msgstr ""
+msgstr "允許喺聊天中顯示發燒列車。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.polls"
-msgstr ""
+msgstr "允許喺聊天中顯示投票。"
 
 #, icu-message-format
 msgid "setting.entry.chat.banners.prediction"
-msgstr ""
+msgstr "允許喺聊天中顯示預測。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.animated"
-msgstr ""
+msgstr "顯示動畫歡呼。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.cheer-notice"
-msgstr ""
+msgstr "喺聊天訊息上顯示包含緊歡呼嘅通知。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
@@ -2229,107 +2229,110 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show"
-msgstr ""
+msgstr "顯示小奇點"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned"
-msgstr ""
+msgstr "顯示排行榜"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned.description"
 msgstr ""
+"排行榜顯示頻道中嘅頂級歡呼者和訂閱贈禮人。\n"
+"\n"
+"默認情況下，由于以前嘅實現，佢繼承其值來自[聊天>小奇點和歡呼>顯示小奇點](~聊天.小奇點_和_歡呼)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards"
-msgstr ""
+msgstr "当歡呼喺聊天中向其他人分享獎勵時顯示消息。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards.description"
-msgstr ""
+msgstr "默認情況下，將由顯示小奇點繼承其值。 此設定僅影響新到達嘅訊息。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show.description"
-msgstr ""
+msgstr "顯示與小奇點關聯嘅UI。 注意：唔會隱藏聊天訊息中嘅歡呼。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.stack"
-msgstr ""
+msgstr "堆疊歡呼"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.stack.description"
-msgstr ""
+msgstr "將消息中嘅所有歡呼合併到訊息開頭嘅單個歡呼中。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.bits.stack.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.bits.stack.values.1"
-msgstr ""
+msgstr "按類型分組"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.bits.stack.values.2"
-msgstr ""
+msgstr "多合一"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.click-emotes"
-msgstr ""
+msgstr "透過撳住Shift鍵並單擊佢哋嚟打開表情信息頁面。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.community-chest.show"
-msgstr ""
+msgstr "展示社區禮物橫幅。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.delay"
-msgstr ""
+msgstr "人為延遲聊天"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.delay.description"
-msgstr ""
+msgstr "延遲聊天訊息嘅出現，以便喺睇到佢哋之前進行審核。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.-1"
-msgstr ""
+msgstr "默認延遲(特限於房間; 僅限非模組)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.0"
-msgstr ""
+msgstr "冇延遲"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.10000"
-msgstr ""
+msgstr "稍大 (10s)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.1200"
-msgstr ""
+msgstr "正常 (合理延遲;1.2秒)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.15000"
-msgstr ""
+msgstr "超級大 (15s)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.20000"
-msgstr ""
+msgstr "趕人瞓覺模式; 聊天延遲 (20秒)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2576,7 +2579,7 @@ msgstr "仲大一倍嘅表情"
 #: /src/modules/main_menu/index.js:484
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.2x.description"
-msgstr "此設置將使表情在聊天中顯示兩倍大。 佢非常適合同較大嘅字體一起使用，或者只係你超級鐘意表情符號。"
+msgstr "此設置將使表情喺聊天中顯示兩倍大。 佢非常適合同較大嘅字體一起使用，或者只係你超級鐘意表情符號。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -2677,17 +2680,17 @@ msgstr "喺每條聊天訊息上顯示一個因咩事高亮嘅列表，方便進
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style"
-msgstr "詳細的消息風格"
+msgstr "詳細的訊息風格"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style.description"
-msgstr ""
+msgstr "此類型將應用於喺詳細呈現模式下顯示嘅已刪除消息，以將其同普通聊天訊息區分開來。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.0"
-msgstr ""
+msgstr "褪色"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3064,13 +3067,13 @@ msgstr "自動領取紅利獎勵。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering"
-msgstr "對聊天中嘅頻道點數獎勵訊息使用自定義渲染。"
+msgstr "對聊天中嘅頻道點數獎勵訊息使用自定製渲染。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering.description"
-msgstr "自定義呈現將背景顏色應用於高亮嘅訊息，某些用戶可能唔鐘意。"
+msgstr "自定製呈現將背景顏色應用於高亮嘅訊息，某些用戶可能唔鐘意。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
