@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-06 12:32+0000\n"
+"PO-Revision-Date: 2022-03-06 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -85,7 +85,7 @@ msgstr "請求超時。"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.unhandled"
-msgstr "冇處理程序支援此 URL。"
+msgstr "冇處理程序支援呢個 URL。"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:101:14
 #, icu-message-format
@@ -155,7 +155,7 @@ msgstr "更改名稱與顏色"
 #: /src/modules/main_menu/components/action-editor.vue:579
 #, icu-message-format
 msgid "chat.actions.edit_overrides.desc"
-msgstr "允許你喺聊天中設定用戶名同顏色嘅本地覆蓋。"
+msgstr "允許你喺聊天中設定用戶名同色水嘅本地覆蓋。"
 
 #: /src/modules/main_menu/components/action-editor.vue:514
 #: /src/modules/main_menu/components/chat-actions.vue:434
@@ -255,19 +255,19 @@ msgstr "歡呼 {計數, 複數, 一 {# 小奇點} 其他 {# 小奇點}}"
 msgid "chat.deleted-messages"
 msgstr ""
 "{計數, 複數,\n"
-"一 {一條訊息已被審核員刪除。}\n"
-"其他 {聊天訊息已被審核員刪除。}\n"
+"一 {一條訊息已被審核人刪除。}\n"
+"其他 {聊天訊息已被審核人刪除。}\n"
 "}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
-msgstr "此徽章會針對擁有 FrankerFaceZ 嘅用戶喺全局範圍內顯示。請訪問 {website} 更改此徽章。"
+msgstr "呢個徽章會針對擁有 FrankerFaceZ 嘅用戶喺全局範圍內顯示。請訪問 {website} 更改呢個徽章。"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.site"
-msgstr "請訪問 {website} 更改此徽章。"
+msgstr "請訪問 {website} 更改呢個徽章。"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:296
 #, icu-message-format
@@ -319,7 +319,7 @@ msgstr "聊天身份"
 #: /src/sites/twitch-twilight/modules/chat/index.js:1157:18
 #, icu-message-format
 msgid "chat.ignore-clear"
-msgstr "審核員清除聊天嘅嘗試被忽略。"
+msgstr "審核人清除聊天嘅嘗試被忽略。"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:184:10
 #, icu-message-format
@@ -410,7 +410,7 @@ msgstr "{user} 贖回 {reward} {cost}"
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reason.ignore"
-msgstr "忽略 轉播員 / 審核員"
+msgstr "忽略 轉播人 / 審核人"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
@@ -757,17 +757,17 @@ msgstr "歡呼一份額外嘅 {小奇點_其餘嘅, 複數, 一個 {# 小奇點}
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr "關注 {user} 以解鎖佢哋呢個頻道表情符號。"
+msgstr "關注 {user} 嚟解鎖佢哋呢個頻道表情符號。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:609:8
 #, icu-message-format
 msgid "emote-menu.emote-sub"
-msgstr "訂閱 {price} 即可解鎖此表情符號。"
+msgstr "訂閱 {price} 即可解鎖呢個表情符號。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:610:8
 #, icu-message-format
 msgid "emote-menu.emote-up"
-msgstr "將你嘅訂閱升級到 {price} 以解鎖此表情符號。"
+msgstr "將你嘅訂閱升級到 {price} 嚟解鎖呢個表情符號。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1620:7
 #, icu-message-format
@@ -787,7 +787,7 @@ msgstr "無匹配嘅表情符號。"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:786:11
 #, icu-message-format
 msgid "emote-menu.error"
-msgstr "呈現此菜單時出錯。"
+msgstr "呈現呢個菜單時出錯。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:789:11
 #, icu-message-format
@@ -867,7 +867,7 @@ msgstr "打開設定"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:673:6
 #, icu-message-format
 msgid "emote-menu.sub-basic"
-msgstr "訂閱以解鎖部分表情符號"
+msgstr "訂閱嚟解鎖部分表情符號"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:574:16
 #, icu-message-format, lp-defaults:"{\"seconds\":2402847.089}"
@@ -899,7 +899,7 @@ msgstr "訂閱用戶表情符號"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6
 #, icu-message-format
 msgid "emote-menu.sub-unlock"
-msgstr "訂閱 {price} 以解鎖 {計數, 複數, 一個 {# 表情符號} 其佢 {# 表情符號}}"
+msgstr "訂閱 {price} 嚟解鎖 {計數, 複數, 一個 {# 表情符號} 其佢 {# 表情符號}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
 #, icu-message-format
@@ -1003,7 +1003,7 @@ msgstr "取消跟隨 {user}"
 #: /src/sites/twitch-twilight/modules/featured_follow.js:131
 #, icu-message-format
 msgid "featured-follow.notify.on"
-msgstr "跟隨者表情符號通知當前啟用。 單擊以禁用。"
+msgstr "跟隨者表情符號通知當前啟用。 單擊嚟禁用。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
@@ -1132,7 +1132,7 @@ msgstr "来源"
 #: /src/modules/translation_ui/components/translation-ui.vue:26
 #, icu-message-format
 msgid "i18n.ui.title"
-msgstr "翻譯測試員"
+msgstr "翻譯測試人"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:124
 #, icu-message-format
@@ -1327,7 +1327,7 @@ msgstr "直播延遲"
 #: /src/modules/metadata.jsx:319
 #, icu-message-format, lp-defaults:"{\"rate\":\"1.03\"}"
 msgid "metadata.player-stats.rate-warning"
-msgstr "以 {rate,number}x 速度播放以減少延遲。"
+msgstr "以 {rate,number}x 速度播放嚟減少延遲。"
 
 #: /src/modules/metadata.jsx:179:19
 #, icu-message-format
@@ -1467,7 +1467,7 @@ msgstr "你已從本地開發服務器加載擴充數據。"
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:321
 #, icu-message-format
 msgid "site.menu_button.changed"
-msgstr "FrankerFaceZ 設定提供程序已更改。請刷新此標籤以避免奇怪嘅行為。"
+msgstr "FrankerFaceZ 設定提供程序已更改。請刷新呢個標籤嚟避免奇怪嘅行為。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:101:10
 #, icu-message-format
@@ -1497,7 +1497,7 @@ msgstr "有 {計數, 複數, 一 {係一個新設定} 其他 {係 # 個新設定
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:333
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
 msgid "site.menu_button.no-settings"
-msgstr "由於 URL 中包含“{param}”，此標籤中嘅設定被禁用。"
+msgstr "由於 URL 中包含“{param}”，呢個標籤中嘅設定被禁用。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:359
 #, icu-message-format
@@ -1508,7 +1508,7 @@ msgstr "簡介"
 #, icu-message-format
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
-"你於此網站嘅本地存儲空間已滿，無法保存設定。請備份你嘅設定並喺 [數據管理 > 存儲 >> 提供程序](~數據_管理.儲存.標籤.提供者) "
+"你喺呢個網站嘅本地存儲空間已滿，無法保存設定。請備份你嘅設定並喺 [數據管理 > 存儲 >> 提供程序](~數據_管理.儲存.標籤.提供者) "
 "中切換到更高容量嘅提供程序。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:190
@@ -1662,7 +1662,7 @@ msgstr "目標地址: {url}"
 #: /src/modules/chat/tokenizers.jsx:68:14
 #, icu-message-format, lp-defaults:"{\"reasons\":\"malware\"}"
 msgid "tooltip.link-unsafe"
-msgstr "警告：此 URL 已被標記為可能有害: {reasons}"
+msgstr "警告：呢個 URL 已被標記為可能有害: {reasons}"
 
 #, icu-message-format
 msgid "tooltip.link.urls"
@@ -1671,7 +1671,7 @@ msgstr "訪問過嘅網址"
 #, icu-message-format, lp-defaults:"{\"err\":\"TypeError: Something bad happened in JavaScript land.\"}"
 msgid "tooltip.render-error"
 msgstr ""
-"呈現此工具提示時出錯。\n"
+"呈現呢個工具提示時出錯。\n"
 "{err}"
 
 #, icu-message-format
