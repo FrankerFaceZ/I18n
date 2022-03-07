@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-07 12:32+0000\n"
+"PO-Revision-Date: 2022-03-08 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -984,7 +984,7 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line"
-msgstr "嵌入"
+msgstr "內嵌"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -2466,7 +2466,7 @@ msgstr "禁用"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.modifiers.values.1"
-msgstr "嵌入"
+msgstr "內嵌"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3103,8 +3103,8 @@ msgstr "樣式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.replies.style.description"
 msgstr ""
-"Twitch嘅默認樣式喺右側添加咗一個浮動撳掣，並喺作為回覆嘅訊息之上顯示通知。FrankerFaceZ使用嵌入聊天行為（可以喺[聊天>行為>嵌入](~c"
-"hat.actions.in_line)中移除）並使用嵌入提及嚟標誌回覆。"
+"Twitch嘅默認樣式喺右側添加咗一個浮動撳掣，並喺作為回覆嘅訊息之上顯示通知。FrankerFaceZ使用內嵌聊天行為（可以喺[聊天>行為>內嵌](~c"
+"hat.actions.in_line)中移除）並使用內嵌提及嚟標誌回覆。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -3119,32 +3119,32 @@ msgstr "Twitch (默認)"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.replies.style.values.2"
-msgstr ""
+msgstr "FrankerFaceZ"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links"
-msgstr ""
+msgstr "顯示所有連結嘅豐富內容嵌入。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
-msgstr ""
+msgstr "*直播主：請注意，呢個係透過縮略圖獲取嘅NSFW圖像嘅潛在矢量，因此喺啟用此功能嘅情況下捕獲聊天時要小心。*"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled"
-msgstr ""
+msgstr "喺聊天中顯示豐富嘅内容。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled.description"
-msgstr ""
+msgstr "將顯示連結剪輯同視頻等內容嘅豐富內容區。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.hide-tokens"
-msgstr ""
+msgstr "隱藏匹配嘅連結以獲取豐富嘅内容。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
