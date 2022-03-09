@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-08 14:32+0000\n"
+"PO-Revision-Date: 2022-03-09 20:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -290,7 +290,7 @@ msgstr "Twitch 增強套件"
 msgid "home.term-syntax"
 msgstr ""
 "呢個係可用嘅唔同字詞語法選項嘅指南。喺呢喥，\n"
-"FrankerFaceZ 將你嘅高亮同阻止字詞轉換為常規\n"
+"FrankerFaceZ 將你嘅高亮同封鎖字詞轉換為常規\n"
 "表達式。\n"
 "\n"
 "\n"
@@ -806,7 +806,7 @@ msgstr "舊版"
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr "呢個工具可讓你備份同恢復 FrankerFaceZ 設定，包括控制中心嘅所有設定以及其他數據，例如最鐘意嘅表情符號同被阻止嘅遊戲。"
+msgstr "呢個工具可讓你備份同恢復 FrankerFaceZ 設定，包括控制中心嘅所有設定以及其他數據，例如最鐘意嘅表情符號同被封鎖嘅遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
@@ -1245,7 +1245,7 @@ msgstr "行為"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block"
-msgstr "阻止"
+msgstr "封鎖"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1272,7 +1272,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.message_types.description"
 msgstr ""
 "呢個過濾器允許你喺Twitch聊天中移除特定類型嘅所有訊息。 佢可用于過濾系統訊息，例如轉播或揪團。 "
-"為防止聊天功能中斷，無法阻止某些功能(例如審核行為)。"
+"為防止聊天功能中斷，無法封鎖某些功能(例如審核行為)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1295,7 +1295,7 @@ msgstr "用戶"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_badges"
-msgstr "被阻止嘅徽章"
+msgstr "被封鎖嘅徽章"
 
 #: /src/modules/main_menu/index.js:593
 #, icu-message-format, md-text
@@ -1305,23 +1305,23 @@ msgstr ""
 
 #, icu-message-format
 msgid "setting.chat.filtering.blocked_message_types"
-msgstr "阻止訊息類型"
+msgstr "封鎖訊息類型"
 
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_message_types.description"
 msgstr ""
 "呢個過濾器允許你喺Twitch聊天中移除特定類型嘅所有訊息。 佢可用于過濾系統訊息，例如轉播或揪團。 "
-"為防止聊天功能中斷，無法阻止某些功能(例如審核行為)。"
+"為防止聊天功能中斷，無法封鎖某些功能(例如審核行為)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_terms"
-msgstr "阻止嘅字詞"
+msgstr "封鎖嘅字詞"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_users"
-msgstr "阻止嘅用戶"
+msgstr "封鎖嘅用戶"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
@@ -1708,7 +1708,7 @@ msgstr "供應商"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging"
-msgstr "調試"
+msgstr "除錯"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources"
@@ -1802,14 +1802,14 @@ msgstr "類別"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.blocked"
-msgstr "已阻止"
+msgstr "已封鎖"
 
 #: /src/modules/main_menu/components/menu-page.vue:137
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.description"
 msgstr ""
-"請注意，由於Twitch網站嘅限制，喺呢喥名稱嘅格式必須同你嘅客戶端中顯示嘅名稱完全相同。 為獲得最佳效果，你可以直接從目錄頁中阻止或取消阻止類別。"
+"請注意，由於Twitch網站嘅限制，喺呢喥名稱嘅格式必須同你嘅客戶端中顯示嘅名稱完全相同。 為獲得最佳效果，你可以直接從目錄頁中封鎖或取消封鎖類別。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1837,7 +1837,7 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.blocked_and_hidden_categories"
-msgstr "阻止同隱藏嘅類別"
+msgstr "封鎖同隱藏嘅類別"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -2677,7 +2677,7 @@ msgstr "**注意:**與色水覆蓋唔兼容，因為提及唔包括用戶ID。"
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
-msgstr "喺每條聊天訊息上顯示一個因咩事高亮嘅列表，方便進行調試。"
+msgstr "喺每條聊天訊息上顯示一個因咩事高亮嘅列表，方便進行除錯。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2769,12 +2769,12 @@ msgstr "聊天.過濾.高亮-基本-徽章"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
-msgstr "聊天.過濾.高亮-基本-徽章-阻止"
+msgstr "聊天.過濾.高亮-基本-徽章-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-blocked"
-msgstr "聊天.過濾.高亮-基本-阻止"
+msgstr "聊天.過濾.高亮-基本-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2789,7 +2789,7 @@ msgstr "聊天.過濾.高亮-基本-用戶"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
-msgstr "聊天.過濾.高亮-基本-用戶-阻止"
+msgstr "聊天.過濾.高亮-基本-用戶-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
