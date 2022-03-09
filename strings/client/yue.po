@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-07 12:32+0000\n"
+"PO-Revision-Date: 2022-03-09 20:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -120,17 +120,17 @@ msgstr "視頻"
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"action\":\"ban\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-block\",\"appearance.color\":\"#D62929\",\"appearance.tooltip\":\"\",\"display.mod\":true,\"display.mod_icons\":true,\"display.deleted\":false}"
 msgid "chat.actions.ban"
-msgstr "封鎖用戶"
+msgstr "禁止用戶"
 
 #: /src/modules/chat/actions/types.jsx:154:9
 #, icu-message-format
 msgid "chat.actions.ban-reason"
-msgstr "封鎖 {user.login} 原因:"
+msgstr "禁止 {user.login} 原因:"
 
 #: /src/modules/chat/actions/types.jsx:158:9
 #, icu-message-format
 msgid "chat.actions.ban.tooltip"
-msgstr "封鎖 {user.login}"
+msgstr "禁止 {user.login}"
 
 #: /src/modules/chat/actions/types.jsx:80:4
 #, icu-message-format, lp-defaults:"{\"action\":\"chat\",\"appearance.type\":\"text\",\"appearance.text\":\"Test\",\"options.command\":\"@{{user.login}} HeyGuys\",\"options.paste\":false,\"display.deleted\":true}"
@@ -282,7 +282,7 @@ msgstr "FrankerFaceZ 徽章"
 #: /src/modules/chat/tokenizers.jsx:616:4
 #, icu-message-format
 msgid "chat.filtering.automod-term"
-msgstr "自動Mod 阻止嘅字詞"
+msgstr "自動Mod 封鎖嘅字詞"
 
 #: /src/modules/chat/tokenizers.jsx:618:3
 #, icu-message-format
@@ -309,7 +309,7 @@ msgstr "露骨色情言論"
 #: /src/modules/chat/tokenizers.jsx:540:4
 #, icu-message-format
 msgid "chat.filtering.blocked-term"
-msgstr "阻止嘅字詞"
+msgstr "封鎖嘅字詞"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
 #, icu-message-format
@@ -334,7 +334,7 @@ msgstr "聊天因滾動而暫停"
 #: /src/sites/twitch-twilight/modules/chat/line.js:342:20
 #, icu-message-format
 msgid "chat.mod-action.ban"
-msgstr "已封鎖"
+msgstr "已禁止"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:347:20
 #, icu-message-format
@@ -415,7 +415,7 @@ msgstr "忽略 轉播人 / 審核人"
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.evasion"
-msgstr "封鎖規避"
+msgstr "禁止規避"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
@@ -609,7 +609,7 @@ msgstr "測試URL"
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:97:5
 #, icu-message-format
 msgid "directory.block"
-msgstr "阻止"
+msgstr "封鎖"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:106:5
 #, icu-message-format
@@ -644,7 +644,7 @@ msgstr "顯示縮略圖"
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:96:5
 #, icu-message-format
 msgid "directory.unblock"
-msgstr "解除阻止"
+msgstr "解除封鎖"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:289:10
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"game\":\"Portal 2\"}"
