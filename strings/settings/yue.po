@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-09 20:32+0000\n"
+"PO-Revision-Date: 2022-03-10 17:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -633,7 +633,7 @@ msgstr "如果訊息被刪除"
 #: /src/modules/main_menu/components/action-editor.vue:680
 #, icu-message-format
 msgid "setting.actions.visible.hover"
-msgstr "懸停時"
+msgstr "當懸停時"
 
 #: /src/modules/main_menu/components/action-editor.vue:561
 #, icu-message-format
@@ -2566,7 +2566,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.stay-loaded.description"
 msgstr ""
 "會導致表情菜單保留喺DOM中，即使你睇唔到。 如果菜單速度較慢，啟用呢個功能可能有助於網站喺打開菜單時有更好嘅性能。 "
-"默認情況下，當開啟`喺一個選項卡上顯示所有表情符號。`時，呢個設置處於啟用狀態。"
+"默認情況下，當開啟`喺一個標籤卡上顯示所有表情符號。`時，呢個設置處於啟用狀態。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3149,17 +3149,17 @@ msgstr "隱藏匹配嘅連結以獲取豐富嘅内容。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level"
-msgstr ""
+msgstr "必要嘅用戶級別"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level.description"
-msgstr ""
+msgstr "僅喺具有此級別或更高級別嘅用戶發佈嘅訊息上顯示豐富嘅內容嵌入。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.0"
-msgstr ""
+msgstr "所有人"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3169,172 +3169,178 @@ msgstr "訂閱用戶"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.2"
-msgstr ""
+msgstr "貴賓"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.3"
-msgstr ""
+msgstr "審核人"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.4"
-msgstr ""
+msgstr "廣播員"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rituals.show"
-msgstr ""
+msgstr "顯示禮儀性訊息，例如\"用戶係新嚟嘅！ 打個招呼！\"。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length"
-msgstr ""
+msgstr "滾動條長度"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length.description"
-msgstr ""
+msgstr "喺聊天中保持咁多行。 將此值設定得太高會產生延遲。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze"
-msgstr ""
+msgstr "暫停聊天滾動"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr ""
+msgstr "要求鼠標懸停喺聊天上，以便使用熱鍵嚟凍結。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
+"將鼠標移動到聊天上方或撳住一個鍵時，自動停止聊天滾動。\n"
+"\n"
+"**注意:**無論此設定如何，喺聊天中向上滾動將始終阻止自動滾動。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.0"
-msgstr ""
+msgstr "使用Twitch設定"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.1"
-msgstr ""
+msgstr "懸停時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.2"
-msgstr ""
+msgstr "撳住 Ctrl 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.3"
-msgstr ""
+msgstr "撳住 Meta(Win) 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.4"
-msgstr ""
+msgstr "撳住 Alt 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.5"
-msgstr ""
+msgstr "撳住 Shift 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.6"
-msgstr ""
+msgstr "Ctrl 或 懸停"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.7"
-msgstr ""
+msgstr "Meta(Win) 或 懸停"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.8"
-msgstr ""
+msgstr "Alt 或 懸停"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.9"
-msgstr ""
+msgstr "Shift 或 懸停"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay"
-msgstr ""
+msgstr "懸停超時"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay.description"
-msgstr ""
+msgstr "聊天只會喺鼠標停止移動之後由於鼠標懸停咁長時間而保持凍結狀態。"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.1000"
-msgstr ""
+msgstr "1 秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.250"
-msgstr ""
+msgstr "0.25 秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.2500"
-msgstr ""
+msgstr "2.5 秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.500"
-msgstr ""
+msgstr "0.5 秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.5000"
-msgstr ""
+msgstr "5 秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.750"
-msgstr ""
+msgstr "0.75 秒"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.smooth-scroll"
-msgstr ""
+msgstr "平滑滾動"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.smooth-scroll.description"
 msgstr ""
+"**注意:**呢個可能表現不好，具體取決於你嘅瀏覽器。 如果遇到問題，請禁用呢個功能。\n"
+"\n"
+"將新嘅聊天訊息平順滑入視面。 速度將根據需要增加，方便跟上聊天。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
-msgstr ""
+msgstr "慢速"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
-msgstr ""
+msgstr "中速"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
-msgstr ""
+msgstr "快速"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
-msgstr ""
+msgstr "超快"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3431,147 +3437,150 @@ msgstr "顯示全部"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emoji"
-msgstr ""
+msgstr "允許表情符號嘅製表符完成。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emotes-without-colon"
-msgstr ""
+msgstr "允許喺唔鍵入冒號嘅情況下完成表情符號嘅製表符。 (:)"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
-msgstr ""
+msgstr "將阻止冇@前綴嘅用戶名嘅製表符完成。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.ffz-emotes"
-msgstr ""
+msgstr "允許FrankerFaceZ表情符號嘅製表符完成。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.limit-results"
-msgstr ""
+msgstr "把標籤卡完成結果限制為25。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.prioritize-favorites"
-msgstr ""
+msgstr "將最鍾意嘅表情排喺頂部。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format"
-msgstr ""
+msgstr "時間戳格式"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format.description"
 msgstr ""
+"時間戳使用[Day.js](https://github.com/iamkun/dayjs#readme) 庫進行格式設定。 "
+"有關格式化字符串嘅更多詳細信息[可以喺呢喥揾到](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/"
+"API-reference.md#list-of-all-available-formats)"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
-msgstr ""
+msgstr "12 個鐘制"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm"
-msgstr ""
+msgstr "24 個鐘制"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
-msgstr ""
+msgstr "帶秒時嘅 12 個鐘制"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
-msgstr ""
+msgstr "帶秒時嘅 24 個鐘制"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr ""
+msgstr "填充"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr ""
+msgstr "填充 24 個鐘制"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr ""
+msgstr "用秒時填充"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr ""
+msgstr "用秒時填充 24 個鐘制"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-size"
-msgstr ""
+msgstr "時間戳字體大小"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-size.description"
-msgstr ""
+msgstr "時間戳應有幾大（以像素為單位）。 如果未設定，則默認為\"字體大小\"。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled"
-msgstr ""
+msgstr "為視頻聊天啟用FrankerFaceZ功能。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled.description"
-msgstr ""
+msgstr "喺視頻聊天中顯示FFZ徽章，表情符號同其他功能。 啟用此功能之後，審核功能可能無法使用。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.timestamps"
-msgstr ""
+msgstr "喺聊天訊息旁邊顯示時間戳。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.viewer-cards.color"
-msgstr ""
+msgstr "高亮顏色"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.viewer-cards.highlight-chat"
-msgstr ""
+msgstr "高亮來自打開觀眾名片嘅用戶嘅消息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.width"
-msgstr ""
+msgstr "寬度"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.width.description"
-msgstr ""
+msgstr "聊天嘅範圍應為以像素為單位。 可能會受到瀏覽器嘅縮放同字體大小設定嘅影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.clips.layout.big"
-msgstr ""
+msgstr "允許播放器喺 `clips.twitch.tv` 頁面上變大。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.clips.layout.big.description"
-msgstr ""
+msgstr "只會影響至少1200像素寬嘅窗口，並嘗試令播放器同聊天重放儘可能大。"
 
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source"
-msgstr ""
+msgstr "解析連結"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source.values.dev"
-msgstr ""
+msgstr "本地主機"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
