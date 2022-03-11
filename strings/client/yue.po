@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-10 17:32+0000\n"
+"PO-Revision-Date: 2022-03-11 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -96,7 +96,7 @@ msgstr "加載中..."
 #: /src/modules/chat/rich_providers.js:123
 #, icu-message-format, lp-defaults:"{\"views\":33736583,\"followers\":167372}"
 msgid "cards.user.stats"
-msgstr "觀睇次數: {views,number} • 跟隨者: {followers,number}"
+msgstr "觀看次數: {views,number} • 跟隨者: {followers,number}"
 
 #: /src/modules/chat/rich_providers.js:111
 #: /src/modules/chat/rich_providers.js:114
@@ -546,7 +546,7 @@ msgstr "{user} 喺喥玩緊 {game}"
 #: /src/modules/chat/rich_providers.js:133:13
 #, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
 msgid "clip.desc.2"
-msgstr "剪輯者 {curator} — {觀睇次數, 複數, 一個 {# 觀睇次數} 其它 {# 觀睇次數}}"
+msgstr "剪輯者 {curator} — {觀看次數, 複數, 一個 {# 觀看次數} 其它 {# 觀看次數}}"
 
 #: /src/modules/chat/rich_providers.js:134:57
 #, icu-message-format
@@ -1706,7 +1706,7 @@ msgstr "{user} 嘅視頻"
 #: /src/modules/chat/rich_providers.js:197:13
 #, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
 msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} 觀睇次數 — {date,datetime}"
+msgstr "{length,duration} — {views,number} 觀看次數 — {date,datetime}"
 
 #: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
