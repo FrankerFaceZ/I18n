@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-11 19:32+0000\n"
+"PO-Revision-Date: 2022-03-11 21:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -410,7 +410,7 @@ msgstr "{user} 贖回 {reward} {cost}"
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reason.ignore"
-msgstr "忽略 轉播人 / 審核人"
+msgstr "忽略 直播主 / 審核人"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
@@ -578,7 +578,7 @@ msgstr "充實嵌入"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
-msgstr "強制工具提示"
+msgstr "強制小工具"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1339,8 +1339,8 @@ msgstr "延遲"
 msgid "metadata.player-stats.video-info"
 msgstr ""
 "視頻: {videoResolution}p{fps}\n"
-"回放速率: {playbackRate, number} Kbps\n"
-"丟幀: {skippedFrames, number}"
+"播放位元速率: {playbackRate, number} Kbps\n"
+"丟幀(遺漏畫面數): {skippedFrames, number}"
 
 #: /src/modules/metadata.jsx:242:25
 #, icu-message-format
@@ -1371,7 +1371,7 @@ msgstr "在線時間"
 #: /src/modules/metadata.jsx:113:14
 #, icu-message-format
 msgid "metadata.uptime.tooltip"
-msgstr "正常運行直播時間"
+msgstr "直播正常運行時間"
 
 #: /src/modules/metadata.jsx:110
 #, icu-message-format
@@ -1671,7 +1671,7 @@ msgstr "訪問過嘅網址"
 #, icu-message-format, lp-defaults:"{\"err\":\"TypeError: Something bad happened in JavaScript land.\"}"
 msgid "tooltip.render-error"
 msgstr ""
-"呈現呢個工具提示時出錯。\n"
+"呈現呢個小工具時出錯。\n"
 "{err}"
 
 #, icu-message-format
