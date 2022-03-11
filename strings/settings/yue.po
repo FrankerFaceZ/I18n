@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-10 17:32+0000\n"
+"PO-Revision-Date: 2022-03-11 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -954,7 +954,7 @@ msgstr "剪輯"
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgid "setting.channel.metadata.mod_view"
-msgstr "觀睇Mod"
+msgstr "觀看Mod"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3490,12 +3490,12 @@ msgstr "24 個鐘制"
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
-msgstr "帶秒時嘅 12 個鐘制"
+msgstr "含秒時嘅 12 個鐘制"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
-msgstr "帶秒時嘅 24 個鐘制"
+msgstr "含秒時嘅 24 個鐘制"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
@@ -3585,154 +3585,154 @@ msgstr "本地主機"
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source.values.null"
-msgstr ""
+msgstr "自動"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source.values.prod"
-msgstr ""
+msgstr "接口生成"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source.values.socket"
-msgstr ""
+msgstr "套接字群集（已棄用）"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source.values.test"
-msgstr ""
+msgstr "接口測試"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.following.group-hosts"
-msgstr ""
+msgstr "主機組"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.following.group-hosts.description"
-msgstr ""
+msgstr "僅喺目錄中顯示一次畀定嘅轉播頻道。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.following.host-menus"
-msgstr ""
+msgstr "轉播頻道菜單"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.following.host-menus.description"
-msgstr ""
+msgstr "顯示一個菜單，以喺單擊目錄中嘅轉播頻道時選擇要訪問嘅頻道。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.following.host-menus.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.following.host-menus.values.1"
-msgstr ""
+msgstr "當多個轉播時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.following.host-menus.values.2"
-msgstr ""
+msgstr "總是"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hidden.reveal"
-msgstr ""
+msgstr "鼠標懸停時顯示隱藏緊嘅條目。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hidden.style"
-msgstr ""
+msgstr "隱藏風格"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.directory.hidden.style.values.0"
-msgstr ""
+msgstr "替換圖像"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.directory.hidden.style.values.1"
-msgstr ""
+msgstr "替換圖像同模糊標題"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.directory.hidden.style.values.2"
-msgstr ""
+msgstr "模糊圖像(毛玻璃)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.directory.hidden.style.values.3"
-msgstr ""
+msgstr "模糊圖像同標題"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-latest-videos"
-msgstr ""
+msgstr "唔好喺以下目錄中顯示 `最新視頻`。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-live"
-msgstr ""
+msgstr "唔好喺正在直播嘅頻道上顯示Live指示器。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-promoted"
-msgstr ""
+msgstr "唔好喺目錄中顯示推廣直播。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-recommended"
-msgstr ""
+msgstr "唔好喺以下目錄中顯示 `推薦嘅實況頻道`。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-viewing-history"
-msgstr ""
+msgstr "唔好喺以下目錄中顯示 `基於你嘅觀睇歷史記錄`。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-vodcasts"
-msgstr ""
+msgstr "唔好喺目錄中顯示重新運行。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.show-channel-avatars"
-msgstr ""
+msgstr "顯示頻道頭像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.uptime"
-msgstr ""
+msgstr "直播正常運行時間"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.uptime.description"
-msgstr ""
+msgstr "喺頻道卡片喥顯示直播正常運行時間。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.uptime.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.uptime.values.1"
-msgstr ""
+msgstr "啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.uptime.values.2"
-msgstr ""
+msgstr "已啟用 (含秒)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.experiments"
-msgstr ""
+msgstr "實驗"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
