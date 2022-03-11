@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-11 19:32+0000\n"
+"PO-Revision-Date: 2022-03-11 21:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -590,7 +590,7 @@ msgstr "標籤"
 #: /src/modules/main_menu/components/action-editor.vue:62
 #, icu-message-format
 msgid "setting.actions.tooltip"
-msgstr "自定製工具提示"
+msgstr "自定製小工具"
 
 #: /src/modules/main_menu/components/action-editor.vue:106
 #: /src/modules/main_menu/components/action-editor.vue:1199
@@ -1442,7 +1442,7 @@ msgstr "標籤完成"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips"
-msgstr "工具提示"
+msgstr "小工具"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1941,7 +1941,7 @@ msgstr "強制元數據同標記位於通道信息條嘅頂部。"
 
 #, icu-message-format
 msgid "setting.entry.channel.panel-tips"
-msgstr "顯示通道面板中連結嘅豐富工具提示。"
+msgstr "顯示通道面板中連結嘅豐富小工具。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3176,7 +3176,7 @@ msgstr "審核人"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.4"
-msgstr "廣播員"
+msgstr "直播主"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3602,7 +3602,7 @@ msgstr "接口測試"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.following.group-hosts"
-msgstr "主機組"
+msgstr "轉播團"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4040,115 +4040,118 @@ msgstr "交換側邊欄"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.swap-sidebars.description"
-msgstr ""
+msgstr "交換導航同聊天到窗口嘅兩側。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theatre-navigation"
-msgstr ""
+msgstr "喺劇院模式下顯示最小化嘅導航欄。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theme.global-font"
-msgstr ""
+msgstr "字體系列"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theme.global-font.description"
 msgstr ""
+"覆蓋用于成個Twitch網站嘅字體。 舊嘅默認字體係: `\"Helvetica Neue\",Helvetica,Arial,sans-serif`\n"
+"\n"
+"透過[Google Fonts](https://fonts.google.com/)提供嘅任何字體都可以通過喺字體名稱前面加上`google:`嚟加載。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.legal"
-msgstr ""
+msgstr "合法性"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.clip-download"
-msgstr ""
+msgstr "為編輯者添加\"下載\"撳製以剪輯頁面。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.clip-download.description"
-msgstr ""
+msgstr "將喺剪輯頁面(主站點，而唔係 `clips.twitch.tv`)嘅播放器下方為直播主及其編輯添加一個下載撳製。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.featured-follow"
-msgstr ""
+msgstr "精選跟隨"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.featured-follow.description"
-msgstr ""
+msgstr "顯示當前精選用戶嘅特色跟隨撳製。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.host-button"
-msgstr ""
+msgstr "轉播撳製"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.host-button.description"
-msgstr ""
+msgstr "喺小工具中顯示包含當前轉播頻道嘅轉播撳製。"
 
 #: /src/modules/main_menu/index.js:471
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgid "setting.entry.metadata.modview.hide-info"
-msgstr ""
+msgstr "隱藏 \"隱藏直播信息條\" 撳製。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.player-stats"
-msgstr ""
+msgstr "回放統計"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.player-stats.description"
-msgstr ""
+msgstr "喺小工具中顯示當前直播延遲、播放位元速率和丟幀(遺漏畫面數)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.stream-delay-warning"
-msgstr ""
+msgstr "直播延遲警告"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.stream-delay-warning.description"
-msgstr ""
+msgstr "当當前流延遲超過此秒數時，以警告顏色顯示直播延遲，以引起你對較大延遲嘅注意。 設定為零可禁用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.uptime"
-msgstr ""
+msgstr "直播正常運行時間"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.uptime.no-native"
-msgstr ""
+msgstr "隱藏 Twitch嘅原生直播正常運行時間。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.uptime.no-native.description"
-msgstr ""
+msgstr "默認情況下，每當啟用FFZ自己嘅直播正常運行時間顯示以避免冗餘信息時，就會啟用此功能。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.metadata.uptime.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.metadata.uptime.values.1"
-msgstr ""
+msgstr "啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.metadata.uptime.values.2"
-msgstr ""
+msgstr "已啟用 (含秒)"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
