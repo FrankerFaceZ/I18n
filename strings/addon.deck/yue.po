@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-10 17:32+0000\n"
+"PO-Revision-Date: 2022-03-11 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -43,7 +43,7 @@ msgstr "直播"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.category.live-tip"
-msgstr "呢一列顯示串流特定類別嘅實時頻道。例如，你可以創建一個示例，顯示所有喺喥遊玩超級马里奥 64 嘅頻道。"
+msgstr "呢一列顯示串流特定類別嘅實況頻道。例如，你可以創建一個示例，顯示所有喺喥遊玩超級马里奥 64 嘅頻道。"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
@@ -268,7 +268,7 @@ msgstr "精選"
 #, icu-message-format
 msgid "addon.deck.featured.live-tip"
 msgstr ""
-"呢一列顯示精選嘅實時頻道。\n"
+"呢一列顯示精選嘅實況頻道。\n"
 "\n"
 "精選嘅頻道通常顯示喺輪播中 Twitch 主頁嘅頂部。"
 
@@ -285,7 +285,7 @@ msgstr "已跟隨"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.followed.live-tip"
-msgstr "呢一列顯示你正在關注嘅實時頻道。"
+msgstr "呢一列顯示你正在關注嘅實況頻道。"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
@@ -305,7 +305,7 @@ msgstr "已轉播"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.hosted.live-tip"
-msgstr "呢一列顯示由你關注嘅已轉播嘅實時頻道。"
+msgstr "呢一列顯示由你關注嘅已轉播嘅實況頻道。"
 
 #: /src/deck/components/browse-deck.vue:550
 #, icu-message-format
@@ -327,12 +327,12 @@ msgstr "{name} 直播"
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.live-channels"
-msgstr "實時頻道"
+msgstr "實況頻道"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.live-channels.tip"
-msgstr "呢一列顯示 Twitch 上嘅所有實時頻道。佢對於按某些標籤來進行過濾很有用。"
+msgstr "呢一列顯示 Twitch 上嘅所有實況頻道。佢對於按某些標籤來進行過濾很有用。"
 
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
@@ -401,7 +401,7 @@ msgstr "新標籤"
 #: /src/deck/components/bd-edit-video-channel.vue:65
 #, icu-message-format
 msgid "addon.deck.no-live"
-msgstr "頻道串流時唔好顯示頻道嘅實時轉播。"
+msgstr "頻道串流時唔好顯示頻道嘅實況轉播。"
 
 #: /src/deck/components/bd-edit-video.vue:69
 #, icu-message-format
@@ -447,7 +447,7 @@ msgstr "受到推崇"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.recommended.live-tip"
-msgstr "呢一欄顯示 Twitch 根據你嘅觀睇歷史為你推薦嘅實時頻道。"
+msgstr "呢一欄顯示 Twitch 根據你嘅觀睇歷史為你推薦嘅實況頻道。"
 
 #: /src/deck/components/bd-column.vue:329
 #, icu-message-format
@@ -487,7 +487,7 @@ msgstr "用戶搜索"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.search.live-tip"
-msgstr "呢一列顯示與搜索查詢匹配嘅實時頻道。"
+msgstr "呢一列顯示與搜索查詢匹配嘅實況頻道。"
 
 #: /src/deck/components/bd-shelf.vue:181
 #, icu-message-format
@@ -512,13 +512,13 @@ msgstr "由舊到新"
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.views-asc"
-msgstr "觀睇次數 (由低到高)"
+msgstr "觀看次數 (由低到高)"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.views-desc"
-msgstr "觀睇次數(由高到低)"
+msgstr "觀看次數(由高到低)"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-column-editor.vue:881
@@ -539,7 +539,7 @@ msgstr "觀眾數"
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sort.sub.views"
-msgstr "觀睇次數"
+msgstr "觀看次數"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
@@ -556,7 +556,7 @@ msgstr "最近發布"
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.video.views"
-msgstr "觀睇次數(由高到低)"
+msgstr "觀看次數(由高到低)"
 
 #: /src/deck/components/browse-deck.vue:191
 #: /src/deck/components/bd-column.vue:384
@@ -568,7 +568,7 @@ msgstr "特定用戶"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.specific-users.tip"
-msgstr "呢一列顯示自定製設定列表中嘅所有實時頻道。"
+msgstr "呢一列顯示自定製設定列表中嘅所有實況頻道。"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
@@ -590,7 +590,7 @@ msgstr "{計數, 複數, 一個 {# 用戶} 其他 {# 用戶} }"
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sub.views"
-msgstr "觀睇次數"
+msgstr "觀看次數"
 
 #: /src/deck/components/bd-tab-settings.vue:80
 #, icu-message-format
@@ -622,7 +622,7 @@ msgstr "團隊"
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.team.live-tip"
-msgstr "呢一列顯示來自特定團隊成員嘅實時頻道。"
+msgstr "呢一列顯示來自特定團隊成員嘅實況頻道。"
 
 #: /src/deck/components/bd-column.vue:689
 #, icu-message-format
@@ -690,7 +690,7 @@ msgstr "{觀眾數, 負數, 一個 {# 觀眾} 其他 {# 觀眾}}"
 #: /src/deck/components/bd-video-card.vue:25
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.views"
-msgstr "{計數, 複數, 一個 {# 觀睇} 其他 {# 觀睇} }"
+msgstr "{計數, 複數, 一個 {# 觀看} 其他 {# 觀看} }"
 
 #: /src/deck/components/bd-column-editor.vue:447
 #, icu-message-format
