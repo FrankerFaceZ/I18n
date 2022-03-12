@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-11 21:32+0000\n"
+"PO-Revision-Date: 2022-03-13 06:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -157,7 +157,7 @@ msgid "home.about"
 msgstr ""
 "感謝你使用 FrankerFaceZ。\n"
 "\n"
-"自 2017 年底 Twitch 嘅基於 React 嘅網站發布以來，該擴展嘅 4.0 版一直喺喥積極開發中。"
+"自 2017 年底 Twitch 嘅基於 React 嘅網站發布以來，該擴充功能嘅 4.0 版一直喺喥積極開發中。"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
@@ -690,7 +690,7 @@ msgstr "插件變更日記"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.description"
-msgstr "插件通常係其他人編寫嘅外掛Mod，可以由 FrankerFaceZ 自動加載，嚟向擴展程序同 Twitch 添加新功能與行為。"
+msgstr "插件通常係其他人編寫嘅外掛Mod，可以由 FrankerFaceZ 自動加載，嚟向擴充功能同 Twitch 添加新功能與行為。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3724,7 +3724,7 @@ msgstr "啟用"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.uptime.values.2"
-msgstr "已啟用 (含秒)"
+msgstr "啟用 (含秒)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4151,321 +4151,342 @@ msgstr "啟用"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.metadata.uptime.values.2"
-msgstr "已啟用 (含秒)"
+msgstr "啟用 (含秒)"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers"
-msgstr ""
+msgstr "備用觀眾計數"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers.description"
-msgstr ""
+msgstr "喺當前頻道顯示無動畫嘅觀看者計數變化。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers.no-native"
-msgstr ""
+msgstr "隱藏Twitch嘅原生觀眾計數。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers.no-native.description"
-msgstr ""
+msgstr "默認情況下，每當啟用FFZ自己嘅觀眾計數顯示以避免冗餘信息時，都會啟用此功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup"
-msgstr ""
+msgstr "允許播放器加速以減少延遲。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup.description"
 msgstr ""
+"默認情況下，当你觀睇嘅直播主有好大嘅延遲時，Twitch會對直播視頻應用較小嘅速度，以便趕上直播。 可能會導致音頻失真。 禁用此功能以防止自動更改速度。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.pip"
-msgstr ""
+msgstr "添加一個 `畫中畫` 撳製到播放器控件。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.pip.description"
-msgstr ""
+msgstr "單擊\"畫中畫\"撳製會嘗試切換播放器視頻嘅畫中畫模式。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.reset"
-msgstr ""
+msgstr "添加一個 `重置播放器` 撳製到播放器控件。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.reset.description"
-msgstr ""
+msgstr "雙擊\"重置播放器\"撳製會嘗試重置Twitch播放器嘅內部狀態，從而修復播放問題，而無需刷新整個網頁。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.alignment"
-msgstr ""
+msgstr "對齊"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.11"
-msgstr ""
+msgstr "左上角"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.12"
-msgstr ""
+msgstr "頂部中心"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.13"
-msgstr ""
+msgstr "右上角"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.21"
-msgstr ""
+msgstr "左中"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.22"
-msgstr ""
+msgstr "正中"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.23"
-msgstr ""
+msgstr "右中"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.31"
-msgstr ""
+msgstr "左下角"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.32"
-msgstr ""
+msgstr "底部中心"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.captions.alignment.values.33"
-msgstr ""
+msgstr "右下角"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.custom-position"
-msgstr ""
+msgstr "啟用覆蓋隱藏字幕嘅位置同對齊方式。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.font-family"
-msgstr ""
+msgstr "字體系列"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.font-family.description"
-msgstr ""
+msgstr "覆蓋用于顯示隱藏式字幕嘅字體。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.font-size"
-msgstr ""
+msgstr "字體大小"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.font-size.description"
-msgstr ""
+msgstr "字幕應該有幾大。 呢個可以係百分比，例如 `10%`，亦可以係像素值，例如 `50px`。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.horizontal"
-msgstr ""
+msgstr "水平位置"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.horizontal.description"
-msgstr ""
+msgstr "覆蓋隱藏式字幕嘅位置。 呢個可以係百分比，例如 `10%`，亦可以係像素值，例如 `50px`。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.vertical"
-msgstr ""
+msgstr "垂直位置"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.vertical.description"
-msgstr ""
+msgstr "覆蓋隱藏式字幕嘅位置。 呢個可以係百分比，例如 `10%`，亦可以係像素值，例如 `50px`。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.attack"
-msgstr ""
+msgstr "抑制"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.attack.description"
 msgstr ""
+"**範圍:** 0 ~ 1\n"
+"\n"
+"將增益降低10 dB所需嘅時間（以秒為單位）。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.default"
-msgstr ""
+msgstr "默認情況下啟用壓縮器。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.enable"
-msgstr ""
+msgstr "啟用音頻壓縮器，並將 `音頻壓縮器` 撳製添加到播放器控件。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.knee"
-msgstr ""
+msgstr "關節點"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.knee.description"
 msgstr ""
+"**範圍:** 0 ~ 40\n"
+"\n"
+"一個分貝值，表示曲線平滑過渡到壓縮部分嘅閾值以上嘅範圍。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.ratio"
-msgstr ""
+msgstr "比率"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.ratio.description"
 msgstr ""
+"**範圍:** 0 ~ 20\n"
+"\n"
+"輸出中1 dB變化所需嘅輸入變化量（以dB為單位）。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.release"
-msgstr ""
+msgstr "釋放時間"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.release.description"
 msgstr ""
+"**範圍：** 0 ~ 1\n"
+"將增益增加10 dB所需嘅時間（以秒為單位）。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.shortcut"
-msgstr ""
+msgstr "快捷鍵"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.shortcut.description"
-msgstr ""
+msgstr "此鍵序列可用于切換壓縮器。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.threshold"
-msgstr ""
+msgstr "閾值"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.threshold.description"
 msgstr ""
+"**範圍:** -100 ~ 0\n"
+"\n"
+"超過上面嘅分貝值，壓縮將開始生效。"
 
 #: /src/modules/main_menu/index.js:477
 #, icu-message-format
 msgid "setting.entry.player.embed-metadata"
-msgstr ""
+msgstr "將鼠標懸停喺播放器上時顯示元數據。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.ext-hide"
-msgstr ""
+msgstr "顯示曡加擴充功能"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.ext-hide.description"
-msgstr ""
+msgstr "注意：此功能唔會阻止加載擴充功能。 隱藏嘅擴充功能只係唔可見嘅。 使用此功能隱藏擴充功能唔會提高安全性。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.ext-hide.values.0"
-msgstr ""
+msgstr "總是"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.ext-hide.values.1"
-msgstr ""
+msgstr "附帶控件"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.ext-hide.values.2"
-msgstr ""
+msgstr "從不"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.ext-interaction"
-msgstr ""
+msgstr "允許鼠標與曡加擴充功能進行交互。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.default"
-msgstr ""
+msgstr "默認值"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:118
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.default.description"
-msgstr ""
+msgstr "啟用增益控制時，由增益控制嘅默認值。 100%意味住音量冇變化。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.enable"
-msgstr ""
+msgstr "啟用音頻壓縮器時啟用增益控制。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.max"
-msgstr ""
+msgstr "最大"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:118
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.max.description"
 msgstr ""
+"**範圍:** 100 ~ 1000\n"
+"\n"
+"增益控制允許嘅最大值。 100%係冇變化嘅。 200%係音量嘅兩倍。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.min"
-msgstr ""
+msgstr "最低"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:118
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.min.description"
 msgstr ""
+"**範圍：** 0 ~ 100\n"
+"\n"
+"增益控制嘅最低允許值。 0%實際上已靜音。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.no-volume"
-msgstr ""
+msgstr "啟用音頻壓縮器時，強制將內置音量設置為100%。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
