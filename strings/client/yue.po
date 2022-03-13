@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-11 21:32+0000\n"
+"PO-Revision-Date: 2022-03-13 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -59,17 +59,17 @@ msgstr "冇資料"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-host"
-msgstr "提供嘅 URL 嘅主機冇效，無法檢查。"
+msgstr "提供嘅網址 嘅主機冇效，無法檢查。"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-port"
-msgstr "提供嘅 URL 具有非標準端口，唔會被檢查。"
+msgstr "提供嘅網址 具有非標準端口，唔會被檢查。"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-scheme"
-msgstr "提供嘅 URL 唔使用 HTTP，因此唔會被檢查。"
+msgstr "提供嘅網址 唔使用 HTTP，因此唔會被檢查。"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -85,7 +85,7 @@ msgstr "請求超時。"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.unhandled"
-msgstr "冇處理程序支援呢個 URL。"
+msgstr "冇處理程序支援呢個網址。"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:101:14
 #, icu-message-format
@@ -102,7 +102,7 @@ msgstr "觀看次數: {views,number} • 跟隨者: {followers,number}"
 #: /src/modules/chat/rich_providers.js:114
 #, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
 msgid "cards.user.streaming"
-msgstr "串流 {game}"
+msgstr "直播 {game}"
 
 #, icu-message-format
 msgid "channel.links.clips"
@@ -166,7 +166,7 @@ msgstr "刪除聊天訊息"
 #: /src/modules/chat/actions/types.jsx:31:4
 #, icu-message-format, lp-defaults:"{\"action\":\"open_url\",\"title\":\"Open URL\",\"title_i18n\":\"chat.actions.open_url\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-link-ext\"}"
 msgid "chat.actions.open_url"
-msgstr "打開 URL"
+msgstr "打開網址"
 
 #: /src/modules/chat/actions/types.jsx:24
 #, icu-message-format
@@ -604,7 +604,7 @@ msgstr "刷新"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.url"
-msgstr "測試URL"
+msgstr "測試網址"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:97:5
 #, icu-message-format
@@ -1043,7 +1043,7 @@ msgstr ""
 #, icu-message-format
 msgid "i18n.interest"
 msgstr ""
-"有興趣幫助本地化工作嗎？請[加入我們嘅 Discord](https://discord.gg/UrAkGhT) 並加入本地化頻道中嘅聊天。\n"
+"有興趣幫助本地化工作嗎？請 [加入我們嘅 Discord](https://discord.gg/UrAkGhT) 並加入本地化頻道中嘅聊天。\n"
 "\n"
 "該工具允許翻譯人員喺應用程序中實時測試佢哋嘅字符串。這樣你就可以喺提交翻譯之前確保一切正常。"
 
@@ -1287,7 +1287,7 @@ msgstr "團隊轉播"
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.description"
-msgstr "包括串流預先錄製嘅視頻嘅頻道，例如首映或重播"
+msgstr "包含頻道直播預先錄製嘅視頻，例如首映或重播"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
 #, icu-message-format
@@ -1391,12 +1391,12 @@ msgstr "上一頁"
 #: /src/sites/twitch-twilight/modules/player.jsx:1014
 #, icu-message-format
 msgid "player.comp_button.disabled"
-msgstr "查睇剪輯時無法啟用音頻壓縮。"
+msgstr "查睇剪輯時無法啟用音頻壓縮器。"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1115
 #, icu-message-format
 msgid "player.comp_button.firefox"
-msgstr "啟用壓縮後，Firefox 用戶將無法控製播放速度。"
+msgstr "啟用壓縮器後，Firefox 用戶將無法控製播放速度。"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1016
 #, icu-message-format
@@ -1406,12 +1406,12 @@ msgstr "有關詳細信息，請參閱 FFZ 控制中心。如果音頻中斷，�
 #: /src/sites/twitch-twilight/modules/player.jsx:1002
 #, icu-message-format
 msgid "player.comp_button.off"
-msgstr "禁用音頻壓縮"
+msgstr "禁用音頻壓縮器"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1003
 #, icu-message-format
 msgid "player.comp_button.on"
-msgstr "音頻壓縮"
+msgstr "音頻壓縮器"
 
 #: /src/sites/shared/player.jsx:1113
 #: /src/sites/shared/player.jsx:1172
@@ -1497,12 +1497,12 @@ msgstr "有 {計數, 複數, 一 {係一個新設定} 其他 {係 # 個新設定
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:333
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
 msgid "site.menu_button.no-settings"
-msgstr "由於 URL 中包含“{param}”，呢個標籤中嘅設定被禁用。"
+msgstr "由於網址 中包含“{param}”，呢個標籤中嘅設定被禁用。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:359
 #, icu-message-format
 msgid "site.menu_button.profiles"
-msgstr "簡介"
+msgstr "配置文件"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:441
 #, icu-message-format
@@ -1662,7 +1662,7 @@ msgstr "目標地址: {url}"
 #: /src/modules/chat/tokenizers.jsx:68:14
 #, icu-message-format, lp-defaults:"{\"reasons\":\"malware\"}"
 msgid "tooltip.link-unsafe"
-msgstr "警告：呢個 URL 已被標記為可能有害: {reasons}"
+msgstr "警告：呢個網址 已被標記為可能有害: {reasons}"
 
 #, icu-message-format
 msgid "tooltip.link.urls"
