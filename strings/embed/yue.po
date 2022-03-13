@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-11 14:32+0000\n"
+"PO-Revision-Date: 2022-03-13 19:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "embed/yue/>\n"
@@ -70,7 +70,7 @@ msgstr "公開"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
-msgstr "{計數, 複數, 一 {# 個用戶} 其他 {{count,number} 個用戶}}"
+msgstr "{count,plural,one {# 個用戶} other {{count,number} 個用戶}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -106,8 +106,8 @@ msgstr "Imgur 相冊"
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
-"{圖像, 複數, 一個 {# 圖像} 其它 {# 圖像}} • {觀看次數, 複數, 一個 {# 觀看次數} 其它 {{views,number} "
-"觀看次數}}"
+"{images,plural,one{# 圖像} other {# 圖像}} • {views,plural,one{# 觀看次數} other "
+"{{views,number} 觀看次數}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
@@ -133,8 +133,8 @@ msgstr "Imgur 圖庫"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {點數, 複數, 一個 {# 點數} 其它 {{points,number} 點數}} • 👍 "
-"{likes,number}  • 👎{dislikes,number}"
+"{posted,datetime} • {points,plural,one{# 點數}other{{points,number} 點數}} • 👍 "
+"{likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -189,7 +189,7 @@ msgstr "{user} 嘅單人最好成績"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
-msgstr "{位置, 選擇序號, 一個 {# 第一} 兩個 {# 第二} 少數 {# 第三} 其餘 {# 第四之後}}"
+msgstr "{place,selectordinal,one {# 第一} two {# 第二} few {# 第三} other {# 其餘}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -200,9 +200,9 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs,plural,one {# Record} other {# Records}} • {runs,plural,one {# Run} "
-"other {# Runs}} • {games,plural,one {# Game} other {# Games}} • {"
-"cats,plural,one {# Category} other {# Categories}}"
+"{wrs,plural,one {# 記錄} other {# 記錄}} • {runs,plural,one {# 運行} other {# 運行}} "
+"• {games,plural,one {# 遊戲} other {# 遊戲}} • {cats,plural,one {# 類別} other {# "
+"類別}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -243,8 +243,8 @@ msgstr "跟隨中"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {轉推, 複數, 一 {# 轉推} 其它 {# 轉推}} • {鐘意, 複數, 一 "
-"{# 鐘意} 其它 {# 鐘意}}"
+"{created,time} • {created,date} • {retweets,plural,one {# 轉推} other {# 轉推}} •"
+" {likes,plural,one {# 鐘意} other {# 鐘意}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -255,8 +255,8 @@ msgstr "鐘意"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{推文, 複數, 一 {# 推文} 其它 {# 推文}} • {following,number} 跟隨中 • {followers,number} "
-"跟隨者 • 已加入 {joined,date}"
+"{tweets,plural,one {# 推文} other {# 推文}} • {following,number} 跟隨中 • "
+"{followers,number} 跟隨者 • 加入於 {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -277,5 +277,5 @@ msgstr "推文"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {觀看次數, 複數, 一 {# 觀看次數} 其它 {{views,number} 觀看次數}} • 👍 "
+"{channel} • {views,plural,one {# 觀看次數} other {{views,number} 觀看次數}} • 👍 "
 "{likes,number}  • 👎 {dislikes,number}"
