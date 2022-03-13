@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-13 06:32+0000\n"
+"PO-Revision-Date: 2022-03-13 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -173,7 +173,7 @@ msgstr "已更新嘅插件"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates.desc"
-msgstr "呢啲插件喺過去 7 日內已更新。檢查 [變更日誌](~add_ons.changelog) 嚟查睇更改嘅內容。"
+msgstr "呢啲插件喺過去 7 日內已更新。檢查  [變更日誌](~add_ons.changelog) 嚟查睇更改嘅內容。"
 
 #: /src/modules/main_menu/components/changelog.vue:7
 #, icu-message-format
@@ -214,7 +214,7 @@ msgstr "非版本化提交"
 #: /src/modules/main_menu/components/changelog.vue:61
 #, icu-message-format
 msgid "home.changelog.show-nonversioned"
-msgstr "包括非版本化提交。"
+msgstr "包含非版本化提交。"
 
 #, icu-message-format
 msgid "home.discord"
@@ -260,8 +260,8 @@ msgid "home.feedback"
 msgstr ""
 "## 反饋\n"
 "\n"
-"你可以通過 [喺我們嘅 GitHub 存儲庫中打開問題](https://github.com/FrankerFaceZ/FrankerFaceZ/"
-"issues) 來提供反饋同錯誤報告。你也可以 [喺 Discord 上找到我們](https://discord.gg/UrAkGhT) 或 "
+"你可以通過  [喺我們嘅 GitHub 存儲庫中打開問題](https://github.com/FrankerFaceZ/FrankerFaceZ/"
+"issues) 來提供反饋同錯誤報告。你也可以  [喺 Discord 上找到我們](https://discord.gg/UrAkGhT) 或  "
 "[喺我們發推文](https://twitter.com/FrankerFaceZ)。\n"
 "\n"
 "創建 GitHub 問題時，請檢查其他人是否尚未為你要討論或報告嘅內容創建問題。GitHub 問題應該用於與客戶有關嘅問題，而唔係關於表情符號批准嘅問題。"
@@ -306,14 +306,14 @@ msgstr ""
 "\n"
 "[Globs](https://en.wikipedia.org/wiki/Glob_(programming)) 提供簡單、容易\n"
 "使用通配符編寫模式匹配。例如，全局\n"
-"`cir*` 將匹配所有以字母 `cir` 開頭嘅單詞，包括`cir` 本身。\n"
+"`cir*` 將匹配所有以字母 `cir` 開頭嘅單詞，包含`cir` 本身。\n"
 "`*` 係一個匹配任意數量字符嘅通配符。\n"
 "\n"
 "| 通配符 | 說明 | 示例 | 匹配 | 唔匹配 |\n"
 "| :------: | :---------- | :-----: | :-----: | :------------: |\n"
-"| `*` |匹配任意數量嘅冇空格字符，包括無。| `cir*` | `cir`, `circle`, `cirFairy`, "
+"| `*` |匹配任意數量嘅冇空格字符，包含無。| `cir*` | `cir`, `circle`, `cirFairy`, "
 "`circumstance` | `ci`, `sir`, `pizza` |\n"
-"| `**` |匹配任意數量嘅任意字符，包括無。與單個 `*` 唔同，這將匹配空格字符。| `hello**!` | `hello!`, `hello, "
+"| `**` |匹配任意數量嘅任意字符，包含無。與單個 `*` 唔同，這將匹配空格字符。| `hello**!` | `hello!`, `hello, "
 "streamer!` |\n"
 "| `?` |匹配任何單個字符。| `?at` | `cat`, `hat`, `pat` | `at` |\n"
 "| `[abc]` |匹配括號內嘅一個字符。| `[cp]at` | `cat`, `pat` | `hat`, `at` |\n"
@@ -602,7 +602,7 @@ msgstr "類型"
 #: /src/modules/chat/actions/components/edit-url.vue:7
 #, icu-message-format
 msgid "setting.actions.url"
-msgstr "URL"
+msgstr "網址"
 
 #: /src/modules/chat/actions/components/edit-url.vue:43
 #: /src/modules/chat/actions/components/edit-chat.vue:51
@@ -791,7 +791,7 @@ msgstr "顏色"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.colors.description"
-msgstr "呢個係 FrankerFaceZ 即將推出嘅新系統嘅快速預覽。預計呢喥會有重大變化，包括單獨嘅基本同高級模式，以及更好嘅色水選擇。"
+msgstr "呢個係 FrankerFaceZ 即將推出嘅新系統嘅快速預覽。預計呢喥會有重大變化，包含單獨嘅基本同高級模式，以及更好嘅色水選擇。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -806,12 +806,12 @@ msgstr "舊版"
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr "呢個工具可讓你備份同恢復 FrankerFaceZ 設定，包括控制中心嘅所有設定以及其他數據，例如最鐘意嘅表情符號同被封鎖嘅遊戲。"
+msgstr "呢個工具可讓你備份同恢復 FrankerFaceZ 設定，包含控制中心嘅所有設定以及其他數據，例如最鐘意嘅表情符號同被封鎖嘅遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
 msgid "setting.backup-restore.confirm-updates"
-msgstr "你喺喥導入嘅配置文件有一個自動更新 URL。你希望配置文件保持最新嗎？"
+msgstr "你喺喥導入嘅配置文件有一個自動更新網址。你希望配置文件保持最新嗎？"
 
 #: /src/modules/main_menu/components/profile-manager.vue:360
 #, icu-message-format
@@ -831,7 +831,7 @@ msgstr "處理呢個備份時出錯。"
 #: /src/modules/main_menu/components/profile-manager.vue:429
 #, icu-message-format
 msgid "setting.backup-restore.http-error"
-msgstr "無法從提供嘅 URL 讀取 JSON。"
+msgstr "無法從提供嘅網址 讀取 JSON。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:416
 #, icu-message-format
@@ -1134,7 +1134,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.scrolling"
-msgstr "滾屏"
+msgstr "滾動"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1258,7 +1258,7 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges.description"
 msgstr ""
-"**注意:**呢個部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到[聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意:**呢個部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1283,7 +1283,7 @@ msgstr "字詞"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms.description"
-msgstr "有關如何使用字詞嘅詳細信息，請參閱[聊天>過濾>語法幫助](~)。"
+msgstr "有關如何使用字詞嘅詳細信息，請參閱 [聊天>過濾>語法幫助](~)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1300,7 +1300,7 @@ msgstr "被封鎖嘅徽章"
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
-"**注意:**呢個部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到[聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意:**呢個部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #, icu-message-format
 msgid "setting.chat.filtering.blocked_message_types"
@@ -1399,7 +1399,7 @@ msgstr "字詞"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms.description"
-msgstr "有關如何使用字詞嘅詳細信息，請參閱[聊天>過濾>語法幫助](~)。"
+msgstr "有關如何使用字詞嘅詳細信息，請參閱 [聊天>過濾>語法幫助](~)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1649,12 +1649,12 @@ msgstr "自動更新"
 #, icu-message-format, md-text
 msgid "setting.data_management.profiles.edit.updates.description"
 msgstr ""
-"呢個配置文件具有用于自動更新嘅關聯URL。啟用更新並更新配置文件之後，將重置與配置文件關聯嘅所有設定。配置文件嘅規則都將重置。名稱、描述同熱鍵將唔會重置。"
+"呢個配置文件具有用于自動更新嘅關聯網址。啟用更新並更新配置文件之後，將重置與配置文件關聯嘅所有設定。配置文件嘅規則都將重置。名稱、描述同熱鍵將唔會重置。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:349
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.url"
-msgstr "更新 URL"
+msgstr "更新網址"
 
 #: /src/modules/main_menu/components/profile-editor.vue:301
 #, icu-message-format
@@ -1705,7 +1705,7 @@ msgstr "供應商"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging"
-msgstr "除錯"
+msgstr "程式除錯"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources"
@@ -1966,7 +1966,7 @@ msgstr "慶祝活動係覆蓋成個Twitch頁面嘅動畫。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.squads.no-autojoin"
-msgstr "唔好自動重定向到小隊直播。"
+msgstr "唔好自動重定向到小組直播。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1991,7 +1991,7 @@ msgstr "喺聊天輸入框上方顯示聊天操作。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.rules-as-reasons"
-msgstr "原因列表中包括當前文件室緊嘅規則。"
+msgstr "原因列表中包含當前文件室緊嘅規則。"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
@@ -2062,13 +2062,13 @@ msgstr "RGB Loop (已棄用)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.delete-messages"
-msgstr "如果訊息包含過濾嘅詞組，就將其標記為已刪除。"
+msgstr "如果訊息包含過濾嘅詞組，就將佢標記為已刪除。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.remove-messages"
-msgstr "如果訊息包含過濾嘅詞組，就將其完全移除。"
+msgstr "如果訊息包含過濾嘅詞組，就將佢完全移除。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
@@ -2241,7 +2241,7 @@ msgid "setting.entry.chat.bits.show-pinned.description"
 msgstr ""
 "排行榜顯示頻道中嘅頂級歡呼者和訂閱贈禮人。\n"
 "\n"
-"默認情況下，由于以前嘅實現，佢繼承其值來自[聊天>小奇點和歡呼>顯示小奇點](~聊天.小奇點_和_歡呼)。"
+"默認情況下，由于以前嘅實現，佢繼承其值來自 [聊天>小奇點和歡呼>顯示小奇點](~聊天.小奇點_和_歡呼)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2301,7 +2301,7 @@ msgstr "人為延遲聊天"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.delay.description"
-msgstr "延遲聊天訊息嘅出現，以便喺睇到佢哋之前進行審核。"
+msgstr "延遲聊天訊息嘅出現，便於喺睇到佢哋之前進行審核。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2321,7 +2321,7 @@ msgstr "稍大 (10s)"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.1200"
-msgstr "正常 (合理延遲;1.2秒)"
+msgstr "正常 (人為審核;1.2秒)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2336,7 +2336,7 @@ msgstr "趕人瞓覺模式; 聊天延遲 (20秒)"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.300"
-msgstr "幫手 (機械人審核; 0.3秒)"
+msgstr "較小 (機器人審核; 0.3秒)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2590,7 +2590,7 @@ msgstr "動畫表情符號"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
-msgstr "將控制係咪允許動畫表情喺聊天中播放。当此值為`禁用`時，表情符號將顯示為靜態圖像。將呢項設定為`懸停時啟用`可能會導致性能問題。"
+msgstr "將控制係咪允許動畫表情喺聊天中播放。当呢個值為`禁用`時，表情符號將顯示為靜態圖像。將呢項設定為`懸停時啟用`可能會導致性能問題。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2669,12 +2669,12 @@ msgstr "顯示用戶名色水喺聊天中嘅提及。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions.description"
-msgstr "**注意:**與色水覆蓋唔兼容，因為提及唔包括用戶ID。"
+msgstr "**注意:**與色水覆蓋唔兼容，因為提及唔包含用戶ID。"
 
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
-msgstr "喺每條聊天訊息上顯示一個因咩事高亮嘅列表，方便進行除錯。"
+msgstr "為程式除錯喺每條聊天訊息上顯示一個因咩事高亮嘅列表。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2684,7 +2684,7 @@ msgstr "詳細的訊息樣式"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style.description"
-msgstr "呢個類型將應用於喺詳細呈現模式下顯示嘅已刪除消息，嚟將其同普通聊天訊息區分開來。"
+msgstr "呢個類型將應用於喺詳細呈現模式下顯示嘅已刪除消息，嚟將佢同普通聊天訊息區分開來。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2821,7 +2821,7 @@ msgstr "提及優先級"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-priority.description"
-msgstr "擁有呢個優先級喺被提及時高亮你個名。有關詳細信息，請參閱[聊天>過濾>高亮](~聊天.過濾.高亮)。"
+msgstr "擁有呢個優先級喺被提及時高亮你個名。有關詳細信息，請參閱 [聊天>過濾>高亮](~聊天.過濾.高亮)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2836,7 +2836,7 @@ msgstr "喺聊天中移除已刪除嘅訊息。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.remove-deleted.description"
-msgstr "已刪除嘅訊息將喺聊天中完全移除。唔建議審核人使用呢個設定。"
+msgstr "已刪除嘅訊息將喺聊天中完全移除。唔推薦審核人使用呢個設定。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2886,7 +2886,7 @@ msgstr "字體大小"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-size.description"
-msgstr "聊天中嘅文本大小以像素為單位。可能會受到瀏覽器嘅縮放同字體大小設定嘅影響。"
+msgstr "聊天中嘅文本大小嚟像素為單位。可能會受到瀏覽器嘅縮放同字體大小設定嘅影響。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
@@ -2953,7 +2953,7 @@ msgstr "表情符號對齊"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.emote-alignment.description"
-msgstr "更改表情符號喺聊天中嘅位置，可能會令訊息更高，以避免表情符號重疊。"
+msgstr "更改表情符號喺聊天中嘅位置，可能會令訊息更高，嚟避免表情符號重疊。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3100,8 +3100,8 @@ msgstr "樣式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.replies.style.description"
 msgstr ""
-"Twitch嘅默認樣式喺右側添加咗一個浮動撳掣，並喺作為回覆嘅訊息之上顯示通知。FrankerFaceZ使用內嵌聊天行為（可以喺[聊天>行為>內嵌](~c"
-"hat.actions.in_line)中移除）並使用內嵌提及嚟標誌回覆。"
+"Twitch嘅默認樣式喺右側添加咗一個浮動撳掣，並喺作為回覆嘅訊息之上顯示通知。FrankerFaceZ使用內嵌聊天行為（可以喺 "
+"[聊天>行為>內嵌](~chat.actions.in_line)中移除）並使用內嵌提及嚟標誌回覆。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -3126,7 +3126,7 @@ msgstr "顯示所有連結嘅豐富內容嵌入。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
-msgstr "*直播主：請注意，呢個係透過縮略圖獲取嘅NSFW圖像嘅潛在矢量，因此喺啟用此功能嘅情況下捕獲聊天時要小心。*"
+msgstr "*直播用戶：請注意，呢個係透過縮略圖獲取嘅NSFW圖像嘅潛在矢量，因此喺啟用呢個功能嘅情況下捕獲聊天時要小心。*"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3141,7 +3141,7 @@ msgstr "將顯示連結剪輯同視頻等內容嘅豐富內容區。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.hide-tokens"
-msgstr "隱藏匹配嘅連結以獲取豐富嘅内容。"
+msgstr "隱藏匹配嘅連結嚟獲取豐富嘅内容。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3151,7 +3151,7 @@ msgstr "必要嘅用戶級別"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level.description"
-msgstr "僅喺具有此級別或更高級別嘅用戶發佈嘅訊息上顯示豐富嘅內容嵌入。"
+msgstr "僅喺具有呢個級別或更高級別嘅用戶發佈嘅訊息上顯示豐富嘅內容嵌入。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3191,7 +3191,7 @@ msgstr "滾動條長度"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length.description"
-msgstr "喺聊天中保持咁多行。將此值設定得太高會產生延遲。"
+msgstr "喺聊天中保持咁多行。將呢個值設定得太高會產生延遲。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3201,7 +3201,7 @@ msgstr "暫停聊天滾動"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr "要求鼠標懸停喺聊天上，以便使用熱鍵嚟凍結。"
+msgstr "要求鼠標懸停喺聊天上，便於使用熱鍵嚟凍結。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3209,7 +3209,7 @@ msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "將鼠標移動到聊天上方或撳住一個鍵時，自動停止聊天滾動。\n"
 "\n"
-"**注意:**無論此設定如何，喺聊天中向上滾動將始終阻止自動滾動。"
+"**注意:**無論呢個設定如何，喺聊天中向上滾動將始終阻止自動滾動。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3229,7 +3229,7 @@ msgstr "撳住 Ctrl 時"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.3"
-msgstr "撳住 Meta(Win) 時"
+msgstr "已撳住元時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3249,7 +3249,7 @@ msgstr "Ctrl 或 懸停"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.7"
-msgstr "Meta(Win) 或 懸停"
+msgstr "元 或 懸停"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3470,9 +3470,9 @@ msgstr "時間戳格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format.description"
 msgstr ""
-"時間戳使用[Day.js](https://github.com/iamkun/dayjs#readme) "
-"庫進行格式設定。有關格式化字符串嘅更多詳細信息[可以喺呢喥揾到](https://github.com/iamkun/dayjs/blob/HEAD/"
-"docs/en/API-reference.md#list-of-all-available-formats)"
+"時間戳使用 [Day.js](https://github.com/iamkun/dayjs#readme) 庫進行格式設定。"
+"有關格式化字符串嘅更多詳細信息 [可以喺呢喥揾到](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/"
+"API-reference.md#list-of-all-available-formats)"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
@@ -3532,7 +3532,7 @@ msgstr "為視頻聊天啟用FrankerFaceZ功能。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled.description"
-msgstr "喺視頻聊天中顯示FFZ徽章，表情符號同其他功能。啟用此功能之後，審核功能可能無法使用。"
+msgstr "喺視頻聊天中顯示FFZ徽章，表情符號同其他功能。啟用呢個功能之後，審核功能可能無法使用。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
@@ -3617,7 +3617,7 @@ msgstr "轉播頻道菜單"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.following.host-menus.description"
-msgstr "顯示一個菜單，以喺單擊目錄中嘅轉播頻道時選擇要訪問嘅頻道。"
+msgstr "顯示一個菜單，嚟喺單擊目錄中嘅轉播頻道時選擇要訪問嘅頻道。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3770,7 +3770,7 @@ msgstr "啟用消息捕獲。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.debug.capture.description"
-msgstr "捕獲所有本地化字符串，包括變量同調用位置，以便將它們報告畀後端。用于向翻譯項目添加新字符串。默認情況下，開發模式喺運行緊嗰時，將啟用訊息捕獲。"
+msgstr "捕獲所有本地化字符串，包含變量同調用位置，便於將它們報告畀後端。用于向翻譯項目添加新字符串。默認情況下，開發模式喺運行緊嗰時，將啟用訊息捕獲。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3780,7 +3780,7 @@ msgstr "轉換"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.debug.transform.description"
-msgstr "轉換所有本地化字符串以測試字符串覆蓋率同長度。"
+msgstr "轉換所有本地化字符串嚟測試字符串覆蓋率同長度。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3825,7 +3825,7 @@ msgstr "日期格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.date.description"
 msgstr ""
-"默認日期格式。自定製日期格式使用[Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
+"默認日期格式。自定製日期格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
 
 #, icu-message-format
 msgid "setting.entry.i18n.format.datetime"
@@ -3846,7 +3846,7 @@ msgstr "時間格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.time.description"
 msgstr ""
-"默認時間格式。自定製時間格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
+"默認時間格式。自定製時間格式使用  [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:16
 #, icu-message-format
@@ -3859,8 +3859,8 @@ msgstr "語言"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.locale.description"
 msgstr ""
-"FrankerFaceZ由我哋社區嘅志願者精心翻譯。多謝你。 "
-"如果你有興趣幫助翻譯FrankerFaceZ，請[加入我我哋嘅Discord](https://discord.gg/UrAkGhT)並詢問本地化事宜。"
+"FrankerFaceZ由我哋社區嘅志願者精心翻譯。多謝你。 如果你有興趣幫助翻譯FrankerFaceZ，請 "
+"[加入我我哋嘅Discord](https://discord.gg/UrAkGhT)並詢問本地化事宜。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3875,7 +3875,7 @@ msgstr "顯示\"獲取小奇點\"撳製。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.display-bits-button.description"
-msgstr "默認情況下，佢喺[聊天>小奇點同歡呼>顯示小奇點](~chat.bits_and_cheering)繼承其值"
+msgstr "默認情況下，佢喺 [聊天>小奇點同歡呼>顯示小奇點](~chat.bits_and_cheering)繼承其值"
 
 #: /src/modules/main_menu/index.js:634
 #, icu-message-format
@@ -3890,7 +3890,7 @@ msgstr "最小化導航"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.minimal-navigation.description"
-msgstr "網站導航欄喺未使用時將其向上滑動出視圖。"
+msgstr "網站導航欄喺未使用時將佢向上滑動出視圖。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3908,7 +3908,7 @@ msgstr "喺縱向模式下使用緊湊聊天。"
 
 #, icu-message-format, md-text
 msgid "setting.entry.layout.portrait-min-chat.description"
-msgstr "啟用之後，會最大限度咁縮細聊天標題，並將聊天輸入框與聊天撳製對正，以便呈現更緊湊嘅聊天，能夠喺有限嘅垂直空間內顯示更多行。"
+msgstr "啟用之後，會最大限度咁縮細聊天標題，並將聊天輸入框與聊天撳製對正，便於呈現更緊湊嘅聊天，能夠喺有限嘅垂直空間內顯示更多行。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4058,7 +4058,8 @@ msgid "setting.entry.layout.theme.global-font.description"
 msgstr ""
 "覆蓋用于成個Twitch網站嘅字體。 舊嘅默認字體係: `\"Helvetica Neue\",Helvetica,Arial,sans-serif`\n"
 "\n"
-"透過[Google Fonts](https://fonts.google.com/)提供嘅任何字體都可以通過喺字體名稱前面加上`google:`嚟加載。"
+"透過 [Google Fonts](https://fonts.google.com/"
+")提供嘅任何字體都可以通過喺字體名稱前面加上`google:`嚟加載。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4069,7 +4070,7 @@ msgstr "合法性"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.clip-download"
-msgstr "為編輯者添加\"下載\"撳製以剪輯頁面。"
+msgstr "為編輯者添加\"下載\"撳製嚟剪輯頁面。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
@@ -4121,7 +4122,7 @@ msgstr "直播延遲警告"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.stream-delay-warning.description"
-msgstr "当當前流延遲超過此秒數時，以警告顏色顯示直播延遲，以引起你對較大延遲嘅注意。 設定為零可禁用。"
+msgstr "当當前流延遲超過呢個秒數時，以警告顏色顯示直播延遲，嚟引起你對較大延遲嘅注意。 設定為零可禁用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4136,7 +4137,7 @@ msgstr "隱藏 Twitch嘅原生直播正常運行時間。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.uptime.no-native.description"
-msgstr "默認情況下，每當啟用FFZ自己嘅直播正常運行時間顯示以避免冗餘信息時，就會啟用此功能。"
+msgstr "默認情況下，每當啟用FFZ自己嘅直播正常運行時間顯示嚟避免冗餘信息時，就會啟用呢個功能。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4175,18 +4176,18 @@ msgstr "隱藏Twitch嘅原生觀眾計數。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers.no-native.description"
-msgstr "默認情況下，每當啟用FFZ自己嘅觀眾計數顯示以避免冗餘信息時，都會啟用此功能。"
+msgstr "默認情況下，每當啟用FFZ自己嘅觀眾計數顯示嚟避免冗餘信息時，都會啟用呢個功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup"
-msgstr "允許播放器加速以減少延遲。"
+msgstr "允許播放器加速嚟減少延遲。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup.description"
 msgstr ""
-"默認情況下，当你觀睇嘅直播主有好大嘅延遲時，Twitch會對直播視頻應用較小嘅速度，以便趕上直播。 可能會導致音頻失真。 禁用此功能以防止自動更改速度。"
+"默認情況下，当你觀睇嘅直播主有好大嘅延遲時，Twitch會對直播視頻應用較小嘅速度，便於趕上直播。 可能會導致音頻失真。 禁用呢個功能嚟防止自動更改速度。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4343,7 +4344,7 @@ msgid "setting.entry.player.compressor.knee.description"
 msgstr ""
 "**範圍:** 0 ~ 40\n"
 "\n"
-"一個分貝值，表示曲線平滑過渡到壓縮部分嘅閾值以上嘅範圍。"
+"一個分貝值，表示曲線平滑過渡到壓縮器部分嘅閾值以上嘅範圍。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
@@ -4382,7 +4383,7 @@ msgstr "快捷鍵"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.shortcut.description"
-msgstr "此鍵序列可用于切換壓縮器。"
+msgstr "呢個鍵序列可用于切換壓縮器。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
@@ -4397,7 +4398,7 @@ msgid "setting.entry.player.compressor.threshold.description"
 msgstr ""
 "**範圍:** -100 ~ 0\n"
 "\n"
-"超過上面嘅分貝值，壓縮將開始生效。"
+"超過上面嘅分貝值，壓縮器將開始生效。"
 
 #: /src/modules/main_menu/index.js:477
 #, icu-message-format
@@ -4412,7 +4413,7 @@ msgstr "顯示曡加擴充功能"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.ext-hide.description"
-msgstr "注意：此功能唔會阻止加載擴充功能。 隱藏嘅擴充功能只係唔可見嘅。 使用此功能隱藏擴充功能唔會提高安全性。"
+msgstr "注意：呢個功能唔會阻止加載擴充功能。 隱藏嘅擴充功能只係唔可見嘅。 使用呢個功能隱藏擴充功能唔會提高安全性。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4492,244 +4493,245 @@ msgstr "啟用音頻壓縮器時，強制將內置音量設置為100%。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.no-volume.description"
-msgstr ""
+msgstr "啟用呢個功能後，內置音量將被隱藏，增益控制只會喺更改音量嘅唯一方法。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:22
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.scroll"
-msgstr ""
+msgstr "滾屏調節"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:194
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.scroll.description"
 msgstr ""
+"透過用鼠標滾輪轆嚟較增益。呢個設定優先於透過滾動調整音量。*当允許鼠標與擴充功能進行交互時，呢個設定將無法喺具有可見擴充功能嘅直播上正常工作。*"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-event-bar"
-msgstr ""
+msgstr "隱藏事件欄"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-event-bar.description"
-msgstr ""
+msgstr "隱藏當前頻道進行事件時顯示播放器上方緊嘅事件欄。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-mouse"
-msgstr ""
+msgstr "当控件唔可見時隱藏鼠標。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-rerun-bar"
-msgstr ""
+msgstr "屈重重播欄"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-rerun-bar.description"
-msgstr ""
+msgstr "若當前頻道正在播放一條視頻而唔係直播內容時，隱藏播放器上方顯示嘅重播欄。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-squad-banner"
-msgstr ""
+msgstr "隱藏小組直播欄"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.home.autoplay"
-msgstr ""
+msgstr "喺首頁上自動播放精選嘅直播主。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.mute-click"
-msgstr ""
+msgstr "透過鼠標中鍵單擊將播放器靜音或取消靜音。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.no-autoplay"
-msgstr ""
+msgstr "唔好自動開始播放視頻或直播。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.no-autoplay.description"
-msgstr ""
+msgstr "注意：直接喺頻道之間跳轉時，呢個功能唔適用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.theatre.auto-enter"
-msgstr ""
+msgstr "訪問頻道時自動打開影院模式。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.theatre.metadata"
-msgstr ""
+msgstr "將鼠標懸停喺播放器上時顯示元數據。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.theatre.no-whispers"
-msgstr ""
+msgstr "啟用劇院模式時隱藏私聊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.vod.autoplay"
-msgstr ""
+msgstr "視頻完成後自動播放下一個舉薦推薦嘅視頻。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-always-shown"
-msgstr ""
+msgstr "始終保持音量滑塊展開。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll"
-msgstr ""
+msgstr "透過用鼠標滾輪轆嚟調節音量。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll-steps"
-msgstr ""
+msgstr "音量滾動數量"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll-steps.description"
-msgstr ""
+msgstr "每次滾輪滾動更改音量級別嘅多少。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll-steps.values.0.01"
-msgstr ""
+msgstr "1%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll-steps.values.0.02"
-msgstr ""
+msgstr "2%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll-steps.values.0.05"
-msgstr ""
+msgstr "5%"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
-msgstr ""
+msgstr "10%"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll.description"
-msgstr ""
+msgstr "*當允許鼠標與擴充功能交互時，呢個設定將無法喺具有可見擴充功能嘅直播上正常工作。*"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.2"
-msgstr ""
+msgstr "透過右鍵單擊啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.3"
-msgstr ""
+msgstr "透過 Alt 啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.4"
-msgstr ""
+msgstr "透過 Alt +右鍵單擊啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.5"
-msgstr ""
+msgstr "透過 Shift 啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.6"
-msgstr ""
+msgstr "透過 Shift +右鍵單擊啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.7"
-msgstr ""
+msgstr "透過 Ctrl 啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.8"
-msgstr ""
+msgstr "透過 ctrl +右鍵單擊啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.false"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.true"
-msgstr ""
+msgstr "啟用"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.profiles"
-msgstr ""
+msgstr "配置文件"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.reports.error.enable"
-msgstr ""
+msgstr "發生錯誤時自動發送報告。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.reports.error.example"
-msgstr ""
+msgstr "報告.錯誤.示例"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.reports.error.include-settings"
-msgstr ""
+msgstr "喺報表中包含設定快照。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.reports.error.include-settings.description"
-msgstr ""
+msgstr "當明確知道設定會造成邊啲影響，喺錯誤發生果陣對於重現問題非常有用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.reports.error.include-user"
-msgstr ""
+msgstr "喺報告中包含用戶ID。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.reports.error.include-user.description"
-msgstr ""
+msgstr "有時，清楚瞭解邊個用戶遇到問題會好有益，咁我哋就可以檢查導致問題嘅特定徽章、表情符號或用戶標識。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.socket.use-cluster"
-msgstr ""
+msgstr "服務器叢集"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.socket.use-cluster.description"
-msgstr ""
+msgstr "要連接到邊個服務器叢集。除非你實際喺套接字服務器後端上進行開發工作，否則唔好更改呢個設定。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.socket.use-cluster.values.Development"
-msgstr ""
+msgstr "開發進度"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.socket.use-cluster.values.null"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.socket.use-cluster.values.Production"
-msgstr ""
+msgstr "製作"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.sub-button.prime-notice"
-msgstr ""
+msgstr "顯示 Prime 提醒"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4739,376 +4741,385 @@ msgstr "當你嘅免費頻道訂閱與 Prime 可用時，喺訂閱按鈕上顯�
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.accent"
-msgstr ""
+msgstr "強調"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.accent.description"
-msgstr ""
+msgstr "強調色用于撳製、連結等。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.background"
-msgstr ""
+msgstr "背景"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.background.description"
-msgstr ""
+msgstr "嘗試 `#0E0C13`，嚟獲得接近舊暗色主題嘅色水，或者 `#0E0E0E` 嚟獲得唔錯嘅深灰色。 唔允許使用透明顏色。"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.chat-accent"
-msgstr ""
+msgstr "強調"
 
 #, icu-message-format, md-text
 msgid "setting.entry.theme.color.chat-accent.description"
-msgstr ""
+msgstr "強調色用于撳製、連結等。"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.chat-background"
-msgstr ""
+msgstr "背景"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.chat-text"
-msgstr ""
+msgstr "文本"
 
 #, icu-message-format, md-text
 msgid "setting.entry.theme.color.chat-text.description"
-msgstr ""
+msgstr "如果未設定，會將根據背景嘅亮度自動將佢設定為白色或黑色。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.text"
-msgstr ""
+msgstr "文本"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.text.description"
-msgstr ""
+msgstr "如果未設定，會將根據背景嘅亮度自動將佢設定為白色或黑色。"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.tooltip.background"
-msgstr ""
+msgstr "小工具背景"
 
 #, icu-message-format, md-text
 msgid "setting.entry.theme.color.tooltip.background.description"
-msgstr ""
+msgstr "如果未設置，小工具設定將根據背景嘅亮度自動調整。"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.tooltip.text"
-msgstr ""
+msgstr "小工具文本"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.dark"
-msgstr ""
+msgstr "灰色（無紫色）"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.dark.description"
 msgstr ""
+"*需要啟用暗色主題。*\n"
+"\n"
+"隨著新主題系統嘅成熟，呢種設定將好快消失。\n"
+"呢種設定加載嘅CSS太過量，會導致性能問題。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.font.size"
-msgstr ""
+msgstr "字體大小"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:117
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.font.size.description"
 msgstr ""
+"**最小值:** `1`，**最大值:** `25`，*舊默認值:* `12`\n"
+"\n"
+"普通文本應該幾大（以像素為單位）。 可能會受到瀏覽器嘅縮放同字體設定嘅影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.badge-images"
-msgstr ""
+msgstr "顯示徽章嘅大圖像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images"
-msgstr ""
+msgstr "顯示表情符號嘅大圖像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated"
-msgstr ""
+msgstr "顯示表情符號嘅動畫圖像。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated.description"
 msgstr ""
+"如果未覆蓋呢個值，僅喺未禁用 [聊天>外觀>>表情符號>動畫表情符號](~chat.appearance.emotes) "
+"時，動畫圖像先至會顯示喺表情符號小工具中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-sources"
-msgstr ""
+msgstr "顯示已知來源。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.images"
-msgstr ""
+msgstr "在小工具中顯示圖像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-images"
-msgstr ""
+msgstr "顯示連結嘅圖像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-interaction"
-msgstr ""
+msgstr "允許與支持嘅連結小工具進行交互。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-nsfw-images"
-msgstr ""
+msgstr "顯示潛在嘅NSFW圖像。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-nsfw-images.description"
-msgstr ""
+msgstr "啟用之後，FrankerFaceZ 將包含標記為唔安全或未評級嘅圖像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.rich-links"
-msgstr ""
+msgstr "顯示連結嘅豐富小工具。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.whispers.show"
-msgstr ""
+msgstr "顯示私聊"
 
 #: /src/modules/main_menu/components/chat-rich-example.vue:11
 #, icu-message-format
 msgid "setting.example"
-msgstr ""
+msgstr "例："
 
 #: /src/modules/main_menu/components/experiments.vue:10
 #, icu-message-format
 msgid "setting.experiments.about"
-msgstr ""
+msgstr "呢個功能允許你覆蓋實驗值。 請注意，對於大多數實驗，你可能需要刷新頁面先至會令更改生效。"
 
 #: /src/modules/main_menu/components/experiments.vue:217
 #, icu-message-format
 msgid "setting.experiments.active"
-msgstr ""
+msgstr "呢個實驗處於活動狀態。"
 
 #: /src/modules/main_menu/components/experiments.vue:76
 #: /src/modules/main_menu/components/experiments.vue:217
 #, icu-message-format, lp-defaults:"{\"weight\":100,\"value\":\"variant\"}"
 msgid "setting.experiments.entry"
-msgstr ""
+msgstr "{value,tostring} (重量: {weight,tostring}"
 
 #: /src/modules/main_menu/components/experiments.vue:67
 #, icu-message-format
 msgid "setting.experiments.ffz"
-msgstr ""
+msgstr "FrankerFaceZ實驗"
 
 #: /src/modules/main_menu/components/experiments.vue:217
 #, icu-message-format
 msgid "setting.experiments.inactive"
-msgstr ""
+msgstr "呢個實驗未激活。"
 
 #: /src/modules/main_menu/components/experiments.vue:205
 #: /src/modules/main_menu/components/experiments.vue:444
 #, icu-message-format
 msgid "setting.experiments.none"
-msgstr ""
+msgstr "呢喥目前冇實驗。"
 
 #: /src/modules/main_menu/components/experiments.vue:205
 #: /src/modules/main_menu/components/experiments.vue:444
 #, icu-message-format
 msgid "setting.experiments.none-filter"
-msgstr ""
+msgstr "冇匹配嘅實驗。"
 
 #: /src/modules/main_menu/components/experiments.vue:193
 #, icu-message-format
 msgid "setting.experiments.show-unused"
-msgstr ""
+msgstr "顯示未使用嘅實驗。"
 
 #: /src/modules/main_menu/components/experiments.vue:45
 #, icu-message-format
 msgid "setting.experiments.sort-name"
-msgstr ""
+msgstr "排序方式：名稱"
 
 #: /src/modules/main_menu/components/experiments.vue:55
 #, icu-message-format
 msgid "setting.experiments.sort-rarity"
-msgstr ""
+msgstr "排序方式：稀有度"
 
 #: /src/modules/main_menu/components/experiments.vue:208
 #, icu-message-format
 msgid "setting.experiments.twitch"
-msgstr ""
+msgstr "Twitch 實驗"
 
 #: /src/modules/main_menu/components/experiments.vue:24
 #, icu-message-format, lp-defaults:"{\"id\":\"b0da6c8c2373862a\"}"
 msgid "setting.experiments.unique-id"
-msgstr ""
+msgstr "唯一標識: {id}"
 
 #: /src/modules/main_menu/components/experiments.vue:217
 #, icu-message-format
 msgid "setting.experiments.unset"
-msgstr ""
+msgstr "未設定"
 
 #: /src/modules/main_menu/components/profile-editor.vue:62
 #, icu-message-format
 msgid "setting.export"
-msgstr ""
+msgstr "調出"
 
 #: /src/modules/main_menu/components/action-editor.vue:338
 #: /src/modules/main_menu/components/action-editor.vue:525
 #, icu-message-format
 msgid "setting.false"
-msgstr ""
+msgstr "假"
 
 #: /src/settings/components/if.vue:171
 #, icu-message-format
 msgid "setting.filter.if.else"
-msgstr ""
+msgstr "否則"
 
 #: /src/settings/components/if.vue:90
 #, icu-message-format
 msgid "setting.filter.if.then"
-msgstr ""
+msgstr "然後"
 
 #, icu-message-format, lp-defaults:"{\"url\":null}"
 msgid "setting.filter.page.url"
-msgstr ""
+msgstr "網址: {url}"
 
 #: /src/modules/main_menu/components/filter-rule-editor.vue:50
 #: /src/modules/main_menu/components/filter-rule-editor.vue:108
 #, icu-message-format
 msgid "setting.filters.active"
-msgstr ""
+msgstr "呢條規則匹配。"
 
 #: /src/modules/main_menu/components/filter-editor.vue:61
 #, icu-message-format
 msgid "setting.filters.add"
-msgstr ""
+msgstr "加"
 
 #: /src/modules/main_menu/components/filter-editor.vue:83
 #, icu-message-format
 msgid "setting.filters.add-new"
-msgstr ""
+msgstr "添加新規則"
 
 #: /src/modules/main_menu/components/filter-editor.vue:20
 #, icu-message-format
 msgid "setting.filters.empty"
-msgstr ""
+msgstr "（無過濾）"
 
 #: /src/settings/components/if.vue:155
 #, icu-message-format
 msgid "setting.filters.if.fail"
-msgstr ""
+msgstr "呢條分支處於活動狀態，因為條件為 假。"
 
 #: /src/settings/components/if.vue:143
 #, icu-message-format
 msgid "setting.filters.if.no_fail"
-msgstr ""
+msgstr "呢條分支唔處於活動狀態，因為條件為 真。"
 
 #: /src/settings/components/if.vue:74
 #, icu-message-format
 msgid "setting.filters.if.no_pass"
-msgstr ""
+msgstr "呢條分支未處於活動狀態，因為條件為 假。"
 
 #: /src/settings/components/if.vue:62
 #, icu-message-format
 msgid "setting.filters.if.pass"
-msgstr ""
+msgstr "呢條分支處於活動狀態，因為條件為 真。"
 
 #: /src/modules/main_menu/components/filter-rule-editor.vue:120
 #: /src/modules/main_menu/components/filter-rule-editor.vue:62
 #, icu-message-format
 msgid "setting.filters.inactive"
-msgstr ""
+msgstr "呢條規則唔匹配。"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:44
 #, icu-message-format
 msgid "setting.font.builtin"
-msgstr ""
+msgstr "內置字體"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:44
 #, icu-message-format
 msgid "setting.font.default"
-msgstr ""
+msgstr "默認"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:44
 #, icu-message-format
 msgid "setting.font.dyslexic"
-msgstr ""
+msgstr "閱讀障礙字體"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:44
 #, icu-message-format
 msgid "setting.font.google"
-msgstr ""
+msgstr "谷歌字體"
 
 #: /src/modules/main_menu/components/action-editor.vue:432
 #, icu-message-format
 msgid "setting.hidden"
-msgstr ""
+msgstr "隱藏"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.home"
-msgstr ""
+msgstr "主頁"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.home.changelog"
-msgstr ""
+msgstr "變更日誌"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.home.faq"
-msgstr ""
+msgstr "常見問題"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.home.feedback"
-msgstr ""
+msgstr "意見反饋"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.home.feedback.log"
-msgstr ""
+msgstr "日誌"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.home.legal"
-msgstr ""
+msgstr "合法性"
 
 #: /src/std-components/icon-picker.vue:129
 #, icu-message-format
 msgid "setting.icon.clear"
-msgstr ""
+msgstr "清除"
 
 #: /src/std-components/icon-picker.vue:27
 #, icu-message-format
 msgid "setting.icon.search"
-msgstr ""
+msgstr "搜索圖標"
 
 #: /src/modules/main_menu/components/profile-manager.vue:54
 #, icu-message-format
 msgid "setting.import"
-msgstr ""
+msgstr "導入…"
 
 #: /src/modules/main_menu/components/profile-manager.vue:248
 #, icu-message-format
 msgid "setting.import.do"
-msgstr ""
+msgstr "導入"
 
 #: /src/modules/main_menu/components/profile-manager.vue:327
 #, icu-message-format
 msgid "setting.import.file"
-msgstr ""
+msgstr "來自文件"
 
 #: /src/modules/main_menu/components/profile-manager.vue:288
 #, icu-message-format
 msgid "setting.import.url"
-msgstr ""
+msgstr "來自網址"
 
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"disabled\":false,\"title\":\"Inheritance Point\",\"title_i18n\":\"setting.inheritance\",\"value.t\":\"inherit\"}"
@@ -5118,122 +5129,125 @@ msgstr "點數遺產"
 #: /src/modules/main_menu/components/action-editor.vue:557
 #, icu-message-format
 msgid "setting.inheritance.desc"
-msgstr ""
+msgstr "繼承值來自呢個位置嘅優先級較低配置文件。"
 
 #: /src/modules/main_menu/setting-mixin.js:116
 #, icu-message-format, lp-defaults:"{\"title\":\"Default Profile\"}"
 msgid "setting.inherited-from"
-msgstr ""
+msgstr "繼承自: {title}"
 
 #: /src/modules/main_menu/components/action-editor.vue:1127
 #, icu-message-format
 msgid "setting.key.alt"
-msgstr ""
+msgstr "Alt"
 
 #: /src/modules/main_menu/components/action-editor.vue:1047
 #, icu-message-format
 msgid "setting.key.ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: /src/modules/main_menu/components/action-editor.vue:1263
 #, icu-message-format
 msgid "setting.key.hover"
-msgstr ""
+msgstr "懸停"
 
 #: /src/modules/main_menu/components/action-editor.vue:1164
 #, icu-message-format
 msgid "setting.key.meta"
-msgstr ""
+msgstr "元"
 
 #: /src/modules/main_menu/components/action-editor.vue:1087
 #, icu-message-format
 msgid "setting.key.shift"
-msgstr ""
+msgstr "Shift"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:35
 #, icu-message-format
 msgid "setting.new"
-msgstr ""
+msgstr "新"
 
 #: /src/modules/main_menu/components/action-editor.vue:546
 #, icu-message-format
 msgid "setting.new-line"
-msgstr ""
+msgstr "新行"
 
 #: /src/modules/main_menu/components/action-editor.vue:578
 #, icu-message-format
 msgid "setting.new-line.desc"
-msgstr ""
+msgstr "將呢行後便嘅所有項目放喺新行上。"
 
 #: /src/modules/main_menu/components/game-list-editor.vue:118
 #, icu-message-format
 msgid "setting.no-items"
-msgstr ""
+msgstr "冇項目"
 
 #: /src/modules/main_menu/setting-mixin.js:118
 #, icu-message-format, lp-defaults:"{\"title\":\"Profile Name\"}"
 msgid "setting.overridden-by"
-msgstr ""
+msgstr "複寫人: {title}"
 
 #: /src/modules/main_menu/components/chat-actions.vue:548
 #, icu-message-format
 msgid "setting.paste-json"
-msgstr ""
+msgstr "粘貼 JSON"
 
 #: /src/modules/main_menu/components/chat-actions.vue:463
 #, icu-message-format
 msgid "setting.paste-json.json"
-msgstr ""
+msgstr "[json]"
 
 #: /src/modules/main_menu/components/profile-manager.vue:207
 #, icu-message-format
 msgid "setting.paste-url.url"
-msgstr ""
+msgstr "[url]"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player"
-msgstr ""
+msgstr "播放器"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.closed_captioning"
-msgstr ""
+msgstr "隱藏式字幕"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.closed_captioning.font"
-msgstr ""
+msgstr "字體"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.closed_captioning.position"
-msgstr ""
+msgstr "位置"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.compressor"
-msgstr ""
+msgstr "壓縮器"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.compressor.advanced"
-msgstr ""
+msgstr "高級"
 
 #: /src/modules/main_menu/components/menu-page.vue:137
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.player.compressor.description"
 msgstr ""
+"呢啲設定控制播放器嘅可選動態範圍壓縮，一種音頻處理形式，可減少響亮聲音嘅音量並放大安靜嘅聲音，從而規範化或壓縮音量。如果您想了解更多信息，"
+"請睇我哋喺后台使用咗來自 Web Audio API 嘅[DynamicsCompressorNode]( https://developer."
+"mozilla.org/en-US/docs/Web/API/DynamicsCompressorNode)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.compressor.gain_control"
-msgstr ""
+msgstr "增益控制"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
