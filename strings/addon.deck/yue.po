@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-13 14:32+0000\n"
+"PO-Revision-Date: 2022-03-13 19:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -108,7 +108,7 @@ msgstr "由 {user} 剪輯"
 #: /src/deck/components/bd-tab-editor.vue:33
 #, icu-message-format, lp-defaults:"{\"count\":4}"
 msgid "addon.deck.column-count"
-msgstr "{計數, 複數, 一個 {# 列} 其他 {# 列} }"
+msgstr "{count, plural, one {# 列} other {# 列} }"
 
 #: /src/deck/components/bd-column-editor.vue:133
 #, icu-message-format
@@ -257,7 +257,7 @@ msgstr "你已經睇晒所有嘢。"
 #: /src/deck/components/bd-column.vue:504
 #, icu-message-format, lp-defaults:"{\"removed\":1,\"total\":11}"
 msgid "addon.deck.end-filtered"
-msgstr "({計數, 複數, 一個 {# 列} 其他 {# 列} } 中嘅 {removed,number} 已被客戶端過濾隱藏。)"
+msgstr "{total, plural, one {# 列} other {# 列} } 中嘅 {removed,number} 已被客戶端過濾隱藏。)"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
@@ -579,13 +579,13 @@ msgstr "最近嘅"
 #: /src/deck/components/bd-column.vue:153
 #, icu-message-format, lp-defaults:"{\"count\":1}"
 msgid "addon.deck.sub.tags"
-msgstr "{計數, 複數, 一個 {# 標籤} 其他 {# 標籤} }"
+msgstr "{count, plural, one {# 標籤} other {# 標籤} }"
 
 #: /src/deck/components/bd-column.vue:122
 #: /src/deck/components/bd-column.vue:154
 #, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "addon.deck.sub.users"
-msgstr "{計數, 複數, 一個 {# 用戶} 其他 {# 用戶} }"
+msgstr "{count, plural, one {# 用戶} other {# 用戶} }"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
@@ -685,12 +685,12 @@ msgstr "視頻類型:"
 #: /src/deck/components/bd-host-card.vue:17
 #, icu-message-format, lp-defaults:"{\"viewers\":49}"
 msgid "addon.deck.viewers"
-msgstr "{觀眾數, 負數, 一個 {# 觀眾} 其他 {# 觀眾}}"
+msgstr "{viewers, plural, one {# 觀眾} other {# 觀眾}}"
 
 #: /src/deck/components/bd-video-card.vue:25
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.views"
-msgstr "{計數, 複數, 一個 {# 觀看} 其他 {# 觀看} }"
+msgstr "{count, plural, one {# 觀看} other {# 觀看} }"
 
 #: /src/deck/components/bd-column-editor.vue:447
 #, icu-message-format
