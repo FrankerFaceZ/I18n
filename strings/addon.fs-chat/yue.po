@@ -1,172 +1,178 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-03-13 19:32+0000\n"
+"Last-Translator: 老立 <lather0519@hotmail.com>\n"
+"Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"addon-fullscreen-chat/yue/>\n"
 "Language: yue\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/fs-chat/index.jsx:330
 #, icu-message-format
 msgid "addon.fs-chat.button.active"
-msgstr ""
+msgstr "禁用 FS 聊天"
 
 #: /src/fs-chat/index.jsx:331
 #, icu-message-format
 msgid "addon.fs-chat.button.inactive"
-msgstr ""
+msgstr "FS 聊天"
 
 #: /src/settings/components/basic-toggle.vue:67
 #, icu-message-format
 msgid "addon.fs-chat.using"
-msgstr ""
+msgstr "使用緊 FS 聊天"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat"
-msgstr ""
+msgstr "FS 聊天"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat.behavior"
-msgstr ""
+msgstr "行為"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat.size_and_position"
-msgstr ""
+msgstr "尺寸同位置"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.automatic"
-msgstr ""
+msgstr "進入全屏時自動打開 FS 聊天。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.bg.blur"
-msgstr ""
+msgstr "背景朦朧"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.bg.blur.description"
-msgstr ""
+msgstr "**注意：**朦朧可能會導致性能問題，具體取決於你嘅瀏覽器同PC規格。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.10"
-msgstr ""
+msgstr "大（10px）"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.2"
-msgstr ""
+msgstr "較小（2px）"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.5"
-msgstr ""
+msgstr "正常（5px）"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.50"
-msgstr ""
+msgstr "極端（50px）"
 
 #: /src/modules/main_menu/components/setting-color-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.bg.color"
-msgstr ""
+msgstr "背景顏色"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.height"
-msgstr ""
+msgstr "高度"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.height.description"
-msgstr ""
+msgstr "FS 聊天嘅高度應該係幾多，請以像素為單位。 如果你熟悉CSS，亦可以輸入其他單位。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.metadata"
-msgstr ""
+msgstr "元數據位置"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.metadata.values.0"
-msgstr ""
+msgstr "禁用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.metadata.values.1"
-msgstr ""
+msgstr "喺聊天上面"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.metadata.values.2"
-msgstr ""
+msgstr "喺聊天下面"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.minimal"
-msgstr ""
+msgstr "最小模式"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.minimal.description"
-msgstr ""
+msgstr "將喺 FS 聊天打開時隱藏聊天標題同輸入撳製。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.no-input"
-msgstr ""
+msgstr "唔顯示聊天輸入。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.round"
-msgstr ""
+msgstr "使用圓角。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.shortcut"
-msgstr ""
+msgstr "快捷鍵"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.shortcut.description"
-msgstr ""
+msgstr "呢個鍵序列可用于喺全屏時切換 FS 聊天。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.width"
-msgstr ""
+msgstr "寬度"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.width.description"
-msgstr ""
+msgstr "FS聊天嘅寬度應係幾多，以像素為單位。 默認為正常聊天寬度。 如果你熟悉CSS，亦可以輸入其他單位。"
