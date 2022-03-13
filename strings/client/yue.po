@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-13 14:32+0000\n"
+"PO-Revision-Date: 2022-03-13 19:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -25,21 +25,21 @@ msgstr "冇結果。"
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"({計數, 複數, 一 {# 個月} 其它 {# 個月}} 嘅訂閱用戶)"
+"(已訂閱 {count, plural, one {# 個月} other {# 個月}} 嘅用戶)"
 
 #: /src/modules/chat/badges.jsx:287:15
 #, icu-message-format, lp-defaults:"{\"title\":\"Subscriber\",\"count\":\"1\"}"
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
-"({計數, 複數, 一 {# 個月} 其它 {# 個月}})"
+"({count, plural, one {# 個月} other {# 個月}})"
 
 #: /src/modules/chat/badges.jsx:366
 #, icu-message-format, lp-defaults:"{\"title\":\"2-Year Subscriber\",\"tier\":3,\"months\":\"55\"}"
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(層級 {tier}, {個月, 複數, 一個 {# 個月} 其它 {# 個月}})"
+"(層級 {tier}, {months, plural, one {# 個月} other {# 個月}})"
 
 #: /src/modules/chat/rich_providers.js:53:14
 #, icu-message-format
@@ -197,17 +197,17 @@ msgstr "暫凍用戶"
 #: /src/modules/chat/actions/types.jsx:197:9
 #, icu-message-format
 msgid "chat.actions.timeout-reason"
-msgstr "暫凍 {user.login} {期間, 複數, 一{# 秒} 其他 {# 秒}}, 理由:"
+msgstr "暫凍 {user.login} {duration, plural, one {# 秒} other {# 秒}} 嘅理由:"
 
 #: /src/modules/main_menu/components/action-editor.vue:545
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
 msgid "chat.actions.timeout.desc"
-msgstr "{選項, 期間, 複數, 一{# 秒} 其他 {# 秒}}"
+msgstr "{options.duration, plural, one {# 秒} other {# 秒}}"
 
 #: /src/modules/chat/actions/types.jsx:207:9
 #, icu-message-format, lp-defaults:"{\"user.login\":\"quoteconut\",\"duration\":600}"
 msgid "chat.actions.timeout.tooltip"
-msgstr "暫凍{user.login} {期間, 複數, 一{# 秒} 其他 {# 秒}}"
+msgstr "暫凍{user.login} for {duration, plural, one {# 秒} other {# 秒}}"
 
 #: /src/modules/chat/actions/types.jsx:245:9
 #: /src/modules/main_menu/components/action-editor.vue:514
@@ -248,15 +248,15 @@ msgstr "私聊 {user.login}"
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
 msgid "chat.bits-message"
-msgstr "歡呼 {計數, 複數, 一 {# 小奇點} 其他 {# 小奇點}}"
+msgstr "歡呼 {count, plural, one {# 小奇點} other {# 小奇點}}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:311:9
 #, icu-message-format
 msgid "chat.deleted-messages"
 msgstr ""
-"{計數, 複數,\n"
-"一 {一條訊息已被審核人刪除。}\n"
-"其他 {聊天訊息已被審核人刪除。}\n"
+"{count,plural,\n"
+"one {一條訊息已被審核人刪除。}\n"
+"other {聊天訊息已被審核人刪除。}\n"
 "}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
@@ -481,8 +481,8 @@ msgstr "佢哋訂閱咗 {cumulative,number} 個月，目前連續 {streak,number
 #, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
 msgid "chat.sub.gift"
 msgstr ""
-"{user} 正喺喥向 {channel} 嘅社區贈送 {計數, 複數, 一個 {# 層級 {tier} 訂閱} 其它 {# 層級 {tier} "
-"訂閱}}！ "
+"{user} 正喺喥向 {channel} 嘅社區贈送 {count, plural, one {# 層級 {tier} 訂閱} other {# 層級 "
+"{tier} 訂閱}}！ "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -491,7 +491,8 @@ msgstr "呢個係佢哋第一次喺頻道中贈送訂閱！"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
-msgstr "{user} 將 {月, 複數, 一個 {#月} 其他 {#月}} 嘅 {plan} 訂閱贈予 {recipient}！"
+msgstr ""
+"{user} 將 {months, plural, one {#月} other {#月}} 嘅 {plan} 訂閱贈予 {recipient}！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:567:7
 #, icu-message-format
@@ -546,7 +547,7 @@ msgstr "{user} 喺喥玩緊 {game}"
 #: /src/modules/chat/rich_providers.js:133:13
 #, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
 msgid "clip.desc.2"
-msgstr "剪輯者 {curator} — {觀看次數, 複數, 一個 {# 觀看次數} 其它 {# 觀看次數}}"
+msgstr "剪輯者 {curator} — {views, plural, one {# 觀看次數} other {# 觀看次數}}"
 
 #: /src/modules/chat/rich_providers.js:134:57
 #, icu-message-format
@@ -624,7 +625,7 @@ msgstr "已轉播嘅頻道"
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:299:9
 #, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "directory.hosted.by-many"
-msgstr "由 {計數, 複數, 一個 {#頻道} 其他 {#頻道}} 轉播"
+msgstr "由 {count, plural, one {#頻道} other {#頻道}} 轉播"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:300:9
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\"}"
@@ -752,7 +753,7 @@ msgstr "Emoji"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
-msgstr "歡呼一份額外嘅 {小奇點_其餘嘅, 複數, 一個 {# 小奇點} 其他 {# 小奇點}} 來解鎖呢個表情符號。"
+msgstr "歡呼一份額外嘅 {bits_remaining, plural, one {# 小奇點} other {# 小奇點}} 來解鎖呢個表情符號。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
@@ -899,7 +900,7 @@ msgstr "訂閱用戶表情符號"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6
 #, icu-message-format
 msgid "emote-menu.sub-unlock"
-msgstr "訂閱 {price} 嚟解鎖 {計數, 複數, 一個 {# 表情符號} 其佢 {# 表情符號}}"
+msgstr "訂閱 {price} 嚟解鎖 {count, plural, one {# 表情符號} other {# 表情符號}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
 #, icu-message-format
@@ -1401,7 +1402,7 @@ msgstr "啟用壓縮器後，Firefox 用戶將無法控製播放速度。"
 #: /src/sites/twitch-twilight/modules/player.jsx:1016
 #, icu-message-format
 msgid "player.comp_button.help"
-msgstr "有關詳細信息，請參閱 FFZ 控制中心。如果音頻中斷，請重置播放器。"
+msgstr "有關詳細信息，請參閱 FFZ 控制中心。如果音頻中斷，請重設播放器。"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1002
 #, icu-message-format
@@ -1437,12 +1438,12 @@ msgstr "退出畫中畫"
 #: /src/sites/twitch-twilight/modules/player.jsx:881:20
 #, icu-message-format
 msgid "player.reset_button"
-msgstr "重置播放器 (雙擊)"
+msgstr "重設播放器 (雙擊)"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:406
 #, icu-message-format
 msgid "player.reset_button.all"
-msgstr "重置所有玩家 (雙擊)"
+msgstr "重設所有玩家 (雙擊)"
 
 #: /src/modules/main_menu/index.js:793:11
 #, icu-message-format
@@ -1492,7 +1493,7 @@ msgstr "你喺喥運行 FrankerFaceZ 嘅開發人員版本。"
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:178:7
 #, icu-message-format
 msgid "site.menu_button.new-desc"
-msgstr "有 {計數, 複數, 一 {係一個新設定} 其他 {係 # 個新設定}}。"
+msgstr "有 {count,plural,one {係一個新設定} other {係 # 新設定}}。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:333
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
@@ -1515,8 +1516,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
 msgid "site.menu_button.strings"
 msgstr ""
-"有 {增加, 複數, 一 {係 # 新字符串} 其佢 {係 # 新字符串}} 與 {已改變, 複數, 一 {# 已改變字符串} 其佢 {# "
-"已改變字符串}}。"
+"有 {added,plural,one {係 # 新字符串} other {係 # 新字符串}} 同 {changed,plural,one{# "
+"已更改字符串} other {# 已更改字符串}}。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:175:7
 #, icu-message-format
@@ -1582,7 +1583,7 @@ msgstr "連接嘅客戶端"
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.live_clients"
-msgstr "活動嘅客戶端"
+msgstr "活躍嘅客戶端"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
