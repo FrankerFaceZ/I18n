@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-13 19:32+0000\n"
+"PO-Revision-Date: 2022-03-19 18:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -157,7 +157,7 @@ msgid "home.about"
 msgstr ""
 "感謝你使用 FrankerFaceZ。\n"
 "\n"
-"自 2017 年底 Twitch 嘅基於 React 嘅網站發布以來，該擴充功能嘅 4.0 版一直喺喥積極開發中。"
+"自 2017 年底 Twitch 嘅基於 React-powered 嘅網站發布以來，該擴充功能嘅 4.0 版一直喺喥積極開發中。"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
@@ -165,7 +165,7 @@ msgstr "新嘅插件"
 
 #, icu-message-format, md-text
 msgid "home.addon-new.desc"
-msgstr "這些插件係喺過去 7 日內發布嘅。喺 [插件](~add_ons) 中查睇佢哋。"
+msgstr "呢啲插件係喺近 7 日內發布嘅。喺 [插件](~add_ons) 中查睇佢哋。"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
@@ -173,7 +173,7 @@ msgstr "已更新嘅插件"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates.desc"
-msgstr "呢啲插件喺過去 7 日內已更新。檢查 [變更日誌](~add_ons.changelog) 嚟查睇更改嘅內容。"
+msgstr "呢啲插件喺近 7 日內已更新。檢查 [變更日誌](~add_ons.changelog) 嚟查睇更改嘅內容。"
 
 #: /src/modules/main_menu/components/changelog.vue:7
 #, icu-message-format
@@ -230,13 +230,13 @@ msgstr ""
 "\n"
 "FrankerFaceZ v4.0中仍然缺少v3.0中存在嘅功能。不幸嘅係，喺Twitch網站嘅新版本上更新一啲功能係不切實際嘅。\n"
 "\n"
-"好多功能仍計劃返回，這樣開發人員有時間去開發佢哋。未待定功能嘅時間表。功能喺完成後立即發佈。\n"
+"好多功能依然計劃回退，咁樣開發人員有時間去開發佢哋。未待定功能嘅時間表。功能喺完成後立即發佈。\n"
 "\n"
-"* *我已經打賞，但我嘅徽章冇出現。*\n"
+"* *我已經捐賞，但我嘅徽章冇出現。*\n"
 "* *我喺我嘅頻道中添加咗一個表情符號，但我未睇到佢。*\n"
 "\n"
-"由於我哋當前網站嘅性能問題，我哋必須喺我哋嘅API上使用緩存。因此，對徽章或表情符號所做嘅更改最多可能需要半粒鐘先至生效。等待之後，刷新頁面，你嘅內容應該"
-"會出現。你都可以嘗試執行硬刷新。\n"
+"由於我哋當前網站嘅性能問題，我哋必須喺我哋嘅API上使用緩存。因此，對徽章或表情符號所做嘅更改最多可能需要半粒鐘先至生效。之後，刷新頁面，你嘅內容應該會出"
+"現。你都可以嘗試執行硬刷新。\n"
 "\n"
 "* *我唔想要 “FFZ 支援者” 徽章。*\n"
 "\n"
@@ -261,10 +261,10 @@ msgstr ""
 "## 反饋\n"
 "\n"
 "你可以通過 [喺我們嘅 GitHub 存儲庫中打開問題](https://github.com/FrankerFaceZ/FrankerFaceZ/"
-"issues) 來提供反饋同錯誤報告。你也可以 [喺 Discord 上找到我們](https://discord.gg/UrAkGhT) 或 "
-"[喺我們發推文](https://twitter.com/FrankerFaceZ)。\n"
+"issues) 來提供反饋同錯誤報告。你亦可以 [喺 Discord 上揾到我們](https://discord.gg/UrAkGhT) 或 "
+"[向我哋發推文](https://twitter.com/FrankerFaceZ)。\n"
 "\n"
-"創建 GitHub 問題時，請檢查其他人是否尚未為你要討論或報告嘅內容創建問題。GitHub 問題應該用於與客戶有關嘅問題，而唔係關於表情符號批准嘅問題。"
+"創建 GitHub 問題時，請檢查其他人係咪尚未有創建你要討論或報告嘅問題內容。GitHub 問題應該用於同客戶有關嘅問題，而唔係關於表情符號批准嘅問題。"
 "\n"
 "\n"
 "創建問題時，請同時上傳下面提供嘅日誌並將連結包含喺你嘅報告中。"
@@ -399,7 +399,7 @@ msgstr "添加默認值"
 #: /src/modules/main_menu/components/chat-actions.vue:651
 #, icu-message-format
 msgid "setting.actions.add-default-tip"
-msgstr "將所有默認動作添加到呢個配置文件。"
+msgstr "將所有默認行為添加到呢個配置文件。"
 
 #: /src/modules/main_menu/components/action-editor.vue:49
 #, icu-message-format
@@ -444,12 +444,12 @@ msgstr "呢個值將根據你嘅聊天色水設定自動調整可見性。"
 #: /src/modules/main_menu/components/chat-actions.vue:545
 #, icu-message-format
 msgid "setting.actions.delete-all"
-msgstr "刪除呢個配置文件嘅所有動作。"
+msgstr "刪除呢個配置文件嘅所有行為。"
 
 #: /src/modules/main_menu/components/chat-actions.vue:378
 #, icu-message-format
 msgid "setting.actions.drag"
-msgstr "拖動動作嚟重新排序。"
+msgstr "拖動操作嚟重新排序。"
 
 #: /src/modules/chat/actions/components/edit-timeout.vue:10
 #, icu-message-format
@@ -514,12 +514,12 @@ msgstr "新嘅..."
 #: /src/modules/main_menu/components/chat-actions.vue:680
 #, icu-message-format
 msgid "setting.actions.no-actions"
-msgstr "呢個配置文件中未定製任何動作"
+msgstr "呢個配置文件中未定製任何行為"
 
 #: /src/modules/main_menu/components/chat-actions.vue:334
 #, icu-message-format
 msgid "setting.actions.no-visible"
-msgstr "冇可見嘅動作"
+msgstr "冇可見嘅行為"
 
 #: /src/modules/main_menu/components/chat-actions.vue:42
 #, icu-message-format
@@ -663,7 +663,7 @@ msgstr "如果訊息未刪除"
 #: /src/modules/main_menu/components/chat-actions.vue:1
 #, icu-message-format
 msgid "setting.actions.warn-hidden"
-msgstr "你當前喺 Twitch 聊天設定中關閉咗 Mod 圖標，因此可能會隱藏某些動作。使用聊天中嘅設定菜單來切換佢哋。"
+msgstr "你當前喺 Twitch 聊天設定中關閉咗 Mod 圖標，因此可能會隱藏某些行為。使用聊天中嘅設定菜單來切換佢哋。"
 
 #: /src/modules/main_menu/components/reason-editor.vue:61
 #, icu-message-format
@@ -716,7 +716,7 @@ msgstr "搜索"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.description"
-msgstr "個性化 Twitch 嘅外觀。更改配色方案與字體並調整佈局嚟優化你嘅體驗。"
+msgstr "客製化 Twitch 嘅外觀。更改配色方案與字體並調整佈局嚟優化你嘅體驗。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -831,7 +831,7 @@ msgstr "處理呢個備份時出錯。"
 #: /src/modules/main_menu/components/profile-manager.vue:429
 #, icu-message-format
 msgid "setting.backup-restore.http-error"
-msgstr "無法從提供嘅網址 讀取 JSON。"
+msgstr "無法喺提供嘅網址 讀取 JSON。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:416
 #, icu-message-format
@@ -922,7 +922,7 @@ msgstr "轉播中"
 
 #, icu-message-format
 msgid "setting.channel.behavior.panels"
-msgstr "镶板"
+msgstr "面板"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -989,7 +989,7 @@ msgstr "內嵌"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line.description"
-msgstr "喺呢喥，你可以自定製於聊天中嘅訊息一起顯示嘅動作。如果你未喺聊天中睇到你喺呢喥定製嘅動作，請確保你已喺聊天設定菜單中啟用咗圖標模塊。"
+msgstr "喺呢喥，你可以自定製於聊天中嘅訊息一起顯示嘅行為。如果你未喺聊天中睇到你喺呢喥定製嘅行為，請確保你已喺聊天設定菜單中啟用咗圖標模塊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -999,7 +999,7 @@ msgstr "原因"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.reasons.custom_reasons"
-msgstr "自定製原因"
+msgstr "自定義原因"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1014,7 +1014,7 @@ msgstr "房間"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room.description"
-msgstr "喺呢喥，你可以自定製將顯示喺聊天輸入框上方嘅動作。"
+msgstr "喺呢喥，你可以自定製將顯示喺聊天輸入框上方嘅行為。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1029,7 +1029,7 @@ msgstr "用戶上下文"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.user_context.description"
-msgstr "喺呢喥，你可以自定製動作，當你喺聊天中右鍵單擊用戶名時，呢啲動作將顯示喺上下文菜單中。"
+msgstr "喺呢喥，你可以自定製行為，當你喺聊天中右鍵單擊用戶名時，呢啲行為將顯示喺上下文菜單中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1971,17 +1971,17 @@ msgstr "唔好自動重定向到小組直播。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.inline"
-msgstr "聊天.動作.串聯"
+msgstr "聊天.行為.串聯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.reasons"
-msgstr "聊天.動作.原因"
+msgstr "聊天.行為.原因"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.room"
-msgstr "聊天.動作.房間"
+msgstr "聊天.行為.房間"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2001,12 +2001,12 @@ msgstr "操作大細"
 #: /src/modules/main_menu/index.js:552
 #, icu-message-format, md-text
 msgid "setting.entry.chat.actions.size.description"
-msgstr "動作嘅高度應該以像素為單位。可能會受到瀏覽器嘅縮放同字體大小設定嘅影響。"
+msgstr "行為嘅高度應該以像素為單位。可能會受到瀏覽器嘅縮放同字體大小設定嘅影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.user-context"
-msgstr "聊天.動作.用戶-上下文"
+msgstr "聊天.行為.用戶-上下文"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
