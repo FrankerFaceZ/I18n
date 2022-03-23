@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-28 23:00+0000\n"
+"PO-Revision-Date: 2022-03-24 20:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-inline-tab-completion/de/>\n"
@@ -82,3 +82,36 @@ msgstr "Allgemein"
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab"
 msgstr "Inline Tab"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content.description"
+msgstr ""
+"Bitte beachte, dass die von Twitch integrierte Tab-Vervollständigung für "
+"Inhalte verwendet wird, die nicht in der Inline-Tab-Vervollständiung "
+"enthalten sind."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.mention_prefix"
+msgstr "Erwähnungen immer ein @-Zeichen voranstellen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_commands"
+msgstr "Keine Befehle in die Inline-Tab-Vervollständigung einschließen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_mentions"
+msgstr "Keine Benutzer in die Inline-Tab-Vervollständigung einschließen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.tips"
+msgstr "Tooltip bei Verwendung der Tab-Vervollständigung anzeigen."
