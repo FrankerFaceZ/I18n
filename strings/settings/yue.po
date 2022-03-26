@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-23 02:32+0000\n"
+"PO-Revision-Date: 2022-03-27 12:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -365,7 +365,7 @@ msgstr ""
 "\n"
 "#### 高亮匹配\n"
 "\n"
-"啟用後，[聊天>過濾>常規](~)中嘅匹配設定\n"
+"啟用後，[聊天>篩選>常規](~)中嘅匹配設定\n"
 "啟用，任何匹配嘅字詞都會喺聊天中高亮，方便你查睇\n"
 "完全匹配嘅字詞。\n"
 "\n"
@@ -1216,7 +1216,7 @@ msgstr "排序"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering"
-msgstr "過濾"
+msgstr "篩選"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1227,13 +1227,13 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.auto_mod_filters"
-msgstr "自動過濾Mod"
+msgstr "自動篩選Mod"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.auto_mod_filters.description"
-msgstr "Twitch 原始`聊天過濾器`嘅額外配置。"
+msgstr "Twitch 原始`聊天篩選器`嘅額外配置。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1258,7 +1258,7 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges.description"
 msgstr ""
-"**注意：**呢個部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意：**呢個部分用于篩選來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1271,7 +1271,7 @@ msgstr "訊息類型"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.message_types.description"
 msgstr ""
-"呢個過濾器允許你喺Twitch聊天中移除特定類型嘅所有訊息。佢可用于過濾系統訊息，例如轉播或揪團。為防止聊天功能中斷，無法封鎖某些功能(例如審核行為)。"
+"呢個篩選器允許你喺Twitch聊天中移除特定類型嘅所有訊息。佢可用于篩選系統訊息，例如轉播或揪團。為防止聊天功能中斷，無法封鎖某些功能(例如審核行為)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1283,7 +1283,7 @@ msgstr "字詞"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms.description"
-msgstr "有關如何使用字詞嘅詳細信息，請參閱 [聊天>過濾>語法幫助](~)。"
+msgstr "有關如何使用字詞嘅詳細信息，請參閱 [聊天>篩選>語法幫助](~)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1300,7 +1300,7 @@ msgstr "被封鎖嘅徽章"
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
-"**注意：**呢個部分用于過濾來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意：**呢個部分用于篩選來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #, icu-message-format
 msgid "setting.chat.filtering.blocked_message_types"
@@ -1309,7 +1309,7 @@ msgstr "封鎖訊息類型"
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_message_types.description"
 msgstr ""
-"呢個過濾器允許你喺Twitch聊天中移除特定類型嘅所有訊息。佢可用于過濾系統訊息，例如轉播或揪團。為防止聊天功能中斷，無法封鎖某些功能(例如審核行為)。"
+"呢個篩選器允許你喺Twitch聊天中移除特定類型嘅所有訊息。佢可用于篩選系統訊息，例如轉播或揪團。為防止聊天功能中斷，無法封鎖某些功能(例如審核行為)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1335,12 +1335,12 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters"
-msgstr "自動過濾Mod"
+msgstr "自動篩選Mod"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters.description"
-msgstr "Twitch 原始`聊天過濾器`嘅額外配置。"
+msgstr "Twitch 原始`聊天篩選器`嘅額外配置。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1399,7 +1399,7 @@ msgstr "字詞"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms.description"
-msgstr "有關如何使用字詞嘅詳細信息，請參閱 [聊天>過濾>語法幫助](~)。"
+msgstr "有關如何使用字詞嘅詳細信息，請參閱 [聊天>篩選>語法幫助](~)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -2062,25 +2062,25 @@ msgstr "RGB Loop (已棄用)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.delete-messages"
-msgstr "如果訊息包含過濾嘅詞組，就將佢標記為已刪除。"
+msgstr "如果訊息包含篩選嘅詞組，就將佢標記為已刪除。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.remove-messages"
-msgstr "如果訊息包含過濾嘅詞組，就將佢完全移除。"
+msgstr "如果訊息包含篩選嘅詞組，就將佢完全移除。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod"
-msgstr "作為審核人使用聊天過濾器。"
+msgstr "作為審核人使用聊天篩選器。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod.description"
-msgstr "默認情況下，Twitch嘅聊天過濾器功能唔適用於審核人。呢個會覆蓋該行為。"
+msgstr "默認情況下，Twitch嘅聊天篩選器功能唔適用於審核人。呢個會覆蓋該行為。"
 
 #, icu-message-format
 msgid "setting.entry.chat.badges.clickable"
@@ -2761,32 +2761,32 @@ msgstr "總是"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-badges"
-msgstr "聊天.過濾.高亮-基本-徽章"
+msgstr "聊天.篩選.高亮-基本-徽章"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
-msgstr "聊天.過濾.高亮-基本-徽章-封鎖"
+msgstr "聊天.篩選.高亮-基本-徽章-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-blocked"
-msgstr "聊天.過濾.高亮-基本-封鎖"
+msgstr "聊天.篩選.高亮-基本-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-terms"
-msgstr "聊天.過濾.高亮-基本-字詞"
+msgstr "聊天.篩選.高亮-基本-字詞"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users"
-msgstr "聊天.過濾.高亮-基本-用戶"
+msgstr "聊天.篩選.高亮-基本-用戶"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
-msgstr "聊天.過濾.高亮-基本-用戶-封鎖"
+msgstr "聊天.篩選.高亮-基本-用戶-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2821,12 +2821,12 @@ msgstr "提及優先級"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-priority.description"
-msgstr "擁有呢個優先級喺被提及時高亮你個名。有關詳細信息，請參閱 [聊天>過濾>高亮](~聊天.過濾.高亮)。"
+msgstr "擁有呢個優先級喺被提及時高亮你個名。有關詳細信息，請參閱 [聊天>篩選>高亮](~聊天.篩選.高亮)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.process-own"
-msgstr "過濾你自己嘅訊息。"
+msgstr "篩選你自己嘅訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5010,7 +5010,7 @@ msgstr "添加新規則"
 #: /src/modules/main_menu/components/filter-editor.vue:20
 #, icu-message-format
 msgid "setting.filters.empty"
-msgstr "（無過濾）"
+msgstr "（無篩選）"
 
 #: /src/settings/components/if.vue:155
 #, icu-message-format
