@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-27 12:32+0000\n"
+"PO-Revision-Date: 2022-04-02 15:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -1961,7 +1961,7 @@ msgstr "允許顯示慶祝活動。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations.description"
-msgstr "慶祝活動係覆蓋成個Twitch頁面嘅動畫。"
+msgstr "慶祝活動係會覆蓋成個Twitch頁面嘅行爲。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2209,7 +2209,7 @@ msgstr "允許喺聊天中顯示預測。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.animated"
-msgstr "顯示動畫歡呼。"
+msgstr "顯示動態歡呼。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -2584,13 +2584,13 @@ msgstr "呢個設定將使表情喺聊天中顯示兩倍大。佢非常適合同
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated"
-msgstr "動畫表情符號"
+msgstr "動態表情符號"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
-msgstr "將控制係咪允許動畫表情喺聊天中播放。当呢個值為`禁用`時，表情符號將顯示為靜態圖像。將呢項設定為`懸停時啟用`可能會導致性能問題。"
+msgstr "將控制係咪允許動態表情喺聊天中播放。当呢個值為`禁用`時，表情符號將顯示為靜態圖像。將呢項設定為`懸停時啟用`可能會導致性能問題。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -4164,7 +4164,7 @@ msgstr "備用觀眾計數"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers.description"
-msgstr "喺當前頻道顯示無動畫嘅觀看者計數變化。"
+msgstr "喺當前頻道顯示無動態嘅觀看者計數變化。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -4844,14 +4844,14 @@ msgstr "顯示表情符號嘅大圖像。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated"
-msgstr "顯示表情符號嘅動畫圖像。"
+msgstr "顯示表情符號嘅動態圖像。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated.description"
 msgstr ""
-"如果未覆蓋呢個值，僅喺未禁用 [聊天>外觀>>表情符號>動畫表情符號](~chat.appearance.emotes) "
-"時，動畫圖像先至會顯示喺表情符號小工具中。"
+"如果未覆蓋呢個值，僅喺未禁用 [聊天>外觀>>表情符號>動態表情符號](~chat.appearance.emotes) "
+"時，動態圖像先至會顯示喺表情符號小工具中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
