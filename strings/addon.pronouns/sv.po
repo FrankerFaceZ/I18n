@@ -1,37 +1,43 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-05 00:32+0000\n"
+"Last-Translator: Anton <anton_r_3@hotmail.com>\n"
+"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-pronouns/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/addons.js:261
 #: /src/pronouns/index.jsx:161
 #, icu-message-format, lp-defaults:"{\"value\":\"Zie/Hir\"}"
 msgid "addon.pronouns.title"
-msgstr ""
+msgstr "Pronomen: {value}"
 
 #: /src/modules/main_menu/index.js:583
 #: /src/modules/main_menu/components/menu-tree.vue:1
 #, icu-message-format
 msgid "setting.add_ons.pronouns"
-msgstr ""
+msgstr "Pronomen"
 
 #: /src/modules/main_menu/index.js:583
 #, icu-message-format
 msgid "setting.add_ons.pronouns.appearance"
-msgstr ""
+msgstr "Utseende"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.pronouns.per_badge_colors"
-msgstr ""
+msgstr "Färg per märke"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.border"
-msgstr ""
+msgstr "Visa en kontur runt märket."
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.color"
-msgstr ""
+msgstr "Märkesfärg"
