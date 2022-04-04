@@ -1,34 +1,40 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-05 00:32+0000\n"
+"Last-Translator: Anton <anton_r_3@hotmail.com>\n"
+"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-inline-tab-completion/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/utilities/object.js:465
 #: /src/inline-tab-completion/index.jsx:215
 #, icu-message-format, lp-defaults:"{\"pos\":5,\"total\":40}"
 msgid "addon.inlinetab.item"
-msgstr ""
+msgstr "{pos,number} av {total,number}"
 
 #: /src/inline-tab-completion/index.jsx:181
 #, icu-message-format
 msgid "addon.inlinetab.type.command"
-msgstr ""
+msgstr "Kommando"
 
 #: /src/inline-tab-completion/index.jsx:172
 #, icu-message-format
 msgid "addon.inlinetab.type.emoji"
-msgstr ""
+msgstr "Emoji"
 
 #: /src/inline-tab-completion/index.jsx:176
 #, icu-message-format
 msgid "addon.inlinetab.type.emote"
-msgstr ""
+msgstr "Emote"
 
 #: /src/inline-tab-completion/index.jsx:184
 #, icu-message-format
 msgid "addon.inlinetab.type.mention"
-msgstr ""
+msgstr "Omnämnande"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
@@ -41,13 +47,13 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.appearance"
-msgstr ""
+msgstr "Utseende"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.content"
-msgstr ""
+msgstr "Innehåll"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
@@ -59,19 +65,19 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.general"
-msgstr ""
+msgstr "Allmänt"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.mention_prefix"
-msgstr ""
+msgstr "Inled alltid omnämnanden med `@`."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.no_commands"
-msgstr ""
+msgstr "Inkludera inte kommandon i tabbkompletteringen."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
