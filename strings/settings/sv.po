@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-04 22:32+0000\n"
+"PO-Revision-Date: 2022-04-05 00:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -389,8 +389,8 @@ msgstr "Det uppstod ett fel i backup processen."
 
 msgid "setting.backup-restore.imported"
 msgstr ""
-"Profilen \"{name}\" har framgångsrikt importerats med {count,number} "
-"inställningar{count,en_plural}"
+"Profilen \"{name}\" importerades med {count, plural, one {# inställning} "
+"other {# inställningar}}."
 
 msgid "setting.backup-restore.imported-at"
 msgstr "Importerades {now,datetime}."
@@ -983,7 +983,7 @@ msgid "setting.entry.chat.emote-menu.default-tab"
 msgstr "Standard Tab"
 
 msgid "setting.entry.chat.emote-menu.default-tab.values.all"
-msgstr "Mina Emotes"
+msgstr "Mina emotes"
 
 msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
 msgstr "Kanal"
@@ -2150,7 +2150,7 @@ msgid "setting.icon.search"
 msgstr "Sök efter Ikon"
 
 msgid "setting.import"
-msgstr "Importera..."
+msgstr "Importera…"
 
 msgid "setting.inheritance"
 msgstr "Ärvd Plats"
@@ -2278,10 +2278,10 @@ msgid "setting.reasons.no-reasons"
 msgstr "inga anledningar har skapats i den här profilen"
 
 msgid "setting.reset"
-msgstr "Återställ till Standard"
+msgstr "Återställ till standardvärde"
 
 msgid "setting.reset-all"
-msgstr "Återställ Alla till Standardvärden"
+msgstr "Återställ allting till standardvärden"
 
 msgid "setting.save"
 msgstr "Spara"
@@ -2302,7 +2302,7 @@ msgid "setting.terms.type.glob"
 msgstr "Glob"
 
 msgid "setting.terms.type.regex"
-msgstr "Regex"
+msgstr "Reguljärt uttryck"
 
 msgid "setting.terms.type.regex-word"
 msgstr "Regex (Ord)"
@@ -3614,7 +3614,7 @@ msgstr "(Har stöd för binär data)"
 #: /src/modules/main_menu/components/provider.vue:252
 #, icu-message-format
 msgid "setting.provider.backup"
-msgstr "Ja, jag gjorde en säkerhetskopia"
+msgstr "Ja, jag gjorde en säkerhetskopia."
 
 #: /src/modules/main_menu/components/provider.vue:16
 #, icu-message-format
@@ -3639,3 +3639,543 @@ msgstr "Prioritet"
 #, icu-message-format
 msgid "settings.terms.sensitive.tip"
 msgstr "Skiftlägeskänslig"
+
+#: /src/modules/main_menu/components/profile-editor.vue:322
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.updates"
+msgstr "Automatiska uppdateringar"
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:84
+#: /src/modules/main_menu/components/blocked-type-editor.vue:60
+#, icu-message-format
+msgid "setting.terms.please-select"
+msgstr "Välj ett alternativ."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Visa rader med alternerande bakgrundsfärger."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Utseende"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos"
+msgstr "Chatta på videor"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.general"
+msgstr "Allmänt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu"
+msgstr "Emotemeny"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Utseende"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.general"
+msgstr "Allmänt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Sortering"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering"
+msgstr "Filtrering"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges"
+msgstr "Märken"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Meddelandetyper"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.users"
+msgstr "Användare"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.appearance"
+msgstr "Utseende"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Allmänt"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms"
+msgstr "Termer"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Se [Chatt > Filtrering > Syntaxhjälp](~) för information om hur man använder "
+"termer."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general"
+msgstr "Allmänt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Utseende"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.appearance"
+msgstr "Utseende"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.general"
+msgstr "Allmänt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.rituals"
+msgstr "Ritualer"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Märken"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Termer"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms.description"
+msgstr ""
+"Se [Chatt > Filtrering > Syntaxhjälp](~) för information om hur man använder "
+"termer."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Användare"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.rituals"
+msgstr "Ritualer"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Syntaxhjälp"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input"
+msgstr "Inmatning"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.recent_messages"
+msgstr "Senaste meddelanden"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips"
+msgstr "Verktygstips"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.badges"
+msgstr "Märken"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emotes"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.whispers.general"
+msgstr "Allmänt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.links"
+msgstr "Länkar"
+
+#: /src/std-components/key-picker.vue:66
+#, icu-message-format
+msgid "setting.clear"
+msgstr "Rensa"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Everything"
+msgstr "Absolut allting"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.FavoriteEmotes"
+msgstr "Favoritemotes"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.HiddenEmotes"
+msgstr "Dolda emotes"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Profiles"
+msgstr "Profiler"
+
+#: /src/modules/main_menu/components/clear-settings.vue:154
+#, icu-message-format
+msgid "setting.clear.start"
+msgstr "Rensa min data"
+
+#: /src/modules/main_menu/components/clear-settings.vue:41
+#, icu-message-format
+msgid "setting.clear.step-1"
+msgstr "Välj vilka datatyper du vill rensa:"
+
+#, icu-message-format
+msgid "setting.color.nullable"
+msgstr "Högerklicka för att rensa"
+
+#: /src/modules/main_menu/components/action-editor.vue:1453
+#, icu-message-format
+msgid "setting.copy-json"
+msgstr "Kopiera"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management"
+msgstr "Datahantering"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.backup_and_restore"
+msgstr "Säkerhetskopiering och återställning"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.profiles"
+msgstr "Profiler"
+
+#: /src/modules/main_menu/components/profile-editor.vue:309
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.hotkey"
+msgstr "Kortkommando"
+
+#: /src/modules/main_menu/components/profile-editor.vue:390
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.update"
+msgstr "Uppdatera denna profil automatiskt."
+
+#: /src/modules/main_menu/components/profile-editor.vue:349
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.url"
+msgstr "Uppdatera webbadress"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting"
+msgstr "Rapportering"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Felrapporter"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.example_report"
+msgstr "Exempelrapporter"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage"
+msgstr "Lagring"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage.tabs"
+msgstr "flikar"
+
+#: /src/std-components/tab-container.vue:178
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage.tabs.clear"
+msgstr "Rensa"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage.tabs.provider"
+msgstr "Tillhandahållare"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.experiments"
+msgstr "Experiment"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.hosts"
+msgstr "Värdar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addons.dev.server"
+msgstr "Använd lokal utvecklingsserver"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addons.dev.server.description"
+msgstr "Försök att läsa in tillägg från lokal utvecklingsserver på port 8001."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Öppna automatiskt chatten när en offlinekanalsida öppnas."
+
+#, icu-message-format
+msgid "setting.entry.channel.auto-skip-trailer"
+msgstr "Hoppa automatiskt över kanaltrailers."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.extra-links"
+msgstr "Lägg till extra länkar i livekanalsidor intill namnet på streamern."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Dölj \"LIVE\"-indikatorn på livekanalsidor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.metadata.force-above"
+msgstr "Tvinga metadata och taggar längst upp i kanalens informationsfält."
+
+#, icu-message-format
+msgid "setting.entry.channel.panel-tips"
+msgstr "Visa innehållsrika verktygstips i kanalpaneler."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "Gå inte automatiskt med i räder."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.round-avatars"
+msgstr "Tillåt att avatarbilder rundas av."
+
+#: /src/modules/main_menu/index.js:545
+#, icu-message-format
+msgid "setting.entry.chat.actions.size"
+msgstr "Storlek på åtgärd"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Standardflik"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.modifiers.values.0"
+msgstr "Inaktiverad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Använd Ctrl+E för att öppna emotemenyn."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Visa sökfältet."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Sortera emotes efter"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.borders"
+msgstr "Avskiljare"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-size"
+msgstr "Typsnittsstorlek"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-family"
+msgstr "Typsnittsfamilj"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Tidsstämplar formateras med biblioteket [Day.js](https://github.com/iamkun/"
+"dayjs#readme). Mer information om hur man formaterar strängar [finns "
+"här](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#list-"
+"of-all-available-formats)"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.clips.layout.big"
+msgstr "Låter spelaren bli större på sidor från `clips.twitch.tv`."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.dev"
+msgstr "localhost"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.null"
+msgstr "Automatiskt"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.test"
+msgstr "API-test"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.width"
+msgstr "Bredd"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.date.description"
+msgstr ""
+"Standardformatet för datum. Anpassade datumformat formateras med biblioteket "
+"[Day.js](https://day.js.org/docs/en/display/format)."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.datetime.description"
+msgstr ""
+"Standardformatet för datum kombinerat med tidstämpel. Anpassade tidsformat "
+"formateras med biblioteket [Day.js](https://day.js.org/docs/en/display/"
+"format)."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.time.description"
+msgstr ""
+"Standardformatet för tidsstämplar. Anpassade tidsformat formateras med "
+"biblioteket [Day.js](https://day.js.org/docs/en/display/format)."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:16
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.locale"
+msgstr "Språk"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Tröskel för porträttläge"
+
+#, icu-message-format
+msgid "setting.entry.layout.portrait-min-chat"
+msgstr "Använd kompakt chatt i porträttläge."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.font-size"
+msgstr "Typsnittsstorlek"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.theatre_mode"
+msgstr "Teaterläge"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.font"
+msgstr "Typsnitt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.position"
+msgstr "Position"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.volume"
+msgstr "Volym"
+
+#: /src/std-components/key-picker.vue:31
+#, icu-message-format
+msgid "setting.record-key"
+msgstr "Tryck på en tangent"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.local.title"
+msgstr "Lokal lagring"
+
+#: /src/modules/main_menu/components/badge-visibility.vue:56
+#, icu-message-format
+msgid "setting.right-click-reset"
+msgstr "Högerklicka för att återställa"
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:178
+#, icu-message-format
+msgid "setting.terms.remove.on"
+msgstr "Ta bort matchande meddelanden från chatten."
+
+#: /src/modules/main_menu/components/socket-info.vue:104
+#, icu-message-format
+msgid "settings.back"
+msgstr "Tillbaka"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.command-center"
+msgstr "Kommandocenter"
