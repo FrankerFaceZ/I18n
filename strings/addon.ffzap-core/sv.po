@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-22 12:16+0000\n"
-"Last-Translator: Jim Ottesen <social@jimthesfn.one>\n"
+"PO-Revision-Date: 2022-04-05 00:32+0000\n"
+"Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-ffzap-core/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "setting.add_ons.ffz_ap_core"
 msgstr "FFZ:AP Core"
@@ -32,37 +32,37 @@ msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
 msgstr "Ändra volymen för ljudet som spelas när du nämns."
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.10"
-msgstr "10%"
+msgstr "10 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.100"
-msgstr "100%"
+msgstr "100 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.20"
-msgstr "20%"
+msgstr "20 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.30"
-msgstr "30%"
+msgstr "30 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.40"
-msgstr "40%"
+msgstr "40 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.5"
-msgstr "5%"
+msgstr "5 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.50"
-msgstr "50%"
+msgstr "50 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.60"
-msgstr "60%"
+msgstr "60 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.70"
-msgstr "70%"
+msgstr "70 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.80"
-msgstr "80%"
+msgstr "80 %"
 
 msgid "setting.entry.ffzap.core.highlight_sound_volume.values.90"
-msgstr "90%"
+msgstr "90 %"
 
 msgid "setting.entry.ffzap.core.message_deletion"
 msgstr "Meddelande filtrering på Användar-Nivå"
@@ -107,3 +107,48 @@ msgstr "Förinställt Ljud"
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core"
 msgstr "FFZ:AP Core"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Chatt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Emotes"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Ljud"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Förhindra i egen kanal"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Förhindra ljud från att spelas upp i din egen kanal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Spela upp vid omnämnande"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Spela upp när"
+
+#, icu-message-format
+msgid "setting.entry.ffzap.core.message_deletion.values.0"
+msgstr "Visa alla meddelanden"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "Ta bort mellanrum mellan emotes"
