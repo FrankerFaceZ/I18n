@@ -1,26 +1,25 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-04-04 22:32+0000\n"
+"Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "async-text.upload"
-msgstr "Ladda Upp"
+msgstr "Ladda upp"
 
 msgid "autocomplete.empty"
 msgstr "Det finns inga resultat."
 
-#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Prenumererat för {count,number} Månad{count,en_plural})"
+"(Prenumererat i {count, plural, one {# månad} other {# månader}})"
 
 msgid "card.empty"
 msgstr "Ingen data returnerades."
@@ -32,7 +31,7 @@ msgid "card.loading"
 msgstr "Laddar..."
 
 msgid "chat.actions.ban"
-msgstr "Banna Användare"
+msgstr "Banna användare"
 
 msgid "chat.actions.ban-reason"
 msgstr "Banna {user.login} för:"
@@ -47,10 +46,10 @@ msgid "chat.actions.chat.desc"
 msgstr "{options.command}"
 
 msgid "chat.actions.delete.tooltip"
-msgstr "Radera {user.login}'s meddelande"
+msgstr "Radera {user.login}s meddelande"
 
 msgid "chat.actions.msg_delete"
-msgstr "Radera Meddelanden"
+msgstr "Radera meddelanden"
 
 msgid "chat.actions.open_url"
 msgstr "Öppna URL"
@@ -61,20 +60,17 @@ msgstr "Vänligen välj en anledningen i listan nedan:"
 msgid "chat.actions.timeout"
 msgstr "Sätt Timeout för Användare"
 
-#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"Sätt Timeout för {user.login} i {duration,plural,one {# sekund} other {# "
+"Ange timeout för {user.login} i {duration, plural, one {# sekund} other {# "
 "sekunder}} för:"
 
-#, fuzzy
 msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,plural,one {# sekund} other {# sekunder}}"
+msgstr "{options.duration, plural, one {# sekund} other {# sekunder}}"
 
-#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"Sätt Timeout för {user.login} i {duration,plural,one {# sekund} other {# "
+"Ange timeout för {user.login} i {duration, plural, one {# sekund} other {# "
 "sekunder}}"
 
 msgid "chat.actions.unban"
@@ -90,7 +86,7 @@ msgid "chat.actions.untimeout.tooltip"
 msgstr "Upphäv Timeout för {user.login}"
 
 msgid "chat.actions.whisper"
-msgstr "Viska Användare"
+msgstr "Viska till användare"
 
 msgid "chat.actions.whisper.tooltip"
 msgstr "Viska till {user.login}"
@@ -106,7 +102,7 @@ msgid "chat.filtering.automod-term"
 msgstr "AutoMod Blockerat Uttryck"
 
 msgid "chat.filtering.automod-why"
-msgstr "Detta var flaggat som:"
+msgstr "Detta flaggades som: "
 
 msgid "chat.filtering.automod.A"
 msgstr "Fientlighet"
@@ -121,7 +117,7 @@ msgid "chat.filtering.automod.S"
 msgstr "Sexuellt språk"
 
 msgid "chat.filtering.blocked-term"
-msgstr "Blockerat Uttryck"
+msgstr "Blockerat uttryck"
 
 msgid "chat.ignore-clear"
 msgstr "Ett försök att rensa chatten av en moderator ignorerades."
@@ -139,7 +135,7 @@ msgid "chat.mod-action.delete"
 msgstr "Raderat"
 
 msgid "chat.mod-action.timeout"
-msgstr "{duration} Timeout"
+msgstr "Timeout i {duration}"
 
 msgid "chat.points.bypass-sub"
 msgstr "Skicka ett meddelande i Endast-Sub läge"
@@ -179,8 +175,9 @@ msgstr "Pausa Chatten"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ upphäver beteendet av Pausa Chatten helt och hållet. Vänligen "
-"använd FFZ's Scroll-inställningar under Chat > Beteende, i FFZ Kontrollcenter"
+"FrankerFaceZ upphäver beteendet av att pausa chatten helt och hållet. "
+"Vänligen använd FFZ:s skrollinställningar på Chatt > Beteende i FFZ:s "
+"kontrollcenter."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "En anonym givare"
@@ -192,8 +189,8 @@ msgstr ""
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} skänker {count, number} Nivå {tier} Prenumeration{count,en_plural} "
-"till {channel}'s gemenskap! "
+"{user} skänker {count, plural, one {# nivå {tier}-prenumeration} other {# "
+"nivå {tier}-prenumerationer}} till {channel}s gemenskap! "
 
 msgid "chat.sub.gift-first"
 msgstr "Det är deras första gång som givare av en Prenumeration i kanalen!"
@@ -201,9 +198,8 @@ msgstr "Det är deras första gång som givare av en Prenumeration i kanalen!"
 msgid "chat.sub.gift-plan"
 msgstr "Nivå {tier}"
 
-#, fuzzy
 msgid "chat.sub.gift-total"
-msgstr "De har givit {count} Prenumerationer i kanalen!"
+msgstr "De har skänkt {count,number} prenumerationer i kanalen!"
 
 msgid "chat.sub.main"
 msgstr "{user} prenumenerade {plan} "
@@ -212,16 +208,16 @@ msgid "chat.sub.months"
 msgstr "De har prenumenerat i {count,number} månader!"
 
 msgid "chat.sub.mystery"
-msgstr "{user} skänker en {plan} Prenumeration till {recipient}!"
+msgstr "{user} skänkte en {plan}-prenumeration till {recipient}! "
 
 msgid "chat.sub.plan"
 msgstr "av Nivå {tier}"
 
 msgid "clip.desc.1"
-msgstr "Clip av {user}"
+msgstr "Klipp av {user}"
 
 msgid "clip.desc.1.creative"
-msgstr "{user} är Kreativ"
+msgstr "{user} är kreativ"
 
 msgid "clip.desc.1.playing"
 msgstr "{user} spelar {game}"
@@ -238,7 +234,7 @@ msgid "directory.block"
 msgstr "Blockera"
 
 msgid "directory.hide-thumbnails"
-msgstr "Göm Miniatyrbilder"
+msgstr "Dölj miniatyrbilder"
 
 msgid "directory.hosted"
 msgstr "Hostad Kanal"
@@ -253,7 +249,7 @@ msgid "directory.hosting"
 msgstr "Hostade Kanaler"
 
 msgid "directory.show-thumbnails"
-msgstr "Visa Miniatyrbilder"
+msgstr "Visa miniatyrbilder"
 
 msgid "directory.unblock"
 msgstr "Avblockera"
@@ -265,13 +261,13 @@ msgid "emoji.category.activities"
 msgstr "Aktiviteter"
 
 msgid "emoji.category.animals___nature"
-msgstr "Djur & Natur"
+msgstr "Djur och natur"
 
 msgid "emoji.category.flags"
 msgstr "Flaggor"
 
 msgid "emoji.category.food___drink"
-msgstr "Mat & Dryck"
+msgstr "Mat och dryck"
 
 msgid "emoji.category.objects"
 msgstr "Objekt"
@@ -280,13 +276,13 @@ msgid "emoji.category.skin_tones"
 msgstr "Hudtoner"
 
 msgid "emoji.category.smileys___people"
-msgstr "Smileys & Folk"
+msgstr "Smileys och folk"
 
 msgid "emoji.category.symbols"
 msgstr "Symboler"
 
 msgid "emoji.category.travel___places"
-msgstr "Resa & Platser"
+msgstr "Resa och platser"
 
 msgid "emote_menu.prime"
 msgstr "Prime"
@@ -296,8 +292,8 @@ msgstr "Kanal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Som en tillfällig lösning, försök att inaktivera FFZ Emote Menyn i FFZ "
-"Control Center"
+"Som en tillfällig lösning, försök att inaktivera FFZ:s emotemeny i FFZ:s "
+"kontrollcenter."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
@@ -310,7 +306,7 @@ msgstr ""
 "Uppgradera din prenumeneration för {price} för att låsa upp denna emoten."
 
 msgid "emote-menu.empty"
-msgstr "Det finns inget här."
+msgstr "Det finns ingenting här."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
@@ -333,7 +329,7 @@ msgid "emote-menu.featured"
 msgstr "Framhävd"
 
 msgid "emote-menu.global"
-msgstr "Globala Emotes"
+msgstr "Globala emotes"
 
 msgid "emote-menu.inventory"
 msgstr "Användarförråd"
@@ -351,25 +347,25 @@ msgid "emote-menu.my-emotes"
 msgstr "Mina Emotes"
 
 msgid "emote-menu.points"
-msgstr "Upplåst genom Poäng"
+msgstr "Upplåst med poäng"
 
 msgid "emote-menu.prime"
 msgstr "Prime"
 
 msgid "emote-menu.refresh"
-msgstr "Uppdatera Data"
+msgstr "Uppdatera data"
 
 msgid "emote-menu.search"
-msgstr "Sök efter Emotes"
+msgstr "Sök efter emotes"
 
 msgid "emote-menu.search-emoji"
-msgstr "Sök efter Emoji"
+msgstr "Sök efter emoji"
 
 msgid "emote-menu.settings"
-msgstr "Öppna Inställningar"
+msgstr "Öppna inställningar"
 
 msgid "emote-menu.sub-basic"
-msgstr "Prenumenera för att låsa upp några emotes"
+msgstr "Prenumerera för att låsa upp några emotes"
 
 msgid "emote-menu.sub-ends"
 msgstr "Denna prenumeration avslutas om {seconds,humantime}."
@@ -388,26 +384,25 @@ msgstr "Denna prenumeration förnyas om {seconds,humantime}."
 msgid "emote-menu.sub-set"
 msgstr "Prenumerant-emotes"
 
-#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Prenumerera för {price} för att låsa upp {count,plural,one {en emote} other "
-"{# emotes}}"
+"Prenumerera för {price} för att låsa upp {count, plural, one {# en emote} "
+"other {# emotes}}"
 
 msgid "emote-menu.twitch"
 msgstr "Twitch"
 
 msgid "emote-menu.unknown"
-msgstr "Okänd Källa"
+msgstr "Okänd källa"
 
 msgid "emote-menu.unknown-set"
-msgstr "Set #{set_id}"
+msgstr "Ändra #{set_id}"
 
 msgid "emote.global"
 msgstr "Global för Twitch"
 
 msgid "emote.limited"
-msgstr "Endast Begränsad Tidsbestämd  Emote"
+msgstr "Endast tidsbegränsade emotes"
 
 msgid "emote.owner"
 msgstr "Av: {owner}"
@@ -487,7 +482,7 @@ msgid "i18n.ui.title"
 msgstr "Översättningstestaren"
 
 msgid "i18n.ui.upload"
-msgstr "Ladda upp ändringar."
+msgstr "Ladda upp ändringar"
 
 msgid "key.alt"
 msgstr "Alt-tangenten"
@@ -505,7 +500,7 @@ msgid "key.hover"
 msgstr "Muspekaren är ovan"
 
 msgid "key.meta"
-msgstr "Meta-tangenten\n"
+msgstr "Meta-tangenten"
 
 msgid "key.meta_mouse"
 msgstr "Meta eller Mus"
@@ -585,10 +580,10 @@ msgstr ""
 "Tappade bildrutor:{skippedFrames,number}"
 
 msgid "metadata.player-stats.video-tip"
-msgstr "Video Information"
+msgstr "Videoinformation"
 
 msgid "metadata.uptime.copy"
-msgstr "Kopiera till Urklipp"
+msgstr "Kopiera till urklipp"
 
 msgid "metadata.uptime.link-to"
 msgstr "Länk till {time}"
@@ -603,22 +598,22 @@ msgid "metadata.uptime.tooltip"
 msgstr "Stream Upptid"
 
 msgid "page.next"
-msgstr "Nästa Sida"
+msgstr "Nästa sida"
 
 msgid "page.previous"
-msgstr "Föregående Sida"
+msgstr "Föregående sida"
 
 msgid "player.pip_button"
-msgstr "Klicka för att Växla Bild-i-Bild-läge."
+msgstr "Bild-i-bild"
 
 msgid "player.pip_button.off"
-msgstr "Gå ur Bild-i-Bild läget."
+msgstr "Avsluta bild-i-bild"
 
 msgid "player.reset_button"
-msgstr "Dubbelklicka för att Återställa Spelaren."
+msgstr "Återställ spelaren (dubbelklicka)"
 
 msgid "player.reset_button.all"
-msgstr "Dubbelklicka för att Återställa alla Spelare."
+msgstr "Återställ alla spelare (dubbelklicka)"
 
 msgid "popup.error"
 msgstr ""
@@ -667,17 +662,16 @@ msgid "sub-button.prime"
 msgstr "Din gratis-prenumeration med Prime är tillgänglig."
 
 msgid "tooltip.bits"
-msgstr "{count,number} Bits"
+msgstr "{count,number} bits"
 
-#, fuzzy
 msgid "tooltip.bits.more"
-msgstr "(och {count} mera)"
+msgstr "(och {count, number} till)"
 
 msgid "tooltip.channel"
 msgstr "Kanal: {source}"
 
 msgid "tooltip.email-link"
-msgstr "E-Post {address}"
+msgstr "E-post {address}"
 
 msgid "tooltip.emoji"
 msgstr "Emoji - {category}"
@@ -702,7 +696,7 @@ msgstr ""
 "{err}"
 
 msgid "video-chat.jump"
-msgstr "Hoppa till Video"
+msgstr "Hoppa till video"
 
 msgid "video-chat.reply"
 msgstr "Svara"
@@ -716,11 +710,8 @@ msgstr "{time,humantime} sedan"
 msgid "video.desc.1"
 msgstr "Video av {user}"
 
-#, fuzzy
 msgid "video.desc.2"
-msgstr ""
-"{length,duration} — {views,plural,=0 {Inga Visningar} one {# Visning} other "
-"{# Visningar}} - {date,datetime}"
+msgstr "{length,duration} — {views,number} visningar — {date,datetime}"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
@@ -737,7 +728,7 @@ msgstr "Klipp"
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Tier {tier}, {months, plural, one {# Month} other {# Months}})"
+"(Nivå {tier}, {months, plural, one {# månad} other {# månader}})"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -794,7 +785,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.travel_places"
-msgstr "Resa & Platser"
+msgstr "Resa och platser"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
@@ -806,7 +797,7 @@ msgstr "Följ {user} för att låsa upp denna emote i deras kanal."
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
-"({count, plural, one {# Month} other {# Months}})"
+"({count, plural, one {# månad} other {# månader}})"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
 #, icu-message-format
@@ -846,7 +837,7 @@ msgstr "Spela med {rate,number}x hastighet för att minska fördröjningen."
 #: /src/sites/twitch-twilight/modules/player.jsx:1014
 #, icu-message-format
 msgid "player.comp_button.disabled"
-msgstr "Ljudkompressorn kan inte aktiveras när du tittar på Klipp."
+msgstr "Ljudkomprimering kan inte aktiveras när du tittar på klipp."
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1115
 #, icu-message-format
@@ -915,7 +906,7 @@ msgstr "FrankerFaceZ hemsida"
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
 #, icu-message-format
 msgid "chat.ffz-badge.title"
-msgstr "FrankerFaceZ Märke"
+msgstr "FrankerFaceZ-märke"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
@@ -948,7 +939,7 @@ msgstr "Namn"
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:581:11
 #, icu-message-format, lp-defaults:"{\"reason\":\"Ctrl or Mouse\"}"
 msgid "chat.paused"
-msgstr "Chatten Pausad på grund av {reason}"
+msgstr "Chatten pausades på grund av {reason}"
 
 #, icu-message-format
 msgid "chat.points.modify-emote"
@@ -969,7 +960,7 @@ msgstr "{user} löste in {reward} {cost}"
 #: /src/modules/chat/tokenizers.jsx:274
 #, icu-message-format
 msgid "chat.reply-to"
-msgstr "Svarar På:"
+msgstr "Besvarar:"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
 #, icu-message-format
@@ -979,17 +970,17 @@ msgstr "med Prime Gaming"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.media"
-msgstr "Tillåt Media"
+msgstr "Tillåt media"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.unsafe"
-msgstr "Tillåt Olämpligt Innehåll"
+msgstr "Tillåt olämpligt Innehåll"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
-msgstr "Tvinga Verktygstips"
+msgstr "Tvinga verktygstips"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -999,7 +990,7 @@ msgstr "Fullständig Inbäddning"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.raw"
-msgstr "Rå Data"
+msgstr "Rå data"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #: /src/modules/main_menu/components/link-tester.vue:1
@@ -1010,17 +1001,17 @@ msgstr "Uppdatera"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.animals_nature"
-msgstr "Djur & Natur"
+msgstr "Djur och natur"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.food_drink"
-msgstr "Mat & Dryck"
+msgstr "Mat och dryck"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.smileys_emotion"
-msgstr "Smileys & Känslor"
+msgstr "Smileys och känslor"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
@@ -1035,22 +1026,22 @@ msgstr "Rik Inbäddning"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.link"
-msgstr "Chatt Länk"
+msgstr "Chattlänk"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.url"
-msgstr "Test URL"
+msgstr "Testwebbadress"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
 #, icu-message-format
 msgid "emote-menu.toggle-hide.off"
-msgstr "Emote Synlighetskontroll"
+msgstr "Synlighetskontroll för emotes"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2071
 #, icu-message-format
 msgid "emote-menu.toggle-hide.on"
-msgstr "Avsluta Emote Synlighetskontroll"
+msgstr "Avsluta synlighetskontroll för emotes"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:677
 #, icu-message-format
@@ -1065,12 +1056,12 @@ msgstr "Synlig"
 #: /src/modules/chat/tokenizers.jsx:1063
 #, icu-message-format
 msgid "emote.2fa"
-msgstr "Twitch 2FA Emote"
+msgstr "Twitch 2FA-emote"
 
 #: /src/modules/chat/tokenizers.jsx:1052
 #, icu-message-format
 msgid "emote.bits"
-msgstr "Twitch Cheer Belöning"
+msgstr "Twitch bits-belöning"
 
 #: /src/modules/chat/tokenizers.jsx:1054
 #, icu-message-format, lp-defaults:"{\"source\":\"Twitch Bits Reward\",\"channel\":\"SirStendec\"}"
@@ -1087,7 +1078,7 @@ msgstr "Godkänd"
 #: /src/modules/chat/tokenizers.jsx:1365
 #, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
 msgid "emote.follower"
-msgstr "Följare Emote ({source})"
+msgstr "Följaremote ({source})"
 
 #: /src/modules/chat/tokenizers.jsx:1041:14
 #, icu-message-format
@@ -1149,7 +1140,7 @@ msgstr "Hosta förinspelade videon"
 #: /src/modules/metadata.jsx:110
 #, icu-message-format
 msgid "metadata.viewers"
-msgstr "Antal Tittare"
+msgstr "Antal tittare"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1016
 #, icu-message-format
@@ -1161,23 +1152,23 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/player.jsx:1002
 #, icu-message-format
 msgid "player.comp_button.off"
-msgstr "Inaktivera Ljudkompressorn"
+msgstr "Inaktivera ljudkomprimering"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1003
 #, icu-message-format
 msgid "player.comp_button.on"
-msgstr "Ljudkompressorn"
+msgstr "Ljudkomprimering"
 
 #: /src/sites/shared/player.jsx:1113
 #: /src/sites/shared/player.jsx:1172
 #, icu-message-format
 msgid "player.gain.label"
-msgstr "Förstärkningskontrollen"
+msgstr "Förstärkningskontroll"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:865
 #, icu-message-format
 msgid "player.pip_button.fs"
-msgstr "Kan inte använda Bild-i-Bild när du använder Helskärm."
+msgstr "Kan inte använda bild-i-bild vid helskärm"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:333
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
@@ -1284,7 +1275,7 @@ msgstr ""
 
 #, icu-message-format
 msgid "tooltip.shift-detail"
-msgstr "(Skift för Detaljer)"
+msgstr "(Skift för information)"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1301,12 +1292,12 @@ msgstr ""
 #: /src/modules/chat/actions/types.jsx:21
 #, icu-message-format
 msgid "chat.actions.edit_overrides"
-msgstr "Ändra Namn & Färg"
+msgstr "Ändra namn och färg"
 
 #: /src/modules/chat/actions/types.jsx:24
 #, icu-message-format
 msgid "chat.actions.reply"
-msgstr "Svara på Meddelande"
+msgstr "Svara på meddelande"
 
 #: /src/modules/main_menu/components/action-editor.vue:595
 #, icu-message-format
@@ -1318,7 +1309,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/line.js:559
 #, icu-message-format
 msgid "chat.actions.reply.thread"
-msgstr "Öppen Tråd"
+msgstr "Öppna tråd"
 
 #: /src/sites/twitch-twilight/modules/chat/points.js:33
 #, icu-message-format
@@ -1334,4 +1325,4 @@ msgstr "Räkna"
 #: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
 msgid "video.published-on"
-msgstr "Publicerad på: {date,date}"
+msgstr "Publicerad: {date,date}"
