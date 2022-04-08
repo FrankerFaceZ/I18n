@@ -1,5 +1,188 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-04-08 22:32+0000\n"
+"Last-Translator: Anton <anton_r_3@hotmail.com>\n"
+"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-deck/sv/>\n"
+"Language: sv\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.deck.title"
 msgstr "Deck"
+
+#: /src/deck/components/bd-column.vue:121
+#: /src/deck/components/bd-column.vue:153
+#, icu-message-format, lp-defaults:"{\"count\":1}"
+msgid "addon.deck.sub.tags"
+msgstr "{count, plural, one {# tagg} other {# taggar}}"
+
+#: /src/deck/components/bd-column.vue:122
+#: /src/deck/components/bd-column.vue:154
+#, icu-message-format, lp-defaults:"{\"count\":2}"
+msgid "addon.deck.sub.users"
+msgstr "{count, plural, one {# användare} other {# användare}}"
+
+#: /src/deck/components/bd-shelf.vue:181
+#, icu-message-format
+msgid "addon.deck.show-less"
+msgstr "Visa färre"
+
+#: /src/deck/components/bd-shelf.vue:162
+#, icu-message-format
+msgid "addon.deck.show-more"
+msgstr "Visa fler"
+
+#: /src/deck/components/bd-channel-selector.vue:44
+#, icu-message-format
+msgid "addon.deck.no-users"
+msgstr "inga användare"
+
+#: /src/deck/components/bd-column.vue:699
+#, icu-message-format
+msgid "addon.deck.no-state"
+msgstr "(vad håller jag på med)"
+
+#: /src/utilities/dialog.js:150
+#: /src/deck/components/bd-column.vue:678
+#: /src/deck/index.jsx:335
+#, icu-message-format
+msgid "addon.deck.loading"
+msgstr "Läser in..."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.recommended"
+msgstr "Rekommenderade"
+
+#: /src/deck/components/bd-tag-selector.vue:19
+#, icu-message-format
+msgid "addon.deck.search-tags"
+msgstr "Sök taggar"
+
+#: /src/deck/components/bd-channel-selector.vue:19
+#, icu-message-format
+msgid "addon.deck.search-users"
+msgstr "Sök användare"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.search"
+msgstr "Sök"
+
+#: /src/deck/components/bd-column-editor.vue:180
+#, icu-message-format
+msgid "addon.deck.save"
+msgstr "Spara"
+
+#: /src/deck/components/bd-tab-settings.vue:49
+#, icu-message-format
+msgid "addon.deck.new-tab"
+msgstr "Ny flik"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.highlight"
+msgstr "Markeringar"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.upload"
+msgstr "Uppladdningar"
+
+#: /src/deck/components/bd-edit-video.vue:85
+#, icu-message-format
+msgid "addon.deck.video-types"
+msgstr "Videotyper:"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sub.views"
+msgstr "Visningar"
+
+#: /src/deck/components/browse-deck.vue:423
+#: /src/deck/components/bd-tab-settings.vue:17
+#, icu-message-format
+msgid "addon.deck.tab-settings"
+msgstr "Flikinställningar"
+
+#: /src/deck/components/bd-tab-settings.vue:80
+#, icu-message-format
+msgid "addon.deck.tab-name"
+msgstr "Flik nr. {count}"
+
+#: /src/deck/components/bd-column.vue:689
+#, icu-message-format
+msgid "addon.deck.throttled"
+msgstr "Väntar lite grann..."
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.trending"
+msgstr "Trender"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#: /src/deck/components/bd-column.vue:153
+#, icu-message-format
+msgid "addon.deck.sort.video.recent"
+msgstr "Nyligen publicerat"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.video.views"
+msgstr "Visningar (högst till lägst)"
+
+#: /src/deck/components/browse-deck.vue:191
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.specific-users"
+msgstr "Specifika användare"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sub.recent"
+msgstr "Senaste"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-desc"
+msgstr "Äldst först"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.past_premiere"
+msgstr "Tidigare premiärer"
+
+#: /src/deck/components/bd-edit-video.vue:92
+#, icu-message-format
+msgid "addon.deck.video-type.archive"
+msgstr "Tidigare sändning"
+
+#: /src/deck/components/bd-column-editor.vue:447
+#, icu-message-format
+msgid "addon.deck.width.0"
+msgstr "Liten"
+
+#: /src/deck/components/bd-column-editor.vue:455
+#, icu-message-format
+msgid "addon.deck.width.1"
+msgstr "Normal"
+
+#: /src/deck/components/bd-column-editor.vue:463
+#, icu-message-format
+msgid "addon.deck.width.2"
+msgstr "Stor"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.deck.appearance"
+msgstr "Utseende"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.deck.behavior"
+msgstr "Beteende"
