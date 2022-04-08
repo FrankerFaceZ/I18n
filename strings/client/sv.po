@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-05 00:32+0000\n"
+"PO-Revision-Date: 2022-04-08 22:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -49,7 +49,7 @@ msgid "chat.actions.delete.tooltip"
 msgstr "Radera {user.login}s meddelande"
 
 msgid "chat.actions.msg_delete"
-msgstr "Radera meddelanden"
+msgstr "Radera meddelande"
 
 msgid "chat.actions.open_url"
 msgstr "Öppna URL"
@@ -117,13 +117,13 @@ msgid "chat.filtering.automod.S"
 msgstr "Sexuellt språk"
 
 msgid "chat.filtering.blocked-term"
-msgstr "Blockerat uttryck"
+msgstr "Blockerad term"
 
 msgid "chat.ignore-clear"
 msgstr "Ett försök att rensa chatten av en moderator ignorerades."
 
 msgid "chat.message-deleted"
-msgstr "<meddelandet raderat>"
+msgstr "<meddelandet raderades>"
 
 msgid "chat.mod-action.ban"
 msgstr "Bannad"
@@ -144,7 +144,7 @@ msgid "chat.points.choose-emote"
 msgstr "Välj en emote att låsa upp"
 
 msgid "chat.reason.ignore"
-msgstr "Ignorerar Streamaren / Moderatorer"
+msgstr "Ignorerar sändaren/moderatorer"
 
 msgid "chat.reasons.evasion"
 msgstr "Undvikande av Ban"
@@ -152,8 +152,9 @@ msgstr "Undvikande av Ban"
 msgid "chat.reasons.hate"
 msgstr "Hat / Trakasserier"
 
+#, fuzzy
 msgid "chat.reasons.links"
-msgstr "Postar Opålitliga Länkar"
+msgstr "Skriver opålitliga länkar"
 
 msgid "chat.reasons.personal"
 msgstr "Hot / Personlig Information"
@@ -168,10 +169,10 @@ msgid "chat.settings.back"
 msgstr "Tillbaka"
 
 msgid "chat.settings.open-settings"
-msgstr "Öppna Kontrollcenter"
+msgstr "Öppna kontrollcentret"
 
 msgid "chat.settings.pause"
-msgstr "Pausa Chatten"
+msgstr "Pausa chatten"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
@@ -396,7 +397,7 @@ msgid "emote-menu.unknown"
 msgstr "Okänd källa"
 
 msgid "emote-menu.unknown-set"
-msgstr "Ändra #{set_id}"
+msgstr "Uppsättning nr. {set_id}"
 
 msgid "emote.global"
 msgstr "Global för Twitch"
@@ -408,7 +409,7 @@ msgid "emote.owner"
 msgstr "Av: {owner}"
 
 msgid "error.try-again"
-msgstr "Försök Igen"
+msgstr "Försök igen"
 
 msgid "featured-follow.button.unfollow"
 msgstr "Sluta Följa {user}"
@@ -455,7 +456,7 @@ msgid "i18n.ui.existing"
 msgstr "Existerande Strängar"
 
 msgid "i18n.ui.open"
-msgstr "Öppna Översättningstestaren"
+msgstr "Öppna översättningstestaren"
 
 msgid "i18n.ui.pages"
 msgstr "Sida {current,number} av {total,number}"
@@ -506,7 +507,7 @@ msgid "key.meta_mouse"
 msgstr "Meta eller Mus"
 
 msgid "key.mouse"
-msgstr "Mus Rörelse"
+msgstr "Musrörelse"
 
 msgid "key.shift"
 msgstr "Skift-tangenten"
@@ -621,7 +622,7 @@ msgstr ""
 "tillåter pop-ups från Twitch."
 
 msgid "site.menu_button"
-msgstr "FrankerFaceZ Kontrollcenter"
+msgstr "Kontrollcenter för FrankerFaceZ"
 
 msgid "site.menu_button.addon-dev"
 msgstr "en-dev"
@@ -761,7 +762,7 @@ msgstr "Avbanna {user.login}"
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.site"
-msgstr "Vänligen besök {website} för att ändra detta märket."
+msgstr "Vänligen besök {website} för att ändra denna dekal."
 
 #: /src/modules/chat/overrides.js:94
 #: /src/modules/chat/override-editor.vue:97
@@ -896,29 +897,29 @@ msgstr "Videor"
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
 #, icu-message-format
 msgid "chat.identity-menu"
-msgstr "Chatt Identitet"
+msgstr "Chattidentitet"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:296
 #, icu-message-format
 msgid "chat.ffz-badge.site-link"
-msgstr "FrankerFaceZ hemsida"
+msgstr "FrankerFaceZ:s hemsida"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
 #, icu-message-format
 msgid "chat.ffz-badge.title"
-msgstr "FrankerFaceZ-märke"
+msgstr "FrankerFaceZ-dekal"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
 msgstr ""
-"Detta märket visas globalt för alla användare med FrankerFaceZ. Vänligen "
-"besök {website} för att ändra detta märket."
+"Denna dekal visas globalt för alla användare med FrankerFaceZ. Vänligen "
+"besök {website} för att ändra denna dekal."
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:587:11
 #, icu-message-format
 msgid "chat.messages-below"
-msgstr "Chatten Pausad på grund av Skrollning"
+msgstr "Chatten pausades på grund av skrollning"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
@@ -943,11 +944,11 @@ msgstr "Chatten pausades på grund av {reason}"
 
 #, icu-message-format
 msgid "chat.points.modify-emote"
-msgstr "Modifiera en Enskild Emote"
+msgstr "Modifiera en enskild emote"
 
 #, icu-message-format
 msgid "chat.points.random-emote"
-msgstr "Lås upp en Slumpmässig Prenumerations Emote"
+msgstr "Lås upp en slumpmässig prenumerantemote"
 
 #, icu-message-format
 msgid "chat.points.reward"
@@ -980,7 +981,7 @@ msgstr "Tillåt olämpligt Innehåll"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
-msgstr "Tvinga verktygstips"
+msgstr "Tvinga inforutor"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1088,7 +1089,7 @@ msgstr "Prime Gaming"
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.badge"
-msgstr "Markera Märke"
+msgstr "Markera dekal"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
@@ -1098,12 +1099,12 @@ msgstr "Nämnad"
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.term"
-msgstr "Markera Term"
+msgstr "Markera term"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.user"
-msgstr "Markera Användare"
+msgstr "Markera användare"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
 #, icu-message-format
@@ -1199,12 +1200,12 @@ msgstr "ansluten"
 #: /src/modules/main_menu/components/socket-info.vue:247
 #, icu-message-format
 msgid "socket.info.disconnected"
-msgstr "bortkopplad"
+msgstr "frånkopplad"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.local_time"
-msgstr "Lokal Tid"
+msgstr "Lokal tid"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
@@ -1214,7 +1215,7 @@ msgstr "Server"
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.server_time"
-msgstr "Server Tid"
+msgstr "Servertid"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
@@ -1229,7 +1230,7 @@ msgstr "Autentiserad"
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.connected_clients"
-msgstr "Anslutna Klienter"
+msgstr "Anslutna klienter"
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
@@ -1249,7 +1250,7 @@ msgstr "Meddelanden"
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.versions"
-msgstr "Klient Versioner"
+msgstr "Klientversioner"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
@@ -1314,7 +1315,7 @@ msgstr "Öppna tråd"
 #: /src/sites/twitch-twilight/modules/chat/points.js:33
 #, icu-message-format
 msgid "chat.points.highlighted"
-msgstr "Lyft fram Mitt Meddelande"
+msgstr "Lyft fram mitt meddelande"
 
 #: /src/modules/main_menu/components/socket-info.vue:154
 #: /src/modules/main_menu/components/socket-info.vue:122
