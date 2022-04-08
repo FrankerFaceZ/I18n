@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-05 00:32+0000\n"
+"PO-Revision-Date: 2022-04-08 22:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -101,63 +101,62 @@ msgstr "Discord"
 
 msgid "home.faq"
 msgstr ""
-"## Vanliga Frågor\n"
+"## Vanliga frågor\n"
 "\n"
-"** Vad hände med [feature]?*\n"
+"* * Vad hände med [funktion]?*\n"
 "\n"
-"Det är fortfarande funktioner som saknas i FrankerFaceZ v4.0 som fanns i "
-"v3.0. Tyvärr, vissa funktioner är opraktiska att uppdatera till den nya "
+"Det finns fortfarande funktioner i FrankerFaceZ v3.0 som saknas i v4.0. "
+"Tyvärr är det opraktiskt att uppdatera vissa funktioner till den nya "
 "versionen av Twitch hemsida.\n"
 "\n"
-"Många funktioner är fortfarande planerade att återkomma så fort utvecklarna "
+"Många funktioner planeras fortfarande att komma tillbaka så fort utvecklarna "
 "har tid att implementera dem. Det finns inget schema för kommande "
-"funktioner. Funktioner släpps få fort de är klara.\n"
+"funktioner. Funktioner släpps få fort de blir färdiga.\n"
 "\n"
-"**Jag har donerat, varför visas inte min badge.*\n"
-"**Jag har lagt till en emote till min kanal men ser den inte.*\n"
+"* *Jag har donerat, men min dekal dyker inte upp.*\n"
+"* *Jag har lagt till en emote i min kanal men kan inte se den.*\n"
 "\n"
-"På grund av prestanda problem med våran nuvarande hemsida, måste vi använda "
-"caching med våran API. Detta innebär att det kan ta 30 minuter till en "
-"timme innan badges och emotes träder i kraft. Efter att väntat, uppdatera "
-"sidan och ditt innehåll borde dyka upp. Du kan också prova med en hård "
-"uppdatering.\n"
+"På grund av prestandaproblem med vår nuvarande hemsida måste vi använda "
+"cachelagring med vårt API. Detta innebär att det kan ta upp till 30 minuter "
+"innan dekaler och emotes träder i kraft. Uppdatera sidan efter du har väntat "
+"så bör ditt innehåll dyka upp. Du kan också prova med att rensa cacheminnet."
 "\n"
-"**Jag vill inte ha `FFZ Supporter` badge.*\n"
 "\n"
-"Användare kan växla synligheten av sina supporter badges via: "
-"[https://www.frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
+"* *Jag vill inte ha dekalen `FFZ Supporter`.*\n"
 "\n"
-"**Jag kan se mina emotes, men något i chat sa att de inte kan.*\n"
+"Användare kan växla synligheten av sina supporter dekaler via: [https://www."
+"frankerfacez.com/donate](https://www.frankerfacez.com/donate)\n"
 "\n"
-"Användare måste ha FrankerFaceZ installerat, eller någon anna tredje-part "
-"klient som stödjer FFZ emotes, för att se emotes från FrankerFaceZ. "
-"Användare kan eventuellt inte se nytillagda emotes, beroende på deras "
-"webbläsares cache och när de senaste uppdaterade sidan.\n"
+"* *Jag kan se mina emotes, men någon i chatten säger att de inte kan det.*\n"
 "\n"
-"**Det är en stulen emote!*\n"
-"**Det är en offensiv emote!*\n"
+"Användare måste ha FrankerFaceZ installerat (eller någon annan "
+"tredjepartsklient som stödjer FFZ-emotes) för att se emotes från "
+"FrankerFaceZ. Användare kan eventuellt inte se emotes som nyligen har lagts "
+"till, beroende på deras webbläsarcache och när de senast uppdaterade sidan.\n"
 "\n"
-"Vänliga rapportera problemet med emotes via `Report Emote` verktyget på "
-"våran hemsida. Skift-Klicka på den offensiva emoten för att öppna dess "
-"sida, och välj `Report Emote`på det högra sidofältet. Du behöver vara "
-"inloggad för att rapportera en emote."
+"* *Jag har hittat en stulen emote!*\n"
+"* *Jag har hittat en kränkande emote!*\n"
+"\n"
+"Vänlig rapportera emoterelaterade problem via verktyget `Report Emote` på "
+"vår hemsida. Skift-klicka på en kränkande emote för att öppna dess sida, och "
+"välj `Report Emote` i det högra sidofältet. Du behöver vara inloggad för att "
+"rapportera en emote."
 
 msgid "home.feedback"
 msgstr ""
-"## Feedback\n"
+"## Återkoppling\n"
 "\n"
-"Du kan lämna feedback och buggrapporter till [skapa en rapport på vårt "
-"Github arkiv](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Du kan "
-"också [hitta oss på Discord](https://discord.gg/UrAkGhT) eller [via "
-"Twitter](https://twitter.com/FrankerFaceZ).\n"
+"Du kan lämna återkoppling och buggrapporter genom att [skapa ett ärende på "
+"vårt Github-centrallager](https://github.com/FrankerFaceZ/FrankerFaceZ/"
+"issues). Du kan också [hitta oss på Discord](https://discord.gg/UrAkGhT) "
+"eller [via Twitter](https://twitter.com/FrankerFaceZ).\n"
 "\n"
-"När du skapar en GitHub rapport, vänligen kontrollera att ingen annan har "
-"redan skapat en om det du skulle vilja diskutera eller rapportera. Github "
-"rapporter ska användas för problem med klienten, och inte för frågor om "
+"Vänligen kontrollera att ingen annan har redan skapat ett GitHub-ärende om "
+"det du skulle vilja diskutera eller rapportera när du skapar ett ärende. "
+"Github-ärenden ska användas för problem med klienten, inte för frågor om "
 "godkännande av emotes.\n"
 "\n"
-"När du skapar en rapport, vänligen bifoga även loggarna som finns nedanför "
-"och inkludera länken i din rapport."
+"Vänligen bifoga loggarna nedan och inkludera länken när du skapar ett ärende."
 
 msgid "home.tag-line"
 msgstr "Förbättringssviten för Twitch"
@@ -823,7 +822,7 @@ msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Ändra användarnamnens färg så det blir läsbara."
 
 msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Ingen Färg"
+msgstr "Ingen färg"
 
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Oförändrade"
@@ -1190,7 +1189,7 @@ msgid "setting.entry.chat.lines.borders.values.3"
 msgstr "3D-Linje (2px Groove Inset)"
 
 msgid "setting.entry.chat.lines.borders.values.4"
-msgstr "Bred Linje (2px Solid)"
+msgstr "Bred linje (2px solid)"
 
 msgid "setting.entry.chat.lines.emote-alignment"
 msgstr "Emote justering"
@@ -1268,7 +1267,7 @@ msgid "setting.entry.chat.rich.minimum-level.values.3"
 msgstr "Moderator"
 
 msgid "setting.entry.chat.rich.minimum-level.values.4"
-msgstr "Streamare"
+msgstr "Sändare"
 
 msgid "setting.entry.chat.rituals.show"
 msgstr "Visa rituella meddelanden som \"Användaren är ny här! Säg Hej!\"."
@@ -1290,31 +1289,31 @@ msgstr ""
 "snabbvalstangent."
 
 msgid "setting.entry.chat.scroller.freeze.values.1"
-msgstr "Då Muspekaren är Ovan"
+msgstr "Vid hovring"
 
 msgid "setting.entry.chat.scroller.freeze.values.2"
-msgstr "När Ctrl Hålls"
+msgstr "När Ctrl trycks ned"
 
 msgid "setting.entry.chat.scroller.freeze.values.3"
-msgstr "När Meta Hålls"
+msgstr "När Meta trycks ned"
 
 msgid "setting.entry.chat.scroller.freeze.values.4"
-msgstr "När Alt Hålls"
+msgstr "När Alt trycks ned"
 
 msgid "setting.entry.chat.scroller.freeze.values.5"
-msgstr "När Shift Hålls"
+msgstr "När Shift trycks ned"
 
 msgid "setting.entry.chat.scroller.freeze.values.6"
-msgstr "Ctrl eller Muspekaren är över"
+msgstr "Ctrl eller hovring"
 
 msgid "setting.entry.chat.scroller.freeze.values.7"
-msgstr "Meta eller Muspekaren är över"
+msgstr "Meta eller hovring"
 
 msgid "setting.entry.chat.scroller.freeze.values.8"
-msgstr "Alt eller Muspekaren är över"
+msgstr "Alt eller hovring"
 
 msgid "setting.entry.chat.scroller.freeze.values.9"
-msgstr "Skift eller Muspekaren är över"
+msgstr "Skift eller hovring"
 
 msgid "setting.entry.chat.scroller.hover-delay"
 msgstr "Tidsgräns för att muspekaren är ovan"
@@ -1328,19 +1327,19 @@ msgid "setting.entry.chat.scroller.hover-delay.values.1000"
 msgstr "1 sekund"
 
 msgid "setting.entry.chat.scroller.hover-delay.values.250"
-msgstr "0.25 Sekunder"
+msgstr "0,25 sekunder"
 
 msgid "setting.entry.chat.scroller.hover-delay.values.2500"
 msgstr "2,5 sekunder"
 
 msgid "setting.entry.chat.scroller.hover-delay.values.500"
-msgstr "0.50 Sekunder"
+msgstr "0,50 sekunder"
 
 msgid "setting.entry.chat.scroller.hover-delay.values.5000"
 msgstr "5 sekunder"
 
 msgid "setting.entry.chat.scroller.hover-delay.values.750"
-msgstr "0.75 Sekunder"
+msgstr "0,75 sekunder"
 
 msgid "setting.entry.chat.scroller.smooth-scroll"
 msgstr "Mjuk Rullning"
@@ -1386,7 +1385,7 @@ msgid "setting.entry.chat.subs.merge-gifts.values.10"
 msgstr "Fler än 10"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.1000"
-msgstr "Avaktiverad"
+msgstr "Inaktiverad"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.20"
 msgstr "Fler än 20"
@@ -1416,7 +1415,7 @@ msgid "setting.entry.chat.subs.show.values.2"
 msgstr "Endast Förnyade Prenumerationer"
 
 msgid "setting.entry.chat.subs.show.values.3"
-msgstr "Visa Alla"
+msgstr "Visa alla"
 
 msgid "setting.entry.chat.tab-complete.emoji"
 msgstr "Tillåt tab-komplettering av emoji."
@@ -2892,7 +2891,7 @@ msgstr "Läser in..."
 #, icu-message-format, lp-defaults:"{\"count\":57}"
 msgid "setting.badges.hidden"
 msgstr ""
-"{count,plural,one{# märke är dolt} other{# märken är dolda} } i denna "
+"{count,plural,one{# dekal är dolt} other{# dekaler är dolda} } i denna "
 "uppsättning"
 
 #, icu-message-format
@@ -3079,7 +3078,7 @@ msgstr "Användarnamn"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.badges"
-msgstr "Märken"
+msgstr "Dekaler"
 
 #, icu-message-format
 msgid "setting.chat.badges.behavior"
@@ -3150,7 +3149,7 @@ msgstr "Blockering"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_badges"
-msgstr "Blockerade märken"
+msgstr "Blockerade dekaler"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
@@ -3701,7 +3700,7 @@ msgstr "Filtrering"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges"
-msgstr "Märken"
+msgstr "Dekaler"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -3769,7 +3768,7 @@ msgstr "Ritualer"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.badges"
-msgstr "Märken"
+msgstr "Dekaler"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -3816,12 +3815,12 @@ msgstr "Senaste meddelanden"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips"
-msgstr "Verktygstips"
+msgstr "Inforutor"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.badges"
-msgstr "Märken"
+msgstr "Dekaler"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3997,7 +3996,7 @@ msgstr "Tvinga metadata och taggar längst upp i kanalens informationsfält."
 
 #, icu-message-format
 msgid "setting.entry.channel.panel-tips"
-msgstr "Visa innehållsrika verktygstips i kanalpaneler."
+msgstr "Visa innehållsrika inforutor i kanalpaneler."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4179,3 +4178,269 @@ msgstr "Tillbaka"
 #, icu-message-format
 msgid "settings.filter.page.route.command-center"
 msgstr "Kommandocenter"
+
+#, icu-message-format
+msgid "setting.entry.theme.color.chat-background"
+msgstr "Bakgrund"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.font.size"
+msgstr "Typsnittsstorlek"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Markera användare"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Markera termer"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Markera dekaler"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight"
+msgstr "Markera"
+
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable"
+msgstr "Gör det möjligt att klicka på dekaler."
+
+#, icu-message-format, md-text
+msgid "setting.entry.chat.badges.clickable.description"
+msgstr "Visa dekaler som Prime Gaming fungerar som länkar när detta aktiveras."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Anpassad markeringsfärg"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Markera meddelanden som nämner dig."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Markera matchande ord i chatten."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Emote-justering"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.chat.me-style.values.1"
+msgstr "Färglagd (gammal stil)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.chat.me-style.values.2"
+msgstr "Kursiv (ny stil)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.chat.me-style.values.3"
+msgstr "Färglagd och kursiv"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.points.allow-highlight.values.0"
+msgstr "Inaktiverad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.points.allow-highlight.values.1"
+msgstr "Twitch-stil"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.replies.style"
+msgstr "Stil"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.replies.style.values.0"
+msgstr "Inaktiverad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.replies.style.values.1"
+msgstr "Twitch (standard)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.replies.style.values.2"
+msgstr "FrankerFaceZ"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.auto-rewards"
+msgstr "Gör automatiskt anspråk på bonusbelöningar."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.scroller.freeze.values.0"
+msgstr "Använd Twitch-inställning"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Timeout för hovring"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Pausa chattskrollning"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Mjuk rullning"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Markeringsfärg"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.default"
+msgstr "Aktivera komprimering som standard."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.enable"
+msgstr "Skicka automatiskt rapporter när ett fel uppstår."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.2"
+msgstr "Aktiveras med högerklick"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.3"
+msgstr "Aktiveras med Alt"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.4"
+msgstr "Aktiveras med Alt + högerklick"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.5"
+msgstr "Aktiveras med Shift"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.6"
+msgstr "Aktiveras med Shift + högerklick"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.7"
+msgstr "Aktiveras med Ctrl"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.8"
+msgstr "Aktiveras med Ctrl + högerklick"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.false"
+msgstr "Inaktiverad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.true"
+msgstr "Aktiverad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.profiles"
+msgstr "profiler"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.background"
+msgstr "Bakgrund"
+
+#, icu-message-format
+msgid "setting.entry.theme.color.tooltip.background"
+msgstr "Bakgrund för inforutor"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.text"
+msgstr "Text"
+
+#, icu-message-format
+msgid "setting.entry.theme.color.chat-text"
+msgstr "Text"
+
+#, icu-message-format
+msgid "setting.entry.theme.color.tooltip.text"
+msgstr "Text i inforutor"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.dark"
+msgstr "Grå (inte lila)"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Visa påminnelse om Prime"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.socket.use-cluster"
+msgstr "Serverkluster"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor"
+msgstr "Komprimering"
+
+#: /src/modules/main_menu/components/action-editor.vue:1263
+#, icu-message-format
+msgid "setting.key.hover"
+msgstr "Hovring"
+
+#: /src/modules/main_menu/components/chat-actions.vue:463
+#, icu-message-format
+msgid "setting.paste-json.json"
+msgstr "[json]"
+
+#: /src/modules/main_menu/components/profile-manager.vue:207
+#, icu-message-format
+msgid "setting.paste-url.url"
+msgstr "[webbadress]"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.gain_control"
+msgstr "Förstärkningskontroll"
+
+#: /src/ffzap-core/components/preview.vue:20
+#, icu-message-format
+msgid "setting.preview"
+msgstr "Förhandsvisa"
