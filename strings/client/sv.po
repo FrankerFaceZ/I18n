@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-08 22:32+0000\n"
+"PO-Revision-Date: 2022-04-10 14:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -150,7 +150,7 @@ msgid "chat.reasons.evasion"
 msgstr "Undvikande av Ban"
 
 msgid "chat.reasons.hate"
-msgstr "Hat / Trakasserier"
+msgstr "Hat/trakasserier"
 
 #, fuzzy
 msgid "chat.reasons.links"
@@ -185,7 +185,7 @@ msgstr "En anonym givare"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"De har prenumenerat i {cumulative, number} månader, just nu har de "
+"De har prenumererat i {cumulative, number} månader, just nu har de "
 "{streak,number} i rad!"
 
 msgid "chat.sub.gift"
@@ -203,16 +203,16 @@ msgid "chat.sub.gift-total"
 msgstr "De har skänkt {count,number} prenumerationer i kanalen!"
 
 msgid "chat.sub.main"
-msgstr "{user} prenumenerade {plan} "
+msgstr "{user} prenumererade {plan} "
 
 msgid "chat.sub.months"
-msgstr "De har prenumenerat i {count,number} månader!"
+msgstr "De har prenumererat i {count,number} månader!"
 
 msgid "chat.sub.mystery"
 msgstr "{user} skänkte en {plan}-prenumeration till {recipient}! "
 
 msgid "chat.sub.plan"
-msgstr "av Nivå {tier}"
+msgstr "på nivå {tier}"
 
 msgid "clip.desc.1"
 msgstr "Klipp av {user}"
@@ -303,8 +303,7 @@ msgid "emote-menu.emote-sub"
 msgstr "Prenumenera för {price} för att låsa upp denna emoten."
 
 msgid "emote-menu.emote-up"
-msgstr ""
-"Uppgradera din prenumeneration för {price} för att låsa upp denna emoten."
+msgstr "Uppgradera din prenumeration för {price} för att låsa upp denna emote."
 
 msgid "emote-menu.empty"
 msgstr "Det finns ingenting här."
@@ -412,7 +411,7 @@ msgid "error.try-again"
 msgstr "Försök igen"
 
 msgid "featured-follow.button.unfollow"
-msgstr "Sluta Följa {user}"
+msgstr "Sluta följa {user}"
 
 msgid "featured-follow.notify.on"
 msgstr "Notifikationer är aktiverade. Klicka för att avaktivera."
@@ -441,7 +440,7 @@ msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} färdig)"
 
 msgid "i18n.ui.added"
-msgstr "Nya Strängar"
+msgstr "Nya strängar"
 
 msgid "i18n.ui.all"
 msgstr "Alla Strängar"
@@ -468,7 +467,7 @@ msgid "i18n.ui.preview"
 msgstr "Förhandsvisa"
 
 msgid "i18n.ui.refresh"
-msgstr "Uppdatera Strängar"
+msgstr "Uppdatera strängar"
 
 msgid "i18n.ui.save"
 msgstr "Skapa Ändrings-blob"
@@ -507,7 +506,7 @@ msgid "key.meta_mouse"
 msgstr "Meta eller Mus"
 
 msgid "key.mouse"
-msgstr "Musrörelse"
+msgstr "musrörelse"
 
 msgid "key.shift"
 msgstr "Skift-tangenten"
@@ -929,7 +928,7 @@ msgstr "Cheerade {count, plural, one {# Bit} other {# Bits}}"
 #: /src/modules/chat/override-editor.vue:23
 #, icu-message-format, lp-defaults:"{\"user.login\":\"SirStendec\"}"
 msgid "chat.overrides.editing"
-msgstr "Redigera {user.login}..."
+msgstr "Redigerar {user.login}..."
 
 #: /src/modules/chat/overrides.js:94
 #: /src/modules/chat/override-editor.vue:45
@@ -961,7 +960,7 @@ msgstr "{user} löste in {reward} {cost}"
 #: /src/modules/chat/tokenizers.jsx:274
 #, icu-message-format
 msgid "chat.reply-to"
-msgstr "Besvarar:"
+msgstr "Svarar:"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
 #, icu-message-format
@@ -1047,7 +1046,7 @@ msgstr "Avsluta synlighetskontroll för emotes"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:677
 #, icu-message-format
 msgid "emote-menu.visibility.hidden"
-msgstr "Gömd"
+msgstr "Dold"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:678
 #, icu-message-format
