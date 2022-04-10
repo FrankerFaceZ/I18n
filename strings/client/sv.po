@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-10 14:32+0000\n"
+"PO-Revision-Date: 2022-04-10 23:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -194,7 +194,7 @@ msgstr ""
 "nivå {tier}-prenumerationer}} till {channel}s gemenskap! "
 
 msgid "chat.sub.gift-first"
-msgstr "Det är deras första gång som givare av en Prenumeration i kanalen!"
+msgstr "Det är deras första gång som givare av en prenumeration i kanalen!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Nivå {tier}"
@@ -225,8 +225,7 @@ msgstr "{user} spelar {game}"
 
 msgid "clip.desc.2"
 msgstr ""
-"Clippad av {curator} — {views,plural,=0 {Inga Visningar} one {En Visning} "
-"other {# Visningar}}"
+"Klipptes av {curator} — {views, plural, one {# visning} other {# visningar}}"
 
 msgid "clip.unknown"
 msgstr "Okänd"
@@ -716,8 +715,8 @@ msgstr "{length,duration} — {views,number} visningar — {date,datetime}"
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} skänker {months, plural, one {# month} other {# months}} av {plan} "
-"Prenumeration till {recipient}!"
+"{user} skänkte {months, plural, one {# månad} other {# månader}} av {plan}-"
+"prenumeration till {recipient}!"
 
 #, icu-message-format
 msgid "channel.links.clips"
@@ -1021,7 +1020,7 @@ msgstr "Människor"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.embed"
-msgstr "Rik Inbäddning"
+msgstr "Innehållsrik inbäddning"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
