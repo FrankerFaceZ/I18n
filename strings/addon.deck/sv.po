@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-08 22:32+0000\n"
+"PO-Revision-Date: 2022-04-20 00:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/sv/>\n"
@@ -186,3 +186,332 @@ msgstr "Utseende"
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.deck.behavior"
 msgstr "Beteende"
+
+#: /src/deck/components/bd-tab-editor.vue:33
+#, icu-message-format, lp-defaults:"{\"count\":4}"
+msgid "addon.deck.column-count"
+msgstr "{count, plural, one {# kolumn} other {# kolumner} }"
+
+#: /src/deck/components/bd-column-editor.vue:350
+#, icu-message-format
+msgid "addon.deck.edit.default_count"
+msgstr "Standardstorlek:"
+
+#: /src/deck/components/bd-column-editor.vue:133
+#, icu-message-format
+msgid "addon.deck.copy"
+msgstr "Kopiera"
+
+#: /src/deck/components/bd-tab-editor.vue:129
+#: /src/deck/components/bd-column-editor.vue:285
+#, icu-message-format
+msgid "addon.deck.edit.icon"
+msgstr "Ikon:"
+
+#: /src/deck/components/bd-column-editor.vue:159
+#: /src/deck/components/bd-column-editor.vue:110
+#, icu-message-format
+msgid "addon.deck.delete"
+msgstr "Radera"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.video"
+msgstr "Videor"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.video-tip"
+msgstr "Denna kolumn visar videor i en specifik kategori."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel"
+msgstr "Kanal"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.clip-tip"
+msgstr "Denna kolumn visar klipp från en specifik kanal."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.video-tip"
+msgstr "Denna kolumn visar videor från en specifik kanal."
+
+#: /src/deck/components/bd-column.vue:290
+#, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
+msgid "addon.deck.auto-refresh"
+msgstr "Uppdateras automatiskt om {delay}"
+
+#: /src/deck/components/bd-column-editor.vue:89
+#, icu-message-format
+msgid "addon.deck.cancel"
+msgstr "Avbryt"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live"
+msgstr "Strömmar"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category"
+msgstr "Kategori"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip"
+msgstr "Klipp"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip-tip"
+msgstr "Denna kolumn visar klipp från en specifik kategori."
+
+#, icu-message-format, lp-defaults:"{\"user\":null}"
+msgid "addon.deck.clipped-by"
+msgstr "Klipptes av {user}"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.24-hours"
+msgstr "24 timmar"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.30-days"
+msgstr "30 dagar"
+
+#: /src/deck/components/bd-column.vue:384
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.clip-category"
+msgstr "Klipp för {name}"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.7-days"
+msgstr "7 dagar"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.clip-period.7d"
+msgstr "7 dagar"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.all-time"
+msgstr "Hela tiden"
+
+#: /src/deck/components/browse-deck.vue:361
+#: /src/deck/components/bd-tab-editor.vue:199
+#, icu-message-format
+msgid "addon.deck.default-tab"
+msgstr "Standardflik"
+
+#: /src/deck/components/bd-column-editor.vue:600
+#, icu-message-format
+msgid "addon.deck.edit.avatars"
+msgstr "Visa inte avatarer."
+
+#: /src/deck/components/bd-column-editor.vue:678
+#, icu-message-format
+msgid "addon.deck.edit.viewers"
+msgstr "Visa inte visningar/tittare."
+
+#: /src/deck/components/bd-column-editor.vue:345
+#, icu-message-format
+msgid "addon.deck.edit.columns"
+msgstr "Kolumner:"
+
+#: /src/deck/components/bd-edit-count.vue:11
+#, icu-message-format
+msgid "addon.deck.edit.count"
+msgstr "Antal:"
+
+#: /src/deck/components/bd-column-editor.vue:700
+#, icu-message-format
+msgid "addon.deck.edit.behavior"
+msgstr "Beteende"
+
+#: /src/deck/components/bd-column-editor.vue:402
+#, icu-message-format
+msgid "addon.deck.edit.card-width"
+msgstr "Kortstorlek:"
+
+#: /src/deck/components/bd-edit-category.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.game"
+msgstr "Kategori:"
+
+#: /src/deck/components/bd-edit-channel.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channel"
+msgstr "Kanal:"
+
+#: /src/deck/components/bd-edit-channels.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channels"
+msgstr "Kanaler:"
+
+#: /src/deck/components/bd-column-editor.vue:483
+#, icu-message-format
+msgid "addon.deck.edit.max-tags"
+msgstr "Visa taggar:"
+
+#: /src/deck/components/bd-edit-clip.vue:10
+#, icu-message-format
+msgid "addon.deck.edit.period"
+msgstr "Period:"
+
+#: /src/deck/components/bd-column-editor.vue:313
+#, icu-message-format
+msgid "addon.deck.edit.color"
+msgstr "Färg:"
+
+#: /src/deck/components/bd-column-editor.vue:359
+#, icu-message-format
+msgid "addon.deck.edit.column"
+msgstr "Redigera kolumn"
+
+#: /src/deck/components/bd-column-editor.vue:719
+#, icu-message-format
+msgid "addon.deck.edit.refresh"
+msgstr "Uppdatera automatiskt:"
+
+#: /src/deck/components/bd-column-editor.vue:826
+#, icu-message-format
+msgid "addon.deck.edit.required-tags"
+msgstr "Nödvändiga taggar:"
+
+#: /src/deck/components/bd-edit-search.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.search"
+msgstr "Sök:"
+
+#: /src/deck/components/bd-tab-editor.vue:192
+#, icu-message-format
+msgid "addon.deck.edit.sidebar"
+msgstr "Använd flik som sidofält"
+
+#: /src/deck/components/bd-column-editor.vue:789
+#, icu-message-format
+msgid "addon.deck.edit.sort"
+msgstr "Sortera efter:"
+
+#: /src/deck/components/bd-tab-editor.vue:163
+#, icu-message-format
+msgid "addon.deck.edit.tags"
+msgstr "Taggar:"
+
+#: /src/deck/components/bd-edit-team.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.team"
+msgstr "Lag:"
+
+#: /src/deck/components/bd-tab-editor.vue:86
+#: /src/deck/components/bd-column-editor.vue:240
+#, icu-message-format
+msgid "addon.deck.edit.title"
+msgstr "Titel:"
+
+#: /src/deck/components/bd-column-editor.vue:228
+#, icu-message-format
+msgid "addon.deck.edit.appearance"
+msgstr "Utseende"
+
+#: /src/deck/components/bd-column-editor.vue:335
+#, icu-message-format
+msgid "addon.deck.refresh.disabled"
+msgstr "Inaktiverad"
+
+#: /src/deck/components/browse-deck.vue:54
+#, icu-message-format
+msgid "addon.deck.new"
+msgstr "Ny..."
+
+#: /src/deck/components/bd-tag-selector.vue:36
+#, icu-message-format
+msgid "addon.deck.no-tags"
+msgstr "inga taggar"
+
+#: /src/deck/components/bd-column.vue:232
+#: /src/deck/components/bd-column.vue:459
+#, icu-message-format
+msgid "addon.deck.open-settings"
+msgstr "Öppna inställningar"
+
+#: /src/deck/components/bd-video-card.vue:77
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published"
+msgstr "Publicerades {published,date} kl. {published,time}"
+
+#: /src/deck/components/bd-column.vue:329
+#, icu-message-format
+msgid "addon.deck.refresh"
+msgstr "Uppdatera"
+
+#: /src/deck/components/browse-deck.vue:346
+#, icu-message-format
+msgid "addon.deck.refresh-all"
+msgstr "Uppdatera alla"
+
+#: /src/deck/components/bd-tab-settings.vue:51
+#, icu-message-format
+msgid "addon.deck.new-sidebar"
+msgstr "Ny flik i sidofältet"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-recommended"
+msgstr "Rekommenderade strömmar"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recommended"
+msgstr "Rekommenderas för dig"
+
+#: /src/deck/components/bd-column.vue:433
+#, icu-message-format
+msgid "addon.deck.need-config"
+msgstr "Du måste slutföra konfigurationen av denna kolumn."
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-asc"
+msgstr "Skapades nyligen"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-asc"
+msgstr "Visningar (lågt till högt)"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-desc"
+msgstr "Visningar (högt till lågt)"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers"
+msgstr "Tittare (högt till lågt)"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers-asc"
+msgstr "Tittare (lågt till högt)"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sort.sub.viewers"
+msgstr "Tittare"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sort.sub.views"
+msgstr "Visningar"
