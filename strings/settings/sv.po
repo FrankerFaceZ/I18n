@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-10 14:32+0000\n"
+"PO-Revision-Date: 2022-04-20 00:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -91,10 +91,10 @@ msgid "home.changelog.no-more"
 msgstr "Det finns inga fler förändringar att hämta."
 
 msgid "home.changelog.nonversioned"
-msgstr "Commit utan Version"
+msgstr "Versionslös förändring"
 
 msgid "home.changelog.show-nonversioned"
-msgstr "Inkludera icke-version förändringar."
+msgstr "Inkludera versionslösa förändringar."
 
 msgid "home.discord"
 msgstr "Discord"
@@ -103,7 +103,7 @@ msgid "home.faq"
 msgstr ""
 "## Vanliga frågor\n"
 "\n"
-"* * Vad hände med [funktion]?*\n"
+"* *Vad hände med [funktion]?*\n"
 "\n"
 "Det finns fortfarande funktioner i FrankerFaceZ v3.0 som saknas i v4.0. "
 "Tyvärr är det opraktiskt att uppdatera vissa funktioner till den nya "
@@ -248,16 +248,16 @@ msgid "setting.actions.preview.mod"
 msgstr "Som moderator"
 
 msgid "setting.actions.preview.mod_icons"
-msgstr "Med Moderator-Ikoner"
+msgstr "Med moderatorikoner"
 
 msgid "setting.actions.preview.r9k"
 msgstr "R9K-läge"
 
 msgid "setting.actions.preview.slow"
-msgstr "Långsamt Läge"
+msgstr "Långsamt läge"
 
 msgid "setting.actions.preview.subs"
-msgstr "Endast Prenumeranter"
+msgstr "Endast prenumeranter"
 
 msgid "setting.actions.reason"
 msgstr "Standardanledning"
@@ -269,7 +269,7 @@ msgid "setting.actions.text"
 msgstr "Etikett"
 
 msgid "setting.actions.tooltip"
-msgstr "Anpassad Inforuta"
+msgstr "Anpassad inforuta"
 
 msgid "setting.actions.type"
 msgstr "Typ"
@@ -278,7 +278,7 @@ msgid "setting.actions.url"
 msgstr "URL"
 
 msgid "setting.actions.variables"
-msgstr "Tillgängliga Variabler: {vars}"
+msgstr "Tillgängliga variabler: {vars}"
 
 msgid "setting.actions.visibility"
 msgstr "Synlighet"
@@ -296,7 +296,7 @@ msgid "setting.actions.visible.mod"
 msgstr "när moderator"
 
 msgid "setting.actions.visible.mod_icons"
-msgstr "när moderator-ikoner visas"
+msgstr "när moderatorikoner visas"
 
 msgid "setting.actions.visible.slow"
 msgstr "i långsamt läge"
@@ -346,7 +346,7 @@ msgid "setting.appearance.localization.general"
 msgstr "Allmänt"
 
 msgid "setting.appearance.localization.general.language.twitch"
-msgstr "Använd Samma Språk som Twitch"
+msgstr "Använd samma språk som Twitch"
 
 msgid "setting.appearance.theme"
 msgstr "Tema"
@@ -384,7 +384,7 @@ msgid "setting.backup-restore.enable-auto"
 msgstr "Ja, tillåt automatiska uppdateringar."
 
 msgid "setting.backup-restore.error"
-msgstr "Det uppstod ett fel i backup processen."
+msgstr "Ett fel uppstod när i denna säkerhetskopia behandlades."
 
 msgid "setting.backup-restore.imported"
 msgstr ""
@@ -728,7 +728,7 @@ msgid "setting.delete"
 msgstr "Radera"
 
 msgid "setting.delete-all"
-msgstr "Radera Alla"
+msgstr "Radera alla"
 
 msgid "setting.directory"
 msgstr "Katalog"
@@ -828,10 +828,10 @@ msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Oförändrade"
 
 msgid "setting.entry.chat.adjustment-mode.values.1"
-msgstr "HSL Luma"
+msgstr "HSL-ljusstyrka"
 
 msgid "setting.entry.chat.adjustment-mode.values.2"
-msgstr "Luv Luma"
+msgstr "Luv-ljusstyrka"
 
 msgid "setting.entry.chat.adjustment-mode.values.3"
 msgstr "HSL-loop (liknar BTTV)"
@@ -869,16 +869,16 @@ msgid "setting.entry.chat.badges.style.values.2"
 msgstr "Cirkulär"
 
 msgid "setting.entry.chat.badges.style.values.3"
-msgstr "Cirkulär (Endast Färg)"
+msgstr "Cirkulär (endast färg)"
 
 msgid "setting.entry.chat.badges.style.values.4"
-msgstr "Cirkulär (Endast Färg, Liten)"
+msgstr "Cirkulär (endast färg, liten)"
 
 msgid "setting.entry.chat.badges.style.values.5"
 msgstr "Genomskinlig"
 
 msgid "setting.entry.chat.badges.style.values.6"
-msgstr "Genomskinlig (Färgad)"
+msgstr "Genomskinlig (färgad)"
 
 msgid "setting.entry.chat.bits.animated"
 msgstr "Visa animerade cheers."
@@ -940,13 +940,13 @@ msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra lång (10s)"
 
 msgid "setting.entry.chat.delay.values.1200"
-msgstr "Normal (Mänsklig Moderation; 1.2s)"
+msgstr "Normal (mänsklig moderation; 1,2s)"
 
 msgid "setting.entry.chat.delay.values.15000"
-msgstr "Extremt lång (15s)"
+msgstr "Extremt stor (15s)"
 
 msgid "setting.entry.chat.delay.values.20000"
-msgstr "Sovande Moderatorer; Fördröj Chatten (20s)"
+msgstr "Sovande moderatorer; fördröj chatten (20s)"
 
 msgid "setting.entry.chat.delay.values.300"
 msgstr "Liten (robotmoderation; 0,3s)"
@@ -955,13 +955,13 @@ msgid "setting.entry.chat.delay.values.30000"
 msgstr "En halv minut (30s)"
 
 msgid "setting.entry.chat.delay.values.5000"
-msgstr "Lång (Spoiler-Borttagning / Långsamma Moderator; 5s)"
+msgstr "Stor (spoilerborttagning / långsamma moderatorer; 5s)"
 
 msgid "setting.entry.chat.delay.values.60000"
 msgstr "Varför??? (1m)"
 
 msgid "setting.entry.chat.delay.values.788400000000"
-msgstr "CBenni-alternativet (Bokstavligen 25 år)"
+msgstr "CBenni-alternativet (bokstavligen 25 år)"
 
 msgid "setting.entry.chat.emoji.style"
 msgstr "Emoji Stil"
@@ -1058,16 +1058,16 @@ msgid "setting.entry.chat.filtering.deleted-style.values.1"
 msgstr "Nedtonad och genomstruken"
 
 msgid "setting.entry.chat.filtering.deleted-style.values.2"
-msgstr "Linje Genom"
+msgstr "Genomstruken"
 
 msgid "setting.entry.chat.filtering.deleted-style.values.3"
-msgstr "Ingen Förändring"
+msgstr "Ingen förändring"
 
 msgid "setting.entry.chat.filtering.display-deleted"
 msgstr "Visningsläge"
 
 msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
-msgstr "Kort"
+msgstr "Kortfattad"
 
 msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
 msgstr "Detaljerad"
@@ -1085,7 +1085,7 @@ msgid "setting.entry.chat.filtering.display-mod-action.values.0"
 msgstr "Aldrig"
 
 msgid "setting.entry.chat.filtering.display-mod-action.values.1"
-msgstr "I Detaljerat Läge"
+msgstr "I detaljerat läge"
 
 msgid "setting.entry.chat.filtering.display-mod-action.values.2"
 msgstr "Alltid"
@@ -1140,13 +1140,13 @@ msgid "setting.entry.chat.filtering.remove-deleted.values.0"
 msgstr "Ta inte bort"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.1"
-msgstr "Göm Osedda Meddelanden (Standard)"
+msgstr "Ta bort osedda (standard)"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
-msgstr "Göm Osedda Meddelanden som Moderator"
+msgstr "Ta bort osedda som moderator"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.3"
-msgstr "Radera Alla"
+msgstr "Radera alla"
 
 msgid "setting.entry.chat.fix-bad-emotes"
 msgstr "Fixa dåliga Globala Twitch Emotes"
@@ -1180,13 +1180,13 @@ msgid "setting.entry.chat.lines.borders.values.0"
 msgstr "Inaktiverad"
 
 msgid "setting.entry.chat.lines.borders.values.1"
-msgstr "Enkel Linje (1px Solid)"
+msgstr "Enkel linje (1px solid)"
 
 msgid "setting.entry.chat.lines.borders.values.2"
-msgstr "3D-Linje (2px Groove)"
+msgstr "3D-linje (2px upphöjning)"
 
 msgid "setting.entry.chat.lines.borders.values.3"
-msgstr "3D-Linje (2px Groove Inset)"
+msgstr "3D-linje (2px infälld upphöjning)"
 
 msgid "setting.entry.chat.lines.borders.values.4"
 msgstr "Bred linje (2px solid)"
@@ -1549,7 +1549,7 @@ msgid "setting.entry.directory.uptime.values.1"
 msgstr "Aktiverad"
 
 msgid "setting.entry.directory.uptime.values.2"
-msgstr "Aktiverad (med Sekunder)"
+msgstr "Aktiverad (med sekunder)"
 
 msgid "setting.entry.experiments"
 msgstr "experiment"
@@ -1597,7 +1597,7 @@ msgid "setting.entry.i18n.debug.transform.values.double"
 msgstr "Dubbla"
 
 msgid "setting.entry.i18n.debug.transform.values.lower"
-msgstr "Små Bokstäver"
+msgstr "Gemener"
 
 msgid "setting.entry.i18n.debug.transform.values.null"
 msgstr "Inaktiverad"
@@ -1606,7 +1606,7 @@ msgid "setting.entry.i18n.debug.transform.values.owo"
 msgstr "owo vad är det här"
 
 msgid "setting.entry.i18n.debug.transform.values.set_key"
-msgstr "Sätt till Tangent"
+msgstr "Tilldela tangent"
 
 msgid "setting.entry.i18n.debug.transform.values.upper"
 msgstr "Versaler"
@@ -1657,7 +1657,7 @@ msgid "setting.entry.layout.side-nav.rerun-style"
 msgstr "Visa Repriser"
 
 msgid "setting.entry.layout.side-nav.rerun-style.values.0"
-msgstr "Visa Inte"
+msgstr "Visa inte"
 
 msgid "setting.entry.layout.side-nav.rerun-style.values.1"
 msgstr "Normalt"
@@ -1681,7 +1681,7 @@ msgid "setting.entry.layout.side-nav.show-friends.values.1"
 msgstr "Alltid"
 
 msgid "setting.entry.layout.side-nav.show-friends.values.2"
-msgstr "När Sidonavigering är Öppen"
+msgstr "När sidonavigering är öppen"
 
 msgid "setting.entry.layout.side-nav.show-rec-channels"
 msgstr "Visa Rekommenderade / Populära Kanaler"
@@ -2059,7 +2059,7 @@ msgid "setting.experiments.entry"
 msgstr "{value,tostring} (vikt: {weight,tostring})"
 
 msgid "setting.experiments.ffz"
-msgstr "FrankerFaceZ-Experiment"
+msgstr "FrankerFaceZ-experiment"
 
 msgid "setting.experiments.inactive"
 msgstr "Detta experiment är inte aktivt."
@@ -2086,7 +2086,7 @@ msgid "setting.false"
 msgstr "Falskt"
 
 msgid "setting.filter.if.else"
-msgstr "Eller"
+msgstr "Annars"
 
 msgid "setting.filter.if.then"
 msgstr "Då"
@@ -2095,13 +2095,13 @@ msgid "setting.filter.page.url"
 msgstr "URL: {url}"
 
 msgid "setting.filters.active"
-msgstr "Denna Regel Matchar."
+msgstr "Denna regel matchar."
 
 msgid "setting.filters.add"
 msgstr "Lägg till"
 
 msgid "setting.filters.add-new"
-msgstr "Lägg till Regel"
+msgstr "Lägg till ny regel"
 
 msgid "setting.filters.empty"
 msgstr "(inga filter)"
@@ -2146,7 +2146,7 @@ msgid "setting.icon.clear"
 msgstr "Rensa"
 
 msgid "setting.icon.search"
-msgstr "Sök efter Ikon"
+msgstr "Sök efter ikon"
 
 msgid "setting.import"
 msgstr "Importera…"
@@ -2173,7 +2173,7 @@ msgid "setting.new"
 msgstr "Ny"
 
 msgid "setting.overridden-by"
-msgstr "Överskriden Av: {title}"
+msgstr "Överskrids av: {title}"
 
 msgid "setting.player"
 msgstr "Spelare"
@@ -2249,7 +2249,7 @@ msgid "setting.profiles.moderation.description"
 msgstr "Inställningar som gäller när du är moderator i den nuvarande kanalen."
 
 msgid "setting.profiles.new"
-msgstr "Ny Profil"
+msgstr "Ny profil"
 
 msgid "setting.profiles.warn-delete"
 msgstr ""
@@ -2257,10 +2257,10 @@ msgstr ""
 "återställas."
 
 msgid "setting.reasons.add-default"
-msgstr "Lägg till Standardvärden"
+msgstr "Lägg till standardvärden"
 
 msgid "setting.reasons.add-default-tip"
-msgstr "Lägg till alla standard-anledningar till den här profilen."
+msgstr "Lägg till alla standardanledningar i denna profil."
 
 msgid "setting.reasons.add-placeholder"
 msgstr "Lägg till en ny anledning"
@@ -2304,7 +2304,7 @@ msgid "setting.terms.type.regex"
 msgstr "Reguljärt uttryck"
 
 msgid "setting.terms.type.regex-word"
-msgstr "Regex (Ord)"
+msgstr "Reguljärt uttryck (ord)"
 
 msgid "setting.terms.type.text"
 msgstr "Text"
@@ -2330,10 +2330,10 @@ msgid "setting.warn-unsaved"
 msgstr "Du har osparade ändringar. Är du säker på att du vill lämna redigeraren?"
 
 msgid "settings.filter.category"
-msgstr "Aktuell Kategori"
+msgstr "Aktuell kategori"
 
 msgid "settings.filter.channel"
-msgstr "Nuvarande Kanal"
+msgstr "Nuvarande kanal"
 
 msgid "settings.filter.if"
 msgstr "Om"
@@ -2342,16 +2342,16 @@ msgid "settings.filter.invert"
 msgstr "Invertera"
 
 msgid "settings.filter.moderator"
-msgstr "Är Moderator"
+msgstr "Är moderator"
 
 msgid "settings.filter.native-dark"
-msgstr "Mörkt Tema"
+msgstr "Mörkt tema"
 
 msgid "settings.filter.or"
 msgstr "Eller"
 
 msgid "settings.filter.page"
-msgstr "Nuvarande Sida"
+msgstr "Nuvarande sida"
 
 msgid "settings.filter.page.route.addons.deck"
 msgstr "Deck"
@@ -2381,16 +2381,16 @@ msgid "settings.filter.page.route.dir-following"
 msgstr "Följer"
 
 msgid "settings.filter.page.route.dir-game-clips"
-msgstr "Katalog Spel-clip"
+msgstr "Katalog för spelklipp"
 
 msgid "settings.filter.page.route.dir-game-index"
-msgstr "Katalog Spelindex"
+msgstr "Katalog för spelindex"
 
 msgid "settings.filter.page.route.dir-game-videos"
-msgstr "Katalog Spel-videos"
+msgstr "Katalog för spelvideor"
 
 msgid "settings.filter.page.route.embed-chat"
-msgstr "Inbäddad Chatt"
+msgstr "Inbäddad chatt"
 
 msgid "settings.filter.page.route.embed-chat.userName"
 msgstr "Användarnamn"
@@ -2450,7 +2450,7 @@ msgid "settings.filter.page.route.video"
 msgstr "Video"
 
 msgid "settings.filter.squad"
-msgstr "ostGruppläge"
+msgstr "Gruppläge"
 
 msgid "settings.filter.theater"
 msgstr "Teaterläge"
@@ -2803,7 +2803,7 @@ msgstr "Kontrollcenter"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.control_center.search"
-msgstr "Sök"
+msgstr "Sökning"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4209,7 +4209,7 @@ msgstr "Markera dekaler"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight"
-msgstr "Markera"
+msgstr "Markering"
 
 #, icu-message-format
 msgid "setting.entry.chat.badges.clickable"
@@ -4454,3 +4454,561 @@ msgstr "Använd anpassade moderatordekaler där det går."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-vip"
 msgstr "Använd anpassade VIP-dekaler där det går."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Åtgärda Twitchs dåliga globala emotes"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-collections"
+msgstr "Kontrollpanelen: Samlingar"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-settings-revenue"
+msgstr "Kontrollpanelen: Inställningsintäkter"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.2"
+msgstr "Aktiverad"
+
+#: /src/modules/main_menu/index.js:632
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emotes.enabled.description"
+msgstr "Om du inte vill se emotes kan du inaktivera dem här."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following"
+msgstr "Följer"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Använd chattfilter som en moderator."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Markera meddelanden som raderade om de innehåller filtrerade fraser."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Ändra användarfärger för att säkerställa att de förblir läsbara."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Ta bort meddelanden helt och hållet om de innehåller filtrerade fraser."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-unfollow"
+msgstr "Dölj knappen för att sluta följa."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Visa rumsåtgärder ovanför chattens inmatningsfält."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Justera dekalfärger för ökad synlighet."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.style"
+msgstr "Stil"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Fyrkant"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Synlighet"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.polls"
+msgstr "Tillåt omröstningar att visas i chatten."
+
+#: /src/modules/main_menu/index.js:410
+#, icu-message-format
+msgid "setting.entry.chat.badges.media-queries"
+msgstr ""
+"Använd @media-frågor för att få stöd för dekalbilder med hög DPI i Mozilla "
+"Firefox."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Fördröj hur meddelanden dyker upp i chatten för att göra det möjligt att "
+"moderera innan du ser dem."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Visar alla emotes i en flik."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.0"
+msgstr "Inaktiverad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.0"
+msgstr "Inaktiverad"
+
+#: /src/modules/main_menu/index.js:477
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x"
+msgstr "Större emotes"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.animated"
+msgstr "Animerade emotes"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.1"
+msgstr "Aktiverad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.1"
+msgstr "Endast Twitch"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.2"
+msgstr "Aktivera vid hovring"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Klicka för att visa raderade termer."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.deleted-style"
+msgstr "Stil för detaljerade meddelanden"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.bold-mentions"
+msgstr "Visa omnämnanden i chatten med fet stil."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.extra-timestamps"
+msgstr "Visa tidstämplar på notiser."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Renderingsläge"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-priority"
+msgstr "Prioritet för omnämnande"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Raderade meddelanden kommer att tas bort från chatten helt och hållet. Denna "
+"inställning rekommenderas inte för moderatorer."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Filtrera dina egna meddelanden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Ta bort raderade meddelanden från chatten."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-family.description"
+msgstr "Ange typsnittet som används för att visa chattmeddelanden."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Städa upp bilderna för Twitchs dåliga globala emotes genom att ta bort vita "
+"kanter och solida bakgrunder."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.me-style"
+msgstr "Stil för åtgärder"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.name-format"
+msgstr "Visningsstil"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Visa rikt innehåll i chatten"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hidden.reveal"
+msgstr "Visa dolda poster vid hovring."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hidden.style"
+msgstr "Stil för dolda poster"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.video-chat.timestamps"
+msgstr "Visa tidstämplar bredvid chattmeddelanden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.home"
+msgstr "hem"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Visa kanalavatarer."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.hide-viewers"
+msgstr "Dölj antal kanalvisningar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Visa knappen \"Skaffa bits\"."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr ""
+"Detta är bredd-till-höjd-förhållandet då porträttläget ska börja aktiveras."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.layout.side-nav.show.values.1"
+msgstr "Alltid"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.theatre-navigation"
+msgstr "Visa ett minimerat navigeringsfält när teaterläge har aktiverats."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.layout.side-nav.show.values.2"
+msgstr "Dölj porträttläge"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Visa sidonavigering"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Varning om strömfördröjning"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.shortcut"
+msgstr "Kortkommando"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.vertical"
+msgstr "Vertikal position"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.ratio"
+msgstr "Förhållande"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Öppna automatiskt teaterläget när man besöker en kanal."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.default"
+msgstr "Standardvärde"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.max"
+msgstr "Maximalt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Dölj viskningar när teaterläget har aktiverats."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Visa stora bilder på emotes."
+
+#, icu-message-format
+msgid "setting.entry.theme.color.chat-accent"
+msgstr "Accent"
+
+#, icu-message-format, md-text
+msgid "setting.entry.theme.color.chat-accent.description"
+msgstr "Accentfärgen som används för knappar, länkar, etc."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.accent"
+msgstr "Accent"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.accent.description"
+msgstr "Accentfärgen som används för knappar, länkar, etc."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Visa kända källor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.images"
+msgstr "Visa bilder i inforutor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.whispers.show"
+msgstr "Visa viskningar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-images"
+msgstr "Visa bilder för länkar."
+
+#: /src/modules/main_menu/components/experiments.vue:205
+#: /src/modules/main_menu/components/experiments.vue:444
+#, icu-message-format
+msgid "setting.experiments.none"
+msgstr "Det finns inga nuvarande experiment."
+
+#: /src/modules/main_menu/components/experiments.vue:205
+#: /src/modules/main_menu/components/experiments.vue:444
+#, icu-message-format
+msgid "setting.experiments.none-filter"
+msgstr "Det finns inga matchande experiment."
+
+#: /src/modules/main_menu/components/experiments.vue:193
+#, icu-message-format
+msgid "setting.experiments.show-unused"
+msgstr "Visa oanvända experiment."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Visa potentiella olämpliga bilder."
+
+#: /src/modules/main_menu/components/profile-manager.vue:248
+#, icu-message-format
+msgid "setting.import.do"
+msgstr "Importera"
+
+#: /src/modules/main_menu/components/profile-manager.vue:327
+#, icu-message-format
+msgid "setting.import.file"
+msgstr "Från fil"
+
+#: /src/modules/main_menu/components/profile-manager.vue:288
+#, icu-message-format
+msgid "setting.import.url"
+msgstr "Från webbadress"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:44
+#, icu-message-format
+msgid "setting.font.google"
+msgstr "Google Fonts"
+
+#: /src/modules/main_menu/components/game-list-editor.vue:118
+#, icu-message-format
+msgid "setting.no-items"
+msgstr "inga poster"
+
+#: /src/modules/main_menu/components/action-editor.vue:546
+#, icu-message-format
+msgid "setting.new-line"
+msgstr "Ny rad"
+
+#: /src/modules/main_menu/components/action-editor.vue:578
+#, icu-message-format
+msgid "setting.new-line.desc"
+msgstr "Placera alla poster efter detta på en ny rad."
+
+#: /src/modules/main_menu/components/action-editor.vue:552
+#, icu-message-format
+msgid "setting.space"
+msgstr "Mellanrum"
+
+#: /src/modules/main_menu/components/action-editor.vue:549
+#, icu-message-format
+msgid "setting.space-small"
+msgstr "Mellanrum (litet)"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-achievements"
+msgstr "Kontrollpanelen: Prestationer"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-activity"
+msgstr "Kontrollpanelen: Aktivitet"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-channel-analytics"
+msgstr "Kontrollpanelen: Kanalanalys"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-channel-points"
+msgstr "Kontrollpanelen: Kanalpoäng"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-clips"
+msgstr "Kontrollpanelen: Klipp"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Kontrollpanelen: Redigera samling"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-edit-video"
+msgstr "Kontrollpanelen: Redigera video"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-extensions"
+msgstr "Kontrollpanelen: Webbläsartillägg"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-roles"
+msgstr "Kontrollpanelen: Roller"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-settings-channel"
+msgstr "Kontrollpanelen: Inställningskanal"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-settings-moderation"
+msgstr "Kontrollpanelen: Inställningsmoderering"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-stream-manager"
+msgstr "Kontrollpanelen: Strömhanterare"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-stream-summary"
+msgstr "Kontrollpanelen: Strömsammanfattning"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-streaming-tools"
+msgstr "Kontrollpanelen: Strömverktyg"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-video-producer"
+msgstr "Kontrollpanelen: Videoproducering"
+
+#: /src/modules/main_menu/components/term-editor.vue:420
+#, icu-message-format
+msgid "settings.terms.word.tip"
+msgstr "Matcha hela ord"
+
+#: /src/settings/components/title.vue:43
+#, icu-message-format
+msgid "settings.filter.title.warn-invalid"
+msgstr "Detta mönster är ogiltigt."
+
+#: /src/modules/main_menu/components/term-editor.vue:272
+#, icu-message-format
+msgid "settings.terms.sensitive"
+msgstr "Aa"
+
+#: /src/modules/main_menu/components/term-editor.vue:383
+#, icu-message-format
+msgid "settings.terms.word"
+msgstr "Abc"
+
+#: /src/settings/components/title.vue:73
+#, icu-message-format
+msgid "settings.filter.title.warn-complex"
+msgstr ""
+"Detta mönster är eventuellt för komplext. Det kommer att inaktiveras för att "
+"undvika lagg eller frysningen i klienten."
+
+#: /src/modules/main_menu/components/term-editor.vue:536
+#, icu-message-format
+msgid "settings.terms.highlight.tip"
+msgstr ""
+"Markera matchningar\n"
+"\n"
+"Detta kräver inställningen \"Markera matchande ord i chatten.\" för att "
+"kunna fungera."
+
+#: /src/modules/main_menu/components/term-editor.vue:497
+#, icu-message-format
+msgid "settings.terms.highlight"
+msgstr "Mrk"
