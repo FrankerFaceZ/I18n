@@ -1,185 +1,195 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-20 00:32+0000\n"
+"Last-Translator: Anton <anton_r_3@hotmail.com>\n"
+"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/embed/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.animated-emote"
-msgstr ""
+msgstr "Animerad emote"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
 msgid "embed.bttv.by-line"
-msgstr ""
+msgstr "Av: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.status.approved"
-msgstr ""
+msgstr "Godkänd"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.uploader"
-msgstr ""
+msgstr "Uppladdare"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"#readherefirst\"}"
 msgid "embed.discord.channel"
-msgstr ""
+msgstr "Kanal: {name}"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format
 msgid "embed.discord.invite"
-msgstr ""
+msgstr "Inbjudan till Discord"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"The Cohhilition\"}"
 msgid "embed.discord.server"
-msgstr ""
+msgstr "Server: {name}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
 msgid "embed.ffz.by-line"
-msgstr ""
+msgstr "Av: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.emote"
-msgstr ""
+msgstr "Emote"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.owner"
-msgstr ""
+msgstr "Ägare"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.public"
-msgstr ""
+msgstr "Offentlig"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
-msgstr ""
+msgstr "{count,plural,one {# användare} other {{count,number} användare}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.users"
-msgstr ""
+msgstr "Användare"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.ended"
-msgstr ""
+msgstr "Slutades {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.event-ended"
-msgstr ""
+msgstr "Evenemanget har slutat"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "embed.horaro.last"
-msgstr ""
+msgstr "Senaste"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.range"
-msgstr ""
+msgstr "{start} till {end}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.album"
-msgstr ""
+msgstr "Imgur-album"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
+"{images,plural,one{# bild}other{# bilder}} • {views,plural,one{# "
+"visning}other{{views,number} visningar}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
 msgid "embed.imgur.by"
-msgstr ""
+msgstr "Av: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dimensions"
-msgstr ""
+msgstr "Dimensioner"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dislikes"
-msgstr ""
+msgstr "Nedröstningar"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.gallery"
-msgstr ""
+msgstr "Imgur-galleri"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
+"{posted,datetime} • {points,plural,one{# poäng}other{{points,number} poäng}} "
+"• 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.images"
-msgstr ""
+msgstr "Bilder"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.likes"
-msgstr ""
+msgstr "Uppröstningar"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":24}"
 msgid "embed.imgur.more"
-msgstr ""
+msgstr "och {count,number} till"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.score"
-msgstr ""
+msgstr "Poäng"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.views"
-msgstr ""
+msgstr "Visningar"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.metadata.untitled"
-msgstr ""
+msgstr "Namnlöst HTML-dokument"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "embed.src.igt"
-msgstr ""
+msgstr "IGT"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
 msgid "embed.src.joined"
-msgstr ""
+msgstr "Registrerades {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":32}"
 msgid "embed.src.more"
-msgstr ""
+msgstr "(och {count} till)"
 
 #: /src/utilities/rich_tokens.js:814
-#, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
+#, fuzzy, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
 msgid "embed.src.pbs"
-msgstr ""
+msgstr "{user}s personbästa"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
-msgstr ""
+msgstr "{place,selectordinal,one {#a} two {#a} few {#e} other {#e}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -194,32 +204,32 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-cat"
-msgstr ""
+msgstr "Kategori"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-game"
-msgstr ""
+msgstr "Spel"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-place"
-msgstr ""
+msgstr "Plats"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-submitted"
-msgstr ""
+msgstr "Skickades in"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.src.t-time"
-msgstr ""
+msgstr "Tid"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
 msgid "embed.src.with"
-msgstr ""
+msgstr "med {players}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -260,3 +270,5 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
+"{channel} • {views,plural,one {# visning} other {{views,number} visningar}} •"
+" 👍 {likes,number}  • 👎 {dislikes,number}"
