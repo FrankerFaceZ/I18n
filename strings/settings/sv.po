@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-20 20:32+0000\n"
+"PO-Revision-Date: 2022-04-21 21:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -5046,3 +5046,54 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.enabled"
 msgstr "Använd FrankerFaceZ:s emotemeny."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges.description"
+msgstr ""
+"**OBS:** Detta avsnitt är till för att filtrera bort chattmeddelanden från "
+"användare med specifika dekaler. Om du vill dölja en dekal, gå till [Chatt > "
+"Dekaler >> Synlighet](~chat.badges.tabs.visibility)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "Automodereringsfilter"
+
+#: /src/modules/main_menu/index.js:593
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_badges.description"
+msgstr ""
+"**OBS:** Detta avsnitt är till för att filtrera bort chattmeddelanden från "
+"användare med specifika dekaler. Om du vill dölja en dekal, gå till [Chatt > "
+"Dekaler >> Synlighet](~chat.badges.tabs.visibility)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards"
+msgstr "Tittarkort"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Overrides"
+msgstr "Åsidosättningar av namn och färger"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.color-mentions"
+msgstr "Visa omnämnanden i chatten med färglagda användarnamn."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.color-mentions.description"
+msgstr ""
+"**OBS:** Inte kompatibel med färgåsidosättningar då omnämnanden inte "
+"inkluderar användar-ID:n."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Om detta anges kommer markerade meddelande utan standardfärg att använda "
+"denna färg istället för röd."
