@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-20 00:32+0000\n"
+"PO-Revision-Date: 2022-04-20 20:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -5012,3 +5012,37 @@ msgstr ""
 #, icu-message-format
 msgid "settings.terms.highlight"
 msgstr "Mrk"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.rich_content"
+msgstr "Rikt innehåll"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Denna funktion är för tillfället en betaversion. Därför kan du uppleva "
+"problem när du använder FFZ-funktioner med \"Chatta på videor\"."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Automodereringsfilter"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr "Ersätt ikonen för emotemenyn med FFZ-ikonen för en klassisk känsla."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-dialogs"
+msgstr ""
+"Öppna informationskort om emotes för Twitch-emotes genom att klicka på dem."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Använd FrankerFaceZ:s emotemeny."
