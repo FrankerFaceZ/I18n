@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-23 22:32+0000\n"
+"PO-Revision-Date: 2022-04-24 06:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -2292,7 +2292,7 @@ msgid "setting.terms.add-term"
 msgstr "Lägg till"
 
 msgid "setting.terms.no-terms"
-msgstr "inga termer har definierats i denna profilen"
+msgstr "inga termer har definierats i denna profil"
 
 msgid "setting.terms.remove.off"
 msgstr "Ta inte bort matchande meddelanden från chatten."
@@ -5328,3 +5328,44 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Slå samman massprenumerationsgåvor"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack"
+msgstr "Stapla cheers"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"Detta filter låter dig ta bort alla meddelanden av en viss typ från Twitch-"
+"chatten. Det kan användas för att filtrera systemmeddelanden, som värdar "
+"eller räder. Vissa typer, som modereringsåtgärder, kan inte blockeras för "
+"att förhindra chattfunktionalitet från att sluta fungera."
+
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_message_types.description"
+msgstr ""
+"Detta filter låter dig ta bort alla meddelanden av en viss typ från Twitch-"
+"chatten. Det kan användas för att filtrera systemmeddelanden, som värdar "
+"eller räder. Vissa typer, som modereringsåtgärder, kan inte blockeras för "
+"att förhindra chattfunktionalitet från att sluta fungera."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice"
+msgstr "Visa en notis på chattmeddelanden som innehåller cheers."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Samla ihop alla cheers i ett meddelande till en enda cheer i början av "
+"meddelandet."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Gruppera värdar"
