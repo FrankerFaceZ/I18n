@@ -1,37 +1,43 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-25 07:32+0000\n"
+"Last-Translator: SeanPai <seanpai96@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
+"projects/frankerfacez/addon-pronouns/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/addons.js:261
 #: /src/pronouns/index.jsx:161
 #, icu-message-format, lp-defaults:"{\"value\":\"Zie/Hir\"}"
 msgid "addon.pronouns.title"
-msgstr ""
+msgstr "代名詞: {value}"
 
 #: /src/modules/main_menu/index.js:583
 #: /src/modules/main_menu/components/menu-tree.vue:1
 #, icu-message-format
 msgid "setting.add_ons.pronouns"
-msgstr ""
+msgstr "代名詞"
 
 #: /src/modules/main_menu/index.js:583
 #, icu-message-format
 msgid "setting.add_ons.pronouns.appearance"
-msgstr ""
+msgstr "外觀"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.pronouns.per_badge_colors"
-msgstr ""
+msgstr "不同徽章的顏色"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.border"
-msgstr ""
+msgstr "在徽章的周圍顯示邊框。"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.color"
-msgstr ""
+msgstr "徽章顏色"
