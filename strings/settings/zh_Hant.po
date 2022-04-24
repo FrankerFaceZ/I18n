@@ -1,239 +1,288 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-24 15:24+0000\n"
+"Last-Translator: SeanPai <seanpai96@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
+"projects/frankerfacez/settings/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/modules/main_menu/components/addon.vue:85
 #, icu-message-format, lp-defaults:"{\"author\":\"Lordmau5\"}"
 msgid "addon.author"
-msgstr ""
+msgstr "由: {author}"
 
 #: /src/modules/main_menu/components/addon.vue:157
 #, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
 msgid "addon.created"
-msgstr ""
+msgstr "建立時間: {when,date}"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.deck.author"
-msgstr ""
+msgstr "SirStendec"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.deck.name"
-msgstr ""
+msgstr "Deck"
 
 #: /src/modules/main_menu/components/addon.vue:51
 #, icu-message-format
 msgid "addon.dev"
-msgstr ""
+msgstr "開發者"
 
 #: /src/modules/main_menu/components/addon.vue:195
 #, icu-message-format
 msgid "addon.disable"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/addon.vue:245
 #, icu-message-format
 msgid "addon.enable"
-msgstr ""
+msgstr "啟用"
 
 #: /src/modules/main_menu/components/addon.vue:40
 #, icu-message-format
 msgid "addon.enabled"
-msgstr ""
+msgstr "已啟用"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.ffzap-bttv.author"
-msgstr ""
+msgstr "Lordmau5"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-bttv.name"
-msgstr ""
+msgstr "BetterTTV表情符號"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.ffzap-core.author"
-msgstr ""
+msgstr "Lordmau5"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-core.name"
-msgstr ""
+msgstr "FrankerFaceZ 附加元件包 - 核心"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.ffzap-liriklive.author"
-msgstr ""
+msgstr "Lordmau5"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-liriklive.name"
-msgstr ""
+msgstr "LirikLIVE"
 
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
 msgid "addon.filter-enabled"
-msgstr ""
+msgstr "只顯示已啟用的附加元件。"
 
 #: /src/modules/main_menu/components/addon.vue:220
 #, icu-message-format
 msgid "addon.settings"
-msgstr ""
+msgstr "設定"
 
 #: /src/modules/main_menu/components/addon.vue:3
 #, icu-message-format
 msgid "addon.show-less"
-msgstr ""
+msgstr "(顯示更少)"
 
 #: /src/modules/main_menu/components/addon.vue:134
 #, icu-message-format
 msgid "addon.show-more"
-msgstr ""
+msgstr "(顯示更多)"
 
 #: /src/modules/main_menu/components/addon-list.vue:172
 #, icu-message-format
 msgid "addon.sort-create"
-msgstr ""
+msgstr "排序方式依: 建立時間"
 
 #: /src/modules/main_menu/components/addon-list.vue:90
 #, icu-message-format
 msgid "addon.sort-name"
-msgstr ""
+msgstr "排序方式依: 名稱"
 
 #: /src/modules/main_menu/components/addon-list.vue:98
 #, icu-message-format
 msgid "addon.sort-update"
-msgstr ""
+msgstr "排序方式依: 上傳日期"
 
 #: /src/modules/main_menu/components/addon.vue:61
 #, icu-message-format
 msgid "addon.unlisted"
-msgstr ""
+msgstr "已隱藏"
 
 #: /src/modules/main_menu/components/addon-list.vue:97
 #, icu-message-format
 msgid "addon.unlisted.add"
-msgstr ""
+msgstr "新增隱藏的元件..."
 
 #: /src/modules/main_menu/components/addon-list.vue:120
 #, icu-message-format
 msgid "addon.unlisted.explain"
 msgstr ""
+"隱藏的附加元件是已經被認可但選擇不公開的元件。這可能是因為他是給特定用戶的元件，或是因為該元件目前仍在開發中。如果你知道一個隱藏元件的ID，請在這裡輸入並"
+"讓它現形。"
 
 #: /src/modules/main_menu/components/addon-list.vue:138
 #, icu-message-format
 msgid "addon.unlisted.id"
-msgstr ""
+msgstr "附加元件ID"
 
 #: /src/modules/main_menu/components/addon.vue:136
 #, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
 msgid "addon.updated"
-msgstr ""
+msgstr "更新於: {when,humantime}"
 
 #: /src/modules/main_menu/components/addon.vue:98
 #, icu-message-format, lp-defaults:"{\"version\":\"3.2.0\"}"
 msgid "addon.version"
-msgstr ""
+msgstr "版本 {version}"
 
 #: /src/modules/main_menu/components/addon.vue:271
 #, icu-message-format
 msgid "addon.website"
-msgstr ""
+msgstr "網站"
 
 #, icu-message-format, md-text
 msgid "home.about"
 msgstr ""
+"謝謝您使用FrankerFaceZ。\n"
+"\n"
+" 版本4.0從Twitch在2017年末開始使用React開發網站一直到現在仍然在積極地開發中。"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
-msgstr ""
+msgstr "新的附加元件"
 
 #, icu-message-format, md-text
 msgid "home.addon-new.desc"
-msgstr ""
+msgstr "這些附加元件是最近七天發表的。可以在[附加元件](~add_ons)看看它們。"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
-msgstr ""
+msgstr "已更新的附加元件"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates.desc"
-msgstr ""
+msgstr "這些附加元件是在這七天間更新的。可以去 [更新紀錄](~add_ons.changelog) 看看他們更新了什麼。"
 
 #: /src/modules/main_menu/components/changelog.vue:7
 #, icu-message-format
 msgid "home.changelog"
-msgstr ""
+msgstr "更新紀錄"
 
 #: /src/modules/main_menu/components/changelog.vue:81
 #, icu-message-format
 msgid "home.changelog.about-nonversioned"
-msgstr ""
+msgstr "對於FrankerFaceZ中無版本號的Commit不會跟正式釋出版有關聯。那些通常代表維護或社群提交的小更新，他們會擺在後續發布的更新中。"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"Lordmau5\"}"
 msgid "home.changelog.by-line"
-msgstr ""
+msgstr "由: {user}"
 
 #, icu-message-format
 msgid "home.changelog.current"
-msgstr ""
+msgstr "當前版本"
 
 #, icu-message-format
 msgid "home.changelog.error"
-msgstr ""
+msgstr "從GitHub讀取更新時發生錯誤。"
 
 #: /src/modules/main_menu/components/changelog.vue:120
 #, icu-message-format
 msgid "home.changelog.load"
-msgstr ""
+msgstr "讀取更多"
 
 #, icu-message-format
 msgid "home.changelog.no-more"
-msgstr ""
+msgstr "沒有更多Commit可以讀取。"
 
 #: /src/modules/main_menu/components/changelog.vue:72
 #, icu-message-format
 msgid "home.changelog.nonversioned"
-msgstr ""
+msgstr "無版本號的Commit"
 
 #: /src/modules/main_menu/components/changelog.vue:61
 #, icu-message-format
 msgid "home.changelog.show-nonversioned"
-msgstr ""
+msgstr "包含無版本號的Commits。"
 
 #, icu-message-format
 msgid "home.discord"
-msgstr ""
+msgstr "Discord"
 
 #: /src/modules/main_menu/components/faq-page.vue:8
 #, icu-message-format, md-text
 msgid "home.faq"
 msgstr ""
+"## 常見問題\n"
+"\n"
+"* *[某功能]怎麼了?*\n"
+"\n"
+"我們仍然有些曾經在FrankerFaceZ v3.0出現過的功能但在v4.0後消失了。不幸的是，有一些功能在新的Twitch網站中似乎不切實際。\n"
+"\n"
+"許多功能仍然計畫回歸，但要看開發人員有沒有時間去做。所以這些功能沒有發布的日程，功能一做好就會馬上釋出。\n"
+"\n"
+"* *我贊助了，但我看不到我的徽章。*\n"
+"* *我新增了一個表情符號到頻道但沒有出現。.*\n"
+"\n"
+"因為我們目前網站的效能問題，我們會在API中使用快取。因此可能會花大概半小時讓徽章跟表情符號產生變化。在等一段時間後，可以重新整理你的頁面然後你的內容應該"
+"會出現。你也可以試著強制重新整理。\n"
+"\n"
+"* *我不想要`FFZ 支持者` 徽章。*\n"
+"\n"
+"使用者可以在這裡調整支持者徽章能見度: [https://www.frankerfacez.com/donate](https://www."
+"frankerfacez.com/donate)\n"
+"\n"
+"* *我可以看到我的表情符號，但聊天室說他們看不到。*\n"
+"\n"
+"使用者需要安裝FrankerFaceZ，或使用其他支援FFZ的第三方用戶端以看到FrankerFaceZ的表情符號。用戶也可能因為快取跟上次重新整理時間而"
+"看不到新的表情符號。\n"
+"\n"
+"* *這個表情符號是偷來的!*\n"
+"* *這是有冒犯性的表情符號!*\n"
+"\n"
+"如果有任何表情符號問題請使用我們網站的`檢舉表情符號`工具。Shift+點按要檢舉的表情符號來打開頁面，然後在右邊選擇`檢舉表情符號`。你需要登入以檢舉表"
+"情符號。"
 
 #: /src/modules/main_menu/components/feedback-page.vue:8
 #, icu-message-format, md-text
 msgid "home.feedback"
 msgstr ""
+"## 回饋\n"
+"\n"
+"你可以[在GitHub開一個新的issue](https://github.com/FrankerFaceZ/FrankerFaceZ/"
+"issues)提供意見及回報問題。你也可以 [在Discord上找到我們](https://discord.gg/UrAkGhT) 或 "
+"[發推給我們](https://twitter.com/FrankerFaceZ)。\n"
+"\n"
+"當新增一個GitHub issue時，請確定別人沒有發過類似的問題。GitHub上的問題應該要是用戶端的問題，而不是用來詢問表情符號審核進度。\n"
+"\n"
+"新增一個Issue時，請一併上傳下方提供的日誌及回報的連結。"
 
 #, icu-message-format
 msgid "home.github"
-msgstr ""
+msgstr "GitHub"
 
 #, icu-message-format
 msgid "home.new-settings"
-msgstr ""
+msgstr "新的設定"
 
 #, icu-message-format
 msgid "home.new-settings.desc"
-msgstr ""
+msgstr "這些是你還沒看過的設定。"
 
 #, icu-message-format
 msgid "home.tag-line"
-msgstr ""
+msgstr "Twitch增強套件"
 
 #: /src/modules/main_menu/components/md-page.vue:14
 #, icu-message-format, md-text
@@ -242,233 +291,233 @@ msgstr ""
 
 #, icu-message-format
 msgid "home.tweets"
-msgstr ""
+msgstr "來自FrankerFaceZ的推文"
 
 #, icu-message-format
 msgid "home.twitter"
-msgstr ""
+msgstr "Twitter"
 
 #, icu-message-format
 msgid "home.website"
-msgstr ""
+msgstr "FrankerFaceZ網站"
 
 #: /src/modules/main_menu/components/action-editor.vue:1189
 #, icu-message-format
 msgid "setting.actions.action"
-msgstr ""
+msgstr "動作"
 
 #: /src/modules/main_menu/components/chat-actions.vue:635
 #, icu-message-format
 msgid "setting.actions.add-default"
-msgstr ""
+msgstr "新增預設值"
 
 #: /src/modules/main_menu/components/chat-actions.vue:651
 #, icu-message-format
 msgid "setting.actions.add-default-tip"
-msgstr ""
+msgstr "將所有預設動作加到這個設定檔。"
 
 #: /src/modules/main_menu/components/action-editor.vue:49
 #, icu-message-format
 msgid "setting.actions.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format
 msgid "setting.actions.appearance.combo"
-msgstr ""
+msgstr "文字及圖示"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format, lp-defaults:"{\"title\":\"Icon\",\"title_i18n\":\"setting.actions.appearance.icon\",\"colored\":true,\"editor\":null,\"load\":null,\"component\":null,\"render\":null}"
 msgid "setting.actions.appearance.icon"
-msgstr ""
+msgstr "圖示"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format, lp-defaults:"{\"title\":\"Image\",\"title_i18n\":\"setting.actions.appearance.image\",\"editor\":null,\"component\":null,\"render\":null}"
 msgid "setting.actions.appearance.image"
-msgstr ""
+msgstr "圖片"
 
 #: /src/modules/main_menu/components/action-editor.vue:146
 #, icu-message-format, lp-defaults:"{\"title\":\"Text\",\"title_i18n\":\"setting.actions.appearance.text\",\"colored\":true,\"editor\":null,\"component\":null,\"render\":null}"
 msgid "setting.actions.appearance.text"
-msgstr ""
+msgstr "文字"
 
 #: /src/modules/chat/actions/components/edit-chat.vue:12
 #, icu-message-format
 msgid "setting.actions.chat"
-msgstr ""
+msgstr "聊天室指令"
 
 #: /src/modules/main_menu/components/action-editor.vue:183
 #, icu-message-format
 msgid "setting.actions.color"
-msgstr ""
+msgstr "顏色"
 
 #: /src/modules/main_menu/components/action-editor.vue:216
 #, icu-message-format
 msgid "setting.actions.color.warn"
-msgstr ""
+msgstr "這個數值會因基於你在聊天室的顏色設定以能見度為原則自動調整。"
 
 #: /src/modules/main_menu/components/chat-actions.vue:545
 #, icu-message-format
 msgid "setting.actions.delete-all"
-msgstr ""
+msgstr "刪除此設定檔的所有動作。"
 
 #: /src/modules/main_menu/components/chat-actions.vue:378
 #, icu-message-format
 msgid "setting.actions.drag"
-msgstr ""
+msgstr "拖曳動作來重新排序。"
 
 #: /src/modules/chat/actions/components/edit-timeout.vue:10
 #, icu-message-format
 msgid "setting.actions.duration"
-msgstr ""
+msgstr "時長"
 
 #: /src/modules/main_menu/components/action-editor.vue:452
 #, icu-message-format
 msgid "setting.actions.edit-visible.deleted"
-msgstr ""
+msgstr "訊息已刪除"
 
 #: /src/modules/main_menu/components/action-editor.vue:544
 #, icu-message-format
 msgid "setting.actions.edit-visible.emote-only"
-msgstr ""
+msgstr "表情符號限定模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:728
 #, icu-message-format
 msgid "setting.actions.edit-visible.follows"
-msgstr ""
+msgstr "僅限追隨者聊天模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:268
 #, icu-message-format
 msgid "setting.actions.edit-visible.mod"
-msgstr ""
+msgstr "管理員"
 
 #: /src/modules/main_menu/components/action-editor.vue:356
 #, icu-message-format
 msgid "setting.actions.edit-visible.mod-icons"
-msgstr ""
+msgstr "管理員圖標"
 
 #: /src/modules/main_menu/components/action-editor.vue:1005
 #, icu-message-format
 msgid "setting.actions.edit-visible.modifier"
-msgstr ""
+msgstr "修飾符"
 
 #: /src/modules/main_menu/components/action-editor.vue:913
 #, icu-message-format
 msgid "setting.actions.edit-visible.r9k"
-msgstr ""
+msgstr "R9k模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:636
 #, icu-message-format
 msgid "setting.actions.edit-visible.slow"
-msgstr ""
+msgstr "發言時間限制模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:821
 #, icu-message-format
 msgid "setting.actions.edit-visible.subs"
-msgstr ""
+msgstr "僅限訂閱者聊天模式"
 
 #: /src/modules/chat/actions/components/edit-icon.vue:11
 #, icu-message-format
 msgid "setting.actions.icon"
-msgstr ""
+msgstr "圖示"
 
 #: /src/modules/main_menu/components/chat-actions.vue:409
 #, icu-message-format
 msgid "setting.actions.new"
-msgstr ""
+msgstr "新增..."
 
 #: /src/modules/main_menu/components/chat-actions.vue:680
 #, icu-message-format
 msgid "setting.actions.no-actions"
-msgstr ""
+msgstr "這個設定檔中沒有定義任何動作"
 
 #: /src/modules/main_menu/components/chat-actions.vue:334
 #, icu-message-format
 msgid "setting.actions.no-visible"
-msgstr ""
+msgstr "沒有可見的動作"
 
 #: /src/modules/main_menu/components/chat-actions.vue:42
 #, icu-message-format
 msgid "setting.actions.preview"
-msgstr ""
+msgstr "預覽:"
 
 #: /src/modules/main_menu/components/chat-actions.vue:302
 #, icu-message-format
 msgid "setting.actions.preview.all"
-msgstr ""
+msgstr "顯示所有"
 
 #: /src/modules/main_menu/components/chat-actions.vue:89
 #, icu-message-format
 msgid "setting.actions.preview.deleted"
-msgstr ""
+msgstr "刪除訊息"
 
 #: /src/modules/main_menu/components/chat-actions.vue:182
 #, icu-message-format
 msgid "setting.actions.preview.emote-only"
-msgstr ""
+msgstr "表情符號限定"
 
 #: /src/modules/main_menu/components/chat-actions.vue:243
 #, icu-message-format
 msgid "setting.actions.preview.followers"
-msgstr ""
+msgstr "僅限追隨者"
 
 #: /src/modules/main_menu/components/chat-actions.vue:61
 #, icu-message-format
 msgid "setting.actions.preview.mod"
-msgstr ""
+msgstr "以管理員角度"
 
 #: /src/modules/main_menu/components/chat-actions.vue:121
 #, icu-message-format
 msgid "setting.actions.preview.mod_icons"
-msgstr ""
+msgstr "與管理員圖標"
 
 #: /src/modules/main_menu/components/chat-actions.vue:275
 #, icu-message-format
 msgid "setting.actions.preview.r9k"
-msgstr ""
+msgstr "R9k模式"
 
 #: /src/modules/main_menu/components/chat-actions.vue:153
 #, icu-message-format
 msgid "setting.actions.preview.slow"
-msgstr ""
+msgstr "發言時間限制模式"
 
 #: /src/modules/main_menu/components/chat-actions.vue:214
 #, icu-message-format
 msgid "setting.actions.preview.subs"
-msgstr ""
+msgstr "僅限訂閱者"
 
 #: /src/modules/chat/actions/components/edit-ban.vue:10
 #: /src/modules/chat/actions/components/edit-timeout.vue:56
 #, icu-message-format
 msgid "setting.actions.reason"
-msgstr ""
+msgstr "預設原因"
 
 #: /src/modules/chat/actions/components/edit-chat.vue:118
 #, icu-message-format
 msgid "setting.actions.set-chat"
-msgstr ""
+msgstr "直接把這段訊息在聊天室內貼上而不要直接傳送。"
 
 #: /src/modules/chat/actions/components/edit-text.vue:7
 #, icu-message-format
 msgid "setting.actions.text"
-msgstr ""
+msgstr "文字"
 
 #: /src/modules/main_menu/components/action-editor.vue:62
 #, icu-message-format
 msgid "setting.actions.tooltip"
-msgstr ""
+msgstr "自訂小工具"
 
 #: /src/modules/main_menu/components/action-editor.vue:106
 #: /src/modules/main_menu/components/action-editor.vue:1199
 #, icu-message-format
 msgid "setting.actions.type"
-msgstr ""
+msgstr "類型"
 
 #: /src/modules/chat/actions/components/edit-image.vue:7
 #: /src/modules/chat/actions/components/edit-url.vue:7
 #, icu-message-format
 msgid "setting.actions.url"
-msgstr ""
+msgstr "網址"
 
 #: /src/modules/chat/actions/components/edit-url.vue:43
 #: /src/modules/chat/actions/components/edit-chat.vue:51
