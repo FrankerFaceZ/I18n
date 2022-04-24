@@ -1,90 +1,96 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-25 07:32+0000\n"
+"Last-Translator: SeanPai <seanpai96@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
+"projects/frankerfacez/addon-inline-tab-completion/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/utilities/object.js:465
 #: /src/inline-tab-completion/index.jsx:215
 #, icu-message-format, lp-defaults:"{\"pos\":5,\"total\":40}"
 msgid "addon.inlinetab.item"
-msgstr ""
+msgstr "{pos,number} / {total,number}"
 
 #: /src/inline-tab-completion/index.jsx:181
 #, icu-message-format
 msgid "addon.inlinetab.type.command"
-msgstr ""
+msgstr "指令"
 
 #: /src/inline-tab-completion/index.jsx:172
 #, icu-message-format
 msgid "addon.inlinetab.type.emoji"
-msgstr ""
+msgstr "表情符號"
 
 #: /src/inline-tab-completion/index.jsx:176
 #, icu-message-format
 msgid "addon.inlinetab.type.emote"
-msgstr ""
+msgstr "表情符號"
 
 #: /src/inline-tab-completion/index.jsx:184
 #, icu-message-format
 msgid "addon.inlinetab.type.mention"
-msgstr ""
+msgstr "提及"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab"
-msgstr ""
+msgstr "行內Tab"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.content"
-msgstr ""
+msgstr "內容"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.content.description"
-msgstr ""
+msgstr "請注意這個行內Tab自動完成不支援的內容會由Twitch內建的Tab自動完成替代。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.general"
-msgstr ""
+msgstr "一般"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.mention_prefix"
-msgstr ""
+msgstr "永遠在開頭使用`@`符號來提及他人。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.no_commands"
-msgstr ""
+msgstr "請不要在行內Tab自動完成包含指令。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.no_mentions"
-msgstr ""
+msgstr "請不要在行內Tab自動完成包含用戶。"
 
 #, icu-message-format
 msgid "setting.entry.addon.inlinetab.tip-count"
-msgstr ""
+msgstr "在Tab自動完成小工具中顯示多個條目。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.tips"
-msgstr ""
+msgstr "在使用Tab自動完成時顯示小工具。"
