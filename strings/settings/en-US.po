@@ -543,6 +543,11 @@ msgstr "Slow Mode"
 msgid "setting.actions.edit-visible.subs"
 msgstr "Subs Mode"
 
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Available Formatters: {fmts}"
+
 #: /src/modules/chat/actions/components/edit-icon.vue:11
 #, icu-message-format
 msgid "setting.actions.icon"
@@ -855,6 +860,12 @@ msgstr "Fonts"
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.legacy"
 msgstr "Legacy"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "Tweaks"
 
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
@@ -1194,6 +1205,12 @@ msgstr "Behavior"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.deleted_messages"
 msgstr "Deleted Messages"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Emoji"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2209,6 +2226,21 @@ msgstr "Allow clicking badges."
 msgid "setting.entry.chat.badges.clickable.description"
 msgstr "Certain badges, such as Prime Gaming, act as links when this is enabled."
 
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "Disabled"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.1"
+msgstr "Legacy (Open URLs)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.2"
+msgstr "Open Badge Card"
+
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-mod"
@@ -2492,6 +2524,38 @@ msgstr "Why??? (1m)"
 msgid "setting.entry.chat.delay.values.788400000000"
 msgstr "The CBenni Option (Literally 25 Years)"
 
+#: /src/modules/main_menu/components/setting-select-box.vue:24
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner"
+msgstr "Emoji Joiner Workaround"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:198
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner.description"
+msgstr ""
+"This feature is intended to allow the use of combined emoji in supported "
+"clients. This is required due to a bug in TMI that strips ZWJ characters "
+"from chat messages. [Visit the original "
+"issue](https://github.com/FrankerFaceZ/FrankerFaceZ/issues/1147) for more "
+"details."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "Disabled"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.1"
+msgstr "Display Only"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.2"
+msgstr "Display and Send"
+
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.style"
@@ -2724,6 +2788,21 @@ msgstr ""
 "This setting will make emotes appear twice as large in chat. It's good for "
 "use with larger fonts or just if you really like emotes."
 
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "Disabled"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "Emotes"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "Emotes and Emoji"
+
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2780,6 +2859,20 @@ msgstr "Twitch Only"
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.2"
 msgstr "Enabled"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size"
+msgstr "Limit Native Emote Size"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size.description"
+msgstr ""
+"Sometimes, really obnoxiously large emotes slip through the cracks and wind "
+"up on Twitch. This limits the size of Twitch emotes to mitigate the issue."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -3363,6 +3456,23 @@ msgstr "Moderator"
 msgid "setting.entry.chat.rich.minimum-level.values.4"
 msgstr "Broadcaster"
 
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid"
+msgstr "Display larger rich content in chat."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid.description"
+msgstr ""
+"This enables the use of bigger rich content embeds in chat. This is **not** "
+"recommended for most users and/or chats.\n"
+"\n"
+"**Note:** Enabling this may cause chat to scroll at inopportune times due "
+"to content loading. Moderators should not use this feature."
+
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rituals.show"
@@ -3654,6 +3764,12 @@ msgstr "Limit tab-completion results to 25."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.prioritize-favorites"
 msgstr "Prioritize favorite emotes at the top."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.prioritize-prefix-matches"
+msgstr "Prioritize emotes that start with user input."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5105,6 +5221,22 @@ msgstr ""
 "This setting will be going away very soon, as the new theme system matures.\n"
 "The CSS loaded by this setting is far too heavy and can cause performance "
 "issues."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark"
+msgstr "Disable Auto Dark Theme"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark.description"
+msgstr ""
+"Enabling this will attempt to disable a browser's built-in automatic dark "
+"theme conversion for websites, which is unnecessary on Twitch and can cause "
+"display issues. This may not apply depending on your web browser and "
+"settings."
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
