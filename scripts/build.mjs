@@ -88,16 +88,53 @@ for(const entry of locales) {
 }
 
 const promises = [];
+let updated_locales = false;
 
 for(const lang of Object.keys(output)) {
 	const modules = output[lang];
 	const strings = Object.values(modules).reduce((a,b) => a + b.strings, 0);
 
-	const hashes = {},
-		lm = manifest[lang === 'en-US' ? 'en' : lang];
+	const hashes = {};
+	let lm = manifest[lang === 'en-US' ? 'en' : lang];
 	if (! lm) {
-		console.error('Missing locale data:', lang);
-		continue;
+		lm = manifest[lang] = {
+			id: lang
+		};
+		updated_locales = true;
+	}
+
+	if (! lm.name || ! lm.name.length) {
+		try {
+			const en_names = new Intl.DisplayNames(['en'], {type: 'language'});
+			lm.name = en_names.of(lang);
+			updated_locales = true;
+			console.log(`Generated English name "${lm.name}" for locale ${lang}`);
+		} catch(err) {
+			console.log(`Unable to generate English name for locale ${lang}`);
+			lm.name = lang;
+		}
+	}
+
+	if (! lm.native_name || ! lm.native_name.length) {
+		try {
+			const native_names = new Intl.DisplayNames([lang], {type: 'language'});
+			lm.native_name = native_names.of(lang);
+			updated_locales = true;
+			console.log(`Generated native name "${lm.native_name}" for locale ${lang}`);
+		} catch(err) {
+			console.log(`Unable to generate native name for locale ${lang}`);
+			lm.native_name = lm.name;
+		}
+	}
+
+	if (typeof lm.joke !== 'boolean') {
+		lm.joke = false;
+		updated_locales = true;
+	}
+
+	if (typeof lm.rtl !== 'boolean') {
+		lm.rtl = false;
+		updated_locales = true;
 	}
 
 	lm.coverage = Math.min(100, Math.floor(1000 * strings / total) / 10);
@@ -114,7 +151,6 @@ for(const lang of Object.keys(output)) {
 }
 
 await Promise.all(promises);
-
 
 const compare = new Intl.Collator();
 
@@ -151,5 +187,15 @@ await fs.promises.writeFile(path.join('dist', 'manifest.json'), JSON.stringify({
 	'locale/locales.json': `locale/locales.${hash}.json`,
 	'locale/strings.json': `locale/strings.${string_hash}.json`
 }));
+
+// ... did we update locales? If so, then it's really the final writing.
+if (updated_locales) {
+	for(const locale of vals) {
+		delete locale.coverage;
+		delete locale.hashes;
+	}
+
+	await fs.promises.writeFile('locales.json', JSON.stringify(vals, null, '\t'));
+}
 
 })();
