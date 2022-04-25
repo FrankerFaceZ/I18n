@@ -55,7 +55,7 @@ const file = args[1];
 
 		const cmp = keyToComponent(entry.key);
 
-		let source = entry.calls ? entry.calls.join('\n').substr(0, 512) : null;
+		let source = entry.calls ? entry.calls.join('\n').slice(0, 512) : null;
 		if ( source?.includes('MainMenu.getSettingsTree') )
 			source = 'FFZ Control Center';
 
