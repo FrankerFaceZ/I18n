@@ -39,7 +39,7 @@ for(const name of dirs) {
 		if (! fname.endsWith('.po'))
 			continue;
 
-		const lang = fname.slice(0, -3);
+		const lang = fname.slice(0, -3).replace(/_/g, '-');
 		const strings = {};
 
 		const full = path.join(dirname, fname);
