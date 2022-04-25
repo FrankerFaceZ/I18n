@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-24 15:24+0000\n"
+"PO-Revision-Date: 2022-04-25 07:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -523,140 +523,140 @@ msgstr "網址"
 #: /src/modules/chat/actions/components/edit-chat.vue:51
 #, icu-message-format, lp-defaults:"{\"vars\":\"{{user.login}}, {{user.displayName}}, {{user.id}}, {{user.type}}, {{room.login}}, {{room.id}}, {{message.id}}, {{message.text}}\"}"
 msgid "setting.actions.variables"
-msgstr ""
+msgstr "支援的變數: {vars}"
 
 #: /src/modules/main_menu/components/action-editor.vue:255
 #, icu-message-format
 msgid "setting.actions.visibility"
-msgstr ""
+msgstr "能見度"
 
 #: /src/modules/main_menu/components/action-editor.vue:31
 #, icu-message-format, lp-defaults:"{\"list\":\"if message deleted\"}"
 msgid "setting.actions.visible"
-msgstr ""
+msgstr "可見的: {list}"
 
 #: /src/modules/main_menu/components/action-editor.vue:630
 #, icu-message-format
 msgid "setting.actions.visible.always"
-msgstr ""
+msgstr "永遠"
 
 #: /src/modules/main_menu/components/action-editor.vue:579
 #, icu-message-format
 msgid "setting.actions.visible.deleted"
-msgstr ""
+msgstr "如果訊息刪除"
 
 #: /src/modules/main_menu/components/action-editor.vue:680
 #, icu-message-format
 msgid "setting.actions.visible.hover"
-msgstr ""
+msgstr "當滑鼠停在上面"
 
 #: /src/modules/main_menu/components/action-editor.vue:561
 #, icu-message-format
 msgid "setting.actions.visible.mod"
-msgstr ""
+msgstr "當管理員"
 
 #: /src/modules/main_menu/components/action-editor.vue:567
 #, icu-message-format
 msgid "setting.actions.visible.mod_icons"
-msgstr ""
+msgstr "當管理員圖標出現"
 
 #: /src/modules/main_menu/components/action-editor.vue:673
 #, icu-message-format, lp-defaults:"{\"key_list\":\"Ctrl\",\"keys\":1}"
 msgid "setting.actions.visible.modifier"
-msgstr ""
+msgstr "當按著 {key_list} (共 {keys} 個鍵)時"
 
 #: /src/modules/main_menu/components/action-editor.vue:591
 #, icu-message-format
 msgid "setting.actions.visible.slow"
-msgstr ""
+msgstr "當發言時間限制模式開啟時"
 
 #: /src/modules/main_menu/components/action-editor.vue:582
 #, icu-message-format
 msgid "setting.actions.visible.undeleted"
-msgstr ""
+msgstr "若訊息未刪除"
 
 #: /src/modules/main_menu/components/chat-actions.vue:1
 #, icu-message-format
 msgid "setting.actions.warn-hidden"
-msgstr ""
+msgstr "你目前把你的聊天室中的管理員圖標關閉了，所以會有一些功能被隱藏。你可以至設定選單調整它。"
 
 #: /src/modules/main_menu/components/reason-editor.vue:61
 #, icu-message-format
 msgid "setting.add"
-msgstr ""
+msgstr "新增"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons"
-msgstr ""
+msgstr "附加元件"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.changelog"
-msgstr ""
+msgstr "更新紀錄"
 
 #: /src/modules/main_menu/components/changelog.vue:12
 #, icu-message-format
 msgid "setting.add_ons.changelog.title"
-msgstr ""
+msgstr "附加元件更新紀錄"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.description"
-msgstr ""
+msgstr "附加元件是額外的模組，通常是由其他人編寫，可以自動載入到FrankerFaceZ中並增加新的能力及行為到這個擴充元件及Twitch之中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.development"
-msgstr ""
+msgstr "開發"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance"
-msgstr ""
+msgstr "外觀"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.control_center"
-msgstr ""
+msgstr "控制中心"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.control_center.search"
-msgstr ""
+msgstr "搜尋"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.description"
-msgstr ""
+msgstr "客製化Twitch的外觀。更換色系與字體來調整你的使用體驗。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout"
-msgstr ""
+msgstr "佈局"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.channel"
-msgstr ""
+msgstr "頻道"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.clips"
-msgstr ""
+msgstr "剪輯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.side_navigation"
-msgstr ""
+msgstr "側邊導覽列"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.top_navigation"
-msgstr ""
+msgstr "頂部導覽列"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:136
@@ -664,134 +664,134 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.localization"
-msgstr ""
+msgstr "本地化"
 
 #, icu-message-format
 msgid "setting.appearance.localization.formatting"
-msgstr ""
+msgstr "格式化"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.localization.general"
-msgstr ""
+msgstr "一般"
 
 #, icu-message-format
 msgid "setting.appearance.localization.general.language.joke"
-msgstr ""
+msgstr "有趣的語言"
 
 #, icu-message-format
 msgid "setting.appearance.localization.general.language.languages"
-msgstr ""
+msgstr "支援的語言"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.appearance.localization.general.language.twitch"
-msgstr ""
+msgstr "使用Twitch的語言"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme"
-msgstr ""
+msgstr "主題"
 
 #, icu-message-format
 msgid "setting.appearance.theme.chat_colors"
-msgstr ""
+msgstr "聊天室顏色"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.colors"
-msgstr ""
+msgstr "顏色"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.colors.description"
-msgstr ""
+msgstr "這是一個即將來到FrankerFaceZ的新系統的簡單預覽。你可以預期到有大量的更動，包含分開簡單跟進階設定，還有更好的顏色選取功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.fonts"
-msgstr ""
+msgstr "字體"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.legacy"
-msgstr ""
+msgstr "舊版"
 
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr ""
+msgstr "這個工具允許你備份及還原你的FrankerFaceZ設定，包含你所有來自控制中心的設定及你喜歡的表情符號還有你封鎖的遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
 msgid "setting.backup-restore.confirm-updates"
-msgstr ""
+msgstr "你匯入的設定檔有自動更新的網址。你要讓它保持更新嗎?"
 
 #: /src/modules/main_menu/components/profile-manager.vue:360
 #, icu-message-format
 msgid "setting.backup-restore.disable-auto"
-msgstr ""
+msgstr "不，請不要自動更新。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:326
 #, icu-message-format
 msgid "setting.backup-restore.enable-auto"
-msgstr ""
+msgstr "好，允許自動更新。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:79
 #, icu-message-format
 msgid "setting.backup-restore.error"
-msgstr ""
+msgstr "備份過程中發生錯誤。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:429
 #, icu-message-format
 msgid "setting.backup-restore.http-error"
-msgstr ""
+msgstr "無法從提供的網址讀取JSON。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:416
 #, icu-message-format
 msgid "setting.backup-restore.http-loading"
-msgstr ""
+msgstr "載入中..."
 
 #: /src/modules/main_menu/components/profile-manager.vue:375
 #, icu-message-format, lp-defaults:"{\"name\":\"Test Profile\",\"count\":1}"
 msgid "setting.backup-restore.imported"
-msgstr ""
+msgstr "設定檔 \"{name}\" 成功的匯入 {count, number} 個設定。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:350
 #, icu-message-format, lp-defaults:"{\"now\":\"2019-10-31T01:02:03.004Z\"}"
 msgid "setting.backup-restore.imported-at"
-msgstr ""
+msgstr "匯入於 {now,datetime}。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:322
 #, icu-message-format
 msgid "setting.backup-restore.non-supported"
-msgstr ""
+msgstr "這個檔案無法辨識為支援的備份格式。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:110
 #, icu-message-format
 msgid "setting.backup-restore.old-file"
-msgstr ""
+msgstr "這個檔案已經毀損或是以其他版本的FrankerFaceZ建立且無法讀取。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:183
 #, icu-message-format
 msgid "setting.backup-restore.pick-profile"
-msgstr ""
+msgstr "請選擇要匯入的設定檔。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:54
 #, icu-message-format
 msgid "setting.backup-restore.restore-backup"
-msgstr ""
+msgstr "還原備份"
 
 #: /src/modules/main_menu/components/backup-restore.vue:135
 #, icu-message-format, lp-defaults:"{\"count\":96}"
 msgid "setting.backup-restore.restored"
-msgstr ""
+msgstr "{count,number} 樣物品已經還原。請重新整理頁面。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:36
 #, icu-message-format
 msgid "setting.backup-restore.save-backup"
-msgstr ""
+msgstr "儲存備份"
 
 #: /src/modules/main_menu/components/badge-visibility.vue:56
 #, icu-message-format, lp-defaults:"{\"count\":57}"
