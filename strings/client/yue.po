@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-25 17:32+0000\n"
+"PO-Revision-Date: 2022-04-26 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -748,7 +748,7 @@ msgstr "作為臨時解決方法，請嘗試禁用 FFZ 控制中心中嘅 FFZ �
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1112:15
 #, icu-message-format
 msgid "emote-menu.emoji"
-msgstr "繪文字"
+msgstr "表情符號"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
@@ -778,7 +778,7 @@ msgstr "呢度乜都冇。"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1619:7
 #, icu-message-format, lp-defaults:"{\"hotkey\":\"Ctrl\"}"
 msgid "emote-menu.empty-favs"
-msgstr "你冇任何鍾意嘅表情符號符號。要收藏某個表情符號符號，請搵到佢並{hotkey}-單擊佢。"
+msgstr "你冇任何鍾意嘅表情符號。要收藏某個表情符號，請搵到佢並{hotkey}-單擊佢。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1617:6
 #, icu-message-format
@@ -858,7 +858,7 @@ msgstr "搜索表情符號"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1696:12
 #, icu-message-format
 msgid "emote-menu.search-emoji"
-msgstr "搜索繪文字"
+msgstr "搜索表情符號"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1891
 #, icu-message-format
@@ -1643,7 +1643,7 @@ msgstr "電子郵箱 {address}"
 #: /src/modules/chat/tokenizers.jsx:1088:12
 #, icu-message-format, lp-defaults:"{\"category\":\"Smileys & People\"}"
 msgid "tooltip.emoji"
-msgstr "繪文字 - {category}"
+msgstr "表情符號 - {category}"
 
 #: /src/modules/chat/tokenizers.jsx:1105:51
 #, icu-message-format, lp-defaults:"{\"name\":\"6Head\"}"
@@ -1713,3 +1713,13 @@ msgstr "{length,duration} — {views,number} 觀看次數 — {date,datetime}"
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
 msgid "video.published-on"
 msgstr "發表於: {date,date}"
+
+#: /src/modules/main_menu/components/link-tester.vue:293
+#, icu-message-format
+msgid "debug.link-provider.mid-embed"
+msgstr "置中嵌入"
+
+#: /src/modules/main_menu/components/link-tester.vue:353
+#, icu-message-format
+msgid "debug.link-provider.raw-length"
+msgstr "原始長度"
