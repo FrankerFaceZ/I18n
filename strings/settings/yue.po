@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-26 14:32+0000\n"
+"PO-Revision-Date: 2022-04-26 22:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -83,7 +83,7 @@ msgstr "LirikLIVE(Lirik實況)"
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
 msgid "addon.filter-enabled"
-msgstr "僅顯示啟用嘅插件。"
+msgstr "僅顯示啟用嘅附加組件。"
 
 #: /src/modules/main_menu/components/addon.vue:220
 #, icu-message-format
@@ -129,13 +129,13 @@ msgstr "添加未列出..."
 #, icu-message-format
 msgid "addon.unlisted.explain"
 msgstr ""
-"未列出嘅插件係已獲得批准但已選擇避免喺主列表中列出嘅插件。可能係由於插件專門針對某些用戶，抑或由於插件仲喺喥開發緊。如果你知道未列出嘅插件嘅 "
-"ID，請喺呢喥輸入嚟令佢顯示。"
+"未列出嘅附加組件係已獲得批准但已選擇避免喺主列表中列出嘅附加組件。可能係由於附加組件專門針對某些用戶，抑或由於附加組件仲喺喥開發緊。"
+"如果你知道未列出嘅附加組件嘅 ID，請喺呢喥輸入嚟令佢顯示。"
 
 #: /src/modules/main_menu/components/addon-list.vue:138
 #, icu-message-format
 msgid "addon.unlisted.id"
-msgstr "插件 id"
+msgstr "附加組件 id"
 
 #: /src/modules/main_menu/components/addon.vue:136
 #, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
@@ -157,23 +157,23 @@ msgid "home.about"
 msgstr ""
 "感謝你使用 FrankerFaceZ。\n"
 "\n"
-"自 2017 年底 Twitch 嘅基於 React-powered 嘅網站發布以來，該擴充功能嘅 4.0 版一直喺喥積極開發中。"
+"自 2017 年底 Twitch 基於 React-powered 嘅網站發布以來，該擴充功能嘅 4.0 版一直喺喥積極開發中。"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
-msgstr "新嘅插件"
+msgstr "新嘅附加組件"
 
 #, icu-message-format, md-text
 msgid "home.addon-new.desc"
-msgstr "呢啲插件係喺近 7 日內發布嘅。喺 [插件](~add_ons) 中查睇佢哋。"
+msgstr "呢啲附加組件係喺近 7 日內發布嘅。喺 [附加組件](~add_ons) 中查睇佢哋。"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
-msgstr "已更新嘅插件"
+msgstr "已更新嘅附加組件"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates.desc"
-msgstr "呢啲插件喺近 7 日內已更新。檢查 [變更日誌](~add_ons.changelog) 嚟查睇更改嘅內容。"
+msgstr "呢啲附加組件喺近 7 日內已更新。檢查 [變更日誌](~add_ons.changelog) 嚟查睇更改嘅內容。"
 
 #: /src/modules/main_menu/components/changelog.vue:7
 #, icu-message-format
@@ -238,9 +238,9 @@ msgstr ""
 "由於我哋當前網站嘅性能問題，我哋必須喺我哋嘅API上使用緩存。因此，對徽章或表情符號所做嘅更改最多可能需要半粒鐘先至生效。之後，刷新頁面，你嘅內容應該會出"
 "現。你都可以嘗試執行硬刷新。\n"
 "\n"
-"* *我唔想要 “FFZ 支援者” 徽章。*\n"
+"* *我唔想要 “FFZ 支持者” 徽章。*\n"
 "\n"
-"用戶可以喺以下位置切換其支援者徽章嘅可見性： [https://www.frankerfacez.com/donate](https://www."
+"用戶可以喺以下位置切換其支持者徽章嘅可見性： [https://www.frankerfacez.com/donate](https://www."
 "frankerfacez.com/donate)\n"
 "\n"
 "* *我可以睇到我嘅表情符號，但聊天中有人話佢地睇唔到。*\n"
@@ -290,7 +290,7 @@ msgstr "Twitch 增強套件"
 msgid "home.term-syntax"
 msgstr ""
 "呢個係可用嘅唔同字詞語法選項嘅指南。喺呢喥，\n"
-"FrankerFaceZ 將你嘅高亮同封鎖字詞轉換為常規\n"
+"FrankerFaceZ 將你嘅亮點同封鎖字詞轉換為常規\n"
 "表達式。\n"
 "\n"
 "\n"
@@ -344,11 +344,11 @@ msgstr ""
 "\n"
 "### 模式\n"
 "\n"
-"#### 區分大細寫\n"
+"#### 區分大小寫\n"
 "\n"
-"呢喥會嘗試以區分大細寫嘅方式匹配你嘅字詞。實際上，呢個\n"
+"呢喥會嘗試以區分大小寫嘅方式匹配你嘅字詞。實際上，呢個\n"
 "選項禁用生成嘅正則表達式上嘅 `/i` 標示。由於\n"
-"瀏覽器正則表達式引擎嘅限制，若唔區分大細寫\n"
+"瀏覽器正則表達式引擎嘅限制，若唔區分大小寫\n"
 "一些字符可能無法正常工作。\n"
 "\n"
 "\n"
@@ -363,15 +363,15 @@ msgstr ""
 "非單詞字符嘅匹配器，例如空格與標點符號。\n"
 "\n"
 "\n"
-"#### 高亮匹配\n"
+"#### 亮點匹配\n"
 "\n"
 "啟用後，[聊天>篩選>常規](~)中嘅匹配設定\n"
-"啟用，任何匹配嘅字詞都會喺聊天中高亮，方便你查睇\n"
+"啟用，任何匹配嘅字詞都會喺聊天中亮點，方便你查睇\n"
 "完全匹配嘅字詞。\n"
 "\n"
 "任何匹配都唔會顯示為表情符號、連結等。\n"
 "\n"
-"佢比唔高亮匹配要慢，因此你可能希望只喺測試果陣使用\n"
+"佢比唔亮點匹配要慢，因此你可能希望只喺測試果陣使用\n"
 "呢個功能，然後喺你知悉你嘅字詞以你希望嘅方式工作時禁用佢。\n"
 
 #, icu-message-format
@@ -590,7 +590,7 @@ msgstr "標籤"
 #: /src/modules/main_menu/components/action-editor.vue:62
 #, icu-message-format
 msgid "setting.actions.tooltip"
-msgstr "自定製小工具"
+msgstr "客製化小工具"
 
 #: /src/modules/main_menu/components/action-editor.vue:106
 #: /src/modules/main_menu/components/action-editor.vue:1199
@@ -633,7 +633,7 @@ msgstr "如果訊息被刪除"
 #: /src/modules/main_menu/components/action-editor.vue:680
 #, icu-message-format
 msgid "setting.actions.visible.hover"
-msgstr "當懸停時"
+msgstr "當鼠標懸停時"
 
 #: /src/modules/main_menu/components/action-editor.vue:561
 #, icu-message-format
@@ -673,7 +673,7 @@ msgstr "添加"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons"
-msgstr "插件"
+msgstr "附加組件"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
@@ -685,12 +685,12 @@ msgstr "變更日誌"
 #: /src/modules/main_menu/components/changelog.vue:12
 #, icu-message-format
 msgid "setting.add_ons.changelog.title"
-msgstr "插件變更日記"
+msgstr "附加組件變更日記"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.description"
-msgstr "插件通常係其他人編寫嘅外掛Mod，可以由 FrankerFaceZ 自動加載，嚟向擴充功能同 Twitch 添加新功能與行為。"
+msgstr "附加組件通常係其他人編寫嘅外掛Mod，可以由 FrankerFaceZ 自動加載，嚟向擴充功能同 Twitch 添加新功能與行為。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -989,7 +989,7 @@ msgstr "內嵌"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line.description"
-msgstr "喺呢喥，你可以自定製於聊天中嘅訊息一起顯示嘅行為。如果你未喺聊天中睇到你喺呢喥定製嘅行為，請確保你已喺聊天設定菜單中啟用咗圖標模塊。"
+msgstr "喺呢喥，你可以客製化於聊天中嘅訊息一起顯示嘅行為。如果你未喺聊天中睇到你喺呢喥定製嘅行為，請確保你已喺聊天設定菜單中啟用咗圖標模塊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1014,7 +1014,7 @@ msgstr "房間"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room.description"
-msgstr "喺呢喥，你可以自定製將顯示喺聊天輸入框上方嘅行為。"
+msgstr "喺呢喥，你可以客製化將顯示喺聊天輸入框上方嘅行為。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1029,7 +1029,7 @@ msgstr "用戶上下文"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.user_context.description"
-msgstr "喺呢喥，你可以自定製行為，當你喺聊天中右鍵單擊用戶名時，呢啲行為將顯示喺上下文菜單中。"
+msgstr "喺呢喥，你可以客製化行為，當你喺聊天中右鍵單擊用戶名時，呢啲行為將顯示喺上下文菜單中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1357,22 +1357,22 @@ msgstr "禮儀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight"
-msgstr "高亮"
+msgstr "亮點"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_badges"
-msgstr "高亮徽章"
+msgstr "亮點徽章"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_terms"
-msgstr "高亮字詞"
+msgstr "亮點字詞"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_users"
-msgstr "高亮用戶"
+msgstr "亮點用戶"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1384,10 +1384,10 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.description"
 msgstr ""
-"呢啲設定允許你根據聊天中嘅內容高亮訊息。通過設定規則嘅優先級，您可以確定喺郵件同多個規則匹配時應使用邊種高亮色水。優先級較高嘅規則優先於優先級較低嘅規則。"
+"呢啲設定允許你根據聊天中嘅內容亮點訊息。通過設定規則嘅優先級，您可以確定喺郵件同多個規則匹配時應使用邊種亮點色水。優先級較高嘅規則優先於優先級較低嘅規則。"
 "\n"
 "\n"
-"你仲可以創建一個規則，透過設定Alpha值為零嘅色水，喺訊息中移除高亮，防止優先級較低嘅規則高亮呢啲規則。示例:`#00000000`"
+"你仲可以創建一個規則，透過設定Alpha值為零嘅色水，喺訊息中移除亮點，防止優先級較低嘅規則亮點呢啲規則。示例:`#00000000`"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1571,7 +1571,7 @@ msgstr "右鍵單擊嚟重設"
 #: /src/modules/main_menu/components/setting-combo-box.vue:63
 #, icu-message-format
 msgid "setting.combo-box.custom"
-msgstr "習慣"
+msgstr "客製化"
 
 #: /src/modules/main_menu/components/profile-manager.vue:406
 #, icu-message-format
@@ -1871,7 +1871,7 @@ msgstr "編輯"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.add-ons"
-msgstr "插件"
+msgstr "附加組件"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1881,7 +1881,7 @@ msgstr "使用本地開發服務器"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addons.dev.server.description"
-msgstr "嘗試由端口8001上嘅本地開發服務器載入插件。"
+msgstr "嘗試由端口8001上嘅本地開發服務器載入附加組件。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1996,7 +1996,7 @@ msgstr "原因列表中包含當前文件室緊嘅規則。"
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.chat.actions.size"
-msgstr "操作大細"
+msgstr "操作大小"
 
 #: /src/modules/main_menu/index.js:552
 #, icu-message-format, md-text
@@ -2093,12 +2093,12 @@ msgstr "某啲徽章(Prime Gaming )喺呢個功能啟用時充當超鏈。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-mod"
-msgstr "使用自定製審核人徽章(如果可用)。"
+msgstr "使用客製化審核人徽章(如果可用)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-vip"
-msgstr "喺可用嘅情況下使用自定製VIP徽章。"
+msgstr "喺可用嘅情況下使用客製化VIP徽章。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
@@ -2113,7 +2113,7 @@ msgid "setting.entry.chat.badges.fix-colors.description"
 msgstr ""
 "確保徽章喺當前背景下可見。\n"
 "\n"
-"**注意：** 僅影響帶有自定製渲染嘅徽章。訂閱用戶徽章、小奇點徽章等唔受影響。"
+"**注意：** 僅影響帶有客製化渲染嘅徽章。訂閱用戶徽章、小奇點徽章等唔受影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2590,7 +2590,7 @@ msgstr "動態表情符號"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
-msgstr "將控制係咪允許動態表情喺聊天中播放。当呢個值為`禁用`時，表情符號將顯示為靜態圖像。將呢項設定為`懸停時啟用`可能會導致性能問題。"
+msgstr "將控制係咪允許動態表情喺聊天中播放。当呢個值為`禁用`時，表情符號將顯示為靜態圖像。將呢項設定為`鼠標懸停時啟用`可能會導致性能問題。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2605,7 +2605,7 @@ msgstr "啟用"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.2"
-msgstr "懸停時啟用"
+msgstr "鼠標懸停時啟用"
 
 #: /src/modules/main_menu/index.js:625
 #: /src/modules/main_menu/components/setting-select-box.vue:1
@@ -2761,32 +2761,32 @@ msgstr "總是"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-badges"
-msgstr "聊天.篩選.高亮-基本-徽章"
+msgstr "聊天.篩選.亮點-基本-徽章"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
-msgstr "聊天.篩選.高亮-基本-徽章-封鎖"
+msgstr "聊天.篩選.亮點-基本-徽章-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-blocked"
-msgstr "聊天.篩選.高亮-基本-封鎖"
+msgstr "聊天.篩選.亮點-基本-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-terms"
-msgstr "聊天.篩選.高亮-基本-字詞"
+msgstr "聊天.篩選.亮點-基本-字詞"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users"
-msgstr "聊天.篩選.高亮-基本-用戶"
+msgstr "聊天.篩選.亮點-基本-用戶"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
-msgstr "聊天.篩選.高亮-基本-用戶-封鎖"
+msgstr "聊天.篩選.亮點-基本-用戶-封鎖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2806,12 +2806,12 @@ msgstr "喺命令時唔好清除聊天。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-color"
-msgstr "自定製高亮色水"
+msgstr "客製化亮點色水"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-color.description"
-msgstr "如果設定咗呢項，則未設定默認顏色嘅高亮訊息將使用呢個顏色而唔係紅色。"
+msgstr "如果設定咗呢項，則未設定默認顏色嘅亮點訊息將使用呢個顏色而唔係紅色。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2821,7 +2821,7 @@ msgstr "提及優先級"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-priority.description"
-msgstr "擁有呢個優先級喺被提及時高亮你個名。有關詳細信息，請參閱 [聊天>篩選>高亮](~聊天.篩選.高亮)。"
+msgstr "擁有呢個優先級喺被提及時高亮你個名。有關詳細信息，請參閱 [聊天>篩選>亮點](~chat.filtering.highlight) 。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2943,7 +2943,7 @@ msgstr "3D 界線 (2px 內凹)"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.4"
-msgstr "寬線 (2px 實心)"
+msgstr "寬線 (2px 實線)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3042,7 +3042,7 @@ msgstr "喺聊天中自動固定重新訂閱訊息。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.allow-highlight"
-msgstr "當有人兌換 \"高亮我嘅訊息時\"，高亮聊天中嘅訊息。"
+msgstr "當有人兌換 \"高亮我嘅訊息\"時，晌聊天中高亮呢條提示訊息。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -3068,13 +3068,13 @@ msgstr "自動領取紅利獎勵。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering"
-msgstr "對聊天中嘅頻道點數獎勵訊息使用自定製渲染。"
+msgstr "對聊天中嘅頻道點數獎勵訊息使用客製化渲染。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering.description"
-msgstr "自定製呈現將背景色水應用於高亮嘅訊息，某些用戶可能唔鐘意。"
+msgstr "客製化呈現將背景色水應用於亮點訊息，某些用戶可能唔鐘意。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3126,7 +3126,7 @@ msgstr "顯示所有連結嘅豐富內容嵌入。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
-msgstr "*主播用戶：請注意，呢個係透過縮略圖嚟獲取NSFW圖像嘅潛在矢量，因此喺啟用呢個功能嘅情況下捕獲聊天時要小心。*"
+msgstr "*主播用戶：請注意，呢個有透過縮略圖嚟獲取NSFW圖像嘅潛在風險，因此喺啟用呢個功能嘅情況下捕獲聊天時要小心。*"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3219,7 +3219,7 @@ msgstr "使用Twitch設定"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.1"
-msgstr "懸停時"
+msgstr "鼠標懸停時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3229,7 +3229,7 @@ msgstr "撳住 Ctrl 時"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.3"
-msgstr "已撳住元時"
+msgstr "已撳住Meta(Win) 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3244,27 +3244,27 @@ msgstr "撳住 Shift 時"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.6"
-msgstr "Ctrl 或 懸停"
+msgstr "Ctrl 或 鼠標懸停"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.7"
-msgstr "元 或 懸停"
+msgstr "Meta(Win) 或 鼠標懸停"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.8"
-msgstr "Alt 或 懸停"
+msgstr "Alt 或 鼠標懸停"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.9"
-msgstr "Shift 或 懸停"
+msgstr "Shift 或 鼠標懸停"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay"
-msgstr "懸停超時"
+msgstr "鼠標懸停超時"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3487,32 +3487,32 @@ msgstr "24 個鐘制"
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
-msgstr "含秒時嘅 12 個鐘制"
+msgstr "12 個鐘制(含秒)"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
-msgstr "含秒時嘅 24 個鐘制"
+msgstr "24 個鐘制(含秒 )"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm"
-msgstr "填充"
+msgstr "十位數補零"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm"
-msgstr "填充 24 個鐘制"
+msgstr "24 個鐘制 十位數補零"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
-msgstr "用秒時填充"
+msgstr "十位數補零（含秒 ）"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
-msgstr "用秒時填充 24 個鐘制"
+msgstr "24 個鐘制 十位數補零（含秒 ）"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3543,7 +3543,7 @@ msgstr "喺聊天訊息旁邊顯示時間戳。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.viewer-cards.color"
-msgstr "高亮顏色"
+msgstr "亮點顏色"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3825,7 +3825,7 @@ msgstr "日期格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.date.description"
 msgstr ""
-"默認日期格式。自定製日期格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
+"默認日期格式。客製化日期格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
 
 #, icu-message-format
 msgid "setting.entry.i18n.format.datetime"
@@ -3835,7 +3835,7 @@ msgstr "日期-時間格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.datetime.description"
 msgstr ""
-"默認嘅組合日期-時間格式。自定製時間格式使用 [Day.js](https://day.js.org/docs/en/display/"
+"默認嘅組合日期-時間格式。客製化時間格式使用 [Day.js](https://day.js.org/docs/en/display/"
 "format)庫進行格式化。"
 
 #, icu-message-format
@@ -3846,7 +3846,7 @@ msgstr "時間格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.time.description"
 msgstr ""
-"默認時間格式。自定製時間格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
+"默認時間格式。客製化時間格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:16
 #, icu-message-format
@@ -3860,7 +3860,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.locale.description"
 msgstr ""
 "FrankerFaceZ由我哋社群嘅志願者精心翻譯。多謝你。如果你有興趣幫助翻譯FrankerFaceZ，請 "
-"[加入我我哋嘅Discord](https://discord.gg/UrAkGhT)並詢問本地化事宜。"
+"[加入我哋嘅Discord](https://discord.gg/UrAkGhT)並詢問本地化事宜。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5151,12 +5151,12 @@ msgstr "Ctrl"
 #: /src/modules/main_menu/components/action-editor.vue:1263
 #, icu-message-format
 msgid "setting.key.hover"
-msgstr "懸停"
+msgstr "鼠標懸停"
 
 #: /src/modules/main_menu/components/action-editor.vue:1164
 #, icu-message-format
 msgid "setting.key.meta"
-msgstr "元"
+msgstr "Meta(Win)"
 
 #: /src/modules/main_menu/components/action-editor.vue:1087
 #, icu-message-format
