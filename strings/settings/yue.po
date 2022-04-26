@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-25 17:32+0000\n"
+"PO-Revision-Date: 2022-04-26 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -1060,7 +1060,7 @@ msgstr "社區寶盒"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emoji"
-msgstr "繪文字"
+msgstr "表情符號"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2361,7 +2361,7 @@ msgstr "CBenni選項 (字面意思係25年)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.style"
-msgstr "繪文字樣式"
+msgstr "表情符號樣式"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2376,7 +2376,7 @@ msgstr "果冻"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.emojione"
-msgstr "繪文字一代"
+msgstr "表情符號一代"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2391,7 +2391,7 @@ msgstr "開源Moji"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.twitter"
-msgstr "推特(Tw繪文字)"
+msgstr "推特(Twemoji)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2422,7 +2422,7 @@ msgstr "頻道"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
-msgstr "繪文字"
+msgstr "表情符號"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2483,7 +2483,7 @@ msgstr "啟用之後，喺你激活傳送訊息嘅訊息輸入框時撳 Ctrl+E�
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.show-emoji"
-msgstr "顯示 繪文字 到表情符號菜單。"
+msgstr "顯示 表情符號 到表情符號菜單。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2563,7 +2563,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.stay-loaded.description"
 msgstr ""
 "會導致表情菜單保留喺DOM中，即使你睇唔到。如果菜單速度較慢，啟用呢個功能可能有助於網站喺打開菜單時有更好嘅性能。默認情況下，當使用`喺一個標籤卡上顯示所"
-"有表情符號。`時，呢個設定處於啟用狀態。"
+"有表情符號`時，呢個設定處於啟用狀態。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3126,7 +3126,7 @@ msgstr "顯示所有連結嘅豐富內容嵌入。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
-msgstr "*直播用戶：請注意，呢個係透過縮略圖獲取嘅NSFW圖像嘅潛在矢量，因此喺啟用呢個功能嘅情況下捕獲聊天時要小心。*"
+msgstr "*主播用戶：請注意，呢個係透過縮略圖嚟獲取NSFW圖像嘅潛在矢量，因此喺啟用呢個功能嘅情況下捕獲聊天時要小心。*"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4758,7 +4758,7 @@ msgstr "背景"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.background.description"
-msgstr "嘗試 `#0E0C13`，嚟獲得接近舊暗色主題嘅色水，或者 `#0E0E0E` 嚟獲得唔錯嘅深灰色。唔允許使用透明顏色。"
+msgstr "嘗試 `#0E0C13`，嚟獲得接近舊暗色主題嘅色水，或者 `#0E0E0E` 嚟獲得唔錯嘅深灰色。唔允許使用透明色。"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.chat-accent"
@@ -6055,3 +6055,126 @@ msgstr "Abc"
 #, icu-message-format
 msgid "settings.terms.word.tip"
 msgstr "匹配整個單詞"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "微調"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "禁用"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:24
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner"
+msgstr "表情符號連接器替代方法"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:198
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner.description"
+msgstr ""
+"此功能旨喺允許晌受支持嘅客戶端中使用組合表情符號。呢個係必需嘅，因為TMI中存在一個由聊天消息中剝離ZWJ字符嘅錯誤。[訪問最初嘅問題](https://"
+"github.com/FrankerFaceZ/FrankerFaceZ/issues/1147)了解更多詳情。"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid"
+msgstr "喺聊天中顯示仲大嘅豐富內容。"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid.description"
+msgstr ""
+"允許喺聊天中使用大量嘅豐富內容嵌入。 對於大多數用戶 同/或 聊天，係**唔建議**嘅。\n"
+"\n"
+"**注意：**由于內容加載，啟用呢個功能可能會導致聊天出現不合時宜嘅滾動。 審核人唔應該使用呢個功能。"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.prioritize-prefix-matches"
+msgstr "優先處理由用戶輸入開頭嘅表情符號。"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark.description"
+msgstr ""
+"啟用呢個功能將嘗試禁用瀏覽器爲網站內置嘅自動暗色主題轉換，喺Twitch上係冇必要噉做嘅，並且可能導致顯示問題。 "
+"可能唔適用，具體取決於你嘅網頁瀏覽器同設定。"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "支援嘅格式程式: {fmts}"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "表情符號"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.1"
+msgstr "舊版（打開網址）"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.2"
+msgstr "打開徽章卡片"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "禁用"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.1"
+msgstr "僅顯示"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.2"
+msgstr "顯示同發送"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "禁用"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "表情符號"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "全部表情符號"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size"
+msgstr "限制原生表情大小"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size.description"
+msgstr "有時，非常乞人憎嘅大表情猶如漏網之魚，最終出現喺Twitch上。佢限制咗Twitch表情嘅大小，嚟緩解呢種問題。"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark"
+msgstr "禁用自動暗色主題"
