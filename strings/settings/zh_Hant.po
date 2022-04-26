@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-25 17:32+0000\n"
+"PO-Revision-Date: 2022-04-26 14:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -5865,3 +5865,20 @@ msgstr ""
 #, icu-message-format
 msgid "settings.terms.word.tip"
 msgstr ""
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "支援的格式: {fmts}"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "插件"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "表情符號"
