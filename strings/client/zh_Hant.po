@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-24 06:32+0000\n"
+"PO-Revision-Date: 2022-04-26 14:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/client/zh_Hant/>\n"
@@ -1712,3 +1712,13 @@ msgstr "{length,duration} — 觀看次數 {views,number} — {date,datetime}"
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
 msgid "video.published-on"
 msgstr "發布於: {date,date}"
+
+#: /src/modules/main_menu/components/link-tester.vue:293
+#, icu-message-format
+msgid "debug.link-provider.mid-embed"
+msgstr "中等嵌入"
+
+#: /src/modules/main_menu/components/link-tester.vue:353
+#, icu-message-format
+msgid "debug.link-provider.raw-length"
+msgstr "原始長度"
