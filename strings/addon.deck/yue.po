@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-27 12:32+0000\n"
+"PO-Revision-Date: 2022-04-26 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -737,3 +737,8 @@ msgstr "創建新列時自動打開設定。"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.deck.link"
 msgstr "喺 Twitch 頂部添加一個 甲板 連結。"
+
+#: /src/deck/side-components/bd-shelf.vue:112
+#, icu-message-format
+msgid "addon.deck.empty"
+msgstr "冇結果。"
