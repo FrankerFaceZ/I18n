@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-26 22:32+0000\n"
+"PO-Revision-Date: 2022-04-27 10:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -289,7 +289,7 @@ msgstr "Twitch 增強套件"
 #, icu-message-format, md-text
 msgid "home.term-syntax"
 msgstr ""
-"呢個係可用嘅唔同字詞語法選項嘅指南。喺呢喥，\n"
+"呢個係可用嘅唔同字詞語法選項嘅指南。晌呢喥，\n"
 "FrankerFaceZ 將你嘅亮點同封鎖字詞轉換為常規\n"
 "表達式。\n"
 "\n"
@@ -298,8 +298,8 @@ msgstr ""
 "\n"
 "#### 1. 文字\n"
 "\n"
-"文本冇特殊行為。正則中任何具有特殊含義嘅字符\n"
-"表達式被規避。\n"
+"文本冇特殊行為。正則中任何具有特殊含義嘅\n"
+"字符表達式會被轉義。\n"
 "\n"
 "\n"
 "#### 2. Glob\n"
@@ -311,9 +311,9 @@ msgstr ""
 "\n"
 "| 通配符 | 說明 | 示例 | 匹配 | 唔匹配 |\n"
 "| :------: | :---------- | :-----: | :-----: | :------------: |\n"
-"| `*` |匹配任意數量嘅冇空格字符，包含無。| `cir*` | `cir`, `circle`, `cirFairy`, "
-"`circumstance` | `ci`, `sir`, `pizza` |\n"
-"| `**` |匹配任意數量嘅任意字符，包含無。與單個 `*` 唔同，這將匹配空格字符。| `hello**!` | `hello!`, `hello, "
+"| `*` |匹配任意數量嘅冇空字符，包含無。| `cir*` | `cir`, `circle`, `cirFairy`, `circumstance`"
+" | `ci`, `sir`, `pizza` |\n"
+"| `**` |匹配任意數量嘅任意字符，包含無。與單個 `*` 唔同，這將匹配空字符。| `hello**!` | `hello!`, `hello, "
 "streamer!` |\n"
 "| `?` |匹配任何單個字符。| `?at` | `cat`, `hat`, `pat` | `at` |\n"
 "| `[abc]` |匹配括號內嘅一個字符。| `[cp]at` | `cat`, `pat` | `hat`, `at` |\n"
@@ -329,25 +329,25 @@ msgstr ""
 "\n"
 "#### 3. 正則表達式\n"
 "\n"
-"[正則表達式](https://en.wikipedia.org/wiki/Regular_expression) 係複雜嘅\n"
-"編程中使用嘅模式字符串。適用於了解如何使用佢哋嘅高級用戶。\n"
+"[正則表達式](https://en.wikipedia.org/wiki/Regular_expression) 係複雜嘅編程中\n"
+"使用嘅模式字符串。適用於了解如何使用佢哋嘅高級用戶。\n"
 "\n"
 "FrankerFaceZ 使用瀏覽器嘅內置引擎來處理正則表達式，\n"
 "以及隨之而來嘅所有限制。正則表達式字詞被打包到\n"
 "生成嘅正則表達式與其他兩種模式相同。你唔應該亦可以\n"
 "唔使用捕獲組。\n"
 "\n"
-"FrankerFaceZ 使用基本邏輯來確保你嘅正則表達式唔\n"
-"會異常性嘅緩慢，但你仍應注意避免緩慢嘅表達\n"
-"，因為佢哋經常運行。\n"
+"FrankerFaceZ 使用基本邏輯來確保你嘅正則表達式\n"
+"唔會異常性嘅緩慢，但你仍應注意避免緩慢嘅表達，\n"
+"因為佢哋經常運行。\n"
 "\n"
 "\n"
 "### 模式\n"
 "\n"
 "#### 區分大小寫\n"
 "\n"
-"呢喥會嘗試以區分大小寫嘅方式匹配你嘅字詞。實際上，呢個\n"
-"選項禁用生成嘅正則表達式上嘅 `/i` 標示。由於\n"
+"呢喥會嘗試以區分大小寫嘅方式匹配你嘅字詞。實際上，呢個選項\n"
+"禁用生成嘅正則表達式上嘅 `/i` 標示。由於\n"
 "瀏覽器正則表達式引擎嘅限制，若唔區分大小寫\n"
 "一些字符可能無法正常工作。\n"
 "\n"
@@ -590,7 +590,7 @@ msgstr "標籤"
 #: /src/modules/main_menu/components/action-editor.vue:62
 #, icu-message-format
 msgid "setting.actions.tooltip"
-msgstr "客製化小工具"
+msgstr "客製化貼士標籤"
 
 #: /src/modules/main_menu/components/action-editor.vue:106
 #: /src/modules/main_menu/components/action-editor.vue:1199
@@ -753,7 +753,7 @@ msgstr "本土化"
 
 #, icu-message-format
 msgid "setting.appearance.localization.formatting"
-msgstr "格式化"
+msgstr "格式"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1442,7 +1442,7 @@ msgstr "標籤完成"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips"
-msgstr "小工具"
+msgstr "貼士標籤"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1739,7 +1739,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.socket"
-msgstr "插座"
+msgstr "插座「套接字」"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1941,7 +1941,7 @@ msgstr "強制元數據同標記位於通道信息條嘅頂部。"
 
 #, icu-message-format
 msgid "setting.entry.channel.panel-tips"
-msgstr "顯示通道面板中連結嘅豐富小工具。"
+msgstr "顯示通道面板中連結嘅豐富貼士標籤。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1971,7 +1971,7 @@ msgstr "唔好自動重定向到小組直播。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.inline"
-msgstr "聊天.行為.串聯"
+msgstr "聊天.行為.內聯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2346,7 +2346,7 @@ msgstr "半分鐘 (30秒)"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.5000"
-msgstr "大（擾流板移除 / 慢速模式; 5秒）"
+msgstr "大（擾流板移除/慢速模式; 5秒）"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2908,7 +2908,7 @@ msgstr "將輸入框嘅\"聊天身份\"移到聊天設定菜單中顯示。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.input.show-mod-view"
-msgstr "喺相關頻道中顯示\"Mod视圖\"撳掣。"
+msgstr "晌相關頻道中顯示\"Mod视圖\"撳掣。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3471,7 +3471,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format.description"
 msgstr ""
 "時間戳使用 [Day.js](https://github.com/iamkun/dayjs#readme) 庫進行格式設定。"
-"有關格式化字符串嘅更多詳細信息 [可以喺呢喥揾到](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/"
+"有關格式化字符串嘅更多詳細信息 [可以晌呢喥揾到](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/"
 "API-reference.md#list-of-all-available-formats)"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
@@ -3900,11 +3900,11 @@ msgstr "啟用縱向模式"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait-invert"
-msgstr "喺縱向模式下，將聊天放喺頂部。"
+msgstr "縱向模式下，將聊天放喺頂部。"
 
 #, icu-message-format
 msgid "setting.entry.layout.portrait-min-chat"
-msgstr "喺縱向模式下使用緊湊聊天。"
+msgstr "縱向模式下使用緊湊聊天。"
 
 #, icu-message-format, md-text
 msgid "setting.entry.layout.portrait-min-chat.description"
@@ -4096,7 +4096,7 @@ msgstr "轉播撳製"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.host-button.description"
-msgstr "喺小工具中顯示包含當前轉播頻道嘅轉播撳製。"
+msgstr "喺貼士標籤中顯示包含當前轉播頻道嘅轉播撳製。"
 
 #: /src/modules/main_menu/index.js:471
 #: /src/modules/main_menu/components/setting-check-box.vue:34
@@ -4112,7 +4112,7 @@ msgstr "播放統計"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.player-stats.description"
-msgstr "喺小工具中顯示當前直播延遲、播放位元速率和丟幀(遺漏畫面數)。"
+msgstr "喺貼士標籤中顯示當前直播延遲、播放位元速率和丟幀(遺漏畫面數)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4713,7 +4713,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.socket.use-cluster.description"
 msgstr ""
 "要連接到邊個服務器叢集。除非你實際喺套接字服務器後端上進行開發工作，否則唔好更改呢個設定。咁樣做會破壞依賴於套接字服務器嘅所有功能，包括表情符號信息搜尋、"
-"連結小工具同實時數據更新。"
+"連結貼士標籤同實時數據更新。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4792,15 +4792,15 @@ msgstr "如果未設定，會將根據背景嘅亮度自動將佢設定為白色
 
 #, icu-message-format
 msgid "setting.entry.theme.color.tooltip.background"
-msgstr "小工具背景"
+msgstr "貼士標籤背景"
 
 #, icu-message-format, md-text
 msgid "setting.entry.theme.color.tooltip.background.description"
-msgstr "如果未設置，小工具設定將根據背景嘅亮度自動調整。"
+msgstr "如果未設置，貼士標籤設定將根據背景嘅亮度自動調整。"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.tooltip.text"
-msgstr "小工具文本"
+msgstr "貼士標籤文本"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4851,7 +4851,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated.description"
 msgstr ""
 "如果未覆蓋呢個值，僅喺未禁用 [聊天>外觀>>表情符號>動態表情符號](~chat.appearance.emotes) "
-"時，動態圖像先至會顯示喺表情符號小工具中。"
+"時，動態圖像先至會顯示喺表情符號貼士標籤中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4861,7 +4861,7 @@ msgstr "顯示已知來源。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.images"
-msgstr "在小工具中顯示圖像。"
+msgstr "在貼士標籤中顯示圖像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4871,7 +4871,7 @@ msgstr "顯示連結嘅圖像。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-interaction"
-msgstr "允許與支持嘅連結小工具進行交互。"
+msgstr "允許與支持嘅連結貼士標籤進行交互。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4886,7 +4886,7 @@ msgstr "啟用之後，FrankerFaceZ 將包含標記為唔安全或未評級嘅�
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.rich-links"
-msgstr "顯示連結嘅豐富小工具。"
+msgstr "爲連結顯示豐富嘅貼士標籤。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
