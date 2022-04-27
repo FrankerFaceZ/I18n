@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-06 16:32+0000\n"
+"PO-Revision-Date: 2022-04-27 22:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/de/>\n"
@@ -766,3 +766,8 @@ msgstr "Einstellungen automatisch öffnen, wenn eine neue Spalte erstellt wird."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.deck.link"
 msgstr "Deck-Verknüpfung zur oberen Navigationsleiste hinzufügen."
+
+#: /src/deck/side-components/bd-shelf.vue:112
+#, icu-message-format
+msgid "addon.deck.empty"
+msgstr "Keine Ergebnisse."
