@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-26 22:32+0000\n"
+"PO-Revision-Date: 2022-04-27 10:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -420,7 +420,7 @@ msgstr "規避禁止"
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.hate"
-msgstr "仇恨 / 騷擾"
+msgstr "仇恨/騷擾"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
@@ -430,7 +430,7 @@ msgstr "發佈不良連結"
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reasons.personal"
-msgstr "威脅 / 個人信息"
+msgstr "威脅/個人信息"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
@@ -547,7 +547,7 @@ msgstr "{user} 喺喥玩緊 {game}"
 #: /src/modules/chat/rich_providers.js:133:13
 #, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
 msgid "clip.desc.2"
-msgstr "剪輯者 {curator} — {views, plural, one {# 觀看次數} other {# 觀看次數}}"
+msgstr "剪輯者 {curator} — {views, plural, one {# 次觀看數} other {# 次觀看數}}"
 
 #: /src/modules/chat/rich_providers.js:134:57
 #, icu-message-format
@@ -579,7 +579,7 @@ msgstr "充實嵌入"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
-msgstr "強制小工具"
+msgstr "強制貼士標籤"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1516,8 +1516,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
 msgid "site.menu_button.strings"
 msgstr ""
-"有 {added,plural,one {係 # 新字符串} other {係 # 新字符串}} 同 {changed,plural,one{# "
-"已更改字符串} other {# 已更改字符串}}。"
+"有 {added,plural,one {# 條新字符串} other {# 條新字符串}} 同 {changed,plural,one{# "
+"條已更改字符串} other {# 條已更改字符串}}。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:175:7
 #, icu-message-format
@@ -1672,7 +1672,7 @@ msgstr "訪問過嘅網址"
 #, icu-message-format, lp-defaults:"{\"err\":\"TypeError: Something bad happened in JavaScript land.\"}"
 msgid "tooltip.render-error"
 msgstr ""
-"呈現呢個小工具時出錯。\n"
+"呈現呢個貼士標籤時出錯。\n"
 "{err}"
 
 #, icu-message-format
@@ -1707,7 +1707,7 @@ msgstr "{user} 嘅視頻"
 #: /src/modules/chat/rich_providers.js:197:13
 #, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
 msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} 觀看次數 — {date,datetime}"
+msgstr "{length,duration} — {views,number} 次觀看數 — {date,datetime}"
 
 #: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
@@ -1717,7 +1717,7 @@ msgstr "發表於: {date,date}"
 #: /src/modules/main_menu/components/link-tester.vue:293
 #, icu-message-format
 msgid "debug.link-provider.mid-embed"
-msgstr "置中嵌入"
+msgstr "適中嵌入"
 
 #: /src/modules/main_menu/components/link-tester.vue:353
 #, icu-message-format
