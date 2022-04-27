@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-27 10:32+0000\n"
+"PO-Revision-Date: 2022-04-27 15:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -235,15 +235,15 @@ msgstr ""
 "* *我已經捐賞，但我嘅徽章冇出現。*\n"
 "* *我喺我嘅頻道中添加咗一個表情符號，但我未睇到佢。*\n"
 "\n"
-"由於我哋當前網站嘅性能問題，我哋必須喺我哋嘅API上使用緩存。因此，對徽章或表情符號所做嘅更改最多可能需要半粒鐘先至生效。之後，刷新頁面，你嘅內容應該會出"
-"現。你都可以嘗試執行硬刷新。\n"
+"由於我哋當前網站嘅性能問題，我哋必須喺自己嘅API上使用緩存。因此，對徽章或表情符號所做嘅更改最多可能需要半粒鐘先至生效。之後，刷新頁面，你嘅內容應該會出"
+"現。你亦可以嘗試執行硬刷新。\n"
 "\n"
 "* *我唔想要 “FFZ 支持者” 徽章。*\n"
 "\n"
 "用戶可以喺以下位置切換其支持者徽章嘅可見性： [https://www.frankerfacez.com/donate](https://www."
 "frankerfacez.com/donate)\n"
 "\n"
-"* *我可以睇到我嘅表情符號，但聊天中有人話佢地睇唔到。*\n"
+"* *我可以睇到我嘅表情符號，但聊天中有人話佢哋睇唔到。*\n"
 "\n"
 "用戶需要安裝 FrankerFaceZ 或其他支援 FFZ 表情符號嘅第三方客戶端，先至睇到來自 FrankerFaceZ "
 "嘅表情符號。用戶也可能睇唔到新添加嘅表情符號，這取決於佢哋嘅瀏覽器緩存同上次刷新嘅時間。\n"
@@ -251,7 +251,7 @@ msgstr ""
 "* *有一個被盜嘅表情符號！*\n"
 "* *有一個攻擊性嘅表情符號！*\n"
 "\n"
-"請使用我們網站上嘅`報告表情符號`工具報告任何有關表情符號嘅問題。單擊 Shift "
+"請使用我們網站上嘅`報告表情符號`工具嚟報告任何有關表情符號嘅問題。單擊 Shift "
 "嚟打開有問題嘅表情符號嘅頁面，然後喺右側欄中選擇`報告表情符號`。你需要登錄先至可以舉報表情符號。"
 
 #: /src/modules/main_menu/components/feedback-page.vue:8
@@ -509,7 +509,7 @@ msgstr "圖標"
 #: /src/modules/main_menu/components/chat-actions.vue:409
 #, icu-message-format
 msgid "setting.actions.new"
-msgstr "新嘅..."
+msgstr "新建..."
 
 #: /src/modules/main_menu/components/chat-actions.vue:680
 #, icu-message-format
@@ -1859,7 +1859,7 @@ msgstr "**注意：**由於Twitch對目錄嘅工作方式進行咗更改，呢�
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.hosts"
-msgstr "轉播"
+msgstr "播主"
 
 #: /src/modules/main_menu/components/action-editor.vue:1419
 #: /src/modules/main_menu/components/reason-editor.vue:203
@@ -5126,7 +5126,7 @@ msgstr "來自網址"
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"disabled\":false,\"title\":\"Inheritance Point\",\"title_i18n\":\"setting.inheritance\",\"value.t\":\"inherit\"}"
 msgid "setting.inheritance"
-msgstr "點數遺產"
+msgstr "繼承點"
 
 #: /src/modules/main_menu/components/action-editor.vue:557
 #, icu-message-format
