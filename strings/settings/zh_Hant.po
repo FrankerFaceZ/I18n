@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-26 14:32+0000\n"
+"PO-Revision-Date: 2022-04-27 10:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -1178,36 +1178,36 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.message_types"
-msgstr ""
+msgstr "訊息種類"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.message_types.description"
-msgstr ""
+msgstr "這個可以幫你過濾掉聊天室內特定種類的訊息。這可以用在系統訊息，像是轉播或揪團。部分種類，例如管理員動作，沒辦法被過濾因為要確保聊天室功能正常。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms"
-msgstr ""
+msgstr "字詞"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms.description"
-msgstr ""
+msgstr "請見[聊天室>過濾>語法幫助](~)來了解如何使用字詞。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.users"
-msgstr ""
+msgstr "使用者"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_badges"
-msgstr ""
+msgstr "封鎖的徽章"
 
 #: /src/modules/main_menu/index.js:593
 #, icu-message-format, md-text
@@ -1216,21 +1216,21 @@ msgstr ""
 
 #, icu-message-format
 msgid "setting.chat.filtering.blocked_message_types"
-msgstr ""
+msgstr "封鎖訊息種類"
 
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_message_types.description"
-msgstr ""
+msgstr "這個可以幫你過濾掉聊天室內特定種類的訊息。這可以用在系統訊息，像是轉播或揪團。部分種類，例如管理員動作，沒辦法被過濾因為要確保聊天室功能正常。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_terms"
-msgstr ""
+msgstr "封鎖的字詞"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_users"
-msgstr ""
+msgstr "封鎖的使用者"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
@@ -1246,12 +1246,12 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters"
-msgstr ""
+msgstr "AutoMod過濾"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters.description"
-msgstr ""
+msgstr "Twitch內建`聊天室過濾器`的追加功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1261,29 +1261,29 @@ msgstr "行為"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.rituals"
-msgstr ""
+msgstr "禮儀"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight"
-msgstr ""
+msgstr "醒目標示"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_badges"
-msgstr ""
+msgstr "醒目標示的徽章"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_terms"
-msgstr ""
+msgstr "醒目標示的字詞"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_users"
-msgstr ""
+msgstr "醒目標示的使用者"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1295,41 +1295,44 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.description"
 msgstr ""
+"這些設定可以讓你根據訊息內容凸顯他們。規則的順序可以決定當同時符合多種條件時該以哪種凸顯顏色出現。越高優先程度的顏色會優先顯示。\n"
+"\n"
+"你也可以建立一個移除凸顯顏色的規則，將顏色`#00000000`填入較高等的規則把低等的規則蓋過去。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms"
-msgstr ""
+msgstr "字詞"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms.description"
-msgstr ""
+msgstr "請見[聊天室>過濾>語法幫助](~)來了解如何使用字詞。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.users"
-msgstr ""
+msgstr "使用者"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.rituals"
-msgstr ""
+msgstr "禮儀"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.syntax_help"
-msgstr ""
+msgstr "語法協助"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.input"
-msgstr ""
+msgstr "輸入"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1339,17 +1342,17 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.input.recent_messages"
-msgstr ""
+msgstr "最近訊息"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.input.tab_completion"
-msgstr ""
+msgstr "Tab自動完成"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips"
-msgstr ""
+msgstr "小工具"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1359,7 +1362,7 @@ msgstr "徽章"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.emotes"
-msgstr ""
+msgstr "表情符號"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1369,12 +1372,12 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.links"
-msgstr ""
+msgstr "連結"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards"
-msgstr ""
+msgstr "觀眾卡片"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1389,7 +1392,7 @@ msgstr "行為"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.whispers"
-msgstr ""
+msgstr "悄悄話"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1399,121 +1402,121 @@ msgstr "一般"
 #: /src/std-components/key-picker.vue:66
 #, icu-message-format
 msgid "setting.clear"
-msgstr ""
+msgstr "清除"
 
 #: /src/modules/main_menu/components/clear-settings.vue:187
 #, icu-message-format
 msgid "setting.clear.done"
-msgstr ""
+msgstr "你的設定已經清除。請重新整理所有Twitch頁面確保沒有留下任何快取資料。"
 
 #: /src/modules/main_menu/components/clear-settings.vue:1
 #, icu-message-format
 msgid "setting.clear.opt.DeckTabs"
-msgstr ""
+msgstr "Deck分頁"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Everything"
-msgstr ""
+msgstr "全部的東西"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Experiments"
-msgstr ""
+msgstr "實驗性功能所蓋過的東西"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.FavoriteEmotes"
-msgstr ""
+msgstr "最愛的表情符號"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.HiddenEmotes"
-msgstr ""
+msgstr "隱藏的表情符號"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Overrides"
-msgstr ""
+msgstr "名稱及顏色所蓋過的東西"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.Profiles"
-msgstr ""
+msgstr "設定檔"
 
 #: /src/modules/main_menu/components/clear-settings.vue:154
 #, icu-message-format
 msgid "setting.clear.start"
-msgstr ""
+msgstr "清除我的資料"
 
 #: /src/modules/main_menu/components/clear-settings.vue:41
 #, icu-message-format
 msgid "setting.clear.step-1"
-msgstr ""
+msgstr "請選擇要清除的資料:"
 
 #: /src/modules/main_menu/components/clear-settings.vue:95
 #, icu-message-format, lp-defaults:"{\"code\":\"5456d490\"}"
 msgid "setting.clear.step-2"
-msgstr ""
+msgstr "你真的確定嗎? 請在下方輸入 `{code}` 以確定。"
 
 #: /src/modules/main_menu/components/clear-settings.vue:17
 #, icu-message-format
 msgid "setting.clear.warning"
-msgstr ""
+msgstr "注意! 這無法還原。"
 
 #: /src/modules/main_menu/components/clear-settings.vue:25
 #, icu-message-format
 msgid "setting.clear.warning-explain"
-msgstr ""
+msgstr "用這個工具刪除你的資料無法復原。請確定你有備份!"
 
 #: /src/modules/main_menu/components/profile-manager.vue:114
 #, icu-message-format
 msgid "setting.close"
-msgstr ""
+msgstr "關閉"
 
 #, icu-message-format
 msgid "setting.color.nullable"
-msgstr ""
+msgstr "右鍵以重置"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:63
 #, icu-message-format
 msgid "setting.combo-box.custom"
-msgstr ""
+msgstr "自訂"
 
 #: /src/modules/main_menu/components/profile-manager.vue:406
 #, icu-message-format
 msgid "setting.configure"
-msgstr ""
+msgstr "設定"
 
 #: /src/modules/main_menu/components/action-editor.vue:1453
 #, icu-message-format
 msgid "setting.copy-json"
-msgstr ""
+msgstr "複製"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management"
-msgstr ""
+msgstr "資料管理"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.backup_and_restore"
-msgstr ""
+msgstr "備份與還原"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.profiles"
-msgstr ""
+msgstr "設定檔"
 
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgid "setting.data_management.profiles.edit_profile"
-msgstr ""
+msgstr "編輯設定檔"
 
 #: /src/modules/main_menu/components/profile-editor.vue:267
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.desc"
-msgstr ""
+msgstr "說明"
 
 #: /src/modules/main_menu/components/profile-editor.vue:220
 #, icu-message-format
@@ -1523,32 +1526,34 @@ msgstr "一般"
 #: /src/modules/main_menu/components/profile-editor.vue:309
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.hotkey"
-msgstr ""
+msgstr "快捷鍵"
 
 #: /src/modules/main_menu/components/profile-editor.vue:231
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.name"
-msgstr ""
+msgstr "名稱"
 
 #: /src/modules/main_menu/components/profile-editor.vue:310
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.rules"
-msgstr ""
+msgstr "規則"
 
 #: /src/modules/main_menu/components/profile-editor.vue:320
 #, icu-message-format, md-text
 msgid "setting.data_management.profiles.edit.rules.description"
 msgstr ""
+"規則允許你定義一連串的條件，在這些條件下將啟動這個設定檔。當有很多條件時，必須滿足所有條件才會啟動設定檔。請用 `Or` "
+"規則建立設定檔以允許滿足其中一個規則時啟動。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:390
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.update"
-msgstr ""
+msgstr "自動更新這個設定檔。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:322
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.updates"
-msgstr ""
+msgstr "自動更新"
 
 #: /src/modules/main_menu/components/profile-editor.vue:335
 #, icu-message-format, md-text
