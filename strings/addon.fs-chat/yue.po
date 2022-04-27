@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-13 19:32+0000\n"
+"PO-Revision-Date: 2022-04-27 10:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-fullscreen-chat/yue/>\n"
@@ -13,24 +13,24 @@ msgstr ""
 #: /src/fs-chat/index.jsx:330
 #, icu-message-format
 msgid "addon.fs-chat.button.active"
-msgstr "禁用 FS 聊天"
+msgstr "禁用全屏聊天"
 
 #: /src/fs-chat/index.jsx:331
 #, icu-message-format
 msgid "addon.fs-chat.button.inactive"
-msgstr "FS 聊天"
+msgstr "全屏聊天"
 
 #: /src/settings/components/basic-toggle.vue:67
 #, icu-message-format
 msgid "addon.fs-chat.using"
-msgstr "使用緊 FS 聊天"
+msgstr "使用緊全屏聊天"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat"
-msgstr "FS 聊天"
+msgstr "全屏聊天"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -53,7 +53,7 @@ msgstr "尺寸同位置"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.automatic"
-msgstr "進入全屏時自動打開 FS 聊天。"
+msgstr "進入全屏時自動打開全屏聊天。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -108,7 +108,7 @@ msgstr "高度"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.height.description"
-msgstr "FS 聊天嘅高度應該係幾多，請以像素為單位。 如果你熟悉CSS，亦可以輸入其他單位。"
+msgstr "全屏聊天嘅高度應該係幾多，請以像素為單位。 如果你熟悉CSS，亦可以輸入其他單位。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -141,7 +141,7 @@ msgstr "最小模式"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.minimal.description"
-msgstr "將喺 FS 聊天打開時隱藏聊天標題同輸入撳製。"
+msgstr "將喺全屏聊天打開時隱藏聊天標題同輸入撳製。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -163,7 +163,7 @@ msgstr "快捷鍵"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.shortcut.description"
-msgstr "呢個鍵序列可用于喺全屏時切換 FS 聊天。"
+msgstr "呢個鍵序列可用于喺全屏時切換全屏聊天。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
@@ -175,4 +175,4 @@ msgstr "寬度"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.width.description"
-msgstr "FS聊天嘅寬度應係幾多，以像素為單位。 默認為正常聊天寬度。 如果你熟悉CSS，亦可以輸入其他單位。"
+msgstr "全屏聊天嘅寬度應係幾多，以像素為單位。 默認為正常聊天寬度。 如果你熟悉CSS，亦可以輸入其他單位。"
