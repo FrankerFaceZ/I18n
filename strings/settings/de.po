@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-24 20:32+0000\n"
+"PO-Revision-Date: 2022-04-27 22:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -4480,3 +4480,73 @@ msgstr ""
 "werden und automatisch von FrankerFaceZ geladen werden können. Auf diese "
 "Weise können der Erweiterung und Twitch neue Funktionen und Verhaltensweisen "
 "hinzugefügt werden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "»LIVE«-Anzeige bei Kanälen ausblenden, die live sind."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.input.hide-identity"
+msgstr ""
+"»Chat-Identität« in den Chat-Einstellungen anstatt im Chat-Feld anzeigen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Hinweis**: Nachrichten, die mit der Erneuerung des Abonnements abgeschickt "
+"werden, werden immer angezeigt. Diese Einstellung betrifft »X abonniert!«."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Überschreibt die für die gesamte Twitch-Website verwendete Schriftart. Die "
+"alte Standardschriftart war: `„Helvetica Neue“, Helvetica, Arial, sans-serif`"
+"\n"
+"\n"
+"Jede über [Google Fonts](https://fonts.google.com/) verfügbare Schriftart "
+"kann geladen werden, wenn dem Namen der Schriftart `google:` vorangestellt "
+"wird."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Verwende `#0E0C13`, damit es dem alten dunklen Design von Twitch ähnelt oder "
+"`#0E0E0E`, für ein angenehmes Grau. Transparente Farben sind nicht möglich."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark"
+msgstr "Automatisches dunkles Design deaktivieren"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark.description"
+msgstr ""
+"Wenn diese Option aktiviert ist, wird versucht, die vom Browser aus "
+"automatische dunkle Darstellung für Websites zu deaktivieren, da dies für "
+"Twitch nicht nötig ist und zu Darstellungsproblemen führen kann. Je nach "
+"Browser und Einstellungen ist dies eventuell nicht möglich."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "Anpassungen"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Emoji"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.dark"
+msgstr "Grau (nicht Violett)"
