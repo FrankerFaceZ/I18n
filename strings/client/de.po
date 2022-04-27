@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-07 21:32+0000\n"
+"PO-Revision-Date: 2022-04-27 22:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/de/>\n"
@@ -1143,3 +1143,13 @@ msgstr "Vollständige Einbettung"
 #, icu-message-format
 msgid "debug.link-provider.link"
 msgstr "Chat-Link"
+
+#: /src/modules/main_menu/components/link-tester.vue:293
+#, icu-message-format
+msgid "debug.link-provider.mid-embed"
+msgstr "Mid Embed"
+
+#: /src/modules/main_menu/components/link-tester.vue:353
+#, icu-message-format
+msgid "debug.link-provider.raw-length"
+msgstr "Raw Length"
