@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-28 15:32+0000\n"
+"PO-Revision-Date: 2022-04-28 19:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -397,7 +397,7 @@ msgstr "解鎖隨機訂閱表情符號"
 #: /src/sites/twitch-twilight/modules/chat/line.js:718
 #, icu-message-format, lp-defaults:"{\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
 msgid "chat.points.redeemed"
-msgstr "贖回 {reward} {cost}"
+msgstr "花費咗 {cost} 兑换 {reward}"
 
 #, icu-message-format
 msgid "chat.points.reward"
@@ -405,7 +405,7 @@ msgstr "報酬"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
 msgid "chat.points.user-redeemed"
-msgstr "{user} 贖回 {reward} {cost}"
+msgstr "{user} 佢花費咗 {cost} 兑换 {reward}"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
@@ -475,7 +475,7 @@ msgstr "匿名贈禮人"
 #: /src/sites/twitch-twilight/modules/chat/line.js:628:20
 #, icu-message-format
 msgid "chat.sub.cumulative-months"
-msgstr "佢訂閱咗 {cumulative,number} 個月，目前連續 {streak,number} 個月！"
+msgstr "佢已經訂閱咗 {cumulative,number} 個月，目前連續 {streak,number} 個月！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:468:21
 #, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
@@ -507,12 +507,12 @@ msgstr "佢哋喺頻道中贈送咗 {count,number} 個訂閱！"
 #: /src/sites/twitch-twilight/modules/chat/line.js:614
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\"}"
 msgid "chat.sub.main"
-msgstr "{user} 訂閱咗 {plan}. "
+msgstr "{user} 已訂閱 {plan}. "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:638:20
 #, icu-message-format
 msgid "chat.sub.months"
-msgstr "佢訂閱咗 {count,number} 個月！"
+msgstr "佢已經訂閱咗 {count,number} 個月！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:556:21
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\",\"recipient\":\"Quoteconut\"}"
@@ -522,7 +522,7 @@ msgstr "{user} 將 {plan} 訂閱贈送畀 {recipient}！ "
 #: /src/sites/twitch-twilight/modules/chat/line.js:624:8
 #, icu-message-format
 msgid "chat.sub.plan"
-msgstr "喺第 {tier} 層級"
+msgstr "第 {tier} 層級"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
 #, icu-message-format
@@ -635,7 +635,7 @@ msgstr "由 {user} 轉播"
 #: /src/sites/twitch-twilight/modules/directory/following.jsx:263:4
 #, icu-message-format
 msgid "directory.hosting"
-msgstr "喺喥轉播頻道"
+msgstr "轉播頻道"
 
 #: /src/sites/twitch-twilight/modules/directory/game.jsx:105:5
 #, icu-message-format
@@ -1233,7 +1233,7 @@ msgstr "轉播"
 #: /src/sites/twitch-twilight/modules/host_button.js:103:12
 #, icu-message-format, lp-defaults:"{\"channel\":\"None\"}"
 msgid "metadata.host-button.tooltip"
-msgstr "當前喺喥轉播: {channel}"
+msgstr "當前轉播: {channel}"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:106:45
 #, icu-message-format
@@ -1340,7 +1340,7 @@ msgstr "延遲"
 msgid "metadata.player-stats.video-info"
 msgstr ""
 "視頻: {videoResolution}p{fps}\n"
-"播放位元速率: {playbackRate, number} Kbps\n"
+"播放位元率(碼率): {playbackRate, number} Kbps\n"
 "丟幀(遺漏畫面數): {skippedFrames, number}"
 
 #: /src/modules/metadata.jsx:242:25
