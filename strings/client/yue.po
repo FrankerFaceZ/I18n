@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-27 15:32+0000\n"
+"PO-Revision-Date: 2022-04-28 15:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -475,14 +475,14 @@ msgstr "匿名贈禮人"
 #: /src/sites/twitch-twilight/modules/chat/line.js:628:20
 #, icu-message-format
 msgid "chat.sub.cumulative-months"
-msgstr "佢哋訂閱咗 {cumulative,number} 個月，目前連續 {streak,number} 個月！"
+msgstr "佢訂閱咗 {cumulative,number} 個月，目前連續 {streak,number} 個月！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:468:21
 #, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
 msgid "chat.sub.gift"
 msgstr ""
-"{user} 正喺喥向 {channel} 嘅社群贈送 {count, plural, one {# 層級 {tier} 訂閱} other {# 層級 "
-"{tier} 訂閱}}！ "
+"{user} 正喺喥向 {channel} 嘅社群贈送 {count, plural, one {# 份層級 {tier} 訂閱} other {# "
+"層級 {tier} 訂閱}}！ "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -512,7 +512,7 @@ msgstr "{user} 訂閱咗 {plan}. "
 #: /src/sites/twitch-twilight/modules/chat/line.js:638:20
 #, icu-message-format
 msgid "chat.sub.months"
-msgstr "佢哋訂閱咗 {count,number} 個月！"
+msgstr "佢訂閱咗 {count,number} 個月！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:556:21
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\",\"recipient\":\"Quoteconut\"}"
