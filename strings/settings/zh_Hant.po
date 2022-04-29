@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-27 10:32+0000\n"
+"PO-Revision-Date: 2022-04-29 19:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -1173,6 +1173,8 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges.description"
 msgstr ""
+"**注意:** 這個區域是用來過濾來自擁有特定徽章的使用者的訊息。如果你要隱藏一個徽章，可以去[聊天室>徽章>>能見度](~chat.badges."
+"tabs.visibility)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1213,6 +1215,8 @@ msgstr "封鎖的徽章"
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
+"**注意:** 這個區域是用來過濾來自擁有特定徽章的使用者的訊息。如果你要隱藏一個徽章，可以去[聊天室>徽章>>能見度](~chat.badges."
+"tabs.visibility)。"
 
 #, icu-message-format
 msgid "setting.chat.filtering.blocked_message_types"
@@ -1559,83 +1563,88 @@ msgstr "自動更新"
 #, icu-message-format, md-text
 msgid "setting.data_management.profiles.edit.updates.description"
 msgstr ""
+"這個設定檔有設定自動更新的連結。當啟動自動更新然後設定檔更新時，所有有關這個設定檔的設定都會被重置。這個設定檔的規則也會被重置。名稱，說明，快捷鍵都不會被"
+"重置。"
 
 #: /src/modules/main_menu/components/profile-editor.vue:349
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.url"
-msgstr ""
+msgstr "更新連結"
 
 #: /src/modules/main_menu/components/profile-editor.vue:301
 #, icu-message-format
 msgid "setting.data_management.profiles.hotkey.desc"
 msgstr ""
+"設定一個快捷鍵允許你隨時開關設定檔。\n"
+"\n"
+"**注意:** 即使一個設定開啟了也可能因為規則而不啟用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.reporting"
-msgstr ""
+msgstr "回報"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.reporting.error_reports"
-msgstr ""
+msgstr "錯誤回報"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.reporting.example_report"
-msgstr ""
+msgstr "回報範例"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage"
-msgstr ""
+msgstr "儲存空間"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage.tabs"
-msgstr ""
+msgstr "分頁"
 
 #: /src/std-components/tab-container.vue:178
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage.tabs.clear"
-msgstr ""
+msgstr "清除"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.storage.tabs.provider"
-msgstr ""
+msgstr "提供者"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging"
-msgstr ""
+msgstr "除錯"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources"
-msgstr ""
+msgstr "資料來源"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources.links"
-msgstr ""
+msgstr "連結"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.experiments"
-msgstr ""
+msgstr "實驗性"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.localization"
-msgstr ""
+msgstr "本地化"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.localization.editing"
-msgstr ""
+msgstr "編輯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1645,7 +1654,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.socket"
-msgstr ""
+msgstr "接口"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1656,7 +1665,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging.socket.info"
-msgstr ""
+msgstr "資訊"
 
 #: /src/modules/main_menu/components/action-editor.vue:1442
 #: /src/modules/main_menu/components/reason-editor.vue:233
@@ -1667,64 +1676,68 @@ msgstr ""
 #: Proxy.render (/src/modules/main_menu/c
 #, icu-message-format
 msgid "setting.delete"
-msgstr ""
+msgstr "刪除"
 
 #: /src/modules/main_menu/components/chat-actions.vue:530
 #: /src/modules/main_menu/components/chat-reasons.vue:35
 #, icu-message-format
 msgid "setting.delete-all"
-msgstr ""
+msgstr "刪除全部"
 
 #: /src/modules/main_menu/components/experiments.vue:32
 #, icu-message-format
 msgid "setting.dev-warning"
-msgstr ""
+msgstr "這樣太危險。"
 
 #: /src/modules/main_menu/components/experiments.vue:43
 #, icu-message-format, lp-defaults:"{\"code\":\"sv_cheats 1\"}"
 msgid "setting.dev-warning.explain"
 msgstr ""
+"請注意，這是給開發者用的進階功能。一般使用者應該要保持清空。調整一些實驗性功能可能會出現一些影響你Twitch體驗的負面影響。FrankerFaceZ不負"
+"責任何因為實驗性功能而導致的問題，我們也不會幫你。\n"
+"\n"
+"如果你確定，請在下面格子輸入 `{code}` 然後按enter。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory"
-msgstr ""
+msgstr "目錄"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories"
-msgstr ""
+msgstr "類別"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.blocked"
-msgstr ""
+msgstr "封鎖"
 
 #: /src/modules/main_menu/components/menu-page.vue:137
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.description"
-msgstr ""
+msgstr "請注意因為Twitch網站的限制，這裡的名稱必須完全跟你網站看到的格式一模一樣。為了最佳的結果，你可以直接從目錄頁直接封鎖特定種類。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.hidden_thumbnail_style"
-msgstr ""
+msgstr "隱藏縮圖樣式"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories.hidden_thumbnails"
-msgstr ""
+msgstr "隱藏的縮圖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels"
-msgstr ""
+msgstr "頻道"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1735,436 +1748,444 @@ msgstr "外觀"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.blocked_and_hidden_categories"
-msgstr ""
+msgstr "封鎖及隱藏的的種類"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.description"
-msgstr ""
+msgstr "**注意:** 這些設定目前沒有用因為Twitch改了目錄的使用方法。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following"
-msgstr ""
+msgstr "追蹤"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.categories"
-msgstr ""
+msgstr "類別"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.description"
-msgstr ""
+msgstr "**注意:** 這些設定目前沒有用因為Twitch改了目錄的使用方法。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.hosts"
-msgstr ""
+msgstr "轉播"
 
 #: /src/modules/main_menu/components/action-editor.vue:1419
 #: /src/modules/main_menu/components/reason-editor.vue:203
 #: /src/modules/main_menu/components/badge-term-editor.vue:355
 #, icu-message-format
 msgid "setting.edit"
-msgstr ""
+msgstr "編輯"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.add-ons"
-msgstr ""
+msgstr "附加元件"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addons.dev.server"
-msgstr ""
+msgstr "使用本地開發伺服器"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addons.dev.server.description"
-msgstr ""
+msgstr "嘗試從本地開發伺服器端口 8001 讀取附加元件。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.backup"
-msgstr ""
+msgstr "備份"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.changelog"
-msgstr ""
+msgstr "更新紀錄"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.auto-click-chat"
-msgstr ""
+msgstr "當開啟已關台的頻道時自動打開聊天室。"
 
 #, icu-message-format
 msgid "setting.entry.channel.auto-skip-trailer"
-msgstr ""
+msgstr "自動跳過頻道預告片。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.extra-links"
-msgstr ""
+msgstr "增加連結到直播頻道頁面，到直播主名稱旁邊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-live-indicator"
-msgstr ""
+msgstr "在直播頻道隱藏LIVE標籤。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-not-live-bar"
-msgstr ""
+msgstr "隱藏\"正在開台\"橫幅。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-not-live-bar.description"
-msgstr ""
+msgstr "當直播主直播時隱藏影片及剪輯畫面上方的直播橫幅，提示你他正在開直播。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-unfollow"
-msgstr ""
+msgstr "隱藏取消追蹤按鈕。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hosting.enable"
-msgstr ""
+msgstr "啟用頻道轉播"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.metadata.force-above"
-msgstr ""
+msgstr "強制把中繼資料及標籤標在頻道資訊欄上方。"
 
 #, icu-message-format
 msgid "setting.entry.channel.panel-tips"
-msgstr ""
+msgstr "在頻道的面板上顯示豐富的小工具。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.raids.no-autojoin"
-msgstr ""
+msgstr "不要自動加入糾團。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.round-avatars"
-msgstr ""
+msgstr "允許頭貼是圓的。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations"
-msgstr ""
+msgstr "允許出現慶祝。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations.description"
-msgstr ""
+msgstr "慶祝是會把整個Twitch頁面佔滿的動畫。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.squads.no-autojoin"
-msgstr ""
+msgstr "不要自動導向到組隊模式。"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.inline"
-msgstr ""
+msgstr "chat.actions.inline"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.reasons"
-msgstr ""
+msgstr "chat.actions.reasons"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.room"
-msgstr ""
+msgstr "chat.actions.room"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.room-above"
-msgstr ""
+msgstr "在聊天室輸入格上方顯示聊天室動作。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.rules-as-reasons"
-msgstr ""
+msgstr "在原因中包含目前聊天室內的規則。"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.chat.actions.size"
-msgstr ""
+msgstr "動作大小"
 
 #: /src/modules/main_menu/index.js:552
 #, icu-message-format, md-text
 msgid "setting.entry.chat.actions.size.description"
-msgstr ""
+msgstr "它該多高，以像素(pixels)顯示。這會因為你的瀏覽器縮放及字體大小設定而影響。"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.user-context"
-msgstr ""
+msgstr "chat.actions.user-context"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-contrast"
-msgstr ""
+msgstr "最小對比"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-contrast.description"
-msgstr ""
+msgstr "設定Luma調整在判定可讀性所使用的最小對比比率。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-mode"
-msgstr ""
+msgstr "調整"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-mode.description"
-msgstr ""
+msgstr "變更使用者顏色以確保可讀性。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr ""
+msgstr "沒有顏色"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.0"
-msgstr ""
+msgstr "無變化"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.1"
-msgstr ""
+msgstr "HSL亮度"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.2"
-msgstr ""
+msgstr "Luv亮度"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.3"
-msgstr ""
+msgstr "HSL循環 (像BTTV)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.4"
-msgstr ""
+msgstr "RGB循環 (已棄用)"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.delete-messages"
-msgstr ""
+msgstr "當訊息有過濾字詞時標為已刪除。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.remove-messages"
-msgstr ""
+msgstr "當訊息有過濾字詞時移除整個訊息。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod"
-msgstr ""
+msgstr "以管理員身分使用聊天室過濾。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod.description"
-msgstr ""
+msgstr "一般來說，Twitch的聊天室過濾功能對管理員無效。這會覆蓋上述功能。"
 
 #, icu-message-format
 msgid "setting.entry.chat.badges.clickable"
-msgstr ""
+msgstr "允許點按徽章。"
 
 #, icu-message-format, md-text
 msgid "setting.entry.chat.badges.clickable.description"
-msgstr ""
+msgstr "特定的徽章，像是Prime Gaming，當啟用時會做為連結。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-mod"
-msgstr ""
+msgstr "當提供時使用自訂管理員徽章。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-vip"
-msgstr ""
+msgstr "當提供時使用自訂VIP徽章。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.fix-colors"
-msgstr ""
+msgstr "為了能見度調整徽章顏色。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:124
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.fix-colors.description"
 msgstr ""
+"確定徽章在當前背景下可以看得清楚。\n"
+"\n"
+"**注意:** 只有影響有自訂渲染的徽章。訂閱者徽章，小奇點徽章之類的不會受影響。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.hidden"
-msgstr ""
+msgstr "能見度"
 
 #: /src/modules/main_menu/index.js:410
 #, icu-message-format
 msgid "setting.entry.chat.badges.media-queries"
-msgstr ""
+msgstr "使用 @media 詢問來讓Mozilla Firefox支援高DPI圖片。"
 
 #: /src/modules/main_menu/index.js:417
 #, icu-message-format, md-text
 msgid "setting.entry.chat.badges.media-queries.description"
-msgstr ""
+msgstr "這個在要顯示高DPI在Firefox時是必要的因為Firefox過了五年還不支援`image-set()`。這可能會有點不穩定。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.style"
-msgstr ""
+msgstr "風格"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.0"
-msgstr ""
+msgstr "方形"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.1"
-msgstr ""
+msgstr "圓角"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.2"
-msgstr ""
+msgstr "圓形"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.3"
-msgstr ""
+msgstr "圓角(只有顏色)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.4"
-msgstr ""
+msgstr "圓型 (只有顏色，小型)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.5"
-msgstr ""
+msgstr "透明"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.badges.style.values.6"
-msgstr ""
+msgstr "透明(帶有顏色)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.version"
-msgstr ""
+msgstr "版本"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:38
 #, icu-message-format
 msgid "setting.entry.chat.badges.version.values.1"
-msgstr ""
+msgstr "1 (2019年12月前)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:38
 #, icu-message-format
 msgid "setting.entry.chat.badges.version.values.2"
-msgstr ""
+msgstr "2 (當前)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.drops"
-msgstr ""
+msgstr "允許有關掉寶的訊息出現在聊天室。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.hype-train"
-msgstr ""
+msgstr "允許發燒列車出現在聊天室裡。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.polls"
-msgstr ""
+msgstr "允許投票出現在聊天室裡。"
 
 #, icu-message-format
 msgid "setting.entry.chat.banners.prediction"
-msgstr ""
+msgstr "允許預測出現在聊天室裡。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.animated"
-msgstr ""
+msgstr "顯示動態Cheers。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.cheer-notice"
-msgstr ""
+msgstr "當聊天訊息中出現Cheer時顯示通知。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.cheer-notice.description"
 msgstr ""
+"這個功能是要預防聊天室使用者使用假的Cheer表情符號來騙人。當啟用時，有真正的Cheer的訊息會顯示一個通知在它上面，像是重新訂閱訊息或兌換點數會出現的"
+"樣子。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show"
-msgstr ""
+msgstr "顯示小奇點"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned"
-msgstr ""
+msgstr "顯示排行榜"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned.description"
 msgstr ""
+"排行榜顯示聊天室送禮大戶或最佳Cheerer。\n"
+"\n"
+"預設來說因為之前的應用，這會從[聊天室 > 小奇點及Cheering > 顯示小奇點](~chat.bits_and_cheering) 繼承。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards"
-msgstr ""
+msgstr "當有Cheer分享獎勵至聊天室時顯示訊息。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards.description"
-msgstr ""
+msgstr "預設來說，這會從顯示小奇點繼承。這只會影響新進的訊息。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show.description"
-msgstr ""
+msgstr "顯示與小奇點相關的UI。注意: 這不會隱藏聊天訊息裡的Cheering。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.stack"
-msgstr ""
+msgstr "Cheer堆疊"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.stack.description"
-msgstr ""
+msgstr "把全部的Cheer濃縮到一個訊息的開頭並當作一次Cheer。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.bits.stack.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2351,7 +2372,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.modifiers.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2486,7 +2507,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2513,7 +2534,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
@@ -2812,7 +2833,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2936,7 +2957,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2993,7 +3014,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.replies.style.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -3198,7 +3219,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3263,7 +3284,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.1000"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3498,7 +3519,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.following.host-menus.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3590,7 +3611,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.uptime.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3676,7 +3697,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.i18n.debug.transform.values.null"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4008,7 +4029,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.metadata.uptime.values.0"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4505,7 +4526,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.false"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -4565,7 +4586,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.socket.use-cluster.values.null"
-msgstr ""
+msgstr "停用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -5176,7 +5197,7 @@ msgstr ""
 #: /src/modules/main_menu/components/profile-manager.vue:406
 #, icu-message-format
 msgid "setting.profiles.disabled"
-msgstr ""
+msgstr "這個設定檔已經停用。"
 
 #: /src/modules/main_menu/components/menu-page.vue:72
 #, icu-message-format, md-text
@@ -5887,3 +5908,28 @@ msgstr "插件"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.emoji"
 msgstr "表情符號"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "停用"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "停用"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "停用"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.1"
+msgstr "舊版 (開啟連結)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.2"
+msgstr "開啟徽章小卡"
