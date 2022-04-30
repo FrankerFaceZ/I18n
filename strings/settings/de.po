@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-28 15:32+0000\n"
+"PO-Revision-Date: 2022-05-03 21:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -4550,3 +4550,419 @@ msgstr "Emoji"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.dark"
 msgstr "Grau (nicht Violett)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-family.description"
+msgstr ""
+"Setzt die Schriftart, die verwendet werden soll, um Chatnachrichten "
+"darzustellen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-size"
+msgstr "Schriftgröße"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:124
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.hide-community-highlights.description"
+msgstr ""
+"Community-Highlights sind Umfragen, Community-Geschenkabos usw., die "
+"zeitweilig über dem Chat angezeigt werden, ohne die Möglichkeit, sie zu "
+"schließen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.padding"
+msgstr "Innenabstand um Nachrichten reduzieren."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.me-style.description"
+msgstr ""
+"Wenn jemand `/me` verwendet, wird die Nachricht in dem ausgewählten Stil "
+"dargestellt."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr ""
+"Nachricht im Chat hervorheben, wenn »Meine Nachricht hervorheben« eingelöst "
+"wird."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.replies.style.description"
+msgstr ""
+"Der Standardstil von Twitch fügt rechts eine schwebende Schaltfläche hinzu "
+"und zeigt einen Hinweis über Nachrichten an, die Antworten sind. "
+"FrankerFaceZ verwendet eine Inline-Chat-Aktion (die unter [Chat > Aktionen > "
+"In-Line](~chat.actions.in_line) entfernt werden kann) und verwendet eine "
+"Inline-Erwähnung, um Antworten zu kennzeichnen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Streamer: Bitte beachte, dass die Gefahr besteht, dass NSFW-Medien über "
+"Thumbnails angezeigt werden können. Sei daher vorsichtig, wenn der Chat mit "
+"dieser Funktion übertragen wird.*"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Nachrichtenerfassung aktivieren."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.capture.description"
+msgstr ""
+"Erfasse alle lokalisierten Zeichenketten, einschließlich Variablen und "
+"Aufrufpositionen, um sie an das Backend zu melden. Dies wird benutzt, um "
+"neue Zeichenketten zum Übersetzungsprojekt hinzuzufügen. Standardmäßig ist "
+"die Nachrichtenerfassung aktiviert, wenn du dich im Entwicklermodus "
+"befindest."
+
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source"
+msgstr "Link Resolver"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:16
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.locale"
+msgstr "Sprache"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:109
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FrankerFaceZ wird liebevoll von Freiwilligen aus unserer Community "
+"übersetzt. Danke. Wenn du daran interessiert bist, bei der Übersetzung von "
+"FrankerFaceZ zu helfen, [tritt unserem Discord bei](https://discord.gg/"
+"UrAkGhT) und melde dich bezüglich der Lokalisierung."
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Verfügbare Formatierungen: {fmts}"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.animated"
+msgstr "Animierte Cheers anzeigen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice"
+msgstr "Hinweis bei Chatnachrichten anzeigen, die Cheers enthalten."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice.description"
+msgstr ""
+"Diese Funktion soll mögliche Verwirrung durch Chatteilnehmende verhindern, "
+"die Emotes verwenden, um Cheers in Nachrichten vorzutäuschen. Wenn dies "
+"aktiviert ist, wird über Nachrichten, die echte Cheers enthalten, ein "
+"Hinweis angezeigt - ähnlich wie bei Nachrichten zur Erneuerung des "
+"Abonnements oder der Einlösung von Nachrichten mit Kanalpunkten."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-pinned.description"
+msgstr ""
+"Die Rangliste zeigt die Top-Cheerer und die Top-Geschenkgeber in einem Kanal."
+"\n"
+"\n"
+"Aufgrund einer früheren Implementierung wird dieser Wert standardmäßig von ["
+"Chat > Bits und Cheering > Bits anzeigen](~chat.bits_and_cheering) geerbt."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"Standardmäßig wird dieser Wert von »Bits anzeigen« geerbt. Diese Einstellung "
+"betrifft nur neue Nachrichten."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "Deaktiviert"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "Deaktiviert"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging"
+msgstr "Debugging"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.experiments"
+msgstr "Experimente"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization"
+msgstr "Lokalisierung"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization.editing"
+msgstr "Bearbeiten"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization.general"
+msgstr "Allgemein"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket"
+msgstr "Socket"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket.general"
+msgstr "Allgemein"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket.info"
+msgstr "Info"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.1"
+msgstr "Früheres Verhalten (URLs öffnen)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.2"
+msgstr "Abzeichenkarte öffnen"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "Deaktiviert"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show"
+msgstr "Bits anzeigen"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Mit Bits verknüpfte Benutzeroberfläche anzeigen. Hinweis: Dies wird Cheering "
+"in Chatnachrichten nicht verbergen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack"
+msgstr "Cheers zusammenfassen"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Die Cheer-Emotes werden alle zusammengefasst und am Anfang der Chatnachricht "
+"angezeigt."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-pinned"
+msgstr "Rangliste anzeigen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr ""
+"Nachrichten anzeigen, wenn durch ein Cheer Belohnungen an den Chat verteilt "
+"werden."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Die Größe des Textes im Chat in Pixel. Dies kann durch die Zoom- und "
+"Schriftgrößeneinstellungen des Browsers beeinflusst werden."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr "Community-Highlights über dem Chat verbergen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Schaltfläche für die Mod-Ansicht bei entsprechenden Kanälen anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Zeilen mit abwechselnden Hintergründen anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Emote-Ausrichtung"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Ändert die Position von Emotes im Chat. Diese Einstellung kann dazu führen, "
+"dass Nachrichten größer dargestellt werden, damit sich die Emotes nicht "
+"überlagern."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.borders"
+msgstr "Trennlinien"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.mru.enabled"
+msgstr ""
+"Durch Drücken der oberen und unteren Pfeiltaste zuvor gesendete "
+"Chatnachrichten wiederherstellen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.name-format"
+msgstr "Darstellungsstil"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.name-format.description"
+msgstr ""
+"Ändert, wie Benutzernamen im Chat angezeigt werden, wenn ein internationaler "
+"Anzeigename eingestellt ist."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.pin-resubs"
+msgstr ""
+"Benachrichtigungen zur Erneuerung des Abonnements automatisch im Chat "
+"anheften."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.auto-rewards"
+msgstr "Boni automatisch abholen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-button"
+msgstr "Schaltfläche für Kanalpunkte unter dem Chat anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Nachrichten zu Kanalbelohnungen im Chat anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-rewards"
+msgstr "Verfügbare Belohnungen neben der Schaltfläche für Kanalpunkte anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.replies.style"
+msgstr "Stil"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Rich Content-Einbettungen für alle Links anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Rich Content im Chat anzeigen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr ""
+"Dies zeigt Rich Content-Blöcke für Inhalte wie verlinkte Clips und Videos an."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Entsprechende Links für Rich Content ausblenden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Filter-Level"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Es werden nur Rich Content-Einbettungen in Nachrichten angezeigt, die von "
+"Benutzern mit diesem oder einem höheren Level gepostet wurden."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.dev"
+msgstr "localhost"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.null"
+msgstr "Automatic"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.prod"
+msgstr "API Production"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.socket"
+msgstr "Socket Cluster (Deprecated)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.test"
+msgstr "API Test"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Transformation"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Transformiert alle lokalisierten Zeichenketten, um die "
+"Zeichenkettenabdeckung und -länge zu testen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.display-bits-button.description"
+msgstr ""
+"Standardmäßig wird dieser Wert von [Chat > Bits und Cheering > Bits "
+"anzeigen](~chat.bits_and_cheering) geerbt."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Schaltfläche für »Bits kaufen« anzeigen."
