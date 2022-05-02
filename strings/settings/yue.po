@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-29 19:32+0000\n"
+"PO-Revision-Date: 2022-05-03 21:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -685,7 +685,7 @@ msgstr "變更日誌"
 #: /src/modules/main_menu/components/changelog.vue:12
 #, icu-message-format
 msgid "setting.add_ons.changelog.title"
-msgstr "附加組件變更日記"
+msgstr "附加組件變更日誌"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -871,7 +871,7 @@ msgstr "還原備份"
 #: /src/modules/main_menu/components/backup-restore.vue:135
 #, icu-message-format, lp-defaults:"{\"count\":96}"
 msgid "setting.backup-restore.restored"
-msgstr "{count,number} 項已恢復。請刷新呢個頁面。"
+msgstr "已恢復 {count,number} 項。請刷新呢個頁面。"
 
 #: /src/modules/main_menu/components/backup-restore.vue:36
 #, icu-message-format
@@ -1705,7 +1705,7 @@ msgstr "供應商"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.debugging"
-msgstr "程式除錯"
+msgstr "程式偵錯"
 
 #, icu-message-format
 msgid "setting.debugging.data_sources"
@@ -2674,7 +2674,7 @@ msgstr "**注意：**與色水覆蓋唔兼容，因為提及唔包含用戶ID。
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
-msgstr "為程式除錯喺每條聊天訊息上顯示一個因咩事高亮嘅列表。"
+msgstr "喺每條聊天訊息上顯示一個因咩事高亮佢嘅列表，以進行偵錯。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5258,8 +5258,7 @@ msgid "setting.player.compressor.gain_control.description"
 msgstr ""
 "增益控制可令你喺壓縮器運行後調整音量，而內置嘅音量滑塊喺壓縮機運行之前生效，從而令到你喺使用壓縮機時對輸出音量進行額外控制。呢個使用來自Web "
 "Audio API的簡單[GainNode](https://developer.mozilla.org/en-US/docs/Web/API/"
-"GainNode)，connected in sequence after the DynamicsCompressorNode the "
-"Compressor uses."
+"GainNode)，喺壓縮機使用嘅動態壓縮器節點之後按順序連接。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
