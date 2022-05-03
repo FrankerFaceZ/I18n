@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-24 06:32+0000\n"
+"PO-Revision-Date: 2022-05-03 21:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -837,7 +837,7 @@ msgid "setting.entry.chat.adjustment-mode.values.3"
 msgstr "HSL-loop (liknar BTTV)"
 
 msgid "setting.entry.chat.adjustment-mode.values.4"
-msgstr "RGB-loop (Utfasas)"
+msgstr "RGB-loop (föråldrad)"
 
 msgid "setting.entry.chat.automod.delete-messages"
 msgstr "Markerade meddelanden som raderade om de innehåller filtrerade fraser."
@@ -5369,3 +5369,306 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.following.group-hosts"
 msgstr "Gruppera värdar"
+
+#: /src/modules/main_menu/components/clear-settings.vue:187
+#, icu-message-format
+msgid "setting.clear.done"
+msgstr ""
+"Dina inställningar har rensats. Uppdatera alla aktuella Twitch-sidor för att "
+"säkerställa att ingen cachelagrad data finns kvar."
+
+#: /src/modules/main_menu/components/clear-settings.vue:25
+#, icu-message-format
+msgid "setting.clear.warning-explain"
+msgstr ""
+"Efter du har raderat din data med detta verktyg går det inte att ångra. Se "
+"till att du har en säkerhetskopia!"
+
+#, icu-message-format, md-text
+msgid "setting.entry.theme.color.tooltip.background.description"
+msgstr ""
+"Om detta inte anges kommer inställningarna för inforutor automatiskt "
+"justeras baserat på bakgrundens ljusstyrka."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Åsidosätt typsnittet som används på hela Twitch. Det gamla "
+"standardtypsnittet var: `\"Helvetica Neue\",Helvetica,Arial,sans-serif`\n"
+"\n"
+"Alla typsnitt som är tillgängliga via [Google Fonts](https://fonts.google."
+"com/) kan läsas in genom att lägga till `google:` före typsnittets namn."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:117
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.font.size.description"
+msgstr ""
+"**Minimalt:** `1`, **Maximalt:** `25`, *Gammalt standardvärde:* `12`\n"
+"\n"
+"Hur stor den vanliga texten bör vara i bildpunkter. Detta kan påverka "
+"zoomnings- och typsnittsinställningarna för dina webbläsare."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark"
+msgstr "Inaktivera automatiskt mörkt tema"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark.description"
+msgstr ""
+"När detta aktiveras kommer ett försök att inaktivera webbläsarens inbyggda "
+"automatiska mörka tema på webbplatser, vilket är onödigt på Twitch och kan "
+"orsaka visningsfel. Detta kanske inte tillämpas beroende på din webbläsare "
+"och dina inställningar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.click-emotes"
+msgstr "Öppna informationssidor om emotes genom att Shift-klicka på dem."
+
+#, fuzzy, icu-message-format
+msgid "setting.entry.chat.banners.prediction"
+msgstr "Låt förutseende att visas i chatten."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Tillåt att hypetåget visas i chatten."
+
+#: /src/modules/main_menu/index.js:417
+#, icu-message-format, md-text
+msgid "setting.entry.chat.badges.media-queries.description"
+msgstr ""
+"Detta krävs för att se dekaler med hög DPI i Firefox eftersom Firefox "
+"fortfarande inte har stöd för `image-set()` efter mer än fem år. Detta kan "
+"vara mindre tillförlitligt."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:24
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner"
+msgstr "Tillfällig lösning för att slå samman emoji"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "Inaktiverad"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"Dölj fältet som dyker upp under klipp och videor när strömmaren direktsänder "
+"och berättar för dig att de sänder."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.description"
+msgstr ""
+"**OBS:** Detta inställningar fungerar för tillfället inte p.g.a. att Twitch "
+"har ändrat hur kataloger fungerar."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.description"
+msgstr ""
+"**OBS:** Detta inställningar fungerar för tillfället inte p.g.a. att Twitch "
+"har ändrat hur kataloger fungerar."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:198
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner.description"
+msgstr ""
+"Denna funktion är avsedd att tillåta kombinerade emojis i klienter som "
+"stöds. Detta krävs p.g.a. en bugg i TMI som tar bort ZWJ-tecken från "
+"chattmeddelanden. [Besök det ursprungliga ärendet](https://github.com/"
+"FrankerFaceZ/FrankerFaceZ/issues/1147) för mer information."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Nödvändig användarnivå"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Behåll så här många rader i chatten. Lagg kommer att uppstå om detta är för "
+"högt."
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Tillgängliga formateringar: {fmts}"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "Justeringar"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Emoji"
+
+#: /src/modules/main_menu/components/clear-settings.vue:1
+#, icu-message-format
+msgid "setting.clear.opt.DeckTabs"
+msgstr "Deck-flikar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory"
+msgstr "Katalog"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Inkludera reglerna för det aktuella rummet i listan över anledningar."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "Inaktiverad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.1"
+msgstr "Föråldrad (öppna webbadresser)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.2"
+msgstr "Öppna dekalkort"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.1"
+msgstr "Visa endast"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.2"
+msgstr "Visa och skicka"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+#, fuzzy, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Rensa inte chatten vid detta begärs."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-priority.description"
+msgstr ""
+"Omnämnande av ditt namn har denna prioritet i markeringssyfte. Se [Chatt > "
+"Filtrering > Markering](~chat.filtering.highlight) för mer information."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.legacy"
+msgstr "Föråldrad"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr "Dölj alla höjdpunkter för gemenskapen från chattens överkant."
+
+#, fuzzy, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Dölj matchande länkar för rikt innehåll"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Längd att rulla tillbaka"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Kräv att musen ska vara ovanpå chatten för att frysa med en snabbtangent."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Om detta inte anges kommer det automatiskt ändras till vit eller svart "
+"baserat på bakgrundens ljusstyrka."
+
+#, icu-message-format, md-text
+msgid "setting.entry.theme.color.chat-text.description"
+msgstr ""
+"Om detta inte anges kommer det automatiskt ändras till vit eller svart "
+"baserat på bakgrundens ljusstyrka."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-user"
+msgstr "Inkludera användar-ID:n i rapporterna."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Visa en krona på prenumerationsknappar när din kostnadsfria "
+"kanalprenumeration med Prime är tillgänglig."
