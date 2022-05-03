@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 21:32+0000\n"
+"PO-Revision-Date: 2022-05-03 23:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -967,7 +967,7 @@ msgid "setting.entry.chat.emoji.style"
 msgstr "Emoji Stil"
 
 msgid "setting.entry.chat.emoji.style.values.0"
-msgstr "Ursprunglig"
+msgstr "Inbyggd"
 
 msgid "setting.entry.chat.emoji.style.values.emojione"
 msgstr "EmojiOne"
@@ -1203,10 +1203,10 @@ msgid "setting.entry.chat.lines.emote-alignment.values.0"
 msgstr "Standard"
 
 msgid "setting.entry.chat.lines.emote-alignment.values.1"
-msgstr "Med Utrymme Omkring"
+msgstr "Utfyllnad"
 
 msgid "setting.entry.chat.lines.emote-alignment.values.2"
-msgstr "Baslinje (Som BTTV)"
+msgstr "Baslinje (BTTV-liknande)"
 
 msgid "setting.entry.chat.lines.padding"
 msgstr "Reducera fyllnaden runt linjerna."
@@ -1846,7 +1846,7 @@ msgid "setting.entry.player.ext-hide.values.0"
 msgstr "Alltid"
 
 msgid "setting.entry.player.ext-hide.values.1"
-msgstr "Med Kontrollerna"
+msgstr "Med kontroller"
 
 msgid "setting.entry.player.ext-hide.values.2"
 msgstr "Aldrig"
@@ -3372,7 +3372,7 @@ msgstr "Visa knappen för kanalpoäng under chatten."
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.0"
-msgstr "Internationellt namn (användarnamn) <Standard>"
+msgstr "Internationellt namn (användarnamn) <standard>"
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.1"
@@ -4935,7 +4935,7 @@ msgstr "Kontrollpanelen: Redigera video"
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.dash-extensions"
-msgstr "Kontrollpanelen: Webbläsartillägg"
+msgstr "Kontrollpanelen: Tillägg"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
@@ -5635,7 +5635,7 @@ msgstr "Dölj alla höjdpunkter för gemenskapen från chattens överkant."
 #, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.hide-tokens"
-msgstr "Dölj matchande länkar för rikt innehåll"
+msgstr "Dölj matchande länkar för rikt innehåll."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5672,3 +5672,121 @@ msgid "setting.entry.sub-button.prime-notice.description"
 msgstr ""
 "Visa en krona på prenumerationsknappar när din kostnadsfria "
 "kanalprenumeration med Prime är tillgänglig."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr ""
+"Markera meddelandet i chatten när någon löser in \"Lyft fram mitt "
+"meddelande\"."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.padding"
+msgstr "Reducera utfyllnad runt linjer."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.name-format.description"
+msgstr ""
+"Ändra hur användarnamn visas i chatten när användare har angivit ett "
+"internationellt visningsnamn."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffz.search.matches-only"
+msgstr "Dölj objekt som inte fullständigt matchar under sökning."
+
+#, fuzzy, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.allow-catchup"
+msgstr "Låt spelaren att skynda på för att reducera fördröjning."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Använd reducerad utfyllning."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.modifiers"
+msgstr "Emote-modifierare"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"FFZ:s emotemeny ersätter Twitchs inbyggda emotemeny och tillhandahåller "
+"förbättrad funktionalitet."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Visa rubriker"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.ext-hide"
+msgstr "Visa täckande tillägg"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"Hur stor texten i chatten bör vara i bildpunkter. Detta kan påverkas av "
+"zoomnings- och typsnittsinställningarna i din webbläsare."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.mru.enabled"
+msgstr ""
+"Gör det möjligt att trycka uppåt och nedåt för att se tidigare skickade "
+"chattmeddelanden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Visa knappen för modereringsvyn i relevanta kanaler."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.input.hide-identity"
+msgstr ""
+"Visa \"Chattidentitet\" i menyn för chattinställningar istället för "
+"inmatningsfältet."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Ändra hur emotes positioneras i chatten, vilket potentiellt gör meddelanden "
+"högre för att undvika att emotes överlappas."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.custom-rendering"
+msgstr ""
+"Använd anpassad rendering för meddelanden om kanalpoängsbelöningar i chatten."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Fäst automatiskt meddelanden om förnyade prenumerationer i chatten."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.scroll"
+msgstr "Skrolljustering"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.extensions"
+msgstr "Tillägg"
+
+#: /src/modules/main_menu/index.js:515
+#, icu-message-format
+msgid "setting.player.general.embed_and_popout"
+msgstr "Inbäddning och popout"
