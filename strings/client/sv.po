@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-20 20:32+0000\n"
+"PO-Revision-Date: 2022-05-03 21:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -1325,3 +1325,8 @@ msgstr "Räkna"
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
 msgid "video.published-on"
 msgstr "Publicerad: {date,date}"
+
+#: /src/modules/main_menu/components/link-tester.vue:353
+#, icu-message-format
+msgid "debug.link-provider.raw-length"
+msgstr "Längd för rå data"
