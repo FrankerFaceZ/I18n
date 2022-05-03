@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-20 00:32+0000\n"
+"PO-Revision-Date: 2022-05-03 21:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/sv/>\n"
@@ -200,6 +200,9 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
+"{wrs,plural,one {# rekord} other {# rekord}} • {runs,plural,one {# "
+"spelsession} other {# spelsessioner}} • {games,plural,one {# spel} other {# "
+"spel}} • {cats,plural,one {# kategori} other {# kategorier}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -244,7 +247,7 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.likes"
-msgstr ""
+msgstr "Gilla-markeringar"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
