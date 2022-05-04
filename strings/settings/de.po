@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 21:32+0000\n"
+"PO-Revision-Date: 2022-05-05 13:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -1593,7 +1593,7 @@ msgid "setting.entry.chat.emote-menu.modifiers.values.0"
 msgstr "Deaktiviert"
 
 msgid "setting.entry.chat.emote-menu.modifiers.values.1"
-msgstr "In-Line"
+msgstr "Inline"
 
 msgid "setting.entry.chat.emote-menu.reduced-padding"
 msgstr "Innenabstand reduzieren."
@@ -1738,8 +1738,8 @@ msgstr ""
 
 msgid "setting.entry.chat.filtering.debug"
 msgstr ""
-"Liste mit Gründen für die Hervorhebung in jeder Chat-Nachricht zur "
-"Fehlersuche anzeigen."
+"Eine Liste der Hervorhebungsgründe in jeder Chatnachricht zur Fehlersuche "
+"anzeigen."
 
 msgid "setting.entry.chat.filtering.deleted-style"
 msgstr "Detaillierter Nachrichtenstil"
@@ -4838,8 +4838,8 @@ msgstr "Trennlinien"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.mru.enabled"
 msgstr ""
-"Durch Drücken der oberen und unteren Pfeiltaste zuvor gesendete "
-"Chatnachrichten wiederherstellen."
+"Zuvor gesendete Chatnachrichten durch Drücken der oberen und unteren "
+"Pfeiltaste wiederherstellen."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4966,3 +4966,84 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.display-bits-button"
 msgstr "Schaltfläche für »Bits kaufen« anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Tab-Vervollständigung von Emojis erlauben."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters.description"
+msgstr "Zusätzliche Konfiguration für die `Chatfilter` von Twitch."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size.description"
+msgstr ""
+"Manchmal kann es passieren, dass übertrieben große Emotes auf Twitch landen. "
+"Dies begrenzt die Größe von Twitch-Emotes, um das Problem zu vermeiden."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime.no-native.description"
+msgstr ""
+"Diese Option ist standardmäßig immer dann aktiviert, wenn die FFZ-eigene "
+"Streamlaufzeit aktiviert ist, um redundante Informationen zu vermeiden."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.1"
+msgstr "Nur anzeigen"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.2"
+msgstr "Anzeigen und senden"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.style"
+msgstr "Emoji-Stil"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-emoji"
+msgstr "Emojis im Emote-Menü anzeigen."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "Emotes und Emojis"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size"
+msgstr "Größe der Twitch-Emotes begrenzen"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime.no-native"
+msgstr "Native Streamlaufzeit von Twitch verbergen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers"
+msgstr "Alternative Zuschauerzahl"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.no-native"
+msgstr "Native Zuschauerzahl von Twitch verbergen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.no-native.description"
+msgstr ""
+"Diese Option ist standardmäßig immer dann aktiviert, wenn die FFZ-eigene "
+"Zuschauerzahl aktiviert ist, um redundante Informationen zu vermeiden."
