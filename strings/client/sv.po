@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 23:32+0000\n"
+"PO-Revision-Date: 2022-05-06 22:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -99,7 +99,7 @@ msgstr ""
 "}"
 
 msgid "chat.filtering.automod-term"
-msgstr "AutoMod Blockerat Uttryck"
+msgstr "Term blockerad av automoderering"
 
 msgid "chat.filtering.automod-why"
 msgstr "Detta flaggades som: "
@@ -132,13 +132,13 @@ msgid "chat.mod-action.by"
 msgstr "{action} av {login}"
 
 msgid "chat.mod-action.delete"
-msgstr "Raderat"
+msgstr "Raderad"
 
 msgid "chat.mod-action.timeout"
 msgstr "Timeout i {duration}"
 
 msgid "chat.points.bypass-sub"
-msgstr "Skicka ett meddelande i Endast-Sub läge"
+msgstr "Skicka ett meddelande i prenumerantexklusivt läge"
 
 msgid "chat.points.choose-emote"
 msgstr "Välj en emote att låsa upp"
@@ -147,17 +147,16 @@ msgid "chat.reason.ignore"
 msgstr "Ignorerar sändaren/moderatorer"
 
 msgid "chat.reasons.evasion"
-msgstr "Undvikande av Ban"
+msgstr "Undvikande av bannlysning"
 
 msgid "chat.reasons.hate"
 msgstr "Hat/trakasserier"
 
-#, fuzzy
 msgid "chat.reasons.links"
-msgstr "Skriver opålitliga länkar"
+msgstr "Skickar dåliga länkar"
 
 msgid "chat.reasons.personal"
-msgstr "Hot / Personlig Information"
+msgstr "Hot/Privat information"
 
 msgid "chat.reasons.spam"
 msgstr "En-persons Spam"
@@ -200,7 +199,7 @@ msgid "chat.sub.gift-plan"
 msgstr "Nivå {tier}"
 
 msgid "chat.sub.gift-total"
-msgstr "De har skänkt {count,number} prenumerationer i kanalen!"
+msgstr "De har skänkt {count,number} prenumerationer på kanalen!"
 
 msgid "chat.sub.main"
 msgstr "{user} prenumererade {plan} "
@@ -771,7 +770,7 @@ msgstr "Färg"
 #: /src/sites/twitch-twilight/modules/chat/line.js:718
 #, icu-message-format, lp-defaults:"{\"reward\":\"Highlight My Message\",\"cost\":\"500\"}"
 msgid "chat.points.redeemed"
-msgstr "Inlösta {reward} {cost}"
+msgstr "Löste in {reward} {cost}"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:428
 #, icu-message-format
