@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 21:32+0000\n"
+"PO-Revision-Date: 2022-05-06 22:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -2422,87 +2422,89 @@ msgstr "當沒有在搜尋時"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.show-quick-nav"
-msgstr ""
+msgstr "在選單旁顯示快捷導覽列。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.show-search"
-msgstr ""
+msgstr "顯示搜尋欄。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-emotes"
-msgstr ""
+msgstr "排序表情符號依"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
-msgstr ""
+msgstr "加入順序(ID)，升序"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
-msgstr ""
+msgstr "加入順序(ID)，降序"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
-msgstr ""
+msgstr "名稱，升序"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.3"
-msgstr ""
+msgstr "名稱，降序"
 
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.4"
-msgstr ""
+msgstr "原始順序，升序"
 
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.5"
-msgstr ""
+msgstr "原始順序，降序"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
-msgstr ""
+msgstr "依照訂閱階級排序表情符號。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.stay-loaded"
-msgstr ""
+msgstr "開啟後持續讀取。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.stay-loaded.description"
 msgstr ""
+"這會導致表情符號選單待在DOM(網頁)中即使你看不到。啟用這個可能會幫助這個網頁讀取更快因為不用重複讀取選單。預設來說，這個設定會在使用`在一個分頁顯示所"
+"有表情符號`時啟用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.tall"
-msgstr ""
+msgstr "加高表情符號選單。"
 
 #: /src/modules/main_menu/index.js:477
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x"
-msgstr ""
+msgstr "加大表情符號"
 
 #: /src/modules/main_menu/index.js:484
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.2x.description"
-msgstr ""
+msgstr "這個設定會讓表情符號在聊天室裡變兩倍大。這在大字體時不錯用，或是你真的很愛表情符號。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated"
-msgstr ""
+msgstr "動態表情符號"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
-msgstr ""
+msgstr "這個會控制動態表情符號會不會在聊天室內播放。當這被`停用`時，表情符號會被當作靜態圖像。設定為`懸停時啟用`可能會有效能問題。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2512,24 +2514,24 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.1"
-msgstr ""
+msgstr "已啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.2"
-msgstr ""
+msgstr "懸停時啟用"
 
 #: /src/modules/main_menu/index.js:625
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled"
-msgstr ""
+msgstr "顯示表情符號"
 
 #: /src/modules/main_menu/index.js:632
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.enabled.description"
-msgstr ""
+msgstr "如果你不想看到表情符號，可以在這裡停用他們。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
@@ -2539,89 +2541,89 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.1"
-msgstr ""
+msgstr "僅限Twitch"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.2"
-msgstr ""
+msgstr "已啟用"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.extra-timestamps"
-msgstr ""
+msgstr "在通知上顯示時間戳。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.extra-timestamps.description"
-msgstr ""
+msgstr "當啟用時，時間戳會出現在點數兌換，訂閱，及其他。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.bold-mentions"
-msgstr ""
+msgstr "聊天室裡提及時加粗字體。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.click-to-reveal"
-msgstr ""
+msgstr "點按顯示被刪除的字詞。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.clickable-mentions"
-msgstr ""
+msgstr "啟用點按提及使用者以開啟觀看者小卡。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions"
-msgstr ""
+msgstr "以使用者顏色顯示提及。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions.description"
-msgstr ""
+msgstr "**注意:** 不支援顏色覆蓋因為提及沒有包含使用者ID。"
 
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
-msgstr ""
+msgstr "顯示每一個訊息醒目標示的原因以除錯。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style"
-msgstr ""
+msgstr "詳細訊息樣式"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style.description"
-msgstr ""
+msgstr "這個樣式會應用在已刪除的訊息顯示在詳細渲染模式以區別一般聊天訊息。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.0"
-msgstr ""
+msgstr "褪色"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.1"
-msgstr ""
+msgstr "褪色，刪除線"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.2"
-msgstr ""
+msgstr "刪除線"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.3"
-msgstr ""
+msgstr "沒有變化"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-deleted"
-msgstr ""
+msgstr "渲染模式"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3616,7 +3618,7 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.directory.uptime.values.1"
-msgstr ""
+msgstr "已啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4034,7 +4036,7 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.metadata.uptime.values.1"
-msgstr ""
+msgstr "已啟用"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4531,7 +4533,7 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.player.volume-scroll.values.true"
-msgstr ""
+msgstr "已啟用"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5957,3 +5959,13 @@ msgstr "只有顯示"
 #, icu-message-format
 msgid "setting.entry.chat.emoji.replace-joiner.values.2"
 msgstr "顯示並送出"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "表情符號"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "所有表情符號"
