@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 23:32+0000\n"
+"PO-Revision-Date: 2022-05-06 22:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -406,13 +406,13 @@ msgid "setting.backup-restore.pick-profile"
 msgstr "Vänligen välj en profil att importera."
 
 msgid "setting.backup-restore.restore-backup"
-msgstr "Återställ Säkerhetskopia"
+msgstr "Återställ säkerhetskopia"
 
 msgid "setting.backup-restore.restored"
 msgstr "{count,number} saker har återställts. Vänligen uppdatera sidan."
 
 msgid "setting.backup-restore.save-backup"
-msgstr "Spara Säkerhetskopia"
+msgstr "Spara säkerhetskopia"
 
 msgid "setting.cancel"
 msgstr "Avbryt"
@@ -1693,7 +1693,7 @@ msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
 msgstr "Alltid"
 
 msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
-msgstr "När Sidonavigering är Öppen"
+msgstr "När sidonavigeringen är öppen"
 
 msgid "setting.entry.layout.side-nav.show-rec-friends"
 msgstr "Visa Rekommenderade Vänner"
@@ -2714,10 +2714,10 @@ msgid "setting.directory.categories"
 msgstr "Kategorier"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.clip-download"
-msgstr "Lägg till en nedladdningsknapp för redigerare i klippningssidor."
+msgstr "Lägg till en nedladdningsknapp för redigerare på klippsidor."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5790,3 +5790,109 @@ msgstr "Tillägg"
 #, icu-message-format
 msgid "setting.player.general.embed_and_popout"
 msgstr "Inbäddning och popout"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.player-stats.description"
+msgstr ""
+"Visa nuvarande fördröjning i strömmen med uppspelningshastigheten och antal "
+"förlorade bildrutor i inforutan."
+
+#: /src/modules/main_menu/index.js:484
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emotes.2x.description"
+msgstr ""
+"Denna inställning gör emotes dubbelt så stora i chatten. Detta fungerar bra "
+"med större typsnitt eller bara om du verkligen gillar emotes."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr ""
+"När detta aktiveras och du trycker Ctrl+E med chattinmatningsfältet "
+"fokuserat kommer emotemenyn öppnas."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "Inaktiverad"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "Emotes"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "Emotes och emoji"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Lista emotes från högre prenumerationsnivåer längst ned."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size"
+msgstr "Begränsa storlek på inbyggda emotes"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.extra-timestamps.description"
+msgstr ""
+"När detta aktiveras kommer tidsstämplar visas på poänginlösningar, "
+"prenumerationer, etc."
+
+#: /src/modules/main_menu/index.js:625
+#, icu-message-format
+msgid "setting.entry.chat.filtering.debug"
+msgstr ""
+"Visa en lista över markeringsanledningar på varje chattmeddelande i "
+"felsökningssyfte."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Byt plats på sidofält"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.clip-download.description"
+msgstr ""
+"Detta lägger till en nedladdningsknapp under spelaren på klippsidor ("
+"huvudsidan, inte på `clips.twitch.tv`) för sändare och deras redigerare."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Byt plats på navigeringen och chatten till motsatta sidan av fönstret."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.host-button"
+msgstr "Värdknapp"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.host-button.description"
+msgstr "Visa en värdknapp med nuvarande värdkanal i inforutan."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime"
+msgstr "Strömupptid"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime.no-native"
+msgstr "Dölj Twitchs inbyggda strömupptid."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers"
+msgstr "Alternativt tittarantal"
