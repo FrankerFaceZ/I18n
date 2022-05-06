@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-20 00:32+0000\n"
+"PO-Revision-Date: 2022-05-06 22:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-ffzap-core/sv/>\n"
@@ -202,3 +202,67 @@ msgstr "Ta bort mellanrum mellan emotes när de ligger direkt efter varandra."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.message_deletion"
 msgstr "Filtrera meddelanden efter användarnivå"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Ändra ljudet som spelas upp när en ljudutlösare aktiveras."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Ändra volymen som markeringsljud spelas upp med."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Spela upp ett markeringsljud när ett nytt konto markeras. (Kräver tillägget "
+"\"New Account Highlighter\")"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Meddelanden tas bort från chatten helt och hållet om de inte skickas av en "
+"användare med denna nivå eller högre."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr ""
+"Spela upp ett markeringsljud när du omnämns i chatten med ditt användarnamn."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Spela upp när nytt konto markeras"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Spela upp ett markeringsljud när en användare från listan \"Markera "
+"användare\" markeras."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Spela upp ett markeringsljud när en chattrad markeras för en av de markerade "
+"anledningarna."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Spela upp ett markeringsljud när en term från listan \"Markera termer\" "
+"markeras."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Spela upp ett markeringsljud när en dekal från listan \"Markera dekaler\" "
+"markeras."
