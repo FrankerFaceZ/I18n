@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-27 10:32+0000\n"
+"PO-Revision-Date: 2022-05-07 07:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "embed/yue/>\n"
@@ -200,9 +200,9 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs,plural,one {# 記錄} other {# 記錄}} • {runs,plural,one {# 運行} other {# 運行}} "
-"• {games,plural,one {# 遊戲} other {# 遊戲}} • {cats,plural,one {# 類別} other {# "
-"類別}}"
+"{wrs,plural,one {# 條記錄} other {# 條記錄}} • {runs,plural,one {# 次運行} other {# "
+"次運行}} • {games,plural,one {# 個遊戲} other {# 個遊戲}} • {cats,plural,one {# 種類別} "
+"other {# 種類別}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -243,8 +243,8 @@ msgstr "跟隨中"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# 轉推} other {# 轉推}} •"
-" {likes,plural,one {# 鐘意} other {# 鐘意}}"
+"{created,time} • {created,date} • {retweets,plural,one {# 次轉推} other {# 次轉推}}"
+" • {likes,plural,one {# 個鐘意} other {# 個鐘意}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -255,8 +255,8 @@ msgstr "鐘意"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{tweets,plural,one {# 推文} other {# 推文}} • {following,number} 跟隨中 • "
-"{followers,number} 跟隨者 • 加入於 {joined,date}"
+"{tweets,plural,one {# 條推文} other {# 條推文}} • {following,number} 個跟隨中 • "
+"{followers,number} 個跟隨者 • 加入於 {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
