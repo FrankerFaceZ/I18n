@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-29 19:32+0000\n"
+"PO-Revision-Date: 2022-05-07 07:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -248,15 +248,15 @@ msgstr "私聊 {user.login}"
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
 msgid "chat.bits-message"
-msgstr "歡呼 {count, plural, one {# 小奇點} other {# 小奇點}}"
+msgstr "歡呼 {count, plural, one {# 個小奇點} other {# 個小奇點}}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:311:9
 #, icu-message-format
 msgid "chat.deleted-messages"
 msgstr ""
 "{count,plural,\n"
-"one {一條訊息已被審核人刪除。}\n"
-"other {聊天訊息已被審核人刪除。}\n"
+"one {條聊天訊息已被審核人刪除。}\n"
+"other {條聊天訊息已被審核人刪除。}\n"
 "}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
@@ -481,8 +481,8 @@ msgstr "佢已經訂閱咗 {cumulative,number} 個月，目前連續 {streak,num
 #, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
 msgid "chat.sub.gift"
 msgstr ""
-"{user} 正喺喥向 {channel} 嘅社群贈送 {count, plural, one {# 份層級 {tier} 訂閱} other {# "
-"層級 {tier} 訂閱}}！ "
+"{user} 正喺喥向 {channel} 嘅社區贈送 {count, plural, one {# 份層級 {tier} 訂閱} other {# "
+"份層級 {tier} 訂閱}}！ "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -492,7 +492,7 @@ msgstr "呢個係佢哋第一次喺頻道中贈送訂閱！"
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} 將 {months, plural, one {#月} other {#月}} 嘅 {plan} 訂閱贈予 {recipient}！"
+"{user} 將 {months, plural, one {# 個月} other {# 個月}} 嘅 {plan} 訂閱贈予 {recipient}！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:567:7
 #, icu-message-format
@@ -502,7 +502,7 @@ msgstr "層級 {tier}"
 #: /src/sites/twitch-twilight/modules/chat/line.js:486:19
 #, icu-message-format, lp-defaults:"{\"count\":36}"
 msgid "chat.sub.gift-total"
-msgstr "佢哋喺頻道中贈送咗 {count,number} 個訂閱！"
+msgstr "佢已向呢個頻道中贈送咗 {count,number} 份訂閱！"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:614
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\"}"
@@ -625,7 +625,7 @@ msgstr "已轉播嘅頻道"
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:299:9
 #, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "directory.hosted.by-many"
-msgstr "由 {count, plural, one {#頻道} other {#頻道}} 轉播"
+msgstr "由 {count, plural, one {# 個頻道} other {# 個頻道}} 轉播"
 
 #: /src/sites/twitch-twilight/modules/directory/index.jsx:300:9
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\"}"
@@ -753,7 +753,8 @@ msgstr "表情符號"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
-msgstr "歡呼一份額外嘅 {bits_remaining, plural, one {# 小奇點} other {# 小奇點}} 來解鎖呢個表情符號。"
+msgstr ""
+"歡呼一份額外嘅 {bits_remaining, plural, one {# 個小奇點} other {# 個小奇點}} 來解鎖呢個表情符號。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
@@ -900,7 +901,7 @@ msgstr "訂閱用戶表情符號"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:672:6
 #, icu-message-format
 msgid "emote-menu.sub-unlock"
-msgstr "訂閱 {price} 嚟解鎖 {count, plural, one {# 表情符號} other {# 表情符號}}"
+msgstr "訂閱 {price} 嚟解鎖 {count, plural, one {# 個表情符號} other {# 個表情符號}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2075
 #, icu-message-format
@@ -1516,8 +1517,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
 msgid "site.menu_button.strings"
 msgstr ""
-"有 {added,plural,one {# 條新字符串} other {# 條新字符串}} 同 {changed,plural,one{# "
-"條已更改字符串} other {# 條已更改字符串}}。"
+"有 {added,plural,one {# 條新添加嘅字符串} other {# 條新添加嘅字符串}} 同 {changed,plural,one{# "
+"條已變更嘅字符串} other {# 條已變更嘅字符串}}。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:175:7
 #, icu-message-format
