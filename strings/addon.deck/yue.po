@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-27 15:32+0000\n"
+"PO-Revision-Date: 2022-05-07 07:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-deck/yue/>\n"
@@ -579,13 +579,13 @@ msgstr "最近嘅"
 #: /src/deck/components/bd-column.vue:153
 #, icu-message-format, lp-defaults:"{\"count\":1}"
 msgid "addon.deck.sub.tags"
-msgstr "{count, plural, one {# 標籤} other {# 標籤} }"
+msgstr "{count, plural, one {# 條標籤} other {# 條標籤} }"
 
 #: /src/deck/components/bd-column.vue:122
 #: /src/deck/components/bd-column.vue:154
 #, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "addon.deck.sub.users"
-msgstr "{count, plural, one {# 用戶} other {# 用戶} }"
+msgstr "{count, plural, one {# 個用戶} other {# 個用戶} }"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
@@ -685,12 +685,12 @@ msgstr "視頻類型:"
 #: /src/deck/components/bd-host-card.vue:17
 #, icu-message-format, lp-defaults:"{\"viewers\":49}"
 msgid "addon.deck.viewers"
-msgstr "{viewers, plural, one {# 觀眾} other {# 觀眾}}"
+msgstr "{viewers, plural, one {# 個觀眾} other {# 個觀眾}}"
 
 #: /src/deck/components/bd-video-card.vue:25
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.views"
-msgstr "{count, plural, one {# 觀看} other {# 觀看} }"
+msgstr "{count, plural, one {# 次觀看} other {# 次觀看} }"
 
 #: /src/deck/components/bd-column-editor.vue:447
 #, icu-message-format
