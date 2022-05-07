@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 21:32+0000\n"
+"PO-Revision-Date: 2022-05-07 07:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -841,7 +841,7 @@ msgstr "加載中..."
 #: /src/modules/main_menu/components/profile-manager.vue:375
 #, icu-message-format, lp-defaults:"{\"name\":\"Test Profile\",\"count\":1}"
 msgid "setting.backup-restore.imported"
-msgstr "配置文件 \"{name}\" 已成功導入 {count,plural,one {# 設定} other {# 設定}}。"
+msgstr "配置文件 \"{name}\" 已成功導入 {count,plural,one {# 項設定} other {# 項設定}}。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:350
 #, icu-message-format, lp-defaults:"{\"now\":\"2019-10-31T01:02:03.004Z\"}"
@@ -881,7 +881,7 @@ msgstr "保存備份"
 #: /src/modules/main_menu/components/badge-visibility.vue:56
 #, icu-message-format, lp-defaults:"{\"count\":57}"
 msgid "setting.badges.hidden"
-msgstr "{count, plural, one {# 徽章} other {# 徽章}} 隱藏喺呢個集合中"
+msgstr "{count, plural, one {# 枚徽章} other {# 枚徽章}} 隱藏喺呢個合集中"
 
 #: /src/modules/main_menu/components/action-editor.vue:1348
 #: /src/modules/main_menu/components/action-editor.vue:1396
