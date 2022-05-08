@@ -1,90 +1,96 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-05-09 11:32+0000\n"
+"Last-Translator: Dániel P <pelledani6@gmail.com>\n"
+"Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/embed/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.animated-emote"
-msgstr ""
+msgstr "Animált hangulatjel"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
 msgid "embed.bttv.by-line"
-msgstr ""
+msgstr "Által: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.status.approved"
-msgstr ""
+msgstr "Jóváhagyott"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.bttv.uploader"
-msgstr ""
+msgstr "Feltöltő"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"#readherefirst\"}"
 msgid "embed.discord.channel"
-msgstr ""
+msgstr "Csatorna: {name}"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format
 msgid "embed.discord.invite"
-msgstr ""
+msgstr "Discord meghívó"
 
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"The Cohhilition\"}"
 msgid "embed.discord.server"
-msgstr ""
+msgstr "Szerver: {name}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
 msgid "embed.ffz.by-line"
-msgstr ""
+msgstr "Által: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.emote"
-msgstr ""
+msgstr "Hangulatjel"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.owner"
-msgstr ""
+msgstr "Tulajdonos"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.public"
-msgstr ""
+msgstr "Nyilvános"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
-msgstr ""
+msgstr "{count,plural,one {# Felhasználó} other {{count,number} Felhasználó}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.ffz.users"
-msgstr ""
+msgstr "Felhasználók"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
 msgid "embed.horaro.ended"
-msgstr ""
+msgstr "Véget ért {when}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.event-ended"
-msgstr ""
+msgstr "Az esemény véget ért"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.horaro.last"
-msgstr ""
+msgstr "Utolsó"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
@@ -104,17 +110,17 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
 msgid "embed.imgur.by"
-msgstr ""
+msgstr "Által: {user}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dimensions"
-msgstr ""
+msgstr "Méretek"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.imgur.dislikes"
-msgstr ""
+msgstr "Leszavazások"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
