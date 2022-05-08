@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-12 23:52+0000\n"
+"PO-Revision-Date: 2022-05-08 12:32+0000\n"
 "Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/ru/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.author"
 msgstr "Автор: {author}"
@@ -341,7 +341,7 @@ msgid "home.tweets"
 msgstr "Твиты FrankerFaceZ"
 
 msgid "home.twitter"
-msgstr "Твиттер"
+msgstr "Twitter"
 
 msgid "home.website"
 msgstr "Вебсайт FrankerFaceZ"
@@ -445,7 +445,7 @@ msgid "setting.actions.preview.followers"
 msgstr "Только фолловеры"
 
 msgid "setting.actions.preview.mod"
-msgstr "За модератора "
+msgstr "За модератора"
 
 msgid "setting.actions.preview.mod_icons"
 msgstr "С иконками модератора"
@@ -508,7 +508,7 @@ msgid "setting.actions.visible.slow"
 msgstr "когда замедленный режим"
 
 msgid "setting.actions.visible.undeleted"
-msgstr "если сообщение не удалено "
+msgstr "если сообщение не удалено"
 
 msgid "setting.actions.warn-hidden"
 msgstr ""
@@ -1632,7 +1632,7 @@ msgid "setting.entry.chat.emoji.style.values.open"
 msgstr "OpenMoji"
 
 msgid "setting.entry.chat.emoji.style.values.twitter"
-msgstr "Твиттер (Twemoji)"
+msgstr "Twitter (Twemoji)"
 
 msgid "setting.entry.chat.emote-dialogs"
 msgstr "Открывать карточки с информацией для смайлов Twitch, путём щелчка по ним."
@@ -3755,7 +3755,7 @@ msgid "settings.filter.moderator"
 msgstr "Модератор"
 
 msgid "settings.filter.native-dark"
-msgstr "Темная тема"
+msgstr "Тёмное оформление"
 
 msgid "settings.filter.or"
 msgstr "Или"
@@ -3827,7 +3827,7 @@ msgid "settings.filter.page.route.dash-stream-manager"
 msgstr "Панель управления: Менеджер трансляций"
 
 msgid "settings.filter.page.route.dash-stream-summary"
-msgstr "Панель управления: Сводка Трансляции "
+msgstr "Панель управления: Сводка трансляции"
 
 msgid "settings.filter.page.route.dash-streaming-tools"
 msgstr "Панель управления: Инструменты Трансляций"
@@ -3854,7 +3854,7 @@ msgid "settings.filter.page.route.dir-game-videos"
 msgstr "Видео игры"
 
 msgid "settings.filter.page.route.embed-chat"
-msgstr "Встроенный Чат"
+msgstr "Встроенный чат"
 
 msgid "settings.filter.page.route.embed-chat.userName"
 msgstr "Имя пользователя"
@@ -3893,13 +3893,13 @@ msgid "settings.filter.page.route.user-clips"
 msgstr "Клипы пользователя"
 
 msgid "settings.filter.page.route.user-collections"
-msgstr "Коллекции Пользователя "
+msgstr "Коллекции пользователя"
 
 msgid "settings.filter.page.route.user-events"
 msgstr "События пользователя"
 
 msgid "settings.filter.page.route.user-followers"
-msgstr "Фолловеры Пользователя"
+msgstr "Фолловеры пользователя"
 
 msgid "settings.filter.page.route.user-following"
 msgstr "Фолловы пользователя"
@@ -3982,3 +3982,55 @@ msgstr "Эмодзи"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.style"
 msgstr "Стиль эмодзи"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Эмодзи"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:24
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner"
+msgstr "Исправление для комбинированных эмодзи"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:198
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner.description"
+msgstr ""
+"Эта настройка позволяет использовать комбинированные эмодзи, где возможно. "
+"Необходимо из-за бага, который удаляет символ, соединяющий эмодзи друг с "
+"другом (Zero-width joiner). [Смотрите оригинальную проблему,](https://github."
+"com/FrankerFaceZ/FrankerFaceZ/issues/1147) если хотите узнать подрбнее."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons"
+msgstr "Дополнения"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "Отключено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.1"
+msgstr "Только отображать"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.2"
+msgstr "Отображать и отправлять"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Использовать меню смайлов FrankerFaceZ."
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Свернуть)"
