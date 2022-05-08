@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-05-08 12:32+0000\n"
+"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-ffzap-core/ru/>\n"
+"Language: ru\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.ffzap-core.highlight-sound.custom-file"
 msgstr "Пользовательский (Файл)"
@@ -160,3 +170,96 @@ msgid "setting.entry.ffzap.core.remove_spaces.description"
 msgstr ""
 "Убрать пробелы между смайлами, идущими друг за другом (например, комбо "
 "смайлами)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Сообщения, не отправленные пользователями этого уровня или уровня выше, "
+"будут полностью убраны из чата."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Изменить громкость, с которой будет воспроизводиться звук обращения."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Играть звук, когда появляется выделенное сообщение."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Не воспроизводить звук на вашем собственном канале."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Воспроизведение звука выделения, когда линия сообщения в чате выделяется по "
+"одной из выбранных причин."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Не допускать у себя на канале"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Звуки выделения"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Включить звук выделения"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Смайлы"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Чат"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "База FFZ:AP"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Звук"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Настройки воспроизведения звука"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Громкость звука обращения"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Фильтрация сообщений уровня пользователей"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr ""
+"Изменить звук, который будет воспроизводиться при активации звукового "
+"триггера."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Воспроизводить когда"
