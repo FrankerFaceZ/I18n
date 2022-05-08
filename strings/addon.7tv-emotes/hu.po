@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 16:15+0000\n"
-"Last-Translator: Dániel Pelle <pelledani6@gmail.com>\n"
+"PO-Revision-Date: 2022-05-08 12:32+0000\n"
+"Last-Translator: Dániel P <pelledani6@gmail.com>\n"
 "Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-7tv-emotes/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
@@ -21,6 +21,8 @@ msgstr "Animált profilképek"
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.animated_avatars.description"
 msgstr ""
+"7TV animált profilképek megjelenítése. [(7TV előfizetői előny)](https://7tv."
+"app/subscribe)"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
@@ -44,7 +46,7 @@ msgstr "Csatorna hangulatjelek"
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.channel_emotes.description"
-msgstr ""
+msgstr "Engedélyezi a 7TV csatornaspecifikus hangulatjeleit."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
@@ -68,7 +70,7 @@ msgstr "Globális hangulatjelek"
 #: /src/modules/main_menu/components/setting-check-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.global_emotes.description"
-msgstr ""
+msgstr "Engedélyezi a 7TV globális hangulatjeleit."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
@@ -93,3 +95,22 @@ msgstr ""
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.update_messages.description"
 msgstr ""
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-tree.vue:1
+#: /src/modules/main_menu/components/menu-page.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes"
+msgstr "7TV hangulatjelek"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes"
+msgstr "Hangulatjelek"
+
+#: /src/modules/main_menu/index.js:674
+#: /src/modules/main_menu/components/menu-container.vue:1
+#, icu-message-format
+msgid "setting.add_ons.7tv_emotes.emotes.emote_visibility"
+msgstr "Hangulatjel láthatósága"
