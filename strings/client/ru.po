@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
+"PO-Revision-Date: 2022-05-08 12:32+0000\n"
 "Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "async-text.upload"
 msgstr "Загрузить"
@@ -17,25 +17,23 @@ msgstr "Загрузить"
 msgid "autocomplete.empty"
 msgstr "Результатов нет."
 
-#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"({count,number} {count,plural,one {месяц} few {месяца} other {месяцев}} "
-"подписки)"
+"({count,number} {count,plural,one {# месяц} few {# месяца} other {# месяцев}}"
+" подписки)"
 
-#, fuzzy
 msgid "badges.subscriber.months"
 msgstr ""
 "{title} \n"
-"({count,number} {count,plural,one {месяц} few {месяца} other {месяцев}})"
+"({count,number} {count,plural,one {# месяц} few {# месяца} other {# "
+"месяцев}})"
 
-#, fuzzy
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Уровень {tier}, {count,number} {count,plural,one {месяц} few {месяца} other "
-"{месяцев}})"
+"(Уровень {tier}, {count,number} {count,plural,one {# месяц} few {# месяца} "
+"other {# месяцев}})"
 
 msgid "card.empty"
 msgstr "Данные не были возвращены."
