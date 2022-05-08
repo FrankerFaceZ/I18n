@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-05-08 12:32+0000\n"
+"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-pronouns/ru/>\n"
+"Language: ru\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.pronouns.title"
 msgstr "Местоимения: {value}"
@@ -15,3 +25,8 @@ msgstr "Отображать обводку значка."
 
 msgid "setting.entry.addon.pronouns.color"
 msgstr "Цвет значка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.pronouns.per_badge_colors"
+msgstr "Цвета для каждого значка"
