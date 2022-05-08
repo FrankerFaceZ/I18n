@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-06 22:32+0000\n"
+"PO-Revision-Date: 2022-05-09 11:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -2629,31 +2629,33 @@ msgstr "渲染模式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-deleted.description"
 msgstr ""
+"當設定時，會覆蓋在Twitch聊天室設定的`已刪除訊息`模式，通常只有管理員可以用。簡單的隱藏完整訊息然後顯示聊天室有多少訊息有幾個訊息被隱藏了。詳細的會"
+"顯示訊息內容。舊版會顯示`<已刪除訊息>`然後按一下就可以顯示。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
-msgstr ""
+msgstr "簡易"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
-msgstr ""
+msgstr "詳細"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.false"
-msgstr ""
+msgstr "不要覆蓋"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
-msgstr ""
+msgstr "舊版"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-mod-action"
-msgstr ""
+msgstr "顯示原因"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2663,174 +2665,174 @@ msgstr "從不"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-mod-action.values.1"
-msgstr ""
+msgstr "在詳細模式下"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-mod-action.values.2"
 msgstr "永遠"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-badges"
-msgstr ""
+msgstr "chat.filtering.highlight-basic-badges"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
-msgstr ""
+msgstr "chat.filtering.highlight-basic-badges-blocked"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-blocked"
-msgstr ""
+msgstr "chat.filtering.highlight-basic-blocked"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-terms"
-msgstr ""
+msgstr "chat.filtering.highlight-basic-terms"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users"
-msgstr ""
+msgstr "chat.filtering.highlight-basic-users"
 
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
-msgstr ""
+msgstr "chat.filtering.highlight-basic-users-blocked"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-mentions"
-msgstr ""
+msgstr "醒目標示提及你的訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-tokens"
-msgstr ""
+msgstr "醒目標示指定文字的訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.ignore-clear"
-msgstr ""
+msgstr "拒絕清除聊天室的命令。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-color"
-msgstr ""
+msgstr "自訂醒目標示的顏色"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-color.description"
-msgstr ""
+msgstr "如果設定的話，沒有預設顏色的醒目提示訊息會用你選的顏色而不是紅色。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-priority"
-msgstr ""
+msgstr "提及優先度"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-priority.description"
-msgstr ""
+msgstr "有這個優先順序提及時會醒目標示。詳細內容請見[聊天室 > 過濾 > 醒目標示](~chat.filtering.highlight)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.process-own"
-msgstr ""
+msgstr "過濾自己的訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.remove-deleted"
-msgstr ""
+msgstr "移除聊天室中被刪除的訊息。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.remove-deleted.description"
-msgstr ""
+msgstr "刪除的訊息會被完全移除。這個設定不建議給管理員。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.0"
-msgstr ""
+msgstr "不要移除"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.1"
-msgstr ""
+msgstr "移除未讀 (預設)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
-msgstr ""
+msgstr "以管理員移除未讀"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.3"
-msgstr ""
+msgstr "全部移除"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.fix-bad-emotes"
-msgstr ""
+msgstr "修復壞掉的Twitch全域表情符號"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.fix-bad-emotes.description"
-msgstr ""
+msgstr "清理不好的Twitch全域表情符號，移除白邊跟純色背景。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-family"
-msgstr ""
+msgstr "字體系列"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-family.description"
-msgstr ""
+msgstr "指定顯示聊天訊息的字體。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-size"
-msgstr ""
+msgstr "字體大小"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-size.description"
-msgstr ""
+msgstr "字體大小多大，以像素為單位。這會因為你的瀏覽器縮放設定跟字體大小設定而變。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.hide-community-highlights"
-msgstr ""
+msgstr "隱藏聊天室上面所有社群亮點。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:124
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.hide-community-highlights.description"
-msgstr ""
+msgstr "社群亮點是投票，社群贈禮之類的。它們會暫時浮在聊天室上方然後你關不掉。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.input.hide-identity"
-msgstr ""
+msgstr "在聊天室設定中顯示\"聊天身分\"而不是輸入欄。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.input.show-mod-view"
-msgstr ""
+msgstr "在相關頻道顯示管理員視角按鈕。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.alternate"
-msgstr ""
+msgstr "在不同的聊天室背景顏色顯示界線。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.borders"
-msgstr ""
+msgstr "分隔符號"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2840,121 +2842,121 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.1"
-msgstr ""
+msgstr "基本的線 (1px 實線)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.2"
-msgstr ""
+msgstr "3D線 (2px 凹線)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.3"
-msgstr ""
+msgstr "3D線 (2px 內凹線)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.4"
-msgstr ""
+msgstr "寬線 (2px 實線)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.emote-alignment"
-msgstr ""
+msgstr "表情符號對齊"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.emote-alignment.description"
-msgstr ""
+msgstr "更改表情符號的位置，有可能會加高訊息高度來不讓表情符號重疊。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.emote-alignment.values.0"
-msgstr ""
+msgstr "標準"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.emote-alignment.values.1"
-msgstr ""
+msgstr "填充"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.emote-alignment.values.2"
-msgstr ""
+msgstr "底線 (類似BTTV)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.padding"
-msgstr ""
+msgstr "在邊線周圍減少填充。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:22
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.me-style"
-msgstr ""
+msgstr "行為樣式"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:194
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.me-style.description"
-msgstr ""
+msgstr "當有人使用`/me`，訊息會被這樣顯示。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.0"
-msgstr ""
+msgstr "沒有樣式"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.1"
-msgstr ""
+msgstr "上色 (舊樣式)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.2"
-msgstr ""
+msgstr "斜體 (新樣式)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.3"
-msgstr ""
+msgstr "上色斜體"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.mru.enabled"
-msgstr ""
+msgstr "允許按上下鍵來叫出先前傳送的訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.name-format"
-msgstr ""
+msgstr "顯示樣式"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.name-format.description"
-msgstr ""
+msgstr "更改當通用使用者名稱啟用時呈現的樣式。"
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.0"
-msgstr ""
+msgstr "通用名稱 (使用者名稱) <預設>"
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.1"
-msgstr ""
+msgstr "通用名稱"
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.2"
-msgstr ""
+msgstr "使用者名稱"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.pin-resubs"
-msgstr ""
+msgstr "自動釘選聊天室裡重新訂閱訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.allow-highlight"
-msgstr ""
+msgstr "當有人兌換醒目標示顯示我的訊息時醒目標示他的訊息。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2964,49 +2966,49 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.1"
-msgstr ""
+msgstr "Twitch樣式"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.2"
-msgstr ""
+msgstr "FFZ樣式"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.auto-rewards"
-msgstr ""
+msgstr "自動領取獎勵。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering"
-msgstr ""
+msgstr "自訂渲染兌換忠誠點數的訊息。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering.description"
-msgstr ""
+msgstr "自訂選然包含醒目提示的背景顏色，有些用戶可能不喜歡。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-button"
-msgstr ""
+msgstr "在聊天室訊息下方顯示忠誠點數按鈕。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-callouts"
-msgstr ""
+msgstr "在聊天室內顯示有關忠誠點數的訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-rewards"
-msgstr ""
+msgstr "允許可用獎勵出現在頻道點數按鈕旁。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.replies.style"
-msgstr ""
+msgstr "樣式"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5969,3 +5971,15 @@ msgstr "表情符號"
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.2"
 msgstr "所有表情符號"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size"
+msgstr "限制原生表情符號大小"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size.description"
+msgstr "有時候會有一些很煩的大型表符會不小心逃過Twitch的審核然後出現在聊天室。這個會限制Twitch表情符號的大小來解決這個問題。"
