@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-08 12:32+0000\n"
+"PO-Revision-Date: 2022-05-09 11:32+0000\n"
 "Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/ru/>\n"
@@ -4003,7 +4003,7 @@ msgstr ""
 "Эта настройка позволяет использовать комбинированные эмодзи, где возможно. "
 "Необходимо из-за бага, который удаляет символ, соединяющий эмодзи друг с "
 "другом (Zero-width joiner). [Смотрите оригинальную проблему,](https://github."
-"com/FrankerFaceZ/FrankerFaceZ/issues/1147) если хотите узнать подрбнее."
+"com/FrankerFaceZ/FrankerFaceZ/issues/1147) если хотите узнать подробнее."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4034,3 +4034,108 @@ msgstr "Использовать меню смайлов FrankerFaceZ."
 #, icu-message-format
 msgid "addon.show-less"
 msgstr "(Свернуть)"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Заблокированные значки"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Пользователи"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.whispers"
+msgstr "Личные сообщения"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Поведение"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.faq"
+msgstr "ЧаВо"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.feedback"
+msgstr "Обратная связь"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.font.size"
+msgstr "Размер шрифта"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.changelog"
+msgstr "Журнал изменений"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.volume"
+msgstr "Громкость"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Заблокированные термины"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Заблокированные пользователи"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Значки"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Помощь по синтаксису"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Внешний вид"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.links"
+msgstr "Ссылки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.emotes"
+msgstr "Смайлы"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.badges"
+msgstr "Значки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.feedback.log"
+msgstr "Журнал"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.legal"
+msgstr "Политика конфиденциальности"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player"
+msgstr "Проигрыватель"
