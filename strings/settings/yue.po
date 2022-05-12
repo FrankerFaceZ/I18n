@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-07 07:32+0000\n"
+"PO-Revision-Date: 2022-05-12 17:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -394,12 +394,12 @@ msgstr "功能"
 #: /src/modules/main_menu/components/chat-actions.vue:635
 #, icu-message-format
 msgid "setting.actions.add-default"
-msgstr "添加默認值"
+msgstr "添加預設值"
 
 #: /src/modules/main_menu/components/chat-actions.vue:651
 #, icu-message-format
 msgid "setting.actions.add-default-tip"
-msgstr "將所有默認行為添加到呢個配置文件。"
+msgstr "將所有預設行為添加到呢個配置文件。"
 
 #: /src/modules/main_menu/components/action-editor.vue:49
 #, icu-message-format
@@ -575,7 +575,7 @@ msgstr "僅限訂閱"
 #: /src/modules/chat/actions/components/edit-timeout.vue:56
 #, icu-message-format
 msgid "setting.actions.reason"
-msgstr "默認原因"
+msgstr "預設原因"
 
 #: /src/modules/chat/actions/components/edit-chat.vue:118
 #, icu-message-format
@@ -1154,7 +1154,7 @@ msgstr "行為"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points"
-msgstr "頻道點數"
+msgstr "忠誠點數"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1621,7 +1621,7 @@ msgstr "熱鍵"
 #: /src/modules/main_menu/components/profile-editor.vue:231
 #, icu-message-format
 msgid "setting.data_management.profiles.edit.name"
-msgstr "姓名"
+msgstr "名稱"
 
 #: /src/modules/main_menu/components/profile-editor.vue:310
 #, icu-message-format
@@ -1906,7 +1906,7 @@ msgstr "自動跳過頻道預告片。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.extra-links"
-msgstr "喺主播姓名隔离添加指向實況頻道頁面嘅額外連結。"
+msgstr "喺主播名稱隔离添加指向實況頻道頁面嘅額外連結。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2306,7 +2306,7 @@ msgstr "延遲聊天訊息嘅出現，便於喺睇到佢哋之前進行審核。
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.-1"
-msgstr "默認延遲(特限於房間; 僅限非Mod)"
+msgstr "預設延遲(特限於房間; 僅限非Mod)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2407,7 +2407,7 @@ msgstr "喺一個標籤上顯示所有表情符號。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.default-tab"
-msgstr "默認標籤"
+msgstr "預設標籤"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2542,11 +2542,11 @@ msgstr "名稱，Z-A"
 
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.4"
-msgstr "默認順序，升序"
+msgstr "預設順序，升序"
 
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.5"
-msgstr "默認順序，降序"
+msgstr "預設順序，降序"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2811,7 +2811,7 @@ msgstr "客製化亮點色水"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-color.description"
-msgstr "如果設定咗呢項，則未設定默認顏色嘅亮點訊息將使用呢個顏色而唔係紅色。"
+msgstr "如果設定咗呢項，則未設定預設顏色嘅亮點訊息將使用呢個顏色而唔係紅色。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2846,12 +2846,12 @@ msgstr "請勿移除"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.1"
-msgstr "移除睇唔到嘅 (默認)"
+msgstr "移除未讀 (預設)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
-msgstr "作為審核人移除睇唔到嘅"
+msgstr "作為審核人移除未讀"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2928,17 +2928,17 @@ msgstr "禁用"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.1"
-msgstr "簡單界線 (1px實線)"
+msgstr "簡單界線 (1px 實線)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.2"
-msgstr "3D 界線 (2px 凹槽)"
+msgstr "3D 界線 (2px 凹線)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.3"
-msgstr "3D 界線 (2px 內凹)"
+msgstr "3D 界線 (2px 內凹槽)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3024,7 +3024,7 @@ msgstr "当用戶設定咗通用顯示名稱時，改變用戶名喺聊天中嘅
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.0"
-msgstr "通用名稱 (用戶名) <Default>"
+msgstr "通用名稱 (用戶名) <預設>"
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.1"
@@ -3068,7 +3068,7 @@ msgstr "自動領取紅利獎勵。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.custom-rendering"
-msgstr "對聊天中嘅頻道點數獎勵訊息使用客製化渲染。"
+msgstr "對聊天中嘅忠誠點數獎勵訊息使用客製化渲染。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
@@ -3079,17 +3079,17 @@ msgstr "客製化呈現將背景色水應用於亮點訊息，某些用戶可能
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-button"
-msgstr "喺聊天下方顯示頻道點數按鈕。"
+msgstr "喺聊天下方顯示忠誠點數按鈕。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-callouts"
-msgstr "喺聊天中顯示有關頻道點數獎勵嘅訊息。"
+msgstr "喺聊天中顯示有關忠誠點數獎勵嘅訊息。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-rewards"
-msgstr "允許可用獎勵出現喺頻道點數按鈕旁邊。"
+msgstr "允許可用獎勵出現喺忠誠點數按鈕旁邊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3100,7 +3100,7 @@ msgstr "樣式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.replies.style.description"
 msgstr ""
-"Twitch嘅默認樣式喺右側添加咗一個浮動撳掣，並喺作為回覆嘅訊息之上顯示通知。FrankerFaceZ使用內嵌聊天行為（可以喺 "
+"Twitch嘅預設樣式喺右側添加咗一個浮動撳掣，並喺作為回覆嘅訊息之上顯示通知。FrankerFaceZ使用內嵌聊天行為（可以喺 "
 "[聊天>行為>內嵌](~chat.actions.in_line)中移除）並使用內嵌提及嚟標誌回覆。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
@@ -3111,7 +3111,7 @@ msgstr "禁用"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.replies.style.values.1"
-msgstr "Twitch (默認)"
+msgstr "Twitch (預設)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -3362,7 +3362,7 @@ msgstr "合併批量訂閱禮物"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts-visibility"
-msgstr "默認展開合併嘅批量訂閱禮物訊息。"
+msgstr "預設展開合併嘅批量訂閱禮物訊息。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3522,7 +3522,7 @@ msgstr "時間戳字體大小"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-size.description"
-msgstr "時間戳應有幾大（以像素為單位）。如果未設定，則默認為\"字體大小\"。"
+msgstr "時間戳應有幾大（以像素為單位）。如果未設定，則預設為\"字體大小\"。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3825,7 +3825,7 @@ msgstr "日期格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.date.description"
 msgstr ""
-"默認日期格式。客製化日期格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
+"預設日期格式。客製化日期格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
 
 #, icu-message-format
 msgid "setting.entry.i18n.format.datetime"
@@ -3835,7 +3835,7 @@ msgstr "日期-時間格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.datetime.description"
 msgstr ""
-"默認嘅組合日期-時間格式。客製化時間格式使用 [Day.js](https://day.js.org/docs/en/display/"
+"預設嘅組合日期-時間格式。客製化時間格式使用 [Day.js](https://day.js.org/docs/en/display/"
 "format)庫進行格式化。"
 
 #, icu-message-format
@@ -3846,7 +3846,7 @@ msgstr "時間格式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.format.time.description"
 msgstr ""
-"默認時間格式。客製化時間格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
+"預設時間格式。客製化時間格式使用 [Day.js](https://day.js.org/docs/en/display/format)庫進行格式化。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:16
 #, icu-message-format
@@ -4056,7 +4056,7 @@ msgstr "字體系列"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theme.global-font.description"
 msgstr ""
-"覆蓋用于成個Twitch網站嘅字體。舊嘅默認字體係: `\"Helvetica Neue\",Helvetica,Arial,sans-serif`\n"
+"覆蓋用于成個Twitch網站嘅字體。舊嘅預設字體係: `\"Helvetica Neue\",Helvetica,Arial,sans-serif`\n"
 "\n"
 "透過 [Google Fonts](https://fonts.google.com/"
 ")提供嘅任何字體都可以通過喺字體名稱前面加上`google:`嚟加載。"
@@ -4439,13 +4439,13 @@ msgstr "允許鼠標與曡加擴充功能進行交互。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.default"
-msgstr "默認值"
+msgstr "預設值"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:118
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.default.description"
-msgstr "啟用增益控制時，由增益控制嘅默認值。100%意味住音量冇變化。"
+msgstr "啟用增益控制時，由增益控制嘅預設值。100%意味住音量冇變化。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -4827,7 +4827,7 @@ msgstr "字體大小"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.font.size.description"
 msgstr ""
-"**最小值:** `1`，**最大值:** `25`，*舊默認值:* `12`\n"
+"**最小值:** `1`，**最大值:** `25`，*舊預設值:* `12`\n"
 "\n"
 "普通文本應該幾大（以像素為單位）。可能會受到瀏覽器嘅縮放同字體設定嘅影響。"
 
@@ -5046,7 +5046,7 @@ msgstr "內置字體"
 #: /src/modules/main_menu/components/setting-combo-box.vue:44
 #, icu-message-format
 msgid "setting.font.default"
-msgstr "默認"
+msgstr "預設"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:44
 #, icu-message-format
@@ -5336,7 +5336,7 @@ msgstr "配置"
 #: /src/modules/main_menu/components/profile-manager.vue:406
 #, icu-message-format, lp-defaults:"{\"id\":0,\"order\":2,\"live\":true,\"title\":\"Default Profile\",\"i18n_key\":\"setting.profiles.default\",\"description\":\"Settings that apply everywhere on Twitch.\",\"desc_i18n_key\":\"setting.profiles.default.description\",\"move\":null,\"save\":null,\"update\":null,\"getBackup\":null,\"get\":null,\"set\":null,\"delete\":null,\"has\":null,\"on\":null,\"off\":null}"
 msgid "setting.profiles.default"
-msgstr "默認配置文件"
+msgstr "預設配置文件"
 
 #: /src/modules/main_menu/components/profile-selector.vue:168
 #: /src/modules/main_menu/components/profile-manager.vue:406
@@ -5491,12 +5491,12 @@ msgstr "陰住啲！"
 #: /src/modules/main_menu/components/chat-reasons.vue:76
 #, icu-message-format
 msgid "setting.reasons.add-default"
-msgstr "添加默認值"
+msgstr "添加預設值"
 
 #: /src/modules/main_menu/components/chat-reasons.vue:92
 #, icu-message-format
 msgid "setting.reasons.add-default-tip"
-msgstr "將所有默認原因添加到呢個配置文件中。"
+msgstr "將所有預設原因添加到呢個配置文件中。"
 
 #: /src/modules/main_menu/components/reason-editor.vue:31
 #, icu-message-format
@@ -5532,12 +5532,12 @@ msgstr "撳一個鍵"
 #: Proxy.render (/src/modules
 #, icu-message-format
 msgid "setting.reset"
-msgstr "重設為默認值"
+msgstr "重設為預設值"
 
 #: /src/modules/main_menu/components/badge-visibility.vue:48
 #, icu-message-format
 msgid "setting.reset-all"
-msgstr "全部重設為默認值"
+msgstr "全部重設為預設值"
 
 #: /src/modules/main_menu/components/badge-visibility.vue:56
 #, icu-message-format
@@ -5753,7 +5753,7 @@ msgstr "儀錶板：頻道分析"
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.dash-channel-points"
-msgstr "儀表板: 頻道點數"
+msgstr "儀表板: 忠誠點數"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
