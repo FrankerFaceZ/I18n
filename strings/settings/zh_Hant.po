@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-09 11:32+0000\n"
+"PO-Revision-Date: 2022-05-16 07:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -3014,6 +3014,8 @@ msgstr "樣式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.replies.style.description"
 msgstr ""
+"Twitch的基本樣式會在右邊添加一個懸浮的按鈕然後顯示在回應的訊息上方加上提示。FrankerFaceZ使用行內聊天功能(可以在[聊天室 > 動作 > "
+"行內](~chat.actions.in_line)中移除)並使用行內提及來表示回覆。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -3023,97 +3025,97 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.replies.style.values.1"
-msgstr ""
+msgstr "Twitch (預設)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.chat.replies.style.values.2"
-msgstr ""
+msgstr "FrankerFaceZ"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links"
-msgstr ""
+msgstr "對所有連結顯示豐富嵌入。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
-msgstr ""
+msgstr "*直播主: 有些網站可能會有NSFW的縮圖，所以當開啟這功能並且擷取聊天室時請注意安全。*"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled"
-msgstr ""
+msgstr "在聊天室內顯示豐富內容。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled.description"
-msgstr ""
+msgstr "這會在剪輯連結或影片下方顯示有關連結內容的區塊。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.hide-tokens"
-msgstr ""
+msgstr "隱藏特定連結的豐富內容。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level"
-msgstr ""
+msgstr "必要的用戶層級"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level.description"
-msgstr ""
+msgstr "只有在這個層級以上的用戶所貼出的連結時顯示豐富內容內嵌。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.0"
-msgstr ""
+msgstr "所有人"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.1"
-msgstr ""
+msgstr "訂閱者"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.2"
-msgstr ""
+msgstr "VIP"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.3"
-msgstr ""
+msgstr "管理員"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.4"
-msgstr ""
+msgstr "實況主"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rituals.show"
-msgstr ""
+msgstr "顯示禮儀式訊息像是\"某使用者第一次來，跟他打個招呼!\"。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length"
-msgstr ""
+msgstr "往回滾的長度"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length.description"
-msgstr ""
+msgstr "在聊天室內保持那麼多行就好。設定太高會當機。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze"
-msgstr ""
+msgstr "暫停聊天室滾動"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze-requires-hover"
-msgstr ""
+msgstr "需要滑鼠在聊天室上並按下快捷鍵來暫停聊天室。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5983,3 +5985,18 @@ msgstr "限制原生表情符號大小"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.limit-size.description"
 msgstr "有時候會有一些很煩的大型表符會不小心逃過Twitch的審核然後出現在聊天室。這個會限制Twitch表情符號的大小來解決這個問題。"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid"
+msgstr "在聊天室顯示更大的豐富內嵌。"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid.description"
+msgstr ""
+"這會在聊天室啟用更大的內嵌。這**不建議**給多數用戶及聊天室使用。\n"
+"\n"
+"**注意:** 啟用這個會讓聊天室在不洽當的時間點進行滾動。管理員不該用這個功能。"
