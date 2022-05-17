@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-16 07:32+0000\n"
+"PO-Revision-Date: 2022-05-17 13:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -3121,96 +3121,99 @@ msgstr "需要滑鼠在聊天室上並按下快捷鍵來暫停聊天室。"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
+"當滑鼠在上方或按住一個鍵時自動暫停聊天室滾動。\n"
+"\n"
+"**注意:**向上滾一率會暫停自動滾動，無論這個設定有沒有開啟。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.0"
-msgstr ""
+msgstr "使用Twitch設定"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.1"
-msgstr ""
+msgstr "滑鼠移到上面時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.2"
-msgstr ""
+msgstr "按住 Ctrl 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.3"
-msgstr ""
+msgstr "按住 Meta 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.4"
-msgstr ""
+msgstr "按住 Alt 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.5"
-msgstr ""
+msgstr "按住 Shift 時"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.6"
-msgstr ""
+msgstr "Ctrl 或 滑鼠在上面"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.7"
-msgstr ""
+msgstr "Meta 或 滑鼠在上面"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.8"
-msgstr ""
+msgstr "Alt 或 滑鼠在上面"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.freeze.values.9"
-msgstr ""
+msgstr "Shift 或 滑鼠在上面"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay"
-msgstr ""
+msgstr "滑鼠在上面的時間限制"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay.description"
-msgstr ""
+msgstr "滑鼠在聊天室上面停滯這段時間後會停止滾動。"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.1000"
-msgstr ""
+msgstr "1秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.250"
-msgstr ""
+msgstr "0.25秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.2500"
-msgstr ""
+msgstr "2.5秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.500"
-msgstr ""
+msgstr "0.50秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.5000"
-msgstr ""
+msgstr "5秒"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
 msgid "setting.entry.chat.scroller.hover-delay.values.750"
-msgstr ""
+msgstr "0.75秒"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
