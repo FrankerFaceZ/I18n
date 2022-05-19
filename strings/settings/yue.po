@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-14 13:32+0000\n"
+"PO-Revision-Date: 2022-05-19 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -335,7 +335,7 @@ msgstr ""
 "FrankerFaceZ 使用瀏覽器嘅內置引擎來處理正則表達式，\n"
 "以及隨之而來嘅所有限制。正則表達式字詞被打包到\n"
 "生成嘅正則表達式與其他兩種模式相同。你唔應該亦可以\n"
-"唔使用捕獲組。\n"
+"唔使用擷取組。\n"
 "\n"
 "FrankerFaceZ 使用基本邏輯來確保你嘅正則表達式\n"
 "唔會異常性嘅緩慢，但你仍應注意避免緩慢嘅表達，\n"
@@ -474,7 +474,7 @@ msgstr "僅限跟隨者模式"
 #: /src/modules/main_menu/components/action-editor.vue:268
 #, icu-message-format
 msgid "setting.actions.edit-visible.mod"
-msgstr "審核人"
+msgstr "管理員"
 
 #: /src/modules/main_menu/components/action-editor.vue:356
 #, icu-message-format
@@ -549,7 +549,7 @@ msgstr "僅限跟隨者"
 #: /src/modules/main_menu/components/chat-actions.vue:61
 #, icu-message-format
 msgid "setting.actions.preview.mod"
-msgstr "作為審核人"
+msgstr "作為管理員"
 
 #: /src/modules/main_menu/components/chat-actions.vue:121
 #, icu-message-format
@@ -638,7 +638,7 @@ msgstr "當鼠標懸停時"
 #: /src/modules/main_menu/components/action-editor.vue:561
 #, icu-message-format
 msgid "setting.actions.visible.mod"
-msgstr "當審核人"
+msgstr "當管理員"
 
 #: /src/modules/main_menu/components/action-editor.vue:567
 #, icu-message-format
@@ -1258,7 +1258,7 @@ msgstr "徽章"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges.description"
 msgstr ""
-"**注意：**呢個部分用于篩選來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意：** 呢個部分用于篩選來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1300,7 +1300,7 @@ msgstr "被封鎖嘅徽章"
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
-"**注意：**呢個部分用于篩選來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
+"**注意：** 呢個部分用于篩選來自具有特定徽章嘅用戶嘅聊天訊息。如果你想隱藏徽章，請轉到 [聊天>徽章>>可見性](~聊天.徽章.標籤.可見性)。"
 
 #, icu-message-format
 msgid "setting.chat.filtering.blocked_message_types"
@@ -1662,7 +1662,7 @@ msgid "setting.data_management.profiles.hotkey.desc"
 msgstr ""
 "設定熱鍵允許你使用熱鍵隨時打開或關閉配置文件。\n"
 "\n"
-"**注意：**打開嘅配置文件可能由于其規則而依然處於非活動狀態。"
+"**注意：** 打開嘅配置文件可能由于其規則而依然處於非活動狀態。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1839,7 +1839,7 @@ msgstr "封鎖同隱藏嘅類別"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.channels.description"
-msgstr "**注意：**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設定當前唔起作用。"
+msgstr "**注意：** 由於Twitch對目錄嘅工作方式進行咗更改，呢啲設定當前唔起作用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1854,7 +1854,7 @@ msgstr "類別"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.directory.following.description"
-msgstr "**注意：**由於Twitch對目錄嘅工作方式進行咗更改，呢啲設定當前唔起作用。"
+msgstr "**注意：** 由於Twitch對目錄嘅工作方式進行咗更改，呢啲設定當前唔起作用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2074,13 +2074,13 @@ msgstr "如果訊息包含篩選嘅詞組，就將佢完全移除。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod"
-msgstr "作為審核人使用聊天篩選器。"
+msgstr "作為管理員使用聊天篩選器。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod.description"
-msgstr "默認情況下，Twitch嘅聊天篩選器功能唔適用於審核人。呢個會覆蓋該行為。"
+msgstr "默認情況下，Twitch嘅聊天篩選器功能唔適用於管理員。呢個會覆蓋該行為。"
 
 #, icu-message-format
 msgid "setting.entry.chat.badges.clickable"
@@ -2093,7 +2093,7 @@ msgstr "某啲徽章(Prime Gaming )喺呢個功能啟用時充當超鏈。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-mod"
-msgstr "使用客製化審核人徽章(如果可用)。"
+msgstr "使用客製化管理員徽章(如果可用)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2447,7 +2447,7 @@ msgstr "將表情符號菜單圖標替換為FFZ圖標，嚟獲得經典嘅感覺
 #: /src/modules/main_menu/index.js:641
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emote-menu.icon.description"
-msgstr "**注意：**如果檢測到其他表情符號菜單，可能會強制啟用呢個設定，嚟確保你可以直觀咁辨識 FFZ 表情符號菜單。"
+msgstr "**注意：** 如果檢測到其他表情符號菜單，可能會強制啟用呢個設定，嚟確保你可以直觀咁辨識 FFZ 表情符號菜單。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -2669,7 +2669,7 @@ msgstr "顯示用戶名色水喺聊天中嘅提及。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions.description"
-msgstr "**注意：**與色水覆蓋唔兼容，因為提及唔包含用戶ID。"
+msgstr "**注意：** 與色水覆蓋唔兼容，因為提及唔包含用戶ID。"
 
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
@@ -2715,7 +2715,7 @@ msgstr "渲染模式"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-deleted.description"
 msgstr ""
-"設定之後，將覆蓋喺Twitch聊天設定中選擇嘅`已刪除消息`模式該模式，通常只有審核人先可以訪問。\"簡潔\"會完全隱藏消息"
+"設定之後，將覆蓋喺Twitch聊天設定中選擇嘅`已刪除消息`模式該模式，通常只有管理員先可以訪問。\"簡潔\"會完全隱藏消息"
 "，並喺聊天中顯示一條通知，指出隱藏咗大量消息。\"詳細\"會顯示訊息嘅内容。舊版會顯示`<消息已删除>`，單擊佢嚟顯示。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
@@ -2836,7 +2836,7 @@ msgstr "喺聊天中移除已刪除嘅訊息。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.remove-deleted.description"
-msgstr "已刪除嘅訊息將喺聊天中完全移除。唔推薦審核人使用呢個設定。"
+msgstr "已刪除嘅訊息將喺聊天中完全移除。唔推薦管理員使用呢個設定。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2851,7 +2851,7 @@ msgstr "移除未讀 (預設)"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
-msgstr "作為審核人移除未讀"
+msgstr "作為管理員移除未讀"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3126,7 +3126,7 @@ msgstr "顯示所有連結嘅豐富內容嵌入。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
-msgstr "*主播用戶：請注意，呢個有透過縮略圖嚟獲取NSFW圖像嘅潛在風險，因此喺啟用呢個功能嘅情況下捕獲聊天時要小心。*"
+msgstr "*主播用戶：請注意，呢個有透過縮略圖嚟獲取NSFW圖像嘅潛在風險，因此喺啟用呢個功能嘅情況下擷取聊天時要小心。*"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3171,7 +3171,7 @@ msgstr "貴賓"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.3"
-msgstr "審核人"
+msgstr "管理員"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3186,7 +3186,7 @@ msgstr "顯示禮儀性訊息，例如\"用戶係新嚟嘅！ 打個招呼！\"�
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length"
-msgstr "滾動條長度"
+msgstr "回滾長度"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3209,7 +3209,7 @@ msgid "setting.entry.chat.scroller.freeze.description"
 msgstr ""
 "將鼠標移動到聊天上方或撳住一個鍵時，自動停止聊天滾動。\n"
 "\n"
-"**注意：**無論呢個設定如何，喺聊天中向上滾動將始終阻止自動滾動。"
+"**注意：** 無論呢個設定如何，喺聊天中向上滾動將始終阻止自動滾動。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3269,7 +3269,7 @@ msgstr "鼠標懸停超時"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay.description"
-msgstr "聊天只會喺鼠標停止移動之後由於鼠標懸停咁長時間而保持凍結狀態。"
+msgstr "聊天只會喺鼠標停止移動並懸停咁長時間後保持凍結狀態。"
 
 #: /src/modules/main_menu/components/setting-combo-box.vue:41
 #, icu-message-format
@@ -3310,7 +3310,7 @@ msgstr "平滑滾動"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.smooth-scroll.description"
 msgstr ""
-"**注意：**呢個可能表現不好，具體取決於你嘅瀏覽器。如果遇到問題，請禁用呢個功能。\n"
+"**注意：** 呢個可能表現不好，具體取決於你嘅瀏覽器。如果遇到問題，請禁用呢個功能。\n"
 "\n"
 "將新嘅聊天訊息平順滑入視面。速度將根據需要增加，方便跟上聊天。"
 
@@ -3764,13 +3764,13 @@ msgstr "主頁"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.debug.capture"
-msgstr "啟用消息捕獲。"
+msgstr "啟用消息擷取。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.i18n.debug.capture.description"
-msgstr "捕獲所有本地化字符串，包含變量同調用位置，便於將它們報告畀後端。用于向翻譯項目添加新字符串。默認情況下，開發模式喺運行緊嗰時，將啟用訊息捕獲。"
+msgstr "擷取所有本地化字符串，包含變量同調用位置，便於將它們報告畀後端。用于向翻譯項目添加新字符串。默認情況下，開發模式喺運行緊嗰時，將啟用訊息擷取。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5392,7 +5392,7 @@ msgstr "審核"
 #: /src/modules/main_menu/components/profile-editor.vue:243
 #, icu-message-format, md-text, lp-defaults:"{\"id\":1,\"order\":1,\"live\":true,\"title\":\"Moderation\",\"i18n_key\":\"setting.profiles.moderation\",\"description\":\"Settings that apply when you are a moderator of the current channel.\",\"desc_i18n_key\":\"setting.profiles.moderation.description\",\"move\":null,\"save\":null,\"update\":null,\"getBackup\":null,\"context.0\":null,\"get\":null,\"set\":null,\"delete\":null,\"has\":null,\"on\":null,\"off\":null}"
 msgid "setting.profiles.moderation.description"
-msgstr "当你係當前頻道嘅審核人時使用嘅設置。"
+msgstr "当你係當前頻道嘅管理員時使用嘅設置。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:37
 #, icu-message-format
@@ -5474,7 +5474,7 @@ msgstr "切換提供程式時轉移我嘅設定。"
 #: /src/modules/main_menu/components/provider.vue:190
 #, icu-message-format
 msgid "setting.provider.transfer.desc"
-msgstr "**注意：**除非你知道自己喺喥做緊乜，否則建議你唔好手多多。"
+msgstr "**注意：** 除非你知道自己喺喥做緊乜，否則建議你唔好手多多。"
 
 #: /src/modules/main_menu/components/provider.vue:26
 #, icu-message-format
@@ -5690,7 +5690,7 @@ msgstr "倒轉"
 #: /src/modules/main_menu/components/filter-editor.vue:104
 #, icu-message-format
 msgid "settings.filter.moderator"
-msgstr "係審核人"
+msgstr "係管理員"
 
 #: /src/modules/main_menu/components/filter-editor.vue:104
 #: /src/settings/components/basic-toggle.vue:66
@@ -6093,7 +6093,7 @@ msgid "setting.entry.chat.rich.want-mid.description"
 msgstr ""
 "允許喺聊天中使用大量嘅豐富內容嵌入。 對於大多數用戶 同/或 聊天，係**唔建議**嘅。\n"
 "\n"
-"**注意：**由于內容加載，啟用呢個功能可能會導致聊天出現不合時宜嘅滾動。 審核人唔應該使用呢個功能。"
+"**注意：** 由于內容加載，啟用呢個功能可能會導致聊天出現不合時宜嘅滾動。 管理員唔應該使用呢個功能。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:36
 #, icu-message-format
