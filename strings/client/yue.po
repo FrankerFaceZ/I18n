@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-12 17:32+0000\n"
+"PO-Revision-Date: 2022-05-19 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -255,8 +255,8 @@ msgstr "歡呼 {count, plural, one {# 個小奇點} other {# 個小奇點}}"
 msgid "chat.deleted-messages"
 msgstr ""
 "{count,plural,\n"
-"one {條聊天訊息已被審核人刪除。}\n"
-"other {條聊天訊息已被審核人刪除。}\n"
+"one {條聊天訊息已被管理員刪除。}\n"
+"other {條聊天訊息已被管理員刪除。}\n"
 "}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
@@ -319,7 +319,7 @@ msgstr "聊天身份"
 #: /src/sites/twitch-twilight/modules/chat/index.js:1157:18
 #, icu-message-format
 msgid "chat.ignore-clear"
-msgstr "審核人清除聊天嘅嘗試被忽略。"
+msgstr "管理員清除聊天嘅嘗試被忽略。"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:184:10
 #, icu-message-format
@@ -410,7 +410,7 @@ msgstr "{user} 佢花費咗 {cost} 兑换 {reward}"
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reason.ignore"
-msgstr "無視 直播主/審核人"
+msgstr "無視 直播主/管理員"
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
