@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-20 07:32+0000\n"
+"PO-Revision-Date: 2022-05-21 15:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -365,7 +365,7 @@ msgstr ""
 "\n"
 "#### 亮點匹配\n"
 "\n"
-"啟用後，[聊天>篩選>常規](~)中嘅匹配設定\n"
+"啟用後，[聊天>篩選>一般](~)中嘅匹配設定\n"
 "啟用，任何匹配嘅字詞都會喺聊天中亮點，方便你查睇\n"
 "完全匹配嘅字詞。\n"
 "\n"
@@ -918,7 +918,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.hosting"
-msgstr "轉播中"
+msgstr "轉播"
 
 #, icu-message-format
 msgid "setting.channel.behavior.panels"
@@ -1951,7 +1951,7 @@ msgstr "唔好自動加入揪團。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.round-avatars"
-msgstr "允許對頭像圖像变圆角。"
+msgstr "允許頭像圖片变圆角。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2551,7 +2551,7 @@ msgstr "預設順序，降序"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
-msgstr "最後列出來自較高訂閱層級嘅表情符號。"
+msgstr "依照訂閱層級高低排列表情符號。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2674,7 +2674,7 @@ msgstr "**注意：** 與色水覆蓋唔兼容，因為提及唔包含用戶ID�
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
-msgstr "喺每條聊天訊息上顯示一個因咩事高亮佢嘅列表，以進行偵錯。"
+msgstr "喺每條聊天訊息上顯示一個因咩事高亮佢嘅原因列表，以進行偵錯。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3754,7 +3754,7 @@ msgstr "喺搜索時隱藏唔完全匹配到嘅項目。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffz.show-new-settings"
-msgstr "每當有新設定添加到FrankerFaceZ時，喺FFZ控制中心撳製上顯示指示器。"
+msgstr "每當有新設定添加到FrankerFaceZ時，喺FFZ控制中心撳掣上顯示指示器。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3870,7 +3870,7 @@ msgstr "顯示\"發現\"連結。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.display-bits-button"
-msgstr "顯示\"獲取小奇點\"撳製。"
+msgstr "顯示\"獲取小奇點\"撳掣。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3908,7 +3908,7 @@ msgstr "縱向模式下使用緊湊聊天。"
 
 #, icu-message-format, md-text
 msgid "setting.entry.layout.portrait-min-chat.description"
-msgstr "啟用之後，會最大限度咁縮細聊天標題，並將聊天輸入框與聊天撳製對正，便於呈現更緊湊嘅聊天，能夠喺有限嘅垂直空間內顯示更多行。"
+msgstr "啟用之後，會最大限度咁縮細聊天標題，並將聊天輸入框與聊天撳掣對正，便於呈現更緊湊嘅聊天，能夠喺有限嘅垂直空間內顯示更多行。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4070,13 +4070,13 @@ msgstr "合法性"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.clip-download"
-msgstr "為編輯者添加\"下載\"撳製嚟剪輯頁面。"
+msgstr "為編輯者添加\"下載\"撳掣嚟剪輯頁面。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.clip-download.description"
-msgstr "將喺剪輯頁面(主站點，而唔係 `clips.twitch.tv`)嘅播放器下方為實況主及其編輯添加一個下載撳製。"
+msgstr "將喺剪輯頁面(主站點，而唔係 `clips.twitch.tv`)嘅播放器下方為實況主及其編輯添加一個下載撳掣。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4086,23 +4086,23 @@ msgstr "精選跟隨"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.featured-follow.description"
-msgstr "顯示當前精選用戶嘅特色跟隨撳製。"
+msgstr "顯示當前精選用戶嘅特色跟隨撳掣。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.host-button"
-msgstr "轉播撳製"
+msgstr "轉播撳掣"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.host-button.description"
-msgstr "喺貼士標籤中顯示包含當前轉播頻道嘅轉播撳製。"
+msgstr "喺貼士標籤中顯示包含當前轉播頻道嘅轉播撳掣。"
 
 #: /src/modules/main_menu/index.js:471
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgid "setting.entry.metadata.modview.hide-info"
-msgstr "隱藏 \"隱藏直播信息條\" 撳製。"
+msgstr "隱藏 \"隱藏直播信息條\" 撳掣。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4192,22 +4192,22 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.pip"
-msgstr "添加一個 `畫中畫` 撳製到播放器控件。"
+msgstr "添加一個 `畫中畫` 撳掣到播放器控件。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.pip.description"
-msgstr "單擊\"畫中畫\"撳製會嘗試切換播放器視頻嘅畫中畫模式。"
+msgstr "單擊\"畫中畫\"撳掣會嘗試切換播放器視頻嘅畫中畫模式。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.reset"
-msgstr "添加一個 `重設播放器` 撳製到播放器控件。"
+msgstr "添加一個 `重設播放器` 撳掣到播放器控件。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.reset.description"
-msgstr "雙擊\"重設播放器\"撳製會嘗試重設Twitch播放器嘅內部狀態，從而修復播放問題，而無需刷新整個網頁。"
+msgstr "雙擊\"重設播放器\"撳掣會嘗試重設Twitch播放器嘅內部狀態，從而修復播放問題，而無需刷新整個網頁。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4329,7 +4329,7 @@ msgstr "默認情況下啟用壓縮器。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.enable"
-msgstr "啟用音頻壓縮器，並將 `音頻壓縮器` 撳製添加到播放器控件。"
+msgstr "啟用音頻壓縮器，並將 `音頻壓縮器` 撳掣添加到播放器控件。"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
@@ -4748,7 +4748,7 @@ msgstr "強調"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.accent.description"
-msgstr "強調色用于撳製、連結等。"
+msgstr "強調色用于撳掣、連結等。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4766,7 +4766,7 @@ msgstr "強調"
 
 #, icu-message-format, md-text
 msgid "setting.entry.theme.color.chat-accent.description"
-msgstr "強調色用于撳製、連結等。"
+msgstr "強調色用于撳掣、連結等。"
 
 #, icu-message-format
 msgid "setting.entry.theme.color.chat-background"
