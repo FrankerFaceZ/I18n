@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-21 15:32+0000\n"
+"PO-Revision-Date: 2022-05-21 21:32+0000\n"
 "Last-Translator: Jay Beat5 <steel12379@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/ru/>\n"
@@ -1430,7 +1430,7 @@ msgstr ""
 "это поведение."
 
 msgid "setting.entry.chat.badges.clickable"
-msgstr "Разрешить щёлкать мышью по значкам."
+msgstr "Разрешить нажимать мышью на значки."
 
 msgid "setting.entry.chat.badges.clickable.description"
 msgstr ""
@@ -1474,7 +1474,7 @@ msgid "setting.entry.chat.badges.style.values.0"
 msgstr "Квадратные"
 
 msgid "setting.entry.chat.badges.style.values.1"
-msgstr "Округлённые"
+msgstr "Закруглённые"
 
 msgid "setting.entry.chat.badges.style.values.2"
 msgstr "Круглые"
@@ -1763,7 +1763,7 @@ msgstr ""
 "вызвать проблемы с производительностью."
 
 msgid "setting.entry.chat.emotes.animated.values.0"
-msgstr "Отключен"
+msgstr "Выключено"
 
 msgid "setting.entry.chat.emotes.animated.values.1"
 msgstr "Включено"
@@ -3392,7 +3392,7 @@ msgid "setting.icon.search"
 msgstr "Поиск по иконке"
 
 msgid "setting.import"
-msgstr "Импортировать..."
+msgstr "Импортировать…"
 
 msgid "setting.import.do"
 msgstr "Импортировать"
@@ -3717,7 +3717,7 @@ msgid "setting.terms.type.text"
 msgstr "Текст"
 
 msgid "setting.tooltip-example"
-msgstr "В качестве примера, поставьте курсор на эту ссылку:"
+msgstr "В качестве примера, наведите курсор на эту ссылку:"
 
 msgid "setting.true"
 msgstr "Правда"
@@ -4154,7 +4154,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.limit-size"
-msgstr "Ограничение размера нативных эмоций"
+msgstr "Ограничение размера нативных смайлов"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:130
 #, icu-message-format, md-text
@@ -4232,7 +4232,7 @@ msgstr ""
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.1"
-msgstr "Эмоции"
+msgstr "Смайлы"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
@@ -4240,7 +4240,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
 msgstr ""
 "Этот параметр определяет, разрешено ли воспроизведение анимированных эмоций "
-"в чате. Когда этот параметр `Отключено`, эмоции будут отображаться как "
+"в чате. Когда этот параметр `Выключено`, эмоции будут отображаться как "
 "статичные изображения. Установка значения `Активация при наведении` может "
 "вызвать проблемы с производительностью."
 
@@ -4285,7 +4285,7 @@ msgstr "Использовать пользовательские VIP-значк
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.2"
-msgstr "Эмоции и Эмоджи"
+msgstr "Смайлы и Эмоджи"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -4348,3 +4348,80 @@ msgstr ""
 "Дополнения - это дополнительные модули, часто написанные другими людьми, "
 "которые могут автоматически загружаться FrankerFaceZ для добавления новых "
 "возможностей и поведения расширения и Twitch."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.drops"
+msgstr "Отображать в чате сообщения о Drops."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.polls"
+msgstr "Отображение опросов в чате."
+
+#: /src/modules/main_menu/index.js:641
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emote-menu.icon.description"
+msgstr ""
+"**Примечание:** Эта настройка может быть принудительно включена при "
+"обнаружении других меню эмоций, чтобы вы могли визуально определить меню "
+"эмоций FFZ."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.reset"
+msgstr ""
+"Добавить кнопку `Перезагрузить проигрыватель` в элементы управления плеером."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Двойное нажатие на кнопку \"Перезагрузить проигрыватель\" сбросит внутреннее "
+"состояние плеера Twitch, устраняя проблемы воспроизведения без полного "
+"обновления страницы."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"К какому кластеру серверов подключаться. Не изменяйте этот параметр, если вы "
+"не занимаетесь разработкой внутри сокет-сервера. Это приведет к поломке всех "
+"функций, зависящих от сервера сокетов, включая поиск информации об эмоциях, "
+"всплывающие подсказки ссылок и обновление данных в реальном времени."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Отображение Хайповоза в чате."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.animated"
+msgstr "Отображать анимированные Cheers."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "Выключено"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Стримеры: Пожалуйста, помните, что это потенциальный вектор для NSFW "
+"изображений через миниатюры, поэтому будьте внимательны при захвате чата с "
+"включенной функцией.*"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.prioritize-prefix-matches"
+msgstr ""
+"Отдавать приоритет смайлам, которые начинаются с пользовательского ввода."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.theatre_mode"
+msgstr "Режим кинотеатра"
