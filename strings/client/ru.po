@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-21 15:32+0000\n"
+"PO-Revision-Date: 2022-05-21 21:32+0000\n"
 "Last-Translator: Jay Beat5 <steel12379@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -32,8 +32,8 @@ msgstr ""
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Уровень {tier}, {count,number} {count,plural,one {# месяц} few {# месяца} "
-"other {# месяцев}})"
+"(Уровень {tier}, {месяцы,plural,one {# месяц} few {# месяца} other {# "
+"месяцев}})"
 
 msgid "card.empty"
 msgstr "Данные не были возвращены."
@@ -304,7 +304,7 @@ msgstr ""
 "other {подписок}} {tier} уровня сообществу канала {channel}!"
 
 msgid "chat.sub.gift-first"
-msgstr " Пользователь первый раз дарит подписку на канал!"
+msgstr "Пользователь первый раз дарит подписку на канал!"
 
 #, fuzzy
 msgid "chat.sub.gift-months"
@@ -315,10 +315,9 @@ msgstr ""
 msgid "chat.sub.gift-plan"
 msgstr "{tier} уровня"
 
-#, fuzzy
 msgid "chat.sub.gift-total"
 msgstr ""
-" Он(а) подарил(а) {count,number} {count,plural,one {подписку} few {подписки} "
+"Он(а) подарил(а) {count,number} {count,plural,one {подписку} few {подписки} "
 "other {подписок}} на канал!"
 
 msgid "chat.sub.main"
@@ -878,7 +877,7 @@ msgid "player.pip_button.off"
 msgstr "Выход из картинки в картинке"
 
 msgid "player.reset_button"
-msgstr "Сбросить проигрыватель (щёлкните мышью по кнопке дважды)"
+msgstr "Перезагрузить проигрыватель (нажмите дважды)"
 
 msgid "player.reset_button.all"
 msgstr "Сброс всех проигрывателей (двойной щелчок)"
