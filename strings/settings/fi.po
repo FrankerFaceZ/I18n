@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-20 20:16+0000\n"
-"Last-Translator: Jonni Rauhansalo <joromonni@protonmail.com>\n"
+"PO-Revision-Date: 2022-05-21 15:32+0000\n"
+"Last-Translator: Jari Laakkonen <shadowsong85@gmail.com>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/fi/>\n"
 "Language: fi\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.author"
 msgstr "Tekijä: {author}"
@@ -3466,3 +3466,44 @@ msgstr "päällä pitäessä"
 #, icu-message-format, lp-defaults:"{\"key_list\":\"Ctrl\",\"keys\":1}"
 msgid "setting.actions.visible.modifier"
 msgstr "kun {key_list} {keys, plural, one {on} other {on}} pidetty"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Saatavilla olevat muotoilijat: {fmts}"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "Säädöt"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.rich_content"
+msgstr "Rikas Sisältö"
+
+#, fuzzy, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters.description"
+msgstr "Lisäasetelma Twitchin natiiveille `Chätti Filttereille`"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.description"
+msgstr ""
+"Nämä asetukset antavat sinun korostaa viestejä chätissä sisällön mukaan. "
+"Asettelemalla prioriteetteja sääntöihin sallivat sinun määrittää minkä "
+"korostus värin sinun tulee asettaa jos viesti täsmää useita sääntöjä. "
+"Säännöt korkeammalla prioriteetilla ottavat etusijan alemmilta "
+"prioriteeteiltä.\n"
+"\n"
+"Sinä voit myös luoda säännön joka poistaa korostukset viesteistä, estää "
+"alemman prioriteetin sääntöjen korostuksen, asettelemalla nollaus värin. "
+"Esimerkki `#00000000`"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Hymiö"
