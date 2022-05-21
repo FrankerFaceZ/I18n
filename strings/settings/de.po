@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-09 11:32+0000\n"
+"PO-Revision-Date: 2022-05-21 21:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -101,9 +101,8 @@ msgid "home.about"
 msgstr ""
 "Danke, dass du FrankerFaceZ verwendest.\n"
 "\n"
-"Version 4.0 der Erweiterung befindet sich seit Ende 2017, der "
-"Veröffentlichung der React-powered-Website von Twitch, in der aktiven "
-"Entwicklung."
+"Version 4.0 der Erweiterung befindet sich seit Ende 2017, seit Twitch auf "
+"React basiert, in der aktiven Entwicklung."
 
 msgid "home.addon-new"
 msgstr "Neue Add-ons"
@@ -170,9 +169,8 @@ msgstr ""
 "Funktionen. Neue Funktionen werden sofort nach ihrer Fertigstellung "
 "veröffentlicht.\n"
 "\n"
-"* *Ich habe gespendet, aber mein Abzeichen wird nicht angezeigt..*\n"
-"* *Ich habe ein Emote zu meinem Kanal hinzugefügt, aber ich sehe es nicht..*"
-"\n"
+"* *Ich habe gespendet, aber mein Abzeichen wird nicht angezeigt.*\n"
+"* *Ich habe ein Emote zu meinem Kanal hinzugefügt, aber ich sehe es nicht.*\n"
 "\n"
 "Aufgrund von Leistungsproblemen mit unserer aktuellen Website müssen wir "
 "unsere API zwischenspeichern. Aus diesem Grund kann es bis zu einer halben "
@@ -181,7 +179,7 @@ msgstr ""
 "sollte angezeigt werden. Du kannst auch versuchen, einen Hard-Refresh "
 "durchzuführen.\n"
 "\n"
-"* *Ich möchte mein `FFZ Supporter`-Abzeichen nicht haben..*\n"
+"* *Ich möchte mein `FFZ Supporter`-Abzeichen nicht haben.*\n"
 "\n"
 "Du kannst die Sichtbarkeit deines Abzeichens auf der folgenden Seite "
 "anpassen: [https://www.frankerfacez.com/donate](https://www.frankerfacez.com/"
@@ -826,8 +824,8 @@ msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
 "**Hinweis:** Dieser Bereich dient dazu, Nachrichten von Benutzern mit "
 "bestimmten Abzeichen aus dem Chat zu filtern. Wenn du ein Abzeichen "
-"ausblenden möchtest, gehe zu [Chat > Abzeichen >> "
-"Sichtbarkeit](~chat.badges.tabs.visibility)."
+"ausblenden möchtest, navigiere zu [Chat > Abzeichen >> Sichtbarkeit](~chat."
+"badges.tabs.visibility)."
 
 msgid "setting.chat.filtering.blocked_message_types"
 msgstr "Blockierte Nachrichtenarten"
@@ -997,7 +995,7 @@ msgstr "Sei vorsichtig! Dies ist endgültig."
 msgid "setting.clear.warning-explain"
 msgstr ""
 "Das Löschen der Daten mit diesem Tool kann nicht rückgängig gemacht werden. "
-"Stelle sicher, dass du eine Sicherung hast!"
+"Ver­ge­wis­sere dich, dass du eine Sicherung erstellt hast!"
 
 msgid "setting.close"
 msgstr "Schließen"
@@ -4909,7 +4907,7 @@ msgstr "Entsprechende Links für Rich Content ausblenden."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level"
-msgstr "Filter-Level"
+msgstr "Filterlevel"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5048,3 +5046,99 @@ msgid "setting.entry.metadata.viewers.no-native.description"
 msgstr ""
 "Diese Einstellung ist standardmäßig immer dann aktiviert, wenn die FFZ-"
 "eigene Zuschauerzahl aktiviert ist, um redundante Informationen zu vermeiden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.faq"
+msgstr "FAQ"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze.description"
+msgstr ""
+"Verhindert, dass der Chat durchscrollt, wenn du die Maus über den Chat "
+"bewegst oder eine Taste gedrückt hältst.\n"
+"\n"
+"**Hinweis:** Wenn du im Chat nach oben scrollst, wird das automatische "
+"Scrollen immer verhindert, unabhängig von dieser Einstellung."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.smooth-scroll.description"
+msgstr ""
+"**Hinweis:** Dies kann sich abhängig von deinem Browser fehlerhaft "
+"verhalten. Deaktiviere dies, wenn du auf Probleme stößt.\n"
+"\n"
+"Neue Nachrichten im Chat werden nahtlos eingeblendet. Die Geschwindigkeit "
+"wird bei Bedarf erhöht, um mit dem Chat mitzuhalten."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms.description"
+msgstr ""
+"Einzelheiten zur Verwendung von Begriffen findest du unter [Chat > Filterung "
+"> Hilfe zur Syntax](~)."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-priority.description"
+msgstr ""
+"Erwähnungen deines Namens haben diese Priorität zwecks der Hervorhebung. "
+"Siehe [Chat > Filterung > Hervorhebung](~chat.filtering.highlight) für "
+"weitere Details."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images.animated.description"
+msgstr ""
+"Wenn diese Einstellung nicht überschrieben wird, werden animierte Bilder nur "
+"dann in Emote-Tooltips angezeigt, wenn [Chat > Erscheinungsbild >> Emotes > "
+"Animierte Emotes](~chat.appearance.emotes) nicht deaktiviert ist."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges.description"
+msgstr ""
+"**Hinweis:** Dieser Bereich dient dazu, Nachrichten von Benutzern mit "
+"bestimmten Abzeichen aus dem Chat zu filtern. Wenn du ein Abzeichen "
+"ausblenden möchtest, navigiere zu [Chat > Abzeichen >> Sichtbarkeit](~chat."
+"badges.tabs.visibility)."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Einzelheiten zur Verwendung von Begriffen findest du unter [Chat > Filterung "
+"> Hilfe zur Syntax](~)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Chatdurchlauf anhalten"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Die Maus muss sich über dem Chat befinden, um diesen mit einem Hotkey "
+"anzuhalten."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Zeitüberschreitung"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"Die Dauer, solange der Chat angehalten bleibt, nachdem sich die Maus nicht "
+"mehr über den Chat bewegt."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Sanfter Bildlauf"
