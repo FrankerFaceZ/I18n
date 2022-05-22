@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-06 22:32+0000\n"
+"PO-Revision-Date: 2022-05-22 15:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -3735,8 +3735,8 @@ msgstr "Termer"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms.description"
 msgstr ""
-"Se [Chatt > Filtrering > Syntaxhjälp](~) för information om hur man använder "
-"termer."
+"Se [Chatt > Filtrering > Syntaxhjälp](~chat.filtering.syntax_help) för "
+"information om hur man använder termer."
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
@@ -5896,3 +5896,108 @@ msgstr "Dölj Twitchs inbyggda strömupptid."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers"
 msgstr "Alternativt tittarantal"
+
+#, fuzzy, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr "Visa inte `Baserat på din visningshistorik` i följarmappen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.no-volume"
+msgstr ""
+"Tvinga den inbyggda volymen till 100 % när ljudkomprimeringen aktiveras."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.legal"
+msgstr "Juridiskt"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.display-bits-button.description"
+msgstr ""
+"Som standard ärvs detta värde från [Chatt > Bits och cheers > Visa "
+"bits](~chat.bits_and_cheering)"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"Anpassad rendering tillämpar en bakgrundsfärg på markerade meddelanden, som "
+"vissa användare kanske inte uppskattar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-rewards"
+msgstr ""
+"Tillåt att tillgängliga belöningar dyker upp intill knappen för kanalpoäng."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Visa meddelanden i chatten om kanalpoängsbelöningar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Visa rikt inbäddat innehåll för alla länkar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.legal"
+msgstr "juridiskt"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.no-native"
+msgstr "Dölj Twitchs inbyggda tittarantal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-mouse"
+msgstr "Dölj muspekaren när kontrollerna inte visas."
+
+#, fuzzy, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.ext-interaction"
+msgstr "Tillåt musinteraktioner med överläggstillägg."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.no-autoplay"
+msgstr "Spela inte automatiskt upp videor eller strömmar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Visa metadata när musen vilar över spelaren."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Volymmängd vid skrollning"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Kräver att mörkt tema aktiveras.*\n"
+"\n"
+"Denna inställning kommer mycket snart att försvinna då det nya temasystemet "
+"blir stabilare.\n"
+"Den CSS som denna inställning läser in är alldeles för tung och kan orsaka "
+"prestandaproblem."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Visa stora bilder som dekaler."
