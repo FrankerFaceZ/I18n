@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-22 11:32+0000\n"
+"PO-Revision-Date: 2022-05-22 15:32+0000\n"
 "Last-Translator: Jay Beat5 <steel12379@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -109,10 +109,10 @@ msgstr "Пожалуйста, выберите причину из списка 
 msgid "chat.actions.timeout"
 msgstr "Дать пользователю отстранение"
 
-#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"Дать отстранение {user.login} на {duration,number} сек.{duration,plural} за:"
+"Дать отстранение {user.login} на {duration, plural, one {# сек.} other {# "
+"сек.}}за:"
 
 #, fuzzy
 msgid "chat.actions.timeout.desc"
@@ -328,7 +328,7 @@ msgstr ""
 "other {месяцев}}!"
 
 msgid "chat.sub.mystery"
-msgstr "{user} подарил подписку {plan} {recipient}!"
+msgstr "{user} подарил подписку {plan} {recipient}! "
 
 msgid "chat.sub.plan"
 msgstr "{tier} уровня"
@@ -345,11 +345,10 @@ msgstr "{user} занимается творчеством"
 msgid "clip.desc.1.playing"
 msgstr "{user} играет в {game}"
 
-#, fuzzy
 msgid "clip.desc.2"
 msgstr ""
-"Автор клипа: {curator} — {views,number} {views,plural,one {просмотр} few "
-"{просмотра} other {просмотров}}"
+"Автор клипа: {curator} — {views,plural,one {просмотр} few {просмотра} other "
+"{просмотров}}"
 
 msgid "clip.unknown"
 msgstr "Неизвестно"
@@ -370,7 +369,7 @@ msgid "directory.hosted"
 msgstr "Ретранслируемый канал"
 
 msgid "directory.hosted.by-many"
-msgstr "Ретранслируется {count,number} канал{count,en_plural}"
+msgstr "Ретранслируется {count, plural, one {# каналом} other {# каналами}}"
 
 msgid "directory.hosted.by-one"
 msgstr "Ретранслирует: {user}"
@@ -1023,11 +1022,9 @@ msgstr "Произошла ошибка. ({error})"
 msgid "tooltip.link-destination"
 msgstr "Назначение: {url}"
 
-#, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Внимание: Этот URL находится в безопасном просмотре Google по причине: "
-"{reasons}"
+"Внимание: Этот URL был помечен как потенциально опасный по причине: {reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "Посещённые ссылки"
@@ -1067,32 +1064,32 @@ msgstr "Опубликовано: {date,date}"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.network"
-msgstr ""
+msgstr "Произошла сетевая ошибка."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-host"
-msgstr ""
+msgstr "Предоставленный URL имеет недопустимый хост и не может быть проверен."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.empty"
-msgstr ""
+msgstr "Информация отсутствует"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-port"
-msgstr ""
+msgstr "Предоставленный URL имеет нестандартный порт и не может быть проверен."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-scheme"
-msgstr ""
+msgstr "Предоставленный URL не использует HTTP и не может быть проверен."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.unhandled"
-msgstr ""
+msgstr "Ни один обработчик не поддерживает этот URL."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
