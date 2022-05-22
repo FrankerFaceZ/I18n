@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-20 00:32+0000\n"
+"PO-Revision-Date: 2022-05-22 15:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/sv/>\n"
@@ -515,3 +515,30 @@ msgstr "Tittare"
 #, icu-message-format
 msgid "addon.deck.sort.sub.views"
 msgstr "Visningar"
+
+#: /src/deck/side-components/bd-shelf.vue:112
+#, icu-message-format
+msgid "addon.deck.empty"
+msgstr "Det finns inga resultat."
+
+#: /src/deck/components/bd-video-card.vue:56
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published-human"
+msgstr "{published,humantime,1}"
+
+#: /src/deck/components/browse-deck.vue:446
+#, icu-message-format
+msgid "addon.deck.filtered"
+msgstr "Filtrera efter"
+
+#: /src/deck/components/bd-column.vue:504
+#, icu-message-format, lp-defaults:"{\"removed\":1,\"total\":11}"
+msgid "addon.deck.end-filtered"
+msgstr ""
+"({removed,number} av {total, plural, one {# item} other {# items} } har "
+"dolts av klientfiltrering.)"
+
+#: /src/deck/components/bd-column.vue:352
+#, icu-message-format
+msgid "addon.deck.go-to-top"
+msgstr "Gå längst upp"
