@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-21 21:32+0000\n"
+"PO-Revision-Date: 2022-05-23 20:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -329,7 +329,7 @@ msgid "setting.actions.preview.all"
 msgstr "Alle anzeigen"
 
 msgid "setting.actions.preview.deleted"
-msgstr "Gelöschte Nachricht"
+msgstr "Nachricht gelöscht"
 
 msgid "setting.actions.preview.emote-only"
 msgstr "Nur-Emote-Modus"
@@ -1497,7 +1497,7 @@ msgstr ""
 "ermöglichen, bevor du sie siehst."
 
 msgid "setting.entry.chat.delay.values.-1"
-msgstr "Standardverzögerung (Raum spezifisch; kein Mod only)"
+msgstr "Standardverzögerung (raumspezifisch; nur für Nicht-Moderatoren)"
 
 msgid "setting.entry.chat.delay.values.0"
 msgstr "Keine Verzögerung"
@@ -4482,7 +4482,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-live-indicator"
-msgstr "LIVE-Anzeige bei Kanälen ausblenden, die live sind."
+msgstr "»LIVE«-Indikator auf Kanalseiten ausblenden."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5142,3 +5142,93 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.smooth-scroll"
 msgstr "Sanfter Bildlauf"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Durch einen Doppelklick auf die Schaltfläche »Videoplayer zurücksetzen« wird "
+"der Videoplayer komplett neu geladen, ohne die gesamte Seite zu "
+"aktualisieren."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.enable"
+msgstr ""
+"Audio-Kompressor aktivieren und eine »Audio-Kompressor«-Schaltfläche den "
+"Bedienelementen hinzufügen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.links"
+msgstr "Links"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-unfollow"
+msgstr "»Nicht mehr folgen«-Schaltfläche ausblenden."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.extra-links"
+msgstr ""
+"Zusätzliche Verlinkungen auf Kanalseiten neben dem Namen des Streamers "
+"hinzufügen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "Nicht den Chat leeren, wenn dazu aufgefordert wird."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rituals.show"
+msgstr "Begrüßungsnachricht »X ist neu hier. Sag hallo!« anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Twitch-Abonnementseite durch Klicken mit gedrückter Umschalttaste auf Emotes "
+"öffnen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-live"
+msgstr "»LIVE«-Indikator bei Kanälen ausblenden, die live sind."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-recommended"
+msgstr "»Empfohlene Kanäle« auf der »Du folgst«-Seite ausblenden."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.discover"
+msgstr "»Entdecken« anzeigen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Empfehlung zum Folgen"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr ""
+"Zeigt eine »Empfehlung zum Folgen«-Schaltfläche mit den aktuell empfohlenen "
+"Kanälen an."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.reset"
+msgstr "»Videoplayer zurücksetzen«-Schaltfläche den Bedienelementen hinzufügen."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.knee"
+msgstr "Knee"
