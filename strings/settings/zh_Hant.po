@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-17 13:32+0000\n"
+"PO-Revision-Date: 2022-05-23 20:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
@@ -3218,12 +3218,15 @@ msgstr "0.75秒"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.smooth-scroll"
-msgstr ""
+msgstr "滑順滾動"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.smooth-scroll.description"
 msgstr ""
+"**注意:** 這可能會因為瀏覽器而有不同的表現。如果出現問題請停用這個功能。\n"
+"\n"
+"讓你的聊天室訊息滾動變得很滑很順。當聊天室訊息很多時會加速。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3233,22 +3236,22 @@ msgstr "停用"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
-msgstr ""
+msgstr "慢速"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.2"
-msgstr ""
+msgstr "中間"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.3"
-msgstr ""
+msgstr "快速"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
-msgstr ""
+msgstr "非常快"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
