@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-23 20:32+0000\n"
+"PO-Revision-Date: 2022-05-24 18:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -5232,3 +5232,34 @@ msgstr "»Videoplayer zurücksetzen«-Schaltfläche den Bedienelementen hinzufü
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.compressor.knee"
 msgstr "Knee"
+
+#: /src/modules/main_menu/components/menu-page.vue:137
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.description"
+msgstr ""
+"Diese Einstellungen steuern den optionalen Kompressor für den Videoplayer, "
+"eine Form der Audioverarbeitung, bei der die Lautstärke lauter Töne "
+"reduziert und leise Töne verstärkt werden, wodurch die Lautstärke "
+"normalisiert oder komprimiert wird. Hierfür wird ein "
+"[DynamicsCompressorNode](https://developer.mozilla.org/en-US/docs/Web/API/"
+"DynamicsCompressorNode) aus der Web Audio API verwendet, falls du mehr "
+"darüber erfahren möchtest."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.gain_control.description"
+msgstr ""
+"Die Verstärkungsregelung gibt dir zusätzliche Kontrolle über die "
+"Ausgangslautstärke, wenn der Kompressor verwendet wird, indem du die "
+"Lautstärke nach dem Durchlauf des Kompressors einstellen kannst, während der "
+"integrierte Lautstärkeregler vor dem Kompressor zum Einsatz kommt. Dazu wird "
+"ein einfacher [GainNode](https://developer.mozilla.org/en-US/docs/Web/API/"
+"GainNode) aus der Web Audio API verwendet, der in der Reihenfolge nach "
+"DynamicsCompressorNode, den der Kompressor verwendet, geschaltet wird."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll"
+msgstr "Lautstärke durch Scrollen mit dem Mausrad anpassen."
