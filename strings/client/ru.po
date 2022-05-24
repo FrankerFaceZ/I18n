@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-23 20:32+0000\n"
+"PO-Revision-Date: 2022-05-24 18:32+0000\n"
 "Last-Translator: Jay Beat5 <steel12379@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -114,14 +114,13 @@ msgstr ""
 "Дать отстранение {user.login} на {duration, plural, one {# сек.} other {# "
 "сек.}}за:"
 
-#, fuzzy
 msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,number} сек.{options.duration,en_plural}"
+msgstr "{options.duration,plural, one {# секунды} other {# секунд}}"
 
-#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"Дать отстранение {user.login} на {duration,number} сек.{duration,plural}"
+"Дать отстранение {user.login} на {duration, plural, one {# секунду} other {# "
+"секунд}}"
 
 msgid "chat.actions.unban"
 msgstr "Разбанить пользователя"
@@ -441,11 +440,10 @@ msgstr ""
 msgid "emote-menu.emoji"
 msgstr "Эмодзи"
 
-#, fuzzy
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Подарите дополнительные {bits_remaining,number} bit{bits_remaining,en_plural}"
-" чтобы разблокировать этот смайл."
+"Подарите дополнительные {bits_remaining, plural, one {# bit} other {# bits}} "
+"чтобы разблокировать этот смайл."
 
 msgid "emote-menu.emote-follower"
 msgstr ""
@@ -536,11 +534,10 @@ msgstr "Подписка обновится {seconds,humantime}."
 msgid "emote-menu.sub-set"
 msgstr "Смайлы подписчика"
 
-#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Подпишитесь за {price}, чтобы разблокировать {count,number} {"
-"count,plural,one {смайл} few {смайла} other {смайлов}}"
+"Подпишитесь за {price}, чтобы разблокировать {count, plural, one {#смайл} "
+"few {#смайла} other {#смайлов}}"
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
