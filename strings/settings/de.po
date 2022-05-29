@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-24 18:32+0000\n"
+"PO-Revision-Date: 2022-05-30 17:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -2603,7 +2603,7 @@ msgid "setting.entry.layout.side-nav.rerun-style.values.1"
 msgstr "Normal"
 
 msgid "setting.entry.layout.side-nav.rerun-style.values.2"
-msgstr "Verblasst (33% Deckkraft)"
+msgstr "Verblasst (33 % Deckkraft)"
 
 msgid "setting.entry.layout.side-nav.show"
 msgstr "Seitennavigation anzeigen"
@@ -3059,16 +3059,16 @@ msgstr ""
 "dem Mausrad scrollst."
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.01"
-msgstr "1%"
+msgstr "1 %"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.02"
-msgstr "2%"
+msgstr "2 %"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.05"
-msgstr "5%"
+msgstr "5 %"
 
 msgid "setting.entry.player.volume-scroll-steps.values.0.1"
-msgstr "10%"
+msgstr "10 %"
 
 msgid "setting.entry.player.volume-scroll.description"
 msgstr ""
@@ -5263,3 +5263,39 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll"
 msgstr "Lautstärke durch Scrollen mit dem Mausrad anpassen."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.default.description"
+msgstr ""
+"Der Standardwert für die Verstärkungsregelung, wenn die Verstärkungsregelung "
+"aktiviert ist. 100 % bedeutet keine Änderung der Lautstärke."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.max.description"
+msgstr ""
+"Bereich: 100 ~ 1000\n"
+"\n"
+"Der maximal zulässige Wert für die Verstärkungsregelung. 100 % bedeutet "
+"keine Änderung. 200 % ist eine Verdopplung der Lautstärke."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.min.description"
+msgstr ""
+"Bereich: 0 ~ 100\n"
+"\n"
+"Der minimal zulässige Wert für die Verstärkungsregelung. 0 % ist sozusagen "
+"stummgeschaltet."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.no-volume"
+msgstr ""
+"Integrierte Lautstärke auf 100 % erzwingen, wenn der Audio-Kompressor "
+"aktiviert ist."
