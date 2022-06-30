@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-22 15:32+0000\n"
+"PO-Revision-Date: 2022-07-01 20:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/sv/>\n"
@@ -542,3 +542,142 @@ msgstr ""
 #, icu-message-format
 msgid "addon.deck.go-to-top"
 msgstr "Gå längst upp"
+
+#: /src/deck/components/bd-edit-video-channel.vue:65
+#, icu-message-format
+msgid "addon.deck.no-live"
+msgstr "Visa inte kanalens direktsändning när de strömmar."
+
+#: /src/deck/components/bd-edit-video.vue:69
+#, icu-message-format
+msgid "addon.deck.no-recordings"
+msgstr "Visa inte videor från pågående sändningar."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.search.live-tip"
+msgstr "Denna kolumn visar direktsändande kanaler som matchar en sökfråga."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.deck.link"
+msgstr "Lägg till en Deck-länk längst upp i Twitch."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.deck"
+msgstr "Deck"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.deck.auto-settings"
+msgstr "Öppna inställningarna automatiskt när en ny kolumn skapas."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live-tip"
+msgstr ""
+"Denna kolumn visar direktsändande kanaler som sänder en specifik kategori. "
+"Till exempel kan du kana ett exempel som visar alla som spelar Super Mario "
+"64."
+
+#: /src/deck/components/browse-deck.vue:550
+#, icu-message-format
+msgid "addon.deck.intro"
+msgstr ""
+"Välkommen till Deck, det bästa sättet att upptäcka innehåll på Twitch.\n"
+"\n"
+"Du måste börjar med att lägga till en kolumn med knappen \"Ny\"."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.live-channels.tip"
+msgstr ""
+"Denna kolumn visar alla direktsändande kanaler på Twitch. Det är användbart "
+"för att filtrera efter vissa taggar."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.recommended.live-tip"
+msgstr ""
+"Denna kolumn visar direktsändande kanaler som Twitch rekommenderar åt dig "
+"baserat på din visningshistorik."
+
+#: /src/deck/components/bd-live-card.vue:21
+#: /src/deck/components/bd-live-shelf-card.vue:132
+#: /src/deck/components/bd-host-card.vue:17
+#, icu-message-format, lp-defaults:"{\"viewers\":49}"
+msgid "addon.deck.viewers"
+msgstr "{viewers, plural, one {# tittare} other {# tittare}}"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed.live-tip"
+msgstr "Denna kolumn visar direktsändande kanaler som du följer."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed.video-tip"
+msgstr "Denna kolumn visar videor från kanaler som du följer."
+
+#: /src/deck/components/bd-column.vue:491
+#, icu-message-format
+msgid "addon.deck.end"
+msgstr "Du har nått slutet."
+
+#: /src/deck/components/browse-deck.vue:191
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-channels"
+msgstr "Direktsändande kanaler"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recent"
+msgstr "Nyligen startade"
+
+#: /src/deck/components/bd-tab-settings.vue:106
+#, icu-message-format
+msgid "addon.deck.tab-name.sidebar"
+msgstr "Sidofältsflik"
+
+#: /src/deck/components/browse-deck.vue:361
+#: /src/deck/components/bd-tab-editor.vue:33
+#, icu-message-format
+msgid "addon.deck.tab-sidebar"
+msgstr "Denna flik används som ditt sidofält."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.team.live-tip"
+msgstr ""
+"Denna kolumn visar direktsändande kanaler från medlemmar i ett specifikt lag."
+
+#: /src/deck/components/bd-stream-indicator.vue:56
+#, icu-message-format
+msgid "addon.deck.type.ARCHIVE"
+msgstr "Tidigare sändningar"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.team"
+msgstr "Lag"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.specific-users.tip"
+msgstr ""
+"Denna kolumn visar alla direktsändande kanaler från en anpassad förinställd "
+"lista."
+
+#: /src/deck/components/bd-video-card.vue:25
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.views"
+msgstr "{count, plural, one {# visning} other {# visningar}}"
+
+#: /src/deck/index.jsx:227
+#, icu-message-format
+msgid "addons.deck.title"
+msgstr "Deck"
