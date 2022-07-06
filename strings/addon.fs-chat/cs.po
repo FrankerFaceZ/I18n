@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-07-06 15:32+0000\n"
+"Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
+"Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"addon-fullscreen-chat/cs/>\n"
+"Language: cs\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.fs-chat.button.active"
 msgstr "Deaktivovat FS Chat"
@@ -44,13 +53,13 @@ msgid "setting.entry.addon.fs-chat.height"
 msgstr "Výška"
 
 msgid "setting.entry.addon.fs-chat.metadata.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.addon.fs-chat.metadata.values.1"
-msgstr "Nad Chatem"
+msgstr "Nad chatem"
 
 msgid "setting.entry.addon.fs-chat.metadata.values.2"
-msgstr "Pod Chatem"
+msgstr "Pod chatem"
 
 msgid "setting.entry.addon.fs-chat.minimal"
 msgstr "Minimální Režim"
@@ -63,3 +72,123 @@ msgstr "Použijte zaoblené rohy."
 
 msgid "setting.entry.addon.fs-chat.width"
 msgstr "Šířka"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut.description"
+msgstr ""
+"Tuto sekvenci kláves lze použít k přepínání FS Chatu v režimu celé obrazovky."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat"
+msgstr "FS Chat"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.appearance"
+msgstr "Vzhled"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.behavior"
+msgstr "Chování"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.fs_chat.size_and_position"
+msgstr "Velikost a umístění"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.automatic"
+msgstr "Automaticky otevřít chat FS při přechodu na celou obrazovku."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur"
+msgstr "Rozmazání pozadí"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:180
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.blur.description"
+msgstr ""
+"**Poznámka:** Rozmazání může způsobit problémy s výkonem v závislosti na "
+"specifikacích vašeho prohlížeče a počítače."
+
+#: /src/modules/main_menu/components/setting-color-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.bg.color"
+msgstr "Barva pozadí"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height"
+msgstr "Výška"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.height.description"
+msgstr ""
+"Jak vysoký by měl být FS Chat, v pixelech. Pokud rozumíte CSS, můžete zadat "
+"jinou jednotku."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.metadata"
+msgstr "Umístění metadat"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal"
+msgstr "Minimální režim"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.minimal.description"
+msgstr ""
+"Toto skryje hlavičku chatu a vstupní tlačítka, když je otevřený FS Chat."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.no-input"
+msgstr "Nezobrazovat vstup chatu."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.round"
+msgstr "Použít zaoblené rohy."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.shortcut"
+msgstr "Klávesová zkratka"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width"
+msgstr "Šířka"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.fs-chat.width.description"
+msgstr ""
+"Jak široký by měl FS Chat být, v pixelech. Výchozí nastavení je normální "
+"šířka chatu. Pokud rozumíte CSS, můžete zadat jinou jednotku."
