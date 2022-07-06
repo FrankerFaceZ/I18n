@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-07-06 15:32+0000\n"
+"Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
+"Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"addon-ffzap-core/cs/>\n"
+"Language: cs\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "setting.add_ons.ffz_ap_core.chat"
 msgstr "Chat"
@@ -64,13 +73,196 @@ msgstr ""
 "této, nebo vyšší úrovně."
 
 msgid "setting.entry.ffzap.core.message_deletion.values.0"
-msgstr "Zobrazit Všechny Zprávy"
+msgstr "Zobrazit všechny zprávy"
 
 msgid "setting.entry.ffzap.core.message_deletion.values.1"
-msgstr "Zobrazit Zprávy Předplatitelů"
+msgstr "Zobrazit zprávy předplatitelů"
 
 msgid "setting.entry.ffzap.core.message_deletion.values.2"
-msgstr "Zobrazit Zprávy Moderátorů"
+msgstr "Zobrazit zprávy moderátorů"
 
 msgid "setting.entry.ffzap.core.remove_spaces"
 msgstr "Odstranit Mezery Mezi Emotikony"
+
+#: /src/ffzap-core/components/highlight-sound.vue:73
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-file"
+msgstr "Vlastní (soubor)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:139
+#, fuzzy, icu-message-format
+msgid "addon.ffzap-core.no-file-support"
+msgstr ""
+"Custom files are not supported by the current storage provider.\n"
+"Please change your storage provider in Data Management > Storage >> Provider."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Přehrajte zvuk zvýraznění, když je zvýrazněn odznak ze seznamu „Zvýraznit "
+"odznaky“."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Při zvýraznění nového účtu přehrát zvuk zvýraznění. (Vyžaduje doplněk „New "
+"Account Highlighter“)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Přehrát zvuk zvýraznění, když je zvýrazněn řádek chatu z jednoho z vybraných "
+"důvodů."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Zprávy budou z chatu zcela odstraněny, pokud je nepošle uživatel této úrovně "
+"nebo vyšší."
+
+#: /src/ffzap-core/components/highlight-sound.vue:60
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-url"
+msgstr "Vlastní (URL)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:47
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.preset-sound"
+msgstr "Přednastavený zvuk"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "FFZ:AP Jádro"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Zvuky zvýraznění"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Nastavení spouštěče zvuku"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Povolit zvuk zvýraznění"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Při každém zvýraznění zprávy uslyšíte zvuk."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Zvuk"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Zabránit tomu na vlastním kanálu"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Zabraňte přehrávání zvuku na vašem vlastním kanále."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
+msgstr "Hrát, když je zvýrazněn odznak"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Hrát, když jste zmíněn"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr "Přehrajte zvýraznění, když vás v chatu někdo zmíní."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term"
+msgstr "Přehrát při zvýraznění fráze"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Přehrajte zvuk zvýraznění, když je zvýrazněna fráze ze seznamu „Zvýraznit "
+"fráze“."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user"
+msgstr "Přehrát, když je zvýrazněn uživatel"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Přehrát, když je zvýrazněn nový účet"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Přehrát zvuk zvýraznění, když je zvýrazněn uživatel ze seznamu „Zvýraznit "
+"uživatele“."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Přehrát když"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Hlasitost zvuku zvýraznění"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Změňte hlasitost, při které se budou přehrávat zvuky zvýraznění."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Změňte zvuk, který se přehraje, když je aktivován spouštěč zvuku."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Filtrování zpráv podle urovně uživatele"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "Odstranit mezery mezi emotikony"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces.description"
+msgstr ""
+"Odstraňte mezery mezi emotikony, když jsou těsně za sebou. (např. "
+"kombinované emotikony)"
