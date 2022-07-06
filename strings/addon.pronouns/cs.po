@@ -1,37 +1,43 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-07-06 15:32+0000\n"
+"Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
+"Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"addon-pronouns/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/addons.js:261
 #: /src/pronouns/index.jsx:161
 #, icu-message-format, lp-defaults:"{\"value\":\"Zie/Hir\"}"
 msgid "addon.pronouns.title"
-msgstr ""
+msgstr "Zájmena: {value}"
 
 #: /src/modules/main_menu/index.js:583
 #: /src/modules/main_menu/components/menu-tree.vue:1
 #, icu-message-format
 msgid "setting.add_ons.pronouns"
-msgstr ""
+msgstr "Zájmena"
 
 #: /src/modules/main_menu/index.js:583
 #, icu-message-format
 msgid "setting.add_ons.pronouns.appearance"
-msgstr ""
+msgstr "Vzhled"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.pronouns.per_badge_colors"
-msgstr ""
+msgstr "Barvy na základě odznaku"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.border"
-msgstr ""
+msgstr "Zobrazte okraj okolo odznaku."
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.color"
-msgstr ""
+msgstr "Barva odznaku"
