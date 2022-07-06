@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 06:15+0000\n"
+"PO-Revision-Date: 2022-07-06 15:32+0000\n"
 "Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-betterttv-emotes/cs/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "setting.add_ons.better_ttv_emotes"
 msgstr "BetterTTV Emotikony"
@@ -29,13 +29,13 @@ msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.description"
 msgstr "Změní režim toho, jak se zobrazují GIF emotikony."
 
 msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.values.1"
-msgstr "Povoleno (Statické GIF Emotiokony)"
+msgstr "Povoleno (statické GIF emotikony)"
 
 msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.values.2"
-msgstr "Povoleno (Animované GIF Emotikony)"
+msgstr "Povoleno (animované GIF emotikony)"
 
 msgid "setting.entry.ffzap.betterttv.global_emoticons"
 msgstr "Globální Emotikony"
@@ -52,4 +52,60 @@ msgstr "Povolit zobrazení BTTV-Pro emotikonů."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.better_ttv_emotes"
-msgstr "Emotikony BetterTTV"
+msgstr "BetterTTV emotikony"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.description"
+msgstr "Změní režim zobrazování GIF emotikonů."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.pro_emoticons.description"
+msgstr "Povolte pro zobrazování BetterTTV Pro emotikonů."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.pro_emoticons"
+msgstr "Pro emotikony"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.global_emoticons.description"
+msgstr "Povolte pro zobrazování globálních BetterTTV emotikonů."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.global_emoticons"
+msgstr "Globální emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode"
+msgstr "GIF emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.channel_emoticons"
+msgstr "Emotikony kanálu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.better_ttv_emotes.emotes"
+msgstr "Emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.arbitrary_emoticons"
+msgstr "Libovolné emotikony"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.arbitrary_emoticons.description"
+msgstr ""
+"Povolte pro zobrazování libovolných emotikonů (jako D:, :tf: a podobně)."
+
+#, fuzzy, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.channel_emoticons.description"
+msgstr "Enable to show per-channel BetterTTV emoticons."
