@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-07-16 12:32+0000\n"
+"Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
+"Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"settings/cs/>\n"
+"Language: cs\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.author"
 msgstr "Od: {author}"
@@ -44,19 +53,19 @@ msgid "addon.ffzap-liriklive.name"
 msgstr "LirikLIVE"
 
 msgid "addon.filter-enabled"
-msgstr "Zobrazit pouze povolené doplňky"
+msgstr "Zobrazit pouze povolené doplňky."
 
 msgid "addon.settings"
 msgstr "Nastavení"
 
 msgid "addon.show-more"
-msgstr "(Ukázat Více)"
+msgstr "(Ukázat více)"
 
 msgid "addon.sort-name"
 msgstr "Seřadit dle: Název"
 
 msgid "addon.sort-update"
-msgstr "Seřadit dle: Aktualizováno "
+msgstr "Seřadit dle: Aktualizováno"
 
 msgid "addon.unlisted"
 msgstr "Neveřejný"
@@ -81,65 +90,68 @@ msgid "addon.version"
 msgstr "Verze {version}"
 
 msgid "addon.website"
-msgstr "Webová Stránka"
+msgstr "Webová stránka"
 
+#, fuzzy
 msgid "home.about"
 msgstr ""
 "Děkujeme vám za použivání FrankerFaceZ.\n"
-"\n"
 "\n"
 "Verze rozšíření 4.0 je pod aktivním vývojem od vydání webu Twitch's Reacts "
 "na konci roku 2017."
 
 msgid "home.addon-new"
-msgstr "Nové Doplňky"
+msgstr "Nové doplňky"
 
 msgid "home.addon-updates"
-msgstr "Aktualizované Doplňky"
+msgstr "Aktualizované doplňky"
 
 msgid "home.changelog"
-msgstr "Seznam Změn"
+msgstr "Seznam změn"
 
 msgid "home.changelog.by-line"
 msgstr "Od: {user}"
 
 msgid "home.changelog.current"
-msgstr "Současná Verze"
+msgstr "Současná verze"
 
 msgid "home.changelog.load"
-msgstr "Načíst Více"
+msgstr "Načíst více"
 
+#, fuzzy
 msgid "home.changelog.nonversioned"
 msgstr "Neočíslovaný update"
 
+#, fuzzy
 msgid "home.changelog.show-nonversioned"
 msgstr "Zahrnovat neoverzované updaty."
 
 msgid "home.discord"
 msgstr "Discord"
 
+#, fuzzy
 msgid "home.faq"
 msgstr ""
 "## Často Kladené Otázky\n"
 "\n"
 "* *Co se stalo s [touhle funkcí]?*\n"
 "\n"
-"Je zde stále mnoho funkcí, které byly přítomny ve verzi 3.0 a chybí ve "
-"verzi 4.0.  Bohužel, některé funkce jsou nepraktické pro update na novou "
-"verzi webu Twitch.\n"
+"Je zde stále mnoho funkcí, které byly přítomny ve verzi 3.0 a chybí ve verzi "
+"4.0.  Bohužel, některé funkce jsou nepraktické pro update na novou verzi "
+"webu Twitch.\n"
 "\n"
-"Mnoho funkcí je stále plánováno, že se vrátí spolu s tím, jak vývojáři "
-"budou mít čas je implementovat. Není zde žádný rozvrh pro tyto očekávané "
-"funkce. Funkce se vydávají hned po dokončení\n"
+"Mnoho funkcí je stále plánováno, že se vrátí spolu s tím, jak vývojáři budou "
+"mít čas je implementovat. Není zde žádný rozvrh pro tyto očekávané funkce. "
+"Funkce se vydávají hned po dokončení\n"
 "\n"
 "* *Přispěl jsem, ale můj odznak podporovatele FFZ se nezobrazuje.*\n"
 "* *Přidal jsem na můj kanál emotikon, ale nevidím ho.*\n"
 "\n"
 "Kvůli problémům s výkonem na našem současném webu, musíme pro naše API "
-"využívat cachování. Díky tomu může trvat až půl hodiny, než se změny "
-"projeví na odznacích podporovatele FFZ nebo emotikonech. Po čekání stačí "
-"znovu načíst stránku a váš obsah by se měl zobrazit. Můžete taky zkusit "
-"kompletně vypnout a zapnout váš prohlížeč. \n"
+"využívat cachování. Díky tomu může trvat až půl hodiny, než se změny projeví "
+"na odznacích podporovatele FFZ nebo emotikonech. Po čekání stačí znovu "
+"načíst stránku a váš obsah by se měl zobrazit. Můžete taky zkusit kompletně "
+"vypnout a zapnout váš prohlížeč. \n"
 "\n"
 "* *Nechci odznak `Podporovatele FFZ`.*\n"
 "\n"
@@ -157,20 +169,20 @@ msgstr ""
 "* *Je zde ukradený emotikon!*\n"
 "* *Je zde ofenzivní emotikon!*\n"
 "\n"
-"Prosíme, abyste jakékoli problémy s emotikony nahlašovali pomocí tlačítka "
-"`Report Emote` na naší stránce. Stikněte Shift a klikněte pro otevření "
+"Prosíme, abyste jakékoli problémy s emotikony nahlašovali pomocí tlačítka `"
+"Report Emote` na naší stránce. Stikněte Shift a klikněte pro otevření "
 "stránky emotikonu a pak vyberte `Report Emote` na pravé straně stránky. "
 "Musíte být přihlášeni, abyste mohli nahlašovat emotikony."
 
+#, fuzzy
 msgid "home.feedback"
 msgstr ""
 "## Zpětná Vazba\n"
 "\n"
 "Zpětnou vazbu a hlašení o chybách můžete poskytnout  [otevřením problému v "
-"našem úložišti na "
-"GitHubu](https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Můžete nás "
-"také [najít na Discordu](https://discord.gg/UrAkGhT) nebo [nás označit na "
-"Twitteru](https://twitter.com/FrankerFaceZ).\n"
+"našem úložišti na GitHubu](https://github.com/FrankerFaceZ/FrankerFaceZ/"
+"issues). Můžete nás také [najít na Discordu](https://discord.gg/UrAkGhT) "
+"nebo [nás označit na Twitteru](https://twitter.com/FrankerFaceZ).\n"
 "\n"
 "Při vytváření problému na GitHubu zkontrolujte, zda někdo jiný ještě "
 "nevytvořil problém pro to, o čem byste chtěli diskutovat, nebo co byste "
@@ -184,7 +196,7 @@ msgid "home.github"
 msgstr "GitHub"
 
 msgid "home.new-settings"
-msgstr "Nová Nastavení"
+msgstr "Nová nastavení"
 
 msgid "home.tag-line"
 msgstr "Sada Vylepšení Twitche"
@@ -208,19 +220,19 @@ msgid "setting.actions.appearance"
 msgstr "Vzhled"
 
 msgid "setting.actions.appearance.combo"
-msgstr "Text a Ikona"
+msgstr "Text a ikona"
 
 msgid "setting.actions.appearance.icon"
 msgstr "Ikona"
 
 msgid "setting.actions.appearance.image"
-msgstr "Obrázek "
+msgstr "Obrázek"
 
 msgid "setting.actions.appearance.text"
 msgstr "Text"
 
 msgid "setting.actions.chat"
-msgstr "Přikaz v Chatu"
+msgstr "Přikaz v chatu"
 
 msgid "setting.actions.color"
 msgstr "Barva"
@@ -237,10 +249,10 @@ msgid "setting.actions.drag"
 msgstr "Akce můžete přeuspořádat přetažením."
 
 msgid "setting.actions.duration"
-msgstr "Doba Trvání"
+msgstr "Doba trvání"
 
 msgid "setting.actions.edit-visible.deleted"
-msgstr "Zpráva Smazána"
+msgstr "Zpráva smazána"
 
 msgid "setting.actions.edit-visible.emote-only"
 msgstr "Režim pouze s emotikony"
@@ -252,13 +264,13 @@ msgid "setting.actions.edit-visible.mod"
 msgstr "Moderátor"
 
 msgid "setting.actions.edit-visible.mod-icons"
-msgstr "Moderátorské Ikony"
+msgstr "Moderátorské ikony"
 
 msgid "setting.actions.edit-visible.r9k"
-msgstr "Režim R9k "
+msgstr "Režim R9k"
 
 msgid "setting.actions.edit-visible.slow"
-msgstr "Pomalý Režim"
+msgstr "Pomalý režim"
 
 msgid "setting.actions.edit-visible.subs"
 msgstr "Režim pouze pro předplatitele"
@@ -267,7 +279,7 @@ msgid "setting.actions.icon"
 msgstr "Ikona"
 
 msgid "setting.actions.new"
-msgstr "Nové... "
+msgstr "Nové..."
 
 msgid "setting.actions.no-actions"
 msgstr "v tomto profilu nejsou definované žádné akce"
@@ -285,28 +297,28 @@ msgid "setting.actions.preview.deleted"
 msgstr "Smazaná zpráva"
 
 msgid "setting.actions.preview.emote-only"
-msgstr "Pouze Emotikony"
+msgstr "Pouze emotikony"
 
 msgid "setting.actions.preview.followers"
-msgstr "Pouze pro Sledující"
+msgstr "Pouze pro sledující"
 
 msgid "setting.actions.preview.mod"
-msgstr "Jako Moderátor "
+msgstr "Jako moderátor"
 
 msgid "setting.actions.preview.mod_icons"
-msgstr "S Moderátorskými Ikonami"
+msgstr "S moderátorskými ikonami"
 
 msgid "setting.actions.preview.r9k"
-msgstr "Režim R9k "
+msgstr "Režim R9k"
 
 msgid "setting.actions.preview.slow"
-msgstr "Pomalý Režim"
+msgstr "Pomalý režim"
 
 msgid "setting.actions.preview.subs"
-msgstr "Pouze pro Předplatitele"
+msgstr "Pouze pro předplatitele"
 
 msgid "setting.actions.reason"
-msgstr "Výchozí Důvod"
+msgstr "Výchozí důvod"
 
 msgid "setting.actions.set-chat"
 msgstr "Tuto zprávu vložit do chatu místo přímého odesílání."
@@ -315,7 +327,7 @@ msgid "setting.actions.text"
 msgstr "Štítek"
 
 msgid "setting.actions.tooltip"
-msgstr "Vlastní Popisky"
+msgstr "Vlastní popisky"
 
 msgid "setting.actions.type"
 msgstr "Typ"
@@ -324,7 +336,7 @@ msgid "setting.actions.url"
 msgstr "Odkaz"
 
 msgid "setting.actions.variables"
-msgstr "Dostupné Proměnné: {vars}"
+msgstr "Dostupné proměnné: {vars}"
 
 msgid "setting.actions.visibility"
 msgstr "Viditelnost"
@@ -342,13 +354,13 @@ msgid "setting.actions.visible.mod"
 msgstr "pokud jste moderátor"
 
 msgid "setting.actions.visible.mod_icons"
-msgstr "když jsou zobrazeny moderátorské ikony "
+msgstr "když jsou zobrazeny moderátorské ikony"
 
 msgid "setting.actions.visible.slow"
 msgstr "při pomalém režimu"
 
 msgid "setting.actions.visible.undeleted"
-msgstr "Pokud zpráva není smazána"
+msgstr "pokud zpráva není smazána"
 
 msgid "setting.add"
 msgstr "Přidat"
@@ -360,7 +372,7 @@ msgid "setting.add_ons.changelog"
 msgstr "Seznam Změn"
 
 msgid "setting.add_ons.changelog.title"
-msgstr "Seznam Změn Doplňků"
+msgstr "Seznam změn doplňků"
 
 msgid "setting.add_ons.description"
 msgstr ""
@@ -401,13 +413,13 @@ msgid "setting.appearance.localization.general"
 msgstr "Obecné "
 
 msgid "setting.appearance.localization.general.language.joke"
-msgstr "Vtipné Jazyky"
+msgstr "Vtipné jazyky"
 
 msgid "setting.appearance.localization.general.language.languages"
-msgstr "Podporované Jazyky"
+msgstr "Podporované jazyky"
 
 msgid "setting.appearance.localization.general.language.twitch"
-msgstr "Použít jazyk z Twitche."
+msgstr "Použít jazyk z Twitche"
 
 msgid "setting.appearance.theme"
 msgstr "Téma"
@@ -437,10 +449,10 @@ msgid "setting.backup-restore.imported-at"
 msgstr "Importováno {now,datetime}."
 
 msgid "setting.backup-restore.restore-backup"
-msgstr "Obnovit Zálohu"
+msgstr "Obnovit zálohu"
 
 msgid "setting.backup-restore.save-backup"
-msgstr "Uložit Zálohu"
+msgstr "Uložit zálohu"
 
 msgid "setting.cancel"
 msgstr "Zrušit"
@@ -653,7 +665,7 @@ msgid "setting.chat.filtering.blocked_badges"
 msgstr "Zablokované Odznaky"
 
 msgid "setting.chat.filtering.blocked_message_types"
-msgstr "Zablokované Typy Zpráv"
+msgstr "Zablokované typy zpráv"
 
 msgid "setting.chat.filtering.blocked_terms"
 msgstr "Blokované Fráze"
@@ -737,13 +749,13 @@ msgid "setting.data_management.profiles"
 msgstr "Profily"
 
 msgid "setting.data_management.profiles.edit_profile"
-msgstr "Editovat Profil"
+msgstr "Upravit profil"
 
 msgid "setting.data_management.profiles.edit.desc"
 msgstr "Popisek"
 
 msgid "setting.data_management.profiles.edit.general"
-msgstr "Obecné "
+msgstr "Obecné"
 
 msgid "setting.data_management.profiles.edit.name"
 msgstr "Jméno"
@@ -764,7 +776,7 @@ msgid "setting.debugging"
 msgstr "Ladění"
 
 msgid "setting.debugging.data_sources"
-msgstr "Zdroje Dat"
+msgstr "Zdroje dat"
 
 msgid "setting.debugging.data_sources.links"
 msgstr "Odkazy"
@@ -895,7 +907,7 @@ msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Upravit uživatelské barvy pro zajištění čitelnosti."
 
 msgid "setting.entry.chat.adjustment-mode.values.-1"
-msgstr "Bez Barvy"
+msgstr "Bez barvy"
 
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Nezměněno"
@@ -922,16 +934,16 @@ msgid "setting.entry.chat.badges.style.values.5"
 msgstr "Transparentní"
 
 msgid "setting.entry.chat.badges.style.values.6"
-msgstr "Transparentní (Barevné)"
+msgstr "Transparentní (barevné)"
 
 msgid "setting.entry.chat.badges.version"
 msgstr "Verze"
 
 msgid "setting.entry.chat.badges.version.values.1"
-msgstr "1 (Před Prosincem 2019)"
+msgstr "1 (před Prosincem 2019)"
 
 msgid "setting.entry.chat.badges.version.values.2"
-msgstr "2 (Aktuální)"
+msgstr "2 (aktuální)"
 
 msgid "setting.entry.chat.banners.polls"
 msgstr "Povolit Anketám, aby se v chatu zobrazily."
@@ -961,13 +973,13 @@ msgstr ""
 "zprávy."
 
 msgid "setting.entry.chat.bits.stack.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.chat.bits.stack.values.1"
-msgstr "Seskupeno dle Typu"
+msgstr "Seskupeno dle typu"
 
 msgid "setting.entry.chat.bits.stack.values.2"
-msgstr "Vše v Jednom"
+msgstr "Vše v jednom"
 
 msgid "setting.entry.chat.click-emotes"
 msgstr "Otevřít informace o emotikonu stisknutím klávesy Shift+Kliknutím Myši."
@@ -981,31 +993,31 @@ msgstr ""
 "předtím, než je uvidíte."
 
 msgid "setting.entry.chat.delay.values.0"
-msgstr "Bez Zpoždění"
+msgstr "Bez zpoždění"
 
 msgid "setting.entry.chat.delay.values.10000"
-msgstr "Extra Velký (10s)"
+msgstr "Extra velký (10s)"
 
 msgid "setting.entry.chat.delay.values.1200"
-msgstr "Normální (Lidská Moderace; 1.2s)"
+msgstr "Normální (lidská moderace; 1.2s)"
 
 msgid "setting.entry.chat.delay.values.15000"
-msgstr "Extrémně Velký (15s)"
+msgstr "Extrémně velký (15s)"
 
 msgid "setting.entry.chat.delay.values.20000"
-msgstr "Moderátoři Spí; Opozdit Chat (20s)"
+msgstr "Moderátoři spí; Opozdit Chat (20s)"
 
 msgid "setting.entry.chat.delay.values.300"
-msgstr "Menší (moderace botem; 0,3s) "
+msgstr "Menší (moderace botem; 0,3s)"
 
 msgid "setting.entry.chat.delay.values.30000"
-msgstr "Půl Minuty (30s)"
+msgstr "Půl minuty (30s)"
 
 msgid "setting.entry.chat.delay.values.60000"
 msgstr "Proč??? (1m)"
 
 msgid "setting.entry.chat.delay.values.788400000000"
-msgstr "Možnost CBenniho (Doslova 25 Let)"
+msgstr "Možnost CBenniho (doslova 25 Let)"
 
 msgid "setting.entry.chat.emoji.style"
 msgstr "Styl Emoji"
@@ -1014,7 +1026,7 @@ msgid "setting.entry.chat.emoji.style.values.0"
 msgstr "Nativní"
 
 msgid "setting.entry.chat.emoji.style.values.blob"
-msgstr "Kapka"
+msgstr "Blob"
 
 msgid "setting.entry.chat.emoji.style.values.emojione"
 msgstr "EmojiOne"
@@ -1038,7 +1050,7 @@ msgid "setting.entry.chat.emote-menu.default-tab"
 msgstr "Výchozí Záložka"
 
 msgid "setting.entry.chat.emote-menu.default-tab.values.all"
-msgstr "Moje Emotikony"
+msgstr "Moje emotikony"
 
 msgid "setting.entry.chat.emote-menu.default-tab.values.channel"
 msgstr "Kanál"
@@ -1061,7 +1073,7 @@ msgid "setting.entry.chat.emote-menu.icon"
 msgstr "Nahradit ikonu Nabídky Emotikonů ikonkou FFZ pro ten pocit klasiky."
 
 msgid "setting.entry.chat.emote-menu.modifiers.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.chat.emote-menu.modifiers.values.1"
 msgstr "V řádku"
@@ -1110,7 +1122,7 @@ msgid "setting.entry.chat.filtering.deleted-style.values.2"
 msgstr "Přeškrtnutě"
 
 msgid "setting.entry.chat.filtering.deleted-style.values.3"
-msgstr "Beze Změny"
+msgstr "Beze změny"
 
 msgid "setting.entry.chat.filtering.display-deleted"
 msgstr "Mód Renderování"
@@ -1131,7 +1143,7 @@ msgid "setting.entry.chat.filtering.display-mod-action.values.0"
 msgstr "Nikdy"
 
 msgid "setting.entry.chat.filtering.display-mod-action.values.1"
-msgstr "V Detailním Režimu"
+msgstr "V detailním režimu"
 
 msgid "setting.entry.chat.filtering.display-mod-action.values.2"
 msgstr "Vždy"
@@ -1181,13 +1193,13 @@ msgid "setting.entry.chat.filtering.remove-deleted.values.0"
 msgstr "Nemazat"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.1"
-msgstr "Odstranit Nepatřené (Výchozí)"
+msgstr "Odstranit nespatřené (výchozí)"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
-msgstr "Odebrat Nespatřené jako Moderátor"
+msgstr "Odebrat nespatřené jako moderátor"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.3"
-msgstr "Odebrat Vše"
+msgstr "Odebrat vše"
 
 msgid "setting.entry.chat.fix-bad-emotes"
 msgstr "Opravit Špatné Globální Twitch Emotikony"
@@ -1221,7 +1233,7 @@ msgid "setting.entry.chat.lines.borders"
 msgstr "Oddělovače"
 
 msgid "setting.entry.chat.lines.borders.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.chat.lines.emote-alignment"
 msgstr "Zarovnání Emotikonů"
@@ -1259,7 +1271,7 @@ msgid "setting.entry.chat.points.show-rewards"
 msgstr "Povolit zobrazování dostupných odměn vedle tlačítka pro věrnostní body."
 
 msgid "setting.entry.chat.replies.style.values.1"
-msgstr "Twitch (Výchozí)"
+msgstr "Twitch (výchozí)"
 
 msgid "setting.entry.chat.replies.style.values.2"
 msgstr "FrankerFaceZ"
@@ -1319,10 +1331,10 @@ msgid "setting.entry.chat.scroller.freeze-requires-hover"
 msgstr "Vyžadovat myš v chatu pro zastavení pomocí zkratky."
 
 msgid "setting.entry.chat.scroller.freeze.values.0"
-msgstr "Použít Twitch Nastavení"
+msgstr "Použít nastavení z Twitche"
 
 msgid "setting.entry.chat.scroller.freeze.values.1"
-msgstr "Najetí Myší"
+msgstr "Najetí myší"
 
 msgid "setting.entry.chat.scroller.freeze.values.2"
 msgstr "Když je držena klávesa Ctrl"
@@ -1337,13 +1349,13 @@ msgid "setting.entry.chat.scroller.freeze.values.5"
 msgstr "Když je držena klávesa Shift"
 
 msgid "setting.entry.chat.scroller.freeze.values.6"
-msgstr "Ctrl nebo Najetí Myší"
+msgstr "Ctrl nebo najetí myší"
 
 msgid "setting.entry.chat.scroller.freeze.values.8"
-msgstr "Alt nebo Najetí Myší"
+msgstr "Alt nebo najetí myší"
 
 msgid "setting.entry.chat.scroller.freeze.values.9"
-msgstr "Shift nebo Najetí Myší"
+msgstr "Shift nebo najetí myší"
 
 msgid "setting.entry.chat.scroller.hover-delay.values.1000"
 msgstr "1 sekunda"
@@ -1367,7 +1379,7 @@ msgid "setting.entry.chat.scroller.smooth-scroll"
 msgstr "Plynulé Posouvání"
 
 msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
 msgstr "Pomalé"
@@ -1416,13 +1428,13 @@ msgid "setting.entry.chat.subs.show.values.0"
 msgstr "Nezobrazovat"
 
 msgid "setting.entry.chat.subs.show.values.1"
-msgstr "Pouze Obnovení Předplatných se Zprávou"
+msgstr "Pouze obnovení předplatných se zprávou"
 
 msgid "setting.entry.chat.subs.show.values.2"
-msgstr "Pouze Obnovení Předplatných"
+msgstr "Pouze obnovení předplatných"
 
 msgid "setting.entry.chat.subs.show.values.3"
-msgstr "Zobrazit Vše"
+msgstr "Zobrazit vše"
 
 msgid "setting.entry.chat.tab-complete.emotes-without-colon"
 msgstr "Povolit dokončování emotikonů klávesou Tab bez zadání dvojtečky. (:)"
@@ -1451,16 +1463,16 @@ msgstr ""
 "list-of-all-available-formats)"
 
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
-msgstr "12 Hodin"
+msgstr "12 hodin"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm"
-msgstr "24 Hodin"
+msgstr "24 hodin"
 
 msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
-msgstr "12ti Hodinový se Sekundami"
+msgstr "12hodinový se sekundami"
 
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
-msgstr "24 Hodinový se Sekundami"
+msgstr "24hodinový se sekundami"
 
 msgid "setting.entry.chat.video-chat.enabled"
 msgstr "Povolit funkce FrankerFaceZ pro Chat u Videí."
@@ -1496,7 +1508,7 @@ msgstr ""
 "chcete navštívit."
 
 msgid "setting.entry.directory.following.host-menus.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.directory.following.host-menus.values.2"
 msgstr "Vždy"
@@ -1508,16 +1520,16 @@ msgid "setting.entry.directory.hidden.style"
 msgstr "Styl skrytí"
 
 msgid "setting.entry.directory.hidden.style.values.0"
-msgstr "Nahradit Obrázek"
+msgstr "Nahradit obrázek"
 
 msgid "setting.entry.directory.hidden.style.values.1"
-msgstr "Nahradit Obrázek a Rozmazat Název"
+msgstr "Nahradit obrázek a rozmazat název"
 
 msgid "setting.entry.directory.hidden.style.values.2"
-msgstr "Rozmazat Obrázek"
+msgstr "Rozmazat obrázek"
 
 msgid "setting.entry.directory.hidden.style.values.3"
-msgstr "Rozmazat Obrázek a Název"
+msgstr "Rozmazat obrázek a název"
 
 msgid "setting.entry.directory.hide-latest-videos"
 msgstr "Nezobrazovat `Nejnovější videa` v kategorii Sledování"
@@ -1550,7 +1562,7 @@ msgid "setting.entry.directory.uptime.values.1"
 msgstr "Povoleno"
 
 msgid "setting.entry.directory.uptime.values.2"
-msgstr "Povoleno (se Sekundami) "
+msgstr "Povoleno (se sekundami)"
 
 msgid "setting.entry.experiments"
 msgstr "experimenty"
@@ -1584,13 +1596,13 @@ msgstr ""
 "délky."
 
 msgid "setting.entry.i18n.debug.transform.values.null"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.i18n.format.date"
 msgstr "Formát data"
 
 msgid "setting.entry.i18n.format.time"
-msgstr "Formát Času"
+msgstr "Formát času"
 
 msgid "setting.entry.i18n.locale"
 msgstr "Jazyk"
@@ -1643,7 +1655,7 @@ msgid "setting.entry.layout.side-nav.rerun-style.values.1"
 msgstr "Normálně"
 
 msgid "setting.entry.layout.side-nav.rerun-style.values.2"
-msgstr "Vybledle (33% Průhlednost)"
+msgstr "Vybledle (průhlednost 33%)"
 
 msgid "setting.entry.layout.side-nav.show"
 msgstr "Zobrazit Postranní Navigaci"
@@ -1661,7 +1673,7 @@ msgid "setting.entry.layout.side-nav.show-friends.values.1"
 msgstr "Vždy"
 
 msgid "setting.entry.layout.side-nav.show-friends.values.2"
-msgstr "Když je Otevřená Postranní Navigace"
+msgstr "Když je otevřena postranní navigace"
 
 msgid "setting.entry.layout.side-nav.show-rec-channels"
 msgstr "Zobrazovat Doporučené / Populární Kanály"
@@ -1673,7 +1685,7 @@ msgid "setting.entry.layout.side-nav.show-rec-channels.values.1"
 msgstr "Vždy"
 
 msgid "setting.entry.layout.side-nav.show-rec-channels.values.2"
-msgstr "Když je Otevřená Postranní Navigace"
+msgstr "Když je otevřena postranní navigace"
 
 msgid "setting.entry.layout.side-nav.show-rec-friends"
 msgstr "Zobrazit Doporučené Přátele"
@@ -1737,13 +1749,13 @@ msgid "setting.entry.metadata.uptime"
 msgstr "Délka streamu"
 
 msgid "setting.entry.metadata.uptime.values.0"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.metadata.uptime.values.1"
 msgstr "Povoleno"
 
 msgid "setting.entry.metadata.uptime.values.2"
-msgstr "Povolit (se sekundami) "
+msgstr "Povoleno (se sekundami)"
 
 msgid "setting.entry.metadata.viewers"
 msgstr "Alternativní Počet Diváků"
@@ -1766,31 +1778,31 @@ msgid "setting.entry.player.captions.alignment"
 msgstr "Zarovnání"
 
 msgid "setting.entry.player.captions.alignment.values.11"
-msgstr "Vlevo Nahoře"
+msgstr "Nahoře vlevo"
 
 msgid "setting.entry.player.captions.alignment.values.12"
-msgstr "Nahoře Uprostřed"
+msgstr "Nahoře uprostřed"
 
 msgid "setting.entry.player.captions.alignment.values.13"
-msgstr "Vpravo Nahoře"
+msgstr "Nahoře vpravo"
 
 msgid "setting.entry.player.captions.alignment.values.21"
-msgstr "Vlevo Uprostřed"
+msgstr "Uprostřed vlevo"
 
 msgid "setting.entry.player.captions.alignment.values.22"
 msgstr "Uprostřed"
 
 msgid "setting.entry.player.captions.alignment.values.23"
-msgstr "Vpravo Uprostřed"
+msgstr "Uprostřed vpravo"
 
 msgid "setting.entry.player.captions.alignment.values.31"
 msgstr "Vlevo Dole"
 
 msgid "setting.entry.player.captions.alignment.values.32"
-msgstr "Dole Uprostřed"
+msgstr "Dole uprostřed"
 
 msgid "setting.entry.player.captions.alignment.values.33"
-msgstr "Vpravo Dole"
+msgstr "Dole vpravo"
 
 msgid "setting.entry.player.captions.custom-position"
 msgstr "Povolit změnu pozice a zarovnání skrytých titulků."
@@ -1941,7 +1953,7 @@ msgid "setting.entry.socket.use-cluster.values.Development"
 msgstr "Vývoj"
 
 msgid "setting.entry.socket.use-cluster.values.null"
-msgstr "Deaktivováno"
+msgstr "Zakázáno"
 
 msgid "setting.entry.socket.use-cluster.values.Production"
 msgstr "Produkce"
@@ -2020,6 +2032,7 @@ msgstr "Přiklad:"
 msgid "setting.experiments.active"
 msgstr "Tento experiment je aktivní."
 
+#, fuzzy
 msgid "setting.experiments.entry"
 msgstr "{value,tostring} (váha: {weight,tostring})"
 
@@ -2030,13 +2043,13 @@ msgid "setting.experiments.inactive"
 msgstr "Tento experiment není aktivní."
 
 msgid "setting.experiments.sort-name"
-msgstr "Řadit Podle: Jméno"
+msgstr "Řadit dle: Název"
 
 msgid "setting.experiments.sort-rarity"
 msgstr "Řadit dle: Vzácnost"
 
 msgid "setting.experiments.twitch"
-msgstr "Twitch Experimenty"
+msgstr "Experimenty Twitche"
 
 msgid "setting.experiments.unique-id"
 msgstr "Jedinečné ID: {id}"
@@ -2060,13 +2073,13 @@ msgid "setting.filter.page.url"
 msgstr "Odkaz: {url}"
 
 msgid "setting.filters.active"
-msgstr "Tohle pravidlo se schoduje."
+msgstr "Toto pravidlo se shoduje."
 
 msgid "setting.filters.add"
 msgstr "Přidat"
 
 msgid "setting.filters.add-new"
-msgstr "Přidat Nové Pravidlo"
+msgstr "Přidat nové pravidlo"
 
 msgid "setting.filters.empty"
 msgstr "(žádné filtry)"
@@ -2096,10 +2109,10 @@ msgid "setting.home.legal"
 msgstr "Podmínky"
 
 msgid "setting.icon.search"
-msgstr "Vyhledat Ikonu"
+msgstr "Vyhledat ikonu"
 
 msgid "setting.import"
-msgstr "Importovat..."
+msgstr "Importovat…"
 
 msgid "setting.inheritance"
 msgstr "Dědičnost"
@@ -2174,10 +2187,10 @@ msgid "setting.profiles.configure"
 msgstr "Konfigurovat"
 
 msgid "setting.profiles.default"
-msgstr "Výchozí Profil"
+msgstr "Výchozí profil"
 
 msgid "setting.profiles.default.description"
-msgstr "Nastavení, která se aplikují po celém Twitchi."
+msgstr "Nastavení, která se použíjí po celém Twitchi."
 
 msgid "setting.profiles.disabled"
 msgstr "Tento profil je deaktivován."
@@ -2193,8 +2206,8 @@ msgstr "Tento profil není aktivní."
 
 msgid "setting.profiles.inactive.description"
 msgstr ""
-"Pravidla tohoto profilu neodpovídají aktuálnímu kontextu, a proto není "
-"aktuálně aktivní, takže změny, které zde provedete, se na Twitchi neprojeví."
+"Pravidla tohoto profilu neodpovídají aktuálnímu kontextu, proto aktuálně "
+"není aktivní, takže změny, které zde provedete, se na Twitchi neprojeví."
 
 msgid "setting.profiles.moderation"
 msgstr "Moderace"
@@ -2203,13 +2216,13 @@ msgid "setting.profiles.moderation.description"
 msgstr "Nastavení, která se použijí, pokud jste moderátorem daného kanálu."
 
 msgid "setting.profiles.new"
-msgstr "Nový Profil"
+msgstr "Nový profil"
 
 msgid "setting.profiles.warn-delete"
-msgstr "Jste si jistý, že chcete vymazat tento profil? Nelze to vrátit."
+msgstr "Jste si jistí, že chcete vymazat tento profil? Nelze to vrátit."
 
 msgid "setting.reasons.add-default"
-msgstr "Přidat Výchozí"
+msgstr "Přidat výchozí"
 
 msgid "setting.reasons.add-default-tip"
 msgstr "Přidejte k tomuto profilu všechny výchozí důvody."
@@ -2218,7 +2231,7 @@ msgid "setting.reasons.add-placeholder"
 msgstr "Přidat nový důvod"
 
 msgid "setting.reasons.delete-all"
-msgstr "Odstraňte všechny důvody tohoto profilu."
+msgstr "Odstranit všechny důvody tohoto profilu."
 
 msgid "setting.reasons.info"
 msgstr ""
@@ -2229,10 +2242,10 @@ msgid "setting.reasons.no-reasons"
 msgstr "v tomto profilu nejsou definovány žádné důvody"
 
 msgid "setting.reset"
-msgstr "Obnovit Výchozí"
+msgstr "Obnovit výchozí"
 
 msgid "setting.reset-all"
-msgstr "Resetovat Vše do Výchozího Nastavení"
+msgstr "Resetovat vše do výchozího nastavení"
 
 msgid "setting.save"
 msgstr "Uložit"
@@ -2253,13 +2266,13 @@ msgid "setting.terms.type.regex"
 msgstr "Regex"
 
 msgid "setting.terms.type.regex-word"
-msgstr "Regex (Slovo)"
+msgstr "Regex (slovo)"
 
 msgid "setting.terms.type.text"
 msgstr "Text"
 
 msgid "setting.tooltip-example"
-msgstr "Pro příklad, zkuste najet na tento odkaz:"
+msgstr "Například, zkuste najet na tento odkaz:"
 
 msgid "setting.true"
 msgstr "Pravda"
@@ -2274,10 +2287,10 @@ msgid "settings.back"
 msgstr "Zpět"
 
 msgid "settings.filter.category"
-msgstr "Aktuální Kategorie"
+msgstr "Aktuální kategorie"
 
 msgid "settings.filter.channel"
-msgstr "Aktuální Kanál"
+msgstr "Aktuální kanál"
 
 msgid "settings.filter.if"
 msgstr "Pokud"
@@ -2286,16 +2299,17 @@ msgid "settings.filter.invert"
 msgstr "Převrátit"
 
 msgid "settings.filter.moderator"
-msgstr "Je Moderátor"
+msgstr "Je moderátor"
 
+#, fuzzy
 msgid "settings.filter.native-dark"
-msgstr "Tmavý Režim"
+msgstr "Tmavý režim"
 
 msgid "settings.filter.or"
 msgstr "Nebo"
 
 msgid "settings.filter.page"
-msgstr "Aktuální Stránka"
+msgstr "Aktuální stránka"
 
 msgid "settings.filter.page.route.addons.deck"
 msgstr "Deck"
@@ -2307,82 +2321,82 @@ msgid "settings.filter.page.route.collection"
 msgstr "Kolekce"
 
 msgid "settings.filter.page.route.dash"
-msgstr "Řídící Panel"
+msgstr "Řídící panel"
 
 msgid "settings.filter.page.route.dash-achievements"
-msgstr "Řídící Panel: Úspěchy"
+msgstr "Řídící panel: Úspěchy"
 
 msgid "settings.filter.page.route.dash-activity"
-msgstr "Řídící Panel: Aktivita"
+msgstr "Řídící panel: Aktivita"
 
 msgid "settings.filter.page.route.dash-channel-analytics"
-msgstr "Řídící Panel: Analýza Kanálu"
+msgstr "Řídící panel: Analýza kanálu"
 
 msgid "settings.filter.page.route.dash-channel-points"
-msgstr "Řídící Panel: Věrnostní Body"
+msgstr "Řídící panel: Věrnostní body"
 
 msgid "settings.filter.page.route.dash-chat.userName"
-msgstr "Uživatelské Jméno"
+msgstr "Uživatelské jméno"
 
 msgid "settings.filter.page.route.dash-clips"
-msgstr "Řídící Panel: Klipy"
+msgstr "Řídící panel: Klipy"
 
 msgid "settings.filter.page.route.dash-collections"
-msgstr "Řídící Panel: Kolekce"
+msgstr "Řídící panel: Kolekce"
 
 msgid "settings.filter.page.route.dash-edit-collection"
-msgstr "Řídící Panel: Upravit Kolekci"
+msgstr "Řídící panel: Upravit kolekci"
 
 msgid "settings.filter.page.route.dash-edit-video"
-msgstr "Řídící Panel: Upravit Video"
+msgstr "Řídící panel: Upravit video"
 
 msgid "settings.filter.page.route.dash-extensions"
-msgstr "Řídící Panel: Rozšíření"
+msgstr "Řídící panel: Rozšíření"
 
 msgid "settings.filter.page.route.dash-roles"
-msgstr "Řídící Panel: Role"
+msgstr "Řídící panel: Role"
 
 msgid "settings.filter.page.route.dash-settings-channel"
-msgstr "Řídící Panel: Nastavení Kanálu"
+msgstr "Řídící panel: Nastavení kanálu"
 
 msgid "settings.filter.page.route.dash-settings-moderation"
-msgstr "Řídící Panel: Nastavení Moderace"
+msgstr "Řídící panel: Nastavení moderace"
 
 msgid "settings.filter.page.route.dash-stream-manager"
-msgstr "Řídící Panel: Správa Vysílání"
+msgstr "Řídící panel: Správa vysílání"
 
 msgid "settings.filter.page.route.dash-stream-summary"
-msgstr "Řídící Panel: Přehled Vysílání"
+msgstr "Řídící panel: Přehled vysílání"
 
 msgid "settings.filter.page.route.dash-streaming-tools"
-msgstr "Řídící Panel: Vysílací Nástroje"
+msgstr "Řídící panel: Vysílací nástroje"
 
 msgid "settings.filter.page.route.dash-video-producer"
-msgstr "Řídící Panel: Videoprodukce"
+msgstr "Řídící panel: Videoprodukce"
 
 msgid "settings.filter.page.route.dir"
 msgstr "Procházet"
 
 msgid "settings.filter.page.route.dir-all"
-msgstr "Prohlížet Živé Kanály"
+msgstr "Procházet živé kanály"
 
 msgid "settings.filter.page.route.dir-following"
 msgstr "Sledování"
 
 msgid "settings.filter.page.route.embed-chat.userName"
-msgstr "Uživatelské Jméno"
+msgstr "Uživatelské jméno"
 
 msgid "settings.filter.page.route.event"
 msgstr "Událost"
 
 msgid "settings.filter.page.route.front-page"
-msgstr "Přední Stránka"
+msgstr "Hlavní stránka"
 
 msgid "settings.filter.page.route.popout"
-msgstr "Chat v Novém Okně"
+msgstr "Chat v novém okně"
 
 msgid "settings.filter.page.route.popout.userName"
-msgstr "Uživatelské Jméno"
+msgstr "Uživatelské jméno"
 
 msgid "settings.filter.page.route.prime"
 msgstr "Prime"
@@ -2391,7 +2405,7 @@ msgid "settings.filter.page.route.product"
 msgstr "Produkt"
 
 msgid "settings.filter.page.route.squad"
-msgstr "Týmové Vysílání"
+msgstr "Týmové vysílání"
 
 msgid "settings.filter.page.route.turbo"
 msgstr "Turbo"
@@ -2400,37 +2414,37 @@ msgid "settings.filter.page.route.user"
 msgstr "Uživatel"
 
 msgid "settings.filter.page.route.user-clip"
-msgstr "Uživatelský Klip"
+msgstr "Klip uživatele"
 
 msgid "settings.filter.page.route.user-clips"
-msgstr "Klipy Uživatele"
+msgstr "Klipy uživatele"
 
 msgid "settings.filter.page.route.user-collections"
-msgstr "Kolekce Uživatele"
+msgstr "Kolekce uživatele"
 
 msgid "settings.filter.page.route.user-events"
-msgstr "Události Uživatele"
+msgstr "Události uživatele"
 
 msgid "settings.filter.page.route.user-followers"
-msgstr "Sledující Uživatele"
+msgstr "Sledující uživatele"
 
 msgid "settings.filter.page.route.user-following"
-msgstr "Sledovaní Uživatelem"
+msgstr "Sledovaní uživatelem"
 
 msgid "settings.filter.page.route.user-video"
-msgstr "Video Kanálu"
+msgstr "Video kanálu"
 
 msgid "settings.filter.page.route.user-videos"
-msgstr "Videa Uživatele"
+msgstr "Videa uživatele"
 
 msgid "settings.filter.page.route.video"
 msgstr "Video"
 
 msgid "settings.filter.squad"
-msgstr "Týmové Vysílání"
+msgstr "Týmové vysílání"
 
 msgid "settings.filter.theater"
-msgstr "Režim Kina"
+msgstr "Režim kina"
 
 msgid "settings.filter.time.end"
 msgstr "Konec:"
@@ -2439,10 +2453,20 @@ msgid "settings.filter.time.start"
 msgstr "Začátek:"
 
 msgid "settings.filter.title"
-msgstr "Aktuální Název"
+msgstr "Aktuální název"
 
 msgid "settings.filter.true_false"
-msgstr "Pravda nebo Nepravda"
+msgstr "Pravda nebo nepravda"
 
 msgid "settings.terms.word"
 msgstr "Abc"
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Ukázat méně)"
+
+#: /src/modules/main_menu/components/addon-list.vue:172
+#, icu-message-format
+msgid "addon.sort-create"
+msgstr "Seřadit dle: Vytvořeno"
