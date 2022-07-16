@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:15+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-07-16 12:32+0000\n"
+"Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "async-text.upload"
 msgstr "Nahrát"
@@ -59,7 +59,7 @@ msgid "chat.actions.ban.tooltip"
 msgstr "Trvale zablokovat uživatele {user.login}"
 
 msgid "chat.actions.chat"
-msgstr "Příkaz v Chatu"
+msgstr "Příkaz v chatu"
 
 msgid "chat.actions.chat.desc"
 msgstr "{options.command}"
@@ -75,7 +75,7 @@ msgstr ""
 "Umožňuje vám nastavit lokální přepsání uživatelského jména a barvy v chatu."
 
 msgid "chat.actions.msg_delete"
-msgstr "Smazat Zprávu"
+msgstr "Smazat zprávu"
 
 msgid "chat.actions.open_url"
 msgstr "Otevřít URL"
@@ -86,13 +86,13 @@ msgstr "Odpověď na zprávu"
 msgid "chat.actions.reply.desc"
 msgstr ""
 "Toto vám umožňuje okamžitě odpovědět na zprávu jiného uživatele. Funkční "
-"pouze, pokud je styl odpovědí chatu „FrankerFaceZ“."
+"pouze, pokud styl odpovědí chatu je „FrankerFaceZ“."
 
 msgid "chat.actions.select-reason"
 msgstr "Prosím, vyberte důvod, z níže uvedených možností:"
 
 msgid "chat.actions.timeout"
-msgstr "Dočasně Zablokovat Uživatele"
+msgstr "Dočasně zablokovat uživatele"
 
 #, fuzzy
 msgid "chat.actions.timeout-reason"
@@ -119,22 +119,22 @@ msgstr ""
 "}"
 
 msgid "chat.actions.unban"
-msgstr "Zrušit Trvalé Zablokování Uživatele"
+msgstr "Zrušit trvalé zablokování uživatele"
 
 msgid "chat.actions.unban.tooltip"
-msgstr "Zrušit Trvalé Zablokování Uživatele {user.login}"
+msgstr "Zrušit trvalé zablokování uživatele {user.login}"
 
 msgid "chat.actions.unknown"
-msgstr "Neznámý Typ Akce"
+msgstr "Neznámý typ akce"
 
 msgid "chat.actions.untimeout"
-msgstr "Zrušit Dočasné Zablokování Uživatele"
+msgstr "Zrušit dočasné zablokování uživatele"
 
 msgid "chat.actions.untimeout.tooltip"
 msgstr "Zrušit dočasné zablokování uživatele {user.login}"
 
 msgid "chat.actions.whisper"
-msgstr "Šeptat Uživateli"
+msgstr "Šeptat uživateli"
 
 msgid "chat.actions.whisper.tooltip"
 msgstr "Šeptat uživateli {user.login}"
@@ -157,19 +157,19 @@ msgid "chat.ffz-badge.title"
 msgstr "Odznak FrankerFaceZ"
 
 msgid "chat.filtering.automod-term"
-msgstr "Fráze Blokovaná AutoModem"
+msgstr "Fráze blokovaná AutoModem"
 
 msgid "chat.filtering.automod-why"
-msgstr "Tohle bylo označeno jako: "
+msgstr "Toto bylo označeno jako: "
 
 msgid "chat.filtering.automod.I"
 msgstr "Diskriminace"
 
 msgid "chat.filtering.blocked-term"
-msgstr "Zakázaná Fráze"
+msgstr "Zakázaná fráze"
 
 msgid "chat.ignore-clear"
-msgstr "Vymazání chatu moderátorem bylo ignorováno. "
+msgstr "Vymazání chatu moderátorem bylo ignorováno."
 
 msgid "chat.message-deleted"
 msgstr "<zpráva smazána>"
@@ -205,13 +205,13 @@ msgid "chat.points.choose-emote"
 msgstr "Vybrat si emotikon, který se odemkne"
 
 msgid "chat.points.highlighted"
-msgstr "Zvýraznit Mou Zprávu"
+msgstr "Zvýraznit mou zprávu"
 
 msgid "chat.points.modify-emote"
-msgstr "Upravit Jeden Emotikon"
+msgstr "Upravit jeden emotikon"
 
 msgid "chat.points.random-emote"
-msgstr "Odemknout Náhodný Předplatitelský Emotikon"
+msgstr "Odemknout náhodný předplatitelský emotikon"
 
 msgid "chat.points.redeemed"
 msgstr "Vyzvednuto {reward} {cost}"
@@ -223,10 +223,10 @@ msgid "chat.points.user-redeemed"
 msgstr "{user} vyzvedl {reward} {cost}"
 
 msgid "chat.reason.ignore"
-msgstr "Ignorovat Vysílajícího / Moderátory"
+msgstr "Ignorovat vysílajícího / moderátory"
 
 msgid "chat.reasons.evasion"
-msgstr "Obcházení Zablokování"
+msgstr "Obcházení zablokování"
 
 msgid "chat.reply-to"
 msgstr "Odpověď na:"
@@ -241,15 +241,15 @@ msgid "chat.settings.open-settings"
 msgstr "Otevřít Ovládací Centrum"
 
 msgid "chat.settings.pause"
-msgstr "Pozastavit Chat"
+msgstr "Pozastavit chat"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ zcela potlačuje chování Pozastavení Chatu. Použít nastavení "
-"posouvání FFZ v Kontrolním Centru FFZ v části Chat > Chování."
+"FrankerFaceZ zcela potlačuje chování pozastavení chatu. Prosíme, použijte "
+"nastavení posouvání FFZ v Kontrolním Centru FFZ v části Chat > Chování."
 
 msgid "chat.sub.anonymous-gifter"
-msgstr "Anonymní Dárce"
+msgstr "Anonymní dárce"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
@@ -303,26 +303,22 @@ msgid "directory.block"
 msgstr "Zablokovat"
 
 msgid "directory.hide-thumbnails"
-msgstr "Skrýt Náhledy"
+msgstr "Skrýt náhledy"
 
 msgid "directory.hosted"
-msgstr "Hostovaný Kanál"
+msgstr "Hostovaný kanál"
 
 msgid "directory.hosted.by-many"
-msgstr ""
-"Hostován {count,number} kanál{count,plural,\n"
-"one {em}\n"
-"other {y}\n"
-"}"
+msgstr "Hostován {count,number} kanál{count,plural, one {em} other {y}}"
 
 msgid "directory.hosted.by-one"
 msgstr "Hostován uživatelem {user}"
 
 msgid "directory.hosting"
-msgstr "Hostující Kanály"
+msgstr "Hostující kanály"
 
 msgid "directory.show-thumbnails"
-msgstr "Zobrazit Náhledy"
+msgstr "Zobrazit náhledy"
 
 msgid "directory.unblock"
 msgstr "Odblokovat"
@@ -334,19 +330,19 @@ msgid "emoji.category.activities"
 msgstr "Aktivity"
 
 msgid "emoji.category.animals___nature"
-msgstr "Zvířata & Příroda"
+msgstr "Zvířata & příroda"
 
 msgid "emoji.category.animals_nature"
-msgstr "Zvířata a Příroda"
+msgstr "Zvířata a příroda"
 
 msgid "emoji.category.flags"
 msgstr "Vlajky"
 
 msgid "emoji.category.food___drink"
-msgstr "Jídlo & Pití"
+msgstr "Jídlo & pití"
 
 msgid "emoji.category.food_drink"
-msgstr "Jídlo & Pití"
+msgstr "Jídlo & pití"
 
 msgid "emoji.category.objects"
 msgstr "Objekty"
@@ -355,13 +351,13 @@ msgid "emoji.category.people_body"
 msgstr "Lidé"
 
 msgid "emoji.category.skin_tones"
-msgstr "Barva Pleti"
+msgstr "Barva pleti"
 
 msgid "emoji.category.smileys___people"
-msgstr "Smajlíky & Lidé"
+msgstr "Smajlíky & lidé"
 
 msgid "emoji.category.smileys_emotion"
-msgstr "Smajlíci & Emoce"
+msgstr "Smajlíci & emoce"
 
 msgid "emoji.category.symbols"
 msgstr "Symboly"
