@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-06 15:32+0000\n"
+"PO-Revision-Date: 2022-07-16 12:32+0000\n"
 "Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "addon-ffzap-core/cs/>\n"
@@ -90,11 +90,11 @@ msgid "addon.ffzap-core.highlight-sound.custom-file"
 msgstr "Vlastní (soubor)"
 
 #: /src/ffzap-core/components/highlight-sound.vue:139
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgid "addon.ffzap-core.no-file-support"
 msgstr ""
-"Custom files are not supported by the current storage provider.\n"
-"Please change your storage provider in Data Management > Storage >> Provider."
+"Vlastní soubory nejsou aktuálním poskytovatelem úložiště podporovány.\n"
+"Změňte poskytovatele úložiště v části Správa dat > Úložiště >> Poskytovatel."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -193,7 +193,7 @@ msgstr "Hrát, když je zvýrazněn odznak"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
-msgstr "Hrát, když jste zmíněn"
+msgstr "Přehrát, když jste zmíněn"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
