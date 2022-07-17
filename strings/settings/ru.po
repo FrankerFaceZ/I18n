@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-07-18 12:32+0000\n"
-"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"Last-Translator: Jay Beat5 <steel12379@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/ru/>\n"
 "Language: ru\n"
@@ -4709,3 +4709,35 @@ msgstr "Клипы"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.color.text"
 msgstr "Текст"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice.description"
+msgstr ""
+"Эта функция предназначена для того, чтобы предотвратить возможную путаницу, "
+"возникающую из-за того, что участники используют Эмоции для подделки Cheers "
+"в сообщениях. Когда эта функция включена, сообщения, содержащие настоящие "
+"Cheers, будут отображать сообщение над ними, аналогично тому, как работают "
+"сообщения о повторной подписке или об обмене очков с помощью сообщений."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bits и Cheering"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice"
+msgstr "Отображение уведомления в сообщениях чата, содержащих приветствия."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-pinned.description"
+msgstr ""
+"В таблице лидеров отображаются лучшие дарители Cheer и дарители платных "
+"подписок канале.\n"
+"\n"
+"По умолчанию из-за предыдущей реализации это значение наследуется от [Чат > "
+"Bits и Cheers> Отображать Bits](~chat.bits_and_cheering)."
