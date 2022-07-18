@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-05 13:32+0000\n"
-"Last-Translator: Igor <igory.ygr200@gmail.com>\n"
+"PO-Revision-Date: 2022-07-18 12:32+0000\n"
+"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/ru/>\n"
 "Language: ru\n"
@@ -4386,7 +4386,7 @@ msgid "setting.entry.socket.use-cluster.description"
 msgstr ""
 "К какому кластеру серверов подключаться. Не изменяйте этот параметр, если вы "
 "не занимаетесь разработкой внутри сокет-сервера. Это приведет к поломке всех "
-"функций, зависящих от сервера сокетов, включая поиск информации об эмоциях, "
+"функций, зависящих от сервера сокетов, включая поиск информации о смайлах, "
 "всплывающие подсказки ссылок и обновление данных в реальном времени."
 
 #, icu-message-format
@@ -4428,3 +4428,284 @@ msgstr "Режим театра"
 #, icu-message-format
 msgid "setting.actions.formats"
 msgstr "Доступные средства форматирования: {fmts}"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.whispers.show"
+msgstr "Отображать личные сообщения"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Отображать потенциально непристойные изображения."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images.animated.description"
+msgstr ""
+"Если этот параметр не отменён, анимированные изображения будут отображаться "
+"во всплывающих подсказках только в том случае, если [Chat > Appearance >> "
+"Emotes > Animated Emotes](~chat.appearance.emotes) не отключены."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance"
+msgstr "Внешний вид"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Пользовательские причины"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.appearance"
+msgstr "Внешний вид"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Боковая навигация"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:136
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization"
+msgstr "Локализация"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme"
+msgstr "Оформление"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization.general"
+msgstr "Общие"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel"
+msgstr "Канал"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance.general"
+msgstr "Общие"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior"
+msgstr "Поведение"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata"
+msgstr "Метаданные"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.appearance"
+msgstr "Внешний вид"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.clips"
+msgstr "Клипы"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.player"
+msgstr "Проигрыватель"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.subscription"
+msgstr "Подписка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat"
+msgstr "Чат"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions"
+msgstr "Действия"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons"
+msgstr "Причины"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Правила"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emotes"
+msgstr "Смайлы"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges"
+msgstr "Значки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.colors"
+msgstr "Цвета"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.usernames"
+msgstr "Имена пользователей"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Удалённые сообщения"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community_chest"
+msgstr "Сундук сообщества"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Внешний вид"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Поведение"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points"
+msgstr "Очки канала"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.behavior"
+msgstr "Поведение"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu"
+msgstr "Меню смайлов"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Внешний вид"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos"
+msgstr "Чат в видео"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Внешний вид"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.socket.use-cluster"
+msgstr "Кластер сервера"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Отображать большие изображения значков."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Отображать большие изображения смайлов."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Если ничего не задано, цвет будет автоматически подобран белым или чёрным в "
+"зависимости от яркости фона."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Попробуйте `#0E0C13` для цвета, близкому к старому тёмному оформлению, или "
+"`#0E0E0E` для приятного тёмно-серого. Прозрачные цвета не допускаются."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"Если включено, то FrankerFaceZ будет отображать непристойные изображения."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images.animated"
+msgstr "Отображать анимированные изображения смайлов."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Отображать известные источники."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.images"
+msgstr "Отображать изображения в подсказках."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.development"
+msgstr "Разработка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Внешний вид"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center"
+msgstr "Центр управления"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout"
+msgstr "Расположение"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.channel"
+msgstr "Канал"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.clips"
+msgstr "Клипы"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.text"
+msgstr "Текст"
