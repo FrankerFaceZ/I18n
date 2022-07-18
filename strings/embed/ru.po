@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-08 12:32+0000\n"
+"PO-Revision-Date: 2022-07-18 12:32+0000\n"
 "Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/ru/>\n"
@@ -140,3 +140,24 @@ msgstr "Отметки «Нравится»"
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
 msgid "embed.src.joined"
 msgstr "Зарегистрировался {when}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":1423}"
+msgid "embed.ffz.user-line"
+msgstr ""
+"{count,plural,one {# пользователь} few {# пользователя} other {{count,number}"
+" пользователей}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
+msgid "embed.imgur.gallery-extra"
+msgstr ""
+"{posted,datetime} • {points,plural,one{# очко} few{# очка} "
+"other{{points,number} очков}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
+msgid "embed.youtube.info-1"
+msgstr ""
+"{channel} • {views,plural,one {# просмотр} few {# просмотра} other "
+"{{views,number} просмотров}} • 👍 {likes,number}  • 👎 {dislikes,number}"
