@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-16 12:32+0000\n"
+"PO-Revision-Date: 2022-07-21 20:32+0000\n"
 "Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/cs/>\n"
@@ -2470,3 +2470,699 @@ msgstr "(Ukázat méně)"
 #, icu-message-format
 msgid "addon.sort-create"
 msgstr "Seřadit dle: Vytvořeno"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel"
+msgstr "Kanál"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Emoji"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Obecné"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.users"
+msgstr "Uživatelé"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.behavior"
+msgstr "Chování"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Uživatelé"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.FavoriteEmotes"
+msgstr "Oblíbené emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.categories"
+msgstr "Kategorie"
+
+#, fuzzy, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+#: /src/modules/main_menu/components/profile-manager.vue:207
+#, icu-message-format
+msgid "setting.paste-url.url"
+msgstr "[url]"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Vlastní důvody"
+
+#: /src/modules/main_menu/components/profile-manager.vue:416
+#, icu-message-format
+msgid "setting.backup-restore.http-loading"
+msgstr "Načítání..."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories"
+msgstr "Kategorie"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.false"
+msgstr "Zakázáno"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.advanced"
+msgstr "Pokročilé"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.replies.style.values.0"
+msgstr "Zakázáno"
+
+#, icu-message-format
+msgid "setting.entry.theme.color.chat-text"
+msgstr "Text"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center.search"
+msgstr "Hledat"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center"
+msgstr "Kontrolní centrum"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.changelog"
+msgstr "Seznam změn"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Vzheld"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.channel"
+msgstr "Kanál"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.clips"
+msgstr "Klipy"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:136
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization"
+msgstr "Lokalizace"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior"
+msgstr "Chování"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.hosting"
+msgstr "Hostování"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.raids"
+msgstr "Nájezdy"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.appearance"
+msgstr "Vzhled"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.clips"
+msgstr "Klipy"
+
+#: /src/modules/main_menu/index.js:509
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgid "setting.channel.metadata.mod_view"
+msgstr "Pohled moderátora"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.player"
+msgstr "Přehrávač"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat"
+msgstr "Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions"
+msgstr "Akce"
+
+#: /src/modules/main_menu/index.js:583
+#, icu-message-format
+msgid "setting.chat.actions.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons"
+msgstr "Důvody"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Pravidla"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room"
+msgstr "Místnost"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.colors"
+msgstr "Barvy"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community"
+msgstr "Komunita"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emoji"
+msgstr "Emoji"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emotes"
+msgstr "Emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Viditelnost"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior"
+msgstr "Chování"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Smazané zprávy"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bity a fandění"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Chování"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.behavior"
+msgstr "Chování"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos"
+msgstr "Chat u videí"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering"
+msgstr "Filtrování"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Řazení"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.replies"
+msgstr "Odpovědi"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges"
+msgstr "Odznaky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points"
+msgstr "Věrnostní body"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges"
+msgstr "Odznaky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.behavior"
+msgstr "Chování"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Zablokované odznaky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Zablokovaní uživatelé"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Vzhled"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Odznaky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Zvýraznit odznaky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.badges"
+msgstr "Odznaky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.whispers.general"
+msgstr "Obecné"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Profiles"
+msgstr "Profily"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.HiddenEmotes"
+msgstr "Skryté emotikony"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.links"
+msgstr "Odkazy"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Chování"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Everything"
+msgstr "Zcela vše"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management"
+msgstr "Správa dat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.profiles"
+msgstr "Profily"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage.tabs.provider"
+msgstr "Poskytovatel"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.experiments"
+msgstr "Experimenty"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization"
+msgstr "Lokalizace"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.add-ons"
+msgstr "Doplňky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels"
+msgstr "Kanály"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.appearance"
+msgstr "Vzhled"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "Zakázáno"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.version"
+msgstr "Verze"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Viditelnost"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show"
+msgstr "Zobrazit Bity"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "Zakázáno"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "Emotikony"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "Zakázáno"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "Emotikony a Emoji"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.animated"
+msgstr "Animované emotikony"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.0"
+msgstr "Zakázáno"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.1"
+msgstr "Povoleno"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.0"
+msgstr "Zakázáno"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.2"
+msgstr "Povoleno"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "chat.filtering.highlight-basic-badges"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "chat.filtering.highlight-basic-badges-blocked"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "chat.filtering.highlight-basic-blocked"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "chat.filtering.highlight-basic-terms"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.points.allow-highlight.values.0"
+msgstr "Zakázáno"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.width"
+msgstr "Šířka"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:16
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.locale"
+msgstr "Jazyk"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.true"
+msgstr "Povoleno"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.background"
+msgstr "Pozadí"
+
+#, icu-message-format
+msgid "setting.entry.theme.color.chat-background"
+msgstr "Pozadí"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.text"
+msgstr "Text"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.feedback"
+msgstr "Zpětná vazba"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player"
+msgstr "Přehrávač"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general"
+msgstr "Obecné"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.extensions"
+msgstr "Rozšíření"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.general"
+msgstr "Obecné"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.volume"
+msgstr "Hlasitost"
+
+#, icu-message-format
+msgid "settings.term.color.tip"
+msgstr "Barva"
+
+#, icu-message-format
+msgid "settings.terms.priority.tip"
+msgstr "Priorita"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons"
+msgstr "Doplňky"
