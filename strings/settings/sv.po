@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-18 12:32+0000\n"
+"PO-Revision-Date: 2022-08-07 13:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -2122,7 +2122,7 @@ msgid "setting.filters.inactive"
 msgstr "Denna regel matchar inte."
 
 msgid "setting.hidden"
-msgstr "Gömd"
+msgstr "Dold"
 
 msgid "setting.home"
 msgstr "Hem"
@@ -2152,7 +2152,7 @@ msgid "setting.import"
 msgstr "Importera…"
 
 msgid "setting.inheritance"
-msgstr "Ärvd Plats"
+msgstr "Ärvd plats"
 
 msgid "setting.inherited-from"
 msgstr "Ärvt från: {title}"
@@ -2301,10 +2301,10 @@ msgid "setting.terms.type.glob"
 msgstr "Glob"
 
 msgid "setting.terms.type.regex"
-msgstr "Reguljärt uttryck"
+msgstr "Reguljärt"
 
 msgid "setting.terms.type.regex-word"
-msgstr "Reguljärt uttryck (ord)"
+msgstr "Reguljärt (ord)"
 
 msgid "setting.terms.type.text"
 msgstr "Text"
@@ -3613,7 +3613,7 @@ msgstr "(Har stöd för binär data)"
 #: /src/modules/main_menu/components/provider.vue:252
 #, icu-message-format
 msgid "setting.provider.backup"
-msgstr "Ja, jag gjorde en säkerhetskopia."
+msgstr "Ja, jag har gjort en säkerhetskopia."
 
 #: /src/modules/main_menu/components/provider.vue:16
 #, icu-message-format
@@ -3664,7 +3664,7 @@ msgstr "Utseende"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.chat_on_videos"
-msgstr "Chatta på videor"
+msgstr "Chatt på videor"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4157,7 +4157,7 @@ msgstr "Tryck på en tangent"
 #: /src/modules/main_menu/components/provider.vue:57
 #, icu-message-format
 msgid "setting.provider.local.title"
-msgstr "Lokal lagring"
+msgstr "Local Storage"
 
 #: /src/modules/main_menu/components/badge-visibility.vue:56
 #, icu-message-format
@@ -4768,7 +4768,7 @@ msgstr "Förhållande"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.theatre.auto-enter"
-msgstr "Öppna automatiskt teaterläget när man besöker en kanal."
+msgstr "Öppna automatiskt teaterläget när en kanal besöks."
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
@@ -5023,7 +5023,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.chat_on_videos.description"
 msgstr ""
 "Denna funktion är för tillfället en betaversion. Därför kan du uppleva "
-"problem när du använder FFZ-funktioner med \"Chatta på videor\"."
+"problem när du använder FFZ-funktioner med \"Chatt på videor\"."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -6001,3 +6001,168 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.badge-images"
 msgstr "Visa stora bilder som dekaler."
+
+#: /src/modules/main_menu/components/action-editor.vue:584
+#, icu-message-format
+msgid "setting.space.desc"
+msgstr ""
+"Placera ett så stort mellanrum som möjligt mellan föregående och nästa "
+"objekt."
+
+#: /src/modules/main_menu/components/provider.vue:26
+#, icu-message-format
+msgid "setting.provider.warn.desc"
+msgstr ""
+"Stäng alla andra Twitch-flikar innan du använder detta verktyg. Du **"
+"rekommenderas att [skapa en säkerhetskopia](~data_management."
+"backup_and_restore)** innan du ändrar din tillhandahållare, ifall någonting "
+"händer."
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.local.desc"
+msgstr ""
+"[Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/"
+"Web_Storage_API) är tillgänglig på alla plattformar och är snabb att komma "
+"åt, men har dåligt definierade kapacitetsgränser och kan rensas oväntat. "
+"Särskilt då Local Storage förmodligen kommer att rensas när du rensar kakor "
+"och cachen i din webbläsare."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Visa innehållsrika inforutor för länkar."
+
+#: /src/modules/main_menu/components/action-editor.vue:581
+#, icu-message-format
+msgid "setting.space-small.desc"
+msgstr "Placera ett litet mellanrum mellan föregående och nästa objekt."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Dölj reprisfältet"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"Dölj händelsefältet som dyker upp ovanför spelaren när en händelse pågår för "
+"den aktuella kanalen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Dölj händelsefältet"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.mute-click"
+msgstr "Stäng av eller slå på ljudet i spelaren genom att klicka med hjulet."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.no-autoplay.description"
+msgstr ""
+"OBS: Denna funktion tillämpas inte när man navigerar direkt från kanal till "
+"kanal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.vod.autoplay"
+msgstr "Spela automatiskt upp nästa rekommenderade video när en video slutförs."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll"
+msgstr "Justera volymen genom att rulla med mushjulet."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Behåll volymreglaget alltid utvidgad."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr "Hur mycket volymnivån ändras vid varje individuell rullning."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Denna inställning kommer inte fungera ordentligt på strömmar med synliga "
+"tillägg när musinteraktioner med tillägg tillåts.*"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Prova `#0E0C13` för någonting som liknar det gamla mörka temat eller "
+"`#0E0E0E` för en fin mörkgrå ton. Färger med genomskinlighet är inte "
+"tillåtet."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images.animated.description"
+msgstr ""
+"Om detta inte överskrids kommer endast animerade bilder visas i inforutor "
+"för emotes om [Chatt > Utseende >> Emotes > Animerade emotes](~chat."
+"appearance.emotes) inte aktiveras."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"När detta aktiveras kommer FrankerFaceZ inkludera bilder som har taggats som "
+"osäkra eller saknar betygssättning."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Tillåt interaktion med länkar i inforutor som har stöd."
+
+#: /src/modules/main_menu/components/action-editor.vue:557
+#, icu-message-format
+msgid "setting.inheritance.desc"
+msgstr "Ärv värden från profiler med lägre prioritet vid denna position."
+
+#: /src/modules/main_menu/components/provider.vue:190
+#, icu-message-format
+msgid "setting.provider.transfer.desc"
+msgstr ""
+"**OBS:** Du rekommenderas att lämna detta aktiverat såvida du vet vad du "
+"håller på med."
+
+#: /src/modules/main_menu/components/provider.vue:169
+#, icu-message-format
+msgid "setting.provider.transfer"
+msgstr "Överför mina inställningar när tillhandahållare byts."
+
+#: /src/modules/main_menu/components/provider.vue:277
+#, icu-message-format
+msgid "setting.provider.start"
+msgstr "Byt tillhandahållare"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.idb.title"
+msgstr "IndexedDB"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.idb.desc"
+msgstr ""
+"[IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) "
+"är tillgänglig på de flesta plattformarna och har en aning långsammare "
+"initialiseringstid än Local Storage. IndexedDB har en större "
+"lagringskapacitet och är mindre sannolikt att rensas oväntat."
+
+#: /src/modules/main_menu/components/provider.vue:44
+#, icu-message-format
+msgid "setting.provider.about"
+msgstr ""
+"Här kan du ändra lagringstillhandahållare som används av FrankerFaceZ när du "
+"surfar på Twitch. Du kan prova detta om du har problem med att dina "
+"inställningar inte kvarstår. Observera att du kommer behöva ladda om alla "
+"Twitch-flikar efter denna ändring."
