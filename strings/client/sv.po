@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-22 15:32+0000\n"
+"PO-Revision-Date: 2022-08-07 16:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -236,16 +236,16 @@ msgid "directory.hide-thumbnails"
 msgstr "Dölj miniatyrbilder"
 
 msgid "directory.hosted"
-msgstr "Hostad Kanal"
+msgstr "Värdkanal"
 
 msgid "directory.hosted.by-many"
-msgstr "Hostad av {count,plural,one {# kanal} other {# kanaler}}"
+msgstr "Värd av {count,plural,one {# kanal} other {# kanaler}}"
 
 msgid "directory.hosted.by-one"
-msgstr "Hostad av {user}"
+msgstr "Värd av {user}"
 
 msgid "directory.hosting"
-msgstr "Hostade Kanaler"
+msgstr "Värdkanaler"
 
 msgid "directory.show-thumbnails"
 msgstr "Visa miniatyrbilder"
@@ -531,31 +531,31 @@ msgid "metadata.featured-follow.title"
 msgstr "Framhävda Kanaler"
 
 msgid "metadata.host-button.host"
-msgstr "Host"
+msgstr "Värd"
 
 msgid "metadata.host-button.tooltip"
-msgstr "Hostar just nu: {channel}"
+msgstr "Är just nu värd för {channel}"
 
 msgid "metadata.host-button.tooltip.none"
 msgstr "Ingen"
 
 msgid "metadata.host-button.unhost"
-msgstr "Avsluta Host"
+msgstr "Sluta vara värd"
 
 msgid "metadata.host-button.updating"
 msgstr "Uppdaterar..."
 
 msgid "metadata.host.add-channel"
-msgstr "Lägg Till i Auto-hosting"
+msgstr "Lägg till i autovärd"
 
 msgid "metadata.host.tab.auto-host"
-msgstr "Auto-host"
+msgstr "Autovärd"
 
 msgid "metadata.host.tab.settings"
 msgstr "Inställningar"
 
 msgid "metadata.host.title"
-msgstr "Automatisk Host-hantering"
+msgstr "Automatisk värdhantering"
 
 msgid "metadata.player-stats.broadcast-ago"
 msgstr "Sände för {count,number}s sedan"
@@ -820,12 +820,12 @@ msgstr "Öppna översättningsredigeraren i ett nytt fönster"
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:282
 #, icu-message-format
 msgid "metadata.host.setting.auto-hosting.description"
-msgstr "Automatiskt hosta av kanaler från din hostlista när du är offline."
+msgstr "Var automatiskt värd för kanaler från din värdlista när du är offline."
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:516
 #, icu-message-format
 msgid "metadata.host.setting.strategy.description"
-msgstr "När den är aktiverad, host kanaler väljs slumpmässigt från listan."
+msgstr "När detta aktiveras kommer värdkanaler väljas slumpmässigt från listan."
 
 #: /src/modules/metadata.jsx:319
 #, icu-message-format, lp-defaults:"{\"rate\":\"1.03\"}"
@@ -1106,34 +1106,34 @@ msgstr "Användare markeras"
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
 #, icu-message-format
 msgid "metadata.host.setting.auto-hosting.title"
-msgstr "Automatisk Hosting"
+msgstr "Automatisk värd"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:492
 #, icu-message-format
 msgid "metadata.host.setting.strategy.title"
-msgstr "Slumpa Host Ordningen"
+msgstr "Slumpa värdordning"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:358
 #, icu-message-format
 msgid "metadata.host.setting.team-hosting.description"
-msgstr "Inkludera team kanaler i din host lista."
+msgstr "Inkludera teamkanaler i din värdlista."
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:334
 #, icu-message-format
 msgid "metadata.host.setting.team-hosting.title"
-msgstr "Team Hostar"
+msgstr "Teamvärd"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.description"
 msgstr ""
-"Inkludera kanaler som streamar förinspelad video, som Premiärer eller "
-"Repriser"
+"Inkludera kanaler som strömmar förinspelad video, som premiärer eller "
+"repriser"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.title"
-msgstr "Hosta förinspelade videon"
+msgstr "Var värd för förinspelade videor"
 
 #: /src/modules/metadata.jsx:110
 #, icu-message-format
