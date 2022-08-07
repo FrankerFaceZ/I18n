@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-05 00:32+0000\n"
+"PO-Revision-Date: 2022-08-07 16:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-inline-tab-completion/sv/>\n"
@@ -56,10 +56,12 @@ msgid "setting.add_ons.inline_tab.content"
 msgstr "Innehåll"
 
 #: /src/modules/main_menu/components/menu-container.vue:27
-#, icu-message-format, md-text
+#, fuzzy, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.inline_tab.content.description"
 msgstr ""
+"Observera att den inbyggda tabbifyllning i Twitch kommer användas för "
+"innehåll som inte inkluderas i inline tabbifyllning."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -77,20 +79,20 @@ msgstr "Inled alltid omnämnanden med `@`."
 #, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.no_commands"
-msgstr "Inkludera inte kommandon i tabbkompletteringen."
+msgstr "Inkludera inte kommandon i inline tabbifyllningen."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.no_mentions"
-msgstr ""
+msgstr "Inkludera inte användare i inline tabbifyllning."
 
 #, icu-message-format
 msgid "setting.entry.addon.inlinetab.tip-count"
-msgstr ""
+msgstr "Visa flera poster i tabbifyllningens inforuta."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.inlinetab.tips"
-msgstr ""
+msgstr "Visa en inforuta när tabbifyllning används."
