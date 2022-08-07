@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-01 20:32+0000\n"
+"PO-Revision-Date: 2022-08-07 16:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/sv/>\n"
@@ -681,3 +681,10 @@ msgstr "{count, plural, one {# visning} other {# visningar}}"
 #, icu-message-format
 msgid "addons.deck.title"
 msgstr "Deck"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-hosted"
+msgstr "Värdströmmar"
