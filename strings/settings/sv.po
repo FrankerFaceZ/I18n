@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-07 16:32+0000\n"
+"PO-Revision-Date: 2022-08-08 20:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -6232,3 +6232,63 @@ msgid "setting.entry.player.compressor.shortcut.description"
 msgstr ""
 "Denna tangentsekvens kan användas för att aktivera och inaktivera "
 "komprimeringen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**OBS**: Meddelanden som skickas med förnyade prenumerationer kommer alltid "
+"visas. Detta styr endast specialmeddelandet \"X prenumererade!\"."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.smooth-scroll.description"
+msgstr ""
+"**OBS:** Detta kanske inte fungerar bra beroende på din webbläsare. "
+"Inaktivera detta om du stöter på problem.\n"
+"\n"
+"Får nya chattmeddelanden att glida fram. Hastigheten ökar vid behov för att "
+"hinna med chatten."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"Chatten kommer endast stanna p.g.a. mushovring så här länge efter att musen "
+"slutar röra på sig."
+
+#: /src/modules/main_menu/components/experiments.vue:43
+#, icu-message-format, lp-defaults:"{\"code\":\"sv_cheats 1\"}"
+msgid "setting.dev-warning.explain"
+msgstr ""
+"Var försiktig då detta är en avancerad funktion som är avsedd att endast "
+"användas av utvecklare. Vanliga användare bör undvika detta. Att justera "
+"dina experiment kan påverka din Twitch-upplevelse på ett oväntat sätt. "
+"FrankerFaceZ tar inte ansvar för några problem du stöter på is not efter att "
+"ha ändrat experimenten och vi kommer inte ge någon support.\n"
+"\n"
+"Om du är säker på detta, var god skriv `{code}` i fältet nedan och tryck på "
+"enter."
+
+#: /src/modules/main_menu/components/experiments.vue:32
+#, icu-message-format
+msgid "setting.dev-warning"
+msgstr "Fara å färde."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.gift-banner"
+msgstr ""
+"Visa en banderoll längst upp i chatten när en massprenumerationsgåva händer."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.compact"
+msgstr "Visa prenumerationsaviseringar på ett mer kompakt sätt (klassisk stil)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Öppna Twitch-prenumerationssidor genom att Shift-klicka på emotes när de är "
+"relevanta."
