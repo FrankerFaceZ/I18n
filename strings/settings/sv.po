@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-07 13:32+0000\n"
+"PO-Revision-Date: 2022-08-07 16:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -368,9 +368,9 @@ msgstr "Legacy"
 
 msgid "setting.backup-restore.about"
 msgstr ""
-"Detta verktyget tillåter dig att göra en backup och återställa dina "
-"FrankerFaceZ inställningar, inkluderat alla inställningar från Kontroll "
-"Center med all annan data som favorit emotes och blockerade spel."
+"Detta verktyg låter dig säkerhetskopiera och återställa dina FrankerFaceZ-"
+"inställningar, inklusive alla inställningar från kontrollpanelen med all "
+"annan data som favoritemotes och blockerade spel."
 
 msgid "setting.backup-restore.confirm-updates"
 msgstr ""
@@ -6166,3 +6166,69 @@ msgstr ""
 "surfar på Twitch. Du kan prova detta om du har problem med att dina "
 "inställningar inte kvarstår. Observera att du kommer behöva ladda om alla "
 "Twitch-flikar efter denna ändring."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.enable"
+msgstr ""
+"Aktiverar ljudkomprimering och lägger till knappen `Ljudkomprimering` i "
+"spelarkontrollerna."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.gain_control.description"
+msgstr ""
+"Förstärkningskontroll ger dig extra kontroll över volymutmatningen efter "
+"komprimeringen körs, medan den inbyggda volymreglaget tillämpas före "
+"komprimeringen. Detta använder ett enkelt [GainNode](https://developer."
+"mozilla.org/en-US/docs/Web/API/GainNode) från Web Audio-API:et som ansluts i "
+"sekvens efter DynamicsCompressorNode som komprimeringen använder."
+
+#: /src/modules/main_menu/components/menu-page.vue:137
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.description"
+msgstr ""
+"Dessa inställningar styr en valfri dynamisk intervallkomprimering för "
+"spelaren, ett slags ljudbearbetning som reducerar volymen hos höga ljud och "
+"förstärker tysta ljud, vilket normaliserar eller komprimerar volymen. Detta "
+"använder en [DynamicsCompressorNode](https://developer.mozilla.org/en-US/"
+"docs/Web/API/DynamicsCompressorNode) från Web Audio-API bakom kulisserna om "
+"du vill läsa mer."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Display FFZ-dekaler, -emotes och andra funktioner i Chatt på videor. "
+"Modereringsfunktioner kan vara otillgängliga när detta aktiveras."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.prioritize-prefix-matches"
+msgstr "Prioritera emotes som börjar med användarens inmatning."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.hosting"
+msgstr "Värd"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.tab_completion"
+msgstr "Tabbifyllning"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket"
+msgstr "Socket"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.shortcut.description"
+msgstr ""
+"Denna tangentsekvens kan användas för att aktivera och inaktivera "
+"komprimeringen."
