@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-08 20:32+0000\n"
+"PO-Revision-Date: 2022-08-12 00:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -206,7 +206,7 @@ msgid "setting.actions.duration"
 msgstr "Varaktighet"
 
 msgid "setting.actions.edit-visible.deleted"
-msgstr "Meddelandet Raderat"
+msgstr "Meddelandet raderades"
 
 msgid "setting.actions.edit-visible.mod"
 msgstr "Moderator"
@@ -290,7 +290,7 @@ msgid "setting.actions.visible.always"
 msgstr "alltid"
 
 msgid "setting.actions.visible.deleted"
-msgstr "om meddelandet raderat"
+msgstr "om meddelandet är raderat"
 
 msgid "setting.actions.visible.mod"
 msgstr "när moderator"
@@ -302,7 +302,7 @@ msgid "setting.actions.visible.slow"
 msgstr "i långsamt läge"
 
 msgid "setting.actions.visible.undeleted"
-msgstr "om meddelandet inte raderat"
+msgstr "om meddelandet inte är raderat"
 
 msgid "setting.add"
 msgstr "Lägg till"
@@ -3996,7 +3996,7 @@ msgstr "Tvinga metadata och taggar längst upp i kanalens informationsfält."
 
 #, icu-message-format
 msgid "setting.entry.channel.panel-tips"
-msgstr "Visa innehållsrika inforutor i kanalpaneler."
+msgstr "Visa formaterade inforutor i kanalpaneler."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4677,7 +4677,7 @@ msgstr "Visningsstil"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled"
-msgstr "Visa rikt innehåll i chatten"
+msgstr "Visa formaterat innehåll i chatten"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -5016,7 +5016,7 @@ msgstr "Mrk"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.rich_content"
-msgstr "Rikt innehåll"
+msgstr "Formaterat innehåll"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5632,10 +5632,10 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.hide-community-highlights"
 msgstr "Dölj alla höjdpunkter för gemenskapen från chattens överkant."
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.hide-tokens"
-msgstr "Dölj matchande länkar för rikt innehåll."
+msgstr "Dölj matchande länkar för formaterat innehåll."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5948,7 +5948,7 @@ msgstr "Visa meddelanden i chatten om kanalpoängsbelöningar."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links"
-msgstr "Visa rikt inbäddat innehåll för alla länkar."
+msgstr "Visa formaterat inbäddat innehåll för alla länkar."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6031,7 +6031,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.rich-links"
-msgstr "Visa innehållsrika inforutor för länkar."
+msgstr "Visa formaterade inforutor för länkar."
 
 #: /src/modules/main_menu/components/action-editor.vue:581
 #, icu-message-format
@@ -6292,3 +6292,310 @@ msgid "setting.entry.chat.sub-emotes"
 msgstr ""
 "Öppna Twitch-prenumerationssidor genom att Shift-klicka på emotes när de är "
 "relevanta."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid.description"
+msgstr ""
+"Detta aktiverar större formaterat inbäddat innehåll i chatten. Detta "
+"rekommenderas **inte** för de flesta användare och/eller chattar.\n"
+"\n"
+"**OBS:** När detta aktiveras kan chatten rulla vid olämpliga tillfällen "
+"eftersom innehåll läses in. Moderatorer bör inte använda denna funktion."
+
+#: /src/modules/main_menu/components/profile-editor.vue:320
+#, icu-message-format, md-text
+msgid "setting.data_management.profiles.edit.rules.description"
+msgstr ""
+"Regler låter dig definiera en villkorsserie som kommer vara aktiv för denna "
+"profil. När det finns flera regler måste allihopa matcha profilen för att "
+"aktiveras. Använd en `Or`-regel för att skapa en profil som aktiveras genom "
+"att matcha en av flera regler."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"Som standard kommer detta ärva sitt värde från Visa bits. Denna inställning "
+"påverkas endast nya meddelanden."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size.description"
+msgstr ""
+"Ibland kan Sometimes, riktigt enorma emotes slinka igenom och hamna på "
+"Twitch. Detta begränsar storleken på Twitch-emotes för att lindra problemet."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.display-deleted.description"
+msgstr ""
+"Detta, när det aktiveras, överskrider läget för `Raderade meddelanden` som "
+"väljs i Twitchs chattinställningar, som vanligtvis bara är tillgänglig för "
+"moderatorer. Kortfattad döljer meddelanden helt och hållet och visar en "
+"notis i chatten att ett antal meddelanden har dolts. Detaljerad visar "
+"innehållet i meddelandet. Föråldrad visar `<raderat meddelande>` där man "
+"klickar för att visa."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Tillåt tabbifyllning för emoji."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr "Tillåt tabbifyllning för emotes utan att skriva ett kolon. (:)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr "Detta förhindrar tabbifyllning för användarnamn utan prefixet @."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Hur bred chatten bör vara, i bildpunkter. Detta kan påverkas av din "
+"webbläsares inställningar för zoomning och typsnittsstorlek."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Visa en meny för att välja vilken kanal att besöka när man klickar på en "
+"värdkanal i katalogen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffz.show-new-settings"
+msgstr ""
+"Visa en indikator på knappen för FFZ:s kontrollcenter när nya inställningar "
+"har lagts till i FrankerFaceZ."
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Experiments"
+msgstr "Experimentöverskridningar"
+
+#: /src/modules/main_menu/components/profile-editor.vue:335
+#, icu-message-format, md-text
+msgid "setting.data_management.profiles.edit.updates.description"
+msgstr ""
+"Denna profil har en associerad webbadress för automatiska uppdateringar. När "
+"uppdateringar aktiveras och profilen uppdateras kommer alla inställningar "
+"som associeras med profilen att återställas. Profilens regler kommer även "
+"att återställas. Namnet, beskrivningen och kortkommandot kommer inte "
+"återställas."
+
+#: /src/modules/main_menu/components/profile-editor.vue:301
+#, icu-message-format
+msgid "setting.data_management.profiles.hotkey.desc"
+msgstr ""
+"Ange ett kortkommando för att aktivera och inaktivera en profil när som "
+"helst med kortkommandot.\n"
+"\n"
+"**OBS:** En profil som aktiveras kan fortfarande bli inaktiverad p.g.a. sina "
+"regler."
+
+#: /src/modules/main_menu/components/menu-page.vue:137
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.description"
+msgstr ""
+"Observera att p.g.a. begränsningar på Twitchs webbplats måste namnen här "
+"formateras exakt som de visas i din klient. Du kan blockera eller avblockera "
+"kategorier direkt från katalogsidor för bästa resultat."
+
+#, fuzzy, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-not-live-bar"
+msgstr "Döljer fältet \"Sänder nu\"."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Aktivera kanalvärd"
+
+#: /src/modules/main_menu/index.js:552
+#, icu-message-format, md-text
+msgid "setting.entry.chat.actions.size.description"
+msgstr ""
+"Hur höga åtgärder bör vara, i bildpunkter. Detta kan påverkas av din "
+"webbläsares inställningar för zoomning och typsnittsstorlek."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Ange minimum för kontrastförhållandet som används av Luma-ljusstyrkan när "
+"läsbarhet beräknas."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"Som standard fungerar inte Twitchs chattfiltreringsfunktion för moderatorer. "
+"Detta överskrider detta beteende."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:124
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Ser till att dekaler är synliga mot den aktuella bakgrunden.\n"
+"\n"
+"**OBS:** Påverkar endast dekaler med anpassad rendering. "
+"Prenumerationsdekaler, bitdekaler, etc. påverkas inte."
+
+#: /src/modules/main_menu/index.js:641
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emote-menu.icon.description"
+msgstr ""
+"**OBS:** Denna inställning kan tvångsaktiveras om andra emotemenyer upptäcks "
+"för att säkerställa att du visuellt kan identifiera FFZ:s emotemeny."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-quick-nav"
+msgstr "Visa ett snabbnavigeringsfält längst sidan på menyn."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.stay-loaded"
+msgstr "Stanna inläst efter menyn öppnas."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.stay-loaded.description"
+msgstr ""
+"Detta får emotemenyn att stanna kvar i DOM:en även om den inte är synlig. "
+"När detta aktiveras kan det hjälpa webbplatsen att prestera bättre när menyn "
+"öppnas om den är långsam. Som standard kommer denna inställning vara "
+"aktiverad när man använder `Visa alla emotes på en flik.`"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:180
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.animated.description"
+msgstr ""
+"Detta styr om animerade emotes tillåts att spelas upp i chatten. När detta "
+"är `Inaktiverad` kommer emotes endast vara statiska bilder. `Aktivera vid "
+"hovring` kan orsaka prestandaproblem."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Denna stil kommer att tillämpas på raderade meddelanden som visas i "
+"Detaljerat renderingsläge för att skilja dem från vanliga chattmeddelanden."
+
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source"
+msgstr "Länklösare"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Visa endast formaterat inbäddat innehåll i meddelanden som skickas av "
+"användare med denna nivå eller högre."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr ""
+"Detta visar formaterade innehållsblock för saker som länkade klipp och "
+"videor."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid"
+msgstr "Visa större formaterat innehåll i chatten."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze.description"
+msgstr ""
+"Förhindra chatten automatiskt från att rulla när musen hovrar eller en "
+"tangent hålls ned.\n"
+"\n"
+"**OBS:** När man rullar uppåt i chatten kommer den alltid förhindras från "
+"att rulla automatiskt, oavsett vad an anger i denna inställning."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "Tillåt tabbifyllning för FrankerFaceZ-emotes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Begränsa resultat för tabbifyllning till 25."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.clips.layout.big.description"
+msgstr ""
+"Detta påverkar endast fönster som är minst 1200 bildpunkter breda och "
+"försöker göra spelaren och chattreprisen så stor som möjligt."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.prod"
+msgstr "API-produktion"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.socket"
+msgstr "Socketskluster (föråldrad)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Visa endast en angiven värdkanal en gång i katalogen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.host-menus"
+msgstr "Värdkanalmenyer"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "Visa inte `Senaste videor` i följarkatalogen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-live"
+msgstr "Visa inte direktsändningsindikatorn på kanaler som direktsänder."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-recommended"
+msgstr "Visa inte `Rekommenderade livekanaler` i följarkatalogen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "Visa inte repriser i katalogen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.feedback.log"
+msgstr "feedback.log"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Aktivera meddelandefångst."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:16
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Visa repriser"
