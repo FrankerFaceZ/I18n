@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-30 17:32+0000\n"
+"PO-Revision-Date: 2022-08-19 18:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
 "Language-Team: German <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/de/>\n"
@@ -5299,3 +5299,69 @@ msgid "setting.entry.player.gain.no-volume"
 msgstr ""
 "Integrierte Lautstärke auf 100 % erzwingen, wenn der Audio-Kompressor "
 "aktiviert ist."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "Emotes"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Wenn hier ein Wert eingetragen ist, werden hervorgehobene Nachrichten, für "
+"die keine Standardfarbe eingestellt ist, in dieser Farbe statt in Rot "
+"angezeigt."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-priority"
+msgstr "Priorität der Erwähnung"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Eigene Nachrichten filtern."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Gelöschte Nachrichten aus dem Chat entfernen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Gelöschte Nachrichten werden komplett aus dem Chat entfernt. Diese "
+"Einstellung ist für Moderatoren nicht empfohlen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Schlechte Qualität von globalen Twitch-Emotes beheben"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Verbessert die globalen Twitch-Emotes, indem weiße Ränder und feste "
+"Hintergründe entfernt werden."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid"
+msgstr "Größere Rich Content-Einbettungen im Chat anzeigen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid.description"
+msgstr ""
+"Dies ermöglicht die Verwendung von größeren Rich Content-Einbettungen im "
+"Chat. Dies wird **nicht** für die meisten Benutzer und/oder Chats empfohlen."
+"\n"
+"\n"
+"**Hinweis:** Die Aktivierung dieser Funktion kann dazu führen, dass der Chat "
+"zu ungünstigen Zeitpunkten scrollt, weil Inhalte geladen werden. Moderatoren "
+"sollten diese Funktion nicht verwenden."
