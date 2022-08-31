@@ -1,172 +1,186 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-08-31 21:32+0000\n"
+"Last-Translator: Hakan Kayra Doğan <hakankayradogan@gmail.com>\n"
+"Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-fullscreen-chat/tr/>\n"
 "Language: tr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/fs-chat/index.jsx:330
 #, icu-message-format
 msgid "addon.fs-chat.button.active"
-msgstr ""
+msgstr "Tam Ekran Sohbeti Devre Dışı Bırak"
 
 #: /src/fs-chat/index.jsx:331
 #, icu-message-format
 msgid "addon.fs-chat.button.inactive"
-msgstr ""
+msgstr "Tam Ekran Sohbet"
 
 #: /src/settings/components/basic-toggle.vue:67
 #, icu-message-format
 msgid "addon.fs-chat.using"
-msgstr ""
+msgstr "Tam Ekran Sohbeti Kullanıyor"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat"
-msgstr ""
+msgstr "Tam Ekran Sohbet"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat.appearance"
-msgstr ""
+msgstr "Görünüm"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat.behavior"
-msgstr ""
+msgstr "Davranış"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat.size_and_position"
-msgstr ""
+msgstr "Boyut ve Konum"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.automatic"
 msgstr ""
+"Tam ekran moduna geçildiğinde Tam Ekran Sohbeti otomatik olarak aktifleştir."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.bg.blur"
-msgstr ""
+msgstr "Arkaplan Bulanıklaştırma"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.bg.blur.description"
 msgstr ""
+"**Not:** Arkaplan bulanıklaştırma, tarayıcı ve bilgisayar donanımınıza göre "
+"performansınızı etkileyebilir."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.0"
-msgstr ""
+msgstr "Devre Dışı"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.10"
-msgstr ""
+msgstr "Büyük (10px)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.2"
-msgstr ""
+msgstr "Küçük (2px)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.5"
-msgstr ""
+msgstr "Normal (5px)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.bg.blur.values.50"
-msgstr ""
+msgstr "Ekstrem (50px)"
 
 #: /src/modules/main_menu/components/setting-color-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.bg.color"
-msgstr ""
+msgstr "Arkaplan Rengi"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.height"
-msgstr ""
+msgstr "Yükseklik"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.height.description"
 msgstr ""
+"Tam Ekran Sohbet yüksekliği ne kadar olmalı, piksel olarak. CSS biliyorsanız "
+"başka bir birimde ayarlayabilirsiniz."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.metadata"
-msgstr ""
+msgstr "Metadata Konumu"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.metadata.values.0"
-msgstr ""
+msgstr "Devre Dışı"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.metadata.values.1"
-msgstr ""
+msgstr "Sohbet Üstünde"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
 msgid "setting.entry.addon.fs-chat.metadata.values.2"
-msgstr ""
+msgstr "Sohbet Altında"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.minimal"
-msgstr ""
+msgstr "Minimal Mod"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:126
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.minimal.description"
-msgstr ""
+msgstr "Tam Ekran Sohbet modunda sohbet başlığını ve tuşları gizler."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.no-input"
-msgstr ""
+msgstr "Sohbet girdisini gösterme."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.round"
-msgstr ""
+msgstr "Yuvarlatılmış köşeleri kullan."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.shortcut"
-msgstr ""
+msgstr "Kısayol Tuşu"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.shortcut.description"
-msgstr ""
+msgstr "Tam Ekran Sohbeti açıp kapatmak için bu tuş dizisi kullanılabilir."
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.width"
-msgstr ""
+msgstr "Genişlik"
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.width.description"
 msgstr ""
+"Tam Ekran Sohbet genişliği ne kadar olmalı, piksel olarak. Varsayılan olarak "
+"normal sohbet genişliği kullanılır. CSS biliyorsanız başka bir birimde "
+"ayarlayabilirsiniz."
