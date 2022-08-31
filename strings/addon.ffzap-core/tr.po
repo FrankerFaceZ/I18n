@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-08-31 21:32+0000\n"
+"Last-Translator: Hakan Kayra Doğan <hakankayradogan@gmail.com>\n"
+"Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-ffzap-core/tr/>\n"
+"Language: tr\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "setting.add_ons.ffz_ap_core"
 msgstr "FFZ:AP_Çekirdek"
@@ -71,3 +80,191 @@ msgstr "Moderatör mesajlarını göster"
 
 msgid "setting.entry.ffzap.core.remove_spaces"
 msgstr "Emojiler arasındaki boşluğu kaldır"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Sesin kendi kanalınızda çalmasını engelleyin."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"\"Vurgulanan Rozetler\" listesindeki bir rozet vurgulanırken bir vurgu sesi "
+"çalsın."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"\"Öne Çıkan Terimler\" listesinden bir terim vurgulandığında bir vurgu sesi "
+"çalsın."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Seçilen nedenlerden biri için bir sohbet hattı vurgulandığında bir vurgu "
+"sesi çal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "İfadeler Arasındaki Boşlukları Kaldır"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces.description"
+msgstr ""
+"Birbiri ardına geldiklerinde ifadeler arasındaki boşlukları kaldırın. (ör: "
+"kombo ifadeler)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:73
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-file"
+msgstr "Özel (Dosya)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:60
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.custom-url"
+msgstr "Özel (URL)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:47
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.preset-sound"
+msgstr "Önceden Ayarlanmış Ses"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Sohbet"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "İfadeler"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Vurgu Sesleri"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Ses Tetikleme Ayarları"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Vurgu Sesini Etkinleştir"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Her mesaj vurgulandığında bir ses çal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Ses"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Kendi Kanalımda Engelle"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
+msgstr "Rozet Vurgulandığında Oynat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "FFZ:AP Çekirdeği"
+
+#: /src/ffzap-core/components/highlight-sound.vue:139
+#, icu-message-format
+msgid "addon.ffzap-core.no-file-support"
+msgstr ""
+"Özel dosyalar geçerli depolama sağlayıcısı tarafından desteklenmiyor.\n"
+"Lütfen Veri Yönetimi> Depolama >> Sağlayıcı yolundan depolama sağlayıcınızı "
+"değiştirin."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Bahsedildiğinde Oynat"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr "Kullanıcı adınız sohbette etiketlendiğinde bir vurgu sesi çalın."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term"
+msgstr "Bir Terim Vurgulandığında Oynat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user"
+msgstr "Kullanıcı Vurgulandığında Oynat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Yeni Hesap Vurgulandığında Oynat"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Yeni bir hesap vurgulanırken bir vurgu sesi çalın. (\"Yeni Hesap "
+"Vurgulayıcı\" eklentisi gerektirir)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"\"Kullanıcıları Vurgula\" listesindeki bir kullanıcı vurgulanırken bir vurgu "
+"sesi çalsın."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Şunlarda Çal"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Vurgulama Ses Seviyesi"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Vurgu seslerinin çalınacağı ses seviyesini değiştirin."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr "Bir ses tetikleyicisi etkinleştirildiğinde çalacak sesi değiştirin."
+
+#, icu-message-format
+msgid "setting.entry.ffzap.core.message_deletion.values.0"
+msgstr "Tüm Mesajları Görüntüle"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Mesajlar bu seviye ya da daha üstünde bir kullanıcı tarafından "
+"gönderildiğinde sohbetten tamamen silinecektir."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Kullanıcı Seviyesi Mesaj Filtresi"
