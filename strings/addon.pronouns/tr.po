@@ -1,37 +1,43 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-08-31 21:32+0000\n"
+"Last-Translator: Hakan Kayra Doğan <hakankayradogan@gmail.com>\n"
+"Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-pronouns/tr/>\n"
 "Language: tr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/addons.js:261
 #: /src/pronouns/index.jsx:161
 #, icu-message-format, lp-defaults:"{\"value\":\"Zie/Hir\"}"
 msgid "addon.pronouns.title"
-msgstr ""
+msgstr "Adıllar: {value}"
 
 #: /src/modules/main_menu/index.js:583
 #: /src/modules/main_menu/components/menu-tree.vue:1
 #, icu-message-format
 msgid "setting.add_ons.pronouns"
-msgstr ""
+msgstr "Adıllar"
 
 #: /src/modules/main_menu/index.js:583
 #, icu-message-format
 msgid "setting.add_ons.pronouns.appearance"
-msgstr ""
+msgstr "Görünüm"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.pronouns.per_badge_colors"
-msgstr ""
+msgstr "Rozet Başına Renkler"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.border"
-msgstr ""
+msgstr "Rozet etrafında çerçeve göster."
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.color"
-msgstr ""
+msgstr "Rozet Rengi"
