@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-31 21:32+0000\n"
+"PO-Revision-Date: 2022-09-06 16:32+0000\n"
 "Last-Translator: Hakan Kayra Doğan <hakankayradogan@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/tr/>\n"
@@ -413,339 +413,342 @@ msgstr "Yeni Sekme"
 #: /src/deck/components/bd-edit-video-channel.vue:65
 #, icu-message-format
 msgid "addon.deck.no-live"
-msgstr ""
+msgstr "Akış sırasında kanalın canlı yayınını görüntülemeyin."
 
 #: /src/deck/components/bd-edit-video.vue:69
 #, icu-message-format
 msgid "addon.deck.no-recordings"
-msgstr ""
+msgstr "Devam etmekte oplan yayınlardan videolar gösterme."
 
 #: /src/deck/components/bd-column.vue:699
 #, icu-message-format
 msgid "addon.deck.no-state"
-msgstr ""
+msgstr "(ne yapıyorum)"
 
 #: /src/deck/components/bd-tag-selector.vue:36
 #, icu-message-format
 msgid "addon.deck.no-tags"
-msgstr ""
+msgstr "etiket yok"
 
 #: /src/deck/components/bd-channel-selector.vue:44
 #, icu-message-format
 msgid "addon.deck.no-users"
-msgstr ""
+msgstr "kullanıcı yok"
 
 #: /src/deck/components/bd-column.vue:232
 #: /src/deck/components/bd-column.vue:459
 #, icu-message-format
 msgid "addon.deck.open-settings"
-msgstr ""
+msgstr "Ayarları Aç"
 
 #: /src/deck/components/bd-video-card.vue:77
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.published"
-msgstr ""
+msgstr "{published,date} tarihinde {published,time} saatinde paylaşıldı"
 
 #: /src/deck/components/bd-video-card.vue:56
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.published-human"
-msgstr ""
+msgstr "{published,humantime,1}"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.recommended"
-msgstr ""
+msgstr "Önerilenler"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.recommended.live-tip"
 msgstr ""
+"Bu sütun izleme geçmişinize göre Twitch'in size önerdiği canlı yayındaki "
+"kanalladı gösterir."
 
 #: /src/deck/components/bd-column.vue:329
 #, icu-message-format
 msgid "addon.deck.refresh"
-msgstr ""
+msgstr "Yanile"
 
 #: /src/deck/components/browse-deck.vue:346
 #, icu-message-format
 msgid "addon.deck.refresh-all"
-msgstr ""
+msgstr "Tümünü Yenile"
 
 #: /src/deck/components/bd-column-editor.vue:335
 #, icu-message-format
 msgid "addon.deck.refresh.disabled"
-msgstr ""
+msgstr "Devre Dışı"
 
 #: /src/deck/components/bd-column-editor.vue:180
 #, icu-message-format
 msgid "addon.deck.save"
-msgstr ""
+msgstr "Kaydet"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.search"
-msgstr ""
+msgstr "Ara"
 
 #: /src/deck/components/bd-tag-selector.vue:19
 #, icu-message-format
 msgid "addon.deck.search-tags"
-msgstr ""
+msgstr "Etiket Ara"
 
 #: /src/deck/components/bd-channel-selector.vue:19
 #, icu-message-format
 msgid "addon.deck.search-users"
-msgstr ""
+msgstr "Kullanıcı Ara"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.search.live-tip"
-msgstr ""
+msgstr "Bu sütun aramanıza uygun canlı kanalları gösterir."
 
 #: /src/deck/components/bd-shelf.vue:181
 #, icu-message-format
 msgid "addon.deck.show-less"
-msgstr ""
+msgstr "Daha Az Göster"
 
 #: /src/deck/components/bd-shelf.vue:162
 #, icu-message-format
 msgid "addon.deck.show-more"
-msgstr ""
+msgstr "Daha Fazla Göster"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.created-asc"
-msgstr ""
+msgstr "Yakında Oluşturulan"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.created-desc"
-msgstr ""
+msgstr "Önce Eskiler"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.views-asc"
-msgstr ""
+msgstr "Görüntülenme (Düşükten Yükseğe)"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.clip.views-desc"
-msgstr ""
+msgstr "Görüntülenme (Yüksekten Düşüğe)"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.live.viewers"
-msgstr ""
+msgstr "İzleyiciler (Yüksekten Düşüğe)"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.live.viewers-asc"
-msgstr ""
+msgstr "İzleyiciler (Düşükten Yükseğe-)"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sort.sub.viewers"
-msgstr ""
+msgstr "İzleyiciler"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sort.sub.views"
-msgstr ""
+msgstr "Görüntülenme"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.trending"
-msgstr ""
+msgstr "Trendler"
 
 #: /src/deck/components/bd-column-editor.vue:881
 #: /src/deck/components/bd-column.vue:153
 #, icu-message-format
 msgid "addon.deck.sort.video.recent"
-msgstr ""
+msgstr "Yeni Paylaşılan"
 
 #: /src/deck/components/bd-column.vue:153
 #: /src/deck/components/bd-column-editor.vue:881
 #, icu-message-format
 msgid "addon.deck.sort.video.views"
-msgstr ""
+msgstr "Görüntülenme (Yükekten Düşüğe)"
 
 #: /src/deck/components/browse-deck.vue:191
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.specific-users"
-msgstr ""
+msgstr "Spesifik Kullanıcılar"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.specific-users.tip"
 msgstr ""
+"Bu sütun kullanıcı tarafından ayarlanan canlı yayındaki kanalları gösterir."
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sub.recent"
-msgstr ""
+msgstr "Yeni"
 
 #: /src/deck/components/bd-column.vue:121
 #: /src/deck/components/bd-column.vue:153
 #, icu-message-format, lp-defaults:"{\"count\":1}"
 msgid "addon.deck.sub.tags"
-msgstr ""
+msgstr "{count, plural, one {# etiket} other {# etiket}}"
 
 #: /src/deck/components/bd-column.vue:122
 #: /src/deck/components/bd-column.vue:154
 #, icu-message-format, lp-defaults:"{\"count\":2}"
 msgid "addon.deck.sub.users"
-msgstr ""
+msgstr "{count, plural, one {# Kullanıcı} other {# Kullanıcı}}"
 
 #: /src/deck/components/bd-column.vue:121
 #, icu-message-format
 msgid "addon.deck.sub.views"
-msgstr ""
+msgstr "Görüntülenme"
 
 #: /src/deck/components/bd-tab-settings.vue:80
 #, icu-message-format
 msgid "addon.deck.tab-name"
-msgstr ""
+msgstr "Sekme #{count}"
 
 #: /src/deck/components/bd-tab-settings.vue:106
 #, icu-message-format
 msgid "addon.deck.tab-name.sidebar"
-msgstr ""
+msgstr "Kenar Çubuğu Sekmesi"
 
 #: /src/deck/components/browse-deck.vue:423
 #: /src/deck/components/bd-tab-settings.vue:17
 #, icu-message-format
 msgid "addon.deck.tab-settings"
-msgstr ""
+msgstr "Sekme Ayarları"
 
 #: /src/deck/components/browse-deck.vue:361
 #: /src/deck/components/bd-tab-editor.vue:33
 #, icu-message-format
 msgid "addon.deck.tab-sidebar"
-msgstr ""
+msgstr "Bu sekme kenar çubuğu tarafından kullanılmaktadır."
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.team"
-msgstr ""
+msgstr "Ekip"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
 msgid "addon.deck.team.live-tip"
-msgstr ""
+msgstr "Bu sütun belirli bir Ekipteki canlı yayındaki kanalları gösterir."
 
 #: /src/deck/components/bd-column.vue:689
 #, icu-message-format
 msgid "addon.deck.throttled"
-msgstr ""
+msgstr "Biraz bekleyin..."
 
 #: /src/deck/index.jsx:227
 #, icu-message-format
 msgid "addon.deck.title"
-msgstr ""
+msgstr "Deste"
 
 #: /src/deck/components/bd-stream-indicator.vue:56
 #, icu-message-format
 msgid "addon.deck.type.ARCHIVE"
-msgstr ""
+msgstr "Geçmiş Yayınlar"
 
 #: /src/deck/components/bd-stream-indicator.vue:56
 #, icu-message-format
 msgid "addon.deck.type.host"
-msgstr ""
+msgstr "Hostlama"
 
 #: /src/deck/components/bd-column.vue:384
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.unset"
-msgstr ""
+msgstr "(Ayarlanmamış)"
 
 #: /src/deck/components/bd-column-editor.vue:325
 #, icu-message-format
 msgid "addon.deck.video-followed"
-msgstr ""
+msgstr "Takip Edilen Videolar"
 
 #: /src/deck/components/bd-edit-video.vue:92
 #, icu-message-format
 msgid "addon.deck.video-type.archive"
-msgstr ""
+msgstr "Geçmiş Yayınlar"
 
 #: /src/deck/components/bd-edit-video.vue:92
 #, icu-message-format
 msgid "addon.deck.video-type.highlight"
-msgstr ""
+msgstr "Öne Çıkarılanlar"
 
 #: /src/deck/components/bd-edit-video.vue:92
 #, icu-message-format
 msgid "addon.deck.video-type.past_premiere"
-msgstr ""
+msgstr "Geçmiş Prömiyerler"
 
 #: /src/deck/components/bd-edit-video.vue:92
 #, icu-message-format
 msgid "addon.deck.video-type.upload"
-msgstr ""
+msgstr "Yüklemeler"
 
 #: /src/deck/components/bd-edit-video.vue:85
 #, icu-message-format
 msgid "addon.deck.video-types"
-msgstr ""
+msgstr "Video Türleri:"
 
 #: /src/deck/components/bd-live-card.vue:21
 #: /src/deck/components/bd-live-shelf-card.vue:132
 #: /src/deck/components/bd-host-card.vue:17
 #, icu-message-format, lp-defaults:"{\"viewers\":49}"
 msgid "addon.deck.viewers"
-msgstr ""
+msgstr "{viewers, plural, one {# izleyici} other {# izleyici}}"
 
 #: /src/deck/components/bd-video-card.vue:25
 #, icu-message-format, lp-defaults:"{}"
 msgid "addon.deck.views"
-msgstr ""
+msgstr "{count, plural, one {# görüntülenme} other {# görüntülenme}}"
 
 #: /src/deck/components/bd-column-editor.vue:447
 #, icu-message-format
 msgid "addon.deck.width.0"
-msgstr ""
+msgstr "Küçük"
 
 #: /src/deck/components/bd-column-editor.vue:455
 #, icu-message-format
 msgid "addon.deck.width.1"
-msgstr ""
+msgstr "Orta"
 
 #: /src/deck/components/bd-column-editor.vue:463
 #, icu-message-format
 msgid "addon.deck.width.2"
-msgstr ""
+msgstr "Büyük"
 
 #: /src/deck/index.jsx:227
 #, icu-message-format
 msgid "addons.deck.title"
-msgstr ""
+msgstr "Deste"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.deck"
-msgstr ""
+msgstr "Deste"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.deck.appearance"
-msgstr ""
+msgstr "Görünüm"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.deck.behavior"
-msgstr ""
+msgstr "Davranış"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.deck.auto-settings"
-msgstr ""
+msgstr "Yeni sütun oluşturulduğunda ayarlar otomatik olarak açılsın."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.deck.link"
-msgstr ""
+msgstr "Twitch sitesinin üstüne Deste linki ekle."
