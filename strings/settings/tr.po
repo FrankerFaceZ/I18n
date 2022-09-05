@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-31 21:32+0000\n"
+"PO-Revision-Date: 2022-09-06 16:32+0000\n"
 "Last-Translator: Hakan Kayra Doğan <hakankayradogan@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/tr/>\n"
@@ -162,13 +162,13 @@ msgstr "Renk"
 msgid "setting.actions.color.warn"
 msgstr ""
 "Buradaki değerler chat renk ayarlarının görünürlüğüne göre otomatik "
-"ayarlanacaktır. "
+"ayarlanacaktır."
 
 msgid "setting.actions.delete-all"
-msgstr "Bu profilin tüm eylemlerini sil"
+msgstr "Bu profilin tüm eylemlerini sil."
 
 msgid "setting.actions.drag"
-msgstr "Komutları sürükle ve bırak yöntemi ile sıraya dizebilirsiniz"
+msgstr "Komutları sürükle ve bırak yöntemi ile sıraya dizebilirsiniz."
 
 msgid "setting.actions.duration"
 msgstr "Süre"
@@ -189,7 +189,7 @@ msgid "setting.actions.icon"
 msgstr "Simge"
 
 msgid "setting.actions.new"
-msgstr "Yeni"
+msgstr "Yeni..."
 
 msgid "setting.actions.no-actions"
 msgstr "bu profilde eylemler belirtilmemiş"
@@ -198,7 +198,7 @@ msgid "setting.actions.no-visible"
 msgstr "Görünen bir eylem yok"
 
 msgid "setting.actions.preview"
-msgstr "Ön izleme"
+msgstr "Ön izleme:"
 
 msgid "setting.actions.preview.all"
 msgstr "Herşeyi göster"
@@ -207,7 +207,7 @@ msgid "setting.actions.preview.deleted"
 msgstr "Silinmiş mesaj"
 
 msgid "setting.actions.preview.emote-only"
-msgstr "Sadece emoji "
+msgstr "Sadece ifade"
 
 msgid "setting.actions.preview.followers"
 msgstr "Sadece takipçiler"
@@ -225,7 +225,7 @@ msgid "setting.actions.preview.slow"
 msgstr "Yavaş mod"
 
 msgid "setting.actions.preview.subs"
-msgstr "Sadece aboneler "
+msgstr "Sadece aboneler"
 
 msgid "setting.actions.reason"
 msgstr "Varsayılan neden"
@@ -249,7 +249,7 @@ msgid "setting.actions.variables"
 msgstr "Muhtemel değişkenler: {vars}"
 
 msgid "setting.actions.visibility"
-msgstr "Görünürlük "
+msgstr "Görünürlük"
 
 msgid "setting.actions.visible"
 msgstr "görünür: {list}"
@@ -261,10 +261,10 @@ msgid "setting.actions.visible.deleted"
 msgstr "mesaj silinmişse"
 
 msgid "setting.actions.visible.mod"
-msgstr "moderatör iken "
+msgstr "moderatör iken"
 
 msgid "setting.actions.visible.mod_icons"
-msgstr "mod simgeleri görünürken "
+msgstr "mod simgeleri görünürken"
 
 msgid "setting.actions.visible.slow"
 msgstr "ağır moddayken"
@@ -344,21 +344,21 @@ msgstr ""
 "profilin kendini güncel tutmasını istiyor musunuz?"
 
 msgid "setting.backup-restore.disable-auto"
-msgstr "Hayır, otomatik güncellemeyi durdur"
+msgstr "Hayır, otomatik güncellemeyi durdur."
 
 msgid "setting.backup-restore.enable-auto"
-msgstr "Evet, otomatik güncellemeye izin ver"
+msgstr "Evet, otomatik güncellemeye izin ver."
 
 msgid "setting.backup-restore.error"
 msgstr "Kayıt işleminde bir hata oluştu."
 
 msgid "setting.backup-restore.imported"
 msgstr ""
-"\"{name}\" profili {count,number} sayıda ayarla{count,en_plural} dışarıdan "
-"aktarıldı."
+"\"{name}\" profili {count, plural, one {# ayarlar} other {# ayarla}} "
+"dışarıdan aktarıldı."
 
 msgid "setting.backup-restore.imported-at"
-msgstr "{now,datetime} tarihinde dışarıdan aktarıldı"
+msgstr "{now,datetime} tarihinde içe aktarıldı."
 
 msgid "setting.backup-restore.non-supported"
 msgstr "Bu dosya geçerli bir yedekleme formatı değil."
@@ -367,13 +367,13 @@ msgid "setting.backup-restore.old-file"
 msgstr "Bu dosya geçersiz veya başka bir FFZ sürümünden olduğu için kullanılamıyor."
 
 msgid "setting.backup-restore.pick-profile"
-msgstr "Lütfen dışarıdan aktarmak için bir profil seçin"
+msgstr "Lütfen içe aktarmak için bir profil seçin."
 
 msgid "setting.backup-restore.restore-backup"
 msgstr "Ayarları Geri Yükle"
 
 msgid "setting.backup-restore.restored"
-msgstr "{count,number} girdi eski haline döndürüldü, lütfen sayfayı yenileyin"
+msgstr "{count,number} girdi eski haline döndürüldü, lütfen sayfayı yenileyin."
 
 msgid "setting.backup-restore.save-backup"
 msgstr "Ayarları Kaydet"
@@ -854,7 +854,7 @@ msgid "setting.entry.chat.bits.stack.description"
 msgstr "Tüm cheerları tek bir mesaja topla ve mesajın başına ekle"
 
 msgid "setting.entry.chat.bits.stack.values.0"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.chat.bits.stack.values.1"
 msgstr "Türe göre gruplanmış"
@@ -1091,7 +1091,7 @@ msgid "setting.entry.chat.filtering.remove-deleted.values.1"
 msgstr "Görünmeyenleri sil (varsayılan)"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
-msgstr "Görünmeyenleri moderatör olarak sil "
+msgstr "Görünmeyenleri moderatör olarak sil"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.3"
 msgstr "Herşeyi sil"
@@ -1123,7 +1123,7 @@ msgid "setting.entry.chat.lines.borders"
 msgstr "Ayırıcılar"
 
 msgid "setting.entry.chat.lines.borders.values.0"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.chat.lines.borders.values.1"
 msgstr "Basit çizgi (1px)"
@@ -1291,7 +1291,7 @@ msgid "setting.entry.chat.scroller.smooth-scroll"
 msgstr "Yumuşak Kaydırma"
 
 msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.chat.scroller.smooth-scroll.values.1"
 msgstr "Yavaş"
@@ -1331,7 +1331,7 @@ msgid "setting.entry.chat.subs.merge-gifts.values.10"
 msgstr "10'dan fazla"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.1000"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.20"
 msgstr "20'den fazla"
@@ -1453,7 +1453,7 @@ msgstr ""
 "göster"
 
 msgid "setting.entry.directory.following.host-menus.values.0"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.directory.following.host-menus.values.1"
 msgstr "Birden fazla kişi misafir yayın yapıyorsa"
@@ -1490,7 +1490,7 @@ msgid "setting.entry.directory.uptime.description"
 msgstr "Kanal bilgilerinde yayın süresini göster"
 
 msgid "setting.entry.directory.uptime.values.0"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.directory.uptime.values.1"
 msgstr "Etkinleştirildi"
@@ -1535,7 +1535,7 @@ msgid "setting.entry.i18n.debug.transform.values.lower"
 msgstr "Küçük harf"
 
 msgid "setting.entry.i18n.debug.transform.values.null"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.i18n.debug.transform.values.owo"
 msgstr "owo_bu da ne"
@@ -1685,7 +1685,7 @@ msgid "setting.entry.metadata.uptime"
 msgstr "Yayın süresi"
 
 msgid "setting.entry.metadata.uptime.values.0"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.metadata.uptime.values.1"
 msgstr "Etkinleştirildi"
@@ -1880,7 +1880,7 @@ msgid "setting.entry.socket.use-cluster.values.Development"
 msgstr "Geliştirme"
 
 msgid "setting.entry.socket.use-cluster.values.null"
-msgstr "Devre dışı "
+msgstr "Devre dışı"
 
 msgid "setting.entry.socket.use-cluster.values.Production"
 msgstr "Yapım"
@@ -1958,16 +1958,16 @@ msgstr ""
 "için sayfayı yeniden başlatmak zorunda olduğunuzu not düşelim."
 
 msgid "setting.experiments.active"
-msgstr "Bu deney aktiftir. "
+msgstr "Bu deney aktiftir."
 
 msgid "setting.experiments.entry"
-msgstr "{value,tostring} (weight: {weight,tostring})"
+msgstr "{value,tostring} (ağırlık: {weight,tostring})"
 
 msgid "setting.experiments.ffz"
 msgstr "FrankerFaceZ Deneysel"
 
 msgid "setting.experiments.inactive"
-msgstr "Bu deney aktif değildir. "
+msgstr "Bu deney aktif değildir."
 
 msgid "setting.experiments.sort-name"
 msgstr "Sort By: İsim"
@@ -2012,16 +2012,16 @@ msgid "setting.filters.empty"
 msgstr "(filtre yok)"
 
 msgid "setting.filters.if.fail"
-msgstr "Bu daldaki değerler yanlış koşullanmadan dolayı etkin "
+msgstr "Bu daldaki değerler yanlış koşullanmadan dolayı etkin."
 
 msgid "setting.filters.if.no_fail"
-msgstr "Bu daldaki değerler doğru koşullanmadan dolayı etkin değil"
+msgstr "Bu daldaki değerler doğru koşullanmadan dolayı etkin değil."
 
 msgid "setting.filters.if.no_pass"
-msgstr "Bu daldaki değerler yanlış koşullanmadan dolayı etkin değil"
+msgstr "Bu daldaki değerler yanlış koşullanmadan dolayı etkin değil."
 
 msgid "setting.filters.if.pass"
-msgstr "Bu daldaki değerler doğru koşullanmadan dolayı etkin "
+msgstr "Bu daldaki değerler doğru koşullanmadan dolayı etkin."
 
 msgid "setting.filters.inactive"
 msgstr "Bu kural uyuşmuyor."
@@ -2054,7 +2054,7 @@ msgid "setting.icon.search"
 msgstr "Simgeyi ara"
 
 msgid "setting.import"
-msgstr "İçe aktar"
+msgstr "İçe aktar…"
 
 msgid "setting.inherited-from"
 msgstr "Buradan alındı: {title}"
@@ -2108,7 +2108,7 @@ msgid "setting.player.general.volume"
 msgstr "Ses"
 
 msgid "setting.profile.updates"
-msgstr "Bu profil bu URL'den otomatik olarak güncellenecektir: "
+msgstr "Bu profil bu URL'den otomatik olarak güncellenecektir:"
 
 msgid "setting.profiles.active"
 msgstr "Bu profil etkinleştirildi ve aktiftir."
@@ -2120,7 +2120,7 @@ msgid "setting.profiles.default"
 msgstr "Varsayılan Profil"
 
 msgid "setting.profiles.default.description"
-msgstr "Twitch'in tümünde geçerli olan ayarlar"
+msgstr "Twitch'in tümünde geçerli olan ayarlar."
 
 msgid "setting.profiles.disabled"
 msgstr "Bu profil devre dışıdır."
@@ -2145,7 +2145,7 @@ msgid "setting.profiles.moderation"
 msgstr "Moderasyon"
 
 msgid "setting.profiles.moderation.description"
-msgstr "Modlar için chat ayarları"
+msgstr "Modlar için chat ayarları."
 
 msgid "setting.profiles.new"
 msgstr "Yeni Profil"
@@ -2157,13 +2157,13 @@ msgid "setting.reasons.add-default"
 msgstr "Varsayılan ekle"
 
 msgid "setting.reasons.add-default-tip"
-msgstr "Bu profile tüm varsayılan nedenleri ekle"
+msgstr "Bu profile tüm varsayılan nedenleri ekle."
 
 msgid "setting.reasons.add-placeholder"
 msgstr "Yeni bir neden ekle"
 
 msgid "setting.reasons.delete-all"
-msgstr "Bu profilin tüm gerekçelerini sil"
+msgstr "Bu profilin tüm gerekçelerini sil."
 
 msgid "setting.reasons.info"
 msgstr ""
@@ -2192,7 +2192,7 @@ msgid "setting.terms.no-terms"
 msgstr "bu profilde terimler belirtilmemiş"
 
 msgid "setting.terms.remove.off"
-msgstr "Benzer mesajları chatten temizlemeyi engelle"
+msgstr "Benzer mesajları chatten temizlemeyi engelle."
 
 msgid "setting.terms.type.glob"
 msgstr "Glob"
@@ -2201,13 +2201,13 @@ msgid "setting.terms.type.regex"
 msgstr "Regex"
 
 msgid "setting.terms.type.regex-word"
-msgstr "Regex (Word)"
+msgstr "Regex (Kelime)"
 
 msgid "setting.terms.type.text"
 msgstr "Yazı"
 
 msgid "setting.tooltip-example"
-msgstr "Örnek olarak fareyi bu linkin üzerinde tutun"
+msgstr "Örnek olarak fareyi bu linkin üzerinde tutun:"
 
 msgid "setting.true"
 msgstr "Doğru"
@@ -2239,7 +2239,7 @@ msgid "settings.filter.invert"
 msgstr "Ters çevir"
 
 msgid "settings.filter.moderator"
-msgstr "bir moderatördür."
+msgstr "Moderatör mü"
 
 msgid "settings.filter.native-dark"
 msgstr "Koyu tema"
@@ -2308,7 +2308,7 @@ msgid "settings.filter.page.route.prime"
 msgstr "Prime"
 
 msgid "settings.filter.page.route.product"
-msgstr "Ürün "
+msgstr "Ürün"
 
 msgid "settings.filter.page.route.squad"
 msgstr "Takım"
@@ -2329,7 +2329,7 @@ msgid "settings.filter.page.route.user-collections"
 msgstr "Kullanıcı koleksiyonları"
 
 msgid "settings.filter.page.route.user-events"
-msgstr "Kullanıcı etkinlikleri "
+msgstr "Kullanıcı etkinlikleri"
 
 msgid "settings.filter.page.route.user-followers"
 msgstr "Kullanıcı takipçileri"
@@ -2356,10 +2356,20 @@ msgid "settings.filter.time"
 msgstr "Güncel Saat"
 
 msgid "settings.filter.time.end"
-msgstr "Bitiş: "
+msgstr "Bitiş:"
 
 msgid "settings.filter.time.start"
 msgstr "Başlangıç:"
 
 msgid "settings.filter.true_false"
 msgstr "Doğru veya Yanlış"
+
+#: /src/modules/main_menu/components/addon.vue:51
+#, icu-message-format
+msgid "addon.dev"
+msgstr "Geliştirici"
+
+#: /src/modules/main_menu/components/addon.vue:157
+#, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
+msgid "addon.created"
+msgstr "Oluşturulma Tarihi: {when,date}"
