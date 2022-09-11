@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-18 12:32+0000\n"
-"Last-Translator: Jay Beat5 <steel12379@gmail.com>\n"
+"PO-Revision-Date: 2022-09-12 10:32+0000\n"
+"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/ru/>\n"
 "Language: ru\n"
@@ -632,7 +632,7 @@ msgstr "Загрузка..."
 msgid "setting.backup-restore.imported"
 msgstr ""
 "Профиль \"{name}\" был успешно импортирован с помощью {count, plural, one {# "
-"настройки} other {# настроек}}."
+"настройки} few {# настроек} other {# настроек}}."
 
 msgid "setting.backup-restore.imported-at"
 msgstr "Импортировано {now,datetime}."
@@ -658,7 +658,9 @@ msgid "setting.backup-restore.save-backup"
 msgstr "Сохранить"
 
 msgid "setting.badges.hidden"
-msgstr "{count,plural,one{# значок} other{# значка(ов)} } спрятан(о) в этом наборе"
+msgstr ""
+"{count,plural,one{# значок спрятан} few {# значка спрятано} other{# значков "
+"спрятано}} в этом наборе"
 
 msgid "setting.cancel"
 msgstr "Отменить"
@@ -4741,3 +4743,40 @@ msgstr ""
 "\n"
 "По умолчанию из-за предыдущей реализации это значение наследуется от [Чат > "
 "Bits и Cheers> Отображать Bits](~chat.bits_and_cheering)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Подписки"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:44
+#, icu-message-format
+msgid "setting.font.google"
+msgstr "Шрифты Google"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.font"
+msgstr "Шрифт"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor"
+msgstr "Компрессор"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.position"
+msgstr "Расположение"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.extensions"
+msgstr "Расширения"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home"
+msgstr "Главная"
