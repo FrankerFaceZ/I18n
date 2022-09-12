@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-12 00:32+0000\n"
+"PO-Revision-Date: 2022-09-13 20:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -5966,7 +5966,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-mouse"
 msgstr "Dölj muspekaren när kontrollerna inte visas."
 
-#, fuzzy, icu-message-format
+#, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.ext-interaction"
 msgstr "Tillåt musinteraktioner med överläggstillägg."
@@ -6599,3 +6599,37 @@ msgstr "Aktivera meddelandefångst."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.side-nav.rerun-style"
 msgstr "Visa repriser"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.scroll.description"
+msgstr ""
+"Justera förstärkningen genom att rulla med mushjulet. Denna inställning har "
+"högre prioritet än att justera volymen genom att rulla. *Denna inställning "
+"kommer inte att fungera ordentligt på streamar med synliga tillägg när "
+"musinteraktioner med tillägg tillåts.*"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"Dölj reprisfältet som dyker upp ovanför spelaren när nuvarande kanal spelar "
+"upp en video istället för direktsänt innehåll."
+
+#: /src/modules/main_menu/index.js:477
+#, icu-message-format
+msgid "setting.entry.player.embed-metadata"
+msgstr "Visa metadata när musen ligger över spelaren."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Inkludera en skärmdump på inställningarna i rapporter."
+
+#: /src/modules/main_menu/components/menu-page.vue:125
+#, icu-message-format
+msgid "setting.profile.updates-about"
+msgstr ""
+"Denna profil uppdateras automatiskt. När den gör det kommer alla dess "
+"inställningar att återställas. Profilregler kommer också att återställas."
