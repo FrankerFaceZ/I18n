@@ -1,5 +1,14 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2022-09-16 05:32+0000\n"
+"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/settings/es/>\n"
+"Language: es\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.author"
 msgstr "Por: {author}"
@@ -3303,3 +3312,408 @@ msgstr "Este patrón es inválido."
 
 msgid "settings.filter.true_false"
 msgstr "Verdadero o Falso"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout"
+msgstr "Diseño"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.channel"
+msgstr "Canal"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.clips"
+msgstr "Clips"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Navegación Lateral"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Navegación Superior"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center"
+msgstr "Centro de Control"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center.search"
+msgstr "Buscar"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.description"
+msgstr ""
+"Personalizar la apariencia de Twitch. Cambie la combinación de colores y las "
+"fuentes y ajuste el diseño para optimizar su experiencia."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat"
+msgstr "Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.development"
+msgstr "Desarrollo"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:136
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization"
+msgstr "Localización"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Esto es una vista rápida del nuevo sistema que vendrá a FrankerFaceZ. Se "
+"esperan grandes cambios aquí, incluido separar modos Básicos y Avanzados, y "
+"mejor selección de colores."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel"
+msgstr "Canal"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.clips"
+msgstr "Clips"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Aquí puedes definir acciones personalizadas que aparecerán en menú "
+"contextual al hacer clic con el botón derecho en un nombre de usuario en el "
+"chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community"
+msgstr "Comunidad"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Esta función está actualmente en beta. Como tal, puede experimentar "
+"problemas al usar las funciones de FFZ con Chat en videos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme"
+msgstr "Tema"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors"
+msgstr "Colores"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.fonts"
+msgstr "Fuentes"
+
+#: /src/modules/main_menu/components/profile-manager.vue:429
+#, icu-message-format
+msgid "setting.backup-restore.http-error"
+msgstr "No se puede leer JSON de la URL proporcionada."
+
+#: /src/modules/main_menu/components/profile-manager.vue:416
+#, icu-message-format
+msgid "setting.backup-restore.http-loading"
+msgstr "Cargando..."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.appearance.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior"
+msgstr "Comportamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.hosting"
+msgstr "Alojar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.raids"
+msgstr "Raideos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.squads"
+msgstr "Escuadrones"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata"
+msgstr "Metadatos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.player"
+msgstr "Jugador"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.subscription"
+msgstr "Suscripción"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions"
+msgstr "Acciones"
+
+#: /src/modules/main_menu/index.js:583
+#, icu-message-format
+msgid "setting.chat.actions.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons"
+msgstr "Razones"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.custom_reasons"
+msgstr "Razones Personalizadas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.reasons.rules"
+msgstr "Reglas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room"
+msgstr "Habitación"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.user_context"
+msgstr "Contexto de Usuario"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Líneas del Chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.colors"
+msgstr "Colores"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community_chest"
+msgstr "Cofre de la Comunidad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emoji"
+msgstr "Emoticono"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emotes"
+msgstr "Emoticonos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.replies"
+msgstr "Respuestas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Suscripción"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.usernames"
+msgstr "Nombres de usuarios"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges"
+msgstr "Insignias"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs"
+msgstr "Pestañas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Visibilidad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior"
+msgstr "Comportamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Mensajes Eliminados"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Emoticono"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.scrolling"
+msgstr "Desplazar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Comportamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points"
+msgstr "Puntos del Canal"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.behavior"
+msgstr "Comportamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos"
+msgstr "Chat y Vídeos"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu"
+msgstr "Menú de Emoticonos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Ordenamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering"
+msgstr "Filtrado"
