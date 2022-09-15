@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-17 00:15+0000\n"
-"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"PO-Revision-Date: 2022-09-16 05:32+0000\n"
+"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.deck.title"
 msgstr "Deck"
@@ -751,3 +751,8 @@ msgstr "Comportamiento"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.deck.link"
 msgstr "Añadir un enlace a la Baraja en la parte superior de Twitch."
+
+#: /src/deck/side-components/bd-shelf.vue:112
+#, icu-message-format
+msgid "addon.deck.empty"
+msgstr "No hay resultados."
