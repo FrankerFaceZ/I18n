@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-07 16:32+0000\n"
+"PO-Revision-Date: 2022-09-17 18:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -58,7 +58,7 @@ msgid "chat.actions.select-reason"
 msgstr "Vänligen välj en anledningen i listan nedan:"
 
 msgid "chat.actions.timeout"
-msgstr "Sätt Timeout för Användare"
+msgstr "Ange timeout för användare"
 
 msgid "chat.actions.timeout-reason"
 msgstr ""
@@ -74,7 +74,7 @@ msgstr ""
 "sekunder}}"
 
 msgid "chat.actions.unban"
-msgstr "Avbanna Användare"
+msgstr "Upphäv bannlysning av användare"
 
 msgid "chat.actions.unknown"
 msgstr "Okänd Åtgärdstyp"
@@ -754,7 +754,7 @@ msgstr "Visningar: {views,number} • Följare: {followers,number}"
 #: /src/modules/chat/actions/types.jsx:245
 #, icu-message-format, lp-defaults:"{\"user.login\":\"sirstendec\"}"
 msgid "chat.actions.unban.tooltip"
-msgstr "Avbanna {user.login}"
+msgstr "Upphäv bannlysning av {user.login}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
