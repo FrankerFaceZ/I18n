@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-24 17:32+0000\n"
+"PO-Revision-Date: 2022-09-24 17:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -23,7 +23,7 @@ msgstr "創建於:{when,date}"
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.deck.author"
-msgstr "SirStendec(Stendec先生)"
+msgstr "SirStendec"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
@@ -53,7 +53,7 @@ msgstr "啟用"
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.ffzap-bttv.author"
-msgstr "Lordmau5(mau王五世)"
+msgstr "Lordmau5"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
@@ -63,7 +63,7 @@ msgstr "BetterTTV 表情符號"
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.ffzap-core.author"
-msgstr "Lordmau5(mau王五世)"
+msgstr "Lordmau5"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
@@ -73,12 +73,12 @@ msgstr "FrankerFaceZ 擴充包 - 核心"
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
 msgid "addon.ffzap-liriklive.author"
-msgstr "Lordmau5(mau王五世)"
+msgstr "Lordmau5"
 
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-liriklive.name"
-msgstr "LirikLIVE(Lirik實況)"
+msgstr "LirikLIVE"
 
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
@@ -2376,7 +2376,7 @@ msgstr "果冻"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.emojione"
-msgstr "表情符號一代"
+msgstr "表情符號一"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2664,12 +2664,12 @@ msgstr "透過單擊聊天中嘅提及嚟打開觀眾名片。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions"
-msgstr "顯示用戶名色水喺聊天中嘅提及。"
+msgstr "顯示喺聊天中提及嘅用戶名色水。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions.description"
-msgstr "**注意：** 與色水覆蓋唔兼容，因為提及唔包含用戶ID。"
+msgstr "**注意：** 與色水覆蓋唔兼容，因為提及唔包含用戶ID內嵌。"
 
 #: /src/modules/main_menu/index.js:625
 #, icu-message-format
