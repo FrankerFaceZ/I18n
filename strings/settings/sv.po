@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-17 18:32+0000\n"
+"PO-Revision-Date: 2022-10-16 15:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -2453,7 +2453,7 @@ msgid "settings.filter.squad"
 msgstr "Gruppläge"
 
 msgid "settings.filter.theater"
-msgstr "Teaterläge"
+msgstr "Bioläge"
 
 msgid "settings.filter.time"
 msgstr "Tid på dagen"
@@ -3505,7 +3505,7 @@ msgstr "Tröskel"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.gain.min"
-msgstr "Minimal"
+msgstr "Minimalt"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -3762,7 +3762,7 @@ msgstr "Allmänt"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.rituals"
-msgstr "Ritualer"
+msgstr "Välkomstmeddelanden"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -3793,7 +3793,7 @@ msgstr "Användare"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.rituals"
-msgstr "Ritualer"
+msgstr "Välkomstmeddelanden"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
@@ -3889,7 +3889,7 @@ msgstr "Datahantering"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.backup_and_restore"
-msgstr "Säkerhetskopiera/återställning"
+msgstr "Säkerhetskopiera/återställ"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3987,7 +3987,7 @@ msgstr "Lägg till extra länkar i livekanalsidor intill namnet på streamern."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-live-indicator"
-msgstr "Dölj \"LIVE\"-indikatorn på livekanalsidor."
+msgstr "Dölj \"LIVE\"-indikatorn på kanalsidor som direktsänder."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4132,7 +4132,7 @@ msgstr "Typsnittsstorlek"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.general.theatre_mode"
-msgstr "Teaterläge"
+msgstr "Bioläge"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4677,7 +4677,7 @@ msgstr "Visningsstil"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled"
-msgstr "Visa formaterat innehåll i chatten"
+msgstr "Visa formaterat innehåll i chatten."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -4732,7 +4732,7 @@ msgstr "Alltid"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theatre-navigation"
-msgstr "Visa ett minimerat navigeringsfält när teaterläge har aktiverats."
+msgstr "Visa ett minimerat navigeringsfält när bioläge har aktiverats."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -4768,7 +4768,7 @@ msgstr "Förhållande"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.theatre.auto-enter"
-msgstr "Öppna automatiskt teaterläget när en kanal besöks."
+msgstr "Öppna automatiskt bioläget när en kanal besöks."
 
 #: /src/modules/main_menu/components/setting-text-box.vue:19
 #, icu-message-format
@@ -4785,7 +4785,7 @@ msgstr "Maximalt"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.theatre.no-whispers"
-msgstr "Dölj viskningar när teaterläget har aktiverats."
+msgstr "Dölj viskningar när bioläget har aktiverats."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6202,7 +6202,7 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled.description"
 msgstr ""
-"Display FFZ-dekaler, -emotes och andra funktioner i Chatt på videor. "
+"Visa FFZ-dekaler, -emotes och andra funktioner i Chatt på videor. "
 "Modereringsfunktioner kan vara otillgängliga när detta aktiveras."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:36
@@ -6633,3 +6633,149 @@ msgid "setting.profile.updates-about"
 msgstr ""
 "Denna profil uppdateras automatiskt. När den gör det kommer alla dess "
 "inställningar att återställas. Profilregler kommer också att återställas."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Åsidosätt positionen för undertexter. Detta kan vara ett procentvärde, som `"
+"10 %`, eller antal bildpunkter, som `50px`."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.knee.description"
+msgstr ""
+"**Intervall:** 0 ~ 40\n"
+"\n"
+"Ett decibelvärde som representerar intervallet ovanför tröskeln där kurvan "
+"övergår mjukt till den komprimerade delen."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.ext-hide.description"
+msgstr ""
+"OBS: Denna funktion förhindrar inte tillägg från att läsas in. Dolda tillägg "
+"är bara osynliga. Din säkerhet kommer inte att förbättras genom att dölja "
+"tillägg med denna funktion."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.allow-catchup.description"
+msgstr ""
+"Som standard kommer Twitch snabba på videohastigheten på sändningar när du "
+"har en stor fördröjning gentemot direktsändningen för att kunna hinna ifatt "
+"den. Detta kan leda till att ljudet förvrängs. Inaktivera detta för att "
+"förhindra automatiska hastighetsförändringar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rituals.show"
+msgstr "Visa välkomstmeddelanden som \"Användaren är ny här! Hälsa!\"."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Sändare: Observera att miniatyrer kan skildra olämpligt innehåll, så var "
+"försiktig när du fångar upp chatten när detta aktiveras..*"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Åsidosätt positionen för undertexter. Detta kan vara ett procentvärde, som `"
+"10 %`, eller antal bildpunkter, som `50px`."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"Hur stora undertexter bör vara. Detta kan vara ett procentvärde, som `10 %`, "
+"eller antal bildpunkter, som `50px`."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.ratio.description"
+msgstr ""
+"**Intervall:** 0 ~ 20\n"
+"\n"
+"Mängden förändring, i dB, som krävs för inmatningen hos en förändring på 1 "
+"dB i utmatningen."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.release.description"
+msgstr ""
+"**Range:** 0 ~ 1\n"
+"Tidsmängden, i sekunder, som krävs för att öka förstärkningen med 10 dB."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.attack.description"
+msgstr ""
+"**Intervall:** 0 ~ 1\n"
+"\n"
+"Tidsmängden, i sekunder, som krävs för att reducera förstärkningen med 10 dB."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.default.description"
+msgstr ""
+"Standardvärdet för förstärkningskontroll, när det aktiveras. 100 % innebär "
+"ingen volymförändring."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.max.description"
+msgstr ""
+"**Intervall:** 100 ~ 1000\n"
+"\n"
+"Det maximala tillåtna värdet för förstärkningskontroll. 100 % innebär ingen "
+"förändring. 200 % är dubbel volym."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.threshold.description"
+msgstr ""
+"**Intervall:** -100 ~ 0\n"
+"\n"
+"Decibelvärdet ovan som komprimeringen kommer träda i kraft."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.min.description"
+msgstr ""
+"**Intervall:** 0 ~ 100\n"
+"\n"
+"Det minimala tillåtna värdet för förstärkningskontroll. 0 % tystar ljudet."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.no-volume.description"
+msgstr ""
+"När detta aktiveras kommer den inbyggda volymkontrollen att döljas och "
+"förstärkningskontrollen vara det enda sättet att ändra volymen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.home.autoplay"
+msgstr "Spela automatiskt upp främjade sändningar på startsidan."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"Vilket serverkluster att ansluta till. Ändra inte detta såvida om inte gör "
+"utvecklingsarbete på socketserverns backend. Om du gör det kommer alla "
+"funktioner som förlitar sig på socketservern att förstöras, inklusive "
+"informationssökningar för emotes, inforutor för länkar och direktuppdaterad "
+"data."
