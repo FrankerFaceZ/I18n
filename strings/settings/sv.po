@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-16 15:32+0000\n"
+"PO-Revision-Date: 2022-10-25 00:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -6779,3 +6779,23 @@ msgstr ""
 "funktioner som förlitar sig på socketservern att förstöras, inklusive "
 "informationssökningar för emotes, inforutor för länkar och direktuppdaterad "
 "data."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Försöker aktivera/inaktivera bild-i-bild-läget för spelarens video när bild-i"
+"-bild-knappen klickas."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.description"
+msgstr ""
+"Detta visar den nuvarande kanalens tittarantal utan en animering när den "
+"förändras."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Åsidosätt typsnittet som används för att visa undertexter."
