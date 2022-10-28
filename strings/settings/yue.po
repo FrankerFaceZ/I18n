@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-07 12:32+0000\n"
+"PO-Revision-Date: 2022-10-28 08:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -1175,7 +1175,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.chat_on_videos"
-msgstr "視頻中嘅聊天"
+msgstr "影片中嘅聊天"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -1186,7 +1186,7 @@ msgstr "外觀"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.chat_on_videos.description"
-msgstr "呢個功能目前處於測試階段。因此，當你將FFZ功能與視頻聊天結合使用，嗰陣時可能會遇到問題。"
+msgstr "呢個功能目前處於測試階段。因此，當你將FFZ功能與影片聊天結合使用，嗰陣時可能會遇到問題。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1921,7 +1921,7 @@ msgstr "隱藏\"正在直播\"欄。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-not-live-bar.description"
-msgstr "隱藏主播直播時顯示喺剪輯和視頻下方嘅\"正在直播\"通知欄。"
+msgstr "隱藏主播直播時顯示喺剪輯和影片下方嘅\"正在直播\"通知欄。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -3136,7 +3136,7 @@ msgstr "喺聊天中顯示豐富嘅内容。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled.description"
-msgstr "將顯示連結剪輯同視頻等內容嘅豐富內容區。"
+msgstr "將顯示連結剪輯同影片等內容嘅豐富內容區。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3527,12 +3527,12 @@ msgstr "時間戳應有幾大（以像素為單位）。如果未設定，則預
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled"
-msgstr "為視頻聊天啟用FrankerFaceZ功能。"
+msgstr "為影片聊天啟用FrankerFaceZ功能。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled.description"
-msgstr "喺視頻聊天中顯示FFZ徽章，表情符號同其他功能。啟用呢個功能之後，審核功能可能無法使用。"
+msgstr "喺影片聊天中顯示FFZ徽章，表情符號同其他功能。啟用呢個功能之後，審核功能可能無法使用。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
@@ -3669,7 +3669,7 @@ msgstr "朦朧圖像同標題"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-latest-videos"
-msgstr "唔好喺追隨目錄中顯示 `最新視頻`。"
+msgstr "唔好喺追隨目錄中顯示 `最新影片`。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4187,7 +4187,7 @@ msgstr "允許播放器加速嚟減少延遲。"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup.description"
 msgstr ""
-"默認情況下，当你觀睇嘅實況主有好大嘅延遲時，Twitch會對直播視頻使用小幅加速，便於跟上直播。可能會導致音頻失真。禁用呢個功能嚟防止自動更改速度。"
+"默認情況下，当你觀睇嘅實況主有比較大嘅延遲時，Twitch會對實況影片使用小幅度加速，便於跟上直播流。可能會導致音頻失真。禁用呢個功能嚟防止自動更改速度。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4197,7 +4197,7 @@ msgstr "添加一個 `畫中畫` 撳掣到播放器控件。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.pip.description"
-msgstr "單擊\"畫中畫\"撳掣會嘗試切換播放器視頻嘅畫中畫模式。"
+msgstr "單擊\"畫中畫\"撳掣會嘗試切換播放器影片嘅畫中畫模式。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4531,7 +4531,7 @@ msgstr "屈重重播欄"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-rerun-bar.description"
-msgstr "若當前頻道正在播放一條視頻而唔係實況內容時，隱藏播放器上方顯示嘅重播欄。"
+msgstr "若當前頻道正在播放一條影片而唔係實況內容時，隱藏播放器上方顯示嘅重播欄。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4551,7 +4551,7 @@ msgstr "透過鼠標中鍵單擊將播放器靜音或取消靜音。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.no-autoplay"
-msgstr "唔好自動開始播放視頻或直播。"
+msgstr "唔好自動開始播放影片或直播。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4576,7 +4576,7 @@ msgstr "啟用劇院模式時隱藏悄悄話。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.vod.autoplay"
-msgstr "視頻完成後自動播放下一個舉薦推薦嘅視頻。"
+msgstr "影片完成後自動播放下一個舉薦推薦嘅影片。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5783,7 +5783,7 @@ msgstr "儀錶板：編輯收集"
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.dash-edit-video"
-msgstr "儀錶板：編輯視頻"
+msgstr "儀錶板：編輯影片"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
@@ -5828,7 +5828,7 @@ msgstr "儀錶板：直播工具"
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.dash-video-producer"
-msgstr "儀錶板：視頻製作人"
+msgstr "儀錶板：影片製作人"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
@@ -5858,7 +5858,7 @@ msgstr "遊戲引用列表"
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.dir-game-videos"
-msgstr "遊戲視頻列表"
+msgstr "遊戲影片列表"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
@@ -5948,17 +5948,17 @@ msgstr "用戶跟隨中"
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.user-video"
-msgstr "頻道視頻"
+msgstr "頻道影片"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.user-videos"
-msgstr "用戶視頻"
+msgstr "用戶影片"
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
 msgid "settings.filter.page.route.video"
-msgstr "視頻"
+msgstr "影片"
 
 #: /src/modules/main_menu/components/filter-editor.vue:104
 #: /src/settings/components/basic-toggle.vue:66
