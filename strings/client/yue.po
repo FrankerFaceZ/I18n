@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-29 09:32+0000\n"
+"PO-Revision-Date: 2022-10-28 08:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -114,7 +114,7 @@ msgstr "時間表（日程）"
 
 #, icu-message-format
 msgid "channel.links.videos"
-msgstr "視頻"
+msgstr "影片"
 
 #: /src/modules/main_menu/components/action-editor.vue:514
 #: /src/modules/main_menu/components/chat-actions.vue:434
@@ -1289,12 +1289,12 @@ msgstr "團隊轉播"
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:438
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.description"
-msgstr "包含頻道直播預先錄製嘅視頻，例如首映或重播"
+msgstr "包含頻道直播預先錄製嘅影片，例如首播或重播"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.title"
-msgstr "轉播預先錄製嘅視頻"
+msgstr "轉播預先錄製嘅影片"
 
 #: /src/sites/twitch-twilight/modules/host_button.js:209
 #, icu-message-format
@@ -1340,14 +1340,14 @@ msgstr "延遲"
 #, icu-message-format, lp-defaults:"{\"videoResolution\":\"1920x1080\",\"fps\":\"60\",\"playbackRate\":8207,\"skippedFrames\":3}"
 msgid "metadata.player-stats.video-info"
 msgstr ""
-"視頻: {videoResolution}p{fps}\n"
+"影片: {videoResolution}p{fps}\n"
 "播放位元率(碼率): {playbackRate, number} Kbps\n"
 "丟幀(遺漏畫面數): {skippedFrames, number}"
 
 #: /src/modules/metadata.jsx:242:25
 #, icu-message-format
 msgid "metadata.player-stats.video-tip"
-msgstr "視頻信息"
+msgstr "影片信息"
 
 #: /src/modules/metadata.jsx:164
 #: /src/modules/metadata.jsx:174
@@ -1683,7 +1683,7 @@ msgstr "(移到更多細節)"
 #: /src/sites/twitch-twilight/modules/video_chat/index.jsx:298:11
 #, icu-message-format
 msgid "video-chat.jump"
-msgstr "跳轉到視頻"
+msgstr "跳轉到影片"
 
 #: /src/sites/twitch-twilight/modules/video_chat/index.jsx:255:46
 #, icu-message-format
@@ -1703,7 +1703,7 @@ msgstr "{time,humantime} 之前"
 #: /src/modules/chat/rich_providers.js:190:14
 #, icu-message-format
 msgid "video.desc.1"
-msgstr "{user} 嘅視頻"
+msgstr "{user} 嘅影片"
 
 #: /src/modules/chat/rich_providers.js:197:13
 #, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
