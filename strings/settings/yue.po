@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-28 08:32+0000\n"
+"PO-Revision-Date: 2022-12-05 14:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -58,7 +58,7 @@ msgstr "Lordmau5"
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-bttv.name"
-msgstr "BetterTTV 表情符號"
+msgstr "BetterTTV貼圖"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
@@ -233,26 +233,26 @@ msgstr ""
 "好多功能依然計劃回退，咁樣開發人員有時間去開發佢哋。未待定功能嘅時間表。功能喺完成後立即發佈。\n"
 "\n"
 "* *我已經捐賞，但我嘅徽章冇出現。*\n"
-"* *我喺我嘅頻道中添加咗一個表情符號，但我未睇到佢。*\n"
+"* *我喺我嘅頻道中添加咗一個貼圖，但我未睇到佢。*\n"
 "\n"
-"由於我哋當前網站嘅性能問題，我哋必須喺自己嘅API上使用緩存。因此，對徽章或表情符號所做嘅更改最多可能需要半粒鐘先至生效。之後，刷新頁面，你嘅內容應該會出"
-"現。你亦可以嘗試執行硬刷新。\n"
+"由於我哋當前網站嘅性能問題，我哋必須喺自己嘅API上使用緩存。因此，對徽章或貼圖所做嘅更改最多可能需要半粒鐘先至生效。之後，刷新頁面，你嘅內容應該會出現。"
+"你亦可以嘗試執行硬刷新。\n"
 "\n"
 "* *我唔想要 “FFZ 支持者” 徽章。*\n"
 "\n"
 "用戶可以喺以下位置切換其支持者徽章嘅可見性： [https://www.frankerfacez.com/donate](https://www."
 "frankerfacez.com/donate)\n"
 "\n"
-"* *我可以睇到我嘅表情符號，但聊天中有人話佢哋睇唔到。*\n"
+"* *我可以睇到我嘅貼圖，但聊天中有人話佢哋睇唔到。*\n"
 "\n"
-"用戶需要安裝 FrankerFaceZ 或其他支援 FFZ 表情符號嘅第三方客戶端，先至睇到來自 FrankerFaceZ "
-"嘅表情符號。用戶也可能睇唔到新添加嘅表情符號，這取決於佢哋嘅瀏覽器緩存同上次刷新嘅時間。\n"
+"用戶需要安裝 FrankerFaceZ 或其他支援 FFZ貼圖嘅第三方客戶端，先至睇到來自 FrankerFaceZ "
+"嘅貼圖。用戶也可能睇唔到新添加嘅貼圖，這取決於佢哋嘅瀏覽器緩存同上次刷新嘅時間。\n"
 "\n"
-"* *有一個被盜嘅表情符號！*\n"
-"* *有一個攻擊性嘅表情符號！*\n"
+"* *有一個被盜嘅貼圖！*\n"
+"* *有一個攻擊性嘅貼圖！*\n"
 "\n"
-"請使用我們網站上嘅`報告表情符號`工具嚟報告任何有關表情符號嘅問題。單擊 Shift "
-"嚟打開有問題嘅表情符號嘅頁面，然後喺右側欄中選擇`報告表情符號`。你需要登錄先至可以舉報表情符號。"
+"請使用我們網站上嘅`報告貼圖`工具嚟報告任何有關貼圖嘅問題。單擊 Shift "
+"嚟打開有問題嘅貼圖嘅頁面，然後喺右側欄中選擇`報告貼圖`。你需要登錄先至可以舉報貼圖。"
 
 #: /src/modules/main_menu/components/feedback-page.vue:8
 #, icu-message-format, md-text
@@ -264,8 +264,7 @@ msgstr ""
 "issues) 來提供反饋同錯誤報告。你亦可以 [喺 Discord 上揾到我們](https://discord.gg/UrAkGhT) 或 "
 "[向我哋發推文](https://twitter.com/FrankerFaceZ)。\n"
 "\n"
-"創建 GitHub 問題時，請檢查其他人係咪尚未有創建你要討論或報告嘅問題內容。GitHub 問題應該用於同客戶有關嘅問題，而唔係關於表情符號批准嘅問題。"
-"\n"
+"創建 GitHub 問題時，請檢查其他人係咪尚未有創建你要討論或報告嘅問題內容。GitHub 問題應該用於同客戶有關嘅問題，而唔係關於貼圖批准嘅問題。\n"
 "\n"
 "創建問題時，請同時上傳下面提供嘅日誌並將連結包含喺你嘅報告中。"
 
@@ -369,7 +368,7 @@ msgstr ""
 "啟用，任何匹配嘅字詞都會喺聊天中亮點，方便你查睇\n"
 "完全匹配嘅字詞。\n"
 "\n"
-"任何匹配都唔會顯示為表情符號、連結等。\n"
+"任何匹配都唔會顯示為貼圖、連結等。\n"
 "\n"
 "佢比唔亮點匹配要慢，因此你可能希望只喺測試果陣使用\n"
 "呢個功能，然後喺你知悉你嘅字詞以你希望嘅方式工作時禁用佢。\n"
@@ -464,7 +463,7 @@ msgstr "訊息已刪除"
 #: /src/modules/main_menu/components/action-editor.vue:544
 #, icu-message-format
 msgid "setting.actions.edit-visible.emote-only"
-msgstr "僅限Twitch表情符號模式"
+msgstr "僅限Twitch貼圖模式"
 
 #: /src/modules/main_menu/components/action-editor.vue:728
 #, icu-message-format
@@ -539,7 +538,7 @@ msgstr "已刪除嘅訊息"
 #: /src/modules/main_menu/components/chat-actions.vue:182
 #, icu-message-format
 msgid "setting.actions.preview.emote-only"
-msgstr "僅限Twitch表情符號"
+msgstr "僅限Twitch貼圖"
 
 #: /src/modules/main_menu/components/chat-actions.vue:243
 #, icu-message-format
@@ -806,7 +805,7 @@ msgstr "舊版"
 #: /src/modules/main_menu/components/backup-restore.vue:10
 #, icu-message-format
 msgid "setting.backup-restore.about"
-msgstr "呢個工具可讓你備份同恢復 FrankerFaceZ 設定，包含控制中心嘅所有設定以及其他數據，例如最鐘意嘅表情符號同被封鎖嘅遊戲。"
+msgstr "呢個工具可讓你備份同恢復 FrankerFaceZ 設定，包含控制中心嘅所有設定以及其他數據，例如最鐘意嘅貼圖同被封鎖嘅遊戲。"
 
 #: /src/modules/main_menu/components/profile-manager.vue:295
 #, icu-message-format
@@ -1060,12 +1059,12 @@ msgstr "社區寶盒"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emoji"
-msgstr "表情符號"
+msgstr "貼圖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emotes"
-msgstr "表情符號"
+msgstr "貼圖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1196,7 +1195,7 @@ msgstr "一般"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.emote_menu"
-msgstr "表情符號菜單"
+msgstr "貼圖菜單"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1452,7 +1451,7 @@ msgstr "徽章"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.emotes"
-msgstr "表情符號"
+msgstr "貼圖"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1517,12 +1516,12 @@ msgstr "實驗覆蓋"
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.FavoriteEmotes"
-msgstr "最鐘意嘅表情符號"
+msgstr "最鐘意嘅貼圖"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
 msgid "setting.clear.opt.HiddenEmotes"
-msgstr "隱藏嘅表情符號"
+msgstr "隱藏嘅貼圖"
 
 #: /src/modules/main_menu/components/clear-settings.vue:53
 #, icu-message-format
@@ -2222,8 +2221,8 @@ msgstr "喺聊天訊息上顯示包含緊歡呼嘅通知。"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.cheer-notice.description"
 msgstr ""
-"呢個功能旨係防止使用表情符號嘅聊天者喺訊息中假裝歡呼可能造成混淆。啟用後，包含真正歡呼嘅訊息將喺其上方顯示一條訊息，類似於重新訂閱訊息或使用訊息進行點數兌"
-"換嘅功能。"
+"呢個功能旨係防止使用貼圖嘅聊天者喺訊息中假裝歡呼可能造成混淆。啟用後，包含真正歡呼嘅訊息將喺其上方顯示一條訊息，類似於重新訂閱訊息或使用訊息進行點數兌換嘅"
+"功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2286,7 +2285,7 @@ msgstr "多合一"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.click-emotes"
-msgstr "透過撳住Shift鍵並單擊佢哋嚟打開表情信息頁面。"
+msgstr "透過撳住Shift鍵並單擊佢哋嚟打開貼圖信息頁面。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2361,7 +2360,7 @@ msgstr "CBenni選項 (字面意思係25年)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.style"
-msgstr "表情符號樣式"
+msgstr "貼圖樣式"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2376,7 +2375,7 @@ msgstr "果冻"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.emojione"
-msgstr "表情符號一"
+msgstr "貼圖一"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2396,13 +2395,13 @@ msgstr "推特(Twemoji)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-dialogs"
-msgstr "透過單擊Twitch表情符號打開佢哋嘅表情符號信息卡。"
+msgstr "透過單擊Twitch貼圖打開佢哋嘅貼圖信息卡。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:30
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.combine-tabs"
-msgstr "喺一個標籤上顯示所有表情符號。"
+msgstr "喺一個標籤上顯示所有貼圖。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2412,7 +2411,7 @@ msgstr "預設標籤"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.default-tab.values.all"
-msgstr "我嘅表情符號"
+msgstr "我嘅貼圖"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2422,7 +2421,7 @@ msgstr "頻道"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.emote-menu.default-tab.values.emoji"
-msgstr "表情符號"
+msgstr "貼圖"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2432,28 +2431,28 @@ msgstr "收藏夾"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.enabled"
-msgstr "使用 FrankerFaceZ 表情符號菜單。"
+msgstr "使用 FrankerFaceZ貼圖菜單。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.enabled.description"
-msgstr "FFZ表情符號菜單取代咗內置嘅Twitch表情符號菜單，並提供增強咗嘅功能。"
+msgstr "FFZ貼圖菜單取代咗內置嘅Twitch貼圖菜單，並提供增強咗嘅功能。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.icon"
-msgstr "將表情符號菜單圖標替換為FFZ圖標，嚟獲得經典嘅感覺。"
+msgstr "將貼圖菜單圖標替換為FFZ圖標，嚟獲得經典嘅感覺。"
 
 #: /src/modules/main_menu/index.js:641
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emote-menu.icon.description"
-msgstr "**注意：** 如果檢測到其他表情符號菜單，可能會強制啟用呢個設定，嚟確保你可以直觀咁辨識 FFZ 表情符號菜單。"
+msgstr "**注意：** 如果檢測到其他貼圖菜單，可能會強制啟用呢個設定，嚟確保你可以直觀咁辨識 FFZ貼圖菜單。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.modifiers"
-msgstr "表情符號修飾符"
+msgstr "貼圖修飾符"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2473,17 +2472,17 @@ msgstr "緊湊顯示。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.shortcut"
-msgstr "使用 Ctrl+E 打開表情符號菜單。"
+msgstr "使用 Ctrl+E 打開貼圖菜單。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.shortcut.description"
-msgstr "啟用之後，喺你激活傳送訊息嘅訊息輸入框時撳 Ctrl+E，表情符號菜單就會打開。"
+msgstr "啟用之後，喺你激活傳送訊息嘅訊息輸入框時撳 Ctrl+E，貼圖菜單就會打開。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.show-emoji"
-msgstr "顯示 表情符號 到表情符號菜單。"
+msgstr "顯示貼圖到貼圖菜單。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2518,7 +2517,7 @@ msgstr "顯示搜索框。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-emotes"
-msgstr "表情排序依據"
+msgstr "貼圖排序依據"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2551,7 +2550,7 @@ msgstr "預設順序，降序"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
-msgstr "依照訂閱層級高低排列表情符號。"
+msgstr "依照訂閱層級高低排列貼圖。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2562,35 +2561,35 @@ msgstr "打開後保持就緒狀態。"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.stay-loaded.description"
 msgstr ""
-"會導致表情菜單保留喺DOM中，即使你睇唔到。如果菜單速度較慢，啟用呢個功能可能有助於網站喺打開菜單時有更好嘅性能。默認情況下，當使用`喺一個標籤卡上顯示所"
-"有表情符號`時，呢個設定處於啟用狀態。"
+"會導致貼圖菜單保留喺DOM中，即使你睇唔到。如果菜單速度較慢，啟用呢個功能可能有助於網站喺打開菜單時有更好嘅性能。默認情況下，當使用`喺一個標籤卡上顯示所"
+"有貼圖`時，呢個設定處於啟用狀態。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.tall"
-msgstr "為表情菜單使用額外嘅高度。"
+msgstr "為貼圖菜單使用額外嘅高度。"
 
 #: /src/modules/main_menu/index.js:477
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x"
-msgstr "仲大一倍嘅表情"
+msgstr "仲大一倍嘅貼圖"
 
 #: /src/modules/main_menu/index.js:484
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.2x.description"
-msgstr "呢個設定將使表情喺聊天中顯示兩倍大。佢非常適合同較大嘅字體一起使用，或者只係你超級鐘意表情符號。"
+msgstr "呢個設定將使貼圖喺聊天中顯示兩倍大。佢非常適合同較大嘅字體一起使用，或者只係你超級鐘意貼圖。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated"
-msgstr "動態表情符號"
+msgstr "動態貼圖"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
-msgstr "將控制係咪允許動態表情喺聊天中播放。当呢個值為`禁用`時，表情符號將顯示為靜態圖像。將呢項設定為`鼠標懸停時啟用`可能會導致性能問題。"
+msgstr "將控制係咪允許動態貼圖喺聊天中播放。当呢個值為`禁用`時，貼圖將顯示為靜態圖像。將呢項設定為`鼠標懸停時啟用`可能會導致性能問題。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:39
 #, icu-message-format
@@ -2611,13 +2610,13 @@ msgstr "鼠標懸停時啟用"
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled"
-msgstr "顯示表情符號"
+msgstr "顯示貼圖"
 
 #: /src/modules/main_menu/index.js:632
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.enabled.description"
-msgstr "如果你唔想睇到表情符號，可以喺呢喥禁用佢哋。"
+msgstr "如果你唔想睇到貼圖，可以喺呢喥禁用佢哋。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
@@ -2861,12 +2860,12 @@ msgstr "全部移除"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.fix-bad-emotes"
-msgstr "修復壞咗嘅 Twitch 全局表情符號"
+msgstr "修復壞咗嘅 Twitch 全局貼圖"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.fix-bad-emotes.description"
-msgstr "清除 Twitch 全局表情中壞咗嘅圖像，移除白色邊框同淨色背景。"
+msgstr "清除 Twitch 全局貼圖中壞咗嘅圖像，移除白色邊框同淨色背景。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2948,12 +2947,12 @@ msgstr "寬線 (2px 實線)"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.emote-alignment"
-msgstr "表情符號對齊"
+msgstr "貼圖對齊"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.emote-alignment.description"
-msgstr "更改表情符號喺聊天中嘅位置，可能會令訊息更高，嚟避免表情符號重疊。"
+msgstr "更改貼圖喺聊天中嘅位置，可能會令訊息更高，嚟避免貼圖重疊。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3342,7 +3341,7 @@ msgstr "超快"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.sub-emotes"
-msgstr "相關時，揿住 Shift 並點擊表情符號打開 Twitch 訂閱頁面。"
+msgstr "相關時，揿住 Shift 並點擊貼圖打開 Twitch 訂閱頁面。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3434,12 +3433,12 @@ msgstr "顯示全部"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emoji"
-msgstr "允許表情符號嘅製表符完成。"
+msgstr "允許貼圖嘅製表符完成。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emotes-without-colon"
-msgstr "允許喺唔鍵入冒號嘅情況下完成表情符號嘅製表符。(:)"
+msgstr "允許喺唔鍵入冒號嘅情況下完成貼圖嘅製表符。(:)"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3449,7 +3448,7 @@ msgstr "將阻止冇@前綴嘅用戶名嘅製表符完成。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.ffz-emotes"
-msgstr "允許FrankerFaceZ表情符號嘅製表符完成。"
+msgstr "允許FrankerFaceZ貼圖嘅製表符完成。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3459,7 +3458,7 @@ msgstr "把標籤卡完成結果限制為25。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.prioritize-favorites"
-msgstr "將最鍾意嘅表情排喺頂部。"
+msgstr "將最鍾意嘅貼圖排喺頂部。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3532,7 +3531,7 @@ msgstr "為影片聊天啟用FrankerFaceZ功能。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled.description"
-msgstr "喺影片聊天中顯示FFZ徽章，表情符號同其他功能。啟用呢個功能之後，審核功能可能無法使用。"
+msgstr "喺影片聊天中顯示FFZ徽章，貼圖同其他功能。啟用呢個功能之後，審核功能可能無法使用。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
@@ -4701,7 +4700,7 @@ msgstr "喺報告中包含用戶ID。"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.reports.error.include-user.description"
-msgstr "有時，清楚瞭解邊個用戶遇到問題會好有益，咁我哋就可以檢查導致問題嘅特定徽章、表情符號或用戶標識。"
+msgstr "有時，清楚瞭解邊個用戶遇到問題會好有益，咁我哋就可以檢查導致問題嘅特定徽章、貼圖或用戶標識。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4712,8 +4711,8 @@ msgstr "服務器叢集"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.socket.use-cluster.description"
 msgstr ""
-"要連接到邊個服務器叢集。除非你實際喺套接字服務器後端上進行開發工作，否則唔好更改呢個設定。咁樣做會破壞依賴於套接字服務器嘅所有功能，包括表情符號信息搜尋、"
-"連結貼士標籤同實時數據更新。"
+"要連接到邊個服務器叢集。除非你實際喺套接字服務器後端上進行開發工作，否則唔好更改呢個設定。咁樣做會破壞依賴於套接字服務器嘅所有功能，包括貼圖信息搜尋、連結"
+"貼士標籤同實時數據更新。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -4839,19 +4838,18 @@ msgstr "顯示徽章嘅大圖像。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images"
-msgstr "顯示表情符號嘅大圖像。"
+msgstr "顯示貼圖嘅大圖像。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated"
-msgstr "顯示表情符號嘅動態圖像。"
+msgstr "顯示貼圖嘅動態圖像。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated.description"
 msgstr ""
-"如果未覆蓋呢個值，僅喺未禁用 [聊天>外觀>>表情符號>動態表情符號](~chat.appearance.emotes) "
-"時，動態圖像先至會顯示喺表情符號貼士標籤中。"
+"如果未覆蓋呢個值，僅喺未禁用 [聊天>外觀>>貼圖>動態貼圖](~chat.appearance.emotes) 時，動態圖像先至會顯示喺貼圖貼士標籤中。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6070,15 +6068,15 @@ msgstr "禁用"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.replace-joiner"
-msgstr "表情符號連接器替代方法"
+msgstr "貼圖連接器替代方法"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:198
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.replace-joiner.description"
 msgstr ""
-"此功能旨喺允許晌受支持嘅客戶端中使用組合表情符號。呢個係必需嘅，因為TMI中存在一個由聊天消息中剝離ZWJ字符嘅錯誤。[訪問最初嘅問題](https://"
-"github.com/FrankerFaceZ/FrankerFaceZ/issues/1147)了解更多詳情。"
+"此功能旨喺允許晌受支持嘅客戶端中使用組合貼圖。呢個係必需嘅，因為TMI中存在一個由聊天消息中剝離ZWJ字符嘅錯誤。[訪問最初嘅問題](https://gi"
+"thub.com/FrankerFaceZ/FrankerFaceZ/issues/1147)了解更多詳情。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:36
 #, icu-message-format
@@ -6099,7 +6097,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.prioritize-prefix-matches"
-msgstr "優先處理由用戶輸入開頭嘅表情符號。"
+msgstr "優先處理由用戶輸入開頭嘅貼圖。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:130
 #, icu-message-format, md-text
@@ -6118,7 +6116,7 @@ msgstr "支援嘅格式程式: {fmts}"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.emoji"
-msgstr "表情符號"
+msgstr "貼圖"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
@@ -6153,24 +6151,24 @@ msgstr "禁用"
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.1"
-msgstr "表情符號"
+msgstr "貼圖"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.2"
-msgstr "全部表情符號"
+msgstr "全部貼圖"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:36
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.limit-size"
-msgstr "限制原生表情大小"
+msgstr "限制原生貼圖大小"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:130
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.limit-size.description"
-msgstr "有時，非常乞人憎嘅大表情猶如漏網之魚，最終出現喺Twitch上。佢限制咗Twitch表情嘅大小，嚟緩解呢種問題。"
+msgstr "有時，非常乞人憎嘅大貼圖猶如漏網之魚，最終出現喺Twitch上。佢限制咗Twitch貼圖嘅大小，嚟緩解呢種問題。"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:36
 #, icu-message-format
