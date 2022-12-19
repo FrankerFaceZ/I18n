@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-15 20:32+0000\n"
+"PO-Revision-Date: 2022-12-19 17:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/yue/>\n"
@@ -1324,17 +1324,17 @@ msgstr "你嘅本地時鐘似乎偏離咗大約 {count,number} 秒，這可能�
 #: /src/modules/metadata.jsx:232:22
 #, icu-message-format
 msgid "metadata.player-stats.latency-tip"
-msgstr "直播延遲"
+msgstr "直播滯後"
 
 #: /src/modules/metadata.jsx:319
 #, icu-message-format, lp-defaults:"{\"rate\":\"1.03\"}"
 msgid "metadata.player-stats.rate-warning"
-msgstr "以 {rate,number}x 速度播放嚟減少延遲。"
+msgstr "以 {rate,number}x 速度播放嚟減少滯後。"
 
 #: /src/modules/metadata.jsx:179:19
 #, icu-message-format
 msgid "metadata.player-stats.subtitle"
-msgstr "延遲"
+msgstr "滯後"
 
 #: /src/modules/metadata.jsx:235:18
 #, icu-message-format, lp-defaults:"{\"videoResolution\":\"1920x1080\",\"fps\":\"60\",\"playbackRate\":8207,\"skippedFrames\":3}"
@@ -1494,7 +1494,7 @@ msgstr "你喺喥運行 FrankerFaceZ 嘅開發人員版本。"
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:178:7
 #, icu-message-format
 msgid "site.menu_button.new-desc"
-msgstr "有 {count,plural,one {係一個新設定} other {係 # 新設定}}。"
+msgstr "有 {count,plural,one {個係新設定} other {個係 # 新設定}}。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:333
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
