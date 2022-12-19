@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-15 20:32+0000\n"
+"PO-Revision-Date: 2022-12-19 17:32+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/yue/>\n"
@@ -2296,22 +2296,22 @@ msgstr "展示社區禮物橫幅。"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.delay"
-msgstr "人為延遲聊天"
+msgstr "人為滯後聊天"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.delay.description"
-msgstr "延遲聊天訊息嘅出現，便於喺睇到佢哋之前進行審核。"
+msgstr "滯後顯示聊天訊息，便於喺睇到佢哋之前進行審核。"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.-1"
-msgstr "預設延遲(特限於房間; 僅限非Mod)"
+msgstr "預設滯後(特限於房間; 僅限非Mod)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.0"
-msgstr "冇延遲"
+msgstr "冇滯後"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -2331,7 +2331,7 @@ msgstr "極端 (15s)"
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.20000"
-msgstr "趕人瞓覺模式; 聊天延遲 (20秒)"
+msgstr "趕人瞓覺模式; 聊天滯後 (20秒)"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:35
 #, icu-message-format
@@ -3191,7 +3191,7 @@ msgstr "回滾長度"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length.description"
-msgstr "喺聊天中保持咁多行。將呢個值設定得太高會產生延遲。"
+msgstr "喺聊天中保持咁多行。將呢個值設定得太高會產生滯後。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4112,17 +4112,17 @@ msgstr "播放統計"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.player-stats.description"
-msgstr "喺貼士標籤中顯示當前直播延遲、播放位元率(碼率)和丟幀(遺漏畫面數)。"
+msgstr "喺貼士標籤中顯示當前直播滯後、播放位元率(碼率)和丟幀(遺漏畫面數)。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.stream-delay-warning"
-msgstr "直播延遲警告"
+msgstr "直播滯後警告"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.stream-delay-warning.description"
-msgstr "当當前流延遲超過呢個秒數時，以警告顏色顯示直播延遲，嚟引起你對較大延遲嘅注意。設定為零可禁用。"
+msgstr "当目前流滯後超過呢個秒數時，以警告顏色顯示直播滯後，嚟引起你對較大滯後嘅注意。設定為零可禁用。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4181,13 +4181,13 @@ msgstr "默認情況下，每當啟用FFZ自己嘅觀眾計數顯示嚟避免冗
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup"
-msgstr "允許播放器加速嚟減少延遲。"
+msgstr "允許播放器加速嚟減少滯後。"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup.description"
 msgstr ""
-"默認情況下，当你觀睇嘅實況主有比較大嘅延遲時，Twitch會對實況影片使用小幅度加速，便於跟上直播流。可能會導致音頻失真。禁用呢個功能嚟防止自動更改速度。"
+"默認情況下，当你觀睇嘅實況主有比較大嘅滯後時，Twitch會對實況影片使用小幅度加速，便於跟上直播流。可能會導致音頻失真。禁用呢個功能嚟防止自動更改速度。"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6001,7 +6001,7 @@ msgstr "區分大小寫"
 #: /src/settings/components/title.vue:73
 #, icu-message-format
 msgid "settings.filter.title.warn-complex"
-msgstr "呢個模式可能過於複雜。 佢會被禁用嚟避免客戶端延遲或卡死。"
+msgstr "呢個模式可能過於複雜。 佢會被禁用嚟避免客戶端滯後或卡死。"
 
 #: /src/settings/components/title.vue:43
 #, icu-message-format
