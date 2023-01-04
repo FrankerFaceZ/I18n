@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-16 05:32+0000\n"
-"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
+"PO-Revision-Date: 2023-01-05 16:33+0000\n"
+"Last-Translator: Manuel Cervantes <cervantma@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
 "Language: es\n"
@@ -2087,7 +2087,7 @@ msgid "setting.entry.i18n.debug.transform.values.null"
 msgstr "Deshabilitado"
 
 msgid "setting.entry.i18n.debug.transform.values.owo"
-msgstr "owo ¿Qué es esto?"
+msgstr "owo ¿qué es esto?"
 
 msgid "setting.entry.i18n.debug.transform.values.set_key"
 msgstr "Definir para Tecla"
@@ -3717,3 +3717,45 @@ msgstr "Ordenamiento"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering"
 msgstr "Filtrado"
+
+#: /src/modules/main_menu/components/addon-list.vue:110
+#, icu-message-format
+msgid "addon.filter-enabled"
+msgstr "Mostrar solo los complementos activos."
+
+#, icu-message-format, md-text
+msgid "home.addon-new"
+msgstr "Nuevos complementos"
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Mostrar menos)"
+
+#, icu-message-format, md-text
+msgid "home.addon-new.desc"
+msgstr ""
+"Estos complementos han sido publicados en los últimos siete días. Échales un "
+"vistazo en [Add-Ons](~add_ons)."
+
+#, icu-message-format, md-text
+msgid "home.addon-updates.desc"
+msgstr ""
+"Estos complementos han sido actualizados en los últimos siete días. Visita "
+"el [changelog](~add_ons.changelog) para ver qué ha cambiado."
+
+#, icu-message-format, md-text
+msgid "home.addon-updates"
+msgstr "Complementos actualizados"
+
+#, icu-message-format
+msgid "home.github"
+msgstr "GitHub"
+
+#, icu-message-format
+msgid "home.new-settings"
+msgstr "Nuevos ajustes"
+
+#, icu-message-format
+msgid "home.new-settings.desc"
+msgstr "Estos son nuevos ajustes que aún no has visto."
