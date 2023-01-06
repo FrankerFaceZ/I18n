@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-01-06 13:32+0000\n"
+"Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/uk/>\n"
 "Language: uk\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "async-text.upload"
 msgstr "Завантажити"
@@ -17,17 +17,16 @@ msgstr "Завантажити"
 msgid "autocomplete.empty"
 msgstr "Немає результатів."
 
-#, fuzzy
 msgid "badges.subscriber.months"
 msgstr ""
-"{title}\n"
-"({count,number} Місяці"
+"{title} \n"
+"({count,plural,one {# місяць} few {# місяці} other {# місяців}})"
 
-#, fuzzy
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Ранг {tier}, {months,number} Місяц{months,one,ь few,і other,ів})"
+"(Ранг {tier}, {months,plural,one {# місяць} few {# місяці} other {# "
+"місяців}})"
 
 msgid "card.empty"
 msgstr "Не отримано даних."
@@ -97,17 +96,15 @@ msgstr "Будь ласка, оберіть причину зі списку:"
 msgid "chat.actions.timeout"
 msgstr "Надати Перерву Користувачеві"
 
-#, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"Надати перерву {user.login} на {duration,number} секунд{duration,one{ду} "
-"few{ди} other{}} за:"
+"Надати перерву {user.login} на {duration, plural, one {# секунду} other {# "
+"секунд}}за:"
 
-#, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"Надати перерву {user.login} на {duration,number} секунд{duration,one{ду} "
-"few{ди} other{}}"
+"Надати перерву {user.login} на {duration, plural, one {# секунду} other {# "
+"секунд}}"
 
 msgid "chat.actions.unban"
 msgstr "Розблокувати Користувача"
@@ -132,8 +129,10 @@ msgstr "Прошепотіти {user.login}"
 
 msgid "chat.deleted-messages"
 msgstr ""
-"{count} повідомлен{count,plural,one {ня} few{ня} other {ь}} видалено "
-"модератором."
+"{count,plural,\n"
+"one {Одне повідомлення було видалено модератором.}\n"
+"other {# повідомлень було  удалено модератором.}\n"
+"}"
 
 msgid "chat.ffz-badge.site"
 msgstr "Будь ласка, відвідайте {website} для зміни цього бейджа."
@@ -253,27 +252,27 @@ msgstr ""
 "Вони передплачують канал вже {cumulative,number}-ий місяць, {streak,number} "
 "місяц{streak,plural,one {ь} few {і} other {ів}} поспіль!"
 
-#, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
-"{user} дарує {count,number} Передплат Рівня {tier} спільноті каналу {channel}"
-"! "
+"{user} дарує {count,number} {count,plural,one {підписку} few {підписки} "
+"other {підписок}} передплат рівня {tier} спільноті каналу {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "Вони вперше дарують передплату на цьому каналі!"
 
-#, fuzzy
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} подарував {months,number} Місяц{months,one,ь few,і other,ів} {plan} "
-"Передплати користувачеві {recipient}!"
+"{user} подарував {months, plural, one{# місяць} few{# місяці} other{# "
+"місяців}} підписки {plan} для {recipient}!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Рівень {tier}"
 
-#, fuzzy
 msgid "chat.sub.gift-total"
-msgstr "Вони вже подарували {count} передплат на цьому каналі!"
+msgstr ""
+"Вони вже подарували {count} передплат на цьому каналі!\n"
+"Він(вона)) подарував(ла) {count} {count,plural,one {передплату} few "
+"{передплати} other {передплат{count}} на канал!"
 
 msgid "chat.sub.main"
 msgstr "{user} передплатив {plan}. "
@@ -862,17 +861,17 @@ msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Перегляди - {date,datetime}"
 
 msgid "video.published-on"
-msgstr "Оприлюднено:  {date,date}"
+msgstr "Оприлюднено: {date,date}"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.media"
-msgstr ""
+msgstr "Дозволити медіа"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr ""
+msgstr "Почніть відстежувати {user} щоб розблокувати цей смайл на його каналі."
 
 #, icu-message-format
 msgid "i18n.ui.invalid"
@@ -896,162 +895,172 @@ msgstr ""
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.empty"
-msgstr ""
+msgstr "Інформація відсутня"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-host"
-msgstr ""
+msgstr "Наданий URL має недійсний хост і не може бути перевірений."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-port"
-msgstr ""
+msgstr "Надана URL-адреса має нестандартний порт і не перевірятиметься."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-scheme"
-msgstr ""
+msgstr "Надана URL-адреса не використовує HTTP і не перевірятиметься."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.network"
-msgstr ""
+msgstr "Сталася помилка мережі."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.unhandled"
-msgstr ""
+msgstr "Жоден обробник не підтримує цю URL-адресу."
 
 #: /src/modules/main_menu/components/action-editor.vue:595
 #, icu-message-format
 msgid "chat.actions.reply.desc"
 msgstr ""
+"Дозволяє безпосередньо відповідати на повідомлення іншого користувача. "
+"Функціонує лише тоді, коли стиль відповідей у чаті \"FrankerFaceZ\"."
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:559
 #, icu-message-format
 msgid "chat.actions.reply.thread"
-msgstr ""
+msgstr "Відкрити обговорення"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
 msgid "chat.bits-message"
 msgstr ""
+"Подарував(-ла) {count, plural, one {# Bit} few {# Bits'и} other {# Bits'ів}}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
 msgstr ""
+"Цей значок відображається у всюди для користувачів із FrankerFaceZ. "
+"Відвідайте {website}, щоб змінити цей значок."
 
 #, icu-message-format
 msgid "chat.filtering.automod.S"
-msgstr ""
+msgstr "Відверто сексуальна мова"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:145
 #, icu-message-format
 msgid "chat.identity-menu"
-msgstr ""
+msgstr "Ідентичність в чаті"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:336:20
 #, icu-message-format
 msgid "chat.mod-action.timeout"
-msgstr ""
+msgstr "Відсторонення на {duration}"
 
 #: /src/modules/chat/override-editor.vue:23
 #, icu-message-format, lp-defaults:"{\"user.login\":\"SirStendec\"}"
 msgid "chat.overrides.editing"
-msgstr ""
+msgstr "Редагується {user.login}..."
 
 #: /src/modules/main_menu/components/reason-editor.vue:110
 #, icu-message-format
 msgid "chat.reason.ignore"
-msgstr ""
+msgstr "Ігнорування стрімера / модераторів"
 
 #: /src/modules/chat/tokenizers.jsx:274
 #, icu-message-format
 msgid "chat.reply-to"
-msgstr ""
+msgstr "Відповідь:"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
 #, icu-message-format
 msgid "chat.sub.twitch-prime"
-msgstr ""
+msgstr "з Prime Gaming"
 
 #: /src/modules/chat/rich_providers.js:133:13
 #, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
 msgid "clip.desc.2"
 msgstr ""
+"Автор кліпу: {curator} — {views,plural,one {перегляд} few {перегляди} other "
+"{переглядів}}"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:428
 #, icu-message-format
 msgid "compat.bttv.emotes-on"
 msgstr ""
+"Ви ввімкнули \"FrankerFaceZ Emotes\" у налаштуваннях BetterTTV, але у вас "
+"також встановлено FrankerFaceZ. Вимкніть \"FrankerFaceZ Emotes\" у "
+"налаштуваннях BetterTTV. Це не є необхідним."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.unsafe"
-msgstr ""
+msgstr "Дозволити NSFW"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.embed"
-msgstr ""
+msgstr "Rich Embed"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
-msgstr ""
+msgstr "Примусова підказка"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.full-embed"
-msgstr ""
+msgstr "Повне вбудовування"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.link"
-msgstr ""
+msgstr "Посилання на чат"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.raw"
-msgstr ""
+msgstr "Необроблені дані"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.refresh"
-msgstr ""
+msgstr "Оновити"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.url"
-msgstr ""
+msgstr "Тест URL"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.animals_nature"
-msgstr ""
+msgstr "Тварини і природа"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.food_drink"
-msgstr ""
+msgstr "Їжа і напої"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.people_body"
-msgstr ""
+msgstr "Люди"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.smileys_emotion"
-msgstr ""
+msgstr "Смайли та емоції"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.travel_places"
-msgstr ""
+msgstr "Подорожі та визначні місця"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1255:16
 #, icu-message-format
@@ -1198,25 +1207,41 @@ msgstr ""
 #: /src/modules/chat/tokenizers.jsx:1089
 #, icu-message-format
 msgid "emoji.category.activities"
-msgstr ""
+msgstr "Активність"
 
 #: /src/modules/chat/badges.jsx:292
 #, icu-message-format, lp-defaults:"{\"title\":\"Founder\",\"count\":\"18\"}"
 msgid "badges.founder.months"
 msgstr ""
+"{title}\n"
+"(Передплатив {count,plural, one {# місяць } few {# місяці} other {# місяців}}"
+" підписки)"
 
 #: /src/modules/main_menu/components/action-editor.vue:545
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
 msgid "chat.actions.timeout.desc"
 msgstr ""
+"{options.duration,plural, one {# секунда} few {# секунди} other {# секунд}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
 msgstr ""
+"Подаруйте додаткові {bits_remaining, plural, one {# bit} other {# bits}}, "
+"щоб розблокувати цей смайл."
 
 #: /src/modules/main_menu/components/socket-info.vue:154
 #: /src/modules/main_menu/components/socket-info.vue:122
 #, icu-message-format
 msgid "socket.info.count"
 msgstr ""
+
+#: /src/modules/main_menu/components/link-tester.vue:293
+#, icu-message-format
+msgid "debug.link-provider.mid-embed"
+msgstr "Середнє вбудовування"
+
+#: /src/modules/main_menu/components/link-tester.vue:353
+#, icu-message-format
+msgid "debug.link-provider.raw-length"
+msgstr "Необроблена довжина"
