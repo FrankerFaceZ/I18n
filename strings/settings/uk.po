@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2023-01-06 13:32+0000\n"
+"Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
+"Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/settings/uk/>\n"
+"Language: uk\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.author"
 msgstr "Автор: {author}"
@@ -8,7 +18,7 @@ msgid "addon.deck.author"
 msgstr "SirStendec"
 
 msgid "addon.deck.name"
-msgstr "Deck"
+msgstr "Колода"
 
 msgid "addon.dev"
 msgstr "Розробник"
@@ -90,7 +100,7 @@ msgid "home.changelog.current"
 msgstr "Поточна версія"
 
 msgid "home.changelog.error"
-msgstr "Під час завантаження змін з GitHub виникла помилка. "
+msgstr "Під час завантаження змін з GitHub виникла помилка."
 
 msgid "home.changelog.load"
 msgstr "Завантажити Більше"
@@ -696,7 +706,7 @@ msgid "setting.delete-all"
 msgstr "Видалити всі"
 
 msgid "setting.dev-warning"
-msgstr "It's dangerous to go at all."
+msgstr "СТІЙ! НЕБЕЗПЕКА!"
 
 msgid "setting.directory.categories"
 msgstr "Категорія"
@@ -1572,7 +1582,7 @@ msgid "setting.entry.i18n.debug.transform.values.lower"
 msgstr "Малі букви"
 
 msgid "setting.entry.i18n.debug.transform.values.owo"
-msgstr "owo what's this"
+msgstr "owo що це таке"
 
 msgid "setting.entry.i18n.debug.transform.values.set_key"
 msgstr "Замінити ключем"
@@ -2240,7 +2250,7 @@ msgid "setting.icon.search"
 msgstr "Пошук Значка"
 
 msgid "setting.inheritance.desc"
-msgstr "Успадкувати значення від профілів рівней нижче цієї позиції"
+msgstr "Успадкувати значення від профілів рівнів нижче цієї позиції."
 
 msgid "setting.key.alt"
 msgstr "Alt"
@@ -2261,7 +2271,7 @@ msgid "setting.no-items"
 msgstr "нічого немає"
 
 msgid "setting.overridden-by"
-msgstr "Перевизначив: "
+msgstr "Перевизначено: {title}"
 
 msgid "setting.paste-json"
 msgstr "Вставити JSON"
@@ -2318,7 +2328,7 @@ msgid "setting.preview"
 msgstr "Перегляд"
 
 msgid "setting.profile.updates"
-msgstr "Цей профіль автоматично оновиться з цього URL: "
+msgstr "Цей профіль автоматично оновлюватиметься з цього URL:"
 
 msgid "setting.profiles.active"
 msgstr "Цей профіль увімкнений."
@@ -2375,7 +2385,7 @@ msgid "setting.reasons.add-placeholder"
 msgstr "Додати нову причину"
 
 msgid "setting.reasons.delete-all"
-msgstr "Видалити всі причини цього профілю"
+msgstr "Видалити всі причини цього профілю."
 
 msgid "setting.reasons.info"
 msgstr ""
@@ -2409,6 +2419,7 @@ msgstr "Не вилучати з чату підхожі повідомленн�
 msgid "setting.terms.remove.on"
 msgstr "Вилучати відповідні повідомлення з чату."
 
+#, fuzzy
 msgid "setting.terms.type.glob"
 msgstr "Glob"
 
@@ -2619,7 +2630,7 @@ msgid "settings.filter.title.sensitive"
 msgstr "Чутливий до Регістру"
 
 msgid "settings.filter.title.warn-invalid"
-msgstr "Шаблон недійсний"
+msgstr "Шаблон недійсний."
 
 msgid "settings.filter.true_false"
 msgstr "Правдиво чи Неправдиво"
