@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-06 13:32+0000\n"
+"PO-Revision-Date: 2023-01-06 21:32+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/uk/>\n"
@@ -115,7 +115,22 @@ msgid "home.discord"
 msgstr "Discord"
 
 msgid "home.feedback"
-msgstr "## "
+msgstr ""
+"## Зворотній зв'язок\n"
+"\n"
+"Ви можете надати відгук і звіт про помилку, [відкривши проблему (Issue) в "
+"нашому репозиторії GitHub]\n"
+"(https://github.com/FrankerFaceZ/FrankerFaceZ/issues). Також ви можете ["
+"знайти нас у Discord](https://discord.gg/UrAkGhT) або [написати нам "
+"твіт](https://twitter.com/FrankerFaceZ).\n"
+"\n"
+"Створюючи проблему GitHub, переконайтеся, що хтось ще не створив її для "
+"того, що ви хотіли б обговорити або повідомити. Проблеми GitHub слід "
+"використовувати для вирішення проблем із клієнтом, а не для питань щодо "
+"смайлів.\n"
+"\n"
+"Створюючи проблему, також завантажте наведені нижче журнали та додайте "
+"посилання у свій звіт."
 
 msgid "home.tweets"
 msgstr "Твіти від FrankerFaceZ"
@@ -2634,3 +2649,186 @@ msgstr "Шаблон недійсний."
 
 msgid "settings.filter.true_false"
 msgstr "Правдиво чи Неправдиво"
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Показати менше)"
+
+#: /src/modules/main_menu/components/addon-list.vue:90
+#, icu-message-format
+msgid "addon.sort-name"
+msgstr "Сортувати за: Назва"
+
+#: /src/modules/main_menu/components/addon-list.vue:98
+#, icu-message-format
+msgid "addon.sort-update"
+msgstr "Сортувати за: Дата оновлення"
+
+#: /src/modules/main_menu/components/addon.vue:136
+#, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
+msgid "addon.updated"
+msgstr "Оновлено: {when,humantime}"
+
+#, icu-message-format, md-text
+msgid "home.addon-new"
+msgstr "Нові надбудови"
+
+#, icu-message-format, md-text
+msgid "home.addon-new.desc"
+msgstr ""
+"Ці доповнення були опубліковані протягом останніх семи днів. Перегляньте їх "
+"у [Add-Ons](~add_ons)."
+
+#, icu-message-format, md-text
+msgid "home.addon-updates"
+msgstr "Оновлені надбудови"
+
+#, icu-message-format, md-text
+msgid "home.addon-updates.desc"
+msgstr ""
+"Ці надбудови оновлювалися протягом останніх семи днів. Перевірте [журнал "
+"змін](~add_ons.changelog), щоб побачити, що змінилося."
+
+#, icu-message-format, lp-defaults:"{\"user\":\"Lordmau5\"}"
+msgid "home.changelog.by-line"
+msgstr "Автор:{user}"
+
+#: /src/modules/main_menu/components/changelog.vue:72
+#, icu-message-format
+msgid "home.changelog.nonversioned"
+msgstr "Комміт без версії"
+
+#, icu-message-format
+msgid "home.github"
+msgstr "GitHub"
+
+#, icu-message-format
+msgid "home.new-settings"
+msgstr "Нові налаштування"
+
+#, icu-message-format
+msgid "home.new-settings.desc"
+msgstr "Це налаштування, які ви ще не переглядали."
+
+#, icu-message-format
+msgid "home.tag-line"
+msgstr "Пакет покращень Twitch"
+
+#: /src/modules/main_menu/components/chat-actions.vue:409
+#, icu-message-format
+msgid "setting.actions.new"
+msgstr "Нове..."
+
+#: /src/modules/main_menu/components/addon-list.vue:172
+#, icu-message-format
+msgid "addon.sort-create"
+msgstr "Сортувати за: Дата створення"
+
+#: /src/modules/main_menu/components/chat-actions.vue:635
+#, icu-message-format
+msgid "setting.actions.add-default"
+msgstr "Додати параметри за замовчуванням"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Доступні засоби форматування: {fmts}"
+
+#: /src/modules/main_menu/components/action-editor.vue:31
+#, icu-message-format, lp-defaults:"{\"list\":\"if message deleted\"}"
+msgid "setting.actions.visible"
+msgstr "видимо: {list}"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Якщо це встановлено, підсвічені повідомлення без кольору за замовчуванням "
+"використовуватимуть цей колір, а не червоний."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"Спеціальна візуалізація застосовує фоновий колір до підсвічених повідомлень, "
+"що може не сподобатися деяким користувачам."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight"
+msgstr "Підсвітити"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Підсвітити умови"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Значки"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.description"
+msgstr ""
+"Ці налаштування дозволяють підсвічувати повідомлення в чаті на основі їх "
+"вмісту. Встановлення пріоритетів для правил дозволяє визначити, який колір "
+"підсвічування слід застосувати, якщо повідомлення відповідає кільком "
+"правилам. Правила з вищим пріоритетом мають пріоритет над правилами з нижчим "
+"пріоритетом.\n"
+"\n"
+"Ви також можете створити правило, яке видаляє підсвічування з повідомлень, "
+"запобігаючи їх виділенню правилами з нижчим пріоритетом, установивши колір "
+"із нульовим значенням альфа. Приклад: `#00000000`"
+
+#: /src/modules/main_menu/components/addon.vue:157
+#, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
+msgid "addon.created"
+msgstr "Створено:[when,date]"
+
+#: /src/modules/main_menu/components/addon-list.vue:110
+#, icu-message-format
+msgid "addon.filter-enabled"
+msgstr "Показувати лише активовані надбудови."
+
+#: /src/modules/main_menu/components/chat-actions.vue:42
+#, icu-message-format
+msgid "setting.actions.preview"
+msgstr "Попередній перегляд:"
+
+#: /src/modules/main_menu/components/chat-actions.vue:302
+#, icu-message-format
+msgid "setting.actions.preview.all"
+msgstr "Відобразити все"
+
+#: /src/modules/main_menu/components/action-editor.vue:579
+#, icu-message-format
+msgid "setting.actions.visible.deleted"
+msgstr "якщо повідомлення видалено"
+
+#: /src/modules/main_menu/components/action-editor.vue:680
+#, icu-message-format
+msgid "setting.actions.visible.hover"
+msgstr "при наведенні"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Підсвітити значки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Підсвітити користувачів"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Умови"
