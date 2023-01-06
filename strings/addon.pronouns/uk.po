@@ -1,37 +1,44 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-01-06 21:32+0000\n"
+"Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
+"Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-pronouns/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: /src/addons.js:261
 #: /src/pronouns/index.jsx:161
 #, icu-message-format, lp-defaults:"{\"value\":\"Zie/Hir\"}"
 msgid "addon.pronouns.title"
-msgstr ""
+msgstr "Займенники: {value}"
 
 #: /src/modules/main_menu/index.js:583
 #: /src/modules/main_menu/components/menu-tree.vue:1
 #, icu-message-format
 msgid "setting.add_ons.pronouns"
-msgstr ""
+msgstr "Особові займенники"
 
 #: /src/modules/main_menu/index.js:583
 #, icu-message-format
 msgid "setting.add_ons.pronouns.appearance"
-msgstr ""
+msgstr "Вигляд"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.pronouns.per_badge_colors"
-msgstr ""
+msgstr "Кольори кожного значка"
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.border"
-msgstr ""
+msgstr "Показувати рамку навколо значка."
 
 #: /src/modules/main_menu/index.js:545
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.color"
-msgstr ""
+msgstr "Колір значка"
