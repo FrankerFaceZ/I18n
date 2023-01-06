@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-06 13:32+0000\n"
+"PO-Revision-Date: 2023-01-06 21:32+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/uk/>\n"
@@ -131,7 +131,7 @@ msgid "chat.deleted-messages"
 msgstr ""
 "{count,plural,\n"
 "one {Одне повідомлення було видалено модератором.}\n"
-"other {# повідомлень було  удалено модератором.}\n"
+"other {# повідомлень було видалено модератором.}\n"
 "}"
 
 msgid "chat.ffz-badge.site"
@@ -269,10 +269,7 @@ msgid "chat.sub.gift-plan"
 msgstr "Рівень {tier}"
 
 msgid "chat.sub.gift-total"
-msgstr ""
-"Вони вже подарували {count} передплат на цьому каналі!\n"
-"Він(вона)) подарував(ла) {count} {count,plural,one {передплату} few "
-"{передплати} other {передплат{count}} на канал!"
+msgstr "Вони вже подарували {count,number} передплат на цьому каналі!"
 
 msgid "chat.sub.main"
 msgstr "{user} передплатив {plan}. "
@@ -308,7 +305,7 @@ msgid "directory.hosted"
 msgstr "Ретрансльований канал"
 
 msgid "directory.hosted.by-many"
-msgstr "Ретранслйований  {count,number} канал{count,plural,one {ом} other {и}}"
+msgstr "Ретрансльований {count, plural, one {# каналом} other {# каналами}}"
 
 msgid "directory.hosted.by-one"
 msgstr "Ретранслюється {user}"
@@ -445,11 +442,10 @@ msgstr "Ця передплата поновиться через {seconds,human
 msgid "emote-menu.sub-set"
 msgstr "Передплатні смайлики"
 
-#, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Передплатіть за {price}, щоб відкрити {count,number} смайлик{"
-"count,plural,one {} few {и} other {ів}}"
+"Передплатіть за {price}, щоб відкрити {count, plural, one {# смайлик} few {# "
+"смайли} other {# смайлів}}"
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
@@ -808,9 +804,8 @@ msgstr "Вам доступна безкоштовна передплата на
 msgid "tooltip.bits"
 msgstr "{count,number} Бітсів"
 
-#, fuzzy
 msgid "tooltip.bits.more"
-msgstr "(та ще {count})"
+msgstr "(та ще {count, number} )"
 
 msgid "tooltip.channel"
 msgstr "Канал: {source}"
@@ -856,9 +851,8 @@ msgstr "{time,humantime} тому назад"
 msgid "video.desc.1"
 msgstr "Відео зі стріму {user}"
 
-#, fuzzy
 msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Перегляди - {date,datetime}"
+msgstr "{length,duration} — {views,number} Перегляди — {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Оприлюднено: {date,date}"
@@ -875,22 +869,22 @@ msgstr "Почніть відстежувати {user} щоб розблокув
 
 #, icu-message-format
 msgid "i18n.ui.invalid"
-msgstr ""
+msgstr "Недійсні рядки"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:572:17
 #, icu-message-format
 msgid "key.meta"
-msgstr ""
+msgstr "Meta Key"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:107:10
 #, icu-message-format
 msgid "site.menu_button.addon-dev"
-msgstr ""
+msgstr "a-dev"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.time_offset"
-msgstr ""
+msgstr "Часовий зсув"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1065,143 +1059,157 @@ msgstr "Подорожі та визначні місця"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1255:16
 #, icu-message-format
 msgid "emote-menu.prime"
-msgstr ""
+msgstr "Prime"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1272:16
 #, icu-message-format, lp-defaults:"{\"set_id\":300206295}"
 msgid "emote-menu.unknown-set"
-msgstr ""
+msgstr "Набір #{set_id}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "emote.ffz.status.1"
-msgstr ""
+msgstr "Затверджено"
 
 #: /src/modules/chat/tokenizers.jsx:1365
 #, icu-message-format, lp-defaults:"{\"source\":\"itmeJP\"}"
 msgid "emote.follower"
-msgstr ""
+msgstr "Смайлик фоловера ({source})"
 
 #: /src/modules/chat/tokenizers.jsx:1041:14
 #, icu-message-format
 msgid "emote.prime"
-msgstr ""
+msgstr "Prime Gaming"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.badge"
-msgstr ""
+msgstr "Виділити значок"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.mention"
-msgstr ""
+msgstr "Згаданий"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.term"
-msgstr ""
+msgstr "Виділити термін"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:47
 #, icu-message-format
 msgid "hl-reason.user"
-msgstr ""
+msgstr "Виділений користувач"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:96
 #, icu-message-format
 msgid "i18n.ui.save"
-msgstr ""
+msgstr "Згенерувати Blob змін"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:576:21
 #, icu-message-format
 msgid "key.meta_mouse"
-msgstr ""
+msgstr "Мeta або миша"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:258
 #, icu-message-format
 msgid "metadata.host.setting.auto-hosting.title"
-msgstr ""
+msgstr "Авторетрансляція"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:334
 #, icu-message-format
 msgid "metadata.host.setting.team-hosting.title"
-msgstr ""
+msgstr "Командний хостинг"
 
 #: /src/modules/metadata.jsx:245:30
 #, icu-message-format
 msgid "metadata.player-stats.broadcast-ago"
-msgstr ""
+msgstr "Транслювалося {count,number}сек. тому"
 
 #: /src/modules/metadata.jsx:224:8
 #, icu-message-format
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
+"Ваш локальний годинник відстає приблизно на {count,number} сек., через що "
+"значення може бути неточним."
 
 #: /src/modules/metadata.jsx:150
 #, icu-message-format, lp-defaults:"{\"time\":\"1:02:31\"}"
 msgid "metadata.uptime.link-to"
-msgstr ""
+msgstr "Посилання на {time}"
 
 #: /src/modules/metadata.jsx:116:29
 #, icu-message-format, lp-defaults:"{}"
 msgid "metadata.uptime.since"
-msgstr ""
+msgstr "з {since,datetime})"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:1115
 #, icu-message-format
 msgid "player.comp_button.firefox"
 msgstr ""
+"Елементи керування швидкістю відтворення не працюватимуть для користувачів "
+"Firefox, коли ввімкнено компресор."
 
 #: /src/sites/shared/player.jsx:1113
 #: /src/sites/shared/player.jsx:1172
 #, icu-message-format
 msgid "player.gain.label"
-msgstr ""
+msgstr "Контроль посилення"
 
 #: /src/sites/twitch-twilight/modules/player.jsx:865
 #, icu-message-format
 msgid "player.pip_button.fs"
-msgstr ""
+msgstr "Неможливо використовувати режим «Картинка в картинці» на весь екран"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:321
 #, icu-message-format
 msgid "site.menu_button.changed"
 msgstr ""
+"Змінився постачальник налаштувань FrankerFaceZ. Будь ласка, оновіть цю "
+"вкладку, щоб уникнути дивної поведінки."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:101:10
 #, icu-message-format
 msgid "site.menu_button.dev"
-msgstr ""
+msgstr "dev"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:441
 #, icu-message-format
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
+"Ваше локальне сховище для цього веб-сайту заповнено, і налаштування "
+"неможливо зберегти. Зробіть резервну копію налаштувань і перейдіть до "
+"постачальника з більшою потужністю в [Керування даними > Сховище >> "
+"Постачальник] (~data_management.storage.tabs.provider)."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:190
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
 msgid "site.menu_button.strings"
 msgstr ""
+"Є {added,plural,one {# новий рядок} few {# нові рядки} other {# нових "
+"рядків}} і {changed,plural,one {# змінений рядок} few {# змінені рядки} "
+"other {# змінених рядків}}."
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
 msgid "socket.info.stats.live_clients"
-msgstr ""
+msgstr "Клієнтів у мережі"
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
 msgid "socket.info.topics"
-msgstr ""
+msgstr "Теми"
 
 #: /src/modules/chat/tokenizers.jsx:68:14
 #, icu-message-format, lp-defaults:"{\"reasons\":\"malware\"}"
 msgid "tooltip.link-unsafe"
 msgstr ""
+"Застереження: цю URL-адресу було позначено як потенційно шкідливу: {reasons}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:83:13
 #, icu-message-format
 msgid "key.hover"
-msgstr ""
+msgstr "Прокрутка"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:582
 #: /src/modules/chat/tokenizers.jsx:1089
@@ -1234,7 +1242,7 @@ msgstr ""
 #: /src/modules/main_menu/components/socket-info.vue:122
 #, icu-message-format
 msgid "socket.info.count"
-msgstr ""
+msgstr "Лічильник"
 
 #: /src/modules/main_menu/components/link-tester.vue:293
 #, icu-message-format
