@@ -1,5 +1,532 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2023-01-06 13:32+0000\n"
+"Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
+"Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-deck/uk/>\n"
+"Language: uk\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.deck.title"
 msgstr "Deck"
+
+#: /src/deck/components/bd-column-editor.vue:359
+#, icu-message-format
+msgid "addon.deck.edit.column"
+msgstr "Редагувати стовпець"
+
+#: /src/deck/components/bd-tab-editor.vue:192
+#, icu-message-format
+msgid "addon.deck.edit.sidebar"
+msgstr "Використовувати вкладку як бічну панель"
+
+#: /src/deck/components/browse-deck.vue:550
+#, icu-message-format
+msgid "addon.deck.intro"
+msgstr ""
+"Ласкаво просимо до Deck, найкращого способу пошуку вмісту на Twitch.\n"
+"\n"
+"Вам потрібно почати з додавання стовпця за допомогою кнопки «Новий»."
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-recommended"
+msgstr "Рекомендовані потоки"
+
+#: /src/deck/components/bd-edit-video-channel.vue:65
+#, icu-message-format
+msgid "addon.deck.no-live"
+msgstr "Не відображати пряму трансляцію каналу під час трансляції."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.recommended.live-tip"
+msgstr ""
+"У цьому стовпці показано канали наживо , які Twitch рекомендує вам на основі "
+"вашої історії переглядів."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.search.live-tip"
+msgstr ""
+"У цьому стовпці показано канали наживо, які відповідають пошуковому запиту."
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.trending"
+msgstr "В тренді"
+
+#: /src/deck/side-components/bd-shelf.vue:112
+#, icu-message-format
+msgid "addon.deck.empty"
+msgstr "Результатів немає."
+
+#: /src/deck/components/bd-column.vue:491
+#, icu-message-format
+msgid "addon.deck.end"
+msgstr "Ви дійшли до кінця."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.featured"
+msgstr "Рекомендовані"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.featured.live-tip"
+msgstr ""
+"У цьому стовпці показано пропоновані канали в прямому ефірі.\n"
+"\n"
+"Пропоновані канали зазвичай відображаються у верхній частині домашньої "
+"сторінки Twitch у каруселі."
+
+#: /src/deck/components/browse-deck.vue:446
+#, icu-message-format
+msgid "addon.deck.filtered"
+msgstr "Відфільтровано за"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed"
+msgstr "Стежив"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed.video-tip"
+msgstr "У цьому стовпці показано відео з каналів, на які ви підписалися."
+
+#: /src/deck/components/bd-column.vue:352
+#, icu-message-format
+msgid "addon.deck.go-to-top"
+msgstr "Повернутися до початку"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.live-category"
+msgstr "{name} Потоки"
+
+#: /src/deck/components/browse-deck.vue:191
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-channels"
+msgstr "Канали наживо"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.live-channels.tip"
+msgstr ""
+"У цьому стовпці показано всі канали наживо на Twitch. Це корисно для "
+"фільтрації за певними тегами."
+
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-featured"
+msgstr "Рекомендовані потоки"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recent"
+msgstr "Нещодавно розпочато"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recommended"
+msgstr "Рекомендовано для вас"
+
+#: /src/utilities/dialog.js:150
+#: /src/deck/components/bd-column.vue:678
+#: /src/deck/index.jsx:335
+#, icu-message-format
+msgid "addon.deck.loading"
+msgstr "Завантаження..."
+
+#: /src/deck/components/bd-column.vue:433
+#, icu-message-format
+msgid "addon.deck.need-config"
+msgstr "Вам потрібно завершити налаштування цього стовпця."
+
+#: /src/deck/components/browse-deck.vue:54
+#, icu-message-format
+msgid "addon.deck.new"
+msgstr "Новий..."
+
+#: /src/deck/components/bd-tab-settings.vue:51
+#, icu-message-format
+msgid "addon.deck.new-sidebar"
+msgstr "Нова вкладка бічної панелі"
+
+#: /src/deck/components/bd-tab-settings.vue:49
+#, icu-message-format
+msgid "addon.deck.new-tab"
+msgstr "Нова вкладка"
+
+#: /src/deck/components/bd-edit-video.vue:69
+#, icu-message-format
+msgid "addon.deck.no-recordings"
+msgstr "Не показувати відео з поточних трансляцій."
+
+#: /src/deck/components/bd-column.vue:699
+#, icu-message-format
+msgid "addon.deck.no-state"
+msgstr "(що я роблю)"
+
+#: /src/deck/components/bd-tag-selector.vue:36
+#, icu-message-format
+msgid "addon.deck.no-tags"
+msgstr "немає тегів"
+
+#: /src/deck/components/bd-channel-selector.vue:44
+#, icu-message-format
+msgid "addon.deck.no-users"
+msgstr "немає користувачів"
+
+#: /src/deck/components/bd-column.vue:232
+#: /src/deck/components/bd-column.vue:459
+#, icu-message-format
+msgid "addon.deck.open-settings"
+msgstr "Відкрити налаштування"
+
+#: /src/deck/components/bd-video-card.vue:77
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published"
+msgstr "Опубліковано в {published,date}о{published,time}"
+
+#: /src/deck/components/bd-video-card.vue:56
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published-human"
+msgstr "{published,humantime,1}"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.recommended"
+msgstr "Рекомендовано"
+
+#: /src/deck/components/bd-column.vue:329
+#, icu-message-format
+msgid "addon.deck.refresh"
+msgstr "Оновити"
+
+#: /src/deck/components/browse-deck.vue:346
+#, icu-message-format
+msgid "addon.deck.refresh-all"
+msgstr "Оновити все"
+
+#: /src/deck/components/bd-column-editor.vue:335
+#, icu-message-format
+msgid "addon.deck.refresh.disabled"
+msgstr "Вимкнено"
+
+#: /src/deck/components/bd-column-editor.vue:180
+#, icu-message-format
+msgid "addon.deck.save"
+msgstr "Зберегти"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.search"
+msgstr "Пошук"
+
+#: /src/deck/components/bd-tag-selector.vue:19
+#, icu-message-format
+msgid "addon.deck.search-tags"
+msgstr "Теги пошуку"
+
+#: /src/deck/components/bd-channel-selector.vue:19
+#, icu-message-format
+msgid "addon.deck.search-users"
+msgstr "Пошук користувачів"
+
+#: /src/deck/components/bd-shelf.vue:181
+#, icu-message-format
+msgid "addon.deck.show-less"
+msgstr "Показати менше"
+
+#: /src/deck/components/bd-shelf.vue:162
+#, icu-message-format
+msgid "addon.deck.show-more"
+msgstr "Показати більше"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-asc"
+msgstr "Нещодавно створений"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-desc"
+msgstr "Спочатку найстаріший"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-asc"
+msgstr "Перегляди (від низького до високого)"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-desc"
+msgstr "Перегляди (від низького до високого)"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers"
+msgstr "Глядачі (від високого до низького)"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers-asc"
+msgstr "Глядачі (від низького до високого)"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sort.sub.viewers"
+msgstr "Глядачі"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.sort.sub.views"
+msgstr "Перегляди"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#: /src/deck/components/bd-column.vue:153
+#, icu-message-format
+msgid "addon.deck.sort.video.recent"
+msgstr "Нещодавно опубліковано"
+
+#: /src/deck/components/bd-column.vue:290
+#, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
+msgid "addon.deck.auto-refresh"
+msgstr "Автоматичне оновленння через {delay}"
+
+#: /src/deck/components/bd-column-editor.vue:89
+#, icu-message-format
+msgid "addon.deck.cancel"
+msgstr "Скасувати"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category"
+msgstr "Категорія"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip"
+msgstr "Кліпи"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.clip-tip"
+msgstr "У цьому стовпці показано кліпи з певної категорії."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live"
+msgstr "Трансляції"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live-tip"
+msgstr ""
+"У цьому стовпці показано прямі трансляції каналів певної категорії. "
+"Наприклад, ви можете створити приклад, який показуватиме всі канали, на яких "
+"грають у Super Mario 64."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.video"
+msgstr "Відео"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.video-tip"
+msgstr "У цьому стовпці показано відео в певній категорії."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel"
+msgstr "Канал"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.clip-tip"
+msgstr "У цьому стовпці відображаються кліпи з певного каналу."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.video-tip"
+msgstr "У цьому стовпці показано відео з певного каналу."
+
+#: /src/deck/components/bd-edit-clip.vue:10
+#, icu-message-format
+msgid "addon.deck.edit.period"
+msgstr "Період:"
+
+#, icu-message-format, lp-defaults:"{\"user\":null}"
+msgid "addon.deck.clipped-by"
+msgstr "Автор кліпу {user}"
+
+#: /src/deck/components/bd-column-editor.vue:133
+#, icu-message-format
+msgid "addon.deck.copy"
+msgstr "Копіювати"
+
+#: /src/deck/components/browse-deck.vue:361
+#: /src/deck/components/bd-tab-editor.vue:199
+#, icu-message-format
+msgid "addon.deck.default-tab"
+msgstr "Вкладка за замовчуванням"
+
+#: /src/deck/components/bd-column-editor.vue:159
+#: /src/deck/components/bd-column-editor.vue:110
+#, icu-message-format
+msgid "addon.deck.delete"
+msgstr "Видалити"
+
+#: /src/deck/components/bd-column.vue:384
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.clip-category"
+msgstr "{name} Кліпи"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.24-hours"
+msgstr "24 години"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.30-days"
+msgstr "30 днів"
+
+#: /src/deck/components/bd-column-editor.vue:228
+#, icu-message-format
+msgid "addon.deck.edit.appearance"
+msgstr "Вигляд"
+
+#: /src/deck/components/bd-column-editor.vue:600
+#, icu-message-format
+msgid "addon.deck.edit.avatars"
+msgstr "Не відображати аватари."
+
+#: /src/deck/components/bd-column-editor.vue:700
+#, icu-message-format
+msgid "addon.deck.edit.behavior"
+msgstr "Поведінка"
+
+#: /src/deck/components/bd-column-editor.vue:402
+#, icu-message-format
+msgid "addon.deck.edit.card-width"
+msgstr "Розмір картки:"
+
+#: /src/deck/components/bd-edit-channel.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channel"
+msgstr "Канал:"
+
+#: /src/deck/components/bd-edit-channels.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channels"
+msgstr "Канали:"
+
+#: /src/deck/components/bd-column.vue:153
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.7-days"
+msgstr "7 днів"
+
+#: /src/deck/components/bd-column.vue:121
+#, icu-message-format
+msgid "addon.deck.clip-period.7d"
+msgstr "7 днів"
+
+#: /src/deck/components/bd-edit-clip.vue:35
+#, icu-message-format
+msgid "addon.deck.clip-period.all-time"
+msgstr "Завжди"
+
+#: /src/deck/components/bd-column-editor.vue:313
+#, icu-message-format
+msgid "addon.deck.edit.color"
+msgstr "Колір:"
+
+#: /src/deck/components/bd-column-editor.vue:345
+#, icu-message-format
+msgid "addon.deck.edit.columns"
+msgstr "Стовпці:"
+
+#: /src/deck/components/bd-edit-count.vue:11
+#, icu-message-format
+msgid "addon.deck.edit.count"
+msgstr "Підрахувати:"
+
+#: /src/deck/components/bd-column-editor.vue:350
+#, icu-message-format
+msgid "addon.deck.edit.default_count"
+msgstr "Розмір за замовчуванням:"
+
+#: /src/deck/components/bd-edit-category.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.game"
+msgstr "Категорія:"
+
+#: /src/deck/components/bd-tab-editor.vue:129
+#: /src/deck/components/bd-column-editor.vue:285
+#, icu-message-format
+msgid "addon.deck.edit.icon"
+msgstr "Значок:"
+
+#: /src/deck/components/bd-column-editor.vue:483
+#, icu-message-format
+msgid "addon.deck.edit.max-tags"
+msgstr "Показати теги:"
+
+#: /src/deck/components/bd-column-editor.vue:719
+#, icu-message-format
+msgid "addon.deck.edit.refresh"
+msgstr "Автоматичне оновлення:"
+
+#: /src/deck/components/bd-column-editor.vue:826
+#, icu-message-format
+msgid "addon.deck.edit.required-tags"
+msgstr "Обов'язкові теги:"
+
+#: /src/deck/components/bd-edit-search.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.search"
+msgstr "Пошук:"
+
+#: /src/deck/components/bd-column-editor.vue:789
+#, icu-message-format
+msgid "addon.deck.edit.sort"
+msgstr "Сортувати за:"
+
+#: /src/deck/components/bd-tab-editor.vue:163
+#, icu-message-format
+msgid "addon.deck.edit.tags"
+msgstr "Теги:"
+
+#: /src/deck/components/bd-edit-team.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.team"
+msgstr "Команда:"
+
+#: /src/deck/components/bd-tab-editor.vue:86
+#: /src/deck/components/bd-column-editor.vue:240
+#, icu-message-format
+msgid "addon.deck.edit.title"
+msgstr "Назва:"
+
+#: /src/deck/components/bd-column-editor.vue:678
+#, icu-message-format
+msgid "addon.deck.edit.viewers"
+msgstr "Не відображати перегляди / глядачів."
