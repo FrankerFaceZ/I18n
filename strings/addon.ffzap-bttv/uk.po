@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-06 13:32+0000\n"
+"PO-Revision-Date: 2023-01-07 13:32+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-betterttv-emotes/uk/>\n"
@@ -67,3 +67,54 @@ msgstr "Смайли"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.arbitrary_emoticons"
 msgstr "Довільні смайли"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.values.0"
+msgstr "Вимкнено"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.global_emoticons"
+msgstr "Глобальні смайли"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.arbitrary_emoticons.description"
+msgstr ""
+"Увімкніть, аби показувати довільні смайли (на кшталт D:, :tf: і подібних)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.channel_emoticons"
+msgstr "Смайли каналу"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.channel_emoticons.description"
+msgstr "Увімкніть, щоб показувати смайли BetterTTV для кожного каналу."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode"
+msgstr "GIF-смайли"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.description"
+msgstr "Змініть режим відображення смайлів GIF."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.global_emoticons.description"
+msgstr "Увімкніть, аби показувати глобальні смайли BetterTTV."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.pro_emoticons"
+msgstr "Pro Смайли"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.betterttv.pro_emoticons.description"
+msgstr "Увімкніть, аби показувати смайли BetterTTV Pro."
