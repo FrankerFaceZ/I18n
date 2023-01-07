@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-07 13:32+0000\n"
+"PO-Revision-Date: 2023-01-09 20:32+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/uk/>\n"
@@ -1419,7 +1419,7 @@ msgid "setting.entry.chat.subs.merge-gifts.values.10"
 msgstr "більш, ніж 10"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.1000"
-msgstr "відключено"
+msgstr "Вимкнено"
 
 msgid "setting.entry.chat.subs.merge-gifts.values.20"
 msgstr "більш, ніж 20"
@@ -2361,10 +2361,11 @@ msgid "setting.profiles.disabled"
 msgstr "Цей профіль вимкнений."
 
 msgid "setting.profiles.disabled.description"
-msgstr "Цей профіль було вимкнено, отже ви не побачити зроблених тут змін на Твічі."
+msgstr ""
+"Цей профіль було вимкнено, отже ви не побачити зроблених тут змін на Twitch."
 
 msgid "setting.profiles.disabled.rules"
-msgstr "Цей профіль увімкнено, але він не є активним через умов його правил."
+msgstr "Цей профіль увімкнено, але він не є активним через умови його правил."
 
 msgid "setting.profiles.drag"
 msgstr "Перетягніть профілі аби змінити їхній приорітет."
@@ -3286,3 +3287,1232 @@ msgstr "Локальне сховище"
 #, icu-message-format
 msgid "setting.provider.warn.title"
 msgstr "Обережно!"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Автоматично відкривати чат під час відкриття офлайн-сторінки каналу."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Відображати дії кімнати над полем введення чату."
+
+#: /src/modules/main_menu/index.js:545
+#, icu-message-format
+msgid "setting.entry.chat.actions.size"
+msgstr "Розмір дії"
+
+#: /src/modules/main_menu/index.js:552
+#, icu-message-format, md-text
+msgid "setting.entry.chat.actions.size.description"
+msgstr ""
+"Висота дій у пікселях. На це можуть впливати параметри масштабування та "
+"розміру шрифту вашого браузера."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Мінімальний контраст"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Встановіть мінімальне значення контрастності, що буде використовуватись "
+"регулюванням Luma під час визначення легкості читання."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr ""
+"Повністю видаляйте повідомлення, якщо вони містять відфільтровані фрази."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Використовуйте спеціальні значки VIP, де це можливо."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:124
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Забезпечує видимість значків на поточному тлі.\n"
+"\n"
+"**Примітка.** Впливає лише на значки з власним рендерингом. Бейджі "
+"передплатника, біт-бейджі тощо не впливають."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.badges.style.values.0"
+msgstr "Квадратні"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.version"
+msgstr "Версія"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.polls"
+msgstr "Дозволити відображення Опитувань у чаті."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice.description"
+msgstr ""
+"Ця функція покликана запобігти можливій плутанині через спілкування, яке "
+"використовує смайли для імітації Cheers у повідомленнях. Якщо ввімкнено, над "
+"повідомленнями, які містять справжні Cheers, відображатиметься повідомлення, "
+"подібне до того, як функціонують повідомлення про повторну передплату або "
+"обмін балами за допомогою повідомлень."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"За замовчуванням це успадковує значення від Відобразити Bits. Цей параметр "
+"впливає лише на щойно отримані повідомлення."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Зберіть усі Cheers у повідомленні в одне вітання на початку повідомлення."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Відкладіть появу повідомлень чату, щоб полегшити модерацію, перш ніж ви їх "
+"побачите."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Використовуйте меню смайлів FrankerFaceZ."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr ""
+"Замініть піктограму меню смайлів на піктограму FFZ, щоб отримати класичне "
+"відчуття."
+
+#: /src/modules/main_menu/index.js:641
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emote-menu.icon.description"
+msgstr ""
+"**Примітка.** Це налаштування може бути примусово ввімкнено, якщо виявлено "
+"інші меню смайлів, щоб переконатися, що ви можете візуально ідентифікувати "
+"меню емоцій FFZ."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
+msgstr "У порядку додавання (ID), за зростанням"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.hide-viewers"
+msgstr "Приховати кількість переглядів каналу"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.clips.layout.big.description"
+msgstr ""
+"Ця опція впливає лише на вікна шириною не менше 1200 пікселів і намагається "
+"зробити плеєр та чат якомога більшими."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.display-bits-button.description"
+msgstr ""
+"За замовчуванням успадковує значення від [Чат > Камінці та Благодійники > "
+"Показувати Камінці](~chat.bits_and_cheering)"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark.description"
+msgstr ""
+"Увімкнувши це, ви спробуєте вимкнути вбудоване в браузер автоматичне "
+"перетворення темної теми для веб-сайтів, яке непотрібне на Twitch ,тож це "
+"може спричинити проблеми з відображенням. Це може не застосовуватися залежно "
+"від вашого веб-переглядача та налаштувань."
+
+#: /src/modules/main_menu/index.js:471
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgid "setting.entry.metadata.modview.hide-info"
+msgstr "Сховати кнопку «Приховати смугу інформації про потік»."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr ""
+"Показувати кнопку пропонованих підписок із наразі запропонованими "
+"користувачами."
+
+#: /src/modules/main_menu/components/clear-settings.vue:95
+#, icu-message-format, lp-defaults:"{\"code\":\"5456d490\"}"
+msgid "setting.clear.step-2"
+msgstr ""
+"Ви дійсно впевнені? Введіть `{code}` у текстове поле нижче для підтвердження."
+
+#: /src/modules/main_menu/components/profile-editor.vue:309
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.hotkey"
+msgstr "Гаряча клавіша"
+
+#: /src/modules/main_menu/components/profile-editor.vue:320
+#, icu-message-format, md-text
+msgid "setting.data_management.profiles.edit.rules.description"
+msgstr ""
+"Правила дозволяють визначити низку умов, за яких цей профіль буде активним. "
+"Якщо існує кілька правил, усі вони мають збігатися, щоб профіль активувався. "
+"Скористайтеся правилом `Or`, щоб створити профіль, який активується за "
+"допомогою одного з кількох правил."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.modifiers.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.lines.borders.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.points.allow-highlight.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.false"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.socket.use-cluster.values.null"
+msgstr "Вимкнено"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images.animated.description"
+msgstr ""
+"Якщо це не відключено, анімовані зображення відображатимуться в підказках "
+"смайлів, лише якщо [Chat > Appearance >> Emotes > Animated Emotes](~chat."
+"appearance.emotes) не вимкнено."
+
+#: /src/settings/components/title.vue:73
+#, icu-message-format
+msgid "settings.filter.title.warn-complex"
+msgstr ""
+"Цей шаблон потенційно надто складний. Його буде вимкнено, щоб уникнути "
+"затримки або зависання клієнта."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"До якого кластера серверів підключатися. Не змінюйте це налаштування, якщо "
+"ви фактично не розробляєте серверну частину сокет-сервера. Це призведе до "
+"поломки всіх функцій, які покладаються на сервер сокетів, включаючи пошук "
+"інформації про смайли, підказки посилань і оновлення даних у реальному часі."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.dev"
+msgstr "Локальний хост"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.chat_lines"
+msgstr "Лінії в чаті"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.replies"
+msgstr "Відповіді"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.deleted_messages"
+msgstr "Видалені повідомлення"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.appearance"
+msgstr "Вигляд"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.description"
+msgstr ""
+"Ця функція наразі перебуває в беті. Отже, ви можете стикнутись з проблемами "
+"під час використання функцій FFZ для Чату у відеозаписах."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Фільтри AutoMod"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges.description"
+msgstr ""
+"**Примітка.** Цей розділ призначений для фільтрації повідомлень із чату від "
+"користувачів із певними значками. Якщо ви хочете приховати значок, перейдіть "
+"до [Чат > Значки >> Видимість](~chat.badges.tabs.visibility)."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"Цей фільтр дозволяє видаляти всі повідомлення певного типу з чату Twitch. "
+"Його можна використовувати для фільтрації системних повідомлень, наприклад "
+"Hosts або Raids. Деякі типи, як-от дії модерації, не можна заблокувати, щоб "
+"запобігти збою функцій чату."
+
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_message_types.description"
+msgstr ""
+"Цей фільтр дозволяє видаляти всі повідомлення певного типу з чату Twitch. "
+"Його можна використовувати для фільтрації системних повідомлень, наприклад "
+"Hosts або Raids. Деякі типи, як-от дії модерації, не можна заблокувати, щоб "
+"запобігти збою функцій чату."
+
+#: /src/std-components/key-picker.vue:66
+#, icu-message-format
+msgid "setting.clear"
+msgstr "Очистити"
+
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.5"
+msgstr "Рідний порядок, за спаданням"
+
+#: /src/modules/main_menu/components/action-editor.vue:673
+#, icu-message-format, lp-defaults:"{\"key_list\":\"Ctrl\",\"keys\":1}"
+msgid "setting.actions.visible.modifier"
+msgstr "при {key_list} {keys, plural, one {утриманні} other {утриманні}}"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.legacy"
+msgstr "Legacy"
+
+#: /src/modules/main_menu/index.js:509
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgid "setting.channel.metadata.mod_view"
+msgstr "Модератор"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.behavior.hosting"
+msgstr "Розміщення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance"
+msgstr "Вигляд"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.emoji"
+msgstr "Емодзі"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.colors"
+msgstr "Кольори"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community"
+msgstr "Спільнота"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.community_chest"
+msgstr "Скриня спільноти"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emoji"
+msgstr "Емодзі"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.emotes"
+msgstr "Смайли"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.rich_content"
+msgstr "Збагачений вміст"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Передплати"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.usernames"
+msgstr "Імена користувачів"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges"
+msgstr "Значки"
+
+#, icu-message-format
+msgid "setting.chat.badges.behavior"
+msgstr "Поведінка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs"
+msgstr "вкладки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.appearance"
+msgstr "Вигляд"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.badges.tabs.visibility"
+msgstr "Видимість"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior"
+msgstr "Поведінка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.behavior.scrolling"
+msgstr "Прокручування"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bits та Cheering"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.appearance"
+msgstr "Вигляд"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering.behavior"
+msgstr "Поведінка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points"
+msgstr "Бали каналу"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.appearance"
+msgstr "Вигляд"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.behavior"
+msgstr "Поведінка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.channel_points.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos"
+msgstr "Чат у відео"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.chat_on_videos.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu"
+msgstr "Меню смайлів"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.appearance"
+msgstr "Вигляд"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "Фільтри AutoMod"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters.description"
+msgstr "Додаткова конфігурація для рідних `Chat Filters` Twitch."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.behavior"
+msgstr "Поведінка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.rituals"
+msgstr "Обряди"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.emote_menu.sorting"
+msgstr "Сортування"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering"
+msgstr "Фільтрування"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.appearance"
+msgstr "Вигляд"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Додаткова конфігурація для рідних `Chat Filters` Twitch."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.behavior"
+msgstr "Поведінка"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block"
+msgstr "Блокування"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges"
+msgstr "Значки"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Типи повідомлень"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms"
+msgstr "Умови"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Перегляньте [Чат > Фільтрування > Довідка щодо синтаксису](~), щоб "
+"дізнатися, як використовувати терміни."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.users"
+msgstr "Користувачі"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Заблоковані значки"
+
+#: /src/modules/main_menu/index.js:593
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_badges.description"
+msgstr ""
+"**Примітка.** Цей розділ призначений для фільтрації повідомлень із чату від "
+"користувачів із певними значками. Якщо ви хочете приховати значок, перейдіть "
+"до [Чат > Значки >> Видимість](~chat.badges.tabs.visibility)."
+
+#, icu-message-format
+msgid "setting.chat.filtering.blocked_message_types"
+msgstr "Типи заблокованих повідомлень"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Умови блокування"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Заблоковані користувачі"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Вигляд"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms.description"
+msgstr ""
+"Перегляньте [Чат > Фільтрування > Довідка щодо синтаксису](~), щоб "
+"дізнатися, як використовувати умови."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Користувачі"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.rituals"
+msgstr "Обряди"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Допомога з синтаксисом"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input"
+msgstr "Введення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.appearance"
+msgstr "Вигляд"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.recent_messages"
+msgstr "Останні повідомлення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.tab_completion"
+msgstr "Завершення табуляції"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips"
+msgstr "Підказки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.badges"
+msgstr "Значки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.emotes"
+msgstr "Смайли"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.links"
+msgstr "Посилання"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards"
+msgstr "Картки глядачів"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Вигляд"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Поведінка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.whispers"
+msgstr "Особисті повідомлення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.whispers.general"
+msgstr "Загальне"
+
+#: /src/modules/main_menu/components/clear-settings.vue:1
+#, icu-message-format
+msgid "setting.clear.opt.DeckTabs"
+msgstr "Згрупувати вкладки у колоду"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Everything"
+msgstr "Абсолютно все"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Experiments"
+msgstr "Зміни в експериментах"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.FavoriteEmotes"
+msgstr "Обрані смайли"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.HiddenEmotes"
+msgstr "Приховані смайли"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Overrides"
+msgstr "Зміни кольорів та імен"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Profiles"
+msgstr "Профілі"
+
+#: /src/modules/main_menu/components/clear-settings.vue:154
+#, icu-message-format
+msgid "setting.clear.start"
+msgstr "Очистити мої дані"
+
+#: /src/modules/main_menu/components/clear-settings.vue:41
+#, icu-message-format
+msgid "setting.clear.step-1"
+msgstr "Будь ласка, виберіть типи даних, які ви хочете очистити:"
+
+#: /src/modules/main_menu/components/clear-settings.vue:25
+#, icu-message-format
+msgid "setting.clear.warning-explain"
+msgstr ""
+"Видалення ваших даних за допомогою цього інструменту неможливо скасувати. "
+"Переконайтеся, що у вас є резервна копія!"
+
+#, icu-message-format
+msgid "setting.color.nullable"
+msgstr "Клацніть правою кнопкою миші, щоб скинути"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:63
+#, icu-message-format
+msgid "setting.combo-box.custom"
+msgstr "Користувальницьке"
+
+#: /src/modules/main_menu/components/profile-manager.vue:406
+#, icu-message-format
+msgid "setting.configure"
+msgstr "Налаштувати"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management"
+msgstr "Управління даними"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.backup_and_restore"
+msgstr "Резервне копіювання і відновлення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.profiles"
+msgstr "Профілі"
+
+#: /src/modules/main_menu/components/profile-editor.vue:390
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.update"
+msgstr "Автоматично оновлювати цей профіль."
+
+#: /src/modules/main_menu/components/profile-editor.vue:322
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.updates"
+msgstr "Автоматичні оновлення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.inline"
+msgstr "chat.actions.inline"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.reasons"
+msgstr "chat.actions.reasons"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.room"
+msgstr "chat.actions.room"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Включіть правила поточної кімнати до списку причин."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.user-context"
+msgstr "chat.actions.user-context"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Приховати індикатор \"LIVE\" на сторінках каналів, які у прямому ефірі."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.show-celebrations"
+msgstr "Дозволити появу Святкувань."
+
+#, icu-message-format
+msgid "setting.entry.channel.auto-skip-trailer"
+msgstr "Автоматично пропускати трейлери каналу."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Коригування"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr ""
+"Змінюйте користувацькі кольори, щоб вони залишалися легкими для читання."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.adjustment-mode.values.0"
+msgstr "Без змін"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL Luma"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr ""
+"Позначати повідомлення як видалені, якщо вони містять відфільтровані фрази."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Використовуйте фільтри чату як модератор."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"За замовчуванням функція Фільтрів чату Twitch не працює для модераторів. Це "
+"перекриває цю поведінку."
+
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable"
+msgstr "Дозволити натискання мишею на значки."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Використовуйте власні значки модератора, де це можливо."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Налаштуйте кольори значка для видимості."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Видимість"
+
+#: /src/modules/main_menu/index.js:410
+#, icu-message-format
+msgid "setting.entry.chat.badges.media-queries"
+msgstr ""
+"Використовуйте запити @media для підтримки зображень бейджів із високою "
+"роздільною здатністю в Mozilla Firefox."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.style"
+msgstr "Стиль"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.drops"
+msgstr "Дозволити відображати повідомлення про Drops у чаті."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Дозволити Хайпотягу відображатися в чаті."
+
+#, icu-message-format
+msgid "setting.entry.chat.banners.prediction"
+msgstr "Дозволити відображення Прогнозів у чаті."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.animated"
+msgstr "Відображення анімованих Cheers."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice"
+msgstr "Відображати сповіщення в повідомленнях чату, які містять Cheers."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show"
+msgstr "Відображати Bits"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-pinned"
+msgstr "Показати таблицю лідерів"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-pinned.description"
+msgstr ""
+"Таблиця лідерів показує найпопулярніших уболівальників і дарувальників "
+"передплат у каналі.\n"
+"\n"
+"За замовчуванням через попередню реалізацію це успадковує значення від [Chat "
+"> Bits and Cheering > Display Bits](~chat.bits_and_cheering)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr ""
+"Показувати повідомлення, коли Cheer ділиться нагородами з людьми в чаті."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Відображення інтерфейсу користувача, пов’язаного з Bits'ами. Примітка: це не "
+"приховає Cheering у повідомленнях чату."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack"
+msgstr "Сортування Cheer"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.click-emotes"
+msgstr ""
+"Відкривайте сторінки інформації про смайли, клацаючи їх, утримуючи клавішу "
+"Shift."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Покажіть банер «Скриня подарунків спільноти»."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.delay"
+msgstr "Штучна затримка чату"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.style"
+msgstr "Стиль емодзі"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.emoji.style.values.0"
+msgstr "Системний"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emoji.style.values.blob"
+msgstr "Крапля"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.emoji.style.values.google"
+msgstr "Google (Noto)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emoji.style.values.open"
+msgstr "OpenMoji"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.emoji.style.values.twitter"
+msgstr "Twitter (Twemoji)"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-dialogs"
+msgstr ""
+"Відкрийте інформаційні картки смайлів для смайлів Twitch, натиснувши їх."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Відображати всі смайли на одній вкладці."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Вкладка за замовчуванням"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"Меню смайлів FFZ замінює вбудоване меню смайлів Twitch і забезпечує "
+"розширену функціональність."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.modifiers"
+msgstr "Модифікатори смайлів"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.modifiers.values.1"
+msgstr "Поряд"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Використовуйте зменшену прокладку."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Використовуйте Ctrl+E, щоб відкрити Меню смайлів."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr ""
+"Якщо ввімкнути цю функцію та натиснути Ctrl+E у фокусі введення в чаті, "
+"відкриється меню смайлів."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-emoji"
+msgstr "Відображати емодзі в Меню емоцій."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Показати заголовки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-quick-nav"
+msgstr "Показати панель швидкої навігації збоку від меню."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Показати поле пошуку."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Сортувати смайли за"
+
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.4"
+msgstr "Рідний порядок, за зростанням"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Список смайлів з вищих підрівнів у кінці."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.stay-loaded"
+msgstr "Залишайтеся завантаженими після відкриття."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.0"
+msgstr "Вимкнено"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Відобразити Кнопку Модератора у відповідних каналах."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.replies.style.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.scroller.smooth-scroll.values.0"
+msgstr "Вимкнено"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.clips.layout.big"
+msgstr "Дозволяти програвачу збільшуватися на сторінках `clips.twitch.tv`."
+
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source"
+msgstr "Розпізнавальник посилань"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.null"
+msgstr "Автоматично"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.socket"
+msgstr "Socket Cluster (застаріло)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.test"
+msgstr "API Test"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.directory.following.host-menus.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.directory.uptime.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/index.js:634
+#, icu-message-format
+msgid "setting.entry.layout.hide-discover-luna"
+msgstr "Сховаnb посилання «Discover Luna»."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.i18n.debug.transform.values.null"
+msgstr "Вимкнено"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.prime-offers"
+msgstr "Показати Здобич Prime Gaming ."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Рекомендовані для відстеження"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers"
+msgstr "Альтернативний Лічильник переглядів"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.metadata.uptime.values.0"
+msgstr "Вимкнено"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark"
+msgstr "Вимкніть Автоматичну темну тему"
