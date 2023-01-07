@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-06 13:32+0000\n"
+"PO-Revision-Date: 2023-01-07 13:32+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-ffzap-core/uk/>\n"
@@ -99,3 +99,175 @@ msgstr "Користувацький(URL)"
 #, icu-message-format
 msgid "addon.ffzap-core.highlight-sound.preset-sound"
 msgstr "Попередньо встановлений звук"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel.description"
+msgstr "Заборонити відтворення звуку у вашому власному каналі."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
+msgstr ""
+"Відтворюйте звук виділення, коли вас згадують у чаті під вашим іменем "
+"користувача."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
+msgstr ""
+"Відтворення звуку під час виділення нового облікового запису. (Потрібна "
+"надбудова «New Account Highlighter»)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types.description"
+msgstr ""
+"Відтворення звуку виділення, коли рядок чату виділено з однієї з вибраних "
+"причин."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume.description"
+msgstr "Змініть гучність, на якій відтворюватимуться виділені звуки."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound.description"
+msgstr ""
+"Змініть звук, який відтворюватиметься під час активації звукового тригера."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces.description"
+msgstr ""
+"Видаліть пробіли між смайлами, коли вони розташовані одразу один за одним. ("
+"наприклад, комбіновані смайли)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:139
+#, icu-message-format
+msgid "addon.ffzap-core.no-file-support"
+msgstr ""
+"Користувальницькі файли не підтримуються поточним постачальником сховища.\n"
+"Будь ласка, змініть постачальника сховища в меню «Керування даними» > "
+"«Сховище» >> «Постачальник»."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core"
+msgstr "Ядро FFZ:AP"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.chat"
+msgstr "Чат"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.emotes"
+msgstr "Смайли"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
+msgstr "Звуки виділення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.ffz_ap_core.highlight_sounds.sound_trigger_settings"
+msgstr "Параметри запуску звуку"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound"
+msgstr "Увімкнути звук виділення"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.enable_highlight_sound.description"
+msgstr "Відтворювати звук щоразу, коли повідомлення виділено."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound"
+msgstr "Звук"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_prevent_own_channel"
+msgstr "Запобігання у власному каналі"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
+msgstr "Грати, коли виділений значок"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Відтворення звуку виділення під час виділення значка зі списку «Виділення "
+"значків»."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
+msgstr "Відтворювати при згадці"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term"
+msgstr "Відтворювати, коли виділено термін"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Відтворення звуку виділення, коли виділяється термін зі списку «Виділяти "
+"терміни»."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user"
+msgstr "Відтворювати, коли виділено користувача"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
+msgstr "Відтворювати, коли виділено новий обліковий запис"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Відтворення звуку підсвічування, коли виділяється користувач зі списку «"
+"Виділяти користувачів»."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_types"
+msgstr "Коли відтворювати"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_volume"
+msgstr "Гучність звуку виділення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion"
+msgstr "Фільтрування повідомлень на рівні користувача"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.message_deletion.description"
+msgstr ""
+"Повідомлення буде повністю видалено з чату, якщо вони не надіслані "
+"користувачем цього або вищого рівня."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.remove_spaces"
+msgstr "Видаліть пробіли між смайлами"
