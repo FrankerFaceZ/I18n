@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-09 20:32+0000\n"
+"PO-Revision-Date: 2023-01-19 21:32+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/uk/>\n"
@@ -335,7 +335,7 @@ msgid "setting.appearance.localization.general.language.languages"
 msgstr "Підтримувані Мови"
 
 msgid "setting.appearance.localization.general.language.twitch"
-msgstr "Використати Мову Твіча"
+msgstr "Використати Мову Twitch"
 
 msgid "setting.appearance.theme"
 msgstr "Тема"
@@ -2791,7 +2791,7 @@ msgstr ""
 #: /src/modules/main_menu/components/addon.vue:157
 #, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
 msgid "addon.created"
-msgstr "Створено:[when,date]"
+msgstr "Створено:{when,date}"
 
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
@@ -4516,3 +4516,465 @@ msgstr "Вимкнено"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.disable-auto-dark"
 msgstr "Вимкніть Автоматичну темну тему"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.shortcut"
+msgstr "Клавіша швидкого доступу"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.shortcut.description"
+msgstr ""
+"Цю послідовність клавіш можна використовувати для перемикання компресора."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.enable"
+msgstr "Увімкніть контроль підсилення звуку, коли ввімкнено аудіокомпресор."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.default.description"
+msgstr ""
+"Значення за замовчуванням для керування підсиленням, коли керування "
+"підсиленням увімкнено. 100% означає відсутність зміни гучності."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.min.description"
+msgstr ""
+"**Діапазон:** 0 ~ 100\n"
+"\n"
+"Мінімально допустиме значення для регулювання посилення. 0% фактично тиша."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.scroll.description"
+msgstr ""
+"Налаштуйте підсилення, прокручуючи коліщатко миші. Цей параметр має "
+"пріоритет над регулюванням гучності за допомогою прокручування. *Це "
+"налаштування не працюватиме належним чином на стрімах із видимими "
+"розширеннями, якщо дозволено взаємодія миші з розширеннями.*"
+
+#: /src/modules/main_menu/components/term-editor.vue:536
+#, icu-message-format
+msgid "settings.terms.highlight.tip"
+msgstr ""
+"Виділяти збіги\n"
+"\n"
+"Для цього потрібно, щоб було задіяне налаштування ''Виділяти в чаті слова "
+",які збігаються ''."
+
+#: /src/modules/main_menu/components/filter-editor.vue:104
+#: /src/settings/components/basic-toggle.vue:66
+#, icu-message-format
+msgid "settings.filter.squad"
+msgstr "Режим Squad"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.squad"
+msgstr "Загін"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Показувати метадані при наведенні курсору на плеєр."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.prioritize-prefix-matches"
+msgstr ""
+"Надавати пріоритет смайлам, які починаються з користувальницього введення."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid"
+msgstr "Відображати більше детального контенту в чаті."
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dash-edit-collection"
+msgstr "Панель керування: Редагувати колекцію"
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:84
+#: /src/modules/main_menu/components/blocked-type-editor.vue:60
+#, icu-message-format
+msgid "setting.terms.please-select"
+msgstr "Будь ласка оберіть варіант."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.description"
+msgstr ""
+"**Примітка.** Ці налаштування зараз не працюють через зміни, внесені Twitch "
+"у роботу каталогу."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.categories"
+msgstr "Категорії"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.description"
+msgstr ""
+"**Примітка.** Ці налаштування зараз не працюють через зміни, внесені Twitch "
+"у роботу каталогу."
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dir"
+msgstr "Огляд"
+
+#: /src/modules/main_menu/components/profile-editor.vue:349
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.url"
+msgstr "Оновлення URL"
+
+#: /src/modules/main_menu/components/profile-editor.vue:301
+#, icu-message-format
+msgid "setting.data_management.profiles.hotkey.desc"
+msgstr ""
+"Встановлення гарячої клавіші дозволяє вмикати та вимикати профіль у будь-"
+"який час за допомогою гарячої клавіші.\n"
+"\n"
+"**Примітка:** Увімкнений профіль може залишатися неактивним через свої "
+"правила."
+
+#: /src/modules/main_menu/components/profile-editor.vue:335
+#, icu-message-format, md-text
+msgid "setting.data_management.profiles.edit.updates.description"
+msgstr ""
+"Цей профіль має пов'язану URL-адресу для автоматичного оновлення. Коли "
+"оновлення включені і профіль оновлюється, всі налаштування, пов'язані з "
+"профілем, будуть скинуті. Правила профілю також будуть скинуті. Назва, опис "
+"і гаряча клавіша не скидаються."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting"
+msgstr "Звітність"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Звіти про помилки"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.example_report"
+msgstr "Зразок звіту"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging"
+msgstr "Зневадження"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.experiments"
+msgstr "Експерименти"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization"
+msgstr "Переклад"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization.editing"
+msgstr "Редагування"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket"
+msgstr "Сокет"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket.general"
+msgstr "Загальне"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket.info"
+msgstr "Інфо"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory"
+msgstr "Директорія"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories"
+msgstr "Категорії"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.blocked"
+msgstr "Заблоковано"
+
+#: /src/modules/main_menu/components/menu-page.vue:137
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.description"
+msgstr ""
+"Будь ласка, зауважте, що через обмеження на сайті Twitch, імена мусять бути "
+"у форматі відповідному до того, як зображаються у вашому клієнті. "
+"Найзручніше буде блокувати та розблокувати категорії просто зі сторінки "
+"директорії."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Приховані ескізи"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.hidden_thumbnail_style"
+msgstr "Стиль прихованих ескізів"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels"
+msgstr "Канали"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.appearance"
+msgstr "Вигляд"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.blocked_and_hidden_categories"
+msgstr "Заблоковані та приховані категорії"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following"
+msgstr "Підписки"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.2"
+msgstr "Відкривати картку значка"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.1"
+msgstr "Відкривати URL-адресу(Застаріле)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.2"
+msgstr "Відображати та відправляти"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.1"
+msgstr "Лише відображати"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:198
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner.description"
+msgstr ""
+"Ця функція призначена для використання комбінованих смайлів у підтримуваних "
+"клієнтах. Це потрібно через помилку в TMI, яка видаляє символи ZWJ з "
+"повідомлень чату. [Відвідайте оригінальний випуск](https://github.com/"
+"FrankerFaceZ/FrankerFaceZ/issues/1147), щоб дізнатися більше."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:24
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner"
+msgstr "Виправлення для комбінованих емодзі"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "Смайли"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size.description"
+msgstr ""
+"Іноді справді огидно великі емоції прослизають крізь щілини й потрапляють на "
+"Twitch. Це обмежує розмір емоцій Twitch, щоб пом’якшити проблему."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size"
+msgstr "Обмеження розміру рідних смайлів"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "Смайли та Emoji"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid.description"
+msgstr ""
+"Це дає змогу використовувати в чаті вбудований більший вміст. Це **не** "
+"рекомендується для більшості користувачів і/або чатів.\n"
+"\n"
+"**Примітка.** Увімкнення цієї функції може спричинити прокручування чату в "
+"невідповідний момент через завантаження вмісту. Модератори не повинні "
+"використовувати цю функцію."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.timestamp-size.description"
+msgstr ""
+"Наскільки великими мають бути позначки часу в пікселях. За умовчанням "
+"використовується розмір шрифту, якщо не встановлено."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.prod"
+msgstr "API Production"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Трансформація"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Трансформуйте усі перекладені рядки, щоб перевірити охоплення чи довжину."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.default"
+msgstr "Значення за замовчуванням"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.max"
+msgstr "Максимально"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.max.description"
+msgstr ""
+"**Діапазон:** 100 ~ 1000\n"
+"\n"
+"Максимально допустиме значення для регулювання посилення. 100% без змін. "
+"200% — подвійна гучність."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.min"
+msgstr "Мінімально"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.no-volume"
+msgstr ""
+"Примусово встановити вбудовану гучність на 100%, коли ввімкнено "
+"аудіокомпресор."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.no-volume.description"
+msgstr ""
+"Якщо це налаштування ввімкнено, вбудована гучність буде прихована, а "
+"контроль підсилення буде єдиним способом змінити гучність."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.scroll"
+msgstr "Змінити прокручуванням коліщатка миші"
+
+#: /src/modules/main_menu/index.js:477
+#, icu-message-format
+msgid "setting.entry.player.embed-metadata"
+msgstr "Показувати метадані при наведенні курсору на плеєр."
+
+#: /src/modules/main_menu/components/action-editor.vue:584
+#, icu-message-format
+msgid "setting.space.desc"
+msgstr "Помістити більший пробіл між попереднім і наступним елементом"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dir-game-videos"
+msgstr "Відео ігри"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dir-game-clips"
+msgstr "Кліп гри"
+
+#: /src/settings/components/page.vue:142
+#, icu-message-format
+msgid "settings.filter.page.route.dir-all"
+msgstr "Перегляд он-лайн каналів"
+
+#: /src/modules/main_menu/components/term-editor.vue:420
+#, icu-message-format
+msgid "settings.terms.word.tip"
+msgstr "Підібрати ціле слово"
+
+#: /src/modules/main_menu/components/term-editor.vue:383
+#, icu-message-format
+msgid "settings.terms.word"
+msgstr "Abc"
+
+#: /src/modules/main_menu/components/term-editor.vue:304
+#, icu-message-format
+msgid "settings.terms.sensitive.tip"
+msgstr "Чутливість до реєстру символів"
+
+#: /src/modules/main_menu/components/term-editor.vue:272
+#, icu-message-format
+msgid "settings.terms.sensitive"
+msgstr "Аа"
+
+#, icu-message-format
+msgid "settings.terms.priority.tip"
+msgstr "Пріоритет"
+
+#: /src/modules/main_menu/components/term-editor.vue:497
+#, icu-message-format
+msgid "settings.terms.highlight"
+msgstr "Вдл"
+
+#, icu-message-format
+msgid "settings.term.color.tip"
+msgstr "Колір"
