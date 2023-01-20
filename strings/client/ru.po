@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-20 14:32+0000\n"
+"PO-Revision-Date: 2023-01-20 22:32+0000\n"
 "Last-Translator: Igor <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -20,22 +20,20 @@ msgstr "Результатов нет."
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Подписчик {count,plural,one {# месяц} few {# месяца} other {# месяцев}} "
-"подписки)"
+"(Подписчик {count, plural, one {# м.} few {# мес.} other {# мес.}} подписки)"
 
 msgid "badges.subscriber.months"
 msgstr ""
 "{title} \n"
-"({count,plural,one {# месяц} few {# месяца} other {# месяцев}})"
+"({count, plural, one {# м.} few {# мес.} other {# мес.}})"
 
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Уровень {tier}, {months,plural,one {# месяц} few {# месяца} other {# "
-"месяцев}})"
+"(Уровень {tier}, {months, plural, one {# м.} few {# мес.} other {# мес.}})"
 
 msgid "card.empty"
-msgstr "Данные не были возвращены."
+msgstr "Нет данных."
 
 msgid "card.error"
 msgstr "Произошла ошибка."
@@ -71,7 +69,7 @@ msgid "chat.actions.ban.tooltip"
 msgstr "Забанить {user.login}"
 
 msgid "chat.actions.chat"
-msgstr "Комнада чата"
+msgstr "Команда чата"
 
 msgid "chat.actions.chat.desc"
 msgstr "{options.command}"
@@ -83,7 +81,7 @@ msgid "chat.actions.edit_overrides"
 msgstr "Изменить имя и цвет"
 
 msgid "chat.actions.edit_overrides.desc"
-msgstr "Позволяет указать собственные никнейм и цвет пользователю в чате."
+msgstr "Позволяет указать собственные имя и цвет пользователю в чате."
 
 msgid "chat.actions.msg_delete"
 msgstr "Удалить сообщение"
@@ -97,7 +95,7 @@ msgstr "Ответить на сообщение"
 msgid "chat.actions.reply.desc"
 msgstr ""
 "Позволяет напрямую отвечать на сообщение другого пользователя. Работает "
-"только когда используется стиль ответов \"FrankerFaceZ\"."
+"только когда, используется стиль ответов «FrankerFaceZ»."
 
 msgid "chat.actions.reply.thread"
 msgstr "Открыть обсуждение"
@@ -111,15 +109,15 @@ msgstr "Дать пользователю отстранение"
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Дать отстранение {user.login} на {duration, plural, one {# сек.} other {# "
-"сек.}}за:"
+"сек.}} за:"
 
 msgid "chat.actions.timeout.desc"
-msgstr "{options.duration,plural, one {# секунды} other {# секунд}}"
+msgstr "{options.duration, plural, one {# сек.} other {# сек.}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"Дать отстранение {user.login} на {duration, plural, one {# секунду} other {# "
-"секунд}}"
+"Дать отстранение {user.login} на {duration, plural, one {# сек.} other {# "
+"сек.}}"
 
 msgid "chat.actions.unban"
 msgstr "Разбанить пользователя"
@@ -131,7 +129,7 @@ msgid "chat.actions.unknown"
 msgstr "Неизвестный тип действия"
 
 msgid "chat.actions.untimeout"
-msgstr "Убрать отстранение"
+msgstr "Снять отстранение"
 
 msgid "chat.actions.untimeout.tooltip"
 msgstr "Снять отстранение с {user.login}"
@@ -150,6 +148,7 @@ msgid "chat.deleted-messages"
 msgstr ""
 "{count,plural,\n"
 "one {Одно сообщение было удалено модератором.}\n"
+"few {# сообщения были удалены модератором.}\n"
 "other {# сообщений были удалены модератором.}\n"
 "}"
 
@@ -180,10 +179,10 @@ msgid "chat.filtering.automod.I"
 msgstr "Дискриминация"
 
 msgid "chat.filtering.automod.P"
-msgstr "Профанация"
+msgstr "Ненормативная лексика"
 
 msgid "chat.filtering.automod.S"
-msgstr "Откровенно сексуальный язык"
+msgstr "Откровенно сексуальные темы"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Заблокированный термин"
@@ -231,7 +230,7 @@ msgid "chat.points.choose-emote"
 msgstr "Выберите смайл, чтобы разблокировать"
 
 msgid "chat.points.highlighted"
-msgstr "Выделить мое сообщение"
+msgstr "Выделить моё сообщение"
 
 msgid "chat.points.modify-emote"
 msgstr "Изменить один смайл"
@@ -240,16 +239,16 @@ msgid "chat.points.random-emote"
 msgstr "Разблокировать случайный смайл подписчика"
 
 msgid "chat.points.redeemed"
-msgstr "Получено {reward} {cost}"
+msgstr "Использует награду: {reward} ({cost})"
 
 msgid "chat.points.reward"
 msgstr "Награда"
 
 msgid "chat.points.user-redeemed"
-msgstr "{user} получил {reward} {cost}"
+msgstr "{user} воспользовался наградой: {reward} ({cost})"
 
 msgid "chat.reason.ignore"
-msgstr "Игнорирование стримера / модераторов"
+msgstr "Игнорирование владельца канала / модераторов"
 
 msgid "chat.reasons.evasion"
 msgstr "Уклонение от бана"
@@ -258,7 +257,7 @@ msgid "chat.reasons.hate"
 msgstr "Ненависть / домогательство"
 
 msgid "chat.reasons.links"
-msgstr "Непристойные ссылки"
+msgstr "Ссылки на плохие сайты"
 
 msgid "chat.reasons.personal"
 msgstr "Угрозы / личная информация"
@@ -284,51 +283,51 @@ msgstr "Остановить чат"
 msgid "chat.settings.pause-explain"
 msgstr ""
 "FrankerFaceZ полностью отменяет паузы в чате. Используйте настройки "
-"прокрутки FFZ в Центре управления FFZ в разделе Чат > Поведение."
+"прокрутки FFZ в центре управления FFZ в разделе «Чат» > «Поведение»."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "Анонимный пользователь, подаривший подписку"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"Пользователь подписан {cumulative,number} {cumulative,plural,one {месяц} few "
-"{месяца} other {месяцев}}, его серия - {streak,number} {streak,plural,one "
-"{месяц} few {месяца} other {месяцев}}!"
+"Пользователь подписан {cumulative,number} {cumulative,plural,one {м.} few "
+"{мес.} other {мес.}}, его серия - {streak,number} {streak,plural,one {м.} "
+"few {мес.} other {мес.}}!"
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} дарит {count,number} {count,plural,one {подписку} few {подписки} "
-"other {подписок}} {tier} уровня сообществу канала {channel}! "
+"{user} дарит {count, number} {count, plural, one {подп.} few {подп.} other "
+"{подп.}} {tier}-го уровня сообществу канала {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "Пользователь первый раз дарит подписку на канал!"
 
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} дарит уже {months, plural, one {# месяц} few {# месяца} other {# "
-"месяцев}} {plan} Подписки {recipient}!"
+"{user} дарит уже {months, plural, one {# м.} few {# мес.} other {# мес.}} "
+"{plan} Подписки {recipient}!"
 
 msgid "chat.sub.gift-plan"
-msgstr "{tier} уровня"
+msgstr "{tier}-го уровня"
 
 msgid "chat.sub.gift-total"
 msgstr ""
-"Он(а) подарил(а) {count} {count,plural,one {подписку} few {подписки} other "
-"{подписок}} на канал!"
+"Он(-а) подарил(-а) {count} {count, plural, one {подп.} few {подп.} other "
+"{подп.}} на канал!"
 
 msgid "chat.sub.main"
-msgstr "{user} оформил подписку {plan}. "
+msgstr "{user} оформляет подписку {plan}. "
 
 msgid "chat.sub.months"
 msgstr ""
-"Пользователь подписан {count,number} {count,plural,one {месяц} few {месяца} "
-"other {месяцев}}!"
+"Пользователь подписан {count,number} {count, plural, one {м.} few {мес.} "
+"other {мес.}}!"
 
 msgid "chat.sub.mystery"
-msgstr "{user} подарил подписку {plan} {recipient}! "
+msgstr "{user} дарит подписку {plan} {recipient}! "
 
 msgid "chat.sub.plan"
-msgstr "{tier} уровня"
+msgstr "{tier}-го уровня"
 
 msgid "chat.sub.twitch-prime"
 msgstr "с Prime Gaming"
@@ -352,8 +351,8 @@ msgstr "Неизвестно"
 
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Вы включили \"Смайлы FrankerFaceZ\" в настройках BetterTTV, но у вас также "
-"установлен FrankerFaceZ. Пожалуйста, отключите \"Смайлы FrankerFaceZ\" в "
+"Вы включили «Смайлы FrankerFaceZ» в настройках BetterTTV, но у вас также "
+"установлен FrankerFaceZ. Пожалуйста, отключите «Смайлы FrankerFaceZ» в "
 "настройках BetterTTV. В этом нет необходимости."
 
 msgid "directory.block"
@@ -420,7 +419,7 @@ msgid "emoji.category.symbols"
 msgstr "Символы"
 
 msgid "emoji.category.travel___places"
-msgstr "Путешествия и Места"
+msgstr "Путешествия и места"
 
 msgid "emoji.category.travel_places"
 msgstr "Путешествия и достопримечательности"
@@ -433,7 +432,7 @@ msgstr "Канал"
 
 msgid "emote-menu.disable"
 msgstr ""
-"В качестве временного решения попробуйте отключить меню смайлов FFZ в Центре "
+"В качестве временного решения попробуйте отключить меню смайлов FFZ в центре "
 "управления FFZ."
 
 msgid "emote-menu.emoji"
@@ -558,7 +557,7 @@ msgid "emote-menu.unknown"
 msgstr "Неизвестный источник"
 
 msgid "emote-menu.unknown-set"
-msgstr "Набор #{set_id}"
+msgstr "Набор №{set_id}"
 
 msgid "emote-menu.visibility.hidden"
 msgstr "Скрытые"
@@ -641,7 +640,7 @@ msgid "i18n.ui.all"
 msgstr "Все строки"
 
 msgid "i18n.ui.changed"
-msgstr "Измененные строки"
+msgstr "Изменённые строки"
 
 msgid "i18n.ui.context"
 msgstr "Контекст"
@@ -662,16 +661,16 @@ msgid "i18n.ui.pending"
 msgstr "Строки в ожидании"
 
 msgid "i18n.ui.popout"
-msgstr "Открыть редактор Перевода в новом окне"
+msgstr "Открыть редактор перевода в новом окне"
 
 msgid "i18n.ui.preview"
-msgstr "Предварительный просмотр"
+msgstr "Предпросмотр"
 
 msgid "i18n.ui.refresh"
 msgstr "Обновить строки"
 
 msgid "i18n.ui.save"
-msgstr "Сгенерировать список изменений"
+msgstr "Создать список изменений"
 
 msgid "i18n.ui.search"
 msgstr "Строка поиска"
@@ -731,7 +730,7 @@ msgid "metadata.featured-follow.button.featured"
 msgstr "Избранные"
 
 msgid "metadata.featured-follow.title"
-msgstr "Избранные Каналы"
+msgstr "Избранные каналы"
 
 msgid "metadata.host-button.host"
 msgstr "Ретранслировать"
@@ -752,7 +751,7 @@ msgid "metadata.host.add-channel"
 msgstr "Добавить в авторетрансляции"
 
 msgid "metadata.host.setting.auto-hosting.description"
-msgstr "Автоматически ретранслировать каналы из списка, когда вы оффлайн."
+msgstr "Автоматически ретранслировать каналы из списка, когда вы не в сети."
 
 msgid "metadata.host.setting.auto-hosting.title"
 msgstr "Авторетрансляция"
@@ -763,7 +762,7 @@ msgstr ""
 "списка."
 
 msgid "metadata.host.setting.strategy.title"
-msgstr "Рандомизировать очередь ретрансляций"
+msgstr "Случайная очередь ретрансляций"
 
 msgid "metadata.host.setting.team-hosting.description"
 msgstr "Включает каналы сообщества в ваш список ретрансляций."
@@ -789,11 +788,11 @@ msgid "metadata.host.title"
 msgstr "Управление авторетрансляциями"
 
 msgid "metadata.player-stats.broadcast-ago"
-msgstr "Транслировалось {count,number}сек. назад"
+msgstr "Транслировалось {count,number} сек. назад"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Ваши локальные часы отстают примерно на {count,number} сек., из-за чего "
+"Часы на вашем устройстве отстают примерно на {count,number} сек., из-за чего "
 "значение может быть неточным."
 
 msgid "metadata.player-stats.latency-tip"
@@ -844,11 +843,11 @@ msgstr "Нельзя включить аудио компрессор при п�
 msgid "player.comp_button.firefox"
 msgstr ""
 "Регуляторы скорости воспроизведения не будут работать для пользователей "
-"Firefox, если включен компрессор."
+"Firefox, если включён компрессор."
 
 msgid "player.comp_button.help"
 msgstr ""
-"Подробнее смотрите в центре управления. Пожалуйста, перезагрузите "
+"Подробнее смотрите в центре управления FFZ. Пожалуйста, перезагрузите "
 "проигрыватель, если звук испортился."
 
 msgid "player.comp_button.off"
@@ -864,20 +863,20 @@ msgid "player.pip_button"
 msgstr "Картинка в картинке"
 
 msgid "player.pip_button.fs"
-msgstr "Нельзя использовать картинку в картинке в полноэкранном режиме"
+msgstr "Нельзя использовать «картинку в картинке» в полноэкранном режиме"
 
 msgid "player.pip_button.off"
-msgstr "Выход из картинки в картинке"
+msgstr "Выход из «картинки в картинке»"
 
 msgid "player.reset_button"
 msgstr "Перезагрузить проигрыватель (нажмите дважды)"
 
 msgid "player.reset_button.all"
-msgstr "Сброс всех проигрывателей (двойной щелчок)"
+msgstr "Сброс всех проигрывателей (нажмите дважды)"
 
 msgid "popup.error"
 msgstr ""
-"Мы попытались открыть всплывающее окнно, но не смогли. Убедитесь, что "
+"Мы попытались открыть всплывающее окно, но не смогли. Убедитесь, что "
 "всплывающие окна на Twitch не заблокированы."
 
 msgid "site.menu_button"
@@ -915,7 +914,7 @@ msgstr ""
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Настройки на этой вкладке отключены из-за включения \"{param}\" в URL-адресе."
+"Настройки на этой вкладке отключены из-за включения «{param}» в URL-адресе."
 
 msgid "site.menu_button.profiles"
 msgstr "Профили"
@@ -1090,37 +1089,37 @@ msgstr "Ни один обработчик не поддерживает это�
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.media"
-msgstr ""
+msgstr "Разрешить медиа"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.allow.unsafe"
-msgstr ""
+msgstr "Разрешить NSFW"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.embed"
-msgstr ""
+msgstr "Расширенные вложения"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
-msgstr ""
+msgstr "Запуск всплывающей подсказки"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.full-embed"
-msgstr ""
+msgstr "Полное вложение"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.link"
-msgstr ""
+msgstr "Ссылка на чат"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.raw"
-msgstr ""
+msgstr "Исходные данные"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #: /src/modules/main_menu/components/link-tester.vue:1
@@ -1131,9 +1130,19 @@ msgstr "Обновить"
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.url"
-msgstr ""
+msgstr "Проверочный URL"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "emote.ffz.status.1"
-msgstr ""
+msgstr "Одобренный"
+
+#: /src/modules/main_menu/components/link-tester.vue:293
+#, icu-message-format
+msgid "debug.link-provider.mid-embed"
+msgstr "Среднее вложение"
+
+#: /src/modules/main_menu/components/link-tester.vue:353
+#, icu-message-format
+msgid "debug.link-provider.raw-length"
+msgstr "Исходная длина"
