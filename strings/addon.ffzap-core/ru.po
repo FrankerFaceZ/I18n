@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-12 10:32+0000\n"
-"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"PO-Revision-Date: 2023-01-20 22:32+0000\n"
+"Last-Translator: Igor <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-ffzap-core/ru/>\n"
 "Language: ru\n"
@@ -209,7 +209,7 @@ msgstr "Не допускать у себя на канале"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.ffz_ap_core.highlight_sounds"
-msgstr "Звуки выделения"
+msgstr "Звуки при выделении"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -255,8 +255,8 @@ msgstr "Фильтрация сообщений уровня пользоват�
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound.description"
 msgstr ""
-"Изменить звук, который будет воспроизводиться при активации звукового "
-"триггера."
+"Изменить звук, который будет воспроизводиться при срабатывании звукового "
+"сигнала."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:22
 #, icu-message-format
@@ -280,35 +280,56 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_user_age.description"
 msgstr ""
-"Воспроизведение звука при выделении нового аккаунта. (Требуется дополнение "
-"\"New Account Highlighter\")"
+"Воспроизведение звука при выделении новосозданной учётной записи. (Требуется "
+"дополнение «New Account Highlighter»)"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_user"
-msgstr "Воспроизводить когда Выделен пользователь"
+msgstr "Воспроизводить, когда выделен пользователь"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_user_age"
-msgstr "Воспроизводить когда Выделен новый аккаунт"
+msgstr "Воспроизводить, когда выделена новосозданная учётная запись"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_term"
-msgstr "Воспроизводить когда Выделен термин"
+msgstr "Воспроизводить, когда выделен термин"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_badge"
-msgstr "Воспроизводить когда Выделен значок"
+msgstr "Воспроизводить, когда выделен значок"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_mention"
-msgstr "Воспроизводить когда Вас упомянули"
+msgstr "Воспроизводить, когда вас упомянули"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.core.highlight_sound_type_mention.description"
-msgstr "Воспроизводить звук выделения когда упоминается ваше имя в чате."
+msgstr "Воспроизводить звук выделения, когда упоминается ваше имя в чате."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_badge.description"
+msgstr ""
+"Воспроизведение звука выделения при выделении значка из списка «Выделять "
+"значки»."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_term.description"
+msgstr ""
+"Воспроизведение звука выделения при выделении термина из списка «Выделяемые "
+"термины»."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffzap.core.highlight_sound_type_user.description"
+msgstr ""
+"Воспроизведение звука выделения при выделении пользователя из списка «"
+"Выделенные пользователи»."
