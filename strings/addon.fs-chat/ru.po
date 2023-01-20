@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-18 12:32+0000\n"
-"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"PO-Revision-Date: 2023-01-20 22:32+0000\n"
+"Last-Translator: Igor <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-fullscreen-chat/ru/>\n"
 "Language: ru\n"
@@ -12,13 +12,13 @@ msgstr ""
 "X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.fs-chat.button.active"
-msgstr "Отключить FS Чат"
+msgstr "Отключить полноэкранный чат"
 
 msgid "addon.fs-chat.button.inactive"
-msgstr "FS Чат"
+msgstr "Полноэкранный чат"
 
 msgid "addon.fs-chat.using"
-msgstr "Использование FS Чата"
+msgstr "Использование полноэкранного чата"
 
 msgid "setting.add_ons.fs_chat"
 msgstr "FS Чат"
@@ -47,16 +47,16 @@ msgid "setting.entry.addon.fs-chat.bg.blur.values.0"
 msgstr "Выключено"
 
 msgid "setting.entry.addon.fs-chat.bg.blur.values.10"
-msgstr "Большое (10px)"
+msgstr "Большое (10 пикс.)"
 
 msgid "setting.entry.addon.fs-chat.bg.blur.values.2"
-msgstr "Маленькое (2px)"
+msgstr "Маленькое (2 пикс.)"
 
 msgid "setting.entry.addon.fs-chat.bg.blur.values.5"
-msgstr "Нормальное (5px)"
+msgstr "Нормальное (5 пикс.)"
 
 msgid "setting.entry.addon.fs-chat.bg.blur.values.50"
-msgstr "Огромное (50п.)"
+msgstr "Огромное (50 пикс.)"
 
 msgid "setting.entry.addon.fs-chat.bg.color"
 msgstr "Цвет фона"
@@ -114,29 +114,31 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.fs_chat"
-msgstr "FS Chat"
+msgstr "Полноэкранный чат"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.automatic"
-msgstr "Автоматически открывать FS Чат при входе в полноэкранный режим."
+msgstr ""
+"Автоматически открывать полноэкранный чат при входе в полноэкранный режим."
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.height.description"
 msgstr ""
-"Насколько должен быть длинным FS Чат, в пикселях. Если вы знаете CSS, вы "
-"можете изменить значение."
+"Насколько должен быть длинным полноэкранный чат, в пикселях. Если вы знаете "
+"CSS, вы можете изменить значение."
 
 #: /src/modules/main_menu/components/setting-text-box.vue:113
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.width.description"
 msgstr ""
-"Насколько широким должен быть FS чат, в пикселях. По-умолчанию используется "
-"стандартная ширина чата. Если вы знаете CSS, вы можете изменить значение."
+"Насколько широким должен быть полноэкранный чат, в пикселях. По умолчанию "
+"используется стандартная ширина чата. Если вы знаете CSS, вы можете изменить "
+"значение."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:180
 #, icu-message-format, md-text
@@ -150,8 +152,8 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.shortcut.description"
 msgstr ""
-"Эта последовательность клавиш может использоваться для переключения FS чата "
-"в полноэкранном режиме."
+"Эта последовательность клавиш может использоваться для переключения "
+"полноэкранного чата в полноэкранном режиме."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -192,7 +194,8 @@ msgstr "Уменьшенный режим"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addon.fs-chat.minimal.description"
-msgstr "Прячет заголовок чата и кнопки управления, когда FS Чат открыт."
+msgstr ""
+"Прячет заголовок чата и кнопки управления, когда открыт полноэкранный чат."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
