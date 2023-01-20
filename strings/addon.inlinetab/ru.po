@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Content-Type: text/plain\n"
+msgstr ""
+"PO-Revision-Date: 2023-01-20 22:32+0000\n"
+"Last-Translator: Igor <igory.ygr200@gmail.com>\n"
+"Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addon-inline-tab-completion/ru/>\n"
+"Language: ru\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "addon.inlinetab.item"
 msgstr "{pos,number} из {total,number}"
@@ -44,8 +54,66 @@ msgstr "Не включать пользователей в строчное з�
 
 msgid "setting.entry.addon.inlinetab.tip-count"
 msgstr ""
-"Отображение нескольких записей во всплывающей подсказке при заполнении "
-"вкладки."
+"Отображение нескольких записей во всплывающей подсказке вкладки "
+"автозаполнения."
 
 msgid "setting.entry.addon.inlinetab.tips"
 msgstr "Отображение всплывающей подсказки при использовании завершения вкладки."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.appearance"
+msgstr "Внешний вид"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content.description"
+msgstr ""
+"Обратите внимание, что встроенное автозаполнение Twitch будет использоваться "
+"для контента, который не включён во вкладку автозаполнения."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content"
+msgstr "Контент"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.general"
+msgstr "Общее"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.mention_prefix"
+msgstr "Всегда использовать префикс при обращении знаком `@`."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_commands"
+msgstr "Не включать команды во вкладку автозаполнения."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab"
+msgstr "Вкладка автозаполнения"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_mentions"
+msgstr "Не включать пользователей во вкладку автозаполнения."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.tips"
+msgstr ""
+"Отображение всплывающей подсказки при использовании вкладки автозаполнения."
