@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-18 12:32+0000\n"
-"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"PO-Revision-Date: 2023-01-21 11:32+0000\n"
+"Last-Translator: Igor <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/embed/ru/>\n"
 "Language: ru\n"
@@ -27,7 +27,7 @@ msgstr ""
 "{# отметки «Нравится»} other {# отметок «Нравится»}}"
 
 msgid "embed.twitter.tweeted"
-msgstr "написал(-а) в Twitter: {tweet}"
+msgstr "написал(-а) в Твиттере: {tweet}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -152,8 +152,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,plural,one{# очко} few{# очка} "
-"other{{points,number} очков}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{posted,datetime} • {points,plural,one{# очко} few{# очк.} "
+"other{{points,number} очк.}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
@@ -161,3 +161,113 @@ msgid "embed.youtube.info-1"
 msgstr ""
 "{channel} • {views,plural,one {# просмотр} few {# просмотра} other "
 "{{views,number} просмотров}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.likes"
+msgstr "Полож. голосов"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":24}"
+msgid "embed.imgur.more"
+msgstr "и ещё {count,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.score"
+msgstr "Счёт"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.igt"
+msgstr "IGT"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.status.approved"
+msgstr "Одобренный"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.bttv.uploader"
+msgstr "Загружено"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.ffz.public"
+msgstr "Общедоступный"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgid "embed.horaro.range"
+msgstr "{start} до {end}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgid "embed.horaro.ended"
+msgstr "Кончилось {when}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.horaro.event-ended"
+msgstr "Событие завершилось"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.horaro.last"
+msgstr "Последнее"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.imgur.dislikes"
+msgstr "Отриц. голосов"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
+msgid "embed.twitter.profile-line"
+msgstr ""
+"{tweets,plural,one {# твит} other {# твитов}} • {following,number} читает • "
+"{followers,number} читателя(-ей) • Регистрация: {joined,date}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"count\":32}"
+msgid "embed.src.more"
+msgstr "(и ещё {count})"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
+msgid "embed.src.pbs"
+msgstr "Рекорд {user}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.rt"
+msgstr "RT"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
+msgid "embed.src.subtitle"
+msgstr ""
+"{wrs,plural,one {# рекорд} other {# рекордов}} • {runs,plural,one {# "
+"прохождение} other {# прохождений}} • {games,plural,one {# игра} other {# "
+"игр}} • {cats,plural,one {# категория} other {# категорий}}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-place"
+msgstr "Место"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.src.t-submitted"
+msgstr "Отправлено"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
+msgid "embed.src.with"
+msgstr "с {players} игроками"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "embed.twitter.following"
+msgstr "Читателя(-ей)"
