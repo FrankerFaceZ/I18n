@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-21 11:32+0000\n"
+"PO-Revision-Date: 2023-01-21 21:32+0000\n"
 "Last-Translator: Igor <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -343,8 +343,8 @@ msgstr "{user} играет в {game}"
 
 msgid "clip.desc.2"
 msgstr ""
-"Автор клипа: {curator} — {views,plural,one {просмотр} few {просмотра} other "
-"{просмотров}}"
+"Автор клипа: {curator} \n"
+"{views, plural, one {# просмотр} few {# просмотра} other {# просмотров}}"
 
 msgid "clip.unknown"
 msgstr "Неизвестно"
@@ -1046,11 +1046,10 @@ msgstr "{time,humantime} назад"
 msgid "video.desc.1"
 msgstr "Видео пользователя {user}"
 
-#, fuzzy
 msgid "video.desc.2"
 msgstr ""
 "{length,duration} — {views,number} {views,plural,one {просмотр} few "
-"{просмотра} other {просмотров}}"
+"{просмотра} other {просмотров}} — {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Опубликовано: {date,date}"
