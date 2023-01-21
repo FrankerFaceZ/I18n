@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-20 22:32+0000\n"
+"PO-Revision-Date: 2023-01-21 11:32+0000\n"
 "Last-Translator: Igor <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -239,13 +239,13 @@ msgid "chat.points.random-emote"
 msgstr "Разблокировать случайный смайл подписчика"
 
 msgid "chat.points.redeemed"
-msgstr "Использует награду: {reward} ({cost})"
+msgstr "Получает награду: {reward} ({cost})"
 
 msgid "chat.points.reward"
 msgstr "Награда"
 
 msgid "chat.points.user-redeemed"
-msgstr "{user} воспользовался наградой: {reward} ({cost})"
+msgstr "{user} получает награду: {reward} ({cost})"
 
 msgid "chat.reason.ignore"
 msgstr "Игнорирование владельца канала / модераторов"
@@ -939,13 +939,13 @@ msgid "socket.info.command"
 msgstr "Команда"
 
 msgid "socket.info.connected"
-msgstr "подключен"
+msgstr "подключён"
 
 msgid "socket.info.count"
-msgstr "Счетчик"
+msgstr "Счётчик"
 
 msgid "socket.info.disconnected"
-msgstr "отключен"
+msgstr "отключён"
 
 msgid "socket.info.local_time"
 msgstr "Местное время"
@@ -963,10 +963,10 @@ msgid "socket.info.state"
 msgstr "Состояние"
 
 msgid "socket.info.stats.authenticated"
-msgstr "Удостоверенный"
+msgstr "Авторизован"
 
 msgid "socket.info.stats.connected_clients"
-msgstr "Подключенных клиентов"
+msgstr "Подключённых клиентов"
 
 msgid "socket.info.stats.live_clients"
 msgstr "Клиентов в сети"
@@ -995,15 +995,14 @@ msgstr "Доступна бесплатная подписка на канал �
 msgid "tooltip.bits"
 msgstr "{count,number} Bits"
 
-#, fuzzy
 msgid "tooltip.bits.more"
-msgstr "(и ещё {count})"
+msgstr "(и ещё {count, number} )"
 
 msgid "tooltip.channel"
 msgstr "Канал: {source}"
 
 msgid "tooltip.email-link"
-msgstr "E-Mail {address}"
+msgstr "Эл. почта {address}"
 
 msgid "tooltip.emoji"
 msgstr "Эмодзи - {category}"
