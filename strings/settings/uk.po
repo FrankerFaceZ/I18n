@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-19 21:32+0000\n"
+"PO-Revision-Date: 2023-01-25 20:33+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/uk/>\n"
@@ -83,16 +83,16 @@ msgid "home.about"
 msgstr ""
 "Дякуємо що послуговуєтесь FrankerFaceZ.\n"
 "\n"
-"Версія 4.0 додатку перебуває в активній розробці з миті випуску версії "
-"сайту Твіча на React у другій половині 2017-го року."
+"Версія додатку 4.0 перебуває в активній розробці з моменту випуску версії "
+"сайту Twitch на React у другій половині 2017-го року."
 
 msgid "home.changelog"
 msgstr "Змінопис"
 
 msgid "home.changelog.about-nonversioned"
 msgstr ""
-"Коміти без версії це такі коміти до репозиторію FrankerFaceZ, що не "
-"пов'язаний з випускною збіркою (release build). Вони, за звичай, є "
+"Коміти без версії - це такі коміти до репозиторію FrankerFaceZ, що не "
+"пов'язаний з випускною збіркою (release build). Вони, зазвичай, є "
 "налагоджувальними або такими, що надіслані зі спільноти і які буде включено "
 "до наступних випусків."
 
@@ -2435,7 +2435,6 @@ msgstr "Не вилучати з чату підхожі повідомленн�
 msgid "setting.terms.remove.on"
 msgstr "Вилучати відповідні повідомлення з чату."
 
-#, fuzzy
 msgid "setting.terms.type.glob"
 msgstr "Glob"
 
@@ -2698,7 +2697,7 @@ msgstr "Автор:{user}"
 #: /src/modules/main_menu/components/changelog.vue:72
 #, icu-message-format
 msgid "home.changelog.nonversioned"
-msgstr "Комміт без версії"
+msgstr "Коміт без версії"
 
 #, icu-message-format
 msgid "home.github"
@@ -4718,7 +4717,7 @@ msgstr "Інфо"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory"
-msgstr "Директорія"
+msgstr "Каталог"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
@@ -4741,7 +4740,7 @@ msgstr ""
 "Будь ласка, зауважте, що через обмеження на сайті Twitch, імена мусять бути "
 "у форматі відповідному до того, як зображаються у вашому клієнті. "
 "Найзручніше буде блокувати та розблокувати категорії просто зі сторінки "
-"директорії."
+"каталогу."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -4929,7 +4928,7 @@ msgstr "Показувати метадані при наведенні курс
 #: /src/modules/main_menu/components/action-editor.vue:584
 #, icu-message-format
 msgid "setting.space.desc"
-msgstr "Помістити більший пробіл між попереднім і наступним елементом"
+msgstr "Помістити більший пробіл між попереднім і наступним елементом."
 
 #: /src/settings/components/page.vue:142
 #, icu-message-format
@@ -4978,3 +4977,124 @@ msgstr "Вдл"
 #, icu-message-format
 msgid "settings.term.color.tip"
 msgstr "Колір"
+
+#: /src/std-components/key-picker.vue:31
+#, icu-message-format
+msgid "setting.record-key"
+msgstr "Натисніть клавішу"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.feedback"
+msgstr "Зворотній зв'язок"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:81
+#: /src/modules/main_menu/components/setting-select-box.vue:92
+#: /src/modules/main_menu/components/setting-color-box.vue:85
+#: /src/modules/main_menu/components/setting-text-box.vue:74
+#: /src/modules/main_menu/components/setting-combo-box.vue:120
+#: /src/modules/main_menu/components/badge-visibility.vue:56
+#: Proxy.render (/src/modules
+#, icu-message-format
+msgid "setting.reset"
+msgstr "Скинути до стандартних"
+
+#: /src/modules/main_menu/components/menu-page.vue:137
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.description"
+msgstr ""
+"Ці налаштування впливають на опціональну компресію динамічного обсягу для "
+"програвача, це форма обробки звуку, яка стишує гучні звуки та підсилює - "
+"тихі, таким чином нормалізуючи, чи компресуючи гучність. Для цього "
+"використовується [DynamicsCompressorNode](https://developer.mozilla.org/"
+"en-US/docs/Web/API/DynamicsCompressorNode) з Web Audio API, якщо вам цікаво."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.gain_control.description"
+msgstr ""
+"Контроль посилення дає вам додатковий контроль над вихідною гучністю під час "
+"використання компресора, дозволяючи регулювати гучність після роботи "
+"компресора, тоді як вбудований повзунок гучності спрацьовує перед "
+"компресором. Тут використовується простий [GainNode](https://developer."
+"mozilla.org/en-US/docs/Web/API/GainNode) з API веб-аудіо, підключений "
+"послідовно після DynamicsCompressorNode, який використовує компресор."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home"
+msgstr "Головна"
+
+#: /src/modules/main_menu/components/action-editor.vue:552
+#, icu-message-format
+msgid "setting.space"
+msgstr "Простір"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.add-ons"
+msgstr "Надбудови"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addons.dev.server.description"
+msgstr ""
+"Спроба завантажити надбудови з локального сервера розробки на порт 8001."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.home"
+msgstr "домівка"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.home.autoplay"
+msgstr "Автоматично відтворювати пропоновані трансляції на головній сторінці."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.changelog"
+msgstr "Змінопис"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.faq"
+msgstr "ЧаПи"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.feedback.log"
+msgstr "Журнал"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.legal"
+msgstr "Політика конфіденційності"
+
+#: /src/modules/main_menu/components/provider.vue:26
+#, icu-message-format
+msgid "setting.provider.warn.desc"
+msgstr ""
+"Перш ніж використовувати цей інструмент, закрийте будь-які інші вкладки "
+"Twitch. **Рекомендується [створити резервну копію](~data_management."
+"backup_and_restore)** перед зміною постачальника на випадок, якщо щось "
+"трапиться."
+
+#: /src/modules/main_menu/components/provider.vue:190
+#, icu-message-format
+msgid "setting.provider.transfer.desc"
+msgstr ""
+"**Примітка:** Рекомендується залишити цей параметр включеним, якщо ви не "
+"знаєте, що робите."
+
+#: /src/modules/main_menu/components/action-editor.vue:581
+#, icu-message-format
+msgid "setting.space-small.desc"
+msgstr "Розмістіть невеликий проміжок між попереднім і наступним елементами."
+
+#: /src/modules/main_menu/components/action-editor.vue:549
+#, icu-message-format
+msgid "setting.space-small"
+msgstr "Простір(мало)"
