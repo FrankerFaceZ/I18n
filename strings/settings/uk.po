@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-25 20:33+0000\n"
+"PO-Revision-Date: 2023-01-27 20:33+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/uk/>\n"
@@ -5098,3 +5098,156 @@ msgstr "Розмістіть невеликий проміжок між попе
 #, icu-message-format
 msgid "setting.space-small"
 msgstr "Простір(мало)"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.position"
+msgstr "Розміщення"
+
+#: /src/modules/main_menu/components/action-editor.vue:578
+#, icu-message-format
+msgid "setting.new-line.desc"
+msgstr "Розмістіть усі наступні елементи на новому рядку."
+
+#: /src/modules/main_menu/components/action-editor.vue:546
+#, icu-message-format
+msgid "setting.new-line"
+msgstr "Новий рядок"
+
+#: /src/modules/main_menu/components/profile-manager.vue:288
+#, icu-message-format
+msgid "setting.import.url"
+msgstr "З URL"
+
+#: /src/modules/main_menu/components/profile-manager.vue:327
+#, icu-message-format
+msgid "setting.import.file"
+msgstr "З файлу"
+
+#: /src/modules/main_menu/components/profile-manager.vue:248
+#, icu-message-format
+msgid "setting.import.do"
+msgstr "Імпортувати"
+
+#: /src/modules/main_menu/setting-mixin.js:116
+#, icu-message-format, lp-defaults:"{\"title\":\"Default Profile\"}"
+msgid "setting.inherited-from"
+msgstr "Успадковано від: {title}"
+
+#: /src/modules/main_menu/components/chat-actions.vue:434
+#, icu-message-format, lp-defaults:"{\"disabled\":false,\"title\":\"Inheritance Point\",\"title_i18n\":\"setting.inheritance\",\"value.t\":\"inherit\"}"
+msgid "setting.inheritance"
+msgstr "Точка спадкування"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.font"
+msgstr "Шрифт"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning"
+msgstr "Субтитри"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player"
+msgstr "Програвач"
+
+#: /src/modules/main_menu/components/profile-manager.vue:207
+#, icu-message-format
+msgid "setting.paste-url.url"
+msgstr "[url]"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.gain_control"
+msgstr "Контроль посилення"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.advanced"
+msgstr "Розширені"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor"
+msgstr "Компресор"
+
+#: /src/modules/main_menu/components/menu-page.vue:125
+#, icu-message-format
+msgid "setting.profile.updates-about"
+msgstr ""
+"Цей профіль налаштовано на автоматичне оновлення. Коли це станеться, усі "
+"змінені налаштування буде скинуто. Правила профілю також буде скинуто."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.volume"
+msgstr "Гучність"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.theatre_mode"
+msgstr "Режим Театру"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.playback"
+msgstr "Відтворення"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.general"
+msgstr "Загальне"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.extensions"
+msgstr "Надбудови"
+
+#: /src/modules/main_menu/index.js:515
+#, icu-message-format
+msgid "setting.player.general.embed_and_popout"
+msgstr "Вбудовувати та виводити на екран"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general"
+msgstr "Загальне"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.general"
+msgstr "Загальне"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.idb.title"
+msgstr "IndexedDB"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.has-data"
+msgstr "(Є дані)"
+
+#: /src/modules/main_menu/components/provider.vue:1
+#, icu-message-format
+msgid "setting.provider.has-blobs"
+msgstr "(Підтримує бінарні дані)"
+
+#: /src/modules/main_menu/components/provider.vue:252
+#, icu-message-format
+msgid "setting.provider.backup"
+msgstr "Так, я зробив резервну копію."
+
+#: /src/modules/main_menu/components/profile-selector.vue:170
+#: /src/modules/main_menu/components/menu-page.vue:112
+#, icu-message-format
+msgid "setting.profiles.updates"
+msgstr "Цей профіль оновлюватиметься автоматично."
