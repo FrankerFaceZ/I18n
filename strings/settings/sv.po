@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-25 00:32+0000\n"
+"PO-Revision-Date: 2023-01-29 16:33+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/sv/>\n"
@@ -6799,3 +6799,60 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.font-family.description"
 msgstr "Åsidosätt typsnittet som används för att visa undertexter."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr ""
+"Låt webbplatsnavigeringsfältet längst upp glida ut ur vy när det inte "
+"används."
+
+#, icu-message-format, md-text
+msgid "setting.entry.layout.portrait-min-chat.description"
+msgstr ""
+"När detta aktiveras kommer chattens sidhuvud minimeras och placera dess "
+"inmatningsfält bredvid knapparna för att skildra en mer kompakt chatt som "
+"kan visa fler rader med begränsat vertikalt utrymme."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime.no-native.description"
+msgstr ""
+"Som standard aktiveras detta när FFZ:s egen streamupptid visas för att "
+"undvika redundant information."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.no-native.description"
+msgstr ""
+"Som standard aktiveras detta när FFZ:s eget tittarantal visas för att "
+"undvika redundant information."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Dubbelklick på knappen \"Återställ spelare\" försöker återställa Twitch-"
+"spelarens interna tillstånd och fixa uppspelningsproblem utan att uppdatera "
+"hela sidan."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Aktivera åsidosättning av undertexternas position och justering."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Att veta exakt vilka inställningar som är aktiverade när ett fel uppstår kan "
+"vara oerhört användbart för att återskapa felet."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"Ibland är det användbart att veta vilka användare det är som stöter på fel "
+"så att vi kan leta efter specifika dekaler, emote-uppsättningar eller "
+"användarflaggor som orsakar fel."
