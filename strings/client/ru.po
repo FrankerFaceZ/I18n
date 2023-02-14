@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-22 19:32+0000\n"
+"PO-Revision-Date: 2023-02-14 12:33+0000\n"
 "Last-Translator: Igor <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
@@ -227,16 +227,16 @@ msgid "chat.points.bypass-sub"
 msgstr "Отправить сообщение в чате только для подписчиков"
 
 msgid "chat.points.choose-emote"
-msgstr "Выберите смайл, чтобы разблокировать"
+msgstr "Выберите смайлик для разблокировки"
 
 msgid "chat.points.highlighted"
 msgstr "Выделить моё сообщение"
 
 msgid "chat.points.modify-emote"
-msgstr "Изменить один смайл"
+msgstr "Изменить один смайлик"
 
 msgid "chat.points.random-emote"
-msgstr "Разблокировать случайный смайл подписчика"
+msgstr "Разблокировать случайный смайлик подписчика"
 
 msgid "chat.points.redeemed"
 msgstr "Получает награду: {reward} ({cost})"
@@ -351,8 +351,8 @@ msgstr "Неизвестно"
 
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Вы включили «Смайлы FrankerFaceZ» в настройках BetterTTV, но у вас также "
-"установлен FrankerFaceZ. Пожалуйста, отключите «Смайлы FrankerFaceZ» в "
+"Вы включили «Смайлики FrankerFaceZ» в настройках BetterTTV, но у вас также "
+"установлен FrankerFaceZ. Пожалуйста, отключите «Смайлики FrankerFaceZ» в "
 "настройках BetterTTV. В этом нет необходимости."
 
 msgid "directory.block"
@@ -432,37 +432,37 @@ msgstr "Канал"
 
 msgid "emote-menu.disable"
 msgstr ""
-"В качестве временного решения попробуйте отключить меню смайлов FFZ в центре "
-"управления FFZ."
+"В качестве временного решения попробуйте отключить меню смайликов FFZ в "
+"центре управления FFZ."
 
 msgid "emote-menu.emoji"
 msgstr "Эмодзи"
 
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Подарите дополнительные {bits_remaining, plural, one {# bit} other {# bits}}"
-", чтобы разблокировать этот смайл."
+"Подарите дополнительные {bits_remaining, plural, one {# bit} other {# bits}} "
+"для разблокировки этого смайлика."
 
 msgid "emote-menu.emote-follower"
 msgstr ""
-"Начните отслеживать {user}, чтобы разблокировать этот смайл на его канале."
+"Начните отслеживать {user} для разблокировки этого смайлика на его канале."
 
 msgid "emote-menu.emote-sub"
-msgstr "Подпишитесь за {price}, чтобы разблокировать смайл."
+msgstr "Подпишитесь за {price} для разблокировки смайлика."
 
 msgid "emote-menu.emote-up"
-msgstr "Повысьте подписку до {price}, чтобы разблокировать смайл."
+msgstr "Повысьте подписку до {price} для разблокировки смайлика."
 
 msgid "emote-menu.empty"
 msgstr "Здесь ничего нет."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"У вас нету избранных смайлов. Чтобы добавить смайл в избранное, щёлкните по "
-"нему мышью, удерживая {hotkey}."
+"У вас нет избранных смайликов. Для добавления смайлика в избранное, щёлкните "
+"по нему, удерживая {hotkey}."
 
 msgid "emote-menu.empty-search"
-msgstr "Нет совпадающих смайлов."
+msgstr "Нет совпадающих смайликов."
 
 msgid "emote-menu.error"
 msgstr "При отображении меню возникла ошибка."
@@ -477,7 +477,7 @@ msgid "emote-menu.featured"
 msgstr "Избранные"
 
 msgid "emote-menu.global"
-msgstr "Общедоступные смайлы"
+msgstr "Общедоступные смайлики"
 
 msgid "emote-menu.inventory"
 msgstr "Инвентарь"
@@ -486,13 +486,13 @@ msgid "emote-menu.loading"
 msgstr "Загрузка..."
 
 msgid "emote-menu.main-set"
-msgstr "Смайлы канала"
+msgstr "Смайлики канала"
 
 msgid "emote-menu.misc"
 msgstr "Прочие"
 
 msgid "emote-menu.my-emotes"
-msgstr "Мои смайлы"
+msgstr "Мои смайлики"
 
 msgid "emote-menu.points"
 msgstr "Открыто с помощью баллов"
@@ -504,7 +504,7 @@ msgid "emote-menu.refresh"
 msgstr "Обновить данные"
 
 msgid "emote-menu.search"
-msgstr "Поиск смайлов"
+msgstr "Поиск смайликов"
 
 msgid "emote-menu.search-emoji"
 msgstr "Поиск эмодзи"
@@ -513,7 +513,7 @@ msgid "emote-menu.settings"
 msgstr "Открыть настройки"
 
 msgid "emote-menu.sub-basic"
-msgstr "Подпишитесь, чтобы разблокировать смайлы"
+msgstr "Подпишитесь для разблокировки смайликов"
 
 msgid "emote-menu.sub-ends"
 msgstr "Подписка истечёт {seconds,humantime}."
@@ -530,25 +530,25 @@ msgid "emote-menu.sub-renews"
 msgstr "Подписка обновится {seconds,humantime}."
 
 msgid "emote-menu.sub-set"
-msgstr "Смайлы подписчика"
+msgstr "Смайлики подписчика"
 
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Подпишитесь за {price}, чтобы разблокировать {count, plural, one {# смайл} "
-"few {# смайла} other {# смайлов}}"
+"Подпишитесь за {price} для разблокировки {count, plural, one {# смайлика} "
+"few {# смайликов} other {# смайликов}}"
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"Управление видимостью смайлов позволяет вам скрыть смайлы в меню, как по "
-"отдельности, так и их наборы. Включив его, просто щёлкните по смайлу, чтобы "
-"скрыть или показать его. Пожалуйста, помните, что в чате смайлы всё равно "
-"будут видны, но их не будет в вашем меню смайлов."
+"Управление видимостью смайликов позволяет вам скрыть смайлики в меню, как по "
+"отдельности, так и их наборы. Включив его, просто щёлкните по смайлику, "
+"чтобы скрыть или показать его. Пожалуйста, помните, что в чате смайлики всё "
+"равно будут видны, но их не будет в вашем меню смайликов."
 
 msgid "emote-menu.toggle-hide.off"
-msgstr "Управление видимостью смайлов"
+msgstr "Управление видимостью смайликов"
 
 msgid "emote-menu.toggle-hide.on"
-msgstr "Выйти из управления видимостью смайлов"
+msgstr "Выйти из управления видимостью смайликов"
 
 msgid "emote-menu.twitch"
 msgstr "Twitch"
@@ -566,7 +566,7 @@ msgid "emote-menu.visibility.visible"
 msgstr "Видимые"
 
 msgid "emote.2fa"
-msgstr "Смайл 2FA"
+msgstr "Смайлик двухфакторной аутентификации"
 
 msgid "emote.bits"
 msgstr "Награда за Bits"
@@ -577,13 +577,13 @@ msgstr ""
 "Канал: {channel}"
 
 msgid "emote.follower"
-msgstr "Смайл фолловера ({source})"
+msgstr "Смайлик фолловера ({source})"
 
 msgid "emote.global"
 msgstr "Общедоступный смайлик Twitch"
 
 msgid "emote.limited"
-msgstr "Временный смайл"
+msgstr "Временный смайлик"
 
 msgid "emote.owner"
 msgstr "Автор: {owner}"
@@ -1008,7 +1008,7 @@ msgid "tooltip.emoji"
 msgstr "Эмодзи - {category}"
 
 msgid "tooltip.emote"
-msgstr "Смайл: {name}"
+msgstr "Смайлик: {name}"
 
 msgid "tooltip.error"
 msgstr "Произошла ошибка. ({error})"
