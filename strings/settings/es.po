@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-05 16:33+0000\n"
-"Last-Translator: Manuel Cervantes <cervantma@gmail.com>\n"
+"PO-Revision-Date: 2023-02-26 22:33+0000\n"
+"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
 "Language: es\n"
@@ -3759,3 +3759,25 @@ msgstr "Nuevos ajustes"
 #, icu-message-format
 msgid "home.new-settings.desc"
 msgstr "Estos son nuevos ajustes que aún no has visto."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.changelog"
+msgstr "Registro de cambios."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories"
+msgstr "Categorias"
+
+#: /src/modules/main_menu/components/chat-actions.vue:1
+#, icu-message-format
+msgid "setting.actions.warn-hidden"
+msgstr ""
+"Actualmente tienes los Mods de  los iconos desactivados en la configuración "
+"del chat de Twitch, por lo tanto, algunas acciones podrían estar ocultas "
+"como resultado. Usa el menú de configuración para cambiarlo."
