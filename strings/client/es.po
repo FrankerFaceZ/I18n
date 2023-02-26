@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"PO-Revision-Date: 2023-02-26 22:33+0000\n"
+"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "async-text.upload"
 msgstr "Subir"
@@ -1161,3 +1161,8 @@ msgstr "Ocurrió un error de red."
 #, icu-message-format
 msgid "i18n.ui.invalid"
 msgstr "Cadenas inválidas"
+
+#: /src/modules/main_menu/components/link-tester.vue:353
+#, icu-message-format
+msgid "debug.link-provider.raw-length"
+msgstr "Longitud en Bruto"
