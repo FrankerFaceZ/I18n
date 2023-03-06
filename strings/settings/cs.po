@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-24 17:32+0000\n"
-"Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
+"PO-Revision-Date: 2023-03-07 15:33+0000\n"
+"Last-Translator: Filip Reznicek <reznicek.phillip.cl@gmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/cs/>\n"
 "Language: cs\n"
@@ -92,10 +92,9 @@ msgstr "Verze {version}"
 msgid "addon.website"
 msgstr "Webová stránka"
 
-#, fuzzy
 msgid "home.about"
 msgstr ""
-"Děkujeme vám za použivání FrankerFaceZ.\n"
+"Děkujeme vám za používání FrankerFaceZ.\n"
 "\n"
 "Verze rozšíření 4.0 je pod aktivním vývojem od vydání webu Twitch's Reacts "
 "na konci roku 2017."
@@ -3166,3 +3165,187 @@ msgstr "Priorita"
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons"
 msgstr "Doplňky"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Dostupné formáty: {fmts}"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.development"
+msgstr "Vývoj"
+
+#: /src/modules/main_menu/components/chat-actions.vue:1
+#, icu-message-format
+msgid "setting.actions.warn-hidden"
+msgstr ""
+"Aktuálně máte v nastavení chatu Twitch vypnuté ikony Mod, takže v důsledku "
+"toho mohou být některé akce skryty. Pomocí nabídky Nastavení v chatu je "
+"přepněte."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.description"
+msgstr ""
+"Přizpůsobte si vzhled Twitch. Změňte barevné schéma a písma a nalaďte "
+"rozvržení pro maximalizujte svůj zážitek."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout"
+msgstr "Rozložení"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme"
+msgstr "Schéma"
+
+#, icu-message-format
+msgid "setting.appearance.theme.chat_colors"
+msgstr "Barvy chatu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors"
+msgstr "Barvy"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Toto je rychlý náhled nového systému, který brzy přijde do Frankerfacez. "
+"Očekávejte zde těžké změny, včetně samostatných základních a pokročilých "
+"režimů a lepšího výběru barev."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.fonts"
+msgstr "Písma"
+
+#: /src/modules/main_menu/components/profile-manager.vue:295
+#, icu-message-format
+msgid "setting.backup-restore.confirm-updates"
+msgstr ""
+"Profil, který importujete, má automatickou aktualizaci URL. Chcete, aby se "
+"profil udržoval aktuální?"
+
+#: /src/modules/main_menu/components/profile-manager.vue:360
+#, icu-message-format
+msgid "setting.backup-restore.disable-auto"
+msgstr "Ne, zabránit automatickým aktualizacím."
+
+#: /src/modules/main_menu/components/profile-manager.vue:326
+#, icu-message-format
+msgid "setting.backup-restore.enable-auto"
+msgstr "Ano, povolit automatické aktualizace."
+
+#: /src/modules/main_menu/components/profile-manager.vue:429
+#, icu-message-format
+msgid "setting.backup-restore.http-error"
+msgstr "Nelze načíst JSON z poskytnuté adresy URL."
+
+#: /src/modules/main_menu/components/profile-manager.vue:322
+#, icu-message-format
+msgid "setting.backup-restore.non-supported"
+msgstr "Tento soubor není rozpoznán jako podporovaný formát zálohování."
+
+#: /src/modules/main_menu/components/backup-restore.vue:110
+#, icu-message-format
+msgid "setting.backup-restore.old-file"
+msgstr ""
+"Tento soubor je neplatný nebo byl vytvořen v jiné verzi Frankerfacez a nelze "
+"jej načíst."
+
+#: /src/modules/main_menu/components/profile-manager.vue:183
+#, icu-message-format
+msgid "setting.backup-restore.pick-profile"
+msgstr "Vyberte prosím profil pro import."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata"
+msgstr "Metadata"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.channel.metadata.subscription"
+msgstr "Předplatné"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Zde můžete definovat vlastní akce, které se objeví nad vstupním polem chatu."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.user_context"
+msgstr "Kontext Uživatele"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.user_context.description"
+msgstr ""
+"Zde můžete nastavit vlastní akce, které se objeví v kontextové nabídce při "
+"klepnutí pravým tlačítkem myši na uživatele v chatu."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.rich_content"
+msgstr "Bohatý Obsah"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.subscriptions"
+msgstr "Předplatná"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "AutoMod Filtry"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block"
+msgstr "Blokovat"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Typy Zpráv"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms"
+msgstr "Podmínky"
+
+#, icu-message-format, md-text
+msgid "home.addon-new.desc"
+msgstr ""
+"Tyto doplňky byly publikovány během posledních sedmi dnů. Podívejte se na ně "
+"v [Doplňky](~doplňky)."
+
+#, icu-message-format, md-text
+msgid "home.addon-updates.desc"
+msgstr ""
+"Tyto doplňky byly aktualizovány za posledních sedm dní. Zkontrolujte [seznam "
+"změn](~add_ons.changelog), co se změnilo."
+
+#, icu-message-format
+msgid "home.changelog.error"
+msgstr "Došlo k chybě načtení změn z GitHubu."
+
+#, icu-message-format
+msgid "home.new-settings.desc"
+msgstr "Toto jsou nastavení, na která jste se ještě nedíval."
+
+#: /src/modules/main_menu/components/chat-actions.vue:651
+#, icu-message-format
+msgid "setting.actions.add-default-tip"
+msgstr "Přidejte všechny výchozí akce do tohoto profilu."
