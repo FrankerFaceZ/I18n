@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-07 15:33+0000\n"
+"PO-Revision-Date: 2023-03-10 11:33+0000\n"
 "Last-Translator: Filip Reznicek <reznicek.phillip.cl@gmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/cs/>\n"
@@ -3349,3 +3349,226 @@ msgstr "Toto jsou nastavení, na která jste se ještě nedíval."
 #, icu-message-format
 msgid "setting.actions.add-default-tip"
 msgstr "Přidejte všechny výchozí akce do tohoto profilu."
+
+#: /src/modules/main_menu/components/profile-editor.vue:301
+#, icu-message-format
+msgid "setting.data_management.profiles.hotkey.desc"
+msgstr ""
+"Nastavení klávesové zkratky umožňuje kdykoli zapnout nebo vypnout profil "
+"pomocí klávesové zkratky.\n"
+"\n"
+"**Poznámka:** Profil, který je zapnutý, může být kvůli svým pravidlům stále "
+"neaktivní."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-unfollow"
+msgstr "Skryjte tlačítko Přestat sledovat."
+
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_message_types.description"
+msgstr ""
+"Tento filtr vám umožňuje odstranit všechny zprávy určitého typu z Twitch "
+"chatu. Lze jej použít k filtrování systémových zpráv, jako jsou Hosty nebo "
+"Nájezdy. Některé typy, jako jsou akce moderování, nelze zablokovat, aby se "
+"zabránilo selhání funkce chatu."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "AutoMod Filtry"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight"
+msgstr "Zvýraznit"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Zvýraznit Uživatele"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms.description"
+msgstr ""
+"Podrobnosti o používání výrazů naleznete v [Chat > Filtrování > Nápověda k "
+"syntaxi](~)."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Nápověda k Syntaxi"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input"
+msgstr "Vstup"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.recent_messages"
+msgstr "Nedávné Zprávy"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips"
+msgstr "Popisky"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards"
+msgstr "Karty Diváků"
+
+#: /src/modules/main_menu/components/clear-settings.vue:187
+#, icu-message-format
+msgid "setting.clear.done"
+msgstr ""
+"Vaše nastavení byla vymazána. Obnovte prosím všechny příslušné stránky "
+"Twitch, abyste zajistili, že nezůstanou žádná data uložená v mezipaměti."
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Overrides"
+msgstr "Přepsání Názvu a Barvy"
+
+#: /src/modules/main_menu/components/clear-settings.vue:154
+#, icu-message-format
+msgid "setting.clear.start"
+msgstr "Vymazat Má Data"
+
+#: /src/modules/main_menu/components/clear-settings.vue:41
+#, icu-message-format
+msgid "setting.clear.step-1"
+msgstr "Vyberte prosím, jaké typy dat chcete vymazat:"
+
+#: /src/modules/main_menu/components/clear-settings.vue:17
+#, icu-message-format
+msgid "setting.clear.warning"
+msgstr "Buďte opatrný! Je to trvalé."
+
+#: /src/modules/main_menu/components/clear-settings.vue:25
+#, icu-message-format
+msgid "setting.clear.warning-explain"
+msgstr ""
+"Smazání vašich dat pomocí tohoto nástroje nelze vrátit zpět. Ujistěte se, že "
+"máte zálohu!"
+
+#, icu-message-format
+msgid "setting.color.nullable"
+msgstr "Reset pravým tlačítkem myši"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.backup_and_restore"
+msgstr "Zálohování a obnovení"
+
+#: /src/modules/main_menu/components/profile-editor.vue:309
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.hotkey"
+msgstr "Klávesová zkratka"
+
+#: /src/modules/main_menu/components/profile-editor.vue:390
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.update"
+msgstr "Automaticky aktualizovat tento profil."
+
+#: /src/modules/main_menu/components/profile-editor.vue:322
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.updates"
+msgstr "Automatické aktualizace"
+
+#: /src/modules/main_menu/components/profile-editor.vue:335
+#, icu-message-format, md-text
+msgid "setting.data_management.profiles.edit.updates.description"
+msgstr ""
+"Tento profil má přidruženou adresu URL pro automatické aktualizace. Když "
+"jsou povoleny aktualizace a profil se aktualizuje, všechna nastavení spojená "
+"s profilem budou resetována. Pravidla profilu budou také resetována. Název, "
+"popis a klávesová zkratka se neresetují."
+
+#: /src/modules/main_menu/components/profile-editor.vue:349
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.url"
+msgstr "Aktualizovat URL"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Chybová hlášení"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.example_report"
+msgstr "Příklad hlášení"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging"
+msgstr "Ladění"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory"
+msgstr "Adresář"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.hidden_thumbnail_style"
+msgstr "Styl skrytých miniatur"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Skryté miniatury"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.blocked_and_hidden_categories"
+msgstr "Blokované a skryté kategorie"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.backup"
+msgstr "záloha"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.auto-click-chat"
+msgstr "Automaticky otevřít chat při otevření stránky offline kanálu."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.extra-links"
+msgstr "Přidejte další odkazy na stránky živého kanálu vedle jména streamera."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Skryjte indikátor „LIVE“ na živých stránkách kanálu."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Povolit hostování kanálu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.metadata.force-above"
+msgstr ""
+"Vynutit zobrazení metadat a značek v horní části informační lišty kanálu."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.round-avatars"
+msgstr "Povolit zaoblení obrázků avatarů."
