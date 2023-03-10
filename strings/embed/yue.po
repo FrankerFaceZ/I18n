@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-15 20:32+0000\n"
+"PO-Revision-Date: 2023-03-10 11:33+0000\n"
 "Last-Translator: 老立 <lather0519@hotmail.com>\n"
 "Language-Team: Yue <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "embed/yue/>\n"
@@ -237,7 +237,7 @@ msgstr "與 {players}"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "embed.twitter.following"
-msgstr "跟隨中"
+msgstr "追隨中"
 
 #: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
@@ -255,8 +255,8 @@ msgstr "鐘意"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{tweets,plural,one {# 條推文} other {# 條推文}} • {following,number} 個跟隨中 • "
-"{followers,number} 個跟隨者 • 加入於 {joined,date}"
+"{tweets,plural,one {# 條推文} other {# 條推文}} • {following,number} 個追隨中 • "
+"{followers,number} 個追隨者 • 加入於 {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
