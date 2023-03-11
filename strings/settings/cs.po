@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-10 11:33+0000\n"
+"PO-Revision-Date: 2023-03-12 08:33+0000\n"
 "Last-Translator: Filip Reznicek <reznicek.phillip.cl@gmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "settings/cs/>\n"
@@ -3572,3 +3572,69 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.round-avatars"
 msgstr "Povolit zaoblení obrázků avatarů."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Upravte barvy odznaku pro viditelnost."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Minimální kontrast"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Nastavte minimální poměr kontrastu používaný úpravami Luma při určování "
+"čitelnosti."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Změňte uživatelské barvy, abyste zajistili, že zůstanou čitelné."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:35
+#, icu-message-format
+msgid "setting.entry.chat.adjustment-mode.values.1"
+msgstr "HSL Luma"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Označte zprávy jako smazané, pokud obsahují filtrované fráze."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Odstraňte zprávy, pokud obsahují filtrované fráze."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Použijte filtry chatu jako moderátor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr "Použijte vlastní odznaky moderátora, pokud jsou k dispozici."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Použijte vlastní VIP odznaky, pokud jsou k dispozici."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Povolit zobrazení Hype Train v chatu."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.drops"
+msgstr "Povolit zobrazování zpráv o Drops v chatu."
