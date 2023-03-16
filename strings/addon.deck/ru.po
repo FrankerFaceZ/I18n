@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-12 10:32+0000\n"
-"Last-Translator: Sunk <VeniceTH842@gmail.com>\n"
+"PO-Revision-Date: 2023-03-17 07:33+0000\n"
+"Last-Translator: Баранов Андрей Владимирович <spacesad@bk.ru>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon-deck/ru/>\n"
 "Language: ru\n"
@@ -103,3 +103,316 @@ msgstr "Трансляции"
 #, icu-message-format
 msgid "addon.deck.video-type.archive"
 msgstr "Прошлые трансляции"
+
+#: /src/deck/components/bd-column.vue:384
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.clip-category"
+msgstr "{name} Клипы"
+
+#: /src/deck/components/bd-column.vue:504
+#, icu-message-format, lp-defaults:"{\"removed\":1,\"total\":11}"
+msgid "addon.deck.end-filtered"
+msgstr ""
+"({удалено, количество} из {всего, во множественном числе, один {# элемент} "
+"другой {# элемент} } были скрыты фильтрацией на стороне клиента.)"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed.live-tip"
+msgstr "В этом столбце показаны живые каналы, на которые вы подписаны."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.hosted.live-tip"
+msgstr ""
+"В этом столбце показаны живые каналы, размещенные на каналах, на которые вы "
+"подписаны."
+
+#: /src/deck/components/browse-deck.vue:550
+#, icu-message-format
+msgid "addon.deck.intro"
+msgstr ""
+"Добро пожаловать в Deck — лучший способ находить контент на Twitch.\n"
+"\n"
+"Вам нужно начать с добавления столбца с помощью кнопки «Создать»."
+
+#: /src/deck/side-components/bd-shelf.vue:112
+#, icu-message-format
+msgid "addon.deck.empty"
+msgstr "Нет результатов."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.featured"
+msgstr "Избранное"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.featured.live-tip"
+msgstr ""
+"В этом столбце показаны избранные каналы в прямом эфире.\n"
+"\n"
+"Избранные каналы обычно отображаются вверху главной страницы Twitch в "
+"карусели."
+
+#: /src/deck/components/browse-deck.vue:446
+#, icu-message-format
+msgid "addon.deck.filtered"
+msgstr "Отфильтровано по"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed"
+msgstr "Подписано"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.followed.video-tip"
+msgstr "В этом столбце показаны видео с каналов, на которые вы подписаны."
+
+#: /src/deck/components/bd-column.vue:352
+#, icu-message-format
+msgid "addon.deck.go-to-top"
+msgstr "Наверх"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.hosted"
+msgstr "Размещено"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format, lp-defaults:"{\"name\":\"Final Fantasy XIV Online\"}"
+msgid "addon.deck.live-category"
+msgstr "{name} Потоки"
+
+#: /src/deck/components/browse-deck.vue:191
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-channels"
+msgstr "Живые каналы"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.live-channels.tip"
+msgstr ""
+"В этом столбце показаны все живые каналы на Twitch. Это полезно для "
+"фильтрации по определенным тегам."
+
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-featured"
+msgstr "Избранные потоки"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-followed"
+msgstr "Отслеживаемые стримы"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-hosted"
+msgstr "Размещенные Стримы"
+
+#: /src/deck/components/bd-shelf.vue:169
+#: /src/deck/components/bd-column.vue:384
+#: /src/deck/components/bd-column-editor.vue:325
+#, icu-message-format
+msgid "addon.deck.live-recommended"
+msgstr "Рекомендуемые потоки"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recent"
+msgstr "Недавно запущено"
+
+#: /src/deck/components/bd-column-editor.vue:881
+#, icu-message-format
+msgid "addon.deck.live.recommended"
+msgstr "Рекомендовано для вас"
+
+#: /src/utilities/dialog.js:150
+#: /src/deck/components/bd-column.vue:678
+#: /src/deck/index.jsx:335
+#, icu-message-format
+msgid "addon.deck.loading"
+msgstr "Загрузка..."
+
+#: /src/deck/components/bd-column.vue:290
+#, icu-message-format, lp-defaults:"{\"delay\":\"1:27\"}"
+msgid "addon.deck.auto-refresh"
+msgstr "Автоматическое обновление через {delay}"
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.live-tip"
+msgstr ""
+"В этом столбце показаны живые каналы, транслирующие определенную категорию. "
+"Например, вы можете создать пример, показывающий все каналы, играющие в "
+"Super Mario 64."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.category.video-tip"
+msgstr "В этом столбце показаны видео в определенной категории."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.clip-tip"
+msgstr "В этом столбце показаны клипы с определенного канала."
+
+#: /src/deck/components/browse-deck.vue:191
+#, icu-message-format
+msgid "addon.deck.channel.video-tip"
+msgstr "В этом столбце показаны видео с определенного канала."
+
+#: /src/deck/components/browse-deck.vue:361
+#: /src/deck/components/bd-tab-editor.vue:199
+#, icu-message-format
+msgid "addon.deck.default-tab"
+msgstr "Вкладка по умолчанию"
+
+#: /src/deck/components/bd-column-editor.vue:159
+#: /src/deck/components/bd-column-editor.vue:110
+#, icu-message-format
+msgid "addon.deck.delete"
+msgstr "Удалить"
+
+#: /src/deck/components/bd-column-editor.vue:228
+#, icu-message-format
+msgid "addon.deck.edit.appearance"
+msgstr "Появление"
+
+#: /src/deck/components/bd-column-editor.vue:600
+#, icu-message-format
+msgid "addon.deck.edit.avatars"
+msgstr "Не отображать аватары."
+
+#: /src/deck/components/bd-column-editor.vue:700
+#, icu-message-format
+msgid "addon.deck.edit.behavior"
+msgstr "Поведение"
+
+#: /src/deck/components/bd-column-editor.vue:402
+#, icu-message-format
+msgid "addon.deck.edit.card-width"
+msgstr "Размер карты:"
+
+#: /src/deck/components/bd-edit-channel.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channel"
+msgstr "Канал:"
+
+#: /src/deck/components/bd-edit-channels.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.channels"
+msgstr "Каналы:"
+
+#: /src/deck/components/bd-column-editor.vue:313
+#, icu-message-format
+msgid "addon.deck.edit.color"
+msgstr "Цвет:"
+
+#: /src/deck/components/bd-column-editor.vue:359
+#, icu-message-format
+msgid "addon.deck.edit.column"
+msgstr "Изменить столбец"
+
+#: /src/deck/components/bd-column-editor.vue:345
+#, icu-message-format
+msgid "addon.deck.edit.columns"
+msgstr "столбцы:"
+
+#: /src/deck/components/bd-edit-count.vue:11
+#, icu-message-format
+msgid "addon.deck.edit.count"
+msgstr "Считать:"
+
+#: /src/deck/components/bd-column-editor.vue:350
+#, icu-message-format
+msgid "addon.deck.edit.default_count"
+msgstr "Размер по умолчанию:"
+
+#: /src/deck/components/bd-edit-category.vue:18
+#, icu-message-format
+msgid "addon.deck.edit.game"
+msgstr "Категория:"
+
+#: /src/deck/components/bd-tab-editor.vue:129
+#: /src/deck/components/bd-column-editor.vue:285
+#, icu-message-format
+msgid "addon.deck.edit.icon"
+msgstr "Значок:"
+
+#: /src/deck/components/bd-column-editor.vue:483
+#, icu-message-format
+msgid "addon.deck.edit.max-tags"
+msgstr "Показать теги:"
+
+#: /src/deck/components/bd-edit-clip.vue:10
+#, icu-message-format
+msgid "addon.deck.edit.period"
+msgstr "Период:"
+
+#: /src/deck/components/bd-column-editor.vue:719
+#, icu-message-format
+msgid "addon.deck.edit.refresh"
+msgstr "Автоматическое обновление:"
+
+#: /src/deck/components/bd-column-editor.vue:826
+#, icu-message-format
+msgid "addon.deck.edit.required-tags"
+msgstr "Обязательные теги:"
+
+#: /src/deck/components/bd-edit-search.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.search"
+msgstr "Поиск:"
+
+#: /src/deck/components/bd-tab-editor.vue:192
+#, icu-message-format
+msgid "addon.deck.edit.sidebar"
+msgstr "Использовать вкладку в качестве боковой панели"
+
+#: /src/deck/components/bd-column-editor.vue:789
+#, icu-message-format
+msgid "addon.deck.edit.sort"
+msgstr "Сортировать по:"
+
+#: /src/deck/components/bd-tab-editor.vue:163
+#, icu-message-format
+msgid "addon.deck.edit.tags"
+msgstr "Теги:"
+
+#: /src/deck/components/bd-edit-team.vue:14
+#, icu-message-format
+msgid "addon.deck.edit.team"
+msgstr "Команда:"
+
+#: /src/deck/components/bd-tab-editor.vue:86
+#: /src/deck/components/bd-column-editor.vue:240
+#, icu-message-format
+msgid "addon.deck.edit.title"
+msgstr "Название:"
+
+#: /src/deck/components/bd-column-editor.vue:678
+#, icu-message-format
+msgid "addon.deck.edit.viewers"
+msgstr "Не отображать просмотры/зрители."
+
+#: /src/deck/components/bd-column.vue:491
+#, icu-message-format
+msgid "addon.deck.end"
+msgstr "Вы достигли конца."
+
+#: /src/deck/components/bd-tab-editor.vue:33
+#, icu-message-format, lp-defaults:"{\"count\":4}"
+msgid "addon.deck.column-count"
+msgstr "{count, plural, one {# столбец} other {# столбцы} }"
