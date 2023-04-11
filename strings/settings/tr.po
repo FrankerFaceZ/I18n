@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-06 16:32+0000\n"
+"PO-Revision-Date: 2023-06-01 16:04+0000\n"
 "Last-Translator: Hakan Kayra Doğan <hakankayradogan@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/tr/>\n"
@@ -2373,3 +2373,323 @@ msgstr "Geliştirici"
 #, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
 msgid "addon.created"
 msgstr "Oluşturulma Tarihi: {when,date}"
+
+#: /src/modules/main_menu/components/addon.vue:3
+#, icu-message-format
+msgid "addon.show-less"
+msgstr "(Daha az göster)"
+
+#: /src/modules/main_menu/components/addon-list.vue:90
+#, icu-message-format
+msgid "addon.sort-name"
+msgstr "Sıralama Ölçütü: İsme göre"
+
+#: /src/modules/main_menu/components/addon-list.vue:98
+#, icu-message-format
+msgid "addon.sort-update"
+msgstr "Sıralama Ölçütü: En Son Güncellenen"
+
+#: /src/modules/main_menu/components/addon-list.vue:138
+#, icu-message-format
+msgid "addon.unlisted.id"
+msgstr "eklenti id"
+
+#: /src/modules/main_menu/components/addon.vue:136
+#, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
+msgid "addon.updated"
+msgstr "Güncellenme Zamanı: {when,humantime}"
+
+#, icu-message-format, md-text
+msgid "home.addon-new"
+msgstr "Yeni Eklentiler"
+
+#, icu-message-format, md-text
+msgid "home.addon-new.desc"
+msgstr ""
+"Bu eklentiler son yedi gün içinde yayınlandı. [Eklentiler](~add_ons) "
+"bölümünde göz atın."
+
+#, icu-message-format, md-text
+msgid "home.addon-updates"
+msgstr "Güncellenmiş Eklentiler"
+
+#, icu-message-format, md-text
+msgid "home.addon-updates.desc"
+msgstr ""
+"Bu eklentiler son yedi gün içinde güncellendi. Nelerin değiştiğini görmek "
+"için [Değişim Günlüğü](~add_ons.changelog) kontrol edin."
+
+#, icu-message-format, lp-defaults:"{\"user\":\"Lordmau5\"}"
+msgid "home.changelog.by-line"
+msgstr "Gönderen: {user}"
+
+#, icu-message-format
+msgid "home.changelog.no-more"
+msgstr "Yüklenecek daha fazla işleme bulunamadı."
+
+#: /src/modules/main_menu/components/changelog.vue:72
+#, icu-message-format
+msgid "home.changelog.nonversioned"
+msgstr "Versiyonlanmamış İşleme"
+
+#: /src/modules/main_menu/components/changelog.vue:61
+#, icu-message-format
+msgid "home.changelog.show-nonversioned"
+msgstr "Versiyonlanmamış işlemeleri dahil et."
+
+#, icu-message-format
+msgid "home.github"
+msgstr "GitHub"
+
+#, icu-message-format
+msgid "home.new-settings"
+msgstr "Yeni Ayarlar"
+
+#: /src/modules/main_menu/components/chat-actions.vue:635
+#, icu-message-format
+msgid "setting.actions.add-default"
+msgstr "Varsayılanları Ekle"
+
+#: /src/modules/main_menu/components/chat-actions.vue:651
+#, icu-message-format
+msgid "setting.actions.add-default-tip"
+msgstr "Tüm varsayılan eylemleri bu profile ekleyin."
+
+#: /src/modules/main_menu/components/action-editor.vue:146
+#, icu-message-format
+msgid "setting.actions.appearance.combo"
+msgstr "Metin ve Simge"
+
+#: /src/modules/main_menu/components/action-editor.vue:544
+#, icu-message-format
+msgid "setting.actions.edit-visible.emote-only"
+msgstr "Yalnızca İfade Modu"
+
+#: /src/modules/main_menu/components/action-editor.vue:728
+#, icu-message-format
+msgid "setting.actions.edit-visible.follows"
+msgstr "Yalnızca Takipçi Modu"
+
+#: /src/modules/main_menu/components/action-editor.vue:913
+#, icu-message-format
+msgid "setting.actions.edit-visible.r9k"
+msgstr "R9k Modu"
+
+#: /src/modules/main_menu/components/action-editor.vue:821
+#, icu-message-format
+msgid "setting.actions.edit-visible.subs"
+msgstr "Abone Modu"
+
+#: /src/modules/main_menu/components/action-editor.vue:636
+#, icu-message-format
+msgid "setting.actions.edit-visible.slow"
+msgstr "Yavaş Mod"
+
+#: /src/modules/main_menu/components/action-editor.vue:680
+#, icu-message-format
+msgid "setting.actions.visible.hover"
+msgstr "üzerine gelindiğinde"
+
+#: /src/modules/main_menu/components/action-editor.vue:673
+#, icu-message-format, lp-defaults:"{\"key_list\":\"Ctrl\",\"keys\":1}"
+msgid "setting.actions.visible.modifier"
+msgstr "{key_list} {keys, plural, one {} other {}} tutulduğunda"
+
+#: /src/modules/main_menu/components/addon-list.vue:120
+#, icu-message-format
+msgid "addon.unlisted.explain"
+msgstr ""
+"Listelenmemiş Eklentiler, onaydan geçmiş ancak ana listede listelenmekten "
+"kaçınılmış eklentilerdir. Bunun nedeni, eklentinin belirli kullanıcılar için "
+"özelleştirilmesi veya eklentinin hâlâ geliştirilme aşamasında olması "
+"olabilir. Listelenmemiş bir eklentinin ID'sini biliyorsanız, görüntülenmesi "
+"için buraya girin."
+
+#: /src/modules/main_menu/components/changelog.vue:81
+#, icu-message-format
+msgid "home.changelog.about-nonversioned"
+msgstr ""
+"FrankerFaceZ havuzuna versiyonsuz yapılan işlemelerin yayınlanacak olan "
+"sürüm ile bir bağlantısı yoktur. Genellikle bir bakım ya da topluluk "
+"tarafından eklenmiş ve bir sonraki sürümde yer verilecek olan özellikleri "
+"ifade etmektedir."
+
+#, icu-message-format
+msgid "home.new-settings.desc"
+msgstr "Bunlar henüz bakmadığınız ayarlar."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors.description"
+msgstr ""
+"Bu, yakında FrankerFaceZ'e gelecek olan yeni bir sistemin hızlı "
+"önizlemesidir. Ayrı Temel ve Gelişmiş modlar ve daha iyi renk seçimi dahil "
+"olmak üzere burada yoğun değişiklikler bekleyin."
+
+#: /src/modules/main_menu/components/addon-list.vue:110
+#, icu-message-format
+msgid "addon.filter-enabled"
+msgstr "Yalnızca etkinleştirilmiş eklentileri göster."
+
+#: /src/modules/main_menu/components/addon.vue:134
+#, icu-message-format
+msgid "addon.show-more"
+msgstr "(Daha fazla göster)"
+
+#: /src/modules/main_menu/components/addon-list.vue:172
+#, icu-message-format
+msgid "addon.sort-create"
+msgstr "Sıralama Ölçütü: Oluşturuldu"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.changelog"
+msgstr "Değişim Günlüğü"
+
+#: /src/modules/main_menu/components/changelog.vue:12
+#, icu-message-format
+msgid "setting.add_ons.changelog.title"
+msgstr "Eklenti Değişim Günlüğü"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.description"
+msgstr ""
+"Eklentiler, uzantıya ve Twitch'e yeni yetenekler ve davranışlar eklemek için "
+"FrankerFaceZ tarafından otomatik olarak yüklenebilen, genellikle başkaları "
+"tarafından yazılan ek modüllerdir."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.development"
+msgstr "Geliştirme"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Görünüm"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Kullanılabilir Formatlayıcılar: {fmts}"
+
+#: /src/modules/main_menu/components/chat-actions.vue:1
+#, icu-message-format
+msgid "setting.actions.warn-hidden"
+msgstr ""
+"Şu anda Twitch sohbet ayarlarınızda Mod Simgeleri kapalı olduğundan, bazı "
+"işlemler gizlenmiş olabilir. Bunları değiştirmek için sohbetteki ayarlar "
+"menüsünü kullanın."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons"
+msgstr "Eklentiler"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center"
+msgstr "Kontrol Merkezi"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.control_center.search"
+msgstr "Ara"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.description"
+msgstr ""
+"Twitch'in görünümünü kişiselleştirin. Renkleri veya yazı tiplerini "
+"değiştirin ve deneyiminizi en iyi hale getirmek için sayfa düzenini "
+"değiştirin."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout"
+msgstr "Sayfa Düzeni"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.channel"
+msgstr "Kanal"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.clips"
+msgstr "Klipler"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.side_navigation"
+msgstr "Yan Gezinti Çubuğu"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.layout.top_navigation"
+msgstr "Üst Gezinti Çubuğu"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:136
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization"
+msgstr "Yerelleştirme"
+
+#, icu-message-format
+msgid "setting.appearance.localization.formatting"
+msgstr "Biçimlendirme"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.localization.general"
+msgstr "Genel"
+
+#, icu-message-format
+msgid "setting.appearance.localization.general.language.joke"
+msgstr "Şaka Diller"
+
+#, icu-message-format
+msgid "setting.appearance.localization.general.language.languages"
+msgstr "Desteklenen Diller"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme"
+msgstr "Tema"
+
+#, icu-message-format
+msgid "setting.appearance.theme.chat_colors"
+msgstr "Sohbet Renkleri"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.colors"
+msgstr "Renkler"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.fonts"
+msgstr "Yazı Tipleri"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.legacy"
+msgstr "Eski"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "İnce Ayarlar"
+
+#: /src/modules/main_menu/components/profile-manager.vue:429
+#, icu-message-format
+msgid "setting.backup-restore.http-error"
+msgstr "Sağlanan URL'den JSON okunamıyor."
