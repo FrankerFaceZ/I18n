@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-23 20:32+0000\n"
-"Last-Translator: SeanPai <seanpai96@gmail.com>\n"
+"PO-Revision-Date: 2023-06-01 16:04+0000\n"
+"Last-Translator: Cheng-Hao(Jimmy) Yang <yang94761@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
 "projects/frankerfacez/settings/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -13,12 +13,12 @@ msgstr ""
 #: /src/modules/main_menu/components/addon.vue:85
 #, icu-message-format, lp-defaults:"{\"author\":\"Lordmau5\"}"
 msgid "addon.author"
-msgstr "由: {author}"
+msgstr "由：{author}"
 
 #: /src/modules/main_menu/components/addon.vue:157
 #, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
 msgid "addon.created"
-msgstr "建立時間: {when,date}"
+msgstr "建立時間：{when,date}"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
@@ -58,7 +58,7 @@ msgstr "Lordmau5"
 #: /src/modules/main_menu/components/addon.vue:75
 #, icu-message-format
 msgid "addon.ffzap-bttv.name"
-msgstr "BetterTTV表情符號"
+msgstr "BetterTTV 表情符號"
 
 #: /src/modules/main_menu/components/addon.vue:86
 #, icu-message-format
@@ -93,27 +93,27 @@ msgstr "設定"
 #: /src/modules/main_menu/components/addon.vue:3
 #, icu-message-format
 msgid "addon.show-less"
-msgstr "(顯示更少)"
+msgstr "（顯示更少）"
 
 #: /src/modules/main_menu/components/addon.vue:134
 #, icu-message-format
 msgid "addon.show-more"
-msgstr "(顯示更多)"
+msgstr "（顯示更多）"
 
 #: /src/modules/main_menu/components/addon-list.vue:172
 #, icu-message-format
 msgid "addon.sort-create"
-msgstr "排序方式依: 建立時間"
+msgstr "排序方式依：建立時間"
 
 #: /src/modules/main_menu/components/addon-list.vue:90
 #, icu-message-format
 msgid "addon.sort-name"
-msgstr "排序方式依: 名稱"
+msgstr "排序方式依：名稱"
 
 #: /src/modules/main_menu/components/addon-list.vue:98
 #, icu-message-format
 msgid "addon.sort-update"
-msgstr "排序方式依: 上傳日期"
+msgstr "排序方式依：上傳日期"
 
 #: /src/modules/main_menu/components/addon.vue:61
 #, icu-message-format
@@ -129,18 +129,18 @@ msgstr "新增隱藏的元件..."
 #, icu-message-format
 msgid "addon.unlisted.explain"
 msgstr ""
-"隱藏的附加元件是已經被認可但選擇不公開的元件。這可能是因為他是給特定用戶的元件，或是因為該元件目前仍在開發中。如果你知道一個隱藏元件的ID，請在這裡輸入並"
-"讓它現形。"
+"隱藏的附加元件是已經被認可但選擇不公開的元件。這可能是因為他是給特定用戶的元件，或是因為該元件目前仍在開發中。如果你知道一個隱藏元件的 "
+"ID，請在這裡輸入並讓它現形。"
 
 #: /src/modules/main_menu/components/addon-list.vue:138
 #, icu-message-format
 msgid "addon.unlisted.id"
-msgstr "附加元件ID"
+msgstr "附加元件 ID"
 
 #: /src/modules/main_menu/components/addon.vue:136
 #, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
 msgid "addon.updated"
-msgstr "更新於: {when,humantime}"
+msgstr "更新於：{when,humantime}"
 
 #: /src/modules/main_menu/components/addon.vue:98
 #, icu-message-format, lp-defaults:"{\"version\":\"3.2.0\"}"
@@ -155,9 +155,9 @@ msgstr "網站"
 #, icu-message-format, md-text
 msgid "home.about"
 msgstr ""
-"謝謝您使用FrankerFaceZ。\n"
+"謝謝您使用 FrankerFaceZ。\n"
 "\n"
-" 版本4.0從Twitch在2017年末開始使用React開發網站一直到現在仍然在積極地開發中。"
+"版本 4.0 從 Twitch 在 2017 年末開始使用 React 開發網站一直到現在仍然在積極地開發中。"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
@@ -165,7 +165,7 @@ msgstr "新的附加元件"
 
 #, icu-message-format, md-text
 msgid "home.addon-new.desc"
-msgstr "這些附加元件是最近七天發表的。可以在[附加元件](~add_ons)看看它們。"
+msgstr "這些附加元件是最近七天發表的。您可以至[「附加元件」](~add_ons)頁面中看看它們。"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
@@ -173,7 +173,7 @@ msgstr "已更新的附加元件"
 
 #, icu-message-format, md-text
 msgid "home.addon-updates.desc"
-msgstr "這些附加元件是在這七天間更新的。可以去 [更新紀錄](~add_ons.changelog) 看看他們更新了什麼。"
+msgstr "這些附加元件是在這七天間更新的。可以去[「更新紀錄」](~add_ons.changelog) 頁面看看他們更新了什麼。"
 
 #: /src/modules/main_menu/components/changelog.vue:7
 #, icu-message-format
@@ -183,11 +183,12 @@ msgstr "更新紀錄"
 #: /src/modules/main_menu/components/changelog.vue:81
 #, icu-message-format
 msgid "home.changelog.about-nonversioned"
-msgstr "對於FrankerFaceZ中無版本號的Commit不會跟正式釋出版有關聯。那些通常代表維護或社群提交的小更新，他們會擺在後續發布的更新中。"
+msgstr ""
+"對於 FrankerFaceZ 中無版本號的 Commit 不會跟正式釋出版有關聯。那些通常代表維護或社群提交的小更新，他們會擺在後續發布的更新中。"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"Lordmau5\"}"
 msgid "home.changelog.by-line"
-msgstr "由: {user}"
+msgstr "由：{user}"
 
 #, icu-message-format
 msgid "home.changelog.current"
@@ -195,7 +196,7 @@ msgstr "當前版本"
 
 #, icu-message-format
 msgid "home.changelog.error"
-msgstr "從GitHub讀取更新時發生錯誤。"
+msgstr "從 GitHub 讀取更新時發生錯誤。"
 
 #: /src/modules/main_menu/components/changelog.vue:120
 #, icu-message-format
@@ -204,17 +205,17 @@ msgstr "讀取更多"
 
 #, icu-message-format
 msgid "home.changelog.no-more"
-msgstr "沒有更多Commit可以讀取。"
+msgstr "沒有更多 Commit 可以讀取。"
 
 #: /src/modules/main_menu/components/changelog.vue:72
 #, icu-message-format
 msgid "home.changelog.nonversioned"
-msgstr "無版本號的Commit"
+msgstr "無版本號的 Commit"
 
 #: /src/modules/main_menu/components/changelog.vue:61
 #, icu-message-format
 msgid "home.changelog.show-nonversioned"
-msgstr "包含無版本號的Commits。"
+msgstr "包含無版本號的 Commits。"
 
 #, icu-message-format
 msgid "home.discord"
@@ -228,15 +229,16 @@ msgstr ""
 "\n"
 "* *[某功能]怎麼了?*\n"
 "\n"
-"我們仍然有些曾經在FrankerFaceZ v3.0出現過的功能但在v4.0後消失了。不幸的是，有一些功能在新的Twitch網站中似乎不切實際。\n"
+"我們仍然有些曾經在 FrankerFaceZ v3.0 出現過的功能但在v4.0 後消失了。不幸的是，有一些功能在新的 Twitch 網站中似乎不切實際。"
+"\n"
 "\n"
 "許多功能仍然計畫回歸，但要看開發人員有沒有時間去做。所以這些功能沒有發布的日程，功能一做好就會馬上釋出。\n"
 "\n"
 "* *我贊助了，但我看不到我的徽章。*\n"
 "* *我新增了一個表情符號到頻道但沒有出現。.*\n"
 "\n"
-"因為我們目前網站的效能問題，我們會在API中使用快取。因此可能會花大概半小時讓徽章跟表情符號產生變化。在等一段時間後，可以重新整理你的頁面然後你的內容應該"
-"會出現。你也可以試著強制重新整理。\n"
+"因為我們目前網站的效能問題，我們會在 API "
+"中使用快取。因此可能會花大概半小時讓徽章跟表情符號產生變化。在等一段時間後，可以重新整理你的頁面然後你的內容應該會出現。你也可以試著強制重新整理。\n"
 "\n"
 "* *我不想要`FFZ 支持者` 徽章。*\n"
 "\n"
@@ -245,8 +247,8 @@ msgstr ""
 "\n"
 "* *我可以看到我的表情符號，但聊天室說他們看不到。*\n"
 "\n"
-"使用者需要安裝FrankerFaceZ，或使用其他支援FFZ的第三方用戶端以看到FrankerFaceZ的表情符號。用戶也可能因為快取跟上次重新整理時間而"
-"看不到新的表情符號。\n"
+"使用者需要安裝 FrankerFaceZ，或使用其他支援FFZ的第三方用戶端以看到 FrankerFaceZ "
+"的表情符號。用戶也可能因為快取跟上次重新整理時間而看不到新的表情符號。\n"
 "\n"
 "* *這個表情符號是偷來的!*\n"
 "* *這是有冒犯性的表情符號!*\n"
@@ -260,13 +262,13 @@ msgid "home.feedback"
 msgstr ""
 "## 回饋\n"
 "\n"
-"你可以[在GitHub開一個新的issue](https://github.com/FrankerFaceZ/FrankerFaceZ/"
-"issues)提供意見及回報問題。你也可以 [在Discord上找到我們](https://discord.gg/UrAkGhT) 或 "
-"[發推給我們](https://twitter.com/FrankerFaceZ)。\n"
+"你可以[在 GitHub 開一個新的 issue](https://github.com/FrankerFaceZ/FrankerFaceZ/"
+"issues)提供意見及回報問題。你也可以 [在 Discord 上找到我們](https://discord.gg/UrAkGhT) 或 "
+"[發推特給我們](https://twitter.com/FrankerFaceZ)。\n"
 "\n"
-"當新增一個GitHub issue時，請確定別人沒有發過類似的問題。GitHub上的問題應該要是用戶端的問題，而不是用來詢問表情符號審核進度。\n"
+"在新增一個 GitHub issue 時，請確定別人沒有發過類似的問題。GitHub 上的問題應該要是用戶端的問題，而不是用來詢問表情符號審核進度。\n"
 "\n"
-"新增一個Issue時，請一併上傳下方提供的日誌及回報的連結。"
+"新增一個 Issue 時，請一併上傳下方提供的日誌及回報的連結。"
 
 #, icu-message-format
 msgid "home.github"
@@ -282,7 +284,7 @@ msgstr "這些是你還沒看過的設定。"
 
 #, icu-message-format
 msgid "home.tag-line"
-msgstr "Twitch增強套件"
+msgstr "Twitch 增強套件"
 
 #: /src/modules/main_menu/components/md-page.vue:14
 #, icu-message-format, md-text
@@ -291,7 +293,7 @@ msgstr ""
 
 #, icu-message-format
 msgid "home.tweets"
-msgstr "來自FrankerFaceZ的推文"
+msgstr "來自 FrankerFaceZ 的推文"
 
 #, icu-message-format
 msgid "home.twitter"
@@ -299,7 +301,7 @@ msgstr "Twitter"
 
 #, icu-message-format
 msgid "home.website"
-msgstr "FrankerFaceZ網站"
+msgstr "FrankerFaceZ 網站"
 
 #: /src/modules/main_menu/components/action-editor.vue:1189
 #, icu-message-format
