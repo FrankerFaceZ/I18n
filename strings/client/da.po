@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: Taizun <original.taizun+ffz@gmail.com>\n"
+"PO-Revision-Date: 2023-06-01 16:04+0000\n"
+"Last-Translator: Oliver Kristensen <zfihgaming@gmail.com>\n"
 "Language-Team: Danish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/da/>\n"
 "Language: da\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "card.empty"
 msgstr "Data kunne ikke indlæses."
@@ -289,12 +289,12 @@ msgstr ""
 #: /src/modules/chat/actions/types.jsx:21
 #, icu-message-format
 msgid "chat.actions.edit_overrides"
-msgstr ""
+msgstr "Skift navn & farve"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:122:13
 #, icu-message-format
 msgid "chat.settings.back"
-msgstr ""
+msgstr "Tilbage"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:140:14
 #, icu-message-format
@@ -402,24 +402,24 @@ msgstr ""
 #: /src/modules/chat/rich_providers.js:114
 #, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
 msgid "cards.user.streaming"
-msgstr ""
+msgstr "streamer {game}"
 
 #, icu-message-format
 msgid "channel.links.clips"
-msgstr ""
+msgstr "Klip"
 
 #, icu-message-format
 msgid "channel.links.schedule"
-msgstr ""
+msgstr "Tidsplan"
 
 #, icu-message-format
 msgid "channel.links.videos"
-msgstr ""
+msgstr "Videoer"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:559
 #, icu-message-format
 msgid "chat.actions.reply.thread"
-msgstr ""
+msgstr "Åben tråd"
 
 #: /src/modules/main_menu/components/action-editor.vue:514
 #: /src/modules/main_menu/components/chat-actions.vue:434
@@ -471,7 +471,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:296
 #, icu-message-format
 msgid "chat.ffz-badge.site-link"
-msgstr ""
+msgstr "FrankerFaceZ hjemmeside"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:292
 #, icu-message-format
@@ -504,7 +504,7 @@ msgstr ""
 #: /src/modules/chat/override-editor.vue:97
 #, icu-message-format
 msgid "chat.overrides.color"
-msgstr ""
+msgstr "Farve"
 
 #: /src/modules/chat/override-editor.vue:23
 #, icu-message-format, lp-defaults:"{\"user.login\":\"SirStendec\"}"
@@ -515,16 +515,16 @@ msgstr ""
 #: /src/modules/chat/override-editor.vue:45
 #, icu-message-format
 msgid "chat.overrides.name"
-msgstr ""
+msgstr "Navn"
 
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:581:11
 #, icu-message-format, lp-defaults:"{\"reason\":\"Ctrl or Mouse\"}"
 msgid "chat.paused"
-msgstr ""
+msgstr "Chatten er på pause pga. {reason}"
 
 #, icu-message-format
 msgid "chat.points.bypass-sub"
-msgstr ""
+msgstr "Send en besked i Kun Abonnenter tilstand"
 
 #, icu-message-format
 msgid "chat.points.choose-emote"
@@ -594,7 +594,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/line.js:673:7
 #, icu-message-format, lp-defaults:"{\"user\":\"FrankerFaceZ\"}"
 msgid "chat.ritual"
-msgstr ""
+msgstr "{user} er ny her. Sig hej!"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:93:9
 #, icu-message-format
@@ -1515,7 +1515,7 @@ msgstr ""
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"action\":\"ban\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-block\",\"appearance.color\":\"#D62929\",\"appearance.tooltip\":\"\",\"display.mod\":true,\"display.mod_icons\":true,\"display.deleted\":false}"
 msgid "chat.actions.ban"
-msgstr ""
+msgstr "Udeluk bruger"
 
 #: /src/modules/chat/actions/types.jsx:80:4
 #, icu-message-format, lp-defaults:"{\"action\":\"chat\",\"appearance.type\":\"text\",\"appearance.text\":\"Test\",\"options.command\":\"@{{user.login}} HeyGuys\",\"options.paste\":false,\"display.deleted\":true}"
@@ -1536,12 +1536,12 @@ msgstr ""
 #: /src/modules/main_menu/components/chat-actions.vue:434
 #, icu-message-format, lp-defaults:"{\"action\":\"msg_delete\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-trash\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.msg_delete"
-msgstr ""
+msgstr "Slet besked"
 
 #: /src/modules/chat/actions/types.jsx:24
 #, icu-message-format
 msgid "chat.actions.reply"
-msgstr ""
+msgstr "Svar på besked"
 
 #: /src/modules/main_menu/components/action-editor.vue:595
 #, icu-message-format
