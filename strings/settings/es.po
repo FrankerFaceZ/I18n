@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-01 14:56+0000\n"
-"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
+"PO-Revision-Date: 2023-06-01 16:04+0000\n"
+"Last-Translator: DeciBelioS <deci8belios@outlook.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
 "Language: es\n"
@@ -32,7 +32,7 @@ msgid "addon.enabled"
 msgstr "Activado"
 
 msgid "addon.ffzap-bttv.author"
-msgstr "Lordmau 5"
+msgstr "Lordmau5"
 
 msgid "addon.ffzap-bttv.name"
 msgstr "Emoticonos BetterTTV"
@@ -3326,7 +3326,7 @@ msgstr "Canal"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.clips"
-msgstr "Recortes"
+msgstr "Clips"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3519,7 +3519,7 @@ msgstr "Apariencia"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.metadata.player"
-msgstr "Jugador"
+msgstr "Reproductor"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3746,7 +3746,7 @@ msgstr ""
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
-msgstr "Complementos Actualizados."
+msgstr "Complementos Actualizados"
 
 #, icu-message-format
 msgid "home.github"
@@ -6267,3 +6267,993 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.viewers.no-native"
 msgstr "Ocultar el recuento de espectadores nativo de Twitch."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.reset.description"
+msgstr ""
+"Al hacer doble clic en el botón Restablecer reproductor se intenta "
+"restablecer el estado interno del reproductor de Twitch, lo que soluciona "
+"los problemas de reproducción sin necesidad de actualizar toda la página."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.font-size"
+msgstr "Tamaño de la fuente"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.font-size.description"
+msgstr ""
+"Qué tamaño deben tener los subtítulos. Puede ser un porcentaje, como `10%`, "
+"o un valor en píxeles, como `50px`."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.vertical.description"
+msgstr ""
+"Anula la posición de los subtítulos. Puede ser un porcentaje, como `10%`, o "
+"un valor en píxeles, como `50px`."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.knee.description"
+msgstr ""
+"**Rango:** 0 ~ 40\n"
+"\n"
+"Valor en decibelios que representa el rango por encima del umbral en el que "
+"la curva pasa suavemente a la parte comprimida."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.ext-hide.description"
+msgstr ""
+"Nota: Esta función no impide que se carguen las extensiones. Las extensiones "
+"ocultas son simplemente invisibles. Ocultar extensiones con esta función no "
+"mejorará su seguridad."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.ext-interaction"
+msgstr "Permitir la interacción del ratón con las extensiones superpuestas."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.default.description"
+msgstr ""
+"El valor por defecto para el control de ganancia, cuando el control de "
+"ganancia está activado. 100% significa que no hay cambios en el volumen."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.no-volume"
+msgstr ""
+"Fuerza el volumen integrado al 100% cuando el compresor de audio está "
+"activado."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.scroll.description"
+msgstr ""
+"Ajuste la ganancia desplazándose con la rueda del ratón. Este ajuste tiene "
+"prioridad sobre el ajuste del volumen mediante desplazamiento. *Este ajuste "
+"no funcionará correctamente en secuencias con extensiones visibles cuando se "
+"permita la interacción del ratón con las extensiones.*"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.theatre.metadata"
+msgstr "Mostrar metadatos al pasar el ratón sobre el reproductor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.theatre.no-whispers"
+msgstr "Oculta los susurros cuando el Modo Teatro está activado."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-always-shown"
+msgstr "Mantén el control deslizante de volumen expandido en todo momento."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll.description"
+msgstr ""
+"*Esta configuración no funcionará correctamente en secuencias con "
+"extensiones visibles cuando se permita la interacción del ratón con las "
+"extensiones.*"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-settings.description"
+msgstr ""
+"Saber exactamente qué ajustes están en vigor cuando se produce un error "
+"puede ser increíblemente útil para recrear el problema."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.socket.use-cluster.description"
+msgstr ""
+"A qué cluster de servidores conectarse. No cambies esto a menos que estés "
+"haciendo trabajo de desarrollo en el servidor socket. Si lo haces, se "
+"romperán todas las funciones que dependen del servidor de sockets, incluidas "
+"las búsquedas de información de emote, las descripciones de enlaces y las "
+"actualizaciones de datos en tiempo real."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.dark.description"
+msgstr ""
+"*Requiere que el tema oscuro esté activado.*\n"
+"\n"
+"Este ajuste desaparecerá muy pronto, a medida que madure el nuevo sistema de "
+"temas.\n"
+"El CSS cargado por este ajuste es demasiado pesado y puede causar problemas "
+"de rendimiento."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark.description"
+msgstr ""
+"Al activar esta opción, se intentará desactivar la conversión automática de "
+"temas oscuros integrada en el navegador para los sitios web, lo cual es "
+"innecesario en Twitch y puede causar problemas de visualización. Esto puede "
+"no aplicarse dependiendo de tu navegador y configuración."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images.animated.description"
+msgstr ""
+"Si esto no se anula, las imágenes animadas sólo se muestran en las "
+"descripciones emergentes de los emoticonos si [Chat > Apariencia >> Emotes > "
+"Emotes animados](~chat.appearance.emotes) no está desactivado."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.changelog"
+msgstr "Registro de cambios"
+
+#: /src/modules/main_menu/components/action-editor.vue:546
+#, icu-message-format
+msgid "setting.new-line"
+msgstr "Nueva línea"
+
+#: /src/modules/main_menu/components/action-editor.vue:578
+#, icu-message-format
+msgid "setting.new-line.desc"
+msgstr "Coloque todos los elementos siguientes en una nueva línea."
+
+#: /src/modules/main_menu/components/menu-page.vue:137
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.description"
+msgstr ""
+"Estos ajustes controlan la compresión de rango dinámico opcional para el "
+"reproductor, una forma de procesamiento de audio que reduce el volumen de "
+"los sonidos altos y amplifica los sonidos bajos, normalizando o comprimiendo "
+"así el volumen. Esto utiliza un [DynamicsCompressorNode](https://developer."
+"mozilla.org/en-US/docs/Web/API/DynamicsCompressorNode) de la Web Audio API "
+"entre bastidores si desea obtener más información."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.gain_control.description"
+msgstr ""
+"El Control de Ganancia le da un control extra sobre el volumen de salida "
+"cuando usa el Compresor permitiéndole ajustar el volumen después de que el "
+"compresor se ejecute, mientras que el deslizador de volumen incorporado "
+"tiene efecto antes del compresor. Esto utiliza un simple "
+"[GainNode](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) de la "
+"Web Audio API, conectado en secuencia después del DynamicsCompressorNode que "
+"utiliza el Compresor."
+
+#: /src/modules/main_menu/components/menu-page.vue:125
+#, icu-message-format
+msgid "setting.profile.updates-about"
+msgstr ""
+"Este perfil está configurado para actualizarse automáticamente. Cuando lo "
+"haga, se restablecerán todos los ajustes que se hayan modificado en él. "
+"También se restablecerán las reglas del perfil."
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.idb.desc"
+msgstr ""
+"[IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) "
+"está disponible en la mayoría de las plataformas, y tiene un tiempo de "
+"inicialización ligeramente más lento que el Almacenamiento Local. IndexedDB "
+"tiene una mayor capacidad de almacenamiento y es menos probable que se borre "
+"inesperadamente."
+
+#: /src/modules/main_menu/components/provider.vue:26
+#, icu-message-format
+msgid "setting.provider.warn.desc"
+msgstr ""
+"Por favor, cierra cualquier otra pestaña de Twitch antes de usar esta "
+"herramienta. Se **recomienda [crear una copia de seguridad](~data_management."
+"backup_and_restore)** antes de cambiar de proveedor, por si ocurre algo."
+
+#: /src/modules/main_menu/components/action-editor.vue:581
+#, icu-message-format
+msgid "setting.space-small.desc"
+msgstr "Deje un pequeño espacio entre el elemento anterior y el siguiente."
+
+#, icu-message-format
+msgid "settings.term.color.tip"
+msgstr "Color"
+
+#: /src/modules/main_menu/components/term-editor.vue:497
+#, icu-message-format
+msgid "settings.terms.highlight"
+msgstr "Hlt"
+
+#: /src/modules/main_menu/components/term-editor.vue:536
+#, icu-message-format
+msgid "settings.terms.highlight.tip"
+msgstr ""
+"Resaltar coincidencias\n"
+"\n"
+"Para que funcione, es necesario que la opción \"Resaltar palabras "
+"coincidentes en el chat\" esté activada."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-users"
+msgstr "chat.filtering.highlight-basic-users"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
+msgstr "chat.filtering.highlight-basic-users-blocked"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.allow-catchup"
+msgstr "Permite al reproductor acelerar para reducir el retraso."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.allow-catchup.description"
+msgstr ""
+"Twitch, de forma predeterminada, aplicará una pequeña aceleración al vídeo "
+"en directo cuando se produzca un gran retraso con respecto al emisor, con el "
+"fin de recuperar el ritmo de la retransmisión en directo. Esto puede "
+"provocar distorsiones en el audio. Desactiva esta opción para evitar los "
+"cambios de velocidad automáticos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.pip"
+msgstr "Añade un botón `Picture-in-Picture` a los controles del reproductor."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.pip.description"
+msgstr ""
+"Al hacer clic en el botón PiP se intenta activar el modo Picture-in-Picture "
+"para el vídeo del reproductor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.button.reset"
+msgstr "Añade un botón `Reiniciar reproductor` a los controles del reproductor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.alignment"
+msgstr "Alineación"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.custom-position"
+msgstr "Permite anular la posición y la alineación de los subtítulos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.font-family"
+msgstr "Familia tipográfica"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.font-family.description"
+msgstr "Anula la fuente utilizada para mostrar los subtítulos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.horizontal"
+msgstr "Posición horizontal"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.horizontal.description"
+msgstr ""
+"Anula la posición de los subtítulos. Puede ser un porcentaje, como `10%`, o "
+"un valor en píxeles, como `50px`."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.captions.vertical"
+msgstr "Posición vertical"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.attack"
+msgstr "Ataque"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.attack.description"
+msgstr ""
+"**Rango:** 0 ~ 1\n"
+"\n"
+"La cantidad de tiempo, en segundos, necesaria para reducir la ganancia en 10 "
+"dB."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.default"
+msgstr "Activa el compresor por defecto."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.enable"
+msgstr ""
+"Activa el compresor de audio y añade un botón \"Compresor de audio\" a los "
+"controles del reproductor."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.knee"
+msgstr "Knee"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.ratio"
+msgstr "Proporción"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.ratio.description"
+msgstr ""
+"**Rango:** 0 ~ 20\n"
+"\n"
+"La cantidad de cambio, en dB, necesaria en la entrada para un cambio de 1 dB "
+"en la salida."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.release"
+msgstr "Liberar"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.release.description"
+msgstr ""
+"**Rango:** 0 ~ 1\n"
+"La cantidad de tiempo, en segundos, necesaria para aumentar la ganancia en "
+"10 dB."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.shortcut"
+msgstr "Tecla de acceso directo"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.shortcut.description"
+msgstr "Esta secuencia de teclas permite conmutar el compresor."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.threshold"
+msgstr "Umbral"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:113
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.compressor.threshold.description"
+msgstr ""
+"**Rango:** -100 ~ 0\n"
+"\n"
+"El valor en decibelios por encima del cual la compresión empezará a tener "
+"efecto."
+
+#: /src/modules/main_menu/index.js:477
+#, icu-message-format
+msgid "setting.entry.player.embed-metadata"
+msgstr "Mostrar metadatos al pasar el ratón sobre el reproductor."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.ext-hide"
+msgstr "Mostrar extensiones de superposición"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.default"
+msgstr "Valor por defecto"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.enable"
+msgstr ""
+"Activa el control de ganancia cuando el compresor de audio está activado."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.max"
+msgstr "Máximo"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.max.description"
+msgstr ""
+"**Rango:** 100 ~ 1000\n"
+"\n"
+"El valor máximo permitido para el control de ganancia. 100% es ningún "
+"cambio. 200% es el doble de volumen."
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.min"
+msgstr "Mínimo"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:118
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.min.description"
+msgstr ""
+"**Rango:** 0 ~ 100\n"
+"\n"
+"El valor mínimo permitido para el control de ganancia. 0% está efectivamente "
+"silenciado."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.no-volume.description"
+msgstr ""
+"Con esta opción activada, el volumen integrado quedará oculto y el control "
+"de ganancia será la única forma de cambiar el volumen."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.gain.scroll"
+msgstr "Ajuste de desplazamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-event-bar"
+msgstr "Ocultar la barra de eventos"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-event-bar.description"
+msgstr ""
+"Ocultar la barra de eventos que aparece sobre el reproductor cuando hay un "
+"evento en curso para el canal actual."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-mouse"
+msgstr "Ocultar el ratón cuando los controles no están visibles."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-rerun-bar"
+msgstr "Ocultar la barra de repetición"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-rerun-bar.description"
+msgstr ""
+"Ocultar la barra de repetición que aparece encima del reproductor cuando el "
+"canal actual está reproduciendo un vídeo en lugar de contenido en directo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.hide-squad-banner"
+msgstr "Ocultar la barra de transmisión de Squad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.home.autoplay"
+msgstr "Reproducción automática de emisoras destacadas en la portada."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.mute-click"
+msgstr ""
+"Silencia o desactiva el reproductor pulsando el botón central del ratón."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.no-autoplay"
+msgstr "No inicie automáticamente la reproducción de vídeos o streams."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.no-autoplay.description"
+msgstr ""
+"Nota: Esta función no se aplica cuando se navega directamente de un canal a "
+"otro."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.theatre.auto-enter"
+msgstr "Abrir automáticamente el Modo Teatro al visitar un canal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.vod.autoplay"
+msgstr ""
+"Reproduce automáticamente el siguiente vídeo recomendado después de que "
+"termine un vídeo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll"
+msgstr "Ajusta el volumen desplazándote con la rueda del ratón."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll-steps"
+msgstr "Volumen de desplazamiento"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.player.volume-scroll-steps.description"
+msgstr ""
+"Cuánto cambia el nivel de volumen por entrada de desplazamiento individual."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.3"
+msgstr "Activado con Alt"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.4"
+msgstr "Activado con Alt + clic derecho"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.5"
+msgstr "Activado con Mayús"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.6"
+msgstr "Activado con Mayús + Clic derecho"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.7"
+msgstr "Activado con Ctrl"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.player.volume-scroll.values.8"
+msgstr "Activado con Ctrl + Clic derecho"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.profiles"
+msgstr "perfiles"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.enable"
+msgstr "Envíe informes automáticamente cuando se produzca un error."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-settings"
+msgstr "Incluir una instantánea de la configuración en los informes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.example"
+msgstr "reports.error.example"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-user"
+msgstr "Incluir ID de usuario en los informes."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.reports.error.include-user.description"
+msgstr ""
+"De vez en cuando, es útil saber qué usuarios están teniendo problemas para "
+"que podamos comprobar si hay insignias específicas, conjuntos de emoticonos "
+"o banderas de usuario que estén causando problemas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.socket.use-cluster"
+msgstr "Clúster de servidores"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.sub-button.prime-notice"
+msgstr "Mostrar recordatorio Prime"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.sub-button.prime-notice.description"
+msgstr ""
+"Muestra una corona en los botones de suscripción cuando el canal gratuito "
+"con Prime esté disponible."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.accent"
+msgstr "Acento"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.accent.description"
+msgstr "Este color es usado para botones, enlaces, etc."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.background"
+msgstr "Fondo"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.background.description"
+msgstr ""
+"Pruebe `#0E0C13` para algo parecido al antiguo tema oscuro, o `#0E0E0E` para "
+"un bonito gris oscuro. No se permiten colores transparentes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.text"
+msgstr "Texto"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.color.text.description"
+msgstr ""
+"Si no está configurado, esto se pondrá automáticamente en blanco o negro "
+"según el brillo del fondo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.dark"
+msgstr "Gris (sin púrpura)"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.disable-auto-dark"
+msgstr "Desactivar tema oscuro automático"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.font.size"
+msgstr "Tamaño de la fuente"
+
+#: /src/modules/main_menu/components/setting-text-box.vue:117
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.theme.font.size.description"
+msgstr ""
+"**Mínimo:** `1`, **Máximo:** `25`, *Predeterminado:* `12`\n"
+"\n"
+"El tamaño del texto normal, en píxeles. Esto puede verse afectado por la "
+"configuración de zoom y fuente de su navegador."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.badge-images"
+msgstr "Mostrar imágenes grandes de las insignias."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images"
+msgstr "Mostrar imágenes grandes de los emotes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-images.animated"
+msgstr "Muestra imágenes animadas de los emotes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.emote-sources"
+msgstr "Mostrar fuentes conocidas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.images"
+msgstr "Mostrar imágenes en la información sobre herramientas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-images"
+msgstr "Mostrar imágenes para los enlaces."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-interaction"
+msgstr "Permitir la interacción con los tooltips de los enlaces compatibles."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-nsfw-images"
+msgstr "Mostrar imágenes potencialmente NSFW."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.link-nsfw-images.description"
+msgstr ""
+"Si esta opción está activada, FrankerFaceZ incluirá las imágenes etiquetadas "
+"como no seguras o no clasificadas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.tooltip.rich-links"
+msgstr "Mostrar información detallada sobre los enlaces."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.whispers.show"
+msgstr "Mostrar susurros"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:44
+#, icu-message-format
+msgid "setting.font.builtin"
+msgstr "Fuentes incorporadas"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:44
+#, icu-message-format
+msgid "setting.font.default"
+msgstr "Por defecto"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:44
+#, icu-message-format
+msgid "setting.font.dyslexic"
+msgstr "Fuentes para la dislexia"
+
+#: /src/modules/main_menu/components/setting-combo-box.vue:44
+#, icu-message-format
+msgid "setting.font.google"
+msgstr "Fuentes de Google"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home"
+msgstr "Inicio"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.faq"
+msgstr "PREGUNTAS FRECUENTES"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.feedback"
+msgstr "Opinión"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.feedback.log"
+msgstr "Registro"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.home.legal"
+msgstr "Aviso legal"
+
+#: /src/modules/main_menu/components/profile-manager.vue:248
+#, icu-message-format
+msgid "setting.import.do"
+msgstr "Importar"
+
+#: /src/modules/main_menu/components/profile-manager.vue:327
+#, icu-message-format
+msgid "setting.import.file"
+msgstr "Desde archivo"
+
+#: /src/modules/main_menu/components/profile-manager.vue:288
+#, icu-message-format
+msgid "setting.import.url"
+msgstr "Desde URL"
+
+#: /src/modules/main_menu/components/profile-manager.vue:207
+#, icu-message-format
+msgid "setting.paste-url.url"
+msgstr "[url]"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player"
+msgstr "Reproductor"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning"
+msgstr "Subtítulos ocultos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.font"
+msgstr "Fuente"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.closed_captioning.position"
+msgstr "Posición"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor"
+msgstr "Compresor"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.advanced"
+msgstr "Avanzado"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.gain_control"
+msgstr "Control de ganancia"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.compressor.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general"
+msgstr "General"
+
+#: /src/modules/main_menu/index.js:515
+#, icu-message-format
+msgid "setting.player.general.embed_and_popout"
+msgstr "Incrustar y desplegar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.extensions"
+msgstr "Extensiones"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.playback"
+msgstr "Reproducción"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.theatre_mode"
+msgstr "Modo Teatro"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.player.general.volume"
+msgstr "Volumen"
+
+#: /src/modules/main_menu/components/profile-selector.vue:170
+#: /src/modules/main_menu/components/menu-page.vue:112
+#, icu-message-format
+msgid "setting.profiles.updates"
+msgstr "Este perfil se actualizará automáticamente."
+
+#: /src/modules/main_menu/components/provider.vue:1
+#, icu-message-format
+msgid "setting.provider.has-blobs"
+msgstr "(Admite datos binarios)"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.has-data"
+msgstr "(Dispone de datos)"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.idb.title"
+msgstr "IndexedDB"
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.local.desc"
+msgstr ""
+"[Almacenamiento local](https://developer.mozilla.org/en-US/docs/Web/API/"
+"Web_Storage_API) está disponible en todas las plataformas y es de rápido "
+"acceso, pero tiene límites de capacidad mal definidos y puede borrarse "
+"inesperadamente. En particular, borrar las cookies y la caché de tu "
+"navegador probablemente borrará también el Almacenamiento Local."
+
+#: /src/modules/main_menu/components/provider.vue:57
+#, icu-message-format
+msgid "setting.provider.local.title"
+msgstr "Almacenamiento local"
+
+#: /src/std-components/key-picker.vue:31
+#, icu-message-format
+msgid "setting.record-key"
+msgstr "Pulsar una tecla"
+
+#: /src/modules/main_menu/components/action-editor.vue:552
+#, icu-message-format
+msgid "setting.space"
+msgstr "Espacio"
+
+#: /src/modules/main_menu/components/action-editor.vue:549
+#, icu-message-format
+msgid "setting.space-small"
+msgstr "Espacio (pequeño)"
+
+#: /src/modules/main_menu/components/action-editor.vue:584
+#, icu-message-format
+msgid "setting.space.desc"
+msgstr ""
+"Deje el mayor espacio posible entre el elemento anterior y el siguiente."
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:84
+#: /src/modules/main_menu/components/blocked-type-editor.vue:60
+#, icu-message-format
+msgid "setting.terms.please-select"
+msgstr "Seleccione una opción."
+
+#, icu-message-format
+msgid "settings.terms.priority.tip"
+msgstr "Prioridad"
+
+#: /src/modules/main_menu/components/term-editor.vue:272
+#, icu-message-format
+msgid "settings.terms.sensitive"
+msgstr "Aa"
+
+#: /src/modules/main_menu/components/term-editor.vue:304
+#, icu-message-format
+msgid "settings.terms.sensitive.tip"
+msgstr "Distingue mayúsculas y minúsculas"
+
+#: /src/modules/main_menu/components/term-editor.vue:383
+#, icu-message-format
+msgid "settings.terms.word"
+msgstr "Abc"
+
+#: /src/modules/main_menu/components/term-editor.vue:420
+#, icu-message-format
+msgid "settings.terms.word.tip"
+msgstr "Combinar palabras completas"
