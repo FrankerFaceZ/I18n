@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-01 13:57+0000\n"
-"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
+"PO-Revision-Date: 2023-06-01 14:56+0000\n"
+"Last-Translator: DeciBelioS <deci8belios@outlook.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
 "Language: es\n"
@@ -14,10 +14,10 @@ msgid "addon.author"
 msgstr "Por: {author}"
 
 msgid "addon.deck.author"
-msgstr "SirStendec"
+msgstr "Señor Stendec"
 
 msgid "addon.deck.name"
-msgstr "Deck"
+msgstr "Plataforma"
 
 msgid "addon.dev"
 msgstr "Desarrollador"
@@ -32,7 +32,7 @@ msgid "addon.enabled"
 msgstr "Activado"
 
 msgid "addon.ffzap-bttv.author"
-msgstr "Lordmau5"
+msgstr "Lordmau 5"
 
 msgid "addon.ffzap-bttv.name"
 msgstr "Emoticonos BetterTTV"
@@ -62,7 +62,7 @@ msgid "addon.unlisted"
 msgstr "No listado"
 
 msgid "addon.unlisted.add"
-msgstr "Añadir no listado"
+msgstr "Añadir a la lista..."
 
 msgid "addon.unlisted.explain"
 msgstr ""
@@ -231,14 +231,14 @@ msgstr "Color"
 
 msgid "setting.actions.color.warn"
 msgstr ""
-"Este valor será automáticamente ajustado por visibilidad basado en tu color "
-"del chat"
+"Este valor se ajustará automáticamente para la visibilidad en función de la "
+"configuración del color del chat."
 
 msgid "setting.actions.delete-all"
 msgstr "Eliminar todas las acciones de ester perfil."
 
 msgid "setting.actions.drag"
-msgstr "Arrastra las acciones para reordenarlas"
+msgstr "Arrastre las acciones para reordenarlas."
 
 msgid "setting.actions.duration"
 msgstr "Duración"
@@ -1252,7 +1252,7 @@ msgstr ""
 "de verlos."
 
 msgid "setting.entry.chat.delay.values.-1"
-msgstr "Retraso predeterminado (Específico de la sala;  Solo para No moderador)"
+msgstr "Retardo predeterminado (específico de la sala; sólo no mod.)"
 
 msgid "setting.entry.chat.delay.values.0"
 msgstr "Sin retraso"
@@ -2087,7 +2087,7 @@ msgid "setting.entry.i18n.debug.transform.values.null"
 msgstr "Deshabilitado"
 
 msgid "setting.entry.i18n.debug.transform.values.owo"
-msgstr "owo ¿qué es esto?"
+msgstr "owo que es esto"
 
 msgid "setting.entry.i18n.debug.transform.values.set_key"
 msgstr "Definir para Tecla"
@@ -2855,7 +2855,7 @@ msgid "setting.icon.search"
 msgstr "Buscar ícono"
 
 msgid "setting.import"
-msgstr "Importar..."
+msgstr "Importar…"
 
 msgid "setting.inheritance"
 msgstr "Punto de Herencia"
@@ -3029,7 +3029,7 @@ msgid "setting.reasons.add-default"
 msgstr "Añadir predeterminadas"
 
 msgid "setting.reasons.add-default-tip"
-msgstr "Añadir todas las razones predeterminadas a este perfil"
+msgstr "Añade todas las razones por defecto a este perfil."
 
 msgid "setting.reasons.add-placeholder"
 msgstr "Añadir una razón nueva"
@@ -3326,7 +3326,7 @@ msgstr "Canal"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.clips"
-msgstr "Clips"
+msgstr "Recortes"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3765,7 +3765,7 @@ msgstr "Estos son nuevos ajustes que aún no has visto."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.changelog"
-msgstr "Registro de cambios."
+msgstr "Registro de cambios"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #: /src/modules/main_menu/components/menu-page.vue:12
@@ -3778,9 +3778,9 @@ msgstr "Categorias"
 #, icu-message-format
 msgid "setting.actions.warn-hidden"
 msgstr ""
-"Actualmente tienes los Mods de  los iconos desactivados en la configuración "
-"del chat de Twitch, por lo tanto, algunas acciones podrían estar ocultas "
-"como resultado. Usa el menú de configuración para cambiarlo."
+"Actualmente tienes los iconos de mods desactivados en la configuración del "
+"chat de Twitch, por lo que algunas acciones pueden quedar ocultas. Utiliza "
+"el menú de configuración del chat para activarlos."
 
 #: /src/modules/main_menu/components/addon.vue:157
 #, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
@@ -4728,19 +4728,19 @@ msgstr ""
 "\n"
 "#### 1. Texto\n"
 "\n"
-"El texto no tiene un comportamiento especial. Cualquier carácter con "
+"El texto no tiene un comportamiento especial. Cualquier carácter con\n"
 "significado especial en expresiones regulares.\n"
 "\n"
 "\n"
-"#### 2. Globo\n"
+"#### 2. Globs\n"
 "\n"
 "[Globs](https://en.wikipedia.org/wiki/Glob_(programming)) proporcionan una "
 "sencilla\n"
-"con caracteres comodín. Por ejemplo, el glob `cir*` coincidiría con todas "
-"las palabras\n"
-"que empiecen por las letras `cir`, incluyendo sólo por sí sola.\n"
-"El carácter `*` es un comodín que puede coincidir con cualquier número de "
-"caracteres.\n"
+"con caracteres comodín. Por ejemplo, el glob\n"
+"`cir*` coincidiría con todas las palabras que empiecen por las letras `cir`, "
+"incluyendo sólo\n"
+"por sí sola. El carácter `*` es un comodín que puede coincidir con cualquier "
+"número de caracteres.\n"
 "\n"
 "| Comodín | Descripción | Ejemplo | Coincide | No Coincide | No Coincide |\n"
 "| :------: | :---------- | :-----: | :-----: | :------------: |\n"
@@ -4794,22 +4794,22 @@ msgstr ""
 "\n"
 "Intenta buscar coincidencias entre mayúsculas y minúsculas. En efecto, esta "
 "opción\n"
-"desactiva el indicador `/i` de la expresión regular generada. Debido a "
-"limitaciones del motor\n"
-"regex de su navegador, la insensibilidad a mayúsculas y minúsculas puede "
-"algunos caracteres.\n"
+"desactiva el indicador `/i` de la expresión regular generada. Debido a\n"
+"limitaciones del motor regex de su navegador, la insensibilidad a mayúsculas "
+"y minúsculas puede algunos caracteres.\n"
 "\n"
 "\n"
 "#### Coincidir con toda la palabra\n"
 "\n"
-"Esta opción requiere que el término sea una palabra completa. Por ejemplo, "
-"el término `test`\n"
+"Para ello, el término debe ser una palabra entera. Por ejemplo, el término "
+"`test`\n"
 "sin \"Coincidir con toda la palabra\" podría coincidir fácilmente con "
 "`testing` o `tested`\n"
-"como con `test`. Con la opción \"Coincidir con toda la palabra\" activada, "
+"como `test`. Con la opción \"Coincidir con toda la palabra\" activada, "
 "**sólo** coincidirá con `test`.\n"
 "\n"
-"Esto se hace envolviendo la expresión regular generada en un patrón extra\n"
+"Esto se hace envolviendo la expresión regular generada en un patrón "
+"adicional\n"
 "adicionales para caracteres que no son palabras, como espacios y signos de "
 "puntuación.\n"
 "\n"
@@ -4818,16 +4818,15 @@ msgstr ""
 "\n"
 "Cuando esta opción está activada y la configuración de coincidencias en ["
 "Chat > Filtrado > General](~)\n"
-"está activada, cualquier término coincidente se resaltará en el chat para "
-"que pueda ver qué\n"
+"está activada, los términos coincidentes se resaltarán en el chat para que "
+"pueda ver qué\n"
 "coincide exactamente con su término.\n"
 "\n"
 "Las coincidencias no se mostrarán como emotes, enlaces, etc.\n"
 "\n"
-"Esto es un poco más lento que no resaltar la coincidencia, por lo que es "
-"posible que desee utilizar\n"
-"sólo para probar y desactivarlo cuando sepa que su término funciona como "
-"desea.\n"
+"Esto es un poco más lento que no resaltar la coincidencia, por lo que puede "
+"que desee utilizar sólo esto cuando la prueba y luego desactivarlo cuando "
+"usted sabe que su término funciona como usted desea.\n"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4885,8 +4884,8 @@ msgstr "Términos"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms.description"
 msgstr ""
-"Consulte [Chat > Filtrado > Ayuda de sintaxis] (~) para obtener detalles "
-"sobre cómo usar los términos."
+"Consulte [Chat > Filtering > Syntax Help](~) para obtener detalles sobre "
+"cómo usar los términos."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -4959,7 +4958,7 @@ msgstr "Términos"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms.description"
 msgstr ""
-"Consulte [Chat > Filtrado > Ayuda de sintaxis] (~) para obtener detalles "
+"Consulte [Chat > Filtrado > Ayuda de sintaxis](~) para obtener detalles "
 "sobre cómo usar los términos."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
@@ -5272,3 +5271,999 @@ msgstr "Permite que aparezcan Celebraciones."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations.description"
 msgstr "Las celebraciones son animaciones que cubren toda la página de Twitch."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.remove-deleted.description"
+msgstr ""
+"Los mensajes borrados se eliminarán por completo del chat. Esta "
+"configuración no se recomienda para los moderadores."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-size.description"
+msgstr ""
+"¿Qué tamaño debe tener el texto del chat, en píxeles? Esto puede verse "
+"afectado por los ajustes de zoom y tamaño de fuente de tu navegador."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.emote-alignment.description"
+msgstr ""
+"Cambiar la posición de los emotes en el chat, haciendo que los mensajes sean "
+"más altos para evitar que se solapen."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.padding"
+msgstr "Reducir el relleno alrededor de las líneas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.mru.enabled"
+msgstr ""
+"Permite pulsar arriba y abajo para recuperar mensajes de chat enviados "
+"anteriormente."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.pin-resubs"
+msgstr "Fijar automáticamente mensajes de reinscripción en el chat."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.custom-rendering"
+msgstr ""
+"Utilice una representación personalizada para los mensajes de recompensa por "
+"puntos de canal en el chat."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.replies.style.description"
+msgstr ""
+"El estilo predeterminado de Twitch añade un botón flotante a la derecha y "
+"muestra un aviso sobre los mensajes que son respuestas. FrankerFaceZ utiliza "
+"una acción de chat en línea (que puede eliminarse en [Chat > Acciones > En "
+"línea](~chat.actions.in_line)) y utiliza una mención en línea para denotar "
+"las respuestas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.all-links"
+msgstr "Mostrar contenido enriquecido incrustado para todos los enlaces."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.all-links.description"
+msgstr ""
+"*Streamers: Tenga en cuenta que esto es un vector potencial para las "
+"imágenes NSFW a través de miniaturas, así que ten cuidado al capturar chat "
+"con esto enabled.*"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid.description"
+msgstr ""
+"Esto permite el uso de incrustaciones de contenido enriquecido más grandes "
+"en el chat. Esto **no** es recomendable para la mayoría de los usuarios y/o "
+"chats.\n"
+"\n"
+"**Nota:** Activar esta opción puede hacer que el chat se desplace en "
+"momentos inoportunos debido a la carga de contenido. Los moderadores no "
+"deben utilizar esta función."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze.description"
+msgstr ""
+"Detener automáticamente el desplazamiento del chat al pasar el ratón por "
+"encima o al mantener pulsada una tecla.\n"
+"\n"
+"**Nota:** Desplazarse hacia arriba en el chat siempre impedirá el "
+"desplazamiento automático, independientemente de esta configuración."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.hover-delay"
+msgstr "Tiempo de espera"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.hover-delay.description"
+msgstr ""
+"El chat sólo permanecerá congelado debido al movimiento del ratón durante "
+"este tiempo después de que el ratón deje de moverse."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.smooth-scroll.description"
+msgstr ""
+"**Nota:** Esto puede no comportarse bien dependiendo de su navegador. "
+"Desactívalo si tienes problemas.\n"
+"\n"
+"Desliza suavemente los nuevos mensajes de chat a la vista. La velocidad "
+"aumentará según sea necesario para mantener el ritmo del chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.show"
+msgstr "Mostrar subs en el chat"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.show.description"
+msgstr ""
+"**Nota**: Los mensajes enviados con re-subs se mostrarán siempre. Esto sólo "
+"controla el mensaje especial \"¡X suscrito!\"."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.timestamp-format.description"
+msgstr ""
+"Las marcas de tiempo se formatean utilizando la biblioteca [Day."
+"js](https://github.com/iamkun/dayjs#readme). Más detalles sobre el formateo "
+"de cadenas [se pueden encontrar aquí](https://github.com/iamkun/dayjs/blob/"
+"HEAD/docs/en/API-reference.md#list-of-all-available-formats)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.video-chat.enabled.description"
+msgstr ""
+"Mostrar insignias FFZ, emotes y otras características en el chat de vídeos. "
+"Las funciones de moderación pueden no estar disponibles cuando esta opción "
+"está activada."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.viewer-cards.highlight-chat"
+msgstr ""
+"Resalte los mensajes de los usuarios con tarjetas de visualización abiertas."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.clips.layout.big.description"
+msgstr ""
+"Esto sólo afecta a ventanas de al menos 1.200 píxeles de ancho e intenta que "
+"el reproductor y la reproducción del chat sean lo más grandes posible."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-latest-videos"
+msgstr "No mostrar `Los últimos vídeos` en el directorio siguiente."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.uptime.description"
+msgstr "Muestra el tiempo de actividad del flujo en las tarjetas de canal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffz.show-new-settings"
+msgstr ""
+"Mostrar un indicador en el botón del Centro de Control FFZ cada vez que se "
+"añadan nuevos ajustes a FrankerFaceZ."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.capture.description"
+msgstr ""
+"Captura todas las cadenas localizadas, incluyendo variables y ubicaciones de "
+"llamadas, con el propósito de informarlas al backend. Esto se utiliza para "
+"añadir nuevas cadenas al proyecto de traducción. Por defecto, la captura de "
+"mensajes está habilitada cuando se ejecuta en modo de desarrollo."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.time.description"
+msgstr ""
+"El formato de hora por defecto. Los formatos de hora personalizados se "
+"forman utilizando la biblioteca [Day.js](https://day.js.org/docs/en/display/"
+"format)."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:109
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.locale.description"
+msgstr ""
+"FrankerFaceZ es traducido con cariño por voluntarios de nuestra comunidad. "
+"Gracias a todos. Si estás interesado en ayudar a traducir FrankerFaceZ, por "
+"favor [únete a nuestro Discord](https://discord.gg/UrAkGhT) y pregunta sobre "
+"la localización."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait.description"
+msgstr ""
+"En el modo vertical, el chat se mostrará debajo del reproductor cuando la "
+"ventana sea más alta que ancha."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.show-rec-channels"
+msgstr "Mostrar canales recomendados / populares"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.show-rec-friends"
+msgstr "Mostrar amigos recomendados"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.theme.global-font.description"
+msgstr ""
+"Anula el tipo de letra utilizado para todo el sitio web de Twitch. La "
+"antigua fuente por defecto era: `\"Helvetica Neue\",Helvetica,Arial,sans-"
+"serif`.\n"
+"\n"
+"Cualquier fuente disponible a través de [Google Fonts](https://fonts.google."
+"com/) se puede cargar anteponiendo al nombre de la fuente el prefijo "
+"`google:`."
+
+#: /src/modules/main_menu/index.js:471
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgid "setting.entry.metadata.modview.hide-info"
+msgstr "Ocultar el botón \"Ocultar banda de información de flujo\"."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.stream-delay-warning.description"
+msgstr ""
+"Cuando el retardo del flujo actual excede este número de segundos, muestra "
+"el retardo del flujo en un color de advertencia para llamar la atención "
+"sobre el gran retardo. Póngalo a cero para desactivarlo."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime.no-native.description"
+msgstr ""
+"Por defecto, se activa siempre que se activa la visualización del tiempo de "
+"actividad del flujo propio de FFZ para evitar información redundante."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.no-native.description"
+msgstr ""
+"Por defecto, se activa siempre que se activa la visualización del recuento "
+"de espectadores propia de FFZ para evitar información redundante."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.prod"
+msgstr "Producción API"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.remove-deleted"
+msgstr "Eliminar mensajes borrados del chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.fix-bad-emotes"
+msgstr "Arreglar los malos emotes globales de Twitch"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.fix-bad-emotes.description"
+msgstr ""
+"Limpia las imágenes de los malos emotes globales de Twitch, eliminando los "
+"bordes blancos y los fondos sólidos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-family"
+msgstr "Familia tipográfica"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-family.description"
+msgstr "Establece la fuente utilizada para mostrar los mensajes de chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.font-size"
+msgstr "Tamaño de la fuente"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.hide-community-highlights"
+msgstr ""
+"Ocultar todos los Destacados de la Comunidad de la parte superior del chat."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:124
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.hide-community-highlights.description"
+msgstr ""
+"Los destacados de la comunidad son encuestas, suscripciones a regalos de la "
+"comunidad, etc. que flotan sobre la parte superior del chat temporalmente "
+"sin posibilidad de cerrarlos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.input.hide-identity"
+msgstr ""
+"Mostrar \"Identidad del chat\" en el menú de configuración del chat en lugar "
+"del cuadro de entrada."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.input.show-mod-view"
+msgstr "Muestra el botón de vista mod en los canales pertinentes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.alternate"
+msgstr "Mostrar líneas con colores de fondo alternos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.borders"
+msgstr "Separadores"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.lines.emote-alignment"
+msgstr "Alineación de Emote"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:22
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.me-style"
+msgstr "Estilo de acción"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:194
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.me-style.description"
+msgstr "Cuando alguien utilice `/me`, el mensaje se mostrará en este estilo."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.chat.me-style.values.0"
+msgstr "Ningún estilo"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.chat.me-style.values.1"
+msgstr "Coloreado (estilo antiguo)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.chat.me-style.values.2"
+msgstr "Cursiva (Nuevo estilo)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:47
+#, icu-message-format
+msgid "setting.entry.chat.me-style.values.3"
+msgstr "Cursiva coloreada"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.name-format"
+msgstr "Estilo de visualización"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.name-format.description"
+msgstr ""
+"Cambiar la forma en que se muestran los nombres de usuario en el chat cuando "
+"los usuarios tienen un nombre de usuario internacional establecido."
+
+#, icu-message-format
+msgid "setting.entry.chat.name-format.values.0"
+msgstr "Nombre internacional (Nombre de usuario) <Default>"
+
+#, icu-message-format
+msgid "setting.entry.chat.name-format.values.1"
+msgstr "Nombre internacional"
+
+#, icu-message-format
+msgid "setting.entry.chat.name-format.values.2"
+msgstr "Nombre de usuario"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.allow-highlight"
+msgstr ""
+"Resaltar el mensaje en el chat cuando alguien canjea Resaltar mi mensaje."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.auto-rewards"
+msgstr "Reclame automáticamente bonificaciones."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.custom-rendering.description"
+msgstr ""
+"El renderizado personalizado aplica un color de fondo a los mensajes "
+"resaltados, lo que algunos usuarios pueden no apreciar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-button"
+msgstr "Botón Mostrar puntos de canal debajo del chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-callouts"
+msgstr "Mostrar mensajes en el chat sobre las recompensas de Channel Points."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.points.show-rewards"
+msgstr ""
+"Permitir que las recompensas disponibles aparezcan junto al botón Puntos de "
+"Canal."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.replies.style"
+msgstr "Estilo"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.enabled"
+msgstr "Mostrar contenido enriquecido en el chat."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.enabled.description"
+msgstr ""
+"Muestra bloques de contenido enriquecido, como clips y vídeos enlazados."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.hide-tokens"
+msgstr "Ocultar enlaces coincidentes para contenidos enriquecidos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.minimum-level"
+msgstr "Nivel de usuario requerido"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.minimum-level.description"
+msgstr ""
+"Sólo se muestran incrustaciones de contenido enriquecido en los mensajes "
+"publicados por usuarios con este nivel o superior."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rich.want-mid"
+msgstr "Mostrar contenidos enriquecidos más grandes en el chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.rituals.show"
+msgstr "Mostrar mensajes rituales como \"¡El usuario es nuevo aquí! Saluda\"."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scrollback-length"
+msgstr "Longitud de desplazamiento hacia atrás"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scrollback-length.description"
+msgstr ""
+"Mantén hasta esta cantidad de líneas en el chat. Si se fija demasiado alto, "
+"se creará lag."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze"
+msgstr "Pausar el desplazamiento por el chat"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.freeze-requires-hover"
+msgstr ""
+"Requiere que el ratón esté sobre el chat para congelar con una tecla de "
+"acceso rápido."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.scroller.smooth-scroll"
+msgstr "Desplazamiento suave"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.sub-emotes"
+msgstr ""
+"Abre las páginas de suscripción de Twitch pulsando Mayúsculas y haciendo "
+"clic en los emotes cuando corresponda."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.compact"
+msgstr ""
+"Mostrar los avisos de suscripción de forma más compacta (estilo clásico)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.gift-banner"
+msgstr ""
+"Mostrar un banner en la parte superior del chat cuando se produce un sub "
+"regalo masivo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.merge-gifts"
+msgstr "Fusionar subdonaciones masivas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.merge-gifts-visibility"
+msgstr "Expandir los mensajes de sub-regalos masivos fusionados por defecto."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.subs.merge-gifts.description"
+msgstr ""
+"Combinar suscripciones de regalo masivas en un solo mensaje, dependiendo de "
+"la cantidad.\n"
+"**Nota:** Solo afecta a los suscriptores recién regalados."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.emoji"
+msgstr "Permitir completar emoji con la pestaña."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.emotes-without-colon"
+msgstr ""
+"Permitir completar los emotes con el tabulador sin escribir dos puntos. (:)"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
+msgstr "Esto impedirá que se completen los nombres de usuario sin el prefijo @."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.ffz-emotes"
+msgstr "Permitir completar los emotes de FrankerFaceZ."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.limit-results"
+msgstr "Limitar a 25 los resultados de las pestañas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.prioritize-favorites"
+msgstr "Dar prioridad a los emotes favoritos en la parte superior."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.tab-complete.prioritize-prefix-matches"
+msgstr "Da prioridad a los emotes que comienzan con la entrada del usuario."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.timestamp-format"
+msgstr "Formato del sello de tiempo"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.timestamp-size"
+msgstr "Timestamp Tamaño de fuente"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.timestamp-size.description"
+msgstr ""
+"Tamaño de las marcas de tiempo, en píxeles. Si no se establece, el valor "
+"predeterminado es Tamaño de fuente."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.video-chat.enabled"
+msgstr "Habilitar las características FrankerFaceZ para Chat en Videos."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.video-chat.timestamps"
+msgstr "Mostrar marcas de tiempo junto a los mensajes de chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.viewer-cards.color"
+msgstr "Color de realce"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.width"
+msgstr "Ancho"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.width.description"
+msgstr ""
+"Qué anchura debe tener el chat, en píxeles. Esto puede verse afectado por "
+"los ajustes de zoom y tamaño de fuente de tu navegador."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.clips.layout.big"
+msgstr ""
+"Permitir que el reproductor aumente de tamaño en las páginas `clips.twitch."
+"tv`."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.dev"
+msgstr "host local"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.null"
+msgstr "Automático"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.socket"
+msgstr "Socket Cluster (obsoleto)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.debug.link-resolver.source.values.test"
+msgstr "Prueba API"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.group-hosts"
+msgstr "Anfitriones de grupo"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.group-hosts.description"
+msgstr "Mostrar un determinado canal alojado sólo una vez en el directorio."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.host-menus"
+msgstr "Menús de canales alojados"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.following.host-menus.description"
+msgstr ""
+"Mostrar un menú para seleccionar qué canal visitar al hacer clic en un canal "
+"alojado en el directorio."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hidden.reveal"
+msgstr "Revela las entradas ocultas al pasar el ratón por encima."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hidden.style"
+msgstr "Estilo oculto"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-live"
+msgstr "No mostrar el indicador En directo en los canales que están en directo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-promoted"
+msgstr "No mostrar los flujos promocionados en el directorio."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-recommended"
+msgstr ""
+"No mostrar `Canales en directo recomendados` en el directorio siguiente."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-viewing-history"
+msgstr ""
+"No mostrar `Basado en su historial de visitas` en el Directorio siguiente."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.hide-vodcasts"
+msgstr "No muestre repeticiones en el directorio."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.show-channel-avatars"
+msgstr "Mostrar avatares de canales."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.directory.uptime"
+msgstr "Tiempo de actividad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.experiments"
+msgstr "experimentos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.faq"
+msgstr "preguntas frecuentes"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.feedback"
+msgstr "comentarios"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.feedback.log"
+msgstr "registro de retroalimentación"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.ffz.search.matches-only"
+msgstr "Ocultar los elementos que no coinciden completamente en la búsqueda."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.home"
+msgstr "Inicio"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.capture"
+msgstr "Activar la captura de mensajes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.transform"
+msgstr "Transformación"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.debug.transform.description"
+msgstr ""
+"Transforme todas las cadenas localizadas para comprobar la cobertura y la "
+"longitud de las cadenas."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.date.description"
+msgstr ""
+"El formato de fecha por defecto. Los formatos de fecha personalizados se "
+"forman utilizando la biblioteca [Day.js](https://day.js.org/docs/en/display/"
+"format)."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.format.datetime.description"
+msgstr ""
+"El formato combinado fecha-hora por defecto. Los formatos de hora "
+"personalizados se forman utilizando la biblioteca [Day.js](https://day.js."
+"org/docs/en/display/format)."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:16
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.i18n.locale"
+msgstr "Idioma"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.discover"
+msgstr "Mostrar enlace Descubrir."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.display-bits-button"
+msgstr "Muestra el botón Obtener Bits."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.display-bits-button.description"
+msgstr ""
+"Por defecto, hereda su valor de [Chat > Bits y porras > Mostrar bits](~chat."
+"bits_and_cheering)"
+
+#: /src/modules/main_menu/index.js:634
+#, icu-message-format
+msgid "setting.entry.layout.hide-discover-luna"
+msgstr "Ocultar el enlace \"Descubre Luna\"."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.minimal-navigation"
+msgstr "Minimizar la navegación"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.minimal-navigation.description"
+msgstr ""
+"Deslice la barra de navegación del sitio hacia arriba fuera de la vista "
+"cuando no esté en uso."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait"
+msgstr "Activar el modo Retrato"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait-invert"
+msgstr "En modo vertical, coloca el chat en la parte superior."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait-threshold"
+msgstr "Umbral del modo retrato"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.portrait-threshold.description"
+msgstr ""
+"Esta es la relación Anchura/Altura a partir de la cual se activará el Modo "
+"Retrato."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.prime-offers"
+msgstr "Mostrar Prime Gaming Loot."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.hide-offline"
+msgstr "Ocultar canales sin conexión"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:16
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.rerun-style"
+msgstr "Visualizar repeticiones"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.show"
+msgstr "Pantalla Navegación lateral"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.show-avatars"
+msgstr "Avatares del canal de visualización"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.show-friends"
+msgstr "Mostrar amigos en línea"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.side-nav.hide-viewers"
+msgstr "Ocultar el recuento de espectadores del canal"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.swap-sidebars"
+msgstr "Intercambiar barras laterales"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.swap-sidebars.description"
+msgstr "Cambia la navegación y el chat a los lados opuestos de la ventana."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.theatre-navigation"
+msgstr ""
+"Mostrar la barra de navegación minimizada cuando se está en modo teatro."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.layout.theme.global-font"
+msgstr "Familia de fuentes"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.legal"
+msgstr "Aviso legal"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.clip-download"
+msgstr ""
+"Agregar un botón de Descarga para que los editores puedan guardar los clips."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.clip-download.description"
+msgstr ""
+"Esto añade un botón de descarga debajo del reproductor en las páginas de "
+"clips (el sitio principal, no en `clips.twitch.tv`) para los locutores y sus "
+"editores."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.featured-follow"
+msgstr "Destacados Seguir"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.featured-follow.description"
+msgstr ""
+"Mostrar un botón de seguimiento destacado con los usuarios destacados "
+"actualmente."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.host-button"
+msgstr "Botón Host"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.host-button.description"
+msgstr ""
+"Muestra un botón de anfitrión con el canal anfitrión actual en el tooltip."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.player-stats"
+msgstr "Estadísticas de reproducción"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.player-stats.description"
+msgstr ""
+"Muestra el retardo del flujo actual, con la velocidad de reproducción y los "
+"fotogramas perdidos en la información sobre herramientas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.stream-delay-warning"
+msgstr "Aviso de retraso del flujo"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime"
+msgstr "Tiempo de actividad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.uptime.no-native"
+msgstr "Oculta el tiempo de actividad nativo de Twitch."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers"
+msgstr "Recuento alternativo de espectadores"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.description"
+msgstr ""
+"Muestra el número de espectadores del canal actual sin animación cuando "
+"cambia."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.metadata.viewers.no-native"
+msgstr "Ocultar el recuento de espectadores nativo de Twitch."
