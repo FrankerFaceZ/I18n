@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-02-26 22:33+0000\n"
-"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
+"PO-Revision-Date: 2023-06-01 13:57+0000\n"
+"Last-Translator: DeciBelioS <deci8belios@outlook.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
 "Language: es\n"
@@ -468,8 +468,8 @@ msgstr "Se produjo un error al procesar esta copia de seguridad."
 
 msgid "setting.backup-restore.imported"
 msgstr ""
-"El perfil \"{name}\" ha sido importado satisfactoriamente con "
-"{count,plural,one {# configuración} other {# configuraciones}}."
+"El perfil \"{name}\" ha sido importado satisfactoriamente con {count, "
+"plural, one {# configuración} other {# configuraciones}}."
 
 msgid "setting.backup-restore.imported-at"
 msgstr "Fecha de Importación: {now,datetime}."
@@ -1374,7 +1374,7 @@ msgid "setting.entry.chat.emote-menu.sort-emotes.values.0"
 msgstr "Orden Agregada (ID), Ascendente"
 
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.1"
-msgstr "Orden Añadida (ID), Descendiendo "
+msgstr "Orden Añadido (ID), Descendente"
 
 msgid "setting.entry.chat.emote-menu.sort-emotes.values.2"
 msgstr "Nombre, Ascendente"
@@ -3781,3 +3781,1050 @@ msgstr ""
 "Actualmente tienes los Mods de  los iconos desactivados en la configuración "
 "del chat de Twitch, por lo tanto, algunas acciones podrían estar ocultas "
 "como resultado. Usa el menú de configuración para cambiarlo."
+
+#: /src/modules/main_menu/components/addon.vue:157
+#, icu-message-format, lp-defaults:"{\"when\":\"2020-01-01T12:00:00.000Z\"}"
+msgid "addon.created"
+msgstr "Creado: {when,date}"
+
+#: /src/modules/main_menu/components/addon-list.vue:90
+#, icu-message-format
+msgid "addon.sort-name"
+msgstr "Ordenar por: Name"
+
+#: /src/modules/main_menu/components/addon-list.vue:98
+#, icu-message-format
+msgid "addon.sort-update"
+msgstr "Ordenar por: Fecha"
+
+#: /src/modules/main_menu/components/addon.vue:136
+#, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
+msgid "addon.updated"
+msgstr "Actualizado: {when,humantime}"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:65
+#, icu-message-format
+msgid "setting.actions.formats"
+msgstr "Formateadores disponibles: {fmts}"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons"
+msgstr "Complementos"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.description"
+msgstr ""
+"Los complementos son módulos adicionales, a menudo escritos por otras "
+"personas, que FrankerFaceZ puede cargar automáticamente para añadir nuevas "
+"capacidades y comportamientos a la extensión y a Twitch."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters.description"
+msgstr "Configuración adicional para los `filtros de chat` nativos de Twitch."
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges.description"
+msgstr ""
+"**Nota:** Esta sección es para filtrar mensajes del chat de usuarios con "
+"insignias específicas. Si desea ocultar una insignia, vaya a [Chat > "
+"Insignias >> Visibilidad](~chat.badges.tabs.visibility)."
+
+#: /src/modules/main_menu/index.js:593
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.blocked_badges.description"
+msgstr ""
+"**Nota:** Esta sección es para filtrar mensajes del chat de usuarios con "
+"insignias específicas. Si desea ocultar una insignia, vaya a [Chat > "
+"Insignias >> Visibilidad](~chat.badges.tabs.visibility)."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.description"
+msgstr ""
+"Estos ajustes permiten resaltar mensajes en el chat en función de su "
+"contenido. Establecer prioridades en las reglas permite determinar qué color "
+"de resaltado debe aplicarse si un mensaje coincide con varias reglas. Las "
+"reglas con una prioridad más alta tienen prioridad sobre las reglas con "
+"prioridades más bajas.\n"
+"\n"
+"También puede crear una regla que elimine el resaltado de los mensajes, "
+"impidiendo que las reglas de menor prioridad los resalten, estableciendo un "
+"color con un valor alfa de cero. Ejemplo: `#00000000`"
+
+#: /src/modules/main_menu/components/profile-editor.vue:335
+#, icu-message-format, md-text
+msgid "setting.data_management.profiles.edit.updates.description"
+msgstr ""
+"Este perfil tiene una URL asociada para actualizaciones automáticas. Cuando "
+"se activen las actualizaciones y se actualice el perfil, se restablecerán "
+"todos los ajustes asociados al perfil. También se restablecerán las reglas "
+"del perfil. El Nombre, la Descripción y la Tecla de acceso rápido no se "
+"restablecerán."
+
+#: /src/modules/main_menu/components/experiments.vue:43
+#, icu-message-format, lp-defaults:"{\"code\":\"sv_cheats 1\"}"
+msgid "setting.dev-warning.explain"
+msgstr ""
+"Ten cuidado, se trata de una función avanzada destinada únicamente a "
+"desarrolladores. Los usuarios normales deben mantenerse alejados. Ajustar "
+"tus experimentos puede tener efectos inesperados en tu experiencia en "
+"Twitch. FrankerFaceZ no se hace responsable de los problemas que puedan "
+"surgir como resultado de la manipulación de los experimentos, y no "
+"proporcionará apoyo.\n"
+"\n"
+"Si estás seguro de esto, escribe `{code}` en la casilla de abajo y pulsa "
+"intro."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.description"
+msgstr ""
+"**Nota:** Estos ajustes no funcionan actualmente debido a los cambios "
+"realizados por Twitch en el funcionamiento del directorio."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.extra-links"
+msgstr ""
+"Añade enlaces adicionales a las páginas de los canales en directo, junto al "
+"nombre del streamer."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.room-above"
+msgstr "Mostrar Acciones de la sala encima del cuadro de entrada del chat."
+
+#: /src/modules/main_menu/index.js:552
+#, icu-message-format, md-text
+msgid "setting.entry.chat.actions.size.description"
+msgstr ""
+"Qué altura deben tener las acciones, en píxeles. Esto puede verse afectado "
+"por los ajustes de zoom y tamaño de fuente de tu navegador."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-contrast"
+msgstr "Contraste mínimo"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-contrast.description"
+msgstr ""
+"Establece la relación de contraste mínima utilizada por los ajustes de Luma "
+"a la hora de determinar la legibilidad."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:102
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.run-as-mod.description"
+msgstr ""
+"Por defecto, la función Filtros de chat de Twitch no funciona para los "
+"moderadores. Esto anula ese comportamiento."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:124
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors.description"
+msgstr ""
+"Garantiza que las insignias sean visibles sobre el fondo actual.\n"
+"\n"
+"**Nota:** Sólo afecta a las insignias con representación personalizada. Las "
+"insignias de suscriptor, insignias de bits, etc. no se ven afectadas."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.version"
+msgstr "Versión"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.polls"
+msgstr "Permitir que las encuestas se muestren en el chat."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice.description"
+msgstr ""
+"Esta función está pensada para evitar posibles confusiones por parte de los "
+"chateadores que utilizan emotes para fingir vítores en los mensajes. Cuando "
+"esté activada, los mensajes que contengan vítores reales mostrarán un "
+"mensaje sobre ellos, de forma similar a como funcionan los mensajes de "
+"reabono o los canjes de puntos con mensajes."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.click-emotes"
+msgstr "Abre las páginas de información de los emoticonos pulsando Mayúsculas."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.delay.description"
+msgstr ""
+"Retrasa la aparición de los mensajes de chat para permitir su moderación "
+"antes de que los veas."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:198
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner.description"
+msgstr ""
+"Esta función tiene por objeto permitir el uso de emoji combinados en los "
+"clientes compatibles. Esto es necesario debido a un error en TMI que elimina "
+"los caracteres ZWJ de los mensajes de chat. [Visita el tema "
+"original](https://github.com/FrankerFaceZ/FrankerFaceZ/issues/1147) para más "
+"detalles."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.default-tab"
+msgstr "Pestaña predeterminada"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.enabled.description"
+msgstr ""
+"El menú de emoticonos de FFZ sustituye al menú de emoticonos integrado de "
+"Twitch y ofrece una funcionalidad mejorada."
+
+#: /src/modules/main_menu/index.js:641
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emote-menu.icon.description"
+msgstr ""
+"**Nota:** Este ajuste puede activarse forzosamente si se detectan otros "
+"menús de emoticonos, para garantizar que puedas identificar visualmente el "
+"Menú de Emoticonos FFZ."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.stay-loaded.description"
+msgstr ""
+"Esto hace que el menú emote permanezca en el DOM incluso cuando no está "
+"visible. Activar esto puede ayudar a que el sitio funcione mejor al abrir el "
+"menú si es lento. Por defecto, esta opción está activada cuando se utiliza `"
+"Mostrar todos los emotes en una pestaña.`"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:180
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.animated.description"
+msgstr ""
+"Controla si se permite o no la reproducción de emotes animados en el chat. "
+"Si está `Desactivado`, las animaciones aparecerán como imágenes estáticas. "
+"Configurarlo como `Activar al pasar el ratón por encima` puede causar "
+"problemas de rendimiento."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.clickable-mentions"
+msgstr ""
+"Habilitar la apertura de tarjetas de espectador haciendo clic en menciones "
+"en el chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.deleted-style"
+msgstr "Estilo de mensaje detallado"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.deleted-style.description"
+msgstr ""
+"Este estilo se aplicará a los mensajes eliminados que se muestren en el modo "
+"de renderizado Detallado para diferenciarlos de los mensajes de chat "
+"normales."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.display-deleted.description"
+msgstr ""
+"Esta opción anula el modo \"Mensajes eliminados\" seleccionado en la "
+"configuración del chat de Twitch, al que normalmente sólo pueden acceder los "
+"moderadores. Breve oculta los mensajes por completo y muestra un aviso en el "
+"chat de que se han ocultado varios mensajes. Detallado muestra el contenido "
+"del mensaje. Legado muestra `<mensaje eliminado>` con un clic para revelarlo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-vip"
+msgstr "Utilice distintivos VIP personalizados cuando estén disponibles."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.legacy"
+msgstr "Heredado"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.appearance.theme.tweaks"
+msgstr "Ajustes"
+
+#: /src/modules/main_menu/components/badge-visibility.vue:56
+#, icu-message-format, lp-defaults:"{\"count\":57}"
+msgid "setting.badges.hidden"
+msgstr ""
+"{count,plural,one{# insignia está} other{# insignias están} } ocultas en "
+"este conjunto"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.in_line"
+msgstr "En línea"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.in_line.description"
+msgstr ""
+"Aquí puedes definir acciones personalizadas que aparecerán junto a los "
+"mensajes en el chat. Si no ves en el chat una acción que has definido aquí, "
+"asegúrate de que has habilitado Iconos Mod en el menú de configuración del "
+"chat."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.actions.room.description"
+msgstr ""
+"Aquí puede definir acciones personalizadas que aparecerán sobre el cuadro de "
+"entrada del chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.appearance.rich_content"
+msgstr "Contenido enriquecido"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.bits_and_cheering"
+msgstr "Bits y animaciones"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.auto_mod_filters"
+msgstr "Filtros AutoMod"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.behavior"
+msgstr "Comportamiento"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types.description"
+msgstr ""
+"Este filtro te permite eliminar todos los mensajes de un determinado tipo "
+"del chat de Twitch. Se puede utilizar para filtrar mensajes del sistema, "
+"como Hosts o Raids. Algunos tipos, como las acciones de moderación, no "
+"pueden bloquearse para evitar que se interrumpa la funcionalidad del chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters"
+msgstr "Filtros AutoMod"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.auto_mod_filters.description"
+msgstr "Configuración adicional para los `filtros de chat` nativos de Twitch."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.rituals"
+msgstr "Rituales"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.rituals"
+msgstr "Rituales"
+
+#: /src/modules/main_menu/components/clear-settings.vue:1
+#, icu-message-format
+msgid "setting.clear.opt.DeckTabs"
+msgstr "Pestañas de plataforma"
+
+#: /src/modules/main_menu/components/clear-settings.vue:53
+#, icu-message-format
+msgid "setting.clear.opt.Experiments"
+msgstr "Anulación de experimentos"
+
+#: /src/modules/main_menu/components/profile-editor.vue:301
+#, icu-message-format
+msgid "setting.data_management.profiles.hotkey.desc"
+msgstr ""
+"La configuración de una tecla de acceso rápido le permite activar o "
+"desactivar un perfil en cualquier momento mediante la tecla de acceso rápido."
+"\n"
+"\n"
+"**Nota:** Un perfil activado puede seguir inactivo debido a sus reglas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket"
+msgstr "Socket"
+
+#: /src/modules/main_menu/components/menu-page.vue:137
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.description"
+msgstr ""
+"Ten en cuenta que, debido a las limitaciones del sitio web de Twitch, los "
+"nombres aquí deben tener el formato exacto que se muestra en tu cliente. "
+"Para obtener mejores resultados, puedes bloquear o desbloquear categorías "
+"directamente desde las páginas del directorio."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.description"
+msgstr ""
+"**Nota:** Estos ajustes no funcionan actualmente debido a los cambios "
+"realizados por Twitch en el funcionamiento del directorio."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.hosts"
+msgstr "Alojamientos"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-not-live-bar.description"
+msgstr ""
+"Ocultar la barra que aparece debajo de los clips y vídeos cuando el streamer "
+"está en directo, indicándote que está en directo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.squads.no-autojoin"
+msgstr "No redirigir automáticamente a Squad Streams."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.inline"
+msgstr "acciones de chat en línea"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.reasons"
+msgstr "Motivos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.room"
+msgstr "Sala"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.rules-as-reasons"
+msgstr "Incluya las normas de la sala actual en la lista de motivos."
+
+#: /src/modules/main_menu/index.js:545
+#, icu-message-format
+msgid "setting.entry.chat.actions.size"
+msgstr "Tamaño de la acción"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.actions.user-context"
+msgstr "contexto de uso"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-mode"
+msgstr "Adaptación"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.adjustment-mode.description"
+msgstr "Altere los colores de los usuarios para que sigan siendo legibles."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.delete-messages"
+msgstr "Marcar mensajes como eliminados si contienen frases filtradas."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.remove-messages"
+msgstr "Eliminar mensajes por completo si contienen frases filtradas."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.automod.run-as-mod"
+msgstr "Utiliza los filtros de chat como moderador."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.0"
+msgstr "Desactivado"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.1"
+msgstr "Legacy (URL abiertas)"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.badges.clickable.values.2"
+msgstr "Tarjeta de identificación abierta"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.custom-mod"
+msgstr ""
+"Utilizar insignias de moderador personalizadas cuando estén disponibles."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:33
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.fix-colors"
+msgstr "Ajuste los colores de las insignias para mayor visibilidad."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.hidden"
+msgstr "Visibilidad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.badges.style"
+msgstr "Estilo"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.drops"
+msgstr "Permitir que los mensajes sobre Drops se muestren en el chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.banners.hype-train"
+msgstr "Permitir que el Hype Train se muestre en el chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.animated"
+msgstr "Muestra animaciones."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.cheer-notice"
+msgstr "Mostrar un aviso en los mensajes de chat que incluyan saludos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show"
+msgstr "Mostrar bits"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-pinned"
+msgstr "Mostrar clasificación"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-pinned.description"
+msgstr ""
+"La tabla de clasificación muestra los mejores animadores y subanimadores de "
+"un canal.\n"
+"\n"
+"Por defecto debido a una implementación anterior, esto hereda su valor de ["
+"Chat > Bits y Porras > Mostrar Bits](~chat.bits_and_cheering)."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-rewards"
+msgstr ""
+"Mostrar mensajes cuando un animador comparte recompensas con otras personas "
+"en el chat."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show-rewards.description"
+msgstr ""
+"Por defecto, hereda su valor de Bits de pantalla. Este ajuste sólo afecta a "
+"los mensajes recién llegados."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.show.description"
+msgstr ""
+"Muestra la IU asociada a los bits. Nota: Esto no ocultará la animación en "
+"los mensajes de chat."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack.description"
+msgstr ""
+"Reúne todos los vítores de un mensaje en un único vítor al principio del "
+"mensaje."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.bits.stack"
+msgstr "Cheers acumulados"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.community-chest.show"
+msgstr "Exhiba la pancarta del Arca de Regalos de la Comunidad."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.delay"
+msgstr "Retraso artificial del chat"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:24
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.replace-joiner"
+msgstr "Solución para unir emojis"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.0"
+msgstr "Desactivado"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.1"
+msgstr "Sólo en pantalla"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.2"
+msgstr "Visualizar y enviar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emoji.style"
+msgstr "Estilo Emoji"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-dialogs"
+msgstr ""
+"Abre las tarjetas de información de los emotes de Twitch haciendo clic en "
+"ellas."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.combine-tabs"
+msgstr "Mostrar todos los emotes en una pestaña."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.enabled"
+msgstr "Usa el Menú Emote de FrankerFaceZ."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.icon"
+msgstr ""
+"Sustituye el icono del menú de emoticonos por el icono de FFZ para darle ese "
+"toque clásico."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.modifiers"
+msgstr "Modificadores de Emote"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.modifiers.values.0"
+msgstr "Desactivado"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.modifiers.values.1"
+msgstr "En línea"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.reduced-padding"
+msgstr "Utilice un relleno reducido."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.shortcut"
+msgstr "Usa Ctrl+E para abrir el Menú Emote."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.shortcut.description"
+msgstr ""
+"Cuando está activado y pulsas Ctrl+E con la entrada de chat enfocada, se "
+"abrirá el menú de emoticonos."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-emoji"
+msgstr "Mostrar emoji en el menú emote."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-heading"
+msgstr "Mostrar encabezados"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-quick-nav"
+msgstr "Mostrar una barra de navegación rápida en el lateral del menú."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.show-search"
+msgstr "Mostrar el cuadro de búsqueda."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.sort-emotes"
+msgstr "Ordenar Emotes por"
+
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.4"
+msgstr "Orden nativo, ascendente"
+
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.sort-emotes.values.5"
+msgstr "Orden nativo, descendente"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.sort-tiers-last"
+msgstr "Enumera los emotes de los subniveles superiores en último lugar."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.stay-loaded"
+msgstr "Permanece cargado tras la apertura."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emote-menu.tall"
+msgstr "Usar altura extra para el menú de emoticonos."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.0"
+msgstr "Desactivado"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.1"
+msgstr "Emotes"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:51
+#, icu-message-format
+msgid "setting.entry.chat.emotes.2x.values.2"
+msgstr "Emotes y Emoji"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:19
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.animated"
+msgstr "Emotes animados"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.0"
+msgstr "Desactivado"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.1"
+msgstr "Activado"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:39
+#, icu-message-format
+msgid "setting.entry.chat.emotes.animated.values.2"
+msgstr "Activar al pasar el ratón por encima"
+
+#: /src/modules/main_menu/index.js:625
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled"
+msgstr "Mostrar Emotes"
+
+#: /src/modules/main_menu/index.js:632
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emotes.enabled.description"
+msgstr "Si no deseas ver emotes, puedes desactivarlos aquí."
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.0"
+msgstr "Desactivado"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.1"
+msgstr "Sólo Twitch"
+
+#: /src/modules/main_menu/components/setting-select-box.vue:1
+#, icu-message-format
+msgid "setting.entry.chat.emotes.enabled.values.2"
+msgstr "Activado"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:36
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size"
+msgstr "Limitar el tamaño de las emociones nativas"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:130
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.emotes.limit-size.description"
+msgstr ""
+"A veces, los emotes más grandes se cuelan por las rendijas y acaban en "
+"Twitch. Esto limita el tamaño de los emotes de Twitch para mitigar el "
+"problema."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.extra-timestamps"
+msgstr "Mostrar la fecha y hora en las notificaciones."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:126
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.extra-timestamps.description"
+msgstr ""
+"Si está activada, se mostrarán marcas de tiempo en los canjes de puntos, las "
+"suscripciones, etc."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.bold-mentions"
+msgstr "Mostrar las menciones en el chat con una fuente en negrita."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.click-to-reveal"
+msgstr "Haga clic para revelar los términos eliminados."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.color-mentions"
+msgstr "Mostrar menciones en el chat con los colores del nombre de usuario."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.color-mentions.description"
+msgstr ""
+"**Nota:** No compatible con anulaciones de color ya que las menciones no "
+"incluyen ID de usuario."
+
+#: /src/modules/main_menu/index.js:625
+#, icu-message-format
+msgid "setting.entry.chat.filtering.debug"
+msgstr ""
+"Mostrar una lista de razones de resaltado en cada mensaje de chat para "
+"depuración."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.display-deleted"
+msgstr "Modo de renderizado"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.display-mod-action"
+msgstr "Mostrar Razón"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-badges"
+msgstr "Destacar las insignias básicas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-badges-blocked"
+msgstr "Destacar las insignias básicas bloqueadas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-blocked"
+msgstr "Resaltar los bloqueos básicos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-basic-terms"
+msgstr "Destacar los términos básicos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-mentions"
+msgstr "Destaca los mensajes que te mencionan."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.highlight-tokens"
+msgstr "Resalte las palabras coincidentes en el chat."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.ignore-clear"
+msgstr "No borrar el chat cuando se le ordene."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-color"
+msgstr "Color de realce personalizado"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-color.description"
+msgstr ""
+"Si se establece, los mensajes resaltados sin color predeterminado utilizarán "
+"este color en lugar del rojo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-priority"
+msgstr "Prioridad de la mención"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.mention-priority.description"
+msgstr ""
+"Las menciones de tu nombre tienen esta prioridad a efectos de resaltado. "
+"Consulte [Chat > Filtrado > Resaltar](~chat.filtering.highlight) para "
+"obtener más detalles."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.chat.filtering.process-own"
+msgstr "Filtra tus propios mensajes."
+
+#: /src/modules/main_menu/components/md-page.vue:14
+#, icu-message-format, md-text
+msgid "home.term-syntax"
+msgstr ""
+"Esta es una guía de las diferentes opciones de sintaxis de términos "
+"disponibles. Internamente,\n"
+"FrankerFaceZ convierte sus términos de resaltado y bloqueo en expresiones "
+"regulares.\n"
+"\n"
+"\n"
+"### Tipos\n"
+"\n"
+"#### 1. Texto\n"
+"\n"
+"El texto no tiene un comportamiento especial. Cualquier carácter con "
+"significado especial en expresiones regulares.\n"
+"\n"
+"\n"
+"#### 2. Globo\n"
+"\n"
+"[Globs](https://en.wikipedia.org/wiki/Glob_(programming)) proporcionan una "
+"sencilla\n"
+"con caracteres comodín. Por ejemplo, el glob `cir*` coincidiría con todas "
+"las palabras\n"
+"que empiecen por las letras `cir`, incluyendo sólo por sí sola.\n"
+"El carácter `*` es un comodín que puede coincidir con cualquier número de "
+"caracteres.\n"
+"\n"
+"| Comodín | Descripción | Ejemplo | Coincide | No Coincide | No Coincide |\n"
+"| :------: | :---------- | :-----: | :-----: | :------------: |\n"
+"| `*` | Coincide con cualquier número de caracteres no espaciados, incluido "
+"ninguno. || `cir*` | `cir`, `circle`, `cirFairy`, `circumstance` | `ci`, "
+"`sir`, `pizza` |\n"
+"| `**` | Coincide con cualquier número de caracteres, incluido ninguno. A "
+"diferencia de `*`, coincide con espacios en blanco. | `hello**!` | `hello!`, "
+"`hello, streamer!` |\n"
+"| `?` | Coincide con cualquier carácter. | `?at` | `cat`, `hat`, `pat` | `at`"
+"\n"
+"| `[abc]` | Coincide con un carácter entre paréntesis. | `[cp]at` | `cat`, "
+"`pat` | `hat`, `at`\n"
+"| `[a-z]` | Coincide con un carácter del rango entre paréntesis. | "
+"`Kappa[0-9]` | `Kappa1`, `Kappa2`, ... `Kappa0` | `Kappa`, `KappaHD`\n"
+"| `[!abc]` | Coincide con un carácter que *no* está dentro de los corchetes. "
+"| `[!cp]at` | `bat`, `rat`, `hat` | `at`, `cat`, `pat`\n"
+"| `[!a-z]` |Coincide con un carácter que *no* está dentro del rango entre "
+"paréntesis. | `Kappa[!0-9]` | `Kappa?`, `KappaF` | `Kappa`, `Kappa0`, "
+"`Kappa4`\n"
+"| `'{'abc,d?f'}'` | Coincide con una de las posibilidades de una lista "
+"separada por comas. | `cir'{'no,Fairy'}'` | `cirno`, `cirFairy` | `cir`, "
+"`circle`\n"
+"\n"
+"\n"
+"#### 3. Regex\n"
+"\n"
+"Las [Expresiones Regulares](https://en.wikipedia.org/wiki/Regular_expression)"
+" son complejos\n"
+"complejas utilizadas en programación. Están pensadas para usuarios avanzados."
+"\n"
+"\n"
+"FrankerFaceZ utiliza el motor incorporado en su navegador para manejar "
+"expresiones regulares,\n"
+"con todas las limitaciones que ello conlleva. Los términos Regex se "
+"empaquetan en las\n"
+"expresiones regulares generadas igual que en los otros dos modos. No debe ni "
+"puede\n"
+"utilizar grupos de captura.\n"
+"\n"
+"FrankerFaceZ utiliza una lógica rudimentaria para garantizar que su "
+"expresión regular no sea\n"
+"no sea catastróficamente lenta, pero debe tener cuidado de evitar "
+"expresiones lentas\n"
+"ya que se ejecutan con frecuencia.\n"
+"\n"
+"\n"
+"### Modos\n"
+"\n"
+"#### Sensible a mayúsculas y minúsculas\n"
+"\n"
+"Intenta buscar coincidencias entre mayúsculas y minúsculas. En efecto, esta "
+"opción\n"
+"desactiva el indicador `/i` de la expresión regular generada. Debido a "
+"limitaciones del motor\n"
+"regex de su navegador, la insensibilidad a mayúsculas y minúsculas puede "
+"algunos caracteres.\n"
+"\n"
+"\n"
+"#### Coincidir con toda la palabra\n"
+"\n"
+"Esta opción requiere que el término sea una palabra completa. Por ejemplo, "
+"el término `test`\n"
+"sin \"Coincidir con toda la palabra\" podría coincidir fácilmente con "
+"`testing` o `tested`\n"
+"como con `test`. Con la opción \"Coincidir con toda la palabra\" activada, "
+"**sólo** coincidirá con `test`.\n"
+"\n"
+"Esto se hace envolviendo la expresión regular generada en un patrón extra\n"
+"adicionales para caracteres que no son palabras, como espacios y signos de "
+"puntuación.\n"
+"\n"
+"\n"
+"#### Resaltar coincidencias\n"
+"\n"
+"Cuando esta opción está activada y la configuración de coincidencias en ["
+"Chat > Filtrado > General](~)\n"
+"está activada, cualquier término coincidente se resaltará en el chat para "
+"que pueda ver qué\n"
+"coincide exactamente con su término.\n"
+"\n"
+"Las coincidencias no se mostrarán como emotes, enlaces, etc.\n"
+"\n"
+"Esto es un poco más lento que no resaltar la coincidencia, por lo que es "
+"posible que desee utilizar\n"
+"sólo para probar y desactivarlo cuando sepa que su término funciona como "
+"desea.\n"
