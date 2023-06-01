@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-06-01 14:56+0000\n"
-"Last-Translator: DeciBelioS <deci8belios@outlook.com>\n"
+"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
 "Language: es\n"
@@ -3721,7 +3721,7 @@ msgstr "Filtrado"
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
 msgid "addon.filter-enabled"
-msgstr "Mostrar solo los complementos activos."
+msgstr "Mostrar solo complementos habilitados."
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
@@ -3730,13 +3730,13 @@ msgstr "Nuevos complementos"
 #: /src/modules/main_menu/components/addon.vue:3
 #, icu-message-format
 msgid "addon.show-less"
-msgstr "(Mostrar menos)"
+msgstr "(Mostrar Menos)"
 
 #, icu-message-format, md-text
 msgid "home.addon-new.desc"
 msgstr ""
-"Estos complementos han sido publicados en los últimos siete días. Échales un "
-"vistazo en [Add-Ons](~add_ons)."
+"Estos complementos se publicaron los últimos siete días. Compruébalos en "
+"[Complementos](~add_ons)."
 
 #, icu-message-format, md-text
 msgid "home.addon-updates.desc"
@@ -3746,7 +3746,7 @@ msgstr ""
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
-msgstr "Complementos actualizados"
+msgstr "Complementos Actualizados."
 
 #, icu-message-format
 msgid "home.github"
@@ -3772,7 +3772,7 @@ msgstr "Registro de cambios"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.directory.categories"
-msgstr "Categorias"
+msgstr "Categorías"
 
 #: /src/modules/main_menu/components/chat-actions.vue:1
 #, icu-message-format
@@ -3790,12 +3790,12 @@ msgstr "Creado: {when,date}"
 #: /src/modules/main_menu/components/addon-list.vue:90
 #, icu-message-format
 msgid "addon.sort-name"
-msgstr "Ordenar por: Name"
+msgstr "Ordenar por: Nombre"
 
 #: /src/modules/main_menu/components/addon-list.vue:98
 #, icu-message-format
 msgid "addon.sort-update"
-msgstr "Ordenar por: Fecha"
+msgstr "Ordenar por: Actualizado"
 
 #: /src/modules/main_menu/components/addon.vue:136
 #, icu-message-format, lp-defaults:"{\"when\":1615321812316}"
@@ -3805,7 +3805,7 @@ msgstr "Actualizado: {when,humantime}"
 #: /src/modules/chat/actions/components/edit-chat.vue:65
 #, icu-message-format
 msgid "setting.actions.formats"
-msgstr "Formateadores disponibles: {fmts}"
+msgstr "Formateadores Disponibles: {fmts}"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4061,13 +4061,13 @@ msgstr "Utilice distintivos VIP personalizados cuando estén disponibles."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.legacy"
-msgstr "Heredado"
+msgstr "Legado"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.theme.tweaks"
-msgstr "Ajustes"
+msgstr "Retoques"
 
 #: /src/modules/main_menu/components/badge-visibility.vue:56
 #, icu-message-format, lp-defaults:"{\"count\":57}"
@@ -4079,7 +4079,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line"
-msgstr "En línea"
+msgstr "En Línea"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4094,13 +4094,13 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room.description"
 msgstr ""
-"Aquí puede definir acciones personalizadas que aparecerán sobre el cuadro de "
-"entrada del chat."
+"Aquí puedes definir acciones personalizadas que aparecerán encima del cuadro "
+"de entrada del chat."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.rich_content"
-msgstr "Contenido enriquecido"
+msgstr "Contenido Enriquecido"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
