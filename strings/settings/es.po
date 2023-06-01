@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-06-01 13:57+0000\n"
-"Last-Translator: DeciBelioS <deci8belios@outlook.com>\n"
+"Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
 "Language: es\n"
@@ -4828,3 +4828,447 @@ msgstr ""
 "posible que desee utilizar\n"
 "sólo para probar y desactivarlo cuando sepa que su término funciona como "
 "desea.\n"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_users"
+msgstr "Usuarios Destacados"
+
+#, icu-message-format
+msgid "setting.color.nullable"
+msgstr "Clic derecho para Restablecer"
+
+#: /src/modules/main_menu/components/profile-editor.vue:309
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.hotkey"
+msgstr "Tecla de Acceso Rápido"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following.categories"
+msgstr "Categorías"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.metadata.force-above"
+msgstr ""
+"Forzar metadatos y etiquetas en la parte superior de la barra de información "
+"del canal."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block"
+msgstr "Bloque"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.badges"
+msgstr "Insignia"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.message_types"
+msgstr "Tipos de Mensajes"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms"
+msgstr "Términos"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.terms.description"
+msgstr ""
+"Consulte [Chat > Filtrado > Ayuda de sintaxis] (~) para obtener detalles "
+"sobre cómo usar los términos."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.block.users"
+msgstr "Usuarios"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_badges"
+msgstr "Insignias Bloqueadas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_terms"
+msgstr "Términos Bloqueados"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.blocked_users"
+msgstr "Usuarios Bloqueados"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.general.behavior"
+msgstr "Comportamiento"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight"
+msgstr "Destacado"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_badges"
+msgstr "Insignias Destacadas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight_terms"
+msgstr "Términos Destacados"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.badges"
+msgstr "Insignias"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms"
+msgstr "Términos"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.terms.description"
+msgstr ""
+"Consulte [Chat > Filtrado > Ayuda de sintaxis] (~) para obtener detalles "
+"sobre cómo usar los términos."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.highlight.users"
+msgstr "Usuarios"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.filtering.syntax_help"
+msgstr "Ayuda de Sintaxis"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input"
+msgstr "Entrada"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.recent_messages"
+msgstr "Mensajes Recientes"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.input.tab_completion"
+msgstr "Autocompletar con Tab"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips"
+msgstr "Información sobre Herramientas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.badges"
+msgstr "Insignias"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.emotes"
+msgstr "Emoticonos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.tooltips.links"
+msgstr "Enlaces"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards"
+msgstr "Tarjetas de Espectador"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.appearance"
+msgstr "Apariencia"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.viewer_cards.behavior"
+msgstr "Comportamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.whispers"
+msgstr "Susurros"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.chat.whispers.general"
+msgstr "General"
+
+#: /src/std-components/key-picker.vue:66
+#, icu-message-format
+msgid "setting.clear"
+msgstr "Limpiar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management"
+msgstr "Gestión de Datos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.backup_and_restore"
+msgstr "Copia de Seguridad y Restauración"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.profiles"
+msgstr "Perfiles"
+
+#: /src/modules/main_menu/components/profile-editor.vue:390
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.update"
+msgstr "Actualizar automáticamente este perfil."
+
+#: /src/modules/main_menu/components/profile-editor.vue:322
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.updates"
+msgstr "Actualizaciones Automáticas"
+
+#: /src/modules/main_menu/components/profile-editor.vue:349
+#, icu-message-format
+msgid "setting.data_management.profiles.edit.url"
+msgstr "Actualizar URL"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting"
+msgstr "Informar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.error_reports"
+msgstr "Reporte de Errores"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.reporting.example_report"
+msgstr "Reporte de Ejemplo"
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage"
+msgstr "Almacenamiento"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage.tabs"
+msgstr "Pestañas"
+
+#: /src/std-components/tab-container.vue:178
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage.tabs.clear"
+msgstr "Limpiar"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.data_management.storage.tabs.provider"
+msgstr "Proveedor"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging"
+msgstr "Depuración"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.experiments"
+msgstr "Experimentos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization"
+msgstr "Localización"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization.editing"
+msgstr "Edición"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.localization.general"
+msgstr "General"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket.general"
+msgstr "General"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.debugging.socket.info"
+msgstr "Información"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory"
+msgstr "Directorio"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.blocked"
+msgstr "Bloqueado"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.hidden_thumbnail_style"
+msgstr "Estilo de Miniatura Oculto"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.categories.hidden_thumbnails"
+msgstr "Miniaturas Ocultas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels"
+msgstr "Canales"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.channels.blocked_and_hidden_categories"
+msgstr "Categorías Bloqueadas y Escondidas"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.directory.following"
+msgstr "Siguiendo"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.add-ons"
+msgstr "Complementos"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addons.dev.server"
+msgstr "Usar Servidor de Desarrollo Local"
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addons.dev.server.description"
+msgstr ""
+"Intente cargar complementos desde el servidor de desarrollo local en el "
+"puerto 8001."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.backup"
+msgstr "Copia de Seguridad"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.changelog"
+msgstr "Registro de Cambios"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.auto-click-chat"
+msgstr ""
+"Abrir automáticamente el chat al abrir la página de un canal desconectado."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-live-indicator"
+msgstr "Esconder el indicador \"EN VIVO\" en la página de canales en vivo."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-not-live-bar"
+msgstr "Oculta la barra \"Ahora en vivo\"."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hide-unfollow"
+msgstr "Ocultar el botón de Dejar de Seguir."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.hosting.enable"
+msgstr "Habilitar Alojamiento de Canales"
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.raids.no-autojoin"
+msgstr "No unirme automáticamente a las Raids."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.round-avatars"
+msgstr "Permitir que las imágenes de avatar sean redondas."
+
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.show-celebrations"
+msgstr "Permite que aparezcan Celebraciones."
+
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.entry.channel.show-celebrations.description"
+msgstr "Las celebraciones son animaciones que cubren toda la página de Twitch."
