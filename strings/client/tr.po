@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Turkish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/tr/>\n"
@@ -1322,3 +1322,15 @@ msgstr "Duyuru"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user}, {count} izleyiciyle birlikte baskın yapıyor."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"{user} şu anda {streak, plural, one {# yayınlık seriye devam ediyor} other "
+"{# yayınlık seriye devam ediyor}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}İzleme serisine ulaşıldı {points_icon}+{copo}"
