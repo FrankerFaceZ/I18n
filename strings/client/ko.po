@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Korean <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ko/>\n"
@@ -1161,3 +1161,13 @@ msgstr "공지"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user}님이 {count}명과 함께 레이드 중입니다."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr "현재 {user}님이 {streak, plural, other {#연속 시청 중입니다}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}연속 시청 달성 {points_icon}+{copo}"
