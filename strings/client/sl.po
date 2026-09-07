@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Slovenian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sl/>\n"
@@ -1665,3 +1665,15 @@ msgstr "Oznámenie"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user} je na nájazde so skupinou {count} používateľov."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"{user} má momentálne reťaz {streak, plural, one {# streamu} few {# streamov} "
+"many {# streamu} other {# streamov}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Dosiahnutá reťaz sledovania {points_icon}+{copo}"
