@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-25 00:32+0000\n"
-"Last-Translator: Anton <anton_r_3@hotmail.com>\n"
-"Language-Team: Swedish "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/sv/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "async-text.upload"
 msgstr "Ladda upp"
@@ -1291,3 +1291,23 @@ msgstr "Video av {user}"
 
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} visningar — {date,datetime}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "Utannonsering"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user} gör en raid med en grupp på {count}."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Ny tittarsvit {points_icon}+{copo}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr "{user} har nu en svit på {streak,number} stream!"
