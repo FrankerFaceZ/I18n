@@ -10175,7 +10175,7 @@
 			"id": "card.error",
 			"doc": "client",
 			"default": "An error occurred.",
-			"source": "/src/modules/chat/components/chat-rich.vue:183\n/src/modules/chat/components/chat-rich.vue:309\n/src/modules/chat/index.js:2917\n/src/modules/chat/index.js:2922\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:114\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:227\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:78",
+			"source": "/src/modules/chat/components/chat-rich.vue:183\n/src/modules/chat/components/chat-rich.vue:309\n/src/modules/chat/index.js:2941\n/src/modules/chat/index.js:2946\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:114\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:227\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:78",
 			"context": null,
 			"revision": 1
 		},
@@ -10234,7 +10234,7 @@
 			"id": "chat.acting",
 			"doc": "client",
 			"default": "Taking Action",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:661",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:663",
 			"context": null
 		},
 		"chat.actions.ban": {
@@ -10629,14 +10629,14 @@
 			"id": "chat.command.reload",
 			"doc": "client",
 			"default": "Reload FFZ and add-on chat data (emotes, badges, etc.)",
-			"source": "/src/modules/chat/index.js:1562",
+			"source": "/src/modules/chat/index.js:1586",
 			"context": null
 		},
 		"chat.command.reload.done": {
 			"id": "chat.command.reload.done",
 			"doc": "client",
 			"default": "FFZ has finished reloading data. (Sources: {list})",
-			"source": "/src/modules/chat/index.js:1586",
+			"source": "/src/modules/chat/index.js:1610",
 			"context": null,
 			"placeholders": [
 				"list"
@@ -10646,7 +10646,7 @@
 			"id": "chat.command.reload.starting",
 			"doc": "client",
 			"default": "FFZ is reloading data...",
-			"source": "/src/modules/chat/index.js:1576",
+			"source": "/src/modules/chat/index.js:1600",
 			"context": null
 		},
 		"chat.deleted-messages": {
@@ -10768,6 +10768,13 @@
 			"source": "/src/sites/twitch-twilight/modules/chat/line.js:485",
 			"context": null
 		},
+		"chat.gif.report": {
+			"id": "chat.gif.report",
+			"doc": "client",
+			"default": "Report GIF",
+			"source": "/src/modules/chat/tokenizers.jsx:2285",
+			"context": null
+		},
 		"chat.hype-chat": {
 			"id": "chat.hype-chat",
 			"doc": "client",
@@ -10817,7 +10824,7 @@
 			"id": "chat.messages-below",
 			"doc": "client",
 			"default": "Chat Paused Due to Scroll",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:658",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:660",
 			"context": null,
 			"revision": 3
 		},
@@ -10891,7 +10898,7 @@
 			"id": "chat.paused",
 			"doc": "client",
 			"default": "Chat Paused Due to {reason}",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:672",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:674",
 			"context": "{\"reason\":\"Ctrl or Mouse\"}",
 			"revision": 3,
 			"placeholders": [
@@ -11652,7 +11659,7 @@
 			"id": "embed.tos-open-settings",
 			"doc": "client",
 			"default": "{link} to open your settings.",
-			"source": "/src/modules/chat/index.js:2834",
+			"source": "/src/modules/chat/index.js:2858",
 			"context": null,
 			"placeholders": [
 				"link"
@@ -11662,28 +11669,28 @@
 			"id": "embed.tos-open-settings.click",
 			"doc": "client",
 			"default": "Click here",
-			"source": "/src/modules/chat/index.js:2842",
+			"source": "/src/modules/chat/index.js:2866",
 			"context": null
 		},
 		"embed.tos-settings": {
 			"id": "embed.tos-settings",
 			"doc": "client",
 			"default": "Open the FFZ Control Center and navigate to Chat > Tooltips to agree.",
-			"source": "/src/modules/chat/index.js:2850",
+			"source": "/src/modules/chat/index.js:2874",
 			"context": null
 		},
 		"embed.warn.youtube.agree": {
 			"id": "embed.warn.youtube.agree",
 			"doc": "client",
 			"default": "Yes, I accept the YouTube Terms of Service.",
-			"source": "/src/utilities/constants.ts:386",
+			"source": "/src/utilities/constants.ts:387",
 			"context": null
 		},
 		"embed.warn.youtube.links": {
 			"id": "embed.warn.youtube.links",
 			"doc": "client",
 			"default": "To view YouTube embeds, you must agree to YouTube's Terms of Service:\n* [Terms of Service](https://www.youtube.com/t/terms)\n* [Privacy Policy](https://policies.google.com/privacy)",
-			"source": "/src/utilities/constants.ts:386",
+			"source": "/src/utilities/constants.ts:387",
 			"context": null
 		},
 		"emoji.category.activities": {
@@ -11809,7 +11816,7 @@
 			"id": "emote_menu.prime",
 			"doc": "client",
 			"default": "Prime",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1973",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2185",
 			"context": null,
 			"revision": 1
 		},
@@ -12119,7 +12126,7 @@
 			"id": "emote-menu.channel",
 			"doc": "client",
 			"default": "Channel",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2887",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3120",
 			"context": null,
 			"revision": 2
 		},
@@ -12127,7 +12134,7 @@
 			"id": "emote-menu.disable",
 			"doc": "client",
 			"default": "As a temporary workaround, try disabling the FFZ Emote Menu in the FFZ Control Center.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1128",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1309",
 			"context": null,
 			"revision": 1
 		},
@@ -12135,14 +12142,14 @@
 			"id": "emote-menu.effects",
 			"doc": "client",
 			"default": "Emote Effects",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2901",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3134",
 			"context": null
 		},
 		"emote-menu.emoji": {
 			"id": "emote-menu.emoji",
 			"doc": "client",
 			"default": "Emoji",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1713\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2930",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1925\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3163",
 			"context": null,
 			"revision": 2
 		},
@@ -12150,7 +12157,7 @@
 			"id": "emote-menu.emote-cheer",
 			"doc": "client",
 			"default": "Cheer an additional {bits_remaining, plural, one {# bit} other {# bits}} to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:896",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1077",
 			"context": "{\"bits_remaining\":1000}",
 			"revision": 1,
 			"placeholders": [
@@ -12161,7 +12168,7 @@
 			"id": "emote-menu.emote-follower",
 			"doc": "client",
 			"default": "Follow {user} to unlock this emote in their channel.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:898",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1079",
 			"context": "{\"user\":\"itmeJP\"}",
 			"revision": 1,
 			"placeholders": [
@@ -12172,7 +12179,7 @@
 			"id": "emote-menu.emote-sub",
 			"doc": "client",
 			"default": "Subscribe for {price} to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:900",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1081",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -12183,14 +12190,14 @@
 			"id": "emote-menu.emote-subwoofer",
 			"doc": "client",
 			"default": "Become an FFZ Subwoofer to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:894",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1075",
 			"context": null
 		},
 		"emote-menu.emote-up": {
 			"id": "emote-menu.emote-up",
 			"doc": "client",
 			"default": "Upgrade your sub to {price} to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:902",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1083",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -12201,7 +12208,7 @@
 			"id": "emote-menu.empty",
 			"doc": "client",
 			"default": "There's nothing here.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2677",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2893",
 			"context": null,
 			"revision": 1
 		},
@@ -12209,7 +12216,7 @@
 			"id": "emote-menu.empty-favs",
 			"doc": "client",
 			"default": "You don't have any favorite emotes. To favorite an emote, find it and {hotkey}-Click it.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2676",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2892",
 			"context": "{\n    \"hotkey\": \"Ctrl\"\n}",
 			"revision": 2,
 			"placeholders": [
@@ -12220,7 +12227,7 @@
 			"id": "emote-menu.empty-search",
 			"doc": "client",
 			"default": "There are no matching emotes.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2674",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2890",
 			"context": null,
 			"revision": 1
 		},
@@ -12228,7 +12235,7 @@
 			"id": "emote-menu.error",
 			"doc": "client",
 			"default": "There was an error rendering this menu.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1121\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2655",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1302\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2871",
 			"context": null,
 			"revision": 1
 		},
@@ -12236,7 +12243,7 @@
 			"id": "emote-menu.error-report",
 			"doc": "client",
 			"default": "An error report has been automatically submitted.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1124",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1305",
 			"context": null,
 			"revision": 1
 		},
@@ -12244,7 +12251,7 @@
 			"id": "emote-menu.favorites",
 			"doc": "client",
 			"default": "Favorites",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1760\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2873",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1972\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3106",
 			"context": null,
 			"revision": 2
 		},
@@ -12260,28 +12267,66 @@
 			"id": "emote-menu.ffz-unlock",
 			"doc": "client",
 			"default": "This feature is available to FFZ Subwoofers.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:995",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1176",
 			"context": null
 		},
 		"emote-menu.free-sub": {
 			"id": "emote-menu.free-sub",
 			"doc": "client",
 			"default": "Use My Free Month",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1017",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1198",
 			"context": null
 		},
 		"emote-menu.free-sub.about": {
 			"id": "emote-menu.free-sub.about",
 			"doc": "client",
 			"default": "As thanks for supporting us in the past, you can get one month of FFZ Subwoofer for free.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1002",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1183",
+			"context": null
+		},
+		"emote-menu.gif-cooldown": {
+			"id": "emote-menu.gif-cooldown",
+			"doc": "client",
+			"default": "You can send another GIF in {seconds}s.",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:793",
+			"context": null,
+			"placeholders": [
+				"seconds"
+			]
+		},
+		"emote-menu.gif-empty": {
+			"id": "emote-menu.gif-empty",
+			"doc": "client",
+			"default": "No GIFs found.",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:808",
+			"context": null
+		},
+		"emote-menu.gif-loading": {
+			"id": "emote-menu.gif-loading",
+			"doc": "client",
+			"default": "Loading...",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:803",
+			"context": null
+		},
+		"emote-menu.gif-unavailable": {
+			"id": "emote-menu.gif-unavailable",
+			"doc": "client",
+			"default": "GIFs are temporarily unavailable.",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:798",
+			"context": null
+		},
+		"emote-menu.gifs": {
+			"id": "emote-menu.gifs",
+			"doc": "client",
+			"default": "GIFs",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3177",
 			"context": null
 		},
 		"emote-menu.global": {
 			"id": "emote-menu.global",
 			"doc": "client",
 			"default": "Global Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1962",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2174",
 			"context": null,
 			"revision": 2
 		},
@@ -12297,7 +12342,7 @@
 			"id": "emote-menu.loading",
 			"doc": "client",
 			"default": "Loading...",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2684",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2900",
 			"context": null,
 			"revision": 2
 		},
@@ -12305,7 +12350,7 @@
 			"id": "emote-menu.main-set",
 			"doc": "client",
 			"default": "Channel Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2129\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2495",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2341\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2708",
 			"context": null,
 			"revision": 2
 		},
@@ -12313,7 +12358,7 @@
 			"id": "emote-menu.misc",
 			"doc": "client",
 			"default": "Miscellaneous",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1985",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2197",
 			"context": null,
 			"revision": 1
 		},
@@ -12321,7 +12366,7 @@
 			"id": "emote-menu.my-emotes",
 			"doc": "client",
 			"default": "My Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2916",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3149",
 			"context": null,
 			"revision": 2
 		},
@@ -12329,7 +12374,7 @@
 			"id": "emote-menu.points",
 			"doc": "client",
 			"default": "Unlocked with Points",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1950",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2162",
 			"context": null,
 			"revision": 1
 		},
@@ -12353,7 +12398,7 @@
 			"id": "emote-menu.search",
 			"doc": "client",
 			"default": "Search for Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2831",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3064",
 			"context": null,
 			"revision": 2
 		},
@@ -12361,15 +12406,22 @@
 			"id": "emote-menu.search-emoji",
 			"doc": "client",
 			"default": "Search for Emoji",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2830",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3063",
 			"context": null,
 			"revision": 2
+		},
+		"emote-menu.search-gifs": {
+			"id": "emote-menu.search-gifs",
+			"doc": "client",
+			"default": "Search GIPHY",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3061",
+			"context": null
 		},
 		"emote-menu.settings": {
 			"id": "emote-menu.settings",
 			"doc": "client",
 			"default": "Open Settings",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2811\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2943",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3042\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3190",
 			"context": null,
 			"revision": 1
 		},
@@ -12377,7 +12429,7 @@
 			"id": "emote-menu.source-set",
 			"doc": "client",
 			"default": "{channel}'s Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2494",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2707",
 			"context": null,
 			"placeholders": [
 				"channel"
@@ -12387,7 +12439,7 @@
 			"id": "emote-menu.sub-basic",
 			"doc": "client",
 			"default": "Subscribe to unlock some emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:998",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1179",
 			"context": null,
 			"revision": 1
 		},
@@ -12395,7 +12447,7 @@
 			"id": "emote-menu.sub-ends",
 			"doc": "client",
 			"default": "This sub ends {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:846",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1027",
 			"context": "{\n    \"seconds\": 2402847.089\n}",
 			"revision": 2,
 			"placeholders": [
@@ -12406,7 +12458,7 @@
 			"id": "emote-menu.sub-gift-ends",
 			"doc": "client",
 			"default": "This gifted sub ends {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:841",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1022",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -12417,7 +12469,7 @@
 			"id": "emote-menu.sub-prime",
 			"doc": "client",
 			"default": "This is your free sub with Prime Gaming.\nIt ends {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:836",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1017",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -12428,7 +12480,7 @@
 			"id": "emote-menu.sub-renews",
 			"doc": "client",
 			"default": "This sub renews {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:829",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1010",
 			"context": "{\n    \"seconds\": 388800.09\n}",
 			"revision": 2,
 			"placeholders": [
@@ -12447,7 +12499,7 @@
 			"id": "emote-menu.sub-unlock",
 			"doc": "client",
 			"default": "Subscribe for {price} to unlock {count, plural, one {# emote} other {# emotes}}",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:997",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1178",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -12459,7 +12511,7 @@
 			"id": "emote-menu.toggle-hide.info",
 			"doc": "client",
 			"default": "Emote Visibility Control allows you to hide emotes from your emote menu, either individually or by set. With Emote Visibility Control enabled, just click an emote to hide or unhide it. Please note that you will still see the emotes in chat if someone uses them, but they won't appear in your emote menu.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2860",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3093",
 			"context": null,
 			"revision": 1
 		},
@@ -12467,7 +12519,7 @@
 			"id": "emote-menu.toggle-hide.off",
 			"doc": "client",
 			"default": "Emote Visibility Control",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2857",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3090",
 			"context": null,
 			"revision": 1
 		},
@@ -12475,7 +12527,7 @@
 			"id": "emote-menu.toggle-hide.on",
 			"doc": "client",
 			"default": "Exit Emote Visibility Control",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2856",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3089",
 			"context": null,
 			"revision": 1
 		},
@@ -12483,7 +12535,7 @@
 			"id": "emote-menu.twitch",
 			"doc": "client",
 			"default": "Twitch",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2021\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2130",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2233\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2342",
 			"context": null,
 			"revision": 2
 		},
@@ -12491,7 +12543,7 @@
 			"id": "emote-menu.unknown",
 			"doc": "client",
 			"default": "Unknown Source",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:858",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1039",
 			"context": null,
 			"revision": 1
 		},
@@ -12499,7 +12551,7 @@
 			"id": "emote-menu.unknown-set",
 			"doc": "client",
 			"default": "Set #{set_id}",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1992\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2496",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2204\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2709",
 			"context": "{\n    \"set_id\": 300206295\n}",
 			"revision": 2,
 			"placeholders": [
@@ -12510,7 +12562,7 @@
 			"id": "emote-menu.visibility.hidden",
 			"doc": "client",
 			"default": "Hidden",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:869",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1050",
 			"context": null,
 			"revision": 1
 		},
@@ -12518,7 +12570,7 @@
 			"id": "emote-menu.visibility.visible",
 			"doc": "client",
 			"default": "Visible",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:870",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1051",
 			"context": null,
 			"revision": 1
 		},
@@ -12680,7 +12732,7 @@
 			"id": "error.try-again",
 			"doc": "client",
 			"default": "Try Again",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2659",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2875",
 			"context": null,
 			"revision": 1
 		},
@@ -12999,7 +13051,7 @@
 			"id": "key.alt",
 			"doc": "client",
 			"default": "Alt Key",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:664",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:666",
 			"context": null,
 			"revision": 1
 		},
@@ -13007,7 +13059,7 @@
 			"id": "key.alt_mouse",
 			"doc": "client",
 			"default": "Alt or Mouse",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:668",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:670",
 			"context": null,
 			"revision": 1
 		},
@@ -13015,7 +13067,7 @@
 			"id": "key.ctrl",
 			"doc": "client",
 			"default": "Ctrl Key",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:662",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:664",
 			"context": null,
 			"revision": 1
 		},
@@ -13023,7 +13075,7 @@
 			"id": "key.ctrl_mouse",
 			"doc": "client",
 			"default": "Ctrl or Mouse",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:666",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:668",
 			"context": null,
 			"revision": 2
 		},
@@ -13039,7 +13091,7 @@
 			"id": "key.meta",
 			"doc": "client",
 			"default": "Meta Key",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:663",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:665",
 			"context": null,
 			"revision": 1
 		},
@@ -13047,7 +13099,7 @@
 			"id": "key.meta_mouse",
 			"doc": "client",
 			"default": "Meta or Mouse",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:667",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:669",
 			"context": null,
 			"revision": 1
 		},
@@ -13055,7 +13107,7 @@
 			"id": "key.mouse",
 			"doc": "client",
 			"default": "Mouse Movement",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:670",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:672",
 			"context": null,
 			"revision": 1
 		},
@@ -13063,7 +13115,7 @@
 			"id": "key.shift",
 			"doc": "client",
 			"default": "Shift Key",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:665",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:667",
 			"context": null,
 			"revision": 1
 		},
@@ -13071,7 +13123,7 @@
 			"id": "key.shift_mouse",
 			"doc": "client",
 			"default": "Shift or Mouse",
-			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:669",
+			"source": "/src/sites/twitch-twilight/modules/chat/scroller.js:671",
 			"context": null,
 			"revision": 1
 		},
@@ -17581,7 +17633,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18254,7 +18306,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1098\n/src/modules/chat/index.js:1129\n/src/modules/chat/index.js:1141\n/src/modules/chat/index.js:1174\n/src/modules/chat/index.js:1232\n/src/modules/chat/index.js:165\n/src/modules/chat/index.js:177\n/src/modules/chat/index.js:189\n/src/modules/chat/index.js:200\n/src/modules/chat/index.js:215\n/src/m\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18262,7 +18314,7 @@
 			"id": "setting.chat.appearance.chat_lines",
 			"doc": "settings",
 			"default": "Chat Lines",
-			"source": "/src/modules/chat/index.js:1141\n/src/modules/chat/index.js:1232\n/src/modules/chat/index.js:215\n/src/sites/twitch-twilight/modules/chat/index.js:847\n/src/sites/twitch-twilight/modules/chat/index.js:924\n/src/sites/twitch-twilight/modules/chat/index.js:933\n/src/sites/twitch-twilight/modules/chat/index.js:942\n/src/sites/twitch-twilight/modules/chat/index.js:958\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:217\n/src/sites/twitch-twilight/modules/chat/index.js:847\n/src/sites/twitch-twilight/modules/chat/index.js:924\n/src/sites/twitch-twilight/modules/chat/index.js:933\n/src/sites/twitch-twilight/modules/chat/index.js:942\n/src/sites/twitch-twilight/modules/chat/index.js:958\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18270,7 +18322,7 @@
 			"id": "setting.chat.appearance.colors",
 			"doc": "settings",
 			"default": "Colors",
-			"source": "/src/modules/chat/index.js:1098\n/src/modules/chat/index.js:1129\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18302,7 +18354,7 @@
 			"id": "setting.chat.appearance.emotes",
 			"doc": "settings",
 			"default": "Emotes",
-			"source": "/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1174\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1176\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18310,22 +18362,29 @@
 			"id": "setting.chat.appearance.general",
 			"doc": "settings",
 			"default": "General",
-			"source": "/src/modules/chat/index.js:165\n/src/modules/chat/index.js:177\n/src/modules/chat/index.js:189\n/src/sites/twitch-twilight/modules/chat/index.js:747\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src/sites/twitch-twilight/modules/chat/index.js:747\nFFZ Control Center",
 			"context": null,
 			"revision": 1
+		},
+		"setting.chat.appearance.gifs": {
+			"id": "setting.chat.appearance.gifs",
+			"doc": "settings",
+			"default": "GIFs",
+			"source": "/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241",
+			"context": null
 		},
 		"setting.chat.appearance.hidden_token_types": {
 			"id": "setting.chat.appearance.hidden_token_types",
 			"doc": "settings",
 			"default": "Hidden Token Types",
-			"source": "/src/modules/chat/index.js:463",
+			"source": "/src/modules/chat/index.js:465",
 			"context": null
 		},
 		"setting.chat.appearance.hidden_token_types.description": {
 			"id": "setting.chat.appearance.hidden_token_types.description",
 			"doc": "settings",
 			"default": "This filter allows you to prevent specific content token types from appearing chat messages, such as hiding all cheers or emotes.",
-			"source": "/src/modules/chat/index.js:463",
+			"source": "/src/modules/chat/index.js:465",
 			"context": null,
 			"markdown": true
 		},
@@ -18341,7 +18400,7 @@
 			"id": "setting.chat.appearance.rich_content",
 			"doc": "settings",
 			"default": "Rich Content",
-			"source": "/src/modules/chat/index.js:230\n/src/modules/chat/index.js:240\n/src/modules/chat/index.js:250\n/src/modules/chat/index.js:259\n/src/modules/chat/index.js:273\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:232\n/src/modules/chat/index.js:242\n/src/modules/chat/index.js:252\n/src/modules/chat/index.js:261\n/src/modules/chat/index.js:275\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18357,7 +18416,7 @@
 			"id": "setting.chat.appearance.usernames",
 			"doc": "settings",
 			"default": "Usernames",
-			"source": "/src/modules/chat/index.js:200\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:202\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18405,7 +18464,7 @@
 			"id": "setting.chat.behavior",
 			"doc": "settings",
 			"default": "Behavior",
-			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emoji.js:94\n/src/modules/chat/emotes.js:558\n/src/modules/chat/emotes.js:568\n/src/modules/chat/emotes.js:577\n/src/modules/chat/index.js:290\n/src/modules/chat/index.js:329\n/src/modules/chat/index.js:345\n/src/modules/chat/index.js:362\n/src/modules/chat/index.js:413\n/src/modules/chat/index.js:422\n/src/modules/chat/index.js:439\n/src/sites/twitch-twilight/modules/chat/index.js:713\n/src/sites/twitch-twilight/modules/chat/scroller.js:37\n/src/sites/twitch-twilight/modules/ch\nFFZ Control Center",
+			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emoji.js:94\n/src/modules/chat/emotes.js:558\n/src/modules/chat/emotes.js:568\n/src/modules/chat/emotes.js:577\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:331\n/src/modules/chat/index.js:347\n/src/modules/chat/index.js:364\n/src/modules/chat/index.js:415\n/src/modules/chat/index.js:424\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\n/src/sites/twitch-twilight/modules/chat/scroller.js:37\n/src/sites/twitch-twilight/modules/ch\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18413,7 +18472,7 @@
 			"id": "setting.chat.behavior.deleted_messages",
 			"doc": "settings",
 			"default": "Deleted Messages",
-			"source": "/src/modules/chat/index.js:329\n/src/modules/chat/index.js:345\n/src/modules/chat/index.js:362\n/src/modules/chat/index.js:413\n/src/modules/chat/index.js:422\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:331\n/src/modules/chat/index.js:347\n/src/modules/chat/index.js:364\n/src/modules/chat/index.js:415\n/src/modules/chat/index.js:424\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18428,7 +18487,7 @@
 			"id": "setting.chat.behavior.general",
 			"doc": "settings",
 			"default": "General",
-			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emotes.js:558\n/src/modules/chat/emotes.js:568\n/src/modules/chat/emotes.js:577\n/src/modules/chat/index.js:290\n/src/modules/chat/index.js:439\n/src/sites/twitch-twilight/modules/chat/index.js:713\nFFZ Control Center",
+			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emotes.js:558\n/src/modules/chat/emotes.js:568\n/src/modules/chat/emotes.js:577\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18444,7 +18503,7 @@
 			"id": "setting.chat.bits_and_cheering",
 			"doc": "settings",
 			"default": "Bits and Cheering",
-			"source": "/src/modules/chat/index.js:1158\n/src/modules/chat/index.js:1220\n/src/sites/twitch-twilight/modules/chat/index.js:810\n/src/sites/twitch-twilight/modules/chat/index.js:828\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:413\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1160\n/src/modules/chat/index.js:1222\n/src/sites/twitch-twilight/modules/chat/index.js:810\n/src/sites/twitch-twilight/modules/chat/index.js:828\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:413\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18452,7 +18511,7 @@
 			"id": "setting.chat.bits_and_cheering.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/index.js:1158\n/src/modules/chat/index.js:1220\n/src/sites/twitch-twilight/modules/chat/index.js:828\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:413\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1160\n/src/modules/chat/index.js:1222\n/src/sites/twitch-twilight/modules/chat/index.js:828\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:413\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18607,7 +18666,7 @@
 			"id": "setting.chat.filtering",
 			"doc": "settings",
 			"default": "Filtering",
-			"source": "/src/modules/chat/index.js:302\n/src/modules/chat/index.js:312\n/src/modules/chat/index.js:320\n/src/modules/chat/index.js:376\n/src/modules/chat/index.js:385\n/src/modules/chat/index.js:394\n/src/modules/chat/index.js:404\n/src/modules/chat/index.js:489\n/src/modules/chat/index.js:570\n/src/modules/chat/index.js:619\n/src/modules/chat/index.js:664\n/src/modules/chat/index.js:697\n/src/modules/chat/index.js:830\n/src/modules/chat/index.js:915\n/src/modules/chat/index.js:925\n/src/modules/chat/index.js:942\n/src/modules/cha\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:304\n/src/modules/chat/index.js:314\n/src/modules/chat/index.js:322\n/src/modules/chat/index.js:378\n/src/modules/chat/index.js:387\n/src/modules/chat/index.js:396\n/src/modules/chat/index.js:406\n/src/modules/chat/index.js:491\n/src/modules/chat/index.js:572\n/src/modules/chat/index.js:621\n/src/modules/chat/index.js:666\n/src/modules/chat/index.js:699\n/src/modules/chat/index.js:832\n/src/modules/chat/index.js:917\n/src/modules/chat/index.js:927\n/src/modules/chat/index.js:944\n/src/modules/cha\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18647,7 +18706,7 @@
 			"id": "setting.chat.filtering.block",
 			"doc": "settings",
 			"default": "Block",
-			"source": "/src/modules/chat/index.js:570\n/src/modules/chat/index.js:664\n/src/modules/chat/index.js:830\n/src/sites/twitch-twilight/modules/chat/index.js:389\n/src/sites/twitch-twilight/modules/chat/index.js:414\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:572\n/src/modules/chat/index.js:666\n/src/modules/chat/index.js:832\n/src/sites/twitch-twilight/modules/chat/index.js:389\n/src/sites/twitch-twilight/modules/chat/index.js:414\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18655,7 +18714,7 @@
 			"id": "setting.chat.filtering.block.badges",
 			"doc": "settings",
 			"default": "Badges",
-			"source": "/src/modules/chat/index.js:664\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:666\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18663,7 +18722,7 @@
 			"id": "setting.chat.filtering.block.badges.description",
 			"doc": "settings",
 			"default": "**Note:** This section is for filtering messages out of chat from users with specific badges. If you wish to hide a badge, go to [Chat > Badges >> Visibility](~chat.badges.tabs.visibility).",
-			"source": "/src/modules/chat/index.js:664\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:666\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -18704,7 +18763,7 @@
 			"id": "setting.chat.filtering.block.terms",
 			"doc": "settings",
 			"default": "Terms",
-			"source": "/src/modules/chat/index.js:830\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:832\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18712,7 +18771,7 @@
 			"id": "setting.chat.filtering.block.terms.description",
 			"doc": "settings",
 			"default": "Please see [Chat > Filtering > Syntax Help](~) for details on how to use terms.",
-			"source": "/src/modules/chat/index.js:830\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:832\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -18721,7 +18780,7 @@
 			"id": "setting.chat.filtering.block.users",
 			"doc": "settings",
 			"default": "Users",
-			"source": "/src/modules/chat/index.js:570\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:572\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18777,7 +18836,7 @@
 			"id": "setting.chat.filtering.general",
 			"doc": "settings",
 			"default": "General",
-			"source": "/src/modules/chat/index.js:302\n/src/modules/chat/index.js:320\n/src/modules/chat/index.js:376\n/src/modules/chat/index.js:385\n/src/modules/chat/index.js:394\n/src/modules/chat/index.js:404\n/src/modules/chat/index.js:915\n/src/modules/chat/index.js:925\n/src/modules/chat/index.js:942\n/src/modules/chat/index.js:951\n/src/modules/chat/index.js:963\n/src/modules/chat/index.js:973\n/src/modules/chat/index.js:982\n/src/sites/twitch-twilight/modules/chat/index.js:349\n/src/sites/twitch-twilight/modules/chat/index.js:838\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:304\n/src/modules/chat/index.js:322\n/src/modules/chat/index.js:378\n/src/modules/chat/index.js:387\n/src/modules/chat/index.js:396\n/src/modules/chat/index.js:406\n/src/modules/chat/index.js:917\n/src/modules/chat/index.js:927\n/src/modules/chat/index.js:944\n/src/modules/chat/index.js:953\n/src/modules/chat/index.js:965\n/src/modules/chat/index.js:975\n/src/modules/chat/index.js:984\n/src/sites/twitch-twilight/modules/chat/index.js:349\n/src/sites/twitch-twilight/modules/chat/index.js:838\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18785,7 +18844,7 @@
 			"id": "setting.chat.filtering.general.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/index.js:915\n/src/modules/chat/index.js:925\n/src/modules/chat/index.js:942\n/src/modules/chat/index.js:951\n/src/modules/chat/index.js:963\n/src/modules/chat/index.js:973\n/src/modules/chat/index.js:982\n/src/sites/twitch-twilight/modules/chat/index.js:349\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:917\n/src/modules/chat/index.js:927\n/src/modules/chat/index.js:944\n/src/modules/chat/index.js:953\n/src/modules/chat/index.js:965\n/src/modules/chat/index.js:975\n/src/modules/chat/index.js:984\n/src/sites/twitch-twilight/modules/chat/index.js:349\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18793,7 +18852,7 @@
 			"id": "setting.chat.filtering.general.auto_mod_filters",
 			"doc": "settings",
 			"default": "AutoMod Filters",
-			"source": "/src/modules/chat/index.js:376\n/src/modules/chat/index.js:385\n/src/modules/chat/index.js:394\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:378\n/src/modules/chat/index.js:387\n/src/modules/chat/index.js:396\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18801,7 +18860,7 @@
 			"id": "setting.chat.filtering.general.auto_mod_filters.description",
 			"doc": "settings",
 			"default": "Extra configuration for Twitch's native `Chat Filters`.",
-			"source": "/src/modules/chat/index.js:376\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:378\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -18810,7 +18869,7 @@
 			"id": "setting.chat.filtering.general.behavior",
 			"doc": "settings",
 			"default": "Behavior",
-			"source": "/src/modules/chat/index.js:302\n/src/modules/chat/index.js:320\n/src/modules/chat/index.js:404\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:304\n/src/modules/chat/index.js:322\n/src/modules/chat/index.js:406\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18826,7 +18885,7 @@
 			"id": "setting.chat.filtering.highlight",
 			"doc": "settings",
 			"default": "Highlight",
-			"source": "/src/modules/chat/index.js:312\n/src/modules/chat/index.js:489\n/src/modules/chat/index.js:619\n/src/modules/chat/index.js:697\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:314\n/src/modules/chat/index.js:491\n/src/modules/chat/index.js:621\n/src/modules/chat/index.js:699\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18858,7 +18917,7 @@
 			"id": "setting.chat.filtering.highlight.badges",
 			"doc": "settings",
 			"default": "Badges",
-			"source": "/src/modules/chat/index.js:619\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:621\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18866,7 +18925,7 @@
 			"id": "setting.chat.filtering.highlight.description",
 			"doc": "settings",
 			"default": "These settings allow you to highlight messages in chat based on their contents. Setting priorities on rules allows you to determine which highlight color should be applied if a message matches multiple rules. Rules with a higher priority take priority over rules with lower priorities.\n\nYou can also create a rule that removes highlights from messages, preventing lower priority rules from highlighting them, by setting a color with an alpha value of zero. Example: `#00000000`",
-			"source": "/src/modules/chat/index.js:489\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:491\nFFZ Control Center",
 			"context": null,
 			"revision": 2,
 			"markdown": true
@@ -18875,7 +18934,7 @@
 			"id": "setting.chat.filtering.highlight.terms",
 			"doc": "settings",
 			"default": "Terms",
-			"source": "/src/modules/chat/index.js:697\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:699\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18883,7 +18942,7 @@
 			"id": "setting.chat.filtering.highlight.terms.description",
 			"doc": "settings",
 			"default": "Please see [Chat > Filtering > Syntax Help](~) for details on how to use terms.",
-			"source": "/src/modules/chat/index.js:697\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:699\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -18892,7 +18951,7 @@
 			"id": "setting.chat.filtering.highlight.users",
 			"doc": "settings",
 			"default": "Users",
-			"source": "/src/modules/chat/index.js:489\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:491\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19004,7 +19063,7 @@
 			"id": "setting.chat.tooltips",
 			"doc": "settings",
 			"default": "Tooltips",
-			"source": "/src/modules/chat/index.js:1000\n/src/modules/chat/index.js:1014\n/src/modules/chat/index.js:1023\n/src/modules/chat/index.js:1037\n/src/modules/chat/index.js:1050\n/src/modules/chat/index.js:1059\n/src/modules/chat/index.js:1073\n/src/modules/chat/index.js:1086\n/src/modules/chat/index.js:1203\n/src/modules/chat/index.js:991\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1002\n/src/modules/chat/index.js:1016\n/src/modules/chat/index.js:1025\n/src/modules/chat/index.js:1039\n/src/modules/chat/index.js:1052\n/src/modules/chat/index.js:1061\n/src/modules/chat/index.js:1075\n/src/modules/chat/index.js:1088\n/src/modules/chat/index.js:1205\n/src/modules/chat/index.js:993\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19012,7 +19071,7 @@
 			"id": "setting.chat.tooltips.badges",
 			"doc": "settings",
 			"default": "Badges",
-			"source": "/src/modules/chat/index.js:1000\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1002\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19020,7 +19079,7 @@
 			"id": "setting.chat.tooltips.emotes",
 			"doc": "settings",
 			"default": "Emotes",
-			"source": "/src/modules/chat/index.js:1014\n/src/modules/chat/index.js:1023\n/src/modules/chat/index.js:1203\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1016\n/src/modules/chat/index.js:1025\n/src/modules/chat/index.js:1205\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19028,7 +19087,7 @@
 			"id": "setting.chat.tooltips.general",
 			"doc": "settings",
 			"default": "General",
-			"source": "/src/modules/chat/index.js:991\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:993\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19036,7 +19095,7 @@
 			"id": "setting.chat.tooltips.links",
 			"doc": "settings",
 			"default": "Links",
-			"source": "/src/modules/chat/index.js:1037\n/src/modules/chat/index.js:1050\n/src/modules/chat/index.js:1059\n/src/modules/chat/index.js:1073\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1039\n/src/modules/chat/index.js:1052\n/src/modules/chat/index.js:1061\n/src/modules/chat/index.js:1075\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19044,14 +19103,14 @@
 			"id": "setting.chat.tooltips.terms_of_service",
 			"doc": "settings",
 			"default": "Terms of Service",
-			"source": "/src/modules/chat/index.js:1086",
+			"source": "/src/modules/chat/index.js:1088",
 			"context": null
 		},
 		"setting.chat.tooltips.terms_of_service.description": {
 			"id": "setting.chat.tooltips.terms_of_service.description",
 			"doc": "settings",
 			"default": "The following services require you to agree to their Terms of Service before we can show you information from their platforms.",
-			"source": "/src/modules/chat/index.js:1086",
+			"source": "/src/modules/chat/index.js:1088",
 			"context": null,
 			"markdown": true
 		},
@@ -19059,7 +19118,7 @@
 			"id": "setting.chat.viewer_cards",
 			"doc": "settings",
 			"default": "Viewer Cards",
-			"source": "/src/modules/chat/index.js:906\n/src/sites/twitch-twilight/modules/chat/viewer_card.jsx:20\n/src/sites/twitch-twilight/modules/chat/viewer_card.jsx:29\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:908\n/src/sites/twitch-twilight/modules/chat/viewer_card.jsx:20\n/src/sites/twitch-twilight/modules/chat/viewer_card.jsx:29\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19075,7 +19134,7 @@
 			"id": "setting.chat.viewer_cards.behavior",
 			"doc": "settings",
 			"default": "Behavior",
-			"source": "/src/modules/chat/index.js:906\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:908\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19479,7 +19538,7 @@
 			"id": "setting.debugging",
 			"doc": "settings",
 			"default": "Debugging",
-			"source": "/src/experiments.ts:175\n/src/i18n.js:117\n/src/i18n.js:92\n/src/i18n.js:98\n/src/modules/chat/index.js:136\n/src/modules/chat/index.js:158\n/src/modules/main_menu/index.js:154\n/src/pubsub/index.ts:61\n/src/sites/twitch-twilight/modules/chat/index.js:364\n/src/sites/twitch-twilight/modules/chat/index.js:382\n/src/socket.js:30\n/src/socket.js:64\n/src/staging.tsx:42\n/src/utilities/timing.js:20\nFFZ Control Center",
+			"source": "/src/experiments.ts:175\n/src/i18n.js:117\n/src/i18n.js:92\n/src/i18n.js:98\n/src/modules/chat/index.js:138\n/src/modules/chat/index.js:160\n/src/modules/main_menu/index.js:154\n/src/pubsub/index.ts:61\n/src/sites/twitch-twilight/modules/chat/index.js:364\n/src/sites/twitch-twilight/modules/chat/index.js:382\n/src/socket.js:30\n/src/socket.js:64\n/src/staging.tsx:42\n/src/utilities/timing.js:20\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19508,7 +19567,7 @@
 			"id": "setting.debugging.data_sources",
 			"doc": "settings",
 			"default": "Data Sources",
-			"source": "/src/modules/chat/index.js:136\n/src/modules/chat/index.js:158\n/src/staging.tsx:42",
+			"source": "/src/modules/chat/index.js:138\n/src/modules/chat/index.js:160\n/src/staging.tsx:42",
 			"context": null,
 			"revision": 1
 		},
@@ -19516,7 +19575,7 @@
 			"id": "setting.debugging.data_sources.links",
 			"doc": "settings",
 			"default": "Links",
-			"source": "/src/modules/chat/index.js:136\n/src/modules/chat/index.js:158",
+			"source": "/src/modules/chat/index.js:138\n/src/modules/chat/index.js:160",
 			"context": null,
 			"revision": 1
 		},
@@ -20162,7 +20221,7 @@
 			"id": "setting.entry.chat.adjustment-contrast",
 			"doc": "settings",
 			"default": "Minimum Contrast",
-			"source": "/src/modules/chat/index.js:1129\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1131\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -20170,7 +20229,7 @@
 			"id": "setting.entry.chat.adjustment-contrast.description",
 			"doc": "settings",
 			"default": "Set the minimum contrast ratio used by Luma adjustments when determining readability.",
-			"source": "/src/modules/chat/index.js:1129\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1131\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -20179,7 +20238,7 @@
 			"id": "setting.entry.chat.adjustment-mode",
 			"doc": "settings",
 			"default": "Adjustment",
-			"source": "/src/modules/chat/index.js:1098\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1100\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -20187,7 +20246,7 @@
 			"id": "setting.entry.chat.adjustment-mode.description",
 			"doc": "settings",
 			"default": "Alter user colors to ensure that they remain readable.",
-			"source": "/src/modules/chat/index.js:1098\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1100\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -20196,7 +20255,7 @@
 			"id": "setting.entry.chat.adjustment-mode.values.-1",
 			"doc": "settings",
 			"default": "No Color",
-			"source": "/src/modules/chat/index.js:1119",
+			"source": "/src/modules/chat/index.js:1121",
 			"context": null,
 			"revision": 1
 		},
@@ -20204,7 +20263,7 @@
 			"id": "setting.entry.chat.adjustment-mode.values.0",
 			"doc": "settings",
 			"default": "Unchanged",
-			"source": "/src/modules/chat/index.js:1120",
+			"source": "/src/modules/chat/index.js:1122",
 			"context": null,
 			"revision": 1
 		},
@@ -20212,7 +20271,7 @@
 			"id": "setting.entry.chat.adjustment-mode.values.1",
 			"doc": "settings",
 			"default": "HSL Luma",
-			"source": "/src/modules/chat/index.js:1121",
+			"source": "/src/modules/chat/index.js:1123",
 			"context": null,
 			"revision": 1
 		},
@@ -20220,7 +20279,7 @@
 			"id": "setting.entry.chat.adjustment-mode.values.2",
 			"doc": "settings",
 			"default": "Luv Luma",
-			"source": "/src/modules/chat/index.js:1122",
+			"source": "/src/modules/chat/index.js:1124",
 			"context": null,
 			"revision": 1
 		},
@@ -20228,7 +20287,7 @@
 			"id": "setting.entry.chat.adjustment-mode.values.3",
 			"doc": "settings",
 			"default": "HSL Loop (BTTV-Like)",
-			"source": "/src/modules/chat/index.js:1123",
+			"source": "/src/modules/chat/index.js:1125",
 			"context": null,
 			"revision": 1
 		},
@@ -20236,7 +20295,7 @@
 			"id": "setting.entry.chat.adjustment-mode.values.4",
 			"doc": "settings",
 			"default": "RGB Loop (Deprecated)",
-			"source": "/src/modules/chat/index.js:1124",
+			"source": "/src/modules/chat/index.js:1126",
 			"context": null,
 			"revision": 1
 		},
@@ -20244,7 +20303,7 @@
 			"id": "setting.entry.chat.automod.delete-messages",
 			"doc": "settings",
 			"default": "Mark messages as deleted if they contain filtered phrases.",
-			"source": "/src/modules/chat/index.js:376\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:378\nFFZ Control Center",
 			"context": null,
 			"revision": 2
 		},
@@ -20252,7 +20311,7 @@
 			"id": "setting.entry.chat.automod.remove-messages",
 			"doc": "settings",
 			"default": "Remove messages entirely if they contain filtered phrases.",
-			"source": "/src/modules/chat/index.js:385\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:387\nFFZ Control Center",
 			"context": null,
 			"revision": 2
 		},
@@ -20260,7 +20319,7 @@
 			"id": "setting.entry.chat.automod.run-as-mod",
 			"doc": "settings",
 			"default": "Use Chat Filters as a moderator.",
-			"source": "/src/modules/chat/index.js:394\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:396\nFFZ Control Center",
 			"context": null,
 			"revision": 2
 		},
@@ -20268,7 +20327,7 @@
 			"id": "setting.entry.chat.automod.run-as-mod.description",
 			"doc": "settings",
 			"default": "By default, Twitch's Chat Filters feature does not function for moderators. This overrides that behavior.",
-			"source": "/src/modules/chat/index.js:394\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:396\nFFZ Control Center",
 			"context": null,
 			"revision": 2,
 			"markdown": true
@@ -20564,7 +20623,7 @@
 			"id": "setting.entry.chat.bits.animated",
 			"doc": "settings",
 			"default": "Display animated cheers.",
-			"source": "/src/modules/chat/index.js:1220\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1222\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -20655,7 +20714,7 @@
 			"id": "setting.entry.chat.bits.stack",
 			"doc": "settings",
 			"default": "Cheer Stacking",
-			"source": "/src/modules/chat/index.js:1158\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1160\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -20663,7 +20722,7 @@
 			"id": "setting.entry.chat.bits.stack.description",
 			"doc": "settings",
 			"default": "Collect all the cheers in a message into a single cheer at the start of the message.",
-			"source": "/src/modules/chat/index.js:1158\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1160\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -20672,7 +20731,7 @@
 			"id": "setting.entry.chat.bits.stack.values.0",
 			"doc": "settings",
 			"default": "Disabled",
-			"source": "/src/modules/chat/index.js:1167",
+			"source": "/src/modules/chat/index.js:1169",
 			"context": null,
 			"revision": 1
 		},
@@ -20680,7 +20739,7 @@
 			"id": "setting.entry.chat.bits.stack.values.1",
 			"doc": "settings",
 			"default": "Grouped by Type",
-			"source": "/src/modules/chat/index.js:1168",
+			"source": "/src/modules/chat/index.js:1170",
 			"context": null,
 			"revision": 1
 		},
@@ -20688,7 +20747,7 @@
 			"id": "setting.entry.chat.bits.stack.values.2",
 			"doc": "settings",
 			"default": "All in One",
-			"source": "/src/modules/chat/index.js:1169",
+			"source": "/src/modules/chat/index.js:1171",
 			"context": null,
 			"revision": 1
 		},
@@ -20719,7 +20778,7 @@
 			"id": "setting.entry.chat.delay",
 			"doc": "settings",
 			"default": "Artificial Chat Delay",
-			"source": "/src/modules/chat/index.js:439\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:441\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -20727,7 +20786,7 @@
 			"id": "setting.entry.chat.delay.description",
 			"doc": "settings",
 			"default": "Delay the appearance of chat messages to allow for moderation before you see them.",
-			"source": "/src/modules/chat/index.js:439\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:441\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -20736,7 +20795,7 @@
 			"id": "setting.entry.chat.delay.values.-1",
 			"doc": "settings",
 			"default": "Default Delay (Room Specific; Non-Mod Only)",
-			"source": "/src/modules/chat/index.js:448",
+			"source": "/src/modules/chat/index.js:450",
 			"context": null,
 			"revision": 1
 		},
@@ -20744,7 +20803,7 @@
 			"id": "setting.entry.chat.delay.values.0",
 			"doc": "settings",
 			"default": "No Delay",
-			"source": "/src/modules/chat/index.js:449",
+			"source": "/src/modules/chat/index.js:451",
 			"context": null,
 			"revision": 1
 		},
@@ -20752,7 +20811,7 @@
 			"id": "setting.entry.chat.delay.values.10000",
 			"doc": "settings",
 			"default": "Extra Large (10s)",
-			"source": "/src/modules/chat/index.js:453",
+			"source": "/src/modules/chat/index.js:455",
 			"context": null,
 			"revision": 1
 		},
@@ -20760,7 +20819,7 @@
 			"id": "setting.entry.chat.delay.values.1200",
 			"doc": "settings",
 			"default": "Normal (Human Moderation; 1.2s)",
-			"source": "/src/modules/chat/index.js:451",
+			"source": "/src/modules/chat/index.js:453",
 			"context": null,
 			"revision": 1
 		},
@@ -20768,7 +20827,7 @@
 			"id": "setting.entry.chat.delay.values.15000",
 			"doc": "settings",
 			"default": "Extremely Large (15s)",
-			"source": "/src/modules/chat/index.js:454",
+			"source": "/src/modules/chat/index.js:456",
 			"context": null,
 			"revision": 1
 		},
@@ -20776,7 +20835,7 @@
 			"id": "setting.entry.chat.delay.values.20000",
 			"doc": "settings",
 			"default": "Mods Asleep; Delay Chat (20s)",
-			"source": "/src/modules/chat/index.js:455",
+			"source": "/src/modules/chat/index.js:457",
 			"context": null,
 			"revision": 1
 		},
@@ -20784,7 +20843,7 @@
 			"id": "setting.entry.chat.delay.values.300",
 			"doc": "settings",
 			"default": "Minor (Bot Moderation; 0.3s)",
-			"source": "/src/modules/chat/index.js:450",
+			"source": "/src/modules/chat/index.js:452",
 			"context": null,
 			"revision": 1
 		},
@@ -20792,7 +20851,7 @@
 			"id": "setting.entry.chat.delay.values.30000",
 			"doc": "settings",
 			"default": "Half a Minute (30s)",
-			"source": "/src/modules/chat/index.js:456",
+			"source": "/src/modules/chat/index.js:458",
 			"context": null,
 			"revision": 1
 		},
@@ -20800,7 +20859,7 @@
 			"id": "setting.entry.chat.delay.values.5000",
 			"doc": "settings",
 			"default": "Large (Spoiler Removal / Slow Mods; 5s)",
-			"source": "/src/modules/chat/index.js:452",
+			"source": "/src/modules/chat/index.js:454",
 			"context": null,
 			"revision": 1
 		},
@@ -20808,7 +20867,7 @@
 			"id": "setting.entry.chat.delay.values.60000",
 			"doc": "settings",
 			"default": "Why??? (1m)",
-			"source": "/src/modules/chat/index.js:457",
+			"source": "/src/modules/chat/index.js:459",
 			"context": null,
 			"revision": 1
 		},
@@ -20816,7 +20875,7 @@
 			"id": "setting.entry.chat.delay.values.788400000000",
 			"doc": "settings",
 			"default": "The CBenni Option (Literally 25 Years)",
-			"source": "/src/modules/chat/index.js:458",
+			"source": "/src/modules/chat/index.js:460",
 			"context": null,
 			"revision": 1
 		},
@@ -21332,7 +21391,7 @@
 			"id": "setting.entry.chat.emotes.animated",
 			"doc": "settings",
 			"default": "Animated Emotes",
-			"source": "/src/modules/chat/index.js:1174\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1176\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21340,7 +21399,7 @@
 			"id": "setting.entry.chat.emotes.animated.description",
 			"doc": "settings",
 			"default": "This controls whether or not animated emotes are allowed to play in chat. When this is `Disabled`, emotes will appear as static images. Setting this to `Enable on Hover` may cause performance issues.",
-			"source": "/src/modules/chat/index.js:1174\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1176\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -21349,7 +21408,7 @@
 			"id": "setting.entry.chat.emotes.animated.values.0",
 			"doc": "settings",
 			"default": "Disabled",
-			"source": "/src/modules/chat/index.js:1196",
+			"source": "/src/modules/chat/index.js:1198",
 			"context": null,
 			"revision": 1
 		},
@@ -21357,7 +21416,7 @@
 			"id": "setting.entry.chat.emotes.animated.values.1",
 			"doc": "settings",
 			"default": "Enabled",
-			"source": "/src/modules/chat/index.js:1197",
+			"source": "/src/modules/chat/index.js:1199",
 			"context": null,
 			"revision": 1
 		},
@@ -21365,7 +21424,7 @@
 			"id": "setting.entry.chat.emotes.animated.values.2",
 			"doc": "settings",
 			"default": "Enable on Hover",
-			"source": "/src/modules/chat/index.js:1198",
+			"source": "/src/modules/chat/index.js:1200",
 			"context": null,
 			"revision": 1
 		},
@@ -21446,14 +21505,14 @@
 			"id": "setting.entry.chat.filtering.all-mentions",
 			"doc": "settings",
 			"default": "Display mentions for all users without requiring an at sign (@).",
-			"source": "/src/modules/chat/index.js:915",
+			"source": "/src/modules/chat/index.js:917",
 			"context": null
 		},
 		"setting.entry.chat.filtering.all-mentions.description": {
 			"id": "setting.entry.chat.filtering.all-mentions.description",
 			"doc": "settings",
 			"default": "**Note**: This setting can increase memory usage and impact chat performance.",
-			"source": "/src/modules/chat/index.js:915",
+			"source": "/src/modules/chat/index.js:917",
 			"context": null,
 			"markdown": true
 		},
@@ -21461,7 +21520,7 @@
 			"id": "setting.entry.chat.filtering.bold-mentions",
 			"doc": "settings",
 			"default": "Display mentions in chat with a bold font.",
-			"source": "/src/modules/chat/index.js:942\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:944\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21469,7 +21528,7 @@
 			"id": "setting.entry.chat.filtering.click-to-reveal",
 			"doc": "settings",
 			"default": "Click to reveal deleted terms.",
-			"source": "/src/modules/chat/index.js:320\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:322\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21477,7 +21536,7 @@
 			"id": "setting.entry.chat.filtering.clickable-mentions",
 			"doc": "settings",
 			"default": "Enable opening viewer cards by clicking mentions in chat.",
-			"source": "/src/modules/chat/index.js:906\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:908\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21485,7 +21544,7 @@
 			"id": "setting.entry.chat.filtering.color-mentions",
 			"doc": "settings",
 			"default": "Display mentions in chat with username colors.",
-			"source": "/src/modules/chat/index.js:925\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:927\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21493,7 +21552,7 @@
 			"id": "setting.entry.chat.filtering.color-mentions.description",
 			"doc": "settings",
 			"default": "**Note:** Not compatible with color overrides as mentions do not include user IDs.",
-			"source": "/src/modules/chat/index.js:925\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:927\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -21502,7 +21561,7 @@
 			"id": "setting.entry.chat.filtering.debug",
 			"doc": "settings",
 			"default": "Display a list of highlight reasons on every chat message for debugging.",
-			"source": "/src/modules/chat/index.js:302",
+			"source": "/src/modules/chat/index.js:304",
 			"context": null,
 			"revision": 1
 		},
@@ -21510,7 +21569,7 @@
 			"id": "setting.entry.chat.filtering.deleted-style",
 			"doc": "settings",
 			"default": "Detailed Message Style",
-			"source": "/src/modules/chat/index.js:329\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:331\nFFZ Control Center",
 			"context": null,
 			"revision": 2
 		},
@@ -21518,7 +21577,7 @@
 			"id": "setting.entry.chat.filtering.deleted-style.description",
 			"doc": "settings",
 			"default": "This style will be applied to deleted messages showed in Detailed rendering mode to differentiate them from normal chat messages.",
-			"source": "/src/modules/chat/index.js:329\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:331\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -21527,7 +21586,7 @@
 			"id": "setting.entry.chat.filtering.deleted-style.values.0",
 			"doc": "settings",
 			"default": "Faded",
-			"source": "/src/modules/chat/index.js:337",
+			"source": "/src/modules/chat/index.js:339",
 			"context": null,
 			"revision": 1
 		},
@@ -21535,7 +21594,7 @@
 			"id": "setting.entry.chat.filtering.deleted-style.values.1",
 			"doc": "settings",
 			"default": "Faded, Line Through",
-			"source": "/src/modules/chat/index.js:338",
+			"source": "/src/modules/chat/index.js:340",
 			"context": null,
 			"revision": 1
 		},
@@ -21543,7 +21602,7 @@
 			"id": "setting.entry.chat.filtering.deleted-style.values.2",
 			"doc": "settings",
 			"default": "Line Through",
-			"source": "/src/modules/chat/index.js:339",
+			"source": "/src/modules/chat/index.js:341",
 			"context": null,
 			"revision": 1
 		},
@@ -21551,7 +21610,7 @@
 			"id": "setting.entry.chat.filtering.deleted-style.values.3",
 			"doc": "settings",
 			"default": "No Change",
-			"source": "/src/modules/chat/index.js:340",
+			"source": "/src/modules/chat/index.js:342",
 			"context": null,
 			"revision": 1
 		},
@@ -21559,7 +21618,7 @@
 			"id": "setting.entry.chat.filtering.display-deleted",
 			"doc": "settings",
 			"default": "Rendering Mode",
-			"source": "/src/modules/chat/index.js:345\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:347\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21567,7 +21626,7 @@
 			"id": "setting.entry.chat.filtering.display-deleted.description",
 			"doc": "settings",
 			"default": "This, when set, overrides the `Deleted Messages` mode selected in Twitch chat settings, which is normally only accessible for moderators. Brief hides messages entirely and shows a notice in chat that a number of messages were hidden. Detailed shows the contents of the message. Legacy shows `<message deleted>` with click to reveal.",
-			"source": "/src/modules/chat/index.js:345\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:347\nFFZ Control Center",
 			"context": null,
 			"revision": 2,
 			"markdown": true
@@ -21576,7 +21635,7 @@
 			"id": "setting.entry.chat.filtering.display-deleted.values.BRIEF",
 			"doc": "settings",
 			"default": "Brief",
-			"source": "/src/modules/chat/index.js:355",
+			"source": "/src/modules/chat/index.js:357",
 			"context": null,
 			"revision": 1
 		},
@@ -21584,7 +21643,7 @@
 			"id": "setting.entry.chat.filtering.display-deleted.values.DETAILED",
 			"doc": "settings",
 			"default": "Detailed",
-			"source": "/src/modules/chat/index.js:356",
+			"source": "/src/modules/chat/index.js:358",
 			"context": null,
 			"revision": 1
 		},
@@ -21592,7 +21651,7 @@
 			"id": "setting.entry.chat.filtering.display-deleted.values.false",
 			"doc": "settings",
 			"default": "Do Not Override",
-			"source": "/src/modules/chat/index.js:354",
+			"source": "/src/modules/chat/index.js:356",
 			"context": null,
 			"revision": 1
 		},
@@ -21600,7 +21659,7 @@
 			"id": "setting.entry.chat.filtering.display-deleted.values.LEGACY",
 			"doc": "settings",
 			"default": "Legacy",
-			"source": "/src/modules/chat/index.js:357",
+			"source": "/src/modules/chat/index.js:359",
 			"context": null,
 			"revision": 1
 		},
@@ -21608,7 +21667,7 @@
 			"id": "setting.entry.chat.filtering.display-mod-action",
 			"doc": "settings",
 			"default": "Display Reason",
-			"source": "/src/modules/chat/index.js:362\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:364\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21616,7 +21675,7 @@
 			"id": "setting.entry.chat.filtering.display-mod-action.values.0",
 			"doc": "settings",
 			"default": "Never",
-			"source": "/src/modules/chat/index.js:369",
+			"source": "/src/modules/chat/index.js:371",
 			"context": null,
 			"revision": 1
 		},
@@ -21624,7 +21683,7 @@
 			"id": "setting.entry.chat.filtering.display-mod-action.values.1",
 			"doc": "settings",
 			"default": "In Detailed Mode",
-			"source": "/src/modules/chat/index.js:370",
+			"source": "/src/modules/chat/index.js:372",
 			"context": null,
 			"revision": 1
 		},
@@ -21632,7 +21691,7 @@
 			"id": "setting.entry.chat.filtering.display-mod-action.values.2",
 			"doc": "settings",
 			"default": "Always",
-			"source": "/src/modules/chat/index.js:371",
+			"source": "/src/modules/chat/index.js:373",
 			"context": null,
 			"revision": 1
 		},
@@ -21688,7 +21747,7 @@
 			"id": "setting.entry.chat.filtering.highlight-mentions",
 			"doc": "settings",
 			"default": "Highlight messages that mention you.",
-			"source": "/src/modules/chat/index.js:973\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:975\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21696,7 +21755,7 @@
 			"id": "setting.entry.chat.filtering.highlight-tokens",
 			"doc": "settings",
 			"default": "Highlight matched words in chat.",
-			"source": "/src/modules/chat/index.js:982\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:984\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21704,7 +21763,7 @@
 			"id": "setting.entry.chat.filtering.ignore-clear",
 			"doc": "settings",
 			"default": "Do not Clear Chat when commanded to.",
-			"source": "/src/modules/chat/index.js:413\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:415\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21712,7 +21771,7 @@
 			"id": "setting.entry.chat.filtering.mention-color",
 			"doc": "settings",
 			"default": "Custom Highlight Color",
-			"source": "/src/modules/chat/index.js:963\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:965\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21720,7 +21779,7 @@
 			"id": "setting.entry.chat.filtering.mention-color.description",
 			"doc": "settings",
 			"default": "If this is set, highlighted messages with no default color set will use this color rather than red.",
-			"source": "/src/modules/chat/index.js:963\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:965\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -21729,7 +21788,7 @@
 			"id": "setting.entry.chat.filtering.mention-priority",
 			"doc": "settings",
 			"default": "Mention Priority",
-			"source": "/src/modules/chat/index.js:951\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:953\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21737,7 +21796,7 @@
 			"id": "setting.entry.chat.filtering.mention-priority.description",
 			"doc": "settings",
 			"default": "Mentions of your name have this priority for the purpose of highlighting. See [Chat > Filtering > Highlight](~chat.filtering.highlight) for more details.",
-			"source": "/src/modules/chat/index.js:951\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:953\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -21746,7 +21805,7 @@
 			"id": "setting.entry.chat.filtering.process-own",
 			"doc": "settings",
 			"default": "Filter your own messages.",
-			"source": "/src/modules/chat/index.js:404\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:406\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21754,7 +21813,7 @@
 			"id": "setting.entry.chat.filtering.remove-deleted",
 			"doc": "settings",
 			"default": "Remove deleted messages from chat.",
-			"source": "/src/modules/chat/index.js:422\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:424\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21762,7 +21821,7 @@
 			"id": "setting.entry.chat.filtering.remove-deleted.description",
 			"doc": "settings",
 			"default": "Deleted messages will be removed from chat entirely. This setting is not recommended for moderators.",
-			"source": "/src/modules/chat/index.js:422\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:424\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -21771,7 +21830,7 @@
 			"id": "setting.entry.chat.filtering.remove-deleted.values.0",
 			"doc": "settings",
 			"default": "Do Not Remove",
-			"source": "/src/modules/chat/index.js:431",
+			"source": "/src/modules/chat/index.js:433",
 			"context": null,
 			"revision": 1
 		},
@@ -21779,7 +21838,7 @@
 			"id": "setting.entry.chat.filtering.remove-deleted.values.1",
 			"doc": "settings",
 			"default": "Remove Unseen (Default)",
-			"source": "/src/modules/chat/index.js:432",
+			"source": "/src/modules/chat/index.js:434",
 			"context": null,
 			"revision": 1
 		},
@@ -21787,7 +21846,7 @@
 			"id": "setting.entry.chat.filtering.remove-deleted.values.2",
 			"doc": "settings",
 			"default": "Remove Unseen as Moderator",
-			"source": "/src/modules/chat/index.js:433",
+			"source": "/src/modules/chat/index.js:435",
 			"context": null,
 			"revision": 1
 		},
@@ -21795,7 +21854,7 @@
 			"id": "setting.entry.chat.filtering.remove-deleted.values.3",
 			"doc": "settings",
 			"default": "Remove All",
-			"source": "/src/modules/chat/index.js:434",
+			"source": "/src/modules/chat/index.js:436",
 			"context": null,
 			"revision": 1
 		},
@@ -21856,7 +21915,7 @@
 			"id": "setting.entry.chat.font-family",
 			"doc": "settings",
 			"default": "Font Family",
-			"source": "/src/modules/chat/index.js:189\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:191\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21864,7 +21923,7 @@
 			"id": "setting.entry.chat.font-family.description",
 			"doc": "settings",
 			"default": "Set the font used for displaying chat messages.",
-			"source": "/src/modules/chat/index.js:189\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:191\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -21873,7 +21932,7 @@
 			"id": "setting.entry.chat.font-size",
 			"doc": "settings",
 			"default": "Font Size",
-			"source": "/src/modules/chat/index.js:177\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:179\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21881,9 +21940,39 @@
 			"id": "setting.entry.chat.font-size.description",
 			"doc": "settings",
 			"default": "How large should text in chat be, in pixels. This may be affected by your browser's zoom and font size settings.",
-			"source": "/src/modules/chat/index.js:177\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:179\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
+			"markdown": true
+		},
+		"setting.entry.chat.gifs.enabled": {
+			"id": "setting.entry.chat.gifs.enabled",
+			"doc": "settings",
+			"default": "Display GIFs in chat.",
+			"source": "/src/modules/chat/index.js:1231",
+			"context": null
+		},
+		"setting.entry.chat.gifs.enabled.description": {
+			"id": "setting.entry.chat.gifs.enabled.description",
+			"doc": "settings",
+			"default": "Twitch subscribers (Tier 2 and 3) can post [animated GIFs](https://help.twitch.tv/s/article/gif-keyboard). When this is disabled, those messages are shown as a link instead.",
+			"source": "/src/modules/chat/index.js:1231",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.chat.gifs.size": {
+			"id": "setting.entry.chat.gifs.size",
+			"doc": "settings",
+			"default": "GIF Size",
+			"source": "/src/modules/chat/index.js:1241",
+			"context": null
+		},
+		"setting.entry.chat.gifs.size.description": {
+			"id": "setting.entry.chat.gifs.size.description",
+			"doc": "settings",
+			"default": "How large GIFs should be, in pixels, as their maximum height.",
+			"source": "/src/modules/chat/index.js:1241",
+			"context": null,
 			"markdown": true
 		},
 		"setting.entry.chat.hide-community-highlights": {
@@ -22065,7 +22154,7 @@
 			"id": "setting.entry.chat.lines.emote-alignment",
 			"doc": "settings",
 			"default": "Emote Alignment",
-			"source": "/src/modules/chat/index.js:215\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:217\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22073,7 +22162,7 @@
 			"id": "setting.entry.chat.lines.emote-alignment.description",
 			"doc": "settings",
 			"default": "Change how emotes are positioned in chat, potentially making messages taller in order to avoid having emotes overlap.",
-			"source": "/src/modules/chat/index.js:215\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:217\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22082,7 +22171,7 @@
 			"id": "setting.entry.chat.lines.emote-alignment.values.0",
 			"doc": "settings",
 			"default": "Standard",
-			"source": "/src/modules/chat/index.js:223",
+			"source": "/src/modules/chat/index.js:225",
 			"context": null,
 			"revision": 1
 		},
@@ -22090,7 +22179,7 @@
 			"id": "setting.entry.chat.lines.emote-alignment.values.1",
 			"doc": "settings",
 			"default": "Padded",
-			"source": "/src/modules/chat/index.js:224",
+			"source": "/src/modules/chat/index.js:226",
 			"context": null,
 			"revision": 1
 		},
@@ -22098,7 +22187,7 @@
 			"id": "setting.entry.chat.lines.emote-alignment.values.2",
 			"doc": "settings",
 			"default": "Baseline (BTTV-Like)",
-			"source": "/src/modules/chat/index.js:225",
+			"source": "/src/modules/chat/index.js:227",
 			"context": null,
 			"revision": 1
 		},
@@ -22150,7 +22239,7 @@
 			"id": "setting.entry.chat.me-style",
 			"doc": "settings",
 			"default": "Action Style",
-			"source": "/src/modules/chat/index.js:1141\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1143\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22158,7 +22247,7 @@
 			"id": "setting.entry.chat.me-style.description",
 			"doc": "settings",
 			"default": "When someone uses `/me`, the message will be rendered in this style.",
-			"source": "/src/modules/chat/index.js:1141\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1143\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22167,7 +22256,7 @@
 			"id": "setting.entry.chat.me-style.values.0",
 			"doc": "settings",
 			"default": "No Style",
-			"source": "/src/modules/chat/index.js:1150",
+			"source": "/src/modules/chat/index.js:1152",
 			"context": null,
 			"revision": 1
 		},
@@ -22175,7 +22264,7 @@
 			"id": "setting.entry.chat.me-style.values.1",
 			"doc": "settings",
 			"default": "Colorized (Old Style)",
-			"source": "/src/modules/chat/index.js:1151",
+			"source": "/src/modules/chat/index.js:1153",
 			"context": null,
 			"revision": 1
 		},
@@ -22183,7 +22272,7 @@
 			"id": "setting.entry.chat.me-style.values.2",
 			"doc": "settings",
 			"default": "Italic (New Style)",
-			"source": "/src/modules/chat/index.js:1152",
+			"source": "/src/modules/chat/index.js:1154",
 			"context": null,
 			"revision": 1
 		},
@@ -22191,7 +22280,7 @@
 			"id": "setting.entry.chat.me-style.values.3",
 			"doc": "settings",
 			"default": "Colorized Italic",
-			"source": "/src/modules/chat/index.js:1153",
+			"source": "/src/modules/chat/index.js:1155",
 			"context": null,
 			"revision": 1
 		},
@@ -22207,7 +22296,7 @@
 			"id": "setting.entry.chat.name-format",
 			"doc": "settings",
 			"default": "Display Style",
-			"source": "/src/modules/chat/index.js:200\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:202\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22215,7 +22304,7 @@
 			"id": "setting.entry.chat.name-format.description",
 			"doc": "settings",
 			"default": "Change how usernames are displayed in chat when users have an international display name set.",
-			"source": "/src/modules/chat/index.js:200\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:202\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22224,7 +22313,7 @@
 			"id": "setting.entry.chat.name-format.values.0",
 			"doc": "settings",
 			"default": "International Name (Username) <Default>",
-			"source": "/src/modules/chat/index.js:208",
+			"source": "/src/modules/chat/index.js:210",
 			"context": null,
 			"revision": 1
 		},
@@ -22232,7 +22321,7 @@
 			"id": "setting.entry.chat.name-format.values.1",
 			"doc": "settings",
 			"default": "International Name",
-			"source": "/src/modules/chat/index.js:209",
+			"source": "/src/modules/chat/index.js:211",
 			"context": null,
 			"revision": 1
 		},
@@ -22240,7 +22329,7 @@
 			"id": "setting.entry.chat.name-format.values.2",
 			"doc": "settings",
 			"default": "Username",
-			"source": "/src/modules/chat/index.js:210",
+			"source": "/src/modules/chat/index.js:212",
 			"context": null,
 			"revision": 1
 		},
@@ -22392,7 +22481,7 @@
 			"id": "setting.entry.chat.rich.all-links",
 			"doc": "settings",
 			"default": "Display rich content embeds for all links.",
-			"source": "/src/modules/chat/index.js:259\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:261\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22400,7 +22489,7 @@
 			"id": "setting.entry.chat.rich.all-links.description",
 			"doc": "settings",
 			"default": "*Streamers: Please be aware that this is a potential vector for NSFW imagery via thumbnails, so be mindful when capturing chat with this enabled.*",
-			"source": "/src/modules/chat/index.js:259\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:261\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22409,7 +22498,7 @@
 			"id": "setting.entry.chat.rich.enabled",
 			"doc": "settings",
 			"default": "Display rich content in chat.",
-			"source": "/src/modules/chat/index.js:230\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:232\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22417,7 +22506,7 @@
 			"id": "setting.entry.chat.rich.enabled.description",
 			"doc": "settings",
 			"default": "This displays rich content blocks for things like linked clips and videos.",
-			"source": "/src/modules/chat/index.js:230\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:232\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22426,7 +22515,7 @@
 			"id": "setting.entry.chat.rich.hide-tokens",
 			"doc": "settings",
 			"default": "Hide matching links for rich content.",
-			"source": "/src/modules/chat/index.js:250\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:252\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22434,7 +22523,7 @@
 			"id": "setting.entry.chat.rich.minimum-level",
 			"doc": "settings",
 			"default": "Required User Level",
-			"source": "/src/modules/chat/index.js:273\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:275\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22442,7 +22531,7 @@
 			"id": "setting.entry.chat.rich.minimum-level.description",
 			"doc": "settings",
 			"default": "Only display rich content embeds on messages posted by users with this level or higher.",
-			"source": "/src/modules/chat/index.js:273\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:275\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22451,7 +22540,7 @@
 			"id": "setting.entry.chat.rich.minimum-level.values.0",
 			"doc": "settings",
 			"default": "Everyone",
-			"source": "/src/modules/chat/index.js:285",
+			"source": "/src/modules/chat/index.js:287",
 			"context": null,
 			"revision": 1
 		},
@@ -22459,7 +22548,7 @@
 			"id": "setting.entry.chat.rich.minimum-level.values.1",
 			"doc": "settings",
 			"default": "Subscriber",
-			"source": "/src/modules/chat/index.js:284",
+			"source": "/src/modules/chat/index.js:286",
 			"context": null,
 			"revision": 1
 		},
@@ -22467,7 +22556,7 @@
 			"id": "setting.entry.chat.rich.minimum-level.values.2",
 			"doc": "settings",
 			"default": "VIP",
-			"source": "/src/modules/chat/index.js:283",
+			"source": "/src/modules/chat/index.js:285",
 			"context": null,
 			"revision": 1
 		},
@@ -22475,7 +22564,7 @@
 			"id": "setting.entry.chat.rich.minimum-level.values.3",
 			"doc": "settings",
 			"default": "Moderator",
-			"source": "/src/modules/chat/index.js:282",
+			"source": "/src/modules/chat/index.js:284",
 			"context": null,
 			"revision": 1
 		},
@@ -22483,7 +22572,7 @@
 			"id": "setting.entry.chat.rich.minimum-level.values.4",
 			"doc": "settings",
 			"default": "Broadcaster",
-			"source": "/src/modules/chat/index.js:281",
+			"source": "/src/modules/chat/index.js:283",
 			"context": null,
 			"revision": 1
 		},
@@ -22491,14 +22580,14 @@
 			"id": "setting.entry.chat.rich.want-mid",
 			"doc": "settings",
 			"default": "Display larger rich content in chat.",
-			"source": "/src/modules/chat/index.js:240\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:242\nFFZ Control Center",
 			"context": null
 		},
 		"setting.entry.chat.rich.want-mid.description": {
 			"id": "setting.entry.chat.rich.want-mid.description",
 			"doc": "settings",
 			"default": "This enables the use of bigger rich content embeds in chat. This is **not** recommended for most users and/or chats.\n\n**Note:** Enabling this may cause chat to scroll at inopportune times due to content loading. Moderators should not use this feature.",
-			"source": "/src/modules/chat/index.js:240\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:242\nFFZ Control Center",
 			"context": null,
 			"markdown": true
 		},
@@ -22514,7 +22603,7 @@
 			"id": "setting.entry.chat.scrollback-length",
 			"doc": "settings",
 			"default": "Scrollback Length",
-			"source": "/src/modules/chat/index.js:290\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:292\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22522,7 +22611,7 @@
 			"id": "setting.entry.chat.scrollback-length.description",
 			"doc": "settings",
 			"default": "Keep up to this many lines in chat. Setting this too high will create lag.",
-			"source": "/src/modules/chat/index.js:290\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:292\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -23089,7 +23178,7 @@
 			"id": "setting.entry.chat.timestamp-format",
 			"doc": "settings",
 			"default": "Timestamp Format",
-			"source": "/src/modules/chat/index.js:1232\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1256\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -23097,7 +23186,7 @@
 			"id": "setting.entry.chat.timestamp-format.description",
 			"doc": "settings",
 			"default": "Timestamps are formatted using the [Day.js](https://github.com/iamkun/dayjs#readme) library. More details about formatting strings [can be found here](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#list-of-all-available-formats)",
-			"source": "/src/modules/chat/index.js:1232\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1256\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -23106,7 +23195,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.h:mm",
 			"doc": "settings",
 			"default": "12 Hour",
-			"source": "/src/modules/chat/index.js:1242",
+			"source": "/src/modules/chat/index.js:1266",
 			"context": null,
 			"revision": 1
 		},
@@ -23114,7 +23203,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.H:mm",
 			"doc": "settings",
 			"default": "24 Hour",
-			"source": "/src/modules/chat/index.js:1244",
+			"source": "/src/modules/chat/index.js:1268",
 			"context": null,
 			"revision": 1
 		},
@@ -23122,7 +23211,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.h:mm:ss",
 			"doc": "settings",
 			"default": "12 Hour with Seconds",
-			"source": "/src/modules/chat/index.js:1243",
+			"source": "/src/modules/chat/index.js:1267",
 			"context": null,
 			"revision": 1
 		},
@@ -23130,7 +23219,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.H:mm:ss",
 			"doc": "settings",
 			"default": "24 Hour with Seconds",
-			"source": "/src/modules/chat/index.js:1245",
+			"source": "/src/modules/chat/index.js:1269",
 			"context": null,
 			"revision": 1
 		},
@@ -23138,7 +23227,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.hh:mm",
 			"doc": "settings",
 			"default": "Padded",
-			"source": "/src/modules/chat/index.js:1246",
+			"source": "/src/modules/chat/index.js:1270",
 			"context": null,
 			"revision": 1
 		},
@@ -23146,7 +23235,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.HH:mm",
 			"doc": "settings",
 			"default": "Padded 24 Hour",
-			"source": "/src/modules/chat/index.js:1248",
+			"source": "/src/modules/chat/index.js:1272",
 			"context": null,
 			"revision": 1
 		},
@@ -23154,7 +23243,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.hh:mm:ss",
 			"doc": "settings",
 			"default": "Padded with Seconds",
-			"source": "/src/modules/chat/index.js:1247",
+			"source": "/src/modules/chat/index.js:1271",
 			"context": null,
 			"revision": 1
 		},
@@ -23162,7 +23251,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.HH:mm:ss",
 			"doc": "settings",
 			"default": "Padded 24 Hour with Seconds",
-			"source": "/src/modules/chat/index.js:1249",
+			"source": "/src/modules/chat/index.js:1273",
 			"context": null,
 			"revision": 1
 		},
@@ -23170,7 +23259,7 @@
 			"id": "setting.entry.chat.timestamp-size",
 			"doc": "settings",
 			"default": "Timestamp Font Size",
-			"source": "/src/modules/chat/index.js:165\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:167\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -23178,7 +23267,7 @@
 			"id": "setting.entry.chat.timestamp-size.description",
 			"doc": "settings",
 			"default": "How large should timestamps be, in pixels. Defaults to Font Size if not set.",
-			"source": "/src/modules/chat/index.js:165\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:167\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -23284,7 +23373,7 @@
 			"id": "setting.entry.debug.link-resolver.source",
 			"doc": "settings",
 			"default": "Link Resolver",
-			"source": "/src/modules/chat/index.js:136",
+			"source": "/src/modules/chat/index.js:138",
 			"context": null,
 			"revision": 1
 		},
@@ -25519,7 +25608,7 @@
 			"id": "setting.entry.tooltip.badge-images",
 			"doc": "settings",
 			"default": "Display large images of badges.",
-			"source": "/src/modules/chat/index.js:1000\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1002\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25527,7 +25616,7 @@
 			"id": "setting.entry.tooltip.emote-images",
 			"doc": "settings",
 			"default": "Display large images of emotes.",
-			"source": "/src/modules/chat/index.js:1023\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1025\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25535,7 +25624,7 @@
 			"id": "setting.entry.tooltip.emote-images.animated",
 			"doc": "settings",
 			"default": "Display animated images of emotes.",
-			"source": "/src/modules/chat/index.js:1203\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1205\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25543,7 +25632,7 @@
 			"id": "setting.entry.tooltip.emote-images.animated.description",
 			"doc": "settings",
 			"default": "If this is not overridden, animated images are only shown in emote tool-tips if [Chat > Appearance >> Emotes > Animated Emotes](~chat.appearance.emotes) is not disabled.",
-			"source": "/src/modules/chat/index.js:1203\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1205\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -25552,7 +25641,7 @@
 			"id": "setting.entry.tooltip.emote-sources",
 			"doc": "settings",
 			"default": "Display known sources.",
-			"source": "/src/modules/chat/index.js:1014\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1016\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25560,7 +25649,7 @@
 			"id": "setting.entry.tooltip.images",
 			"doc": "settings",
 			"default": "Display images in tooltips.",
-			"source": "/src/modules/chat/index.js:991\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:993\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25568,7 +25657,7 @@
 			"id": "setting.entry.tooltip.link-images",
 			"doc": "settings",
 			"default": "Display images for links.",
-			"source": "/src/modules/chat/index.js:1059\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1061\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25576,7 +25665,7 @@
 			"id": "setting.entry.tooltip.link-interaction",
 			"doc": "settings",
 			"default": "Allow interaction with supported link tooltips.",
-			"source": "/src/modules/chat/index.js:1050\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1052\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25584,7 +25673,7 @@
 			"id": "setting.entry.tooltip.link-nsfw-images",
 			"doc": "settings",
 			"default": "Display potentially NSFW images.",
-			"source": "/src/modules/chat/index.js:1073\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1075\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -25592,7 +25681,7 @@
 			"id": "setting.entry.tooltip.link-nsfw-images.description",
 			"doc": "settings",
 			"default": "When enabled, FrankerFaceZ will include images that are tagged as unsafe or that are not rated.",
-			"source": "/src/modules/chat/index.js:1073\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1075\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -25601,7 +25690,7 @@
 			"id": "setting.entry.tooltip.rich-links",
 			"doc": "settings",
 			"default": "Display rich tooltips for links.",
-			"source": "/src/modules/chat/index.js:1037\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1039\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -26131,7 +26220,7 @@
 			"id": "setting.new",
 			"doc": "settings",
 			"default": "New",
-			"source": "/src/modules/main_menu/components/setting-check-box.vue:20\n/src/modules/main_menu/components/setting-color-box.vue:9\n/src/modules/main_menu/components/setting-combo-box.vue:9\n/src/modules/main_menu/components/setting-hotkey.vue:9\n/src/modules/main_menu/components/setting-language.vue:9\n/src/modules/main_menu/components/setting-radio-buttons.vue:5\n/src/modules/main_menu/components/setting-select-box.vue:9\n/src/modules/main_menu/components/setting-text-box.vue:9",
+			"source": "/src/modules/main_menu/components/setting-check-box.vue:20\n/src/modules/main_menu/components/setting-color-box.vue:9\n/src/modules/main_menu/components/setting-combo-box.vue:9\n/src/modules/main_menu/components/setting-hotkey.vue:9\n/src/modules/main_menu/components/setting-radio-buttons.vue:5\n/src/modules/main_menu/components/setting-select-box.vue:9\n/src/modules/main_menu/components/setting-text-box.vue:9",
 			"context": null,
 			"revision": 1
 		},

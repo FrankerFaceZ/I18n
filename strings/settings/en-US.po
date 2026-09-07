@@ -1179,6 +1179,7 @@ msgctxt ""
 "/\n"
 "/\n"
 "/\n"
+"/\n"
 "FFZ Control Center"
 msgid "setting.appearance"
 msgstr "Appearance"
@@ -1804,25 +1805,26 @@ msgstr ""
 #: /src/modules/chat/emotes.js:528
 #: /src/modules/chat/emotes.js:538
 #: /src/modules/chat/emotes.js:548
-#: /src/modules/chat/index.js:1098
-#: /src/modules/chat/index.js:1129
-#: /src/modules/chat/index.js:1141
-#: /src/modules/chat/index.js:1174
-#: /src/modules/chat/index.js:1232
-#: /src/modules/chat/index.js:165
-#: /src/modules/chat/index.js:177
-#: /src/modules/chat/index.js:189
-#: /src/modules/chat/index.js:200
-#: /src/modules/chat/index.js:215
-#: /src/m
+#: /src/modules/chat/index.js:1100
+#: /src/modules/chat/index.js:1131
+#: /src/modules/chat/index.js:1143
+#: /src/modules/chat/index.js:1176
+#: /src/modules/chat/index.js:1231
+#: /src/modules/chat/index.js:1241
+#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:167
+#: /src/modules/chat/index.js:179
+#: /src/modules/chat/index.js:191
 #, icu-message-format
-msgctxt "FFZ Control Center"
+msgctxt ""
+"/src\n"
+"FFZ Control Center"
 msgid "setting.chat.appearance"
 msgstr "Appearance"
 
-#: /src/modules/chat/index.js:1141
-#: /src/modules/chat/index.js:1232
-#: /src/modules/chat/index.js:215
+#: /src/modules/chat/index.js:1143
+#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:217
 #: /src/sites/twitch-twilight/modules/chat/index.js:847
 #: /src/sites/twitch-twilight/modules/chat/index.js:924
 #: /src/sites/twitch-twilight/modules/chat/index.js:933
@@ -1833,8 +1835,8 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.chat_lines"
 msgstr "Chat Lines"
 
-#: /src/modules/chat/index.js:1098
-#: /src/modules/chat/index.js:1129
+#: /src/modules/chat/index.js:1100
+#: /src/modules/chat/index.js:1131
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.colors"
@@ -1871,27 +1873,33 @@ msgstr "Emoji"
 #: /src/modules/chat/emotes.js:528
 #: /src/modules/chat/emotes.js:538
 #: /src/modules/chat/emotes.js:548
-#: /src/modules/chat/index.js:1174
+#: /src/modules/chat/index.js:1176
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emotes"
 msgstr "Emotes"
 
-#: /src/modules/chat/index.js:165
-#: /src/modules/chat/index.js:177
-#: /src/modules/chat/index.js:189
+#: /src/modules/chat/index.js:167
+#: /src/modules/chat/index.js:179
+#: /src/modules/chat/index.js:191
 #: /src/sites/twitch-twilight/modules/chat/index.js:747
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.general"
 msgstr "General"
 
-#: /src/modules/chat/index.js:463
+#: /src/modules/chat/index.js:1231
+#: /src/modules/chat/index.js:1241
+#, icu-message-format
+msgid "setting.chat.appearance.gifs"
+msgstr "GIFs"
+
+#: /src/modules/chat/index.js:465
 #, icu-message-format
 msgid "setting.chat.appearance.hidden_token_types"
 msgstr "Hidden Token Types"
 
-#: /src/modules/chat/index.js:463
+#: /src/modules/chat/index.js:465
 #, icu-message-format, md-text
 msgid "setting.chat.appearance.hidden_token_types.description"
 msgstr ""
@@ -1904,11 +1912,11 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.replies"
 msgstr "Replies"
 
-#: /src/modules/chat/index.js:230
-#: /src/modules/chat/index.js:240
-#: /src/modules/chat/index.js:250
-#: /src/modules/chat/index.js:259
-#: /src/modules/chat/index.js:273
+#: /src/modules/chat/index.js:232
+#: /src/modules/chat/index.js:242
+#: /src/modules/chat/index.js:252
+#: /src/modules/chat/index.js:261
+#: /src/modules/chat/index.js:275
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.rich_content"
@@ -1924,7 +1932,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.subscriptions"
 msgstr "Subscriptions"
 
-#: /src/modules/chat/index.js:200
+#: /src/modules/chat/index.js:202
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.usernames"
@@ -1985,13 +1993,13 @@ msgstr "Visibility"
 #: /src/modules/chat/emotes.js:558
 #: /src/modules/chat/emotes.js:568
 #: /src/modules/chat/emotes.js:577
-#: /src/modules/chat/index.js:290
-#: /src/modules/chat/index.js:329
-#: /src/modules/chat/index.js:345
-#: /src/modules/chat/index.js:362
-#: /src/modules/chat/index.js:413
-#: /src/modules/chat/index.js:422
-#: /src/modules/chat/index.js:439
+#: /src/modules/chat/index.js:292
+#: /src/modules/chat/index.js:331
+#: /src/modules/chat/index.js:347
+#: /src/modules/chat/index.js:364
+#: /src/modules/chat/index.js:415
+#: /src/modules/chat/index.js:424
+#: /src/modules/chat/index.js:441
 #: /src/sites/twitch-twilight/modules/chat/index.js:713
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:37
 #: /src/sites/twitch-twilight/modules/ch
@@ -2000,11 +2008,11 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior"
 msgstr "Behavior"
 
-#: /src/modules/chat/index.js:329
-#: /src/modules/chat/index.js:345
-#: /src/modules/chat/index.js:362
-#: /src/modules/chat/index.js:413
-#: /src/modules/chat/index.js:422
+#: /src/modules/chat/index.js:331
+#: /src/modules/chat/index.js:347
+#: /src/modules/chat/index.js:364
+#: /src/modules/chat/index.js:415
+#: /src/modules/chat/index.js:424
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.deleted_messages"
@@ -2020,8 +2028,8 @@ msgstr "Emoji"
 #: /src/modules/chat/emotes.js:558
 #: /src/modules/chat/emotes.js:568
 #: /src/modules/chat/emotes.js:577
-#: /src/modules/chat/index.js:290
-#: /src/modules/chat/index.js:439
+#: /src/modules/chat/index.js:292
+#: /src/modules/chat/index.js:441
 #: /src/sites/twitch-twilight/modules/chat/index.js:713
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2037,8 +2045,8 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.scrolling"
 msgstr "Scrolling"
 
-#: /src/modules/chat/index.js:1158
-#: /src/modules/chat/index.js:1220
+#: /src/modules/chat/index.js:1160
+#: /src/modules/chat/index.js:1222
 #: /src/sites/twitch-twilight/modules/chat/index.js:810
 #: /src/sites/twitch-twilight/modules/chat/index.js:828
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:413
@@ -2047,8 +2055,8 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.bits_and_cheering"
 msgstr "Bits and Cheering"
 
-#: /src/modules/chat/index.js:1158
-#: /src/modules/chat/index.js:1220
+#: /src/modules/chat/index.js:1160
+#: /src/modules/chat/index.js:1222
 #: /src/sites/twitch-twilight/modules/chat/index.js:828
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:413
 #, icu-message-format
@@ -2197,22 +2205,22 @@ msgstr "Sorting"
 msgid "setting.chat.emote_priorities"
 msgstr "Emote Priorities"
 
-#: /src/modules/chat/index.js:302
-#: /src/modules/chat/index.js:312
-#: /src/modules/chat/index.js:320
-#: /src/modules/chat/index.js:376
-#: /src/modules/chat/index.js:385
-#: /src/modules/chat/index.js:394
-#: /src/modules/chat/index.js:404
-#: /src/modules/chat/index.js:489
-#: /src/modules/chat/index.js:570
-#: /src/modules/chat/index.js:619
-#: /src/modules/chat/index.js:664
-#: /src/modules/chat/index.js:697
-#: /src/modules/chat/index.js:830
-#: /src/modules/chat/index.js:915
-#: /src/modules/chat/index.js:925
-#: /src/modules/chat/index.js:942
+#: /src/modules/chat/index.js:304
+#: /src/modules/chat/index.js:314
+#: /src/modules/chat/index.js:322
+#: /src/modules/chat/index.js:378
+#: /src/modules/chat/index.js:387
+#: /src/modules/chat/index.js:396
+#: /src/modules/chat/index.js:406
+#: /src/modules/chat/index.js:491
+#: /src/modules/chat/index.js:572
+#: /src/modules/chat/index.js:621
+#: /src/modules/chat/index.js:666
+#: /src/modules/chat/index.js:699
+#: /src/modules/chat/index.js:832
+#: /src/modules/chat/index.js:917
+#: /src/modules/chat/index.js:927
+#: /src/modules/chat/index.js:944
 #: /src/modules/cha
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2241,9 +2249,9 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.behavior"
 msgstr "Behavior"
 
-#: /src/modules/chat/index.js:570
-#: /src/modules/chat/index.js:664
-#: /src/modules/chat/index.js:830
+#: /src/modules/chat/index.js:572
+#: /src/modules/chat/index.js:666
+#: /src/modules/chat/index.js:832
 #: /src/sites/twitch-twilight/modules/chat/index.js:389
 #: /src/sites/twitch-twilight/modules/chat/index.js:414
 #, icu-message-format
@@ -2251,13 +2259,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block"
 msgstr "Block"
 
-#: /src/modules/chat/index.js:664
+#: /src/modules/chat/index.js:666
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges"
 msgstr "Badges"
 
-#: /src/modules/chat/index.js:664
+#: /src/modules/chat/index.js:666
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges.description"
@@ -2296,13 +2304,13 @@ msgstr ""
 "Some types, such as moderation actions, cannot be blocked to prevent chat "
 "functionality from breaking."
 
-#: /src/modules/chat/index.js:830
+#: /src/modules/chat/index.js:832
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms"
 msgstr "Terms"
 
-#: /src/modules/chat/index.js:830
+#: /src/modules/chat/index.js:832
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms.description"
@@ -2310,7 +2318,7 @@ msgstr ""
 "Please see [Chat > Filtering > Syntax Help](~) for details on how to use "
 "terms."
 
-#: /src/modules/chat/index.js:570
+#: /src/modules/chat/index.js:572
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.users"
@@ -2351,19 +2359,19 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_users"
 msgstr "Blocked Users"
 
-#: /src/modules/chat/index.js:302
-#: /src/modules/chat/index.js:320
-#: /src/modules/chat/index.js:376
-#: /src/modules/chat/index.js:385
-#: /src/modules/chat/index.js:394
-#: /src/modules/chat/index.js:404
-#: /src/modules/chat/index.js:915
-#: /src/modules/chat/index.js:925
-#: /src/modules/chat/index.js:942
-#: /src/modules/chat/index.js:951
-#: /src/modules/chat/index.js:963
-#: /src/modules/chat/index.js:973
-#: /src/modules/chat/index.js:982
+#: /src/modules/chat/index.js:304
+#: /src/modules/chat/index.js:322
+#: /src/modules/chat/index.js:378
+#: /src/modules/chat/index.js:387
+#: /src/modules/chat/index.js:396
+#: /src/modules/chat/index.js:406
+#: /src/modules/chat/index.js:917
+#: /src/modules/chat/index.js:927
+#: /src/modules/chat/index.js:944
+#: /src/modules/chat/index.js:953
+#: /src/modules/chat/index.js:965
+#: /src/modules/chat/index.js:975
+#: /src/modules/chat/index.js:984
 #: /src/sites/twitch-twilight/modules/chat/index.js:349
 #: /src/sites/twitch-twilight/modules/chat/index.js:838
 #, icu-message-format
@@ -2371,36 +2379,36 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general"
 msgstr "General"
 
-#: /src/modules/chat/index.js:915
-#: /src/modules/chat/index.js:925
-#: /src/modules/chat/index.js:942
-#: /src/modules/chat/index.js:951
-#: /src/modules/chat/index.js:963
-#: /src/modules/chat/index.js:973
-#: /src/modules/chat/index.js:982
+#: /src/modules/chat/index.js:917
+#: /src/modules/chat/index.js:927
+#: /src/modules/chat/index.js:944
+#: /src/modules/chat/index.js:953
+#: /src/modules/chat/index.js:965
+#: /src/modules/chat/index.js:975
+#: /src/modules/chat/index.js:984
 #: /src/sites/twitch-twilight/modules/chat/index.js:349
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.appearance"
 msgstr "Appearance"
 
-#: /src/modules/chat/index.js:376
-#: /src/modules/chat/index.js:385
-#: /src/modules/chat/index.js:394
+#: /src/modules/chat/index.js:378
+#: /src/modules/chat/index.js:387
+#: /src/modules/chat/index.js:396
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters"
 msgstr "AutoMod Filters"
 
-#: /src/modules/chat/index.js:376
+#: /src/modules/chat/index.js:378
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters.description"
 msgstr "Extra configuration for Twitch's native `Chat Filters`."
 
-#: /src/modules/chat/index.js:302
-#: /src/modules/chat/index.js:320
-#: /src/modules/chat/index.js:404
+#: /src/modules/chat/index.js:304
+#: /src/modules/chat/index.js:322
+#: /src/modules/chat/index.js:406
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.behavior"
@@ -2412,10 +2420,10 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.rituals"
 msgstr "Rituals"
 
-#: /src/modules/chat/index.js:312
-#: /src/modules/chat/index.js:489
-#: /src/modules/chat/index.js:619
-#: /src/modules/chat/index.js:697
+#: /src/modules/chat/index.js:314
+#: /src/modules/chat/index.js:491
+#: /src/modules/chat/index.js:621
+#: /src/modules/chat/index.js:699
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight"
@@ -2436,13 +2444,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_users"
 msgstr "Highlight Users"
 
-#: /src/modules/chat/index.js:619
+#: /src/modules/chat/index.js:621
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.badges"
 msgstr "Badges"
 
-#: /src/modules/chat/index.js:489
+#: /src/modules/chat/index.js:491
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.description"
@@ -2457,13 +2465,13 @@ msgstr ""
 "preventing lower priority rules from highlighting them, by setting a color "
 "with an alpha value of zero. Example: `#00000000`"
 
-#: /src/modules/chat/index.js:697
+#: /src/modules/chat/index.js:699
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms"
 msgstr "Terms"
 
-#: /src/modules/chat/index.js:697
+#: /src/modules/chat/index.js:699
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms.description"
@@ -2471,7 +2479,7 @@ msgstr ""
 "Please see [Chat > Filtering > Syntax Help](~) for details on how to use "
 "terms."
 
-#: /src/modules/chat/index.js:489
+#: /src/modules/chat/index.js:491
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.users"
@@ -2581,63 +2589,63 @@ msgstr "Appearance"
 msgid "setting.chat.shared_chat.behavior"
 msgstr "Behavior"
 
-#: /src/modules/chat/index.js:1000
-#: /src/modules/chat/index.js:1014
-#: /src/modules/chat/index.js:1023
-#: /src/modules/chat/index.js:1037
-#: /src/modules/chat/index.js:1050
-#: /src/modules/chat/index.js:1059
-#: /src/modules/chat/index.js:1073
-#: /src/modules/chat/index.js:1086
-#: /src/modules/chat/index.js:1203
-#: /src/modules/chat/index.js:991
+#: /src/modules/chat/index.js:1002
+#: /src/modules/chat/index.js:1016
+#: /src/modules/chat/index.js:1025
+#: /src/modules/chat/index.js:1039
+#: /src/modules/chat/index.js:1052
+#: /src/modules/chat/index.js:1061
+#: /src/modules/chat/index.js:1075
+#: /src/modules/chat/index.js:1088
+#: /src/modules/chat/index.js:1205
+#: /src/modules/chat/index.js:993
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips"
 msgstr "Tooltips"
 
-#: /src/modules/chat/index.js:1000
+#: /src/modules/chat/index.js:1002
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.badges"
 msgstr "Badges"
 
-#: /src/modules/chat/index.js:1014
-#: /src/modules/chat/index.js:1023
-#: /src/modules/chat/index.js:1203
+#: /src/modules/chat/index.js:1016
+#: /src/modules/chat/index.js:1025
+#: /src/modules/chat/index.js:1205
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.emotes"
 msgstr "Emotes"
 
-#: /src/modules/chat/index.js:991
+#: /src/modules/chat/index.js:993
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.general"
 msgstr "General"
 
-#: /src/modules/chat/index.js:1037
-#: /src/modules/chat/index.js:1050
-#: /src/modules/chat/index.js:1059
-#: /src/modules/chat/index.js:1073
+#: /src/modules/chat/index.js:1039
+#: /src/modules/chat/index.js:1052
+#: /src/modules/chat/index.js:1061
+#: /src/modules/chat/index.js:1075
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.tooltips.links"
 msgstr "Links"
 
-#: /src/modules/chat/index.js:1086
+#: /src/modules/chat/index.js:1088
 #, icu-message-format
 msgid "setting.chat.tooltips.terms_of_service"
 msgstr "Terms of Service"
 
-#: /src/modules/chat/index.js:1086
+#: /src/modules/chat/index.js:1088
 #, icu-message-format, md-text
 msgid "setting.chat.tooltips.terms_of_service.description"
 msgstr ""
 "The following services require you to agree to their Terms of Service "
 "before we can show you information from their platforms."
 
-#: /src/modules/chat/index.js:906
+#: /src/modules/chat/index.js:908
 #: /src/sites/twitch-twilight/modules/chat/viewer_card.jsx:20
 #: /src/sites/twitch-twilight/modules/chat/viewer_card.jsx:29
 #, icu-message-format
@@ -2652,7 +2660,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards.appearance"
 msgstr "Appearance"
 
-#: /src/modules/chat/index.js:906
+#: /src/modules/chat/index.js:908
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards.behavior"
@@ -2969,8 +2977,8 @@ msgstr "Provider"
 #: /src/i18n.js:117
 #: /src/i18n.js:92
 #: /src/i18n.js:98
-#: /src/modules/chat/index.js:136
-#: /src/modules/chat/index.js:158
+#: /src/modules/chat/index.js:138
+#: /src/modules/chat/index.js:160
 #: /src/modules/main_menu/index.js:154
 #: /src/pubsub/index.ts:61
 #: /src/sites/twitch-twilight/modules/chat/index.js:364
@@ -3000,15 +3008,15 @@ msgstr "Chat"
 msgid "setting.debugging.chat.processing"
 msgstr "Processing"
 
-#: /src/modules/chat/index.js:136
-#: /src/modules/chat/index.js:158
+#: /src/modules/chat/index.js:138
+#: /src/modules/chat/index.js:160
 #: /src/staging.tsx:42
 #, icu-message-format
 msgid "setting.debugging.data_sources"
 msgstr "Data Sources"
 
-#: /src/modules/chat/index.js:136
-#: /src/modules/chat/index.js:158
+#: /src/modules/chat/index.js:138
+#: /src/modules/chat/index.js:160
 #, icu-message-format
 msgid "setting.debugging.data_sources.links"
 msgstr "Links"
@@ -3527,13 +3535,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.actions.user-context"
 msgstr "chat.actions.user-context"
 
-#: /src/modules/chat/index.js:1129
+#: /src/modules/chat/index.js:1131
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-contrast"
 msgstr "Minimum Contrast"
 
-#: /src/modules/chat/index.js:1129
+#: /src/modules/chat/index.js:1131
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-contrast.description"
@@ -3541,67 +3549,67 @@ msgstr ""
 "Set the minimum contrast ratio used by Luma adjustments when determining "
 "readability."
 
-#: /src/modules/chat/index.js:1098
+#: /src/modules/chat/index.js:1100
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-mode"
 msgstr "Adjustment"
 
-#: /src/modules/chat/index.js:1098
+#: /src/modules/chat/index.js:1100
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.adjustment-mode.description"
 msgstr "Alter user colors to ensure that they remain readable."
 
-#: /src/modules/chat/index.js:1119
+#: /src/modules/chat/index.js:1121
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.-1"
 msgstr "No Color"
 
-#: /src/modules/chat/index.js:1120
+#: /src/modules/chat/index.js:1122
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.0"
 msgstr "Unchanged"
 
-#: /src/modules/chat/index.js:1121
+#: /src/modules/chat/index.js:1123
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.1"
 msgstr "HSL Luma"
 
-#: /src/modules/chat/index.js:1122
+#: /src/modules/chat/index.js:1124
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.2"
 msgstr "Luv Luma"
 
-#: /src/modules/chat/index.js:1123
+#: /src/modules/chat/index.js:1125
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.3"
 msgstr "HSL Loop (BTTV-Like)"
 
-#: /src/modules/chat/index.js:1124
+#: /src/modules/chat/index.js:1126
 #, icu-message-format
 msgid "setting.entry.chat.adjustment-mode.values.4"
 msgstr "RGB Loop (Deprecated)"
 
-#: /src/modules/chat/index.js:376
+#: /src/modules/chat/index.js:378
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.delete-messages"
 msgstr "Mark messages as deleted if they contain filtered phrases."
 
-#: /src/modules/chat/index.js:385
+#: /src/modules/chat/index.js:387
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.remove-messages"
 msgstr "Remove messages entirely if they contain filtered phrases."
 
-#: /src/modules/chat/index.js:394
+#: /src/modules/chat/index.js:396
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod"
 msgstr "Use Chat Filters as a moderator."
 
-#: /src/modules/chat/index.js:394
+#: /src/modules/chat/index.js:396
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.automod.run-as-mod.description"
@@ -3816,7 +3824,7 @@ msgstr ""
 "Allow the Shared Chat notice to be displayed in chat when a Shared Chat is "
 "enabled."
 
-#: /src/modules/chat/index.js:1220
+#: /src/modules/chat/index.js:1222
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.animated"
@@ -3892,13 +3900,13 @@ msgstr ""
 "Display UI associated with bits. Note: This will not hide cheering in chat "
 "messages."
 
-#: /src/modules/chat/index.js:1158
+#: /src/modules/chat/index.js:1160
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.stack"
 msgstr "Cheer Stacking"
 
-#: /src/modules/chat/index.js:1158
+#: /src/modules/chat/index.js:1160
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.stack.description"
@@ -3906,17 +3914,17 @@ msgstr ""
 "Collect all the cheers in a message into a single cheer at the start of the "
 "message."
 
-#: /src/modules/chat/index.js:1167
+#: /src/modules/chat/index.js:1169
 #, icu-message-format
 msgid "setting.entry.chat.bits.stack.values.0"
 msgstr "Disabled"
 
-#: /src/modules/chat/index.js:1168
+#: /src/modules/chat/index.js:1170
 #, icu-message-format
 msgid "setting.entry.chat.bits.stack.values.1"
 msgstr "Grouped by Type"
 
-#: /src/modules/chat/index.js:1169
+#: /src/modules/chat/index.js:1171
 #, icu-message-format
 msgid "setting.entry.chat.bits.stack.values.2"
 msgstr "All in One"
@@ -3938,13 +3946,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.community-chest.show"
 msgstr "Display the Community Gift Chest banner."
 
-#: /src/modules/chat/index.js:439
+#: /src/modules/chat/index.js:441
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.delay"
 msgstr "Artificial Chat Delay"
 
-#: /src/modules/chat/index.js:439
+#: /src/modules/chat/index.js:441
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.delay.description"
@@ -3952,57 +3960,57 @@ msgstr ""
 "Delay the appearance of chat messages to allow for moderation before you "
 "see them."
 
-#: /src/modules/chat/index.js:448
+#: /src/modules/chat/index.js:450
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.-1"
 msgstr "Default Delay (Room Specific; Non-Mod Only)"
 
-#: /src/modules/chat/index.js:449
+#: /src/modules/chat/index.js:451
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.0"
 msgstr "No Delay"
 
-#: /src/modules/chat/index.js:453
+#: /src/modules/chat/index.js:455
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.10000"
 msgstr "Extra Large (10s)"
 
-#: /src/modules/chat/index.js:451
+#: /src/modules/chat/index.js:453
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.1200"
 msgstr "Normal (Human Moderation; 1.2s)"
 
-#: /src/modules/chat/index.js:454
+#: /src/modules/chat/index.js:456
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.15000"
 msgstr "Extremely Large (15s)"
 
-#: /src/modules/chat/index.js:455
+#: /src/modules/chat/index.js:457
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.20000"
 msgstr "Mods Asleep; Delay Chat (20s)"
 
-#: /src/modules/chat/index.js:450
+#: /src/modules/chat/index.js:452
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.300"
 msgstr "Minor (Bot Moderation; 0.3s)"
 
-#: /src/modules/chat/index.js:456
+#: /src/modules/chat/index.js:458
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.30000"
 msgstr "Half a Minute (30s)"
 
-#: /src/modules/chat/index.js:452
+#: /src/modules/chat/index.js:454
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.5000"
 msgstr "Large (Spoiler Removal / Slow Mods; 5s)"
 
-#: /src/modules/chat/index.js:457
+#: /src/modules/chat/index.js:459
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.60000"
 msgstr "Why??? (1m)"
 
-#: /src/modules/chat/index.js:458
+#: /src/modules/chat/index.js:460
 #, icu-message-format
 msgid "setting.entry.chat.delay.values.788400000000"
 msgstr "The CBenni Option (Literally 25 Years)"
@@ -4378,13 +4386,13 @@ msgstr ""
 "How big is too big? Giant? Disable this and the emotes will be displayed "
 "normally."
 
-#: /src/modules/chat/index.js:1174
+#: /src/modules/chat/index.js:1176
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated"
 msgstr "Animated Emotes"
 
-#: /src/modules/chat/index.js:1174
+#: /src/modules/chat/index.js:1176
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.animated.description"
@@ -4393,17 +4401,17 @@ msgstr ""
 "When this is `Disabled`, emotes will appear as static images. Setting this "
 "to `Enable on Hover` may cause performance issues."
 
-#: /src/modules/chat/index.js:1196
+#: /src/modules/chat/index.js:1198
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.0"
 msgstr "Disabled"
 
-#: /src/modules/chat/index.js:1197
+#: /src/modules/chat/index.js:1199
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.1"
 msgstr "Enabled"
 
-#: /src/modules/chat/index.js:1198
+#: /src/modules/chat/index.js:1200
 #, icu-message-format
 msgid "setting.entry.chat.emotes.animated.values.2"
 msgstr "Enable on Hover"
@@ -4461,43 +4469,43 @@ msgstr ""
 "When enabled, timestamps will be displayed on point redemptions, "
 "subscriptions, etc."
 
-#: /src/modules/chat/index.js:915
+#: /src/modules/chat/index.js:917
 #, icu-message-format
 msgid "setting.entry.chat.filtering.all-mentions"
 msgstr "Display mentions for all users without requiring an at sign (@)."
 
-#: /src/modules/chat/index.js:915
+#: /src/modules/chat/index.js:917
 #, icu-message-format, md-text
 msgid "setting.entry.chat.filtering.all-mentions.description"
 msgstr ""
 "**Note**: This setting can increase memory usage and impact chat "
 "performance."
 
-#: /src/modules/chat/index.js:942
+#: /src/modules/chat/index.js:944
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Display mentions in chat with a bold font."
 
-#: /src/modules/chat/index.js:320
+#: /src/modules/chat/index.js:322
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.click-to-reveal"
 msgstr "Click to reveal deleted terms."
 
-#: /src/modules/chat/index.js:906
+#: /src/modules/chat/index.js:908
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.clickable-mentions"
 msgstr "Enable opening viewer cards by clicking mentions in chat."
 
-#: /src/modules/chat/index.js:925
+#: /src/modules/chat/index.js:927
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions"
 msgstr "Display mentions in chat with username colors."
 
-#: /src/modules/chat/index.js:925
+#: /src/modules/chat/index.js:927
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.color-mentions.description"
@@ -4505,18 +4513,18 @@ msgstr ""
 "**Note:** Not compatible with color overrides as mentions do not include "
 "user IDs."
 
-#: /src/modules/chat/index.js:302
+#: /src/modules/chat/index.js:304
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
 msgstr "Display a list of highlight reasons on every chat message for debugging."
 
-#: /src/modules/chat/index.js:329
+#: /src/modules/chat/index.js:331
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style"
 msgstr "Detailed Message Style"
 
-#: /src/modules/chat/index.js:329
+#: /src/modules/chat/index.js:331
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.deleted-style.description"
@@ -4524,33 +4532,33 @@ msgstr ""
 "This style will be applied to deleted messages showed in Detailed rendering "
 "mode to differentiate them from normal chat messages."
 
-#: /src/modules/chat/index.js:337
+#: /src/modules/chat/index.js:339
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.0"
 msgstr "Faded"
 
-#: /src/modules/chat/index.js:338
+#: /src/modules/chat/index.js:340
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.1"
 msgstr "Faded, Line Through"
 
-#: /src/modules/chat/index.js:339
+#: /src/modules/chat/index.js:341
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.2"
 msgstr "Line Through"
 
-#: /src/modules/chat/index.js:340
+#: /src/modules/chat/index.js:342
 #, icu-message-format
 msgid "setting.entry.chat.filtering.deleted-style.values.3"
 msgstr "No Change"
 
-#: /src/modules/chat/index.js:345
+#: /src/modules/chat/index.js:347
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-deleted"
 msgstr "Rendering Mode"
 
-#: /src/modules/chat/index.js:345
+#: /src/modules/chat/index.js:347
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-deleted.description"
@@ -4561,43 +4569,43 @@ msgstr ""
 "messages were hidden. Detailed shows the contents of the message. Legacy "
 "shows `<message deleted>` with click to reveal."
 
-#: /src/modules/chat/index.js:355
+#: /src/modules/chat/index.js:357
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
 msgstr "Brief"
 
-#: /src/modules/chat/index.js:356
+#: /src/modules/chat/index.js:358
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
 msgstr "Detailed"
 
-#: /src/modules/chat/index.js:354
+#: /src/modules/chat/index.js:356
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.false"
 msgstr "Do Not Override"
 
-#: /src/modules/chat/index.js:357
+#: /src/modules/chat/index.js:359
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
 msgstr "Legacy"
 
-#: /src/modules/chat/index.js:362
+#: /src/modules/chat/index.js:364
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-mod-action"
 msgstr "Display Reason"
 
-#: /src/modules/chat/index.js:369
+#: /src/modules/chat/index.js:371
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-mod-action.values.0"
 msgstr "Never"
 
-#: /src/modules/chat/index.js:370
+#: /src/modules/chat/index.js:372
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-mod-action.values.1"
 msgstr "In Detailed Mode"
 
-#: /src/modules/chat/index.js:371
+#: /src/modules/chat/index.js:373
 #, icu-message-format
 msgid "setting.entry.chat.filtering.display-mod-action.values.2"
 msgstr "Always"
@@ -4632,31 +4640,31 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-basic-users-blocked"
 msgstr "chat.filtering.highlight-basic-users-blocked"
 
-#: /src/modules/chat/index.js:973
+#: /src/modules/chat/index.js:975
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-mentions"
 msgstr "Highlight messages that mention you."
 
-#: /src/modules/chat/index.js:982
+#: /src/modules/chat/index.js:984
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-tokens"
 msgstr "Highlight matched words in chat."
 
-#: /src/modules/chat/index.js:413
+#: /src/modules/chat/index.js:415
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.ignore-clear"
 msgstr "Do not Clear Chat when commanded to."
 
-#: /src/modules/chat/index.js:963
+#: /src/modules/chat/index.js:965
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-color"
 msgstr "Custom Highlight Color"
 
-#: /src/modules/chat/index.js:963
+#: /src/modules/chat/index.js:965
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-color.description"
@@ -4664,13 +4672,13 @@ msgstr ""
 "If this is set, highlighted messages with no default color set will use "
 "this color rather than red."
 
-#: /src/modules/chat/index.js:951
+#: /src/modules/chat/index.js:953
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-priority"
 msgstr "Mention Priority"
 
-#: /src/modules/chat/index.js:951
+#: /src/modules/chat/index.js:953
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.mention-priority.description"
@@ -4679,19 +4687,19 @@ msgstr ""
 "See [Chat > Filtering > Highlight](~chat.filtering.highlight) for more "
 "details."
 
-#: /src/modules/chat/index.js:404
+#: /src/modules/chat/index.js:406
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.process-own"
 msgstr "Filter your own messages."
 
-#: /src/modules/chat/index.js:422
+#: /src/modules/chat/index.js:424
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.remove-deleted"
 msgstr "Remove deleted messages from chat."
 
-#: /src/modules/chat/index.js:422
+#: /src/modules/chat/index.js:424
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.remove-deleted.description"
@@ -4699,22 +4707,22 @@ msgstr ""
 "Deleted messages will be removed from chat entirely. This setting is not "
 "recommended for moderators."
 
-#: /src/modules/chat/index.js:431
+#: /src/modules/chat/index.js:433
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.0"
 msgstr "Do Not Remove"
 
-#: /src/modules/chat/index.js:432
+#: /src/modules/chat/index.js:434
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.1"
 msgstr "Remove Unseen (Default)"
 
-#: /src/modules/chat/index.js:433
+#: /src/modules/chat/index.js:435
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
 msgstr "Remove Unseen as Moderator"
 
-#: /src/modules/chat/index.js:434
+#: /src/modules/chat/index.js:436
 #, icu-message-format
 msgid "setting.entry.chat.filtering.remove-deleted.values.3"
 msgstr "Remove All"
@@ -4762,31 +4770,54 @@ msgstr ""
 "Clean up the images for bad Twitch global emotes, removing white borders "
 "and solid backgrounds."
 
-#: /src/modules/chat/index.js:189
+#: /src/modules/chat/index.js:191
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-family"
 msgstr "Font Family"
 
-#: /src/modules/chat/index.js:189
+#: /src/modules/chat/index.js:191
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-family.description"
 msgstr "Set the font used for displaying chat messages."
 
-#: /src/modules/chat/index.js:177
+#: /src/modules/chat/index.js:179
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-size"
 msgstr "Font Size"
 
-#: /src/modules/chat/index.js:177
+#: /src/modules/chat/index.js:179
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.font-size.description"
 msgstr ""
 "How large should text in chat be, in pixels. This may be affected by your "
 "browser's zoom and font size settings."
+
+#: /src/modules/chat/index.js:1231
+#, icu-message-format
+msgid "setting.entry.chat.gifs.enabled"
+msgstr "Display GIFs in chat."
+
+#: /src/modules/chat/index.js:1231
+#, icu-message-format, md-text
+msgid "setting.entry.chat.gifs.enabled.description"
+msgstr ""
+"Twitch subscribers (Tier 2 and 3) can post [animated "
+"GIFs](https://help.twitch.tv/s/article/gif-keyboard). When this is "
+"disabled, those messages are shown as a link instead."
+
+#: /src/modules/chat/index.js:1241
+#, icu-message-format
+msgid "setting.entry.chat.gifs.size"
+msgstr "GIF Size"
+
+#: /src/modules/chat/index.js:1241
+#, icu-message-format, md-text
+msgid "setting.entry.chat.gifs.size.description"
+msgstr "How large GIFs should be, in pixels, as their maximum height."
 
 #: /src/sites/twitch-twilight/modules/chat/index.js:516
 #, icu-message-format
@@ -4922,13 +4953,13 @@ msgstr "3D Line (2px Groove Inset)"
 msgid "setting.entry.chat.lines.borders.values.4"
 msgstr "Wide Line (2px Solid)"
 
-#: /src/modules/chat/index.js:215
+#: /src/modules/chat/index.js:217
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.emote-alignment"
 msgstr "Emote Alignment"
 
-#: /src/modules/chat/index.js:215
+#: /src/modules/chat/index.js:217
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.emote-alignment.description"
@@ -4936,17 +4967,17 @@ msgstr ""
 "Change how emotes are positioned in chat, potentially making messages "
 "taller in order to avoid having emotes overlap."
 
-#: /src/modules/chat/index.js:223
+#: /src/modules/chat/index.js:225
 #, icu-message-format
 msgid "setting.entry.chat.lines.emote-alignment.values.0"
 msgstr "Standard"
 
-#: /src/modules/chat/index.js:224
+#: /src/modules/chat/index.js:226
 #, icu-message-format
 msgid "setting.entry.chat.lines.emote-alignment.values.1"
 msgstr "Padded"
 
-#: /src/modules/chat/index.js:225
+#: /src/modules/chat/index.js:227
 #, icu-message-format
 msgid "setting.entry.chat.lines.emote-alignment.values.2"
 msgstr "Baseline (BTTV-Like)"
@@ -4982,34 +5013,34 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.padding"
 msgstr "Reduce padding around lines."
 
-#: /src/modules/chat/index.js:1141
+#: /src/modules/chat/index.js:1143
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.me-style"
 msgstr "Action Style"
 
-#: /src/modules/chat/index.js:1141
+#: /src/modules/chat/index.js:1143
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.me-style.description"
 msgstr "When someone uses `/me`, the message will be rendered in this style."
 
-#: /src/modules/chat/index.js:1150
+#: /src/modules/chat/index.js:1152
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.0"
 msgstr "No Style"
 
-#: /src/modules/chat/index.js:1151
+#: /src/modules/chat/index.js:1153
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.1"
 msgstr "Colorized (Old Style)"
 
-#: /src/modules/chat/index.js:1152
+#: /src/modules/chat/index.js:1154
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.2"
 msgstr "Italic (New Style)"
 
-#: /src/modules/chat/index.js:1153
+#: /src/modules/chat/index.js:1155
 #, icu-message-format
 msgid "setting.entry.chat.me-style.values.3"
 msgstr "Colorized Italic"
@@ -5020,13 +5051,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.mru.enabled"
 msgstr "Allow pressing up and down to recall previously sent chat messages."
 
-#: /src/modules/chat/index.js:200
+#: /src/modules/chat/index.js:202
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.name-format"
 msgstr "Display Style"
 
-#: /src/modules/chat/index.js:200
+#: /src/modules/chat/index.js:202
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.name-format.description"
@@ -5034,17 +5065,17 @@ msgstr ""
 "Change how usernames are displayed in chat when users have an international "
 "display name set."
 
-#: /src/modules/chat/index.js:208
+#: /src/modules/chat/index.js:210
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.0"
 msgstr "International Name (Username) <Default>"
 
-#: /src/modules/chat/index.js:209
+#: /src/modules/chat/index.js:211
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.1"
 msgstr "International Name"
 
-#: /src/modules/chat/index.js:210
+#: /src/modules/chat/index.js:212
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.2"
 msgstr "Username"
@@ -5158,13 +5189,13 @@ msgstr "Twitch (Default)"
 msgid "setting.entry.chat.replies.style.values.2"
 msgstr "FrankerFaceZ"
 
-#: /src/modules/chat/index.js:259
+#: /src/modules/chat/index.js:261
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links"
 msgstr "Display rich content embeds for all links."
 
-#: /src/modules/chat/index.js:259
+#: /src/modules/chat/index.js:261
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
@@ -5173,31 +5204,31 @@ msgstr ""
 "imagery via thumbnails, so be mindful when capturing chat with this "
 "enabled.*"
 
-#: /src/modules/chat/index.js:230
+#: /src/modules/chat/index.js:232
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled"
 msgstr "Display rich content in chat."
 
-#: /src/modules/chat/index.js:230
+#: /src/modules/chat/index.js:232
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled.description"
 msgstr "This displays rich content blocks for things like linked clips and videos."
 
-#: /src/modules/chat/index.js:250
+#: /src/modules/chat/index.js:252
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.hide-tokens"
 msgstr "Hide matching links for rich content."
 
-#: /src/modules/chat/index.js:273
+#: /src/modules/chat/index.js:275
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level"
 msgstr "Required User Level"
 
-#: /src/modules/chat/index.js:273
+#: /src/modules/chat/index.js:275
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.minimum-level.description"
@@ -5205,38 +5236,38 @@ msgstr ""
 "Only display rich content embeds on messages posted by users with this "
 "level or higher."
 
-#: /src/modules/chat/index.js:285
+#: /src/modules/chat/index.js:287
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.0"
 msgstr "Everyone"
 
-#: /src/modules/chat/index.js:284
+#: /src/modules/chat/index.js:286
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.1"
 msgstr "Subscriber"
 
-#: /src/modules/chat/index.js:283
+#: /src/modules/chat/index.js:285
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.2"
 msgstr "VIP"
 
-#: /src/modules/chat/index.js:282
+#: /src/modules/chat/index.js:284
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.3"
 msgstr "Moderator"
 
-#: /src/modules/chat/index.js:281
+#: /src/modules/chat/index.js:283
 #, icu-message-format
 msgid "setting.entry.chat.rich.minimum-level.values.4"
 msgstr "Broadcaster"
 
-#: /src/modules/chat/index.js:240
+#: /src/modules/chat/index.js:242
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.want-mid"
 msgstr "Display larger rich content in chat."
 
-#: /src/modules/chat/index.js:240
+#: /src/modules/chat/index.js:242
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.want-mid.description"
@@ -5253,13 +5284,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rituals.show"
 msgstr "Display ritual messages such as \"User is new here! Say Hello!\"."
 
-#: /src/modules/chat/index.js:290
+#: /src/modules/chat/index.js:292
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length"
 msgstr "Scrollback Length"
 
-#: /src/modules/chat/index.js:290
+#: /src/modules/chat/index.js:292
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scrollback-length.description"
@@ -5675,13 +5706,13 @@ msgstr "Short"
 msgid "setting.entry.chat.tab-complete.show-source.values.2"
 msgstr "Long"
 
-#: /src/modules/chat/index.js:1232
+#: /src/modules/chat/index.js:1256
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format"
 msgstr "Timestamp Format"
 
-#: /src/modules/chat/index.js:1232
+#: /src/modules/chat/index.js:1256
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format.description"
@@ -5692,53 +5723,53 @@ msgstr ""
 "here](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-#: /src/modules/chat/index.js:1242
+#: /src/modules/chat/index.js:1266
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Hour"
 
-#: /src/modules/chat/index.js:1244
+#: /src/modules/chat/index.js:1268
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm"
 msgstr "24 Hour"
 
-#: /src/modules/chat/index.js:1243
+#: /src/modules/chat/index.js:1267
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
 msgstr "12 Hour with Seconds"
 
-#: /src/modules/chat/index.js:1245
+#: /src/modules/chat/index.js:1269
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Hour with Seconds"
 
-#: /src/modules/chat/index.js:1246
+#: /src/modules/chat/index.js:1270
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm"
 msgstr "Padded"
 
-#: /src/modules/chat/index.js:1248
+#: /src/modules/chat/index.js:1272
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm"
 msgstr "Padded 24 Hour"
 
-#: /src/modules/chat/index.js:1247
+#: /src/modules/chat/index.js:1271
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
 msgstr "Padded with Seconds"
 
-#: /src/modules/chat/index.js:1249
+#: /src/modules/chat/index.js:1273
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
 msgstr "Padded 24 Hour with Seconds"
 
-#: /src/modules/chat/index.js:165
+#: /src/modules/chat/index.js:167
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-size"
 msgstr "Timestamp Font Size"
 
-#: /src/modules/chat/index.js:165
+#: /src/modules/chat/index.js:167
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-size.description"
@@ -5821,7 +5852,7 @@ msgstr ""
 msgid "setting.entry.data.use-staging"
 msgstr "Use staging as data source."
 
-#: /src/modules/chat/index.js:136
+#: /src/modules/chat/index.js:138
 #, icu-message-format
 msgid "setting.entry.debug.link-resolver.source"
 msgstr "Link Resolver"
@@ -7497,25 +7528,25 @@ msgstr ""
 msgid "setting.entry.theme.legacy-dark-input"
 msgstr "Use old input element colors with dark theme."
 
-#: /src/modules/chat/index.js:1000
+#: /src/modules/chat/index.js:1002
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.badge-images"
 msgstr "Display large images of badges."
 
-#: /src/modules/chat/index.js:1023
+#: /src/modules/chat/index.js:1025
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images"
 msgstr "Display large images of emotes."
 
-#: /src/modules/chat/index.js:1203
+#: /src/modules/chat/index.js:1205
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated"
 msgstr "Display animated images of emotes."
 
-#: /src/modules/chat/index.js:1203
+#: /src/modules/chat/index.js:1205
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-images.animated.description"
@@ -7524,37 +7555,37 @@ msgstr ""
 "tool-tips if [Chat > Appearance >> Emotes > Animated "
 "Emotes](~chat.appearance.emotes) is not disabled."
 
-#: /src/modules/chat/index.js:1014
+#: /src/modules/chat/index.js:1016
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.emote-sources"
 msgstr "Display known sources."
 
-#: /src/modules/chat/index.js:991
+#: /src/modules/chat/index.js:993
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.images"
 msgstr "Display images in tooltips."
 
-#: /src/modules/chat/index.js:1059
+#: /src/modules/chat/index.js:1061
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-images"
 msgstr "Display images for links."
 
-#: /src/modules/chat/index.js:1050
+#: /src/modules/chat/index.js:1052
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-interaction"
 msgstr "Allow interaction with supported link tooltips."
 
-#: /src/modules/chat/index.js:1073
+#: /src/modules/chat/index.js:1075
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-nsfw-images"
 msgstr "Display potentially NSFW images."
 
-#: /src/modules/chat/index.js:1073
+#: /src/modules/chat/index.js:1075
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.link-nsfw-images.description"
@@ -7562,7 +7593,7 @@ msgstr ""
 "When enabled, FrankerFaceZ will include images that are tagged as unsafe or "
 "that are not rated."
 
-#: /src/modules/chat/index.js:1037
+#: /src/modules/chat/index.js:1039
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.rich-links"
@@ -7937,7 +7968,6 @@ msgstr "Shift"
 #: /src/modules/main_menu/components/setting-color-box.vue:9
 #: /src/modules/main_menu/components/setting-combo-box.vue:9
 #: /src/modules/main_menu/components/setting-hotkey.vue:9
-#: /src/modules/main_menu/components/setting-language.vue:9
 #: /src/modules/main_menu/components/setting-radio-buttons.vue:5
 #: /src/modules/main_menu/components/setting-select-box.vue:9
 #: /src/modules/main_menu/components/setting-text-box.vue:9
