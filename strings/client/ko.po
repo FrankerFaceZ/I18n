@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Korean "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/ko/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: Korean <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "async-text.upload"
 msgstr "업로드"
@@ -1151,3 +1151,13 @@ msgstr "{user}의 동영상"
 #, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} 시청자 - {date,datetime}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "공지"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user}님이 {count}명과 함께 레이드 중입니다."
