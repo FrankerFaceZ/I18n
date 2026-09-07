@@ -14302,7 +14302,7 @@
 			"id": "embed.7tv.by-line",
 			"doc": "embed",
 			"default": "By: {user}",
-			"source": "/lib/resolvers/7tv.js:82",
+			"source": "/lib/resolvers/7tv.js:99\n/lib/resolvers/7tv.js:82",
 			"context": null,
 			"placeholders": [
 				"user"
@@ -14312,7 +14312,7 @@
 			"id": "embed.7tv.emote",
 			"doc": "embed",
 			"default": "Emote",
-			"source": "/lib/resolvers/7tv.js:44",
+			"source": "/lib/resolvers/7tv.js:110\n/lib/resolvers/7tv.js:97\n/lib/resolvers/7tv.js:44",
 			"context": null
 		},
 		"embed.7tv.flags": {
@@ -14329,25 +14329,32 @@
 			"source": "/lib/resolvers/7tv.js:44",
 			"context": null
 		},
+		"embed.7tv.overlaying": {
+			"id": "embed.7tv.overlaying",
+			"doc": "embed",
+			"default": "Overlaying",
+			"source": "/lib/resolvers/7tv.js:61",
+			"context": null
+		},
 		"embed.7tv.private": {
 			"id": "embed.7tv.private",
 			"doc": "embed",
 			"default": "Private",
-			"source": "/lib/resolvers/7tv.js:59",
+			"source": "/lib/resolvers/7tv.js:66\n/lib/resolvers/7tv.js:59",
 			"context": null
 		},
 		"embed.7tv.unlisted": {
 			"id": "embed.7tv.unlisted",
 			"doc": "embed",
 			"default": "Unlisted",
-			"source": "/lib/resolvers/7tv.js:63",
+			"source": "/lib/resolvers/7tv.js:71\n/lib/resolvers/7tv.js:63",
 			"context": null
 		},
 		"embed.7tv.uploader": {
 			"id": "embed.7tv.uploader",
 			"doc": "embed",
 			"default": "Uploader:",
-			"source": "/lib/resolvers/7tv.js:113",
+			"source": "/lib/resolvers/7tv.js:131\n/lib/resolvers/7tv.js:113",
 			"context": null
 		},
 		"embed.7tv.zero_width": {
