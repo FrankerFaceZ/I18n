@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-28 20:31+0000\n"
-"Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
-"Language-Team: French "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/fr/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: French <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "async-text.upload"
 msgstr "Mettre en ligne"
@@ -1124,3 +1124,13 @@ msgstr "Vidéo de {user}"
 #, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Vues - {date}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "Annonce"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user} lance un raid avec un groupe de {count}."
