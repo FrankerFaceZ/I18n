@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Italian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/it/>\n"
@@ -1228,3 +1228,15 @@ msgstr "Annuncio"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user} sta facendo un raid insieme ad altri {count} utenti."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"{user} ha visto {streak, plural, one {# trasmissione consecutiva} other {# "
+"trasmissioni consecutive}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Serie di trasmissioni consecutive {points_icon}+{copo}"
