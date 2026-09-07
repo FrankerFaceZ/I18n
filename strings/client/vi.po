@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Vietnamese <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/vi/>\n"
@@ -1453,3 +1453,15 @@ msgstr "Thông báo"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user} đang chuyển hướng một nhóm gồm {count}."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"{user} hiện đang thực hiện chuỗi xem {streak, plural, other {# chương trình "
+"truyền trực tiếp}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Đã đạt được chuỗi xem {points_icon}+{copo}"
