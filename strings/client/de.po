@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-19 18:32+0000\n"
-"Last-Translator: Acursen <acursen@mailbox.org>\n"
-"Language-Team: German "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/de/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: German <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "async-text.upload"
 msgstr "Hochladen"
@@ -1114,3 +1114,13 @@ msgstr "Video von {user}"
 
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Aufrufe — {date,datetime}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "Ankündigung"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user} raidet mit einer Gruppe von {count} Personen."
