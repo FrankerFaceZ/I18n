@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-01 16:04+0000\n"
-"Last-Translator: Rodrigo Badin <r.badin@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/pt_BR/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://weblate.frankerfacez.com/"
+"projects/frankerfacez/client/pt_BR/>\n"
 "Language: pt-BR\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "async-text.upload"
 msgstr "Enviar"
@@ -1142,3 +1142,13 @@ msgid "video.desc.2"
 msgstr ""
 "{length,duration} — {views,plural, =1 {# Visualização} other {# "
 "Visualizações}} — {date}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "Comunicado"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user} está fazendo uma raid com um grupo de {count}."
