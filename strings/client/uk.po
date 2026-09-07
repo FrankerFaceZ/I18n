@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/uk/>\n"
@@ -1227,3 +1227,15 @@ msgstr "Оголошення"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user} здійснює рейд із групою з {count}."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"Користувач {user} зараз має серію з {streak, plural, one {# стриму поспіль} "
+"few {# стримів поспіль} many {# стримів поспіль} other {# стримів поспіль}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Серію переглядів досягнуто {points_icon}+{copo}"
