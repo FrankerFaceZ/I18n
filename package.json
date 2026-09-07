@@ -10,7 +10,9 @@
     "extract": "node scripts/extract.js",
     "merge": "node scripts/merge.mjs",
     "notify": "node scripts/notify-discord.mjs",
-    "fetch-legacy": "node scripts/fetch-legacy.mjs"
+    "fetch-legacy": "node scripts/fetch-legacy.mjs",
+    "repair": "node scripts/repair-encoding.mjs",
+    "repair:check": "node scripts/repair-encoding.mjs --check"
   },
   "dependencies": {
     "@ffz/icu-msgparser": "^2.0.0",

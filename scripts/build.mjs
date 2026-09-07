@@ -4,11 +4,10 @@ import crypto from 'crypto';
 import { promisify } from 'util';
 import fs from 'fs';
 import path from 'path';
-import GTP from 'gettext-parser';
 import raw_rimraf from 'rimraf';
+import { readPOFile } from './utilities.mjs';
 
 const rimraf = promisify(raw_rimraf);
-const po = GTP.po;
 
 
 // main()
@@ -47,7 +46,10 @@ for(const name of dirs) {
 		let raw;
 
 		try {
-			raw = po.parse(await fs.promises.readFile(full, {encoding: 'utf-8'}));
+			const read = readPOFile(full);
+			if (read.repaired)
+				console.warn(`Repaired invalid UTF-8 while reading ${full}; run "pnpm repair" to fix the file in place.`);
+			raw = read.data;
 			data = raw?.translations;
 		} catch(err) {
 			console.error('Unable to process file', full);

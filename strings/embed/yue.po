@@ -106,8 +106,8 @@ msgstr "Imgur 相冊"
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
-"{images,plural,one{# 張圖像} other {# 張圖像}} • "
-"{views,plural,one{# 次觀看數} other {{views,number} 次觀看數}}"
+"{images,plural,one{# 張圖像} other {# 張圖像}} • {views,plural,one{# 次觀看數} other "
+"{{views,number} 次觀看數}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
@@ -133,8 +133,8 @@ msgstr "Imgur 圖庫"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,plural,one{# 點數}other{{points,number} "
-"Points}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{posted,datetime} • {points,plural,one{# 點數}other{{points,number} Points}} "
+"• 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -189,9 +189,7 @@ msgstr "{user} 嘅單人最好成績"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"place\":47}"
 msgid "embed.src.place"
-msgstr ""
-"{place,selectordinal,one {# 第一} two {# 第二} few {# 第三} other {# "
-"其餘}}"
+msgstr "{place,selectordinal,one {# 第一} two {# 第二} few {# 第三} other {# 其餘}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -202,9 +200,9 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs,plural,one {# 條記錄} other {# 條記錄}} • {runs,plural,one {# "
-"次運行} other {# 次運行}} • {games,plural,one {# 個遊戲} other "
-"{# 個遊戲}} • {cats,plural,one {# 種類別} other {# 種類別}}"
+"{wrs,plural,one {# 條記錄} other {# 條記錄}} • {runs,plural,one {# 次運行} other {# "
+"次運行}} • {games,plural,one {# 個遊戲} other {# 個遊戲}} • {cats,plural,one {# 種類別} "
+"other {# 種類別}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -245,9 +243,8 @@ msgstr "追隨中"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# 次轉推} "
-"other {# 次轉推}} • {likes,plural,one {# 個鐘意} other {# "
-"個鐘意}}"
+"{created,time} • {created,date} • {retweets,plural,one {# 次轉推} other {# "
+"次轉推}} • {likes,plural,one {# 個鐘意} other {# 個鐘意}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -258,9 +255,8 @@ msgstr "鐘意"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{tweets,plural,one {# 條推文} other {# 條推文}} • "
-"{following,number} 個追隨中 • {followers,number} 個追隨者 • 加"
-"入於 {joined,date}"
+"{tweets,plural,one {# 條推文} other {# 條推文}} • {following,number} 個追隨中 • "
+"{followers,number} 個追隨者 • 加入於 {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -281,8 +277,8 @@ msgstr "推文"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# 次觀看數} other {{views,number} "
-"次觀看數}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# 次觀看數} other {{views,number} 次觀看數}} • 👍 "
+"{likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -319,41 +315,3 @@ msgstr "請求超時。"
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "冇處理程序支援呢個網址。"
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "直播 {game}"
-
-#: /src/modules/chat/rich_providers.js:126:14
-#, icu-message-format
-msgid "clip.desc.1"
-msgstr "{user} 嘅剪輯"
-
-#: /src/modules/chat/rich_providers.js:120:14
-#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
-msgid "clip.desc.1.playing"
-msgstr "{user} 喺喥玩緊 {game}"
-
-#: /src/modules/chat/rich_providers.js:133:13
-#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
-msgid "clip.desc.2"
-msgstr ""
-"剪輯者 {curator} — {views, plural, one {# 次觀看數} other {# "
-"次觀看數}}"
-
-#: /src/modules/chat/rich_providers.js:134:57
-#, icu-message-format
-msgid "clip.unknown"
-msgstr "未知"
-
-#: /src/modules/chat/rich_providers.js:190:14
-#, icu-message-format
-msgid "video.desc.1"
-msgstr "{user} 嘅影片"
-
-#: /src/modules/chat/rich_providers.js:197:13
-#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} 次觀看數 — {date,datetime}"

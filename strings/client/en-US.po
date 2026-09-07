@@ -111,6 +111,12 @@ msgstr "Loading..."
 msgid "cards.user.stats"
 msgstr "Views: {views,number} • Followers: {followers,number}"
 
+#: /src/modules/chat/link_providers.js:317
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgctxt "/lib/resolvers/twitch.js:347"
+msgid "cards.user.streaming"
+msgstr "streaming {game}"
+
 #: /src/sites/twitch-twilight/modules/channel.jsx:394
 #, icu-message-format
 msgid "channel.links.clips"
@@ -790,15 +796,39 @@ msgstr "{user} is currently on a {streak,number}-stream streak!"
 msgid "chat.watch-streak.header"
 msgstr "{icon}Watch Streak Reached {points_icon}+{copo}"
 
+#: /src/modules/chat/link_providers.js:98
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:138"
+msgid "clip.desc.1"
+msgstr "Clip of {user}"
+
 #: /src/modules/chat/rich_providers.js:115:14
 #, icu-message-format
 msgid "clip.desc.1.creative"
 msgstr "{user} being Creative"
 
+#: /src/modules/chat/link_providers.js:93
+#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
+msgctxt "/lib/resolvers/twitch.js:135"
+msgid "clip.desc.1.playing"
+msgstr "{user} playing {game}"
+
+#: /src/modules/chat/link_providers.js:114
+#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
+msgctxt "/lib/resolvers/twitch.js:145"
+msgid "clip.desc.2"
+msgstr "Clipped by {curator} — {views, plural, one {# View} other {# Views}}"
+
 #: /src/modules/chat/link_providers.js:123
 #, icu-message-format
 msgid "clip.desc.no-views"
 msgstr "Clipped by {curator}"
+
+#: /src/modules/chat/link_providers.js:103
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:143"
+msgid "clip.unknown"
+msgstr "Unknown"
 
 #: /src/modules/emote_card/components/manage-ffz-collection.vue:34
 #, icu-message-format
@@ -2546,10 +2576,34 @@ msgstr "Show more replies..."
 msgid "video-chat.time"
 msgstr "{time,humantime} ago"
 
+#: /src/modules/chat/link_providers.js:400
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:220"
+msgid "video.desc.1"
+msgstr "Video of {user}"
+
+#: /src/modules/chat/link_providers.js:387
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:217"
+msgid "video.desc.1.playing"
+msgstr "Video of {user} playing {game}"
+
+#: /src/modules/chat/link_providers.js:421
+#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
+msgctxt "/lib/resolvers/twitch.js:226"
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Views — {date,datetime}"
+
 #: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"
 msgid "video.published-on"
 msgstr "Published on: {date,date}"
+
+#: /src/modules/chat/link_providers.js:466
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:261"
+msgid "video.views"
+msgstr "{views,number} views"
 
 #: /src/modules/viewer_cards/card.vue:55
 #, icu-message-format

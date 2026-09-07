@@ -243,8 +243,8 @@ msgstr "Siguiendo"
 #, \"likes\":150}", \"retweets\":12, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
-"other {# Retweets}} • {likes,plural,one {# Me gusta} other {# Me gusta}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
+"Retweets}} • {likes,plural,one {# Me gusta} other {# Me gusta}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -277,8 +277,8 @@ msgstr "Mensajes"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Visita} other {{views,number} Visitas}} "
-"• 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# Visita} other {{views,number} Visitas}} • "
+"👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -312,26 +312,3 @@ msgstr "Tiempo de solicitud caducado."
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "Ningún controlador admite esta URL."
-
-msgid "cards.user.streaming"
-msgstr "transmitiendo {game}"
-
-msgid "clip.desc.1"
-msgstr "Clip de {user}"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} jugando a {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Clipeado por {curator} — {views, plural, one {# visualización} other {# "
-"visualizaciones}}"
-
-msgid "clip.unknown"
-msgstr "Desconocido"
-
-msgid "video.desc.1"
-msgstr "Vídeo de {user}"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Visualizaciones — {date,datetime}"

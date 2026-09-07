@@ -92,13 +92,13 @@ msgstr "{user} er Kreativ"
 
 msgid "directory.hosted.by-many"
 msgstr ""
-"{count,plural,one {# kanal er vært} other {# kanaler er værter}} for "
-"denne kanal"
+"{count,plural,one {# kanal er vært} other {# kanaler er værter}} for denne "
+"kanal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Som en midlertidig løsning kan du prøve at deaktivere FFZ Humørikon "
-"Menuen i FFZ Kontrolcenter."
+"Som en midlertidig løsning kan du prøve at deaktivere FFZ Humørikon Menuen "
+"i FFZ Kontrolcenter."
 
 msgid "emote-menu.emote-sub"
 msgstr "Abonner for {price} for at låse op for dette humørikon."
@@ -1528,3 +1528,25 @@ msgstr ""
 #, icu-message-format
 msgid "chat.messages-below"
 msgstr ""
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "streamer {game}"
+
+msgid "clip.desc.1"
+msgstr "Klip af {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spiller {game}"
+
+msgid "clip.unknown"
+msgstr "Ukendt"
+
+msgid "video.desc.1"
+msgstr "Video af {user}"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Visninger - {date,datetime}"

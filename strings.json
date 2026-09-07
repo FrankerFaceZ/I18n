@@ -10195,6 +10195,17 @@
 			"context": "{\"views\":33736583,\"followers\":167372}",
 			"revision": 2
 		},
+		"cards.user.streaming": {
+			"id": "cards.user.streaming",
+			"doc": "client",
+			"default": "streaming {game}",
+			"source": "/src/modules/chat/link_providers.js:317\n/lib/resolvers/twitch.js:347",
+			"context": "{\"game\":\"Doom Eternal\"}",
+			"revision": 1,
+			"placeholders": [
+				"game"
+			]
+		},
 		"channel.links.clips": {
 			"id": "channel.links.clips",
 			"doc": "client",
@@ -11331,6 +11342,17 @@
 				"points_icon"
 			]
 		},
+		"clip.desc.1": {
+			"id": "clip.desc.1",
+			"doc": "client",
+			"default": "Clip of {user}",
+			"source": "/src/modules/chat/link_providers.js:98\n/lib/resolvers/twitch.js:138",
+			"context": null,
+			"revision": 1,
+			"placeholders": [
+				"user"
+			]
+		},
 		"clip.desc.1.creative": {
 			"id": "clip.desc.1.creative",
 			"doc": "core",
@@ -11338,6 +11360,30 @@
 			"source": "/src/modules/chat/rich_providers.js:115:14",
 			"context": null,
 			"revision": 1
+		},
+		"clip.desc.1.playing": {
+			"id": "clip.desc.1.playing",
+			"doc": "client",
+			"default": "{user} playing {game}",
+			"source": "/src/modules/chat/link_providers.js:93\n/lib/resolvers/twitch.js:135",
+			"context": "{\n    \"user\": \"PangaeaPanga\",\n    \"game\": \"Super Mario Maker 2\"\n}",
+			"revision": 2,
+			"placeholders": [
+				"game",
+				"user"
+			]
+		},
+		"clip.desc.2": {
+			"id": "clip.desc.2",
+			"doc": "client",
+			"default": "Clipped by {curator} — {views, plural, one {# View} other {# Views}}",
+			"source": "/src/modules/chat/link_providers.js:114\n/lib/resolvers/twitch.js:145",
+			"context": "{\"curator\":{\"type\":\"link\",\"url\":\"https://www.twitch.tv/dexm23\",\"content\":{\"type\":\"style\",\"color\":\"alt-2\",\"content\":\"DexM23\"}},\"views\":43807}",
+			"revision": 2,
+			"placeholders": [
+				"curator",
+				"views"
+			]
 		},
 		"clip.desc.no-views": {
 			"id": "clip.desc.no-views",
@@ -11348,6 +11394,14 @@
 			"placeholders": [
 				"curator"
 			]
+		},
+		"clip.unknown": {
+			"id": "clip.unknown",
+			"doc": "client",
+			"default": "Unknown",
+			"source": "/src/modules/chat/link_providers.js:103\n/lib/resolvers/twitch.js:143",
+			"context": null,
+			"revision": 1
 		},
 		"collection.count": {
 			"id": "collection.count",
@@ -14005,6 +14059,41 @@
 				"time"
 			]
 		},
+		"video.desc.1": {
+			"id": "video.desc.1",
+			"doc": "client",
+			"default": "Video of {user}",
+			"source": "/src/modules/chat/link_providers.js:400\n/lib/resolvers/twitch.js:220",
+			"context": null,
+			"revision": 1,
+			"placeholders": [
+				"user"
+			]
+		},
+		"video.desc.1.playing": {
+			"id": "video.desc.1.playing",
+			"doc": "client",
+			"default": "Video of {user} playing {game}",
+			"source": "/src/modules/chat/link_providers.js:387\n/lib/resolvers/twitch.js:217",
+			"context": null,
+			"placeholders": [
+				"game",
+				"user"
+			]
+		},
+		"video.desc.2": {
+			"id": "video.desc.2",
+			"doc": "client",
+			"default": "{length,duration} — {views,number} Views — {date,datetime}",
+			"source": "/src/modules/chat/link_providers.js:421\n/lib/resolvers/twitch.js:226",
+			"context": "{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}",
+			"revision": 2,
+			"placeholders": [
+				"date",
+				"length",
+				"views"
+			]
+		},
 		"video.published-on": {
 			"id": "video.published-on",
 			"doc": "core",
@@ -14012,6 +14101,16 @@
 			"source": "ChannelBar.updateVideoBar (/src/sites/twitch-twilight/modules/channel_bar.jsx:105:29)",
 			"context": "{\"date\":\"2019-05-30T02:30:12.000Z\"}",
 			"revision": 1
+		},
+		"video.views": {
+			"id": "video.views",
+			"doc": "client",
+			"default": "{views,number} views",
+			"source": "/src/modules/chat/link_providers.js:466\n/lib/resolvers/twitch.js:261",
+			"context": null,
+			"placeholders": [
+				"views"
+			]
 		},
 		"viewer-card.age": {
 			"id": "viewer-card.age",
@@ -14198,60 +14297,6 @@
 			"default": "No handler supports this URL.",
 			"source": "/lib/errors/runtime.js:22",
 			"context": null
-		},
-		"cards.user.streaming": {
-			"id": "cards.user.streaming",
-			"doc": "embed",
-			"default": "streaming {game}",
-			"source": "/lib/resolvers/twitch.js:347",
-			"context": "{\"game\":\"Doom Eternal\"}",
-			"revision": 1,
-			"placeholders": [
-				"game"
-			]
-		},
-		"clip.desc.1": {
-			"id": "clip.desc.1",
-			"doc": "embed",
-			"default": "Clip of {user}",
-			"source": "/lib/resolvers/twitch.js:138",
-			"context": null,
-			"revision": 1,
-			"placeholders": [
-				"user"
-			]
-		},
-		"clip.desc.1.playing": {
-			"id": "clip.desc.1.playing",
-			"doc": "embed",
-			"default": "{user} playing {game}",
-			"source": "/lib/resolvers/twitch.js:135",
-			"context": "{\n    \"user\": \"PangaeaPanga\",\n    \"game\": \"Super Mario Maker 2\"\n}",
-			"revision": 2,
-			"placeholders": [
-				"game",
-				"user"
-			]
-		},
-		"clip.desc.2": {
-			"id": "clip.desc.2",
-			"doc": "embed",
-			"default": "Clipped by {curator} — {views,number} View{views,en_plural}",
-			"source": "/lib/resolvers/twitch.js:145",
-			"context": "{\"curator\":{\"type\":\"link\",\"url\":\"https://www.twitch.tv/dexm23\",\"content\":{\"type\":\"style\",\"color\":\"alt-2\",\"content\":\"DexM23\"}},\"views\":43807}",
-			"revision": 2,
-			"placeholders": [
-				"curator",
-				"views"
-			]
-		},
-		"clip.unknown": {
-			"id": "clip.unknown",
-			"doc": "embed",
-			"default": "Unknown",
-			"source": "/lib/resolvers/twitch.js:143",
-			"context": null,
-			"revision": 1
 		},
 		"embed.7tv.by-line": {
 			"id": "embed.7tv.by-line",
@@ -16155,51 +16200,6 @@
 			"default": "View with Nitter",
 			"source": "/lib/resolvers/fxtwitter.js:125\n/lib/resolvers/fxtwitter.js:192",
 			"context": null
-		},
-		"video.desc.1": {
-			"id": "video.desc.1",
-			"doc": "embed",
-			"default": "Video of {user}",
-			"source": "/lib/resolvers/twitch.js:220",
-			"context": null,
-			"revision": 1,
-			"placeholders": [
-				"user"
-			]
-		},
-		"video.desc.1.playing": {
-			"id": "video.desc.1.playing",
-			"doc": "embed",
-			"default": "Video of {user} playing {game}",
-			"source": "/lib/resolvers/twitch.js:217",
-			"context": null,
-			"placeholders": [
-				"game",
-				"user"
-			]
-		},
-		"video.desc.2": {
-			"id": "video.desc.2",
-			"doc": "embed",
-			"default": "{length,duration} — {views,number} Views — {date,datetime}",
-			"source": "/lib/resolvers/twitch.js:226",
-			"context": "{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}",
-			"revision": 2,
-			"placeholders": [
-				"date",
-				"length",
-				"views"
-			]
-		},
-		"video.views": {
-			"id": "video.views",
-			"doc": "embed",
-			"default": "{views,number} views",
-			"source": "/lib/resolvers/twitch.js:261",
-			"context": null,
-			"placeholders": [
-				"views"
-			]
 		}
 	},
 	"settings": {
@@ -17574,7 +17574,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},

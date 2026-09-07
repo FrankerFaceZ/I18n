@@ -201,8 +201,8 @@ msgstr ""
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# rekord} other {# rekord}} • {runs,plural,one {# "
-"spelsession} other {# spelsessioner}} • {games,plural,one {# spel} other "
-"{# spel}} • {cats,plural,one {# kategori} other {# kategorier}}"
+"spelsession} other {# spelsessioner}} • {games,plural,one {# spel} other {# "
+"spel}} • {cats,plural,one {# kategori} other {# kategorier}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -273,8 +273,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# visning} other {{views,number} "
-"visningar}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# visning} other {{views,number} visningar}} "
+"• 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -313,29 +313,3 @@ msgstr "Förfrågan tog för lång tid."
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "Ingen hanterare stödjer denna URL-adressen."
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "streamar {game}"
-
-msgid "clip.desc.1"
-msgstr "Klipp av {user}"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} spelar {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Klipptes av {curator} — {views, plural, one {# visning} other {# "
-"visningar}}"
-
-msgid "clip.unknown"
-msgstr "Okänd"
-
-msgid "video.desc.1"
-msgstr "Video av {user}"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} visningar — {date,datetime}"

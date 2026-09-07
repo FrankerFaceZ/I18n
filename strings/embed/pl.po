@@ -22,9 +22,9 @@ msgstr "Serwer: {name}"
 
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
-"few{# Retweety} other {# Retweetów}} • {likes,plural,one {# Like} few {# "
-"Like'i} other {# Like'ów}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} few{# "
+"Retweety} other {# Retweetów}} • {likes,plural,one {# Like} few {# Like'i} "
+"other {# Like'ów}}"
 
 msgid "embed.twitter.tweeted"
 msgstr "zatweetował: {tweet}"
@@ -204,9 +204,9 @@ msgstr "Dokument HTML bez nazwy"
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# Rekord} few {# Rekordy} other {# Rekordów}} • "
-"{runs,plural,one {# Run} few {# Runy} other {# Runów}} • "
-"{games,plural,one {# Gra} few {# Gry} other {# Gier}} • {cats,plural,one "
-"{# Kategoria} few {# Kategorie} other {# Kategorii}}"
+"{runs,plural,one {# Run} few {# Runy} other {# Runów}} • {games,plural,one "
+"{# Gra} few {# Gry} other {# Gier}} • {cats,plural,one {# Kategoria} few {# "
+"Kategorie} other {# Kategorii}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -226,8 +226,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
-"{images,plural,one{# Obraz}few{# Obrazy}many{# Obrazów}other{# Obrazów}} "
-"• {views,plural,one{# Wyświetlenie}few{# Wyświetlenia}many{# "
+"{images,plural,one{# Obraz}few{# Obrazy}many{# Obrazów}other{# Obrazów}} • "
+"{views,plural,one{# Wyświetlenie}few{# Wyświetlenia}many{# "
 "Wyświetleń}other{# Wyświetleń}}"
 
 #: /src/utilities/rich_tokens.js:814
@@ -272,9 +272,8 @@ msgstr "Tweety"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Wyświetlenie} few {# Wyświetlenia} "
-"other {{views,number} Wyświetleń}} • 👍 {likes,number}  • 👎 "
-"{dislikes,number}"
+"{channel} • {views,plural,one {# Wyświetlenie} few {# Wyświetlenia} other "
+"{{views,number} Wyświetleń}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -308,28 +307,3 @@ msgstr "Upłynął limit czasu żądania."
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "Żaden identyfikator nie wspiera tego URL."
-
-msgid "cards.user.streaming"
-msgstr "streamuje {game}"
-
-msgid "clip.desc.1"
-msgstr "Klip {user}"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} gra w {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Klip użytkownika {curator} — {views,plural, one {# wyświetlenie} few {# "
-"wyświetlenia} other {# wyświetleń}}"
-
-msgid "clip.unknown"
-msgstr "Nieznany"
-
-msgid "video.desc.1"
-msgstr "Film {user}"
-
-msgid "video.desc.2"
-msgstr ""
-"{length,duration} — {views, plural, one {# Wyświetlenie} few {# "
-"Wyświetlenia} other {# Wyświetleń}} — {date,datetime}"

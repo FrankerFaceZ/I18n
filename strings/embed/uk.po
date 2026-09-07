@@ -72,8 +72,8 @@ msgstr "Публічний"
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
 msgstr ""
-"{count,plural,one {# користувач} few {# користувачі} "
-"other {{count,number} користувачів}}"
+"{count,plural,one {# користувач} few {# користувачі} other {{count,number} "
+"користувачів}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -109,9 +109,8 @@ msgstr "Альбом Imgur"
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
-"{images,plural,one{# зображення}few{# "
-"зображення}other{# зображень}} • {views,plural,one{# "
-"перегляд}few{# перегляди} other{# переглядів}}"
+"{images,plural,one{# зображення}few{# зображення}other{# зображень}} • "
+"{views,plural,one{# перегляд}few{# перегляди} other{# переглядів}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
@@ -138,8 +137,7 @@ msgstr "Галерея Imgur"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
 "{posted,datetime} • {points,plural,one{# очко} few{# очка} "
-"other{{points,number} очок}}• 👍 {likes,number}  • 👎 "
-"{dislikes,number}"
+"other{{points,number} очок}}• 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -245,11 +243,9 @@ msgstr "Відстежується"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# ретвіт} "
-"few {# ретвіти} other {# ретвітів}} • {likes,plural,one {# "
-"відмітка «Подобається»} few {# відмітки "
-"«Подобається»} other {# відміток "
-"«Подобається»}}"
+"{created,time} • {created,date} • {retweets,plural,one {# ретвіт} few {# "
+"ретвіти} other {# ретвітів}} • {likes,plural,one {# відмітка «Подобається»} "
+"few {# відмітки «Подобається»} other {# відміток «Подобається»}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -280,9 +276,8 @@ msgstr "Твіти"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# перегляд} few {# "
-"перегляди} other {{views,number} переглядів}} • 👍 "
-"{likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# перегляд} few {# перегляди} other "
+"{{views,number} переглядів}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -292,23 +287,17 @@ msgstr "Інформація відсутня"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-host"
-msgstr ""
-"Наданий URL має недійсний хост і не може "
-"бути перевірений."
+msgstr "Наданий URL має недійсний хост і не може бути перевірений."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-port"
-msgstr ""
-"Надана URL-адреса має нестандартний порт і "
-"не перевірятиметься."
+msgstr "Надана URL-адреса має нестандартний порт і не перевірятиметься."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-scheme"
-msgstr ""
-"Надана URL-адреса не використовує HTTP і не "
-"перевірятиметься."
+msgstr "Надана URL-адреса не використовує HTTP і не перевірятиметься."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -322,28 +311,3 @@ msgstr "Час запиту вийшов."
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "Жоден обробник не підтримує цю URL-адресу."
-
-msgid "cards.user.streaming"
-msgstr "транслює {game}"
-
-msgid "clip.desc.1"
-msgstr "Кліп із стріму {user}"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} грає у {game}"
-
-#: /src/modules/chat/rich_providers.js:133:13
-#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
-msgid "clip.desc.2"
-msgstr ""
-"Автор кліпу: {curator} — {views,plural,one {перегляд} "
-"few {перегляди} other {переглядів}}"
-
-msgid "clip.unknown"
-msgstr "Невідомо"
-
-msgid "video.desc.1"
-msgstr "Відео зі стріму {user}"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Перегляди — {date,datetime}"

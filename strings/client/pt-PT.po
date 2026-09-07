@@ -32,8 +32,7 @@ msgstr ""
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Escalão {tier}, {months, number} {months,plural, one {mês} other "
-"{meses}})"
+"(Escalão {tier}, {months, number} {months,plural, one {mês} other {meses}})"
 
 msgid "card.empty"
 msgstr "Não foram retornados nenhuns dados."
@@ -78,9 +77,7 @@ msgid "chat.actions.edit_overrides"
 msgstr "Mudar Nome & Cor"
 
 msgid "chat.actions.edit_overrides.desc"
-msgstr ""
-"Permite definir substituições locais do nome e cor de um utilizador no "
-"chat."
+msgstr "Permite definir substituições locais do nome e cor de um utilizador no chat."
 
 msgid "chat.actions.msg_delete"
 msgstr "Apagar Mensagem"
@@ -272,8 +269,8 @@ msgstr "Pausar Chat"
 msgid "chat.settings.pause-explain"
 msgstr ""
 "O FrankerFaceZ substituirá inteiramente o comportamento da Pausa de Chat. "
-"Por favor, use as configurações de Deslocação do FFZ no Painel de "
-"Controlo em Chat > Comportamento."
+"Por favor, use as configurações de Deslocação do FFZ no Painel de Controlo "
+"em Chat > Comportamento."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "Um oferecedor anónimo "
@@ -504,9 +501,9 @@ msgid "emote-menu.toggle-hide.info"
 msgstr ""
 "O Controle de Visibilidade de Emotes permite ocultar emotes do teu menu de "
 "emote, individualmente ou por conjunto. Com o Controle de Visibilidade de "
-"Emotes ativado, basta clicar num emote para ocultá-lo ou exibi-lo. Nota "
-"que ainda verás os emotes no chat se alguém os usar, mas eles não "
-"aparecerão no seu menu de emoticons."
+"Emotes ativado, basta clicar num emote para ocultá-lo ou exibi-lo. Nota que "
+"ainda verás os emotes no chat se alguém os usar, mas eles não aparecerão no "
+"seu menu de emoticons."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Controle de Visibilidade de Emotes"
@@ -573,9 +570,9 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Interessado em ajudar com os esforços de localização? Por favor "
-"[junta-te ao nosso Discord](https://discord.gg/UrAkGhT) e ao chat no canal "
-"de localização.\n"
+"Interessado em ajudar com os esforços de localização? Por favor [junta-te "
+"ao nosso Discord](https://discord.gg/UrAkGhT) e ao chat no canal de "
+"localização.\n"
 "\n"
 "Essa ferramenta permite aos tradutores testarem as palavras em tempo real "
 "no aplicativo. Desta forma consegues ter a certeza de que tudo parece certo "
@@ -854,8 +851,8 @@ msgstr ""
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Configurações são desabilitadas nesta aba devido à inclusão do "
-"parâmetro  \"{param}\" no URL."
+"Configurações são desabilitadas nesta aba devido à inclusão do parâmetro  "
+"\"{param}\" no URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Perfis"
@@ -952,9 +949,7 @@ msgstr "Destinação: {url}"
 
 #, fuzzy
 msgid "tooltip.link-unsafe"
-msgstr ""
-"Atenção: Este URL está na Lista de Navegação Segura da Google por: "
-"{reasons}"
+msgstr "Atenção: Este URL está na Lista de Navegação Segura da Google por: {reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "URLs visitados"
@@ -1137,3 +1132,26 @@ msgstr ""
 #, icu-message-format
 msgid "card.error.network"
 msgstr ""
+
+msgid "cards.user.streaming"
+msgstr "a transmitir {game}"
+
+msgid "clip.desc.1"
+msgstr "Clipe de {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} a jogar {game}"
+
+#, fuzzy
+msgid "clip.desc.2"
+msgstr "Clipado por {curator} — {views,number} Visualizações{views,en_plural}"
+
+msgid "clip.unknown"
+msgstr "Desconhecido"
+
+msgid "video.desc.1"
+msgstr "Vídeo de {user}"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Visualizações - {date,datetime}"

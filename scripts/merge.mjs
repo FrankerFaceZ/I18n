@@ -21,7 +21,7 @@
 import fs from 'fs';
 import path from 'path';
 import GTP from 'gettext-parser';
-import { componentToPO, fixSources, GetSortedEntries, SortObject } from './utilities.mjs';
+import { componentToPO, fixSources, GetSortedEntries, SortObject, readPOFile } from './utilities.mjs';
 
 const po = GTP.po;
 
@@ -120,7 +120,8 @@ const report = {
 	conflicts: [],
 	diagnostics: meta.diagnostics,
 	issues: meta.issues.filter(i => i.level !== 'info'),
-	touched_components: []
+	touched_components: [],
+	repaired_files: []
 };
 
 const modified = new Set();       // components whose en-US.po must be regenerated
@@ -179,10 +180,12 @@ for (const [key, entry] of GetSortedEntries(meta.entries)) {
 	let targets = isCore ? [coreComponent(key)] : isLinkService ? ['embed'] : addonComponents(entry);
 	if (!targets.length) continue;
 
-	// Add-ons reusing a core key get the core translation for free. Do not
-	// duplicate the string into an add-on chunk.
-	if (!isCore && !isLinkService) {
-		const coreOwners = findAnywhere(key).filter(c => !c.startsWith('addon.'));
+	// Keys that core defines stay with core. Add-ons reusing one get the core
+	// translation for free, and the link service shares a handful of rich-token
+	// keys (clip.*, video.*) with the client's own link providers. Without this
+	// rule those keys would bounce between `client` and `embed` on every run.
+	if (!isCore) {
+		const coreOwners = findAnywhere(key).filter(c => CORE_COMPONENTS.includes(c));
 		if (coreOwners.length) {
 			report.shared_with_core.push({ key, component: coreOwners[0], addons: entry.dirs });
 			continue;
@@ -263,7 +266,10 @@ const PO_CACHE = new Map(); // file -> {data, dirty}
 function loadPO(file) {
 	let entry = PO_CACHE.get(file);
 	if (!entry) {
-		entry = { data: po.parse(fs.readFileSync(file)), dirty: false };
+		const read = readPOFile(file);
+		// A file that needed encoding repair is written back even if untouched.
+		entry = { data: read.data, dirty: read.repaired };
+		if (read.repaired) report.repaired_files.push(file.split(path.sep).join('/'));
 		PO_CACHE.set(file, entry);
 	}
 	return entry;
@@ -377,7 +383,7 @@ if (!dryRun) {
 			let stale = 0;
 			if (fs.existsSync(dir)) {
 				for (const f of fs.readdirSync(dir))
-					if (f.endsWith('.po') && f !== 'en-US.po') stale += translationCount(po.parse(fs.readFileSync(path.join(dir, f))));
+					if (f.endsWith('.po') && f !== 'en-US.po') stale += translationCount(readPOFile(path.join(dir, f)).data);
 				fs.rmSync(dir, { recursive: true, force: true });
 			}
 			report.removed_components.push({ component: cmp, stale_translations: stale });
@@ -418,6 +424,8 @@ if (report.translations_moved || report.translations_adopted)
 	log(`Translations carried along: ${report.translations_moved} moved with their keys, ${report.translations_adopted} adopted from other components.`);
 for (const r of report.removed_components)
 	log(`Removed empty component ${r.component}` + (r.stale_translations ? ` (discarded ${r.stale_translations} translations of keys no component defines)` : ''));
+if (report.repaired_files.length)
+	log(`Repaired invalid UTF-8 (byte-folded multibyte characters) in: ${report.repaired_files.join(', ')}`);
 
 if (report.added.length) {
 	log('', '## Added');

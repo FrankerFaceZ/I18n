@@ -278,8 +278,8 @@ msgstr "Kanal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Som en tillfällig lösning, försök att inaktivera FFZ:s emotemeny i "
-"FFZ:s kontrollcenter."
+"Som en tillfällig lösning, försök att inaktivera FFZ:s emotemeny i FFZ:s "
+"kontrollcenter."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
@@ -371,8 +371,8 @@ msgstr "Prenumerant-emotes"
 
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Prenumerera för {price} för att låsa upp {count, plural, one {# en "
-"emote} other {# emotes}}"
+"Prenumerera för {price} för att låsa upp {count, plural, one {# en emote} "
+"other {# emotes}}"
 
 msgid "emote-menu.twitch"
 msgstr "Twitch"
@@ -413,13 +413,13 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Intresserad av att hjälpa till med lokaliseringsarbetet? Vänligen [kom "
-"till oss på Discord](https://discord.gg/UrAkGhT) och joina chatten i den "
+"Intresserad av att hjälpa till med lokaliseringsarbetet? Vänligen [kom till "
+"oss på Discord](https://discord.gg/UrAkGhT) och joina chatten i den "
 "lokaliserade kanalen.\n"
 "\n"
 "Detta verktyget tillåter översättare att testa deras strängar i nutid i "
-"appen. På det sättet kan du vara säker allt ser korrekt ut innan du "
-"skickar in översättningarna."
+"appen. På det sättet kan du vara säker allt ser korrekt ut innan du skickar "
+"in översättningarna."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} färdig)"
@@ -741,8 +741,8 @@ msgstr "Löste in {reward} {cost}"
 #, icu-message-format
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Du har \"FrankerFaceZ Emotes\" påslaget i BetterTTV's inställningar, men "
-"du har också FrankerFaceZ installerat. Vänligen stäng av \"FrankerFaceZ "
+"Du har \"FrankerFaceZ Emotes\" påslaget i BetterTTV's inställningar, men du "
+"har också FrankerFaceZ installerat. Vänligen stäng av \"FrankerFaceZ "
 "Emotes\" i BetterTTV's inställningar. Det är inte nödvändigt."
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
@@ -766,12 +766,11 @@ msgstr ""
 #, icu-message-format
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"Emote Synlighetskontroll tillåter dig att gömma emotes från din emote "
-"meny, antingen individuellt eller i grupp. När Emote Synlighetskontroll "
-"är aktiverad, bara klicka på en emote för att dölja eller att icke "
-"dölja den. Vänligen observera att du fortfarande kommer att se emotes i "
-"din chatt om någon använder dem, men de kommer inte visas i den emote "
-"meny."
+"Emote Synlighetskontroll tillåter dig att gömma emotes från din emote meny, "
+"antingen individuellt eller i grupp. När Emote Synlighetskontroll är "
+"aktiverad, bara klicka på en emote för att dölja eller att icke dölja den. "
+"Vänligen observera att du fortfarande kommer att se emotes i din chatt om "
+"någon använder dem, men de kommer inte visas i den emote meny."
 
 #, icu-message-format
 msgid "i18n.ui.invalid"
@@ -814,8 +813,8 @@ msgstr ""
 #, icu-message-format
 msgid "site.menu_button.changed"
 msgstr ""
-"FrankerFaceZ inställningsleverantör har ändrats. Vänligen uppdatera den "
-"här fliken för att undvika konstiga beteenden."
+"FrankerFaceZ inställningsleverantör har ändrats. Vänligen uppdatera den här "
+"fliken för att undvika konstiga beteenden."
 
 #: /src/modules/main_menu/components/socket-info.vue:10
 #, icu-message-format
@@ -1115,8 +1114,8 @@ msgstr "Kan inte använda bild-i-bild vid helskärm"
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Inställningar är inaktiverade på den här fliken eftersom \"{param}\" "
-"ingår i URL:en."
+"Inställningar är inaktiverade på den här fliken eftersom \"{param}\" ingår "
+"i URL:en."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:441
 #, icu-message-format
@@ -1212,8 +1211,8 @@ msgstr "Version"
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Cheera ytterligare {bits_remaining, plural, one {# bit} other {# bits}} "
-"för att låsa upp denna emote."
+"Cheera ytterligare {bits_remaining, plural, one {# bit} other {# bits}} för "
+"att låsa upp denna emote."
 
 #, icu-message-format
 msgid "tooltip.shift-detail"
@@ -1223,8 +1222,8 @@ msgstr "(Skift för information)"
 #, icu-message-format
 msgid "chat.actions.edit_overrides.desc"
 msgstr ""
-"Låter dig ställa in lokala åsidosättningar för en användares namn och "
-"färg i chatten."
+"Låter dig ställa in lokala åsidosättningar för en användares namn och färg "
+"i chatten."
 
 #: /src/modules/chat/actions/types.jsx:21
 #, icu-message-format
@@ -1268,3 +1267,27 @@ msgstr "Publicerad: {date,date}"
 #, icu-message-format
 msgid "debug.link-provider.raw-length"
 msgstr "Längd för rå data"
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "streamar {game}"
+
+msgid "clip.desc.1"
+msgstr "Klipp av {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spelar {game}"
+
+msgid "clip.desc.2"
+msgstr "Klipptes av {curator} — {views, plural, one {# visning} other {# visningar}}"
+
+msgid "clip.unknown"
+msgstr "Okänd"
+
+msgid "video.desc.1"
+msgstr "Video av {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} visningar — {date,datetime}"

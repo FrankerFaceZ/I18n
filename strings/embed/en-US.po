@@ -76,31 +76,6 @@ msgctxt "/lib/errors/runtime.js:22"
 msgid "card.error.unhandled"
 msgstr "No handler supports this URL."
 
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgctxt "/lib/resolvers/twitch.js:347"
-msgid "cards.user.streaming"
-msgstr "streaming {game}"
-
-#, icu-message-format
-msgctxt "/lib/resolvers/twitch.js:138"
-msgid "clip.desc.1"
-msgstr "Clip of {user}"
-
-#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
-msgctxt "/lib/resolvers/twitch.js:135"
-msgid "clip.desc.1.playing"
-msgstr "{user} playing {game}"
-
-#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
-msgctxt "/lib/resolvers/twitch.js:145"
-msgid "clip.desc.2"
-msgstr "Clipped by {curator} — {views,number} View{views,en_plural}"
-
-#, icu-message-format
-msgctxt "/lib/resolvers/twitch.js:143"
-msgid "clip.unknown"
-msgstr "Unknown"
-
 #, icu-message-format
 msgctxt "/lib/resolvers/7tv.js:82"
 msgid "embed.7tv.by-line"
@@ -1361,23 +1336,3 @@ msgctxt ""
 "/lib/resolvers/fxtwitter.js:192"
 msgid "nitter"
 msgstr "View with Nitter"
-
-#, icu-message-format
-msgctxt "/lib/resolvers/twitch.js:220"
-msgid "video.desc.1"
-msgstr "Video of {user}"
-
-#, icu-message-format
-msgctxt "/lib/resolvers/twitch.js:217"
-msgid "video.desc.1.playing"
-msgstr "Video of {user} playing {game}"
-
-#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
-msgctxt "/lib/resolvers/twitch.js:226"
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Views — {date,datetime}"
-
-#, icu-message-format
-msgctxt "/lib/resolvers/twitch.js:261"
-msgid "video.views"
-msgstr "{views,number} views"

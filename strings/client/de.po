@@ -75,8 +75,8 @@ msgstr "Name & Farbe verändern"
 
 msgid "chat.actions.edit_overrides.desc"
 msgstr ""
-"Ermöglicht dir das lokale Überschreiben von Name und Farbe eines "
-"Benutzers im Chat."
+"Ermöglicht dir das lokale Überschreiben von Name und Farbe eines Benutzers "
+"im Chat."
 
 msgid "chat.actions.msg_delete"
 msgstr "Nachricht löschen"
@@ -329,10 +329,10 @@ msgstr "{user} ist kreativ"
 
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Du hast »FrankerFaceZ Emotes« in den Einstellungen von BetterTTV "
-"aktiviert und zugleich FrankerFaceZ installiert. Bitte deaktiviere "
-"»FrankerFaceZ Emotes« in den Einstellungen von BetterTTV. Dies ist nicht "
-"zwingend notwendig."
+"Du hast »FrankerFaceZ Emotes« in den Einstellungen von BetterTTV aktiviert "
+"und zugleich FrankerFaceZ installiert. Bitte deaktiviere »FrankerFaceZ "
+"Emotes« in den Einstellungen von BetterTTV. Dies ist nicht zwingend "
+"notwendig."
 
 msgid "directory.block"
 msgstr "Blockieren"
@@ -411,8 +411,8 @@ msgstr "Kanal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Versuche, als vorübergehende Lösung, das Emote-Menü im FFZ "
-"Kontrollzentrum zu deaktivieren."
+"Versuche, als vorübergehende Lösung, das Emote-Menü im FFZ Kontrollzentrum "
+"zu deaktivieren."
 
 msgid "emote-menu.emoji"
 msgstr "Emojis"
@@ -609,8 +609,8 @@ msgstr ""
 "Lokalisierung.\n"
 "\n"
 "Dieses Tool erlaubt den Übersetzern ihre Übersetzungen in Echtzeit zu "
-"testen. So können sie sicherstellen, dass alles richtig aussieht, bevor "
-"sie ihre Übersetzungen einreichen."
+"testen. So können sie sicherstellen, dass alles richtig aussieht, bevor sie "
+"ihre Übersetzungen einreichen."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} übersetzt)"
@@ -858,8 +858,8 @@ msgstr "Alle Videoplayer zurücksetzen (Doppelklick)"
 
 msgid "popup.error"
 msgstr ""
-"Es konnte kein Pop-up-Fenster geöffnet werden. Ver­ge­wis­sere dich, "
-"dass Pop-ups für Twitch erlaubt sind."
+"Es konnte kein Pop-up-Fenster geöffnet werden. Ver­ge­wis­sere dich, dass "
+"Pop-ups für Twitch erlaubt sind."
 
 msgid "site.menu_button"
 msgstr "FrankerFaceZ Kontrollzentrum"
@@ -904,9 +904,9 @@ msgstr "Profile"
 
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
-"Dein lokaler Speicherplatz für diese Website ist voll und die "
-"Einstellungen können nicht gespeichert werden. Bitte sichere deine "
-"Einstellungen und wechsel unter [Datenverwaltung > Speicher >> "
+"Dein lokaler Speicherplatz für diese Website ist voll und die Einstellungen "
+"können nicht gespeichert werden. Bitte sichere deine Einstellungen und "
+"wechsel unter [Datenverwaltung > Speicher >> "
 "Provider](~data_management.storage.tabs.provider) zu einem Provider mit "
 "höherer Kapazität."
 
@@ -1091,3 +1091,26 @@ msgstr "Mid Embed"
 #, icu-message-format
 msgid "debug.link-provider.raw-length"
 msgstr "Raw Length"
+
+msgid "cards.user.streaming"
+msgstr "streamt {game}"
+
+msgid "clip.desc.1"
+msgstr "Clip von {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spielt {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Clip erstellt von: {curator} — {views, plural, one {# Aufruf} other {# "
+"Aufrufe}}"
+
+msgid "clip.unknown"
+msgstr "Unbekannt"
+
+msgid "video.desc.1"
+msgstr "Video von {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Aufrufe — {date,datetime}"

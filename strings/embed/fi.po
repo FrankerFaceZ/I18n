@@ -244,8 +244,8 @@ msgstr "Seurataan"
 msgid "embed.twitter.info-line"
 msgstr ""
 "{created,time} • {created,date} • {retweets,plural,one {# "
-"Uudelleentwiittaus} other {# Uudelleentwiittausta}} • {likes,plural,one "
-"{# Tykkäys} other {# Tykkäystä}}"
+"Uudelleentwiittaus} other {# Uudelleentwiittausta}} • {likes,plural,one {# "
+"Tykkäys} other {# Tykkäystä}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -278,8 +278,8 @@ msgstr "Twiitit"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Katsoja} other {{views,number} "
-"Katsojaa}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# Katsoja} other {{views,number} Katsojaa}} "
+"• 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -316,29 +316,3 @@ msgstr "Pyyntö aikakatkaistiin."
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "Mikään käsittelijä ei tue tätä osoitetta."
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "lähettää {game}"
-
-msgid "clip.desc.1"
-msgstr "Käyttäjän {user} leike"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} pelaa {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Leikkeen tekijä {curator} — {views, plural, one {# katselukerta} other "
-"{# katselukertaa}}"
-
-msgid "clip.unknown"
-msgstr "Tuntematon"
-
-msgid "video.desc.1"
-msgstr "Käyttäjän {user} video"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} katselukertaa — {date,datetime}"

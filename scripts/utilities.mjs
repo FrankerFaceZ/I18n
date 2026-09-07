@@ -1,5 +1,6 @@
 'use strict';
 
+import fs from 'fs';
 import GTP from 'gettext-parser';
 const po = GTP.po;
 
@@ -42,6 +43,64 @@ const SETTING_TEST = /^settings?\.(entry\.)?(.+)$/,
 
 
 const sort = new Intl.Collator;
+
+
+// ----------------------------------------------------------------------------
+// PO file reading
+// ----------------------------------------------------------------------------
+
+const STRICT_UTF8 = new TextDecoder('utf-8', { fatal: true });
+
+export function isValidUTF8(buffer) {
+	try {
+		STRICT_UTF8.decode(buffer);
+		return true;
+	} catch (err) {
+		return false;
+	}
+}
+
+// Re-interpret every string in a parsed PO table that was decoded as
+// Latin-1 as the UTF-8 it really is.
+function latin1ToUTF8(value) {
+	if ( typeof value === 'string' )
+		return Buffer.from(value, 'latin1').toString('utf8');
+	if ( Array.isArray(value) )
+		return value.map(latin1ToUTF8);
+	if ( value && typeof value === 'object' ) {
+		const out = {};
+		for(const [k, v] of Object.entries(value))
+			out[latin1ToUTF8(k)] = latin1ToUTF8(v);
+		return out;
+	}
+	return value;
+}
+
+/**
+ * Read and parse a PO file as UTF-8.
+ *
+ * Files written by the 2021 import were line-folded on bytes rather than
+ * characters, which split multibyte sequences across `"` `\n` `"` and left
+ * them as invalid UTF-8. Such a file is parsed as Latin-1 (byte-transparent),
+ * which reassembles the folded pieces, and every string is then re-decoded as
+ * UTF-8. The result is flagged so callers can rewrite the file cleanly.
+ *
+ * @param {String} file Path to the PO file
+ * @returns {{data: Object, repaired: boolean}}
+ */
+export function readPOFile(file) {
+	const buffer = fs.readFileSync(file);
+	if ( isValidUTF8(buffer) )
+		return { data: po.parse(buffer, 'utf-8'), repaired: false };
+
+	const raw = po.parse(buffer, 'iso-8859-1');
+	const data = {
+		charset: 'utf-8',
+		headers: latin1ToUTF8(raw.headers),
+		translations: latin1ToUTF8(raw.translations)
+	};
+	return { data, repaired: true };
+}
 
 export function GetSortedEntries(obj) {
 	const entries = [...Object.entries(obj)];

@@ -22,10 +22,9 @@ msgstr "Сервер: {name}"
 
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# ретвит} "
-"few {# ретвита} other {# ретвитов}} • {likes,plural,one {# "
-"отметка «Нравится»} few {# отметки "
-"«Нравится»} other {# отметок «Нравится»}}"
+"{created,time} • {created,date} • {retweets,plural,one {# ретвит} few {# "
+"ретвита} other {# ретвитов}} • {likes,plural,one {# отметка «Нравится»} few "
+"{# отметки «Нравится»} other {# отметок «Нравится»}}"
 
 msgid "embed.twitter.tweeted"
 msgstr "написал(-а) в Твиттере: {tweet}"
@@ -59,10 +58,8 @@ msgstr "Категория"
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
-"{images,plural,one{# изображение}few{# "
-"изображения}other{# изображений}} • "
-"{views,plural,one{# просмотр}few{# просмотра} other{# "
-"просмотров}}"
+"{images,plural,one{# изображение}few{# изображения}other{# изображений}} • "
+"{views,plural,one{# просмотр}few{# просмотра} other{# просмотров}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -148,24 +145,22 @@ msgstr "Зарегистрировался {when}"
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
 msgid "embed.ffz.user-line"
 msgstr ""
-"{count,plural,one {# пользователь} few {# "
-"пользователя} other {{count,number} пользователей}}"
+"{count,plural,one {# пользователь} few {# пользователя} other "
+"{{count,number} пользователей}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
 "{posted,datetime} • {points,plural,one{# очко} few{# очк.} "
-"other{{points,number} очк.}} • 👍 {likes,number}  • 👎 "
-"{dislikes,number}"
+"other{{points,number} очк.}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# просмотр} few {# "
-"просмотра} other {{views,number} просмотров}} • 👍 "
-"{likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# просмотр} few {# просмотра} other "
+"{{views,number} просмотров}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -231,9 +226,8 @@ msgstr "Отриц. голосов"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{tweets,plural,one {# твит} other {# твитов}} • "
-"{following,number} читает • {followers,number} "
-"читателя(-ей) • Регистрация: {joined,date}"
+"{tweets,plural,one {# твит} other {# твитов}} • {following,number} читает • "
+"{followers,number} читателя(-ей) • Регистрация: {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":32}"
@@ -254,11 +248,9 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs,plural,one {# рекорд} other {# рекордов}} • "
-"{runs,plural,one {# прохождение} other {# "
-"прохождений}} • {games,plural,one {# игра} other {# "
-"игр}} • {cats,plural,one {# категория} other {# "
-"категорий}}"
+"{wrs,plural,one {# рекорд} other {# рекордов}} • {runs,plural,one {# "
+"прохождение} other {# прохождений}} • {games,plural,one {# игра} other {# "
+"игр}} • {cats,plural,one {# категория} other {# категорий}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -288,23 +280,17 @@ msgstr "Информация отсутствует"
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-host"
-msgstr ""
-"Предоставленный URL имеет недопустимый "
-"хост и не может быть проверен."
+msgstr "Предоставленный URL имеет недопустимый хост и не может быть проверен."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-port"
-msgstr ""
-"Предоставленный URL имеет нестандартный "
-"порт и не может быть проверен."
+msgstr "Предоставленный URL имеет нестандартный порт и не может быть проверен."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.invalid-scheme"
-msgstr ""
-"Предоставленный URL не использует HTTP и не "
-"может быть проверен."
+msgstr "Предоставленный URL не использует HTTP и не может быть проверен."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -317,31 +303,4 @@ msgstr "Время ожидания запроса истекло."
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
 msgid "card.error.unhandled"
-msgstr ""
-"Ни один обработчик не поддерживает этот "
-"URL."
-
-msgid "cards.user.streaming"
-msgstr "транслирует {game}"
-
-msgid "clip.desc.1"
-msgstr "Клип пользователя {user}"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} играет в {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Автор клипа: {curator} — {views, plural, one {# "
-"просмотр} few {# просмотра} other {# просмотров}}"
-
-msgid "clip.unknown"
-msgstr "Неизвестно"
-
-msgid "video.desc.1"
-msgstr "Видео пользователя {user}"
-
-msgid "video.desc.2"
-msgstr ""
-"{length,duration} — {views,number} {views,plural,one {просмотр} "
-"few {просмотра} other {просмотров}} — {date,datetime}"
+msgstr "Ни один обработчик не поддерживает этот URL."

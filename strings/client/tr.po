@@ -62,16 +62,16 @@ msgstr "Kullanıcıyı geçici sustur"
 
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"{user.login} kullanıcısını {duration, plural, one {# saniyeliğine} "
-"other {# saniyeliğine}} sustur:"
+"{user.login} kullanıcısını {duration, plural, one {# saniyeliğine} other {# "
+"saniyeliğine}} sustur:"
 
 msgid "chat.actions.timeout.desc"
 msgstr "{options.duration, plural, one {# saniye} other {# saniye}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"{user.login} kullanıcısını {duration, plural, one {# saniyeliğine} "
-"other {# saniyeliğine}} zaman aşımına uğrat"
+"{user.login} kullanıcısını {duration, plural, one {# saniyeliğine} other {# "
+"saniyeliğine}} zaman aşımına uğrat"
 
 msgid "chat.actions.unban"
 msgstr "Kullanıcının yasağını kaldır"
@@ -269,8 +269,8 @@ msgstr "Kanal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Geçici çözüm olarak kontrol merkezinden FFZ emoji menüsünü devre "
-"dışı bırakın."
+"Geçici çözüm olarak kontrol merkezinden FFZ emoji menüsünü devre dışı "
+"bırakın."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
@@ -279,17 +279,15 @@ msgid "emote-menu.emote-sub"
 msgstr "Kanala {price} karşılığında abone olduğunuzda bu emoji açılacaktır."
 
 msgid "emote-menu.emote-up"
-msgstr ""
-"Aboneliğinizi {price} karşılığında yükseltip bu emojiyi "
-"açabilirsiniz."
+msgstr "Aboneliğinizi {price} karşılığında yükseltip bu emojiyi açabilirsiniz."
 
 msgid "emote-menu.empty"
 msgstr "Burada birşey yok."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"Favori emojilerin yok. Eklemek için emojini seç ve {hotkey} basılı "
-"tutarak fareyle tıkla."
+"Favori emojilerin yok. Eklemek için emojini seç ve {hotkey} basılı tutarak "
+"fareyle tıkla."
 
 msgid "emote-menu.empty-search"
 msgstr "Uyuşan bir emoji yok."
@@ -364,8 +362,8 @@ msgstr "Abone emojileri"
 
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"{price} karşılığında abone olarak {count, plural, one {# adet} other "
-"{# adet}} ifadenin kilidini açabilirsiniz"
+"{price} karşılığında abone olarak {count, plural, one {# adet} other {# "
+"adet}} ifadenin kilidini açabilirsiniz"
 
 msgid "emote-menu.twitch"
 msgstr "Twitch"
@@ -410,9 +408,9 @@ msgstr ""
 "(https://discord.gg/UrAkGhT) discord serverına katılıp daha fazla bilgi "
 "alabilirsiniz.\n"
 "\n"
-"Bu araç çevirmenlerin yazılarını gerçek zamanlı olarak test "
-"etmelerine imkan tanımaktadır. Bu sayede çevirinizi göndermeden önce "
-"her şeyin düzgün gözüktüğünden emin olabilirsiniz."
+"Bu araç çevirmenlerin yazılarını gerçek zamanlı olarak test etmelerine "
+"imkan tanımaktadır. Bu sayede çevirinizi göndermeden önce her şeyin düzgün "
+"gözüktüğünden emin olabilirsiniz."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} Tamamlandı)"
@@ -566,8 +564,8 @@ msgstr "Tüm oynatıcıları baştan başlat"
 
 msgid "popup.error"
 msgstr ""
-"Bir pop-up penceresi açmaya çalıştık fakat Twitch'ten gelen pop'uplara "
-"izin verip vermeyeceğimize karar veremedik."
+"Bir pop-up penceresi açmaya çalıştık fakat Twitch'ten gelen pop'uplara izin "
+"verip vermeyeceğimize karar veremedik."
 
 msgid "site.menu_button"
 msgstr "FFZ Kontrol Merkezi"
@@ -687,8 +685,8 @@ msgstr "Mesajı Yanıtla"
 #, icu-message-format
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Başka bir kullanıcının mesajına doğrudan yanıt vermenizi sağlar. "
-"Yalnızca Sohbet Yanıtları Stili \"FrankerFaceZ\" olduğunda çalışır."
+"Başka bir kullanıcının mesajına doğrudan yanıt vermenizi sağlar. Yalnızca "
+"Sohbet Yanıtları Stili \"FrankerFaceZ\" olduğunda çalışır."
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:559
 #, icu-message-format
@@ -704,8 +702,8 @@ msgstr "{count, plural, one {# Bit} other {# Bits}} cheerladı"
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
 msgstr ""
-"Bu rozet, FrankerFaceZ kullanıcıları için küresel olarak görünür. "
-"Bu rozeti değiştirmek için lütfen {website} ziyaret edin."
+"Bu rozet, FrankerFaceZ kullanıcıları için küresel olarak görünür. Bu rozeti "
+"değiştirmek için lütfen {website} ziyaret edin."
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
@@ -802,10 +800,9 @@ msgstr "Prime Gaming ile"
 #, icu-message-format
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"BetterTTV'nin ayarlarında \"FrankerFaceZ İfadeleri\"ni açtınız ancak "
-"aynı zamanda FrankerFaceZ'i de yüklediniz. Lütfen BetterTTV'nin "
-"ayarlarında \"FrankerFaceZ İfadelerini\" devre dışı bırakın. Bu "
-"gerekli değil."
+"BetterTTV'nin ayarlarında \"FrankerFaceZ İfadeleri\"ni açtınız ancak aynı "
+"zamanda FrankerFaceZ'i de yüklediniz. Lütfen BetterTTV'nin ayarlarında "
+"\"FrankerFaceZ İfadelerini\" devre dışı bırakın. Bu gerekli değil."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -887,11 +884,11 @@ msgstr "Bu ifadeyi kullanmak için {user} kanalını takip edin."
 #, icu-message-format
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"İfade Görünürlük Kontrolü ifadeleri menüden tek tek ya da topluca "
-"gizlemeyi sağlar. İfade Görünürlük Kontrolü aktifken bir ifadeyi "
-"gizlemek ya da göstermek için ifade üzerine tıklamanız yeterlidir. "
-"Sohbet ekranında diğer kullanıcılar gizlediğiniz ifadeyi kullanınca "
-"hala gözükeceğini, sadece menünüzden gizleneceğini unutmayın."
+"İfade Görünürlük Kontrolü ifadeleri menüden tek tek ya da topluca gizlemeyi "
+"sağlar. İfade Görünürlük Kontrolü aktifken bir ifadeyi gizlemek ya da "
+"göstermek için ifade üzerine tıklamanız yeterlidir. Sohbet ekranında diğer "
+"kullanıcılar gizlediğiniz ifadeyi kullanınca hala gözükeceğini, sadece "
+"menünüzden gizleneceğini unutmayın."
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
 #, icu-message-format
@@ -943,8 +940,8 @@ msgstr "Rozeti Vurgula"
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user}, {recipient} kullanıcısına {months, plural, one {# aylık} other "
-"{# aylık}} {plan} aboneliği hediye etti!"
+"{user}, {recipient} kullanıcısına {months, plural, one {# aylık} other {# "
+"aylık}} {plan} aboneliği hediye etti!"
 
 #: /src/modules/translation_ui/components/translation-ui.vue:373
 #, icu-message-format
@@ -1022,8 +1019,8 @@ msgstr "Ekip Hostlama"
 #, icu-message-format
 msgid "metadata.host.setting.vodcast-hosting.description"
 msgstr ""
-"Tanıtımlar veya Tekrar Gösterimler gibi önceden kaydedilmiş video "
-"yayını yapan kanalları dahil edin"
+"Tanıtımlar veya Tekrar Gösterimler gibi önceden kaydedilmiş video yayını "
+"yapan kanalları dahil edin"
 
 #: /src/sites/twitch-twilight/modules/host_button/host-options.vue:414
 #, icu-message-format
@@ -1094,8 +1091,8 @@ msgstr "Oynatıcıyı Sıfırla (Çift Tıklama)"
 #, icu-message-format
 msgid "site.menu_button.changed"
 msgstr ""
-"FrankerFaceZ ayar sağlayıcısı değişti. Garip davranışlardan "
-"kaçınmak için lütfen bu sekmeyi yenileyin."
+"FrankerFaceZ ayar sağlayıcısı değişti. Garip davranışlardan kaçınmak için "
+"lütfen bu sekmeyi yenileyin."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:333
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
@@ -1108,10 +1105,10 @@ msgstr ""
 #, icu-message-format
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
-"Bu web sitesi için yerel depolama alanınız doldu ve ayarlar "
-"kaydedilemiyor. Lütfen ayarlarınızı yedekleyin ve [Veri Yönetimi > "
-"Depolama >> Sağlayıcı](~data_management.storage.tabs.provider) "
-"bölümünde daha yüksek kapasiteli bir sağlayıcıya geçin."
+"Bu web sitesi için yerel depolama alanınız doldu ve ayarlar kaydedilemiyor. "
+"Lütfen ayarlarınızı yedekleyin ve [Veri Yönetimi > Depolama >> "
+"Sağlayıcı](~data_management.storage.tabs.provider) bölümünde daha yüksek "
+"kapasiteli bir sağlayıcıya geçin."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:190
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
@@ -1289,3 +1286,29 @@ msgstr "Gömülü İçerik Ortası"
 #, icu-message-format
 msgid "debug.link-provider.raw-length"
 msgstr "Ham Uzunluk"
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "{game} yayını yapıyor"
+
+msgid "clip.desc.1"
+msgstr "{user} klibi"
+
+msgid "clip.desc.1.playing"
+msgstr "{user}, {game} oynuyor"
+
+msgid "clip.desc.2"
+msgstr ""
+"{curator} tarafından kliplendi — {views, plural, one {# Görüntülenme} other "
+"{# Görüntülenme}}"
+
+msgid "clip.unknown"
+msgstr "Bilinmeyen"
+
+msgid "video.desc.1"
+msgstr "Videosu {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} İzlenme sayısı — {date,datetime}"

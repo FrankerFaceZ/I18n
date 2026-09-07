@@ -271,25 +271,3 @@ msgstr ""
 #, icu-message-format
 msgid "card.error.empty"
 msgstr "Nem áll rendelkezésre információ"
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "közvetít {game}"
-
-msgid "clip.desc.1"
-msgstr "{user} klippje"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} jelenleg játékban: {game}"
-
-msgid "clip.unknown"
-msgstr "Ismeretlen"
-
-msgid "video.desc.1"
-msgstr "{user} videója"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Megtekintés - {date,datetime}"

@@ -133,8 +133,8 @@ msgstr "Imgur Galerisi"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,plural,one{# Puan}other{{points,number} "
-"Puan}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{posted,datetime} • {points,plural,one{# Puan}other{{points,number} Puan}} "
+"• 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -200,9 +200,9 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs,plural,one {# Kayıt} other {# Kayıtlar}} • {runs,plural,one {# "
-"Yarış} other {# Yarışlar}} • {games,plural,one {# Oyuın} other {# "
-"Oyunlar}} • {cats,plural,one {# Kategori} other {# Kategoriler}}"
+"{wrs,plural,one {# Kayıt} other {# Kayıtlar}} • {runs,plural,one {# Yarış} "
+"other {# Yarışlar}} • {games,plural,one {# Oyuın} other {# Oyunlar}} • "
+"{cats,plural,one {# Kategori} other {# Kategoriler}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -243,9 +243,8 @@ msgstr "Takip Edilen"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
-"other {# Retweetler}} • {likes,plural,one {# Beğeni} other {# "
-"Beğeniler}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
+"Retweetler}} • {likes,plural,one {# Beğeni} other {# Beğeniler}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -318,29 +317,3 @@ msgstr "İstek zaman aşımına uğradı."
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "Bu URL'yi hiçbir işleyici desteklemiyor."
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "{game} yayını yapıyor"
-
-msgid "clip.desc.1"
-msgstr "{user} klibi"
-
-msgid "clip.desc.1.playing"
-msgstr "{user}, {game} oynuyor"
-
-msgid "clip.desc.2"
-msgstr ""
-"{curator} tarafından kliplendi — {views, plural, one {# Görüntülenme} "
-"other {# Görüntülenme}}"
-
-msgid "clip.unknown"
-msgstr "Bilinmeyen"
-
-msgid "video.desc.1"
-msgstr "Videosu {user}"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} İzlenme sayısı — {date,datetime}"

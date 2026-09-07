@@ -207,8 +207,8 @@ msgstr "Anonyymi lahjoittaja"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"Käyttäjä on tilannut kanavan yhteensä {cumulative,number} kuukautta, "
-"josta {streak,number} kuukautta yhtäjaksoisesti!"
+"Käyttäjä on tilannut kanavan yhteensä {cumulative,number} kuukautta, josta "
+"{streak,number} kuukautta yhtäjaksoisesti!"
 
 msgid "chat.sub.gift"
 msgstr ""
@@ -302,8 +302,8 @@ msgstr "Kanava"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Tilapäisenä korjauskeinona voitte kokeilla FFZ hymiövalikon ottamista "
-"pois käytöstä."
+"Tilapäisenä korjauskeinona voitte kokeilla FFZ hymiövalikon ottamista pois "
+"käytöstä."
 
 msgid "emote-menu.emoji"
 msgstr "Hymiö"
@@ -440,9 +440,8 @@ msgstr ""
 "Oletko kiinnostunut osallistumaan käännöstyöhin? Liity "
 "[Discordiin](https://discord.gg/UrAkGhT) ja liity lokalisointikanavalle.\n"
 "\n"
-"Tämä työkalu mahdollistaa käännösten testaamisen reaaliajassa, "
-"tällä tavoin voi testata käännösten toimivuuden ennen niiden "
-"lähettämistä."
+"Tämä työkalu mahdollistaa käännösten testaamisen reaaliajassa, tällä tavoin "
+"voi testata käännösten toimivuuden ennen niiden lähettämistä."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} valmis)"
@@ -572,8 +571,8 @@ msgstr "Lähetetty {count,number} sekuntia sitten"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Paikallinen kellosi vaikuttaa olevan {count,number} sekuntia väärässä, "
-"mikä voi tehdä tästä epätarkan."
+"Paikallinen kellosi vaikuttaa olevan {count,number} sekuntia väärässä, mikä "
+"voi tehdä tästä epätarkan."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Lähetyksen viive"
@@ -648,8 +647,8 @@ msgstr "dev"
 
 msgid "site.menu_button.error"
 msgstr ""
-"FFZ Ohjauskeskuksen avauksessa tapahtui virhe. Uudelleenlataa sivu ja "
-"yritä uudestaan."
+"FFZ Ohjauskeskuksen avauksessa tapahtui virhe. Uudelleenlataa sivu ja yritä "
+"uudestaan."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -780,9 +779,7 @@ msgstr "Muuta nimi ja väri"
 #: /src/modules/main_menu/components/action-editor.vue:579
 #, icu-message-format
 msgid "chat.actions.edit_overrides.desc"
-msgstr ""
-"Voit asettaa käyttäjälle itselleni näkyvän nimen ja värin tälle "
-"kanavalle."
+msgstr "Voit asettaa käyttäjälle itselleni näkyvän nimen ja värin tälle kanavalle."
 
 #: /src/modules/chat/actions/types.jsx:24
 #, icu-message-format
@@ -808,8 +805,8 @@ msgstr "Hurrasi {count, plural, one {bitin} other {bittiä}}"
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
 msgstr ""
-"Tämä merkki näkyy kaikille FrankerFaceZ käyttäjille. Käy sivulla "
-"{website} muuttaaksesi merkin asetuksia."
+"Tämä merkki näkyy kaikille FrankerFaceZ käyttäjille. Käy sivulla {website} "
+"muuttaaksesi merkin asetuksia."
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
@@ -858,8 +855,8 @@ msgid "compat.bttv.emotes-on"
 msgstr ""
 "Olet ottanut \"FrankerFaceZ Emotes\" -toiminnin käyttöön BetterTTV "
 "-asetuksissa ja FrankerFaceZ on asennettu samaan aikaan. Poista "
-"\"FrankerFaceZ Emotes\" käytöstä BetterTTV -asetuksista, sillä se ei "
-"oel tarpeen."
+"\"FrankerFaceZ Emotes\" käytöstä BetterTTV -asetuksista, sillä se ei oel "
+"tarpeen."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -915,9 +912,7 @@ msgstr "Ruoat & Juomat"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr ""
-"Seuraa käyttäjää {user} käyttääksesi tätä hymiötä heidän "
-"kanavallaan."
+msgstr "Seuraa käyttäjää {user} käyttääksesi tätä hymiötä heidän kanavallaan."
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
 #, icu-message-format
@@ -1049,8 +1044,8 @@ msgstr "Vahvistuksen säätö"
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Asetukset ovat poistettu käytöstä tässä välilehdessä, koska URL:ssa "
-"on \"{param}\"."
+"Asetukset ovat poistettu käytöstä tässä välilehdessä, koska URL:ssa on "
+"\"{param}\"."
 
 #: /src/modules/main_menu/components/socket-info.vue:154
 #: /src/modules/main_menu/components/socket-info.vue:122
@@ -1155,8 +1150,7 @@ msgstr ""
 "Hymiöiden näkyvyydellä voit piilottaa hymiöitä listalta yksittäin tai "
 "ryhmissä. Hymiöiden näkyvyyden ollessa käytössä klikkaa hymiötä "
 "piilottaaksesi tai tuodaksesi sen takaisin näyviin. Huomaa, että hymiöt "
-"näkyvät chatissa, jos joku käyttää niitä, mutta ne eivät näy "
-"hymiölistalla."
+"näkyvät chatissa, jos joku käyttää niitä, mutta ne eivät näy hymiölistalla."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1187,8 +1181,8 @@ msgstr "Sisällytä kanavat, jotka lähettävät ennalta tallennettua materiaali
 #, icu-message-format
 msgid "player.comp_button.help"
 msgstr ""
-"Katso lisätietoja FFZ ohjauskeskuksesta. Jos äänessä ilmenee "
-"häiriöitä, uudelleenkäynnistä soitin."
+"Katso lisätietoja FFZ ohjauskeskuksesta. Jos äänessä ilmenee häiriöitä, "
+"uudelleenkäynnistä soitin."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:321
 #, icu-message-format
@@ -1240,3 +1234,29 @@ msgstr ""
 "asetuksia voida tallentaa. Lataa varmuuskopio asetuksistasi ja vaihda "
 "suuremman kapasiteetin tallennustailaan asetuksissa [Tiedon halinta > "
 "Tallennussijainti >> Tarjoaja](~data_management.storage.tabs.provider)."
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "lähettää {game}"
+
+msgid "clip.desc.1"
+msgstr "Käyttäjän {user} leike"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} pelaa {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Leikkeen tekijä {curator} — {views, plural, one {# katselukerta} other {# "
+"katselukertaa}}"
+
+msgid "clip.unknown"
+msgstr "Tuntematon"
+
+msgid "video.desc.1"
+msgstr "Käyttäjän {user} video"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} katselukertaa — {date,datetime}"

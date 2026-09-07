@@ -45,9 +45,7 @@ msgstr "Vui lòng chọn một trong những lí do dưới đây"
 
 #, fuzzy
 msgid "chat.actions.timeout-reason"
-msgstr ""
-"Chặn {user.login} chat trong {duration,number} giây{duration,en_plural} "
-"vì"
+msgstr "Chặn {user.login} chat trong {duration,number} giây{duration,en_plural} vì"
 
 #, fuzzy
 msgid "chat.actions.timeout.tooltip"
@@ -90,9 +88,7 @@ msgid "chat.paused"
 msgstr "Chat dừng lại do {reason}"
 
 msgid "chat.points.bypass-sub"
-msgstr ""
-"Gửi một tin nhắn trong chế độ Dành riêng cho người đăng "
-"ký"
+msgstr "Gửi một tin nhắn trong chế độ Dành riêng cho người đăng ký"
 
 msgid "chat.points.choose-emote"
 msgstr "Chọn một Emote để mở khóa"
@@ -132,19 +128,17 @@ msgstr "Một người tặng quà ẩn danh"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"Họ đã đăng ký trong {cumulative,number} tháng, hiện đang có "
-"chuỗi {streak,number} tháng đăng ký liên tiếp!"
+"Họ đã đăng ký trong {cumulative,number} tháng, hiện đang có chuỗi "
+"{streak,number} tháng đăng ký liên tiếp!"
 
 #, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
-"{user} đang tặng {count,number} Bậc {tier} lượt đăng ký theo "
-"dõi tới cộng đồng của kênh {channel}!"
+"{user} đang tặng {count,number} Bậc {tier} lượt đăng ký theo dõi tới cộng "
+"đồng của kênh {channel}!"
 
 msgid "chat.sub.gift-first"
-msgstr ""
-"Đây là lần đầu tiên họ gửi một lượt Đăng ký theo dõi "
-"trong kênh!"
+msgstr "Đây là lần đầu tiên họ gửi một lượt Đăng ký theo dõi trong kênh!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Bậc {tier}"
@@ -211,9 +205,7 @@ msgid "emote-menu.emote-sub"
 msgstr "Đăng ký theo dõi với {price} để mở khóa emote này"
 
 msgid "emote-menu.emote-up"
-msgstr ""
-"Nâng cấp gói đăng ký của bạn lên {price} để mở khóa emote "
-"này"
+msgstr "Nâng cấp gói đăng ký của bạn lên {price} để mở khóa emote này"
 
 msgid "emote-menu.empty"
 msgstr "Không có gì ở đây đâu :v"
@@ -246,14 +238,12 @@ msgid "emote-menu.sub-ends"
 msgstr "Lượt Đăng ký theo dõi sẽ hết sau {seconds,humantime}."
 
 msgid "emote-menu.sub-gift-ends"
-msgstr ""
-"Lượt đăng ký được tặng của bạn sẽ hết hạn sau "
-"{seconds,humantime}."
+msgstr "Lượt đăng ký được tặng của bạn sẽ hết hạn sau {seconds,humantime}."
 
 msgid "emote-menu.sub-prime"
 msgstr ""
-"Đây là gói đăng ký miễn phí với Twitch Prime của bạn, kết "
-"thúc vào {seconds,humantime}."
+"Đây là gói đăng ký miễn phí với Twitch Prime của bạn, kết thúc vào "
+"{seconds,humantime}."
 
 msgid "emote-menu.sub-renews"
 msgstr "Lượt Đăng ký theo dõi được làm mới trong {seconds,humantime}."
@@ -351,13 +341,11 @@ msgstr "Tải lại trình phát (Bấm hai lần)"
 
 msgid "popup.error"
 msgstr ""
-"Chúng tôi thử mở một cửa sổ pop-up nhưng không thể. Hãy "
-"chắc chắn bạn cho phép Twitch mở các cửa số pop-up"
+"Chúng tôi thử mở một cửa sổ pop-up nhưng không thể. Hãy chắc chắn bạn cho "
+"phép Twitch mở các cửa số pop-up"
 
 msgid "site.menu_button.error"
-msgstr ""
-"Có lỗi xảy ra khi mở Trang cài đặt FFZ. Tải lại trang và "
-"thử lại."
+msgstr "Có lỗi xảy ra khi mở Trang cài đặt FFZ. Tải lại trang và thử lại."
 
 msgid "site.menu_button.update-desc"
 msgstr "Có một bản cập nhật mới!. Hãy tải lại trang của bạn."
@@ -389,8 +377,8 @@ msgstr "Có lỗi xảy ra. Mã lỗi: {error}"
 #, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Cảnh báo: Đường link này ở trên danh sách duyệt an toàn "
-"của Google bởi: {reasons}"
+"Cảnh báo: Đường link này ở trên danh sách duyệt an toàn của Google bởi: "
+"{reasons}"
 
 msgid "video-chat.jump"
 msgstr "Nhảy tới video"
@@ -1439,3 +1427,19 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
 msgid "video.desc.2"
 msgstr ""
+
+msgid "clip.desc.1"
+msgstr "Clip của {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} đang chơi {game}"
+
+#, fuzzy
+msgid "clip.desc.2"
+msgstr "Được cắt bởi {curator} — {views,number} Lượt xem{views,en_plural}"
+
+msgid "clip.unknown"
+msgstr "Không rõ"
+
+msgid "video.desc.1"
+msgstr "Video của {user}"

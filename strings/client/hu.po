@@ -114,8 +114,8 @@ msgstr "Letiltott Kifejezések"
 
 msgid "chat.ignore-clear"
 msgstr ""
-"Az egyik moderátor megkísérelte a csevegés törlését, de figyelmen "
-"kívül lett hagyva."
+"Az egyik moderátor megkísérelte a csevegés törlését, de figyelmen kívül "
+"lett hagyva."
 
 msgid "chat.message-deleted"
 msgstr "<üzenet törölve>"
@@ -179,8 +179,8 @@ msgstr "Egy ismeretlen ajándékozó"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"{cumulative,number} hónapja feliratkozó, jelenleg {streak,number} "
-"hónapos sorozatban van."
+"{cumulative,number} hónapja feliratkozó, jelenleg {streak,number} hónapos "
+"sorozatban van."
 
 msgid "chat.sub.gift-first"
 msgstr "Most először ajándékozott feliratkozást a csatornán."
@@ -448,8 +448,8 @@ msgstr "Közvetít: {count,number}s óta"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Úgy tűnik, hogy a helyi órád nagyjából {count,number} másodperccel "
-"késik, ezért pontatlan lehet."
+"Úgy tűnik, hogy a helyi órád nagyjából {count,number} másodperccel késik, "
+"ezért pontatlan lehet."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Adatfolyam Késleltetése"
@@ -492,8 +492,8 @@ msgstr "Kép a képben"
 
 msgid "popup.error"
 msgstr ""
-"Megpróbáltunk megnyitni egy felugró ablakot, de nem sikerült. "
-"Engedélyezd a felugró ablakokat."
+"Megpróbáltunk megnyitni egy felugró ablakot, de nem sikerült. Engedélyezd a "
+"felugró ablakokat."
 
 msgid "site.menu_button.addon-dev"
 msgstr "al-fejlesztő"
@@ -577,8 +577,8 @@ msgstr "Hiba történt. ({error})"
 #, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Figyelmeztetés: Ez az URL a Google Biztonsági Böngészés Listáján "
-"szerepel {reasons} okkal."
+"Figyelmeztetés: Ez az URL a Google Biztonsági Böngészés Listáján szerepel "
+"{reasons} okkal."
 
 msgid "tooltip.shift-detail"
 msgstr "(Shift a részletekért)"
@@ -1300,3 +1300,25 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
 msgstr ""
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "közvetít {game}"
+
+msgid "clip.desc.1"
+msgstr "{user} klippje"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} jelenleg játékban: {game}"
+
+msgid "clip.unknown"
+msgstr "Ismeretlen"
+
+msgid "video.desc.1"
+msgstr "{user} videója"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Megtekintés - {date,datetime}"

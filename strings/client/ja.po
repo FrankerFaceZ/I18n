@@ -35,9 +35,7 @@ msgid "chat.actions.unknown"
 msgstr "不明なアクションタイプ"
 
 msgid "chat.ignore-clear"
-msgstr ""
-"モデレーターによるチャットの全消去の試みは無視され�"
-"��した。"
+msgstr "モデレーターによるチャットの全消去の試みは無視されました。"
 
 msgid "chat.message-deleted"
 msgstr "<メッセージが削除されました>"
@@ -64,21 +62,13 @@ msgid "directory.hosting"
 msgstr "ホスト中のチャンネル"
 
 msgid "emote-menu.disable"
-msgstr ""
-"一時的な回避策として、FFZコントロールセンターのFFZ "
-"Emoteメニューを無効にしてみてください。"
+msgstr "一時的な回避策として、FFZコントロールセンターのFFZ Emoteメニューを無効にしてみてください。"
 
 msgid "emote-menu.emote-sub"
-msgstr ""
-"{price}"
-"でサブスクライブするとこのエモートがアンロックされ�"
-"��す。"
+msgstr "{price}でサブスクライブするとこのエモートがアンロックされます。"
 
 msgid "emote-menu.emote-up"
-msgstr ""
-"{price}"
-"でサブスクをアップデートするとこのエモートがアンロ�"
-"��クされます。"
+msgstr "{price}でサブスクをアップデートするとこのエモートがアンロックされます。"
 
 msgid "emote-menu.empty"
 msgstr "ここには何もありません。"
@@ -87,17 +77,13 @@ msgid "emote-menu.empty-search"
 msgstr "一致するエモートはありません。"
 
 msgid "emote-menu.error"
-msgstr ""
-"このメニューのレンダリング中にエラーが発生しました�"
-"��"
+msgstr "このメニューのレンダリング中にエラーが発生しました。"
 
 msgid "emote-menu.error-report"
 msgstr "エラー報告が自動的に送信されました。"
 
 msgid "emote-menu.sub-basic"
-msgstr ""
-"サブスクライブするといくつかのエモートがアンロック�"
-"��れます。"
+msgstr "サブスクライブするといくつかのエモートがアンロックされます。"
 
 msgid "emote-menu.sub-gift-ends"
 msgstr "このギフトサブは{seconds,humantime}で期限切れになります。"
@@ -109,9 +95,7 @@ msgstr ""
 
 #, fuzzy
 msgid "emote-menu.sub-unlock"
-msgstr ""
-"{price}でサブスクライブすると{count,number}"
-"個のエモートがアンロックされます。"
+msgstr "{price}でサブスクライブすると{count,number}個のエモートがアンロックされます。"
 
 msgid "emote-menu.unknown"
 msgstr "不明なソース"
@@ -170,9 +154,7 @@ msgid "metadata.player-stats.broadcast-ago"
 msgstr "配信 {count,number}秒前"
 
 msgid "metadata.player-stats.delay-warning"
-msgstr ""
-"ローカルの時計が約{count,number}"
-"秒ずれているため、不正確な可能性があります。"
+msgstr "ローカルの時計が約{count,number}秒ずれているため、不正確な可能性があります。"
 
 msgid "metadata.player-stats.subtitle"
 msgstr "遅延"
@@ -190,22 +172,16 @@ msgid "metadata.uptime.subtitle"
 msgstr "配信時間"
 
 msgid "popup.error"
-msgstr ""
-"ポップアップウィンドウを開けませんでした。Twitchから�"
-"��ポップアップを必ず許可してください。"
+msgstr "ポップアップウィンドウを開けませんでした。Twitchからのポップアップを必ず許可してください。"
 
 msgid "site.menu_button.addon-dev-desc"
-msgstr ""
-"ローカル開発用サーバーからアドオンを読み込みました�"
-"��"
+msgstr "ローカル開発用サーバーからアドオンを読み込みました。"
 
 msgid "site.menu_button.dev"
 msgstr "開発者"
 
 msgid "site.menu_button.update-desc"
-msgstr ""
-"利用可能なアップデートがあります。ページを更新して�"
-"��ださい。"
+msgstr "利用可能なアップデートがあります。ページを更新してください。"
 
 msgid "tooltip.emoji"
 msgstr "絵文字 - {category}"
@@ -215,10 +191,7 @@ msgstr "エラーが発生しました 。({error})"
 
 #, fuzzy
 msgid "tooltip.link-unsafe"
-msgstr ""
-"警告: "
-"このURLは次の理由によりGoogleセーフブラウジングに登録�"
-"��れています: {reasons}"
+msgstr "警告: このURLは次の理由によりGoogleセーフブラウジングに登録されています: {reasons}"
 
 msgid "video-chat.jump"
 msgstr "ビデオまでジャンプ"
@@ -1562,3 +1535,19 @@ msgstr ""
 #, icu-message-format
 msgid "socket.info.stats.total_commands"
 msgstr ""
+
+msgid "clip.desc.1"
+msgstr "{user}のクリップ"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} は {game} をプレイ中"
+
+msgid "clip.unknown"
+msgstr "不明"
+
+msgid "video.desc.1"
+msgstr "{user}のビデオ"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} 回視聴 - {date,datetime}"
