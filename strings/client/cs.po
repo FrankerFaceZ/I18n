@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
 "client/cs/>\n"
@@ -1240,3 +1240,15 @@ msgstr "Oznámení"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user} vtrhl(a) se svojí bandou v počtu {count}."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"{user} má momentálně sérii {streak, plural, one {# vysílání} other {# "
+"vysílání}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Dosažení série sledování {points_icon}+{copo}"
