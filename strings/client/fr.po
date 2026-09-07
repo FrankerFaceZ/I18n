@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fr/>\n"
@@ -1134,3 +1134,15 @@ msgstr "Annonce"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user} lance un raid avec un groupe de {count}."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"{user} est actuellement sur une série de {streak, plural, one {# visionnage"
+" } other {#visionnages }}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Série de visionnage atteinte {points_icon}+{copo}"
