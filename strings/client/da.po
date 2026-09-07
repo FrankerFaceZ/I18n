@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-06-01 16:04+0000\n"
 "Last-Translator: Oliver Kristensen <zfihgaming@gmail.com>\n"
-"Language-Team: Danish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/da/>\n"
+"Language-Team: Danish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/da/>\n"
 "Language: da\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,8 +39,7 @@ msgstr ""
 
 #, fuzzy
 msgid "chat.actions.timeout.tooltip"
-msgstr ""
-"Timeout {user.login} i {duration,plural,one {# sekund} other {# sekunder}}"
+msgstr "Timeout {user.login} i {duration,plural,one {# sekund} other {# sekunder}}"
 
 msgid "chat.actions.untimeout.tooltip"
 msgstr "Untimeout {user.login}"
@@ -88,27 +87,18 @@ msgstr "En anonym giver"
 msgid "chat.sub.twitch-prime"
 msgstr "med Prime Gaming"
 
-msgid "clip.desc.1"
-msgstr "Klip af {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} er Kreativ"
 
-msgid "clip.desc.1.playing"
-msgstr "{user} spiller {game}"
-
-msgid "clip.unknown"
-msgstr "Ukendt"
-
 msgid "directory.hosted.by-many"
 msgstr ""
-"{count,plural,one {# kanal er vært} other {# kanaler er værter}} for denne "
-"kanal"
+"{count,plural,one {# kanal er vært} other {# kanaler er værter}} for "
+"denne kanal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Som en midlertidig løsning kan du prøve at deaktivere FFZ Humørikon Menuen i "
-"FFZ Kontrolcenter."
+"Som en midlertidig løsning kan du prøve at deaktivere FFZ Humørikon "
+"Menuen i FFZ Kontrolcenter."
 
 msgid "emote-menu.emote-sub"
 msgstr "Abonner for {price} for at låse op for dette humørikon."
@@ -142,8 +132,8 @@ msgstr ""
 #, fuzzy
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Abonner for {price} for at låse op for {count,plural,one {# humørikon} other "
-"{# humørikoner}}"
+"Abonner for {price} for at låse op for {count,plural,one {# humørikon} "
+"other {# humørikoner}}"
 
 msgid "emote-menu.unknown"
 msgstr "Ukendt Kilde"
@@ -216,8 +206,7 @@ msgid "site.menu_button.dev"
 msgstr "dev"
 
 msgid "site.menu_button.new-desc"
-msgstr ""
-"Der er {count,plural,one {én ny indstilling} other {# nye indstillinger}}."
+msgstr "Der er {count,plural,one {én ny indstilling} other {# nye indstillinger}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "En opdatering er klar. Genindlæs venligst siden."
@@ -253,13 +242,6 @@ msgstr "Vis flere svar..."
 
 msgid "video-chat.time"
 msgstr "{time,humantime} siden"
-
-msgid "video.desc.1"
-msgstr "Video af {user}"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Visninger - {date,datetime}"
 
 #: /src/std-components/autocomplete.vue:182
 #, icu-message-format
@@ -397,12 +379,6 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"views\":33736583,\"followers\":167372}"
 msgid "cards.user.stats"
 msgstr ""
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "streamer {game}"
 
 #, icu-message-format
 msgid "channel.links.clips"

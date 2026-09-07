@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-11-20 20:16+0000\n"
 "Last-Translator: Jonni Rauhansalo <joromonni@protonmail.com>\n"
-"Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/embed/fi/>\n"
+"Language-Team: Finnish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/fi/>\n"
 "Language: fi\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -201,8 +201,8 @@ msgstr "RT"
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# Tallenne} other {# Tallennetta}} • {runs,plural,one {# "
-"Suoritus} other {# Suoritusta}} • {games,plural,one {# Peli} other {# Peliä}}"
-" • {cats,plural,one {# Kategoria} other {# Kategoriaa}}"
+"Suoritus} other {# Suoritusta}} • {games,plural,one {# Peli} other {# "
+"Peliä}} • {cats,plural,one {# Kategoria} other {# Kategoriaa}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -243,9 +243,9 @@ msgstr "Seurataan"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Uudelleentwiittaus}"
-" other {# Uudelleentwiittausta}} • {likes,plural,one {# Tykkäys} other {# "
-"Tykkäystä}}"
+"{created,time} • {created,date} • {retweets,plural,one {# "
+"Uudelleentwiittaus} other {# Uudelleentwiittausta}} • {likes,plural,one "
+"{# Tykkäys} other {# Tykkäystä}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -278,5 +278,67 @@ msgstr "Twiitit"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Katsoja} other {{views,number} Katsojaa}} • "
-"👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# Katsoja} other {{views,number} "
+"Katsojaa}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Ei tietoja saatavilla"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "Annettu URL sisältää virheellisen osoitteen, eikä sitä voida tarkistaa."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "Annettu URL sisältää ei-tavallisen portin, eikä sitä voida tarkistaa."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "Annettu URL ei käytä HTTP-protokollaa, eikä sitä voida tarkistaa."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Tapahtui verkkovirhe."
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "card.error.timeout"
+msgstr "Pyyntö aikakatkaistiin."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Mikään käsittelijä ei tue tätä osoitetta."
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "lähettää {game}"
+
+msgid "clip.desc.1"
+msgstr "Käyttäjän {user} leike"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} pelaa {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Leikkeen tekijä {curator} — {views, plural, one {# katselukerta} other "
+"{# katselukertaa}}"
+
+msgid "clip.unknown"
+msgstr "Tuntematon"
+
+msgid "video.desc.1"
+msgstr "Käyttäjän {user} video"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} katselukertaa — {date,datetime}"

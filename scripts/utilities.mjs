@@ -114,15 +114,18 @@ export function stringsToComponents(strings) {
 }
 
 
-export function keyHasMarkdown(key) {
+export function keyHasMarkdown(key, entry) {
+	if ( entry?.markdown )
+		return true;
+
 	if ( KNOWN_MARKDOWN.includes(key) )
 		return true;
 
 	return SETTING_TEST.test(key) && key.endsWith('.description');
 }
 
-export function getFlags(key) {
-	return `icu-message-format${keyHasMarkdown(key) ? ', md-text' : ''}`;
+export function getFlags(key, entry) {
+	return `icu-message-format${keyHasMarkdown(key, entry) ? ', md-text' : ''}`;
 }
 
 export function fixSources(sources) {
@@ -206,7 +209,7 @@ export function componentToPO(component, strings, original_strings, lang = 'en-U
 
 		const [placeholders, extracted] = getExtraContext(thing);
 		const [sources, context] = fixSources(thing.source);
-		const flags = getFlags(key);
+		const flags = getFlags(key, thing);
 
 		out[key] = {
 			msgid: key,

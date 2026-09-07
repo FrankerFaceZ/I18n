@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
 "Last-Translator: Dániel Pelle <pelledani6@gmail.com>\n"
-"Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/hu/>\n"
+"Language-Team: Hungarian "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -114,8 +114,8 @@ msgstr "Letiltott Kifejezések"
 
 msgid "chat.ignore-clear"
 msgstr ""
-"Az egyik moderátor megkísérelte a csevegés törlését, de figyelmen kívül lett "
-"hagyva."
+"Az egyik moderátor megkísérelte a csevegés törlését, de figyelmen "
+"kívül lett hagyva."
 
 msgid "chat.message-deleted"
 msgstr "<üzenet törölve>"
@@ -179,8 +179,8 @@ msgstr "Egy ismeretlen ajándékozó"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"{cumulative,number} hónapja feliratkozó, jelenleg {streak,number} hónapos "
-"sorozatban van."
+"{cumulative,number} hónapja feliratkozó, jelenleg {streak,number} "
+"hónapos sorozatban van."
 
 msgid "chat.sub.gift-first"
 msgstr "Most először ajándékozott feliratkozást a csatornán."
@@ -201,17 +201,8 @@ msgstr "Feliratkozott {count,number} hónapra."
 msgid "chat.sub.plan"
 msgstr "{tier}. fokozattal"
 
-msgid "clip.desc.1"
-msgstr "{user} klippje"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} kreatív"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} jelenleg játékban: {game}"
-
-msgid "clip.unknown"
-msgstr "Ismeretlen"
 
 msgid "directory.hosted"
 msgstr "Hosztolt Csatorna"
@@ -457,8 +448,8 @@ msgstr "Közvetít: {count,number}s óta"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Úgy tűnik, hogy a helyi órád nagyjából {count,number} másodperccel késik, "
-"ezért pontatlan lehet."
+"Úgy tűnik, hogy a helyi órád nagyjából {count,number} másodperccel "
+"késik, ezért pontatlan lehet."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Adatfolyam Késleltetése"
@@ -501,8 +492,8 @@ msgstr "Kép a képben"
 
 msgid "popup.error"
 msgstr ""
-"Megpróbáltunk megnyitni egy felugró ablakot, de nem sikerült. Engedélyezd a "
-"felugró ablakokat."
+"Megpróbáltunk megnyitni egy felugró ablakot, de nem sikerült. "
+"Engedélyezd a felugró ablakokat."
 
 msgid "site.menu_button.addon-dev"
 msgstr "al-fejlesztő"
@@ -514,8 +505,7 @@ msgid "site.menu_button.dev"
 msgstr "fejlesztő"
 
 msgid "site.menu_button.new-desc"
-msgstr ""
-"Itt van {count,plural,one {is one new setting} other {are # new settings}}."
+msgstr "Itt van {count,plural,one {is one new setting} other {are # new settings}}."
 
 msgid "site.menu_button.profiles"
 msgstr "Profilok"
@@ -587,8 +577,8 @@ msgstr "Hiba történt. ({error})"
 #, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Figyelmeztetés: Ez az URL a Google Biztonsági Böngészés Listáján szerepel "
-"{reasons} okkal."
+"Figyelmeztetés: Ez az URL a Google Biztonsági Böngészés Listáján "
+"szerepel {reasons} okkal."
 
 msgid "tooltip.shift-detail"
 msgstr "(Shift a részletekért)"
@@ -605,13 +595,6 @@ msgstr "További válaszok megjelenítése..."
 msgid "video-chat.time"
 msgstr "{time,humantime} óta"
 
-msgid "video.desc.1"
-msgstr "{user} videója"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Megtekintés - {date,datetime}"
-
 #: /src/std-components/autocomplete.vue:182
 #, icu-message-format
 msgid "autocomplete.empty"
@@ -627,21 +610,10 @@ msgstr "NSFW engedélyezése"
 msgid "debug.link-provider.url"
 msgstr "URL tesztelése"
 
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "közvetít {game}"
-
 #: /src/modules/chat/tokenizers.jsx:1105:51
 #, icu-message-format, lp-defaults:"{\"name\":\"6Head\"}"
 msgid "tooltip.emote"
 msgstr "Hangulatjel: {name}"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "Nem áll rendelkezésre információ"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format

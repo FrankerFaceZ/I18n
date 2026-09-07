@@ -1,31 +1,56 @@
 msgid ""
 msgstr "Content-Type: text/plain\n"
 
+#: /src/ffzap-bttv/index.js:16
+#: /src/ffzap-bttv/index.js:27
+#: /src/ffzap-bttv/index.js:38
+#: /src/ffzap-bttv/index.js:49
+#: /src/ffzap-bttv/index.js:59
+#: /src/ffzap-bttv/index.js:70
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.better_ttv_emotes"
 msgstr "BetterTTV Emotes"
 
+#: /src/ffzap-bttv/index.js:16
+#: /src/ffzap-bttv/index.js:27
+#: /src/ffzap-bttv/index.js:38
+#: /src/ffzap-bttv/index.js:49
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.better_ttv_emotes.emotes"
 msgstr "Emotes"
 
+#: /src/ffzap-bttv/index.js:49
+#, icu-message-format
+msgid "setting.add_ons.better_ttv_emotes.emotes.live_emote_updates"
+msgstr "Live Emote Updates"
+
+#: /src/ffzap-bttv/index.js:59
+#: /src/ffzap-bttv/index.js:70
+#, icu-message-format
+msgid "setting.add_ons.better_ttv_emotes.pro"
+msgstr "Pro"
+
+#: /src/ffzap-bttv/index.js:27
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.arbitrary_emoticons"
 msgstr "Arbitrary Emotes"
 
+#: /src/ffzap-bttv/index.js:27
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.arbitrary_emoticons.description"
 msgstr "Enable to show arbitrary emoticons (like D:, :tf: and similar)."
 
+#: /src/ffzap-bttv/index.js:38
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.channel_emoticons"
 msgstr "Channel Emotes"
 
+#: /src/ffzap-bttv/index.js:38
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.channel_emoticons.description"
@@ -56,22 +81,46 @@ msgstr "Enabled (Static GIF Emotes)"
 msgid "setting.entry.ffzap.betterttv.gif_emoticons_mode.values.2"
 msgstr "Enabled (Animated GIF Emotes)"
 
+#: /src/ffzap-bttv/index.js:16
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.global_emoticons"
 msgstr "Global Emotes"
 
+#: /src/ffzap-bttv/index.js:16
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.global_emoticons.description"
 msgstr "Enable to show global BetterTTV emoticons."
 
+#: /src/ffzap-bttv/index.js:59
+#, icu-message-format
+msgid "setting.entry.ffzap.betterttv.pro_badges"
+msgstr "Pro Badges"
+
+#: /src/ffzap-bttv/index.js:59
+#, icu-message-format, md-text
+msgid "setting.entry.ffzap.betterttv.pro_badges.description"
+msgstr "Enable to show BetterTTV Pro badges."
+
+#: /src/ffzap-bttv/index.js:70
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.pro_emoticons"
-msgstr "Pro Emotes"
+msgstr "Pro Emoticons"
 
+#: /src/ffzap-bttv/index.js:70
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.pro_emoticons.description"
 msgstr "Enable to show BetterTTV Pro emoticons."
+
+#: /src/ffzap-bttv/index.js:49
+#, icu-message-format
+msgid "setting.entry.ffzap.betterttv.update_messages"
+msgstr "Show update messages"
+
+#: /src/ffzap-bttv/index.js:49
+#, icu-message-format, md-text
+msgid "setting.entry.ffzap.betterttv.update_messages.description"
+msgstr "Show messages in chat when emotes are updated in the current channel."

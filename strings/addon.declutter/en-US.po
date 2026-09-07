@@ -1,0 +1,110 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/declutter/index.jsx:191
+#: /src/prattlenot/index.jsx:403
+#, icu-message-format
+msgid "addon.pn.button.enabled"
+msgstr "Declutterer is currently enabled. Click to disable."
+
+#: /src/declutter/index.jsx:164
+#: /src/prattlenot/index.jsx:385
+#, icu-message-format
+msgid "addon.pn.button.title"
+msgstr "Toggle Declutterer"
+
+#: /src/declutter/index.jsx:20
+#: /src/declutter/index.jsx:31
+#: /src/declutter/index.jsx:44
+#: /src/declutter/index.jsx:56
+#: /src/declutter/index.jsx:66
+#: /src/declutter/index.jsx:76
+#, icu-message-format
+msgid "setting.add_ons.declutterer"
+msgstr "Declutterer"
+
+#: /src/declutter/index.jsx:76
+#, icu-message-format
+msgid "setting.add_ons.declutterer.cache_settings"
+msgstr "Cache Settings"
+
+#: /src/declutter/index.jsx:31
+#: /src/declutter/index.jsx:44
+#, icu-message-format
+msgid "setting.add_ons.declutterer.filter_settings"
+msgstr "Filter Settings"
+
+#: /src/declutter/index.jsx:20
+#, icu-message-format
+msgid "setting.add_ons.declutterer.general_settings"
+msgstr "General Settings"
+
+#: /src/declutter/index.jsx:56
+#: /src/declutter/index.jsx:66
+#, icu-message-format
+msgid "setting.add_ons.declutterer.mod_settings"
+msgstr "Mod Settings"
+
+#: /src/declutter/index.jsx:76
+#, icu-message-format
+msgid "setting.entry.addon.declutter.cache_ttl"
+msgstr "Cache TTL"
+
+#: /src/declutter/index.jsx:76
+#, icu-message-format, md-text
+msgid "setting.entry.addon.declutter.cache_ttl.description"
+msgstr ""
+"Amount of seconds for messages to stay in the cache. A long TTL leads to "
+"high RAM usage, especially in bigger channels"
+
+#: /src/declutter/index.jsx:20
+#, icu-message-format
+msgid "setting.entry.addon.declutter.enabled"
+msgstr "Enable by Default"
+
+#: /src/declutter/index.jsx:20
+#, icu-message-format, md-text
+msgid "setting.entry.addon.declutter.enabled.description"
+msgstr ""
+"Enable add-on by default. Otherwise, enable the add-on per channel via the "
+"toggle button next to chat settings"
+
+#: /src/declutter/index.jsx:66
+#, icu-message-format
+msgid "setting.entry.addon.declutter.force_enable_when_mod"
+msgstr "Force enabled when Moderator"
+
+#: /src/declutter/index.jsx:66
+#, icu-message-format, md-text
+msgid "setting.entry.addon.declutter.force_enable_when_mod.description"
+msgstr "Force filtering even in channels you are a moderator in"
+
+#: /src/declutter/index.jsx:56
+#, icu-message-format
+msgid "setting.entry.addon.declutter.ignore_mods"
+msgstr "Ignore mods"
+
+#: /src/declutter/index.jsx:56
+#, icu-message-format, md-text
+msgid "setting.entry.addon.declutter.ignore_mods.description"
+msgstr "Do not limit messages by mods or the broadcaster"
+
+#: /src/declutter/index.jsx:44
+#, icu-message-format
+msgid "setting.entry.addon.declutter.repetitions_threshold"
+msgstr "Repetition threshold"
+
+#: /src/declutter/index.jsx:44
+#, icu-message-format, md-text
+msgid "setting.entry.addon.declutter.repetitions_threshold.description"
+msgstr "Amount of repetitions before the message is marked"
+
+#: /src/declutter/index.jsx:31
+#, icu-message-format
+msgid "setting.entry.addon.declutter.similarity_threshold"
+msgstr "Similarity threshold in %"
+
+#: /src/declutter/index.jsx:31
+#, icu-message-format, md-text
+msgid "setting.entry.addon.declutter.similarity_threshold.description"
+msgstr "Minimum similarity between 2 messages to count them as repetitions"

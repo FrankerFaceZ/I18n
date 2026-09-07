@@ -1,0 +1,87 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/emote-side-panel/index.js:180
+#: /src/emote-side-panel/index.js:190
+#: /src/emote-side-panel/index.js:205
+#: /src/emote-side-panel/index.js:215
+#: /src/emote-side-panel/index.js:226
+#: /src/emote-side-panel/index.js:236
+#, icu-message-format
+msgid "setting.add_ons.emote_side_panel"
+msgstr "Emote Side Panel"
+
+#: /src/emote-side-panel/index.js:180
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.capture_all"
+msgstr "Capture all"
+
+#: /src/emote-side-panel/index.js:180
+#, icu-message-format, md-text
+msgid "setting.entry.emote_side_panel.capture_all.description"
+msgstr "Capture emotes from all messages, even those that are not emote only"
+
+#: /src/emote-side-panel/index.js:205
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.keep_messages"
+msgstr "Keep messages"
+
+#: /src/emote-side-panel/index.js:205
+#, icu-message-format, md-text
+msgid "setting.entry.emote_side_panel.keep_messages.description"
+msgstr "Capture emotes but do not remove emote only messages"
+
+#: /src/emote-side-panel/index.js:226
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.override_width"
+msgstr "Override Panel Width"
+
+#: /src/emote-side-panel/index.js:226
+#, icu-message-format, md-text
+msgid "setting.entry.emote_side_panel.override_width.description"
+msgstr "Enable to set a custom width for the emote panel"
+
+#: /src/emote-side-panel/index.js:190
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.sort_order"
+msgstr "Sort Order"
+
+#: /src/emote-side-panel/index.js:190
+#, icu-message-format, md-text
+msgid "setting.entry.emote_side_panel.sort_order.description"
+msgstr "Sort emotes by count"
+
+#: /src/emote-side-panel/index.js:199
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.sort_order.values.ascending"
+msgstr "Ascending"
+
+#: /src/emote-side-panel/index.js:200
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.sort_order.values.descending"
+msgstr "Descending"
+
+#: /src/emote-side-panel/index.js:198
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.sort_order.values.none"
+msgstr "None"
+
+#: /src/emote-side-panel/index.js:215
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.timeout"
+msgstr "Timeout"
+
+#: /src/emote-side-panel/index.js:215
+#, icu-message-format, md-text
+msgid "setting.entry.emote_side_panel.timeout.description"
+msgstr "Time in seconds that the emote is visible on the side panel"
+
+#: /src/emote-side-panel/index.js:236
+#, icu-message-format
+msgid "setting.entry.emote_side_panel.width_in_px"
+msgstr "Panel Width in Pixels"
+
+#: /src/emote-side-panel/index.js:236
+#, icu-message-format, md-text
+msgid "setting.entry.emote_side_panel.width_in_px.description"
+msgstr "Set the width of the emote panel in pixels"

@@ -1,0 +1,46 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/example/index.js:157
+#, icu-message-format
+msgid "addon.example.action"
+msgstr ""
+"Hey, you just clicked on {user.login}#{user.id}!\n"
+"\n"
+"Message ID: {message.id}\n"
+"Text: {message.text}"
+
+#: /src/example/views/edit-action.vue:4
+#, icu-message-format
+msgid "addon.example.action.thingy"
+msgstr "Thingy"
+
+#: /src/example/index.js:147
+#, icu-message-format
+msgid "addon.example.action.tooltip"
+msgstr "The user is {user.login} and they said: {message.text}"
+
+#: /src/example/index.js:84
+#, icu-message-format
+msgid "addon.example.example"
+msgstr "Example"
+
+#: /src/example/views/example.vue:8
+#, icu-message-format
+msgid "addon.example.greeting"
+msgstr "Greetings from Germany"
+
+#: /src/example/index.js:93
+#, icu-message-format
+msgid "addon.example.rainbow"
+msgstr "RAINBOW"
+
+#: /src/example/views/example.vue:4
+#, icu-message-format
+msgid "addon.example.vue"
+msgstr "Example Vue Component"
+
+#: /src/example/index.js:80
+#, icu-message-format
+msgid "addon.example.watching"
+msgstr "You are currently watching: {displayName} ({login})"

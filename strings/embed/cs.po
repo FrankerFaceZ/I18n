@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-07-16 12:32+0000\n"
 "Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
-"Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
-"embed/cs/>\n"
+"Language-Team: Czech "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,8 +133,8 @@ msgstr "Galerie na Imguru"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,plural,one{# Bod}other{{points,number} Bodů}} • 👍"
-" {likes,number}  • 👎 {dislikes,number}"
+"{posted,datetime} • {points,plural,one{# Bod}other{{points,number} "
+"Bodů}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -200,9 +200,9 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs,plural,one {# Rekord} other {# Rekordů}} • {runs,plural,one {# Běh} "
-"other {# Běhů}} • {games,plural,one {# Hra} other {# Her}} • {"
-"cats,plural,one {# Kategorie} other {# Kategorií}}"
+"{wrs,plural,one {# Rekord} other {# Rekordů}} • {runs,plural,one {# "
+"Běh} other {# Běhů}} • {games,plural,one {# Hra} other {# Her}} • "
+"{cats,plural,one {# Kategorie} other {# Kategorií}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -243,8 +243,9 @@ msgstr "Sleduje"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
-"Retweetů}} • {likes,plural,one {# To se mi líbí} other {# To se mi líbí}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
+"other {# Retweetů}} • {likes,plural,one {# To se mi líbí} other {# To "
+"se mi líbí}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -255,8 +256,9 @@ msgstr "To se mi líbí"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{tweets,plural,one {# Tweet} other {# Tweetů}} • {following,number} Sleduje •"
-" {followers,number} Sledujících • Připojil/a se {joined,date}"
+"{tweets,plural,one {# Tweet} other {# Tweetů}} • {following,number} "
+"Sleduje • {followers,number} Sledujících • Připojil/a se "
+"{joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -277,5 +279,36 @@ msgstr "Tweety"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Zhlédnutí} other {{views,number} Zhlédnutí}}"
-" • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# Zhlédnutí} other {{views,number} "
+"Zhlédnutí}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Informace nejsou dostupné"
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "vysílá {game}"
+
+msgid "clip.desc.1"
+msgstr "Klip z kanálu {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} hraje {game}"
+
+#, fuzzy
+msgid "clip.desc.2"
+msgstr "Klipnuté uživatelem {curator} — {views,number} zhlédnutí"
+
+msgid "clip.unknown"
+msgstr "Neznámé"
+
+msgid "video.desc.1"
+msgstr "Video z kanálu {user}"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Zhlédnutí - {date,datetime}"

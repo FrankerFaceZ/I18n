@@ -1,0 +1,106 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/emoteless/index.js:11
+#: /src/emoteless/index.js:22
+#: /src/emoteless/index.js:37
+#: /src/emoteless/index.js:48
+#: /src/emoteless/index.js:58
+#: /src/emoteless/index.js:69
+#: /src/emoteless/index.js:82
+#, icu-message-format
+msgid "setting.add_ons.emote_spam_filter"
+msgstr "Emote-Spam Filter"
+
+#: /src/emoteless/index.js:11
+#: /src/emoteless/index.js:22
+#: /src/emoteless/index.js:37
+#: /src/emoteless/index.js:48
+#, icu-message-format
+msgid "setting.add_ons.emote_spam_filter.settings"
+msgstr "Settings"
+
+#: /src/emoteless/index.js:58
+#: /src/emoteless/index.js:69
+#: /src/emoteless/index.js:82
+#, icu-message-format
+msgid "setting.add_ons.emote_spam_filter.spam_threshold"
+msgstr "Spam Threshold"
+
+#: /src/emoteless/index.js:22
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.channel_mode"
+msgstr "Mode"
+
+#: /src/emoteless/index.js:30
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.channel_mode.values.0"
+msgstr "All channels"
+
+#: /src/emoteless/index.js:31
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.channel_mode.values.1"
+msgstr "Only listed channels"
+
+#: /src/emoteless/index.js:32
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.channel_mode.values.2"
+msgstr "All except listed channels"
+
+#: /src/emoteless/index.js:37
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.channels"
+msgstr "Channel list"
+
+#: /src/emoteless/index.js:37
+#, icu-message-format, md-text
+msgid "setting.entry.emote_less_chat.channels.description"
+msgstr "Comma-separated channel names (e.g. channel1, channel2)"
+
+#: /src/emoteless/index.js:11
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.enabled"
+msgstr "Enable filter"
+
+#: /src/emoteless/index.js:11
+#, icu-message-format, md-text
+msgid "setting.entry.emote_less_chat.enabled.description"
+msgstr "Hide chat messages that consist entirely of emotes"
+
+#: /src/emoteless/index.js:48
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.skip_emote_only_mode"
+msgstr "Disable filter in emote-only mode"
+
+#: /src/emoteless/index.js:69
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.threshold_count"
+msgstr "Message count"
+
+#: /src/emoteless/index.js:69
+#, icu-message-format, md-text
+msgid "setting.entry.emote_less_chat.threshold_count.description"
+msgstr "Number of emote-only messages needed to trigger filtering"
+
+#: /src/emoteless/index.js:82
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.threshold_window"
+msgstr "Time window (seconds)"
+
+#: /src/emoteless/index.js:82
+#, icu-message-format, md-text
+msgid "setting.entry.emote_less_chat.threshold_window.description"
+msgstr "Sliding window in which messages are counted"
+
+#: /src/emoteless/index.js:58
+#, icu-message-format
+msgid "setting.entry.emote_less_chat.use_threshold"
+msgstr "Enable threshold-based filter"
+
+#: /src/emoteless/index.js:58
+#, icu-message-format, md-text
+msgid "setting.entry.emote_less_chat.use_threshold.description"
+msgstr ""
+"Only hide emote-only messages when they exceed a rate limit. Allows "
+"occasional emote reactions through. Overrides \"Disable filter in "
+"emote-only mode\"."

@@ -1,268 +1,1332 @@
 msgid ""
 msgstr "Content-Type: text/plain\n"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/errors/runtime.js:50"
+msgid "card.error.400"
+msgstr "The server returned a 400 Bad Request response."
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:58"
+msgid "card.error.401"
+msgstr "The server returned a 401 Unauthorized response."
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:66"
+msgid "card.error.403"
+msgstr "The server returned a 403 Forbidden response."
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:42"
+msgid "card.error.404"
+msgstr "The server returned a 404 Not Found response."
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:72"
+msgid "card.error.500"
+msgstr "The server returned a 5xx server error response."
+
+#, icu-message-format
+msgctxt "/lib/index.js:609"
+msgid "card.error.empty"
+msgstr "No Information Available"
+
+#, icu-message-format
+msgctxt "/lib/errors/url.js:25"
+msgid "card.error.invalid-host"
+msgstr "The provided URL has an invalid host and cannot be checked."
+
+#, icu-message-format
+msgctxt "/lib/errors/url.js:20"
+msgid "card.error.invalid-port"
+msgstr "The provided URL has a non-standard port and will not be checked."
+
+#, icu-message-format
+msgctxt "/lib/errors/url.js:15"
+msgid "card.error.invalid-scheme"
+msgstr "The provided URL does not use HTTP and will not be checked."
+
+#, icu-message-format
+msgctxt "/lib/errors/url.js:8"
+msgid "card.error.invalid-url"
+msgstr "The provided URL is not valid."
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:28"
+msgid "card.error.network"
+msgstr "A network error occured."
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:10"
+msgid "card.error.redirect-loop"
+msgstr "Redirect Loop"
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:16"
+msgid "card.error.redirects"
+msgstr "Too Many Redirects"
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:34"
+msgid "card.error.timeout"
+msgstr "The request timed out."
+
+#, icu-message-format
+msgctxt "/lib/errors/runtime.js:22"
+msgid "card.error.unhandled"
+msgstr "No handler supports this URL."
+
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgctxt "/lib/resolvers/twitch.js:347"
+msgid "cards.user.streaming"
+msgstr "streaming {game}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:138"
+msgid "clip.desc.1"
+msgstr "Clip of {user}"
+
+#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
+msgctxt "/lib/resolvers/twitch.js:135"
+msgid "clip.desc.1.playing"
+msgstr "{user} playing {game}"
+
+#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
+msgctxt "/lib/resolvers/twitch.js:145"
+msgid "clip.desc.2"
+msgstr "Clipped by {curator} — {views,number} View{views,en_plural}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:143"
+msgid "clip.unknown"
+msgstr "Unknown"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:82"
+msgid "embed.7tv.by-line"
+msgstr "By: {user}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:44"
+msgid "embed.7tv.emote"
+msgstr "Emote"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:114"
+msgid "embed.7tv.flags"
+msgstr "Flags:"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:44"
+msgid "embed.7tv.global_emote"
+msgstr "Global Emote"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:59"
+msgid "embed.7tv.private"
+msgstr "Private"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:63"
+msgid "embed.7tv.unlisted"
+msgstr "Unlisted"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:113"
+msgid "embed.7tv.uploader"
+msgstr "Uploader:"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/7tv.js:55"
+msgid "embed.7tv.zero_width"
+msgstr "Zero-Width"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:172"
+msgid "embed.ao3.by-line"
+msgstr "By {author}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:128"
+msgid "embed.ao3.chapters"
+msgstr "Chapters"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:132"
+msgid "embed.ao3.info-chapters"
+msgstr "{count,plural,one {# Chapter} other {# Chapters}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:114"
+msgid "embed.ao3.info-published"
+msgstr "Published {when}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:123"
+msgid "embed.ao3.info-updated"
+msgstr "Updated {when}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:141"
+msgid "embed.ao3.info-words"
+msgstr "{count,plural,one {# Word} other {# Words}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:109"
+msgid "embed.ao3.published"
+msgstr "Published"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:158"
+msgid "embed.ao3.title-line"
+msgstr "{title} by {author}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:119"
+msgid "embed.ao3.updated"
+msgstr "Updated"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:137"
+msgid "embed.ao3.words"
+msgstr "Words"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:339"
+msgid "embed.bsky.followers"
+msgstr "Followers"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:338"
+msgid "embed.bsky.follows"
+msgstr "Follows"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:414"
+msgid "embed.bsky.info-line"
+msgstr ""
+"{created,time} • {created,date} • {reposts,plural,one {# Repost} other {# "
+"Reposts}} • {likes,plural,one {# Like} other {# Likes}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:442"
+msgid "embed.bsky.likes"
+msgstr "Likes"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:337"
+msgid "embed.bsky.posts"
+msgstr "Posts"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:295"
+msgid "embed.bsky.profile-line"
+msgstr ""
+"{posts,plural,one{# Post}other{# Posts}} • {follows,number} Following • "
+"{followers,plural,one{# Follower}other{# Followers}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:441"
+msgid "embed.bsky.replies"
+msgstr "Replies"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/bluesky.js:440"
+msgid "embed.bsky.reposts"
+msgstr "Reposts"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/betterttv.js:36"
 msgid "embed.bttv.animated-emote"
 msgstr "Animated Emote"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://betterttv.com/users/5f17a10cfe85fb4472d107b4\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"MadLittleCat\"}"
+msgctxt "/lib/resolvers/betterttv.js:75"
 msgid "embed.bttv.by-line"
 msgstr "By: {user}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/betterttv.js:37"
+msgid "embed.bttv.emote"
+msgstr "Emote"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/betterttv.js:43"
 msgid "embed.bttv.status.approved"
 msgstr "Approved"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/betterttv.js:41"
+msgid "embed.bttv.status.auto"
+msgstr "Auto-Approved"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/betterttv.js:107"
 msgid "embed.bttv.uploader"
 msgstr "Uploader"
 
-#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
-#: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"#readherefirst\"}"
+msgctxt "/lib/resolvers/discord.js:41"
 msgid "embed.discord.channel"
 msgstr "Channel: {name}"
 
-#: /src/utilities/rich_tokens.js:802
 #, icu-message-format
+msgctxt "/lib/resolvers/discord.js:68"
 msgid "embed.discord.invite"
 msgstr "Discord Invite"
 
-#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
-#: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"name.type\":\"style\",\"name.weight\":\"semibold\",\"name.content\":\"The Cohhilition\"}"
+msgctxt "/lib/resolvers/discord.js:34"
 msgid "embed.discord.server"
 msgstr "Server: {name}"
 
-#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgctxt "/lib/resolvers/discord.js:46"
+msgid "embed.discord.users"
+msgstr "{count, plural, one {# User} other {# Users}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:60"
+msgid "embed.etro.ilvl"
+msgstr "ILVL: {level, number}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.CNTL"
+msgstr "Control"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.CP"
+msgstr "CP"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.CRFT"
+msgstr "Craftsmanship"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.CRT"
+msgstr "Critical Hit"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.DEF"
+msgstr "Defense"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.DET"
+msgstr "Determination"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.DEX"
+msgstr "Dexterity"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.DH"
+msgstr "Direct Hit"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.GATH"
+msgstr "Gathering"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.GCD"
+msgstr "GCD"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.GP"
+msgstr "GP"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.HP"
+msgstr "HP"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.INT"
+msgstr "Intelligence"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.MND"
+msgstr "Mind"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.PERC"
+msgstr "Perception"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.SKS"
+msgstr "Skill Speed"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.SPS"
+msgstr "Spell Speed"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.STR"
+msgstr "Strength"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/etrogg.js:64"
+msgid "embed.etro.stat.VIT"
+msgstr "Vitality"
+
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://www.frankerfacez.com/sirstendec/submissions\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.content\":\"SirStendec\"}"
+msgctxt "/lib/resolvers/ffz.js:83"
 msgid "embed.ffz.by-line"
 msgstr "By: {user}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/ffz.js:81\n"
+"/lib/resolvers/ffz.js:98"
 msgid "embed.ffz.emote"
 msgstr "Emote"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/ffz.js:123"
 msgid "embed.ffz.owner"
 msgstr "Owner"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/ffz.js:102\n"
+"/lib/resolvers/ffz.js:91"
 msgid "embed.ffz.public"
 msgstr "Public"
 
-#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgctxt "/lib/resolvers/ffz.js:51"
+msgid "embed.ffz.status.-"
+msgstr "Unknown"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/ffz.js:45"
+msgid "embed.ffz.status.0"
+msgstr "Awaiting Approval"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/ffz.js:47"
+msgid "embed.ffz.status.1"
+msgstr "Approved"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/ffz.js:49"
+msgid "embed.ffz.status.2"
+msgstr "Rejected"
+
 #, icu-message-format, lp-defaults:"{\"count\":1423}"
+msgctxt "/lib/resolvers/ffz.js:87"
 msgid "embed.ffz.user-line"
 msgstr "{count,plural,one {# User} other {{count,number} Users}}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/ffz.js:124"
 msgid "embed.ffz.users"
 msgstr "Users"
 
-#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:120"
+msgid "embed.horaro.current"
+msgstr "Current"
+
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"relative\",\"when.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgctxt "/lib/resolvers/horaro.js:202"
 msgid "embed.horaro.ended"
 msgstr "Ended {when}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/horaro.js:206\n"
+"/lib/resolvers/horaro.js:98"
+msgid "embed.horaro.ends"
+msgstr "Ends {when}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:103"
 msgid "embed.horaro.event-ended"
 msgstr "Event has ended"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:142"
 msgid "embed.horaro.last"
 msgstr "Last"
 
-#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:131"
+msgid "embed.horaro.next"
+msgstr "Next"
+
 #, icu-message-format, lp-defaults:"{\"start.type\":\"format\",\"start.format\":\"datetime\",\"start.value\":\"2021-02-21T04:30:00.000Z\",\"end.type\":\"format\",\"end.format\":\"time\",\"end.value\":\"2021-02-21T05:20:00.000Z\"}"
+msgctxt "/lib/resolvers/horaro.js:217"
 msgid "embed.horaro.range"
 msgstr "{start} to {end}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:192"
+msgid "embed.horaro.starts"
+msgstr "Starts {when}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:80"
+msgid "embed.horaro.starts-in"
+msgstr "Starts {when}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:93"
+msgid "embed.horaro.sub-next"
+msgstr "Up {when}: {event}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/horaro.js:88"
+msgid "embed.horaro.sub-now"
+msgstr "Current: {event}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/imgur.js:158"
 msgid "embed.imgur.album"
 msgstr "Imgur Album"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
+msgctxt "/lib/resolvers/imgur.js:242"
 msgid "embed.imgur.album-stats"
 msgstr ""
 "{images,plural,one{# Image}other{# Images}} • {views,plural,one{# "
 "View}other{{views,number} Views}}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
+msgctxt ""
+"/lib/resolvers/imgur.js:150\n"
+"/lib/resolvers/imgur.js:279"
 msgid "embed.imgur.by"
 msgstr "By: {user}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/imgur.js:189\n"
+"/lib/resolvers/imgur.js:296"
 msgid "embed.imgur.dimensions"
 msgstr "Dimensions"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/imgur.js:206\n"
+"/lib/resolvers/imgur.js:302"
 msgid "embed.imgur.dislikes"
 msgstr "Downvotes"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/imgur.js:157"
 msgid "embed.imgur.gallery"
 msgstr "Imgur Gallery"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
+msgctxt ""
+"/lib/resolvers/imgur.js:160\n"
+"/lib/resolvers/imgur.js:285"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
 "{posted,datetime} • {points,plural,one{# Point}other{{points,number} "
 "Points}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/imgur.js:324\n"
+"/lib/resolvers/imgur.js:337"
+msgid "embed.imgur.image"
+msgstr "Imgur Image"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/imgur.js:182"
 msgid "embed.imgur.images"
 msgstr "Images"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/imgur.js:201\n"
+"/lib/resolvers/imgur.js:301"
 msgid "embed.imgur.likes"
 msgstr "Upvotes"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":24}"
+msgctxt ""
+"/lib/resolvers/imgur.js:395\n"
+"/lib/resolvers/waifutcg.js:83"
 msgid "embed.imgur.more"
 msgstr "and {count,number} more"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/imgur.js:102"
+msgid "embed.imgur.points"
+msgstr "{count, plural, one {# Point} other {# Points}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/imgur.js:196\n"
+"/lib/resolvers/imgur.js:300"
 msgid "embed.imgur.score"
 msgstr "Score"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/imgur.js:221\n"
+"/lib/resolvers/imgur.js:316\n"
+"/lib/resolvers/imgur.js:333"
+msgid "embed.imgur.untitled"
+msgstr "Untitled"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/imgur.js:174\n"
+"/lib/resolvers/imgur.js:295"
 msgid "embed.imgur.views"
 msgstr "Views"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/linktree.js:150"
+msgid "embed.linktree.links"
+msgstr "{count,plural,one{# Link}other{# Links}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:794"
+msgid "embed.mastodon.audio"
+msgstr "Audio File ({length,duration})"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:973"
+msgid "embed.mastodon.bot"
+msgstr "Bot"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:691"
+msgid "embed.mastodon.cw"
+msgstr "Content Warning:"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:735"
+msgid "embed.mastodon.favorites"
+msgstr "Favorites"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:465"
+msgid "embed.mastodon.followers"
+msgstr "Followers"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:464"
+msgid "embed.mastodon.following"
+msgstr "Following"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:717"
+msgid "embed.mastodon.info-line"
+msgstr ""
+"{created,time} • {created,date} • {reblogs,plural,one {# Reblog} other {# "
+"Reblogs}} • {favorites,plural,one {# Favorite} other {# Favorites}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:456"
+msgid "embed.mastodon.joined"
+msgstr "Joined {when,date}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:855"
+msgid "embed.mastodon.poll-closed"
+msgstr "This poll has ended."
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:837"
+msgid "embed.mastodon.poll-entry"
+msgstr "{pct,number,percent} {name}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:856"
+msgid "embed.mastodon.poll-running"
+msgstr "This poll is active."
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:858"
+msgid "embed.mastodon.poll-votes"
+msgstr ""
+"{count,plural,one {# Vote} other {# Votes}} • {voters,plural,one {# Voter} "
+"other {# Voters}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/mastodon.js:660\n"
+"/lib/resolvers/mastodon.js:713"
+msgid "embed.mastodon.posted"
+msgstr "posted:"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:439"
+msgid "embed.mastodon.profile-line"
+msgstr ""
+"{posts,plural,one {# Post} other {# Posts}} • {following,number} Following "
+"• {followers,number} Followers • Joined {joined,date}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:734"
+msgid "embed.mastodon.reblogs"
+msgstr "Reblogs"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:713"
+msgid "embed.mastodon.replied"
+msgstr "replied:"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:733"
+msgid "embed.mastodon.replies"
+msgstr "Replies"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/mastodon.js:463"
+msgid "embed.mastodon.statuses"
+msgstr "Posts"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:209"
+msgid "embed.mcio.acr"
+msgstr "Avg. Clear Rate"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:227"
+msgid "embed.mcio.adif"
+msgstr "Avg. Difficulty"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:187"
+msgid "embed.mcio.alikes"
+msgstr "Avg. Likes"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:199"
+msgid "embed.mcio.aplays"
+msgstr "Avg. Plays"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:404"
+msgid "embed.mcio.boos"
+msgstr "Boos"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:425"
+msgid "embed.mcio.clear-rate"
+msgstr "Clear Rate"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:410"
+msgid "embed.mcio.info-boos"
+msgstr "👎 {boos, number}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/makercentral.js:163\n"
+"/lib/resolvers/makercentral.js:306"
+msgid "embed.mcio.info-levels"
+msgstr "{count, plural, one {# Level} other {# Levels}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/makercentral.js:176\n"
+"/lib/resolvers/makercentral.js:393"
+msgid "embed.mcio.info-likes"
+msgstr "👍 {likes, number}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:298"
+msgid "embed.mcio.info-mpoints"
+msgstr "{count, plural, one {# Maker Point} other {# Maker Points}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/makercentral.js:143\n"
+"/lib/resolvers/makercentral.js:369"
+msgid "embed.mcio.info-owner"
+msgstr "By: {author}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/makercentral.js:204\n"
+"/lib/resolvers/makercentral.js:420"
+msgid "embed.mcio.info-plays"
+msgstr "{count, plural, one {# Play} other {# Plays}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:302"
+msgid "embed.mcio.info-ulikes"
+msgstr "{count, plural, one {# Like} other {# Likes}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:153"
+msgid "embed.mcio.info-worlds"
+msgstr "{count, plural, one {# World} other {# Worlds}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:168"
+msgid "embed.mcio.levels"
+msgstr "Levels"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:398"
+msgid "embed.mcio.likes"
+msgstr "Likes"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:415"
+msgid "embed.mcio.plays"
+msgstr "Plays"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:378"
+msgid "embed.mcio.style"
+msgstr "Style"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:384"
+msgid "embed.mcio.theme"
+msgstr "Theme"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:181"
+msgid "embed.mcio.tlikes"
+msgstr "Total Likes"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:193"
+msgid "embed.mcio.tplays"
+msgstr "Total Plays"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:126"
+msgid "embed.mcio.world-name"
+msgstr "Super {maker} World"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/makercentral.js:158"
+msgid "embed.mcio.worlds"
+msgstr "Worlds"
+
+#, icu-message-format
+msgctxt ""
+"/lib/metadata.js:391\n"
+"/lib/metadata.js:457\n"
+"/lib/metadata.js:491"
+msgid "embed.metadata.unknown-type"
+msgstr "Unknown Type"
+
+#, icu-message-format
+msgctxt "/lib/metadata.js:633"
 msgid "embed.metadata.untitled"
 msgstr "Untitled HTML Document"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:133"
+msgid "embed.mm2.attempts"
+msgstr "Attempts"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:145"
+msgid "embed.mm2.clears"
+msgstr "Clears"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:165"
+msgid "embed.mm2.fcs"
+msgstr "First Clears"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:138"
+msgid "embed.mm2.info-attempts"
+msgstr "{count, plural, one {# Attempt} other {# Attempts}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:150"
+msgid "embed.mm2.info-clears"
+msgstr "{count, plural, one {# Clear} other {# Clears}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:115"
+msgid "embed.mm2.info-levels"
+msgstr "{count, plural, one {# Level} other {# Levels}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:126"
+msgid "embed.mm2.info-played"
+msgstr "{count,number} Played"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:110"
+msgid "embed.mm2.levels"
+msgstr "Uploaded Levels"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:104"
+msgid "embed.mm2.mlikes"
+msgstr "Maker Likes"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:98"
+msgid "embed.mm2.mpoints"
+msgstr "Maker Points"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:121"
+msgid "embed.mm2.played"
+msgstr "Played"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:157"
+msgid "embed.mm2.wrs"
+msgstr "World Records"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/opencourseworld.js:102"
+msgid "embed.ocw.attempts"
+msgstr "Attempts"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:235\n"
+"/lib/resolvers/smm2viewer.js:277"
+msgid "embed.ocw.boos"
+msgstr "Boos"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:262\n"
+"/lib/resolvers/smm2viewer.js:308"
+msgid "embed.ocw.clear-rate"
+msgstr "Clear Rate"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:114\n"
+"/lib/resolvers/opencourseworld.js:256\n"
+"/lib/resolvers/smm2viewer.js:298"
+msgid "embed.ocw.clears"
+msgstr "Clears"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/opencourseworld.js:134"
+msgid "embed.ocw.fcs"
+msgstr "First Clears"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/opencourseworld.js:107"
+msgid "embed.ocw.info-attempts"
+msgstr "{count, plural, one {# Attempt} other {# Attempts}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:241\n"
+"/lib/resolvers/smm2viewer.js:283"
+msgid "embed.ocw.info-boos"
+msgstr "👎 {boos, number}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/opencourseworld.js:119"
+msgid "embed.ocw.info-clears"
+msgstr "{count, plural, one {# Clear} other {# Clears}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:208\n"
+"/lib/resolvers/smm2viewer.js:240"
+msgid "embed.ocw.info-likes"
+msgstr "👍 {likes, number}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:198\n"
+"/lib/resolvers/smm2viewer.js:230"
+msgid "embed.ocw.info-owner"
+msgstr "By: {author}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:251\n"
+"/lib/resolvers/opencourseworld.js:95\n"
+"/lib/resolvers/smm2viewer.js:293"
+msgid "embed.ocw.info-plays"
+msgstr "{count, plural, one {# Play} other {# Plays}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:229\n"
+"/lib/resolvers/smm2viewer.js:271"
+msgid "embed.ocw.likes"
+msgstr "Likes"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/opencourseworld.js:80"
+msgid "embed.ocw.mlikes"
+msgstr "Maker Likes"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/opencourseworld.js:74"
+msgid "embed.ocw.mpoints"
+msgstr "Maker Points"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:246\n"
+"/lib/resolvers/opencourseworld.js:90\n"
+"/lib/resolvers/smm2viewer.js:288"
+msgid "embed.ocw.plays"
+msgstr "Plays"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:214\n"
+"/lib/resolvers/smm2viewer.js:246"
+msgid "embed.ocw.style"
+msgstr "Style"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/smm2viewer.js:264"
+msgid "embed.ocw.tags"
+msgstr "Tags"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:220\n"
+"/lib/resolvers/smm2viewer.js:252"
+msgid "embed.ocw.theme"
+msgstr "Theme"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:272\n"
+"/lib/resolvers/smm2viewer.js:316"
+msgid "embed.ocw.wr"
+msgstr "World Record"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/opencourseworld.js:273\n"
+"/lib/resolvers/smm2viewer.js:317"
+msgid "embed.ocw.wr-by"
+msgstr "{time, duration} by {holder}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/opencourseworld.js:126"
+msgid "embed.ocw.wrs"
+msgstr "World Records"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/pastebin.js:72"
+msgid "embed.pastebin.by"
+msgstr "{title} by {user}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/pastebin.js:77"
+msgid "embed.pastebin.sub"
+msgstr "{format} • {size} • {views, plural, one {# View} other {# Views}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:168"
 msgid "embed.src.igt"
 msgstr "IGT"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
+msgctxt "/lib/resolvers/speedrun.js:246"
 msgid "embed.src.joined"
 msgstr "Joined {when}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"count\":32}"
+msgctxt "/lib/resolvers/speedrun.js:237"
 msgid "embed.src.more"
 msgstr "(and {count} more)"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user\":\"Milk\"}"
+msgctxt "/lib/resolvers/speedrun.js:255"
 msgid "embed.src.pbs"
 msgstr "{user}'s Personal Bests"
 
-#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:251"
+msgid "embed.src.pbs-level"
+msgstr "{user}'s Best Individual Levels"
+
 #, icu-message-format, lp-defaults:"{\"place\":47}"
+msgctxt "/lib/resolvers/speedrun.js:149"
 msgid "embed.src.place"
 msgstr "{place,selectordinal,one {#st} two {#nd} few {#rd} other {#th}}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:169"
 msgid "embed.src.rt"
 msgstr "RT"
 
-#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:260"
+msgid "embed.src.sub-level"
+msgstr ""
+"{runs,plural,one {# Run} other {# Runs}} • {games,plural,one {# Game} other "
+"{# Games}} • {cats,plural,one {# Category} other {# Categories}} • "
+"{levels,plural,one {# Level} other {# Levels}}"
+
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
+msgctxt "/lib/resolvers/speedrun.js:270"
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# Record} other {# Records}} • {runs,plural,one {# Run} "
 "other {# Runs}} • {games,plural,one {# Game} other {# Games}} • "
 "{cats,plural,one {# Category} other {# Categories}}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:331"
 msgid "embed.src.t-cat"
 msgstr "Category"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:319"
 msgid "embed.src.t-game"
 msgstr "Game"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:333"
+msgid "embed.src.t-level"
+msgstr "Level"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:316"
 msgid "embed.src.t-place"
 msgstr "Place"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:337"
 msgid "embed.src.t-submitted"
 msgstr "Submitted"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/speedrun.js:322"
 msgid "embed.src.t-time"
 msgstr "Time"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"players.0.type\":\"link\",\"players.0.url\":\"https://www.speedrun.com/user/LoveBot\",\"players.0.content\":\"LoveBot\"}"
+msgctxt "/lib/resolvers/speedrun.js:215"
 msgid "embed.src.with"
 msgstr "with {players}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/steam.js:470"
+msgid "embed.steam.f-posted"
+msgstr "Posted"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:475"
+msgid "embed.steam.f-updated"
+msgstr "Updated"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:463"
+msgid "embed.steam.favs"
+msgstr "Favorites"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:246"
+msgid "embed.steam.genre"
+msgstr "Genre"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:439"
+msgid "embed.steam.items"
+msgstr "Collection Items"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:236"
+msgid "embed.steam.metacritic"
+msgstr "Metacritic Score"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:411"
+msgid "embed.steam.posted"
+msgstr "Posted {when}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:235"
+msgid "embed.steam.price"
+msgstr "Price"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:252"
+msgid "embed.steam.review-breakdown"
+msgstr ""
+"{positive, number, percent} of {count, plural, one {# review} other {# "
+"reviews}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:434"
+msgid "embed.steam.score"
+msgstr "Score"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:444"
+msgid "embed.steam.size"
+msgstr "File Size"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:456"
+msgid "embed.steam.subs"
+msgstr "Subscribers"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:292"
+msgid "embed.steam.t-art"
+msgstr "Art"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:302"
+msgid "embed.steam.t-binding"
+msgstr "Controller Layout"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:290"
+msgid "embed.steam.t-collection"
+msgstr "Collection"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:298"
+msgid "embed.steam.t-guide"
+msgstr "Guide"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:300"
+msgid "embed.steam.t-merch"
+msgstr "Merch"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:296"
+msgid "embed.steam.t-screenshot"
+msgstr "Screenshot"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:294"
+msgid "embed.steam.t-video"
+msgstr "Video"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:427"
+msgid "embed.steam.tags"
+msgstr "Tags"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:408"
+msgid "embed.steam.updated"
+msgstr "Updated {when}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:249"
+msgid "embed.steam.user-reviews"
+msgstr "User Reviews"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:449"
+msgid "embed.steam.views"
+msgstr "Views"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/steam.js:309"
+msgid "embed.steam.workshop"
+msgstr "Workshop"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:237"
 msgid "embed.twitter.following"
 msgstr "Following"
 
-#: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
+msgctxt "/lib/resolvers/fxtwitter.js:146"
 msgid "embed.twitter.info-line"
 msgstr ""
 "{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
 "Retweets}} • {likes,plural,one {# Like} other {# Likes}}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt ""
+"/lib/resolvers/fxtwitter.js:164\n"
+"/lib/resolvers/fxtwitter.js:239"
 msgid "embed.twitter.likes"
 msgstr "Likes"
 
-#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:500"
+msgid "embed.twitter.poll-closed"
+msgstr "This poll has ended."
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:501"
+msgid "embed.twitter.poll-running"
+msgstr "This poll is active."
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:503"
+msgid "embed.twitter.poll-votes"
+msgstr "{count,plural,one {# Vote} other {# Votes}}"
+
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
+msgctxt "/lib/resolvers/fxtwitter.js:210"
 msgid "embed.twitter.profile-line"
 msgstr ""
 "{tweets,plural,one {# Tweet} other {# Tweets}} • {following,number} "
 "Following • {followers,number} Followers • Joined {joined,date}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:143"
+msgid "embed.twitter.replied"
+msgstr "replied: {tweet}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:163"
+msgid "embed.twitter.replies"
+msgstr "Replies"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:261"
+msgid "embed.twitter.reply-and-others"
+msgstr "Replying to {name}, {second}, and {count} others"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:278"
+msgid "embed.twitter.reply-list"
+msgstr "Replying to {names}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:162"
 msgid "embed.twitter.retweets"
 msgstr "Retweets"
 
-#: /src/utilities/rich_tokens.js:802
 #, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
+msgctxt "/lib/resolvers/fxtwitter.js:143"
 msgid "embed.twitter.tweeted"
 msgstr "tweeted: {tweet}"
 
-#: /src/utilities/rich_tokens.js:814
 #, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:238"
 msgid "embed.twitter.tweets"
 msgstr "Tweets"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/fxtwitter.js:165"
+msgid "embed.twitter.views"
+msgstr "Views"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
@@ -270,3 +1334,50 @@ msgid "embed.youtube.info-1"
 msgstr ""
 "{channel} • {views,plural,one {# View} other {{views,number} Views}} • 👍 "
 "{likes,number}  • 👎 {dislikes,number}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/youtube.js:377"
+msgid "embed.youtube.info-1a"
+msgstr "{channel} • 👍 {likes,number} • "
+
+#, icu-message-format
+msgctxt "/lib/resolvers/youtube.js:442"
+msgid "embed.youtube.info-views"
+msgstr "{views,plural,one {# View} other {{views,number} Views}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/youtube.js:311"
+msgid "embed.youtube.subs"
+msgstr "{count, plural, one {# Subscriber} other {# Subscribers}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/youtube.js:313"
+msgid "embed.youtube.videos"
+msgstr "{count, plural, one {# Video} other {# Videos}}"
+
+#, icu-message-format
+msgctxt ""
+"/lib/resolvers/fxtwitter.js:125\n"
+"/lib/resolvers/fxtwitter.js:192"
+msgid "nitter"
+msgstr "View with Nitter"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:220"
+msgid "video.desc.1"
+msgstr "Video of {user}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:217"
+msgid "video.desc.1.playing"
+msgstr "Video of {user} playing {game}"
+
+#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
+msgctxt "/lib/resolvers/twitch.js:226"
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Views — {date,datetime}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:261"
+msgid "video.views"
+msgstr "{views,number} views"

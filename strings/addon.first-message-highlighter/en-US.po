@@ -1,0 +1,225 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/first-message-highlighter/index.js:180
+#, icu-message-format
+msgid "hl-reason.first-message"
+msgstr "First message from a user during this session"
+
+#: /src/first-message-highlighter/index.js:181
+#, icu-message-format
+msgid "hl-reason.first-time-chatter"
+msgstr "First messages from a user new to the channel"
+
+#: /src/first-message-highlighter/index.js:182
+#, icu-message-format
+msgid "hl-reason.returning-chatter"
+msgstr "First messages from a user returning to the channel"
+
+#: /src/first-message-highlighter/index.js:107
+#: /src/first-message-highlighter/index.js:11
+#: /src/first-message-highlighter/index.js:116
+#: /src/first-message-highlighter/index.js:129
+#: /src/first-message-highlighter/index.js:140
+#: /src/first-message-highlighter/index.js:151
+#: /src/first-message-highlighter/index.js:160
+#: /src/first-message-highlighter/index.js:172
+#: /src/first-message-highlighter/index.js:22
+#: /src/first-message-highlighter/index.js:33
+#: /src/first-message-highlighter/index.js:52
+#: /src/first-message-highlighter/i
+#, icu-message-format
+msgid "setting.add_ons.first_message_highlight"
+msgstr "First Message Highlight"
+
+#: /src/first-message-highlighter/index.js:11
+#: /src/first-message-highlighter/index.js:22
+#: /src/first-message-highlighter/index.js:33
+#: /src/first-message-highlighter/index.js:52
+#: /src/first-message-highlighter/index.js:62
+#: /src/first-message-highlighter/index.js:74
+#, icu-message-format
+msgid "setting.add_ons.first_message_highlight.current_session"
+msgstr "Current Session"
+
+#: /src/first-message-highlighter/index.js:52
+#: /src/first-message-highlighter/index.js:62
+#, icu-message-format
+msgid "setting.add_ons.first_message_highlight.current_session.highlights"
+msgstr "Highlights"
+
+#: /src/first-message-highlighter/index.js:74
+#, icu-message-format
+msgid "setting.add_ons.first_message_highlight.current_session.historical_messages"
+msgstr "Historical Messages"
+
+#: /src/first-message-highlighter/index.js:11
+#: /src/first-message-highlighter/index.js:22
+#: /src/first-message-highlighter/index.js:33
+#, icu-message-format
+msgid "setting.add_ons.first_message_highlight.current_session.settings"
+msgstr "Settings"
+
+#: /src/first-message-highlighter/index.js:107
+#: /src/first-message-highlighter/index.js:116
+#: /src/first-message-highlighter/index.js:85
+#: /src/first-message-highlighter/index.js:96
+#, icu-message-format
+msgid "setting.add_ons.first_message_highlight.first_time_chatter"
+msgstr "First Time Chatter"
+
+#: /src/first-message-highlighter/index.js:129
+#: /src/first-message-highlighter/index.js:140
+#: /src/first-message-highlighter/index.js:151
+#: /src/first-message-highlighter/index.js:160
+#: /src/first-message-highlighter/index.js:172
+#, icu-message-format
+msgid "setting.add_ons.first_message_highlight.returning_chatter"
+msgstr "Returning Chatter"
+
+#: /src/first-message-highlighter/index.js:11
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.enabled"
+msgstr "Highlight first messages"
+
+#: /src/first-message-highlighter/index.js:11
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.enabled.description"
+msgstr "Highlight first messages from users for this session."
+
+#: /src/first-message-highlighter/index.js:85
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.first_time_chatter"
+msgstr "Highlight first time chatters"
+
+#: /src/first-message-highlighter/index.js:107
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.first_time_chatter_color"
+msgstr "Highlight Color"
+
+#: /src/first-message-highlighter/index.js:96
+#, icu-message-format
+msgid ""
+"setting.entry.first_message_highlight.first_time_chatter_only_moderated_"
+"channels"
+msgstr "Highlight only when moderating"
+
+#: /src/first-message-highlighter/index.js:96
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.first_message_highlight.first_time_chatter_only_moderated_"
+"channels.description"
+msgstr "Only highlight messages in chats where you are a moderator."
+
+#: /src/first-message-highlighter/index.js:116
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.first_time_chatter_priority"
+msgstr "Highlight Priority"
+
+#: /src/first-message-highlighter/index.js:116
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.first_message_highlight.first_time_chatter_priority."
+"description"
+msgstr "Priority of the highlight"
+
+#: /src/first-message-highlighter/index.js:85
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.first_time_chatter.description"
+msgstr "Highlight messages from first time chatters."
+
+#: /src/first-message-highlighter/index.js:33
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.forget_user_after"
+msgstr "Forget User After"
+
+#: /src/first-message-highlighter/index.js:33
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.forget_user_after.description"
+msgstr ""
+"Forget a user after a specified amount of time so they can be highlighted "
+"again."
+
+#: /src/first-message-highlighter/index.js:41
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.forget_user_after.values.0"
+msgstr "Disabled"
+
+#: /src/first-message-highlighter/index.js:52
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.highlight_color"
+msgstr "Highlight Color"
+
+#: /src/first-message-highlighter/index.js:52
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.highlight_color.description"
+msgstr "Highlight color to add to the message"
+
+#: /src/first-message-highlighter/index.js:74
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.highlight_historical"
+msgstr "Highlight logged historical messages"
+
+#: /src/first-message-highlighter/index.js:74
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.highlight_historical.description"
+msgstr "Highlight messages from before you joined the chat."
+
+#: /src/first-message-highlighter/index.js:22
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.only_moderated_channels"
+msgstr "Highlight only when moderating"
+
+#: /src/first-message-highlighter/index.js:22
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.only_moderated_channels.description"
+msgstr "Only highlight messages in chats where you are a moderator."
+
+#: /src/first-message-highlighter/index.js:62
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.priority"
+msgstr "Highlight Priority"
+
+#: /src/first-message-highlighter/index.js:62
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.priority.description"
+msgstr "Priority of the highlight"
+
+#: /src/first-message-highlighter/index.js:129
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.returning_chatter"
+msgstr "Highlight returning chatters"
+
+#: /src/first-message-highlighter/index.js:151
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.returning_chatter_color"
+msgstr "Highlight Color"
+
+#: /src/first-message-highlighter/index.js:140
+#, icu-message-format
+msgid ""
+"setting.entry.first_message_highlight.returning_chatter_only_moderated_"
+"channels"
+msgstr "Highlight only when moderating"
+
+#: /src/first-message-highlighter/index.js:140
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.first_message_highlight.returning_chatter_only_moderated_"
+"channels.description"
+msgstr "Only highlight messages in chats where you are a moderator."
+
+#: /src/first-message-highlighter/index.js:160
+#, icu-message-format
+msgid "setting.entry.first_message_highlight.returning_chatter_priority"
+msgstr "Highlight Priority"
+
+#: /src/first-message-highlighter/index.js:160
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.returning_chatter_priority.description"
+msgstr "Priority of the highlight"
+
+#: /src/first-message-highlighter/index.js:129
+#, icu-message-format, md-text
+msgid "setting.entry.first_message_highlight.returning_chatter.description"
+msgstr "Highlight messages from returning chatters."

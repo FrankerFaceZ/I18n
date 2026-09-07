@@ -1,34 +1,43 @@
 msgid ""
 msgstr "Content-Type: text/plain\n"
 
-#: /src/addons.js:261
-#: /src/pronouns/index.jsx:161
+#: /src/pronouns/index.jsx:317
 #, icu-message-format, lp-defaults:"{\"value\":\"Zie/Hir\"}"
 msgid "addon.pronouns.title"
 msgstr "Pronouns: {value}"
 
-#: /src/modules/main_menu/index.js:583
-#: /src/modules/main_menu/components/menu-tree.vue:1
+#: /src/pronouns/index.jsx:28
+#: /src/pronouns/index.jsx:295
+#: /src/pronouns/index.jsx:37
+#: /src/pronouns/index.jsx:47
 #, icu-message-format
 msgid "setting.add_ons.pronouns"
 msgstr "Pronouns"
 
-#: /src/modules/main_menu/index.js:583
+#: /src/pronouns/index.jsx:28
+#: /src/pronouns/index.jsx:37
+#: /src/pronouns/index.jsx:47
 #, icu-message-format
 msgid "setting.add_ons.pronouns.appearance"
 msgstr "Appearance"
 
+#: /src/pronouns/index.jsx:295
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.add_ons.pronouns.per_badge_colors"
 msgstr "Per-Badge Colors"
 
-#: /src/modules/main_menu/index.js:545
+#: /src/pronouns/index.jsx:47
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.border"
 msgstr "Display a border around the badge."
 
-#: /src/modules/main_menu/index.js:545
+#: /src/pronouns/index.jsx:37
 #, icu-message-format
 msgid "setting.entry.addon.pronouns.color"
 msgstr "Badge Color"
+
+#: /src/pronouns/index.jsx:28
+#, icu-message-format
+msgid "setting.entry.addon.pronouns.streamer"
+msgstr "Show a pronoun badge for the streamer if they have pronouns set."

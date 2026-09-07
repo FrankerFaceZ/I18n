@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-04-26 14:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
-"projects/frankerfacez/client/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +39,8 @@ msgstr ""
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(層級 {tier} - 已訂閱 {months, plural, one {# 個月} other {# 個月}})"
+"(層級 {tier} - 已訂閱 {months, plural, one {# 個月} other {# "
+"個月}})"
 
 #: /src/modules/chat/rich_providers.js:53:14
 #, icu-message-format
@@ -51,42 +52,6 @@ msgstr "沒有回傳任何資料。"
 msgid "card.error"
 msgstr "發生錯誤。"
 
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "沒有資料"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-host"
-msgstr "提供的URL伺服器無效，無法檢查。"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-port"
-msgstr "提供的URL有著非標準的端口，將不檢查。"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-scheme"
-msgstr "提供的URL不使用HTTP，將不檢查。"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.network"
-msgstr "發生網路錯誤。"
-
-#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
-#: /src/utilities/rich_tokens.js:802
-#, icu-message-format
-msgid "card.error.timeout"
-msgstr "要求逾時。"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.unhandled"
-msgstr "沒有處理程序支援這個URL。"
-
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:101:14
 #, icu-message-format
 msgid "card.loading"
@@ -97,12 +62,6 @@ msgstr "載入中..."
 #, icu-message-format, lp-defaults:"{\"views\":33736583,\"followers\":167372}"
 msgid "cards.user.stats"
 msgstr "觀看數: {views,number} • 追隨者: {followers,number}"
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "正在實況 {game}"
 
 #, icu-message-format
 msgid "channel.links.clips"
@@ -176,7 +135,10 @@ msgstr "回覆訊息"
 #: /src/modules/main_menu/components/action-editor.vue:595
 #, icu-message-format
 msgid "chat.actions.reply.desc"
-msgstr "允許你直接回覆其他使用者的訊息。只有在回覆樣式為\"FrankerFaceZ\"時才有作用。"
+msgstr ""
+"允許你"
+"直接回覆其他使用者的訊息。只有在回覆樣式為\""
+"FrankerFaceZ\"時才有作用。"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:559
 #, icu-message-format
@@ -197,7 +159,9 @@ msgstr "暫時靜言用戶"
 #: /src/modules/chat/actions/types.jsx:197:9
 #, icu-message-format
 msgid "chat.actions.timeout-reason"
-msgstr "暫時禁言 {user.login} {duration, plural, one {# 秒} other {# 秒}}，原因:"
+msgstr ""
+"暫時禁言 {user.login} {duration, plural, one {# 秒} other {# "
+"秒}}，原因:"
 
 #: /src/modules/main_menu/components/action-editor.vue:545
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
@@ -262,7 +226,9 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
-msgstr "這個徽章會對所有FrankerFaceZ使用者展示。請至 {website} 以變更這個徽章。"
+msgstr ""
+"這個徽章會對所有FrankerFaceZ使用者展示。請至 {website} "
+"以變更這個徽章。"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
@@ -465,7 +431,10 @@ msgstr "暫停聊天室"
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:131:12
 #, icu-message-format
 msgid "chat.settings.pause-explain"
-msgstr "FrankerFaceZ 會完全覆蓋暫停聊天室的功能。請在FFZ控制中心的聊天(Chat)>行為(Behavior)中調整FFZ的滾動設定。"
+msgstr ""
+"FrankerFaceZ "
+"會完全覆蓋暫停聊天室的功能。請在FFZ控制中心的聊天("
+"Chat)>行為(Behavior)中調整FFZ的滾動設定。"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:470:7
 #, icu-message-format
@@ -475,14 +444,16 @@ msgstr "一位匿名的贈禮者"
 #: /src/sites/twitch-twilight/modules/chat/line.js:628:20
 #, icu-message-format
 msgid "chat.sub.cumulative-months"
-msgstr "他們已經訂閱了 {cumulative,number} 個月，目前正連續訂閱 {streak,number} 個月!"
+msgstr ""
+"他們已經訂閱了 {cumulative,number} 個月，目前正連續訂閱 "
+"{streak,number} 個月!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:468:21
 #, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
 msgid "chat.sub.gift"
 msgstr ""
-"{user} 正在贈送 {count, plural, one {# 份層級 {tier} 訂閱} other {# 份層級 {tier} 訂閱}} 給 "
-"{channel} 的社群! "
+"{user} 正在贈送 {count, plural, one {# 份層級 {tier} 訂閱} other "
+"{# 份層級 {tier} 訂閱}} 給 {channel} 的社群! "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:484:19
 #, icu-message-format
@@ -492,8 +463,8 @@ msgstr "這是他們第一次在這個頻道內贈送訂閱!"
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} 贈送了 {months, plural, one {# 個月} other {# 個月}} 的 {plan} 訂閱給 "
-"{recipient}!"
+"{user} 贈送了 {months, plural, one {# 個月} other {# 個月}} 的 "
+"{plan} 訂閱給 {recipient}!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:567:7
 #, icu-message-format
@@ -530,37 +501,19 @@ msgstr "在層級 {tier}"
 msgid "chat.sub.twitch-prime"
 msgstr "以 Prime Gaming"
 
-#: /src/modules/chat/rich_providers.js:126:14
-#, icu-message-format
-msgid "clip.desc.1"
-msgstr "{user} 的剪輯"
-
 #: /src/modules/chat/rich_providers.js:115:14
 #, icu-message-format
 msgid "clip.desc.1.creative"
 msgstr "{user} 發揮創意"
 
-#: /src/modules/chat/rich_providers.js:120:14
-#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
-msgid "clip.desc.1.playing"
-msgstr "{user} 正在玩 {game}"
-
-#: /src/modules/chat/rich_providers.js:133:13
-#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
-msgid "clip.desc.2"
-msgstr "{curator} 的剪輯 — {views, plural, one {觀看次數 #} other {觀看次數 #}}"
-
-#: /src/modules/chat/rich_providers.js:134:57
-#, icu-message-format
-msgid "clip.unknown"
-msgstr "未知"
-
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:428
 #, icu-message-format
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"你在BetterTTV的設定中開啟了\"FrankerFaceZ Emotes\"的功能，但你同時安裝了FrankerFaceZ。"
-"請在BetterTTV的設定中關閉\"FrankerFaceZ Emotes\"，那不需要被開啟。"
+"你在BetterTTV的設定中開啟了\"FrankerFaceZ "
+"Emotes\"的功能，但你"
+"同時安裝了FrankerFaceZ。請在BetterTTV的設定中關閉\""
+"FrankerFaceZ Emotes\"，那不需要被開啟。"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -744,7 +697,9 @@ msgstr "頻道"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:793:12
 #, icu-message-format
 msgid "emote-menu.disable"
-msgstr "做為暫時的解決方法，試著在FFZ控制中心裡停用FFZ表情符號選單。"
+msgstr ""
+"做為暫時的解決方法，試著在FFZ控制中心裡停用FFZ表情符�"
+"��選單。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1112:15
 #, icu-message-format
@@ -779,7 +734,10 @@ msgstr "這裡什麼都沒有。"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1619:7
 #, icu-message-format, lp-defaults:"{\"hotkey\":\"Ctrl\"}"
 msgid "emote-menu.empty-favs"
-msgstr "你沒有任何最愛的表情符號。要標一個表情符號為最愛，找到它後按住 {hotkey} 並點它。"
+msgstr ""
+"你"
+"沒有任何最愛的表情符號。要標一個表情符號為最愛，找�"
+"��它後按住 {hotkey} 並點它。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1617:6
 #, icu-message-format
@@ -907,8 +865,11 @@ msgstr "以 {price} 訂閱來解鎖 {count,number} 個表情符號"
 #, icu-message-format
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"表情符號顯示控制允許你在表情符號選單中隱藏特定表情符號(單一或整組)。當表情符號顯示控制啟用時，點選表情符號來隱藏或取消隱藏。請注意當其他人使用這個表情符"
-"號時你還是會看到它們，但它們不會出現在你的表情符號選單。"
+"表情符號顯示控制允許你"
+"在表情符號選單中隱藏特定表情符號(單一或整組)"
+"。當表情符號顯示控制啟用時，點選表情符號來隱藏或取�"
+"��隱藏。請注意當其他人使用這個表情符號時你"
+"還是會看到它們，但它們不會出現在你的表情符號選單。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
 #, icu-message-format
@@ -1045,9 +1006,12 @@ msgstr ""
 #, icu-message-format
 msgid "i18n.interest"
 msgstr ""
-"對於協助翻譯有興趣嗎? 歡迎 [加入我們的Discord](https://discord.gg/UrAkGhT) 並在本地化頻道中跟我們一起交流吧!\n"
+"對於協助翻譯有興趣嗎? 歡迎 [加"
+"入我們的Discord](https://discord.gg/UrAkGhT) 並在本地化�"
+"�道中跟我們一起交流吧!\n"
 "\n"
-"這個工具可以協助翻譯者實時測試他們翻譯的字串。這樣在正式上傳翻譯之前可以確定一切都安全上路。"
+"這個工具可以協助翻譯者實時測試他們翻譯的字串。這樣�"
+"��正式上傳翻譯之前可以確定一切都安全上路。"
 
 #: /src/modules/main_menu/setting-mixin.js:67
 #, icu-message-format, lp-defaults:"{\"name\":\"suomi\",\"coverage\":0.98}"
@@ -1319,7 +1283,9 @@ msgstr "在 {count,number} 秒前直播"
 #: /src/modules/metadata.jsx:224:8
 #, icu-message-format
 msgid "metadata.player-stats.delay-warning"
-msgstr "你的本地時鐘似乎偏離了大約 {count,number} 秒，可能造成不準確。"
+msgstr ""
+"你的本地時鐘似乎偏離了大約 {count,number} 秒，可能造"
+"成不準確。"
 
 #: /src/modules/metadata.jsx:232:22
 #, icu-message-format
@@ -1449,7 +1415,9 @@ msgstr "重製所有播放器(按兩次)"
 #: /src/modules/main_menu/index.js:793:11
 #, icu-message-format
 msgid "popup.error"
-msgstr "我們嘗試開啟彈出窗口但失敗了。請確認你允許Twitch的彈出窗口。"
+msgstr ""
+"我們嘗試開啟彈出窗口但失敗了。請確認你"
+"允許Twitch的彈出窗口。"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:63:9
 #, icu-message-format
@@ -1469,7 +1437,9 @@ msgstr "你已經從本地開發伺服器載入附加元件資料。"
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:321
 #, icu-message-format
 msgid "site.menu_button.changed"
-msgstr "FrankerFaceZ 的設定來源已經更改。請重新整理這個分頁以避免奇怪的行為。"
+msgstr ""
+"FrankerFaceZ 的設定來源已經更改。請重新整理這個分�"
+"�以避免奇怪的行為。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:101:10
 #, icu-message-format
@@ -1510,13 +1480,17 @@ msgstr "設定檔"
 #, icu-message-format
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
-"這個網站的本機儲存空間已滿，所以無法保存設定。請備份你的設定並至 [Data Management > Storage >> "
-"Provider](~data_management.storage.tabs.provider) 更換到一個更大空間的提供者。"
+"這個網站的本機儲存空間已滿，所以無法保存設定。請備�"
+"��你的設定並至 [Data Management > Storage >> "
+"Provider](~data_management.storage.tabs.provider) "
+"更換到一個更大空間的提供者。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:190
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
 msgid "site.menu_button.strings"
-msgstr "這裡新增了 {added, number} 個新字串並更新了 {changed, number} 個字串。"
+msgstr ""
+"這裡新增了 {added, number} 個新字串並更新了 {changed, number} "
+"個字串。"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:175:7
 #, icu-message-format
@@ -1697,16 +1671,6 @@ msgstr "顯示更多回覆..."
 #, icu-message-format
 msgid "video-chat.time"
 msgstr "{time,humantime} 之前"
-
-#: /src/modules/chat/rich_providers.js:190:14
-#, icu-message-format
-msgid "video.desc.1"
-msgstr "{user} 的影片"
-
-#: /src/modules/chat/rich_providers.js:197:13
-#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
-msgid "video.desc.2"
-msgstr "{length,duration} — 觀看次數 {views,number} — {date,datetime}"
 
 #: /src/sites/twitch-twilight/modules/channel_bar.jsx:105
 #, icu-message-format, lp-defaults:"{\"date\":\"2019-05-30T02:30:12.000Z\"}"

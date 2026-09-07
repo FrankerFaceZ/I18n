@@ -1,0 +1,93 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/repetition-detector/index.jsx:13
+#: /src/repetition-detector/index.jsx:25
+#: /src/repetition-detector/index.jsx:37
+#: /src/repetition-detector/index.jsx:46
+#: /src/repetition-detector/index.jsx:56
+#: /src/repetition-detector/index.jsx:70
+#: /src/repetition-detector/index.jsx:80
+#, icu-message-format
+msgid "setting.add_ons.chat_repetition_detector"
+msgstr "Chat Repetition Detector"
+
+#: /src/repetition-detector/index.jsx:56
+#, icu-message-format
+msgid "setting.add_ons.chat_repetition_detector.cache_settings"
+msgstr "Cache Settings"
+
+#: /src/repetition-detector/index.jsx:13
+#: /src/repetition-detector/index.jsx:25
+#: /src/repetition-detector/index.jsx:37
+#: /src/repetition-detector/index.jsx:46
+#, icu-message-format
+msgid "setting.add_ons.chat_repetition_detector.general_settings"
+msgstr "General Settings"
+
+#: /src/repetition-detector/index.jsx:70
+#, icu-message-format
+msgid "setting.add_ons.chat_repetition_detector.style"
+msgstr "Style"
+
+#: /src/repetition-detector/index.jsx:56
+#, icu-message-format
+msgid "setting.entry.addon.repetition_detector.cache_ttl"
+msgstr "Cache TTL"
+
+#: /src/repetition-detector/index.jsx:56
+#, icu-message-format, md-text
+msgid "setting.entry.addon.repetition_detector.cache_ttl.description"
+msgstr ""
+"Amount of seconds for messages to stay in the cache. A long TTL leads to "
+"high RAM usage, especially in bigger channels"
+
+#: /src/repetition-detector/index.jsx:46
+#, icu-message-format
+msgid "setting.entry.addon.repetition_detector.enable_only_as_mod"
+msgstr "Only as Moderator"
+
+#: /src/repetition-detector/index.jsx:46
+#, icu-message-format, md-text
+msgid "setting.entry.addon.repetition_detector.enable_only_as_mod.description"
+msgstr "Enable only in channels you are a moderator in"
+
+#: /src/repetition-detector/index.jsx:37
+#, icu-message-format
+msgid "setting.entry.addon.repetition_detector.ignore_mods"
+msgstr "Ignore mods"
+
+#: /src/repetition-detector/index.jsx:37
+#, icu-message-format, md-text
+msgid "setting.entry.addon.repetition_detector.ignore_mods.description"
+msgstr "Do not check messages by mods or the broadcaster"
+
+#: /src/repetition-detector/index.jsx:25
+#, icu-message-format
+msgid "setting.entry.addon.repetition_detector.repetitions_threshold"
+msgstr "Repetition threshold"
+
+#: /src/repetition-detector/index.jsx:25
+#, icu-message-format, md-text
+msgid "setting.entry.addon.repetition_detector.repetitions_threshold.description"
+msgstr "Amount of repetitions before the message is marked"
+
+#: /src/repetition-detector/index.jsx:13
+#, icu-message-format
+msgid "setting.entry.addon.repetition_detector.similarity_threshold"
+msgstr "Similarity threshold in %"
+
+#: /src/repetition-detector/index.jsx:13
+#, icu-message-format, md-text
+msgid "setting.entry.addon.repetition_detector.similarity_threshold.description"
+msgstr "Minimum similarity between 2 messages to count them as repetitions"
+
+#: /src/repetition-detector/index.jsx:70
+#, icu-message-format
+msgid "setting.entry.addon.repetition_detector.text_color"
+msgstr "Text Color"
+
+#: /src/repetition-detector/index.jsx:70
+#, icu-message-format, md-text
+msgid "setting.entry.addon.repetition_detector.text_color.description"
+msgstr "Text color used to display repetitions in chat"

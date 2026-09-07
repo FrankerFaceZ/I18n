@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-06-01 16:04+0000\n"
 "Last-Translator: Luis Kendall <lkSlipknot09@gmail.com>\n"
-"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/es/>\n"
+"Language-Team: Spanish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,17 +37,11 @@ msgstr "No hubo respuesta a los datos."
 msgid "card.error"
 msgstr "Ha ocurrido un error."
 
-msgid "card.error.timeout"
-msgstr "Tiempo de solicitud caducado."
-
 msgid "card.loading"
 msgstr "Cargando..."
 
 msgid "cards.user.stats"
 msgstr "Vistas: {views,number} • Seguidores: {followers,number}"
-
-msgid "cards.user.streaming"
-msgstr "transmitiendo {game}"
 
 msgid "channel.links.clips"
 msgstr "Clips"
@@ -95,8 +89,8 @@ msgstr "Responder al Mensaje"
 
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Te permite responder al mensaje de otro usuario directamente. Sólo funciona "
-"cuando el Estilo de Respuestas es \"FrankerFaceZ\"."
+"Te permite responder al mensaje de otro usuario directamente. Sólo "
+"funciona cuando el Estilo de Respuestas es \"FrankerFaceZ\"."
 
 msgid "chat.actions.reply.thread"
 msgstr "Abrir Hilo"
@@ -270,9 +264,9 @@ msgstr "Pausar chat"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ anula por completo el comportamiento de Pausar el Chat. Utilice "
-"la configuración de desplazamiento de FFZ en el Centro de control de FFZ en "
-"Chat> Comportamiento."
+"FrankerFaceZ anula por completo el comportamiento de Pausar el Chat. "
+"Utilice la configuración de desplazamiento de FFZ en el Centro de control "
+"de FFZ en Chat> Comportamiento."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "Un regalador anónimo"
@@ -284,16 +278,16 @@ msgstr ""
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} está regalando {count, plural, one {# suscripción tier {tier}} other "
-"{# suscripciones de tier {tier}}} a la comunidad de {channel}! "
+"{user} está regalando {count, plural, one {# suscripción tier {tier}} "
+"other {# suscripciones de tier {tier}}} a la comunidad de {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "¡Es su primera vez regalando una Suscripción en el canal!"
 
 msgid "chat.sub.gift-months"
 msgstr ""
-"¡{user} regaló {months, plural, one {# mes} other {# meses}} suscripción de "
-"{plan} a {recipient}!"
+"¡{user} regaló {months, plural, one {# mes} other {# meses}} suscripción "
+"de {plan} a {recipient}!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Nivel {tier}"
@@ -316,22 +310,8 @@ msgstr "de nivel {tier}"
 msgid "chat.sub.twitch-prime"
 msgstr "con Prime Gaming"
 
-msgid "clip.desc.1"
-msgstr "Clip de {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} siendo Creativo"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} jugando a {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Clipeado por {curator} — {views, plural, one {# visualización} other {# "
-"visualizaciones}}"
-
-msgid "clip.unknown"
-msgstr "Desconocido"
 
 msgid "directory.block"
 msgstr "Bloquear"
@@ -432,8 +412,8 @@ msgstr "No hay nada aquí."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"No tienes ningún emoticono favorito. Para agregar un emoticono como favorito "
-"encuéntralo y seleccionalo mientras presionas la tecla {hotkey}."
+"No tienes ningún emoticono favorito. Para agregar un emoticono como "
+"favorito encuéntralo y seleccionalo mientras presionas la tecla {hotkey}."
 
 msgid "emote-menu.empty-search"
 msgstr "No hay emoticonos que coincidan."
@@ -584,13 +564,13 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"¿Interesado en ayudar con los esfuerzos de localización? Por favor [entra a "
-"nuestro Discord](https://discord.gg/UrAkGhT) y únete al chat en el canal de "
-"localización.\n"
+"¿Interesado en ayudar con los esfuerzos de localización? Por favor [entra "
+"a nuestro Discord](https://discord.gg/UrAkGhT) y únete al chat en el canal "
+"de localización.\n"
 "\n"
-"Esta herramienta permite a los traductores probar sus cadenas en tiempo real "
-"en la aplicación. De esa manera, pueden estar seguros de que todo se ve bien "
-"antes de enviar sus traducciones."
+"Esta herramienta permite a los traductores probar sus cadenas en tiempo "
+"real en la aplicación. De esa manera, pueden estar seguros de que todo se "
+"ve bien antes de enviar sus traducciones."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} Completado)"
@@ -797,8 +777,8 @@ msgstr "El Compresor de Audio no puede ser activado en Clips."
 
 msgid "player.comp_button.help"
 msgstr ""
-"Consulta el Centro de control FFZ para obtener más detalles. Si el audio se "
-"interrumpe, reinicia el reproductor."
+"Consulta el Centro de control FFZ para obtener más detalles. Si el audio "
+"se interrumpe, reinicia el reproductor."
 
 msgid "player.comp_button.off"
 msgstr "Deshabilitar Compresor de Audio"
@@ -833,13 +813,12 @@ msgid "site.menu_button.addon-dev"
 msgstr "a-dev"
 
 msgid "site.menu_button.addon-dev-desc"
-msgstr ""
-"Has cargado datos de complementos desde un servidor de desarrollo local."
+msgstr "Has cargado datos de complementos desde un servidor de desarrollo local."
 
 msgid "site.menu_button.changed"
 msgstr ""
-"El proveedor the FrankerFaceZ ha cambiado. Porfavor actualize la pagina para "
-"prevenir comportamientos extraños."
+"El proveedor the FrankerFaceZ ha cambiado. Porfavor actualize la pagina "
+"para prevenir comportamientos extraños."
 
 msgid "site.menu_button.dev"
 msgstr "dev"
@@ -860,16 +839,16 @@ msgstr "Hay {count,plural,one {un nuevo ajuste} other {# nuevos ajustes}}."
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Configuraciones deshabilitadas en esta pestaña por la inclusión de \"{param}"
-"\" en la URL."
+"Configuraciones deshabilitadas en esta pestaña por la inclusión de "
+"\"{param}\" en la URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Perfiles"
 
 msgid "site.menu_button.strings"
 msgstr ""
-"Hay {added,plural,one {# nueva cadena} other {# nuevas cadenas}} y {"
-"changed,plural,one {# cadena cambiada} other {# cadenas cambiadas}}."
+"Hay {added,plural,one {# nueva cadena} other {# nuevas cadenas}} y "
+"{changed,plural,one {# cadena cambiada} other {# cadenas cambiadas}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "Hay una actualización disponible. Por favor, refresca la página."
@@ -983,19 +962,8 @@ msgstr "Mostrar más respuestas..."
 msgid "video-chat.time"
 msgstr "Hace {time,humantime}"
 
-msgid "video.desc.1"
-msgstr "Vídeo de {user}"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Visualizaciones — {date,datetime}"
-
 msgid "video.published-on"
 msgstr "Publicado el: {date,date}"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-host"
-msgstr "La URL proporcionada tiene un host no válido y no se puede verificar."
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
@@ -1015,7 +983,8 @@ msgid "compat.bttv.emotes-on"
 msgstr ""
 "Tienes activados los \"Emoticonos FrankerFaceZ\" en los ajustes de "
 "BetterTTV, pero también tienes instalado FrankerFaceZ. Por favor desactiva "
-"los \"Emoticonos FrankerFaceZ\" en los ajustes de BetterTTV. No es necesario."
+"los \"Emoticonos FrankerFaceZ\" en los ajustes de BetterTTV. No es "
+"necesario."
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
@@ -1037,27 +1006,8 @@ msgstr ""
 "Su espacio de almacenamiento local para este sitio web está lleno y la "
 "configuración no se puede guardar. Haga una copia de seguridad de su "
 "configuración y cambie a un proveedor de mayor capacidad en [Gestión de "
-"datos> Almacenamiento >> Proveedor] (~data_management.storage.tabs.provider)."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "No hay información disponible"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-port"
-msgstr "La URL proporcionada tiene un puerto no estándar y no se comprobará."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-scheme"
-msgstr "La URL proporcionada no utiliza HTTP y no se comprobará."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.unhandled"
-msgstr "Ningún controlador admite esta URL."
+"datos> Almacenamiento >> Proveedor] "
+"(~data_management.storage.tabs.provider)."
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
@@ -1144,19 +1094,14 @@ msgstr "Usuario destacado"
 #, icu-message-format
 msgid "player.comp_button.firefox"
 msgstr ""
-"Los controles de velocidad de reproducción no funcionarán para los usuarios "
-"de Firefox cuando el compresor esté habilitado."
+"Los controles de velocidad de reproducción no funcionarán para los "
+"usuarios de Firefox cuando el compresor esté habilitado."
 
 #: /src/sites/shared/player.jsx:1113
 #: /src/sites/shared/player.jsx:1172
 #, icu-message-format
 msgid "player.gain.label"
 msgstr "Control de ganancia"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.network"
-msgstr "Ocurrió un error de red."
 
 #, icu-message-format
 msgid "i18n.ui.invalid"

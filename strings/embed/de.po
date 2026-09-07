@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-04-04 10:32+0000\n"
 "Last-Translator: Acursen <acursen@mailbox.org>\n"
-"Language-Team: German <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/embed/de/>\n"
+"Language-Team: German "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,9 +21,9 @@ msgstr "Server: {name}"
 
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
-"Retweets}} • {likes,plural,one {# „Gefällt mir“-Angabe} other {# „Gefällt "
-"mir“-Angaben}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
+"other {# Retweets}} • {likes,plural,one {# „Gefällt mir“-Angabe} "
+"other {# „Gefällt mir“-Angaben}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -44,8 +44,8 @@ msgstr "Von: {user}"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,plural,one{# Punkt}other{{points,number} Punkte}}"
-" • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{posted,datetime} • {points,plural,one{# Punkt}other{{points,number} "
+"Punkte}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"when.type\":\"format\",\"when.format\":\"date\",\"when.value\":\"2014-11-13T13:08:31Z\"}"
@@ -161,8 +161,8 @@ msgstr "RT"
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# Rekord} other {# Rekorde}} • {runs,plural,one {# Run} "
-"other {# Runs}} • {games,plural,one {# Spiel} other {# Spiele}} • {"
-"cats,plural,one {# Kategorie} other {# Kategorien}}"
+"other {# Runs}} • {games,plural,one {# Spiel} other {# Spiele}} • "
+"{cats,plural,one {# Kategorie} other {# Kategorien}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -198,8 +198,8 @@ msgstr "Tweets"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Aufruf} other {{views,number} Aufrufe}} • 👍 "
-"{likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# Aufruf} other {{views,number} Aufrufe}} "
+"• 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
@@ -270,3 +270,63 @@ msgstr "Eigentümer:in"
 #, icu-message-format
 msgid "embed.imgur.dimensions"
 msgstr "Abmessungen"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Keine Informationen verfügbar"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr ""
+"Die angegebene URL hat einen ungültigen Host und kann somit nicht "
+"überprüft werden."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+"Die angegebene URL hat einen nicht standardisierten Port und wird nicht "
+"überprüft."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "Die angegebene URL verwendet kein HTTP und wird deswegen nicht überprüft."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Ein Netzwerkfehler ist aufgetreten."
+
+msgid "card.error.timeout"
+msgstr "Zeitüberschreitung der Anfrage."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Kein Handler unterstützt diese URL."
+
+msgid "cards.user.streaming"
+msgstr "streamt {game}"
+
+msgid "clip.desc.1"
+msgstr "Clip von {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spielt {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Clip erstellt von: {curator} — {views, plural, one {# Aufruf} other {# "
+"Aufrufe}}"
+
+msgid "clip.unknown"
+msgstr "Unbekannt"
+
+msgid "video.desc.1"
+msgstr "Video von {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Aufrufe — {date,datetime}"

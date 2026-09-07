@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-06-01 16:04+0000\n"
 "Last-Translator: DeciBelioS <deci8belios@outlook.com>\n"
-"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/embed/es/>\n"
+"Language-Team: Spanish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,8 +133,8 @@ msgstr "Galería de Imgur"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,plural,one{# Punto}other{{points,number} Puntos}}"
-" • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{posted,datetime} • {points,plural,one{# Punto}other{{points,number} "
+"Puntos}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -201,8 +201,8 @@ msgstr "RT"
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# Registro} other {# Registros}} • {runs,plural,one {# "
-"Carrera} other {# Carreras}} • {games,plural,one {# Juego} other {# Juegos}} "
-"• {cats,plural,one {# Categoría} other {# Categorías}}"
+"Carrera} other {# Carreras}} • {games,plural,one {# Juego} other {# "
+"Juegos}} • {cats,plural,one {# Categoría} other {# Categorías}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -243,8 +243,8 @@ msgstr "Siguiendo"
 #, \"likes\":150}", \"retweets\":12, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
-"Retweets}} • {likes,plural,one {# Me gusta} other {# Me gusta}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
+"other {# Retweets}} • {likes,plural,one {# Me gusta} other {# Me gusta}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -277,5 +277,61 @@ msgstr "Mensajes"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Visita} other {{views,number} Visitas}} • 👍 "
-"{likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# Visita} other {{views,number} Visitas}} "
+"• 👍 {likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "No hay información disponible"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "La URL proporcionada tiene un host no válido y no se puede verificar."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "La URL proporcionada tiene un puerto no estándar y no se comprobará."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "La URL proporcionada no utiliza HTTP y no se comprobará."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Ocurrió un error de red."
+
+msgid "card.error.timeout"
+msgstr "Tiempo de solicitud caducado."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Ningún controlador admite esta URL."
+
+msgid "cards.user.streaming"
+msgstr "transmitiendo {game}"
+
+msgid "clip.desc.1"
+msgstr "Clip de {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} jugando a {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Clipeado por {curator} — {views, plural, one {# visualización} other {# "
+"visualizaciones}}"
+
+msgid "clip.unknown"
+msgstr "Desconocido"
+
+msgid "video.desc.1"
+msgstr "Vídeo de {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Visualizaciones — {date,datetime}"

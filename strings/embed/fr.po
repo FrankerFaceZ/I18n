@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-11-20 22:25+0000\n"
 "Last-Translator: MiMi <f4g8tf4ht648t4h6g4f6@gmail.com>\n"
-"Language-Team: French <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/embed/fr/>\n"
+"Language-Team: French "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -134,3 +134,49 @@ msgstr "Retweets"
 #, icu-message-format
 msgid "embed.twitter.tweets"
 msgstr "Tweets"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Aucune information disponible"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "L'URL fournie a un hôte non valide et ne peut pas être vérifiée."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Une erreur réseau s'est produite."
+
+msgid "card.error.timeout"
+msgstr "Délai d'attente de la demande dépassé."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Aucun gestionnaire ne prend en charge cette URL."
+
+msgid "cards.user.streaming"
+msgstr "streame {game}"
+
+msgid "clip.desc.1"
+msgstr "Clip de {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} joue à {game}"
+
+#, fuzzy
+msgid "clip.desc.2"
+msgstr "Clip créé par {curator} — {views,number} Vue{views,plural,one{}other{s}}"
+
+msgid "clip.unknown"
+msgstr "Inconnu"
+
+msgid "video.desc.1"
+msgstr "Vidéo de {user}"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Vues - {date}"

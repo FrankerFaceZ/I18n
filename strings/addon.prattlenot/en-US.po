@@ -1,0 +1,354 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/declutter/index.jsx:191
+#: /src/prattlenot/index.jsx:403
+#, icu-message-format
+msgid "addon.pn.button.enabled"
+msgstr "Declutterer is currently enabled. Click to disable."
+
+#: /src/declutter/index.jsx:164
+#: /src/prattlenot/index.jsx:385
+#, icu-message-format
+msgid "addon.pn.button.title"
+msgstr "Toggle Declutterer"
+
+#: /src/prattlenot/logic.jsx:380
+#, icu-message-format
+msgid "addon.pn.cleared"
+msgstr "Chat was cleared"
+
+#: /src/prattlenot/logic.jsx:369
+#, icu-message-format
+msgid "addon.pn.welcome"
+msgstr "Welcome to the field of prattle."
+
+#: /src/prattlenot/components/cheer.vue:13
+#, icu-message-format
+msgid "addon.prattlenot.bits"
+msgstr "Minimum Bits"
+
+#: /src/prattlenot/components/unicode.vue:13
+#, icu-message-format
+msgid "addon.prattlenot.categories"
+msgstr "Categories"
+
+#: /src/prattlenot/components/badges.vue:49
+#: /src/prattlenot/components/basic.vue:19
+#: /src/prattlenot/components/cheer.vue:33
+#: /src/prattlenot/components/emote_only.vue:33
+#: /src/prattlenot/components/repeated_message.vue:64
+#: /src/prattlenot/components/splitting.vue:33
+#: /src/prattlenot/components/unicode.vue:90
+#: /src/prattlenot/components/uppercase.vue:36
+#, icu-message-format
+msgid "addon.prattlenot.critical"
+msgstr "Critical (Stop Immediately)"
+
+#: /src/prattlenot/rules.js:95
+#, icu-message-format
+msgid "addon.prattlenot.filter.badge"
+msgstr "Badge"
+
+#: /src/prattlenot/rules.js:42
+#, icu-message-format
+msgid "addon.prattlenot.filter.cheer"
+msgstr "Cheering"
+
+#: /src/prattlenot/rules.js:360
+#, icu-message-format
+msgid "addon.prattlenot.filter.emote_only"
+msgstr "Emote Only / Too Many Emotes"
+
+#: /src/prattlenot/rules.js:144
+#, icu-message-format
+msgid "addon.prattlenot.filter.repeated_message"
+msgstr "Repeated Message"
+
+#: /src/prattlenot/rules.js:293
+#, icu-message-format
+msgid "addon.prattlenot.filter.repeated_words"
+msgstr "Repeated Words"
+
+#: /src/prattlenot/rules.js:448
+#, icu-message-format
+msgid "addon.prattlenot.filter.spam"
+msgstr "Spammy"
+
+#: /src/prattlenot/rules.js:252
+#, icu-message-format
+msgid "addon.prattlenot.filter.splitting"
+msgstr "Too Many Single Characters"
+
+#: /src/prattlenot/rules.js:501
+#, icu-message-format
+msgid "addon.prattlenot.filter.unicode"
+msgstr "Too Much Unicode"
+
+#: /src/prattlenot/components/repeated_message.vue:13
+#, icu-message-format
+msgid "addon.prattlenot.hash_count"
+msgstr "Hash Storage Size"
+
+#: /src/prattlenot/components/repeated_message.vue:27
+#, icu-message-format
+msgid "addon.prattlenot.leven_count"
+msgstr "Levenshtein Storage Size"
+
+#: /src/prattlenot/components/repeated_message.vue:41
+#, icu-message-format
+msgid "addon.prattlenot.leven_score"
+msgstr "Levenshtein Threshold"
+
+#: /src/prattlenot/components/splitting.vue:13
+#, icu-message-format
+msgid "addon.prattlenot.limit"
+msgstr "Limit"
+
+#: /src/prattlenot/components/emote_only.vue:13
+#, icu-message-format
+msgid "addon.prattlenot.max_emotes"
+msgstr "Maximum Emotes"
+
+#: /src/prattlenot/logic.jsx:159
+#: /src/prattlenot/logic.jsx:170
+#, icu-message-format
+msgid "addon.prattlenot.mouse-pause"
+msgstr "Prattle Paused Due to Mouse"
+
+#: /src/prattlenot/components/badges.vue:57
+#: /src/prattlenot/components/basic.vue:27
+#: /src/prattlenot/components/cheer.vue:41
+#: /src/prattlenot/components/emote_only.vue:41
+#: /src/prattlenot/components/repeated_message.vue:72
+#: /src/prattlenot/components/splitting.vue:41
+#: /src/prattlenot/components/unicode.vue:98
+#: /src/prattlenot/components/uppercase.vue:44
+#, icu-message-format
+msgid "addon.prattlenot.score"
+msgstr "Score"
+
+#: /src/prattlenot/components/unicode.vue:40
+#, icu-message-format
+msgid "addon.prattlenot.scripts"
+msgstr "Scripts"
+
+#: /src/prattlenot/components/unicode.vue:67
+#: /src/prattlenot/components/uppercase.vue:13
+#, icu-message-format
+msgid "addon.prattlenot.threshold"
+msgstr "Threshold"
+
+#: /src/prattlenot/rules.js:404
+#, icu-message-format
+msgid "addon.prattlenot.uppercase"
+msgstr "Too Much Uppercase"
+
+#: /src/prattlenot/index.jsx:51
+#, icu-message-format
+msgid "pn.position.bottom"
+msgstr "Bottom"
+
+#: /src/prattlenot/index.jsx:52
+#, icu-message-format
+msgid "pn.position.left"
+msgstr "Left"
+
+#: /src/prattlenot/index.jsx:53
+#, icu-message-format
+msgid "pn.position.right"
+msgstr "Right"
+
+#: /src/prattlenot/index.jsx:50
+#, icu-message-format
+msgid "pn.position.top"
+msgstr "Top"
+
+#: /src/prattlenot/index.jsx:58
+#, icu-message-format
+msgid "pn.size.entry"
+msgstr "{value,number}%"
+
+#: /src/prattlenot/index.jsx:105
+#: /src/prattlenot/index.jsx:115
+#: /src/prattlenot/index.jsx:125
+#: /src/prattlenot/index.jsx:135
+#: /src/prattlenot/index.jsx:163
+#: /src/prattlenot/index.jsx:173
+#: /src/prattlenot/index.jsx:183
+#: /src/prattlenot/index.jsx:192
+#: /src/prattlenot/index.jsx:207
+#: /src/prattlenot/index.jsx:218
+#: /src/prattlenot/index.jsx:60
+#: /src/prattlenot/index.jsx:70
+#: /src/prattlenot/index.jsx:93
+#, icu-message-format
+msgid "setting.add_ons.prattle_not"
+msgstr "PrattleNot"
+
+#: /src/prattlenot/index.jsx:163
+#: /src/prattlenot/index.jsx:173
+#: /src/prattlenot/index.jsx:183
+#: /src/prattlenot/index.jsx:192
+#: /src/prattlenot/index.jsx:70
+#, icu-message-format
+msgid "setting.add_ons.prattle_not.appearance"
+msgstr "Appearance"
+
+#: /src/prattlenot/index.jsx:207
+#: /src/prattlenot/index.jsx:60
+#: /src/prattlenot/index.jsx:93
+#, icu-message-format
+msgid "setting.add_ons.prattle_not.behavior"
+msgstr "Behavior"
+
+#: /src/prattlenot/index.jsx:105
+#: /src/prattlenot/index.jsx:115
+#, icu-message-format
+msgid "setting.add_ons.prattle_not.position"
+msgstr "Position"
+
+#: /src/prattlenot/index.jsx:125
+#: /src/prattlenot/index.jsx:135
+#, icu-message-format
+msgid "setting.add_ons.prattle_not.position__portrait_mode"
+msgstr "Position (Portrait Mode)"
+
+#: /src/prattlenot/index.jsx:218
+#, icu-message-format
+msgid "setting.add_ons.prattle_not.rules"
+msgstr "Rules"
+
+#: /src/prattlenot/index.jsx:218
+#, icu-message-format, md-text
+msgid "setting.add_ons.prattle_not.rules.description"
+msgstr ""
+"Rules allow you to define a series of conditions under which PrattleNot "
+"will flag a message as prattle, or spam, and display it separately from "
+"more valuable chat messages."
+
+#: /src/prattlenot/index.jsx:163
+#, icu-message-format
+msgid "setting.entry.pn.background"
+msgstr "Background Color"
+
+#: /src/prattlenot/index.jsx:163
+#, icu-message-format, md-text
+msgid "setting.entry.pn.background.description"
+msgstr ""
+"An optional, simple background color to use for the prattle log to better "
+"differentiate it from normal chat."
+
+#: /src/prattlenot/index.jsx:60
+#, icu-message-format
+msgid "setting.entry.pn.enabled"
+msgstr "Enable by Default"
+
+#: /src/prattlenot/index.jsx:60
+#, icu-message-format, md-text
+msgid "setting.entry.pn.enabled.description"
+msgstr ""
+"When this is enabled, PrattleNot will be enabled by default. Otherwise, you "
+"will need to manually enable it as desired."
+
+#: /src/prattlenot/index.jsx:125
+#, icu-message-format
+msgid "setting.entry.pn.portrait-position"
+msgstr "Position"
+
+#: /src/prattlenot/index.jsx:135
+#, icu-message-format
+msgid "setting.entry.pn.portrait-size"
+msgstr "Size"
+
+#: /src/prattlenot/index.jsx:105
+#, icu-message-format
+msgid "setting.entry.pn.position"
+msgstr "Position"
+
+#: /src/prattlenot/index.jsx:93
+#, icu-message-format
+msgid "setting.entry.pn.scrollback"
+msgstr "Scrollback Length"
+
+#: /src/prattlenot/index.jsx:93
+#, icu-message-format, md-text
+msgid "setting.entry.pn.scrollback.description"
+msgstr ""
+"Keep up to this many lines in Prattle. Setting this too high will create "
+"lag."
+
+#: /src/prattlenot/index.jsx:70
+#, icu-message-format
+msgid "setting.entry.pn.shared-chat.style"
+msgstr "Shared Chat: Pill Style"
+
+#: /src/prattlenot/index.jsx:70
+#, icu-message-format, md-text
+msgid "setting.entry.pn.shared-chat.style.description"
+msgstr ""
+"This controls the appearance of the pill at the left-side of chat messages "
+"when a message is part of a Shared Chat. By default, this is Avatar for "
+"moderators and broadcasters and Hidden for everyone else."
+
+#: /src/prattlenot/index.jsx:84
+#, icu-message-format
+msgid "setting.entry.pn.shared-chat.style.values.-1"
+msgstr "Same as Normal Chat"
+
+#: /src/prattlenot/index.jsx:86
+#, icu-message-format
+msgid "setting.entry.pn.shared-chat.style.values.0"
+msgstr "Hidden"
+
+#: /src/prattlenot/index.jsx:87
+#, icu-message-format
+msgid "setting.entry.pn.shared-chat.style.values.1"
+msgstr "Channel Name"
+
+#: /src/prattlenot/index.jsx:88
+#, icu-message-format
+msgid "setting.entry.pn.shared-chat.style.values.2"
+msgstr "Avatar"
+
+#: /src/prattlenot/index.jsx:85
+#, icu-message-format
+msgid "setting.entry.pn.shared-chat.style.values.null"
+msgstr "Automatic"
+
+#: /src/prattlenot/index.jsx:183
+#, icu-message-format
+msgid "setting.entry.pn.show-badges"
+msgstr "Show Badges"
+
+#: /src/prattlenot/index.jsx:173
+#, icu-message-format
+msgid "setting.entry.pn.show-reason"
+msgstr "Show Matching Filters"
+
+#: /src/prattlenot/index.jsx:173
+#, icu-message-format, md-text
+msgid "setting.entry.pn.show-reason.description"
+msgstr ""
+"When this is enabled, the rules that match a given chat message are logged "
+"and displayed to help you tweak your rules."
+
+#: /src/prattlenot/index.jsx:115
+#, icu-message-format
+msgid "setting.entry.pn.size"
+msgstr "Size"
+
+#: /src/prattlenot/index.jsx:207
+#, icu-message-format
+msgid "setting.entry.pn.threshold"
+msgstr "Threshold"
+
+#: /src/prattlenot/index.jsx:207
+#, icu-message-format, md-text
+msgid "setting.entry.pn.threshold.description"
+msgstr "A score higher than this value will cause a message to be flagged."
+
+#: /src/prattlenot/index.jsx:192
+#, icu-message-format
+msgid "setting.entry.pn.timestamps"
+msgstr "Show Timestamps"

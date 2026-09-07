@@ -1,0 +1,155 @@
+name: Extract Strings
+
+# Runs when the core or add-ons repository dispatches an event after a push,
+# or by hand. Extracts localizable strings from that repository, merges them
+# into the catalog and PO files, commits to main, triggers the build, and
+# reports to Discord.
+
+on:
+  repository_dispatch:
+    types: [extract-core, extract-addons, extract-link-service]
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Repository to extract from
+        type: choice
+        required: true
+        options: [core, addons, link-service]
+      ref:
+        description: Git ref of the source repository (default branch when empty)
+        type: string
+        default: ''
+
+# Only one merge at a time, so two pushes in quick succession queue up
+# instead of racing each other on strings.json.
+concurrency:
+  group: extract-strings
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve source repository
+        id: source
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            case "${{ github.event.action }}" in
+              extract-core)         SOURCE=core ;;
+              extract-addons)       SOURCE=addons ;;
+              extract-link-service) SOURCE=link-service ;;
+              *) echo "Unknown dispatch type: ${{ github.event.action }}"; exit 1 ;;
+            esac
+            REF='${{ github.event.client_payload.sha }}'
+          else
+            SOURCE='${{ inputs.source }}'
+            REF='${{ inputs.ref }}'
+          fi
+
+          case "$SOURCE" in
+            core)         REPO=FrankerFaceZ/FrankerFaceZ; DEFAULT_REF=master ;;
+            addons)       REPO=FrankerFaceZ/Add-Ons;      DEFAULT_REF=master ;;
+            link-service) REPO=FrankerFaceZ/Link-Service; DEFAULT_REF=master ;;
+          esac
+
+          echo "source=$SOURCE" >> "$GITHUB_OUTPUT"
+          echo "repo=$REPO" >> "$GITHUB_OUTPUT"
+          echo "ref=${REF:-$DEFAULT_REF}" >> "$GITHUB_OUTPUT"
+
+      - name: Check out i18n repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Check out ${{ steps.source.outputs.repo }}
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ steps.source.outputs.repo }}
+          ref: ${{ steps.source.outputs.ref }}
+          path: source
+
+      - name: Record source commit
+        id: commit
+        shell: bash
+        run: echo "sha=$(git -C source rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Use PNPM
+        uses: pnpm/action-setup@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Extract strings
+        run: node scripts/extract.js --root source --out extract --webext
+
+      - name: Merge into catalog
+        id: merge
+        run: node scripts/merge.mjs extract/meta.json --report extract/report.json
+
+      - name: Commit and push
+        id: push
+        if: steps.merge.outputs.changed == 'true'
+        shell: bash
+        env:
+          SOURCE: ${{ steps.source.outputs.source }}
+          SOURCE_REPO: ${{ steps.source.outputs.repo }}
+          SOURCE_SHA: ${{ steps.commit.outputs.sha }}
+        run: |
+          git config user.name "FrankerFaceZ i18n Bot"
+          git config user.email "bot@frankerfacez.com"
+          git add strings strings.json
+          if git diff --cached --quiet; then
+            echo "No file changes to commit."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Update ${SOURCE} strings: +${{ steps.merge.outputs.added }} ~${{ steps.merge.outputs.updated }} →${{ steps.merge.outputs.moved }}" \
+            -m "Source: ${SOURCE_REPO}@${SOURCE_SHA}"
+
+          # Weblate may have pushed translations in the meantime. Retry a few times.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push rejected, rebasing (attempt $attempt)"
+            git pull --rebase origin main
+          done
+          echo "Could not push after 5 attempts."
+          exit 1
+
+      - name: Trigger build and deploy
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref main
+
+      - name: Notify Discord
+        if: always() && steps.merge.outcome == 'success'
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_I18N_WEBHOOK }}
+          SOURCE_REPO: ${{ steps.source.outputs.repo }}
+          SOURCE_SHA: ${{ steps.commit.outputs.sha }}
+          COMMIT_URL: ${{ steps.push.outputs.pushed == 'true' && format('{0}/{1}/commit/{2}', github.server_url, github.repository, steps.push.outputs.sha) || '' }}
+          RUN_URL: ${{ format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
+        run: node scripts/notify-discord.mjs extract/report.json
+
+      - name: Upload extraction artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extract-${{ steps.source.outputs.source }}-${{ github.run_id }}
+          path: extract
+          retention-days: 14

@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/unread-mentions-counter/index.js:107
+#: /src/unread-mentions-counter/index.js:31
+#: /src/unread-mentions-counter/index.js:46
+#: /src/unread-mentions-counter/index.js:59
+#: /src/unread-mentions-counter/index.js:70
+#: /src/unread-mentions-counter/index.js:80
+#: /src/unread-mentions-counter/index.js:94
+#, icu-message-format
+msgid "setting.add_ons.unread_mentions_counter"
+msgstr "Unread Mentions Counter"
+
+#: /src/unread-mentions-counter/index.js:31
+#: /src/unread-mentions-counter/index.js:46
+#, icu-message-format
+msgid "setting.add_ons.unread_mentions_counter.behavior"
+msgstr "Behavior"
+
+#: /src/unread-mentions-counter/index.js:59
+#: /src/unread-mentions-counter/index.js:70
+#: /src/unread-mentions-counter/index.js:80
+#, icu-message-format
+msgid "setting.add_ons.unread_mentions_counter.browser_notifications"
+msgstr "Browser Notifications"
+
+#: /src/unread-mentions-counter/index.js:107
+#: /src/unread-mentions-counter/index.js:94
+#, icu-message-format
+msgid "setting.add_ons.unread_mentions_counter.icon_counter_appearance"
+msgstr "Icon Counter Appearance"
+
+#: /src/unread-mentions-counter/index.js:59
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.browser-notifications.enabled"
+msgstr "Enable Browser Notifications"
+
+#: /src/unread-mentions-counter/index.js:59
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.unread-mentions-counter.browser-notifications.enabled."
+"description"
+msgstr ""
+"Enable browser notifications for new unread mentions/pings.\n"
+"\n"
+"**NOTE:** This requires enabling browser notifications on Twitch as a whole "
+"so if you don't want to receive browser notifications from Twitch itself be "
+"sure to disable those in the Notification Settings of your Twitch account."
+
+#: /src/unread-mentions-counter/index.js:80
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.browser-notifications.icon-photo"
+msgstr "Notification Icon Photo"
+
+#: /src/unread-mentions-counter/index.js:80
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.unread-mentions-counter.browser-notifications.icon-"
+"photo.description"
+msgstr "Choose whose profile photo should be displayed in the notification."
+
+#: /src/unread-mentions-counter/index.js:88
+#, icu-message-format
+msgid ""
+"setting.entry.addon.unread-mentions-counter.browser-notifications.icon-"
+"photo.values.channel"
+msgstr "Channel"
+
+#: /src/unread-mentions-counter/index.js:89
+#, icu-message-format
+msgid ""
+"setting.entry.addon.unread-mentions-counter.browser-notifications.icon-"
+"photo.values.message-author"
+msgstr "Message Author"
+
+#: /src/unread-mentions-counter/index.js:70
+#, icu-message-format
+msgid ""
+"setting.entry.addon.unread-mentions-counter.browser-notifications.interact-"
+"to-close"
+msgstr "Interact To Close"
+
+#: /src/unread-mentions-counter/index.js:70
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.unread-mentions-counter.browser-notifications.interact-"
+"to-close.description"
+msgstr ""
+"If enabled, notifications will only close when you manually close them. "
+"Otherwise, notifications will automatically close after several seconds."
+
+#: /src/unread-mentions-counter/index.js:31
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.counter-location"
+msgstr "Counter Location"
+
+#: /src/unread-mentions-counter/index.js:31
+#, icu-message-format, md-text
+msgid "setting.entry.addon.unread-mentions-counter.counter-location.description"
+msgstr "Will not take effect until counter changes or page is refreshed."
+
+#: /src/unread-mentions-counter/index.js:41
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.counter-location.values.both"
+msgstr "Icon + Tab Title"
+
+#: /src/unread-mentions-counter/index.js:39
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.counter-location.values.icon"
+msgstr "Icon"
+
+#: /src/unread-mentions-counter/index.js:40
+#, icu-message-format
+msgid ""
+"setting.entry.addon.unread-mentions-counter.counter-location.values.tab-"
+"title"
+msgstr "Tab Title"
+
+#: /src/unread-mentions-counter/index.js:94
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.icon.bg-color"
+msgstr "Background Color"
+
+#: /src/unread-mentions-counter/index.js:94
+#, icu-message-format, md-text
+msgid "setting.entry.addon.unread-mentions-counter.icon.bg-color.description"
+msgstr "This is the color of the icon counter's circular background."
+
+#: /src/unread-mentions-counter/index.js:107
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.icon.text-color"
+msgstr "Text Color"
+
+#: /src/unread-mentions-counter/index.js:107
+#, icu-message-format, md-text
+msgid "setting.entry.addon.unread-mentions-counter.icon.text-color.description"
+msgstr ""
+"This is the color of the icon counter's text (i.e. the number of unread "
+"mentions/pings)."
+
+#: /src/unread-mentions-counter/index.js:46
+#, icu-message-format
+msgid "setting.entry.addon.unread-mentions-counter.ping-types"
+msgstr "Ping Types"
+
+#: /src/unread-mentions-counter/index.js:46
+#, icu-message-format, md-text
+msgid "setting.entry.addon.unread-mentions-counter.ping-types.description"
+msgstr ""
+"Surprise! This add-on isn't *just* for mentions. Select which types of "
+"pings/highlights to count."

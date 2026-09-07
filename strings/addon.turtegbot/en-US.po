@@ -1,0 +1,88 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/turtegbot/badges.js:11
+#: /src/turtegbot/commands.js:13
+#: /src/turtegbot/commands.js:24
+#: /src/turtegbot/index.js:24
+#: /src/turtegbot/index.js:35
+#, icu-message-format
+msgid "setting.add_ons.turteg_bot"
+msgstr "TurtegBot"
+
+#: /src/turtegbot/badges.js:11
+#, icu-message-format
+msgid "setting.add_ons.turteg_bot.badges"
+msgstr "Badges"
+
+#: /src/turtegbot/commands.js:13
+#: /src/turtegbot/commands.js:24
+#, icu-message-format
+msgid "setting.add_ons.turteg_bot.commands"
+msgstr "Commands"
+
+#: /src/turtegbot/index.js:24
+#: /src/turtegbot/index.js:35
+#, icu-message-format
+msgid "setting.add_ons.turteg_bot.global"
+msgstr "Global"
+
+#: /src/turtegbot/badges.js:11
+#, icu-message-format
+msgid "setting.entry.addon.turtegbot.badges.enabled"
+msgstr "Badges"
+
+#: /src/turtegbot/badges.js:11
+#, icu-message-format, md-text
+msgid "setting.entry.addon.turtegbot.badges.enabled.description"
+msgstr ""
+"Show TurtegBot user badges.\n"
+"\n"
+"(Per-badge visibilty can be set in [Chat >> Badges > "
+"Visibilty](~chat.badges.tabs.visibility))"
+
+#: /src/turtegbot/commands.js:24
+#, icu-message-format
+msgid "setting.entry.addon.turtegbot.commands.all"
+msgstr "Show All Existing Commands"
+
+#: /src/turtegbot/commands.js:24
+#, icu-message-format, md-text
+msgid "setting.entry.addon.turtegbot.commands.all.description"
+msgstr "Ignore your permissions and show all existing commands."
+
+#: /src/turtegbot/commands.js:13
+#, icu-message-format
+msgid "setting.entry.addon.turtegbot.commands.enabled"
+msgstr "Commands"
+
+#: /src/turtegbot/commands.js:13
+#, icu-message-format, md-text
+msgid "setting.entry.addon.turtegbot.commands.enabled.description"
+msgstr "Suggest TurtegBot channel commands."
+
+#: /src/turtegbot/index.js:35
+#, icu-message-format
+msgid "setting.entry.addon.turtegbot.global.fetchroom"
+msgstr "Fetch Room Data"
+
+#: /src/turtegbot/index.js:35
+#, icu-message-format, md-text
+msgid "setting.entry.addon.turtegbot.global.fetchroom.description"
+msgstr ""
+"Determines whether to fetch the current room data from TurtegBot. This "
+"ensures commands are sent with the correct prefix. If disabled, commands "
+"will use the default (“#”) prefix, which may not always trigger the bot."
+
+#: /src/turtegbot/index.js:24
+#, icu-message-format
+msgid "setting.entry.addon.turtegbot.global.fetchuser"
+msgstr "Fetch User Data"
+
+#: /src/turtegbot/index.js:24
+#, icu-message-format, md-text
+msgid "setting.entry.addon.turtegbot.global.fetchuser.description"
+msgstr ""
+"Determines whether to fetch your user data from TurtegBot. This enables "
+"suggestions only for commands you have permission to use. If disabled, "
+"commands will not be filtered by your permissions."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-04-25 07:32+0000\n"
 "Last-Translator: SeanPai <seanpai96@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://weblate.frankerfacez.com/"
-"projects/frankerfacez/embed/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional) "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -131,8 +131,8 @@ msgstr "Imgur圖庫"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,number} 點數 • 👍 {likes,number}  • 👎 "
-"{dislikes,number}"
+"{posted,datetime} • {points,number} 點數 • 👍 {likes,number}  • "
+"👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -198,8 +198,8 @@ msgstr "RT"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs, number} 個紀錄 • {runs, number} 次嘗試 • {games, number} 個遊戲 • {cats, number}"
-" 個種類"
+"{wrs, number} 個紀錄 • {runs, number} 次嘗試 • {games, number} "
+"個遊戲 • {cats, number} 個種類"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -240,8 +240,8 @@ msgstr "追蹤中"
 #, icu-message-format, lp-defaults:"{\"created\":\"2021-06-30T19:38:53.000Z\",\"retweets\":12,\"likes\":150}"
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets, number} 次轉推 • {likes, number} "
-"個喜歡"
+"{created,time} • {created,date} • {retweets, number} 次轉推 • "
+"{likes, number} 個喜歡"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -252,8 +252,8 @@ msgstr "喜歡"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{tweets,number} 則推文 • {following,number} 跟隨中 • {followers,number} 位跟隨者 • 於 "
-"{joined,date} 加入"
+"{tweets,number} 則推文 • {following,number} 跟隨中 • "
+"{followers,number} 位跟隨者 • 於 {joined,date} 加入"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -274,4 +274,79 @@ msgstr "推文"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • 觀看次數: {views, number} 次 • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • 觀看次數: {views, number} 次 • 👍 {likes,number}  "
+"• 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "沒有資料"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "提供的URL伺服器無效，無法檢查。"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "提供的URL有著非標準的端口，將不檢查。"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "提供的URL不使用HTTP，將不檢查。"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "發生網路錯誤。"
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "card.error.timeout"
+msgstr "要求逾時。"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "沒有處理程序支援這個URL。"
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "正在實況 {game}"
+
+#: /src/modules/chat/rich_providers.js:126:14
+#, icu-message-format
+msgid "clip.desc.1"
+msgstr "{user} 的剪輯"
+
+#: /src/modules/chat/rich_providers.js:120:14
+#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
+msgid "clip.desc.1.playing"
+msgstr "{user} 正在玩 {game}"
+
+#: /src/modules/chat/rich_providers.js:133:13
+#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
+msgid "clip.desc.2"
+msgstr ""
+"{curator} 的剪輯 — {views, plural, one {觀看次數 #} other "
+"{觀看次數 #}}"
+
+#: /src/modules/chat/rich_providers.js:134:57
+#, icu-message-format
+msgid "clip.unknown"
+msgstr "未知"
+
+#: /src/modules/chat/rich_providers.js:190:14
+#, icu-message-format
+msgid "video.desc.1"
+msgstr "{user} 的影片"
+
+#: /src/modules/chat/rich_providers.js:197:13
+#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
+msgid "video.desc.2"
+msgstr "{length,duration} — 觀看次數 {views,number} — {date,datetime}"

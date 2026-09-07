@@ -1,0 +1,147 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/poll-shim/components/info.vue:11
+#, icu-message-format
+msgid "addon.poll-shim.active"
+msgstr "Active"
+
+#: /src/poll-shim/components/info.vue:32
+#, icu-message-format
+msgid "addon.poll-shim.authed"
+msgstr "Authorized"
+
+#: /src/poll-shim/components/info.vue:51
+#, icu-message-format
+msgid "addon.poll-shim.cannot-poll"
+msgstr "You are not a moderator of this channel and cannot create polls."
+
+#: /src/poll-shim/components/info.vue:19
+#, icu-message-format
+msgid "addon.poll-shim.channel"
+msgstr "Channel"
+
+#: /src/poll-shim/components/info.vue:24
+#: /src/poll-shim/components/info.vue:32
+#, icu-message-format
+msgid "addon.poll-shim.connected"
+msgstr "Connected"
+
+#: /src/poll-shim/components/info.vue:24
+#: /src/poll-shim/components/info.vue:32
+#, icu-message-format
+msgid "addon.poll-shim.disconnected"
+msgstr "Disconnected"
+
+#: /src/poll-shim/components/info.vue:3
+#, icu-message-format
+msgid "addon.poll-shim.inactive"
+msgstr ""
+"Poll-Shim is currently inactive. Poll-Shim only runs on the dashboard or "
+"your own pop-out chat. Alternatively, if you have set a channel override, "
+"Poll-Shim will only run on that channel's dashboard or pop-out chat."
+
+#: /src/poll-shim/components/info.vue:48
+#, icu-message-format
+msgid "addon.poll-shim.no-poll"
+msgstr "The channel is not an affiliate or partner and cannot run polls."
+
+#: /src/poll-shim/components/info.vue:43
+#, icu-message-format
+msgid "addon.poll-shim.polls"
+msgstr "Active Polls"
+
+#: /src/poll-shim/components/info.vue:27
+#, icu-message-format
+msgid "addon.poll-shim.pubsub"
+msgstr "PubSub"
+
+#: /src/poll-shim/components/info.vue:35
+#, icu-message-format
+msgid "addon.poll-shim.ws"
+msgstr "WebSocket"
+
+#: /src/poll-shim/index.js:108
+#: /src/poll-shim/index.js:18
+#: /src/poll-shim/index.js:40
+#: /src/poll-shim/index.js:50
+#: /src/poll-shim/index.js:80
+#: /src/poll-shim/index.js:94
+#, icu-message-format
+msgid "setting.add_ons.poll_shim"
+msgstr "Poll-Shim"
+
+#: /src/poll-shim/index.js:108
+#: /src/poll-shim/index.js:94
+#, icu-message-format
+msgid "setting.add_ons.poll_shim.authentication"
+msgstr "Authentication"
+
+#: /src/poll-shim/index.js:80
+#, icu-message-format
+msgid "setting.add_ons.poll_shim.connectivity"
+msgstr "Connectivity"
+
+#: /src/poll-shim/index.js:40
+#: /src/poll-shim/index.js:50
+#, icu-message-format
+msgid "setting.add_ons.poll_shim.general"
+msgstr "General"
+
+#: /src/poll-shim/index.js:18
+#, icu-message-format
+msgid "setting.add_ons.poll_shim.info"
+msgstr "Info"
+
+#: /src/poll-shim/index.js:80
+#, icu-message-format
+msgid "setting.entry.addon.poll-shim.address"
+msgstr "Address"
+
+#: /src/poll-shim/index.js:80
+#, icu-message-format, md-text
+msgid "setting.entry.addon.poll-shim.address.description"
+msgstr "Connect to this address for polls."
+
+#: /src/poll-shim/index.js:108
+#, icu-message-format
+msgid "setting.entry.addon.poll-shim.client-key"
+msgstr "Client Passphrase"
+
+#: /src/poll-shim/index.js:108
+#, icu-message-format, md-text
+msgid "setting.entry.addon.poll-shim.client-key.description"
+msgstr ""
+"If this is set, the client will authenticate by sending this passphrase to "
+"the server once the server connects."
+
+#: /src/poll-shim/index.js:40
+#, icu-message-format
+msgid "setting.entry.addon.poll-shim.enabled"
+msgstr "Enable Poll-Shim."
+
+#: /src/poll-shim/index.js:94
+#, icu-message-format
+msgid "setting.entry.addon.poll-shim.key"
+msgstr "Passphrase"
+
+#: /src/poll-shim/index.js:94
+#, icu-message-format, md-text
+msgid "setting.entry.addon.poll-shim.key.description"
+msgstr ""
+"The server you connect to must authenticate with this passphrase to be "
+"allowed to create polls.\n"
+"\n"
+"**Note:** This value changes every page load until you manually set it."
+
+#: /src/poll-shim/index.js:50
+#, icu-message-format
+msgid "setting.entry.addon.poll-shim.user"
+msgstr "Channel"
+
+#: /src/poll-shim/index.js:50
+#, icu-message-format, md-text
+msgid "setting.entry.addon.poll-shim.user.description"
+msgstr ""
+"Set this to override the channel where polls should be run. Please note "
+"that you must be a moderator of the channel in question to run a poll."

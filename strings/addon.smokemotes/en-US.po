@@ -1,0 +1,272 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/smokemotes/index.jsx:116
+#: /src/smokemotes/index.jsx:136
+#: /src/smokemotes/index.jsx:149
+#: /src/smokemotes/index.jsx:162
+#: /src/smokemotes/index.jsx:176
+#: /src/smokemotes/index.jsx:190
+#: /src/smokemotes/index.jsx:204
+#: /src/smokemotes/index.jsx:217
+#: /src/smokemotes/index.jsx:230
+#: /src/smokemotes/index.jsx:246
+#: /src/smokemotes/index.jsx:257
+#: /src/smokemotes/index.jsx:277
+#: /src/smokemotes/index.jsx:290
+#: /src/smokemotes/index.jsx:308
+#: /src/smokemotes/index.jsx:326
+#: /src/smokemotes/index.jsx:344
+#: /src/smokemotes/index.jsx:57
+#, icu-message-format
+msgctxt "/sr"
+msgid "setting.add_ons.smokey_s_utilities"
+msgstr "Smokey's Utilities"
+
+#: /src/smokemotes/index.jsx:204
+#, icu-message-format
+msgid "setting.add_ons.smokey_s_utilities.channel"
+msgstr "Channel"
+
+#: /src/smokemotes/index.jsx:217
+#, icu-message-format
+msgid "setting.add_ons.smokey_s_utilities.following"
+msgstr "Following"
+
+#: /src/smokemotes/index.jsx:230
+#: /src/smokemotes/index.jsx:246
+#: /src/smokemotes/index.jsx:257
+#: /src/smokemotes/index.jsx:277
+#: /src/smokemotes/index.jsx:290
+#: /src/smokemotes/index.jsx:308
+#: /src/smokemotes/index.jsx:326
+#: /src/smokemotes/index.jsx:344
+#, icu-message-format
+msgid "setting.add_ons.smokey_s_utilities.mod_keybinds"
+msgstr "Mod Keybinds"
+
+#: /src/smokemotes/index.jsx:116
+#: /src/smokemotes/index.jsx:136
+#: /src/smokemotes/index.jsx:149
+#: /src/smokemotes/index.jsx:162
+#: /src/smokemotes/index.jsx:176
+#: /src/smokemotes/index.jsx:190
+#: /src/smokemotes/index.jsx:57
+#: /src/smokemotes/index.jsx:69
+#: /src/smokemotes/index.jsx:83
+#: /src/smokemotes/index.jsx:96
+#, icu-message-format
+msgid "setting.add_ons.smokey_s_utilities.pinned_mentions"
+msgstr "Pinned Mentions"
+
+#: /src/smokemotes/index.jsx:246
+#, icu-message-format
+msgid "setting.entry.smokemotes.auto_exit_viewercard"
+msgstr "Auto Close Viewer Card After Keybind Action"
+
+#: /src/smokemotes/index.jsx:217
+#, icu-message-format
+msgid "setting.entry.smokemotes.auto_live_follow_page"
+msgstr "Auto go to Live channels on your Following Directory"
+
+#: /src/smokemotes/index.jsx:217
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.auto_live_follow_page.description"
+msgstr ""
+"Enable to automatically go to the Live channel section on a fresh load of "
+"the following directory."
+
+#: /src/smokemotes/index.jsx:277
+#, icu-message-format
+msgid "setting.entry.smokemotes.confirm_mod_actions"
+msgstr "Confirm Mod Actions"
+
+#: /src/smokemotes/index.jsx:277
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.confirm_mod_actions.description"
+msgstr "Show confirmation dialog before timeout/ban/purge actions."
+
+#: /src/smokemotes/index.jsx:204
+#, icu-message-format
+msgid "setting.entry.smokemotes.keep_hd_video"
+msgstr "Maintain HD Quality"
+
+#: /src/smokemotes/index.jsx:204
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.keep_hd_video.description"
+msgstr ""
+"Enable to keep the video player from automatically decreasing video quality "
+"when out of focus."
+
+#: /src/smokemotes/index.jsx:308
+#, icu-message-format
+msgid "setting.entry.smokemotes.keybind_ban"
+msgstr "Ban Keybind"
+
+#: /src/smokemotes/index.jsx:308
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.keybind_ban.description"
+msgstr "Key code for ban action (e.g. KeyB). Click input and press a key to set."
+
+#: /src/smokemotes/index.jsx:344
+#, icu-message-format
+msgid "setting.entry.smokemotes.keybind_delete"
+msgstr "Delete Message Keybind"
+
+#: /src/smokemotes/index.jsx:344
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.keybind_delete.description"
+msgstr ""
+"Key code for delete message action (e.g. KeyD). Click input and press a key "
+"to set."
+
+#: /src/smokemotes/index.jsx:326
+#, icu-message-format
+msgid "setting.entry.smokemotes.keybind_purge"
+msgstr "Purge Keybind"
+
+#: /src/smokemotes/index.jsx:326
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.keybind_purge.description"
+msgstr "Key code for purge action (e.g. KeyP). Click input and press a key to set."
+
+#: /src/smokemotes/index.jsx:290
+#, icu-message-format
+msgid "setting.entry.smokemotes.keybind_timeout"
+msgstr "Timeout Keybind"
+
+#: /src/smokemotes/index.jsx:290
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.keybind_timeout.description"
+msgstr "Key code for timeout action (e.g. KeyT). Click input and press a key to set."
+
+#: /src/smokemotes/index.jsx:230
+#, icu-message-format
+msgid "setting.entry.smokemotes.mod_keybinds"
+msgstr "Toggle Mod Keybinds"
+
+#: /src/smokemotes/index.jsx:230
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.mod_keybinds.description"
+msgstr ""
+"Enable keybinds for mod actions (Timeout/Ban/Purge/Delete). Customize keys "
+"below."
+
+#: /src/smokemotes/index.jsx:149
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_animations"
+msgstr "Fade Animations"
+
+#: /src/smokemotes/index.jsx:149
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_animations.description"
+msgstr "Enable fade-in and fade-out animations for pinned messages."
+
+#: /src/smokemotes/index.jsx:190
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_bg"
+msgstr "Background Color"
+
+#: /src/smokemotes/index.jsx:190
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_bg.description"
+msgstr "Color to use for the background of pinned mentions."
+
+#: /src/smokemotes/index.jsx:162
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_border"
+msgstr "Border Color"
+
+#: /src/smokemotes/index.jsx:162
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_border.description"
+msgstr "Color to use for the border of pinned mentions."
+
+#: /src/smokemotes/index.jsx:136
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_desktop_notification"
+msgstr "Desktop Notifications"
+
+#: /src/smokemotes/index.jsx:136
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_desktop_notification.description"
+msgstr ""
+"Show desktop notifications for pinned messages (requires browser "
+"permission)."
+
+#: /src/smokemotes/index.jsx:176
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_font_color"
+msgstr "Font Color"
+
+#: /src/smokemotes/index.jsx:176
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_font_color.description"
+msgstr "Color to use for the font of pinned mentions."
+
+#: /src/smokemotes/index.jsx:57
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_mentions"
+msgstr "Pinned Mentions"
+
+#: /src/smokemotes/index.jsx:57
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_mentions.description"
+msgstr "Enable to have mentions pinned to the top of chat."
+
+#: /src/smokemotes/index.jsx:96
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_messages_max"
+msgstr "Maximum Pinned Messages"
+
+#: /src/smokemotes/index.jsx:96
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_messages_max.description"
+msgstr ""
+"Maximum amount of pinned messages allowed to be in the pinned mentions "
+"section."
+
+#: /src/smokemotes/index.jsx:83
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_messages_remove"
+msgstr "Remove Oldest Pinned Mention If At Max Number"
+
+#: /src/smokemotes/index.jsx:83
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_messages_remove.description"
+msgstr ""
+"Enable to remove the oldest pinned mention and add the latest mention, "
+"otherwise it will stop pinning messages if you have the maximum amount "
+"until there is more room."
+
+#: /src/smokemotes/index.jsx:69
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_reasons"
+msgstr "Pin Reasons"
+
+#: /src/smokemotes/index.jsx:69
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_reasons.description"
+msgstr ""
+"Pin messages when a chat line is highlighted for one of the selected "
+"reasons."
+
+#: /src/smokemotes/index.jsx:116
+#, icu-message-format
+msgid "setting.entry.smokemotes.pinned_timer"
+msgstr "Auto Removal Timer"
+
+#: /src/smokemotes/index.jsx:116
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.pinned_timer.description"
+msgstr "Time in seconds to auto remove pinned messages. 0 To Disable."
+
+#: /src/smokemotes/index.jsx:257
+#, icu-message-format
+msgid "setting.entry.smokemotes.timeout_duration"
+msgstr "Timeout Duration (seconds)"
+
+#: /src/smokemotes/index.jsx:257
+#, icu-message-format, md-text
+msgid "setting.entry.smokemotes.timeout_duration.description"
+msgstr "Duration in seconds for the timeout keybind action."

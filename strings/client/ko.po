@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Korean <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/ko/>\n"
+"Language-Team: Korean "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -82,7 +82,9 @@ msgstr "유저 타임아웃"
 
 #, fuzzy
 msgid "chat.actions.timeout-reason"
-msgstr "{user.login}을 {duration,number}초{duration,en_plural}동안 강제 퇴장한 사유:"
+msgstr ""
+"{user.login}을 {duration,number}초{duration,en_plural}동안 강제 "
+"퇴장한 사유:"
 
 #, fuzzy
 msgid "chat.actions.timeout.desc"
@@ -233,19 +235,23 @@ msgstr "채팅 일시정지"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ는 채팅 멈춤의 행동을 무시합니다. 채팅 > 동작에서 FFZ 컨트롤 센터 내에서 FFZ의 스크롤 설정을 사용하십시오."
+"FrankerFaceZ는 채팅 멈춤의 행동을 무시합니다. 채팅 > "
+"동작에서 FFZ 컨트롤 센터 내에서 FFZ의 스크롤 설정을 "
+"사용하십시오."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "익명의 선물자"
 
 msgid "chat.sub.cumulative-months"
-msgstr "{cumulative,number}개월동안 구독했습니다! 현재 {streak,number}개월 연속!"
+msgstr ""
+"{cumulative,number}개월동안 구독했습니다! 현재 "
+"{streak,number}개월 연속!"
 
 #, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
-"{user}이(가) {count,number}개의 {tier}티어 {count,en_plural}구독을  {channel}의 커뮤니티에 "
-"선물하고 있습니다!"
+"{user}이(가) {count,number}개의 {tier}티어 {count,en_plural}구독을 "
+" {channel}의 커뮤니티에 선물하고 있습니다!"
 
 msgid "chat.sub.gift-first"
 msgstr "처음으로 구독권 선물!"
@@ -269,21 +275,8 @@ msgstr "{user}이(가) {recipient}에게 {plan}구독 선물!"
 msgid "chat.sub.plan"
 msgstr "티어 {tier} "
 
-msgid "clip.desc.1"
-msgstr "{user} 의 클립"
-
 msgid "clip.desc.1.creative"
 msgstr "{user}이(가) 창의적임"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} 는 {game} 플레이중"
-
-#, fuzzy
-msgid "clip.desc.2"
-msgstr "{curator}에 의해 제작된 클립 — {views,number}회 시청{views,en_plural}"
-
-msgid "clip.unknown"
-msgstr "알 수 없음"
 
 msgid "directory.block"
 msgstr "차단"
@@ -361,7 +354,9 @@ msgid "emote-menu.channel"
 msgstr "채널"
 
 msgid "emote-menu.disable"
-msgstr "일시적인 해결 방법으로 FFZ 컨트롤 센터에서 FFZ 이모티콘 메뉴를 비활성화 해보세요."
+msgstr ""
+"일시적인 해결 방법으로 FFZ 컨트롤 센터에서 FFZ "
+"이모티콘 메뉴를 비활성화 해보세요."
 
 msgid "emote-menu.emoji"
 msgstr "이모티콘"
@@ -376,7 +371,9 @@ msgid "emote-menu.empty"
 msgstr "여기엔 아무것도 없다"
 
 msgid "emote-menu.empty-favs"
-msgstr "즐겨찾는 이모티콘이 없습니다. {hotkey}-클릭으로 즐겨찾기 설정을 할 수 있습니다."
+msgstr ""
+"즐겨찾는 이모티콘이 없습니다. {hotkey}-클릭으로 "
+"즐겨찾기 설정을 할 수 있습니다."
 
 msgid "emote-menu.empty-search"
 msgstr "맞는 이모티콘이 없습니다."
@@ -451,7 +448,9 @@ msgstr "구독자 이모티콘"
 
 #, fuzzy
 msgid "emote-menu.sub-unlock"
-msgstr "{count,number}이모티콘{count,en_plural}을 잠금해제하기 위해 {price}를 구독하세요."
+msgstr ""
+"{count,number}이모티콘{count,en_plural}을 잠금해제하기 위해 "
+"{price}를 구독하세요."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "이모티콘 외형 관리"
@@ -504,7 +503,9 @@ msgid "featured-follow.button.unfollow"
 msgstr "{user} 팔로우 해제"
 
 msgid "featured-follow.notify.on"
-msgstr "알림이 현재 활성화되어 있습니다. 사용하지 않으려면 클릭하세요."
+msgstr ""
+"알림이 현재 활성화되어 있습니다. 사용하지 않으려면 "
+"클릭하세요."
 
 msgid "i18n.diff.added"
 msgstr ""
@@ -518,11 +519,14 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"현지화 작업에 관심이 있으십니까? [Discord](https://discord.gg/UrAkGhT)에 가입하고 현지화 채널에서 채팅에 "
-"참여하세요!.\n"
+"현지화 작업에 관심이 있으십니까? "
+"[Discord](https://discord.gg/UrAkGhT)에 가입하고 현지화 "
+"채널에서 채팅에 참여하세요!.\n"
 "\n"
-"이 도구는 번역자가 앱에서 실시간으로 문자열을 테스트할 수 있게 해줍니다. 그렇게 하면 번역을 제출하기 전에 모든 것이 제대로 보이는지 "
-"확인할 수 있습니다."
+"이 도구는 번역자가 앱에서 실시간으로 문자열을 "
+"테스트할 수 있게 해줍니다. 그렇게 하면 번역을 �"
+"�출하기 전에 모든 것이 제대로 보이는지 확인할 수 "
+"있습니다."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} 완성)"
@@ -669,7 +673,9 @@ msgid "metadata.player-stats.broadcast-ago"
 msgstr "{count,numbers} 전 방송"
 
 msgid "metadata.player-stats.delay-warning"
-msgstr "로컬 시계가 {count,number}초 만큼 달라서 이 기능이 정확하지 않을 수 있습니다"
+msgstr ""
+"로컬 시계가 {count,number}초 만큼 달라서 이 기능이 �"
+"�확하지 않을 수 있습니다"
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "방송 지연시간"
@@ -714,7 +720,9 @@ msgid "page.previous"
 msgstr "이전 페이지"
 
 msgid "player.comp_button.help"
-msgstr "FFZ 컨트롤 센터에서 자세한 사항을 확인해주세요. 오디오가 고장나면 플레이어를 리셋해주세요"
+msgstr ""
+"FFZ 컨트롤 센터에서 자세한 사항을 확인해주세요. "
+"오디오가 고장나면 플레이어를 리셋해주세요"
 
 msgid "player.comp_button.off"
 msgstr "오디오 컴프레서 비활성화"
@@ -735,7 +743,9 @@ msgid "player.reset_button.all"
 msgstr "동영상 플레이어 리셋 (더블 클릭)"
 
 msgid "popup.error"
-msgstr "팝업 창을 여는데 실패했습니다. Twitch에서 팝업을 허용해주세요."
+msgstr ""
+"팝업 창을 여는데 실패했습니다. Twitch에서 팝업을 "
+"허용해주세요."
 
 msgid "site.menu_button"
 msgstr "FrankerFaceZ 컨트롤 센터"
@@ -750,7 +760,9 @@ msgid "site.menu_button.dev"
 msgstr "개발자"
 
 msgid "site.menu_button.error"
-msgstr "FFZ 컨트롤 센터를 불러오는 중 오류가 발생했습니다. 새로 고친 후 다시 시도하세요."
+msgstr ""
+"FFZ 컨트롤 센터를 불러오는 중 오류가 발생했습니다. "
+"새로 고친 후 다시 시도하세요."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -760,15 +772,17 @@ msgstr "FrankerFaceZ의 개발자 빌드를 실행중입니다."
 
 msgid "site.menu_button.new-desc"
 msgstr ""
-"이곳 {count,plural,one {is one new setting} other {에 # 개의 새로운 설정이 생겼습니다!}}."
+"이곳 {count,plural,one {is one new setting} other {에 # 개의 새로운 "
+"설정이 생겼습니다!}}."
 
 msgid "site.menu_button.profiles"
 msgstr "프로필"
 
 msgid "site.menu_button.strings"
 msgstr ""
-"이곳 {added,plural,one {에 # 개의 새로운 스트링} other {에 # 개의 새로운 스트링}} 그리고{"
-"changed,plural,one {# changed string} other {바뀐 스트링 #개}}."
+"이곳 {added,plural,one {에 # 개의 새로운 스트링} other {에 # "
+"개의 새로운 스트링}} 그리고{changed,plural,one {# changed "
+"string} other {바뀐 스트링 #개}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "업데이트가 있습니다. 페이지를 새로고침하세요."
@@ -854,7 +868,9 @@ msgstr "대상: {url}"
 
 #, fuzzy
 msgid "tooltip.link-unsafe"
-msgstr "경고: 이 URL은 {reasons} 의 이유로 구글의  안전 브라우징 리스트에 있음"
+msgstr ""
+"경고: 이 URL은 {reasons} 의 이유로 구글의  안전 브라우징 "
+"리스트에 있음"
 
 msgid "tooltip.link.urls"
 msgstr "방문한 URL"
@@ -878,13 +894,6 @@ msgstr "더 보기"
 
 msgid "video-chat.time"
 msgstr "{time,humantime} 전"
-
-msgid "video.desc.1"
-msgstr "{user}의 동영상"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} 시청자 - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "{date,date} 에 게시됨"

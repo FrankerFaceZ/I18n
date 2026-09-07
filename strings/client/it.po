@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Italian <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/it/>\n"
+"Language-Team: Italian "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/it/>\n"
 "Language: it\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -136,8 +136,7 @@ msgid "chat.filtering.blocked-term"
 msgstr "Termine bloccato"
 
 msgid "chat.ignore-clear"
-msgstr ""
-"Un tentativo da parte di un moderatore di pulire la chat è stato ignorato."
+msgstr "Un tentativo da parte di un moderatore di pulire la chat è stato ignorato."
 
 msgid "chat.message-deleted"
 msgstr "<messaggio eliminato>"
@@ -225,8 +224,8 @@ msgstr "Metti in pausa la chat"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ sovrascrive completamente la funzionalità di pausa della chat. "
-"Per favore, usa le impostazioni di scorrimento FFZ nel pannello delle "
+"FrankerFaceZ sovrascrive completamente la funzionalità di pausa della "
+"chat. Per favore, usa le impostazioni di scorrimento FFZ nel pannello delle "
 "impostazioni di FFZ, lo trovi in Chat > Comportamento."
 
 msgid "chat.sub.anonymous-gifter"
@@ -240,8 +239,8 @@ msgstr ""
 #, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
-"{user} ha donato {count,plural, one{un abbonamento} other{# abbonamenti}} di "
-"livello {tier} alla comunità di {channel}!"
+"{user} ha donato {count,plural, one{un abbonamento} other{# abbonamenti}} "
+"di livello {tier} alla comunità di {channel}!"
 
 msgid "chat.sub.gift-first"
 msgstr "È la prima volta che regala un abbonamento al canale!"
@@ -273,23 +272,8 @@ msgstr "{user} ha regalato un abbonamento di {plan} a {recipient}!"
 msgid "chat.sub.plan"
 msgstr "al livello {tier}"
 
-msgid "clip.desc.1"
-msgstr "Clip di {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} è creativo"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} sta giocando a {game}"
-
-#, fuzzy
-msgid "clip.desc.2"
-msgstr ""
-"Clip creata da {curator} — {views, plural, one{una visualizzazione} other{# "
-"visualizzazioni}}"
-
-msgid "clip.unknown"
-msgstr "Sconosciuto"
 
 msgid "directory.block"
 msgstr "Blocca"
@@ -353,8 +337,8 @@ msgstr "Canale"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Come risoluzione temporanea, prova a disabilitare in menù delle emote di FFZ "
-"nel pannello delle impostazioni di FFZ."
+"Come risoluzione temporanea, prova a disabilitare in menù delle emote di "
+"FFZ nel pannello delle impostazioni di FFZ."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
@@ -374,8 +358,8 @@ msgstr "Non c'è nulla qui."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"Non hai nessuna emote tra i preferiti. Per aggiungerne una, cliccala tenendo "
-"premuto {hotkey}."
+"Non hai nessuna emote tra i preferiti. Per aggiungerne una, cliccala "
+"tenendo premuto {hotkey}."
 
 msgid "emote-menu.empty-search"
 msgstr "Non esistono emote corrispondenti."
@@ -525,9 +509,9 @@ msgstr ""
 "di Discord](https://discord.gg/UrAkGhT) e partecipa alle discussioni nel "
 "canale di localizzazione.\n"
 "\n"
-"Questo strumento consente ai traduttori di testare le loro stringhe in tempo "
-"reale nell'app. Facendo ciò, puoi avere la certezza che ogni stringa sia "
-"corretta prima di inviare i tuoi contributi."
+"Questo strumento consente ai traduttori di testare le loro stringhe in "
+"tempo reale nell'app. Facendo ciò, puoi avere la certezza che ogni stringa "
+"sia corretta prima di inviare i tuoi contributi."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} completato)"
@@ -648,14 +632,14 @@ msgstr "Aggiungi all'ospitazione automatica"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr ""
-"Ospita automaticamente i canali dalla tua lista di ospiti quando sei offline."
+"Ospita automaticamente i canali dalla tua lista di ospiti quando sei "
+"offline."
 
 msgid "metadata.host.setting.auto-hosting.title"
 msgstr "Ospita automaticamente"
 
 msgid "metadata.host.setting.strategy.description"
-msgstr ""
-"Quando attivato, i canali da ospitare verranno scelti a caso dalla lista."
+msgstr "Quando attivato, i canali da ospitare verranno scelti a caso dalla lista."
 
 msgid "metadata.host.setting.strategy.title"
 msgstr "Randomizza l'ordine degli host"
@@ -730,7 +714,8 @@ msgstr "Pagina precedente"
 
 msgid "player.comp_button.disabled"
 msgstr ""
-"La compressione dell'audio non può essere attivata quando visualizzi le clip."
+"La compressione dell'audio non può essere attivata quando visualizzi le "
+"clip."
 
 msgid "player.comp_button.help"
 msgstr ""
@@ -779,8 +764,8 @@ msgstr "sviluppatore"
 
 msgid "site.menu_button.error"
 msgstr ""
-"Si è verificato un errore nel caricamento del pannello delle impostazioni di "
-"FFZ. Ricarica la pagina e riprova."
+"Si è verificato un errore nel caricamento del pannello delle impostazioni "
+"di FFZ. Ricarica la pagina e riprova."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -883,13 +868,12 @@ msgstr "Destinazione: {url}"
 
 #, fuzzy
 msgid "tooltip.link-unsafe"
-msgstr ""
-"Attenzione: questo URL è nella lista Safe Browsing di Google per: {reasons}"
+msgstr "Attenzione: questo URL è nella lista Safe Browsing di Google per: {reasons}"
 
 msgid "tooltip.render-error"
 msgstr ""
-"Si è verificato un errore nel rendering dellla finestrella dei suggerimenti."
-"\n"
+"Si è verificato un errore nel rendering dellla finestrella dei "
+"suggerimenti.\n"
 "{err}"
 
 msgid "video-chat.jump"
@@ -903,15 +887,6 @@ msgstr "Mostra più risposte..."
 
 msgid "video-chat.time"
 msgstr "{time,humantime} fa"
-
-msgid "video.desc.1"
-msgstr "Video di {user}"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr ""
-"{length,duration} — {views,plural, one{una visualizzazione} other{# "
-"visualizzazioni}} - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Pubblicato il giorno {date,date}"

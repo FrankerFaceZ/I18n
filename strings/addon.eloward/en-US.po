@@ -1,0 +1,35 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/eloward/index.js:34
+#: /src/eloward/index.js:45
+#, icu-message-format
+msgid "setting.add_ons.elo_ward_rank_badges"
+msgstr "EloWard Rank Badges"
+
+#: /src/eloward/index.js:34
+#, icu-message-format
+msgid "setting.entry.eloward.enabled"
+msgstr "Enable Rank Badges"
+
+#: /src/eloward/index.js:34
+#, icu-message-format, md-text
+msgid "setting.entry.eloward.enabled.description"
+msgstr ""
+"Show League of Legends rank badges in chat when streaming League of "
+"Legends.\n"
+"\n"
+"(Per-badge visibility can be set in [Chat >> Badges > Visibility > "
+"Add-Ons](~chat.badges.tabs.visibility))"
+
+#: /src/eloward/index.js:45
+#, icu-message-format
+msgid "setting.entry.eloward.manual_override"
+msgstr "Manual Override"
+
+#: /src/eloward/index.js:45
+#, icu-message-format, md-text
+msgid "setting.entry.eloward.manual_override.description"
+msgstr ""
+"Force enable rank badges for all channels (useful for OBS or when automatic "
+"detection fails)"

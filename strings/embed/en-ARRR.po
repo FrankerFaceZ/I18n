@@ -12,8 +12,34 @@ msgstr "Server: {name}"
 
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} other {# "
-"Retweets}} • {likes,plural,one {# Like} other {# Likes}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
+"other {# Retweets}} • {likes,plural,one {# Like} other {# Likes}}"
 
 msgid "embed.twitter.tweeted"
 msgstr "tweeted: {tweet}"
+
+msgid "card.error.timeout"
+msgstr "The request timed out."
+
+msgid "cards.user.streaming"
+msgstr "streamin' {game}"
+
+msgid "clip.desc.1"
+msgstr "Clip o' {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} playin' {game}"
+
+#, fuzzy
+msgid "clip.desc.2"
+msgstr "Clipped by {curator} — {views,number} View{views,en_plural}"
+
+msgid "clip.unknown"
+msgstr "Unknown"
+
+msgid "video.desc.1"
+msgstr "Video o' {user}"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Views - {date,datetime}"

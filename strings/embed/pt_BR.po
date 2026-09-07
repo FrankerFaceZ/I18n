@@ -260,3 +260,61 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Sem Informação Disponível"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "A URL fornecida tem um host inválido e não pode ser verificada."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "A URL fornecida não tem uma porta padrão e não será verificada."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "A URL fornecida não usa HTTP e não será verificada."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Um erro de rede ocorreu."
+
+msgid "card.error.timeout"
+msgstr "A solicitação expirou."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Nenhum manipulador suporta este URL."
+
+msgid "cards.user.streaming"
+msgstr "transmitindo {game}"
+
+msgid "clip.desc.1"
+msgstr "Clipe de {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} jogando {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Clipado por {curator} — {views,plural, =1 {# Vizualização} other {# "
+"Visualizações}}"
+
+msgid "clip.unknown"
+msgstr "Desconhecido"
+
+msgid "video.desc.1"
+msgstr "Vídeo de {user}"
+
+msgid "video.desc.2"
+msgstr ""
+"{length,duration} — {views,plural, =1 {# Visualização} other {# "
+"Visualizações}} — {date}"

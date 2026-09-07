@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-11-13 06:15+0000\n"
 "Last-Translator: Łukasz Ordon <lukaszordon21@gmail.com>\n"
-"Language-Team: Polish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/embed/pl/>\n"
+"Language-Team: Polish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/pl/>\n"
 "Language: pl\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,9 +22,9 @@ msgstr "Serwer: {name}"
 
 msgid "embed.twitter.info-line"
 msgstr ""
-"{created,time} • {created,date} • {retweets,plural,one {# Retweet} few{# "
-"Retweety} other {# Retweetów}} • {likes,plural,one {# Like} few {# Like'i} "
-"other {# Like'ów}}"
+"{created,time} • {created,date} • {retweets,plural,one {# Retweet} "
+"few{# Retweety} other {# Retweetów}} • {likes,plural,one {# Like} few {# "
+"Like'i} other {# Like'ów}}"
 
 msgid "embed.twitter.tweeted"
 msgstr "zatweetował: {tweet}"
@@ -203,10 +203,10 @@ msgstr "Dokument HTML bez nazwy"
 #, icu-message-format, lp-defaults:"{\"wrs\":2,\"runs\":37,\"games\":25,\"cats\":37}"
 msgid "embed.src.subtitle"
 msgstr ""
-"{wrs,plural,one {# Rekord} few {# Rekordy} other {# Rekordów}} • {"
-"runs,plural,one {# Run} few {# Runy} other {# Runów}} • {games,plural,one {# "
-"Gra} few {# Gry} other {# Gier}} • {cats,plural,one {# Kategoria} few {# "
-"Kategorie} other {# Kategorii}}"
+"{wrs,plural,one {# Rekord} few {# Rekordy} other {# Rekordów}} • "
+"{runs,plural,one {# Run} few {# Runy} other {# Runów}} • "
+"{games,plural,one {# Gra} few {# Gry} other {# Gier}} • {cats,plural,one "
+"{# Kategoria} few {# Kategorie} other {# Kategorii}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -217,18 +217,18 @@ msgstr "Like'i"
 #, icu-message-format, lp-defaults:"{\"tweets\":1125,\"following\":2,\"followers\":11844,\"joined\":\"2014-07-12T06:00:54.000Z\"}"
 msgid "embed.twitter.profile-line"
 msgstr ""
-"{tweets,plural,one {# Tweet} few{# Tweety} other {# Tweetów}} • {"
-"following,plural,one {# Obserwowany} other {# Obserwowanych}} Obserwowanych •"
-" {followers,plural,one {# Obserwujący} other {# Obserwujących}} • Dołączono "
-"{joined,date}"
+"{tweets,plural,one {# Tweet} few{# Tweety} other {# Tweetów}} • "
+"{following,plural,one {# Obserwowany} other {# Obserwowanych}} "
+"Obserwowanych • {followers,plural,one {# Obserwujący} other {# "
+"Obserwujących}} • Dołączono {joined,date}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"images\":28,\"views\":84647}"
 msgid "embed.imgur.album-stats"
 msgstr ""
-"{images,plural,one{# Obraz}few{# Obrazy}many{# Obrazów}other{# Obrazów}} • "
-"{views,plural,one{# Wyświetlenie}few{# Wyświetlenia}many{# Wyświetleń}other{#"
-" Wyświetleń}}"
+"{images,plural,one{# Obraz}few{# Obrazy}many{# Obrazów}other{# Obrazów}} "
+"• {views,plural,one{# Wyświetlenie}few{# Wyświetlenia}many{# "
+"Wyświetleń}other{# Wyświetleń}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format, lp-defaults:"{\"user.type\":\"link\",\"user.url\":\"https://imgur.com/user/CovertFlamingo\",\"user.content.type\":\"style\",\"user.content.weight\":\"semibold\",\"user.content.color\":\"alt-2\",\"user.content.content\":\"CovertFlamingo\"}"
@@ -272,5 +272,64 @@ msgstr "Tweety"
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# Wyświetlenie} few {# Wyświetlenia} other "
-"{{views,number} Wyświetleń}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# Wyświetlenie} few {# Wyświetlenia} "
+"other {{views,number} Wyświetleń}} • 👍 {likes,number}  • 👎 "
+"{dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Brak dostępnych informacji"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "Podany URL ma nieprawidłowego hosta i nie może być sprawdzony."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr "Podany URL ma niestandardowy port i nie będzie sprawdzony."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "Podany URL nie używa HTTP i nie będzie sprawdzony."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Wystąpił błąd sieci."
+
+msgid "card.error.timeout"
+msgstr "Upłynął limit czasu żądania."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Żaden identyfikator nie wspiera tego URL."
+
+msgid "cards.user.streaming"
+msgstr "streamuje {game}"
+
+msgid "clip.desc.1"
+msgstr "Klip {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} gra w {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Klip użytkownika {curator} — {views,plural, one {# wyświetlenie} few {# "
+"wyświetlenia} other {# wyświetleń}}"
+
+msgid "clip.unknown"
+msgstr "Nieznany"
+
+msgid "video.desc.1"
+msgstr "Film {user}"
+
+msgid "video.desc.2"
+msgstr ""
+"{length,duration} — {views, plural, one {# Wyświetlenie} few {# "
+"Wyświetlenia} other {# Wyświetleń}} — {date,datetime}"

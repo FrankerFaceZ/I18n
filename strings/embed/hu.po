@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-05-09 11:32+0000\n"
 "Last-Translator: Dániel P <pelledani6@gmail.com>\n"
-"Language-Team: Hungarian <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/embed/hu/>\n"
+"Language-Team: Hungarian "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -266,3 +266,30 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Nem áll rendelkezésre információ"
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "közvetít {game}"
+
+msgid "clip.desc.1"
+msgstr "{user} klippje"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} jelenleg játékban: {game}"
+
+msgid "clip.unknown"
+msgstr "Ismeretlen"
+
+msgid "video.desc.1"
+msgstr "{user} videója"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Megtekintés - {date,datetime}"

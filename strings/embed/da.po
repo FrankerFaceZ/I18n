@@ -30,3 +30,25 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"tweet\":\"This is some kind of tweet text.\"}"
 msgid "embed.twitter.tweeted"
 msgstr ""
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "streamer {game}"
+
+msgid "clip.desc.1"
+msgstr "Klip af {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spiller {game}"
+
+msgid "clip.unknown"
+msgstr "Ukendt"
+
+msgid "video.desc.1"
+msgstr "Video af {user}"
+
+#, fuzzy
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} Visninger - {date,datetime}"

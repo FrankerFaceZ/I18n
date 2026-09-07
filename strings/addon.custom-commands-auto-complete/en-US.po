@@ -1,0 +1,273 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:88
+#, icu-message-format
+msgid "addon.custom-commands.sources.add-custom"
+msgstr "Add Custom Source"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:164
+#, icu-message-format
+msgid "addon.custom-commands.sources.advanced"
+msgstr "Advanced Options"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:124
+#, icu-message-format
+msgid "addon.custom-commands.sources.bot-names"
+msgstr "Bot Username(s)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:126
+#, icu-message-format
+msgid "addon.custom-commands.sources.bot-names-hint"
+msgstr "Comma-separated list of bot usernames to detect in chat"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:624
+#, icu-message-format
+msgid "addon.custom-commands.sources.bot-or-channel-required"
+msgstr "At least one bot username OR channel name is required"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:181
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-id-path"
+msgstr "Channel ID Path (Optional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:183
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-id-path-hint"
+msgstr "Path to channel ID in channel API response"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:132
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-names"
+msgstr "OR Channel Name(s)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:134
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-names-hint"
+msgstr "Comma-separated list of channels where these commands are available"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:173
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-url"
+msgstr "Channel API URL (Optional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:175
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-url-hint"
+msgstr "URL to fetch channel ID if needed. Use {channel} placeholder."
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:95
+#, icu-message-format
+msgid "addon.custom-commands.sources.clear-all"
+msgstr "Clear All Custom"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:140
+#, icu-message-format
+msgid "addon.custom-commands.sources.commands-url"
+msgstr "Commands API URL"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:38
+#, icu-message-format
+msgid "addon.custom-commands.sources.custom"
+msgstr "Custom"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:189
+#, icu-message-format
+msgid "addon.custom-commands.sources.description-path"
+msgstr "Description Path (Optional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:191
+#, icu-message-format
+msgid "addon.custom-commands.sources.description-path-hint"
+msgstr "Path to command description in API response"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:15
+#, icu-message-format
+msgid "addon.custom-commands.sources.drag-hint"
+msgstr "Drag to reorder sources. Commands are fetched in order from top to bottom."
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:49
+#, icu-message-format
+msgid "addon.custom-commands.sources.edit"
+msgstr "Edit"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:114
+#, icu-message-format
+msgid "addon.custom-commands.sources.edit-source"
+msgstr "Edit Custom Source"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:119
+#, icu-message-format
+msgid "addon.custom-commands.sources.name"
+msgstr "Name"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:153
+#, icu-message-format
+msgid "addon.custom-commands.sources.name-path"
+msgstr "Name Path"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:114
+#, icu-message-format
+msgid "addon.custom-commands.sources.new-source"
+msgstr "New Custom Source"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:80
+#, icu-message-format
+msgid "addon.custom-commands.sources.no-sources"
+msgstr "No bot sources available"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:155
+#, icu-message-format
+msgid "addon.custom-commands.sources.path-hint"
+msgstr "JSON path to command name (e.g., \"name\" or \"data.command\")"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:197
+#, icu-message-format
+msgid "addon.custom-commands.sources.permission-path"
+msgstr "Permission Path (Optional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:199
+#, icu-message-format
+msgid "addon.custom-commands.sources.permission-path-hint"
+msgstr "Path to permission level in API response"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:148
+#, icu-message-format
+msgid "addon.custom-commands.sources.prefix"
+msgstr "Command Prefix"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:213
+#, icu-message-format
+msgid "addon.custom-commands.sources.prefix-in-name"
+msgstr "Prefix included in name"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:216
+#, icu-message-format
+msgid "addon.custom-commands.sources.prefix-in-name-hint"
+msgstr ""
+"Check if command names include the prefix (e.g., \"!ping\" instead of "
+"\"ping\")"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:37
+#, icu-message-format
+msgid "addon.custom-commands.sources.preset"
+msgstr "Built-in"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:58
+#, icu-message-format
+msgid "addon.custom-commands.sources.remove"
+msgstr "Remove"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:104
+#, icu-message-format
+msgid "addon.custom-commands.sources.reset-hint"
+msgstr "Reset to default (all built-in presets enabled, remove all custom sources)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:142
+#, icu-message-format
+msgid "addon.custom-commands.sources.url-hint"
+msgstr "Use {channel} for channel login, {channelId} for channel ID"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:621
+#, icu-message-format
+msgid "addon.custom-commands.sources.url-required"
+msgstr "Commands URL is required"
+
+#: /src/custom-commands-auto-complete/index.js:100
+#: /src/custom-commands-auto-complete/index.js:25
+#: /src/custom-commands-auto-complete/index.js:43
+#: /src/custom-commands-auto-complete/index.js:61
+#: /src/custom-commands-auto-complete/index.js:77
+#: /src/custom-commands-auto-complete/index.js:88
+#, icu-message-format
+msgid "setting.add_ons.custom_commands_auto_complete"
+msgstr "Custom Commands Auto Complete"
+
+#: /src/custom-commands-auto-complete/index.js:100
+#: /src/custom-commands-auto-complete/index.js:43
+#: /src/custom-commands-auto-complete/index.js:61
+#: /src/custom-commands-auto-complete/index.js:77
+#: /src/custom-commands-auto-complete/index.js:88
+#, icu-message-format
+msgid "setting.add_ons.custom_commands_auto_complete.general"
+msgstr "General"
+
+#: /src/custom-commands-auto-complete/index.js:25
+#, icu-message-format
+msgid "setting.add_ons.custom_commands_auto_complete.source_ordering"
+msgstr "Source Ordering"
+
+#: /src/custom-commands-auto-complete/index.js:88
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.cache-duration"
+msgstr "Cache Duration (seconds)"
+
+#: /src/custom-commands-auto-complete/index.js:88
+#, icu-message-format, md-text
+msgid "setting.entry.addon.custom-commands.cache-duration.description"
+msgstr "How long to cache commands. Set to 0 to disable."
+
+#: /src/custom-commands-auto-complete/index.js:61
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode"
+msgstr "Completion Mode"
+
+#: /src/custom-commands-auto-complete/index.js:61
+#, icu-message-format, md-text
+msgid "setting.entry.addon.custom-commands.completion-mode.description"
+msgstr "How commands appear in auto-completion."
+
+#: /src/custom-commands-auto-complete/index.js:72
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode.values.both"
+msgstr "Both (prefix and /)"
+
+#: /src/custom-commands-auto-complete/index.js:70
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode.values.prefix"
+msgstr "Prefix (!ping or source-defined)"
+
+#: /src/custom-commands-auto-complete/index.js:71
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode.values.slash"
+msgstr "Slash (/ping)"
+
+#: /src/custom-commands-auto-complete/index.js:43
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.enabled"
+msgstr "Enable Custom Commands Auto Complete"
+
+#: /src/custom-commands-auto-complete/index.js:43
+#, icu-message-format, md-text
+msgid "setting.entry.addon.custom-commands.enabled.description"
+msgstr "Enable or disable the auto-completion of custom bot commands."
+
+#: /src/custom-commands-auto-complete/index.js:77
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.lazy-loading"
+msgstr "Lazy Loading"
+
+#: /src/custom-commands-auto-complete/index.js:77
+#, icu-message-format, md-text
+msgid "setting.entry.addon.custom-commands.lazy-loading.description"
+msgstr "Only fetch commands when you start typing. Reduces API calls."
+
+#: /src/custom-commands-auto-complete/index.js:100
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.show-all-commands"
+msgstr "Show All Commands"
+
+#: /src/custom-commands-auto-complete/index.js:100
+#, icu-message-format, md-text
+msgid "setting.entry.addon.custom-commands.show-all-commands.description"
+msgstr "Show all commands regardless of permission level."
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:74
+#, icu-message-format
+msgid "setting.off"
+msgstr "Off"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:74
+#, icu-message-format
+msgid "setting.on"
+msgstr "On"

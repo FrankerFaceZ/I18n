@@ -1,0 +1,99 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/inline-tab-completion/index.jsx:288
+#, icu-message-format, lp-defaults:"{\"pos\":5,\"total\":40}"
+msgid "addon.inlinetab.item"
+msgstr "{pos,number} of {total,number}"
+
+#: /src/inline-tab-completion/index.jsx:264
+#, icu-message-format
+msgid "addon.inlinetab.type.command"
+msgstr "Command"
+
+#: /src/inline-tab-completion/index.jsx:249
+#, icu-message-format
+msgid "addon.inlinetab.type.command-source"
+msgstr "Command - {source}"
+
+#: /src/inline-tab-completion/index.jsx:264
+#, icu-message-format
+msgid "addon.inlinetab.type.emoji"
+msgstr "Emoji"
+
+#: /src/inline-tab-completion/index.jsx:264
+#, icu-message-format
+msgid "addon.inlinetab.type.emote"
+msgstr "Emote"
+
+#: /src/inline-tab-completion/index.jsx:264
+#, icu-message-format
+msgid "addon.inlinetab.type.mention"
+msgstr "Mention"
+
+#: /src/inline-tab-completion/index.jsx:30
+#: /src/inline-tab-completion/index.jsx:45
+#: /src/inline-tab-completion/index.jsx:54
+#: /src/inline-tab-completion/index.jsx:64
+#: /src/inline-tab-completion/index.jsx:74
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab"
+msgstr "Inline Tab"
+
+#: /src/inline-tab-completion/index.jsx:30
+#: /src/inline-tab-completion/index.jsx:45
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.appearance"
+msgstr "Appearance"
+
+#: /src/inline-tab-completion/index.jsx:54
+#: /src/inline-tab-completion/index.jsx:64
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content"
+msgstr "Content"
+
+#: /src/inline-tab-completion/index.jsx:54
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content.description"
+msgstr ""
+"Please note that the built-in Twitch tab-completion will be used for "
+"content that is not included in inline tab-completion."
+
+#: /src/inline-tab-completion/index.jsx:74
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.general"
+msgstr "General"
+
+#: /src/inline-tab-completion/index.jsx:74
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.mention_prefix"
+msgstr "Always prefix mentions with `@` signs."
+
+#: /src/inline-tab-completion/index.jsx:54
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_commands"
+msgstr "Do not include commands in inline tab-completion."
+
+#: /src/inline-tab-completion/index.jsx:64
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_mentions"
+msgstr "Do not include users in inline tab-completion."
+
+#: /src/inline-tab-completion/index.jsx:45
+#, icu-message-format
+msgid "setting.entry.addon.inlinetab.tip-count"
+msgstr "Display multiple entries in the tab-completion tooltip."
+
+#: /src/inline-tab-completion/index.jsx:30
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.tips"
+msgstr "Display a tooltip when using tab-completion."

@@ -1,0 +1,126 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/no-bad-emotes/index.js:100
+#: /src/no-bad-emotes/index.js:110
+#: /src/no-bad-emotes/index.js:167
+#: /src/no-bad-emotes/index.js:177
+#: /src/no-bad-emotes/index.js:35
+#: /src/no-bad-emotes/index.js:45
+#: /src/no-bad-emotes/index.js:70
+#: /src/no-bad-emotes/index.js:80
+#: /src/no-bad-emotes/index.js:90
+#, icu-message-format
+msgid "setting.add_ons.no_bad_emotes"
+msgstr "No Bad Emotes"
+
+#: /src/no-bad-emotes/index.js:45
+#, icu-message-format
+msgid "setting.add_ons.no_bad_emotes.advanced"
+msgstr "Advanced"
+
+#: /src/no-bad-emotes/index.js:100
+#: /src/no-bad-emotes/index.js:90
+#, icu-message-format
+msgid "setting.add_ons.no_bad_emotes.basic"
+msgstr "Basic"
+
+#: /src/no-bad-emotes/index.js:167
+#: /src/no-bad-emotes/index.js:177
+#, icu-message-format
+msgid "setting.add_ons.no_bad_emotes.common_words"
+msgstr "Common Words"
+
+#: /src/no-bad-emotes/index.js:110
+#, icu-message-format
+msgid "setting.add_ons.no_bad_emotes.custom_words"
+msgstr "Custom Words"
+
+#: /src/no-bad-emotes/index.js:110
+#, icu-message-format, md-text
+msgid "setting.add_ons.no_bad_emotes.custom_words.description"
+msgstr ""
+"Flexible filters for removing emotes based on their name. Please see [Chat "
+"> Filtering > Syntax Help](~) for details on how to use this."
+
+#: /src/no-bad-emotes/index.js:35
+#: /src/no-bad-emotes/index.js:70
+#: /src/no-bad-emotes/index.js:80
+#, icu-message-format
+msgid "setting.add_ons.no_bad_emotes.general"
+msgstr "General"
+
+#: /src/no-bad-emotes/index.js:100
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.ban-short"
+msgstr "Filter out emotes with names shorter than 3 characters."
+
+#: /src/no-bad-emotes/index.js:177
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.capitalization-mode"
+msgstr "Capitalization Mode"
+
+#: /src/no-bad-emotes/index.js:177
+#, icu-message-format, md-text
+msgid "setting.entry.addon.nobademotes.capitalization-mode.description"
+msgstr ""
+"By default, we only filter common words if the emote name is all "
+"lower-case. You can optionally include emotes with the first letter "
+"capitalized."
+
+#: /src/no-bad-emotes/index.js:186
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.capitalization-mode.values.0"
+msgstr "Lowercase Only"
+
+#: /src/no-bad-emotes/index.js:187
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.capitalization-mode.values.1"
+msgstr "Lowercase or Initial Capital"
+
+#: /src/no-bad-emotes/index.js:80
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.no-filter-global"
+msgstr "Do not filter emotes out of global emote sets."
+
+#: /src/no-bad-emotes/index.js:70
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.no-filter-personal"
+msgstr "Do not filter emotes out of personal emote sets."
+
+#: /src/no-bad-emotes/index.js:45
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.outgoing-escape"
+msgstr "Escape Character"
+
+#: /src/no-bad-emotes/index.js:45
+#, icu-message-format, md-text
+msgid "setting.entry.addon.nobademotes.outgoing-escape.description"
+msgstr ""
+"The character(s) to add to an emote's name when escaping filtered emotes in "
+"outgoing chat messages. Use `'{'NAME'}'` where the emote's name should go. "
+"Standard escape sequences are supported."
+
+#: /src/no-bad-emotes/index.js:35
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.process-outgoing"
+msgstr "Escape filtered emotes in outgoing chat messages."
+
+#: /src/no-bad-emotes/index.js:35
+#, icu-message-format, md-text
+msgid "setting.entry.addon.nobademotes.process-outgoing.description"
+msgstr ""
+"The filtering this add-on performs is client-only, so normally your "
+"filtering only affects what you see. If you enable this, any messages you "
+"send will be modified based on your filtering rules to prevent you from "
+"inadvertently using an emote that you have filtered out."
+
+#: /src/no-bad-emotes/index.js:90
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.use-all-lower"
+msgstr "Filter out emotes with names that are all lowercase letters."
+
+#: /src/no-bad-emotes/index.js:167
+#, icu-message-format
+msgid "setting.entry.addon.nobademotes.use-common"
+msgstr "Filter out emotes with names matching a list of common English words."

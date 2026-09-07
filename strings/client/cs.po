@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-07-16 14:32+0000\n"
 "Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
-"Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
-"client/cs/>\n"
+"Language-Team: Czech "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,8 +19,8 @@ msgstr "Žádné výsledky."
 #, fuzzy
 msgid "badges.founder.months"
 msgstr ""
-"{title} (Předplací {count,number} měsíc{count,plural,one {} few {e} other "
-"{ů}})"
+"{title} (Předplací {count,number} měsíc{count,plural,one {} few {e} "
+"other {ů}})"
 
 #, fuzzy
 msgid "badges.subscriber.months"
@@ -72,7 +72,8 @@ msgstr "Změnit jméno a barvu"
 
 msgid "chat.actions.edit_overrides.desc"
 msgstr ""
-"Umožňuje vám nastavit lokální přepsání uživatelského jména a barvy v chatu."
+"Umožňuje vám nastavit lokální přepsání uživatelského jména a "
+"barvy v chatu."
 
 msgid "chat.actions.msg_delete"
 msgstr "Smazat zprávu"
@@ -85,8 +86,8 @@ msgstr "Odpověď na zprávu"
 
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Toto vám umožňuje okamžitě odpovědět na zprávu jiného uživatele. Funkční "
-"pouze, pokud styl odpovědí chatu je „FrankerFaceZ“."
+"Toto vám umožňuje okamžitě odpovědět na zprávu jiného uživatele. "
+"Funkční pouze, pokud styl odpovědí chatu je „FrankerFaceZ“."
 
 msgid "chat.actions.select-reason"
 msgstr "Prosím, vyberte důvod, z níže uvedených možností:"
@@ -97,8 +98,8 @@ msgstr "Dočasně zablokovat uživatele"
 #, fuzzy
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"Dočasně zablokovat {user.login} na {duration,number} sekund{duration,plural,"
-"\n"
+"Dočasně zablokovat {user.login} na {duration,number} "
+"sekund{duration,plural,\n"
 "one {u}\n"
 "few {y}\n"
 "other {}\n"
@@ -111,8 +112,8 @@ msgstr "{options.duration,number} sekund{options.duration,en_plural}"
 #, fuzzy
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"Dočasně zablokovat {user.login} na {duration,number} sekund{duration,plural,"
-"\n"
+"Dočasně zablokovat {user.login} na {duration,number} "
+"sekund{duration,plural,\n"
 "one {u}\n"
 "few {y}\n"
 "other {}\n"
@@ -245,8 +246,9 @@ msgstr "Pozastavit chat"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ zcela potlačuje chování pozastavení chatu. Prosíme, použijte "
-"nastavení posouvání FFZ v Kontrolním Centru FFZ v části Chat > Chování."
+"FrankerFaceZ zcela potlačuje chování pozastavení chatu. Prosíme, "
+"použijte nastavení posouvání FFZ v Kontrolním Centru FFZ v části "
+"Chat > Chování."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "Anonymní dárce"
@@ -254,8 +256,8 @@ msgstr "Anonymní dárce"
 msgid "chat.sub.cumulative-months"
 msgstr ""
 "Předplatitelem je {cumulative,number} měsíc{cumulative, plural, few {e} "
-"other {ů}}, momentálně jede sérii {streak,number} měsíc{streak, plural, few "
-"{e} other {ů}}!"
+"other {ů}}, momentálně jede sérii {streak,number} měsíc{streak, "
+"plural, few {e} other {ů}}!"
 
 msgid "chat.sub.gift-first"
 msgstr "Tohle je jeho první darované předplatné na tomhle kanále!"
@@ -272,7 +274,8 @@ msgstr "{user} si předplatil {plan}. "
 
 msgid "chat.sub.months"
 msgstr ""
-"Předplatitelem je {count,number} měsíc{count, plural, few {e} other {ů}}!"
+"Předplatitelem je {count,number} měsíc{count, plural, few {e} other "
+"{ů}}!"
 
 msgid "chat.sub.mystery"
 msgstr "{user} daroval {plan} předplatné uživateli {recipient}! "
@@ -283,21 +286,8 @@ msgstr "{tier} úrovně"
 msgid "chat.sub.twitch-prime"
 msgstr "s Prime Gaming"
 
-msgid "clip.desc.1"
-msgstr "Klip z kanálu {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} dělá Creative"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} hraje {game}"
-
-#, fuzzy
-msgid "clip.desc.2"
-msgstr "Klipnuté uživatelem {curator} — {views,number} zhlédnutí"
-
-msgid "clip.unknown"
-msgstr "Neznámé"
 
 msgid "directory.block"
 msgstr "Zablokovat"
@@ -388,8 +378,8 @@ msgstr "Nic zde není.."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"Nemáš žádné oblíbené emotikony. Pro přidání je vyber v menu pomocí {hotkey} "
-"a kliknutím na ně."
+"Nemáš žádné oblíbené emotikony. Pro přidání je vyber v menu "
+"pomocí {hotkey} a kliknutím na ně."
 
 msgid "emote-menu.empty-search"
 msgstr "Nejsou zde žádné emotikony, které se shodují s hledaným výrazem."
@@ -650,8 +640,8 @@ msgstr "Poslední živé vysílání před {count,number}"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Vypadá to, že váš systémový čas je mimo o zhruba {count,number} sekund, díky "
-"čemuž může být tohle nepřesné."
+"Vypadá to, že váš systémový čas je mimo o zhruba {count,number} "
+"sekund, díky čemuž může být tohle nepřesné."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Latence streamu"
@@ -703,8 +693,8 @@ msgstr "Resetovat přehrávač (dvojí-kliknutí)"
 
 msgid "popup.error"
 msgstr ""
-"Zkusili jsme otevřít vyskakovací okno, ale nemohli jsme. Ujistěte se, že "
-"máte povolená vyskakovací okna pro Twitch."
+"Zkusili jsme otevřít vyskakovací okno, ale nemohli jsme. Ujistěte se, "
+"že máte povolená vyskakovací okna pro Twitch."
 
 msgid "site.menu_button"
 msgstr "Ovládací Centrum FrankerFaceZ"
@@ -720,8 +710,8 @@ msgstr "dev"
 
 msgid "site.menu_button.error"
 msgstr ""
-"Při načítání Kontrolního Centra FFZ nastala nějaká chyba. Prosím, načtěte "
-"stránku znovu a zkuste to znovu."
+"Při načítání Kontrolního Centra FFZ nastala nějaká chyba. Prosím, "
+"načtěte stránku znovu a zkuste to znovu."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -731,8 +721,8 @@ msgstr "Aktuálně u vás běží vývojářská verze FrankerFaceZ."
 
 msgid "site.menu_button.new-desc"
 msgstr ""
-"{count,plural,one {Je zde nové nastavení} few {Jsou zde # nová nastavení} "
-"other {Je zde # nových nastavení}}."
+"{count,plural,one {Je zde nové nastavení} few {Jsou zde # nová "
+"nastavení} other {Je zde # nových nastavení}}."
 
 msgid "site.menu_button.profiles"
 msgstr "Profily"
@@ -810,13 +800,6 @@ msgstr "Zobrazit více odpovědí..."
 msgid "video-chat.time"
 msgstr "Před {time,humantime}"
 
-msgid "video.desc.1"
-msgstr "Video z kanálu {user}"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Zhlédnutí - {date,datetime}"
-
 msgid "video.published-on"
 msgstr "Publikováno: {date,date}"
 
@@ -836,11 +819,6 @@ msgstr "Poslat zprávu v režimu Pouze pro předplatitele"
 #, icu-message-format, lp-defaults:"{\"err\":\"TypeError: Something bad happened in JavaScript land.\"}"
 msgid "tooltip.render-error"
 msgstr ""
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "Informace nejsou dostupné"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -869,12 +847,6 @@ msgstr ""
 #, icu-message-format
 msgid "card.error.timeout"
 msgstr ""
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "vysílá {game}"
 
 #, icu-message-format, lp-defaults:"{\"user\":\"GrandPOObear\",\"months\":3,\"plan\":\"Tier 1\",\"recipient\":\"360Chrism\"}"
 msgid "chat.sub.gift-months"
@@ -1221,8 +1193,8 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"count\":10,\"channel\":\"pyromancer\"}"
 msgid "chat.sub.gift"
 msgstr ""
-"{user} daruje komunitě kanálu {channel} {count, plural, one {# Předplatné "
-"úrovně {tier}} other {# Předplatných úrovně {tier}}}! "
+"{user} daruje komunitě kanálu {channel} {count, plural, one {# "
+"Předplatné úrovně {tier}} other {# Předplatných úrovně {tier}}}! "
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"

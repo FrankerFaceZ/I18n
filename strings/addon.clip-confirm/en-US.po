@@ -1,0 +1,78 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/clip-confirm/views/confirmation.vue:9
+#, icu-message-format
+msgid "addon.clip-confirm.clip"
+msgstr "clip"
+
+#: /src/clip-confirm/views/confirmation.vue:9
+#, icu-message-format
+msgid "addon.clip-confirm.create-new"
+msgstr "Create a new"
+
+#: /src/clip-confirm/views/confirmation.vue:5
+#, icu-message-format
+msgid "addon.clip-confirm.modal-title"
+msgstr "Confirm Clip Creation"
+
+#: /src/clip-confirm/index.js:69
+#: /src/clip-confirm/index.js:86
+#, icu-message-format
+msgid "setting.add_ons.clip_confirm"
+msgstr "Clip Confirm"
+
+#: /src/clip-confirm/index.js:69
+#: /src/clip-confirm/index.js:86
+#, icu-message-format
+msgid "setting.add_ons.clip_confirm.behavior"
+msgstr "Behavior"
+
+#: /src/clip-confirm/index.js:69
+#, icu-message-format
+msgid "setting.entry.addon.clip-confirm.skip-hotkey"
+msgstr "\"Skip Confirmation\" Hotkey"
+
+#: /src/clip-confirm/index.js:69
+#, icu-message-format, md-text
+msgid "setting.entry.addon.clip-confirm.skip-hotkey.description"
+msgstr ""
+"Hotkey for skipping the clip confirmation when attempting to clip.\n"
+"\n"
+"If you press/hold whatever combination of hotkeys you select here when you "
+"click the clip button (or use Twitch's built-in \"Alt + X\" shortcut) you "
+"will bypass the confirmation window entirely (so basically, the default "
+"behavior when this add-on is not enabled). This makes it easier to make a "
+"clip when you know for a fact that you want to make a clip and don't "
+"require a confirmation.\n"
+"\n"
+"If you do not select any hotkeys, this feature will be disabled."
+
+#: /src/clip-confirm/index.js:79
+#, icu-message-format
+msgid "setting.entry.addon.clip-confirm.skip-hotkey.values.alt"
+msgstr "Alt / Option"
+
+#: /src/clip-confirm/index.js:78
+#, icu-message-format
+msgid "setting.entry.addon.clip-confirm.skip-hotkey.values.ctrl"
+msgstr "Ctrl / ⌘"
+
+#: /src/clip-confirm/index.js:80
+#, icu-message-format
+msgid "setting.entry.addon.clip-confirm.skip-hotkey.values.shift"
+msgstr "Shift"
+
+#: /src/clip-confirm/index.js:86
+#, icu-message-format
+msgid "setting.entry.addon.clip-confirm.skip-on-shortcut"
+msgstr "Skip Confirmation When Using Shortcut"
+
+#: /src/clip-confirm/index.js:86
+#, icu-message-format, md-text
+msgid "setting.entry.addon.clip-confirm.skip-on-shortcut.description"
+msgstr ""
+"By default, Twitch allows clipping using the \"Alt + X\" shortcut hotkey. "
+"Enabing this setting will automatically bypass the confirmation window when "
+"using this shortcut to make clips without needing to use the \"Skip "
+"Confirmation\" hotkey you have set above."

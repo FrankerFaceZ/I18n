@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-01-28 20:31+0000\n"
 "Last-Translator: CheekyChoccy <choccylatty@gmail.com>\n"
-"Language-Team: French <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/fr/>\n"
+"Language-Team: French "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,17 +40,11 @@ msgstr "Aucune donnée n'a été retournée."
 msgid "card.error"
 msgstr "Une erreur est survenue."
 
-msgid "card.error.timeout"
-msgstr "Délai d'attente de la demande dépassé."
-
 msgid "card.loading"
 msgstr "Chargement..."
 
 msgid "cards.user.stats"
 msgstr "Vues: {views,number} • Followers: {followers,number}"
-
-msgid "cards.user.streaming"
-msgstr "streame {game}"
 
 msgid "channel.links.clips"
 msgstr "Clips"
@@ -98,8 +92,9 @@ msgstr "Répondre au message"
 
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Vous permet de répondre directement à un message d'un·e autre utilisateur·"
-"rice. Ne fonctionne que si le Style de Réponse est défini à \"FrankerFaceZ\"."
+"Vous permet de répondre directement à un message d'un·e autre "
+"utilisateur·rice. Ne fonctionne que si le Style de Réponse est défini à "
+"\"FrankerFaceZ\"."
 
 msgid "chat.actions.reply.thread"
 msgstr "Ouvrir fil"
@@ -298,16 +293,15 @@ msgstr ""
 #, fuzzy
 msgid "chat.sub.gift"
 msgstr ""
-"{user} offre {count,number} abonnement{count,plural,one{}other{s}} de niveau "
-"{tier} à la communauté de {channel}! "
+"{user} offre {count,number} abonnement{count,plural,one{}other{s}} de "
+"niveau {tier} à la communauté de {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "C'est son premier abonnement offert!"
 
 #, fuzzy
 msgid "chat.sub.gift-months"
-msgstr ""
-"{user} a offert {months,number} mois d'abonnement de {plan} à {recipient}! "
+msgstr "{user} a offert {months,number} mois d'abonnement de {plan} à {recipient}! "
 
 msgid "chat.sub.gift-plan"
 msgstr "niveau {tier}"
@@ -330,28 +324,15 @@ msgstr "de niveau {tier}"
 msgid "chat.sub.twitch-prime"
 msgstr "avec Prime Gaming"
 
-msgid "clip.desc.1"
-msgstr "Clip de {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} en train de streamer Creative"
 
-msgid "clip.desc.1.playing"
-msgstr "{user} joue à {game}"
-
-#, fuzzy
-msgid "clip.desc.2"
-msgstr ""
-"Clip créé par {curator} — {views,number} Vue{views,plural,one{}other{s}}"
-
-msgid "clip.unknown"
-msgstr "Inconnu"
-
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Vous avez \"FrankerFaceZ Emotes\" activé dans les paramètres de BetterTTV, "
-"mais FrankerFaceZ est également installé. Veuillez désactiver \"FrankerFaceZ "
-"Emotes\" dans les paramètres de BetterTTV. Ce n'est pas nécessaire."
+"Vous avez \"FrankerFaceZ Emotes\" activé dans les paramètres de "
+"BetterTTV, mais FrankerFaceZ est également installé. Veuillez désactiver "
+"\"FrankerFaceZ Emotes\" dans les paramètres de BetterTTV. Ce n'est pas "
+"nécessaire."
 
 msgid "directory.block"
 msgstr "Bloquer"
@@ -430,8 +411,8 @@ msgstr "Chaîne"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Comme solution temporaire, essayez de désactiver le Menu d'Émoticônes FFZ "
-"dans le Centre de Contrôle FFZ."
+"Comme solution temporaire, essayez de désactiver le Menu d'Émoticônes "
+"FFZ dans le Centre de Contrôle FFZ."
 
 msgid "emote-menu.emoji"
 msgstr "Émojis"
@@ -455,8 +436,8 @@ msgstr "Il n'y a rien ici."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"Vous n'avez pas d'émoticônes favorites. Pour ajouter une émoticône dans vos "
-"favoris, trouvez-la et {hotkey}-cliquez la."
+"Vous n'avez pas d'émoticônes favorites. Pour ajouter une émoticône dans "
+"vos favoris, trouvez-la et {hotkey}-cliquez la."
 
 msgid "emote-menu.empty-search"
 msgstr "Il n'y a pas d'émoticône correspondante."
@@ -539,9 +520,9 @@ msgid "emote-menu.toggle-hide.info"
 msgstr ""
 "Le Contrôle de la Visibilité des Émoticônes vous permet de cacher des "
 "émoticônes du menu, soit individuellement ou par ensemble. Lorsque le "
-"Contrôle de la Visibilité des Émoticônes est actif, cliquez une émoticône "
-"pour la cacher ou l'afficher. Notez que cela ne cachera pas les émoticônes "
-"dans le chat, mais seulement and ce menu."
+"Contrôle de la Visibilité des Émoticônes est actif, cliquez une "
+"émoticône pour la cacher ou l'afficher. Notez que cela ne cachera pas les "
+"émoticônes dans le chat, mais seulement and ce menu."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Contrôle de la Visibilité des Émoticônes"
@@ -620,13 +601,14 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Vous souhaitez nous aider à améliorer la traduction ? Vous pouvez [rejoindre "
-"notre Discord](https://discord.gg/UrAkGhT) et rejoindre le salon de "
-"traduction.\n"
+"Vous souhaitez nous aider à améliorer la traduction ? Vous pouvez "
+"[rejoindre notre Discord](https://discord.gg/UrAkGhT) et rejoindre le salon "
+"de traduction.\n"
 "\n"
-"Cet outil permet aux traducteur·rice·s de tester leurs chaînes de caractères "
-"en temps réel dans l'application. De cette manière, vous pouvez être certain "
-"que tout est en ordre avant de soumettre vos traductions."
+"Cet outil permet aux traducteur·rice·s de tester leurs chaînes de "
+"caractères en temps réel dans l'application. De cette manière, vous "
+"pouvez être certain que tout est en ordre avant de soumettre vos "
+"traductions."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} complet )"
@@ -747,8 +729,8 @@ msgstr "Ajouter aux hébergements automatiques"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr ""
-"Héberger automatiquement des chaînes de votre liste d’hébergement lorsque "
-"vous n’êtes pas en ligne."
+"Héberger automatiquement des chaînes de votre liste d’hébergement "
+"lorsque vous n’êtes pas en ligne."
 
 msgid "metadata.host.setting.auto-hosting.title"
 msgstr "Hébergement automatique"
@@ -828,7 +810,8 @@ msgstr "Page précédente"
 
 msgid "player.comp_button.disabled"
 msgstr ""
-"Le compresseur audio ne peut pas être activé lors du visionnement de clips."
+"Le compresseur audio ne peut pas être activé lors du visionnement de "
+"clips."
 
 msgid "player.comp_button.firefox"
 msgstr ""
@@ -866,8 +849,8 @@ msgstr "Ré-initialiser tous les lecteurs (Double-clic)"
 
 msgid "popup.error"
 msgstr ""
-"Nous avons essayés d'ouvrir une fenêtre pop-up mais cela a échoué. Vérifiez "
-"que vous ayez autorisé les pop-ups de Twitch."
+"Nous avons essayés d'ouvrir une fenêtre pop-up mais cela a échoué. "
+"Vérifiez que vous ayez autorisé les pop-ups de Twitch."
 
 msgid "site.menu_button"
 msgstr "Centre de Contrôle FrankerFaceZ"
@@ -882,8 +865,8 @@ msgstr ""
 
 msgid "site.menu_button.changed"
 msgstr ""
-"Le fournisseur de règlage FrankerFaceZ a été changé. Veuillez rafraîchir cet "
-"onglet pour éviter des comportements bizarres."
+"Le fournisseur de règlage FrankerFaceZ a été changé. Veuillez "
+"rafraîchir cet onglet pour éviter des comportements bizarres."
 
 msgid "site.menu_button.dev"
 msgstr "dev"
@@ -906,8 +889,8 @@ msgstr ""
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Les paramètres sont désactivés dans cet onglet à cause du \"{param}\" dans "
-"l'URL."
+"Les paramètres sont désactivés dans cet onglet à cause du \"{param}\" "
+"dans l'URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Profiles"
@@ -1005,7 +988,8 @@ msgstr "Destination: {url}"
 #, fuzzy
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Attention: Cette URL est sur la liste de sécurité de Google pour: {reasons}"
+"Attention: Cette URL est sur la liste de sécurité de Google pour: "
+"{reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "Liens visités"
@@ -1030,25 +1014,8 @@ msgstr "Montrer plus de réponses..."
 msgid "video-chat.time"
 msgstr "Il y a {time,humantime}"
 
-msgid "video.desc.1"
-msgstr "Vidéo de {user}"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Vues - {date}"
-
 msgid "video.published-on"
 msgstr "Publié le: {date,date}"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "Aucune information disponible"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.unhandled"
-msgstr "Aucun gestionnaire ne prend en charge cette URL."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1058,16 +1025,6 @@ msgstr ""
 #, icu-message-format
 msgid "i18n.ui.invalid"
 msgstr ""
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-host"
-msgstr "L'URL fournie a un hôte non valide et ne peut pas être vérifiée."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.network"
-msgstr "Une erreur réseau s'est produite."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format

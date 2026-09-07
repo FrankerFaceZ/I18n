@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Pirate English <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/en_ARRR/>\n"
+"Language-Team: Pirate English "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/en_ARRR/>\n"
 "Language: en-ARRR\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,17 +40,11 @@ msgstr "No data was returned."
 msgid "card.error"
 msgstr "An error occurred."
 
-msgid "card.error.timeout"
-msgstr "The request timed out."
-
 msgid "card.loading"
 msgstr "Loadin'..."
 
 msgid "cards.user.stats"
 msgstr "Views: {views,number} • Followers: {followers,number}"
-
-msgid "cards.user.streaming"
-msgstr "streamin' {game}"
 
 msgid "channel.links.clips"
 msgstr "Clips"
@@ -110,8 +104,7 @@ msgstr "Timeout User"
 
 #, fuzzy
 msgid "chat.actions.timeout-reason"
-msgstr ""
-"Timeout {user.login} fer {duration,number} second{duration,en_plural} fer:"
+msgstr "Timeout {user.login} fer {duration,number} second{duration,en_plural} fer:"
 
 #, fuzzy
 msgid "chat.actions.timeout.desc"
@@ -282,8 +275,9 @@ msgstr "Pause Chat"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ overrides the behavior o' Pause Chat entirely. Please use FFZ's "
-"Scrollin' settin's wit'in the FFZ Control Center under Chat > Behavior."
+"FrankerFaceZ overrides the behavior o' Pause Chat entirely. Please use "
+"FFZ's Scrollin' settin's wit'in the FFZ Control Center under Chat > "
+"Behavior."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "An anonymous gifter"
@@ -330,21 +324,8 @@ msgstr "at Tier {tier}"
 msgid "chat.sub.twitch-prime"
 msgstr "wit' Prime Gamin'"
 
-msgid "clip.desc.1"
-msgstr "Clip o' {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} bein' Creative"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} playin' {game}"
-
-#, fuzzy
-msgid "clip.desc.2"
-msgstr "Clipped by {curator} — {views,number} View{views,en_plural}"
-
-msgid "clip.unknown"
-msgstr "Unknown"
 
 msgid "compat.bttv.emotes-on"
 msgstr ""
@@ -438,8 +419,8 @@ msgstr "Emoji"
 #, fuzzy
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Cheer an additional {bits_remaining,number} bit{bits_remaining,en_plural} t' "
-"unlock this 'ere emote."
+"Cheer an additional {bits_remaining,number} bit{bits_remaining,en_plural} "
+"t' unlock this 'ere emote."
 
 msgid "emote-menu.emote-follower"
 msgstr "Follow {user} t' unlock this 'ere emote in their channel."
@@ -538,7 +519,8 @@ msgstr ""
 "Emote Visibility Control allows ye t' 'ide emotes from yer emote menu, "
 "either individually or by set. With Emote Visibility Control enabled, just "
 "click an emote t' 'ide or un'ide it. Please note that ye will still see the "
-"emotes in chat if someone uses them, but they won't appear in yer emote menu."
+"emotes in chat if someone uses them, but they won't appear in yer emote "
+"menu."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Emote Visibility Control"
@@ -884,8 +866,8 @@ msgstr "Ye 'ave loaded add-on data from a local development server."
 
 msgid "site.menu_button.changed"
 msgstr ""
-"The FrankerFaceZ settin's provider 'as changed. Please refresh this 'ere tab "
-"to' avoid strange behavior."
+"The FrankerFaceZ settin's provider 'as changed. Please refresh this 'ere "
+"tab to' avoid strange behavior."
 
 msgid "site.menu_button.dev"
 msgstr "dev"
@@ -902,13 +884,12 @@ msgid "site.menu_button.main-dev-desc"
 msgstr "Ye be runnin' a developer build o' FrankerFaceZ."
 
 msgid "site.menu_button.new-desc"
-msgstr ""
-"There {count,plural,one {be one new settin'} other {be # new settin's}}."
+msgstr "There {count,plural,one {be one new settin'} other {be # new settin's}}."
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Settin's be disabled in this 'ere tab due t' the inclusion o' \"{param}\" in "
-"the URL."
+"Settin's be disabled in this 'ere tab due t' the inclusion o' \"{param}\" "
+"in the URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Profiles"
@@ -917,13 +898,13 @@ msgid "site.menu_button.quota-exceeded"
 msgstr ""
 "Yer local storage space fer this 'ere website be full, an' settings cannot "
 "be saved. Please backup yer settings an' switch t' a 'igher capacity "
-"provider in [Data Management > Storage >> Provider](~data_management.storage."
-"tabs.provider)."
+"provider in [Data Management > Storage >> "
+"Provider](~data_management.storage.tabs.provider)."
 
 msgid "site.menu_button.strings"
 msgstr ""
-"There {added,plural,one {be # new string} other {be # new strings}} an' {"
-"changed,plural,one {# changed string} other {# changed strings}}."
+"There {added,plural,one {be # new string} other {be # new strings}} an' "
+"{changed,plural,one {# changed string} other {# changed strings}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "There be an update available. Please refresh yer page."
@@ -1036,13 +1017,6 @@ msgstr "Show more replies..."
 
 msgid "video-chat.time"
 msgstr "{time,humantime} ago"
-
-msgid "video.desc.1"
-msgstr "Video o' {user}"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Views - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Published on: {date,date}"

@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-31 21:32+0000\n"
+"Last-Translator: Hakan Kayra Doğan <hakankayradogan@gmail.com>\n"
+"Language-Team: Turkish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/addon-inline-tab-"
+"completion/tr/>\n"
+"Language: tr\n"
+"Content-Type: text/plain\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
+
+#: /src/utilities/object.js:465
+#: /src/inline-tab-completion/index.jsx:215
+#, icu-message-format, lp-defaults:"{\"pos\":5,\"total\":40}"
+msgid "addon.inlinetab.item"
+msgstr "{total,number} kadardan {pos,number} kadarı"
+
+#: /src/inline-tab-completion/index.jsx:181
+#, icu-message-format
+msgid "addon.inlinetab.type.command"
+msgstr "Komut"
+
+#: /src/inline-tab-completion/index.jsx:172
+#, icu-message-format
+msgid "addon.inlinetab.type.emoji"
+msgstr "Emoji"
+
+#: /src/inline-tab-completion/index.jsx:176
+#, icu-message-format
+msgid "addon.inlinetab.type.emote"
+msgstr "İfade"
+
+#: /src/inline-tab-completion/index.jsx:184
+#, icu-message-format
+msgid "addon.inlinetab.type.mention"
+msgstr "Bahsetme"
+
+#, icu-message-format
+msgid "setting.entry.addon.inlinetab.tip-count"
+msgstr "Tab doldurma bilgi çubuğunda birden fazla girdi göster."
+
+#: /src/modules/main_menu/components/menu-tree.vue:82
+#: /src/modules/main_menu/components/menu-page.vue:12
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab"
+msgstr "Satır İçi Tab Doldurma"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.appearance"
+msgstr "Görünüm"
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content"
+msgstr "İçerik"
+
+#: /src/modules/main_menu/components/menu-container.vue:27
+#, icu-message-format, md-text
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.content.description"
+msgstr ""
+"Twitch'e entegre tab doldurmanın satır içi tab doldurma dışındaki "
+"içeriklerde kullanılacağını göz önünde bulundurunuz."
+
+#: /src/modules/main_menu/components/menu-container.vue:14
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.add_ons.inline_tab.general"
+msgstr "Genel"
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.mention_prefix"
+msgstr "Bahsetmelerin başına her zaman '@' işareti koy."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_commands"
+msgstr "Satır içi tab doldurmada komutları kapsama alma."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.no_mentions"
+msgstr "Satır için tab doldurmada kullanıcıları kapsama alma."
+
+#: /src/modules/main_menu/components/setting-check-box.vue:34
+#, icu-message-format
+msgctxt "FFZ Control Center"
+msgid "setting.entry.addon.inlinetab.tips"
+msgstr "Tab doldurma kullanırken bilgi çubuğu göster."

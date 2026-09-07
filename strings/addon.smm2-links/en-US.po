@@ -1,0 +1,68 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/smm2-links/index.jsx:16
+#: /src/smm2-links/index.jsx:35
+#: /src/smm2-links/index.jsx:50
+#, icu-message-format
+msgid "setting.add_ons.smm2_links"
+msgstr "SMM2 Links"
+
+#: /src/smm2-links/index.jsx:16
+#: /src/smm2-links/index.jsx:35
+#: /src/smm2-links/index.jsx:50
+#, icu-message-format
+msgid "setting.add_ons.smm2_links.general"
+msgstr "General"
+
+#: /src/smm2-links/index.jsx:35
+#, icu-message-format
+msgid "setting.entry.addon.smm2-links.allow-embed"
+msgstr "Allow rich embeds for Mario Maker 2 IDs."
+
+#: /src/smm2-links/index.jsx:35
+#, icu-message-format, md-text
+msgid "setting.entry.addon.smm2-links.allow-embed.description"
+msgstr ""
+"**Note:** This only works when the IDs are clickable. Make sure to enable "
+"rich embeds in [Chat >> Appearance > Rich "
+"Content](~chat.appearance.rich_content)."
+
+#: /src/smm2-links/index.jsx:16
+#, icu-message-format
+msgid "setting.entry.addon.smm2-links.enabled"
+msgstr "Enable clickable Mario Maker 2 IDs."
+
+#: /src/smm2-links/index.jsx:16
+#, icu-message-format, md-text
+msgid "setting.entry.addon.smm2-links.enabled.description"
+msgstr ""
+"By default, this is only enabled if the current category is Super Mario "
+"Maker 2."
+
+#: /src/smm2-links/index.jsx:50
+#, icu-message-format
+msgid "setting.entry.addon.smm2-links.viewer_link"
+msgstr "Wizulus's Viewer Link"
+
+#: /src/smm2-links/index.jsx:50
+#, icu-message-format, md-text
+msgid "setting.entry.addon.smm2-links.viewer_link.description"
+msgstr ""
+"You can optionally include a link to view makers and courses using "
+"Wizulus's SMM2 Viewer."
+
+#: /src/smm2-links/index.jsx:59
+#, icu-message-format
+msgid "setting.entry.addon.smm2-links.viewer_link.values.0"
+msgstr "Disabled"
+
+#: /src/smm2-links/index.jsx:60
+#, icu-message-format
+msgid "setting.entry.addon.smm2-links.viewer_link.values.1"
+msgstr "Replace ID link"
+
+#: /src/smm2-links/index.jsx:61
+#, icu-message-format
+msgid "setting.entry.addon.smm2-links.viewer_link.values.2"
+msgstr "Add [Viewer] next to ID link"

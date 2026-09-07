@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Polish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/pl/>\n"
+"Language-Team: Polish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/pl/>\n"
 "Language: pl\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,8 +20,8 @@ msgstr "Brak wyników."
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Subskrybuje przez {count, plural, one {# Miesiąc} few {# Miesiące} other {# "
-"Miesięcy}}"
+"(Subskrybuje przez {count, plural, one {# Miesiąc} few {# Miesiące} other "
+"{# Miesięcy}}"
 
 msgid "badges.subscriber.months"
 msgstr ""
@@ -31,8 +31,8 @@ msgstr ""
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Poziom {tier}, {months, plural, one {# Miesiąc} few {# Miesiące} other {# "
-"Miesięcy}})"
+"(Poziom {tier}, {months, plural, one {# Miesiąc} few {# Miesiące} other "
+"{# Miesięcy}})"
 
 msgid "card.empty"
 msgstr "Żadne dane nie zostały zwrócone."
@@ -40,17 +40,11 @@ msgstr "Żadne dane nie zostały zwrócone."
 msgid "card.error"
 msgstr "Wystąpił błąd."
 
-msgid "card.error.timeout"
-msgstr "Upłynął limit czasu żądania."
-
 msgid "card.loading"
 msgstr "Ładowanie..."
 
 msgid "cards.user.stats"
 msgstr "Widzowie: {views,number} • Obserwujący: {followers,number}"
-
-msgid "cards.user.streaming"
-msgstr "streamuje {game}"
 
 msgid "channel.links.clips"
 msgstr "Klipy"
@@ -98,8 +92,8 @@ msgstr "Odpowiedz na wiadomość"
 
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Pozwala na bezpośrednią odpowiedź na wiadomość innego użytkownika. Działa "
-"tylko gdy Styl Odpowiedzi Czatu ustawiony jest na \"FrankerFaceZ\"."
+"Pozwala na bezpośrednią odpowiedź na wiadomość innego użytkownika. "
+"Działa tylko gdy Styl Odpowiedzi Czatu ustawiony jest na \"FrankerFaceZ\"."
 
 msgid "chat.actions.reply.thread"
 msgstr "Otwórz wątek"
@@ -116,8 +110,7 @@ msgstr ""
 "other {# sekund}} za:"
 
 msgid "chat.actions.timeout.desc"
-msgstr ""
-"{options.duration, plural, one {# sekunda} few {# sekundy} other {# sekund}}"
+msgstr "{options.duration, plural, one {# sekunda} few {# sekundy} other {# sekund}}"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
@@ -158,8 +151,8 @@ msgstr ""
 
 msgid "chat.ffz-badge.about"
 msgstr ""
-"Ta odznaka wyświetla się globalnie dla użytkowników z FrankerFaceZ. Odwiedź "
-"{website} aby ją zmienić."
+"Ta odznaka wyświetla się globalnie dla użytkowników z FrankerFaceZ. "
+"Odwiedź {website} aby ją zmienić."
 
 msgid "chat.ffz-badge.site"
 msgstr "Odwiedź {website} aby zmienić tę odznakę."
@@ -299,8 +292,8 @@ msgstr ""
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} sprezentował {count, plural, one{# suba} few{# suby} other{# subów}} "
-"poziomu {tier} dla społeczności {channel}! "
+"{user} sprezentował {count, plural, one{# suba} few{# suby} other{# "
+"subów}} poziomu {tier} dla społeczności {channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "Jest to jego pierwszy raz gdy prezentuje suby na tym kanale!"
@@ -315,8 +308,8 @@ msgstr "Poziom {tier}"
 
 msgid "chat.sub.gift-total"
 msgstr ""
-"Sprezentował on {count, plural, one {# suba} few {# suby} other {# subów}} "
-"na kanale!"
+"Sprezentował on {count, plural, one {# suba} few {# suby} other {# "
+"subów}} na kanale!"
 
 msgid "chat.sub.main"
 msgstr "{user} zasubskrybował {plan}. "
@@ -333,22 +326,8 @@ msgstr "na poziomie {tier}"
 msgid "chat.sub.twitch-prime"
 msgstr "z Prime Gaming"
 
-msgid "clip.desc.1"
-msgstr "Klip {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} jest kreatywny"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} gra w {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Klip użytkownika {curator} — {views,plural, one {# wyświetlenie} few {# "
-"wyświetlenia} other {# wyświetleń}}"
-
-msgid "clip.unknown"
-msgstr "Nieznany"
 
 msgid "compat.bttv.emotes-on"
 msgstr ""
@@ -367,8 +346,8 @@ msgstr "Hostowany kanał"
 
 msgid "directory.hosted.by-many"
 msgstr ""
-"Hostowany przez {count,number} {count,plural, one{kanał} few{kanały} other "
-"{kanałów}}"
+"Hostowany przez {count,number} {count,plural, one{kanał} few{kanały} "
+"other {kanałów}}"
 
 msgid "directory.hosted.by-one"
 msgstr "Hostowany przez {user}"
@@ -435,8 +414,8 @@ msgstr "Kanał"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Tymczasowe obejście problemu: spróbuj wyłączyć menu emotek FFZ w panelu "
-"sterowania FFZ."
+"Tymczasowe obejście problemu: spróbuj wyłączyć menu emotek FFZ w "
+"panelu sterowania FFZ."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
@@ -460,8 +439,8 @@ msgstr "Nie ma tu nic."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"Nie masz żadnym ulubionych emotek. Aby dodać emotkę do ulubionych, znajdź ją "
-"i kliknij {hotkey}."
+"Nie masz żadnym ulubionych emotek. Aby dodać emotkę do ulubionych, "
+"znajdź ją i kliknij {hotkey}."
 
 msgid "emote-menu.empty-search"
 msgstr "Brak pasujących emotek."
@@ -542,10 +521,10 @@ msgstr ""
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
 "Kontrola Widoczności Emotek pozwala na ukrycie emotek z menu emotek "
-"pojedynczo lub zestawami. Gdy Kontrola Widoczności Emotek jest włączona, po "
-"prostu kliknij emotkę aby ją ukryć lub pokazać. Uwaga: ukryte emotki nadal "
-"będą widoczne na czacie gdy ktoś ich użyje ale nie pokażą się w twoim menu "
-"emotek."
+"pojedynczo lub zestawami. Gdy Kontrola Widoczności Emotek jest włączona, "
+"po prostu kliknij emotkę aby ją ukryć lub pokazać. Uwaga: ukryte emotki "
+"nadal będą widoczne na czacie gdy ktoś ich użyje ale nie pokażą się "
+"w twoim menu emotek."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Kontrola Widoczności Emotek"
@@ -632,8 +611,8 @@ msgstr ""
 "lokalizacyjnym.\n"
 "\n"
 "Narzędzie to pozwala tłumaczom na testowanie linii na żywo w aplikacji. "
-"Przez to możesz być pewny, że wszystko wygląda tak jak powinno zanim wyślesz "
-"swoje tłumaczenia."
+"Przez to możesz być pewny, że wszystko wygląda tak jak powinno zanim "
+"wyślesz swoje tłumaczenia."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} ukończono)"
@@ -775,8 +754,8 @@ msgstr "Hostowanie teamu"
 
 msgid "metadata.host.setting.vodcast-hosting.description"
 msgstr ""
-"Uwzględniaj kanały streamujące wcześniej nagrane widea takie jak Premiery "
-"lub Powtórki"
+"Uwzględniaj kanały streamujące wcześniej nagrane widea takie jak "
+"Premiery lub Powtórki"
 
 msgid "metadata.host.setting.vodcast-hosting.title"
 msgstr "Hostuj wcześniej nagrane widea"
@@ -795,8 +774,8 @@ msgstr "Nadawane na żywo {count,number}s temu"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Wygląda na to, że twój czas lokalny się późni o {count,number} {"
-"count,plural, one {sekundę} few {sekundy} other {sekund}}."
+"Wygląda na to, że twój czas lokalny się późni o {count,number} "
+"{count,plural, one {sekundę} few {sekundy} other {sekund}}."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Opóźnienie transmisji"
@@ -845,13 +824,13 @@ msgstr "Kompresor dźwięku nie może być aktywowany podczas oglądania klipów
 
 msgid "player.comp_button.firefox"
 msgstr ""
-"Kontrola prędkości odtwarzania nie będzie funkcjonować dla użytkowników "
-"Firefoxa gdy kompresor jest aktywny."
+"Kontrola prędkości odtwarzania nie będzie funkcjonować dla "
+"użytkowników Firefoxa gdy kompresor jest aktywny."
 
 msgid "player.comp_button.help"
 msgstr ""
-"Patrz Panel kontrolny FFZ po szczegóły. Jeżeli dźwięk się psuje, zrestartuj "
-"odtwarzacz."
+"Patrz Panel kontrolny FFZ po szczegóły. Jeżeli dźwięk się psuje, "
+"zrestartuj odtwarzacz."
 
 msgid "player.comp_button.off"
 msgstr "Wyłącz kompresor dźwięku"
@@ -879,8 +858,8 @@ msgstr "Zresetuj wszystkie odtwarzacze (podwójne kliknięcie)"
 
 msgid "popup.error"
 msgstr ""
-"Próbowaliśmy otworzyć wyskakujące okno i się to nie udało. Upewnij się, by "
-"zezwolnić na popupy od Twitcha."
+"Próbowaliśmy otworzyć wyskakujące okno i się to nie udało. Upewnij "
+"się, by zezwolnić na popupy od Twitcha."
 
 msgid "site.menu_button"
 msgstr "Panel kontrolny FrankerFaceZ"
@@ -893,16 +872,16 @@ msgstr "Załadowałeś dane dodatku z lokalnego serwera rozwojowego."
 
 msgid "site.menu_button.changed"
 msgstr ""
-"Dostawca ustawień FrankerFaceZ został zmieniony. Proszę odśwież tą kartę aby "
-"uniknąć dziwnych zachowań."
+"Dostawca ustawień FrankerFaceZ został zmieniony. Proszę odśwież tą "
+"kartę aby uniknąć dziwnych zachowań."
 
 msgid "site.menu_button.dev"
 msgstr "dev"
 
 msgid "site.menu_button.error"
 msgstr ""
-"Wystąpił błąd podczas ładowania panelu kontrolnego FFZ. Odśwież stronę i "
-"spróbuj ponownie."
+"Wystąpił błąd podczas ładowania panelu kontrolnego FFZ. Odśwież "
+"stronę i spróbuj ponownie."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -925,10 +904,10 @@ msgstr "Profile"
 
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
-"Twoja pamięć podręczna dla tej strony jest pełna dlatego ustawienia nie mogą "
-"być zapisane. Zrób kopię zapasową swoich ustawień i zmień dostawcę na tego z "
-"większą pojemnością w [Zarządzanie danymi > Magazyn >> "
-"Dostawca](~data_management.storage.tabs.provider)."
+"Twoja pamięć podręczna dla tej strony jest pełna dlatego ustawienia nie "
+"mogą być zapisane. Zrób kopię zapasową swoich ustawień i zmień "
+"dostawcę na tego z większą pojemnością w [Zarządzanie danymi > "
+"Magazyn >> Dostawca](~data_management.storage.tabs.provider)."
 
 msgid "site.menu_button.strings"
 msgstr ""
@@ -1022,7 +1001,8 @@ msgstr "Cel: {url}"
 
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Uwaga: Ten URL jest oznaczony jako potencjalnie szkodliwy z powodu: {reasons}"
+"Uwaga: Ten URL jest oznaczony jako potencjalnie szkodliwy z powodu: "
+"{reasons}"
 
 msgid "tooltip.link.urls"
 msgstr "Odwiedzone URLe"
@@ -1047,31 +1027,8 @@ msgstr "Pokaż więcej odpowiedzi..."
 msgid "video-chat.time"
 msgstr "{time,humantime} temu"
 
-msgid "video.desc.1"
-msgstr "Film {user}"
-
-msgid "video.desc.2"
-msgstr ""
-"{length,duration} — {views, plural, one {# Wyświetlenie} few {# Wyświetlenia}"
-" other {# Wyświetleń}} — {date,datetime}"
-
 msgid "video.published-on"
 msgstr "Opublikowano: {date, date}"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-host"
-msgstr "Podany URL ma nieprawidłowego hosta i nie może być sprawdzony."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-scheme"
-msgstr "Podany URL nie używa HTTP i nie będzie sprawdzony."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.unhandled"
-msgstr "Żaden identyfikator nie wspiera tego URL."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1119,22 +1076,7 @@ msgstr "Testuj URL"
 msgid "emote.ffz.status.1"
 msgstr "Zatwierdzono"
 
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "Brak dostępnych informacji"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-port"
-msgstr "Podany URL ma niestandardowy port i nie będzie sprawdzony."
-
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
 msgid "debug.link-provider.force-tooltip"
 msgstr "Wymuś podpowiedź"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.network"
-msgstr "Wystąpił błąd sieci."

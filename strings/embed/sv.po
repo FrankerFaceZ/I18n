@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-09-13 20:32+0000\n"
 "Last-Translator: Anton <anton_r_3@hotmail.com>\n"
-"Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/embed/sv/>\n"
+"Language-Team: Swedish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,8 +133,8 @@ msgstr "Imgur-galleri"
 #, icu-message-format, lp-defaults:"{\"posted\":\"2021-03-25T14:50:58.000Z\",\"points\":4969,\"likes\":5052,\"dislikes\":153}"
 msgid "embed.imgur.gallery-extra"
 msgstr ""
-"{posted,datetime} • {points,plural,one{# poäng}other{{points,number} poäng}} "
-"• 👍 {likes,number}  • 👎 {dislikes,number}"
+"{posted,datetime} • {points,plural,one{# poäng}other{{points,number} "
+"poäng}} • 👍 {likes,number}  • 👎 {dislikes,number}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -201,8 +201,8 @@ msgstr ""
 msgid "embed.src.subtitle"
 msgstr ""
 "{wrs,plural,one {# rekord} other {# rekord}} • {runs,plural,one {# "
-"spelsession} other {# spelsessioner}} • {games,plural,one {# spel} other {# "
-"spel}} • {cats,plural,one {# kategori} other {# kategorier}}"
+"spelsession} other {# spelsessioner}} • {games,plural,one {# spel} other "
+"{# spel}} • {cats,plural,one {# kategori} other {# kategorier}}"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -273,5 +273,69 @@ msgstr ""
 #, icu-message-format, lp-defaults:"{\"channel\":\"Team Salvato\",\"views\":\"16532569\",\"likes\":\"318388\",\"dislikes\":\"2866\"}"
 msgid "embed.youtube.info-1"
 msgstr ""
-"{channel} • {views,plural,one {# visning} other {{views,number} visningar}} •"
-" 👍 {likes,number}  • 👎 {dislikes,number}"
+"{channel} • {views,plural,one {# visning} other {{views,number} "
+"visningar}} • 👍 {likes,number}  • 👎 {dislikes,number}"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.empty"
+msgstr "Ingen information tillgänglig"
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-host"
+msgstr "Den angivna URL-adressen har en ogiltig värd och kan inte kontrolleras."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-port"
+msgstr ""
+"Den angivna URL-adressen har en icke-standardiserad port och kommer inte "
+"att kontrolleras."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.invalid-scheme"
+msgstr "Den angivna URL-adressen använder inte HTTP och kommer inte kontrolleras."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.network"
+msgstr "Ett nätverksfel uppstod."
+
+#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
+#: /src/utilities/rich_tokens.js:802
+#, icu-message-format
+msgid "card.error.timeout"
+msgstr "Förfrågan tog för lång tid."
+
+#: /src/utilities/rich_tokens.js:814
+#, icu-message-format
+msgid "card.error.unhandled"
+msgstr "Ingen hanterare stödjer denna URL-adressen."
+
+#: /src/modules/chat/rich_providers.js:111
+#: /src/modules/chat/rich_providers.js:114
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgid "cards.user.streaming"
+msgstr "streamar {game}"
+
+msgid "clip.desc.1"
+msgstr "Klipp av {user}"
+
+msgid "clip.desc.1.playing"
+msgstr "{user} spelar {game}"
+
+msgid "clip.desc.2"
+msgstr ""
+"Klipptes av {curator} — {views, plural, one {# visning} other {# "
+"visningar}}"
+
+msgid "clip.unknown"
+msgstr "Okänd"
+
+msgid "video.desc.1"
+msgstr "Video av {user}"
+
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} visningar — {date,datetime}"

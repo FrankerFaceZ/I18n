@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-01-07 13:32+0000\n"
 "Last-Translator: Artem Tymko <timkoartem045@gmail.com>\n"
-"Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/uk/>\n"
+"Language-Team: Ukrainian "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.10.1\n"
 
 msgid "async-text.upload"
@@ -20,13 +20,14 @@ msgstr "Немає результатів."
 msgid "badges.subscriber.months"
 msgstr ""
 "{title} \n"
-"({count,plural,one {# місяць} few {# місяці} other {# місяців}})"
+"({count,plural,one {# місяць} few {# місяці} other {# "
+"місяців}})"
 
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Ранг {tier}, {months,plural,one {# місяць} few {# місяці} other {# "
-"місяців}})"
+"(Ранг {tier}, {months,plural,one {# місяць} few {# місяці} "
+"other {# місяців}})"
 
 msgid "card.empty"
 msgstr "Не отримано даних."
@@ -34,17 +35,13 @@ msgstr "Не отримано даних."
 msgid "card.error"
 msgstr "Виникла помилка."
 
-msgid "card.error.timeout"
-msgstr "Час запиту вийшов."
-
 msgid "card.loading"
 msgstr "Завантаження..."
 
 msgid "cards.user.stats"
-msgstr "Переглядів: {views,number} • Послідовників: {followers,number}"
-
-msgid "cards.user.streaming"
-msgstr "транслює {game}"
+msgstr ""
+"Переглядів: {views,number} • Послідовників: "
+"{followers,number}"
 
 msgid "channel.links.clips"
 msgstr "Кліпи"
@@ -71,15 +68,17 @@ msgid "chat.actions.chat.desc"
 msgstr "{options.command}"
 
 msgid "chat.actions.delete.tooltip"
-msgstr "Видалити повідомлення користувача {user.login}"
+msgstr ""
+"Видалити повідомлення користувача "
+"{user.login}"
 
 msgid "chat.actions.edit_overrides"
 msgstr "Назва Каналу та Колір"
 
 msgid "chat.actions.edit_overrides.desc"
 msgstr ""
-"Дозволяє вам визначити локальні зміни для імен користувачів та кольорів у "
-"чаті."
+"Дозволяє вам визначити локальні зміни "
+"для імен користувачів та кольорів у чаті."
 
 msgid "chat.actions.msg_delete"
 msgstr "Видалити повідомлення"
@@ -98,13 +97,13 @@ msgstr "Надати Перерву Користувачеві"
 
 msgid "chat.actions.timeout-reason"
 msgstr ""
-"Надати перерву {user.login} на {duration, plural, one {# секунду} other {# "
-"секунд}}за:"
+"Надати перерву {user.login} на {duration, plural, one {# "
+"секунду} other {# секунд}}за:"
 
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
-"Надати перерву {user.login} на {duration, plural, one {# секунду} other {# "
-"секунд}}"
+"Надати перерву {user.login} на {duration, plural, one {# "
+"секунду} other {# секунд}}"
 
 msgid "chat.actions.unban"
 msgstr "Розблокувати Користувача"
@@ -130,12 +129,16 @@ msgstr "Прошепотіти {user.login}"
 msgid "chat.deleted-messages"
 msgstr ""
 "{count,plural,\n"
-"one {Одне повідомлення було видалено модератором.}\n"
-"other {# повідомлень було видалено модератором.}\n"
+"one {Одне повідомлення було видалено "
+"модератором.}\n"
+"other {# повідомлень було видалено "
+"модератором.}\n"
 "}"
 
 msgid "chat.ffz-badge.site"
-msgstr "Будь ласка, відвідайте {website} для зміни цього бейджа."
+msgstr ""
+"Будь ласка, відвідайте {website} для зміни "
+"цього бейджа."
 
 msgid "chat.ffz-badge.site-link"
 msgstr "сайт FrankerFaceZ"
@@ -162,7 +165,9 @@ msgid "chat.filtering.blocked-term"
 msgstr "Вислів заблоковано"
 
 msgid "chat.ignore-clear"
-msgstr "Спроба очистити чат модератором була проігнорована."
+msgstr ""
+"Спроба очистити чат модератором була "
+"проігнорована."
 
 msgid "chat.message-deleted"
 msgstr "<повідомлення вилучено>"
@@ -189,7 +194,9 @@ msgid "chat.paused"
 msgstr "Чат пригальмовано через {reason}"
 
 msgid "chat.points.bypass-sub"
-msgstr "Надіслати Повідомлення в Режимі Тільки-Передплатники"
+msgstr ""
+"Надіслати Повідомлення в Режимі "
+"Тільки-Передплатники"
 
 msgid "chat.points.choose-emote"
 msgstr "Обрати Смайлик для Розблокування"
@@ -201,7 +208,9 @@ msgid "chat.points.modify-emote"
 msgstr "Змінити Один Смайл"
 
 msgid "chat.points.random-emote"
-msgstr "Розблокувати Випадковий Смайл для Передплатників"
+msgstr ""
+"Розблокувати Випадковий Смайл для "
+"Передплатників"
 
 msgid "chat.points.redeemed"
 msgstr "Скористався {reward} {cost}"
@@ -241,59 +250,63 @@ msgstr "Пригальмувати Чат"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ повністю змінює поведінку зупинки чату. Просимо використовувати "
-"налаштування прокрутки у FFZ Control Center на вкладці Чат > Поведінка."
+"FrankerFaceZ повністю змінює поведінку "
+"зупинки чату. Просимо використовувати "
+"налаштування прокрутки у FFZ Control Center на "
+"вкладці Чат > Поведінка."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "Дарувальник-анонім"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"Вони передплачують канал вже {cumulative,number}-ий місяць, {streak,number} "
+"Вони передплачують канал вже "
+"{cumulative,number}-ий місяць, {streak,number} "
 "місяц{streak,plural,one {ь} few {і} other {ів}} поспіль!"
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} дарує {count,number} {count,plural,one {підписку} few {підписки} "
-"other {підписок}} передплат рівня {tier} спільноті каналу {channel}! "
+"{user} дарує {count,number} {count,plural,one {підписку} few "
+"{підписки} other {підписок}} передплат рівня "
+"{tier} спільноті каналу {channel}! "
 
 msgid "chat.sub.gift-first"
-msgstr "Вони вперше дарують передплату на цьому каналі!"
+msgstr ""
+"Вони вперше дарують передплату на цьому "
+"каналі!"
 
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} подарував {months, plural, one{# місяць} few{# місяці} other{# "
-"місяців}} підписки {plan} для {recipient}!"
+"{user} подарував {months, plural, one{# місяць} few{# "
+"місяці} other{# місяців}} підписки {plan} для "
+"{recipient}!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Рівень {tier}"
 
 msgid "chat.sub.gift-total"
-msgstr "Вони вже подарували {count,number} передплат на цьому каналі!"
+msgstr ""
+"Вони вже подарували {count,number} передплат на "
+"цьому каналі!"
 
 msgid "chat.sub.main"
 msgstr "{user} передплатив {plan}. "
 
 msgid "chat.sub.months"
-msgstr "Вони передплачують канал вже {count,number}-ий місяць!"
+msgstr ""
+"Вони передплачують канал вже {count,number}-ий "
+"місяць!"
 
 msgid "chat.sub.mystery"
-msgstr "{user} подарував Передплату {plan} користувачеві {recipient}! "
+msgstr ""
+"{user} подарував Передплату {plan} "
+"користувачеві {recipient}! "
 
 msgid "chat.sub.plan"
 msgstr "на Рівні {tier}"
 
-msgid "clip.desc.1"
-msgstr "Кліп із стріму {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} займається Творчістю"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} грає у {game}"
-
-msgid "clip.unknown"
-msgstr "Невідомо"
 
 msgid "directory.block"
 msgstr "Заблокувати"
@@ -305,7 +318,9 @@ msgid "directory.hosted"
 msgstr "Ретрансльований канал"
 
 msgid "directory.hosted.by-many"
-msgstr "Ретрансльований {count, plural, one {# каналом} other {# каналами}}"
+msgstr ""
+"Ретрансльований {count, plural, one {# каналом} other "
+"{# каналами}}"
 
 msgid "directory.hosted.by-one"
 msgstr "Ретранслюється {user}"
@@ -354,34 +369,43 @@ msgstr "Канал"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Як тимчасове рішення, спробуйте вимкнути Меню смайликів FFZ у Панелі "
-"Управління FFZ."
+"Як тимчасове рішення, спробуйте вимкнути "
+"Меню смайликів FFZ у Панелі Управління FFZ."
 
 msgid "emote-menu.emoji"
 msgstr "Емодзі"
 
 msgid "emote-menu.emote-sub"
-msgstr "Передплатіть за {price}, щоб відкрити цей смайлик."
+msgstr ""
+"Передплатіть за {price}, щоб відкрити цей "
+"смайлик."
 
 msgid "emote-menu.emote-up"
-msgstr "Збільшіть рівень передплати за {price}, щоб відкрити цей смайлик."
+msgstr ""
+"Збільшіть рівень передплати за {price}, щоб "
+"відкрити цей смайлик."
 
 msgid "emote-menu.empty"
 msgstr "Тут нічого нема."
 
 msgid "emote-menu.empty-favs"
 msgstr ""
-"У вас немає вподобаних смайлів. Аби вподобати смайл, знайдіть його та "
+"У вас немає вподобаних смайлів. Аби "
+"вподобати смайл, знайдіть його та "
 "клацніть на ньому утримуючи {hotkey}."
 
 msgid "emote-menu.empty-search"
 msgstr "Немає відповідних смайликів."
 
 msgid "emote-menu.error"
-msgstr "Сталась помилка під час відображення цього меню."
+msgstr ""
+"Сталась помилка під час відображення "
+"цього меню."
 
 msgid "emote-menu.error-report"
-msgstr "Звіт про помилку було автоматично надіслано."
+msgstr ""
+"Звіт про помилку було автоматично "
+"надіслано."
 
 msgid "emote-menu.favorites"
 msgstr "Улюблені"
@@ -423,13 +447,17 @@ msgid "emote-menu.settings"
 msgstr "Відкрити налаштування"
 
 msgid "emote-menu.sub-basic"
-msgstr "Передплатіть, щоб відкрити деякі смайлики"
+msgstr ""
+"Передплатіть, щоб відкрити деякі "
+"смайлики"
 
 msgid "emote-menu.sub-ends"
 msgstr "Ця передплата закінчиться за {seconds,humantime}."
 
 msgid "emote-menu.sub-gift-ends"
-msgstr "Ця подарована передплата закінчується через {seconds,humantime}."
+msgstr ""
+"Ця подарована передплата закінчується "
+"через {seconds,humantime}."
 
 msgid "emote-menu.sub-prime"
 msgstr ""
@@ -437,23 +465,29 @@ msgstr ""
 "Вона закінчиться через {seconds,humantime}."
 
 msgid "emote-menu.sub-renews"
-msgstr "Ця передплата поновиться через {seconds,humantime}."
+msgstr ""
+"Ця передплата поновиться через "
+"{seconds,humantime}."
 
 msgid "emote-menu.sub-set"
 msgstr "Передплатні смайлики"
 
 msgid "emote-menu.sub-unlock"
 msgstr ""
-"Передплатіть за {price}, щоб відкрити {count, plural, one {# смайлик} few {# "
-"смайли} other {# смайлів}}"
+"Передплатіть за {price}, щоб відкрити {count, "
+"plural, one {# смайлик} few {# смайли} other {# "
+"смайлів}}"
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"Управління Видимістю Смайлів дозволяє сховати смайли з меню смайлів, окремо "
-"або низками. Якщо Управління Видимістю Смайлів увімкнене, просто клацніть на "
-"смайлі, аби сховати або показати його. Зважайте, що ви все одно бачитимете "
-"їх в чаті, якщо хтось ними скористається, але їх не буде у вашому меню "
-"смайлів."
+"Управління Видимістю Смайлів дозволяє "
+"сховати смайли з меню смайлів, окремо або "
+"низками. Якщо Управління Видимістю "
+"Смайлів увімкнене, просто клацніть на "
+"смайлі, аби сховати або показати його. "
+"Зважайте, що ви все одно бачитимете їх в "
+"чаті, якщо хтось ними скористається, але "
+"їх не буде у вашому меню смайлів."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Управління Видимістю Смайлів"
@@ -500,7 +534,9 @@ msgid "featured-follow.button.unfollow"
 msgstr "Відписатися від {user}"
 
 msgid "featured-follow.notify.on"
-msgstr "Сповіщення наразі увімкнено. Клацніть аби вимкнути."
+msgstr ""
+"Сповіщення наразі увімкнено. Клацніть "
+"аби вимкнути."
 
 msgid "i18n.diff.added"
 msgstr ""
@@ -514,11 +550,15 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Зацікавлені у допомозі з перекладами? Будь ласка, [долучайтесь до нашого "
-"Discord](https://discord.gg/UrAkGhT) та до чату в каналі локалізації.\n"
+"Зацікавлені у допомозі з перекладами? "
+"Будь ласка, [долучайтесь до нашого "
+"Discord](https://discord.gg/UrAkGhT) та до чату в каналі "
+"локалізації.\n"
 "\n"
-"Це знаряддя потрібне для тестування їхніх перекладів наживо у застосунку. "
-"Таким чином можна переконатись, що виглядає доладно перш ніж надсилати свої "
+"Це знаряддя потрібне для тестування "
+"їхніх перекладів наживо у застосунку. "
+"Таким чином можна переконатись, що "
+"виглядає доладно перш ніж надсилати свої "
 "переклади."
 
 msgid "i18n.locale-coverage"
@@ -549,7 +589,9 @@ msgid "i18n.ui.pending"
 msgstr "Рядки в очікуванні"
 
 msgid "i18n.ui.popout"
-msgstr "Відкрити Редактор Перекладу в Новому Вікні"
+msgstr ""
+"Відкрити Редактор Перекладу в Новому "
+"Вікні"
 
 msgid "i18n.ui.preview"
 msgstr "Попередній перегляд"
@@ -628,23 +670,29 @@ msgstr "Додати до Авто-Ретрансляцій"
 
 msgid "metadata.host.setting.auto-hosting.description"
 msgstr ""
-"Автоматично ретранслювати канали з вашого списку ретрансляцій коли ви поза "
+"Автоматично ретранслювати канали з "
+"вашого списку ретрансляцій коли ви поза "
 "мережею."
 
 msgid "metadata.host.setting.strategy.description"
 msgstr ""
-"Якщо увімкнено, то канали для ретрансляції обираються випадково зі списку."
+"Якщо увімкнено, то канали для "
+"ретрансляції обираються випадково зі "
+"списку."
 
 msgid "metadata.host.setting.strategy.title"
 msgstr "Випадковий Порядок Ретрансляції"
 
 msgid "metadata.host.setting.team-hosting.description"
-msgstr "Включати канали команди до вашого списку ретрансляцій."
+msgstr ""
+"Включати канали команди до вашого списку "
+"ретрансляцій."
 
 msgid "metadata.host.setting.vodcast-hosting.description"
 msgstr ""
-"Включати канали, які транслюють попередньо записані відео, як-от Прем'єри чи "
-"Повтори"
+"Включати канали, які транслюють "
+"попередньо записані відео, як-от Прем'єри "
+"чи Повтори"
 
 msgid "metadata.host.setting.vodcast-hosting.title"
 msgstr "Ретранслювати попередньо записані відео"
@@ -662,7 +710,9 @@ msgid "metadata.player-stats.latency-tip"
 msgstr "Затримка трансляції"
 
 msgid "metadata.player-stats.rate-warning"
-msgstr "Відтворення на швидкості {rate,number}x задля зменшення затримки."
+msgstr ""
+"Відтворення на швидкості {rate,number}x задля "
+"зменшення затримки."
 
 msgid "metadata.player-stats.subtitle"
 msgstr "Затримка"
@@ -695,12 +745,14 @@ msgid "page.previous"
 msgstr "Попередня Сторінка"
 
 msgid "player.comp_button.disabled"
-msgstr "Неможливо увімкнути Компресор Звуку під час перегляду Кліпів."
+msgstr ""
+"Неможливо увімкнути Компресор Звуку під "
+"час перегляду Кліпів."
 
 msgid "player.comp_button.help"
 msgstr ""
-"Детальніше в Центрі Управління FFZ. Якщо звук зламався, будь ласка, скиньте "
-"плеєр."
+"Детальніше в Центрі Управління FFZ. Якщо "
+"звук зламався, будь ласка, скиньте плеєр."
 
 msgid "player.comp_button.off"
 msgstr "Вимкнути Компресор Звуку"
@@ -722,39 +774,49 @@ msgstr "Скинути всі Програвачі (Подвійний Клац)
 
 msgid "popup.error"
 msgstr ""
-"Ми спробували відкрити спливаюче вікно і не змогли. Переконайтесь, що ви "
-"дозволили відкривати спливаючі вікна на Twitch."
+"Ми спробували відкрити спливаюче вікно і "
+"не змогли. Переконайтесь, що ви дозволили "
+"відкривати спливаючі вікна на Twitch."
 
 msgid "site.menu_button"
 msgstr "Центр управління FrankerFaceZ"
 
 msgid "site.menu_button.addon-dev-desc"
-msgstr "Ви завантажили дані додатку з місцевого розробницького сервера."
+msgstr ""
+"Ви завантажили дані додатку з місцевого "
+"розробницького сервера."
 
 msgid "site.menu_button.error"
 msgstr ""
-"Під час завантаження Центур Управління FFZ. Будь ласка, оновіть та спробуйте "
-"знов."
+"Під час завантаження Центур Управління "
+"FFZ. Будь ласка, оновіть та спробуйте знов."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
 
 msgid "site.menu_button.main-dev-desc"
-msgstr "Ви послуговуєтесь розробницьку збірку FrankerFaceZ."
+msgstr ""
+"Ви послуговуєтесь розробницьку збірку "
+"FrankerFaceZ."
 
 msgid "site.menu_button.new-desc"
 msgstr ""
-"З'явилося {count,plural,one {одне нове налаштування} few {# нових "
-"налаштування} other {нових # налаштувань}}."
+"З'явилося {count,plural,one {одне нове "
+"налаштування} few {# нових налаштування} other "
+"{нових # налаштувань}}."
 
 msgid "site.menu_button.no-settings"
-msgstr "Налаштування в цій вкладці вимкнені через наявність \"{param}\" в URL."
+msgstr ""
+"Налаштування в цій вкладці вимкнені "
+"через наявність \"{param}\" в URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Профілі"
 
 msgid "site.menu_button.update-desc"
-msgstr "Доступне оновлення. Будь ласка, оновіть сторінку."
+msgstr ""
+"Доступне оновлення. Будь ласка, оновіть "
+"сторінку."
 
 msgid "socket.info.command"
 msgstr "Команда"
@@ -799,7 +861,9 @@ msgid "socket.info.version"
 msgstr "Версія"
 
 msgid "sub-button.prime"
-msgstr "Вам доступна безкоштовна передплата на канал із Prime."
+msgstr ""
+"Вам доступна безкоштовна передплата на "
+"канал із Prime."
 
 msgid "tooltip.bits"
 msgstr "{count,number} Бітсів"
@@ -830,7 +894,8 @@ msgstr "Відвідані адреси"
 
 msgid "tooltip.render-error"
 msgstr ""
-"Під час візуалізації цієї підказки сталася помилка.\n"
+"Під час візуалізації цієї підказки "
+"сталася помилка.\n"
 "{err}"
 
 msgid "tooltip.shift-detail"
@@ -848,12 +913,6 @@ msgstr "Показати більше відповідей..."
 msgid "video-chat.time"
 msgstr "{time,humantime} тому назад"
 
-msgid "video.desc.1"
-msgstr "Відео зі стріму {user}"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} Перегляди — {date,datetime}"
-
 msgid "video.published-on"
 msgstr "Оприлюднено: {date,date}"
 
@@ -865,7 +924,9 @@ msgstr "Дозволити медіа"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr "Почніть відстежувати {user} щоб розблокувати цей смайл на його каналі."
+msgstr ""
+"Почніть відстежувати {user} щоб "
+"розблокувати цей смайл на його каналі."
 
 #, icu-message-format
 msgid "i18n.ui.invalid"
@@ -886,42 +947,14 @@ msgstr "a-dev"
 msgid "socket.info.time_offset"
 msgstr "Часовий зсув"
 
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "Інформація відсутня"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-host"
-msgstr "Наданий URL має недійсний хост і не може бути перевірений."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-port"
-msgstr "Надана URL-адреса має нестандартний порт і не перевірятиметься."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-scheme"
-msgstr "Надана URL-адреса не використовує HTTP і не перевірятиметься."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.network"
-msgstr "Сталася помилка мережі."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.unhandled"
-msgstr "Жоден обробник не підтримує цю URL-адресу."
-
 #: /src/modules/main_menu/components/action-editor.vue:595
 #, icu-message-format
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Дозволяє безпосередньо відповідати на повідомлення іншого користувача. "
-"Функціонує лише тоді, коли стиль відповідей у чаті \"FrankerFaceZ\"."
+"Дозволяє безпосередньо відповідати на "
+"повідомлення іншого користувача. "
+"Функціонує лише тоді, коли стиль "
+"відповідей у чаті \"FrankerFaceZ\"."
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:559
 #, icu-message-format
@@ -932,14 +965,16 @@ msgstr "Відкрити обговорення"
 #, icu-message-format, lp-defaults:"{\"count\":100}"
 msgid "chat.bits-message"
 msgstr ""
-"Подарував(-ла) {count, plural, one {# Bit} few {# Bits'и} other {# Bits'ів}}"
+"Подарував(-ла) {count, plural, one {# Bit} few {# Bits'и} other "
+"{# Bits'ів}}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:291
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
 msgstr ""
-"Цей значок відображається у всюди для користувачів із FrankerFaceZ. "
-"Відвідайте {website}, щоб змінити цей значок."
+"Цей значок відображається у всюди для "
+"користувачів із FrankerFaceZ. Відвідайте {website}, "
+"щоб змінити цей значок."
 
 #, icu-message-format
 msgid "chat.filtering.automod.S"
@@ -975,20 +1010,15 @@ msgstr "Відповідь:"
 msgid "chat.sub.twitch-prime"
 msgstr "з Prime Gaming"
 
-#: /src/modules/chat/rich_providers.js:133:13
-#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
-msgid "clip.desc.2"
-msgstr ""
-"Автор кліпу: {curator} — {views,plural,one {перегляд} few {перегляди} other "
-"{переглядів}}"
-
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:428
 #, icu-message-format
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Ви ввімкнули \"FrankerFaceZ Emotes\" у налаштуваннях BetterTTV, але у вас "
-"також встановлено FrankerFaceZ. Вимкніть \"FrankerFaceZ Emotes\" у "
-"налаштуваннях BetterTTV. Це не є необхідним."
+"Ви ввімкнули \"FrankerFaceZ Emotes\" у "
+"налаштуваннях BetterTTV, але у вас також "
+"встановлено FrankerFaceZ. Вимкніть \"FrankerFaceZ "
+"Emotes\" у налаштуваннях BetterTTV. Це не є "
+"необхідним."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1130,7 +1160,8 @@ msgstr "Транслювалося {count,number}сек. тому"
 #, icu-message-format
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Ваш локальний годинник відстає приблизно на {count,number} сек., через що "
+"Ваш локальний годинник відстає "
+"приблизно на {count,number} сек., через що "
 "значення може бути неточним."
 
 #: /src/modules/metadata.jsx:150
@@ -1147,8 +1178,10 @@ msgstr "з {since,datetime})"
 #, icu-message-format
 msgid "player.comp_button.firefox"
 msgstr ""
-"Елементи керування швидкістю відтворення не працюватимуть для користувачів "
-"Firefox, коли ввімкнено компресор."
+"Елементи керування швидкістю "
+"відтворення не працюватимуть для "
+"користувачів Firefox, коли ввімкнено "
+"компресор."
 
 #: /src/sites/shared/player.jsx:1113
 #: /src/sites/shared/player.jsx:1172
@@ -1159,14 +1192,17 @@ msgstr "Контроль посилення"
 #: /src/sites/twitch-twilight/modules/player.jsx:865
 #, icu-message-format
 msgid "player.pip_button.fs"
-msgstr "Неможливо використовувати режим «Картинка в картинці» на весь екран"
+msgstr ""
+"Неможливо використовувати режим "
+"«Картинка в картинці» на весь екран"
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:321
 #, icu-message-format
 msgid "site.menu_button.changed"
 msgstr ""
-"Змінився постачальник налаштувань FrankerFaceZ. Будь ласка, оновіть цю "
-"вкладку, щоб уникнути дивної поведінки."
+"Змінився постачальник налаштувань "
+"FrankerFaceZ. Будь ласка, оновіть цю вкладку, "
+"щоб уникнути дивної поведінки."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:101:10
 #, icu-message-format
@@ -1177,18 +1213,22 @@ msgstr "dev"
 #, icu-message-format
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
-"Ваше локальне сховище для цього веб-сайту заповнено, і налаштування "
-"неможливо зберегти. Зробіть резервну копію налаштувань і перейдіть до "
-"постачальника з більшою потужністю в [Керування даними > Сховище >> "
+"Ваше локальне сховище для цього "
+"веб-сайту заповнено, і налаштування "
+"неможливо зберегти. Зробіть резервну "
+"копію налаштувань і перейдіть до "
+"постачальника з більшою потужністю в "
+"[Керування даними > Сховище >> "
 "Постачальник] (~data_management.storage.tabs.provider)."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:190
 #, icu-message-format, lp-defaults:"{\"added\":241,\"changed\":3}"
 msgid "site.menu_button.strings"
 msgstr ""
-"Є {added,plural,one {# новий рядок} few {# нові рядки} other {# нових "
-"рядків}} і {changed,plural,one {# змінений рядок} few {# змінені рядки} "
-"other {# змінених рядків}}."
+"Є {added,plural,one {# новий рядок} few {# нові рядки} "
+"other {# нових рядків}} і {changed,plural,one {# "
+"змінений рядок} few {# змінені рядки} other {# "
+"змінених рядків}}."
 
 #: /src/modules/main_menu/components/socket-info.vue:49
 #, icu-message-format
@@ -1204,7 +1244,8 @@ msgstr "Теми"
 #, icu-message-format, lp-defaults:"{\"reasons\":\"malware\"}"
 msgid "tooltip.link-unsafe"
 msgstr ""
-"Застереження: цю URL-адресу було позначено як потенційно шкідливу: {reasons}"
+"Застереження: цю URL-адресу було позначено "
+"як потенційно шкідливу: {reasons}"
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:83:13
 #, icu-message-format
@@ -1222,21 +1263,22 @@ msgstr "Активність"
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Передплатив {count,plural, one {# місяць } few {# місяці} other {# місяців}}"
-" підписки)"
+"(Передплатив {count,plural, one {# місяць } few {# "
+"місяці} other {# місяців}} підписки)"
 
 #: /src/modules/main_menu/components/action-editor.vue:545
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
 msgid "chat.actions.timeout.desc"
 msgstr ""
-"{options.duration,plural, one {# секунда} few {# секунди} other {# секунд}}"
+"{options.duration,plural, one {# секунда} few {# секунди} "
+"other {# секунд}}"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:635
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Подаруйте додаткові {bits_remaining, plural, one {# bit} other {# bits}}, "
-"щоб розблокувати цей смайл."
+"Подаруйте додаткові {bits_remaining, plural, one {# bit} "
+"other {# bits}}, щоб розблокувати цей смайл."
 
 #: /src/modules/main_menu/components/socket-info.vue:154
 #: /src/modules/main_menu/components/socket-info.vue:122

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-06-01 16:04+0000\n"
 "Last-Translator: Rodrigo Badin <r.badin@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://weblate.frankerfacez.com/"
-"projects/frankerfacez/client/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/pt_BR/>\n"
 "Language: pt-BR\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,8 @@ msgstr "Não foi possível encontrar resultados."
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Em inscrição por {count,plural, =0 {# meses} =1 {# mês} other {# meses}})"
+"(Em inscrição por {count,plural, =0 {# meses} =1 {# mês} other {# "
+"meses}})"
 
 msgid "badges.subscriber.months"
 msgstr ""
@@ -37,17 +38,11 @@ msgstr "Nenhum dado foi retornado."
 msgid "card.error"
 msgstr "Ocorreu um erro."
 
-msgid "card.error.timeout"
-msgstr "A solicitação expirou."
-
 msgid "card.loading"
 msgstr "Carregando..."
 
 msgid "cards.user.stats"
 msgstr "Visualizações: {views,number} • Seguidores: {followers,number}"
-
-msgid "cards.user.streaming"
-msgstr "transmitindo {game}"
 
 msgid "channel.links.clips"
 msgstr "Clipes"
@@ -95,8 +90,9 @@ msgstr "Responder a mensagem"
 
 msgid "chat.actions.reply.desc"
 msgstr ""
-"Permite que você responda diretamente à mensagem de outro usuário. Funciona "
-"apenas quando o estilo de respostas de bate-papo é \"FrankerFaceZ\"."
+"Permite que você responda diretamente à mensagem de outro usuário. "
+"Funciona apenas quando o estilo de respostas de bate-papo é "
+"\"FrankerFaceZ\"."
 
 msgid "chat.actions.reply.thread"
 msgstr "Abrir Sequência"
@@ -179,8 +175,7 @@ msgid "chat.filtering.blocked-term"
 msgstr "Termo Bloqueado"
 
 msgid "chat.ignore-clear"
-msgstr ""
-"Uma tentativa de limpar o bate-papo realizada por um moderador foi ignorada."
+msgstr "Uma tentativa de limpar o bate-papo realizada por um moderador foi ignorada."
 
 msgid "chat.message-deleted"
 msgstr "<mensagem excluída>"
@@ -271,8 +266,8 @@ msgstr "Pausar Bate-papo"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"O FrankerFaceZ substituirá inteiramente o comportamento da Pausa de Bate-"
-"Papo. Por favor, use as configurações de Rolagem do FFZ no Centro de "
+"O FrankerFaceZ substituirá inteiramente o comportamento da Pausa de "
+"Bate-Papo. Por favor, use as configurações de Rolagem do FFZ no Centro de "
 "controle, em Bate-Papo > Comportamento."
 
 msgid "chat.sub.anonymous-gifter"
@@ -280,29 +275,30 @@ msgstr "Um presenteador anônimo"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"Ele(a) se inscreveu por um total de {cumulative,number, =1 {# mês} other {# "
-"meses}}, atualmente em uma sequência de {streak,number} meses!"
+"Ele(a) se inscreveu por um total de {cumulative,number, =1 {# mês} other "
+"{# meses}}, atualmente em uma sequência de {streak,number} meses!"
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} está presenteando {count, plural, =0 {# Inscrição} =1 {# Inscrição} "
-"other {# Inscrições}} de Grupo {tier} para o canal {channel}! "
+"{user} está presenteando {count, plural, =0 {# Inscrição} =1 {# "
+"Inscrição} other {# Inscrições}} de Grupo {tier} para o canal "
+"{channel}! "
 
 msgid "chat.sub.gift-first"
 msgstr "É a primeira vez dele(a) presenteando uma Inscrição no canal!"
 
 msgid "chat.sub.gift-months"
 msgstr ""
-"{user} presenteou {months,plural, =1 {# Mês} other {# Meses}} de Inscrição "
-"de {plan} para {recipient}!"
+"{user} presenteou {months,plural, =1 {# Mês} other {# Meses}} de "
+"Inscrição de {plan} para {recipient}!"
 
 msgid "chat.sub.gift-plan"
 msgstr "Grupo {tier}"
 
 msgid "chat.sub.gift-total"
 msgstr ""
-"Eles presentearam {count, number, =1 {# Inscrição} other {# Inscrições}} no "
-"canal!"
+"Eles presentearam {count, number, =1 {# Inscrição} other {# "
+"Inscrições}} no canal!"
 
 msgid "chat.sub.main"
 msgstr "{user} se inscreveu {plan}. "
@@ -321,22 +317,8 @@ msgstr "no Grupo {tier}"
 msgid "chat.sub.twitch-prime"
 msgstr "com Prime Gaming"
 
-msgid "clip.desc.1"
-msgstr "Clipe de {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} sendo Criativo"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} jogando {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Clipado por {curator} — {views,plural, =1 {# Vizualização} other {# "
-"Visualizações}}"
-
-msgid "clip.unknown"
-msgstr "Desconhecido"
 
 msgid "directory.block"
 msgstr "Bloquear"
@@ -415,8 +397,8 @@ msgstr "Canal"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Como solução temporária, tente desativar o Menu de Emotes FFZ no Centro de "
-"Controle do FrankFaceZ."
+"Como solução temporária, tente desativar o Menu de Emotes FFZ no Centro "
+"de Controle do FrankFaceZ."
 
 msgid "emote-menu.emoji"
 msgstr "Emoji"
@@ -518,11 +500,12 @@ msgstr ""
 
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
-"O Controle de Visibilidade de Emote permite que você oculte emotes do menu, "
-"seja individualmente ou conjuntos. Com o Controle de Visibilidade de Emote "
-"habilitado, basta clicar sobre um emote para que ele fique oculto ou em "
-"exibição. Por favor observer que os emotes ainda irão aparecer no bate papo "
-"se outro expectador usar ele, eles não irão aparecer no seu menu de emote."
+"O Controle de Visibilidade de Emote permite que você oculte emotes do "
+"menu, seja individualmente ou conjuntos. Com o Controle de Visibilidade de "
+"Emote habilitado, basta clicar sobre um emote para que ele fique oculto ou "
+"em exibição. Por favor observer que os emotes ainda irão aparecer no "
+"bate papo se outro expectador usar ele, eles não irão aparecer no seu "
+"menu de emote."
 
 msgid "emote-menu.toggle-hide.off"
 msgstr "Controle de Visibilidade de Emote"
@@ -589,9 +572,9 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Interessado em ajudar com os esforços de localização? Por favor [junte-se ao "
-"nosso Discord](https://discord.gg/UrAkGhT) e ao chat no canal de localização."
-"\n"
+"Interessado em ajudar com os esforços de localização? Por favor "
+"[junte-se ao nosso Discord](https://discord.gg/UrAkGhT) e ao chat no canal "
+"de localização.\n"
 "\n"
 "Essa ferramenta permite aos tradutores testarem suas palavras em tempo real "
 "no aplicativo. Dessa forma você consegue ter certeza de que tudo parece "
@@ -724,8 +707,8 @@ msgstr "Hospedagem Automática"
 
 msgid "metadata.host.setting.strategy.description"
 msgstr ""
-"Quando habilitado, canais a serem hospedados serão escolhidos aleatoriamente "
-"da lista."
+"Quando habilitado, canais a serem hospedados serão escolhidos "
+"aleatoriamente da lista."
 
 msgid "metadata.host.setting.strategy.title"
 msgstr "Ordem Aleatória de Hospedagem"
@@ -737,8 +720,7 @@ msgid "metadata.host.setting.team-hosting.title"
 msgstr "Hospedagem de Equipe"
 
 msgid "metadata.host.setting.vodcast-hosting.description"
-msgstr ""
-"Incluir canais transmitindo conteúdo pré gravado como Reprises e Estréias"
+msgstr "Incluir canais transmitindo conteúdo pré gravado como Reprises e Estréias"
 
 msgid "metadata.host.setting.vodcast-hosting.title"
 msgstr "Hospedar conteúdo pré gravado"
@@ -843,8 +825,7 @@ msgid "site.menu_button.addon-dev"
 msgstr "a-dev"
 
 msgid "site.menu_button.addon-dev-desc"
-msgstr ""
-"Você carregou dados complementares de um servidor de desenvolvimento local."
+msgstr "Você carregou dados complementares de um servidor de desenvolvimento local."
 
 msgid "site.menu_button.changed"
 msgstr ""
@@ -867,20 +848,21 @@ msgstr "Você está executando uma compilação de desenvolvedor do FrankerFaceZ
 
 msgid "site.menu_button.new-desc"
 msgstr ""
-"Tem {count,plural,=1 {uma nova configuração} other { # novas configurações}}."
+"Tem {count,plural,=1 {uma nova configuração} other { # novas "
+"configurações}}."
 
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Configurações são desabilitadas nesta aba devido a inclusão do \"{param}\" "
-"na URL."
+"Configurações são desabilitadas nesta aba devido a inclusão do "
+"\"{param}\" na URL."
 
 msgid "site.menu_button.profiles"
 msgstr "Perfis"
 
 msgid "site.menu_button.strings"
 msgstr ""
-"Tem {added,plural,one {# nova palavra} other {# novas palavras}} e {"
-"changed,plural,one {# palavra alterada} other {# palavras alteradas}}."
+"Tem {added,plural,one {# nova palavra} other {# novas palavras}} e "
+"{changed,plural,one {# palavra alterada} other {# palavras alteradas}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "Há uma atualização disponível. Atualize sua página."
@@ -994,14 +976,6 @@ msgstr "Mostrar mais respostas..."
 msgid "video-chat.time"
 msgstr "{time,humantime} atrás"
 
-msgid "video.desc.1"
-msgstr "Vídeo de {user}"
-
-msgid "video.desc.2"
-msgstr ""
-"{length,duration} — {views,plural, =1 {# Visualização} other {# "
-"Visualizações}} — {date}"
-
 msgid "video.published-on"
 msgstr "Publicado em: {date,date}"
 
@@ -1009,31 +983,6 @@ msgstr "Publicado em: {date,date}"
 #, icu-message-format
 msgid "debug.link-provider.url"
 msgstr "Testar URL"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "Sem Informação Disponível"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-host"
-msgstr "A URL fornecida tem um host inválido e não pode ser verificada."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-port"
-msgstr "A URL fornecida não tem uma porta padrão e não será verificada."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-scheme"
-msgstr "A URL fornecida não usa HTTP e não será verificada."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.unhandled"
-msgstr "Nenhum manipulador suporta este URL."
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
@@ -1058,8 +1007,8 @@ msgid "compat.bttv.emotes-on"
 msgstr ""
 "Você tem os \"Emotes FrankerFaceZ\" habilitado nas configurações do "
 "BetterTTV, mas você também tem o FrankerFaceZ instalado. Por favor "
-"desabilite os \"Emotes FrankerFaceZ\" nas configurações do BetterTTV. Pois "
-"não é necessário."
+"desabilite os \"Emotes FrankerFaceZ\" nas configurações do BetterTTV. "
+"Pois não é necessário."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1155,14 +1104,9 @@ msgstr "Controle de Ganho"
 msgid "site.menu_button.quota-exceeded"
 msgstr ""
 "Seu espaço de armazenamento local para este site está cheio e as "
-"configurações não podem ser salvas. Faça backup de suas configurações e mude "
-"para um provedor de maior capacidade em [Gestão de Dados > Armazenamento >> "
-"Provedor](~data_management.storage.tabs.provider)."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.network"
-msgstr "Um erro de rede ocorreu."
+"configurações não podem ser salvas. Faça backup de suas configurações "
+"e mude para um provedor de maior capacidade em [Gestão de Dados > "
+"Armazenamento >> Provedor](~data_management.storage.tabs.provider)."
 
 #, icu-message-format
 msgid "i18n.ui.invalid"

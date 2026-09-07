@@ -1,0 +1,130 @@
+msgid ""
+msgstr "Content-Type: text/plain\n"
+
+#: /src/cards/tabs/badges.vue:164
+#, icu-message-format
+msgid "addon.card.badge.subscriber.title"
+msgstr "{channel}'s {title} Badge"
+
+#: /src/cards/index.js:141
+#, icu-message-format
+msgid "addon.cards.actions.follow.tooltip"
+msgstr "Follow {user.login}"
+
+#: /src/cards/index.js:188
+#, icu-message-format
+msgid "addon.cards.actions.report.tooltip"
+msgstr "Report {user.login}..."
+
+#: /src/cards/index.js:167
+#, icu-message-format
+msgid "addon.cards.actions.unfollow.tooltip"
+msgstr "Un-Follow {user.login}"
+
+#: /src/cards/components/card.vue:50
+#, icu-message-format
+msgid "addon.cards.age"
+msgstr "{created,humantime}"
+
+#: /src/cards/components/card.vue:47
+#, icu-message-format
+msgid "addon.cards.age-tip"
+msgstr "Account Created at: {created,datetime}"
+
+#: /src/cards/tabs/badges.vue:13
+#, icu-message-format
+msgid "addon.cards.back"
+msgstr "Back"
+
+#: /src/cards/components/button-appearance.vue:30
+#, icu-message-format
+msgid "addon.cards.button-color"
+msgstr "Button Color"
+
+#: /src/cards/components/card.vue:77
+#: /src/cards/components/card.vue:78
+#, icu-message-format
+msgid "addon.cards.close"
+msgstr "Close"
+
+#: /src/cards/components/error-tab.vue:8
+#, icu-message-format
+msgid "addon.cards.error"
+msgstr "There was an error loading data for this user."
+
+#: /src/cards/components/card.vue:63
+#, icu-message-format
+msgid "addon.cards.follow"
+msgstr "{followed,humantime}"
+
+#: /src/cards/components/card.vue:60
+#, icu-message-format
+msgid "addon.cards.follow-tip"
+msgstr "Followed at: {followed,datetime}"
+
+#: /src/cards/components/button-appearance.vue:25
+#, icu-message-format
+msgid "addon.cards.is-button"
+msgstr "Display as button with background."
+
+#: /src/cards/components/button-appearance.vue:12
+#, icu-message-format
+msgid "addon.cards.is-menu"
+msgstr "Display in sub-menu."
+
+#: /src/cards/components/card.vue:71
+#, icu-message-format
+msgid "addon.cards.months"
+msgstr "{months, plural, one {# month} other {# months} }"
+
+#: /src/cards/components/card.vue:67
+#, icu-message-format
+msgid "addon.cards.months-tip"
+msgstr "Subscribed for {months, plural, one {# month} other {# months}}"
+
+#: /src/cards/tabs/actions.vue:17
+#: /src/cards/tabs/actions.vue:18
+#, icu-message-format
+msgid "addon.cards.more"
+msgstr "More"
+
+#: /src/cards/components/card.vue:88
+#: /src/cards/components/card.vue:89
+#, icu-message-format
+msgid "addon.cards.pin"
+msgstr "Pin"
+
+#: /src/cards/components/card.vue:67
+#, icu-message-format
+msgid "addon.cards.previous-months-tip"
+msgstr "Previously subscribed for {months, plural, one {# month} other {# months}}"
+
+#: /src/cards/index.js:34
+#, icu-message-format
+msgid "setting.add_ons.cards"
+msgstr "Cards"
+
+#: /src/cards/index.js:34
+#, icu-message-format
+msgid "setting.add_ons.cards.tabs"
+msgstr "tabs"
+
+#: /src/cards/index.js:34
+#, icu-message-format
+msgid "setting.add_ons.cards.tabs.actions"
+msgstr "Actions"
+
+#: /src/cards/index.js:34
+#, icu-message-format, md-text
+msgid "setting.add_ons.cards.tabs.actions.description"
+msgstr "Here, you define what actions are available on viewer cards."
+
+#: /src/cards/components/card.vue:53
+#, icu-message-format
+msgid "viewer-card.followers"
+msgstr "Followers"
+
+#: /src/cards/components/card.vue:56
+#, icu-message-format
+msgid "viewer-card.followers.number"
+msgstr "{followers,number}"

@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Serbian (latin) <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/sr_Latn/>\n"
+"Language-Team: Serbian (latin) "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/sr_Latn/>\n"
 "Language: sr-Latn\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.9\n"
 
 msgid "async-text.upload"
@@ -83,8 +83,7 @@ msgstr "Banuj korisnika"
 
 #, fuzzy
 msgid "chat.actions.timeout-reason"
-msgstr ""
-"Banuj korisnika {user.login} na {duration,number} sekundi/u {duration} zbog:"
+msgstr "Banuj korisnika {user.login} na {duration,number} sekundi/u {duration} zbog:"
 
 #, fuzzy
 msgid "chat.actions.timeout.desc"
@@ -250,9 +249,9 @@ msgstr "Pauziraj ćaskanje"
 
 msgid "chat.settings.pause-explain"
 msgstr ""
-"FrankerFaceZ će poništiti ponašanje funkcije 'Pause Chat' (pauziraj ćaskanje)"
-" u potpunosti. Molimo vas koristite FFZ opcije 'skrolbeka' koje se nalaze u "
-"sekciji 'Kontrolni centar',  'Ćaskanje' > 'Ponašanje'."
+"FrankerFaceZ će poništiti ponašanje funkcije 'Pause Chat' (pauziraj "
+"ćaskanje) u potpunosti. Molimo vas koristite FFZ opcije 'skrolbeka' koje "
+"se nalaze u sekciji 'Kontrolni centar',  'Ćaskanje' > 'Ponašanje'."
 
 msgid "chat.sub.anonymous-gifter"
 msgstr "Anonimni davalac"
@@ -302,24 +301,8 @@ msgstr "{user}  je poklonio {plan} pretplatu korisniku {recipient}! "
 msgid "chat.sub.plan"
 msgstr "na nivou {tier}"
 
-msgid "clip.desc.1"
-msgstr "Klip od korisnika {user}"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} je kreativan"
-
-msgid "clip.desc.1.playing"
-msgstr "korisnik {user} igra {game}"
-
-#, fuzzy
-msgid "clip.desc.2"
-msgstr ""
-"Klip od {curator} — {views,plural,\n"
-"one {# pregled} \n"
-"other {# pregleda}}"
-
-msgid "clip.unknown"
-msgstr "Nepoznato"
 
 msgid "directory.block"
 msgstr "Blokiraj"
@@ -556,13 +539,13 @@ msgstr ""
 
 msgid "i18n.interest"
 msgstr ""
-"Zainteresovani ste da pomognete sa lokalizacijom? Molimo vas da priključite "
-"našem [Discord](https://discord.gg/UrAkGhT) serveru i priključite kanalu "
-"lokalizacija.\n"
+"Zainteresovani ste da pomognete sa lokalizacijom? Molimo vas da "
+"priključite našem [Discord](https://discord.gg/UrAkGhT) serveru i "
+"priključite kanalu lokalizacija.\n"
 "\n"
 "Ova alatka dozvoljava prevodiocima da testiraju prevedene reči u realnom "
-"vremenu. Tako možete da se uverite da je sve u redu pre nego što prihvatite "
-"prevedenu reč ili rečenicu."
+"vremenu. Tako možete da se uverite da je sve u redu pre nego što "
+"prihvatite prevedenu reč ili rečenicu."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} odrađeno)"
@@ -704,8 +687,8 @@ msgstr "Emitovanje pre {count,number}s"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Čini se da je vaš lokani sat optrilike {count,number} sekunde netačan, što "
-"može ovo učiniti netačnim."
+"Čini se da je vaš lokani sat optrilike {count,number} sekunde netačan, "
+"što može ovo učiniti netačnim."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Statistika strima"
@@ -754,8 +737,9 @@ msgstr "Kompresor zvuka ne može biti omogućen kada gledate klipove."
 
 msgid "player.comp_button.help"
 msgstr ""
-"Za više detalja molimo vas da posetite FFZ kontrolni centar. Ukoliko nestane "
-"zvuka ili nešto nije u redu sa njim, molimo vas da resetujete plejer."
+"Za više detalja molimo vas da posetite FFZ kontrolni centar. Ukoliko "
+"nestane zvuka ili nešto nije u redu sa njim, molimo vas da resetujete "
+"plejer."
 
 msgid "player.comp_button.off"
 msgstr "Onemogući kompresor zvuka"
@@ -782,8 +766,8 @@ msgstr "Restartuj sve plejere (dupli klik)"
 
 msgid "popup.error"
 msgstr ""
-"Došlo je do greške prilikom otvaranja iskačućeg prozora. Morate omogućiti "
-"iskačuće prozore na Twitch - u."
+"Došlo je do greške prilikom otvaranja iskačućeg prozora. Morate "
+"omogućiti iskačuće prozore na Twitch - u."
 
 msgid "site.menu_button"
 msgstr "FrankerFaceZ kontrolni centar"
@@ -799,8 +783,8 @@ msgstr "dev"
 
 msgid "site.menu_button.error"
 msgstr ""
-"Došlo je do greške prilikom učitavanja FFZ kontrolong centra. Molimo va da "
-"osvežite stranicu."
+"Došlo je do greške prilikom učitavanja FFZ kontrolong centra. Molimo va "
+"da osvežite stranicu."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -942,16 +926,6 @@ msgstr "Prikaži još odgovora..."
 
 msgid "video-chat.time"
 msgstr "pre {time,humantime}"
-
-msgid "video.desc.1"
-msgstr "Video snimak od korisnika {user}"
-
-#, fuzzy
-msgid "video.desc.2"
-msgstr ""
-"{length,duration} — {views,plural,\n"
-"one {# pregled} \n"
-"other {# pregleda}} - {date,datetime}"
 
 msgid "video.published-on"
 msgstr "Objavljeno: {date,date}"

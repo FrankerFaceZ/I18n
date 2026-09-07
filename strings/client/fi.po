@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-12-12 17:16+0000\n"
 "Last-Translator: Jack Jofa <jackjofa@protonmail.com>\n"
-"Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/client/fi/>\n"
+"Language-Team: Finnish "
+"<https://weblate.frankerfacez.com/projects/frankerfacez/client/fi/>\n"
 "Language: fi\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -207,13 +207,13 @@ msgstr "Anonyymi lahjoittaja"
 
 msgid "chat.sub.cumulative-months"
 msgstr ""
-"Käyttäjä on tilannut kanavan yhteensä {cumulative,number} kuukautta, josta "
-"{streak,number} kuukautta yhtäjaksoisesti!"
+"Käyttäjä on tilannut kanavan yhteensä {cumulative,number} kuukautta, "
+"josta {streak,number} kuukautta yhtäjaksoisesti!"
 
 msgid "chat.sub.gift"
 msgstr ""
-"{user} lahjoittaa {count,plural, one {yhden} other {#}} tason {tier} {"
-"count,plural, one {tilauksen} other {tilausta}} kanavan {channel} "
+"{user} lahjoittaa {count,plural, one {yhden} other {#}} tason {tier} "
+"{count,plural, one {tilauksen} other {tilausta}} kanavan {channel} "
 "yhteisölle! "
 
 msgid "chat.sub.gift-first"
@@ -237,22 +237,8 @@ msgstr "{user} lahjoitti {plan} tilauksen käyttäjälle {recipient}! "
 msgid "chat.sub.plan"
 msgstr "tasolla {tier}"
 
-msgid "clip.desc.1"
-msgstr "Käyttäjän {user} leike"
-
 msgid "clip.desc.1.creative"
 msgstr "{user} on Creative"
-
-msgid "clip.desc.1.playing"
-msgstr "{user} pelaa {game}"
-
-msgid "clip.desc.2"
-msgstr ""
-"Leikkeen tekijä {curator} — {views, plural, one {# katselukerta} other {# "
-"katselukertaa}}"
-
-msgid "clip.unknown"
-msgstr "Tuntematon"
 
 msgid "directory.block"
 msgstr "Estä"
@@ -264,8 +250,7 @@ msgid "directory.hosted"
 msgstr "Jaettu kanava"
 
 msgid "directory.hosted.by-many"
-msgstr ""
-"Kanavaa jakaa {count,number} {count,plural,one {kanava} other {kanavaa}}"
+msgstr "Kanavaa jakaa {count,number} {count,plural,one {kanava} other {kanavaa}}"
 
 msgid "directory.hosted.by-one"
 msgstr "Jakaa {user}"
@@ -317,8 +302,8 @@ msgstr "Kanava"
 
 msgid "emote-menu.disable"
 msgstr ""
-"Tilapäisenä korjauskeinona voitte kokeilla FFZ hymiövalikon ottamista pois "
-"käytöstä."
+"Tilapäisenä korjauskeinona voitte kokeilla FFZ hymiövalikon ottamista "
+"pois käytöstä."
 
 msgid "emote-menu.emoji"
 msgstr "Hymiö"
@@ -455,8 +440,9 @@ msgstr ""
 "Oletko kiinnostunut osallistumaan käännöstyöhin? Liity "
 "[Discordiin](https://discord.gg/UrAkGhT) ja liity lokalisointikanavalle.\n"
 "\n"
-"Tämä työkalu mahdollistaa käännösten testaamisen reaaliajassa, tällä tavoin "
-"voi testata käännösten toimivuuden ennen niiden lähettämistä."
+"Tämä työkalu mahdollistaa käännösten testaamisen reaaliajassa, "
+"tällä tavoin voi testata käännösten toimivuuden ennen niiden "
+"lähettämistä."
 
 msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} valmis)"
@@ -586,8 +572,8 @@ msgstr "Lähetetty {count,number} sekuntia sitten"
 
 msgid "metadata.player-stats.delay-warning"
 msgstr ""
-"Paikallinen kellosi vaikuttaa olevan {count,number} sekuntia väärässä, mikä "
-"voi tehdä tästä epätarkan."
+"Paikallinen kellosi vaikuttaa olevan {count,number} sekuntia väärässä, "
+"mikä voi tehdä tästä epätarkan."
 
 msgid "metadata.player-stats.latency-tip"
 msgstr "Lähetyksen viive"
@@ -662,8 +648,8 @@ msgstr "dev"
 
 msgid "site.menu_button.error"
 msgstr ""
-"FFZ Ohjauskeskuksen avauksessa tapahtui virhe. Uudelleenlataa sivu ja yritä "
-"uudestaan."
+"FFZ Ohjauskeskuksen avauksessa tapahtui virhe. Uudelleenlataa sivu ja "
+"yritä uudestaan."
 
 msgid "site.menu_button.main-dev"
 msgstr "m-dev"
@@ -679,8 +665,9 @@ msgstr "Profiilit"
 
 msgid "site.menu_button.strings"
 msgstr ""
-"Löytyi {added,plural,one {# uusi merkkijono} other {# uutta merkkijonoa}} ja "
-"{changed,plural,one {# muutettu merkkijono} other {# muutettua merkkijonoa}}."
+"Löytyi {added,plural,one {# uusi merkkijono} other {# uutta merkkijonoa}} "
+"ja {changed,plural,one {# muutettu merkkijono} other {# muutettua "
+"merkkijonoa}}."
 
 msgid "site.menu_button.update-desc"
 msgstr "Päivitys saatavilla. Uudelleenlataa sivu."
@@ -713,8 +700,7 @@ msgid "tooltip.link-destination"
 msgstr "Kohde: {url}"
 
 msgid "tooltip.link-unsafe"
-msgstr ""
-"Varoitus: Tämä URL on tunnistettu mahdollisesti haitalliseksi: {reasons}"
+msgstr "Varoitus: Tämä URL on tunnistettu mahdollisesti haitalliseksi: {reasons}"
 
 msgid "tooltip.render-error"
 msgstr ""
@@ -733,12 +719,6 @@ msgstr "Näytä lisää vastauksia..."
 msgid "video-chat.time"
 msgstr "{time,humantime} sitten"
 
-msgid "video.desc.1"
-msgstr "Käyttäjän {user} video"
-
-msgid "video.desc.2"
-msgstr "{length,duration} — {views,number} katselukertaa — {date,datetime}"
-
 msgid "video.published-on"
 msgstr "Julkaistu {date,date}"
 
@@ -755,17 +735,6 @@ msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
 "(Taso {tier}, {months, plural, one {# kuukausi} other {# kuukautta}})"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-host"
-msgstr "Annettu URL sisältää virheellisen osoitteen, eikä sitä voida tarkistaa."
-
-#: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:182
-#: /src/utilities/rich_tokens.js:802
-#, icu-message-format
-msgid "card.error.timeout"
-msgstr "Pyyntö aikakatkaistiin."
 
 #: /src/modules/chat/rich_providers.js:119
 #: /src/modules/chat/rich_providers.js:123
@@ -795,17 +764,6 @@ msgstr "Väri"
 msgid "chat.overrides.editing"
 msgstr "Muokataan käyttäjää {user.login}..."
 
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.network"
-msgstr "Tapahtui verkkovirhe."
-
-#: /src/modules/chat/rich_providers.js:111
-#: /src/modules/chat/rich_providers.js:114
-#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
-msgid "cards.user.streaming"
-msgstr "lähettää {game}"
-
 #, icu-message-format
 msgid "channel.links.schedule"
 msgstr "Aikataulu"
@@ -823,7 +781,8 @@ msgstr "Muuta nimi ja väri"
 #, icu-message-format
 msgid "chat.actions.edit_overrides.desc"
 msgstr ""
-"Voit asettaa käyttäjälle itselleni näkyvän nimen ja värin tälle kanavalle."
+"Voit asettaa käyttäjälle itselleni näkyvän nimen ja värin tälle "
+"kanavalle."
 
 #: /src/modules/chat/actions/types.jsx:24
 #, icu-message-format
@@ -849,8 +808,8 @@ msgstr "Hurrasi {count, plural, one {bitin} other {bittiä}}"
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
 msgid "chat.ffz-badge.about"
 msgstr ""
-"Tämä merkki näkyy kaikille FrankerFaceZ käyttäjille. Käy sivulla {website} "
-"muuttaaksesi merkin asetuksia."
+"Tämä merkki näkyy kaikille FrankerFaceZ käyttäjille. Käy sivulla "
+"{website} muuttaaksesi merkin asetuksia."
 
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:294
 #, icu-message-format, lp-defaults:"{\"website\":\"FrankerFaceZ website\"}"
@@ -888,16 +847,6 @@ msgstr "Vastaus:"
 msgid "emoji.category.smileys_emotion"
 msgstr "Hymiöt & Ihmiset"
 
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-scheme"
-msgstr "Annettu URL ei käytä HTTP-protokollaa, eikä sitä voida tarkistaa."
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.unhandled"
-msgstr "Mikään käsittelijä ei tue tätä osoitetta."
-
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
 #, icu-message-format
 msgid "chat.sub.twitch-prime"
@@ -907,9 +856,10 @@ msgstr "Prime Gaming:lla"
 #, icu-message-format
 msgid "compat.bttv.emotes-on"
 msgstr ""
-"Olet ottanut \"FrankerFaceZ Emotes\" -toiminnin käyttöön BetterTTV -"
-"asetuksissa ja FrankerFaceZ on asennettu samaan aikaan. Poista \"FrankerFaceZ"
-" Emotes\" käytöstä BetterTTV -asetuksista, sillä se ei oel tarpeen."
+"Olet ottanut \"FrankerFaceZ Emotes\" -toiminnin käyttöön BetterTTV "
+"-asetuksissa ja FrankerFaceZ on asennettu samaan aikaan. Poista "
+"\"FrankerFaceZ Emotes\" käytöstä BetterTTV -asetuksista, sillä se ei "
+"oel tarpeen."
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -965,7 +915,9 @@ msgstr "Ruoat & Juomat"
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:820
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
-msgstr "Seuraa käyttäjää {user} käyttääksesi tätä hymiötä heidän kanavallaan."
+msgstr ""
+"Seuraa käyttäjää {user} käyttääksesi tätä hymiötä heidän "
+"kanavallaan."
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2072
 #, icu-message-format
@@ -1097,8 +1049,8 @@ msgstr "Vahvistuksen säätö"
 #, icu-message-format, lp-defaults:"{\"param\":\"?ffz-no-settings\"}"
 msgid "site.menu_button.no-settings"
 msgstr ""
-"Asetukset ovat poistettu käytöstä tässä välilehdessä, koska URL:ssa on \""
-"{param}\"."
+"Asetukset ovat poistettu käytöstä tässä välilehdessä, koska URL:ssa "
+"on \"{param}\"."
 
 #: /src/modules/main_menu/components/socket-info.vue:154
 #: /src/modules/main_menu/components/socket-info.vue:122
@@ -1186,16 +1138,6 @@ msgstr ""
 "{user} lahjoitti {months, plural, one {kuukauden} other {kuukauden}} tason "
 "{plan} tilauksen käyttäjälle {recipient}!"
 
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.empty"
-msgstr "Ei tietoja saatavilla"
-
-#: /src/utilities/rich_tokens.js:814
-#, icu-message-format
-msgid "card.error.invalid-port"
-msgstr "Annettu URL sisältää ei-tavallisen portin, eikä sitä voida tarkistaa."
-
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:700
 #, icu-message-format
 msgid "emoji.category.animals_nature"
@@ -1213,7 +1155,8 @@ msgstr ""
 "Hymiöiden näkyvyydellä voit piilottaa hymiöitä listalta yksittäin tai "
 "ryhmissä. Hymiöiden näkyvyyden ollessa käytössä klikkaa hymiötä "
 "piilottaaksesi tai tuodaksesi sen takaisin näyviin. Huomaa, että hymiöt "
-"näkyvät chatissa, jos joku käyttää niitä, mutta ne eivät näy hymiölistalla."
+"näkyvät chatissa, jos joku käyttää niitä, mutta ne eivät näy "
+"hymiölistalla."
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -1244,15 +1187,15 @@ msgstr "Sisällytä kanavat, jotka lähettävät ennalta tallennettua materiaali
 #, icu-message-format
 msgid "player.comp_button.help"
 msgstr ""
-"Katso lisätietoja FFZ ohjauskeskuksesta. Jos äänessä ilmenee häiriöitä, "
-"uudelleenkäynnistä soitin."
+"Katso lisätietoja FFZ ohjauskeskuksesta. Jos äänessä ilmenee "
+"häiriöitä, uudelleenkäynnistä soitin."
 
 #: /src/sites/twitch-twilight/modules/menu_button.jsx:321
 #, icu-message-format
 msgid "site.menu_button.changed"
 msgstr ""
-"FrankerFaceZ asetusten tarjaoja on muuttunut. Päivitä välilehti välttääksesi "
-"erikoista käytöstä."
+"FrankerFaceZ asetusten tarjaoja on muuttunut. Päivitä välilehti "
+"välttääksesi erikoista käytöstä."
 
 #: /src/modules/main_menu/components/socket-info.vue:243
 #, icu-message-format
