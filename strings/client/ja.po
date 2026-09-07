@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 17:16+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Japanese "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/ja/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: Japanese <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/ja/>\n"
 "Language: ja\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "card.empty"
 msgstr "データは返されませんでした"
@@ -1551,3 +1551,13 @@ msgstr "{user}のビデオ"
 #, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} 回視聴 - {date,datetime}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "お知らせ"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user}は{count}人のパーティーとRaid中。"
