@@ -11329,7 +11329,7 @@
 		"chat.watch-streak.body": {
 			"id": "chat.watch-streak.body",
 			"doc": "client",
-			"default": "{user} is currently on a {streak,number}-stream streak!",
+			"default": "{user} is currently on a {streak, plural, one {#-stream streak} other {#-stream streak}}!",
 			"source": "/src/sites/twitch-twilight/modules/chat/line.js:539",
 			"context": null,
 			"placeholders": [
@@ -17633,7 +17633,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18306,7 +18306,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},

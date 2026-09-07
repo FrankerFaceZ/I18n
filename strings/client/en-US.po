@@ -794,7 +794,9 @@ msgstr "Warn"
 #: /src/sites/twitch-twilight/modules/chat/line.js:539
 #, icu-message-format
 msgid "chat.watch-streak.body"
-msgstr "{user} is currently on a {streak,number}-stream streak!"
+msgstr ""
+"{user} is currently on a {streak, plural, one {#-stream streak} other "
+"{#-stream streak}}!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:523
 #, icu-message-format
