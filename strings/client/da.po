@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Danish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/da/>\n"
@@ -1560,3 +1560,15 @@ msgstr "Annoncering"
 #, icu-message-format
 msgid "chat.raid.notice"
 msgstr "{user} er på et raid sammen med en gruppe på {count}."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:539
+#, icu-message-format
+msgid "chat.watch-streak.body"
+msgstr ""
+"{user} er i øjeblikket i gang med en stime på {streak, plural, one {# "
+"stream} other {# streams}}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:523
+#, icu-message-format
+msgid "chat.watch-streak.header"
+msgstr "{icon}Seerstime nået {points_icon}+{copo}"
