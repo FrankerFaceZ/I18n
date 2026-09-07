@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"PO-Revision-Date: 2026-09-07 22:11+0000\n"
 "Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
@@ -1310,4 +1310,5 @@ msgstr "{icon}Ny tittarsvit {points_icon}+{copo}"
 #: /src/sites/twitch-twilight/modules/chat/line.js:539
 #, icu-message-format
 msgid "chat.watch-streak.body"
-msgstr "{user} har nu en svit på {streak,number} stream!"
+msgstr ""
+"{user} har nu en svit på {streak, plural, one {# stream} other {# streamar}}!"
