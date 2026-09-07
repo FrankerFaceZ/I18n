@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-16 14:32+0000\n"
-"Last-Translator: Jaroslav T <mrjaroslavik@gmail.com>\n"
-"Language-Team: Czech "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/cs/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: Czech <https://weblate.frankerfacez.com/projects/frankerfacez/"
+"client/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "async-text.upload"
 msgstr "Nahrát"
@@ -1230,3 +1230,13 @@ msgstr "Video z kanálu {user}"
 #, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Zhlédnutí - {date,datetime}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "Oznámení"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user} vtrhl(a) se svojí bandou v počtu {count}."
