@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-01 16:04+0000\n"
-"Last-Translator: Oliver Kristensen <zfihgaming@gmail.com>\n"
-"Language-Team: Danish "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/da/>\n"
+"PO-Revision-Date: 2026-09-07 17:50+0000\n"
+"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"Language-Team: Danish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/client/da/>\n"
 "Language: da\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "card.empty"
 msgstr "Data kunne ikke indlæses."
@@ -1550,3 +1550,13 @@ msgstr "Video af {user}"
 #, fuzzy
 msgid "video.desc.2"
 msgstr "{length,duration} — {views,number} Visninger - {date,datetime}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:506
+#, icu-message-format
+msgid "chat.announcement"
+msgstr "Annoncering"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:567
+#, icu-message-format
+msgid "chat.raid.notice"
+msgstr "{user} er på et raid sammen med en gruppe på {count}."
