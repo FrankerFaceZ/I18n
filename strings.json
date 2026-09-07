@@ -11162,7 +11162,7 @@
 			"id": "chat.sub.cumulative-months",
 			"doc": "client",
 			"default": "They've subscribed for {cumulative,number} months, currently on a {streak,number} month streak!",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:279\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:255",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:279\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:256",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11232,7 +11232,7 @@
 			"id": "chat.sub.main",
 			"doc": "client",
 			"default": "{user} subscribed {plan}. ",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:257\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:247",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:257\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:248",
 			"context": "{\"user\":\"SirStendec\",\"plan\":\"Tier 1\"}",
 			"revision": 2,
 			"placeholders": [
@@ -11256,7 +11256,7 @@
 			"id": "chat.sub.months",
 			"doc": "client",
 			"default": "They've subscribed for {count,number} months!",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:289\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:264",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:289\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:265",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11280,7 +11280,7 @@
 			"id": "chat.sub.plan",
 			"doc": "client",
 			"default": "at Tier {tier}",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:271\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:251",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:271\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:252",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11291,7 +11291,7 @@
 			"id": "chat.sub.twitch-prime",
 			"doc": "client",
 			"default": "with Prime Gaming",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:270\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:250",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:270\n/src/sites/twitch-twilight/modules/video_chat/index.jsx:251",
 			"context": null,
 			"revision": 2
 		},
@@ -14080,7 +14080,7 @@
 			"id": "video-chat.jump",
 			"doc": "client",
 			"default": "Jump to Video",
-			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:404",
+			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:406",
 			"context": null,
 			"revision": 1
 		},
@@ -14088,7 +14088,7 @@
 			"id": "video-chat.reply",
 			"doc": "client",
 			"default": "Reply",
-			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:358",
+			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:360",
 			"context": null,
 			"revision": 1
 		},
@@ -14096,7 +14096,7 @@
 			"id": "video-chat.show-more",
 			"doc": "client",
 			"default": "Show more replies...",
-			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:416",
+			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:418",
 			"context": null,
 			"revision": 1
 		},
@@ -14104,7 +14104,7 @@
 			"id": "video-chat.time",
 			"doc": "client",
 			"default": "{time,humantime} ago",
-			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:361",
+			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:363",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -17633,7 +17633,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -18306,7 +18306,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -23298,7 +23298,7 @@
 		"setting.entry.chat.video-chat.enabled.description": {
 			"id": "setting.entry.chat.video-chat.enabled.description",
 			"doc": "settings",
-			"default": "Display FFZ badges, emotes, and other features in Chat on Videos. Moderation features may be unavailable when this is enabled.",
+			"default": "Display FFZ badges, emotes, and other features in Chat on Videos.",
 			"source": "/src/sites/twitch-twilight/modules/video_chat/index.jsx:83\nFFZ Control Center",
 			"context": null,
 			"revision": 1,

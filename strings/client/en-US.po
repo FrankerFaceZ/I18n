@@ -697,7 +697,7 @@ msgid "chat.sub.anonymous-gifter"
 msgstr "An anonymous gifter"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:279
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:255
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:256
 #, icu-message-format
 msgid "chat.sub.cumulative-months"
 msgstr ""
@@ -736,7 +736,7 @@ msgid "chat.sub.gift-total"
 msgstr "They've gifted {count,number} Subs in the channel!"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:257
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:247
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:248
 #, icu-message-format, lp-defaults:"{\"user\":\"SirStendec\",\"plan\":\"Tier 1\"}"
 msgid "chat.sub.main"
 msgstr "{user} subscribed {plan}. "
@@ -749,7 +749,7 @@ msgstr ""
 "months}} in advance. "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:289
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:264
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:265
 #, icu-message-format
 msgid "chat.sub.months"
 msgstr "They've subscribed for {count,number} months!"
@@ -760,13 +760,13 @@ msgid "chat.sub.mystery"
 msgstr "{user} gifted a {plan} Sub to {recipient}! "
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:271
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:251
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:252
 #, icu-message-format
 msgid "chat.sub.plan"
 msgstr "at Tier {tier}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:270
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:250
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:251
 #, icu-message-format
 msgid "chat.sub.twitch-prime"
 msgstr "with Prime Gaming"
@@ -2593,22 +2593,22 @@ msgstr ""
 msgid "tooltip.shift-detail"
 msgstr "(Shift for Details)"
 
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:404
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:406
 #, icu-message-format
 msgid "video-chat.jump"
 msgstr "Jump to Video"
 
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:358
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:360
 #, icu-message-format
 msgid "video-chat.reply"
 msgstr "Reply"
 
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:416
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:418
 #, icu-message-format
 msgid "video-chat.show-more"
 msgstr "Show more replies..."
 
-#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:361
+#: /src/sites/twitch-twilight/modules/video_chat/index.jsx:363
 #, icu-message-format
 msgid "video-chat.time"
 msgstr "{time,humantime} ago"
