@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-09 22:17+0000\n"
+"PO-Revision-Date: 2026-09-09 22:35+0000\n"
 "Last-Translator: Forero <f019384k@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -351,3 +351,85 @@ msgstr "Muestra información de invitados cuando esté disponible."
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.show_guests"
 msgstr "Mostrar invitados del stream"
+
+#: /src/trubbel/settings/twilight/sidebar.js:129
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.show_category."
+"description"
+msgstr "Muestra la categoría del stream debajo de la vista previa."
+
+#: /src/trubbel/settings/twilight/sidebar.js:129
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.show_category"
+msgstr "Mostrar categoría del stream"
+
+#: /src/trubbel/settings/twilight/sidebar.js:93
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.auto"
+msgstr "Automático"
+
+#: /src/trubbel/settings/twilight/sidebar.js:96
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.720p60"
+msgstr "720p60"
+
+#: /src/trubbel/settings/twilight/sidebar.js:97
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.720p30"
+msgstr "720p"
+
+#: /src/trubbel/settings/twilight/sidebar.js:98
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.480p30"
+msgstr "480p"
+
+#: /src/trubbel/settings/twilight/sidebar.js:99
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.360p30"
+msgstr "360p"
+
+#: /src/trubbel/settings/twilight/sidebar.js:100
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.160p30"
+msgstr "160p"
+
+#: /src/trubbel/settings/twilight/sidebar.js:95
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.1080p60"
+msgstr "1080p60"
+
+#: /src/trubbel/settings/twilight/sidebar.js:85
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality"
+msgstr "Calidad de la vista previa"
+
+#: /src/trubbel/settings/twilight/sidebar.js:249
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.hide_native_tooltips."
+"description"
+msgstr "Se recomienda activar esta opción."
+
+#: /src/trubbel/settings/twilight/sidebar.js:21
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.description"
+msgstr ""
+"Muestra vistas previas al pasar el cursor sobre los canales en la barra "
+"lateral.\n"
+"\n"
+"**Nota:** Para que esto funcione correctamente, asegúrate de que tu "
+"navegador haya concedido permisos de **reproducción automática** y "
+"**sonido** a `player.twitch.tv`.\n"
+"\n"
+"--\n"
+"\n"
+"Dado que Twitch guarda tus [preferencias](https://www.twitch.tv/settings/"
+"content-preferences) en el dominio principal y no se comparten entre sus "
+"subdominios (`clips.twitch.tv`, `player.twitch.tv`)\n"
+"\n"
+"Reemplaza **CHANNEL_NAME** con el stream con el que tienes problemas "
+"actualmente y abre el enlace `https://player.twitch.tv/"
+"?channel=CHANNEL_NAME&parent=twitch.tv` haz clic en \"Comenzar a ver\" y "
+"debería recordar tu elección para esa categoría/juego en cuanto a \"el "
+"contenido está dirigido a cierto público.\""
