@@ -1,2 +1,299 @@
 msgid ""
-msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+msgstr ""
+"X-Generator: Weblate 2026.9\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-09-09 22:10+0000\n"
+"Last-Translator: Forero <f019384k@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addontrubbel/es/>\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: /src/trubbel/settings/appearance/tweaks.js:70
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.chat.viewer_list_padding"
+msgstr "Reducir espaciado en la lista de espectadores"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:172
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.tier3"
+msgstr "Nivel 3"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:171
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.tier2"
+msgstr "Nivel 2"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:169
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.tier1"
+msgstr "Nivel 1"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:170
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.prime"
+msgstr "Prime"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:166
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.months"
+msgstr "{n} meses"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:165
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.month"
+msgstr "1 mes"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:200
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.lapsed"
+msgstr "Suscrito anteriormente por {months}"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:176
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.hidden"
+msgstr "{tier} - Estado de suscripción oculto"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:191
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.gift.on-date"
+msgstr "el {date}"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:189
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.gift.gifted-by"
+msgstr "Regalado por {gifter}"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:187
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.gift.anonymous"
+msgstr "Anónimo"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:178
+#, icu-message-format
+msgid "trubbel.mod-landing.sub.active"
+msgstr "{tier} - Suscrito por {months}"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:42
+#, icu-message-format
+msgid "trubbel.mod-landing.section.offline"
+msgstr "Sin conexión ({count})"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:33
+#, icu-message-format
+msgid "trubbel.mod-landing.section.live"
+msgstr "En vivo ({count})"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:8
+#, icu-message-format
+msgid "trubbel.mod-landing.search-placeholder"
+msgstr "Filtrar…"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:224
+#, icu-message-format
+msgid "trubbel.mod-landing.offline"
+msgstr "Sin conexión"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:26
+#, icu-message-format
+msgid "trubbel.mod-landing.no-results"
+msgstr "Ningún canal coincide con tu búsqueda."
+
+#: /src/trubbel/components/mod_view/landing-page.vue:130
+#: /src/trubbel/components/mod_view/landing-page.vue:18
+#, icu-message-format
+msgid "trubbel.mod-landing.loading"
+msgstr "Cargando canales…"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:273
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.years"
+msgstr "hace {n} años"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:273
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.year"
+msgstr "hace 1 año"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:275
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.weeks"
+msgstr "hace {n} semanas"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:275
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.week"
+msgstr "hace 1 semana"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:254
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.now"
+msgstr "hace menos de un minuto"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:274
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.months"
+msgstr "hace {n} meses"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:274
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.month"
+msgstr "hace 1 mes"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:259
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.minutes"
+msgstr "hace {n} minutos"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:258
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.minute"
+msgstr "hace 1 minuto"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:265
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.hours"
+msgstr "hace {n} horas"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:264
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.hour"
+msgstr "hace 1 hora"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:279
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.days"
+msgstr "hace {n} días"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:278
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live.day"
+msgstr "hace 1 día"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:222
+#, icu-message-format
+msgid "trubbel.mod-landing.last-live"
+msgstr "Última vez en vivo {when}"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:22
+#, icu-message-format
+msgid "trubbel.mod-landing.error"
+msgstr "Error al cargar los canales moderados."
+
+#: /src/trubbel/components/mod_view/landing-page.vue:143
+#, icu-message-format
+msgid "trubbel.mod-landing.count-live"
+msgstr "{total} canales que moderas - {live} en vivo"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:138
+#, icu-message-format
+msgid "trubbel.mod-landing.count-filtered-live"
+msgstr "{filtered} de {total} canales - {live} en vivo"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:139
+#, icu-message-format
+msgid "trubbel.mod-landing.count-filtered"
+msgstr "{filtered} de {total} canales"
+
+#: /src/trubbel/components/mod_view/landing-page.vue:145
+#, icu-message-format
+msgid "trubbel.mod-landing.count"
+msgstr "{total} canales que moderas"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:25
+#, icu-message-format
+msgid "trubbel.mod-landing.badge.lead"
+msgstr "moderador principal"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:66
+#, icu-message-format
+msgid "trubbel.mod-landing.badge.gifts.one"
+msgstr "1 suscripción regalada"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:66
+#, icu-message-format
+msgid "trubbel.mod-landing.badge.gifts"
+msgstr "{n} suscripciones regaladas"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:31
+#, icu-message-format
+msgid "trubbel.mod-landing.badge.founder"
+msgstr "fundador"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:79
+#, icu-message-format
+msgid "trubbel.mod-landing.badge.ftc"
+msgstr "Primer mensaje en el chat"
+
+#: /src/trubbel/components/mod_view/landing-card.vue:16
+#, icu-message-format
+msgid "trubbel.mod-landing.badge.editor"
+msgstr "editor"
+
+#: /src/trubbel/settings/twilight/whispers.js:50
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.whispers.window.width"
+msgstr "Ancho de la ventana"
+
+#: /src/trubbel/settings/twilight/whispers.js:34
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.whispers.window.height"
+msgstr "Altura de la ventana"
+
+#: /src/trubbel/settings/twilight/whispers.js:16
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.whispers.drop_down"
+msgstr "Altura de la ventana"
+
+#: /src/trubbel/settings/twilight/timestamp.js:70
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.timestamp.search.relative.description"
+msgstr ""
+"Muestra una marca de tiempo relativa, como `(hace 2 días)`, `(hace 2 meses)"
+"`, `(hace 2 años)` al final."
+
+#: /src/trubbel/settings/twilight/timestamp.js:70
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.timestamp.search.relative"
+msgstr "Incluir marca de tiempo relativa"
+
+#: /src/trubbel/settings/twilight/timestamp.js:40
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.timestamp.search.format"
+msgstr "Formato de marca de tiempo"
+
+#: /src/trubbel/settings/twilight/timestamp.js:28
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.timestamp.search"
+msgstr "Mostrar marca de tiempo precisa en las páginas de búsqueda"
+
+#: /src/trubbel/settings/twilight/timestamp.js:17
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.timestamp.info.description"
+msgstr ""
+"Los formatos de hora personalizados se formatean usando la librería [Day.js]"
+"(https://day.js.org/docs/en/display/format)."
+
+#: /src/trubbel/settings/twilight/timestamp.js:17
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.timestamp.info"
+msgstr "Información"
+
+#: /src/trubbel/settings/twilight/sidebar.js:55
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.size.description"
+msgstr "Ajusta el tamaño de la ventana emergente de vista previa."
+
+#: /src/trubbel/settings/twilight/sidebar.js:55
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.size"
+msgstr "Tamaño de vista previa"
+
+#: /src/trubbel/settings/twilight/sidebar.js:141
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.show_viewer_count."
+"description"
+msgstr "Muestra el número de espectadores debajo de la vista previa."
