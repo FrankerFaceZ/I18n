@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-17 00:16+0000\n"
-"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"PO-Revision-Date: 2026-09-09 21:24+0000\n"
+"Last-Translator: Forero <f019384k@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/addon-7tv-emotes/es/>\n"
+"frankerfacez/addon7tv-emotes/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
@@ -135,3 +135,23 @@ msgstr "Visibilidad de Emoticono"
 #, icu-message-format
 msgid "setting.add_ons.7tv_emotes.user_cosmetics"
 msgstr "Cosméticos de usuario"
+
+#: /src/7tv-emotes/modules/emotes.js:33
+#, icu-message-format
+msgid "setting.entry.addon.seventv_emotes.emote_format"
+msgstr "Formato de emoticono"
+
+#: /src/7tv-emotes/modules/emotes.js:33
+#, icu-message-format, md-text
+msgid "setting.entry.addon.seventv_emotes.emote_format.description"
+msgstr "El formato de archivo que se usará para los emoticonos."
+
+#: /src/7tv-emotes/modules/emotes.js:42
+#, icu-message-format
+msgid "setting.entry.addon.seventv_emotes.emote_format.values.AVIF"
+msgstr "Avif"
+
+#: /src/7tv-emotes/modules/emotes.js:41
+#, icu-message-format
+msgid "setting.entry.addon.seventv_emotes.emote_format.values.WEBP"
+msgstr "Webp"
