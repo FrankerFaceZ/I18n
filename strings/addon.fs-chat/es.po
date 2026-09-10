@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 06:16+0000\n"
-"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"PO-Revision-Date: 2026-09-10 03:48+0000\n"
+"Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/addon-fullscreen-chat/es/>\n"
+"frankerfacez/addonfs-chat/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "addon.fs-chat.button.active"
 msgstr "Desactivar Chat PC"
@@ -229,3 +229,8 @@ msgid "setting.entry.addon.fs-chat.width.description"
 msgstr ""
 "La anchura que debería tener el chat PC, en píxeles. Predeterminado al ancho "
 "de chat normal. Si sabes CSS, puedes introducir una unidad diferente."
+
+#: /src/fs-chat/index.jsx:88
+#, icu-message-format
+msgid "setting.entry.addon.fs-chat.hide-scroll"
+msgstr "Ocultar la barra de desplazamiento del chat"
