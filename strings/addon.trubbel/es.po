@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 03:48+0000\n"
+"PO-Revision-Date: 2026-09-10 15:46+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -1568,3 +1568,244 @@ msgstr "Mostrar títulos completos en las vistas previas del stream"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.tweaks.titles.full_vod_preview"
 msgstr "Mostrar títulos completos en las vistas previas de los VODs"
+
+#: /src/trubbel/settings/appearance/declutter.js:103
+#: /src/trubbel/settings/appearance/declutter.js:116
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.directory"
+msgstr "Directorio"
+
+#: /src/trubbel/settings/appearance/tweaks.js:113
+#: /src/trubbel/settings/appearance/tweaks.js:128
+#: /src/trubbel/settings/appearance/tweaks.js:142
+#: /src/trubbel/settings/appearance/tweaks.js:155
+#: /src/trubbel/settings/appearance/tweaks.js:167
+#: /src/trubbel/settings/appearance/tweaks.js:179
+#: /src/trubbel/settings/appearance/tweaks.js:18
+#: /src/trubbel/settings/appearance/tweaks.js:191
+#: /src/trubbel/settings/appearance/tweaks.js:203
+#: /src/trubbel/settings/appearance/tweaks.js:217
+#: /src/trubbel/settings/appearance/tweaks.js:
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks"
+msgstr "Modificaciones"
+
+#: /src/trubbel/settings/channel/chat.js:186
+#: /src/trubbel/settings/channel/chat.js:204
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.input.counter"
+msgstr "Contador"
+
+#: /src/trubbel/settings/channel/chat.js:526
+#: /src/trubbel/settings/channel/chat.js:539
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_replace"
+msgstr "Reemplazo de texto"
+
+#: /src/trubbel/settings/dashboard/dashboard.js:16
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.dashboard"
+msgstr "Panel de control"
+
+#: /src/trubbel/settings/dashboard/dashboard.js:16
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.dashboard.video_producer"
+msgstr "Estudio de video"
+
+#: /src/trubbel/settings/appearance/declutter.js:331
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.player.disclosure"
+msgstr "Ocultar el aviso de clasificación de contenido"
+
+#: /src/trubbel/settings/appearance/declutter.js:382
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.about_section"
+msgstr "Ocultar sección Acerca de"
+
+#: /src/trubbel/settings/appearance/declutter.js:394
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.channel_panels"
+msgstr "Ocultar paneles del canal"
+
+#: /src/trubbel/settings/appearance/tweaks.js:217
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.tweaks.unban_requests.hide_mod_"
+"actions"
+msgstr "Ocultar acciones de moderación en Solicitudes de desbaneo"
+
+#: /src/trubbel/settings/appearance/tweaks.js:245
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.vods.time"
+msgstr "Mostrar un fondo negro detrás del tiempo actual y la duración"
+
+#: /src/trubbel/settings/appearance/tweaks.js:245
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.appearance.tweaks.vods.time.description"
+msgstr ""
+"Muestra un fondo negro detrás de la barra de búsqueda de los VODs, para el "
+"tiempo actual y la duración. Esto facilita ver el texto blanco."
+
+#: /src/trubbel/settings/channel/chat.js:73
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate"
+msgstr "Activar lista de bloqueo de emoticonos animados"
+
+#: /src/trubbel/settings/channel/chat.js:73
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate."
+"description"
+msgstr ""
+"Puedes desactivar individualmente los emoticonos animados haciendo clic "
+"derecho sobre ellos y luego pulsando \"Desactivar animación\"\n"
+"\n"
+"**Nota:** Si quieres desactivar la animación de **todos** los emoticonos, "
+"usa en su lugar [Chat > Apariencia > Emoticonos animados]"
+"(~chat.appearance.emotes)."
+
+#: /src/trubbel/settings/channel/chat.js:86
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate."
+"list"
+msgstr "Emoticonos bloqueados"
+
+#: /src/trubbel/settings/channel/chat.js:101
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.commands.custom"
+msgstr "Activar comandos personalizados"
+
+#: /src/trubbel/settings/channel/chat.js:165
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.header.info"
+msgstr "Mostrar información del stream en el encabezado del chat"
+
+#: /src/trubbel/settings/channel/chat.js:165
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.header.info.description"
+msgstr ""
+"Reemplaza el título \"Chat del stream\" con información del stream: "
+"latencia, tiempo en vivo, o ambos."
+
+#: /src/trubbel/settings/channel/chat.js:177
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.both"
+msgstr "Ambos (Tiempo en vivo y Latencia)"
+
+#: /src/trubbel/settings/channel/chat.js:175
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.latency"
+msgstr "Latencia del stream"
+
+#: /src/trubbel/settings/channel/chat.js:174
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.off"
+msgstr "Desactivado"
+
+#: /src/trubbel/settings/channel/chat.js:176
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.uptime"
+msgstr "Tiempo en vivo del stream"
+
+#: /src/trubbel/settings/channel/chat.js:376
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.hide_pinned_message"
+msgstr "Ocultar automáticamente mensajes fijados"
+
+#: /src/trubbel/settings/channel/chat.js:186
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.input.character_counter"
+msgstr "Contador de caracteres"
+
+#: /src/trubbel/settings/channel/chat.js:204
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.input.character_counter.size"
+msgstr "Tamaño de fuente del contador de caracteres"
+
+#: /src/trubbel/settings/channel/chat.js:196
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.input.character_counter.values."
+"bottom-left"
+msgstr "Abajo a la izquierda"
+
+#: /src/trubbel/settings/channel/chat.js:197
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.input.character_counter.values."
+"bottom-right"
+msgstr "Abajo a la derecha"
+
+#: /src/trubbel/settings/channel/chat.js:193
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.input.character_counter.values."
+"disabled"
+msgstr "Desactivado"
+
+#: /src/trubbel/settings/channel/chat.js:194
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-"
+"left"
+msgstr "Arriba a la izquierda"
+
+#: /src/trubbel/settings/channel/chat.js:195
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-"
+"right"
+msgstr "Arriba a la derecha"
+
+#: /src/trubbel/settings/channel/chat.js:709
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.leaderboard.shouldAutoRotate"
+msgstr ""
+"Desactivar rotación automática de la tabla de clasificación (Experimental)"
+
+#: /src/trubbel/settings/channel/chat.js:709
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.leaderboard.shouldAutoRotate."
+"description"
+msgstr ""
+"Evita que la tabla de clasificación (regalos/cheers/clips/etc.) cambie de "
+"página automáticamente."
+
+#: /src/trubbel/settings/channel/chat.js:219
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.links.clip_replace"
+msgstr "Reemplazar URLs de clips"
+
+#: /src/trubbel/settings/channel/chat.js:219
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.links.clip_replace.description"
+msgstr ""
+"Reemplaza los enlaces `/clip/` en el chat con el formato `clips.twitch.tv`."
+
+#: /src/trubbel/settings/channel/chat.js:259
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.markdown"
+msgstr "Activar Markdown"
+
+#: /src/trubbel/settings/channel/chat.js:259
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.markdown.description"
+msgstr ""
+"Soporte para markdown: negrita, cursiva, subrayado, tachado, spoilers y "
+"marcas de tiempo.\n"
+"\n"
+"**Nota:** Las marcas de tiempo usan el mismo formato que las de Discord."
+
+#: /src/trubbel/settings/channel/chat.js:247
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.markdown.info"
+msgstr "Información"
+
+#: /src/trubbel/settings/channel/chat.js:247
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.markdown.info.description"
+msgstr ""
+"⚠️ Ten en cuenta que solo los usuarios que tienen estas opciones activadas "
+"pueden verlas."
