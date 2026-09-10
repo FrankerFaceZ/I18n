@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-10 18:06+0000\n"
+"PO-Revision-Date: 2026-09-10 21:33+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -6964,10 +6964,10 @@ msgstr "Tamaño de la fuente"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.theme.font.size.description"
 msgstr ""
-"**Mínimo:** `1`, **Máximo:** `25`, *Predeterminado:* `12`\n"
+"**Mínimo:** `6`, **Máximo:** `25`, *Anterior predeterminado:* `13`\n"
 "\n"
-"El tamaño del texto normal, en píxeles. Esto puede verse afectado por la "
-"configuración de zoom y fuente de su navegador."
+"Tamaño del texto normal, en píxeles. Puede verse afectado por el zoom y la "
+"configuración de fuentes de tu navegador."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7268,3 +7268,8 @@ msgstr "Al pasar el cursor sobre el mensaje"
 #, icu-message-format
 msgid "setting.chat.actions.message_hover.appearance"
 msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/addon.vue:156
+#, icu-message-format
+msgid "addon.changelog"
+msgstr "Registro de cambios"
