@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-10 21:33+0000\n"
+"PO-Revision-Date: 2026-09-11 00:52+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -3721,7 +3721,7 @@ msgstr "Filtrado"
 #: /src/modules/main_menu/components/addon-list.vue:110
 #, icu-message-format
 msgid "addon.filter-enabled"
-msgstr "Mostrar solo complementos habilitados."
+msgstr "Activados"
 
 #, icu-message-format, md-text
 msgid "home.addon-new"
@@ -4105,7 +4105,7 @@ msgstr "Contenido Enriquecido"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.bits_and_cheering"
-msgstr "Bits y animaciones"
+msgstr "Bits y cheering"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -4315,7 +4315,7 @@ msgstr "Permitir que el Hype Train se muestre en el chat."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.animated"
-msgstr "Muestra animaciones."
+msgstr "Mostrar cheers animados."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:34
 #, icu-message-format
@@ -4337,11 +4337,11 @@ msgstr "Mostrar clasificación"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned.description"
 msgstr ""
-"La tabla de clasificación muestra los mejores animadores y subanimadores de "
-"un canal.\n"
+"La tabla de clasificación muestra los mejores cheerers y regaladores de un "
+"canal.\n"
 "\n"
-"Por defecto debido a una implementación anterior, esto hereda su valor de ["
-"Chat > Bits y Porras > Mostrar Bits](~chat.bits_and_cheering)."
+"Por defecto debido a una implementación anterior, esto hereda su valor de "
+"[Chat > Bits y cheering > Mostrar Bits](~chat.bits_and_cheering)."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6077,8 +6077,8 @@ msgstr "Muestra el botón Obtener Bits."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.display-bits-button.description"
 msgstr ""
-"Por defecto, hereda su valor de [Chat > Bits y porras > Mostrar bits](~chat."
-"bits_and_cheering)"
+"Por defecto, hereda su valor de [Chat > Bits y cheering > Mostrar bits]"
+"(~chat.bits_and_cheering)"
 
 #: /src/modules/main_menu/index.js:634
 #, icu-message-format
@@ -7273,3 +7273,212 @@ msgstr "Apariencia"
 #, icu-message-format
 msgid "addon.changelog"
 msgstr "Registro de cambios"
+
+#: /src/modules/main_menu/components/addon-list.vue:86
+#, icu-message-format
+msgid "addon.displaying"
+msgstr ""
+"Mostrando {visible, number} de {total, plural, one {# add-on} other {# add-"
+"ons} }."
+
+#: /src/modules/main_menu/components/addon-list.vue:91
+#, icu-message-format
+msgid "addon.displaying.filtered"
+msgstr ""
+"Los complementos que se muestran están siendo filtrados por tu búsqueda. "
+"Límpiala para ver todos los complementos disponibles."
+
+#: /src/modules/main_menu/components/addon.vue:92
+#, icu-message-format
+msgid "addon.external.description"
+msgstr ""
+"Este complemento ha sido cargado por un script externo y no puede "
+"deshabilitarse desde aquí."
+
+#: /src/modules/main_menu/components/addon-list.vue:33
+#, icu-message-format
+msgid "addon.filter-all"
+msgstr "Todos"
+
+#: /src/modules/main_menu/components/addon-list.vue:28
+#, icu-message-format
+msgid "addon.filter-all.tooltip"
+msgstr "Mostrar todos los complementos"
+
+#: /src/modules/main_menu/components/addon-list.vue:51
+#, icu-message-format
+msgid "addon.filter-disabled"
+msgstr "Desactivados"
+
+#: /src/modules/main_menu/components/addon-list.vue:46
+#, icu-message-format
+msgid "addon.filter-disabled.tooltip"
+msgstr "Mostrar solo los complementos desactivados"
+
+#: /src/modules/main_menu/components/addon-list.vue:37
+#, icu-message-format
+msgid "addon.filter-enabled.tooltip"
+msgstr "Mostrar solo los complementos activados"
+
+#: /src/modules/main_menu/components/addon-list.vue:22
+#, icu-message-format
+msgid "addon.filter-label"
+msgstr "Filtrar por"
+
+#: /src/modules/main_menu/components/addon.vue:45
+#, icu-message-format
+msgid "addon.maintainer"
+msgstr "Mantenedor: {maintainer}"
+
+#: /src/modules/main_menu/components/addon.vue:209
+#, icu-message-format
+msgid "addon.no-desc"
+msgstr "*Sin descripción.*"
+
+#: /src/modules/main_menu/components/addon-list.vue:15
+#, icu-message-format
+msgid "addon.refresh"
+msgstr "Actualizar"
+
+#: /src/modules/main_menu/components/addon-list.vue:4
+#, icu-message-format
+msgid "addon.refresh-needed"
+msgstr ""
+"Debes actualizar tus páginas de Twitch para que algunos cambios surtan "
+"efecto."
+
+#: /src/modules/main_menu/components/addon.vue:118
+#, icu-message-format
+msgid "addon.reload"
+msgstr "Recargar"
+
+#: /src/modules/main_menu/components/addon.vue:8
+#, icu-message-format
+msgid "addon.reloading"
+msgstr "Recargando"
+
+#: /src/modules/main_menu/components/addon-list.vue:66
+#, icu-message-format
+msgid "addon.sort-create-asc"
+msgstr "Creación (más antiguo)"
+
+#: /src/modules/main_menu/components/addon-list.vue:65
+#, icu-message-format
+msgid "addon.sort-create-desc"
+msgstr "Creación (más reciente)"
+
+#: /src/modules/main_menu/components/addon-list.vue:54
+#, icu-message-format
+msgid "addon.sort-label"
+msgstr "Ordenar por"
+
+#: /src/modules/main_menu/components/addon-list.vue:61
+#, icu-message-format
+msgid "addon.sort-name-asc"
+msgstr "Nombre (A–Z)"
+
+#: /src/modules/main_menu/components/addon-list.vue:62
+#, icu-message-format
+msgid "addon.sort-name-desc"
+msgstr "Nombre (Z–A)"
+
+#: /src/modules/main_menu/components/addon-list.vue:64
+#, icu-message-format
+msgid "addon.sort-update-asc"
+msgstr "Actualización (más antiguo)"
+
+#: /src/modules/main_menu/components/addon-list.vue:63
+#, icu-message-format
+msgid "addon.sort-update-desc"
+msgstr "Actualización (más reciente)"
+
+#: /src/modules/main_menu/legal.md:1
+#, icu-message-format, md-text
+msgid "home.legal"
+msgstr ""
+"### Políticas\n"
+"\n"
+"Consulta nuestros [Términos de Servicio](https://www.frankerfacez.com/terms) "
+"en nuestro sitio\n"
+"web https://www.frankerfacez.com/terms\n"
+"\n"
+"## Servicios de terceros\n"
+"\n"
+"### Sentry\n"
+"\n"
+"Este cliente utiliza Sentry.io para el reporte automático de errores. Cuando "
+"ocurre un error, se\n"
+"envía automáticamente un informe a la API de Sentry con información sobre el "
+"error y el estado del\n"
+"cliente en ese momento, para ayudarnos a reproducir y corregir el problema. "
+"Intentamos filtrar información personal, como claves de API, de los informes "
+"de error\n"
+"antes de enviarlos a Sentry.\n"
+"\n"
+"Para ver un ejemplo de los datos enviados o para desactivar el reporte "
+"automático de errores,\n"
+"revisa las opciones disponibles en `Gestión de datos > Reportes`.\n"
+"\n"
+"### Información de enlaces\n"
+"\n"
+"Este cliente no contacta directamente APIs o sitios web de terceros al "
+"recopilar datos\n"
+"para mostrar incrustaciones de contenido enriquecido e información "
+"emergente. No se envía información personal\n"
+"a APIs o sitios web de terceros durante este proceso.\n"
+"\n"
+"Los clientes solicitan información de enlaces desde nuestra propia API, "
+"enviando únicamente el\n"
+"enlace exacto solicitado, sin contexto adicional como el canal que el "
+"cliente está viendo en ese momento.\n"
+"Nuestro servidor realiza las solicitudes a APIs y sitios web de terceros en "
+"nombre del cliente y formatea\n"
+"los datos para que los clientes los muestren.\n"
+"\n"
+"Usamos las APIs de los siguientes servicios para obtener información de "
+"enlaces:\n"
+"\n"
+"* Discord ([Términos de Servicio](https://discordapp.com/terms), [Términos "
+"de Servicio para Desarrolladores](https://discordapp.com/developers/docs/"
+"legal))\n"
+"* Gyazo ([Términos de Servicio](https://gyazo.com/doc/terms))\n"
+"* Imgur ([Términos de Servicio](https://imgur.com/tos))\n"
+"* Pretzel Rocks ([Términos de Servicio](https://www.pretzel.rocks/terms))\n"
+"* Splits.io\n"
+"* Strawpoll.me ([Términos de Servicio](https://www.curse.com/terms-of-"
+"service))\n"
+"* Twitch ([Términos de Servicio](https://www.twitch.tv/p/legal/terms-of-"
+"service/), [Acuerdo para Desarrolladores](https://www.twitch.tv/p/legal/"
+"developer-agreement/))\n"
+"* Twitter ([Términos de Servicio](https://twitter.com/en/tos), [Términos de "
+"Servicio para Desarrolladores](https://developer.twitter.com/en/more/"
+"developer-terms.html))\n"
+"* xkcd\n"
+"* YouTube ([Terms of Service](https://www.youtube.com/t/terms), [Términos de "
+"Servicio para Desarrolladores](https://developers.google.com/youtube/terms/"
+"developer-policies), [Privacy Policy](https://policies.google.com/privacy))\n"
+"\n"
+"Además de extraer datos mediante APIs, nuestra información de enlaces "
+"también lee etiquetas de\n"
+"metadatos estándar de respuestas HTML para admitir una amplia variedad de "
+"sitios web.\n"
+"\n"
+"### Miniaturas de enlaces\n"
+"\n"
+"Las imágenes en miniatura de los enlaces se enrutan a través de un proxy a "
+"nuestros propios servidores para evitar filtrar\n"
+"direcciones IP de los usuarios u otros encabezados HTTP a servidores de "
+"terceros. No utilizamos servidores proxy\n"
+"para las imágenes en miniatura de un subconjunto específico y de confianza "
+"de sitios web. Los sitios para los que no\n"
+"utilizamos servidores proxy para las solicitudes de imágenes son los "
+"siguientes:\n"
+"\n"
+"* Discord\n"
+"* Gyazo\n"
+"* Imgur\n"
+"* Pretzel Rocks\n"
+"* Twitch\n"
+"* Twitter\n"
+"* xkcd\n"
+"* YouTube"
