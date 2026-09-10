@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 18:44+0000\n"
+"PO-Revision-Date: 2026-09-10 18:46+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -2729,3 +2729,36 @@ msgstr "Mostrar canales sin conexión"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.sort"
 msgstr "Ordenar por"
+
+#: /src/trubbel/settings/twilight/sidebar.js:300
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.sort."
+"values.alphabetical"
+msgstr "Alfabéticamente"
+
+#: /src/trubbel/settings/twilight/sidebar.js:299
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.sort."
+"values.manual"
+msgstr "Manual (orden de adición)"
+
+#: /src/trubbel/settings/twilight/sidebar.js:302
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.sort."
+"values.viewers_asc"
+msgstr "Espectadores (de menor a mayor)"
+
+#: /src/trubbel/settings/twilight/sidebar.js:301
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.sort."
+"values.viewers_desc"
+msgstr "Espectadores (de mayor a menor)"
+
+#: /src/trubbel/settings/twilight/sidebar.js:338
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar_extended.show_more.expand"
+msgstr "Expandir canales automáticamente"
