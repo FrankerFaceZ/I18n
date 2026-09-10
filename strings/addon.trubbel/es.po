@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 01:22+0000\n"
+"PO-Revision-Date: 2026-09-10 02:13+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -560,3 +560,687 @@ msgstr "Notificaciones"
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.appearance.notifications.custom"
 msgstr "Personalizar"
+
+#: /src/trubbel/settings/appearance/tweaks.js:18
+#: /src/trubbel/settings/appearance/tweaks.js:30
+#, icu-message-format
+msgid ""
+"setting.add_ons.trubbel_s_utilities.appearance.tweaks.buttons__input__"
+"select__textarea"
+msgstr "Botones, campos de entrada, listas desplegables, áreas de texto"
+
+#: /src/trubbel/settings/appearance/tweaks.js:45
+#: /src/trubbel/settings/appearance/tweaks.js:58
+#: /src/trubbel/settings/appearance/tweaks.js:70
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.chat"
+msgstr "Chat"
+
+#: /src/trubbel/settings/appearance/tweaks.js:84
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.directory"
+msgstr "Directorio"
+
+#: /src/trubbel/settings/appearance/tweaks.js:99
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.inventory"
+msgstr "Inventario"
+
+#: /src/trubbel/settings/appearance/tweaks.js:113
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.scrollbars"
+msgstr "Barras de desplazamiento"
+
+#: /src/trubbel/settings/appearance/tweaks.js:128
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.system_theme"
+msgstr "Tema del sistema"
+
+#: /src/trubbel/settings/appearance/tweaks.js:142
+#: /src/trubbel/settings/appearance/tweaks.js:155
+#: /src/trubbel/settings/appearance/tweaks.js:167
+#: /src/trubbel/settings/appearance/tweaks.js:179
+#: /src/trubbel/settings/appearance/tweaks.js:191
+#: /src/trubbel/settings/appearance/tweaks.js:203
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.titles"
+msgstr "Títulos"
+
+#: /src/trubbel/settings/appearance/tweaks.js:217
+#: /src/trubbel/settings/appearance/tweaks.js:230
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.unban_requests"
+msgstr "Solicitudes de desbaneo"
+
+#: /src/trubbel/settings/appearance/tweaks.js:245
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.vods"
+msgstr "VODs"
+
+#: /src/trubbel/settings/channel/chat.js:101
+#: /src/trubbel/settings/channel/chat.js:124
+#: /src/trubbel/settings/channel/chat.js:146
+#: /src/trubbel/settings/channel/chat.js:165
+#: /src/trubbel/settings/channel/chat.js:186
+#: /src/trubbel/settings/channel/chat.js:204
+#: /src/trubbel/settings/channel/chat.js:219
+#: /src/trubbel/settings/channel/chat.js:232
+#: /src/trubbel/settings/channel/chat.js:247
+#: /src/trubbel/settings/channel/chat.js:259
+#: /src/trubbel/settings/channel/chat.js:274
+#: /src/trubbel/settings/channel/chat.js:291
+#: /src/tru
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel"
+msgstr "Canal"
+
+#: /src/trubbel/settings/channel/chat.js:101
+#: /src/trubbel/settings/channel/chat.js:124
+#: /src/trubbel/settings/channel/chat.js:146
+#: /src/trubbel/settings/channel/chat.js:165
+#: /src/trubbel/settings/channel/chat.js:186
+#: /src/trubbel/settings/channel/chat.js:204
+#: /src/trubbel/settings/channel/chat.js:219
+#: /src/trubbel/settings/channel/chat.js:232
+#: /src/trubbel/settings/channel/chat.js:247
+#: /src/trubbel/settings/channel/chat.js:259
+#: /src/trubbel/settings/channel/chat.js:274
+#: /src/trubbel/settings/channel/chat.js:291
+#: /src/tru
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat"
+msgstr "Chat"
+
+#: /src/trubbel/settings/channel/chat.js:73
+#: /src/trubbel/settings/channel/chat.js:86
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.accessibility"
+msgstr "Accesibilidad"
+
+#: /src/trubbel/settings/channel/chat.js:73
+#: /src/trubbel/settings/channel/chat.js:86
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.accessibility.emotes"
+msgstr "Emoticonos"
+
+#: /src/trubbel/settings/channel/chat.js:101
+#: /src/trubbel/settings/channel/chat.js:124
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.commands"
+msgstr "Comandos"
+
+#: /src/trubbel/settings/channel/chat.js:101
+#: /src/trubbel/settings/channel/chat.js:124
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.commands.custom"
+msgstr "Personalizado"
+
+#: /src/trubbel/settings/channel/chat.js:165
+#: /src/trubbel/settings/channel/chat.js:390
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.header"
+msgstr "Encabezado"
+
+#: /src/trubbel/settings/channel/chat.js:165
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.header.info"
+msgstr "Información"
+
+#: /src/trubbel/settings/channel/chat.js:390
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.header.popout"
+msgstr "Ventana emergente"
+
+#: /src/trubbel/settings/channel/chat.js:219
+#: /src/trubbel/settings/channel/chat.js:232
+#: /src/trubbel/settings/channel/chat.js:247
+#: /src/trubbel/settings/channel/chat.js:259
+#: /src/trubbel/settings/channel/chat.js:274
+#: /src/trubbel/settings/channel/chat.js:291
+#: /src/trubbel/settings/channel/chat.js:376
+#: /src/trubbel/settings/channel/chat.js:512
+#: /src/trubbel/settings/channel/chat.js:526
+#: /src/trubbel/settings/channel/chat.js:539
+#: /src/trubbel/settings/channel/chat.js:550
+#: /src/trubbel/settings/channel/chat.js:563
+#: /src/tru
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages"
+msgstr "Mensajes"
+
+#: /src/trubbel/settings/channel/chat.js:219
+#: /src/trubbel/settings/channel/chat.js:232
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.links"
+msgstr "Enlaces"
+
+#: /src/trubbel/settings/channel/chat.js:247
+#: /src/trubbel/settings/channel/chat.js:259
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.markdown"
+msgstr "Markdown"
+
+#: /src/trubbel/settings/channel/chat.js:376
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.pinned_messages"
+msgstr "Mensajes fijados"
+
+#: /src/trubbel/settings/channel/chat.js:512
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.shared_chat"
+msgstr "Chat compartido"
+
+#: /src/trubbel/settings/channel/chat.js:550
+#: /src/trubbel/settings/channel/chat.js:563
+#: /src/trubbel/settings/channel/chat.js:575
+#: /src/trubbel/settings/channel/chat.js:595
+#: /src/trubbel/settings/channel/chat.js:609
+#: /src/trubbel/settings/channel/chat.js:623
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_to_speech"
+msgstr "Texto a voz"
+
+#: /src/trubbel/settings/channel/chat.js:639
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.timestamp"
+msgstr "Marca de tiempo"
+
+#: /src/trubbel/settings/channel/chat.js:654
+#: /src/trubbel/settings/channel/chat.js:667
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.translation"
+msgstr "Traducción"
+
+#: /src/trubbel/settings/channel/chat.js:315
+#: /src/trubbel/settings/channel/chat.js:332
+#: /src/trubbel/settings/channel/chat.js:344
+#: /src/trubbel/settings/channel/chat.js:358
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.moderation"
+msgstr "Moderación"
+
+#: /src/trubbel/settings/channel/chat.js:315
+#: /src/trubbel/settings/channel/chat.js:332
+#: /src/trubbel/settings/channel/chat.js:344
+#: /src/trubbel/settings/channel/chat.js:358
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.moderation.context_menu"
+msgstr "Menú contextual"
+
+#: /src/trubbel/settings/channel/chat.js:405
+#: /src/trubbel/settings/channel/chat.js:420
+#: /src/trubbel/settings/channel/chat.js:437
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.notifications"
+msgstr "Notificaciones"
+
+#: /src/trubbel/settings/channel/chat.js:405
+#: /src/trubbel/settings/channel/chat.js:420
+#: /src/trubbel/settings/channel/chat.js:437
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.notifications.predictions"
+msgstr "Predicciones"
+
+#: /src/trubbel/settings/channel/chat.js:456
+#: /src/trubbel/settings/channel/chat.js:474
+#: /src/trubbel/settings/channel/chat.js:492
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.raids"
+msgstr "Raids"
+
+#: /src/trubbel/settings/channel/chat.js:456
+#: /src/trubbel/settings/channel/chat.js:474
+#: /src/trubbel/settings/channel/chat.js:492
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.raids.preview"
+msgstr "Vista previa"
+
+#: /src/trubbel/settings/channel/chat.js:709
+#: /src/trubbel/settings/channel/chat.js:724
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.ui"
+msgstr "Interfaz"
+
+#: /src/trubbel/settings/channel/chat.js:709
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.ui.leaderboard"
+msgstr "Tabla de clasificación"
+
+#: /src/trubbel/settings/channel/chat.js:724
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.ui.viewer_list"
+msgstr "Lista de espectadores"
+
+#: /src/trubbel/settings/channel/mod-view.js:27
+#: /src/trubbel/settings/channel/mod-view.js:44
+#: /src/trubbel/settings/channel/mod-view.js:62
+#: /src/trubbel/settings/channel/mod-view.js:81
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.mod_view"
+msgstr "Vista de moderador"
+
+#: /src/trubbel/settings/channel/mod-view.js:62
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.mod_view.auto"
+msgstr "Automático"
+
+#: /src/trubbel/settings/channel/mod-view.js:81
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.mod_view.landing_page"
+msgstr "Página de inicio"
+
+#: /src/trubbel/settings/channel/player.js:21
+#: /src/trubbel/settings/channel/player.js:36
+#: /src/trubbel/settings/channel/player.js:49
+#: /src/trubbel/settings/channel/player.js:64
+#: /src/trubbel/settings/twilight/clips.js:33
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player"
+msgstr "Reproductor"
+
+#: /src/trubbel/settings/twilight/clips.js:33
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.clips"
+msgstr "Clips"
+
+#: /src/trubbel/settings/channel/player.js:21
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.errors"
+msgstr "Errores"
+
+#: /src/trubbel/settings/channel/player.js:36
+#: /src/trubbel/settings/channel/player.js:49
+#: /src/trubbel/settings/channel/player.js:64
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.livestream"
+msgstr "Transmisión en vivo"
+
+#: /src/trubbel/settings/channel/vods.js:105
+#: /src/trubbel/settings/channel/vods.js:120
+#: /src/trubbel/settings/channel/vods.js:133
+#: /src/trubbel/settings/channel/vods.js:24
+#: /src/trubbel/settings/channel/vods.js:38
+#: /src/trubbel/settings/channel/vods.js:51
+#: /src/trubbel/settings/channel/vods.js:76
+#: /src/trubbel/settings/channel/vods.js:89
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.vods"
+msgstr "VODs"
+
+#: /src/trubbel/settings/channel/vods.js:24
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.vods.playback"
+msgstr "Reproducción"
+
+#: /src/trubbel/settings/channel/vods.js:38
+#: /src/trubbel/settings/channel/vods.js:51
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.vods.progress_bar"
+msgstr "Barra de progreso"
+
+#: /src/trubbel/settings/channel/vods.js:105
+#: /src/trubbel/settings/channel/vods.js:76
+#: /src/trubbel/settings/channel/vods.js:89
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.vods.seeking"
+msgstr "Desplazamiento"
+
+#: /src/trubbel/settings/channel/vods.js:120
+#: /src/trubbel/settings/channel/vods.js:133
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.vods.segments"
+msgstr "Segmentos"
+
+#: /src/trubbel/settings/dashboard/dashboard.js:16
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.dashboard.video_producer.deletion"
+msgstr "Eliminación"
+
+#: /src/trubbel/settings/directory/following.js:19
+#: /src/trubbel/settings/directory/following.js:37
+#: /src/trubbel/settings/directory/following.js:53
+#: /src/trubbel/settings/directory/thumbnails.js:13
+#: /src/trubbel/settings/directory/thumbnails.js:30
+#: /src/trubbel/settings/directory/thumbnails.js:58
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.directory"
+msgstr "Directorio"
+
+#: /src/trubbel/settings/directory/following.js:19
+#: /src/trubbel/settings/directory/following.js:37
+#: /src/trubbel/settings/directory/following.js:53
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.directory.following"
+msgstr "Siguiendo"
+
+#: /src/trubbel/settings/directory/following.js:19
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.directory.following.followed_channels"
+msgstr "Canales seguidos"
+
+#: /src/trubbel/settings/directory/following.js:37
+#: /src/trubbel/settings/directory/following.js:53
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.directory.following.tabs"
+msgstr "Pestañas"
+
+#: /src/trubbel/settings/directory/thumbnails.js:13
+#: /src/trubbel/settings/directory/thumbnails.js:30
+#: /src/trubbel/settings/directory/thumbnails.js:58
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.directory.thumbnails"
+msgstr "Miniaturas"
+
+#: /src/trubbel/settings/directory/thumbnails.js:13
+#: /src/trubbel/settings/directory/thumbnails.js:30
+#: /src/trubbel/settings/directory/thumbnails.js:58
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.directory.thumbnails.preview"
+msgstr "Vista previa"
+
+#: /src/trubbel/settings/inventory/drops.js:26
+#: /src/trubbel/settings/inventory/drops.js:45
+#: /src/trubbel/settings/inventory/drops.js:62
+#: /src/trubbel/settings/inventory/drops.js:81
+#: /src/trubbel/settings/inventory/drops.js:96
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.inventory"
+msgstr "Inventario"
+
+#: /src/trubbel/settings/inventory/drops.js:26
+#: /src/trubbel/settings/inventory/drops.js:45
+#: /src/trubbel/settings/inventory/drops.js:62
+#: /src/trubbel/settings/inventory/drops.js:81
+#: /src/trubbel/settings/inventory/drops.js:96
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.inventory.drops"
+msgstr "Drops"
+
+#: /src/trubbel/settings/inventory/drops.js:26
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.inventory.drops.channel"
+msgstr "Canal"
+
+#: /src/trubbel/settings/inventory/drops.js:45
+#: /src/trubbel/settings/inventory/drops.js:62
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.inventory.drops.claim"
+msgstr "Reclamar"
+
+#: /src/trubbel/settings/inventory/drops.js:81
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.inventory.drops.collapse"
+msgstr "Contraer"
+
+#: /src/trubbel/settings/inventory/drops.js:96
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.inventory.drops.progress"
+msgstr "Progreso"
+
+#: /src/trubbel/settings/twilight/clips.js:18
+#: /src/trubbel/settings/twilight/experiments.js:16
+#: /src/trubbel/settings/twilight/icon-finder.js:89
+#: /src/trubbel/settings/twilight/moderator.js:18
+#: /src/trubbel/settings/twilight/prime.js:14
+#: /src/trubbel/settings/twilight/sidebar.js:106
+#: /src/trubbel/settings/twilight/sidebar.js:117
+#: /src/trubbel/settings/twilight/sidebar.js:129
+#: /src/trubbel/settings/twilight/sidebar.js:141
+#: /src/trubbel/settings/twilight/sidebar.js:153
+#: /src/trubbel/settings/twilight/sidebar.js:165
+#: /src/
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall"
+msgstr "General"
+
+#: /src/trubbel/settings/twilight/clips.js:18
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.clips"
+msgstr "Clips"
+
+#: /src/trubbel/settings/twilight/clips.js:18
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.clips.subdomain"
+msgstr "Subdominio"
+
+#: /src/trubbel/settings/twilight/experiments.js:16
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.experiments"
+msgstr "Experimentos"
+
+#: /src/trubbel/settings/twilight/icon-finder.js:89
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.icon_finder"
+msgstr "Buscador de iconos"
+
+#: /src/trubbel/settings/twilight/icon-finder.js:89
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.icon_finder.icon_finder"
+msgstr "Buscador de iconos"
+
+#: /src/trubbel/settings/twilight/moderator.js:18
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.moderator"
+msgstr "Moderador"
+
+#: /src/trubbel/settings/twilight/moderator.js:18
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.moderator.live"
+msgstr "En vivo"
+
+#: /src/trubbel/settings/twilight/prime.js:14
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.prime"
+msgstr "Prime"
+
+#: /src/trubbel/settings/twilight/prime.js:14
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.prime.reminder"
+msgstr "Recordatorio"
+
+#: /src/trubbel/settings/twilight/sidebar.js:106
+#: /src/trubbel/settings/twilight/sidebar.js:117
+#: /src/trubbel/settings/twilight/sidebar.js:129
+#: /src/trubbel/settings/twilight/sidebar.js:141
+#: /src/trubbel/settings/twilight/sidebar.js:153
+#: /src/trubbel/settings/twilight/sidebar.js:165
+#: /src/trubbel/settings/twilight/sidebar.js:177
+#: /src/trubbel/settings/twilight/sidebar.js:189
+#: /src/trubbel/settings/twilight/sidebar.js:201
+#: /src/trubbel/settings/twilight/sidebar.js:21
+#: /src/trubbel/settings/twilight/sidebar.js:213
+#: /src/tr
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.sidebar"
+msgstr "Barra lateral"
+
+#: /src/trubbel/settings/twilight/sidebar.js:264
+#: /src/trubbel/settings/twilight/sidebar.js:276
+#: /src/trubbel/settings/twilight/sidebar.js:291
+#: /src/trubbel/settings/twilight/sidebar.js:311
+#: /src/trubbel/settings/twilight/sidebar.js:325
+#: /src/trubbel/settings/twilight/sidebar.js:338
+#: /src/trubbel/settings/twilight/sidebar.js:355
+#: /src/trubbel/settings/twilight/sidebar.js:370
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.sidebar_extended"
+msgstr "Barra lateral extendida"
+
+#: /src/trubbel/settings/twilight/sidebar.js:264
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.sidebar_extended.about"
+msgstr "Acerca de"
+
+#: /src/trubbel/settings/twilight/sidebar.js:276
+#: /src/trubbel/settings/twilight/sidebar.js:291
+#: /src/trubbel/settings/twilight/sidebar.js:311
+#: /src/trubbel/settings/twilight/sidebar.js:325
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.sidebar_extended.pinned_channels"
+msgstr "Canales fijados"
+
+#: /src/trubbel/settings/twilight/sidebar.js:338
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.sidebar_extended.show_more"
+msgstr "Mostrar más"
+
+#: /src/trubbel/settings/twilight/sidebar.js:355
+#: /src/trubbel/settings/twilight/sidebar.js:370
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.sidebar_extended.sidebar_expand"
+msgstr "Expandir barra lateral"
+
+#: /src/trubbel/settings/twilight/sidebar.js:106
+#: /src/trubbel/settings/twilight/sidebar.js:117
+#: /src/trubbel/settings/twilight/sidebar.js:129
+#: /src/trubbel/settings/twilight/sidebar.js:141
+#: /src/trubbel/settings/twilight/sidebar.js:153
+#: /src/trubbel/settings/twilight/sidebar.js:165
+#: /src/trubbel/settings/twilight/sidebar.js:177
+#: /src/trubbel/settings/twilight/sidebar.js:189
+#: /src/trubbel/settings/twilight/sidebar.js:201
+#: /src/trubbel/settings/twilight/sidebar.js:21
+#: /src/trubbel/settings/twilight/sidebar.js:213
+#: /src/tr
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.sidebar.preview"
+msgstr "Vista previa"
+
+#: /src/trubbel/settings/twilight/timestamp.js:17
+#: /src/trubbel/settings/twilight/timestamp.js:28
+#: /src/trubbel/settings/twilight/timestamp.js:40
+#: /src/trubbel/settings/twilight/timestamp.js:70
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.timestamp"
+msgstr "Marca de tiempo"
+
+#: /src/trubbel/settings/twilight/timestamp.js:17
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.timestamp.info"
+msgstr "Información"
+
+#: /src/trubbel/settings/twilight/timestamp.js:28
+#: /src/trubbel/settings/twilight/timestamp.js:40
+#: /src/trubbel/settings/twilight/timestamp.js:70
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.timestamp.search"
+msgstr "Búsqueda"
+
+#: /src/trubbel/settings/twilight/tooltips.js:12
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.tooltips.behaviour"
+msgstr "Comportamiento"
+
+#: /src/trubbel/settings/twilight/whispers.js:16
+#: /src/trubbel/settings/twilight/whispers.js:34
+#: /src/trubbel/settings/twilight/whispers.js:50
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.whispers"
+msgstr "Susurros"
+
+#: /src/trubbel/settings/twilight/whispers.js:16
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.whispers.drop_down"
+msgstr "Menú desplegable"
+
+#: /src/trubbel/settings/twilight/whispers.js:34
+#: /src/trubbel/settings/twilight/whispers.js:50
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.whispers.window"
+msgstr "Ventana"
+
+#: /src/trubbel/settings/appearance/declutter.js:35
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.channel.celebration"
+msgstr "Ocultar celebraciones en pantalla"
+
+#: /src/trubbel/settings/appearance/declutter.js:49
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.chat.drops_button"
+msgstr "Ocultar botón de drops del canal"
+
+#: /src/trubbel/settings/appearance/declutter.js:49
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.chat.drops_button."
+"description"
+msgstr "Esto ocultará el botón de drops debajo del cuadro de entrada del chat."
+
+#: /src/trubbel/settings/appearance/declutter.js:62
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.chat.send_reply"
+msgstr "Ocultar botón de enviar / responder"
+
+#: /src/trubbel/settings/appearance/declutter.js:62
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.appearance.declutter.chat.send_reply.description"
+msgstr "Los mensajes aún se pueden enviar pulsando Enter"
+
+#: /src/trubbel/settings/appearance/declutter.js:75
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.chat.shared_header.avatars"
+msgstr "Ocultar avatares del encabezado de chat compartido"
+
+#: /src/trubbel/settings/appearance/declutter.js:75
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.chat.shared_header.avatars."
+"description"
+msgstr "Esto evita que los avatares se muestren en el encabezado del chat."
+
+#: /src/trubbel/settings/appearance/declutter.js:88
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.chat.stream_header"
+msgstr "Ocultar encabezado del chat del stream"
+
+#: /src/trubbel/settings/appearance/declutter.js:88
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.chat.stream_header."
+"description"
+msgstr ""
+"**Nota:** Esto mueve los botones del encabezado dentro del menú de "
+"configuración del chat."
+
+#: /src/trubbel/settings/appearance/declutter.js:103
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.directory.following_title"
+msgstr "Ocultar el título \"Siguiendo\""
+
+#: /src/trubbel/settings/appearance/declutter.js:103
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.directory.following_title."
+"description"
+msgstr ""
+"Oculta el enorme título \"Siguiendo\" en las páginas de [siguiendo](https://"
+"twitch.tv/directory/following)."
+
+#: /src/trubbel/settings/appearance/declutter.js:116
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.directory.promotional"
+msgstr "Ocultar tarjetas de eventos promocionados"
+
+#: /src/trubbel/settings/appearance/declutter.js:116
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.directory.promotional."
+"description"
+msgstr ""
+"Oculta las tarjetas promocionales especiales que Twitch mezcla en el "
+"directorio de categorías. Las categorías normales no se ven afectadas"
+
+#: /src/trubbel/settings/appearance/declutter.js:18
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.front-page.carousel"
+msgstr "Ocultar carrusel de la página principal"
+
+#: /src/trubbel/settings/appearance/declutter.js:368
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.player.bottom_gradient"
+msgstr "Ocultar el degradado inferior"
+
+#: /src/trubbel/settings/appearance/declutter.js:319
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.player.cc"
+msgstr "Ocultar el botón de \"Subtítulos\" dentro del menú de configuración"
