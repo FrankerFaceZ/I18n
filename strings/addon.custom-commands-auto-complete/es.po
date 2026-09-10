@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 21:13+0000\n"
+"PO-Revision-Date: 2026-09-10 21:15+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addoncustom-commands-auto-complete/es/>\n"
@@ -212,3 +212,34 @@ msgstr "Duración de la caché (segundos)"
 msgid "setting.entry.addon.custom-commands.cache-duration.description"
 msgstr ""
 "Cuánto tiempo almacenar en caché los comandos. Establece 0 para desactivarlo."
+
+#: /src/custom-commands-auto-complete/index.js:61
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode"
+msgstr "Modo de completado"
+
+#: /src/custom-commands-auto-complete/index.js:61
+#, icu-message-format, md-text
+msgid "setting.entry.addon.custom-commands.completion-mode.description"
+msgstr "Cómo aparecen los comandos en el autocompletado."
+
+#: /src/custom-commands-auto-complete/index.js:72
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode.values.both"
+msgstr "Ambos (prefijo y /)"
+
+#: /src/custom-commands-auto-complete/index.js:70
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode.values.prefix"
+msgstr "Prefijo (!ping o definido por la fuente)"
+
+#: /src/custom-commands-auto-complete/index.js:71
+#, icu-message-format
+msgid "setting.entry.addon.custom-commands.completion-mode.values.slash"
+msgstr "Barra (/ping)"
+
+#: /src/custom-commands-auto-complete/index.js:43
+#, icu-message-format, md-text
+msgid "setting.entry.addon.custom-commands.enabled.description"
+msgstr ""
+"Activa o desactiva el autocompletado de comandos personalizados de bots."
