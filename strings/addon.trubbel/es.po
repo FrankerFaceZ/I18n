@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 18:46+0000\n"
+"PO-Revision-Date: 2026-09-10 18:57+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -2762,3 +2762,49 @@ msgstr "Espectadores (de mayor a menor)"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.twilight.sidebar_extended.show_more.expand"
 msgstr "Expandir canales automáticamente"
+
+#: /src/trubbel/settings/twilight/sidebar.js:338
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar_extended.show_more.expand."
+"description"
+msgstr ""
+"Puedes ocultar los canales sin conexión en [Apariencia > Diseño > Navegación "
+"lateral > \"Ocultar canales sin conexión\"](~appearance.layout).\n"
+"\n"
+"**Nota:** Ten en cuenta que la opción de canales fijados **Mostrar canales "
+"sin conexión** podría no funcionar correctamente si está desactivada."
+
+#: /src/trubbel/settings/twilight/sidebar.js:21
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview"
+msgstr "Activar vistas previas en la barra lateral"
+
+#: /src/trubbel/settings/twilight/sidebar.js:73
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.audio"
+msgstr "Activar audio para vistas previas"
+
+#: /src/trubbel/settings/twilight/sidebar.js:73
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.audio.description"
+msgstr ""
+"Ten en cuenta que esto usa tu volumen predeterminado para los streams. "
+"Algunos streams pueden sonar fuerte."
+
+#: /src/trubbel/settings/twilight/sidebar.js:37
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.delay"
+msgstr "Retraso de vista previa"
+
+#: /src/trubbel/settings/twilight/sidebar.js:37
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.delay.description"
+msgstr ""
+"Cuánto tiempo mantener el cursor antes de mostrar la vista previa (en "
+"milisegundos). Usa `0` para no tener retraso."
+
+#: /src/trubbel/settings/twilight/sidebar.js:94
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.quality.values.chunked"
+msgstr "Fuente"
