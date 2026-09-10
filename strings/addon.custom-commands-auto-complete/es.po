@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 21:01+0000\n"
+"PO-Revision-Date: 2026-09-10 21:02+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addoncustom-commands-auto-complete/es/>\n"
@@ -52,3 +52,25 @@ msgstr "O nombre(s) de canal"
 msgid "addon.custom-commands.sources.channel-names-hint"
 msgstr ""
 "Lista separada por comas de canales donde estos comandos están disponibles"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:173
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-url"
+msgstr "URL de la API del canal (opcional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:175
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-url-hint"
+msgstr ""
+"URL para obtener el ID del canal si es necesario. Usa el marcador de "
+"posición {channel}."
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:95
+#, icu-message-format
+msgid "addon.custom-commands.sources.clear-all"
+msgstr "Borrar todo lo personalizado"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:140
+#, icu-message-format
+msgid "addon.custom-commands.sources.commands-url"
+msgstr "URL de la API de comandos"
