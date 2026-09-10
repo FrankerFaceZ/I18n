@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 02:31+0000\n"
+"PO-Revision-Date: 2026-09-10 03:48+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -1333,3 +1333,238 @@ msgstr "Ocultar el Tren del Tesoro"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.watch_streak"
 msgstr "Ocultar Racha de visualización"
+
+#: /src/trubbel/settings/appearance/declutter.js:430
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.ChannelSkinsBanner"
+msgstr "Ocultar el banner patrocinado sobre el chat"
+
+#: /src/trubbel/settings/appearance/declutter.js:442
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.ChannelSkinsOverlay"
+msgstr "Ocultar el logo patrocinado dentro del reproductor"
+
+#: /src/trubbel/settings/appearance/declutter.js:454
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.ChannelSkinsRibbon"
+msgstr "Ocultar el banner patrocinado debajo del reproductor"
+
+#: /src/trubbel/settings/appearance/declutter.js:406
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.power_ups"
+msgstr "Ocultar power-ups dentro de la ventana emergente de recompensas"
+
+#: /src/trubbel/settings/appearance/declutter.js:418
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.watch_streak"
+msgstr ""
+"Ocultar Racha de visualización dentro de la ventana emergente de recompensas"
+
+#: /src/trubbel/settings/appearance/declutter.js:480
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.vods.muted_segment_popup"
+msgstr "Ocultar ventanas emergentes de alertas de segmentos silenciados"
+
+#: /src/trubbel/settings/appearance/notifications.js:65
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.notifications.custom.background_color"
+msgstr "Fondo"
+
+#: /src/trubbel/settings/appearance/notifications.js:31
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.notifications.custom.font_size"
+msgstr "Tamaño de fuente"
+
+#: /src/trubbel/settings/appearance/notifications.js:31
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.font_size."
+"description"
+msgstr "**Mínimo:** `1`, **Máximo:** `25`."
+
+#: /src/trubbel/settings/appearance/notifications.js:77
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.notifications.custom.padding"
+msgstr "Menos espaciado"
+
+#: /src/trubbel/settings/appearance/notifications.js:8
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.notifications.custom.position"
+msgstr "Posición"
+
+#: /src/trubbel/settings/appearance/notifications.js:8
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position."
+"description"
+msgstr ""
+"Elige dónde aparecerán las notificaciones en la pantalla. Las opciones de "
+"reproductor mostrarán las notificaciones dentro del reproductor de Twitch "
+"cuando estén disponibles."
+
+#: /src/trubbel/settings/appearance/notifications.js:17
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"bottom-left"
+msgstr "Abajo a la izquierda"
+
+#: /src/trubbel/settings/appearance/notifications.js:18
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"bottom-right"
+msgstr "Abajo a la derecha"
+
+#: /src/trubbel/settings/appearance/notifications.js:21
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"player-bottom-left"
+msgstr "Reproductor abajo a la izquierda"
+
+#: /src/trubbel/settings/appearance/notifications.js:22
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"player-bottom-right"
+msgstr "Reproductor abajo a la derecha"
+
+#: /src/trubbel/settings/appearance/notifications.js:23
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"player-top-left"
+msgstr "Reproductor arriba a la izquierda"
+
+#: /src/trubbel/settings/appearance/notifications.js:24
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"player-top-right"
+msgstr "Reproductor arriba a la derecha"
+
+#: /src/trubbel/settings/appearance/notifications.js:19
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"top-left"
+msgstr "Arriba a la izquierda"
+
+#: /src/trubbel/settings/appearance/notifications.js:20
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.notifications.custom.position.values."
+"top-right"
+msgstr "Arriba a la derecha"
+
+#: /src/trubbel/settings/appearance/notifications.js:53
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.notifications.custom.text_color"
+msgstr "Texto"
+
+#: /src/trubbel/settings/appearance/tweaks.js:45
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.chat.full_replies"
+msgstr "Mostrar respuestas completas"
+
+#: /src/trubbel/settings/appearance/tweaks.js:45
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.appearance.tweaks.chat.full_replies.description"
+msgstr ""
+"Te permite ver el mensaje completo al que alguien está respondiendo en el "
+"chat, en lugar de que se corte.\n"
+"\n"
+"**Nota:** La configuración de Twitch debe estar en \"**Ampliado**\" en "
+"`Configuración del chat > Apariencia del chat > Respuestas en el chat > "
+"Ampliado`,\n"
+"\n"
+"y la configuración de FFZ debe estar en \"**Twitch (Predeterminado)**\" en "
+"[Chat > Apariencia > Respuestas](~chat.appearance.replies)."
+
+#: /src/trubbel/settings/appearance/tweaks.js:58
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.chat.intl"
+msgstr ""
+"Mostrar la misma opacidad y grosor de fuente para nombres de usuario "
+"internacionales"
+
+#: /src/trubbel/settings/appearance/tweaks.js:84
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.directory.max_width"
+msgstr "Ancho completo en el directorio"
+
+#: /src/trubbel/settings/appearance/tweaks.js:18
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.form_control.border-radius"
+msgstr "Usar los botones antiguos con menos borde redondeado"
+
+#: /src/trubbel/settings/appearance/tweaks.js:30
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.form_control.box-shadow"
+msgstr "Usar la sombra antigua en ciertos elementos"
+
+#: /src/trubbel/settings/appearance/tweaks.js:30
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.tweaks.form_control.box-shadow."
+"description"
+msgstr ""
+"Vuelve a una sombra/contorno más fino para los elementos `botones`, `campos "
+"de entrada`, `listas desplegables`, `áreas de texto` activos/enfocados."
+
+#: /src/trubbel/settings/appearance/tweaks.js:99
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.inventory.big_img"
+msgstr "Mostrar imágenes más grandes en la página de inventario"
+
+#: /src/trubbel/settings/appearance/tweaks.js:113
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.scrollbar.thin"
+msgstr "Barras de desplazamiento más delgadas en el chat y la barra lateral"
+
+#: /src/trubbel/settings/appearance/tweaks.js:113
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.appearance.tweaks.scrollbar.thin.description"
+msgstr ""
+"Esto está pensado para ciertos navegadores que tienen barras de "
+"desplazamiento mucho más gruesas."
+
+#: /src/trubbel/settings/appearance/tweaks.js:128
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.system_theme"
+msgstr "Activar tema del sistema"
+
+#: /src/trubbel/settings/appearance/tweaks.js:128
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.appearance.tweaks.system_theme.description"
+msgstr ""
+"Establece automáticamente el tema de Twitch según las preferencias del "
+"sistema."
+
+#: /src/trubbel/settings/appearance/tweaks.js:167
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.titles.full_clip_preview"
+msgstr "Mostrar títulos completos en las vistas previas de clips"
+
+#: /src/trubbel/settings/appearance/tweaks.js:191
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.titles.full_directory_preview"
+msgstr "Mostrar títulos completos para categorías en el directorio"
+
+#: /src/trubbel/settings/appearance/tweaks.js:203
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.tweaks.titles.full_most_recent_"
+"preview"
+msgstr "Mostrar títulos completos para Videos más recientes"
+
+#: /src/trubbel/settings/appearance/tweaks.js:155
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.titles.full_stream_preview"
+msgstr "Mostrar títulos completos en las vistas previas del stream"
+
+#: /src/trubbel/settings/appearance/tweaks.js:179
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.tweaks.titles.full_vod_preview"
+msgstr "Mostrar títulos completos en las vistas previas de los VODs"
