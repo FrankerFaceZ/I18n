@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 02:13+0000\n"
+"PO-Revision-Date: 2026-09-10 02:19+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -1244,3 +1244,22 @@ msgstr "Ocultar el degradado inferior"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.player.cc"
 msgstr "Ocultar el botón de \"Subtítulos\" dentro del menú de configuración"
+
+#: /src/trubbel/settings/appearance/declutter.js:331
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.player.disclosure."
+"description"
+msgstr ""
+"Esto elimina del reproductor los avisos como \"Contenido dirigido a cierto "
+"público\", \"Incluye promoción pagada\", etc."
+
+#: /src/trubbel/settings/appearance/declutter.js:356
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.player.top_gradient"
+msgstr "Ocultar el degradado superior"
+
+#: /src/trubbel/settings/appearance/declutter.js:196
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.community_train"
+msgstr "Ocultar el Tren de la Comunidad"
