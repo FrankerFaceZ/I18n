@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 06:16+0000\n"
-"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"PO-Revision-Date: 2026-09-10 03:48+0000\n"
+"Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/addon-betterttv-emotes/es/>\n"
+"frankerfacez/addonffzap-bttv/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "setting.add_ons.better_ttv_emotes"
 msgstr "Emoticonos BetterTTV"
@@ -114,3 +114,35 @@ msgstr "Emoticonos Pro"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.ffzap.betterttv.pro_emoticons.description"
 msgstr "Activa para mostrar los emoticonos de BetterTTV Pro."
+
+#: /src/ffzap-bttv/index.js:49
+#, icu-message-format
+msgid "setting.add_ons.better_ttv_emotes.emotes.live_emote_updates"
+msgstr "Actualizaciones de emoticonos en vivo"
+
+#: /src/ffzap-bttv/index.js:59
+#, icu-message-format
+msgid "setting.entry.ffzap.betterttv.pro_badges"
+msgstr "Insignias Pro"
+
+#: /src/ffzap-bttv/index.js:59
+#: /src/ffzap-bttv/index.js:70
+#, icu-message-format
+msgid "setting.add_ons.better_ttv_emotes.pro"
+msgstr "Pro"
+
+#: /src/ffzap-bttv/index.js:59
+#, icu-message-format, md-text
+msgid "setting.entry.ffzap.betterttv.pro_badges.description"
+msgstr "Activar para mostrar las insignias Pro de BetterTTV."
+
+#: /src/ffzap-bttv/index.js:49
+#, icu-message-format
+msgid "setting.entry.ffzap.betterttv.update_messages"
+msgstr "Mostrar mensajes de actualización"
+
+#: /src/ffzap-bttv/index.js:49
+#, icu-message-format, md-text
+msgid "setting.entry.ffzap.betterttv.update_messages.description"
+msgstr ""
+"Mostrar mensajes en el chat cuando se actualicen los emoticonos del canal."
