@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 16:59+0000\n"
+"PO-Revision-Date: 2026-09-10 18:06+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -2042,3 +2042,375 @@ msgstr "Para ciertos eventos de chat que carecen de marcas de tiempo."
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation"
 msgstr "Activar traducción simple"
+
+#: /src/trubbel/settings/channel/chat.js:654
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.translation.description"
+msgstr ""
+"Después de activar esto, debes configurarlo en [Chat > Acciones]"
+"(~chat.actions) y elegir entre [En línea](~chat.actions.in_line), [Al pasar "
+"el cursor sobre el mensaje](~chat.actions.message_hover) o [Contexto de "
+"usuario](~chat.actions.user_context).\n"
+"\n"
+"**Nota:** Esto usa Google Translate."
+
+#: /src/trubbel/settings/channel/chat.js:667
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang"
+msgstr "Idioma al que traducir"
+
+#: /src/trubbel/settings/channel/chat.js:667
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.description"
+msgstr "El idioma al que se traducirán los mensajes."
+
+#: /src/trubbel/settings/channel/chat.js:693
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ar"
+msgstr "Árabe"
+
+#: /src/trubbel/settings/channel/chat.js:696
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.da"
+msgstr "Danés"
+
+#: /src/trubbel/settings/channel/chat.js:685
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.de"
+msgstr "Alemán"
+
+#: /src/trubbel/settings/channel/chat.js:682
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.en"
+msgstr "Inglés"
+
+#: /src/trubbel/settings/channel/chat.js:683
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.es"
+msgstr "Español"
+
+#: /src/trubbel/settings/channel/chat.js:698
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fi"
+msgstr "Finés"
+
+#: /src/trubbel/settings/channel/chat.js:684
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fr"
+msgstr "Francés"
+
+#: /src/trubbel/settings/channel/chat.js:694
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.hi"
+msgstr "Hindi"
+
+#: /src/trubbel/settings/channel/chat.js:686
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.it"
+msgstr "Italiano"
+
+#: /src/trubbel/settings/channel/chat.js:689
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ja"
+msgstr "Japonés"
+
+#: /src/trubbel/settings/channel/chat.js:690
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ko"
+msgstr "Coreano"
+
+#: /src/trubbel/settings/channel/chat.js:699
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.nl"
+msgstr "Neerlandés"
+
+#: /src/trubbel/settings/channel/chat.js:697
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.no"
+msgstr "Noruego"
+
+#: /src/trubbel/settings/channel/chat.js:700
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pl"
+msgstr "Polaco"
+
+#: /src/trubbel/settings/channel/chat.js:687
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pt"
+msgstr "Portugués"
+
+#: /src/trubbel/settings/channel/chat.js:688
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ru"
+msgstr "Ruso"
+
+#: /src/trubbel/settings/channel/chat.js:695
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.sv"
+msgstr "Sueco"
+
+#: /src/trubbel/settings/channel/chat.js:701
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.tr"
+msgstr "Turco"
+
+#: /src/trubbel/settings/channel/chat.js:691
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-"
+"CN"
+msgstr "Chino (simplificado)"
+
+#: /src/trubbel/settings/channel/chat.js:692
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-"
+"TW"
+msgstr "Chino (tradicional)"
+
+#: /src/trubbel/settings/channel/chat.js:550
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.tts"
+msgstr "Activar texto a voz"
+
+#: /src/trubbel/settings/channel/chat.js:563
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.tts.announce_user"
+msgstr "Anunciar nombre de usuario"
+
+#: /src/trubbel/settings/channel/chat.js:563
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.tts.announce_user.description"
+msgstr ""
+"Antepone el nombre del remitente antes del mensaje, p. ej. \"Alice dice: "
+"hola\"."
+
+#: /src/trubbel/settings/channel/chat.js:550
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.tts.description"
+msgstr ""
+"Después de activar esto, debes configurarlo en [Chat > Acciones]"
+"(~chat.actions) y elegir entre [En línea](~chat.actions.in_line), [Al pasar "
+"el cursor sobre el mensaje](~chat.actions.message_hover) o [Contexto de "
+"usuario](~chat.actions.user_context)."
+
+#: /src/trubbel/settings/channel/chat.js:623
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.tts.pitch"
+msgstr "Tono"
+
+#: /src/trubbel/settings/channel/chat.js:623
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.tts.pitch.description"
+msgstr "Tono de la voz. 1 es el tono normal. Rango: 0 - 2."
+
+#: /src/trubbel/settings/channel/chat.js:609
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.tts.rate"
+msgstr "Velocidad"
+
+#: /src/trubbel/settings/channel/chat.js:609
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.tts.rate.description"
+msgstr "Velocidad de la voz. 1 es la velocidad normal. Rango: 0.1 - 10."
+
+#: /src/trubbel/settings/channel/chat.js:575
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.tts.voice"
+msgstr "Voz"
+
+#: /src/trubbel/settings/channel/chat.js:575
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.tts.voice.description"
+msgstr "La voz que se usará para la generación de voz."
+
+#: /src/trubbel/settings/channel/chat.js:595
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.tts.volume"
+msgstr "Volumen"
+
+#: /src/trubbel/settings/channel/chat.js:595
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.tts.volume.description"
+msgstr "Volumen de la voz. 1 es el volumen máximo. Rango: 0 - 1."
+
+#: /src/trubbel/settings/channel/chat.js:724
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.ui.old_viewer_list"
+msgstr "Mostrar lista antigua de espectadores"
+
+#: /src/trubbel/settings/channel/chat.js:724
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.ui.old_viewer_list.description"
+msgstr ""
+"Cuando está activado, al hacer clic en el botón de lista de espectadores del "
+"chat se mostrará la lista de chat antigua en su lugar."
+
+#: /src/trubbel/settings/channel/chat.js:739
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_mods_vips"
+msgstr "Nombres de usuario clicables en /mods y /vips"
+
+#: /src/trubbel/settings/channel/chat.js:752
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_raid"
+msgstr "Mensajes de raid clicables"
+
+#: /src/trubbel/settings/channel/mod-view.js:27
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.mod_view.activity_feed.context"
+msgstr "Activar menú contextual con clic derecho"
+
+#: /src/trubbel/settings/channel/mod-view.js:62
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.mod_view.auto"
+msgstr "Activar vista de moderador automática"
+
+#: /src/trubbel/settings/channel/mod-view.js:62
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.mod_view.auto.description"
+msgstr ""
+"Cambia automáticamente a la vista de moderador si eres moderador del canal "
+"actual."
+
+#: /src/trubbel/settings/channel/mod-view.js:81
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.mod_view.landing"
+msgstr "Mejor página de inicio"
+
+#: /src/trubbel/settings/channel/mod-view.js:81
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.mod_view.landing.description"
+msgstr ""
+"Reemplaza la página de inicio de Twitch para [twitch.tv/moderator](https://"
+"www.twitch.tv/moderator): la lista de canales que moderas."
+
+#: /src/trubbel/settings/twilight/clips.js:33
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.clip.download"
+msgstr "Mostrar botón de descarga en clips"
+
+#: /src/trubbel/settings/channel/player.js:36
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute"
+msgstr "Activar silencio o pausa automática del stream"
+
+#: /src/trubbel/settings/channel/player.js:49
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
+"option1"
+msgstr "Opciones"
+
+#: /src/trubbel/settings/channel/player.js:57
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
+"option1.values.mute"
+msgstr "Silenciar automáticamente"
+
+#: /src/trubbel/settings/channel/player.js:58
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
+"option1.values.pause"
+msgstr "Pausar automáticamente"
+
+#: /src/trubbel/settings/channel/player.js:64
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
+"option2"
+msgstr "Reanudar/reactivar sonido automáticamente"
+
+#: /src/trubbel/settings/channel/player.js:64
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
+"option2.description"
+msgstr ""
+"Esto reanudará o reactivará el sonido del stream automáticamente cuando "
+"regreses."
+
+#: /src/trubbel/settings/channel/player.js:36
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute."
+"description"
+msgstr ""
+"Silencia o pausa automáticamente el stream al navegar por las pestañas "
+"**Inicio**, **Acerca de**, **Agenda** o **Videos**."
+
+#: /src/trubbel/settings/channel/vods.js:24
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.playback.pause"
+msgstr "Desactivar la pausa al hacer clic en los VODs"
+
+#: /src/trubbel/settings/channel/vods.js:38
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.progress_bar"
+msgstr "Activar barra de progreso personalizada"
+
+#: /src/trubbel/settings/channel/vods.js:38
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.vods.progress_bar.description"
+msgstr ""
+"Muestra una barra de progreso personalizada en la parte inferior de los VODs "
+"cuando no se muestran los controles del reproductor; funciona tanto en "
+"pantalla completa como en vista normal."
+
+#: /src/trubbel/settings/channel/vods.js:51
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.progress_bar.position"
+msgstr "Posición"
+
+#: /src/trubbel/settings/channel/vods.js:51
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.vods.progress_bar.position.description"
+msgstr "Elige dónde mostrar la barra de progreso."
+
+#: /src/trubbel/settings/channel/vods.js:66
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.progress_bar.position.values.bottom"
+msgstr "Abajo"
+
+#: /src/trubbel/settings/channel/vods.js:67
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.progress_bar.position.values.top"
+msgstr "Arriba"
+
+#: /src/trubbel/settings/channel/vods.js:76
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.seeking"
+msgstr "Activar desplazamiento personalizado"
+
+#: /src/trubbel/settings/channel/vods.js:89
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.seeking.amount"
+msgstr "Cantidad de desplazamiento personalizado"
+
+#: /src/trubbel/settings/channel/vods.js:89
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.vods.seeking.amount.description"
+msgstr "Cuántos segundos avanzar o retroceder al usar las teclas de flecha."
+
+#: /src/trubbel/settings/channel/vods.js:76
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.vods.seeking.description"
+msgstr ""
+"Twitch establece por defecto el desplazamiento en `10` segundos. Activar "
+"esto te permitirá configurar una cantidad personalizada a continuación."
+
+#: /src/trubbel/settings/channel/vods.js:105
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.vods.seeking.fbf"
+msgstr "Activar desplazamiento fotograma a fotograma"
+
+#: /src/trubbel/settings/channel/vods.js:105
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.vods.seeking.fbf.description"
+msgstr ""
+"Usa`,` para retroceder y `.` para avanzar.\n"
+"\n"
+"**Nota:** Si el video no está en pausa al usar estos atajos, se pausará "
+"automáticamente."
