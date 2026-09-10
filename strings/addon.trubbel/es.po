@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 15:46+0000\n"
+"PO-Revision-Date: 2026-09-10 16:59+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -1809,3 +1809,236 @@ msgid "setting.entry.addon.trubbel.channel.chat.markdown.info.description"
 msgstr ""
 "⚠️ Ten en cuenta que solo los usuarios que tienen estas opciones activadas "
 "pueden verlas."
+
+#: /src/trubbel/settings/channel/chat.js:274
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight"
+msgstr "Resaltar mensajes al pasar el cursor"
+
+#: /src/trubbel/settings/channel/chat.js:291
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.messages.highlight.color."
+"description"
+msgstr "Color de fondo para los mensajes resaltados."
+
+#: /src/trubbel/settings/channel/chat.js:274
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.description"
+msgstr "Resalta todos los mensajes de un usuario."
+
+#: /src/trubbel/settings/channel/chat.js:282
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.0"
+msgstr "Desactivado"
+
+#: /src/trubbel/settings/channel/chat.js:283
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.1"
+msgstr "Nombre de usuario"
+
+#: /src/trubbel/settings/channel/chat.js:284
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.2"
+msgstr "Mensaje completo"
+
+#: /src/trubbel/settings/channel/chat.js:315
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.moderation.context"
+msgstr "Activar menú contextual con clic derecho"
+
+#: /src/trubbel/settings/channel/chat.js:315
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.description"
+msgstr ""
+"Esto te da la posibilidad de usar un menú contextual con el clic derecho, "
+"*similar a BetterTTV (BTTV)*, para moderar el chat: banear, silenciar "
+"temporalmente, purgar, eliminar."
+
+#: /src/trubbel/settings/channel/chat.js:332
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.highlight"
+msgstr "Resaltado de mensaje"
+
+#: /src/trubbel/settings/channel/chat.js:332
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.moderation.context.highlight."
+"description"
+msgstr "Resalta el mensaje sobre el que haces clic derecho."
+
+#: /src/trubbel/settings/channel/chat.js:358
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.options"
+msgstr "Opciones de clic derecho"
+
+#: /src/trubbel/settings/channel/chat.js:367
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.moderation.context.options.values."
+"messages1"
+msgstr "Mensajes completos"
+
+#: /src/trubbel/settings/channel/chat.js:368
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.moderation.context.options.values."
+"messages2"
+msgstr "Mensajes completos (excepto incrustaciones y enlaces)"
+
+#: /src/trubbel/settings/channel/chat.js:366
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.moderation.context.options.values."
+"usernames"
+msgstr "Solo nombres de usuario"
+
+#: /src/trubbel/settings/channel/chat.js:344
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.priority"
+msgstr "Prioridad de resaltado"
+
+#: /src/trubbel/settings/channel/chat.js:344
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.moderation.context.priority."
+"description"
+msgstr ""
+"Prioridad del resaltado de mensajes. Consulta [Chat > Filtrado > Resaltado]"
+"(~chat.filtering.highlight) para más detalles."
+
+#: /src/trubbel/settings/channel/chat.js:390
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.popout.title_name"
+msgstr "Mostrar el nombre del canal en el chat en ventana emergente"
+
+#: /src/trubbel/settings/channel/chat.js:390
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.popout.title_name.description"
+msgstr ""
+"Activar esto reemplazará el texto \"Chat del stream\" sobre el chat con el "
+"nombre de usuario del streamer."
+
+#: /src/trubbel/settings/channel/chat.js:405
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.prediction.notifications"
+msgstr "Notificaciones de inicio de predicción"
+
+#: /src/trubbel/settings/channel/chat.js:405
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.prediction.notifications."
+"description"
+msgstr ""
+"Envía una notificación del navegador cuando comienza una predicción en el "
+"canal actual.\n"
+"\n"
+"**Nota:** Tu navegador pedirá permiso de notificaciones la primera vez que "
+"actives esto."
+
+#: /src/trubbel/settings/channel/chat.js:420
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.prediction.notifications.only_"
+"unfocused"
+msgstr "Solo notificar cuando la pestaña está en segundo plano"
+
+#: /src/trubbel/settings/channel/chat.js:420
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.prediction.notifications.only_"
+"unfocused.description"
+msgstr ""
+"Omite la notificación si ya tienes la pestaña de Twitch en primer plano."
+
+#: /src/trubbel/settings/channel/chat.js:437
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.prediction.notifications.require_"
+"interaction"
+msgstr "Mantener la notificación hasta que se cierre"
+
+#: /src/trubbel/settings/channel/chat.js:437
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.prediction.notifications.require_"
+"interaction.description"
+msgstr ""
+"Evita que la notificación se cierre automáticamente; permanecerá visible "
+"hasta que la cierres manualmente.\n"
+"\n"
+"**Nota:** El comportamiento puede variar según tu navegador y sistema "
+"operativo."
+
+#: /src/trubbel/settings/channel/chat.js:456
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews"
+msgstr "Mostrar vista previa del raid"
+
+#: /src/trubbel/settings/channel/chat.js:492
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings"
+msgstr "Mostrar las restricciones del chat en la vista previa del raid"
+
+#: /src/trubbel/settings/channel/chat.js:492
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings."
+"description"
+msgstr ""
+"Muestra las restricciones del chat (solo suscriptores, solo seguidores, modo "
+"lento, etc.) debajo de la vista previa."
+
+#: /src/trubbel/settings/channel/chat.js:456
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.description"
+msgstr ""
+"Muestra una vista previa en imagen o video del stream cuando hay un raid "
+"activo."
+
+#: /src/trubbel/settings/channel/chat.js:474
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.uptime"
+msgstr "Mostrar el tiempo en vivo en la vista previa del raid"
+
+#: /src/trubbel/settings/channel/chat.js:474
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.uptime.description"
+msgstr ""
+"Muestra el tiempo en vivo del stream (y las etiquetas de contenido si están "
+"activadas en la configuración de FFZ) en la vista previa."
+
+#: /src/trubbel/settings/channel/chat.js:465
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.values.0"
+msgstr "Desactivado"
+
+#: /src/trubbel/settings/channel/chat.js:466
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.values.1"
+msgstr "Vista previa de imagen"
+
+#: /src/trubbel/settings/channel/chat.js:467
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.values.2"
+msgstr "Vista previa de video"
+
+#: /src/trubbel/settings/channel/chat.js:526
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.text_replace"
+msgstr "Activar reemplazo de texto para mensajes salientes."
+
+#: /src/trubbel/settings/channel/chat.js:639
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.timestamps.add_missing"
+msgstr "Mostrar marcas de tiempo faltantes (Experimental)"
+
+#: /src/trubbel/settings/channel/chat.js:639
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.timestamps.add_missing.description"
+msgstr "Para ciertos eventos de chat que carecen de marcas de tiempo."
+
+#: /src/trubbel/settings/channel/chat.js:654
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.translation"
+msgstr "Activar traducción simple"
