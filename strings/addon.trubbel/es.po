@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 18:40+0000\n"
+"PO-Revision-Date: 2026-09-10 18:44+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -2710,3 +2710,22 @@ msgstr "Activar canales fijados"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.manage"
 msgstr "Administrar canales fijados"
+
+#: /src/trubbel/settings/twilight/sidebar.js:325
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels."
+"manage.description"
+msgstr "Añade, elimina y reordena tus canales fijados."
+
+#: /src/trubbel/settings/twilight/sidebar.js:311
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.show_"
+"offline_channels"
+msgstr "Mostrar canales sin conexión"
+
+#: /src/trubbel/settings/twilight/sidebar.js:291
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar_extended.pinned_channels.sort"
+msgstr "Ordenar por"
