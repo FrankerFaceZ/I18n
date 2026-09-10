@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-17 00:16+0000\n"
-"Last-Translator: Rubén <rubfercru@gmail.com>\n"
+"PO-Revision-Date: 2026-09-10 03:48+0000\n"
+"Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/addon-ffzap-core/es/>\n"
+"frankerfacez/addonffzap-core/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "setting.add_ons.ffz_ap_core"
 msgstr "FFZ:AP Core"
@@ -287,3 +287,18 @@ msgid "setting.entry.ffzap.core.remove_spaces.description"
 msgstr ""
 "Eliminar espacios entre emoticonos cuando son usados justo después de otro. ("
 "por ejemplo, los emoticonos de combo)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:205
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.cant-play"
+msgstr "No se puede reproducir el archivo de audio."
+
+#: /src/ffzap-core/components/highlight-sound.vue:199
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.file-too-big"
+msgstr "El archivo de audio es demasiado grande (máx. 2MB)"
+
+#: /src/ffzap-core/components/highlight-sound.vue:210
+#, icu-message-format
+msgid "addon.ffzap-core.highlight-sound.file-too-long"
+msgstr "El archivo de audio es demasiado largo (máx. 10 segundos)"
