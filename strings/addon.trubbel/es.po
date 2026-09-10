@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 18:13+0000\n"
+"PO-Revision-Date: 2026-09-10 18:27+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -2461,3 +2461,134 @@ msgid ""
 msgstr ""
 "Esto mostrará la fecha en que empezaste a seguir un canal en la página de "
 "[Canales seguidos](https://twitch.tv/directory/following/channels)."
+
+#: /src/trubbel/settings/directory/following.js:37
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.directory.following.tabs"
+msgstr "Activar estadísticas de seguimiento"
+
+#: /src/trubbel/settings/directory/following.js:53
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.directory.following.tabs.channels"
+msgstr "Mostrar total de canales seguidos"
+
+#: /src/trubbel/settings/directory/following.js:53
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.directory.following.tabs.channels.description"
+msgstr "Muestra el número total de canales que sigues en la pestaña `Canales`."
+
+#: /src/trubbel/settings/directory/thumbnails.js:13
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.directory.thumbnails.preview"
+msgstr "Activar vistas previas de miniaturas"
+
+#: /src/trubbel/settings/directory/thumbnails.js:58
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.directory.thumbnails.preview.audio"
+msgstr "Activar audio para vistas previas"
+
+#: /src/trubbel/settings/directory/thumbnails.js:58
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.directory.thumbnails.preview.audio.description"
+msgstr ""
+"Ten en cuenta que esto usa tu volumen predeterminado para los streams. "
+"Algunos streams pueden sonar fuerte."
+
+#: /src/trubbel/settings/directory/thumbnails.js:13
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.directory.thumbnails.preview.description"
+msgstr ""
+"Muestra vistas previas al pasar el cursor sobre las miniaturas en el "
+"directorio.\n"
+"\n"
+"**Nota:** Para que esto funcione correctamente, asegúrate de que tu "
+"navegador haya concedido permisos de **reproducción automática** y "
+"**sonido** a `player.twitch.tv`."
+
+#: /src/trubbel/settings/directory/thumbnails.js:30
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.directory.thumbnails.preview.quality"
+msgstr "Calidad de vista previa"
+
+#: /src/trubbel/settings/directory/thumbnails.js:46
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values.1080"
+"p60"
+msgstr "1080p60"
+
+#: /src/trubbel/settings/directory/thumbnails.js:51
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values.160"
+"p30"
+msgstr "160p"
+
+#: /src/trubbel/settings/directory/thumbnails.js:50
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values.360"
+"p30"
+msgstr "360p"
+
+#: /src/trubbel/settings/directory/thumbnails.js:49
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values.480"
+"p30"
+msgstr "480p"
+
+#: /src/trubbel/settings/directory/thumbnails.js:48
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values.720"
+"p30"
+msgstr "720p"
+
+#: /src/trubbel/settings/directory/thumbnails.js:47
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values.720"
+"p60"
+msgstr "720p60"
+
+#: /src/trubbel/settings/directory/thumbnails.js:44
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values.auto"
+msgstr "Automático"
+
+#: /src/trubbel/settings/directory/thumbnails.js:45
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.directory.thumbnails.preview.quality.values."
+"chunked"
+msgstr "Fuente"
+
+#: /src/trubbel/settings/inventory/drops.js:26
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.inventory.drops.channel"
+msgstr "Mostrar información de drops cuando esté disponible"
+
+#: /src/trubbel/settings/inventory/drops.js:26
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.inventory.drops.channel.description"
+msgstr ""
+"Muestra información de drops más precisa para el stream actual debajo del "
+"reproductor."
+
+#: /src/trubbel/settings/inventory/drops.js:45
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.inventory.drops.claim"
+msgstr "Activar reclamar automáticamente"
+
+#: /src/trubbel/settings/inventory/drops.js:45
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.inventory.drops.claim.description"
+msgstr ""
+"Comprueba cada 30 minutos si hay drops disponibles y los reclama "
+"automáticamente por ti."
+
+#: /src/trubbel/settings/inventory/drops.js:62
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.inventory.drops.claim.notification"
+msgstr "Mostrar notificación cuando se reclaman drops"
