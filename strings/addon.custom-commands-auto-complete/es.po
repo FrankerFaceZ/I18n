@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 21:02+0000\n"
+"PO-Revision-Date: 2026-09-10 21:09+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addoncustom-commands-auto-complete/es/>\n"
@@ -74,3 +74,97 @@ msgstr "Borrar todo lo personalizado"
 #, icu-message-format
 msgid "addon.custom-commands.sources.commands-url"
 msgstr "URL de la API de comandos"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:38
+#, icu-message-format
+msgid "addon.custom-commands.sources.custom"
+msgstr "Personalizado"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:189
+#, icu-message-format
+msgid "addon.custom-commands.sources.description-path"
+msgstr "Ruta de la descripción (opcional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:191
+#, icu-message-format
+msgid "addon.custom-commands.sources.description-path-hint"
+msgstr "Ruta a la descripción del comando en la respuesta de la API"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:15
+#, icu-message-format
+msgid "addon.custom-commands.sources.drag-hint"
+msgstr ""
+"Arrastra para reordenar las fuentes. Los comandos se obtienen en orden de "
+"arriba hacia abajo."
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:49
+#, icu-message-format
+msgid "addon.custom-commands.sources.edit"
+msgstr "Editar"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:114
+#, icu-message-format
+msgid "addon.custom-commands.sources.edit-source"
+msgstr "Editar fuente personalizada"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:119
+#, icu-message-format
+msgid "addon.custom-commands.sources.name"
+msgstr "Nombre"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:153
+#, icu-message-format
+msgid "addon.custom-commands.sources.name-path"
+msgstr "Ruta del nombre"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:114
+#, icu-message-format
+msgid "addon.custom-commands.sources.new-source"
+msgstr "Nueva fuente personalizada"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:80
+#, icu-message-format
+msgid "addon.custom-commands.sources.no-sources"
+msgstr "No hay fuentes de bots disponibles"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:155
+#, icu-message-format
+msgid "addon.custom-commands.sources.path-hint"
+msgstr "Ruta JSON al nombre del comando (p. ej. \"name\" o \"data.command\")"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:197
+#, icu-message-format
+msgid "addon.custom-commands.sources.permission-path"
+msgstr "Ruta de permisos (opcional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:199
+#, icu-message-format
+msgid "addon.custom-commands.sources.permission-path-hint"
+msgstr "Ruta al nivel de permiso en la respuesta de la API"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:148
+#, icu-message-format
+msgid "addon.custom-commands.sources.prefix"
+msgstr "Prefijo de comando"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:213
+#, icu-message-format
+msgid "addon.custom-commands.sources.prefix-in-name"
+msgstr "Prefijo incluido en el nombre"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:216
+#, icu-message-format
+msgid "addon.custom-commands.sources.prefix-in-name-hint"
+msgstr ""
+"Marca esta opción si los nombres de los comandos incluyen el prefijo (p. "
+"ej., \"!ping\" en lugar de \"ping\")"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:37
+#, icu-message-format
+msgid "addon.custom-commands.sources.preset"
+msgstr "Integrado"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:58
+#, icu-message-format
+msgid "addon.custom-commands.sources.remove"
+msgstr "Eliminar"
