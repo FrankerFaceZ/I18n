@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-10 20:59+0000\n"
+"PO-Revision-Date: 2026-09-10 21:01+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addoncustom-commands-auto-complete/es/>\n"
@@ -31,3 +31,24 @@ msgstr "Nombre(s) de usuario del bot"
 msgid "addon.custom-commands.sources.bot-names-hint"
 msgstr ""
 "Lista separada por comas de nombres de usuario de bots a detectar en el chat"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:181
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-id-path"
+msgstr "Ruta del ID de canal (opcional)"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:183
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-id-path-hint"
+msgstr "Ruta al ID de canal en la respuesta de la API del canal"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:132
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-names"
+msgstr "O nombre(s) de canal"
+
+#: /src/custom-commands-auto-complete/bot-sources-editor.vue:134
+#, icu-message-format
+msgid "addon.custom-commands.sources.channel-names-hint"
+msgstr ""
+"Lista separada por comas de canales donde estos comandos están disponibles"
