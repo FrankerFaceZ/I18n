@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 22:11+0000\n"
-"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"PO-Revision-Date: 2026-09-12 02:55+0000\n"
+"Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
 "Language: es\n"
@@ -1161,3 +1161,8 @@ msgstr ""
 #, icu-message-format
 msgid "chat.watch-streak.header"
 msgstr "{icon}Racha de visualizaciones conseguida {points_icon}+{copo}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:485
+#, icu-message-format
+msgid "chat.ftc-message"
+msgstr "Primer mensaje en el chat"
