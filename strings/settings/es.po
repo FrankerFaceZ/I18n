@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-11 00:52+0000\n"
+"PO-Revision-Date: 2026-09-11 05:40+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -2156,7 +2156,7 @@ msgid "setting.entry.layout.portrait-invert"
 msgstr "En modo retrato, mostrar el chat arriba."
 
 msgid "setting.entry.layout.portrait-min-chat"
-msgstr "Usar chat compacto en Modo Vertical."
+msgstr "Usar chat compacto en modo vertical."
 
 msgid "setting.entry.layout.portrait-min-chat.description"
 msgstr ""
@@ -2239,7 +2239,7 @@ msgid "setting.entry.layout.side-nav.show.values.1"
 msgstr "Siempre"
 
 msgid "setting.entry.layout.side-nav.show.values.2"
-msgstr "Ocultar en Retrato"
+msgstr "Ocultar en modo vertical"
 
 msgid "setting.entry.layout.swap-sidebars"
 msgstr "Intercambiar barras laterales"
@@ -4347,15 +4347,14 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards"
 msgstr ""
-"Mostrar mensajes cuando un animador comparte recompensas con otras personas "
-"en el chat."
+"Mostrar mensajes cuando un cheer comparta recompensas con personas del chat."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards.description"
 msgstr ""
-"Por defecto, hereda su valor de Bits de pantalla. Este ajuste sólo afecta a "
-"los mensajes recién llegados."
+"De forma predeterminada, este ajuste hereda su valor de Mostrar Bits. Esta "
+"configuración solo afecta a los nuevos mensajes."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4884,8 +4883,8 @@ msgstr "Términos"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.terms.description"
 msgstr ""
-"Consulte [Chat > Filtering > Syntax Help](~) para obtener detalles sobre "
-"cómo usar los términos."
+"Consulta [Chat > Filtrado > Ayuda de sintaxis](~) para obtener detalles "
+"sobre cómo usar los términos."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -4958,7 +4957,7 @@ msgstr "Términos"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.terms.description"
 msgstr ""
-"Consulte [Chat > Filtrado > Ayuda de sintaxis](~) para obtener detalles "
+"Consulta [Chat > Filtrado > Ayuda de sintaxis](~) para obtener detalles "
 "sobre cómo usar los términos."
 
 #: /src/modules/main_menu/components/menu-container.vue:14
@@ -4972,7 +4971,7 @@ msgstr "Usuarios"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.syntax_help"
-msgstr "Ayuda de Sintaxis"
+msgstr "Ayuda de sintaxis"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6071,7 +6070,7 @@ msgstr "Mostrar enlace Descubrir."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.display-bits-button"
-msgstr "Muestra el botón Obtener Bits."
+msgstr "Mostrar el botón Obtener Bits."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -6094,30 +6093,30 @@ msgstr "Minimizar la navegación"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.minimal-navigation.description"
 msgstr ""
-"Deslice la barra de navegación del sitio hacia arriba fuera de la vista "
-"cuando no esté en uso."
+"La barra de navegación se desliza hacia arriba y queda fuera de la vista "
+"cuando no está en uso."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait"
-msgstr "Activar el modo Retrato"
+msgstr "Habilitar modo vertical"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait-invert"
-msgstr "En modo vertical, coloca el chat en la parte superior."
+msgstr "Colocar el chat en la parte superior cuando esté en modo vertical."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait-threshold"
-msgstr "Umbral del modo retrato"
+msgstr "Umbral del modo vertical"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.portrait-threshold.description"
 msgstr ""
-"Esta es la relación Anchura/Altura a partir de la cual se activará el Modo "
-"Retrato."
+"Esta es la relación anchura/altura a partir de la cual se activará el modo "
+"vertical."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6138,7 +6137,7 @@ msgstr "Visualizar repeticiones"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.side-nav.show"
-msgstr "Pantalla Navegación lateral"
+msgstr "Mostrar la navegación lateral"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7054,7 +7053,7 @@ msgstr "Inicio"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.home.faq"
-msgstr "PREGUNTAS FRECUENTES"
+msgstr "Preguntas frecuentes"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7482,3 +7481,128 @@ msgstr ""
 "* Twitter\n"
 "* xkcd\n"
 "* YouTube"
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:337
+#, icu-message-format
+msgid "setting.entry.layout.subtember"
+msgstr "Permitir que aparezca el banner de promoción de Subtember."
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:146
+#, icu-message-format
+msgid "setting.entry.layout.side-nav.hide-stories"
+msgstr "Ocultar historias"
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:359
+#, icu-message-format
+msgid "setting.entry.layout.turbo-cta"
+msgstr "Permitir que aparezca el botón de Twitch Turbo."
+
+#: /src/sites/twitch-twilight/modules/theme/index.js:72
+#, icu-message-format
+msgid "setting.entry.theme.disable-high-contrast"
+msgstr "Desactivar color forzado / alto contraste del sistema operativo"
+
+#: /src/sites/twitch-twilight/modules/theme/index.js:72
+#, icu-message-format, md-text
+msgid "setting.entry.theme.disable-high-contrast.description"
+msgstr ""
+"Al habilitar esto, tu navegador ignorará la configuración de alto contraste "
+"de tu sistema operativo al mostrar Twitch. Es posible que debas refrescar la "
+"página para que el cambio surta efecto."
+
+#: /src/sites/twitch-twilight/modules/theme/index.js:53
+#, icu-message-format, md-text
+msgid "setting.entry.theme.high-contrast-tweaks.description"
+msgstr ""
+"Esto carga un conjunto adicional de estilos cuando el modo de color "
+"forzado / alto contraste del sistema operativo está habilitado, para "
+"asegurar que los elementos de la página se muestren de manera más adecuada."
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:484
+#, icu-message-format
+msgid "setting.entry.channel.gift-sub-buttons.hide"
+msgstr ""
+"Ocultar los botones de regalar una suscripción en el encabezado del canal y "
+"en las metas del canal."
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:484
+#, icu-message-format, md-text
+msgid "setting.entry.channel.gift-sub-buttons.hide.description"
+msgstr "Nota: Esto no ocultará los botones de regalar suscripciones en el chat."
+
+#: /src/sites/twitch-twilight/modules/channel.jsx:35
+#, icu-message-format
+msgid "setting.entry.channel.auto-click-off-featured"
+msgstr ""
+"Desmarcar automáticamente “Solo clips destacados” al ver los clips de un "
+"canal."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:472
+#, icu-message-format
+msgid "setting.channel.behavior.raids__blocked_channels"
+msgstr "Raids: Canales bloqueados"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:472
+#, icu-message-format, md-text
+msgid "setting.channel.behavior.raids__blocked_channels.description"
+msgstr "No te unirás automáticamente a los raids de los canales listados aquí."
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:179
+#, icu-message-format, md-text
+msgid "setting.entry.chat.tab-complete.show-source.description"
+msgstr ""
+"Muestra el origen de los emoticonos de terceros en la ventana de "
+"autocompletado\n"
+"\n"
+"`Corto` es (FFZ, BetterTTV, 7TV)\n"
+"\n"
+"`Largo` es (Emoticonos de canal/global de FFZ, Emoticonos de canal/global de "
+"BetterTTV, Emoticonos de 7TV, etc.)"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:958
+#, icu-message-format
+msgid "setting.entry.chat.lines.first-time-chatter"
+msgstr "Primer mensaje en el chat"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:958
+#, icu-message-format, md-text
+msgid "setting.entry.chat.lines.first-time-chatter.description"
+msgstr "Muestra el primer mensaje que un usuario envía en el chat."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:967
+#, icu-message-format
+msgid "setting.entry.chat.lines.first-time-chatter.values.0"
+msgstr "Desactivado"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:968
+#, icu-message-format
+msgid "setting.entry.chat.lines.first-time-chatter.values.1"
+msgstr "Activado"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:969
+#, icu-message-format
+msgid "setting.entry.chat.lines.first-time-chatter.values.2"
+msgstr "Sin fondo"
+
+#: /src/modules/chat/index.js:1231
+#, icu-message-format
+msgid "setting.entry.chat.gifs.enabled"
+msgstr "Mostrar GIFs en el chat."
+
+#: /src/modules/chat/index.js:1231
+#, icu-message-format, md-text
+msgid "setting.entry.chat.gifs.enabled.description"
+msgstr ""
+"Los suscriptores de Twitch (Nivel 2 y 3) pueden enviar [GIFs animados]"
+"(https://help.twitch.tv/s/article/gif-keyboard). Cuando esto está "
+"deshabilitado, esos mensajes se muestran como un enlace en su lugar."
+
+#: /src/modules/chat/index.js:1241
+#, icu-message-format
+msgid "setting.entry.chat.gifs.size"
+msgstr "Tamaño del GIF"
+
+#: /src/modules/chat/index.js:1241
+#, icu-message-format, md-text
+msgid "setting.entry.chat.gifs.size.description"
+msgstr "Altura máxima de los GIFs, en píxeles."
