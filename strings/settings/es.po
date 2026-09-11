@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-11 21:02+0000\n"
+"PO-Revision-Date: 2026-09-11 21:13+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -7856,3 +7856,48 @@ msgstr "Procesamiento"
 #, icu-message-format
 msgid "setting.debugging.graph_ql"
 msgstr "GraphQL"
+
+#: /src/modules/main_menu/index.js:154
+#, icu-message-format
+msgid "setting.debugging.graph_ql.inspector"
+msgstr "Inspector"
+
+#: /src/utilities/timing.js:20
+#, icu-message-format
+msgid "setting.debugging.performance"
+msgstr "Rendimiento"
+
+#: /src/utilities/timing.js:20
+#, icu-message-format
+msgid "setting.debugging.performance.info"
+msgstr "Información"
+
+#: /src/pubsub/index.ts:61
+#, icu-message-format
+msgid "setting.debugging.pub_sub"
+msgstr "PubSub"
+
+#: /src/pubsub/index.ts:61
+#, icu-message-format
+msgid "setting.debugging.pub_sub.general"
+msgstr "General"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:398
+#, icu-message-format
+msgid "setting.directory.channels.hide_thumbnails_by_tag"
+msgstr "Ocultar miniaturas por etiqueta"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:346
+#, icu-message-format
+msgid "setting.directory.channels.hide_thumbnails_by_title"
+msgstr "Ocultar miniaturas por título"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:493
+#, icu-message-format
+msgid "setting.directory.general.general"
+msgstr "General"
+
+#: /src/socket.js:39
+#, icu-message-format
+msgid "setting.entry.auth.mode"
+msgstr "Proveedor de autenticación"
