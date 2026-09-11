@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-11 05:40+0000\n"
+"PO-Revision-Date: 2026-09-11 21:01+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -1386,12 +1386,13 @@ msgid "setting.entry.chat.emote-menu.sort-tiers-last"
 msgstr "Listar emoticonos de suscripciones de nivel más alto al final."
 
 msgid "setting.entry.chat.emotes.2x"
-msgstr "Emoticionos mas grandes"
+msgstr "Emoticonos más grandes"
 
 msgid "setting.entry.chat.emotes.2x.description"
 msgstr ""
-"Este ajuste hara que los emoticionos sean el doble de grandes en el chat. "
-"Puedes activarlo si usas fuentes mas grandes, o te gustan los emoticionos."
+"Este ajuste hará que los emoticonos sean el doble de grandes en el chat. Es "
+"útil si usas fuentes más grandes o simplemente si te gustan mucho los "
+"emoticonos."
 
 msgid "setting.entry.chat.filtering.bold-mentions"
 msgstr "Mostrar menciones en el chat en negrita."
@@ -3015,7 +3016,7 @@ msgid "setting.provider.start"
 msgstr "Cambiar proveedores"
 
 msgid "setting.provider.transfer"
-msgstr "Transferir mi configración al cambiar de proveedores."
+msgstr "Transferir mis configuraciones al cambiar de proveedor."
 
 msgid "setting.provider.transfer.desc"
 msgstr ""
@@ -3023,7 +3024,7 @@ msgstr ""
 "hace."
 
 msgid "setting.provider.warn.title"
-msgstr "Ten cuidado!"
+msgstr "¡Ten cuidado!"
 
 msgid "setting.reasons.add-default"
 msgstr "Añadir predeterminadas"
@@ -5792,8 +5793,8 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.gift-banner"
 msgstr ""
-"Mostrar un banner en la parte superior del chat cuando se produce un sub "
-"regalo masivo."
+"Mostrar un banner en la parte superior del chat cuando se regalen varias "
+"suscripciones."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7606,3 +7607,247 @@ msgstr "Tamaño del GIF"
 #, icu-message-format, md-text
 msgid "setting.entry.chat.gifs.size.description"
 msgstr "Altura máxima de los GIFs, en píxeles."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:600
+#: /src/sites/twitch-twilight/modules/chat/index.js:703
+#, icu-message-format
+msgid "setting.chat.drops"
+msgstr "Drops"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:857
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:76
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:403
+#, icu-message-format
+msgid "setting.chat.hype_chat"
+msgstr "Hype Chat"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:582
+#: /src/sites/twitch-twilight/modules/chat/index.js:722
+#: /src/sites/twitch-twilight/modules/chat/index.js:738
+#, icu-message-format
+msgid "setting.chat.shared_chat"
+msgstr "Chat compartido"
+
+#: /src/modules/chat/emotes.js:586
+#, icu-message-format
+msgid "setting.chat.emote_effects"
+msgstr "Efectos de emoticonos"
+
+#: /src/modules/chat/emotes.js:586
+#, icu-message-format
+msgid "setting.chat.emote_effects.general"
+msgstr "General"
+
+#: /src/modules/chat/actions/components/edit-profile.vue:4
+#, icu-message-format
+msgid "setting.actions.profile"
+msgstr "Perfil"
+
+#: /src/std-components/emote-picker.vue:78
+#: /src/std-components/icon-picker.vue:64
+#, icu-message-format
+msgid "setting.actions.empty-search"
+msgstr "sin resultados"
+
+#: /src/modules/main_menu/components/backup-restore.vue:147
+#: /src/modules/main_menu/components/backup-restore.vue:210
+#: /src/modules/main_menu/components/profile-manager.vue:481
+#, icu-message-format
+msgid "setting.backup-restore.json-error"
+msgstr "No se pudo procesar el archivo como JSON."
+
+#: /src/modules/main_menu/components/backup-restore.vue:202
+#, icu-message-format
+msgid "setting.backup-restore.zip-error"
+msgstr "No se pudo procesar el archivo ZIP."
+
+#: /src/modules/main_menu/components/backup-restore.vue:125
+#: /src/modules/main_menu/components/backup-restore.vue:138
+#: /src/modules/main_menu/components/profile-manager.vue:472
+#, icu-message-format
+msgid "setting.backup-restore.read-error"
+msgstr "No se pudo leer el archivo."
+
+#: /src/modules/main_menu/components/backup-restore.vue:110
+#: /src/modules/main_menu/components/profile-editor.vue:324
+#, icu-message-format
+msgid "setting.backup-restore.save-error"
+msgstr "No se pudo guardar."
+
+#: /src/modules/main_menu/components/setting-text.vue:46
+#, icu-message-format
+msgid "setting.error"
+msgstr "Ocurrió un error."
+
+#: /src/modules/main_menu/components/action-editor.vue:597
+#: /src/modules/main_menu/components/term-editor.vue:368
+#, icu-message-format
+msgid "setting.unknown"
+msgstr "Valor desconocido"
+
+#: /src/modules/main_menu/components/menu-page.vue:99
+#, icu-message-format
+msgid "setting.update"
+msgstr "Hay una actualización disponible."
+
+#: /src/modules/main_menu/components/menu-page.vue:101
+#, icu-message-format, md-text
+msgid "setting.update.description"
+msgstr "Actualiza la página para recibir la última versión de FrankerFaceZ."
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:232
+#, icu-message-format
+msgid "setting.directory.channels.block_by_username"
+msgstr "Bloquear por nombre de usuario"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:282
+#, icu-message-format
+msgid "setting.directory.channels.block_by_title"
+msgstr "Bloquear por título"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:334
+#, icu-message-format
+msgid "setting.directory.channels.block_by_tag"
+msgstr "Bloquear por etiqueta"
+
+#: /src/std-components/emote-picker.vue:13
+#: /src/std-components/emote-picker.vue:4
+#, icu-message-format
+msgid "setting.emote.search"
+msgstr "Buscar emoticono"
+
+#: /src/std-components/emote-picker.vue:72
+#, icu-message-format
+msgid "setting.emote.none"
+msgstr "no se pudieron cargar los datos del emoticono"
+
+#: /src/settings/filters.ts:45
+#, icu-message-format
+msgid "settings.filter.and"
+msgstr "Y"
+
+#: /src/settings/filters.ts:206
+#, icu-message-format
+msgid "settings.filter.fullscreen"
+msgstr "Pantalla completa"
+
+#: /src/modules/main_menu/components/search-page.vue:5
+#, icu-message-format
+msgid "settings.search-results"
+msgstr "Resultados para \"{query}\""
+
+#: /src/modules/main_menu/components/backup-restore.vue:11
+#, icu-message-format
+msgid "setting.backup-restore.blob-notice"
+msgstr ""
+"Esta copia de seguridad contiene datos binarios no compatibles con el "
+"proveedor de almacenamiento actual."
+
+#: /src/modules/main_menu/components/backup-restore.vue:25
+#, icu-message-format
+msgid "setting.backup-restore.blob-notice.continue"
+msgstr "Continuar con la restauración"
+
+#: /src/modules/main_menu/components/backup-restore.vue:14
+#, icu-message-format
+msgid "setting.backup-restore.blob-notice.desc"
+msgstr ""
+"Los datos binarios se descartarán y ciertos ajustes, especialmente aquellos "
+"con archivos de sonido personalizados, podrían no funcionar correctamente. ¿"
+"Deseas continuar? De lo contrario, deberás cambiar tu proveedor de ajustes "
+"por uno que admita datos binarios."
+
+#: /src/modules/main_menu/components/backup-restore.vue:102
+#: /src/modules/main_menu/components/profile-editor.vue:316
+#, icu-message-format
+msgid "setting.backup-restore.dump-error"
+msgstr "No se pudieron exportar los datos de configuración a JSON."
+
+#: /src/modules/chat/index.js:1231
+#: /src/modules/chat/index.js:1241
+#, icu-message-format
+msgid "setting.chat.appearance.gifs"
+msgstr "GIFs"
+
+#: /src/modules/chat/index.js:465
+#, icu-message-format
+msgid "setting.chat.appearance.hidden_token_types"
+msgstr "Tipos de contenido ocultos"
+
+#: /src/modules/chat/index.js:465
+#, icu-message-format, md-text
+msgid "setting.chat.appearance.hidden_token_types.description"
+msgstr ""
+"Este filtro te permite evitar que aparezcan en los mensajes del chat tipos "
+"específicos de contenido, como ocultar todos los cheers o emoticonos."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:600
+#, icu-message-format
+msgid "setting.chat.drops.appearance"
+msgstr "Apariencia"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:703
+#, icu-message-format
+msgid "setting.chat.drops.behavior"
+msgstr "Comportamiento"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:857
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:403
+#, icu-message-format
+msgid "setting.chat.hype_chat.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/link_card/index.jsx:28
+#: /src/modules/link_card/index.jsx:38
+#, icu-message-format
+msgid "setting.chat.link_cards.general"
+msgstr "General"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:722
+#: /src/sites/twitch-twilight/modules/chat/index.js:738
+#, icu-message-format
+msgid "setting.chat.shared_chat.appearance"
+msgstr "Apariencia"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:582
+#, icu-message-format
+msgid "setting.chat.shared_chat.behavior"
+msgstr "Comportamiento"
+
+#: /src/modules/chat/index.js:1088
+#, icu-message-format
+msgid "setting.chat.tooltips.terms_of_service"
+msgstr "Términos de servicio"
+
+#: /src/modules/chat/index.js:1088
+#, icu-message-format, md-text
+msgid "setting.chat.tooltips.terms_of_service.description"
+msgstr ""
+"Los siguientes servicios requieren que aceptes sus Términos de Servicio "
+"antes de que podamos mostrarte información de sus plataformas."
+
+#: /src/socket.js:39
+#, icu-message-format
+msgid "setting.data_management.authentication"
+msgstr "Autenticación"
+
+#: /src/socket.js:39
+#, icu-message-format
+msgid "setting.data_management.authentication.general"
+msgstr "General"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:364
+#: /src/sites/twitch-twilight/modules/chat/index.js:382
+#, icu-message-format
+msgid "setting.debugging.chat"
+msgstr "Chat"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:382
+#, icu-message-format
+msgid "setting.debugging.chat.chat"
+msgstr "Chat"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:364
+#, icu-message-format
+msgid "setting.debugging.chat.processing"
+msgstr "Procesamiento"
