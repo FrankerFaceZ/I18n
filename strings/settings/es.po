@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-11 21:13+0000\n"
+"PO-Revision-Date: 2026-09-12 02:55+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -3585,7 +3585,7 @@ msgstr "Cofre de la Comunidad"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emoji"
-msgstr "Emoticono"
+msgstr "Emoji"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3646,7 +3646,7 @@ msgstr "Mensajes Eliminados"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.emoji"
-msgstr "Emoticono"
+msgstr "Emoji"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4410,7 +4410,7 @@ msgstr "Visualizar y enviar"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.style"
-msgstr "Estilo Emoji"
+msgstr "Estilo de emoji"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4473,7 +4473,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.show-emoji"
-msgstr "Mostrar emoji en el menú emote."
+msgstr "Mostrar emojis en el menú de emoticonos."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4531,7 +4531,7 @@ msgstr "Emotes"
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.2"
-msgstr "Emotes y Emoji"
+msgstr "Emoticonos y emojis"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -5057,7 +5057,7 @@ msgstr "Gestión de Datos"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.data_management.backup_and_restore"
-msgstr "Copia de Seguridad y Restauración"
+msgstr "Copia de seguridad y restauración"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5218,7 +5218,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.backup"
-msgstr "Copia de Seguridad"
+msgstr "Copia de seguridad"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5407,13 +5407,12 @@ msgstr ""
 "de cadenas [se pueden encontrar aquí](https://github.com/iamkun/dayjs/blob/"
 "HEAD/docs/en/API-reference.md#list-of-all-available-formats)"
 
-#, fuzzy, icu-message-format, md-text
+#, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.video-chat.enabled.description"
 msgstr ""
-"Mostrar insignias FFZ, emotes y otras características en el chat de vídeos. "
-"Las funciones de moderación pueden no estar disponibles cuando esta opción "
-"está activada."
+"Mostrar emblemas, emoticonos y otras funciones de FFZ en el chat de los "
+"videos."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7901,3 +7900,778 @@ msgstr "General"
 #, icu-message-format
 msgid "setting.entry.auth.mode"
 msgstr "Proveedor de autenticación"
+
+#: /src/socket.js:39
+#, icu-message-format, md-text
+msgid "setting.entry.auth.mode.description"
+msgstr ""
+"¿Qué método debería usar el cliente de FrankerFaceZ para autenticarse ante "
+"los servidores de FFZ cuando sea necesario?"
+
+#: /src/socket.js:50
+#, icu-message-format
+msgid "setting.entry.auth.mode.values.chat"
+msgstr "Chat de Twitch"
+
+#: /src/socket.js:54
+#, icu-message-format
+msgid "setting.entry.auth.mode.values.false"
+msgstr "Desactivado (sin autenticación)"
+
+#: /src/modules/chat/badges.jsx:245
+#, icu-message-format
+msgid "setting.entry.chat.badges.unify-bot-badge.values.0"
+msgstr "Desactivado"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:544
+#, icu-message-format
+msgid "setting.entry.chat.banners.charity"
+msgstr ""
+"Permitir que el progreso de la recaudación benéfica se muestre en el chat."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:553
+#, icu-message-format
+msgid "setting.entry.chat.banners.hide-appleplus"
+msgstr ""
+"Ocultar la notificación de drop por obtener AppleTV+ al comprar una "
+"suscripción."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:553
+#, icu-message-format, md-text
+msgid "setting.entry.chat.banners.hide-appleplus.description"
+msgstr ""
+"**Nota:** Normalmente no añadiría algo que afecte directamente a un anuncio "
+"publicitario como este, pero Twitch rompió la casilla de \"No volver a "
+"mostrar\" así que nos corresponde a nosotros solucionarlo."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:591
+#, icu-message-format
+msgid "setting.entry.chat.banners.pinned-message"
+msgstr "Permitir que los mensajes fijados se muestren en el chat."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:582
+#, icu-message-format
+msgid "setting.entry.chat.banners.shared-chat"
+msgstr ""
+"Permitir que el aviso de Chat Compartido se muestre en el chat cuando un "
+"Chat Compartido esté activo."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:703
+#, icu-message-format
+msgid "setting.entry.chat.drops.auto-rewards"
+msgstr "Reclamar drops automáticamente."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:703
+#, icu-message-format, md-text
+msgid "setting.entry.chat.drops.auto-rewards.description"
+msgstr ""
+"Cuando está activado, los drops se reclamarán automáticamente la próxima vez "
+"que completes uno. Los drops que ya estén disponibles no se reclamarán hasta "
+"que se gane uno nuevo."
+
+#: /src/modules/chat/emotes.js:586
+#, icu-message-format, md-text
+msgid "setting.entry.chat.effects.enable.description"
+msgstr ""
+"Los efectos de emoticonos son efectos especiales que se pueden aplicar a "
+"algunos emoticonos usando modificadores especiales."
+
+#: /src/modules/chat/emoji.js:109
+#, icu-message-format
+msgid "setting.entry.chat.emoji.replace-joiner.values.3"
+msgstr "Mostrar y enviar"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:211
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.clear-search"
+msgstr "Restablecer la búsqueda al cerrar el menú de emoticonos."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:309
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.default-tab.values.effect"
+msgstr "Efectos de emoticonos"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:325
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emote-menu.tooltips.description"
+msgstr "Es posible que quieras desactivar esto por razones de rendimiento."
+
+#: /src/modules/chat/index.js:917
+#, icu-message-format
+msgid "setting.entry.chat.filtering.all-mentions"
+msgstr "Mostrar menciones de todos los usuarios sin necesidad de arroba (@)."
+
+#: /src/modules/chat/index.js:917
+#, icu-message-format, md-text
+msgid "setting.entry.chat.filtering.all-mentions.description"
+msgstr ""
+"**Nota**: Este ajuste puede aumentar el uso de memoria y afectar el "
+"rendimiento del chat."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:358
+#, icu-message-format
+msgid "setting.entry.chat.filtering.show-reasons.values.1"
+msgstr "Sobre el mensaje"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:359
+#, icu-message-format
+msgid "setting.entry.chat.filtering.show-reasons.values.2"
+msgstr "En línea"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:357
+#, icu-message-format
+msgid "setting.entry.chat.filtering.show-reasons.values.false"
+msgstr "Desactivado"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:76
+#, icu-message-format
+msgid "setting.entry.chat.hype.display-input"
+msgstr ""
+"Permitir que el botón del Hype Chat aparezca en el campo de entrada del chat."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:857
+#, icu-message-format
+msgid "setting.entry.chat.hype.message-style"
+msgstr "Estilo del Hype Chat"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:857
+#, icu-message-format, md-text
+msgid "setting.entry.chat.hype.message-style.description"
+msgstr ""
+"**Nota**: Los Hype Chats que incluyan mensajes siempre mostrarán su mensaje, "
+"sin importar este ajuste. Los cambios realizados en este ajuste pueden no "
+"afectar a los mensajes de chat existentes."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:865
+#, icu-message-format
+msgid "setting.entry.chat.hype.message-style.values.0"
+msgstr "No mostrar"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:866
+#, icu-message-format
+msgid "setting.entry.chat.hype.message-style.values.1"
+msgstr "Estándar de Twitch (grande, con color, soporte limitado de FFZ)"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:867
+#, icu-message-format
+msgid "setting.entry.chat.hype.message-style.values.2"
+msgstr "Mínimo (marcado como mensaje del sistema, sin colores)"
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:403
+#, icu-message-format
+msgid "setting.entry.chat.hype.show-pinned"
+msgstr ""
+"Permitir que los mensajes del Hype Chat aparezcan fijados en la parte "
+"superior del chat."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:731
+#, icu-message-format
+msgid "setting.entry.chat.shared-chat.style.values.0"
+msgstr "Oculto"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:732
+#, icu-message-format
+msgid "setting.entry.chat.shared-chat.style.values.1"
+msgstr "Nombre del canal"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:733
+#, icu-message-format
+msgid "setting.entry.chat.shared-chat.style.values.2"
+msgstr "Avatar"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:730
+#, icu-message-format
+msgid "setting.entry.chat.shared-chat.style.values.null"
+msgstr "Automático"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:192
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.show-source.values.0"
+msgstr "Desactivado"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:193
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.show-source.values.1"
+msgstr "Corto"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:194
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.show-source.values.2"
+msgstr "Largo"
+
+#: /src/load_tracker.ts:83
+#, icu-message-format
+msgid "setting.entry.chat.update-when-loaded"
+msgstr "Actualizar los mensajes del chat existentes al cargar nuevos datos."
+
+#: /src/load_tracker.ts:83
+#, icu-message-format, md-text
+msgid "setting.entry.chat.update-when-loaded.description"
+msgstr ""
+"Esto puede hacer que los elementos del chat se muevan, por lo que quizás "
+"quieras desactivarlo al moderar."
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:493
+#, icu-message-format
+msgid "setting.entry.directory.default-sort"
+msgstr "Forzar orden predeterminado"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:500
+#, icu-message-format
+msgid "setting.entry.directory.default-sort.values.false"
+msgstr "Desactivado"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:516
+#, icu-message-format
+msgid "setting.entry.directory.default-sort.values.RECENT"
+msgstr "Iniciados recientemente"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:504
+#, icu-message-format
+msgid "setting.entry.directory.default-sort.values.RELEVANCE"
+msgstr "Recomendados para ti"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:508
+#, icu-message-format
+msgid "setting.entry.directory.default-sort.values.VIEWER_COUNT"
+msgstr "Espectadores (de mayor a menor)"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:512
+#, icu-message-format
+msgid "setting.entry.directory.default-sort.values.VIEWER_COUNT_ASC"
+msgstr "Espectadores (de menor a mayor)"
+
+#: /src/modules/link_card/index.jsx:38
+#, icu-message-format
+msgid "setting.entry.link-cards.use-destination"
+msgstr "Omitir acortadores conocidos"
+
+#: /src/sites/shared/player.jsx:138
+#, icu-message-format
+msgid "setting.entry.player.clip-button.custom"
+msgstr "Mostrar un botón de Clip personalizado."
+
+#: /src/sites/shared/player.jsx:138
+#, icu-message-format, md-text
+msgid "setting.entry.player.clip-button.custom.description"
+msgstr ""
+"Añade un botón de Clip personalizado al reproductor que se ajuste mejor al "
+"estilo de los demás botones."
+
+#: /src/sites/shared/player.jsx:124
+#, icu-message-format
+msgid "setting.entry.player.clip-button.hide-native"
+msgstr "Ocultar el botón de Clip nativo."
+
+#: /src/sites/shared/player.jsx:124
+#, icu-message-format, md-text
+msgid "setting.entry.player.clip-button.hide-native.description"
+msgstr ""
+"Por defecto, esto está activado cuando se usa el ajuste para añadir un botón "
+"de Clip personalizado."
+
+#: /src/sites/shared/player.jsx:208
+#, icu-message-format
+msgid "setting.entry.player.compressor.force-legacy"
+msgstr "Forzar el uso de la API antigua del navegador."
+
+#: /src/sites/shared/player.jsx:208
+#, icu-message-format, md-text
+msgid "setting.entry.player.compressor.force-legacy.description"
+msgstr ""
+"Este ajuste obliga a FrankerFaceZ a intentar usar una API más antigua del "
+"navegador para crear el compresor. Por favor, reinicia tu reproductor "
+"después de cambiar este ajuste."
+
+#: /src/sites/shared/player.jsx:163
+#, icu-message-format
+msgid "setting.entry.player.disable-content-warnings"
+msgstr "No mostrar advertencias de contenido."
+
+#: /src/sites/shared/player.jsx:163
+#, icu-message-format, md-text
+msgid "setting.entry.player.disable-content-warnings.description"
+msgstr ""
+"Cuando esto está activado, FFZ omitirá automáticamente las advertencias de "
+"contenido. Esta función está destinada únicamente para uso de adultos."
+
+#: /src/sites/shared/player.jsx:152
+#, icu-message-format
+msgid "setting.entry.player.fade-pause-buffer"
+msgstr ""
+"Atenuar el reproductor al pausar o cargar, para facilitar la visualización "
+"de la interfaz."
+
+#: /src/sites/twitch-twilight/modules/player.jsx:141
+#, icu-message-format
+msgid "setting.entry.player.fullscreen.auto-chat"
+msgstr ""
+"Expandir automáticamente el chat al entrar en modo de pantalla completa."
+
+#: /src/pubsub/index.ts:61
+#, icu-message-format, md-text
+msgid "setting.entry.pubsub.enabled.description"
+msgstr ""
+"Si quieres o no que tu cliente se conecte al sistema PubSub de FrankerFaceZ. "
+"Esto aún está en fase de pruebas y debería dejarse como está a menos que "
+"sepas lo que haces."
+
+#: /src/modules/main_menu/components/experiments.vue:110
+#: /src/modules/main_menu/components/experiments.vue:47
+#, icu-message-format
+msgid "setting.experiments.visible"
+msgstr "(Mostrando {visible,number} de {total,number})"
+
+#: /src/modules/main_menu/components/setting-filter-editor.vue:57
+#, icu-message-format
+msgid "setting.filter.add-default-tip"
+msgstr "Añadir todos los valores predeterminados a este perfil."
+
+#: /src/modules/main_menu/components/setting-filter-editor.vue:24
+#: /src/modules/main_menu/components/setting-filter-editor.vue:36
+#, icu-message-format
+msgid "setting.filter.delete-all"
+msgstr "Eliminar todas las entradas de este perfil."
+
+#: /src/modules/main_menu/components/setting-filter-editor.vue:12
+#, icu-message-format
+msgid "setting.filter.drag"
+msgstr "Arrastra las entradas para reordenarlas."
+
+#: /src/sites/twitch-twilight/modules/player.jsx:141
+#, icu-message-format
+msgid "setting.player.general.fullscreen"
+msgstr "Pantalla completa"
+
+#: /src/modules/main_menu/components/emote-priorities.vue:42
+#, icu-message-format
+msgid "setting.priorities.add"
+msgstr "Añadir prioridades"
+
+#: /src/modules/main_menu/components/emote-priorities.vue:27
+#, icu-message-format
+msgid "setting.priorities.delete"
+msgstr "Eliminar las prioridades de este perfil de ajustes."
+
+#: /src/modules/main_menu/components/emote-priorities.vue:16
+#, icu-message-format
+msgid "setting.priorities.drag"
+msgstr "Arrastra los proveedores para cambiar su prioridad."
+
+#: /src/modules/main_menu/components/emote-priorities.vue:34
+#, icu-message-format
+msgid "setting.priorities.none"
+msgstr "no hay prioridades definidas en este perfil"
+
+#: /src/modules/main_menu/components/menu-page.vue:59
+#: /src/modules/main_menu/components/profile-editor.vue:15
+#, icu-message-format
+msgid "setting.profiles.ephemeral.description-2"
+msgstr ""
+"Por favor, selecciona un perfil diferente desde el selector en la parte "
+"superior izquierda de este menú para editar tus ajustes."
+
+#: /src/modules/main_menu/components/term-editor.vue:360
+#, icu-message-format
+msgid "setting.terms.type.raw"
+msgstr "Regex"
+
+#: /src/modules/chat/actions/renderers.jsx:44
+#, icu-message-format
+msgid "setting.actions.appearance.emote"
+msgstr "Emoticono"
+
+#: /src/modules/chat/actions/components/edit-emoji.vue:3
+#, icu-message-format
+msgid "setting.actions.emoji"
+msgstr "Emoji"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:56
+#, icu-message-format
+msgid "setting.actions.chat.target-notice"
+msgstr ""
+"Ten en cuenta que, al enviar un mensaje a otro chat, no recibirás "
+"confirmación de que tu mensaje fue enviado."
+
+#: /src/modules/main_menu/components/action-editor.vue:138
+#, icu-message-format
+msgid "setting.actions.edit-visible.following"
+msgstr "Usuario seguido"
+
+#: /src/modules/chat/actions/components/edit-emote.vue:3
+#, icu-message-format
+msgid "setting.actions.emote"
+msgstr "Emoticono"
+
+#: /src/modules/main_menu/components/action-editor.vue:612
+#, icu-message-format
+msgid "setting.actions.unknown"
+msgstr "Tipo de acción desconocida: {action}"
+
+#: /src/modules/main_menu/components/action-editor.vue:627
+#, icu-message-format
+msgid "setting.actions.untitled"
+msgstr "Acción: {action}"
+
+#: /src/modules/main_menu/components/action-editor.vue:709
+#, icu-message-format
+msgid "setting.actions.visible.emote-only"
+msgstr "cuando está en modo solo emoticonos"
+
+#: /src/modules/main_menu/components/action-editor.vue:729
+#, icu-message-format
+msgid "setting.actions.visible.followers"
+msgstr "cuando está en modo solo seguidores"
+
+#: /src/modules/main_menu/components/action-editor.vue:678
+#, icu-message-format
+msgid "setting.actions.visible.following"
+msgstr "cuando se sigue al usuario"
+
+#: /src/modules/main_menu/components/action-editor.vue:693
+#, icu-message-format
+msgid "setting.actions.visible.mod_icons_off"
+msgstr "cuando los iconos de moderador están ocultos"
+
+#: /src/modules/main_menu/components/action-editor.vue:675
+#, icu-message-format
+msgid "setting.actions.visible.never"
+msgstr "nunca"
+
+#: /src/modules/main_menu/components/action-editor.vue:711
+#, icu-message-format
+msgid "setting.actions.visible.no-emote"
+msgstr "cuando no está en modo solo emoticonos"
+
+#: /src/modules/main_menu/components/action-editor.vue:731
+#, icu-message-format
+msgid "setting.actions.visible.no-followers"
+msgstr "cuando no está en modo solo seguidores"
+
+#: /src/modules/main_menu/components/action-editor.vue:716
+#, icu-message-format
+msgid "setting.actions.visible.no-slow"
+msgstr "cuando no está en modo lento"
+
+#: /src/modules/main_menu/components/action-editor.vue:721
+#, icu-message-format
+msgid "setting.actions.visible.no-subs"
+msgstr "cuando no está en modo suscriptores"
+
+#: /src/modules/main_menu/components/action-editor.vue:719
+#, icu-message-format
+msgid "setting.actions.visible.subs"
+msgstr "cuando está en modo suscriptores"
+
+#: /src/modules/main_menu/components/changelog.vue:13
+#, icu-message-format
+msgid "setting.add_ons.specific-changelog"
+msgstr "Registro de cambios de {name}"
+
+#: /src/i18n.js:143
+#: /src/i18n.js:176
+#: /src/i18n.js:206
+#: /src/i18n.js:236
+#: /src/modules/main_menu/index.js:218
+#: /src/sites/twitch-twilight/modules/bits_button.js:19
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:146
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:155
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:184
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:194
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:204
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:222
+#, icu-message-format
+msgctxt ""
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/backup-restore.vue:159
+#: /src/modules/main_menu/components/backup-restore.vue:222
+#, icu-message-format
+msgid "setting.backup-restore.non-full"
+msgstr ""
+"Este archivo no es una copia de seguridad completa y no se puede restaurar "
+"con esta herramienta."
+
+#: /src/modules/chat/emoji.js:121
+#: /src/modules/chat/emotes.js:491
+#: /src/modules/chat/emotes.js:508
+#: /src/modules/chat/emotes.js:528
+#: /src/modules/chat/emotes.js:538
+#: /src/modules/chat/emotes.js:548
+#: /src/modules/chat/index.js:1100
+#: /src/modules/chat/index.js:1131
+#: /src/modules/chat/index.js:1143
+#: /src/modules/chat/index.js:1176
+#: /src/modules/chat/index.js:1231
+#: /src/modules/chat/index.js:1241
+#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:167
+#: /src/modules/chat/index.js:179
+#: /src/modules/chat/index.js:191
+#, icu-message-format
+msgctxt ""
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"FFZ Control Center"
+msgid "setting.chat.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/chat/emotes.js:482
+#, icu-message-format
+msgid "setting.chat.emote_priorities"
+msgstr "Prioridades de emoticonos"
+
+#: /src/modules/main_menu/components/clear-settings.vue:67
+#, icu-message-format
+msgid "setting.clear.running"
+msgstr "Borrando ajustes. Por favor espera..."
+
+#: /src/modules/main_menu/components/profile-manager.vue:5
+#, icu-message-format
+msgid "setting.context-difference"
+msgstr "Es posible que tus perfiles no coincidan."
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:493
+#, icu-message-format
+msgid "setting.directory.general"
+msgstr "General"
+
+#: /src/std-components/emote-picker.vue:74
+#, icu-message-format
+msgid "setting.emote.none-about"
+msgstr ""
+"Asegúrate de tener activado el menú de emoticonos de FFZ, y de usar esto "
+"desde una página que cargue el chat."
+
+#: /src/modules/chat/actions/actions.jsx:47
+#, icu-message-format
+msgid "setting.entry.chat.actions.hover-size"
+msgstr "Tamaño de la acción"
+
+#: /src/modules/chat/actions/actions.jsx:47
+#, icu-message-format, md-text
+msgid "setting.entry.chat.actions.hover-size.description"
+msgstr ""
+"Qué tan alta debe ser la acción al pasar el cursor, en píxeles. Esto puede "
+"verse afectado por la configuración de zoom y tamaño de fuente de tu "
+"navegador."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:627
+#, icu-message-format
+msgid "setting.entry.chat.callouts.clip"
+msgstr ""
+"Permitir que se muestre en el chat la sugerencia de clip \"El chat parece "
+"activo\"."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:364
+#, icu-message-format
+msgid "setting.entry.chat.disable-handling"
+msgstr "Activar el procesamiento de mensajes del chat."
+
+#: /src/modules/chat/emotes.js:586
+#, icu-message-format
+msgid "setting.entry.chat.effects.enable"
+msgstr "Activar el uso de efectos de emoticonos."
+
+#: /src/modules/chat/emotes.js:538
+#, icu-message-format
+msgid "setting.entry.chat.emotes.allow-gigantify"
+msgstr "Permitir la mejora \"Convertir emoticono en gigante\""
+
+#: /src/modules/chat/emotes.js:538
+#, icu-message-format, md-text
+msgid "setting.entry.chat.emotes.allow-gigantify.description"
+msgstr ""
+"¿Qué tan grande es demasiado grande? ¿Gigante? Desactiva esto y los "
+"emoticonos se mostrarán con normalidad."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:462
+#, icu-message-format
+msgid "setting.entry.chat.powerup.effects"
+msgstr ""
+"Permitir que los mensajes con \"Efectos de mensaje\" aparezcan en el chat."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:462
+#, icu-message-format, md-text
+msgid "setting.entry.chat.powerup.effects.description"
+msgstr ""
+"*Nota*: Solo afecta a los mensajes enviados después de cambiar este ajuste. "
+"Puedes usar tu propio chat para probarlo."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:738
+#, icu-message-format
+msgid "setting.entry.chat.shared-chat.username-tooltip"
+msgstr ""
+"Mostrar el canal de origen de un mensaje del chat al pasar el cursor sobre "
+"el nombre de usuario del remitente."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:340
+#, icu-message-format
+msgid "setting.entry.chat.subs.native"
+msgstr "Mostrar los avisos de suscripción usando la interfaz nativa de Twitch."
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:173
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.matching.values.2"
+msgstr "2: Sin prefijo (estilo antiguo de FFZ)"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:174
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.matching.values.3"
+msgstr "3: Exacto (sin distinguir mayúsculas)"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:179
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.show-source"
+msgstr "Mostrar el origen del emoticono"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:115
+#, icu-message-format
+msgid "setting.entry.directory.hide-costream-border"
+msgstr "Ocultar el borde en streams con invitados."
+
+#: /src/sites/shared/player.jsx:644
+#, icu-message-format
+msgid "setting.entry.player.single-click-pause"
+msgstr "Pausar/reanudar el reproductor al hacer clic."
+
+#: /src/pubsub/index.ts:61
+#, icu-message-format
+msgid "setting.entry.pubsub.enabled"
+msgstr "Activar PubSub."
+
+#: /src/sites/twitch-twilight/modules/theme/index.js:53
+#, icu-message-format
+msgid "setting.entry.theme.high-contrast-tweaks"
+msgstr "Activar los ajustes de alto contraste."
+
+#: /src/modules/main_menu/components/filter-rule-editor.vue:7
+#, icu-message-format
+msgid "setting.filters.missing"
+msgstr ""
+"Esta regla de tipo “{type}” no puede cargarse. Puede pertenecer a un "
+"complemento que no está cargado."
+
+#: /src/sites/shared/player.jsx:113
+#: /src/sites/shared/player.jsx:124
+#: /src/sites/shared/player.jsx:138
+#, icu-message-format
+msgid "setting.player.general.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/main_menu/components/menu-page.vue:49
+#: /src/modules/main_menu/components/profile-editor.vue:5
+#: /src/modules/main_menu/components/profile-manager.vue:243
+#: /src/modules/main_menu/components/profile-selector.vue:59
+#: /src/sites/twitch-twilight/modules/menu_button.jsx:731
+#, icu-message-format
+msgid "setting.profiles.ephemeral"
+msgstr "Este perfil es efímero."
+
+#: /src/modules/main_menu/components/menu-page.vue:53
+#: /src/modules/main_menu/components/profile-editor.vue:9
+#, icu-message-format, md-text
+msgid "setting.profiles.ephemeral.description"
+msgstr ""
+"El perfil actualmente seleccionado es efímero, lo cual es una forma elegante "
+"de decir que se generó automáticamente, que solo existe temporalmente y que "
+"ningún cambio que hagas se guardará."
+
+#: /src/settings/providers.ts:1481
+#, icu-message-format
+msgid "setting.provider.cosb.desc"
+msgstr ""
+"Este proveedor usa un `<iframe>` para sincronizar el almacenamiento entre "
+"subdominios. Debido al `<iframe>`, este proveedor tarda más que otros en "
+"cargar, pero debería funcionar prácticamente igual una vez cargado. Deberías "
+"usarlo en subdominios de Twitch que no sean www, a menos que por alguna "
+"razón no quieras que tu configuración se sincronice automáticamente."
+
+#: /src/settings/providers.ts:1596
+#, icu-message-format
+msgid "setting.provider.ext.title"
+msgstr "Almacenamiento de la extensión del navegador"
+
+#: /src/modules/main_menu/components/provider.vue:64
+#, icu-message-format
+msgid "setting.provider.has-blobs.about"
+msgstr ""
+"Este proveedor admite datos binarios, como archivos de sonido personalizados."
+
+#: /src/modules/main_menu/components/provider.vue:52
+#, icu-message-format
+msgid "setting.provider.has-data.about"
+msgstr "Este proveedor tiene datos guardados."
+
+#: /src/modules/main_menu/components/provider.vue:100
+#, icu-message-format
+msgid "setting.provider.no-transfer"
+msgstr ""
+"No se permite transferir la configuración automáticamente desde tu proveedor "
+"actual al proveedor seleccionado. Por favor, usa Copia de seguridad y "
+"restauración."
+
+#: /src/modules/main_menu/components/provider.vue:46
+#, icu-message-format
+msgid "setting.provider.selected.about"
+msgstr "Este es el proveedor de configuración activo."
+
+#: /src/modules/main_menu/components/provider.vue:95
+#, icu-message-format
+msgid "setting.provider.transfer.warning"
+msgstr ""
+"El proveedor que seleccionaste contiene datos, y esos datos se perderán si "
+"transfieres la configuración desde tu proveedor actual. Asegúrate de tener "
+"una copia de seguridad de tu configuración por si algo sale mal."
+
+#: /src/modules/main_menu/components/provider.vue:8
+#, icu-message-format
+msgid "setting.provider.warn-domain.desc"
+msgstr ""
+"Actualmente estás cambiando la configuración de un subdominio de Twitch. Los "
+"cambios que hagas aquí solo afectarán a este subdominio. Probablemente "
+"quieras modificar esto desde el sitio principal de Twitch, y no desde aquí."
+
+#: /src/modules/main_menu/components/provider.vue:4
+#, icu-message-format
+msgid "setting.provider.warn-domain.title"
+msgstr "¡Estás lejos de casa!"
+
+#: /src/modules/main_menu/components/badge-term-editor.vue:18
+#, icu-message-format
+msgid "setting.terms.invalid-badge"
+msgstr "emblema desconocido/no cargado"
+
+#: /src/modules/main_menu/components/term-editor.vue:12
+#, icu-message-format
+msgid "setting.terms.warn-complex"
+msgstr ""
+"Este término de resaltado podría ser demasiado complejo. Puede causar "
+"lentitud en el cliente."
+
+#: /src/modules/main_menu/components/term-editor.vue:6
+#, icu-message-format
+msgid "setting.terms.warn-invalid"
+msgstr "Este término de resaltado no es válido."
+
+#: /src/modules/chat/actions/renderers.jsx:10
+#, icu-message-format
+msgid "setting.actions.appearance.dynamic"
+msgstr "Dinámico"
+
+#: /src/modules/main_menu/components/addon.vue:12
+#, icu-message-format
+msgid "addon.external"
+msgstr "Externo"
