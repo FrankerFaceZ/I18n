@@ -1,2 +1,106 @@
 msgid ""
-msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+msgstr ""
+"X-Generator: Weblate 2026.9\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-09-12 03:21+0000\n"
+"Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/addonaccurate-timestamps/es/>\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: /src/accurate-timestamps/index.js:118
+#: /src/accurate-timestamps/index.js:16
+#: /src/accurate-timestamps/index.js:29
+#: /src/accurate-timestamps/index.js:60
+#: /src/accurate-timestamps/index.js:74
+#: /src/accurate-timestamps/index.js:87
+#, icu-message-format
+msgid "setting.add_ons.accurate_timestamps"
+msgstr "Accurate Timestamps"
+
+#: /src/accurate-timestamps/index.js:16
+#: /src/accurate-timestamps/index.js:29
+#: /src/accurate-timestamps/index.js:60
+#, icu-message-format
+msgid "setting.add_ons.accurate_timestamps.clips"
+msgstr "Clips"
+
+#: /src/accurate-timestamps/index.js:118
+#: /src/accurate-timestamps/index.js:74
+#: /src/accurate-timestamps/index.js:87
+#, icu-message-format
+msgid "setting.add_ons.accurate_timestamps.videos"
+msgstr "Videos"
+
+#: /src/accurate-timestamps/index.js:16
+#, icu-message-format
+msgid "setting.entry.addon.accurate_timestamps.clips"
+msgstr "Activar marcas de tiempo personalizadas para clips"
+
+#: /src/accurate-timestamps/index.js:29
+#, icu-message-format
+msgid "setting.entry.addon.accurate_timestamps.clips-format"
+msgstr "Formato de marca de tiempo"
+
+#: /src/accurate-timestamps/index.js:29
+#, icu-message-format, md-text
+msgid "setting.entry.addon.accurate_timestamps.clips-format.description"
+msgstr ""
+"El formato combinado de marca de tiempo predeterminado. Los formatos de "
+"tiempo personalizados se formatean usando la librería [Day.js](https://"
+"day.js.org/docs/en/display/format)."
+
+#: /src/accurate-timestamps/index.js:60
+#, icu-message-format
+msgid "setting.entry.addon.accurate_timestamps.clips-relative"
+msgstr "Incluir marca de tiempo relativa"
+
+#: /src/accurate-timestamps/index.js:60
+#, icu-message-format, md-text
+msgid "setting.entry.addon.accurate_timestamps.clips-relative.description"
+msgstr ""
+"Muestra una marca de tiempo relativa, como `(hace 2 días)`, `(hace 2 meses)"
+"`, `(hace 2 años)` al final."
+
+#: /src/accurate-timestamps/index.js:16
+#, icu-message-format, md-text
+msgid "setting.entry.addon.accurate_timestamps.clips.description"
+msgstr "Muestra la marca de tiempo completa de cuándo se creó un clip."
+
+#: /src/accurate-timestamps/index.js:74
+#, icu-message-format
+msgid "setting.entry.addon.accurate_timestamps.videos"
+msgstr "Activar marcas de tiempo personalizadas para videos"
+
+#: /src/accurate-timestamps/index.js:87
+#, icu-message-format
+msgid "setting.entry.addon.accurate_timestamps.videos-format"
+msgstr "Formato de marca de tiempo"
+
+#: /src/accurate-timestamps/index.js:87
+#, icu-message-format, md-text
+msgid "setting.entry.addon.accurate_timestamps.videos-format.description"
+msgstr ""
+"El formato combinado de marca de tiempo predeterminado. Los formatos de "
+"tiempo personalizados se formatean usando la librería [Day.js](https://"
+"day.js.org/docs/en/display/format)."
+
+#: /src/accurate-timestamps/index.js:118
+#, icu-message-format
+msgid "setting.entry.addon.accurate_timestamps.videos-relative"
+msgstr "Incluir marca de tiempo relativa"
+
+#: /src/accurate-timestamps/index.js:118
+#, icu-message-format, md-text
+msgid "setting.entry.addon.accurate_timestamps.videos-relative.description"
+msgstr ""
+"Muestra una marca de tiempo relativa, como `(hace 2 días)`, `(hace 2 meses)"
+"`, `(hace 2 años)` al final."
+
+#: /src/accurate-timestamps/index.js:74
+#, icu-message-format, md-text
+msgid "setting.entry.addon.accurate_timestamps.videos.description"
+msgstr "Muestra la marca de tiempo completa de cuándo se creó un video."
