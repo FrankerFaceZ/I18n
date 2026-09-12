@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-12 23:01+0000\n"
+"PO-Revision-Date: 2026-09-12 23:21+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -3832,17 +3832,17 @@ msgstr "Configuración adicional para los `filtros de chat` nativos de Twitch."
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges.description"
 msgstr ""
-"**Nota:** Esta sección es para filtrar mensajes del chat de usuarios con "
-"insignias específicas. Si desea ocultar una insignia, vaya a [Chat > "
-"Insignias >> Visibilidad](~chat.badges.tabs.visibility)."
+"**Nota:** Esta sección sirve para filtrar mensajes del chat provenientes de "
+"usuarios que tengan emblemas específicos. Si deseas ocultar un emblema, ve a "
+"[Chat > Emblemas >> Visibilidad](~chat.badges.tabs.visibility)."
 
 #: /src/modules/main_menu/index.js:593
 #, icu-message-format, md-text
 msgid "setting.chat.filtering.blocked_badges.description"
 msgstr ""
-"**Nota:** Esta sección es para filtrar mensajes del chat de usuarios con "
-"insignias específicas. Si desea ocultar una insignia, vaya a [Chat > "
-"Insignias >> Visibilidad](~chat.badges.tabs.visibility)."
+"**Nota:** Esta sección sirve para filtrar mensajes del chat provenientes de "
+"usuarios que tengan emblemas específicos. Si deseas ocultar un emblema, ve a "
+"[Chat > Emblemas >> Visibilidad](~chat.badges.tabs.visibility)."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -3934,10 +3934,10 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.fix-colors.description"
 msgstr ""
-"Garantiza que las insignias sean visibles sobre el fondo actual.\n"
+"Garantiza que los emblemas sean visibles sobre el fondo actual.\n"
 "\n"
-"**Nota:** Sólo afecta a las insignias con representación personalizada. Las "
-"insignias de suscriptor, insignias de bits, etc. no se ven afectadas."
+"**Nota:** Solo afecta a los emblemas con renderizado personalizado. Los "
+"emblemas de suscriptor, bits, etc., no se ven afectados."
 
 #: /src/modules/main_menu/components/setting-select-box.vue:19
 #, icu-message-format
@@ -4057,7 +4057,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-vip"
-msgstr "Utilice distintivos VIP personalizados cuando estén disponibles."
+msgstr "Usar emblemas VIP personalizados cuando estén disponibles."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4279,19 +4279,18 @@ msgstr "Legacy (URL abiertas)"
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
 msgid "setting.entry.chat.badges.clickable.values.2"
-msgstr "Tarjeta de identificación abierta"
+msgstr "Abrir tarjeta de emblema"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.custom-mod"
-msgstr ""
-"Utilizar insignias de moderador personalizadas cuando estén disponibles."
+msgstr "Usar emblemas de moderador personalizados cuando estén disponibles."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:33
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.badges.fix-colors"
-msgstr "Ajuste los colores de las insignias para mayor visibilidad."
+msgstr "Ajustar los colores de los emblemas para mejorar la visibilidad."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8675,3 +8674,8 @@ msgstr "Dinámico"
 #, icu-message-format
 msgid "addon.external"
 msgstr "Externo"
+
+#: /src/modules/chat/badges.jsx:246
+#, icu-message-format
+msgid "setting.entry.chat.badges.unify-bot-badge.values.1"
+msgstr "Emblema estilo FFZ"
