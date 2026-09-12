@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-12 23:00+0000\n"
+"PO-Revision-Date: 2026-09-13 02:52+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon7tv-emotes/es/>\n"
@@ -89,8 +89,8 @@ msgstr "Mostrar emoticonos descatalogados"
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.unlisted_emotes.description"
 msgstr ""
-"Mostrar emoticonos que los mods de 7TV hayan considerado que no cumpla los "
-"TOS."
+"Muestra emoticonos que aún no han sido aprobados o que los moderadores de "
+"7TV hayan considerado que no cumplen los TOS."
 
 #: /src/modules/main_menu/index.js:635
 #: /src/modules/main_menu/components/setting-check-box.vue:1
@@ -103,7 +103,7 @@ msgstr "Mostrar mensajes de actualización"
 #, icu-message-format, md-text
 msgid "setting.entry.addon.seventv_emotes.update_messages.description"
 msgstr ""
-"Mostrar mensajes en el chat cuando los emoticonos son actualizados en el "
+"Muestra mensajes en el chat cuando los emoticonos son actualizados en el "
 "canal actual."
 
 #: /src/modules/main_menu/index.js:674
@@ -129,7 +129,7 @@ msgstr "Emoticonos"
 #: /src/modules/main_menu/components/menu-container.vue:1
 #, icu-message-format
 msgid "setting.add_ons.7tv_emotes.emotes.emote_visibility"
-msgstr "Visibilidad de emoticono"
+msgstr "Visibilidad de emoticonos"
 
 #: /src/modules/main_menu/index.js:674
 #: /src/modules/main_menu/components/menu-container.vue:1
@@ -156,3 +156,13 @@ msgstr "Avif"
 #, icu-message-format
 msgid "setting.entry.addon.seventv_emotes.emote_format.values.WEBP"
 msgstr "Webp"
+
+#: /src/7tv-emotes/modules/personal-emotes.js:13
+#, icu-message-format, md-text
+msgid "setting.entry.addon.seventv_emotes.personal_emotes.description"
+msgstr "Activa los emoticonos personales de 7TV."
+
+#: /src/7tv-emotes/modules/personal-emotes.js:13
+#, icu-message-format
+msgid "setting.entry.addon.seventv_emotes.personal_emotes"
+msgstr "Emoticonos personales"
