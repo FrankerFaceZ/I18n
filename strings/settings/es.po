@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-13 21:21+0000\n"
+"PO-Revision-Date: 2026-09-13 22:22+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -3408,9 +3408,8 @@ msgstr "Clips"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.user_context.description"
 msgstr ""
-"Aquí puedes definir acciones personalizadas que aparecerán en menú "
-"contextual al hacer clic con el botón derecho en un nombre de usuario en el "
-"chat."
+"Aquí puedes definir acciones personalizadas que aparecerán en un menú "
+"contextual cuando hagas clic derecho sobre un nombre de usuario en el chat."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4088,9 +4087,9 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line.description"
 msgstr ""
 "Aquí puedes definir acciones personalizadas que aparecerán junto a los "
-"mensajes en el chat. Si no ves en el chat una acción que has definido aquí, "
-"asegúrate de que has habilitado Iconos Mod en el menú de configuración del "
-"chat."
+"mensajes en el chat. Si no ves en el chat alguna acción que hayas definido "
+"aquí, asegúrate de tener habilitados los Iconos de moderación en el menú de "
+"configuración del chat."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5854,12 +5853,12 @@ msgstr "Da prioridad a los emotes que comienzan con la entrada del usuario."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format"
-msgstr "Formato del sello de tiempo"
+msgstr "Formato de la marca de tiempo"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-size"
-msgstr "Timestamp Tamaño de fuente"
+msgstr "Tamaño de fuente de la marca de tiempo"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -8695,3 +8694,12 @@ msgstr "Emblema estilo Twitch"
 #, icu-message-format
 msgid "setting.entry.chat.badges.unify-bot-badge"
 msgstr "Emblema unificado de bot"
+
+#: /src/modules/chat/actions/actions.jsx:88
+#, icu-message-format, md-text
+msgid "setting.chat.actions.message_hover.description"
+msgstr ""
+"Aquí puedes definir acciones personalizadas que aparecerán sobre los "
+"mensajes en el chat cuando pases el cursor sobre ellos. Si no ves en el chat "
+"alguna acción que hayas definido aquí, asegúrate de tener habilitados los "
+"Iconos de moderación en el menú de configuración del chat."
