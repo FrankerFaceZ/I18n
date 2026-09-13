@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-13 23:37+0000\n"
+"PO-Revision-Date: 2026-09-14 00:02+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1201,3 +1201,24 @@ msgid "emote-card.sub.upsell-tier"
 msgstr ""
 "Suscríbete al canal de {user} en el Nivel {tier} para usar {emote} junto con "
 "{emotes, plural, one {# emote más} other {# más de sus emotes} }, incluidos:"
+
+#: /src/utilities/constants.ts:387
+#, icu-message-format
+msgid "embed.warn.youtube.links"
+msgstr ""
+"Para ver los incrustados de YouTube, debes aceptar los Términos del Servicio "
+"de YouTube:\n"
+"* [Términos del Servicio](https://www.youtube.com/t/terms)\n"
+"* [Política de Privacidad](https://policies.google.com/privacy)"
+
+#: /src/modules/main_menu/components/tooltip-tos.vue:5
+#, icu-message-format
+msgid "tooltip.has-accepted"
+msgstr "Has aceptado los Términos del Servicio."
+
+#: /src/modules/chat/index.js:2874
+#, icu-message-format
+msgid "embed.tos-settings"
+msgstr ""
+"Abre el Centro de Control de FFZ y navega a Chat > Información emergente "
+"para aceptar."
