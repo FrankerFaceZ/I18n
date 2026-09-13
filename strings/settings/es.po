@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-13 22:34+0000\n"
+"PO-Revision-Date: 2026-09-13 22:54+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -1741,7 +1741,7 @@ msgid "setting.entry.chat.scroller.freeze.values.4"
 msgstr "Cuando se mantiene Alt"
 
 msgid "setting.entry.chat.scroller.freeze.values.5"
-msgstr "Cuando Shif está Presionado"
+msgstr "Cuando Shift está presionado"
 
 msgid "setting.entry.chat.scroller.freeze.values.6"
 msgstr "Ctrl o Pasar el ratón encima"
@@ -4360,8 +4360,8 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show.description"
 msgstr ""
-"Muestra la IU asociada a los bits. Nota: Esto no ocultará la animación en "
-"los mensajes de chat."
+"Muestra la interfaz asociada a los bits. Nota: esto no ocultará los cheers "
+"en los mensajes del chat."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4426,7 +4426,7 @@ msgstr "Mostrar todos los emotes en una pestaña."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.enabled"
-msgstr "Usa el Menú Emote de FrankerFaceZ."
+msgstr "Usar el menú de emoticonos de FrankerFaceZ."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4454,7 +4454,7 @@ msgstr "En línea"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.reduced-padding"
-msgstr "Utilice un relleno reducido."
+msgstr "Usar espaciado reducido."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4504,7 +4504,7 @@ msgstr "Orden nativo, descendente"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-menu.sort-tiers-last"
-msgstr "Enumera los emotes de los subniveles superiores en último lugar."
+msgstr "Listar los emoticonos de los niveles de suscripción más altos al final."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4670,7 +4670,7 @@ msgstr "Destacar los términos básicos"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.highlight-mentions"
-msgstr "Destaca los mensajes que te mencionan."
+msgstr "Destacar mensajes que te mencionen."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8703,3 +8703,12 @@ msgstr ""
 "mensajes en el chat cuando pases el cursor sobre ellos. Si no ves en el chat "
 "alguna acción que hayas definido aquí, asegúrate de tener habilitados los "
 "Iconos de moderación en el menú de configuración del chat."
+
+#: /src/modules/main_menu/components/emote-priorities.vue:12
+#, icu-message-format
+msgid "setting.priorities.about"
+msgstr ""
+"Aquí puedes cambiar las prioridades de los distintos proveedores de "
+"emoticonos. Ten en cuenta que la prioridad del proveedor (FFZ, etc.) sigue "
+"siendo secundaria frente a la prioridad de la fuente (emoticonos "
+"personales > emoticonos de la sala > emoticonos globales)."
