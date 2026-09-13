@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-13 02:52+0000\n"
+"PO-Revision-Date: 2026-09-13 21:21+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addondeck/es/>\n"
@@ -112,7 +112,7 @@ msgstr "{viewers, plural, one {# espectador} other {# espectadores}}"
 #: /src/deck/components/bd-column.vue:153
 #, icu-message-format, lp-defaults:"{\"count\":1}"
 msgid "addon.deck.sub.tags"
-msgstr "{count, plural, one {# etiqueta} other {# etiquetas}}"
+msgstr "{count, plural, one {{joined} tag} other {{joined} tags}}"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
