@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-12 23:21+0000\n"
+"PO-Revision-Date: 2026-09-13 02:52+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -1446,16 +1446,16 @@ msgstr ""
 "eliminado>` clickeable para revelar el mensaje."
 
 msgid "setting.entry.chat.filtering.display-deleted.values.BRIEF"
-msgstr "Resumen"
+msgstr "Breve"
 
 msgid "setting.entry.chat.filtering.display-deleted.values.DETAILED"
 msgstr "Detallado"
 
 msgid "setting.entry.chat.filtering.display-deleted.values.false"
-msgstr "No Anular"
+msgstr "No reemplazar"
 
 msgid "setting.entry.chat.filtering.display-deleted.values.LEGACY"
-msgstr "Legado"
+msgstr "Clásico"
 
 msgid "setting.entry.chat.filtering.display-mod-action"
 msgstr "Mostrar razón"
@@ -3175,7 +3175,7 @@ msgid "settings.filter.page.route.dash-edit-collection"
 msgstr "Panel de Control: Editar Colecciones"
 
 msgid "settings.filter.page.route.dash-edit-video"
-msgstr "Panel de Control: Editar Vídeo"
+msgstr "Panel de Control: Editar Video"
 
 msgid "settings.filter.page.route.dash-extensions"
 msgstr "Panel de control: Extensiones"
@@ -3500,7 +3500,7 @@ msgstr "Alojar"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.channel.behavior.raids"
-msgstr "Raideos"
+msgstr "Raids"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3666,7 +3666,7 @@ msgstr "Comportamiento"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points"
-msgstr "Puntos del Canal"
+msgstr "Puntos de canal"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3681,7 +3681,7 @@ msgstr "General"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.chat_on_videos"
-msgstr "Chat y Vídeos"
+msgstr "Chat en videos"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -4048,11 +4048,12 @@ msgstr ""
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.filtering.display-deleted.description"
 msgstr ""
-"Esta opción anula el modo \"Mensajes eliminados\" seleccionado en la "
-"configuración del chat de Twitch, al que normalmente sólo pueden acceder los "
-"moderadores. Breve oculta los mensajes por completo y muestra un aviso en el "
-"chat de que se han ocultado varios mensajes. Detallado muestra el contenido "
-"del mensaje. Legado muestra `<mensaje eliminado>` con un clic para revelarlo."
+"Cuando está activado, esto reemplaza el modo de `Mensajes eliminados` "
+"seleccionado en la configuración del chat de Twitch, que normalmente solo "
+"está disponible para moderadores. El modo Breve oculta los mensajes por "
+"completo y muestra un aviso en el chat indicando cuántos mensajes fueron "
+"ocultados. El modo Detallado muestra el contenido del mensaje. El modo "
+"Clásico muestra `<mensaje eliminado>` y permite hacer clic para revelarlo."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4200,7 +4201,7 @@ msgstr "Alojamientos"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-not-live-bar.description"
 msgstr ""
-"Ocultar la barra que aparece debajo de los clips y vídeos cuando el streamer "
+"Ocultar la barra que aparece debajo de los clips y videos cuando el streamer "
 "está en directo, indicándote que está en directo."
 
 #, icu-message-format
@@ -4310,7 +4311,7 @@ msgstr "Permitir que los mensajes sobre Drops se muestren en el chat."
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.hype-train"
-msgstr "Permitir que el Hype Train se muestre en el chat."
+msgstr "Permitir que el Tren del Hype se muestre en el chat."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4584,7 +4585,7 @@ msgstr "Activado"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.limit-size"
-msgstr "Limitar el tamaño de las emociones nativas"
+msgstr "Limitar el tamaño de los emoticonos nativos"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:130
 #, icu-message-format, md-text
@@ -5254,7 +5255,7 @@ msgstr "Habilitar Alojamiento de Canales"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.raids.no-autojoin"
-msgstr "No unirme automáticamente a las Raids."
+msgstr "No unirme automáticamente a los raids."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5429,7 +5430,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-latest-videos"
-msgstr "No mostrar `Los últimos vídeos` en el directorio siguiente."
+msgstr "No mostrar `Videos más recientes` en el directorio de Seguidos."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5669,12 +5670,12 @@ msgstr "Nombre de usuario"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.allow-highlight"
 msgstr ""
-"Resaltar el mensaje en el chat cuando alguien canjea Resaltar mi mensaje."
+"Destacar el mensaje en el chat cuando alguien canjee Destacar mi mensaje."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.auto-rewards"
-msgstr "Reclame automáticamente bonificaciones."
+msgstr "Reclamar automáticamente las recompensas adicionales."
 
 #: /src/modules/main_menu/components/setting-check-box.vue:102
 #, icu-message-format, md-text
@@ -5687,12 +5688,12 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-button"
-msgstr "Botón Mostrar puntos de canal debajo del chat."
+msgstr "Mostrar el botón de Puntos de canal debajo del chat."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-callouts"
-msgstr "Mostrar mensajes en el chat sobre las recompensas de Channel Points."
+msgstr "Mostrar mensajes en el chat sobre las recompensas de Puntos de canal."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5715,7 +5716,7 @@ msgstr "Mostrar contenido enriquecido en el chat."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.enabled.description"
 msgstr ""
-"Muestra bloques de contenido enriquecido, como clips y vídeos enlazados."
+"Muestra bloques de contenido enriquecido, como clips y videos enlazados."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5969,7 +5970,7 @@ msgstr "No mostrar los flujos promocionados en el directorio."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-recommended"
 msgstr ""
-"No mostrar `Canales en directo recomendados` en el directorio siguiente."
+"No mostrar `Canales en directo recomendados` en el directorio de Seguidos."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6519,7 +6520,7 @@ msgstr "Permite al reproductor acelerar para reducir el retraso."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.allow-catchup.description"
 msgstr ""
-"Twitch, de forma predeterminada, aplicará una pequeña aceleración al vídeo "
+"Twitch, de forma predeterminada, aplicará una pequeña aceleración al video "
 "en directo cuando se produzca un gran retraso con respecto al emisor, con el "
 "fin de recuperar el ritmo de la retransmisión en directo. Esto puede "
 "provocar distorsiones en el audio. Desactiva esta opción para evitar los "
@@ -6535,7 +6536,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.player.button.pip.description"
 msgstr ""
 "Al hacer clic en el botón PiP se intenta activar el modo Picture-in-Picture "
-"para el vídeo del reproductor."
+"para el video del reproductor."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6768,7 +6769,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.player.hide-rerun-bar.description"
 msgstr ""
 "Ocultar la barra de repetición que aparece encima del reproductor cuando el "
-"canal actual está reproduciendo un vídeo en lugar de contenido en directo."
+"canal actual está reproduciendo un video en lugar de contenido en directo."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6789,7 +6790,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.no-autoplay"
-msgstr "No inicie automáticamente la reproducción de vídeos o streams."
+msgstr "No iniciar automáticamente la reproducción de videos o streams."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -6807,8 +6808,8 @@ msgstr "Abrir automáticamente el Modo Teatro al visitar un canal."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.vod.autoplay"
 msgstr ""
-"Reproduce automáticamente el siguiente vídeo recomendado después de que "
-"termine un vídeo."
+"Reproducir automáticamente el siguiente video recomendado al finalizar un "
+"video."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8679,3 +8680,13 @@ msgstr "Externo"
 #, icu-message-format
 msgid "setting.entry.chat.badges.unify-bot-badge.values.1"
 msgstr "Emblema estilo FFZ"
+
+#: /src/modules/chat/badges.jsx:247
+#, icu-message-format
+msgid "setting.entry.chat.badges.unify-bot-badge.values.2"
+msgstr "Emblema estilo Twitch"
+
+#: /src/modules/chat/badges.jsx:238
+#, icu-message-format
+msgid "setting.entry.chat.badges.unify-bot-badge"
+msgstr "Emblema unificado de bot"
