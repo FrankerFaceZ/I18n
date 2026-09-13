@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-13 22:54+0000\n"
+"PO-Revision-Date: 2026-09-13 23:37+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -4857,13 +4857,13 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block"
-msgstr "Bloque"
+msgstr "Bloquear"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.badges"
-msgstr "Insignia"
+msgstr "Emblemas"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -4894,7 +4894,7 @@ msgstr "Usuarios"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_badges"
-msgstr "Insignias Bloqueadas"
+msgstr "Emblemas bloqueados"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5816,18 +5816,18 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emoji"
-msgstr "Permitir completar emoji con la pestaña."
+msgstr "Permitir completar emojis con Tab."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emotes-without-colon"
-msgstr ""
-"Permitir completar los emotes con el tabulador sin escribir dos puntos. (:)"
+msgstr "Permitir completar emoticonos con Tab sin escribir dos puntos. (:)"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.tab-complete.emotes-without-colon.description"
-msgstr "Esto impedirá que se completen los nombres de usuario sin el prefijo @."
+msgstr ""
+"Esto evitará completar nombres de usuario con Tab si no llevan el prefijo @."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8712,3 +8712,23 @@ msgstr ""
 "emoticonos. Ten en cuenta que la prioridad del proveedor (FFZ, etc.) sigue "
 "siendo secundaria frente a la prioridad de la fuente (emoticonos "
 "personales > emoticonos de la sala > emoticonos globales)."
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:172
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.matching.values.1"
+msgstr "1: Cualquier cosa (estilo Twitch)"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:159
+#, icu-message-format
+msgid "setting.entry.chat.tab-complete.matching"
+msgstr "Tipo de coincidencia de emoticonos"
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:159
+#, icu-message-format, md-text
+msgid "setting.entry.chat.tab-complete.matching.description"
+msgstr ""
+"1: `ppa` coincidiría con `Kappa`\n"
+"\n"
+"2: `sip` coincidiría con `cohhSip` pero no con `Gossip`\n"
+"\n"
+"3: `pasta` coincidiría con `pastaThat` pero no con `HoldThat`"
