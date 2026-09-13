@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-13 02:52+0000\n"
+"PO-Revision-Date: 2026-09-13 23:37+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -398,8 +398,8 @@ msgstr "Emoji"
 
 msgid "emote-menu.emote-cheer"
 msgstr ""
-"Aplaude {bits_remaining, plural, one {# bit} other {# bits}} adicionales "
-"para desbloquear este emoticono."
+"Envía {bits_remaining, plural, one {# bit} other {# bits}} adicionales para "
+"desbloquear este emoticono."
 
 msgid "emote-menu.emote-sub"
 msgstr "Mejora tu suscripción a {price} para desbloquear este emoticono."
@@ -1012,7 +1012,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
 msgid "chat.bits-message"
-msgstr "Aplaudió {count, plural, one {# Bit} other {# Bits}}"
+msgstr "Envió {count, plural, one {# bit} other {# bits}}"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1166,3 +1166,38 @@ msgstr "{icon}Racha de visualizaciones conseguida {points_icon}+{copo}"
 #, icu-message-format
 msgid "chat.ftc-message"
 msgstr "Primer mensaje en el chat"
+
+#: /src/modules/emote_card/components/twitch-body.vue:28
+#, icu-message-format
+msgid "emote-card.sub.upsell"
+msgstr ""
+"Suscríbete al canal de {user} para usar {emote} junto con {emotes, plural, "
+"one {# emote más} other {# emotes más de ese creador} }, incluidos:"
+
+#: /src/modules/emote_card/components/twitch-body.vue:51
+#, icu-message-format
+msgid "emote-card.bits.upsell"
+msgstr ""
+"Usa {count, plural, one {# bit más} other {# bits más} } en el canal de "
+"{user} para desbloquear permanentemente esta recompensa de emoticono."
+
+#: /src/modules/emote_card/components/twitch-body.vue:64
+#, icu-message-format
+msgid "emote-card.follow.upsell"
+msgstr ""
+"Sigue el canal de {user} para usar {emotes, plural, one {su emote} other {# "
+"de sus emotes} }, incluidos:"
+
+#: /src/modules/emote_card/components/twitch-body.vue:22
+#, icu-message-format
+msgid "emote-card.sub.unlocked"
+msgstr ""
+"Has desbloqueado este emoticono al suscribirte al canal de {user} en el "
+"Nivel {tier}."
+
+#: /src/modules/emote_card/components/twitch-body.vue:35
+#, icu-message-format
+msgid "emote-card.sub.upsell-tier"
+msgstr ""
+"Suscríbete al canal de {user} en el Nivel {tier} para usar {emote} junto con "
+"{emotes, plural, one {# emote más} other {# más de sus emotes} }, incluidos:"
