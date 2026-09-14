@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 17:13+0000\n"
+"PO-Revision-Date: 2026-09-14 18:11+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1407,3 +1407,10 @@ msgstr "Ver en {source}"
 #, icu-message-format
 msgid "emote-card.view-on-ffz"
 msgstr "Ver en FrankerFaceZ"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:257
+#, icu-message-format
+msgid "chat.sub.main-multi"
+msgstr ""
+"{user} se suscribió {plan} por {multi, plural, one {# mes} other {# meses}} "
+"por adelantado. "
