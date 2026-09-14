@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 16:18+0000\n"
+"PO-Revision-Date: 2026-09-14 17:08+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1246,3 +1246,127 @@ msgstr ""
 #, icu-message-format
 msgid "viewer-card.months-tip"
 msgstr "Suscrito por {months, plural, one {# mes} other {# meses}}"
+
+#: /src/modules/chat/tokenizers.jsx:1787
+#, icu-message-format
+msgid "emote.artist"
+msgstr "Artista: {artist}"
+
+#: /src/modules/emote_card/components/card.vue:72
+#: /src/modules/emote_card/components/modifiers.vue:76
+#, icu-message-format
+msgid "emote-card.artist"
+msgstr "Artista: {artist}"
+
+#: /src/modules/emote_card/components/card.vue:237
+#, icu-message-format
+msgid "emote-card.fav"
+msgstr "Marcar emoticono como favorito"
+
+#: /src/modules/emote_card/components/card.vue:104
+#: /src/modules/emote_card/components/card.vue:105
+#: /src/modules/emote_card/components/report-form.vue:39
+#: /src/modules/link_card/components/card.vue:100
+#: /src/modules/link_card/components/card.vue:99
+#, icu-message-format
+msgid "emote-card.close"
+msgstr "Cerrar"
+
+#: /src/modules/viewer_cards/card.vue:75
+#: /src/modules/viewer_cards/card.vue:76
+#, icu-message-format
+msgid "viewer-card.close"
+msgstr "Cerrar"
+
+#: /src/modules/emote_card/components/card.vue:119
+#: /src/modules/emote_card/components/card.vue:120
+#: /src/modules/link_card/components/card.vue:47
+#: /src/modules/link_card/components/card.vue:48
+#, icu-message-format
+msgid "emote-card.more"
+msgstr "Más"
+
+#: /src/modules/emote_card/components/manage-ffz.vue:35
+#, icu-message-format
+msgid "emote-card.error"
+msgstr "Hubo un error al cargar los datos."
+
+#: /src/modules/emote_card/components/twitch-body.vue:59
+#, icu-message-format
+msgid "emote-card.follow.unlocked"
+msgstr "Has desbloqueado este emoticono al seguir el canal de {user}."
+
+#: /src/modules/emote_card/components/manage-ffz-collection.vue:74
+#, icu-message-format
+msgid "emote-card.in-collection"
+msgstr "Este emoticono está en esta colección."
+
+#: /src/modules/emote_card/components/card.vue:35
+#, icu-message-format
+msgid "emote-card.loading"
+msgstr "Cargando…"
+
+#: /src/modules/emote_card/components/twitch-body.vue:16
+#, icu-message-format
+msgid "emote-card.live"
+msgstr "En vivo"
+
+#: /src/modules/emote_card/components/manage-ffz.vue:12
+#, icu-message-format
+msgid "emote-card.manage"
+msgstr "Administrar mis colecciones"
+
+#: /src/modules/emote_card/components/modifiers.vue:11
+#, icu-message-format
+msgid "emote-card.modifiers"
+msgstr "Modificadores"
+
+#: /src/modules/emote_card/components/manage-ffz-collection.vue:76
+#, icu-message-format
+msgid "emote-card.not-in-collection"
+msgstr "Este emoticono no está en esta colección."
+
+#: /src/modules/emote_card/components/card.vue:56
+#: /src/modules/emote_card/components/modifiers.vue:60
+#, icu-message-format
+msgid "emote-card.owner"
+msgstr "Propietario: {owner}"
+
+#: /src/modules/emote_card/components/report-form.vue:71
+#: /src/modules/emote_card/index.jsx:290
+#: /src/modules/emote_card/index.jsx:442
+#, icu-message-format
+msgid "emote-card.report"
+msgstr "Reportar emoticono"
+
+#: /src/modules/emote_card/components/report-form.vue:47
+#, icu-message-format
+msgid "emote-card.report-details"
+msgstr ""
+"Estás reportando este emoticono por {reason}. Ingresa cualquier detalle "
+"adicional abajo:"
+
+#: /src/modules/emote_card/components/report-form.vue:78
+#, icu-message-format
+msgid "emote-card.report-why"
+msgstr "¿Por qué estás enviando este reporte?"
+
+#: /src/modules/emote_card/components/report-form.vue:128
+#, icu-message-format
+msgid "emote-card.report.bully-harass"
+msgstr "Acoso o intimidación"
+
+#: /src/modules/emote_card/components/report-form.vue:26
+#, icu-message-format
+msgid "emote-card.report.error"
+msgstr "Hubo un error al enviar tu reporte."
+
+#: /src/modules/emote_card/components/report-form.vue:136
+#, icu-message-format
+msgid "emote-card.report.explicit"
+msgstr "Desnudez o contenido sexual explícito"
+
+#: /src/modules/emote_card/components/report-form.vue:115
+#, icu-message-format
+msgid "emote-card.report.next"
+msgstr "Siguiente"
