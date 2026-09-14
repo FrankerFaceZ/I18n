@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-13 23:37+0000\n"
+"PO-Revision-Date: 2026-09-14 03:47+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addondeck/es/>\n"
@@ -42,8 +42,8 @@ msgstr "Etiquetas requeridas:"
 #, icu-message-format, lp-defaults:"{\"removed\":1,\"total\":11}"
 msgid "addon.deck.end-filtered"
 msgstr ""
-"({removed,number} of {total, plural, one {# objeto} other {# objetos} } han "
-"sido ocultador por el filtro del cliente.)"
+"({removed,number} de {total, plural, one {# elemento} other {# elementos} } "
+"han sido ocultados por el filtrado del lado del cliente.)"
 
 #: /src/deck/components/browse-deck.vue:191
 #, icu-message-format
@@ -756,3 +756,8 @@ msgstr "Añadir un enlace a la Baraja en la parte superior de Twitch."
 #, icu-message-format
 msgid "addon.deck.empty"
 msgstr "No hay resultados."
+
+#: /src/deck/components/browse-deck.vue:147
+#, icu-message-format
+msgid "addon.deck.filter-more"
+msgstr " y {count, plural, one {# otro} other {# otros} }"
