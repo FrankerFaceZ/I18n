@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 00:02+0000\n"
+"PO-Revision-Date: 2026-09-14 03:47+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1222,3 +1222,27 @@ msgid "embed.tos-settings"
 msgstr ""
 "Abre el Centro de Control de FFZ y navega a Chat > Información emergente "
 "para aceptar."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:1335
+#: /src/sites/twitch-twilight/modules/chat/line.js:1345
+#: /src/sites/twitch-twilight/modules/chat/line.js:998
+#, icu-message-format
+msgid "chat.sent-from-source"
+msgstr "Enviado desde {source}"
+
+#: /src/modules/chat/badges.jsx:1356
+#, icu-message-format
+msgid "badges.subwoofer.months"
+msgstr "({count, plural, one {# mes} other {# meses}})"
+
+#: /src/modules/emote_card/components/twitch-body.vue:45
+#, icu-message-format
+msgid "emote-card.bits.unlocked"
+msgstr ""
+"Has desbloqueado este emoticono usando {count, plural, one {# bit} other {# "
+"bits}} en el canal de {user}."
+
+#: /src/modules/viewer_cards/card.vue:66
+#, icu-message-format
+msgid "viewer-card.months-tip"
+msgstr "Suscrito por {months, plural, one {# mes} other {# meses}}"
