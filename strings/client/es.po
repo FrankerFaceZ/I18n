@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 17:10+0000\n"
+"PO-Revision-Date: 2026-09-14 17:13+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1392,3 +1392,18 @@ msgstr "Ingresa aquí el mensaje del reporte."
 #, icu-message-format
 msgid "emote-card.report.success"
 msgstr "Tu reporte se envió correctamente."
+
+#: /src/modules/emote_card/components/twitch-body.vue:99
+#, icu-message-format
+msgid "emote-card.sub-button"
+msgstr "Suscribirse"
+
+#: /src/modules/emote_card/index.jsx:450
+#, icu-message-format
+msgid "emote-card.view-external"
+msgstr "Ver en {source}"
+
+#: /src/modules/emote_card/index.jsx:435
+#, icu-message-format
+msgid "emote-card.view-on-ffz"
+msgstr "Ver en FrankerFaceZ"
