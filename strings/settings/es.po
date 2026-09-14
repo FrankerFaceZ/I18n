@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 00:15+0000\n"
+"PO-Revision-Date: 2026-09-14 03:47+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -4074,8 +4074,8 @@ msgstr "Retoques"
 #, icu-message-format, lp-defaults:"{\"count\":57}"
 msgid "setting.badges.hidden"
 msgstr ""
-"{count,plural,one{# insignia está} other{# insignias están} } ocultas en "
-"este conjunto"
+"{count,plural,one{# emblema está} other{# emblemas están} } ocultas en este "
+"conjunto"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5204,13 +5204,13 @@ msgstr "Complementos"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addons.dev.server"
-msgstr "Usar Servidor de Desarrollo Local"
+msgstr "Usar servidor de desarrollo local"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.addons.dev.server.description"
 msgstr ""
-"Intente cargar complementos desde el servidor de desarrollo local en el "
+"Intenta cargar los complementos desde el servidor de desarrollo local en el "
 "puerto 8001."
 
 #, icu-message-format
@@ -6366,9 +6366,8 @@ msgstr "Mantén el control deslizante de volumen expandido en todo momento."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.volume-scroll.description"
 msgstr ""
-"*Esta configuración no funcionará correctamente en secuencias con "
-"extensiones visibles cuando se permita la interacción del ratón con las "
-"extensiones.*"
+"*Este ajuste no funcionará correctamente en streams con extensiones visibles "
+"cuando se permite la interacción del mouse con dichas extensiones.*"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -6783,7 +6782,8 @@ msgstr "Ocultar la barra de transmisión de Squad"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.home.autoplay"
-msgstr "Reproducción automática de emisoras destacadas en la portada."
+msgstr ""
+"Reproducir automáticamente los streams destacados en la página principal."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7282,8 +7282,8 @@ msgstr "Registro de cambios"
 #, icu-message-format
 msgid "addon.displaying"
 msgstr ""
-"Mostrando {visible, number} de {total, plural, one {# add-on} other {# add-"
-"ons} }."
+"Mostrando {visible, number} de {total, plural, one {# complemento} other {# "
+"complementos} }."
 
 #: /src/modules/main_menu/components/addon-list.vue:91
 #, icu-message-format
