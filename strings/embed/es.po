@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-01 16:04+0000\n"
-"Last-Translator: DeciBelioS <deci8belios@outlook.com>\n"
-"Language-Team: Spanish "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/embed/es/>\n"
+"PO-Revision-Date: 2026-09-14 03:47+0000\n"
+"Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
+"Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
+"frankerfacez/embed/es/>\n"
 "Language: es\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: /src/utilities/rich_tokens.js:814
 #, icu-message-format
@@ -312,3 +312,13 @@ msgstr "Tiempo de solicitud caducado."
 #, icu-message-format
 msgid "card.error.unhandled"
 msgstr "Ningún controlador admite esta URL."
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:132"
+msgid "embed.ao3.info-chapters"
+msgstr "{count,plural,one {# apítulo} other {# capítulos}}"
+
+#, icu-message-format
+msgctxt "/lib/resolvers/archiveofourown.js:141"
+msgid "embed.ao3.info-words"
+msgstr "{count,plural,one {# palabra} other {# palabras}}"
