@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 00:02+0000\n"
+"PO-Revision-Date: 2026-09-14 00:15+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -7023,7 +7023,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.rich-links"
-msgstr "Mostrar información detallada sobre los enlaces."
+msgstr "Mostrar información emergente enriquecida para los enlaces."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8733,3 +8733,19 @@ msgstr ""
 "2: `sip` coincidiría con `cohhSip` pero no con `Gossip`\n"
 "\n"
 "3: `pasta` coincidiría con `pastaThat` pero no con `HoldThat`"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:325
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.tooltips"
+msgstr ""
+"Mostrar la información emergente de vista previa de emoticonos en el Menú de "
+"Emoticonos de FFZ."
+
+#: /src/modules/link_card/index.jsx:28
+#, icu-message-format, md-text
+msgid "setting.entry.link-cards.enable.description"
+msgstr ""
+"Cuando esto está habilitado y haces clic en un enlace en el chat o en los "
+"susurros, se abrirá una ventana emergente con información sobre el enlace. "
+"Esto proporciona los mismos datos que la información emergente de enlaces "
+"enriquecidos, pero en una forma que permite más interacción."
