@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 18:34+0000\n"
+"PO-Revision-Date: 2026-09-14 20:46+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1414,3 +1414,8 @@ msgid "chat.sub.main-multi"
 msgstr ""
 "{user} se suscribió {plan} por {multi, plural, one {# mes} other {# meses}} "
 "por adelantado. "
+
+#: /src/modules/emote_card/index.jsx:215
+#, icu-message-format
+msgid "emote-card.sub"
+msgstr "Emote de suscripción nivel {tier} ({source})"
