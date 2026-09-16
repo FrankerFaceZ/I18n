@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 18:34+0000\n"
+"PO-Revision-Date: 2026-09-16 16:25+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -5654,7 +5654,7 @@ msgstr ""
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.0"
-msgstr "Nombre internacional (Nombre de usuario) <Default>"
+msgstr "Nombre internacional (Nombre de usuario) <Predeterminado>"
 
 #, icu-message-format
 msgid "setting.entry.chat.name-format.values.1"
@@ -8749,3 +8749,17 @@ msgstr ""
 "susurros, se abrirá una ventana emergente con información sobre el enlace. "
 "Esto proporciona los mismos datos que la información emergente de enlaces "
 "enriquecidos, pero en una forma que permite más interacción."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:722
+#, icu-message-format
+msgid "setting.entry.chat.shared-chat.style"
+msgstr "Estilo de píldora"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:722
+#, icu-message-format, md-text
+msgid "setting.entry.chat.shared-chat.style.description"
+msgstr ""
+"Esto controla la apariencia de la píldora en el lado izquierdo de los "
+"mensajes cuando un mensaje forma parte de un Chat Compartido. De forma "
+"predeterminada, es Avatar para moderadores y streamers, y Oculto para todos "
+"los demás."
