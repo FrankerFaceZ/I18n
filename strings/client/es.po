@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-14 20:46+0000\n"
+"PO-Revision-Date: 2026-09-16 16:25+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -576,49 +576,49 @@ msgid "i18n.locale-coverage"
 msgstr "{name} ({coverage,number,percent} Completado)"
 
 msgid "i18n.ui.added"
-msgstr "Nuevas Cadenas"
+msgstr "Cadenas nuevas"
 
 msgid "i18n.ui.all"
-msgstr "Todas las Cadenas"
+msgstr "Todas las cadenas"
 
 msgid "i18n.ui.changed"
-msgstr "Cadenas Cambiadas"
+msgstr "Cadenas modificadas"
 
 msgid "i18n.ui.context"
 msgstr "Contexto"
 
 msgid "i18n.ui.existing"
-msgstr "Cadenas Existentes"
+msgstr "Cadenas existentes"
 
 msgid "i18n.ui.open"
-msgstr "Abrir Probador de Traducción"
+msgstr "Abrir probador de traducciones"
 
 msgid "i18n.ui.pages"
 msgstr "Página {current,number} de {total,number}"
 
 msgid "i18n.ui.pending"
-msgstr "Cadenas Pendientes"
+msgstr "Cadenas pendientes"
 
 msgid "i18n.ui.popout"
-msgstr "Abrir el Editor de Traducción en una Nueva Ventana"
+msgstr "Abrir el editor de traducciones en una nueva ventana"
 
 msgid "i18n.ui.preview"
-msgstr "Vista Previa"
+msgstr "Vista previa"
 
 msgid "i18n.ui.refresh"
-msgstr "Refrescar Cuerdas"
+msgstr "Actualizar cadenas"
 
 msgid "i18n.ui.save"
-msgstr "Generar Cambio Blob"
+msgstr "Generar blob de cambios"
 
 msgid "i18n.ui.search"
-msgstr "Buscar Cuerdas"
+msgstr "Buscar cadenas"
 
 msgid "i18n.ui.source"
 msgstr "Fuente"
 
 msgid "i18n.ui.title"
-msgstr "Probador de traducción"
+msgstr "Probador de traducciones"
 
 msgid "i18n.ui.upload"
 msgstr "Subir cambios"
@@ -1419,3 +1419,13 @@ msgstr ""
 #, icu-message-format
 msgid "emote-card.sub"
 msgstr "Emote de suscripción nivel {tier} ({source})"
+
+#: /src/modules/translation_ui/components/i18n-entry.vue:33
+#, icu-message-format
+msgid "i18n.ui.error"
+msgstr "Error"
+
+#: /src/modules/viewer_cards/card.vue:69
+#, icu-message-format
+msgid "viewer-card.months"
+msgstr "{months, plural, one {# mes} other {# meses}}"
