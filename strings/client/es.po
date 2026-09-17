@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-17 22:51+0000\n"
+"PO-Revision-Date: 2026-09-17 23:18+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1573,3 +1573,235 @@ msgstr "Advertir a {user.login}"
 msgid "chat.command.reload"
 msgstr ""
 "Recargar datos del chat de FFZ y complementos (emoticonos, emblemas, etc.)"
+
+#: /src/modules/chat/index.js:1610
+#, icu-message-format
+msgid "chat.command.reload.done"
+msgstr "FFZ ha terminado de recargar los datos. (Fuentes: {list})"
+
+#: /src/modules/chat/index.js:1600
+#, icu-message-format
+msgid "chat.command.reload.starting"
+msgstr "FFZ está recargando los datos..."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:2965
+#, icu-message-format
+msgid "chat.ffz-command.invalid"
+msgstr "No existe el comando: /ffz:{subcmd}"
+
+#: /src/modules/chat/tokenizers.jsx:2285
+#, icu-message-format
+msgid "chat.gif.report"
+msgstr "Reportar GIF"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:171
+#, icu-message-format
+msgid "chat.hype-chat"
+msgstr "¡Envió un Hype Chat por {amount}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:159
+#, icu-message-format
+msgid "chat.hype-chat.user"
+msgstr "¡{user} envió un Hype Chat por {amount}!"
+
+#: /src/sites/twitch-twilight/modules/chat/points.js:51
+#, icu-message-format
+msgid "chat.points.animated"
+msgstr "Efectos de mensaje"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:1416
+#, icu-message-format
+msgid "chat.reconnect"
+msgstr "FFZ está forzando la reconexión del chat..."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:1411
+#, icu-message-format
+msgid "chat.reconnect.unable"
+msgstr "FFZ no puede forzar la reconexión del chat."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:797
+#, icu-message-format
+msgid "chat.reply.bad-user"
+msgstr "Usuario no válido o no hay ningún mensaje conocido al cual responder."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:3873
+#, icu-message-format
+msgid "chat.shared-chat.welcome"
+msgstr ""
+"FrankerFaceZ: Esto es un Chat compartido, una nueva función de Twitch para "
+"combinar los chats de varios streams en uno solo. El soporte de FrankerFaceZ "
+"para esta función es reciente, así que algunos mensajes podrían no verse "
+"correctamente. Disculpa las molestias."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:610
+#, icu-message-format
+msgid "chat.shoutout.body"
+msgstr "Se le dio a {user}"
+
+#: /src/modules/chat/warn-editor.vue:4
+#, icu-message-format
+msgid "chat.warn.editing"
+msgstr "Advirtiendo a {user.login}..."
+
+#: /src/modules/chat/warn-editor.vue:16
+#, icu-message-format
+msgid "chat.warn.reason"
+msgstr "Motivo"
+
+#: /src/modules/chat/warn-editor.vue:24
+#, icu-message-format
+msgid "chat.warn.reason-placeholder"
+msgstr "Escribe un motivo..."
+
+#: /src/modules/chat/warn-editor.vue:37
+#, icu-message-format
+msgid "chat.warn.send"
+msgstr "Advertir"
+
+#: /src/modules/chat/link_providers.js:98
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:138"
+msgid "clip.desc.1"
+msgstr "Clip de {user}"
+
+#: /src/modules/chat/link_providers.js:93
+#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
+msgctxt "/lib/resolvers/twitch.js:135"
+msgid "clip.desc.1.playing"
+msgstr "{user} jugando {game}"
+
+#: /src/modules/chat/link_providers.js:114
+#, icu-message-format, lp-defaults:"{\"curator.type\":\"link\",\"curator.url\":\"https://www.twitch.tv/dexm23\",\"curator.content.type\":\"style\",\"curator.content.color\":\"alt-2\",\"curator.content.content\":\"DexM23\",\"views\":43807}"
+msgctxt "/lib/resolvers/twitch.js:145"
+msgid "clip.desc.2"
+msgstr "Creado por {curator} — {views, plural, one {# vista} other {# vistas}}"
+
+#: /src/modules/chat/link_providers.js:123
+#, icu-message-format
+msgid "clip.desc.no-views"
+msgstr "Creado por {curator}"
+
+#: /src/modules/chat/link_providers.js:103
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:143"
+msgid "clip.unknown"
+msgstr "Desconocido"
+
+#: /src/modules/emote_card/components/manage-ffz-collection.vue:34
+#, icu-message-format
+msgid "collection.count"
+msgstr "{count,number} de {limit,number}"
+
+#: /src/modules/main_menu/components/chat-tester.vue:94
+#, icu-message-format
+msgid "debug.chat-tester.capture-chat"
+msgstr "Capturar chat"
+
+#: /src/modules/main_menu/components/chat-tester.vue:128
+#, icu-message-format
+msgid "debug.chat-tester.capture-pubsub"
+msgstr "Capturar PubSub"
+
+#: /src/modules/main_menu/components/chat-tester.vue:138
+#, icu-message-format
+msgid "debug.chat-tester.clear-log"
+msgstr "Limpiar registro"
+
+#: /src/modules/main_menu/components/chat-tester.vue:4
+#, icu-message-format
+msgid "debug.chat-tester.exclusive"
+msgstr "¡Oye! ¡Esto no funcionará aquí!"
+
+#: /src/modules/main_menu/components/chat-tester.vue:7
+#, icu-message-format
+msgid "debug.chat-tester.exclusive-explain"
+msgstr ""
+"Esta función no funciona cuando el Centro de control de FFZ está en una "
+"ventana independiente. Debe usarse en una ventana donde puedas ver el chat."
+
+#: /src/modules/main_menu/components/chat-tester.vue:111
+#, icu-message-format
+msgid "debug.chat-tester.ignore-privmsg"
+msgstr "Ignorar PRIVMSG"
+
+#: /src/modules/main_menu/components/chat-tester.vue:11
+#, icu-message-format
+msgid "debug.chat-tester.message"
+msgstr "Mensaje de prueba"
+
+#: /src/modules/main_menu/components/chat-tester.vue:74
+#, icu-message-format
+msgid "debug.chat-tester.play"
+msgstr "Reproducir mensaje"
+
+#: /src/modules/main_menu/components/chat-tester.vue:180
+#, icu-message-format
+msgid "debug.chat-tester.replay"
+msgstr "Repetir"
+
+#: /src/modules/main_menu/components/chat-tester.vue:64
+#, icu-message-format
+msgid "debug.chat-tester.replay-fix"
+msgstr "Corregir ID y canal"
+
+#: /src/modules/main_menu/components/graphql-inspect.vue:4
+#, icu-message-format
+msgid "debug.graphql.query"
+msgstr "Consulta:"
+
+#: /src/modules/chat/index.js:2858
+#, icu-message-format
+msgid "embed.tos-open-settings"
+msgstr "{link} para abrir tu configuración."
+
+#: /src/modules/chat/index.js:2866
+#, icu-message-format
+msgid "embed.tos-open-settings.click"
+msgstr "Haz clic aquí"
+
+#: /src/utilities/constants.ts:387
+#, icu-message-format
+msgid "embed.warn.youtube.agree"
+msgstr "Sí, acepto los Términos del Servicio de YouTube."
+
+#: /src/modules/chat/emoji.js:31
+#, icu-message-format
+msgid "emoji.category.component"
+msgstr "Componentes"
+
+#: /src/modules/emote_card/index.jsx:235
+#, icu-message-format
+msgid "emote-card.bits"
+msgstr "Recompensa de {amount,number} bits ({source})"
+
+#: /src/modules/emote_card/components/report-form.vue:132
+#, icu-message-format
+msgid "emote-card.report.hateful"
+msgstr "Conducta de odio"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3134
+#, icu-message-format
+msgid "emote-menu.effects"
+msgstr "Efectos de emoticonos"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1075
+#, icu-message-format
+msgid "emote-menu.emote-subwoofer"
+msgstr "Conviértete en Subwoofer de FFZ para desbloquear este emoticono."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1176
+#, icu-message-format
+msgid "emote-menu.ffz-unlock"
+msgstr "Esta función está disponible para los Subwoofers de FFZ."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1198
+#, icu-message-format
+msgid "emote-menu.free-sub"
+msgstr "Usar mi mes gratis"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1183
+#, icu-message-format
+msgid "emote-menu.free-sub.about"
+msgstr ""
+"Como agradecimiento por apoyarnos en el pasado, puedes obtener un mes gratis "
+"de FFZ Subwoofer."
