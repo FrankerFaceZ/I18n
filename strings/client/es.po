@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-17 23:25+0000\n"
+"PO-Revision-Date: 2026-09-17 23:32+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1852,3 +1852,110 @@ msgid "emote-updates.added"
 msgstr ""
 "{count, plural, one {El emoticono {emotes} ha sido añadido} other {Los "
 "emoticonos {emotes} han sido añadidos}} a {set}."
+
+#: /src/modules/chat/emotes.js:1121
+#, icu-message-format
+msgid "emote-updates.modified"
+msgstr ""
+"{count, plural, one {El emoticono {emotes} ha sido actualizado} other {Los "
+"emoticonos {emotes} han sido actualizados}} en {set}."
+
+#: /src/modules/chat/emotes.js:1128
+#, icu-message-format
+msgid "emote-updates.removed"
+msgstr ""
+"{count, plural, one {El emoticono {emotes} ha sido eliminado} other {Los "
+"emoticonos {emotes} han sido eliminados}} de {set}."
+
+#: /src/modules/chat/tokenizers.jsx:1591
+#: /src/modules/emote_card/components/card.vue:46
+#, icu-message-format
+msgid "emote.original-name"
+msgstr "Nombre: {name}"
+
+#: /src/modules/chat/tokenizers.jsx:1562
+#: /src/modules/emote_card/index.jsx:245
+#, icu-message-format
+msgid "emote.points"
+msgstr "Emoticono de puntos de canal"
+
+#: /src/sites/twitch-twilight/modules/featured-follow.vue:72
+#, icu-message-format
+msgid "featured-follow.button.follow"
+msgstr "Seguir"
+
+#: /src/sites/twitch-twilight/modules/featured-follow.vue:32
+#, icu-message-format
+msgid "featured-follow.error"
+msgstr "Ha ocurrido un error."
+
+#: /src/sites/twitch-twilight/modules/featured-follow.vue:105
+#, icu-message-format
+msgid "featured-follow.notify.off"
+msgstr ""
+"Las notificaciones están desactivadas actualmente. Haz clic para activarlas."
+
+#: /src/std-components/follow-button.vue:8
+#, icu-message-format
+msgid "follow-btn.error"
+msgstr "Error"
+
+#: /src/std-components/follow-button.vue:36
+#, icu-message-format
+msgid "follow-btn.follow"
+msgstr "Seguir"
+
+#: /src/std-components/follow-button.vue:17
+#, icu-message-format
+msgid "follow-btn.unfollow"
+msgstr "Dejar de seguir"
+
+#: /src/modules/chat/index.js:117
+#, icu-message-format
+msgid "hl-reason.badge.label"
+msgstr "Emblema"
+
+#: /src/modules/chat/index.js:115
+#, icu-message-format
+msgid "hl-reason.mention.label"
+msgstr "Mención"
+
+#: /src/modules/chat/index.js:118
+#, icu-message-format
+msgid "hl-reason.term.label"
+msgstr "Término"
+
+#: /src/modules/chat/index.js:116
+#, icu-message-format
+msgid "hl-reason.user.label"
+msgstr "Usuario"
+
+#: /src/modules/link_card/components/card.vue:291
+#, icu-message-format
+msgid "link-card.manage-emote"
+msgstr "Administrar emoticono"
+
+#: /src/modules/link_card/components/card.vue:30
+#, icu-message-format
+msgid "link-card.open-ext"
+msgstr "Abrir enlace"
+
+#: /src/modules/link_card/components/card.vue:284
+#, icu-message-format
+msgid "link-card.preview"
+msgstr "Vista previa"
+
+#: /src/modules/link_card/components/card.vue:181
+#, icu-message-format
+msgid "link-card.shortened"
+msgstr "acortado"
+
+#: /src/modules/metadata.tsx:493
+#, icu-message-format
+msgid "metadata.clip-download"
+msgstr "Descargar"
+
+#: /src/sites/twitch-twilight/modules/directory/index.jsx:882
+#, icu-message-format
+msgid "metadata.flags.tooltip"
+msgstr "Destinado a cierto público. Puede contener:"
