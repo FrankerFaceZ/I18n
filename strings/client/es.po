@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-17 23:18+0000\n"
+"PO-Revision-Date: 2026-09-17 23:25+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1805,3 +1805,50 @@ msgid "emote-menu.free-sub.about"
 msgstr ""
 "Como agradecimiento por apoyarnos en el pasado, puedes obtener un mes gratis "
 "de FFZ Subwoofer."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:793
+#, icu-message-format
+msgid "emote-menu.gif-cooldown"
+msgstr "Puedes enviar otro GIF en {seconds}s."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:808
+#, icu-message-format
+msgid "emote-menu.gif-empty"
+msgstr "No se encontraron GIFs."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:803
+#, icu-message-format
+msgid "emote-menu.gif-loading"
+msgstr "Cargando..."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:798
+#, icu-message-format
+msgid "emote-menu.gif-unavailable"
+msgstr "Los GIFs no están disponibles temporalmente."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3177
+#, icu-message-format
+msgid "emote-menu.gifs"
+msgstr "GIFs"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3061
+#, icu-message-format
+msgid "emote-menu.search-gifs"
+msgstr "Buscar en GIPHY"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2707
+#, icu-message-format
+msgid "emote-menu.source-set"
+msgstr "Emoticonos de {channel}"
+
+#: /src/modules/main_menu/components/emote-priorities.vue:62
+#, icu-message-format
+msgid "emote-source.unknown"
+msgstr "Desconocido ({id})"
+
+#: /src/modules/chat/emotes.js:1114
+#, icu-message-format
+msgid "emote-updates.added"
+msgstr ""
+"{count, plural, one {El emoticono {emotes} ha sido añadido} other {Los "
+"emoticonos {emotes} han sido añadidos}} a {set}."
