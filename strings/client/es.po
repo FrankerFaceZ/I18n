@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-17 18:39+0000\n"
+"PO-Revision-Date: 2026-09-17 18:59+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -71,7 +71,7 @@ msgid "chat.actions.delete.tooltip"
 msgstr "Borrar el mensaje de {user.login}"
 
 msgid "chat.actions.edit_overrides"
-msgstr "Cambiar Nombre y Color"
+msgstr "Cambiar nombre y color"
 
 msgid "chat.actions.edit_overrides.desc"
 msgstr ""
@@ -79,27 +79,25 @@ msgstr ""
 "usuario en el chat."
 
 msgid "chat.actions.msg_delete"
-msgstr "Eliminar Mensaje"
+msgstr "Eliminar mensaje"
 
 msgid "chat.actions.open_url"
 msgstr "Abrir URL"
 
 msgid "chat.actions.reply"
-msgstr "Responder al Mensaje"
+msgstr "Responder al mensaje"
 
 msgid "chat.actions.reply.desc"
-msgstr ""
-"Te permite responder al mensaje de otro usuario directamente. Sólo funciona "
-"cuando el Estilo de Respuestas es \"FrankerFaceZ\"."
+msgstr "Te permite responder directamente al mensaje de otro usuario."
 
 msgid "chat.actions.reply.thread"
-msgstr "Abrir Hilo"
+msgstr "Abrir hilo"
 
 msgid "chat.actions.select-reason"
 msgstr "Por favor, elige una razón de la siguiente lista:"
 
 msgid "chat.actions.timeout"
-msgstr "Expulsar Temporalmente Usuario"
+msgstr "Expulsar temporalmente a usuario"
 
 msgid "chat.actions.timeout-reason"
 msgstr ""
@@ -124,10 +122,10 @@ msgid "chat.actions.unknown"
 msgstr "Tipo de acción desconocido"
 
 msgid "chat.actions.untimeout"
-msgstr "Retirar Expulsión Temporal a Usuario"
+msgstr "Retirar expulsión temporal a usuario"
 
 msgid "chat.actions.untimeout.tooltip"
-msgstr "Quitar expulsión {user.login}"
+msgstr "Quitar expulsión temporal a {user.login}"
 
 msgid "chat.actions.whisper"
 msgstr "Susurrar usuario"
@@ -143,10 +141,10 @@ msgstr ""
 "}"
 
 msgid "chat.ffz-badge.site"
-msgstr "Porfavor visita {website} para cambiar este emblema."
+msgstr "Por favor, visita {website} para cambiar este emblema."
 
 msgid "chat.ffz-badge.site-link"
-msgstr "Sito web de FrankerFaceZ"
+msgstr "Sitio web de FrankerFaceZ"
 
 msgid "chat.ffz-badge.title"
 msgstr "Emblema de FrankerFaceZ"
@@ -167,7 +165,7 @@ msgid "chat.filtering.automod.P"
 msgstr "Blasfemia"
 
 msgid "chat.filtering.automod.S"
-msgstr "Lenguaje Sexualmente Explícito"
+msgstr "Lenguaje sexualmente explícito"
 
 msgid "chat.filtering.blocked-term"
 msgstr "Término bloqueado"
@@ -179,7 +177,7 @@ msgid "chat.message-deleted"
 msgstr "<mensaje eliminado>"
 
 msgid "chat.messages-below"
-msgstr "Chat Pausado Por Desplazamiento"
+msgstr "Chat pausado por desplazamiento"
 
 msgid "chat.mod-action.ban"
 msgstr "Vetado"
@@ -203,7 +201,7 @@ msgid "chat.overrides.name"
 msgstr "Nombre"
 
 msgid "chat.paused"
-msgstr "(Chat Pausado por {reason})"
+msgstr "(Chat pausado por {reason})"
 
 msgid "chat.points.bypass-sub"
 msgstr "Enviar un mensaje en modo solo suscriptores"
@@ -817,7 +815,7 @@ msgstr "Has cargado datos de complementos desde un servidor de desarrollo local.
 
 msgid "site.menu_button.changed"
 msgstr ""
-"El proveedor the FrankerFaceZ ha cambiado. Porfavor actualize la pagina "
+"El proveedor de FrankerFaceZ ha cambiado. Por favor, actualiza la página "
 "para prevenir comportamientos extraños."
 
 msgid "site.menu_button.dev"
@@ -1434,3 +1432,22 @@ msgstr "{months, plural, one {# mes} other {# meses}}"
 #, icu-message-format
 msgid "viewer-card.follow"
 msgstr "{followed,humantime}"
+
+#: /src/addons.ts:527
+#, icu-message-format
+msgid "addons.reload.toast"
+msgstr "Complemento recargado"
+
+#: /src/addons.ts:485
+#: /src/addons.ts:512
+#, icu-message-format
+msgid "addons.reload.toast-error"
+msgstr "Error al recargar el complemento"
+
+#: /src/addons.ts:512
+#, icu-message-format
+msgid "addons.reload.toast-error.reload"
+msgstr ""
+"No se pudo cargar el nuevo módulo para el complemento \"{addon_id}\":\n"
+"\n"
+"{error}"
