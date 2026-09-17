@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-17 16:40+0000\n"
+"PO-Revision-Date: 2026-09-17 17:33+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -5020,7 +5020,7 @@ msgstr "Enlaces"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards"
-msgstr "Tarjetas de Espectador"
+msgstr "Tarjetas de espectador"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -5415,8 +5415,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.viewer-cards.highlight-chat"
-msgstr ""
-"Resalte los mensajes de los usuarios con tarjetas de visualización abiertas."
+msgstr "Resaltar mensajes de usuarios con tarjetas de espectador abiertas."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -6554,7 +6553,7 @@ msgstr "Alineación"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.custom-position"
-msgstr "Permite anular la posición y la alineación de los subtítulos."
+msgstr "Permite sobrescribir la posición y la alineación de los subtítulos."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -6564,7 +6563,7 @@ msgstr "Familia tipográfica"
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.player.captions.font-family.description"
-msgstr "Anula la fuente utilizada para mostrar los subtítulos."
+msgstr "Sobrescribir la fuente utilizada para mostrar los subtítulos."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7103,7 +7102,7 @@ msgstr "Reproductor"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.player.closed_captioning"
-msgstr "Subtítulos ocultos"
+msgstr "Subtítulos"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8747,8 +8746,8 @@ msgid "setting.entry.link-cards.enable.description"
 msgstr ""
 "Cuando esto está habilitado y haces clic en un enlace en el chat o en los "
 "susurros, se abrirá una ventana emergente con información sobre el enlace. "
-"Esto proporciona los mismos datos que la información emergente de enlaces "
-"enriquecidos, pero en una forma que permite más interacción."
+"Esto proporciona los mismos datos que la información emergente enriquecida "
+"de los enlaces, pero en una forma que permite más interacción."
 
 #: /src/sites/twitch-twilight/modules/chat/index.js:722
 #, icu-message-format
@@ -8763,3 +8762,16 @@ msgstr ""
 "mensajes cuando un mensaje forma parte de un Chat Compartido. De forma "
 "predeterminada, es Avatar para moderadores y streamers, y Oculto para todos "
 "los demás."
+
+#: /src/modules/link_card/index.jsx:28
+#, icu-message-format
+msgid "setting.entry.link-cards.enable"
+msgstr "Habilitar tarjetas de enlaces."
+
+#: /src/modules/link_card/index.jsx:38
+#, icu-message-format, md-text
+msgid "setting.entry.link-cards.use-destination.description"
+msgstr ""
+"Al hacer clic en \"Abrir enlace\" en una tarjeta de enlace con esta opción "
+"activada, omitirás los acortadores de enlaces y servicios de rastreo "
+"conocidos e irás directamente a la URL de destino."
