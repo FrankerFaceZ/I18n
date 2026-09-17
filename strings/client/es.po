@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-16 16:25+0000\n"
+"PO-Revision-Date: 2026-09-17 18:19+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1429,3 +1429,8 @@ msgstr "Error"
 #, icu-message-format
 msgid "viewer-card.months"
 msgstr "{months, plural, one {# mes} other {# meses}}"
+
+#: /src/modules/viewer_cards/card.vue:62
+#, icu-message-format
+msgid "viewer-card.follow"
+msgstr "{followed,humantime}"
