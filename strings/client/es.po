@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-17 23:32+0000\n"
+"PO-Revision-Date: 2026-09-18 01:08+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/es/>\n"
@@ -1959,3 +1959,105 @@ msgstr "Descargar"
 #, icu-message-format
 msgid "metadata.flags.tooltip"
 msgstr "Destinado a cierto público. Puede contener:"
+
+#: /src/modules/metadata.tsx:681
+#: /src/sites/player/metadata.jsx:280
+#, icu-message-format
+msgid "metadata.player-stats.tampered"
+msgstr ""
+"Tu reproductor tiene un tipo de reproductor inesperado ({type}), lo cual "
+"puede afectar tu experiencia de visualización."
+
+#: /src/modules/metadata.tsx:412
+#: /src/sites/player/metadata.jsx:101
+#, icu-message-format
+msgid "metadata.uptime-no-id"
+msgstr ""
+"Lo sentimos, no pudimos encontrar un video archivado para el stream actual."
+
+#: /src/sites/shared/player.jsx:2159
+#, icu-message-format
+msgid "player.clip-button"
+msgstr "Clip (Alt+X)"
+
+#: /src/sites/shared/player.jsx:2155
+#, icu-message-format
+msgid "player.clip-button.disabled"
+msgstr "Los clips están desactivados"
+
+#: /src/sites/shared/player.jsx:2036
+#, icu-message-format
+msgid "player.pip_button.swap"
+msgstr "Alternar imagen en imagen"
+
+#: /src/modules/main_menu/components/socket-info.vue:245
+#, icu-message-format
+msgid "socket.info.connecting"
+msgstr "conectando"
+
+#: /src/modules/main_menu/components/tooltip-tos.vue:63
+#, icu-message-format
+msgid "tooltip.accept-tos"
+msgstr "Sí, acepto los Términos del Servicio."
+
+#: /src/modules/main_menu/components/tooltip-tos.vue:22
+#, icu-message-format
+msgid "tooltip.decline-tos"
+msgstr "No acepto."
+
+#: /src/modules/main_menu/components/tooltip-tos.vue:26
+#, icu-message-format
+msgid "tooltip.has-declined-tos"
+msgstr ""
+"No volveremos a pedirte que aceptes los términos, pero aún puedes cambiar de "
+"opinión en esta página."
+
+#: /src/modules/chat/link_providers.js:400
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:220"
+msgid "video.desc.1"
+msgstr "Video de {user}"
+
+#: /src/modules/chat/link_providers.js:387
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:217"
+msgid "video.desc.1.playing"
+msgstr "Video de {user} jugando {game}"
+
+#: /src/modules/chat/link_providers.js:421
+#, icu-message-format, lp-defaults:"{\"length\":58,\"views\":121,\"date\":\"2016-02-10T02:30:02.436Z\"}"
+msgctxt "/lib/resolvers/twitch.js:226"
+msgid "video.desc.2"
+msgstr "{length,duration} — {views,number} vistas — {date,datetime}"
+
+#: /src/modules/chat/link_providers.js:466
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:261"
+msgid "video.views"
+msgstr "{views,number} vistas"
+
+#: /src/modules/viewer_cards/card.vue:55
+#, icu-message-format
+msgid "viewer-card.age"
+msgstr "{created,humantime}"
+
+#: /src/modules/viewer_cards/card.vue:52
+#, icu-message-format
+msgid "viewer-card.age-tip"
+msgstr "Cuenta creada el: {created,datetime}"
+
+#: /src/modules/viewer_cards/components/error-tab.vue:8
+#, icu-message-format
+msgid "viewer-card.error"
+msgstr "Ocurrió un error al cargar los datos de este usuario."
+
+#: /src/modules/viewer_cards/card.vue:59
+#, icu-message-format
+msgid "viewer-card.follow-tip"
+msgstr "Siguiendo desde: {followed,datetime}"
+
+#: /src/modules/viewer_cards/card.vue:86
+#: /src/modules/viewer_cards/card.vue:87
+#, icu-message-format
+msgid "viewer-card.pin"
+msgstr "Fijar"
