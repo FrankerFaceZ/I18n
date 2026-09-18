@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-18 21:09+0000\n"
+"PO-Revision-Date: 2026-09-18 21:25+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -268,7 +268,7 @@ msgid "setting.actions.edit-visible.slow"
 msgstr "Modo lento"
 
 msgid "setting.actions.edit-visible.subs"
-msgstr "Modo Subscriptores"
+msgstr "Modo suscriptores"
 
 msgid "setting.actions.icon"
 msgstr "Icono"
@@ -454,8 +454,8 @@ msgstr ""
 
 msgid "setting.backup-restore.confirm-updates"
 msgstr ""
-"El perfil que estás importando tiene un enlace de actualización automática. "
-"¿Quiéres que el perfil se mantenga al día?"
+"El perfil que estás importando tiene un enlace de actualización automática. ¿"
+"Quieres que el perfil se mantenga actualizado automáticamente?"
 
 msgid "setting.backup-restore.disable-auto"
 msgstr "No, evitar actualizaciones automáticas."
@@ -472,7 +472,7 @@ msgstr ""
 "plural, one {# configuración} other {# configuraciones}}."
 
 msgid "setting.backup-restore.imported-at"
-msgstr "Fecha de Importación: {now,datetime}."
+msgstr "Importado el {now,datetime}."
 
 msgid "setting.backup-restore.non-supported"
 msgstr ""
@@ -485,7 +485,7 @@ msgstr ""
 "puede cargar."
 
 msgid "setting.backup-restore.pick-profile"
-msgstr "Por favor seleccione un perfil para importar."
+msgstr "Selecciona un perfil para importar."
 
 msgid "setting.backup-restore.restore-backup"
 msgstr "Restaurar copia de seguridad"
@@ -4074,8 +4074,8 @@ msgstr "Retoques"
 #, icu-message-format, lp-defaults:"{\"count\":57}"
 msgid "setting.badges.hidden"
 msgstr ""
-"{count,plural,one{# emblema está} other{# emblemas están} } ocultas en este "
-"conjunto"
+"{count,plural,one{# emblema está oculto} other{# emblemas están ocultos} } "
+"en este conjunto"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8775,3 +8775,20 @@ msgstr ""
 "Al hacer clic en \"Abrir enlace\" en una tarjeta de enlace con esta opción "
 "activada, omitirás los acortadores de enlaces y servicios de rastreo "
 "conocidos e irás directamente a la URL de destino."
+
+#: /src/modules/chat/actions/components/edit-chat.vue:43
+#, icu-message-format
+msgid "setting.actions.chat.target"
+msgstr "Canal de destino"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:60
+#, icu-message-format
+msgid "setting.actions.chat.target-incompatible"
+msgstr ""
+"Nota: esto no es compatible con pegar un mensaje en el chat y no funcionará "
+"si esa opción está activada."
+
+#: /src/modules/main_menu/components/chat-actions.vue:363
+#, icu-message-format
+msgid "setting.actions.do-not-inherit"
+msgstr "No heredar"
