@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-18 21:25+0000\n"
+"PO-Revision-Date: 2026-09-18 22:30+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -238,7 +238,7 @@ msgid "setting.actions.delete-all"
 msgstr "Elimina todas las acciones de este perfil."
 
 msgid "setting.actions.drag"
-msgstr "Arrastre las acciones para reordenarlas."
+msgstr "Arrastra las acciones para reordenarlas."
 
 msgid "setting.actions.duration"
 msgstr "Duración"
@@ -316,7 +316,7 @@ msgid "setting.actions.reason"
 msgstr "Razón predeterminada"
 
 msgid "setting.actions.set-chat"
-msgstr "Pegar este mensaje en el chat sin enviarlo."
+msgstr "Pega este mensaje en el chat en lugar de enviarlo directamente."
 
 msgid "setting.actions.text"
 msgstr "Etiqueta"
@@ -8792,3 +8792,72 @@ msgstr ""
 #, icu-message-format
 msgid "setting.actions.do-not-inherit"
 msgstr "No heredar"
+
+#: /src/modules/main_menu/components/chat-actions.vue:366
+#, icu-message-format
+msgid "setting.actions.do-not-inherit.desc"
+msgstr ""
+"No hereda valores de perfiles de menor prioridad ni de los valores "
+"predeterminados."
+
+#: /src/modules/chat/actions/components/edit-copy.vue:3
+#, icu-message-format
+msgid "setting.actions.format"
+msgstr "Formato"
+
+#: /src/modules/main_menu/components/action-editor.vue:726
+#, icu-message-format
+msgid "setting.actions.visible.no-r9k"
+msgstr "cuando no esté en modo r9k"
+
+#: /src/modules/main_menu/components/action-editor.vue:724
+#, icu-message-format
+msgid "setting.actions.visible.r9k"
+msgstr "cuando esté en modo r9k"
+
+#: /src/modules/main_menu/components/action-editor.vue:681
+#, icu-message-format
+msgid "setting.actions.visible.unfollowing"
+msgstr "cuando no sigues al usuario"
+
+#: /src/modules/main_menu/components/action-editor.vue:687
+#, icu-message-format
+msgid "setting.actions.visible.unmod"
+msgstr "cuando no eres moderador"
+
+#: /src/modules/main_menu/components/backup-restore.vue:260
+#, icu-message-format
+msgid "setting.backup-restore.invalid-blob"
+msgstr "Este archivo contiene un blob binario con un tipo no válido: {type}"
+
+#: /src/modules/main_menu/components/backup-restore.vue:294
+#, icu-message-format
+msgid "setting.backup-restore.zip-restored"
+msgstr ""
+"Se han restaurado {count,number} elementos y {blobs,number} blobs binarios. "
+"Por favor, recarga esta página."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:389
+#, icu-message-format
+msgid "setting.chat.filtering.block.callout_types"
+msgstr "Tipos de avisos"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:389
+#, icu-message-format, md-text
+msgid "setting.chat.filtering.block.callout_types.description"
+msgstr ""
+"Este filtro te permite eliminar del chat de Twitch los avisos de tipos "
+"específicos. Los avisos son mensajes especiales que pueden fijarse en la "
+"parte inferior del chat y que a menudo tienen acciones asociadas, como "
+"reclamar un drop o compartir tu re-suscripción."
+
+#: /src/sites/twitch-twilight/modules/chat/input.jsx:76
+#, icu-message-format
+msgid "setting.chat.hype_chat.input"
+msgstr "Entrada"
+
+#: /src/modules/link_card/index.jsx:28
+#: /src/modules/link_card/index.jsx:38
+#, icu-message-format
+msgid "setting.chat.link_cards"
+msgstr "Tarjetas de enlaces"
