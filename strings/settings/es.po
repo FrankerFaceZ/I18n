@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-19 02:22+0000\n"
+"PO-Revision-Date: 2026-09-19 04:59+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -14,10 +14,10 @@ msgid "addon.author"
 msgstr "Por: {author}"
 
 msgid "addon.deck.author"
-msgstr "Señor Stendec"
+msgstr "SirStendec"
 
 msgid "addon.deck.name"
-msgstr "Plataforma"
+msgstr "Deck"
 
 msgid "addon.dev"
 msgstr "Desarrollador"
@@ -35,7 +35,7 @@ msgid "addon.ffzap-bttv.author"
 msgstr "Lordmau5"
 
 msgid "addon.ffzap-bttv.name"
-msgstr "Emoticonos BetterTTV"
+msgstr "BetterTTV Emotes"
 
 msgid "addon.ffzap-core.author"
 msgstr "Lordmau5"
@@ -62,7 +62,7 @@ msgid "addon.unlisted"
 msgstr "No listado"
 
 msgid "addon.unlisted.add"
-msgstr "Añadir a la lista..."
+msgstr "Añadir no listado..."
 
 msgid "addon.unlisted.explain"
 msgstr ""
@@ -73,7 +73,7 @@ msgstr ""
 "para que se muestre."
 
 msgid "addon.unlisted.id"
-msgstr "id de complemento"
+msgstr "id del complemento"
 
 msgid "addon.version"
 msgstr "Versión {version}"
@@ -203,7 +203,7 @@ msgid "setting.actions.action"
 msgstr "Acción"
 
 msgid "setting.actions.add-default"
-msgstr "Agregar Predeterminados"
+msgstr "Añadir valores predeterminados"
 
 msgid "setting.actions.add-default-tip"
 msgstr "Agregar todas las acciones predeterminadas a este perfil."
@@ -375,7 +375,7 @@ msgid "setting.add_ons.changelog"
 msgstr "Registro de cambios"
 
 msgid "setting.add_ons.changelog.title"
-msgstr "Registro de cambios de Complementos"
+msgstr "Registro de cambios de complementos"
 
 msgid "setting.add_ons.description"
 msgstr ""
@@ -410,25 +410,25 @@ msgid "setting.appearance.localization"
 msgstr "Localización"
 
 msgid "setting.appearance.localization.formatting"
-msgstr "Formateo"
+msgstr "Formato"
 
 msgid "setting.appearance.localization.general"
 msgstr "General"
 
 msgid "setting.appearance.localization.general.language.joke"
-msgstr "Idioma de Chistes"
+msgstr "Idiomas de broma"
 
 msgid "setting.appearance.localization.general.language.languages"
-msgstr "Idiomas Admitidos"
+msgstr "Idiomas compatibles"
 
 msgid "setting.appearance.localization.general.language.twitch"
-msgstr "Usar Idioma de Twitch"
+msgstr "Usar el idioma de Twitch"
 
 msgid "setting.appearance.theme"
 msgstr "Tema"
 
 msgid "setting.appearance.theme.chat_colors"
-msgstr "Colores del Chat"
+msgstr "Colores del chat"
 
 msgid "setting.appearance.theme.colors"
 msgstr "Colores"
@@ -3332,12 +3332,12 @@ msgstr "Clips"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.side_navigation"
-msgstr "Navegación Lateral"
+msgstr "Navegación lateral"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.top_navigation"
-msgstr "Navegación Superior"
+msgstr "Navegación superior"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3348,7 +3348,7 @@ msgstr "Apariencia"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.control_center"
-msgstr "Centro de Control"
+msgstr "Centro de control"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3544,7 +3544,7 @@ msgstr "Razones"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.reasons.custom_reasons"
-msgstr "Razones Personalizadas"
+msgstr "Razones personalizadas"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3564,12 +3564,12 @@ msgstr "General"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.user_context"
-msgstr "Contexto de Usuario"
+msgstr "Contexto de usuario"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.chat_lines"
-msgstr "Líneas del Chat"
+msgstr "Líneas del chat"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3579,7 +3579,7 @@ msgstr "Colores"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.community_chest"
-msgstr "Cofre de la Comunidad"
+msgstr "Cofre de la comunidad"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3639,7 +3639,7 @@ msgstr "Comportamiento"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.deleted_messages"
-msgstr "Mensajes Eliminados"
+msgstr "Mensajes eliminados"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -3696,7 +3696,7 @@ msgstr "General"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.emote_menu"
-msgstr "Menú de Emoticonos"
+msgstr "Menú de emoticonos"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3746,7 +3746,7 @@ msgstr ""
 
 #, icu-message-format, md-text
 msgid "home.addon-updates"
-msgstr "Complementos Actualizados"
+msgstr "Complementos actualizados"
 
 #, icu-message-format
 msgid "home.github"
@@ -3805,7 +3805,7 @@ msgstr "Actualizado: {when,humantime}"
 #: /src/modules/chat/actions/components/edit-chat.vue:65
 #, icu-message-format
 msgid "setting.actions.formats"
-msgstr "Formateadores Disponibles: {fmts}"
+msgstr "Formateadores disponibles: {fmts}"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4080,7 +4080,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.in_line"
-msgstr "En Línea"
+msgstr "En línea"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4101,7 +4101,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.rich_content"
-msgstr "Contenido Enriquecido"
+msgstr "Contenido enriquecido"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4112,7 +4112,7 @@ msgstr "Bits y cheering"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.auto_mod_filters"
-msgstr "Filtros AutoMod"
+msgstr "Filtros de AutoMod"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4132,7 +4132,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.auto_mod_filters"
-msgstr "Filtros AutoMod"
+msgstr "Filtros de AutoMod"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -4829,7 +4829,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_users"
-msgstr "Usuarios Destacados"
+msgstr "Resaltar usuarios"
 
 #, icu-message-format
 msgid "setting.color.nullable"
@@ -4932,12 +4932,12 @@ msgstr "Resaltado"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_badges"
-msgstr "Insignias Destacadas"
+msgstr "Resaltar emblemas"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight_terms"
-msgstr "Términos Destacados"
+msgstr "Resaltar términos"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
