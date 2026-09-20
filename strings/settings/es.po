@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-20 22:40+0000\n"
+"PO-Revision-Date: 2026-09-21 00:14+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -212,7 +212,7 @@ msgid "setting.actions.appearance"
 msgstr "Apariencia"
 
 msgid "setting.actions.appearance.combo"
-msgstr "Texto e ícono"
+msgstr "Texto e icono"
 
 msgid "setting.actions.appearance.icon"
 msgstr "Icono"
@@ -231,8 +231,8 @@ msgstr "Color"
 
 msgid "setting.actions.color.warn"
 msgstr ""
-"Este valor se ajustará automáticamente para la visibilidad en función de la "
-"configuración del color del chat."
+"Este valor se ajustará automáticamente para garantizar su visibilidad según "
+"la configuración de color de tu chat."
 
 msgid "setting.actions.delete-all"
 msgstr "Elimina todas las acciones de este perfil."
@@ -277,7 +277,7 @@ msgid "setting.actions.new"
 msgstr "Nueva..."
 
 msgid "setting.actions.no-actions"
-msgstr "No hay razones definidas en este perfil"
+msgstr "no hay acciones definidas en este perfil"
 
 msgid "setting.actions.no-visible"
 msgstr "sin acciones visibles"
@@ -322,7 +322,7 @@ msgid "setting.actions.text"
 msgstr "Etiqueta"
 
 msgid "setting.actions.tooltip"
-msgstr "Información de Herramienta Personalizada"
+msgstr "Información emergente personalizada"
 
 msgid "setting.actions.type"
 msgstr "Tipo"
@@ -352,15 +352,15 @@ msgid "setting.actions.visible.mod"
 msgstr "cuando eres moderador"
 
 msgid "setting.actions.visible.mod_icons"
-msgstr "cuando los iconos de mod son mostrados"
+msgstr "cuando se muestran los iconos de moderador"
 
 msgid "setting.actions.visible.modifier"
 msgstr ""
-"cuando {keys,plural, one{la tecla} other{las teclas}} {key_list} {keys, "
-"plural, one {está presionada} other {están presionadas}}"
+"cuando {key_list} {keys, plural, one {está presionada} other {están "
+"presionadas}}"
 
 msgid "setting.actions.visible.slow"
-msgstr "cuando el modo lento"
+msgstr "cuando está en modo lento"
 
 msgid "setting.actions.visible.undeleted"
 msgstr "si el mensaje no ha sido eliminado"
@@ -491,9 +491,7 @@ msgid "setting.backup-restore.restore-backup"
 msgstr "Restaurar copia de seguridad"
 
 msgid "setting.backup-restore.restored"
-msgstr ""
-"{count,number} artículos han sido restaurados. Por favor actualiza esta "
-"página."
+msgstr "{count,number} elementos han sido restaurados. Actualiza esta página."
 
 msgid "setting.backup-restore.save-backup"
 msgstr "Guardar copia de seguridad"
@@ -717,14 +715,14 @@ msgid "setting.chat.filtering.blocked_badges"
 msgstr "Emblemas bloqueados"
 
 msgid "setting.chat.filtering.blocked_message_types"
-msgstr "Tipos de Mensaje Bloqueado"
+msgstr "Tipos de mensajes bloqueados"
 
 msgid "setting.chat.filtering.blocked_message_types.description"
 msgstr ""
-"Este filtro te permite eliminar todos los mensajes de cierto tipo desde el "
-"chat de Twitch. Puede ser usado para filtrar mensajes del sistema, como "
-"Alojamientos o Raids. Algunos tipos, como acciones de moderación, no pueden "
-"ser bloqueados para evitar el mal funcionamiento del chat."
+"Este filtro te permite eliminar del chat de Twitch todos los mensajes de un "
+"determinado tipo. Puede usarse para filtrar mensajes del sistema, como hosts "
+"o raids. Algunos tipos, como las acciones de moderación, no pueden "
+"bloquearse para evitar que se interrumpa el funcionamiento del chat."
 
 msgid "setting.chat.filtering.blocked_terms"
 msgstr "Términos bloqueados"
@@ -2853,7 +2851,7 @@ msgid "setting.icon.clear"
 msgstr "Despejar"
 
 msgid "setting.icon.search"
-msgstr "Buscar ícono"
+msgstr "Buscar icono"
 
 msgid "setting.import"
 msgstr "Importar…"
@@ -3432,7 +3430,7 @@ msgstr "Apariencia"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.chat_on_videos.description"
 msgstr ""
-"Esta función está actualmente en beta. Como tal, puede experimentar "
+"Esta función está actualmente en fase beta. Por ello, es posible que tengas "
 "problemas al usar las funciones de FFZ con Chat en videos."
 
 #, icu-message-format
@@ -3554,7 +3552,7 @@ msgstr "Reglas"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.actions.room"
-msgstr "Habitación"
+msgstr "Sala"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3604,7 +3602,7 @@ msgstr "Respuestas"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.subscriptions"
-msgstr "Suscripción"
+msgstr "Suscripciones"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -3655,7 +3653,7 @@ msgstr "General"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.scrolling"
-msgstr "Desplazar"
+msgstr "Desplazamiento"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4124,10 +4122,10 @@ msgstr "Comportamiento"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.message_types.description"
 msgstr ""
-"Este filtro te permite eliminar todos los mensajes de un determinado tipo "
-"del chat de Twitch. Se puede utilizar para filtrar mensajes del sistema, "
-"como Hosts o Raids. Algunos tipos, como las acciones de moderación, no "
-"pueden bloquearse para evitar que se interrumpa la funcionalidad del chat."
+"Este filtro te permite eliminar del chat de Twitch todos los mensajes de un "
+"determinado tipo. Puede usarse para filtrar mensajes del sistema, como hosts "
+"o raids. Algunos tipos, como las acciones de moderación, no pueden "
+"bloquearse para evitar que se interrumpa el funcionamiento del chat."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -4869,7 +4867,7 @@ msgstr "Emblemas"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.block.message_types"
-msgstr "Tipos de Mensajes"
+msgstr "Tipos de mensajes"
 
 #: /src/modules/main_menu/components/menu-container.vue:14
 #, icu-message-format
@@ -4899,12 +4897,12 @@ msgstr "Emblemas bloqueados"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_terms"
-msgstr "Términos Bloqueados"
+msgstr "Términos bloqueados"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.blocked_users"
-msgstr "Usuarios Bloqueados"
+msgstr "Usuarios bloqueados"
 
 #: /src/modules/main_menu/components/menu-tree.vue:82
 #, icu-message-format
@@ -4985,7 +4983,7 @@ msgstr "Apariencia"
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.input.recent_messages"
-msgstr "Mensajes Recientes"
+msgstr "Mensajes recientes"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -8702,7 +8700,7 @@ msgstr ""
 "Aquí puedes definir acciones personalizadas que aparecerán sobre los "
 "mensajes en el chat cuando pases el cursor sobre ellos. Si no ves en el chat "
 "alguna acción que hayas definido aquí, asegúrate de tener habilitados los "
-"Iconos de moderación en el menú de configuración del chat."
+"iconos de moderación en el menú de configuración del chat."
 
 #: /src/modules/main_menu/components/emote-priorities.vue:12
 #, icu-message-format
@@ -8861,3 +8859,23 @@ msgstr "Entrada"
 #, icu-message-format
 msgid "setting.chat.link_cards"
 msgstr "Tarjetas de enlaces"
+
+#: /src/modules/main_menu/components/profile-manager.vue:7
+#, icu-message-format, md-text
+msgid "setting.context-difference.description"
+msgstr ""
+"Como el Centro de control está abierto en una ventana nueva, los perfiles "
+"pueden coincidir de forma diferente aquí que en otras ventanas de Twitch."
+
+#: /src/modules/main_menu/components/profile-manager.vue:30
+#, icu-message-format
+msgid "setting.context-difference.tip"
+msgstr ""
+"Al marcar esta opción, se utilizará el contexto de la ventana original, por "
+"lo que los perfiles y sus reglas coincidirán igual que en la ventana que "
+"abrió este centro de control."
+
+#: /src/modules/main_menu/components/profile-manager.vue:25
+#, icu-message-format
+msgid "setting.context-difference.use"
+msgstr "Usar el contexto de la ventana original"
