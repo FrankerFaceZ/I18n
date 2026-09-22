@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-22 17:39+0000\n"
+"PO-Revision-Date: 2026-09-22 19:19+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -786,8 +786,9 @@ msgstr "General"
 
 msgid "setting.clear.done"
 msgstr ""
-"Tus ajustes han sido borrados, porfavor recarge todas sus pestañas de "
-"Twitch para asegurarse de que no quede nada en el caché."
+"Tus ajustes han sido borrados. Por favor, recarga todas las páginas de "
+"Twitch que tengas abiertas para asegurarte de que no quede ningún dato en la "
+"caché."
 
 msgid "setting.clear.opt.Everything"
 msgstr "Absolutamente todo"
@@ -808,18 +809,20 @@ msgid "setting.clear.start"
 msgstr "Borrar mis datos"
 
 msgid "setting.clear.step-1"
-msgstr "Selecciona que tipo de datos quieres que se borre:"
+msgstr "Selecciona qué tipos de datos quieres borrar:"
 
 msgid "setting.clear.step-2"
-msgstr "Estas realmente seguro? Porfavor introduzca `{code}` abajo para confirmar."
+msgstr ""
+"¿Estás realmente seguro? Por favor, escribe `{code}` en el cuadro de texto "
+"de abajo para confirmar."
 
 msgid "setting.clear.warning"
 msgstr "¡Cuidado! Esto es permanente."
 
 msgid "setting.clear.warning-explain"
 msgstr ""
-"Borrar tus datos con esta herramienta no se puede deshacer. Asegurate de "
-"tener una copia!"
+"Borrar tus datos con esta herramienta no se puede deshacer. ¡Asegúrate de "
+"tener una copia de seguridad!"
 
 msgid "setting.close"
 msgstr "Cerrar"
@@ -859,10 +862,10 @@ msgstr "Reglas"
 
 msgid "setting.data_management.profiles.edit.rules.description"
 msgstr ""
-"Las reglas te permiten definir una serie de condiciones bajo la cual éste "
-"perfil estará activo. Cuando existen multiple reglas, todas deben coincidir "
-"para que el perfil sea activado. Favor de utilizar la regla `Or` para crear "
-"un perfil que se activa al igualar una de las multiples reglas."
+"Las reglas te permiten definir una serie de condiciones bajo las cuales este "
+"perfil estará activo. Cuando hay varias reglas, todas deben coincidir para "
+"que el perfil se active. Usa una regla `O` para crear un perfil que se "
+"active al coincidir con una de varias reglas."
 
 msgid "setting.data_management.reporting"
 msgstr "Reportar"
@@ -1112,7 +1115,7 @@ msgstr ""
 "moderadores. Esto anula ese comportamiento."
 
 msgid "setting.entry.chat.badges.clickable"
-msgstr "Permitir clicks en emblemas."
+msgstr "Permitir hacer clic en los emblemas."
 
 msgid "setting.entry.chat.badges.clickable.description"
 msgstr ""
@@ -1250,7 +1253,8 @@ msgstr ""
 "de verlos."
 
 msgid "setting.entry.chat.delay.values.-1"
-msgstr "Retardo predeterminado (específico de la sala; sólo no mod.)"
+msgstr ""
+"Retraso predeterminado (específico de la sala; solo para no moderadores)"
 
 msgid "setting.entry.chat.delay.values.0"
 msgstr "Sin retraso"
@@ -1520,7 +1524,7 @@ msgid "setting.entry.chat.filtering.remove-deleted.values.1"
 msgstr "Eliminar Invisible (Predeterminado)"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.2"
-msgstr "Eliminar Invisible como Moderator"
+msgstr "Eliminar los no vistos como moderador"
 
 msgid "setting.entry.chat.filtering.remove-deleted.values.3"
 msgstr "Quitar Todos"
@@ -2791,7 +2795,7 @@ msgid "setting.false"
 msgstr "Falso"
 
 msgid "setting.filter.if.else"
-msgstr "Sino"
+msgstr "Si no"
 
 msgid "setting.filter.if.then"
 msgstr "Entonces"
@@ -4198,7 +4202,7 @@ msgstr "Alojamientos"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-not-live-bar.description"
 msgstr ""
-"Ocultar la barra que aparece debajo de los clips y videos cuando el streamer "
+"Oculta la barra que aparece debajo de los clips y videos cuando el streamer "
 "está en directo, indicándote que está en directo."
 
 #, icu-message-format
@@ -4396,7 +4400,7 @@ msgstr "Desactivado"
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
 msgid "setting.entry.chat.emoji.replace-joiner.values.1"
-msgstr "Sólo en pantalla"
+msgstr "Solo mostrar"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:51
 #, icu-message-format
@@ -4570,7 +4574,7 @@ msgstr "Desactivado"
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.1"
-msgstr "Sólo Twitch"
+msgstr "Solo Twitch"
 
 #: /src/modules/main_menu/components/setting-select-box.vue:1
 #, icu-message-format
@@ -4632,7 +4636,7 @@ msgstr ""
 #, icu-message-format
 msgid "setting.entry.chat.filtering.debug"
 msgstr ""
-"Mostrar una lista de razones de resaltado en cada mensaje de chat para "
+"Mostrar una lista de motivos de resaltado en cada mensaje del chat para "
 "depuración."
 
 #, icu-message-format
@@ -8879,3 +8883,23 @@ msgstr ""
 #, icu-message-format
 msgid "setting.context-difference.use"
 msgstr "Usar el contexto de la ventana original"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:316
+#, icu-message-format
+msgid "setting.entry.chat.emote-menu.effect-tab"
+msgstr "Mostrar los efectos de emoticonos en su propia pestaña."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:349
+#, icu-message-format
+msgid "setting.entry.chat.filtering.show-reasons"
+msgstr "Mostrar motivos"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:349
+#, icu-message-format, md-text
+msgid "setting.entry.chat.filtering.show-reasons.description"
+msgstr ""
+"Si esto está activado, los motivos por los que se resaltó un mensaje se "
+"mostrarán junto a él. Es una visualización sencilla. Para obtener más "
+"detalles, activa la opción de depuración que aparece más abajo en "
+"Comportamiento, ten en cuenta que esa opción tiene un pequeño impacto en el "
+"rendimiento en comparación con esta."
