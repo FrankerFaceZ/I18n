@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-22 19:19+0000\n"
+"PO-Revision-Date: 2026-09-23 02:55+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -5337,9 +5337,9 @@ msgstr "Mostrar contenido enriquecido incrustado para todos los enlaces."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rich.all-links.description"
 msgstr ""
-"*Streamers: Tenga en cuenta que esto es un vector potencial para las "
-"imágenes NSFW a través de miniaturas, así que ten cuidado al capturar chat "
-"con esto enabled.*"
+"*Streamers: Ten en cuenta que esta función puede ser una vía para mostrar "
+"imágenes NSFW a través de las miniaturas, así que ten cuidado al capturar el "
+"chat con esta opción activada.*"
 
 #: /src/modules/main_menu/components/setting-check-box.vue:130
 #, icu-message-format, md-text
@@ -5367,14 +5367,14 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay"
-msgstr "Tiempo de espera"
+msgstr "Retraso al pasar el cursor"
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.scroller.hover-delay.description"
 msgstr ""
-"El chat sólo permanecerá congelado debido al movimiento del ratón durante "
-"este tiempo después de que el ratón deje de moverse."
+"El chat permanecerá congelado al pasar el cursor durante este tiempo una vez "
+"que el ratón se detenga."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5510,9 +5510,9 @@ msgstr "Ocultar el botón \"Ocultar banda de información de flujo\"."
 msgctxt "FFZ Control Center"
 msgid "setting.entry.metadata.stream-delay-warning.description"
 msgstr ""
-"Cuando el retardo del flujo actual excede este número de segundos, muestra "
-"el retardo del flujo en un color de advertencia para llamar la atención "
-"sobre el gran retardo. Póngalo a cero para desactivarlo."
+"Cuando el retraso actual del stream supere esta cantidad de segundos, se "
+"mostrará el retraso en un color de advertencia para llamar la atención sobre "
+"el gran retraso. Pon esto a cero para desactivarlo."
 
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
@@ -5983,7 +5983,7 @@ msgstr ""
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.directory.hide-vodcasts"
-msgstr "No muestre repeticiones en el directorio."
+msgstr "No mostrar repeticiones en el directorio."
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
