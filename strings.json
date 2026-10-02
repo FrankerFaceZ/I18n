@@ -6223,11 +6223,18 @@
 			"source": "/src/trubbel/settings/appearance/declutter.js:382\n/src/trubbel/settings/appearance/declutter.js:394\n/src/trubbel/settings/appearance/declutter.js:406\n/src/trubbel/settings/appearance/declutter.js:418\n/src/trubbel/settings/appearance/declutter.js:430\n/src/trubbel/settings/appearance/declutter.js:442\n/src/trubbel/settings/appearance/declutter.js:454\n/src/trubbel/settings/appearance/declutter.js:466",
 			"context": null
 		},
+		"setting.add_ons.trubbel_s_utilities.appearance.declutter.top_navigation": {
+			"id": "setting.add_ons.trubbel_s_utilities.appearance.declutter.top_navigation",
+			"doc": "addon.trubbel",
+			"default": "Top Navigation",
+			"source": "/src/trubbel/settings/appearance/declutter.js:480",
+			"context": null
+		},
 		"setting.add_ons.trubbel_s_utilities.appearance.declutter.vods": {
 			"id": "setting.add_ons.trubbel_s_utilities.appearance.declutter.vods",
 			"doc": "addon.trubbel",
 			"default": "VODs",
-			"source": "/src/trubbel/settings/appearance/declutter.js:480",
+			"source": "/src/trubbel/settings/appearance/declutter.js:495",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.appearance.notifications": {
@@ -7232,11 +7239,26 @@
 			"source": "/src/trubbel/settings/appearance/declutter.js:418",
 			"context": null
 		},
+		"setting.entry.addon.trubbel.appearance.declutter.top_nav.CreatorMessagesNavButton": {
+			"id": "setting.entry.addon.trubbel.appearance.declutter.top_nav.CreatorMessagesNavButton",
+			"doc": "addon.trubbel",
+			"default": "Hide Shouts button",
+			"source": "/src/trubbel/settings/appearance/declutter.js:480",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.appearance.declutter.top_nav.CreatorMessagesNavButton.description": {
+			"id": "setting.entry.addon.trubbel.appearance.declutter.top_nav.CreatorMessagesNavButton.description",
+			"doc": "addon.trubbel",
+			"default": "Removes the Streamer Shouts button from the top navigation bar.",
+			"source": "/src/trubbel/settings/appearance/declutter.js:480",
+			"context": null,
+			"markdown": true
+		},
 		"setting.entry.addon.trubbel.appearance.declutter.vods.muted_segment_popup": {
 			"id": "setting.entry.addon.trubbel.appearance.declutter.vods.muted_segment_popup",
 			"doc": "addon.trubbel",
 			"default": "Hide muted segments alerts popups",
-			"source": "/src/trubbel/settings/appearance/declutter.js:480",
+			"source": "/src/trubbel/settings/appearance/declutter.js:495",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.appearance.notifications.custom.background_color": {

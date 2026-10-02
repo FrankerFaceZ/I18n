@@ -118,6 +118,11 @@ msgstr "Stream"
 
 #: /src/trubbel/settings/appearance/declutter.js:480
 #, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.top_navigation"
+msgstr "Top Navigation"
+
+#: /src/trubbel/settings/appearance/declutter.js:495
+#, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.vods"
 msgstr "VODs"
 
@@ -1050,6 +1055,20 @@ msgid "setting.entry.addon.trubbel.appearance.declutter.stream.watch_streak"
 msgstr "Hide Watch Streak within the rewards popup"
 
 #: /src/trubbel/settings/appearance/declutter.js:480
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.top_nav."
+"CreatorMessagesNavButton"
+msgstr "Hide Shouts button"
+
+#: /src/trubbel/settings/appearance/declutter.js:480
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.top_nav."
+"CreatorMessagesNavButton.description"
+msgstr "Removes the Streamer Shouts button from the top navigation bar."
+
+#: /src/trubbel/settings/appearance/declutter.js:495
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.vods.muted_segment_popup"
 msgstr "Hide muted segments alerts popups"
