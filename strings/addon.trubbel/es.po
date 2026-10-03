@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-09-17 17:33+0000\n"
+"PO-Revision-Date: 2026-10-03 03:30+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -3005,3 +3005,38 @@ msgid ""
 msgstr ""
 "Muestra información sobre el descuento en suscripciones de regalo cuando "
 "esté disponible."
+
+#: /src/trubbel/settings/appearance/declutter.js:480
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.top_nav."
+"CreatorMessagesNavButton"
+msgstr "Ocultar botón de menciones"
+
+#: /src/trubbel/settings/appearance/declutter.js:480
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.appearance.declutter.top_nav."
+"CreatorMessagesNavButton.description"
+msgstr ""
+"Oculta el botón de menciones del streamer de la barra de navegación superior."
+
+#: /src/trubbel/settings/appearance/declutter.js:480
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.top_navigation"
+msgstr "Navegación superior"
+
+#: /src/trubbel/settings/appearance/declutter.js:184
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.all_time_high_train"
+msgstr "Ocultar máximo histórico del Tren del Hype"
+
+#: /src/trubbel/settings/appearance/declutter.js:466
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.stream.sponsored_gradient"
+msgstr "Ocultar degradado del reproductor patrocinado"
+
+#: /src/trubbel/settings/channel/chat.js:512
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.shared_chat.hide-message"
+msgstr "Ocultar mensajes compartidos"
