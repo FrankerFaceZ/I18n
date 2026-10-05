@@ -1183,6 +1183,7 @@ msgctxt ""
 "/\n"
 "/\n"
 "/\n"
+"/\n"
 "FFZ Control Center"
 msgid "setting.appearance"
 msgstr "Appearance"
@@ -1255,8 +1256,10 @@ msgstr "Side Navigation"
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:320
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:359
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:368
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:378
-#: /src/sites/twitch-twilight/modules/menu_button.jsx:37
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:377
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:386
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:395
+#: /src/sites/twitch-twilight/modules/css_tweaks/
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.appearance.layout.top_navigation"
@@ -1299,7 +1302,7 @@ msgstr "Supported Languages"
 msgid "setting.appearance.localization.general.language.twitch"
 msgstr "Use Twitch's Language"
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:438
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:465
 #: /src/sites/twitch-twilight/modules/theme/index.js:106
 #: /src/sites/twitch-twilight/modules/theme/index.js:132
 #: /src/sites/twitch-twilight/modules/theme/index.js:145
@@ -1340,7 +1343,7 @@ msgstr ""
 "heavy changes here, including separate Basic and Advanced modes, and better "
 "color selection."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:438
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:465
 #: /src/sites/twitch-twilight/modules/theme/index.js:106
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1555,11 +1558,11 @@ msgid "setting.channel"
 msgstr "Channel"
 
 #: /src/sites/twitch-twilight/modules/channel.jsx:81
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:427
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:450
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:460
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:474
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:484
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:454
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:477
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:487
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:501
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:511
 #: /src/sites/twitch-twilight/modules/player.jsx:150
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1567,11 +1570,11 @@ msgid "setting.channel.appearance"
 msgstr "Appearance"
 
 #: /src/sites/twitch-twilight/modules/channel.jsx:81
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:427
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:450
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:460
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:474
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:484
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:454
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:477
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:487
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:501
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:511
 #: /src/sites/twitch-twilight/modules/player.jsx:150
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1824,6 +1827,7 @@ msgctxt ""
 "/src\n"
 "/src\n"
 "/src\n"
+"/src\n"
 "FFZ Control Center"
 msgid "setting.chat.appearance"
 msgstr "Appearance"
@@ -2055,7 +2059,7 @@ msgstr "Scrolling"
 #: /src/modules/chat/index.js:1222
 #: /src/sites/twitch-twilight/modules/chat/index.js:810
 #: /src/sites/twitch-twilight/modules/chat/index.js:828
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:413
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:440
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.bits_and_cheering"
@@ -2064,7 +2068,7 @@ msgstr "Bits and Cheering"
 #: /src/modules/chat/index.js:1160
 #: /src/modules/chat/index.js:1222
 #: /src/sites/twitch-twilight/modules/chat/index.js:828
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:413
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:440
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.bits_and_cheering.appearance"
@@ -2504,13 +2508,13 @@ msgstr "Syntax Help"
 
 #: /src/sites/twitch-twilight/modules/chat/index.js:857
 #: /src/sites/twitch-twilight/modules/chat/input.jsx:76
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:403
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:430
 #, icu-message-format
 msgid "setting.chat.hype_chat"
 msgstr "Hype Chat"
 
 #: /src/sites/twitch-twilight/modules/chat/index.js:857
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:403
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:430
 #, icu-message-format
 msgid "setting.chat.hype_chat.appearance"
 msgstr "Appearance"
@@ -2672,13 +2676,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.viewer_cards.behavior"
 msgstr "Behavior"
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:390
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:417
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.whispers"
 msgstr "Whispers"
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:390
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:417
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.whispers.general"
@@ -3407,17 +3411,17 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.extra-links"
 msgstr "Add extra links to live channel pages, next to the streamer's name."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:484
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:511
 #, icu-message-format
 msgid "setting.entry.channel.gift-sub-buttons.hide"
 msgstr "Hide the sub gifting buttons in the channel header and channel goals."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:484
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:511
 #, icu-message-format, md-text
 msgid "setting.entry.channel.gift-sub-buttons.hide.description"
 msgstr "Note: This will not hide sub gifting buttons in chat."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:460
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:487
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-live-indicator"
@@ -3435,7 +3439,7 @@ msgstr ""
 "Hide the bar which appears beneath clips and videos when the streamer is "
 "live, telling you they are live."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:450
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:477
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.hide-unfollow"
@@ -3462,19 +3466,19 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.raids.no-autojoin"
 msgstr "Do not automatically join raids."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:474
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:501
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.round-avatars"
 msgstr "Allow avatar images to be rounded."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:427
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:454
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations"
 msgstr "Allow Celebrations to appear."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:427
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:454
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.channel.show-celebrations.description"
@@ -3852,7 +3856,7 @@ msgstr ""
 "cheers will display a message above them, similar to how resubscription "
 "messages or point redemptions with messages function."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:413
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:440
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show"
@@ -3898,7 +3902,7 @@ msgstr ""
 "By default, this inherits its value from Display Bits. This setting only "
 "affects newly arrived messages."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:413
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:440
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show.description"
@@ -4813,7 +4817,10 @@ msgid "setting.entry.chat.gifs.enabled.description"
 msgstr ""
 "Twitch subscribers (Tier 2 and 3) can post [animated "
 "GIFs](https://help.twitch.tv/s/article/gif-keyboard). When this is "
-"disabled, those messages are shown as a link instead."
+"disabled, those messages are shown as a link instead.\n"
+"\n"
+"**Note:** This doesn't work when \"**Display all emotes on one tab**\" is "
+"enabled."
 
 #: /src/modules/chat/index.js:1241
 #, icu-message-format
@@ -4872,7 +4879,7 @@ msgstr "Standard Twitch (Large, Colored, Limited FFZ Support)"
 msgid "setting.entry.chat.hype.message-style.values.2"
 msgstr "Minimal (Marked with System Message, No Colors)"
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:403
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:430
 #, icu-message-format
 msgid "setting.entry.chat.hype.show-pinned"
 msgstr "Allow Hype Chat messages to appear pinned at the top of chat."
@@ -6251,7 +6258,7 @@ msgstr ""
 "By default, this inherits its value from [Chat > Bits and Cheering > "
 "Display Bits](~chat.bits_and_cheering)"
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:378
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:405
 #, icu-message-format
 msgid "setting.entry.layout.hide-discover-luna"
 msgstr "Hide the \"Discover Luna\" link."
@@ -6267,6 +6274,11 @@ msgstr "Minimize Navigation"
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.minimal-navigation.description"
 msgstr "Slide the site navigation bar up out of view when it isn't in use."
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:368
+#, icu-message-format
+msgid "setting.entry.layout.notifications-btn"
+msgstr "Show Notifications button"
 
 #: /src/sites/twitch-twilight/modules/layout.js:62
 #, icu-message-format
@@ -6315,11 +6327,16 @@ msgstr ""
 "In Portrait Mode, chat will be displayed beneath the player when the window "
 "is taller than it is wide."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:368
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:395
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.prime-offers"
 msgstr "Show Prime Gaming Loot."
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:377
+#, icu-message-format
+msgid "setting.entry.layout.shouts-btn"
+msgstr "Show Streamer Shouts button"
 
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:250
 #, icu-message-format
@@ -6456,13 +6473,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theatre-navigation"
 msgstr "Show the minimized navigation bar when in theatre mode."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:438
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:465
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theme.global-font"
 msgstr "Font Family"
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:438
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:465
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.layout.theme.global-font.description"
@@ -6477,6 +6494,11 @@ msgstr ""
 #, icu-message-format
 msgid "setting.entry.layout.turbo-cta"
 msgstr "Allow the Twitch Turbo button to appear."
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:386
+#, icu-message-format
+msgid "setting.entry.layout.whispers-btn"
+msgstr "Show Whispers button"
 
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -7603,7 +7625,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.tooltip.rich-links"
 msgstr "Display rich tooltips for links."
 
-#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:390
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:417
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.whispers.show"
