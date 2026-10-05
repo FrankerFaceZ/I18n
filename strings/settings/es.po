@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-05 14:39+0000\n"
+"PO-Revision-Date: 2026-10-05 22:13+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -7596,12 +7596,15 @@ msgid "setting.entry.chat.gifs.enabled"
 msgstr "Mostrar GIFs en el chat."
 
 #: /src/modules/chat/index.js:1231
-#, fuzzy, icu-message-format, md-text
+#, icu-message-format, md-text
 msgid "setting.entry.chat.gifs.enabled.description"
 msgstr ""
 "Los suscriptores de Twitch (Nivel 2 y 3) pueden enviar [GIFs animados]"
 "(https://help.twitch.tv/s/article/gif-keyboard). Cuando esto está "
-"deshabilitado, esos mensajes se muestran como un enlace en su lugar."
+"deshabilitado, esos mensajes se muestran como un enlace en su lugar.\n"
+"\n"
+"**Nota:** Esto no funciona cuando está activada la opción \"**Mostrar todos "
+"los emoticonos en una pestaña**\"."
 
 #: /src/modules/chat/index.js:1241
 #, icu-message-format
@@ -8903,3 +8906,74 @@ msgstr ""
 "detalles, activa la opción de depuración que aparece más abajo en "
 "Comportamiento, ten en cuenta que esa opción tiene un pequeño impacto en el "
 "rendimiento en comparación con esta."
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:377
+#, icu-message-format
+msgid "setting.entry.layout.shouts-btn"
+msgstr "Mostrar el botón de menciones del streamer"
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:368
+#, icu-message-format
+msgid "setting.entry.layout.notifications-btn"
+msgstr "Mostrar el botón de notificaciones"
+
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:386
+#, icu-message-format
+msgid "setting.entry.layout.whispers-btn"
+msgstr "Mostrar el botón de susurros"
+
+#: /src/modules/chat/emoji.js:121
+#: /src/modules/chat/emotes.js:491
+#: /src/modules/chat/emotes.js:508
+#: /src/modules/chat/emotes.js:528
+#: /src/modules/chat/emotes.js:538
+#: /src/modules/chat/emotes.js:548
+#: /src/modules/chat/index.js:1100
+#: /src/modules/chat/index.js:1131
+#: /src/modules/chat/index.js:1143
+#: /src/modules/chat/index.js:1176
+#: /src/modules/chat/index.js:1231
+#: /src/modules/chat/index.js:1241
+#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:167
+#: /src/modules/chat/index.js:179
+#: /src/modules/chat/index.js:191
+#, icu-message-format
+msgctxt ""
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"FFZ Control Center"
+msgid "setting.chat.appearance"
+msgstr "Apariencia"
+
+#: /src/i18n.js:143
+#: /src/i18n.js:176
+#: /src/i18n.js:206
+#: /src/i18n.js:236
+#: /src/modules/main_menu/index.js:218
+#: /src/sites/twitch-twilight/modules/bits_button.js:19
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:146
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:155
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:184
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:194
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:204
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:222
+#, icu-message-format
+msgctxt ""
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Apariencia"
