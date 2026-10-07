@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-10-03 03:30+0000\n"
+"PO-Revision-Date: 2026-10-07 23:23+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -3040,3 +3040,22 @@ msgstr "Ocultar degradado del reproductor patrocinado"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.shared_chat.hide-message"
 msgstr "Ocultar mensajes compartidos"
+
+#: /src/trubbel/settings/appearance/declutter.js:18
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.appearance.declutter.amazon.ads.description"
+msgstr ""
+"Oculta la mayoría de los elementos relacionados con las compras.\n"
+"\n"
+"**Notas:**\n"
+"\n"
+"· Para ocultar la tarjeta de evento de compras en el directorio, usa "
+"**Ocultar tarjetas de eventos promocionados**.\n"
+"\n"
+"· Usa las opciones **Ocultar contenido patrocinado …** para ocultar "
+"contenido adicional."
+
+#: /src/trubbel/settings/appearance/declutter.js:18
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.amazon.ads"
+msgstr "Ocultar anuncios de compras"
