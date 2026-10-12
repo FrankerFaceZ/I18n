@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-10-10 23:25+0000\n"
+"PO-Revision-Date: 2026-10-12 02:02+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -1683,7 +1683,7 @@ msgstr ""
 #: /src/trubbel/settings/channel/chat.js:177
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.both"
-msgstr "Ambos (Tiempo en vivo y Latencia)"
+msgstr "Ambos (tiempo en vivo y latencia)"
 
 #: /src/trubbel/settings/channel/chat.js:175
 #, icu-message-format
@@ -3117,3 +3117,67 @@ msgid ""
 msgstr ""
 "Muestra los participantes de la Watch Party en co-streaming cuando estén "
 "disponibles."
+
+#: /src/trubbel/settings/twilight/sidebar.js:121
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.show_uptime.description"
+msgstr "Dónde mostrar el tiempo en vivo del stream en la vista previa."
+
+#: /src/trubbel/settings/twilight/sidebar.js:134
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.show_uptime.values."
+"bottom-left"
+msgstr "Abajo a la izquierda"
+
+#: /src/trubbel/settings/twilight/sidebar.js:133
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.show_uptime.values."
+"bottom-right"
+msgstr "Abajo a la derecha"
+
+#: /src/trubbel/settings/twilight/sidebar.js:130
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.show_uptime.values."
+"disabled"
+msgstr "Desactivado"
+
+#: /src/trubbel/settings/twilight/sidebar.js:131
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.show_uptime.values.top-"
+"left"
+msgstr "Arriba a la izquierda"
+
+#: /src/trubbel/settings/twilight/sidebar.js:132
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.twilight.sidebar.preview.show_uptime.values.top-"
+"right"
+msgstr "Arriba a la derecha"
+
+#: /src/trubbel/settings/twilight/sidebar.js:37
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.type"
+msgstr "Tipo de vista previa"
+
+#: /src/trubbel/settings/twilight/sidebar.js:37
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.type.description"
+msgstr ""
+"**Video** muestra un reproductor en vivo.\n"
+"\n"
+"**Imagen** muestra una miniatura del stream, es más ligera y no incluye "
+"sonido ni advertencias de contenido."
+
+#: /src/trubbel/settings/twilight/sidebar.js:46
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.type.values.video"
+msgstr "Video (reproductor en vivo)"
+
+#: /src/trubbel/settings/twilight/sidebar.js:47
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.twilight.sidebar.preview.type.values.image"
+msgstr "Imagen (miniatura)"
