@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-19 21:32+0000\n"
-"Last-Translator: Gabriel Lebis <gableb@hotmail.fr>\n"
+"PO-Revision-Date: 2026-10-12 18:14+0000\n"
+"Last-Translator: Sam - Scranox <scranox@pm.me>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "addon.author"
 msgstr "Par : {author}"
@@ -4418,3 +4418,15 @@ msgstr "Émoji"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering"
 msgstr "Filtrage"
+
+#: /src/modules/main_menu/components/addon.vue:156
+#, icu-message-format
+msgid "addon.changelog"
+msgstr "Journal des Modifications"
+
+#: /src/modules/main_menu/components/addon-list.vue:86
+#, icu-message-format
+msgid "addon.displaying"
+msgstr ""
+"Affichage de {visible, number} sur {total, plural, one {# add-on} other {# "
+"add-ons} }."
