@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 22:11+0000\n"
-"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"PO-Revision-Date: 2026-10-16 01:11+0000\n"
+"Last-Translator: Sam - Scranox <scranox@pm.me>\n"
 "Language-Team: French <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fr/>\n"
 "Language: fr\n"
@@ -14,25 +14,22 @@ msgid "async-text.upload"
 msgstr "Mettre en ligne"
 
 msgid "autocomplete.empty"
-msgstr "Il n'y a aucun résultat"
+msgstr "Aucun résultat."
 
-#, fuzzy
 msgid "badges.founder.months"
 msgstr ""
 "{title}\n"
-"(Abonné·e depuis {count,number} mois)"
+"(Abonné·e depuis {count} mois)"
 
-#, fuzzy
 msgid "badges.subscriber.months"
 msgstr ""
 "{title}\n"
-"({count,number} Mois)"
+"({count} mois)"
 
-#, fuzzy
 msgid "badges.subscriber.tier-months"
 msgstr ""
 "{title}\n"
-"(Niveau {tier}, {months,number} Mois)"
+"(Niveau {tier}, {months,number} mois)"
 
 msgid "card.empty"
 msgstr "Aucune donnée n'a été retournée."
@@ -44,7 +41,7 @@ msgid "card.loading"
 msgstr "Chargement..."
 
 msgid "cards.user.stats"
-msgstr "Vues: {views,number} • Followers: {followers,number}"
+msgstr "Vues : {views,number} • Followers : {followers,number}"
 
 msgid "channel.links.clips"
 msgstr "Clips"
@@ -56,10 +53,10 @@ msgid "channel.links.videos"
 msgstr "Vidéos"
 
 msgid "chat.actions.ban"
-msgstr "Bannir utilisateur·ice"
+msgstr "Bannir l'utilisateur·ice"
 
 msgid "chat.actions.ban-reason"
-msgstr "Bannir {user.login} pour:"
+msgstr "Bannir {user.login} pour :"
 
 msgid "chat.actions.ban.tooltip"
 msgstr "Bannir {user.login}"
@@ -71,15 +68,15 @@ msgid "chat.actions.chat.desc"
 msgstr "{options.command}"
 
 msgid "chat.actions.delete.tooltip"
-msgstr "Effacer le message de {user.login}"
+msgstr "Supprimer le message de {user.login}"
 
 msgid "chat.actions.edit_overrides"
-msgstr "Changer le nom & couleur"
+msgstr "Changer le nom & la couleur"
 
 msgid "chat.actions.edit_overrides.desc"
 msgstr ""
-"Vous permet de surpasser le nom et couleur d'un utilisateur localement dans "
-"le chat."
+"Vous permet de changer localement le nom et la couleur d'un·e "
+"utilisateur·ice dans le chat."
 
 msgid "chat.actions.msg_delete"
 msgstr "Supprimer le message"
@@ -144,8 +141,9 @@ msgstr "Chuchoter {user.login}"
 msgid "chat.deleted-messages"
 msgstr ""
 "{count,plural,\n"
-"one {Un message a été effacé par un·e mod.}\n"
-"other {# messages ont été effacés par un·e mod.}\n"
+"=0 {Aucun message n'a été supprimé par un·e modérateur·ice.}\n"
+"one {Un message a été supprimé par un·e modérateur·ice.}\n"
+"other {# messages ont été supprimés par un·e modérateur·ice.}\n"
 "}"
 
 msgid "chat.ffz-badge.about"
@@ -1034,7 +1032,7 @@ msgstr ""
 #: /src/sites/twitch-twilight/modules/chat/line.js:855
 #, icu-message-format, lp-defaults:"{\"count\":100}"
 msgid "chat.bits-message"
-msgstr ""
+msgstr "A envoyé {count, plural, one {# Bit} other {# Bits}}"
 
 #: /src/modules/main_menu/components/link-tester.vue:1
 #, icu-message-format
@@ -1146,3 +1144,165 @@ msgstr ""
 #, icu-message-format
 msgid "chat.watch-streak.header"
 msgstr "{icon}Série de visionnage atteinte {points_icon}+{copo}"
+
+#: /src/addons.ts:527
+#, icu-message-format
+msgid "addons.reload.toast"
+msgstr "Extension redémarrée"
+
+#: /src/addons.ts:485
+#: /src/addons.ts:512
+#, icu-message-format
+msgid "addons.reload.toast-error"
+msgstr "Erreur dans le redémarrage de l'extension"
+
+#: /src/addons.ts:512
+#, icu-message-format
+msgid "addons.reload.toast-error.reload"
+msgstr ""
+"Impossible de charger le nouveau module pour l'extension \"{addon_id}\" :\n"
+"\n"
+"{error}"
+
+#: /src/addons.ts:485
+#, icu-message-format
+msgid "addons.reload.toast-error.unload"
+msgstr ""
+"Impossible de décharger les modules existants pour l'extension \"{addon_id}"
+"\" :\n"
+"\n"
+"{error}"
+
+#: /src/addons.ts:527
+#, icu-message-format
+msgid "addons.reload.toast.text"
+msgstr "Extension \"{addon_id}\" redémarrée avec succès en {duration}ms."
+
+#: /src/modules/main_menu/components/async-text.vue:12
+#, icu-message-format
+msgid "async-text.uploading"
+msgstr "Mise en ligne..."
+
+#: /src/modules/chat/link_providers.js:317
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgctxt "/lib/resolvers/twitch.js:347"
+msgid "cards.user.streaming"
+msgstr "streame {game}"
+
+#: /src/sites/twitch-twilight/modules/chat/scroller.js:663
+#, icu-message-format
+msgid "chat.acting"
+msgstr "Prendre des mesures"
+
+#: /src/modules/chat/actions/types.jsx:303
+#, icu-message-format
+msgid "chat.actions.chat.desc.current"
+msgstr "chaîne actuelle"
+
+#: /src/modules/chat/actions/types.jsx:296
+#, icu-message-format
+msgid "chat.actions.chat.desc.paste"
+msgstr "Coller dans le chat : {cmd}"
+
+#: /src/modules/chat/actions/types.jsx:300
+#, icu-message-format
+msgid "chat.actions.chat.desc.target"
+msgstr "Envoyer chez {target} : {cmd}"
+
+#: /src/modules/chat/actions/types.jsx:322
+#, icu-message-format
+msgid "chat.actions.chat.with-target"
+msgstr "Commande de chat sur la chaîne : {target}"
+
+#: /src/modules/chat/actions/types.jsx:182
+#: /src/modules/chat/actions/types.jsx:208
+#, icu-message-format
+msgid "chat.actions.copy_message"
+msgstr "Copier le message"
+
+#: /src/modules/chat/actions/types.jsx:182
+#, icu-message-format
+msgid "chat.actions.copy_message.desc"
+msgstr "Vous permet de copier rapidement un message vers votre presse-papier."
+
+#: /src/modules/chat/actions/types.jsx:582
+#, icu-message-format
+msgid "chat.actions.mod"
+msgstr "Accorder les droits de modération à l'utilisateur·ice"
+
+#: /src/modules/chat/badges.jsx:1356
+#, icu-message-format
+msgid "badges.subwoofer.months"
+msgstr "({count} mois)"
+
+#: /src/modules/chat/actions/types.jsx:595
+#, icu-message-format
+msgid "chat.actions.mod.tooltip"
+msgstr "Accorder les droits de modération à {user.login}"
+
+#: /src/modules/chat/actions/types.jsx:11
+#: /src/modules/chat/actions/types.jsx:31
+#, icu-message-format
+msgid "chat.actions.pin"
+msgstr "Épingler ce message"
+
+#: /src/modules/chat/actions/types.jsx:29
+#, icu-message-format
+msgid "chat.actions.pin.already"
+msgstr "Ce message est déjà épinglé."
+
+#: /src/modules/chat/actions/types.jsx:11
+#, icu-message-format
+msgid "chat.actions.pin.desc"
+msgstr "Vous permet d'épingler un message si vous êtes modérateur·ice."
+
+#: /src/modules/chat/actions/types.jsx:703
+#, icu-message-format
+msgid "chat.actions.toggle_profile"
+msgstr "Activer/Désactiver les profils de paramétrage"
+
+#: /src/modules/chat/actions/types.jsx:753
+#, icu-message-format
+msgid "chat.actions.toggle_profile.tooltip"
+msgstr "Activer/Désactiver le profil : {name}"
+
+#: /src/modules/chat/actions/types.jsx:617
+#, icu-message-format
+msgid "chat.actions.unmod"
+msgstr "Retirer les droits de modération à l'utilisateur·ice"
+
+#: /src/modules/chat/actions/types.jsx:630
+#, icu-message-format
+msgid "chat.actions.unmod.tooltip"
+msgstr "Retirer les droits de modération à {user.login}"
+
+#: /src/modules/chat/actions/types.jsx:383
+#, icu-message-format
+msgid "chat.actions.warn"
+msgstr "Avertir l'utilisateur·ice"
+
+#: /src/modules/chat/actions/types.jsx:403
+#, icu-message-format
+msgid "chat.actions.warn.tooltip"
+msgstr "Avertir {user.login}"
+
+#: /src/modules/chat/index.js:1586
+#, icu-message-format
+msgid "chat.command.reload"
+msgstr ""
+"Relance FFZ et les données additionnelles du chat (emotes, badges, etc.)"
+
+#: /src/modules/chat/index.js:1610
+#, icu-message-format
+msgid "chat.command.reload.done"
+msgstr "FFZ a fini de rafraîchir les données (Sources : {list})"
+
+#: /src/modules/chat/index.js:1600
+#, icu-message-format
+msgid "chat.command.reload.starting"
+msgstr "FFZ est en train de rafraîchir les données..."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:2965
+#, icu-message-format
+msgid "chat.ffz-command.invalid"
+msgstr "Commande non reconnue : /ffz:{subcmd}"
