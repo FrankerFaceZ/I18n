@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-10-22 02:53+0000\n"
+"PO-Revision-Date: 2026-10-22 03:19+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -3312,3 +3312,28 @@ msgstr "Resaltar los mensajes cuando se abre la tarjeta de espectador"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.highlight-color"
 msgstr "Color de resaltado"
+
+#: /src/trubbel/settings/channel/chat.js:1015
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs"
+msgstr "Pestañas de moderación"
+
+#: /src/trubbel/settings/channel/chat.js:1015
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs.description"
+msgstr ""
+"Elige qué pestañas se muestran en las tarjetas de espectador personalizadas. "
+"Arrastra para cambiar el orden."
+
+#: /src/trubbel/settings/channel/chat.js:1032
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.notes.description"
+msgstr ""
+"Notas privadas que hayas escrito sobre los usuarios desde sus tarjetas de "
+"espectador personalizadas. Las notas se almacenan localmente y se incluyen "
+"en las copias de seguridad de la configuración de FFZ."
+
+#: /src/trubbel/settings/channel/chat.js:957
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-badges"
+msgstr "Mostrar emblemas de usuario"
