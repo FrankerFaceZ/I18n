@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-10-22 15:55+0000\n"
+"PO-Revision-Date: 2026-10-22 16:10+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -1896,7 +1896,7 @@ msgid ""
 "setting.entry.addon.trubbel.channel.chat.moderation.context.priority."
 "description"
 msgstr ""
-"Prioridad del resaltado de mensajes. Consulta [Chat > Filtrado > Resaltado]"
+"Prioridad del resaltado de mensajes. Consulta [Chat > Filtrado > Resaltar]"
 "(~chat.filtering.highlight) para más detalles."
 
 #: /src/trubbel/settings/channel/chat.js:390
@@ -3460,3 +3460,110 @@ msgstr ""
 "Muestra una versión ampliada del avatar al pasar el cursor sobre el avatar "
 "del usuario o sobre el avatar del canal \"Chateando desde\" en la tarjeta de "
 "espectador personalizada."
+
+#: /src/trubbel/settings/channel/chat.js:1011
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.more-options"
+msgstr "Menú de más opciones"
+
+#: /src/trubbel/settings/channel/chat.js:1011
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.viewer-cards.more-options."
+"description"
+msgstr ""
+"Elige qué acciones se muestran en el menú de \"Más opciones\" de la tarjeta "
+"de espectador personalizada. Arrastra para cambiar su orden."
+
+#: /src/trubbel/settings/appearance/declutter.js:335
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.play_luna"
+msgstr "Ocultar Jugar en Luna"
+
+#: /src/trubbel/settings/twilight/custom-style.js:48
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.css.custom"
+msgstr "Personalizado"
+
+#: /src/trubbel/settings/twilight/custom-style.js:48
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.css"
+msgstr "CSS"
+
+#: /src/trubbel/settings/twilight/ai-consent.js:48
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.overall.ai.warning"
+msgstr "Advertencia"
+
+#: /src/trubbel/settings/channel/chat.js:902
+#: /src/trubbel/settings/channel/chat.js:914
+#: /src/trubbel/settings/channel/chat.js:926
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.highlighting"
+msgstr "Resaltado"
+
+#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1029
+#: /src/trubbel/settings/channel/chat.js:1075
+#: /src/trubbel/settings/channel/chat.js:1092
+#: /src/trubbel/settings/channel/chat.js:838
+#: /src/trubbel/settings/channel/chat.js:854
+#: /src/trubbel/settings/channel/chat.js:870
+#: /src/trubbel/settings/channel/chat.js:886
+#: /src/trubbel/settings/channel/chat.js:902
+#: /src/trubbel/settings/channel/chat.js:914
+#: /src/trubbel/settings/channel/chat.js:926
+#: /src/trubbel/settings/channel/chat.js:939
+#, icu-message-format
+msgctxt "/src"
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards"
+msgstr "Tarjetas de espectador"
+
+#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1029
+#: /src/trubbel/settings/channel/chat.js:1075
+#: /src/trubbel/settings/channel/chat.js:1092
+#: /src/trubbel/settings/channel/chat.js:118
+#: /src/trubbel/settings/channel/chat.js:131
+#: /src/trubbel/settings/channel/chat.js:146
+#: /src/trubbel/settings/channel/chat.js:169
+#: /src/trubbel/settings/channel/chat.js:191
+#: /src/trubbel/settings/channel/chat.js:208
+#: /src/trubbel/settings/channel/chat.js:223
+#: /src/trubbel/settings/channel/chat.js:244
+#, icu-message-format
+msgctxt "/src"
+msgid "setting.add_ons.trubbel_s_utilities.channel.chat"
+msgstr "Chat"
+
+#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1029
+#: /src/trubbel/settings/channel/chat.js:1075
+#: /src/trubbel/settings/channel/chat.js:1092
+#: /src/trubbel/settings/channel/chat.js:118
+#: /src/trubbel/settings/channel/chat.js:131
+#: /src/trubbel/settings/channel/chat.js:146
+#: /src/trubbel/settings/channel/chat.js:169
+#: /src/trubbel/settings/channel/chat.js:191
+#: /src/trubbel/settings/channel/chat.js:208
+#: /src/trubbel/settings/channel/chat.js:223
+#: /src/trubbel/settings/channel/chat.js:244
+#, icu-message-format
+msgctxt "/src"
+msgid "setting.add_ons.trubbel_s_utilities.channel"
+msgstr "Canal"
+
+#: /src/trubbel/settings/appearance/declutter.js:149
+#: /src/trubbel/settings/appearance/declutter.js:164
+#: /src/trubbel/settings/appearance/declutter.js:176
+#: /src/trubbel/settings/appearance/declutter.js:188
+#: /src/trubbel/settings/appearance/declutter.js:202
+#: /src/trubbel/settings/appearance/declutter.js:214
+#: /src/trubbel/settings/appearance/declutter.js:226
+#: /src/trubbel/settings/appearance/declutter.js:238
+#: /src/trubbel/settings/appearance/declutter.js:250
+#: /src/trubbel/settings/appearance/declutter.js:262
+#: /src/trubbel
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.sidebar"
+msgstr "Barra lateral"
