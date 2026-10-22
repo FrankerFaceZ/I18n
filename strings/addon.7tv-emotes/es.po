@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-22 17:39+0000\n"
+"PO-Revision-Date: 2026-10-22 17:59+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addon7tv-emotes/es/>\n"
@@ -174,3 +174,20 @@ msgstr ""
 "Muestra los degradados e imágenes del nombre de usuario de 7TV en los "
 "usuarios que los tengan configurados. [(Beneficio para suscriptores de 7TV)]"
 "(https://7tv.app/store)"
+
+#: /src/7tv-emotes/modules/nametag-paints.js:11
+#, icu-message-format
+msgid "setting.entry.addon.seventv_emotes.nametag_paints"
+msgstr "Pinturas de nombre"
+
+#: /src/7tv-emotes/modules/nametag-paints.js:21
+#, icu-message-format
+msgid "setting.entry.addon.seventv_emotes.nametag_paints_drop_shadows"
+msgstr "Sombras en las pinturas de nombre"
+
+#: /src/7tv-emotes/modules/nametag-paints.js:21
+#, icu-message-format, md-text
+msgid "setting.entry.addon.seventv_emotes.nametag_paints_drop_shadows.description"
+msgstr ""
+"Indica si se muestran las sombras en las pinturas de nombre **(Nota: "
+"Demasiadas sombras en pantalla pueden afectar al rendimiento)**"
