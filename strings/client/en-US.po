@@ -1115,7 +1115,7 @@ msgstr "Travel & Places"
 msgid "emoji.category.travel_places"
 msgstr "Travel & Places"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2185
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2308
 #, icu-message-format
 msgid "emote_menu.prime"
 msgstr "Prime"
@@ -1328,86 +1328,86 @@ msgstr "View on {source}"
 msgid "emote-card.view-on-ffz"
 msgstr "View on FrankerFaceZ"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3120
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3247
 #, icu-message-format
 msgid "emote-menu.channel"
 msgstr "Channel"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1309
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1408
 #, icu-message-format
 msgid "emote-menu.disable"
 msgstr ""
 "As a temporary workaround, try disabling the FFZ Emote Menu in the FFZ "
 "Control Center."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3134
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3261
 #, icu-message-format
 msgid "emote-menu.effects"
 msgstr "Emote Effects"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1925
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3163
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2048
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3290
 #, icu-message-format
 msgid "emote-menu.emoji"
 msgstr "Emoji"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1077
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1176
 #, icu-message-format, lp-defaults:"{\"bits_remaining\":1000}"
 msgid "emote-menu.emote-cheer"
 msgstr ""
 "Cheer an additional {bits_remaining, plural, one {# bit} other {# bits}} to "
 "unlock this emote."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1079
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1178
 #, icu-message-format, lp-defaults:"{\"user\":\"itmeJP\"}"
 msgid "emote-menu.emote-follower"
 msgstr "Follow {user} to unlock this emote in their channel."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1081
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1180
 #, icu-message-format
 msgid "emote-menu.emote-sub"
 msgstr "Subscribe for {price} to unlock this emote."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1075
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1174
 #, icu-message-format
 msgid "emote-menu.emote-subwoofer"
 msgstr "Become an FFZ Subwoofer to unlock this emote."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1083
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1182
 #, icu-message-format
 msgid "emote-menu.emote-up"
 msgstr "Upgrade your sub to {price} to unlock this emote."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2893
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3016
 #, icu-message-format
 msgid "emote-menu.empty"
 msgstr "There's nothing here."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2892
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3015
 #, icu-message-format, lp-defaults:"{\"hotkey\":\"Ctrl\"}"
 msgid "emote-menu.empty-favs"
 msgstr ""
 "You don't have any favorite emotes. To favorite an emote, find it and "
 "{hotkey}-Click it."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2890
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3013
 #, icu-message-format
 msgid "emote-menu.empty-search"
 msgstr "There are no matching emotes."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1302
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2871
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1401
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2994
 #, icu-message-format
 msgid "emote-menu.error"
 msgstr "There was an error rendering this menu."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1305
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1404
 #, icu-message-format
 msgid "emote-menu.error-report"
 msgstr "An error report has been automatically submitted."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1972
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3106
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2095
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3233
 #, icu-message-format
 msgid "emote-menu.favorites"
 msgstr "Favorites"
@@ -1417,49 +1417,59 @@ msgstr "Favorites"
 msgid "emote-menu.featured"
 msgstr "Featured"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1176
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1275
 #, icu-message-format
 msgid "emote-menu.ffz-unlock"
 msgstr "This feature is available to FFZ Subwoofers."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1198
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1297
 #, icu-message-format
 msgid "emote-menu.free-sub"
 msgstr "Use My Free Month"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1183
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1282
 #, icu-message-format
 msgid "emote-menu.free-sub.about"
 msgstr ""
 "As thanks for supporting us in the past, you can get one month of FFZ "
 "Subwoofer for free."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:793
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1659
 #, icu-message-format
 msgid "emote-menu.gif-cooldown"
 msgstr "You can send another GIF in {seconds}s."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:808
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:901
 #, icu-message-format
 msgid "emote-menu.gif-empty"
 msgstr "No GIFs found."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:803
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1661
+#, icu-message-format
+msgid "emote-menu.gif-failed"
+msgstr "That GIF couldn't be sent. Try a different one."
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:896
 #, icu-message-format
 msgid "emote-menu.gif-loading"
 msgstr "Loading..."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:798
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:916
+#, icu-message-format
+msgid "emote-menu.gif-send"
+msgstr "Send"
+
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1663
 #, icu-message-format
 msgid "emote-menu.gif-unavailable"
 msgstr "GIFs are temporarily unavailable."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3177
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3304
 #, icu-message-format
 msgid "emote-menu.gifs"
 msgstr "GIFs"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2174
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2297
 #, icu-message-format
 msgid "emote-menu.global"
 msgstr "Global Emotes"
@@ -1469,28 +1479,28 @@ msgstr "Global Emotes"
 msgid "emote-menu.inventory"
 msgstr "Inventory"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2900
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3023
 #, icu-message-format
 msgid "emote-menu.loading"
 msgstr "Loading..."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2341
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2708
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2464
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2831
 #, icu-message-format
 msgid "emote-menu.main-set"
 msgstr "Channel Emotes"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2197
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2320
 #, icu-message-format
 msgid "emote-menu.misc"
 msgstr "Miscellaneous"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3149
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3276
 #, icu-message-format
 msgid "emote-menu.my-emotes"
 msgstr "My Emotes"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2162
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2285
 #, icu-message-format
 msgid "emote-menu.points"
 msgstr "Unlocked with Points"
@@ -1505,55 +1515,55 @@ msgstr "Prime"
 msgid "emote-menu.refresh"
 msgstr "Refresh Data"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3064
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3191
 #, icu-message-format
 msgid "emote-menu.search"
 msgstr "Search for Emotes"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3063
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3190
 #, icu-message-format
 msgid "emote-menu.search-emoji"
 msgstr "Search for Emoji"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3061
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3188
 #, icu-message-format
 msgid "emote-menu.search-gifs"
 msgstr "Search GIPHY"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3042
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3190
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3168
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3317
 #, icu-message-format
 msgid "emote-menu.settings"
 msgstr "Open Settings"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2707
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2830
 #, icu-message-format
 msgid "emote-menu.source-set"
 msgstr "{channel}'s Emotes"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1179
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1278
 #, icu-message-format
 msgid "emote-menu.sub-basic"
 msgstr "Subscribe to unlock some emotes"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1027
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1126
 #, icu-message-format, lp-defaults:"{\"seconds\":2402847.089}"
 msgid "emote-menu.sub-ends"
 msgstr "This sub ends {seconds,humantime}."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1022
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1121
 #, icu-message-format
 msgid "emote-menu.sub-gift-ends"
 msgstr "This gifted sub ends {seconds,humantime}."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1017
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1116
 #, icu-message-format
 msgid "emote-menu.sub-prime"
 msgstr ""
 "This is your free sub with Prime Gaming.\n"
 "It ends {seconds,humantime}."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1010
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1109
 #, icu-message-format, lp-defaults:"{\"seconds\":388800.09}"
 msgid "emote-menu.sub-renews"
 msgstr "This sub renews {seconds,humantime}."
@@ -1563,14 +1573,14 @@ msgstr "This sub renews {seconds,humantime}."
 msgid "emote-menu.sub-set"
 msgstr "Subscriber Emotes"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1178
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1277
 #, icu-message-format
 msgid "emote-menu.sub-unlock"
 msgstr ""
 "Subscribe for {price} to unlock {count, plural, one {# emote} other {# "
 "emotes}}"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3093
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3220
 #, icu-message-format
 msgid "emote-menu.toggle-hide.info"
 msgstr ""
@@ -1580,39 +1590,39 @@ msgstr ""
 "the emotes in chat if someone uses them, but they won't appear in your "
 "emote menu."
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3090
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3217
 #, icu-message-format
 msgid "emote-menu.toggle-hide.off"
 msgstr "Emote Visibility Control"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3089
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3216
 #, icu-message-format
 msgid "emote-menu.toggle-hide.on"
 msgstr "Exit Emote Visibility Control"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2233
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2342
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2356
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2465
 #, icu-message-format
 msgid "emote-menu.twitch"
 msgstr "Twitch"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1039
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1138
 #, icu-message-format
 msgid "emote-menu.unknown"
 msgstr "Unknown Source"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2204
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2709
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2327
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2832
 #, icu-message-format, lp-defaults:"{\"set_id\":300206295}"
 msgid "emote-menu.unknown-set"
 msgstr "Set #{set_id}"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1050
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1149
 #, icu-message-format
 msgid "emote-menu.visibility.hidden"
 msgstr "Hidden"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1051
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1150
 #, icu-message-format
 msgid "emote-menu.visibility.visible"
 msgstr "Visible"
@@ -1712,7 +1722,7 @@ msgstr "Channel Points Emote"
 msgid "emote.prime"
 msgstr "Prime Gaming"
 
-#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2875
+#: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2998
 #, icu-message-format
 msgid "error.try-again"
 msgstr "Try Again"
