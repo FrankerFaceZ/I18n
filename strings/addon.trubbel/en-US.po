@@ -111,11 +111,11 @@ msgstr "Front Page"
 msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.left_navigation"
 msgstr "Left Navigation"
 
-#: /src/trubbel/settings/appearance/declutter.js:361
-#: /src/trubbel/settings/appearance/declutter.js:373
-#: /src/trubbel/settings/appearance/declutter.js:386
-#: /src/trubbel/settings/appearance/declutter.js:398
-#: /src/trubbel/settings/appearance/declutter.js:410
+#: /src/trubbel/settings/appearance/declutter.js:397
+#: /src/trubbel/settings/appearance/declutter.js:409
+#: /src/trubbel/settings/appearance/declutter.js:422
+#: /src/trubbel/settings/appearance/declutter.js:434
+#: /src/trubbel/settings/appearance/declutter.js:446
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.player"
 msgstr "Player"
@@ -135,24 +135,24 @@ msgstr "Player"
 msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.sidebar"
 msgstr "Sidebar"
 
-#: /src/trubbel/settings/appearance/declutter.js:424
-#: /src/trubbel/settings/appearance/declutter.js:436
-#: /src/trubbel/settings/appearance/declutter.js:448
 #: /src/trubbel/settings/appearance/declutter.js:460
 #: /src/trubbel/settings/appearance/declutter.js:472
 #: /src/trubbel/settings/appearance/declutter.js:484
 #: /src/trubbel/settings/appearance/declutter.js:496
 #: /src/trubbel/settings/appearance/declutter.js:508
+#: /src/trubbel/settings/appearance/declutter.js:520
+#: /src/trubbel/settings/appearance/declutter.js:532
+#: /src/trubbel/settings/appearance/declutter.js:544
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.stream"
 msgstr "Stream"
 
-#: /src/trubbel/settings/appearance/declutter.js:522
+#: /src/trubbel/settings/appearance/declutter.js:558
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.top_navigation"
 msgstr "Top Navigation"
 
-#: /src/trubbel/settings/appearance/declutter.js:537
+#: /src/trubbel/settings/appearance/declutter.js:573
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.appearance.declutter.vods"
 msgstr "VODs"
@@ -246,293 +246,294 @@ msgstr "Unban Requests"
 msgid "setting.add_ons.trubbel_s_utilities.appearance.tweaks.vods"
 msgstr "VODs"
 
-#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1005
+#: /src/trubbel/settings/channel/chat.js:1017
 #: /src/trubbel/settings/channel/chat.js:1029
-#: /src/trubbel/settings/channel/chat.js:1075
-#: /src/trubbel/settings/channel/chat.js:1092
-#: /src/trubbel/settings/channel/chat.js:118
-#: /src/trubbel/settings/channel/chat.js:131
-#: /src/trubbel/settings/channel/chat.js:146
-#: /src/trubbel/settings/channel/chat.js:169
-#: /src/trubbel/settings/channel/chat.js:191
-#: /src/trubbel/settings/channel/chat.js:208
-#: /src/trubbel/settings/channel/chat.js:223
-#: /src/trubbel/settings/channel/chat.js:244
+#: /src/trubbel/settings/channel/chat.js:1047
+#: /src/trubbel/settings/channel/chat.js:1093
+#: /src/trubbel/settings/channel/chat.js:1110
+#: /src/trubbel/settings/channel/chat.js:119
+#: /src/trubbel/settings/channel/chat.js:132
+#: /src/trubbel/settings/channel/chat.js:147
+#: /src/trubbel/settings/channel/chat.js:170
+#: /src/trubbel/settings/channel/chat.js:192
+#: /src/trubbel/settings/channel/chat.js:209
 #, icu-message-format
-msgctxt "/src"
+msgctxt "/s"
 msgid "setting.add_ons.trubbel_s_utilities.channel"
 msgstr "Channel"
 
-#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1005
+#: /src/trubbel/settings/channel/chat.js:1017
 #: /src/trubbel/settings/channel/chat.js:1029
-#: /src/trubbel/settings/channel/chat.js:1075
-#: /src/trubbel/settings/channel/chat.js:1092
-#: /src/trubbel/settings/channel/chat.js:118
-#: /src/trubbel/settings/channel/chat.js:131
-#: /src/trubbel/settings/channel/chat.js:146
-#: /src/trubbel/settings/channel/chat.js:169
-#: /src/trubbel/settings/channel/chat.js:191
-#: /src/trubbel/settings/channel/chat.js:208
-#: /src/trubbel/settings/channel/chat.js:223
-#: /src/trubbel/settings/channel/chat.js:244
+#: /src/trubbel/settings/channel/chat.js:1047
+#: /src/trubbel/settings/channel/chat.js:1093
+#: /src/trubbel/settings/channel/chat.js:1110
+#: /src/trubbel/settings/channel/chat.js:119
+#: /src/trubbel/settings/channel/chat.js:132
+#: /src/trubbel/settings/channel/chat.js:147
+#: /src/trubbel/settings/channel/chat.js:170
+#: /src/trubbel/settings/channel/chat.js:192
+#: /src/trubbel/settings/channel/chat.js:209
 #, icu-message-format
-msgctxt "/src"
+msgctxt "/s"
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat"
 msgstr "Chat"
 
-#: /src/trubbel/settings/channel/chat.js:118
-#: /src/trubbel/settings/channel/chat.js:131
+#: /src/trubbel/settings/channel/chat.js:119
+#: /src/trubbel/settings/channel/chat.js:132
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.accessibility"
 msgstr "Accessibility"
 
-#: /src/trubbel/settings/channel/chat.js:118
-#: /src/trubbel/settings/channel/chat.js:131
+#: /src/trubbel/settings/channel/chat.js:119
+#: /src/trubbel/settings/channel/chat.js:132
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.accessibility.emotes"
 msgstr "Emotes"
 
-#: /src/trubbel/settings/channel/chat.js:146
-#: /src/trubbel/settings/channel/chat.js:169
+#: /src/trubbel/settings/channel/chat.js:147
+#: /src/trubbel/settings/channel/chat.js:170
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.commands"
 msgstr "Commands"
 
-#: /src/trubbel/settings/channel/chat.js:146
-#: /src/trubbel/settings/channel/chat.js:169
+#: /src/trubbel/settings/channel/chat.js:147
+#: /src/trubbel/settings/channel/chat.js:170
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.commands.custom"
 msgstr "Custom"
 
-#: /src/trubbel/settings/channel/chat.js:223
-#: /src/trubbel/settings/channel/chat.js:448
+#: /src/trubbel/settings/channel/chat.js:224
+#: /src/trubbel/settings/channel/chat.js:449
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.header"
 msgstr "Header"
 
-#: /src/trubbel/settings/channel/chat.js:223
+#: /src/trubbel/settings/channel/chat.js:224
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.header.info"
 msgstr "Info"
 
-#: /src/trubbel/settings/channel/chat.js:448
+#: /src/trubbel/settings/channel/chat.js:449
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.header.popout"
 msgstr "Popout"
 
-#: /src/trubbel/settings/channel/chat.js:191
-#: /src/trubbel/settings/channel/chat.js:208
-#: /src/trubbel/settings/channel/chat.js:244
-#: /src/trubbel/settings/channel/chat.js:262
+#: /src/trubbel/settings/channel/chat.js:192
+#: /src/trubbel/settings/channel/chat.js:209
+#: /src/trubbel/settings/channel/chat.js:245
+#: /src/trubbel/settings/channel/chat.js:263
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.input"
 msgstr "Input"
 
-#: /src/trubbel/settings/channel/chat.js:244
-#: /src/trubbel/settings/channel/chat.js:262
+#: /src/trubbel/settings/channel/chat.js:245
+#: /src/trubbel/settings/channel/chat.js:263
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.input.counter"
 msgstr "Counter"
 
-#: /src/trubbel/settings/channel/chat.js:191
+#: /src/trubbel/settings/channel/chat.js:192
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.input.first_time_chatter"
 msgstr "FirstTimeChatter"
 
-#: /src/trubbel/settings/channel/chat.js:208
+#: /src/trubbel/settings/channel/chat.js:209
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.input.latency"
 msgstr "Latency"
 
-#: /src/trubbel/settings/channel/chat.js:277
-#: /src/trubbel/settings/channel/chat.js:290
-#: /src/trubbel/settings/channel/chat.js:305
-#: /src/trubbel/settings/channel/chat.js:317
-#: /src/trubbel/settings/channel/chat.js:332
-#: /src/trubbel/settings/channel/chat.js:349
-#: /src/trubbel/settings/channel/chat.js:434
-#: /src/trubbel/settings/channel/chat.js:570
-#: /src/trubbel/settings/channel/chat.js:584
-#: /src/trubbel/settings/channel/chat.js:597
-#: /src/trubbel/settings/channel/chat.js:608
-#: /src/trubbel/settings/channel/chat.js:621
+#: /src/trubbel/settings/channel/chat.js:278
+#: /src/trubbel/settings/channel/chat.js:291
+#: /src/trubbel/settings/channel/chat.js:306
+#: /src/trubbel/settings/channel/chat.js:318
+#: /src/trubbel/settings/channel/chat.js:333
+#: /src/trubbel/settings/channel/chat.js:350
+#: /src/trubbel/settings/channel/chat.js:435
+#: /src/trubbel/settings/channel/chat.js:571
+#: /src/trubbel/settings/channel/chat.js:585
+#: /src/trubbel/settings/channel/chat.js:598
+#: /src/trubbel/settings/channel/chat.js:609
+#: /src/trubbel/settings/channel/chat.js:622
 #: /src/tru
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages"
 msgstr "Messages"
 
-#: /src/trubbel/settings/channel/chat.js:332
-#: /src/trubbel/settings/channel/chat.js:349
+#: /src/trubbel/settings/channel/chat.js:333
+#: /src/trubbel/settings/channel/chat.js:350
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.highlights"
 msgstr "Highlights"
 
-#: /src/trubbel/settings/channel/chat.js:277
-#: /src/trubbel/settings/channel/chat.js:290
+#: /src/trubbel/settings/channel/chat.js:278
+#: /src/trubbel/settings/channel/chat.js:291
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.links"
 msgstr "Links"
 
-#: /src/trubbel/settings/channel/chat.js:305
-#: /src/trubbel/settings/channel/chat.js:317
+#: /src/trubbel/settings/channel/chat.js:306
+#: /src/trubbel/settings/channel/chat.js:318
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.markdown"
 msgstr "Markdown"
 
-#: /src/trubbel/settings/channel/chat.js:434
+#: /src/trubbel/settings/channel/chat.js:435
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.pinned_messages"
 msgstr "Pinned Messages"
 
-#: /src/trubbel/settings/channel/chat.js:570
+#: /src/trubbel/settings/channel/chat.js:571
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.shared_chat"
 msgstr "Shared Chat"
 
-#: /src/trubbel/settings/channel/chat.js:584
-#: /src/trubbel/settings/channel/chat.js:597
+#: /src/trubbel/settings/channel/chat.js:585
+#: /src/trubbel/settings/channel/chat.js:598
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_replace"
 msgstr "Text Replace"
 
-#: /src/trubbel/settings/channel/chat.js:608
-#: /src/trubbel/settings/channel/chat.js:621
-#: /src/trubbel/settings/channel/chat.js:633
-#: /src/trubbel/settings/channel/chat.js:653
-#: /src/trubbel/settings/channel/chat.js:667
-#: /src/trubbel/settings/channel/chat.js:681
+#: /src/trubbel/settings/channel/chat.js:609
+#: /src/trubbel/settings/channel/chat.js:622
+#: /src/trubbel/settings/channel/chat.js:634
+#: /src/trubbel/settings/channel/chat.js:654
+#: /src/trubbel/settings/channel/chat.js:668
+#: /src/trubbel/settings/channel/chat.js:682
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_to_speech"
 msgstr "Text-to-Speech"
 
-#: /src/trubbel/settings/channel/chat.js:697
+#: /src/trubbel/settings/channel/chat.js:698
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.timestamp"
 msgstr "Timestamp"
 
-#: /src/trubbel/settings/channel/chat.js:712
-#: /src/trubbel/settings/channel/chat.js:725
+#: /src/trubbel/settings/channel/chat.js:713
+#: /src/trubbel/settings/channel/chat.js:726
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.translation"
 msgstr "Translation"
 
-#: /src/trubbel/settings/channel/chat.js:797
-#: /src/trubbel/settings/channel/chat.js:810
-#: /src/trubbel/settings/channel/chat.js:823
+#: /src/trubbel/settings/channel/chat.js:798
+#: /src/trubbel/settings/channel/chat.js:811
+#: /src/trubbel/settings/channel/chat.js:824
+#: /src/trubbel/settings/channel/chat.js:837
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.messages.viewer_cards"
 msgstr "Viewer Cards"
 
-#: /src/trubbel/settings/channel/chat.js:373
-#: /src/trubbel/settings/channel/chat.js:390
-#: /src/trubbel/settings/channel/chat.js:402
-#: /src/trubbel/settings/channel/chat.js:416
+#: /src/trubbel/settings/channel/chat.js:374
+#: /src/trubbel/settings/channel/chat.js:391
+#: /src/trubbel/settings/channel/chat.js:403
+#: /src/trubbel/settings/channel/chat.js:417
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.moderation"
 msgstr "Moderation"
 
-#: /src/trubbel/settings/channel/chat.js:373
-#: /src/trubbel/settings/channel/chat.js:390
-#: /src/trubbel/settings/channel/chat.js:402
-#: /src/trubbel/settings/channel/chat.js:416
+#: /src/trubbel/settings/channel/chat.js:374
+#: /src/trubbel/settings/channel/chat.js:391
+#: /src/trubbel/settings/channel/chat.js:403
+#: /src/trubbel/settings/channel/chat.js:417
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.moderation.context_menu"
 msgstr "Context Menu"
 
-#: /src/trubbel/settings/channel/chat.js:463
-#: /src/trubbel/settings/channel/chat.js:478
-#: /src/trubbel/settings/channel/chat.js:495
+#: /src/trubbel/settings/channel/chat.js:464
+#: /src/trubbel/settings/channel/chat.js:479
+#: /src/trubbel/settings/channel/chat.js:496
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.notifications"
 msgstr "Notifications"
 
-#: /src/trubbel/settings/channel/chat.js:463
-#: /src/trubbel/settings/channel/chat.js:478
-#: /src/trubbel/settings/channel/chat.js:495
+#: /src/trubbel/settings/channel/chat.js:464
+#: /src/trubbel/settings/channel/chat.js:479
+#: /src/trubbel/settings/channel/chat.js:496
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.notifications.predictions"
 msgstr "Predictions"
 
-#: /src/trubbel/settings/channel/chat.js:514
-#: /src/trubbel/settings/channel/chat.js:532
-#: /src/trubbel/settings/channel/chat.js:550
+#: /src/trubbel/settings/channel/chat.js:515
+#: /src/trubbel/settings/channel/chat.js:533
+#: /src/trubbel/settings/channel/chat.js:551
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.raids"
 msgstr "Raids"
 
-#: /src/trubbel/settings/channel/chat.js:514
-#: /src/trubbel/settings/channel/chat.js:532
-#: /src/trubbel/settings/channel/chat.js:550
+#: /src/trubbel/settings/channel/chat.js:515
+#: /src/trubbel/settings/channel/chat.js:533
+#: /src/trubbel/settings/channel/chat.js:551
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.raids.preview"
 msgstr "Preview"
 
-#: /src/trubbel/settings/channel/chat.js:767
-#: /src/trubbel/settings/channel/chat.js:782
+#: /src/trubbel/settings/channel/chat.js:768
+#: /src/trubbel/settings/channel/chat.js:783
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.ui"
 msgstr "UI"
 
-#: /src/trubbel/settings/channel/chat.js:767
+#: /src/trubbel/settings/channel/chat.js:768
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.ui.leaderboard"
 msgstr "Leaderboard"
 
-#: /src/trubbel/settings/channel/chat.js:782
+#: /src/trubbel/settings/channel/chat.js:783
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.ui.viewer_list"
 msgstr "Viewer List"
 
-#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1005
+#: /src/trubbel/settings/channel/chat.js:1017
 #: /src/trubbel/settings/channel/chat.js:1029
-#: /src/trubbel/settings/channel/chat.js:1075
-#: /src/trubbel/settings/channel/chat.js:1092
-#: /src/trubbel/settings/channel/chat.js:838
-#: /src/trubbel/settings/channel/chat.js:854
-#: /src/trubbel/settings/channel/chat.js:870
-#: /src/trubbel/settings/channel/chat.js:886
-#: /src/trubbel/settings/channel/chat.js:902
-#: /src/trubbel/settings/channel/chat.js:914
-#: /src/trubbel/settings/channel/chat.js:926
-#: /src/trubbel/settings/channel/chat.js:939
+#: /src/trubbel/settings/channel/chat.js:1047
+#: /src/trubbel/settings/channel/chat.js:1093
+#: /src/trubbel/settings/channel/chat.js:1110
+#: /src/trubbel/settings/channel/chat.js:856
+#: /src/trubbel/settings/channel/chat.js:872
+#: /src/trubbel/settings/channel/chat.js:888
+#: /src/trubbel/settings/channel/chat.js:904
+#: /src/trubbel/settings/channel/chat.js:920
+#: /src/trubbel/settings/channel/chat.js:932
 #, icu-message-format
-msgctxt "/src"
+msgctxt "/s"
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards"
 msgstr "Viewer Cards"
 
-#: /src/trubbel/settings/channel/chat.js:1011
-#: /src/trubbel/settings/channel/chat.js:939
-#: /src/trubbel/settings/channel/chat.js:951
-#: /src/trubbel/settings/channel/chat.js:963
-#: /src/trubbel/settings/channel/chat.js:975
-#: /src/trubbel/settings/channel/chat.js:987
-#: /src/trubbel/settings/channel/chat.js:999
+#: /src/trubbel/settings/channel/chat.js:1005
+#: /src/trubbel/settings/channel/chat.js:1017
+#: /src/trubbel/settings/channel/chat.js:1029
+#: /src/trubbel/settings/channel/chat.js:957
+#: /src/trubbel/settings/channel/chat.js:969
+#: /src/trubbel/settings/channel/chat.js:981
+#: /src/trubbel/settings/channel/chat.js:993
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.appearance"
 msgstr "Appearance"
 
-#: /src/trubbel/settings/channel/chat.js:838
-#: /src/trubbel/settings/channel/chat.js:854
-#: /src/trubbel/settings/channel/chat.js:870
-#: /src/trubbel/settings/channel/chat.js:886
+#: /src/trubbel/settings/channel/chat.js:856
+#: /src/trubbel/settings/channel/chat.js:872
+#: /src/trubbel/settings/channel/chat.js:888
+#: /src/trubbel/settings/channel/chat.js:904
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.general"
 msgstr "General"
 
-#: /src/trubbel/settings/channel/chat.js:902
-#: /src/trubbel/settings/channel/chat.js:914
-#: /src/trubbel/settings/channel/chat.js:926
+#: /src/trubbel/settings/channel/chat.js:920
+#: /src/trubbel/settings/channel/chat.js:932
+#: /src/trubbel/settings/channel/chat.js:944
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.highlighting"
 msgstr "Highlighting"
 
-#: /src/trubbel/settings/channel/chat.js:1029
-#: /src/trubbel/settings/channel/chat.js:1075
+#: /src/trubbel/settings/channel/chat.js:1047
+#: /src/trubbel/settings/channel/chat.js:1093
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.moderation"
 msgstr "Moderation"
 
-#: /src/trubbel/settings/channel/chat.js:1092
+#: /src/trubbel/settings/channel/chat.js:1110
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.user_notes"
 msgstr "User Notes"
@@ -561,14 +562,32 @@ msgstr "Auto"
 msgid "setting.add_ons.trubbel_s_utilities.channel.mod_view.landing_page"
 msgstr "Landing Page"
 
-#: /src/trubbel/settings/channel/player.js:21
-#: /src/trubbel/settings/channel/player.js:36
-#: /src/trubbel/settings/channel/player.js:49
-#: /src/trubbel/settings/channel/player.js:64
-#: /src/trubbel/settings/twilight/clips.js:33
+#: /src/trubbel/settings/channel/player.js:112
+#: /src/trubbel/settings/channel/player.js:126
+#: /src/trubbel/settings/channel/player.js:139
+#: /src/trubbel/settings/channel/player.js:154
+#: /src/trubbel/settings/channel/player.js:167
+#: /src/trubbel/settings/channel/player.js:26
+#: /src/trubbel/settings/channel/player.js:41
+#: /src/trubbel/settings/channel/player.js:54
+#: /src/trubbel/settings/channel/player.js:69
+#: /src/trubbel/settings/channel/player.js:84
+#: /src/trubbel/settings/channel/player.js:97
+#: /src/trubbel/settings/twilight/cli
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.player"
 msgstr "Player"
+
+#: /src/trubbel/settings/channel/player.js:26
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.ads"
+msgstr "Ads"
+
+#: /src/trubbel/settings/channel/player.js:41
+#: /src/trubbel/settings/channel/player.js:54
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.channel_specific"
+msgstr "Channel-Specific"
 
 #: /src/trubbel/settings/twilight/clips.js:33
 #, icu-message-format
@@ -580,12 +599,29 @@ msgstr "Clips"
 msgid "setting.add_ons.trubbel_s_utilities.channel.player.errors"
 msgstr "Errors"
 
-#: /src/trubbel/settings/channel/player.js:36
-#: /src/trubbel/settings/channel/player.js:49
-#: /src/trubbel/settings/channel/player.js:64
+#: /src/trubbel/settings/channel/player.js:69
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.keyboard_shortcuts"
+msgstr "Keyboard Shortcuts"
+
+#: /src/trubbel/settings/channel/player.js:112
+#: /src/trubbel/settings/channel/player.js:84
+#: /src/trubbel/settings/channel/player.js:97
 #, icu-message-format
 msgid "setting.add_ons.trubbel_s_utilities.channel.player.livestream"
 msgstr "Livestream"
+
+#: /src/trubbel/settings/channel/player.js:126
+#: /src/trubbel/settings/channel/player.js:139
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.quality"
+msgstr "Quality"
+
+#: /src/trubbel/settings/channel/player.js:154
+#: /src/trubbel/settings/channel/player.js:167
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.reset"
+msgstr "Reset"
 
 #: /src/trubbel/settings/channel/vods.js:105
 #: /src/trubbel/settings/channel/vods.js:120
@@ -1027,22 +1063,22 @@ msgstr "Hide front page carousel"
 msgid "setting.entry.addon.trubbel.appearance.declutter.front-page.luna"
 msgstr "Hide Play on Luna section on Front Page"
 
-#: /src/trubbel/settings/appearance/declutter.js:410
+#: /src/trubbel/settings/appearance/declutter.js:446
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.player.bottom_gradient"
 msgstr "Hide the bottom gradient"
 
-#: /src/trubbel/settings/appearance/declutter.js:361
+#: /src/trubbel/settings/appearance/declutter.js:397
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.player.cc"
 msgstr "Hide the \"Closed Captions\"-button within the settings menu"
 
-#: /src/trubbel/settings/appearance/declutter.js:373
+#: /src/trubbel/settings/appearance/declutter.js:409
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.player.disclosure"
 msgstr "Hide the Disclosure overlay"
 
-#: /src/trubbel/settings/appearance/declutter.js:373
+#: /src/trubbel/settings/appearance/declutter.js:409
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.appearance.declutter.player.disclosure."
@@ -1051,12 +1087,12 @@ msgstr ""
 "This removes the \"Intended for certain audiences\", \"Includes Paid "
 "Promotion\" etc. from the player."
 
-#: /src/trubbel/settings/appearance/declutter.js:386
+#: /src/trubbel/settings/appearance/declutter.js:422
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.player.most_recent_video"
 msgstr "Hide the Most Recent Video overlay"
 
-#: /src/trubbel/settings/appearance/declutter.js:398
+#: /src/trubbel/settings/appearance/declutter.js:434
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.player.top_gradient"
 msgstr "Hide the top gradient"
@@ -1066,10 +1102,25 @@ msgstr "Hide the top gradient"
 msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.all_time_high_train"
 msgstr "Hide All-Time High Train"
 
+#: /src/trubbel/settings/appearance/declutter.js:359
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.ap_anniversary"
+msgstr "Hide Affiliate/Partner Anniversary"
+
 #: /src/trubbel/settings/appearance/declutter.js:226
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.community_train"
 msgstr "Hide Community Train"
+
+#: /src/trubbel/settings/appearance/declutter.js:371
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.creator_badge_drop"
+msgstr "Hide Creator Badge Drop"
+
+#: /src/trubbel/settings/appearance/declutter.js:383
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.first_streamversary"
+msgstr "Hide First Streamversary!"
 
 #: /src/trubbel/settings/appearance/declutter.js:161
 #, icu-message-format
@@ -1152,61 +1203,61 @@ msgstr "Hide Treasure Train"
 msgid "setting.entry.addon.trubbel.appearance.declutter.sidebar.watch_streak"
 msgstr "Hide Watch Streak"
 
-#: /src/trubbel/settings/appearance/declutter.js:424
+#: /src/trubbel/settings/appearance/declutter.js:460
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.about_section"
 msgstr "Hide about section"
 
-#: /src/trubbel/settings/appearance/declutter.js:436
+#: /src/trubbel/settings/appearance/declutter.js:472
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.channel_panels"
 msgstr "Hide channel panels"
 
-#: /src/trubbel/settings/appearance/declutter.js:472
+#: /src/trubbel/settings/appearance/declutter.js:508
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.ChannelSkinsBanner"
 msgstr "Hide sponsored banner above chat"
 
-#: /src/trubbel/settings/appearance/declutter.js:484
+#: /src/trubbel/settings/appearance/declutter.js:520
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.ChannelSkinsOverlay"
 msgstr "Hide sponsored logo within player"
 
-#: /src/trubbel/settings/appearance/declutter.js:496
+#: /src/trubbel/settings/appearance/declutter.js:532
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.ChannelSkinsRibbon"
 msgstr "Hide sponsored banner below player"
 
-#: /src/trubbel/settings/appearance/declutter.js:448
+#: /src/trubbel/settings/appearance/declutter.js:484
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.power_ups"
 msgstr "Hide power-ups within the rewards popup"
 
-#: /src/trubbel/settings/appearance/declutter.js:508
+#: /src/trubbel/settings/appearance/declutter.js:544
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.sponsored_gradient"
 msgstr "Hide sponsored player gradient"
 
-#: /src/trubbel/settings/appearance/declutter.js:460
+#: /src/trubbel/settings/appearance/declutter.js:496
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.stream.watch_streak"
 msgstr "Hide Watch Streak within the rewards popup"
 
-#: /src/trubbel/settings/appearance/declutter.js:522
+#: /src/trubbel/settings/appearance/declutter.js:558
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.appearance.declutter.top_nav."
 "CreatorMessagesNavButton"
 msgstr "Hide Shouts button"
 
-#: /src/trubbel/settings/appearance/declutter.js:522
+#: /src/trubbel/settings/appearance/declutter.js:558
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.appearance.declutter.top_nav."
 "CreatorMessagesNavButton.description"
 msgstr "Removes the Streamer Shouts button from the top navigation bar."
 
-#: /src/trubbel/settings/appearance/declutter.js:537
+#: /src/trubbel/settings/appearance/declutter.js:573
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.appearance.declutter.vods.muted_segment_popup"
 msgstr "Hide muted segments alerts popups"
@@ -1475,12 +1526,12 @@ msgstr ""
 "Show a black background behind VODs seekbar, for current time and duration. "
 "Making it easier to see the white text."
 
-#: /src/trubbel/settings/channel/chat.js:118
+#: /src/trubbel/settings/channel/chat.js:119
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate"
 msgstr "Enable Animated Emotes Blocklist"
 
-#: /src/trubbel/settings/channel/chat.js:118
+#: /src/trubbel/settings/channel/chat.js:119
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate."
@@ -1492,24 +1543,24 @@ msgstr ""
 "**Note:** If you want to disable **all** emotes from animating, please use "
 "[Chat > Appearance > Animated Emotes](~chat.appearance.emotes) instead."
 
-#: /src/trubbel/settings/channel/chat.js:131
+#: /src/trubbel/settings/channel/chat.js:132
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate."
 "list"
 msgstr "Blocked Emotes"
 
-#: /src/trubbel/settings/channel/chat.js:146
+#: /src/trubbel/settings/channel/chat.js:147
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.commands.custom"
 msgstr "Enable custom commands"
 
-#: /src/trubbel/settings/channel/chat.js:191
+#: /src/trubbel/settings/channel/chat.js:192
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.ftc"
 msgstr "Show FirstTimeChatter Indicator"
 
-#: /src/trubbel/settings/channel/chat.js:191
+#: /src/trubbel/settings/channel/chat.js:192
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.ftc.description"
 msgstr ""
@@ -1518,94 +1569,94 @@ msgstr ""
 "**Note:** It will automatically remove the border if you send any chat "
 "messages."
 
-#: /src/trubbel/settings/channel/chat.js:223
+#: /src/trubbel/settings/channel/chat.js:224
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.header.info"
 msgstr "Display Stream Info in Chat Header"
 
-#: /src/trubbel/settings/channel/chat.js:223
+#: /src/trubbel/settings/channel/chat.js:224
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.header.info.description"
 msgstr ""
 "Replace the \"Stream Chat\" title with live stream information - latency, "
 "uptime, or both."
 
-#: /src/trubbel/settings/channel/chat.js:235
+#: /src/trubbel/settings/channel/chat.js:236
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.both"
 msgstr "Both (Uptime & Latency)"
 
-#: /src/trubbel/settings/channel/chat.js:233
+#: /src/trubbel/settings/channel/chat.js:234
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.latency"
 msgstr "Stream Latency"
 
-#: /src/trubbel/settings/channel/chat.js:232
+#: /src/trubbel/settings/channel/chat.js:233
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.off"
 msgstr "Off"
 
-#: /src/trubbel/settings/channel/chat.js:234
+#: /src/trubbel/settings/channel/chat.js:235
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.header.info.values.uptime"
 msgstr "Stream Uptime"
 
-#: /src/trubbel/settings/channel/chat.js:434
+#: /src/trubbel/settings/channel/chat.js:435
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.hide_pinned_message"
 msgstr "Auto-hide Pinned Messages"
 
-#: /src/trubbel/settings/channel/chat.js:244
+#: /src/trubbel/settings/channel/chat.js:245
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.input.character_counter"
 msgstr "Character Counter"
 
-#: /src/trubbel/settings/channel/chat.js:262
+#: /src/trubbel/settings/channel/chat.js:263
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.input.character_counter.size"
 msgstr "Character Counter Font Size"
 
-#: /src/trubbel/settings/channel/chat.js:254
+#: /src/trubbel/settings/channel/chat.js:255
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.input.character_counter.values."
 "bottom-left"
 msgstr "Bottom Left"
 
-#: /src/trubbel/settings/channel/chat.js:255
+#: /src/trubbel/settings/channel/chat.js:256
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.input.character_counter.values."
 "bottom-right"
 msgstr "Bottom Right"
 
-#: /src/trubbel/settings/channel/chat.js:251
+#: /src/trubbel/settings/channel/chat.js:252
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.input.character_counter.values."
 "disabled"
 msgstr "Disabled"
 
-#: /src/trubbel/settings/channel/chat.js:252
+#: /src/trubbel/settings/channel/chat.js:253
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-"
 "left"
 msgstr "Top Left"
 
-#: /src/trubbel/settings/channel/chat.js:253
+#: /src/trubbel/settings/channel/chat.js:254
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-"
 "right"
 msgstr "Top Right"
 
-#: /src/trubbel/settings/channel/chat.js:208
+#: /src/trubbel/settings/channel/chat.js:209
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.input.latency_placeholder"
 msgstr "Show Stream Latency in Chat Input"
 
-#: /src/trubbel/settings/channel/chat.js:208
+#: /src/trubbel/settings/channel/chat.js:209
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.input.latency_placeholder."
@@ -1614,12 +1665,12 @@ msgstr ""
 "Replaces the \"Send a message\" placeholder with the stream's current "
 "latency while the chat box is empty."
 
-#: /src/trubbel/settings/channel/chat.js:767
+#: /src/trubbel/settings/channel/chat.js:768
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.leaderboard.shouldAutoRotate"
 msgstr "Disable Leaderboard Auto-Rotate (Experimental)"
 
-#: /src/trubbel/settings/channel/chat.js:767
+#: /src/trubbel/settings/channel/chat.js:768
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.leaderboard.shouldAutoRotate."
@@ -1628,22 +1679,22 @@ msgstr ""
 "Prevents the leaderboard (gift/cheer/clips/etc) from automatically cycling "
 "through pages on it's own."
 
-#: /src/trubbel/settings/channel/chat.js:277
+#: /src/trubbel/settings/channel/chat.js:278
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.links.clip_replace"
 msgstr "Replace clip URLs"
 
-#: /src/trubbel/settings/channel/chat.js:277
+#: /src/trubbel/settings/channel/chat.js:278
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.links.clip_replace.description"
 msgstr "Replaces the `/clip/` links in chat with the `clips.twitch.tv` format."
 
-#: /src/trubbel/settings/channel/chat.js:290
+#: /src/trubbel/settings/channel/chat.js:291
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.links.steam_inspect"
 msgstr "Clickable Steam inspect links"
 
-#: /src/trubbel/settings/channel/chat.js:290
+#: /src/trubbel/settings/channel/chat.js:291
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.links.steam_inspect.description"
 msgstr ""
@@ -1651,12 +1702,12 @@ msgstr ""
 "links](https://developer.valvesoftware.com/wiki/Steam_browser_protocol) "
 "clickable in chat."
 
-#: /src/trubbel/settings/channel/chat.js:317
+#: /src/trubbel/settings/channel/chat.js:318
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.markdown"
 msgstr "Enable Markdown"
 
-#: /src/trubbel/settings/channel/chat.js:317
+#: /src/trubbel/settings/channel/chat.js:318
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.markdown.description"
 msgstr ""
@@ -1665,111 +1716,111 @@ msgstr ""
 "\n"
 "**Note:** Timestamps uses same format as Discord timestamps."
 
-#: /src/trubbel/settings/channel/chat.js:305
+#: /src/trubbel/settings/channel/chat.js:306
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.markdown.info"
 msgstr "Info"
 
-#: /src/trubbel/settings/channel/chat.js:305
+#: /src/trubbel/settings/channel/chat.js:306
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.markdown.info.description"
 msgstr ""
 "⚠️ Please note that only users who has these settings enabled are able to "
 "see them."
 
-#: /src/trubbel/settings/channel/chat.js:332
+#: /src/trubbel/settings/channel/chat.js:333
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight"
 msgstr "Highlight Messages on Hover"
 
-#: /src/trubbel/settings/channel/chat.js:349
+#: /src/trubbel/settings/channel/chat.js:350
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.color"
 msgstr "Hover Highlight"
 
-#: /src/trubbel/settings/channel/chat.js:349
+#: /src/trubbel/settings/channel/chat.js:350
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.messages.highlight.color."
 "description"
 msgstr "Background color for highlighted messages."
 
-#: /src/trubbel/settings/channel/chat.js:332
+#: /src/trubbel/settings/channel/chat.js:333
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.description"
 msgstr "Highlight all messages from a user."
 
-#: /src/trubbel/settings/channel/chat.js:340
+#: /src/trubbel/settings/channel/chat.js:341
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.0"
 msgstr "Off"
 
-#: /src/trubbel/settings/channel/chat.js:341
+#: /src/trubbel/settings/channel/chat.js:342
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.1"
 msgstr "Username"
 
-#: /src/trubbel/settings/channel/chat.js:342
+#: /src/trubbel/settings/channel/chat.js:343
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.2"
 msgstr "Entire Message"
 
-#: /src/trubbel/settings/channel/chat.js:373
+#: /src/trubbel/settings/channel/chat.js:374
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.moderation.context"
 msgstr "Enable right-click context menu"
 
-#: /src/trubbel/settings/channel/chat.js:373
+#: /src/trubbel/settings/channel/chat.js:374
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.description"
 msgstr ""
 "This gives you the ability to use a right-click context menu, *similar to "
 "BetterTTV (BTTV)*, to moderate chat with. Ban, timeout, purge, delete."
 
-#: /src/trubbel/settings/channel/chat.js:390
+#: /src/trubbel/settings/channel/chat.js:391
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.highlight"
 msgstr "Message Highlight"
 
-#: /src/trubbel/settings/channel/chat.js:390
+#: /src/trubbel/settings/channel/chat.js:391
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.moderation.context.highlight."
 "description"
 msgstr "Highlight the message you right-click."
 
-#: /src/trubbel/settings/channel/chat.js:416
+#: /src/trubbel/settings/channel/chat.js:417
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.options"
 msgstr "Right-click options"
 
-#: /src/trubbel/settings/channel/chat.js:425
+#: /src/trubbel/settings/channel/chat.js:426
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.moderation.context.options.values."
 "messages1"
 msgstr "Entire messages"
 
-#: /src/trubbel/settings/channel/chat.js:426
+#: /src/trubbel/settings/channel/chat.js:427
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.moderation.context.options.values."
 "messages2"
 msgstr "Entire messages (except embeds and links)"
 
-#: /src/trubbel/settings/channel/chat.js:424
+#: /src/trubbel/settings/channel/chat.js:425
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.moderation.context.options.values."
 "usernames"
 msgstr "Usernames only"
 
-#: /src/trubbel/settings/channel/chat.js:402
+#: /src/trubbel/settings/channel/chat.js:403
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.moderation.context.priority"
 msgstr "Highlight Priority"
 
-#: /src/trubbel/settings/channel/chat.js:402
+#: /src/trubbel/settings/channel/chat.js:403
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.moderation.context.priority."
@@ -1778,24 +1829,24 @@ msgstr ""
 "Priority of the message highlighting. See [Chat > Filtering > "
 "Highlight](~chat.filtering.highlight) for more details."
 
-#: /src/trubbel/settings/channel/chat.js:448
+#: /src/trubbel/settings/channel/chat.js:449
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.popout.title_name"
 msgstr "Display channel name in Popout Chat"
 
-#: /src/trubbel/settings/channel/chat.js:448
+#: /src/trubbel/settings/channel/chat.js:449
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.popout.title_name.description"
 msgstr ""
 "Enabling this will replace the \"Stream Chat\" text above chat with the "
 "streamers username."
 
-#: /src/trubbel/settings/channel/chat.js:463
+#: /src/trubbel/settings/channel/chat.js:464
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.prediction.notifications"
 msgstr "Prediction Started Notifications"
 
-#: /src/trubbel/settings/channel/chat.js:463
+#: /src/trubbel/settings/channel/chat.js:464
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.prediction.notifications."
@@ -1807,28 +1858,28 @@ msgstr ""
 "**Note:** Your browser will ask for notification permission the first time "
 "you enable this."
 
-#: /src/trubbel/settings/channel/chat.js:478
+#: /src/trubbel/settings/channel/chat.js:479
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.prediction.notifications.only_"
 "unfocused"
 msgstr "Only notify when tab is unfocused"
 
-#: /src/trubbel/settings/channel/chat.js:478
+#: /src/trubbel/settings/channel/chat.js:479
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.prediction.notifications.only_"
 "unfocused.description"
 msgstr "Skip the notification if you already have the Twitch tab in focus."
 
-#: /src/trubbel/settings/channel/chat.js:495
+#: /src/trubbel/settings/channel/chat.js:496
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.prediction.notifications.require_"
 "interaction"
 msgstr "Keep notification until dismissed"
 
-#: /src/trubbel/settings/channel/chat.js:495
+#: /src/trubbel/settings/channel/chat.js:496
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.prediction.notifications.require_"
@@ -1839,17 +1890,17 @@ msgstr ""
 "\n"
 "**Note:** Behaviour may vary depending on your browser and OS."
 
-#: /src/trubbel/settings/channel/chat.js:514
+#: /src/trubbel/settings/channel/chat.js:515
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews"
 msgstr "Show raid preview"
 
-#: /src/trubbel/settings/channel/chat.js:550
+#: /src/trubbel/settings/channel/chat.js:551
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings"
 msgstr "Show chat restrictions on raid preview"
 
-#: /src/trubbel/settings/channel/chat.js:550
+#: /src/trubbel/settings/channel/chat.js:551
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings."
@@ -1858,64 +1909,64 @@ msgstr ""
 "Display chat restrictions (sub-only, followers-only, slow mode, etc.) below "
 "the preview."
 
-#: /src/trubbel/settings/channel/chat.js:514
+#: /src/trubbel/settings/channel/chat.js:515
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.description"
 msgstr "Display an image or video preview of the stream when a raid is active."
 
-#: /src/trubbel/settings/channel/chat.js:532
+#: /src/trubbel/settings/channel/chat.js:533
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.uptime"
 msgstr "Show uptime on raid preview"
 
-#: /src/trubbel/settings/channel/chat.js:532
+#: /src/trubbel/settings/channel/chat.js:533
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.uptime.description"
 msgstr ""
 "Display the stream uptime (and content flags if enabled in FFZ settings) on "
 "the preview."
 
-#: /src/trubbel/settings/channel/chat.js:523
+#: /src/trubbel/settings/channel/chat.js:524
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.values.0"
 msgstr "Off"
 
-#: /src/trubbel/settings/channel/chat.js:524
+#: /src/trubbel/settings/channel/chat.js:525
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.values.1"
 msgstr "Image Preview"
 
-#: /src/trubbel/settings/channel/chat.js:525
+#: /src/trubbel/settings/channel/chat.js:526
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.raids.previews.values.2"
 msgstr "Video Preview"
 
-#: /src/trubbel/settings/channel/chat.js:570
+#: /src/trubbel/settings/channel/chat.js:571
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.shared_chat.hide-message"
 msgstr "Hide shared messages"
 
-#: /src/trubbel/settings/channel/chat.js:584
+#: /src/trubbel/settings/channel/chat.js:585
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.text_replace"
 msgstr "Enable text replacement for outgoing messages."
 
-#: /src/trubbel/settings/channel/chat.js:697
+#: /src/trubbel/settings/channel/chat.js:698
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.timestamps.add_missing"
 msgstr "Display missing timestamps (Experimental)"
 
-#: /src/trubbel/settings/channel/chat.js:697
+#: /src/trubbel/settings/channel/chat.js:698
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.timestamps.add_missing.description"
 msgstr "For certain chat events that lack timestamps."
 
-#: /src/trubbel/settings/channel/chat.js:712
+#: /src/trubbel/settings/channel/chat.js:713
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation"
 msgstr "Enable Simple Translate"
 
-#: /src/trubbel/settings/channel/chat.js:712
+#: /src/trubbel/settings/channel/chat.js:713
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.translation.description"
 msgstr ""
@@ -1927,136 +1978,136 @@ msgstr ""
 "\n"
 "**Note:** This uses Google Translate."
 
-#: /src/trubbel/settings/channel/chat.js:725
+#: /src/trubbel/settings/channel/chat.js:726
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang"
 msgstr "Target Language"
 
-#: /src/trubbel/settings/channel/chat.js:725
+#: /src/trubbel/settings/channel/chat.js:726
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.description"
 msgstr "The language to translate messages into."
 
-#: /src/trubbel/settings/channel/chat.js:751
+#: /src/trubbel/settings/channel/chat.js:752
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ar"
 msgstr "Arabic"
 
-#: /src/trubbel/settings/channel/chat.js:754
+#: /src/trubbel/settings/channel/chat.js:755
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.da"
 msgstr "Danish"
 
-#: /src/trubbel/settings/channel/chat.js:743
+#: /src/trubbel/settings/channel/chat.js:744
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.de"
 msgstr "German"
 
-#: /src/trubbel/settings/channel/chat.js:740
+#: /src/trubbel/settings/channel/chat.js:741
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.en"
 msgstr "English"
 
-#: /src/trubbel/settings/channel/chat.js:741
+#: /src/trubbel/settings/channel/chat.js:742
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.es"
 msgstr "Spanish"
 
-#: /src/trubbel/settings/channel/chat.js:756
+#: /src/trubbel/settings/channel/chat.js:757
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fi"
 msgstr "Finnish"
 
-#: /src/trubbel/settings/channel/chat.js:742
+#: /src/trubbel/settings/channel/chat.js:743
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fr"
 msgstr "French"
 
-#: /src/trubbel/settings/channel/chat.js:752
+#: /src/trubbel/settings/channel/chat.js:753
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.hi"
 msgstr "Hindi"
 
-#: /src/trubbel/settings/channel/chat.js:744
+#: /src/trubbel/settings/channel/chat.js:745
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.it"
 msgstr "Italian"
 
-#: /src/trubbel/settings/channel/chat.js:747
+#: /src/trubbel/settings/channel/chat.js:748
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ja"
 msgstr "Japanese"
 
-#: /src/trubbel/settings/channel/chat.js:748
+#: /src/trubbel/settings/channel/chat.js:749
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ko"
 msgstr "Korean"
 
-#: /src/trubbel/settings/channel/chat.js:757
+#: /src/trubbel/settings/channel/chat.js:758
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.nl"
 msgstr "Dutch"
 
-#: /src/trubbel/settings/channel/chat.js:755
+#: /src/trubbel/settings/channel/chat.js:756
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.no"
 msgstr "Norwegian"
 
-#: /src/trubbel/settings/channel/chat.js:758
+#: /src/trubbel/settings/channel/chat.js:759
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pl"
 msgstr "Polish"
 
-#: /src/trubbel/settings/channel/chat.js:745
+#: /src/trubbel/settings/channel/chat.js:746
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pt"
 msgstr "Portuguese"
 
-#: /src/trubbel/settings/channel/chat.js:746
+#: /src/trubbel/settings/channel/chat.js:747
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ru"
 msgstr "Russian"
 
-#: /src/trubbel/settings/channel/chat.js:753
+#: /src/trubbel/settings/channel/chat.js:754
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.sv"
 msgstr "Swedish"
 
-#: /src/trubbel/settings/channel/chat.js:759
+#: /src/trubbel/settings/channel/chat.js:760
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.tr"
 msgstr "Turkish"
 
-#: /src/trubbel/settings/channel/chat.js:749
+#: /src/trubbel/settings/channel/chat.js:750
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-"
 "CN"
 msgstr "Chinese (Simplified)"
 
-#: /src/trubbel/settings/channel/chat.js:750
+#: /src/trubbel/settings/channel/chat.js:751
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-"
 "TW"
 msgstr "Chinese (Traditional)"
 
-#: /src/trubbel/settings/channel/chat.js:608
+#: /src/trubbel/settings/channel/chat.js:609
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.tts"
 msgstr "Enable Text-to-Speech"
 
-#: /src/trubbel/settings/channel/chat.js:621
+#: /src/trubbel/settings/channel/chat.js:622
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.tts.announce_user"
 msgstr "Announce Username"
 
-#: /src/trubbel/settings/channel/chat.js:621
+#: /src/trubbel/settings/channel/chat.js:622
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.tts.announce_user.description"
 msgstr "Prepend the sender's name before the message, e.g. \"Alice says: hello\"."
 
-#: /src/trubbel/settings/channel/chat.js:608
+#: /src/trubbel/settings/channel/chat.js:609
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.tts.description"
 msgstr ""
@@ -2066,64 +2117,64 @@ msgstr ""
 "Hover](~chat.actions.message_hover), or [User "
 "Context](~chat.actions.user_context)."
 
-#: /src/trubbel/settings/channel/chat.js:681
+#: /src/trubbel/settings/channel/chat.js:682
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.tts.pitch"
 msgstr "Pitch"
 
-#: /src/trubbel/settings/channel/chat.js:681
+#: /src/trubbel/settings/channel/chat.js:682
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.tts.pitch.description"
 msgstr "Speech pitch. 1 is normal pitch. Range: 0 - 2."
 
-#: /src/trubbel/settings/channel/chat.js:667
+#: /src/trubbel/settings/channel/chat.js:668
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.tts.rate"
 msgstr "Speed"
 
-#: /src/trubbel/settings/channel/chat.js:667
+#: /src/trubbel/settings/channel/chat.js:668
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.tts.rate.description"
 msgstr "Speech rate. 1 is normal speed. Range: 0.1 - 10."
 
-#: /src/trubbel/settings/channel/chat.js:633
+#: /src/trubbel/settings/channel/chat.js:634
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.tts.voice"
 msgstr "Voice"
 
-#: /src/trubbel/settings/channel/chat.js:633
+#: /src/trubbel/settings/channel/chat.js:634
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.tts.voice.description"
 msgstr "The voice to use for speech synthesis."
 
-#: /src/trubbel/settings/channel/chat.js:653
+#: /src/trubbel/settings/channel/chat.js:654
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.tts.volume"
 msgstr "Volume"
 
-#: /src/trubbel/settings/channel/chat.js:653
+#: /src/trubbel/settings/channel/chat.js:654
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.tts.volume.description"
 msgstr "Speech volume. 1 is full volume. Range: 0 - 1."
 
-#: /src/trubbel/settings/channel/chat.js:782
+#: /src/trubbel/settings/channel/chat.js:783
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.ui.old_viewer_list"
 msgstr "Show old viewer list"
 
-#: /src/trubbel/settings/channel/chat.js:782
+#: /src/trubbel/settings/channel/chat.js:783
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.ui.old_viewer_list.description"
 msgstr ""
 "When enabled, clicking the chat viewer list button will display the old "
 "chat list instead."
 
-#: /src/trubbel/settings/channel/chat.js:797
+#: /src/trubbel/settings/channel/chat.js:798
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_mods_vips"
 msgstr "Clickable usernames in /mods and /vips"
 
-#: /src/trubbel/settings/channel/chat.js:797
+#: /src/trubbel/settings/channel/chat.js:798
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_mods_vips."
@@ -2139,12 +2190,12 @@ msgstr ""
 "• There could be some instances where it might not apply correctly. Just "
 "send the command again, and it should work."
 
-#: /src/trubbel/settings/channel/chat.js:810
+#: /src/trubbel/settings/channel/chat.js:811
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_raid"
 msgstr "Clickable raid messages"
 
-#: /src/trubbel/settings/channel/chat.js:810
+#: /src/trubbel/settings/channel/chat.js:811
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_raid."
@@ -2153,12 +2204,12 @@ msgstr ""
 "This lets you click on the usernames in raid messages to open up their "
 "viewer cards."
 
-#: /src/trubbel/settings/channel/chat.js:823
+#: /src/trubbel/settings/channel/chat.js:824
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages"
 msgstr "Show recent messages in viewer cards"
 
-#: /src/trubbel/settings/channel/chat.js:823
+#: /src/trubbel/settings/channel/chat.js:824
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages."
@@ -2167,77 +2218,105 @@ msgstr ""
 "Display up to 50 recent messages from a user when you open their viewer "
 "card.\n"
 "\n"
-"**Note:** This isn't perfect, nor meant to be used as moderation."
+"**Note:** This isn't meant to be used as moderation."
 
-#: /src/trubbel/settings/channel/chat.js:838
+#: /src/trubbel/settings/channel/chat.js:837
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order"
+msgstr "Latest message position"
+
+#: /src/trubbel/settings/channel/chat.js:837
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order."
+"description"
+msgstr ""
+"Choose whether the latest message is shown at the top or at the bottom of "
+"the recent messages list."
+
+#: /src/trubbel/settings/channel/chat.js:847
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order."
+"values.bottom"
+msgstr "Bottom"
+
+#: /src/trubbel/settings/channel/chat.js:846
+#, icu-message-format
+msgid ""
+"setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order."
+"values.top"
+msgstr "Top"
+
+#: /src/trubbel/settings/channel/chat.js:856
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.enabled"
 msgstr "Enable Custom viewer cards"
 
-#: /src/trubbel/settings/channel/chat.js:854
+#: /src/trubbel/settings/channel/chat.js:872
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-mentions"
 msgstr "Handle Mention clicks"
 
-#: /src/trubbel/settings/channel/chat.js:854
+#: /src/trubbel/settings/channel/chat.js:872
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-mentions."
 "description"
 msgstr "Open custom viewer cards when clicking @mentions in chat."
 
-#: /src/trubbel/settings/channel/chat.js:870
+#: /src/trubbel/settings/channel/chat.js:888
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-pinned-messages"
 msgstr "Handle Pinned Message clicks"
 
-#: /src/trubbel/settings/channel/chat.js:870
+#: /src/trubbel/settings/channel/chat.js:888
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-pinned-"
 "messages.description"
 msgstr "Open custom viewer cards when clicking usernames in pinned chat messages."
 
-#: /src/trubbel/settings/channel/chat.js:886
+#: /src/trubbel/settings/channel/chat.js:904
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-viewer-list"
 msgstr "Handle Viewer List clicks"
 
-#: /src/trubbel/settings/channel/chat.js:886
+#: /src/trubbel/settings/channel/chat.js:904
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-viewer-list."
 "description"
 msgstr "Open custom viewer cards when clicking usernames in the viewer list."
 
-#: /src/trubbel/settings/channel/chat.js:902
+#: /src/trubbel/settings/channel/chat.js:920
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.highlight-chat"
 msgstr "Highlight messages when viewer card is opened"
 
-#: /src/trubbel/settings/channel/chat.js:914
+#: /src/trubbel/settings/channel/chat.js:932
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.highlight-color"
 msgstr "Highlight Color"
 
-#: /src/trubbel/settings/channel/chat.js:1075
+#: /src/trubbel/settings/channel/chat.js:1093
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs"
 msgstr "Moderation Tabs"
 
-#: /src/trubbel/settings/channel/chat.js:1075
+#: /src/trubbel/settings/channel/chat.js:1093
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs.description"
 msgstr ""
 "Choose which tabs are shown on custom viewer cards. Drag to change their "
 "order."
 
-#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1029
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.more-options"
 msgstr "More Options Menu"
 
-#: /src/trubbel/settings/channel/chat.js:1011
+#: /src/trubbel/settings/channel/chat.js:1029
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.more-options."
@@ -2246,19 +2325,19 @@ msgstr ""
 "Choose which actions are shown in the custom viewer card's \"More options\" "
 "menu. Drag to change their order."
 
-#: /src/trubbel/settings/channel/chat.js:1092
+#: /src/trubbel/settings/channel/chat.js:1110
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.notes.description"
 msgstr ""
 "Private notes you've written about users from their custom viewer cards. "
 "Notes are stored locally and included in FFZ's settings backups."
 
-#: /src/trubbel/settings/channel/chat.js:987
+#: /src/trubbel/settings/channel/chat.js:1005
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-avatar-tooltip"
 msgstr "Display avatar tooltip"
 
-#: /src/trubbel/settings/channel/chat.js:987
+#: /src/trubbel/settings/channel/chat.js:1005
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-avatar-tooltip."
@@ -2267,48 +2346,48 @@ msgstr ""
 "Show a larger version of the avatar when hovering the user's avatar or the "
 "\"Chatting from\" channel avatar in the custom viewer card."
 
-#: /src/trubbel/settings/channel/chat.js:975
+#: /src/trubbel/settings/channel/chat.js:993
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-badges"
 msgstr "Display user badges"
 
-#: /src/trubbel/settings/channel/chat.js:975
+#: /src/trubbel/settings/channel/chat.js:993
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-badges."
 "description"
 msgstr "Show the user's earned badges in the custom viewer card."
 
-#: /src/trubbel/settings/channel/chat.js:963
+#: /src/trubbel/settings/channel/chat.js:981
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-banner"
 msgstr "Display user banner"
 
-#: /src/trubbel/settings/channel/chat.js:963
+#: /src/trubbel/settings/channel/chat.js:981
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-banner."
 "description"
 msgstr "Show the user's profile banner image in the background of the card header."
 
-#: /src/trubbel/settings/channel/chat.js:939
+#: /src/trubbel/settings/channel/chat.js:957
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-native-button"
 msgstr "Display native card button"
 
-#: /src/trubbel/settings/channel/chat.js:939
+#: /src/trubbel/settings/channel/chat.js:957
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-native-button."
 "description"
 msgstr "Show the button that opens Twitch's own viewer card."
 
-#: /src/trubbel/settings/channel/chat.js:999
+#: /src/trubbel/settings/channel/chat.js:1017
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-paints"
 msgstr "Display 7TV name paints"
 
-#: /src/trubbel/settings/channel/chat.js:999
+#: /src/trubbel/settings/channel/chat.js:1017
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-paints."
@@ -2317,24 +2396,24 @@ msgstr ""
 "Show the user's 7TV name paint on their username in the custom viewer card, "
 "and on their name in the Messages-tab and live messages."
 
-#: /src/trubbel/settings/channel/chat.js:951
+#: /src/trubbel/settings/channel/chat.js:969
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-popout-button"
 msgstr "Display popout button"
 
-#: /src/trubbel/settings/channel/chat.js:951
+#: /src/trubbel/settings/channel/chat.js:969
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-popout-button."
 "description"
 msgstr "Show the button that opens Twitch's viewer card in a popout window."
 
-#: /src/trubbel/settings/channel/chat.js:926
+#: /src/trubbel/settings/channel/chat.js:944
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.temp-highlight-color"
 msgstr "Temp. Highlight Color"
 
-#: /src/trubbel/settings/channel/chat.js:926
+#: /src/trubbel/settings/channel/chat.js:944
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.temp-highlight-color."
@@ -2349,12 +2428,12 @@ msgstr ""
 "For a permanent highlight, use [Chat > Filtering > Highlight >> "
 "Users](~chat.filtering.highlight) instead."
 
-#: /src/trubbel/settings/channel/chat.js:1029
+#: /src/trubbel/settings/channel/chat.js:1047
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.chat.viewer-cards.timeout-buttons"
 msgstr "Timeout Buttons"
 
-#: /src/trubbel/settings/channel/chat.js:1029
+#: /src/trubbel/settings/channel/chat.js:1047
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer-cards.timeout-buttons."
@@ -2403,64 +2482,133 @@ msgstr ""
 "[twitch.tv/moderator](https://www.twitch.tv/moderator) - the list of "
 "channels you moderate."
 
-#: /src/trubbel/settings/channel/player.js:21
+#: /src/trubbel/settings/channel/player.js:26
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.ads.mute"
+msgstr "Mute During Ads"
+
+#: /src/trubbel/settings/channel/player.js:26
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.ads.mute.description"
+msgstr ""
+"Automatically mute the player when an ad break starts and unmute it when "
+"the ad break ends.\n"
+"\n"
+"If you were already muted, or unmute during the ad yourself, it's left "
+"alone.\n"
+"\n"
+"**Note:** This relies on the player's ad break events, which may not fire "
+"for every type of ad."
+
+#: /src/trubbel/settings/channel/player.js:154
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.player.auto_reset"
 msgstr "Auto Reset on Errors"
 
-#: /src/trubbel/settings/channel/player.js:21
+#: /src/trubbel/settings/channel/player.js:154
 #, icu-message-format, md-text
 msgid "setting.entry.addon.trubbel.channel.player.auto_reset.description"
 msgstr ""
-"Automatically detects and resets the player when encountering errors like "
+"Automatically reset the player when it reports a playback error, such as "
 "`#1000`, `#2000`, `#3000`, `#4000` or `#5000`."
+
+#: /src/trubbel/settings/channel/player.js:41
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.channel_specific.enabled"
+msgstr "Enable Channel-Specific Settings"
+
+#: /src/trubbel/settings/channel/player.js:41
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.player.channel_specific.enabled."
+"description"
+msgstr ""
+"Automatically apply a custom volume, quality, audio compressor and chat "
+"visibility for selected channels.\n"
+"\n"
+"Settings are applied when a channel's stream starts playing, and volume and "
+"quality again if the player is reset."
+
+#: /src/trubbel/settings/channel/player.js:54
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.channel_specific.manage"
+msgstr "Manage Channel-Specific Settings"
 
 #: /src/trubbel/settings/twilight/clips.js:33
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.player.clip.download"
 msgstr "Display Download Button on Clips"
 
-#: /src/trubbel/settings/channel/player.js:36
+#: /src/trubbel/settings/channel/player.js:69
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.disable_hotkeys"
+msgstr "Disable Player Keyboard Shortcuts"
+
+#: /src/trubbel/settings/channel/player.js:69
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.disable_hotkeys.description"
+msgstr ""
+"Stops Twitch's player keyboard shortcuts from working on livestreams when "
+"chat isn't focused.\n"
+"\n"
+"This includes `Space`/`K` (play/pause), `M` (mute), `F` (fullscreen), "
+"`J`/`L`/`←`/`→` (seek), `Shift+↑`/`Shift+↓` (volume), `,`/`.` (playback "
+"speed), `Esc` and `?` (shortcut overlay)."
+
+#: /src/trubbel/settings/channel/player.js:167
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.latency_reset"
+msgstr "Enable Latency-Based Reset"
+
+#: /src/trubbel/settings/channel/player.js:167
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.latency_reset.description"
+msgstr ""
+"Automatically reset the player when you fall too far behind live: more than "
+"**10 seconds** on Low Latency streams, or more than **15 seconds** on "
+"Normal Latency streams."
+
+#: /src/trubbel/settings/channel/player.js:84
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute"
 msgstr "Enable Auto Mute or Pause Stream"
 
-#: /src/trubbel/settings/channel/player.js:49
+#: /src/trubbel/settings/channel/player.js:97
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
 "option1"
 msgstr "Options"
 
-#: /src/trubbel/settings/channel/player.js:57
+#: /src/trubbel/settings/channel/player.js:105
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
 "option1.values.mute"
 msgstr "Auto Mute"
 
-#: /src/trubbel/settings/channel/player.js:58
+#: /src/trubbel/settings/channel/player.js:106
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
 "option1.values.pause"
 msgstr "Auto Pause"
 
-#: /src/trubbel/settings/channel/player.js:64
+#: /src/trubbel/settings/channel/player.js:112
 #, icu-message-format
 msgid ""
 "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
 "option2"
 msgstr "Auto resume/unmute"
 
-#: /src/trubbel/settings/channel/player.js:64
+#: /src/trubbel/settings/channel/player.js:112
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute_"
 "option2.description"
 msgstr "This will automatically resume or unmute the livestream when you go back."
 
-#: /src/trubbel/settings/channel/player.js:36
+#: /src/trubbel/settings/channel/player.js:84
 #, icu-message-format, md-text
 msgid ""
 "setting.entry.addon.trubbel.channel.player.livestream.auto_pause_mute."
@@ -2468,6 +2616,32 @@ msgid ""
 msgstr ""
 "Automatically mute or pause the livestream when browsing the **Home**, "
 "**About**, **Schedule**, or **Videos**-tabs."
+
+#: /src/trubbel/settings/channel/player.js:126
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.quality.always_best"
+msgstr "Always Best Quality"
+
+#: /src/trubbel/settings/channel/player.js:126
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.quality.always_best.description"
+msgstr ""
+"Keep the player on the best available quality.\n"
+"\n"
+"Channels with a quality set in **Channel-Specific Settings** uses that "
+"instead."
+
+#: /src/trubbel/settings/channel/player.js:139
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.quality.keep_visible"
+msgstr "Keep Quality in Background Tabs (experimental)"
+
+#: /src/trubbel/settings/channel/player.js:139
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.quality.keep_visible.description"
+msgstr ""
+"Stop Twitch from lowering the stream quality when the tab or window isn't "
+"active."
 
 #: /src/trubbel/settings/channel/vods.js:24
 #, icu-message-format
