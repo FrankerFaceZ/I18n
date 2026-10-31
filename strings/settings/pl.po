@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-13 06:15+0000\n"
-"Last-Translator: Łukasz Ordon <lukaszordon21@gmail.com>\n"
+"PO-Revision-Date: 2026-10-31 03:06+0000\n"
+"Last-Translator: Konrad Lesiak <lesiugrafika@gmail.com>\n"
 "Language-Team: Polish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/pl/>\n"
 "Language: pl\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "addon.author"
 msgstr "Stworzona przez: {author}"
@@ -368,10 +368,10 @@ msgid "setting.actions.appearance.image"
 msgstr "Obraz"
 
 msgid "setting.actions.appearance.text"
-msgstr "Text"
+msgstr "Tekst"
 
 msgid "setting.actions.chat"
-msgstr "Komenda czatu"
+msgstr "Komenda Czatu"
 
 msgid "setting.actions.color"
 msgstr "Kolor"
@@ -4569,3 +4569,132 @@ msgstr "Wyróżnienia użytkowników"
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.highlight.badges"
 msgstr "Odznaki"
+
+#: /src/modules/main_menu/components/addon.vue:156
+#, icu-message-format
+msgid "addon.changelog"
+msgstr "Lista zmian"
+
+#: /src/modules/main_menu/components/addon-list.vue:91
+#, icu-message-format
+msgid "addon.displaying.filtered"
+msgstr ""
+"Widoczne dodatki są filtrowane według wyników wyszukiwania. Wyczyść je, aby "
+"wyświetlić wszystkie dostępne dodatki."
+
+#: /src/modules/main_menu/components/addon.vue:12
+#, icu-message-format
+msgid "addon.external"
+msgstr "Zewnętrzne"
+
+#: /src/modules/main_menu/components/addon.vue:92
+#, icu-message-format
+msgid "addon.external.description"
+msgstr ""
+"Ten dodatek został wczytany przez zewnętrzny skrypt i nie można go tutaj "
+"wyłączyć."
+
+#: /src/modules/main_menu/components/addon-list.vue:33
+#, icu-message-format
+msgid "addon.filter-all"
+msgstr "Wszyscy"
+
+#: /src/modules/main_menu/components/addon-list.vue:28
+#, icu-message-format
+msgid "addon.filter-all.tooltip"
+msgstr "Wyświetl wszystkie dodatki"
+
+#: /src/modules/main_menu/components/addon-list.vue:51
+#, icu-message-format
+msgid "addon.filter-disabled"
+msgstr "Wyłączone"
+
+#: /src/modules/main_menu/components/addon-list.vue:46
+#, icu-message-format
+msgid "addon.filter-disabled.tooltip"
+msgstr "Wyświetl tylko wyłączone dodatki"
+
+#: /src/modules/main_menu/components/addon-list.vue:37
+#, icu-message-format
+msgid "addon.filter-enabled.tooltip"
+msgstr "Wyświetl tylko włączone dodatki"
+
+#: /src/modules/main_menu/components/addon-list.vue:22
+#, icu-message-format
+msgid "addon.filter-label"
+msgstr "Filtruj według"
+
+#: /src/modules/main_menu/components/addon.vue:45
+#, icu-message-format
+msgid "addon.maintainer"
+msgstr "Opiekun: {maintainer}"
+
+#: /src/modules/main_menu/components/addon.vue:209
+#, icu-message-format
+msgid "addon.no-desc"
+msgstr "*Brak opisu.*"
+
+#: /src/modules/main_menu/components/addon-list.vue:15
+#, icu-message-format
+msgid "addon.refresh"
+msgstr "Odśwież"
+
+#: /src/modules/main_menu/components/addon-list.vue:4
+#, icu-message-format
+msgid "addon.refresh-needed"
+msgstr "Musisz odświeżyć strony Twitcha, aby niektóre zmiany weszły w życie."
+
+#: /src/modules/main_menu/components/addon.vue:118
+#, icu-message-format
+msgid "addon.reload"
+msgstr "Przeładuj"
+
+#: /src/modules/main_menu/components/addon.vue:8
+#, icu-message-format
+msgid "addon.reloading"
+msgstr "Przeładowywanie"
+
+#: /src/modules/main_menu/components/addon-list.vue:66
+#, icu-message-format
+msgid "addon.sort-create-asc"
+msgstr "Utworzone (Najstarsze)"
+
+#: /src/modules/main_menu/components/addon-list.vue:65
+#, icu-message-format
+msgid "addon.sort-create-desc"
+msgstr "Utworzone (Najnowsze)"
+
+#: /src/modules/main_menu/components/addon-list.vue:54
+#, icu-message-format
+msgid "addon.sort-label"
+msgstr "Sortuj według"
+
+#: /src/modules/main_menu/components/addon-list.vue:61
+#, icu-message-format
+msgid "addon.sort-name-asc"
+msgstr "Nazwa (A–Z)"
+
+#: /src/modules/main_menu/components/addon-list.vue:62
+#, icu-message-format
+msgid "addon.sort-name-desc"
+msgstr "Nazwa (Z-A)"
+
+#: /src/modules/main_menu/components/addon-list.vue:64
+#, icu-message-format
+msgid "addon.sort-update-asc"
+msgstr "Zaktualizowane (Najstarsze)"
+
+#: /src/modules/main_menu/components/addon-list.vue:63
+#, icu-message-format
+msgid "addon.sort-update-desc"
+msgstr "Zaktualizowane (Najnowsze)"
+
+#: /src/modules/chat/actions/renderers.jsx:44
+#, icu-message-format
+msgid "setting.actions.appearance.emote"
+msgstr "Emotikon"
+
+#: /src/modules/chat/actions/components/edit-chat.vue:43
+#, icu-message-format
+msgid "setting.actions.chat.target"
+msgstr "Kanał Docelowy"
