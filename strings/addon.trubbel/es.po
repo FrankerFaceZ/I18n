@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-11-02 01:55+0000\n"
+"PO-Revision-Date: 2026-11-02 08:05+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -2835,7 +2835,7 @@ msgstr ""
 #: /src/trubbel/settings/channel/player.js:21
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.player.auto_reset"
-msgstr "Recargar automáticamente al detectar errores"
+msgstr "Reiniciar automáticamente al detectar errores"
 
 #: /src/trubbel/settings/channel/player.js:21
 #, icu-message-format, md-text
@@ -3738,3 +3738,107 @@ msgid ""
 "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order."
 "values.top"
 msgstr "Superior"
+
+#: /src/trubbel/settings/channel/player.js:41
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.channel_specific.enabled"
+msgstr "Activar ajustes específicos por canal"
+
+#: /src/trubbel/settings/channel/player.js:41
+#: /src/trubbel/settings/channel/player.js:54
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.channel_specific"
+msgstr "Específico por canal"
+
+#: /src/trubbel/settings/channel/player.js:41
+#, icu-message-format, md-text
+msgid ""
+"setting.entry.addon.trubbel.channel.player.channel_specific.enabled."
+"description"
+msgstr ""
+"Aplica automáticamente configuraciones personalizadas de volumen, calidad, "
+"compresor de audio y visibilidad del chat para los canales seleccionados.\n"
+"\n"
+"Los ajustes se aplican cuando comienza la reproducción del stream de un "
+"canal, y el volumen y la calidad se aplican de nuevo si se recarga el "
+"reproductor."
+
+#: /src/trubbel/settings/channel/player.js:54
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.channel_specific.manage"
+msgstr "Administrar ajustes por canal"
+
+#: /src/trubbel/settings/channel/player.js:69
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.disable_hotkeys"
+msgstr "Desactivar atajos de teclado del reproductor"
+
+#: /src/trubbel/settings/channel/player.js:69
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.disable_hotkeys.description"
+msgstr ""
+"Evita que los atajos de teclado del reproductor de Twitch funcionen en las "
+"transmisiones en vivo cuando el chat no está enfocado.\n"
+"\n"
+"Esto incluye `Espacio`/`K` (reproducir/pausar), `M` (silenciar), `F` "
+"(pantalla completa), `J`/`L`/`←`/`→` (avanzar o retroceder), `Shift+↑`/"
+"`Shift+↓` (volumen), `,`/`.` (velocidad de reproducción), `Esc` y `?` (panel "
+"de atajos)."
+
+#: /src/trubbel/settings/channel/player.js:167
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.latency_reset"
+msgstr "Activar reinicio basado en la latencia"
+
+#: /src/trubbel/settings/channel/player.js:167
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.latency_reset.description"
+msgstr ""
+"Recarga automáticamente el reproductor cuando te quedas demasiado atrás del "
+"directo: más de **10 segundos** en streams con baja latencia, o más de **15 "
+"segundos** en streams con latencia normal."
+
+#: /src/trubbel/settings/channel/player.js:126
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.quality.always_best"
+msgstr "Siempre la mejor calidad"
+
+#: /src/trubbel/settings/channel/player.js:126
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.quality.always_best.description"
+msgstr ""
+"Mantiene el reproductor en la mejor calidad disponible.\n"
+"\n"
+"Los canales que tengan una calidad configurada en **Ajustes específicos por "
+"canal** usarán esa en su lugar."
+
+#: /src/trubbel/settings/channel/player.js:139
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.player.quality.keep_visible"
+msgstr "Mantener la calidad en pestañas en segundo plano (experimental)"
+
+#: /src/trubbel/settings/channel/player.js:139
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.quality.keep_visible.description"
+msgstr ""
+"Evita que Twitch reduzca la calidad del stream cuando la pestaña o la "
+"ventana no está activa."
+
+#: /src/trubbel/settings/channel/player.js:154
+#: /src/trubbel/settings/channel/player.js:167
+#, icu-message-format
+msgid "setting.add_ons.trubbel_s_utilities.channel.player.reset"
+msgstr "Reinicio"
+
+#: /src/trubbel/settings/channel/player.js:26
+#, icu-message-format, md-text
+msgid "setting.entry.addon.trubbel.channel.player.ads.mute.description"
+msgstr ""
+"Silencia automáticamente el reproductor cuando comienza una pausa "
+"publicitaria y vuelve a activar el sonido cuando termina.\n"
+"\n"
+"Si ya estaba silenciado, o vuelves a activar el sonido manualmente durante "
+"el anuncio, no se realizará ningún cambio.\n"
+"\n"
+"**Nota:** Esta función depende de los eventos de pausa publicitaria del "
+"reproductor, que pueden no activarse para todos los tipos de anuncios."
