@@ -4,7 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-11-01 09:02+0000\n"
+"PO-Revision-Date: 2026-11-02 01:50+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addontrubbel/es/>\n"
@@ -3710,3 +3710,8 @@ msgstr "Ocultar primer aniversario de stream"
 #, icu-message-format
 msgid "setting.entry.addon.trubbel.channel.player.ads.mute"
 msgstr "Silenciar durante los anuncios"
+
+#: /src/trubbel/settings/channel/chat.js:837
+#, icu-message-format
+msgid "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order"
+msgstr "Posición del mensaje más reciente"
