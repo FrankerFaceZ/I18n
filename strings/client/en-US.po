@@ -462,7 +462,7 @@ msgstr "Blocked Term"
 msgid "chat.ftc-message"
 msgstr "First Time Chatter"
 
-#: /src/modules/chat/tokenizers.jsx:2285
+#: /src/modules/chat/tokenizers.jsx:2297
 #, icu-message-format
 msgid "chat.gif.report"
 msgstr "Report GIF"
@@ -1120,6 +1120,11 @@ msgstr "Travel & Places"
 msgid "emote_menu.prime"
 msgstr "Prime"
 
+#: /src/modules/emote_card/components/card.vue:89
+#, icu-message-format
+msgid "emote-card.aliases"
+msgstr "Aliases: {aliases}"
+
 #: /src/modules/emote_card/components/card.vue:72
 #: /src/modules/emote_card/components/modifiers.vue:76
 #, icu-message-format
@@ -1145,8 +1150,8 @@ msgstr ""
 "Use {count, plural, one {# more bit} other {# more bits} } in {user}'s "
 "channel to permanently unlock this emote reward."
 
-#: /src/modules/emote_card/components/card.vue:104
-#: /src/modules/emote_card/components/card.vue:105
+#: /src/modules/emote_card/components/card.vue:114
+#: /src/modules/emote_card/components/card.vue:115
 #: /src/modules/emote_card/components/report-form.vue:39
 #: /src/modules/link_card/components/card.vue:100
 #: /src/modules/link_card/components/card.vue:99
@@ -1159,7 +1164,7 @@ msgstr "Close"
 msgid "emote-card.error"
 msgstr "There was an error loading data."
 
-#: /src/modules/emote_card/components/card.vue:237
+#: /src/modules/emote_card/components/card.vue:247
 #, icu-message-format
 msgid "emote-card.fav"
 msgstr "Favorite This Emote"
@@ -1201,8 +1206,8 @@ msgstr "Manage My Collections"
 msgid "emote-card.modifiers"
 msgstr "Modifiers"
 
-#: /src/modules/emote_card/components/card.vue:119
-#: /src/modules/emote_card/components/card.vue:120
+#: /src/modules/emote_card/components/card.vue:129
+#: /src/modules/emote_card/components/card.vue:130
 #: /src/modules/link_card/components/card.vue:47
 #: /src/modules/link_card/components/card.vue:48
 #, icu-message-format
@@ -1222,7 +1227,7 @@ msgstr "Owner: {owner}"
 
 #: /src/modules/emote_card/components/report-form.vue:71
 #: /src/modules/emote_card/index.jsx:290
-#: /src/modules/emote_card/index.jsx:442
+#: /src/modules/emote_card/index.jsx:443
 #, icu-message-format
 msgid "emote-card.report"
 msgstr "Report Emote"
@@ -1318,12 +1323,12 @@ msgstr ""
 "{emotes, plural, one {# more emote} other {# more of their emotes} }, "
 "including:"
 
-#: /src/modules/emote_card/index.jsx:450
+#: /src/modules/emote_card/index.jsx:451
 #, icu-message-format
 msgid "emote-card.view-external"
 msgstr "View on {source}"
 
-#: /src/modules/emote_card/index.jsx:435
+#: /src/modules/emote_card/index.jsx:436
 #, icu-message-format
 msgid "emote-card.view-on-ffz"
 msgstr "View on FrankerFaceZ"
@@ -1632,21 +1637,21 @@ msgstr "Visible"
 msgid "emote-source.unknown"
 msgstr "Unknown ({id})"
 
-#: /src/modules/chat/emotes.js:1114
+#: /src/modules/chat/emotes.js:1218
 #, icu-message-format
 msgid "emote-updates.added"
 msgstr ""
 "The {count, plural, one {emote {emotes} has} other {emotes {emotes} have}} "
 "been added to {set}."
 
-#: /src/modules/chat/emotes.js:1121
+#: /src/modules/chat/emotes.js:1225
 #, icu-message-format
 msgid "emote-updates.modified"
 msgstr ""
 "The {count, plural, one {emote {emotes} has} other {emotes {emotes} have}} "
 "been updated in {set}."
 
-#: /src/modules/chat/emotes.js:1128
+#: /src/modules/chat/emotes.js:1232
 #, icu-message-format
 msgid "emote-updates.removed"
 msgstr ""
@@ -1659,7 +1664,7 @@ msgstr ""
 msgid "emote.2fa"
 msgstr "Twitch 2FA Emote"
 
-#: /src/modules/chat/tokenizers.jsx:1787
+#: /src/modules/chat/tokenizers.jsx:1795
 #, icu-message-format
 msgid "emote.artist"
 msgstr "Artist: {artist}"
@@ -1699,13 +1704,14 @@ msgstr "Twitch Global"
 msgid "emote.limited"
 msgstr "Limited-Time Only Emote"
 
-#: /src/modules/chat/tokenizers.jsx:1591
+#: /src/modules/chat/tokenizers.jsx:1593
+#: /src/modules/chat/tokenizers.jsx:1599
 #: /src/modules/emote_card/components/card.vue:46
 #, icu-message-format
 msgid "emote.original-name"
 msgstr "Name: {name}"
 
-#: /src/modules/chat/tokenizers.jsx:1597
+#: /src/modules/chat/tokenizers.jsx:1605
 #, icu-message-format, lp-defaults:"{\"owner\":\"Dubhzo\"}"
 msgid "emote.owner"
 msgstr "By: {owner}"
@@ -2544,13 +2550,13 @@ msgstr "I do not accept."
 msgid "tooltip.email-link"
 msgstr "E-Mail {address}"
 
-#: /src/modules/chat/tokenizers.jsx:1753
+#: /src/modules/chat/tokenizers.jsx:1761
 #: /src/modules/emote_card/index.jsx:390
 #, icu-message-format, lp-defaults:"{\"category\":\"Smileys & People\"}"
 msgid "tooltip.emoji"
 msgstr "Emoji - {category}"
 
-#: /src/modules/chat/tokenizers.jsx:1772
+#: /src/modules/chat/tokenizers.jsx:1780
 #, icu-message-format, lp-defaults:"{\"name\":\"6Head\"}"
 msgid "tooltip.emote"
 msgstr "Emote: {name}"

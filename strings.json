@@ -11519,7 +11519,7 @@
 			"id": "chat.gif.report",
 			"doc": "client",
 			"default": "Report GIF",
-			"source": "/src/modules/chat/tokenizers.jsx:2285",
+			"source": "/src/modules/chat/tokenizers.jsx:2297",
 			"context": null
 		},
 		"chat.hype-chat": {
@@ -12567,6 +12567,16 @@
 			"context": null,
 			"revision": 1
 		},
+		"emote-card.aliases": {
+			"id": "emote-card.aliases",
+			"doc": "client",
+			"default": "Aliases: {aliases}",
+			"source": "/src/modules/emote_card/components/card.vue:89",
+			"context": null,
+			"placeholders": [
+				"aliases"
+			]
+		},
 		"emote-card.artist": {
 			"id": "emote-card.artist",
 			"doc": "client",
@@ -12614,7 +12624,7 @@
 			"id": "emote-card.close",
 			"doc": "client",
 			"default": "Close",
-			"source": "/src/modules/emote_card/components/card.vue:104\n/src/modules/emote_card/components/card.vue:105\n/src/modules/emote_card/components/report-form.vue:39\n/src/modules/link_card/components/card.vue:100\n/src/modules/link_card/components/card.vue:99",
+			"source": "/src/modules/emote_card/components/card.vue:114\n/src/modules/emote_card/components/card.vue:115\n/src/modules/emote_card/components/report-form.vue:39\n/src/modules/link_card/components/card.vue:100\n/src/modules/link_card/components/card.vue:99",
 			"context": null
 		},
 		"emote-card.error": {
@@ -12628,7 +12638,7 @@
 			"id": "emote-card.fav",
 			"doc": "client",
 			"default": "Favorite This Emote",
-			"source": "/src/modules/emote_card/components/card.vue:237",
+			"source": "/src/modules/emote_card/components/card.vue:247",
 			"context": null
 		},
 		"emote-card.follow.unlocked": {
@@ -12691,7 +12701,7 @@
 			"id": "emote-card.more",
 			"doc": "client",
 			"default": "More",
-			"source": "/src/modules/emote_card/components/card.vue:119\n/src/modules/emote_card/components/card.vue:120\n/src/modules/link_card/components/card.vue:47\n/src/modules/link_card/components/card.vue:48",
+			"source": "/src/modules/emote_card/components/card.vue:129\n/src/modules/emote_card/components/card.vue:130\n/src/modules/link_card/components/card.vue:47\n/src/modules/link_card/components/card.vue:48",
 			"context": null
 		},
 		"emote-card.not-in-collection": {
@@ -12715,7 +12725,7 @@
 			"id": "emote-card.report",
 			"doc": "client",
 			"default": "Report Emote",
-			"source": "/src/modules/emote_card/components/report-form.vue:71\n/src/modules/emote_card/index.jsx:290\n/src/modules/emote_card/index.jsx:442",
+			"source": "/src/modules/emote_card/components/report-form.vue:71\n/src/modules/emote_card/index.jsx:290\n/src/modules/emote_card/index.jsx:443",
 			"context": null
 		},
 		"emote-card.report-details": {
@@ -12856,7 +12866,7 @@
 			"id": "emote-card.view-external",
 			"doc": "client",
 			"default": "View on {source}",
-			"source": "/src/modules/emote_card/index.jsx:450",
+			"source": "/src/modules/emote_card/index.jsx:451",
 			"context": null,
 			"placeholders": [
 				"source"
@@ -12866,7 +12876,7 @@
 			"id": "emote-card.view-on-ffz",
 			"doc": "client",
 			"default": "View on FrankerFaceZ",
-			"source": "/src/modules/emote_card/index.jsx:435",
+			"source": "/src/modules/emote_card/index.jsx:436",
 			"context": null
 		},
 		"emote-menu.channel": {
@@ -13349,7 +13359,7 @@
 			"id": "emote-updates.added",
 			"doc": "client",
 			"default": "The {count, plural, one {emote {emotes} has} other {emotes {emotes} have}} been added to {set}.",
-			"source": "/src/modules/chat/emotes.js:1114",
+			"source": "/src/modules/chat/emotes.js:1218",
 			"context": null,
 			"placeholders": [
 				"count",
@@ -13361,7 +13371,7 @@
 			"id": "emote-updates.modified",
 			"doc": "client",
 			"default": "The {count, plural, one {emote {emotes} has} other {emotes {emotes} have}} been updated in {set}.",
-			"source": "/src/modules/chat/emotes.js:1121",
+			"source": "/src/modules/chat/emotes.js:1225",
 			"context": null,
 			"placeholders": [
 				"count",
@@ -13373,7 +13383,7 @@
 			"id": "emote-updates.removed",
 			"doc": "client",
 			"default": "The {count, plural, one {emote {emotes} has} other {emotes {emotes} have}} been removed from {set}.",
-			"source": "/src/modules/chat/emotes.js:1128",
+			"source": "/src/modules/chat/emotes.js:1232",
 			"context": null,
 			"placeholders": [
 				"count",
@@ -13393,7 +13403,7 @@
 			"id": "emote.artist",
 			"doc": "client",
 			"default": "Artist: {artist}",
-			"source": "/src/modules/chat/tokenizers.jsx:1787",
+			"source": "/src/modules/chat/tokenizers.jsx:1795",
 			"context": null,
 			"placeholders": [
 				"artist"
@@ -13457,7 +13467,7 @@
 			"id": "emote.original-name",
 			"doc": "client",
 			"default": "Name: {name}",
-			"source": "/src/modules/chat/tokenizers.jsx:1591\n/src/modules/emote_card/components/card.vue:46",
+			"source": "/src/modules/chat/tokenizers.jsx:1593\n/src/modules/chat/tokenizers.jsx:1599\n/src/modules/emote_card/components/card.vue:46",
 			"context": null,
 			"placeholders": [
 				"name"
@@ -13467,7 +13477,7 @@
 			"id": "emote.owner",
 			"doc": "client",
 			"default": "By: {owner}",
-			"source": "/src/modules/chat/tokenizers.jsx:1597",
+			"source": "/src/modules/chat/tokenizers.jsx:1605",
 			"context": "{\n    \"owner\": \"Dubhzo\"\n}",
 			"revision": 2,
 			"placeholders": [
@@ -14745,7 +14755,7 @@
 			"id": "tooltip.emoji",
 			"doc": "client",
 			"default": "Emoji - {category}",
-			"source": "/src/modules/chat/tokenizers.jsx:1753\n/src/modules/emote_card/index.jsx:390",
+			"source": "/src/modules/chat/tokenizers.jsx:1761\n/src/modules/emote_card/index.jsx:390",
 			"context": "{\"category\": \"Smileys & People\"}",
 			"revision": 2,
 			"placeholders": [
@@ -14756,7 +14766,7 @@
 			"id": "tooltip.emote",
 			"doc": "client",
 			"default": "Emote: {name}",
-			"source": "/src/modules/chat/tokenizers.jsx:1772",
+			"source": "/src/modules/chat/tokenizers.jsx:1780",
 			"context": "{\n    \"name\": \"6Head\"\n}",
 			"revision": 2,
 			"placeholders": [
@@ -18394,7 +18404,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19067,7 +19077,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19115,7 +19125,7 @@
 			"id": "setting.chat.appearance.emotes",
 			"doc": "settings",
 			"default": "Emotes",
-			"source": "/src/modules/chat/emotes.js:491\n/src/modules/chat/emotes.js:508\n/src/modules/chat/emotes.js:528\n/src/modules/chat/emotes.js:538\n/src/modules/chat/emotes.js:548\n/src/modules/chat/index.js:1176\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1176\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19225,7 +19235,7 @@
 			"id": "setting.chat.behavior",
 			"doc": "settings",
 			"default": "Behavior",
-			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emoji.js:94\n/src/modules/chat/emotes.js:558\n/src/modules/chat/emotes.js:568\n/src/modules/chat/emotes.js:577\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:331\n/src/modules/chat/index.js:347\n/src/modules/chat/index.js:364\n/src/modules/chat/index.js:415\n/src/modules/chat/index.js:424\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\n/src/sites/twitch-twilight/modules/chat/scroller.js:37\n/src/sites/twitch-twilight/modules/ch\nFFZ Control Center",
+			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emoji.js:94\n/src/modules/chat/emotes.js:561\n/src/modules/chat/emotes.js:571\n/src/modules/chat/emotes.js:580\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:331\n/src/modules/chat/index.js:347\n/src/modules/chat/index.js:364\n/src/modules/chat/index.js:415\n/src/modules/chat/index.js:424\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\n/src/sites/twitch-twilight/modules/chat/scroller.js:37\n/src/sites/twitch-twilight/modules/ch\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19248,7 +19258,7 @@
 			"id": "setting.chat.behavior.general",
 			"doc": "settings",
 			"default": "General",
-			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emotes.js:558\n/src/modules/chat/emotes.js:568\n/src/modules/chat/emotes.js:577\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\nFFZ Control Center",
+			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emotes.js:561\n/src/modules/chat/emotes.js:571\n/src/modules/chat/emotes.js:580\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19374,14 +19384,14 @@
 			"id": "setting.chat.emote_effects",
 			"doc": "settings",
 			"default": "Emote Effects",
-			"source": "/src/modules/chat/emotes.js:586",
+			"source": "/src/modules/chat/emotes.js:589",
 			"context": null
 		},
 		"setting.chat.emote_effects.general": {
 			"id": "setting.chat.emote_effects.general",
 			"doc": "settings",
 			"default": "General",
-			"source": "/src/modules/chat/emotes.js:586",
+			"source": "/src/modules/chat/emotes.js:589",
 			"context": null
 		},
 		"setting.chat.emote_menu": {
@@ -19420,7 +19430,7 @@
 			"id": "setting.chat.emote_priorities",
 			"doc": "settings",
 			"default": "Emote Priorities",
-			"source": "/src/modules/chat/emotes.js:482",
+			"source": "/src/modules/chat/emotes.js:485",
 			"context": null
 		},
 		"setting.chat.filtering": {
@@ -21523,7 +21533,7 @@
 			"id": "setting.entry.chat.click-emotes",
 			"doc": "settings",
 			"default": "Open emote information pages by Shift-Clicking them.",
-			"source": "/src/modules/chat/emotes.js:558\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:561\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21666,14 +21676,14 @@
 			"id": "setting.entry.chat.effects.enable",
 			"doc": "settings",
 			"default": "Enable the use of emote effects.",
-			"source": "/src/modules/chat/emotes.js:586",
+			"source": "/src/modules/chat/emotes.js:589",
 			"context": null
 		},
 		"setting.entry.chat.effects.enable.description": {
 			"id": "setting.entry.chat.effects.enable.description",
 			"doc": "settings",
 			"default": "Emote Effects are special effects that can be applied to some emotes using special modifiers.",
-			"source": "/src/modules/chat/emotes.js:586",
+			"source": "/src/modules/chat/emotes.js:589",
 			"context": null,
 			"markdown": true
 		},
@@ -21780,7 +21790,7 @@
 			"id": "setting.entry.chat.emote-dialogs",
 			"doc": "settings",
 			"default": "Open emote information cards for Twitch emotes by clicking them.",
-			"source": "/src/modules/chat/emotes.js:577\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:580\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22099,7 +22109,7 @@
 			"id": "setting.entry.chat.emotes.2x",
 			"doc": "settings",
 			"default": "Larger Emotes",
-			"source": "/src/modules/chat/emotes.js:508",
+			"source": "/src/modules/chat/emotes.js:511",
 			"context": null,
 			"revision": 1
 		},
@@ -22107,7 +22117,7 @@
 			"id": "setting.entry.chat.emotes.2x.description",
 			"doc": "settings",
 			"default": "This setting will make emotes appear twice as large in chat. It's good for use with larger fonts or just if you really like emotes.",
-			"source": "/src/modules/chat/emotes.js:508",
+			"source": "/src/modules/chat/emotes.js:511",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22116,35 +22126,35 @@
 			"id": "setting.entry.chat.emotes.2x.values.0",
 			"doc": "settings",
 			"default": "Disabled",
-			"source": "/src/modules/chat/emotes.js:521",
+			"source": "/src/modules/chat/emotes.js:524",
 			"context": null
 		},
 		"setting.entry.chat.emotes.2x.values.1": {
 			"id": "setting.entry.chat.emotes.2x.values.1",
 			"doc": "settings",
 			"default": "Emotes",
-			"source": "/src/modules/chat/emotes.js:522",
+			"source": "/src/modules/chat/emotes.js:525",
 			"context": null
 		},
 		"setting.entry.chat.emotes.2x.values.2": {
 			"id": "setting.entry.chat.emotes.2x.values.2",
 			"doc": "settings",
 			"default": "Emotes and Emoji",
-			"source": "/src/modules/chat/emotes.js:523",
+			"source": "/src/modules/chat/emotes.js:526",
 			"context": null
 		},
 		"setting.entry.chat.emotes.allow-gigantify": {
 			"id": "setting.entry.chat.emotes.allow-gigantify",
 			"doc": "settings",
 			"default": "Allow \"Gigantify an Emote\" Power-Up",
-			"source": "/src/modules/chat/emotes.js:538",
+			"source": "/src/modules/chat/emotes.js:541",
 			"context": null
 		},
 		"setting.entry.chat.emotes.allow-gigantify.description": {
 			"id": "setting.entry.chat.emotes.allow-gigantify.description",
 			"doc": "settings",
 			"default": "How big is too big? Giant? Disable this and the emotes will be displayed normally.",
-			"source": "/src/modules/chat/emotes.js:538",
+			"source": "/src/modules/chat/emotes.js:541",
 			"context": null,
 			"markdown": true
 		},
@@ -22193,7 +22203,7 @@
 			"id": "setting.entry.chat.emotes.enabled",
 			"doc": "settings",
 			"default": "Display Emotes",
-			"source": "/src/modules/chat/emotes.js:491",
+			"source": "/src/modules/chat/emotes.js:494",
 			"context": null,
 			"revision": 1
 		},
@@ -22201,7 +22211,7 @@
 			"id": "setting.entry.chat.emotes.enabled.description",
 			"doc": "settings",
 			"default": "If you do not wish to see emotes, you can disable them here.",
-			"source": "/src/modules/chat/emotes.js:491",
+			"source": "/src/modules/chat/emotes.js:494",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -22210,7 +22220,7 @@
 			"id": "setting.entry.chat.emotes.enabled.values.0",
 			"doc": "settings",
 			"default": "Disabled",
-			"source": "/src/modules/chat/emotes.js:501",
+			"source": "/src/modules/chat/emotes.js:504",
 			"context": null,
 			"revision": 1
 		},
@@ -22218,7 +22228,7 @@
 			"id": "setting.entry.chat.emotes.enabled.values.1",
 			"doc": "settings",
 			"default": "Twitch Only",
-			"source": "/src/modules/chat/emotes.js:502",
+			"source": "/src/modules/chat/emotes.js:505",
 			"context": null,
 			"revision": 1
 		},
@@ -22226,7 +22236,7 @@
 			"id": "setting.entry.chat.emotes.enabled.values.2",
 			"doc": "settings",
 			"default": "Enabled",
-			"source": "/src/modules/chat/emotes.js:503",
+			"source": "/src/modules/chat/emotes.js:506",
 			"context": null,
 			"revision": 1
 		},
@@ -22234,14 +22244,14 @@
 			"id": "setting.entry.chat.emotes.limit-size",
 			"doc": "settings",
 			"default": "Limit Native Emote Size",
-			"source": "/src/modules/chat/emotes.js:528\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:531\nFFZ Control Center",
 			"context": null
 		},
 		"setting.entry.chat.emotes.limit-size.description": {
 			"id": "setting.entry.chat.emotes.limit-size.description",
 			"doc": "settings",
 			"default": "Sometimes, really obnoxiously large emotes slip through the cracks and wind up on Twitch. This limits the size of Twitch emotes to mitigate the issue.",
-			"source": "/src/modules/chat/emotes.js:528\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:531\nFFZ Control Center",
 			"context": null,
 			"markdown": true
 		},
@@ -22659,7 +22669,7 @@
 			"id": "setting.entry.chat.fix-bad-emotes",
 			"doc": "settings",
 			"default": "Fix Bad Twitch Global Emotes",
-			"source": "/src/modules/chat/emotes.js:548\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:551\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -22667,7 +22677,7 @@
 			"id": "setting.entry.chat.fix-bad-emotes.description",
 			"doc": "settings",
 			"default": "Clean up the images for bad Twitch global emotes, removing white borders and solid backgrounds.",
-			"source": "/src/modules/chat/emotes.js:548\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:551\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -23658,7 +23668,7 @@
 			"id": "setting.entry.chat.sub-emotes",
 			"doc": "settings",
 			"default": "Open Twitch subscription pages by Shift-Clicking emotes when relevant.",
-			"source": "/src/modules/chat/emotes.js:568\nFFZ Control Center",
+			"source": "/src/modules/chat/emotes.js:571\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},

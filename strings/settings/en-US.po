@@ -1190,6 +1190,7 @@ msgctxt ""
 "/\n"
 "/\n"
 "/\n"
+"/\n"
 "FFZ Control Center"
 msgid "setting.appearance"
 msgstr "Appearance"
@@ -1812,11 +1813,11 @@ msgstr ""
 "you right-click a username in chat."
 
 #: /src/modules/chat/emoji.js:121
-#: /src/modules/chat/emotes.js:491
-#: /src/modules/chat/emotes.js:508
-#: /src/modules/chat/emotes.js:528
-#: /src/modules/chat/emotes.js:538
-#: /src/modules/chat/emotes.js:548
+#: /src/modules/chat/emotes.js:494
+#: /src/modules/chat/emotes.js:511
+#: /src/modules/chat/emotes.js:531
+#: /src/modules/chat/emotes.js:541
+#: /src/modules/chat/emotes.js:551
 #: /src/modules/chat/index.js:1100
 #: /src/modules/chat/index.js:1131
 #: /src/modules/chat/index.js:1143
@@ -1829,6 +1830,7 @@ msgstr ""
 #: /src/modules/chat/index.js:191
 #, icu-message-format
 msgctxt ""
+"/src\n"
 "/src\n"
 "/src\n"
 "/src\n"
@@ -1890,11 +1892,11 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emoji"
 msgstr "Emoji"
 
-#: /src/modules/chat/emotes.js:491
-#: /src/modules/chat/emotes.js:508
-#: /src/modules/chat/emotes.js:528
-#: /src/modules/chat/emotes.js:538
-#: /src/modules/chat/emotes.js:548
+#: /src/modules/chat/emotes.js:494
+#: /src/modules/chat/emotes.js:511
+#: /src/modules/chat/emotes.js:531
+#: /src/modules/chat/emotes.js:541
+#: /src/modules/chat/emotes.js:551
 #: /src/modules/chat/index.js:1176
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2012,9 +2014,9 @@ msgstr "Visibility"
 
 #: /src/load_tracker.ts:83
 #: /src/modules/chat/emoji.js:94
-#: /src/modules/chat/emotes.js:558
-#: /src/modules/chat/emotes.js:568
-#: /src/modules/chat/emotes.js:577
+#: /src/modules/chat/emotes.js:561
+#: /src/modules/chat/emotes.js:571
+#: /src/modules/chat/emotes.js:580
 #: /src/modules/chat/index.js:292
 #: /src/modules/chat/index.js:331
 #: /src/modules/chat/index.js:347
@@ -2047,9 +2049,9 @@ msgid "setting.chat.behavior.emoji"
 msgstr "Emoji"
 
 #: /src/load_tracker.ts:83
-#: /src/modules/chat/emotes.js:558
-#: /src/modules/chat/emotes.js:568
-#: /src/modules/chat/emotes.js:577
+#: /src/modules/chat/emotes.js:561
+#: /src/modules/chat/emotes.js:571
+#: /src/modules/chat/emotes.js:580
 #: /src/modules/chat/index.js:292
 #: /src/modules/chat/index.js:441
 #: /src/sites/twitch-twilight/modules/chat/index.js:713
@@ -2165,12 +2167,12 @@ msgstr "Appearance"
 msgid "setting.chat.drops.behavior"
 msgstr "Behavior"
 
-#: /src/modules/chat/emotes.js:586
+#: /src/modules/chat/emotes.js:589
 #, icu-message-format
 msgid "setting.chat.emote_effects"
 msgstr "Emote Effects"
 
-#: /src/modules/chat/emotes.js:586
+#: /src/modules/chat/emotes.js:589
 #, icu-message-format
 msgid "setting.chat.emote_effects.general"
 msgstr "General"
@@ -2222,7 +2224,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.emote_menu.sorting"
 msgstr "Sorting"
 
-#: /src/modules/chat/emotes.js:482
+#: /src/modules/chat/emotes.js:485
 #, icu-message-format
 msgid "setting.chat.emote_priorities"
 msgstr "Emote Priorities"
@@ -3956,7 +3958,7 @@ msgstr "All in One"
 msgid "setting.entry.chat.callouts.clip"
 msgstr "Allow the \"Chat seems active.\" clip suggestion to be displayed in chat."
 
-#: /src/modules/chat/emotes.js:558
+#: /src/modules/chat/emotes.js:561
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.click-emotes"
@@ -4055,12 +4057,12 @@ msgstr ""
 "complete one. Drops that are already available will not be claimed until a "
 "new one is earned."
 
-#: /src/modules/chat/emotes.js:586
+#: /src/modules/chat/emotes.js:589
 #, icu-message-format
 msgid "setting.entry.chat.effects.enable"
 msgstr "Enable the use of emote effects."
 
-#: /src/modules/chat/emotes.js:586
+#: /src/modules/chat/emotes.js:589
 #, icu-message-format, md-text
 msgid "setting.entry.chat.effects.enable.description"
 msgstr ""
@@ -4140,7 +4142,7 @@ msgstr "OpenMoji"
 msgid "setting.entry.chat.emoji.style.values.twitter"
 msgstr "Twitter (Twemoji)"
 
-#: /src/modules/chat/emotes.js:577
+#: /src/modules/chat/emotes.js:580
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emote-dialogs"
@@ -4369,39 +4371,39 @@ msgstr "Display emote preview tool-tips in the FFZ Emote Menu."
 msgid "setting.entry.chat.emote-menu.tooltips.description"
 msgstr "You may wish to disable this for performance reasons."
 
-#: /src/modules/chat/emotes.js:508
+#: /src/modules/chat/emotes.js:511
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x"
 msgstr "Larger Emotes"
 
-#: /src/modules/chat/emotes.js:508
+#: /src/modules/chat/emotes.js:511
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.2x.description"
 msgstr ""
 "This setting will make emotes appear twice as large in chat. It's good for "
 "use with larger fonts or just if you really like emotes."
 
-#: /src/modules/chat/emotes.js:521
+#: /src/modules/chat/emotes.js:524
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.0"
 msgstr "Disabled"
 
-#: /src/modules/chat/emotes.js:522
+#: /src/modules/chat/emotes.js:525
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.1"
 msgstr "Emotes"
 
-#: /src/modules/chat/emotes.js:523
+#: /src/modules/chat/emotes.js:526
 #, icu-message-format
 msgid "setting.entry.chat.emotes.2x.values.2"
 msgstr "Emotes and Emoji"
 
-#: /src/modules/chat/emotes.js:538
+#: /src/modules/chat/emotes.js:541
 #, icu-message-format
 msgid "setting.entry.chat.emotes.allow-gigantify"
 msgstr "Allow \"Gigantify an Emote\" Power-Up"
 
-#: /src/modules/chat/emotes.js:538
+#: /src/modules/chat/emotes.js:541
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.allow-gigantify.description"
 msgstr ""
@@ -4438,38 +4440,38 @@ msgstr "Enabled"
 msgid "setting.entry.chat.emotes.animated.values.2"
 msgstr "Enable on Hover"
 
-#: /src/modules/chat/emotes.js:491
+#: /src/modules/chat/emotes.js:494
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled"
 msgstr "Display Emotes"
 
-#: /src/modules/chat/emotes.js:491
+#: /src/modules/chat/emotes.js:494
 #, icu-message-format, md-text
 msgid "setting.entry.chat.emotes.enabled.description"
 msgstr "If you do not wish to see emotes, you can disable them here."
 
-#: /src/modules/chat/emotes.js:501
+#: /src/modules/chat/emotes.js:504
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.0"
 msgstr "Disabled"
 
-#: /src/modules/chat/emotes.js:502
+#: /src/modules/chat/emotes.js:505
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.1"
 msgstr "Twitch Only"
 
-#: /src/modules/chat/emotes.js:503
+#: /src/modules/chat/emotes.js:506
 #, icu-message-format
 msgid "setting.entry.chat.emotes.enabled.values.2"
 msgstr "Enabled"
 
-#: /src/modules/chat/emotes.js:528
+#: /src/modules/chat/emotes.js:531
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.limit-size"
 msgstr "Limit Native Emote Size"
 
-#: /src/modules/chat/emotes.js:528
+#: /src/modules/chat/emotes.js:531
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emotes.limit-size.description"
@@ -4778,13 +4780,13 @@ msgstr "Inline"
 msgid "setting.entry.chat.filtering.show-reasons.values.false"
 msgstr "Disabled"
 
-#: /src/modules/chat/emotes.js:548
+#: /src/modules/chat/emotes.js:551
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.fix-bad-emotes"
 msgstr "Fix Bad Twitch Global Emotes"
 
-#: /src/modules/chat/emotes.js:548
+#: /src/modules/chat/emotes.js:551
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.fix-bad-emotes.description"
@@ -5520,7 +5522,7 @@ msgstr ""
 "Display the source channel of a chat message when hovering over the "
 "poster's username."
 
-#: /src/modules/chat/emotes.js:568
+#: /src/modules/chat/emotes.js:571
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.sub-emotes"
