@@ -33,6 +33,12 @@ jobs:
     - name: Build
       run: pnpm build
 
+    - name: Archive Build
+      uses: actions/upload-artifact@v4
+      with:
+        name: locale
+        path: dist
+
     - name: Deploy (Clean)
       uses: garygrossgarten/github-action-ssh@release
       with:
@@ -57,3 +63,29 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.SSH_USERNAME }}
         privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+
+  # The new server.
+  deploy-new-server:
+    needs: build
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download the Build
+      uses: actions/download-artifact@v4
+      with:
+        name: locale
+        path: dist
+
+    - name: Deploy
+      env:
+        DEPLOY_HOST: ${{ secrets.FFZ_DEPLOY_HOST }}
+        DEPLOY_KEY: ${{ secrets.FFZ_DEPLOY_KEY }}
+        DEPLOY_KNOWN_HOSTS: ${{ secrets.FFZ_DEPLOY_KNOWN_HOSTS }}
+      run: |
+        install -m 700 -d ~/.ssh
+        printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/ffz_deploy
+        chmod 600 ~/.ssh/ffz_deploy
+        printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+        tar -czf - -C dist . | ssh -i ~/.ssh/ffz_deploy -o IdentitiesOnly=yes \
+          -o StrictHostKeyChecking=yes -o BatchMode=yes \
+          "githubci@$DEPLOY_HOST" deploy locale
