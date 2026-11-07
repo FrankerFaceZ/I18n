@@ -12883,7 +12883,7 @@
 			"id": "emote-menu.channel",
 			"doc": "client",
 			"default": "Channel",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3247",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3248",
 			"context": null,
 			"revision": 2
 		},
@@ -12899,14 +12899,14 @@
 			"id": "emote-menu.effects",
 			"doc": "client",
 			"default": "Emote Effects",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3261",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3262",
 			"context": null
 		},
 		"emote-menu.emoji": {
 			"id": "emote-menu.emoji",
 			"doc": "client",
 			"default": "Emoji",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2048\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3290",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2048\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3291",
 			"context": null,
 			"revision": 2
 		},
@@ -12965,7 +12965,7 @@
 			"id": "emote-menu.empty",
 			"doc": "client",
 			"default": "There's nothing here.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3016",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3017",
 			"context": null,
 			"revision": 1
 		},
@@ -12973,7 +12973,7 @@
 			"id": "emote-menu.empty-favs",
 			"doc": "client",
 			"default": "You don't have any favorite emotes. To favorite an emote, find it and {hotkey}-Click it.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3015",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3016",
 			"context": "{\n    \"hotkey\": \"Ctrl\"\n}",
 			"revision": 2,
 			"placeholders": [
@@ -12984,7 +12984,7 @@
 			"id": "emote-menu.empty-search",
 			"doc": "client",
 			"default": "There are no matching emotes.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3013",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3014",
 			"context": null,
 			"revision": 1
 		},
@@ -12992,7 +12992,7 @@
 			"id": "emote-menu.error",
 			"doc": "client",
 			"default": "There was an error rendering this menu.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1401\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2994",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1401\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2995",
 			"context": null,
 			"revision": 1
 		},
@@ -13008,7 +13008,7 @@
 			"id": "emote-menu.favorites",
 			"doc": "client",
 			"default": "Favorites",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2095\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3233",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2095\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3234",
 			"context": null,
 			"revision": 2
 		},
@@ -13090,7 +13090,7 @@
 			"id": "emote-menu.gifs",
 			"doc": "client",
 			"default": "GIFs",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3304",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3305",
 			"context": null
 		},
 		"emote-menu.global": {
@@ -13113,7 +13113,7 @@
 			"id": "emote-menu.loading",
 			"doc": "client",
 			"default": "Loading...",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3023",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3024",
 			"context": null,
 			"revision": 2
 		},
@@ -13137,7 +13137,7 @@
 			"id": "emote-menu.my-emotes",
 			"doc": "client",
 			"default": "My Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3276",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3277",
 			"context": null,
 			"revision": 2
 		},
@@ -13169,7 +13169,7 @@
 			"id": "emote-menu.search",
 			"doc": "client",
 			"default": "Search for Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3191",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3192",
 			"context": null,
 			"revision": 2
 		},
@@ -13177,7 +13177,7 @@
 			"id": "emote-menu.search-emoji",
 			"doc": "client",
 			"default": "Search for Emoji",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3190",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3191",
 			"context": null,
 			"revision": 2
 		},
@@ -13185,14 +13185,14 @@
 			"id": "emote-menu.search-gifs",
 			"doc": "client",
 			"default": "Search GIPHY",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3188",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3189",
 			"context": null
 		},
 		"emote-menu.settings": {
 			"id": "emote-menu.settings",
 			"doc": "client",
 			"default": "Open Settings",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3168\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3317",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3169\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3318",
 			"context": null,
 			"revision": 1
 		},
@@ -13282,7 +13282,7 @@
 			"id": "emote-menu.toggle-hide.info",
 			"doc": "client",
 			"default": "Emote Visibility Control allows you to hide emotes from your emote menu, either individually or by set. With Emote Visibility Control enabled, just click an emote to hide or unhide it. Please note that you will still see the emotes in chat if someone uses them, but they won't appear in your emote menu.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3220",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3221",
 			"context": null,
 			"revision": 1
 		},
@@ -13290,7 +13290,7 @@
 			"id": "emote-menu.toggle-hide.off",
 			"doc": "client",
 			"default": "Emote Visibility Control",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3217",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3218",
 			"context": null,
 			"revision": 1
 		},
@@ -13298,7 +13298,7 @@
 			"id": "emote-menu.toggle-hide.on",
 			"doc": "client",
 			"default": "Exit Emote Visibility Control",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3216",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3217",
 			"context": null,
 			"revision": 1
 		},
@@ -13503,7 +13503,7 @@
 			"id": "error.try-again",
 			"doc": "client",
 			"default": "Try Again",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2998",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2999",
 			"context": null,
 			"revision": 1
 		},
@@ -18404,7 +18404,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19077,7 +19077,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
