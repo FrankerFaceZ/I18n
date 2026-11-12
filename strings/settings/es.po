@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-10-22 15:17+0000\n"
+"PO-Revision-Date: 2026-11-12 17:17+0000\n"
 "Last-Translator: Forero-0 <forero_0@users.noreply.weblate.frankerfacez.com>\n"
 "Language-Team: Spanish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/settings/es/>\n"
@@ -7593,7 +7593,7 @@ msgstr "Sin fondo"
 #: /src/modules/chat/index.js:1231
 #, icu-message-format
 msgid "setting.entry.chat.gifs.enabled"
-msgstr "Mostrar GIFs en el chat."
+msgstr "Mostrar GIFs"
 
 #: /src/modules/chat/index.js:1231
 #, icu-message-format, md-text
@@ -7602,6 +7602,9 @@ msgstr ""
 "Los suscriptores de Twitch (Nivel 2 y 3) pueden enviar [GIFs animados]"
 "(https://help.twitch.tv/s/article/gif-keyboard). Cuando esto está "
 "deshabilitado, esos mensajes se muestran como un enlace en su lugar.\n"
+"\n"
+"Si no se modifica esta opción, se respetará la configuración de Twitch "
+"\"Mostrar GIFs en el chat\".\n"
 "\n"
 "**Nota:** Esto no funciona cuando está activada la opción \"**Mostrar todos "
 "los emoticonos en una pestaña**\"."
@@ -8977,3 +8980,122 @@ msgctxt ""
 "FFZ Control Center"
 msgid "setting.appearance"
 msgstr "Apariencia"
+
+#: /src/i18n.js:143
+#: /src/i18n.js:176
+#: /src/i18n.js:206
+#: /src/i18n.js:236
+#: /src/modules/main_menu/index.js:218
+#: /src/sites/twitch-twilight/modules/bits_button.js:19
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:146
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:155
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:184
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:194
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:204
+#: /src/sites/twitch-twilight/modules/css_tweaks/index.js:222
+#, icu-message-format
+msgctxt ""
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"/\n"
+"FFZ Control Center"
+msgid "setting.appearance"
+msgstr "Apariencia"
+
+#: /src/modules/chat/emoji.js:121
+#: /src/modules/chat/emotes.js:494
+#: /src/modules/chat/emotes.js:511
+#: /src/modules/chat/emotes.js:531
+#: /src/modules/chat/emotes.js:541
+#: /src/modules/chat/emotes.js:551
+#: /src/modules/chat/index.js:1100
+#: /src/modules/chat/index.js:1131
+#: /src/modules/chat/index.js:1143
+#: /src/modules/chat/index.js:1176
+#: /src/modules/chat/index.js:1231
+#: /src/modules/chat/index.js:1253
+#: /src/modules/chat/index.js:1282
+#: /src/modules/chat/index.js:1298
+#: /src/modules/chat/index.js:167
+#: /src/modules/chat/index.js:179
+#, icu-message-format
+msgctxt ""
+"/sr\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"/src\n"
+"FFZ Control Center"
+msgid "setting.chat.appearance"
+msgstr "Apariencia"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:535
+#, icu-message-format
+msgid "setting.entry.chat.banners.last-events"
+msgstr "Permite mostrar el feed de actividades de soporte en el chat."
+
+#: /src/modules/chat/index.js:1253
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated"
+msgstr "GIFs animados"
+
+#: /src/modules/chat/index.js:1253
+#, icu-message-format, md-text
+msgid "setting.entry.chat.gifs.animated.description"
+msgstr ""
+"Controla si se permite la reproducción de GIFs en el chat. Cuando se "
+"establece en `Desactivado`, los GIFs se mostrarán como imágenes estáticas.\n"
+"\n"
+"Establecer esta opción en `Activar al pasar el cursor` puede causar "
+"problemas de rendimiento.\n"
+"\n"
+"Si no se modifica esta opción, se respetará la configuración de Twitch para "
+"\"Animaciones de GIF\"."
+
+#: /src/modules/chat/index.js:1275
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated.values.0"
+msgstr "Desactivado"
+
+#: /src/modules/chat/index.js:1276
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated.values.1"
+msgstr "Activado"
+
+#: /src/modules/chat/index.js:1277
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated.values.2"
+msgstr "Activar al pasar el cursor"
+
+#: /src/modules/main_menu/components/setting-filter-editor.vue:54
+#, icu-message-format
+msgid "setting.filter.add-default"
+msgstr "Agregar valores predeterminados"
