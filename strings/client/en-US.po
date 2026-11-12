@@ -90,8 +90,8 @@ msgstr "No data was returned."
 
 #: /src/modules/chat/components/chat-rich.vue:183
 #: /src/modules/chat/components/chat-rich.vue:309
-#: /src/modules/chat/index.js:2941
-#: /src/modules/chat/index.js:2946
+#: /src/modules/chat/index.js:2983
+#: /src/modules/chat/index.js:2988
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:114
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:227
 #: /src/sites/twitch-twilight/modules/chat/rich_content.jsx:78
@@ -367,17 +367,17 @@ msgstr "Announcement"
 msgid "chat.bits-message"
 msgstr "Cheered {count, plural, one {# Bit} other {# Bits}}"
 
-#: /src/modules/chat/index.js:1586
+#: /src/modules/chat/index.js:1628
 #, icu-message-format
 msgid "chat.command.reload"
 msgstr "Reload FFZ and add-on chat data (emotes, badges, etc.)"
 
-#: /src/modules/chat/index.js:1610
+#: /src/modules/chat/index.js:1652
 #, icu-message-format
 msgid "chat.command.reload.done"
 msgstr "FFZ has finished reloading data. (Sources: {list})"
 
-#: /src/modules/chat/index.js:1600
+#: /src/modules/chat/index.js:1642
 #, icu-message-format
 msgid "chat.command.reload.starting"
 msgstr "FFZ is reloading data..."
@@ -1008,27 +1008,27 @@ msgstr "Unblock"
 msgid "directory.user-playing"
 msgstr "{user} playing {game}"
 
-#: /src/modules/chat/index.js:2858
+#: /src/modules/chat/index.js:2900
 #, icu-message-format
 msgid "embed.tos-open-settings"
 msgstr "{link} to open your settings."
 
-#: /src/modules/chat/index.js:2866
+#: /src/modules/chat/index.js:2908
 #, icu-message-format
 msgid "embed.tos-open-settings.click"
 msgstr "Click here"
 
-#: /src/modules/chat/index.js:2874
+#: /src/modules/chat/index.js:2916
 #, icu-message-format
 msgid "embed.tos-settings"
 msgstr "Open the FFZ Control Center and navigate to Chat > Tooltips to agree."
 
-#: /src/utilities/constants.ts:387
+#: /src/utilities/constants.ts:388
 #, icu-message-format
 msgid "embed.warn.youtube.agree"
 msgstr "Yes, I accept the YouTube Terms of Service."
 
-#: /src/utilities/constants.ts:387
+#: /src/utilities/constants.ts:388
 #, icu-message-format
 msgid "embed.warn.youtube.links"
 msgstr ""

@@ -10929,7 +10929,7 @@
 			"id": "card.error",
 			"doc": "client",
 			"default": "An error occurred.",
-			"source": "/src/modules/chat/components/chat-rich.vue:183\n/src/modules/chat/components/chat-rich.vue:309\n/src/modules/chat/index.js:2941\n/src/modules/chat/index.js:2946\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:114\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:227\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:78",
+			"source": "/src/modules/chat/components/chat-rich.vue:183\n/src/modules/chat/components/chat-rich.vue:309\n/src/modules/chat/index.js:2983\n/src/modules/chat/index.js:2988\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:114\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:227\n/src/sites/twitch-twilight/modules/chat/rich_content.jsx:78",
 			"context": null,
 			"revision": 1
 		},
@@ -11383,14 +11383,14 @@
 			"id": "chat.command.reload",
 			"doc": "client",
 			"default": "Reload FFZ and add-on chat data (emotes, badges, etc.)",
-			"source": "/src/modules/chat/index.js:1586",
+			"source": "/src/modules/chat/index.js:1628",
 			"context": null
 		},
 		"chat.command.reload.done": {
 			"id": "chat.command.reload.done",
 			"doc": "client",
 			"default": "FFZ has finished reloading data. (Sources: {list})",
-			"source": "/src/modules/chat/index.js:1610",
+			"source": "/src/modules/chat/index.js:1652",
 			"context": null,
 			"placeholders": [
 				"list"
@@ -11400,7 +11400,7 @@
 			"id": "chat.command.reload.starting",
 			"doc": "client",
 			"default": "FFZ is reloading data...",
-			"source": "/src/modules/chat/index.js:1600",
+			"source": "/src/modules/chat/index.js:1642",
 			"context": null
 		},
 		"chat.deleted-messages": {
@@ -12413,7 +12413,7 @@
 			"id": "embed.tos-open-settings",
 			"doc": "client",
 			"default": "{link} to open your settings.",
-			"source": "/src/modules/chat/index.js:2858",
+			"source": "/src/modules/chat/index.js:2900",
 			"context": null,
 			"placeholders": [
 				"link"
@@ -12423,28 +12423,28 @@
 			"id": "embed.tos-open-settings.click",
 			"doc": "client",
 			"default": "Click here",
-			"source": "/src/modules/chat/index.js:2866",
+			"source": "/src/modules/chat/index.js:2908",
 			"context": null
 		},
 		"embed.tos-settings": {
 			"id": "embed.tos-settings",
 			"doc": "client",
 			"default": "Open the FFZ Control Center and navigate to Chat > Tooltips to agree.",
-			"source": "/src/modules/chat/index.js:2874",
+			"source": "/src/modules/chat/index.js:2916",
 			"context": null
 		},
 		"embed.warn.youtube.agree": {
 			"id": "embed.warn.youtube.agree",
 			"doc": "client",
 			"default": "Yes, I accept the YouTube Terms of Service.",
-			"source": "/src/utilities/constants.ts:387",
+			"source": "/src/utilities/constants.ts:388",
 			"context": null
 		},
 		"embed.warn.youtube.links": {
 			"id": "embed.warn.youtube.links",
 			"doc": "client",
 			"default": "To view YouTube embeds, you must agree to YouTube's Terms of Service:\n* [Terms of Service](https://www.youtube.com/t/terms)\n* [Privacy Policy](https://policies.google.com/privacy)",
-			"source": "/src/utilities/constants.ts:387",
+			"source": "/src/utilities/constants.ts:388",
 			"context": null
 		},
 		"emoji.category.activities": {
@@ -18411,7 +18411,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19084,7 +19084,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/src/modules/chat/index.js:191\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1253\n/src/modules/chat/index.js:1282\n/src/modules/chat/index.js:1298\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/sr\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19092,7 +19092,7 @@
 			"id": "setting.chat.appearance.chat_lines",
 			"doc": "settings",
 			"default": "Chat Lines",
-			"source": "/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1256\n/src/modules/chat/index.js:217\n/src/sites/twitch-twilight/modules/chat/index.js:847\n/src/sites/twitch-twilight/modules/chat/index.js:924\n/src/sites/twitch-twilight/modules/chat/index.js:933\n/src/sites/twitch-twilight/modules/chat/index.js:942\n/src/sites/twitch-twilight/modules/chat/index.js:958\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1298\n/src/modules/chat/index.js:217\n/src/sites/twitch-twilight/modules/chat/index.js:847\n/src/sites/twitch-twilight/modules/chat/index.js:924\n/src/sites/twitch-twilight/modules/chat/index.js:933\n/src/sites/twitch-twilight/modules/chat/index.js:942\n/src/sites/twitch-twilight/modules/chat/index.js:958\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19148,7 +19148,7 @@
 			"id": "setting.chat.appearance.gifs",
 			"doc": "settings",
 			"default": "GIFs",
-			"source": "/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1241",
+			"source": "/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1253\n/src/modules/chat/index.js:1282",
 			"context": null
 		},
 		"setting.chat.appearance.hidden_token_types": {
@@ -22723,17 +22723,53 @@
 			"revision": 1,
 			"markdown": true
 		},
+		"setting.entry.chat.gifs.animated": {
+			"id": "setting.entry.chat.gifs.animated",
+			"doc": "settings",
+			"default": "Animated GIFs",
+			"source": "/src/modules/chat/index.js:1253",
+			"context": null
+		},
+		"setting.entry.chat.gifs.animated.description": {
+			"id": "setting.entry.chat.gifs.animated.description",
+			"doc": "settings",
+			"default": "This controls whether or not GIFs are allowed to play in chat. When this is `Disabled`, GIFs will appear as static images.\n\nSetting this to `Enable on Hover` may cause performance issues.\n\nIf this is not overridden, it follows Twitch's \"GIF Animations\" setting.",
+			"source": "/src/modules/chat/index.js:1253",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.chat.gifs.animated.values.0": {
+			"id": "setting.entry.chat.gifs.animated.values.0",
+			"doc": "settings",
+			"default": "Disabled",
+			"source": "/src/modules/chat/index.js:1275",
+			"context": null
+		},
+		"setting.entry.chat.gifs.animated.values.1": {
+			"id": "setting.entry.chat.gifs.animated.values.1",
+			"doc": "settings",
+			"default": "Enabled",
+			"source": "/src/modules/chat/index.js:1276",
+			"context": null
+		},
+		"setting.entry.chat.gifs.animated.values.2": {
+			"id": "setting.entry.chat.gifs.animated.values.2",
+			"doc": "settings",
+			"default": "Enable on Hover",
+			"source": "/src/modules/chat/index.js:1277",
+			"context": null
+		},
 		"setting.entry.chat.gifs.enabled": {
 			"id": "setting.entry.chat.gifs.enabled",
 			"doc": "settings",
-			"default": "Display GIFs in chat.",
+			"default": "Display GIFs",
 			"source": "/src/modules/chat/index.js:1231",
 			"context": null
 		},
 		"setting.entry.chat.gifs.enabled.description": {
 			"id": "setting.entry.chat.gifs.enabled.description",
 			"doc": "settings",
-			"default": "Twitch subscribers (Tier 2 and 3) can post [animated GIFs](https://help.twitch.tv/s/article/gif-keyboard). When this is disabled, those messages are shown as a link instead.\n\n**Note:** This doesn't work when \"**Display all emotes on one tab**\" is enabled.",
+			"default": "Twitch subscribers (Tier 2 and 3) can post [animated GIFs](https://help.twitch.tv/s/article/gif-keyboard). When this is disabled, those messages are shown as a link instead.\n\nIf this is not overridden, it follows Twitch's \"Show GIFs in Chat\" setting.\n\n**Note:** This doesn't work when \"**Display all emotes on one tab**\" is enabled.",
 			"source": "/src/modules/chat/index.js:1231",
 			"context": null,
 			"markdown": true
@@ -22742,14 +22778,14 @@
 			"id": "setting.entry.chat.gifs.size",
 			"doc": "settings",
 			"default": "GIF Size",
-			"source": "/src/modules/chat/index.js:1241",
+			"source": "/src/modules/chat/index.js:1282",
 			"context": null
 		},
 		"setting.entry.chat.gifs.size.description": {
 			"id": "setting.entry.chat.gifs.size.description",
 			"doc": "settings",
-			"default": "How large GIFs should be, in pixels, as their maximum height.",
-			"source": "/src/modules/chat/index.js:1241",
+			"default": "The maximum height of GIFs, in pixels.",
+			"source": "/src/modules/chat/index.js:1282",
 			"context": null,
 			"markdown": true
 		},
@@ -23956,7 +23992,7 @@
 			"id": "setting.entry.chat.timestamp-format",
 			"doc": "settings",
 			"default": "Timestamp Format",
-			"source": "/src/modules/chat/index.js:1256\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1298\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -23964,7 +24000,7 @@
 			"id": "setting.entry.chat.timestamp-format.description",
 			"doc": "settings",
 			"default": "Timestamps are formatted using the [Day.js](https://github.com/iamkun/dayjs#readme) library. More details about formatting strings [can be found here](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#list-of-all-available-formats)",
-			"source": "/src/modules/chat/index.js:1256\nFFZ Control Center",
+			"source": "/src/modules/chat/index.js:1298\nFFZ Control Center",
 			"context": null,
 			"revision": 1,
 			"markdown": true
@@ -23973,7 +24009,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.h:mm",
 			"doc": "settings",
 			"default": "12 Hour",
-			"source": "/src/modules/chat/index.js:1266",
+			"source": "/src/modules/chat/index.js:1308",
 			"context": null,
 			"revision": 1
 		},
@@ -23981,7 +24017,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.H:mm",
 			"doc": "settings",
 			"default": "24 Hour",
-			"source": "/src/modules/chat/index.js:1268",
+			"source": "/src/modules/chat/index.js:1310",
 			"context": null,
 			"revision": 1
 		},
@@ -23989,7 +24025,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.h:mm:ss",
 			"doc": "settings",
 			"default": "12 Hour with Seconds",
-			"source": "/src/modules/chat/index.js:1267",
+			"source": "/src/modules/chat/index.js:1309",
 			"context": null,
 			"revision": 1
 		},
@@ -23997,7 +24033,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.H:mm:ss",
 			"doc": "settings",
 			"default": "24 Hour with Seconds",
-			"source": "/src/modules/chat/index.js:1269",
+			"source": "/src/modules/chat/index.js:1311",
 			"context": null,
 			"revision": 1
 		},
@@ -24005,7 +24041,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.hh:mm",
 			"doc": "settings",
 			"default": "Padded",
-			"source": "/src/modules/chat/index.js:1270",
+			"source": "/src/modules/chat/index.js:1312",
 			"context": null,
 			"revision": 1
 		},
@@ -24013,7 +24049,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.HH:mm",
 			"doc": "settings",
 			"default": "Padded 24 Hour",
-			"source": "/src/modules/chat/index.js:1272",
+			"source": "/src/modules/chat/index.js:1314",
 			"context": null,
 			"revision": 1
 		},
@@ -24021,7 +24057,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.hh:mm:ss",
 			"doc": "settings",
 			"default": "Padded with Seconds",
-			"source": "/src/modules/chat/index.js:1271",
+			"source": "/src/modules/chat/index.js:1313",
 			"context": null,
 			"revision": 1
 		},
@@ -24029,7 +24065,7 @@
 			"id": "setting.entry.chat.timestamp-format.values.HH:mm:ss",
 			"doc": "settings",
 			"default": "Padded 24 Hour with Seconds",
-			"source": "/src/modules/chat/index.js:1273",
+			"source": "/src/modules/chat/index.js:1315",
 			"context": null,
 			"revision": 1
 		},

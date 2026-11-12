@@ -1194,6 +1194,7 @@ msgctxt ""
 "/\n"
 "/\n"
 "/\n"
+"/\n"
 "FFZ Control Center"
 msgid "setting.appearance"
 msgstr "Appearance"
@@ -1826,13 +1827,14 @@ msgstr ""
 #: /src/modules/chat/index.js:1143
 #: /src/modules/chat/index.js:1176
 #: /src/modules/chat/index.js:1231
-#: /src/modules/chat/index.js:1241
-#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:1253
+#: /src/modules/chat/index.js:1282
+#: /src/modules/chat/index.js:1298
 #: /src/modules/chat/index.js:167
 #: /src/modules/chat/index.js:179
-#: /src/modules/chat/index.js:191
 #, icu-message-format
 msgctxt ""
+"/sr\n"
 "/src\n"
 "/src\n"
 "/src\n"
@@ -1853,7 +1855,7 @@ msgid "setting.chat.appearance"
 msgstr "Appearance"
 
 #: /src/modules/chat/index.js:1143
-#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:1298
 #: /src/modules/chat/index.js:217
 #: /src/sites/twitch-twilight/modules/chat/index.js:847
 #: /src/sites/twitch-twilight/modules/chat/index.js:924
@@ -1919,7 +1921,8 @@ msgid "setting.chat.appearance.general"
 msgstr "General"
 
 #: /src/modules/chat/index.js:1231
-#: /src/modules/chat/index.js:1241
+#: /src/modules/chat/index.js:1253
+#: /src/modules/chat/index.js:1282
 #, icu-message-format
 msgid "setting.chat.appearance.gifs"
 msgstr "GIFs"
@@ -4826,10 +4829,41 @@ msgstr ""
 "How large should text in chat be, in pixels. This may be affected by your "
 "browser's zoom and font size settings."
 
+#: /src/modules/chat/index.js:1253
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated"
+msgstr "Animated GIFs"
+
+#: /src/modules/chat/index.js:1253
+#, icu-message-format, md-text
+msgid "setting.entry.chat.gifs.animated.description"
+msgstr ""
+"This controls whether or not GIFs are allowed to play in chat. When this is "
+"`Disabled`, GIFs will appear as static images.\n"
+"\n"
+"Setting this to `Enable on Hover` may cause performance issues.\n"
+"\n"
+"If this is not overridden, it follows Twitch's \"GIF Animations\" setting."
+
+#: /src/modules/chat/index.js:1275
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated.values.0"
+msgstr "Disabled"
+
+#: /src/modules/chat/index.js:1276
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated.values.1"
+msgstr "Enabled"
+
+#: /src/modules/chat/index.js:1277
+#, icu-message-format
+msgid "setting.entry.chat.gifs.animated.values.2"
+msgstr "Enable on Hover"
+
 #: /src/modules/chat/index.js:1231
 #, icu-message-format
 msgid "setting.entry.chat.gifs.enabled"
-msgstr "Display GIFs in chat."
+msgstr "Display GIFs"
 
 #: /src/modules/chat/index.js:1231
 #, icu-message-format, md-text
@@ -4839,18 +4873,21 @@ msgstr ""
 "GIFs](https://help.twitch.tv/s/article/gif-keyboard). When this is "
 "disabled, those messages are shown as a link instead.\n"
 "\n"
+"If this is not overridden, it follows Twitch's \"Show GIFs in Chat\" "
+"setting.\n"
+"\n"
 "**Note:** This doesn't work when \"**Display all emotes on one tab**\" is "
 "enabled."
 
-#: /src/modules/chat/index.js:1241
+#: /src/modules/chat/index.js:1282
 #, icu-message-format
 msgid "setting.entry.chat.gifs.size"
 msgstr "GIF Size"
 
-#: /src/modules/chat/index.js:1241
+#: /src/modules/chat/index.js:1282
 #, icu-message-format, md-text
 msgid "setting.entry.chat.gifs.size.description"
-msgstr "How large GIFs should be, in pixels, as their maximum height."
+msgstr "The maximum height of GIFs, in pixels."
 
 #: /src/sites/twitch-twilight/modules/chat/index.js:516
 #, icu-message-format
@@ -5739,13 +5776,13 @@ msgstr "Short"
 msgid "setting.entry.chat.tab-complete.show-source.values.2"
 msgstr "Long"
 
-#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:1298
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format"
 msgstr "Timestamp Format"
 
-#: /src/modules/chat/index.js:1256
+#: /src/modules/chat/index.js:1298
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.timestamp-format.description"
@@ -5756,42 +5793,42 @@ msgstr ""
 "here](https://github.com/iamkun/dayjs/blob/HEAD/docs/en/API-reference.md#"
 "list-of-all-available-formats)"
 
-#: /src/modules/chat/index.js:1266
+#: /src/modules/chat/index.js:1308
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm"
 msgstr "12 Hour"
 
-#: /src/modules/chat/index.js:1268
+#: /src/modules/chat/index.js:1310
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm"
 msgstr "24 Hour"
 
-#: /src/modules/chat/index.js:1267
+#: /src/modules/chat/index.js:1309
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.h:mm:ss"
 msgstr "12 Hour with Seconds"
 
-#: /src/modules/chat/index.js:1269
+#: /src/modules/chat/index.js:1311
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.H:mm:ss"
 msgstr "24 Hour with Seconds"
 
-#: /src/modules/chat/index.js:1270
+#: /src/modules/chat/index.js:1312
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm"
 msgstr "Padded"
 
-#: /src/modules/chat/index.js:1272
+#: /src/modules/chat/index.js:1314
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm"
 msgstr "Padded 24 Hour"
 
-#: /src/modules/chat/index.js:1271
+#: /src/modules/chat/index.js:1313
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.hh:mm:ss"
 msgstr "Padded with Seconds"
 
-#: /src/modules/chat/index.js:1273
+#: /src/modules/chat/index.js:1315
 #, icu-message-format
 msgid "setting.entry.chat.timestamp-format.values.HH:mm:ss"
 msgstr "Padded 24 Hour with Seconds"
