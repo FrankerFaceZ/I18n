@@ -12437,14 +12437,14 @@
 			"id": "embed.warn.youtube.agree",
 			"doc": "client",
 			"default": "Yes, I accept the YouTube Terms of Service.",
-			"source": "/src/utilities/constants.ts:388",
+			"source": "/src/utilities/constants.ts:391",
 			"context": null
 		},
 		"embed.warn.youtube.links": {
 			"id": "embed.warn.youtube.links",
 			"doc": "client",
 			"default": "To view YouTube embeds, you must agree to YouTube's Terms of Service:\n* [Terms of Service](https://www.youtube.com/t/terms)\n* [Privacy Policy](https://policies.google.com/privacy)",
-			"source": "/src/utilities/constants.ts:388",
+			"source": "/src/utilities/constants.ts:391",
 			"context": null
 		},
 		"emoji.category.activities": {
@@ -12570,7 +12570,7 @@
 			"id": "emote_menu.prime",
 			"doc": "client",
 			"default": "Prime",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2308",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2311",
 			"context": null,
 			"revision": 1
 		},
@@ -12890,7 +12890,7 @@
 			"id": "emote-menu.channel",
 			"doc": "client",
 			"default": "Channel",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3248",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3251",
 			"context": null,
 			"revision": 2
 		},
@@ -12898,7 +12898,7 @@
 			"id": "emote-menu.disable",
 			"doc": "client",
 			"default": "As a temporary workaround, try disabling the FFZ Emote Menu in the FFZ Control Center.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1408",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1411",
 			"context": null,
 			"revision": 1
 		},
@@ -12906,14 +12906,14 @@
 			"id": "emote-menu.effects",
 			"doc": "client",
 			"default": "Emote Effects",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3262",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3265",
 			"context": null
 		},
 		"emote-menu.emoji": {
 			"id": "emote-menu.emoji",
 			"doc": "client",
 			"default": "Emoji",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2048\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3291",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2051\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3294",
 			"context": null,
 			"revision": 2
 		},
@@ -12921,7 +12921,7 @@
 			"id": "emote-menu.emote-cheer",
 			"doc": "client",
 			"default": "Cheer an additional {bits_remaining, plural, one {# bit} other {# bits}} to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1176",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1179",
 			"context": "{\"bits_remaining\":1000}",
 			"revision": 1,
 			"placeholders": [
@@ -12932,7 +12932,7 @@
 			"id": "emote-menu.emote-follower",
 			"doc": "client",
 			"default": "Follow {user} to unlock this emote in their channel.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1178",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1181",
 			"context": "{\"user\":\"itmeJP\"}",
 			"revision": 1,
 			"placeholders": [
@@ -12943,7 +12943,7 @@
 			"id": "emote-menu.emote-sub",
 			"doc": "client",
 			"default": "Subscribe for {price} to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1180",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1183",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -12954,14 +12954,14 @@
 			"id": "emote-menu.emote-subwoofer",
 			"doc": "client",
 			"default": "Become an FFZ Subwoofer to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1174",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1177",
 			"context": null
 		},
 		"emote-menu.emote-up": {
 			"id": "emote-menu.emote-up",
 			"doc": "client",
 			"default": "Upgrade your sub to {price} to unlock this emote.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1182",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1185",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -12972,7 +12972,7 @@
 			"id": "emote-menu.empty",
 			"doc": "client",
 			"default": "There's nothing here.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3017",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3020",
 			"context": null,
 			"revision": 1
 		},
@@ -12980,7 +12980,7 @@
 			"id": "emote-menu.empty-favs",
 			"doc": "client",
 			"default": "You don't have any favorite emotes. To favorite an emote, find it and {hotkey}-Click it.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3016",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3019",
 			"context": "{\n    \"hotkey\": \"Ctrl\"\n}",
 			"revision": 2,
 			"placeholders": [
@@ -12991,7 +12991,7 @@
 			"id": "emote-menu.empty-search",
 			"doc": "client",
 			"default": "There are no matching emotes.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3014",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3017",
 			"context": null,
 			"revision": 1
 		},
@@ -12999,7 +12999,7 @@
 			"id": "emote-menu.error",
 			"doc": "client",
 			"default": "There was an error rendering this menu.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1401\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2995",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1404\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2998",
 			"context": null,
 			"revision": 1
 		},
@@ -13007,7 +13007,7 @@
 			"id": "emote-menu.error-report",
 			"doc": "client",
 			"default": "An error report has been automatically submitted.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1404",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1407",
 			"context": null,
 			"revision": 1
 		},
@@ -13015,7 +13015,7 @@
 			"id": "emote-menu.favorites",
 			"doc": "client",
 			"default": "Favorites",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2095\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3234",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2098\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3237",
 			"context": null,
 			"revision": 2
 		},
@@ -13031,28 +13031,28 @@
 			"id": "emote-menu.ffz-unlock",
 			"doc": "client",
 			"default": "This feature is available to FFZ Subwoofers.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1275",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1278",
 			"context": null
 		},
 		"emote-menu.free-sub": {
 			"id": "emote-menu.free-sub",
 			"doc": "client",
 			"default": "Use My Free Month",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1297",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1300",
 			"context": null
 		},
 		"emote-menu.free-sub.about": {
 			"id": "emote-menu.free-sub.about",
 			"doc": "client",
 			"default": "As thanks for supporting us in the past, you can get one month of FFZ Subwoofer for free.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1282",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1285",
 			"context": null
 		},
 		"emote-menu.gif-cooldown": {
 			"id": "emote-menu.gif-cooldown",
 			"doc": "client",
 			"default": "You can send another GIF in {seconds}s.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1659",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1662",
 			"context": null,
 			"placeholders": [
 				"seconds"
@@ -13062,49 +13062,49 @@
 			"id": "emote-menu.gif-empty",
 			"doc": "client",
 			"default": "No GIFs found.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:901",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:904",
 			"context": null
 		},
 		"emote-menu.gif-failed": {
 			"id": "emote-menu.gif-failed",
 			"doc": "client",
 			"default": "That GIF couldn't be sent. Try a different one.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1661",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1664",
 			"context": null
 		},
 		"emote-menu.gif-loading": {
 			"id": "emote-menu.gif-loading",
 			"doc": "client",
 			"default": "Loading...",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:896",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:899",
 			"context": null
 		},
 		"emote-menu.gif-send": {
 			"id": "emote-menu.gif-send",
 			"doc": "client",
 			"default": "Send",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:916",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:919",
 			"context": null
 		},
 		"emote-menu.gif-unavailable": {
 			"id": "emote-menu.gif-unavailable",
 			"doc": "client",
 			"default": "GIFs are temporarily unavailable.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1663",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1666",
 			"context": null
 		},
 		"emote-menu.gifs": {
 			"id": "emote-menu.gifs",
 			"doc": "client",
 			"default": "GIFs",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3305",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3308",
 			"context": null
 		},
 		"emote-menu.global": {
 			"id": "emote-menu.global",
 			"doc": "client",
 			"default": "Global Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2297",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2300",
 			"context": null,
 			"revision": 2
 		},
@@ -13120,7 +13120,7 @@
 			"id": "emote-menu.loading",
 			"doc": "client",
 			"default": "Loading...",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3024",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3027",
 			"context": null,
 			"revision": 2
 		},
@@ -13128,7 +13128,7 @@
 			"id": "emote-menu.main-set",
 			"doc": "client",
 			"default": "Channel Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2464\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2831",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2467\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2834",
 			"context": null,
 			"revision": 2
 		},
@@ -13136,7 +13136,7 @@
 			"id": "emote-menu.misc",
 			"doc": "client",
 			"default": "Miscellaneous",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2320",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2323",
 			"context": null,
 			"revision": 1
 		},
@@ -13144,7 +13144,7 @@
 			"id": "emote-menu.my-emotes",
 			"doc": "client",
 			"default": "My Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3277",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3280",
 			"context": null,
 			"revision": 2
 		},
@@ -13152,7 +13152,7 @@
 			"id": "emote-menu.points",
 			"doc": "client",
 			"default": "Unlocked with Points",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2285",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2288",
 			"context": null,
 			"revision": 1
 		},
@@ -13176,7 +13176,7 @@
 			"id": "emote-menu.search",
 			"doc": "client",
 			"default": "Search for Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3192",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3195",
 			"context": null,
 			"revision": 2
 		},
@@ -13184,7 +13184,7 @@
 			"id": "emote-menu.search-emoji",
 			"doc": "client",
 			"default": "Search for Emoji",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3191",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3194",
 			"context": null,
 			"revision": 2
 		},
@@ -13192,14 +13192,14 @@
 			"id": "emote-menu.search-gifs",
 			"doc": "client",
 			"default": "Search GIPHY",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3189",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3192",
 			"context": null
 		},
 		"emote-menu.settings": {
 			"id": "emote-menu.settings",
 			"doc": "client",
 			"default": "Open Settings",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3169\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3323",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3172\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3326",
 			"context": null,
 			"revision": 1
 		},
@@ -13207,7 +13207,7 @@
 			"id": "emote-menu.source-set",
 			"doc": "client",
 			"default": "{channel}'s Emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2830",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2833",
 			"context": null,
 			"placeholders": [
 				"channel"
@@ -13217,7 +13217,7 @@
 			"id": "emote-menu.sub-basic",
 			"doc": "client",
 			"default": "Subscribe to unlock some emotes",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1278",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1281",
 			"context": null,
 			"revision": 1
 		},
@@ -13225,7 +13225,7 @@
 			"id": "emote-menu.sub-ends",
 			"doc": "client",
 			"default": "This sub ends {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1126",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1129",
 			"context": "{\n    \"seconds\": 2402847.089\n}",
 			"revision": 2,
 			"placeholders": [
@@ -13236,7 +13236,7 @@
 			"id": "emote-menu.sub-gift-ends",
 			"doc": "client",
 			"default": "This gifted sub ends {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1121",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1124",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -13247,7 +13247,7 @@
 			"id": "emote-menu.sub-prime",
 			"doc": "client",
 			"default": "This is your free sub with Prime Gaming.\nIt ends {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1116",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1119",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -13258,7 +13258,7 @@
 			"id": "emote-menu.sub-renews",
 			"doc": "client",
 			"default": "This sub renews {seconds,humantime}.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1109",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1112",
 			"context": "{\n    \"seconds\": 388800.09\n}",
 			"revision": 2,
 			"placeholders": [
@@ -13277,7 +13277,7 @@
 			"id": "emote-menu.sub-unlock",
 			"doc": "client",
 			"default": "Subscribe for {price} to unlock {count, plural, one {# emote} other {# emotes}}",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1277",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1280",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -13289,7 +13289,7 @@
 			"id": "emote-menu.toggle-hide.info",
 			"doc": "client",
 			"default": "Emote Visibility Control allows you to hide emotes from your emote menu, either individually or by set. With Emote Visibility Control enabled, just click an emote to hide or unhide it. Please note that you will still see the emotes in chat if someone uses them, but they won't appear in your emote menu.",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3221",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3224",
 			"context": null,
 			"revision": 1
 		},
@@ -13297,7 +13297,7 @@
 			"id": "emote-menu.toggle-hide.off",
 			"doc": "client",
 			"default": "Emote Visibility Control",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3218",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3221",
 			"context": null,
 			"revision": 1
 		},
@@ -13305,7 +13305,7 @@
 			"id": "emote-menu.toggle-hide.on",
 			"doc": "client",
 			"default": "Exit Emote Visibility Control",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3217",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3220",
 			"context": null,
 			"revision": 1
 		},
@@ -13313,7 +13313,7 @@
 			"id": "emote-menu.twitch",
 			"doc": "client",
 			"default": "Twitch",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2356\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2465",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2359\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2468",
 			"context": null,
 			"revision": 2
 		},
@@ -13321,7 +13321,7 @@
 			"id": "emote-menu.unknown",
 			"doc": "client",
 			"default": "Unknown Source",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1138",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1141",
 			"context": null,
 			"revision": 1
 		},
@@ -13329,7 +13329,7 @@
 			"id": "emote-menu.unknown-set",
 			"doc": "client",
 			"default": "Set #{set_id}",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2327\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2832",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2330\n/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2835",
 			"context": "{\n    \"set_id\": 300206295\n}",
 			"revision": 2,
 			"placeholders": [
@@ -13340,7 +13340,7 @@
 			"id": "emote-menu.visibility.hidden",
 			"doc": "client",
 			"default": "Hidden",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1149",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1152",
 			"context": null,
 			"revision": 1
 		},
@@ -13348,7 +13348,7 @@
 			"id": "emote-menu.visibility.visible",
 			"doc": "client",
 			"default": "Visible",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1150",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:1153",
 			"context": null,
 			"revision": 1
 		},
@@ -13510,7 +13510,7 @@
 			"id": "error.try-again",
 			"doc": "client",
 			"default": "Try Again",
-			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:2999",
+			"source": "/src/sites/twitch-twilight/modules/chat/emote_menu.jsx:3002",
 			"context": null,
 			"revision": 1
 		},
@@ -18411,7 +18411,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19084,7 +19084,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:121\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1253\n/src/modules/chat/index.js:1282\n/src/modules/chat/index.js:1298\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/sr\n/sr\n/sr\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:123\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1253\n/src/modules/chat/index.js:1282\n/src/modules/chat/index.js:1298\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/sr\n/sr\n/sr\n/sr\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19124,7 +19124,7 @@
 			"id": "setting.chat.appearance.emoji",
 			"doc": "settings",
 			"default": "Emoji",
-			"source": "/src/modules/chat/emoji.js:121\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:123\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19242,7 +19242,7 @@
 			"id": "setting.chat.behavior",
 			"doc": "settings",
 			"default": "Behavior",
-			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emoji.js:94\n/src/modules/chat/emotes.js:561\n/src/modules/chat/emotes.js:571\n/src/modules/chat/emotes.js:580\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:331\n/src/modules/chat/index.js:347\n/src/modules/chat/index.js:364\n/src/modules/chat/index.js:415\n/src/modules/chat/index.js:424\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\n/src/sites/twitch-twilight/modules/chat/scroller.js:37\n/src/sites/twitch-twilight/modules/ch\nFFZ Control Center",
+			"source": "/src/load_tracker.ts:83\n/src/modules/chat/emoji.js:96\n/src/modules/chat/emotes.js:561\n/src/modules/chat/emotes.js:571\n/src/modules/chat/emotes.js:580\n/src/modules/chat/index.js:292\n/src/modules/chat/index.js:331\n/src/modules/chat/index.js:347\n/src/modules/chat/index.js:364\n/src/modules/chat/index.js:415\n/src/modules/chat/index.js:424\n/src/modules/chat/index.js:441\n/src/sites/twitch-twilight/modules/chat/index.js:713\n/src/sites/twitch-twilight/modules/chat/scroller.js:37\n/src/sites/twitch-twilight/modules/ch\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19258,7 +19258,7 @@
 			"id": "setting.chat.behavior.emoji",
 			"doc": "settings",
 			"default": "Emoji",
-			"source": "/src/modules/chat/emoji.js:94\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:96\nFFZ Control Center",
 			"context": null
 		},
 		"setting.chat.behavior.general": {
@@ -21698,14 +21698,14 @@
 			"id": "setting.entry.chat.emoji.replace-joiner",
 			"doc": "settings",
 			"default": "Emoji Joiner Workaround",
-			"source": "/src/modules/chat/emoji.js:94\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:96\nFFZ Control Center",
 			"context": null
 		},
 		"setting.entry.chat.emoji.replace-joiner.description": {
 			"id": "setting.entry.chat.emoji.replace-joiner.description",
 			"doc": "settings",
 			"default": "This feature is intended to allow the use of combined emoji in supported clients. This is required due to a bug in TMI that strips ZWJ characters from chat messages. [Visit the original issue](https://github.com/FrankerFaceZ/FrankerFaceZ/issues/1147) for more details.",
-			"source": "/src/modules/chat/emoji.js:94\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:96\nFFZ Control Center",
 			"context": null,
 			"markdown": true
 		},
@@ -21713,14 +21713,14 @@
 			"id": "setting.entry.chat.emoji.replace-joiner.values.0",
 			"doc": "settings",
 			"default": "Disabled",
-			"source": "/src/modules/chat/emoji.js:107",
+			"source": "/src/modules/chat/emoji.js:109",
 			"context": null
 		},
 		"setting.entry.chat.emoji.replace-joiner.values.1": {
 			"id": "setting.entry.chat.emoji.replace-joiner.values.1",
 			"doc": "settings",
 			"default": "Display Only",
-			"source": "/src/modules/chat/emoji.js:108",
+			"source": "/src/modules/chat/emoji.js:110",
 			"context": null
 		},
 		"setting.entry.chat.emoji.replace-joiner.values.2": {
@@ -21734,14 +21734,14 @@
 			"id": "setting.entry.chat.emoji.replace-joiner.values.3",
 			"doc": "settings",
 			"default": "Display and Send",
-			"source": "/src/modules/chat/emoji.js:109",
+			"source": "/src/modules/chat/emoji.js:111",
 			"context": null
 		},
 		"setting.entry.chat.emoji.style": {
 			"id": "setting.entry.chat.emoji.style",
 			"doc": "settings",
 			"default": "Emoji Style",
-			"source": "/src/modules/chat/emoji.js:121\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:123\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -21749,7 +21749,7 @@
 			"id": "setting.entry.chat.emoji.style.values.0",
 			"doc": "settings",
 			"default": "Native",
-			"source": "/src/modules/chat/emoji.js:137",
+			"source": "/src/modules/chat/emoji.js:140",
 			"context": null,
 			"revision": 1
 		},
@@ -21757,7 +21757,7 @@
 			"id": "setting.entry.chat.emoji.style.values.blob",
 			"doc": "settings",
 			"default": "Blob",
-			"source": "/src/modules/chat/emoji.js:135",
+			"source": "/src/modules/chat/emoji.js:138",
 			"context": null,
 			"revision": 1
 		},
@@ -21773,15 +21773,22 @@
 			"id": "setting.entry.chat.emoji.style.values.google",
 			"doc": "settings",
 			"default": "Google (Noto)",
-			"source": "/src/modules/chat/emoji.js:134",
+			"source": "/src/modules/chat/emoji.js:136",
 			"context": null,
 			"revision": 2
+		},
+		"setting.entry.chat.emoji.style.values.google3d": {
+			"id": "setting.entry.chat.emoji.style.values.google3d",
+			"doc": "settings",
+			"default": "Google (Noto 3D)",
+			"source": "/src/modules/chat/emoji.js:137",
+			"context": null
 		},
 		"setting.entry.chat.emoji.style.values.open": {
 			"id": "setting.entry.chat.emoji.style.values.open",
 			"doc": "settings",
 			"default": "OpenMoji",
-			"source": "/src/modules/chat/emoji.js:136",
+			"source": "/src/modules/chat/emoji.js:139",
 			"context": null,
 			"revision": 1
 		},
@@ -21789,7 +21796,7 @@
 			"id": "setting.entry.chat.emoji.style.values.twitter",
 			"doc": "settings",
 			"default": "Twitter (Twemoji)",
-			"source": "/src/modules/chat/emoji.js:133",
+			"source": "/src/modules/chat/emoji.js:135",
 			"context": null,
 			"revision": 2
 		},

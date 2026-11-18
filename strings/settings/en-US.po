@@ -1197,6 +1197,7 @@ msgctxt ""
 "/\n"
 "/\n"
 "/\n"
+"/\n"
 "FFZ Control Center"
 msgid "setting.appearance"
 msgstr "Appearance"
@@ -1818,7 +1819,7 @@ msgstr ""
 "Here, you can define custom actions that will appear in a context menu when "
 "you right-click a username in chat."
 
-#: /src/modules/chat/emoji.js:121
+#: /src/modules/chat/emoji.js:123
 #: /src/modules/chat/emotes.js:494
 #: /src/modules/chat/emotes.js:511
 #: /src/modules/chat/emotes.js:531
@@ -1836,6 +1837,7 @@ msgstr ""
 #: /src/modules/chat/index.js:179
 #, icu-message-format
 msgctxt ""
+"/sr\n"
 "/sr\n"
 "/sr\n"
 "/sr\n"
@@ -1898,7 +1900,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.community_chest"
 msgstr "Community Chest"
 
-#: /src/modules/chat/emoji.js:121
+#: /src/modules/chat/emoji.js:123
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.emoji"
@@ -2026,7 +2028,7 @@ msgid "setting.chat.badges.tabs.visibility"
 msgstr "Visibility"
 
 #: /src/load_tracker.ts:83
-#: /src/modules/chat/emoji.js:94
+#: /src/modules/chat/emoji.js:96
 #: /src/modules/chat/emotes.js:561
 #: /src/modules/chat/emotes.js:571
 #: /src/modules/chat/emotes.js:580
@@ -2055,7 +2057,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.deleted_messages"
 msgstr "Deleted Messages"
 
-#: /src/modules/chat/emoji.js:94
+#: /src/modules/chat/emoji.js:96
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.emoji"
@@ -4082,13 +4084,13 @@ msgstr ""
 "Emote Effects are special effects that can be applied to some emotes using "
 "special modifiers."
 
-#: /src/modules/chat/emoji.js:94
+#: /src/modules/chat/emoji.js:96
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.replace-joiner"
 msgstr "Emoji Joiner Workaround"
 
-#: /src/modules/chat/emoji.js:94
+#: /src/modules/chat/emoji.js:96
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.replace-joiner.description"
@@ -4099,12 +4101,12 @@ msgstr ""
 "issue](https://github.com/FrankerFaceZ/FrankerFaceZ/issues/1147) for more "
 "details."
 
-#: /src/modules/chat/emoji.js:107
+#: /src/modules/chat/emoji.js:109
 #, icu-message-format
 msgid "setting.entry.chat.emoji.replace-joiner.values.0"
 msgstr "Disabled"
 
-#: /src/modules/chat/emoji.js:108
+#: /src/modules/chat/emoji.js:110
 #, icu-message-format
 msgid "setting.entry.chat.emoji.replace-joiner.values.1"
 msgstr "Display Only"
@@ -4114,23 +4116,23 @@ msgstr "Display Only"
 msgid "setting.entry.chat.emoji.replace-joiner.values.2"
 msgstr "Display and Send"
 
-#: /src/modules/chat/emoji.js:109
+#: /src/modules/chat/emoji.js:111
 #, icu-message-format
 msgid "setting.entry.chat.emoji.replace-joiner.values.3"
 msgstr "Display and Send"
 
-#: /src/modules/chat/emoji.js:121
+#: /src/modules/chat/emoji.js:123
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.emoji.style"
 msgstr "Emoji Style"
 
-#: /src/modules/chat/emoji.js:137
+#: /src/modules/chat/emoji.js:140
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.0"
 msgstr "Native"
 
-#: /src/modules/chat/emoji.js:135
+#: /src/modules/chat/emoji.js:138
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.blob"
 msgstr "Blob"
@@ -4140,17 +4142,22 @@ msgstr "Blob"
 msgid "setting.entry.chat.emoji.style.values.emojione"
 msgstr "EmojiOne"
 
-#: /src/modules/chat/emoji.js:134
+#: /src/modules/chat/emoji.js:136
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.google"
 msgstr "Google (Noto)"
 
-#: /src/modules/chat/emoji.js:136
+#: /src/modules/chat/emoji.js:137
+#, icu-message-format
+msgid "setting.entry.chat.emoji.style.values.google3d"
+msgstr "Google (Noto 3D)"
+
+#: /src/modules/chat/emoji.js:139
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.open"
 msgstr "OpenMoji"
 
-#: /src/modules/chat/emoji.js:133
+#: /src/modules/chat/emoji.js:135
 #, icu-message-format
 msgid "setting.entry.chat.emoji.style.values.twitter"
 msgstr "Twitter (Twemoji)"
