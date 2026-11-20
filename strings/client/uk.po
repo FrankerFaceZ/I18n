@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 22:11+0000\n"
-"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"PO-Revision-Date: 2026-11-20 01:23+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Ukrainian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/uk/>\n"
 "Language: uk\n"
@@ -417,6 +417,7 @@ msgstr "Ця передплата закінчиться за {seconds,humantime
 msgid "emote-menu.sub-gift-ends"
 msgstr "Ця подарована передплата закінчується через {seconds,humantime}."
 
+#, fuzzy
 msgid "emote-menu.sub-prime"
 msgstr ""
 "Це ваша безкоштовна передплата з Twitch Prime.\n"
@@ -919,7 +920,7 @@ msgid "chat.reply-to"
 msgstr "Відповідь:"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "chat.sub.twitch-prime"
 msgstr "з Prime Gaming"
 
@@ -1018,7 +1019,7 @@ msgid "emote.follower"
 msgstr "Смайлик фоловера ({source})"
 
 #: /src/modules/chat/tokenizers.jsx:1041:14
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "emote.prime"
 msgstr "Prime Gaming"
 
