@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 22:11+0000\n"
-"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"PO-Revision-Date: 2026-11-20 01:23+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/sv/>\n"
 "Language: sv\n"
@@ -358,6 +358,7 @@ msgstr "Denna prenumeration avslutas om {seconds,humantime}."
 msgid "emote-menu.sub-gift-ends"
 msgstr "Denna gåvoprenumerationen löper ut om {seconds,humantime}."
 
+#, fuzzy
 msgid "emote-menu.sub-prime"
 msgstr ""
 "Detta är den prenumeration du får gratis med Twitch Prime.\n"
@@ -903,7 +904,7 @@ msgid "chat.reply-to"
 msgstr "Svarar:"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "chat.sub.twitch-prime"
 msgstr "med Prime Gaming"
 
@@ -1021,7 +1022,7 @@ msgid "emote.follower"
 msgstr "Följaremote ({source})"
 
 #: /src/modules/chat/tokenizers.jsx:1041:14
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "emote.prime"
 msgstr "Prime Gaming"
 
