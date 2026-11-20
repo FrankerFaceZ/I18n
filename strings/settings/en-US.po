@@ -1202,6 +1202,7 @@ msgctxt ""
 "/\n"
 "/\n"
 "/\n"
+"/\n"
 "FFZ Control Center"
 msgid "setting.appearance"
 msgstr "Appearance"
@@ -1849,6 +1850,7 @@ msgctxt ""
 "/sr\n"
 "/sr\n"
 "/sr\n"
+"/sr\n"
 "/src\n"
 "/src\n"
 "/src\n"
@@ -1871,11 +1873,11 @@ msgstr "Appearance"
 #: /src/modules/chat/index.js:1143
 #: /src/modules/chat/index.js:1298
 #: /src/modules/chat/index.js:217
-#: /src/sites/twitch-twilight/modules/chat/index.js:856
-#: /src/sites/twitch-twilight/modules/chat/index.js:933
-#: /src/sites/twitch-twilight/modules/chat/index.js:942
-#: /src/sites/twitch-twilight/modules/chat/index.js:951
-#: /src/sites/twitch-twilight/modules/chat/index.js:967
+#: /src/sites/twitch-twilight/modules/chat/index.js:855
+#: /src/sites/twitch-twilight/modules/chat/index.js:932
+#: /src/sites/twitch-twilight/modules/chat/index.js:941
+#: /src/sites/twitch-twilight/modules/chat/index.js:950
+#: /src/sites/twitch-twilight/modules/chat/index.js:966
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.chat_lines"
@@ -1896,7 +1898,7 @@ msgstr "Colors"
 #: /src/sites/twitch-twilight/modules/chat/index.js:553
 #: /src/sites/twitch-twilight/modules/chat/index.js:563
 #: /src/sites/twitch-twilight/modules/chat/index.js:572
-#: /src/sites/twitch-twilight/modules/chat/index.js:600
+#: /src/sites/twitch-twilight/modules/chat/index.js:581
 #: /src/sites/twitch-twilight/modules/
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -1928,7 +1930,7 @@ msgstr "Emotes"
 #: /src/modules/chat/index.js:167
 #: /src/modules/chat/index.js:179
 #: /src/modules/chat/index.js:191
-#: /src/sites/twitch-twilight/modules/chat/index.js:756
+#: /src/sites/twitch-twilight/modules/chat/index.js:755
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.general"
@@ -1970,10 +1972,10 @@ msgid "setting.chat.appearance.rich_content"
 msgstr "Rich Content"
 
 #: /src/sites/twitch-twilight/modules/chat/index.js:340
-#: /src/sites/twitch-twilight/modules/chat/index.js:881
-#: /src/sites/twitch-twilight/modules/chat/index.js:897
-#: /src/sites/twitch-twilight/modules/chat/index.js:906
-#: /src/sites/twitch-twilight/modules/chat/index.js:924
+#: /src/sites/twitch-twilight/modules/chat/index.js:880
+#: /src/sites/twitch-twilight/modules/chat/index.js:896
+#: /src/sites/twitch-twilight/modules/chat/index.js:905
+#: /src/sites/twitch-twilight/modules/chat/index.js:923
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.appearance.subscriptions"
@@ -2047,7 +2049,7 @@ msgstr "Visibility"
 #: /src/modules/chat/index.js:415
 #: /src/modules/chat/index.js:424
 #: /src/modules/chat/index.js:441
-#: /src/sites/twitch-twilight/modules/chat/index.js:722
+#: /src/sites/twitch-twilight/modules/chat/index.js:721
 #: /src/sites/twitch-twilight/modules/chat/scroller.js:37
 #: /src/sites/twitch-twilight/modules/ch
 #, icu-message-format
@@ -2077,7 +2079,7 @@ msgstr "Emoji"
 #: /src/modules/chat/emotes.js:580
 #: /src/modules/chat/index.js:292
 #: /src/modules/chat/index.js:441
-#: /src/sites/twitch-twilight/modules/chat/index.js:722
+#: /src/sites/twitch-twilight/modules/chat/index.js:721
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.behavior.general"
@@ -2094,8 +2096,8 @@ msgstr "Scrolling"
 
 #: /src/modules/chat/index.js:1160
 #: /src/modules/chat/index.js:1222
-#: /src/sites/twitch-twilight/modules/chat/index.js:819
-#: /src/sites/twitch-twilight/modules/chat/index.js:837
+#: /src/sites/twitch-twilight/modules/chat/index.js:818
+#: /src/sites/twitch-twilight/modules/chat/index.js:836
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:440
 #, icu-message-format
 msgctxt "FFZ Control Center"
@@ -2104,44 +2106,44 @@ msgstr "Bits and Cheering"
 
 #: /src/modules/chat/index.js:1160
 #: /src/modules/chat/index.js:1222
-#: /src/sites/twitch-twilight/modules/chat/index.js:837
+#: /src/sites/twitch-twilight/modules/chat/index.js:836
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:440
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.bits_and_cheering.appearance"
 msgstr "Appearance"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:819
+#: /src/sites/twitch-twilight/modules/chat/index.js:818
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.bits_and_cheering.behavior"
 msgstr "Behavior"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:654
-#: /src/sites/twitch-twilight/modules/chat/index.js:668
-#: /src/sites/twitch-twilight/modules/chat/index.js:677
-#: /src/sites/twitch-twilight/modules/chat/index.js:686
-#: /src/sites/twitch-twilight/modules/chat/index.js:702
+#: /src/sites/twitch-twilight/modules/chat/index.js:653
+#: /src/sites/twitch-twilight/modules/chat/index.js:667
+#: /src/sites/twitch-twilight/modules/chat/index.js:676
+#: /src/sites/twitch-twilight/modules/chat/index.js:685
+#: /src/sites/twitch-twilight/modules/chat/index.js:701
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points"
 msgstr "Channel Points"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:654
+#: /src/sites/twitch-twilight/modules/chat/index.js:653
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points.appearance"
 msgstr "Appearance"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:686
-#: /src/sites/twitch-twilight/modules/chat/index.js:702
+#: /src/sites/twitch-twilight/modules/chat/index.js:685
+#: /src/sites/twitch-twilight/modules/chat/index.js:701
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points.behavior"
 msgstr "Behavior"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:668
-#: /src/sites/twitch-twilight/modules/chat/index.js:677
+#: /src/sites/twitch-twilight/modules/chat/index.js:667
+#: /src/sites/twitch-twilight/modules/chat/index.js:676
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.channel_points.general"
@@ -2174,18 +2176,18 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.chat_on_videos.general"
 msgstr "General"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:609
-#: /src/sites/twitch-twilight/modules/chat/index.js:712
+#: /src/sites/twitch-twilight/modules/chat/index.js:608
+#: /src/sites/twitch-twilight/modules/chat/index.js:711
 #, icu-message-format
 msgid "setting.chat.drops"
 msgstr "Drops"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:609
+#: /src/sites/twitch-twilight/modules/chat/index.js:608
 #, icu-message-format
 msgid "setting.chat.drops.appearance"
 msgstr "Appearance"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:712
+#: /src/sites/twitch-twilight/modules/chat/index.js:711
 #, icu-message-format
 msgid "setting.chat.drops.behavior"
 msgstr "Behavior"
@@ -2420,7 +2422,7 @@ msgstr "Blocked Users"
 #: /src/modules/chat/index.js:975
 #: /src/modules/chat/index.js:984
 #: /src/sites/twitch-twilight/modules/chat/index.js:349
-#: /src/sites/twitch-twilight/modules/chat/index.js:847
+#: /src/sites/twitch-twilight/modules/chat/index.js:846
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general"
@@ -2461,7 +2463,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.behavior"
 msgstr "Behavior"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:847
+#: /src/sites/twitch-twilight/modules/chat/index.js:846
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.general.rituals"
@@ -2543,14 +2545,14 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.filtering.syntax_help"
 msgstr "Syntax Help"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:866
+#: /src/sites/twitch-twilight/modules/chat/index.js:865
 #: /src/sites/twitch-twilight/modules/chat/input.jsx:76
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:430
 #, icu-message-format
 msgid "setting.chat.hype_chat"
 msgstr "Hype Chat"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:866
+#: /src/sites/twitch-twilight/modules/chat/index.js:865
 #: /src/sites/twitch-twilight/modules/css_tweaks/index.js:430
 #, icu-message-format
 msgid "setting.chat.hype_chat.appearance"
@@ -2561,10 +2563,10 @@ msgstr "Appearance"
 msgid "setting.chat.hype_chat.input"
 msgstr "Input"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:1001
-#: /src/sites/twitch-twilight/modules/chat/index.js:1010
-#: /src/sites/twitch-twilight/modules/chat/index.js:983
-#: /src/sites/twitch-twilight/modules/chat/index.js:992
+#: /src/sites/twitch-twilight/modules/chat/index.js:1000
+#: /src/sites/twitch-twilight/modules/chat/index.js:1009
+#: /src/sites/twitch-twilight/modules/chat/index.js:982
+#: /src/sites/twitch-twilight/modules/chat/index.js:991
 #: /src/sites/twitch-twilight/modules/chat/input.jsx:104
 #: /src/sites/twitch-twilight/modules/chat/input.jsx:113
 #: /src/sites/twitch-twilight/modules/chat/input.jsx:122
@@ -2576,10 +2578,10 @@ msgctxt "FFZ Control Center"
 msgid "setting.chat.input"
 msgstr "Input"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:1001
-#: /src/sites/twitch-twilight/modules/chat/index.js:1010
-#: /src/sites/twitch-twilight/modules/chat/index.js:983
-#: /src/sites/twitch-twilight/modules/chat/index.js:992
+#: /src/sites/twitch-twilight/modules/chat/index.js:1000
+#: /src/sites/twitch-twilight/modules/chat/index.js:1009
+#: /src/sites/twitch-twilight/modules/chat/index.js:982
+#: /src/sites/twitch-twilight/modules/chat/index.js:991
 #: /src/sites/twitch-twilight/modules/chat/input.jsx:85
 #: /src/sites/twitch-twilight/modules/chat/settings_menu.jsx:24
 #, icu-message-format
@@ -2618,20 +2620,20 @@ msgstr "Link Cards"
 msgid "setting.chat.link_cards.general"
 msgstr "General"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:591
-#: /src/sites/twitch-twilight/modules/chat/index.js:731
-#: /src/sites/twitch-twilight/modules/chat/index.js:747
+#: /src/sites/twitch-twilight/modules/chat/index.js:590
+#: /src/sites/twitch-twilight/modules/chat/index.js:730
+#: /src/sites/twitch-twilight/modules/chat/index.js:746
 #, icu-message-format
 msgid "setting.chat.shared_chat"
 msgstr "Shared Chat"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:731
-#: /src/sites/twitch-twilight/modules/chat/index.js:747
+#: /src/sites/twitch-twilight/modules/chat/index.js:730
+#: /src/sites/twitch-twilight/modules/chat/index.js:746
 #, icu-message-format
 msgid "setting.chat.shared_chat.appearance"
 msgstr "Appearance"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:591
+#: /src/sites/twitch-twilight/modules/chat/index.js:590
 #, icu-message-format
 msgid "setting.chat.shared_chat.behavior"
 msgstr "Behavior"
@@ -3818,7 +3820,7 @@ msgstr "2 (Current)"
 msgid "setting.entry.chat.banners.charity"
 msgstr "Allow the charity fundraiser progress to be displayed in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:609
+#: /src/sites/twitch-twilight/modules/chat/index.js:608
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.drops"
@@ -3843,6 +3845,11 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.hype-train"
 msgstr "Allow the Hype Train to be displayed in chat."
 
+#: /src/sites/twitch-twilight/modules/chat/index.js:581
+#, icu-message-format
+msgid "setting.entry.chat.banners.kappa-train"
+msgstr "Always display the Golden Kappa Train, even if other Hype Trains are hidden."
+
 #: /src/sites/twitch-twilight/modules/chat/index.js:535
 #, icu-message-format
 msgid "setting.entry.chat.banners.last-events"
@@ -3853,23 +3860,23 @@ msgstr "Allow the Support Activity Feed to be displayed in chat."
 msgid "setting.entry.chat.banners.pinata"
 msgstr "Allow the Piñata to be displayed in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:600
+#: /src/sites/twitch-twilight/modules/chat/index.js:599
 #, icu-message-format
 msgid "setting.entry.chat.banners.pinned-message"
 msgstr "Allow Pinned Messages to be displayed in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:618
+#: /src/sites/twitch-twilight/modules/chat/index.js:617
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.banners.polls"
 msgstr "Allow Polls to be displayed in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:627
+#: /src/sites/twitch-twilight/modules/chat/index.js:626
 #, icu-message-format
 msgid "setting.entry.chat.banners.prediction"
 msgstr "Allow Predictions to be displayed in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:591
+#: /src/sites/twitch-twilight/modules/chat/index.js:590
 #, icu-message-format
 msgid "setting.entry.chat.banners.shared-chat"
 msgstr ""
@@ -3882,13 +3889,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.animated"
 msgstr "Display animated cheers."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:837
+#: /src/sites/twitch-twilight/modules/chat/index.js:836
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.cheer-notice"
 msgstr "Display a notice on chat messages that include cheers."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:837
+#: /src/sites/twitch-twilight/modules/chat/index.js:836
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.cheer-notice.description"
@@ -3904,23 +3911,23 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show"
 msgstr "Display Bits"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:791
+#: /src/sites/twitch-twilight/modules/chat/index.js:790
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned"
 msgstr "Display Leaderboard"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:809
+#: /src/sites/twitch-twilight/modules/chat/index.js:808
 #, icu-message-format
 msgid "setting.entry.chat.bits.show-pinned-progression"
 msgstr "Display Gift Badge Progression"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:809
+#: /src/sites/twitch-twilight/modules/chat/index.js:808
 #, icu-message-format, md-text
 msgid "setting.entry.chat.bits.show-pinned-progression.description"
 msgstr "Show the gift badge progression at the top of chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:791
+#: /src/sites/twitch-twilight/modules/chat/index.js:790
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-pinned.description"
@@ -3930,13 +3937,13 @@ msgstr ""
 "By default due to a previous implementation, this inherits its value from "
 "[Chat > Bits and Cheering > Display Bits](~chat.bits_and_cheering)."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:819
+#: /src/sites/twitch-twilight/modules/chat/index.js:818
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards"
 msgstr "Display messages when a cheer shares rewards to people in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:819
+#: /src/sites/twitch-twilight/modules/chat/index.js:818
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.bits.show-rewards.description"
@@ -3981,7 +3988,7 @@ msgstr "Grouped by Type"
 msgid "setting.entry.chat.bits.stack.values.2"
 msgstr "All in One"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:636
+#: /src/sites/twitch-twilight/modules/chat/index.js:635
 #, icu-message-format
 msgid "setting.entry.chat.callouts.clip"
 msgstr "Allow the \"Chat seems active.\" clip suggestion to be displayed in chat."
@@ -3992,7 +3999,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.click-emotes"
 msgstr "Open emote information pages by Shift-Clicking them."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:645
+#: /src/sites/twitch-twilight/modules/chat/index.js:644
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.community-chest.show"
@@ -4072,12 +4079,12 @@ msgstr "The CBenni Option (Literally 25 Years)"
 msgid "setting.entry.chat.disable-handling"
 msgstr "Enable processing of chat messages."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:712
+#: /src/sites/twitch-twilight/modules/chat/index.js:711
 #, icu-message-format
 msgid "setting.entry.chat.drops.auto-rewards"
 msgstr "Automatically claim drops."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:712
+#: /src/sites/twitch-twilight/modules/chat/index.js:711
 #, icu-message-format, md-text
 msgid "setting.entry.chat.drops.auto-rewards.description"
 msgstr ""
@@ -4512,13 +4519,13 @@ msgstr ""
 "Sometimes, really obnoxiously large emotes slip through the cracks and wind "
 "up on Twitch. This limits the size of Twitch emotes to mitigate the issue."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:856
+#: /src/sites/twitch-twilight/modules/chat/index.js:855
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.extra-timestamps"
 msgstr "Display timestamps on notices."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:856
+#: /src/sites/twitch-twilight/modules/chat/index.js:855
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.extra-timestamps.description"
@@ -4932,12 +4939,12 @@ msgstr ""
 msgid "setting.entry.chat.hype.display-input"
 msgstr "Allow the Hype Chat button to appear in the chat input element."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:866
+#: /src/sites/twitch-twilight/modules/chat/index.js:865
 #, icu-message-format
 msgid "setting.entry.chat.hype.message-style"
 msgstr "Hype Chat Style"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:866
+#: /src/sites/twitch-twilight/modules/chat/index.js:865
 #, icu-message-format, md-text
 msgid "setting.entry.chat.hype.message-style.description"
 msgstr ""
@@ -4945,17 +4952,17 @@ msgstr ""
 "displayed, regardless of setting. Changes made to this setting may not "
 "affect existing chat messages."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:874
+#: /src/sites/twitch-twilight/modules/chat/index.js:873
 #, icu-message-format
 msgid "setting.entry.chat.hype.message-style.values.0"
 msgstr "Do Not Display"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:875
+#: /src/sites/twitch-twilight/modules/chat/index.js:874
 #, icu-message-format
 msgid "setting.entry.chat.hype.message-style.values.1"
 msgstr "Standard Twitch (Large, Colored, Limited FFZ Support)"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:876
+#: /src/sites/twitch-twilight/modules/chat/index.js:875
 #, icu-message-format
 msgid "setting.entry.chat.hype.message-style.values.2"
 msgstr "Minimal (Marked with System Message, No Colors)"
@@ -4989,60 +4996,60 @@ msgstr ""
 "Display \"Chat Identity\" in the chat settings menu rather than the input "
 "box."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:1010
+#: /src/sites/twitch-twilight/modules/chat/index.js:1009
 #, icu-message-format
 msgid "setting.entry.chat.input.show-elevate-your-message"
 msgstr "Allow the \"Elevate Your Message\" button to be displayed."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:992
+#: /src/sites/twitch-twilight/modules/chat/index.js:991
 #, icu-message-format
 msgid "setting.entry.chat.input.show-highlight"
 msgstr "Allow the \"Chat Highlight Settings\" button to appear in relevant channels."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:983
+#: /src/sites/twitch-twilight/modules/chat/index.js:982
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.input.show-mod-view"
 msgstr "Allow the \"Mod View\" button to appear in relevant channels."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:1001
+#: /src/sites/twitch-twilight/modules/chat/index.js:1000
 #, icu-message-format
 msgid "setting.entry.chat.input.show-shield"
 msgstr "Allow the \"Shield Mode\" button to appear in relevant channels."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:933
+#: /src/sites/twitch-twilight/modules/chat/index.js:932
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.alternate"
 msgstr "Display lines with alternating background colors."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:951
+#: /src/sites/twitch-twilight/modules/chat/index.js:950
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.borders"
 msgstr "Separators"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:958
+#: /src/sites/twitch-twilight/modules/chat/index.js:957
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.0"
 msgstr "Disabled"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:959
+#: /src/sites/twitch-twilight/modules/chat/index.js:958
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.1"
 msgstr "Basic Line (1px Solid)"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:960
+#: /src/sites/twitch-twilight/modules/chat/index.js:959
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.2"
 msgstr "3D Line (2px Groove)"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:961
+#: /src/sites/twitch-twilight/modules/chat/index.js:960
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.3"
 msgstr "3D Line (2px Groove Inset)"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:962
+#: /src/sites/twitch-twilight/modules/chat/index.js:961
 #, icu-message-format
 msgid "setting.entry.chat.lines.borders.values.4"
 msgstr "Wide Line (2px Solid)"
@@ -5076,32 +5083,32 @@ msgstr "Padded"
 msgid "setting.entry.chat.lines.emote-alignment.values.2"
 msgstr "Baseline (BTTV-Like)"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:967
+#: /src/sites/twitch-twilight/modules/chat/index.js:966
 #, icu-message-format
 msgid "setting.entry.chat.lines.first-time-chatter"
 msgstr "First Time Chatter"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:967
+#: /src/sites/twitch-twilight/modules/chat/index.js:966
 #, icu-message-format, md-text
 msgid "setting.entry.chat.lines.first-time-chatter.description"
 msgstr "Display a users first time messages in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:976
+#: /src/sites/twitch-twilight/modules/chat/index.js:975
 #, icu-message-format
 msgid "setting.entry.chat.lines.first-time-chatter.values.0"
 msgstr "Disabled"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:977
+#: /src/sites/twitch-twilight/modules/chat/index.js:976
 #, icu-message-format
 msgid "setting.entry.chat.lines.first-time-chatter.values.1"
 msgstr "Enabled"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:978
+#: /src/sites/twitch-twilight/modules/chat/index.js:977
 #, icu-message-format
 msgid "setting.entry.chat.lines.first-time-chatter.values.2"
 msgstr "Without background"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:942
+#: /src/sites/twitch-twilight/modules/chat/index.js:941
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.lines.padding"
@@ -5174,34 +5181,34 @@ msgstr "International Name"
 msgid "setting.entry.chat.name-format.values.2"
 msgstr "Username"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:722
+#: /src/sites/twitch-twilight/modules/chat/index.js:721
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.pin-resubs"
 msgstr "Automatically pin re-subscription messages in chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:654
+#: /src/sites/twitch-twilight/modules/chat/index.js:653
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.allow-highlight"
 msgstr "Highlight the message in chat when someone redeems Highlight My Message."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:661
+#: /src/sites/twitch-twilight/modules/chat/index.js:660
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.0"
 msgstr "Disabled"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:662
+#: /src/sites/twitch-twilight/modules/chat/index.js:661
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.1"
 msgstr "Twitch Style"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:663
+#: /src/sites/twitch-twilight/modules/chat/index.js:662
 #, icu-message-format
 msgid "setting.entry.chat.points.allow-highlight.values.2"
 msgstr "FFZ Style"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:702
+#: /src/sites/twitch-twilight/modules/chat/index.js:701
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.auto-rewards"
@@ -5221,19 +5228,19 @@ msgstr ""
 "Custom rendering applies a background color to highlighted messages, which "
 "some users may not appreciate."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:677
+#: /src/sites/twitch-twilight/modules/chat/index.js:676
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-button"
 msgstr "Display Channel Points button beneath chat."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:668
+#: /src/sites/twitch-twilight/modules/chat/index.js:667
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-callouts"
 msgstr "Display messages in chat about Channel Points rewards."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:686
+#: /src/sites/twitch-twilight/modules/chat/index.js:685
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.points.show-rewards"
@@ -5372,7 +5379,7 @@ msgstr ""
 "**Note:** Enabling this may cause chat to scroll at inopportune times due "
 "to content loading. Moderators should not use this feature."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:847
+#: /src/sites/twitch-twilight/modules/chat/index.js:846
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.rituals.show"
@@ -5549,12 +5556,12 @@ msgstr "Fast"
 msgid "setting.entry.chat.scroller.smooth-scroll.values.4"
 msgstr "Very Fast"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:731
+#: /src/sites/twitch-twilight/modules/chat/index.js:730
 #, icu-message-format
 msgid "setting.entry.chat.shared-chat.style"
 msgstr "Pill Style"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:731
+#: /src/sites/twitch-twilight/modules/chat/index.js:730
 #, icu-message-format, md-text
 msgid "setting.entry.chat.shared-chat.style.description"
 msgstr ""
@@ -5562,27 +5569,27 @@ msgstr ""
 "when a message is part of a Shared Chat. By default, this is Avatar for "
 "moderators and broadcasters and Hidden for everyone else."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:740
+#: /src/sites/twitch-twilight/modules/chat/index.js:739
 #, icu-message-format
 msgid "setting.entry.chat.shared-chat.style.values.0"
 msgstr "Hidden"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:741
+#: /src/sites/twitch-twilight/modules/chat/index.js:740
 #, icu-message-format
 msgid "setting.entry.chat.shared-chat.style.values.1"
 msgstr "Channel Name"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:742
+#: /src/sites/twitch-twilight/modules/chat/index.js:741
 #, icu-message-format
 msgid "setting.entry.chat.shared-chat.style.values.2"
 msgstr "Avatar"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:739
+#: /src/sites/twitch-twilight/modules/chat/index.js:738
 #, icu-message-format
 msgid "setting.entry.chat.shared-chat.style.values.null"
 msgstr "Automatic"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:747
+#: /src/sites/twitch-twilight/modules/chat/index.js:746
 #, icu-message-format
 msgid "setting.entry.chat.shared-chat.username-tooltip"
 msgstr ""
@@ -5595,7 +5602,7 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.sub-emotes"
 msgstr "Open Twitch subscription pages by Shift-Clicking emotes when relevant."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:897
+#: /src/sites/twitch-twilight/modules/chat/index.js:896
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.compact"
@@ -5607,19 +5614,19 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.gift-banner"
 msgstr "Display a banner at the top of chat when a mass gift sub happens."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:906
+#: /src/sites/twitch-twilight/modules/chat/index.js:905
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts"
 msgstr "Merge Mass Sub Gifts"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:924
+#: /src/sites/twitch-twilight/modules/chat/index.js:923
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts-visibility"
 msgstr "Expand merged mass sub gift messages by default."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:906
+#: /src/sites/twitch-twilight/modules/chat/index.js:905
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.merge-gifts.description"
@@ -5628,32 +5635,32 @@ msgstr ""
 "quantity.\n"
 "**Note:** Only affects newly gifted subs."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:918
+#: /src/sites/twitch-twilight/modules/chat/index.js:917
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.0"
 msgstr "Always"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:916
+#: /src/sites/twitch-twilight/modules/chat/index.js:915
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.10"
 msgstr "More than 10"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:913
+#: /src/sites/twitch-twilight/modules/chat/index.js:912
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.1000"
 msgstr "Disabled"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:915
+#: /src/sites/twitch-twilight/modules/chat/index.js:914
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.20"
 msgstr "More than 20"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:917
+#: /src/sites/twitch-twilight/modules/chat/index.js:916
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.5"
 msgstr "More than 5"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:914
+#: /src/sites/twitch-twilight/modules/chat/index.js:913
 #, icu-message-format
 msgid "setting.entry.chat.subs.merge-gifts.values.50"
 msgstr "More than 50"
@@ -5663,13 +5670,13 @@ msgstr "More than 50"
 msgid "setting.entry.chat.subs.native"
 msgstr "Display subscription notices using Twitch's native UI."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:881
+#: /src/sites/twitch-twilight/modules/chat/index.js:880
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.show"
 msgstr "Display Subs in Chat"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:881
+#: /src/sites/twitch-twilight/modules/chat/index.js:880
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.subs.show.description"
@@ -5677,22 +5684,22 @@ msgstr ""
 "**Note**: Messages sent with re-subs will always be displayed. This only "
 "controls the special \"X subscribed!\" message."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:889
+#: /src/sites/twitch-twilight/modules/chat/index.js:888
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.0"
 msgstr "Do Not Display"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:890
+#: /src/sites/twitch-twilight/modules/chat/index.js:889
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.1"
 msgstr "Re-Subs with Messages Only"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:891
+#: /src/sites/twitch-twilight/modules/chat/index.js:890
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.2"
 msgstr "Re-Subs Only"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:892
+#: /src/sites/twitch-twilight/modules/chat/index.js:891
 #, icu-message-format
 msgid "setting.entry.chat.subs.show.values.3"
 msgstr "Display All"
@@ -5911,13 +5918,13 @@ msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.viewer-cards.highlight-chat"
 msgstr "Highlight messages from users with open viewer cards."
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:756
+#: /src/sites/twitch-twilight/modules/chat/index.js:755
 #, icu-message-format
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.width"
 msgstr "Width"
 
-#: /src/sites/twitch-twilight/modules/chat/index.js:756
+#: /src/sites/twitch-twilight/modules/chat/index.js:755
 #, icu-message-format, md-text
 msgctxt "FFZ Control Center"
 msgid "setting.entry.chat.width.description"
