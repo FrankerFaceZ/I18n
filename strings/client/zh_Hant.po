@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-26 14:32+0000\n"
-"Last-Translator: SeanPai <seanpai96@gmail.com>\n"
-"Language-Team: Chinese (Traditional) "
-"<https://weblate.frankerfacez.com/projects/frankerfacez/client/zh_Hant/>\n"
+"PO-Revision-Date: 2026-11-20 01:23+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"weblate.frankerfacez.com/projects/frankerfacez/client/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: /src/modules/main_menu/components/async-text.vue:52
 #, icu-message-format
@@ -484,7 +484,7 @@ msgid "chat.sub.plan"
 msgstr "在層級 {tier}"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "chat.sub.twitch-prime"
 msgstr "以 Prime Gaming"
 
@@ -821,7 +821,7 @@ msgid "emote-menu.sub-gift-ends"
 msgstr "這個贈禮訂閱在 {seconds,humantime} 後結束。"
 
 #: /src/sites/twitch-twilight/modules/chat/emote_menu.jsx:564:16
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "emote-menu.sub-prime"
 msgstr ""
 "這是你使用 Twitch Prime 的免費訂閱。\n"
@@ -927,7 +927,7 @@ msgid "emote.owner"
 msgstr "從: {owner}"
 
 #: /src/modules/chat/tokenizers.jsx:1041:14
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "emote.prime"
 msgstr "Prime Gaming"
 
