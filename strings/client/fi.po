@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-07 22:11+0000\n"
-"Last-Translator: trubbel <jimmy_8843_@hotmail.com>\n"
+"PO-Revision-Date: 2026-11-20 01:23+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Finnish <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/fi/>\n"
 "Language: fi\n"
@@ -382,6 +382,7 @@ msgstr "Tämä tilaus päättyy {seconds,humantime}."
 msgid "emote-menu.sub-gift-ends"
 msgstr "Tämä lahjatilaus päättyy {seconds,humantime} päästä."
 
+#, fuzzy
 msgid "emote-menu.sub-prime"
 msgstr ""
 "Tämä on ilmainen Twitch Prime tilauksesi.\n"
@@ -845,7 +846,7 @@ msgid "emoji.category.smileys_emotion"
 msgstr "Hymiöt & Ihmiset"
 
 #: /src/sites/twitch-twilight/modules/chat/line.js:623:8
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "chat.sub.twitch-prime"
 msgstr "Prime Gaming:lla"
 
@@ -957,7 +958,7 @@ msgid "emote.follower"
 msgstr "Seuraajahymiö ({source})"
 
 #: /src/modules/chat/tokenizers.jsx:1041:14
-#, icu-message-format
+#, fuzzy, icu-message-format
 msgid "emote.prime"
 msgstr "Prime Gaming"
 
