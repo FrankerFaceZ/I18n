@@ -137,17 +137,17 @@ msgstr "Videos"
 msgid "chat.acting"
 msgstr "Taking Action"
 
-#: /src/modules/chat/actions/types.jsx:428
+#: /src/modules/chat/actions/types.jsx:433
 #, icu-message-format, lp-defaults:"{\"action\":\"ban\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-block\",\"appearance.color\":\"#D62929\",\"appearance.tooltip\":\"\",\"display.mod\":true,\"display.mod_icons\":true,\"display.deleted\":false}"
 msgid "chat.actions.ban"
 msgstr "Ban User"
 
-#: /src/modules/chat/actions/types.jsx:451
+#: /src/modules/chat/actions/types.jsx:456
 #, icu-message-format
 msgid "chat.actions.ban-reason"
 msgstr "Ban {user.login} for:"
 
-#: /src/modules/chat/actions/types.jsx:455
+#: /src/modules/chat/actions/types.jsx:460
 #, icu-message-format
 msgid "chat.actions.ban.tooltip"
 msgstr "Ban {user.login}"
@@ -194,7 +194,7 @@ msgstr "Copy Message"
 msgid "chat.actions.copy_message.desc"
 msgstr "Allows you to quickly copy a chat message to your clipboard."
 
-#: /src/modules/chat/actions/types.jsx:370
+#: /src/modules/chat/actions/types.jsx:375
 #, icu-message-format
 msgid "chat.actions.delete.tooltip"
 msgstr "Delete {user.login}'s message"
@@ -210,12 +210,12 @@ msgstr "Change Name & Color"
 msgid "chat.actions.edit_overrides.desc"
 msgstr "Allows you to set local overrides for a user's name and color in chat."
 
-#: /src/modules/chat/actions/types.jsx:582
+#: /src/modules/chat/actions/types.jsx:587
 #, icu-message-format
 msgid "chat.actions.mod"
 msgstr "Mod User"
 
-#: /src/modules/chat/actions/types.jsx:595
+#: /src/modules/chat/actions/types.jsx:600
 #, icu-message-format
 msgid "chat.actions.mod.tooltip"
 msgstr "Mod {user.login}"
@@ -268,46 +268,46 @@ msgstr "Open Thread"
 msgid "chat.actions.select-reason"
 msgstr "Please select a reason from the list below:"
 
-#: /src/modules/chat/actions/types.jsx:468
+#: /src/modules/chat/actions/types.jsx:473
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"title\":\"Timeout User\",\"title_i18n\":\"chat.actions.timeout\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.timeout"
 msgstr "Timeout User"
 
-#: /src/modules/chat/actions/types.jsx:494
+#: /src/modules/chat/actions/types.jsx:499
 #, icu-message-format
 msgid "chat.actions.timeout-reason"
 msgstr ""
 "Timeout {user.login} for {duration, plural, one {# second} other {# "
 "seconds}} for:"
 
-#: /src/modules/chat/actions/types.jsx:468
+#: /src/modules/chat/actions/types.jsx:473
 #, icu-message-format, lp-defaults:"{\"action\":\"timeout\",\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-clock\",\"display.mod\":true,\"display.mod_icons\":true,\"options.duration\":600}"
 msgid "chat.actions.timeout.desc"
 msgstr "{options.duration, plural, one {# second} other {# seconds}}"
 
-#: /src/modules/chat/actions/types.jsx:504
+#: /src/modules/chat/actions/types.jsx:509
 #, icu-message-format, lp-defaults:"{\"user.login\":\"quoteconut\",\"duration\":600}"
 msgid "chat.actions.timeout.tooltip"
 msgstr ""
 "Timeout {user.login} for {duration, plural, one {# second} other {# "
 "seconds}}"
 
-#: /src/modules/chat/actions/types.jsx:703
+#: /src/modules/chat/actions/types.jsx:708
 #, icu-message-format
 msgid "chat.actions.toggle_profile"
 msgstr "Toggle Settings Profile"
 
-#: /src/modules/chat/actions/types.jsx:753
+#: /src/modules/chat/actions/types.jsx:758
 #, icu-message-format
 msgid "chat.actions.toggle_profile.tooltip"
 msgstr "Toggle Profile: {name}"
 
-#: /src/modules/chat/actions/types.jsx:524
+#: /src/modules/chat/actions/types.jsx:529
 #, icu-message-format, lp-defaults:"{\"action\":\"unban\",\"title\":\"Unban User\",\"title_i18n\":\"chat.actions.unban\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-ok\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.unban"
 msgstr "Unban User"
 
-#: /src/modules/chat/actions/types.jsx:542
+#: /src/modules/chat/actions/types.jsx:547
 #, icu-message-format, lp-defaults:"{\"user.login\":\"sirstendec\"}"
 msgid "chat.actions.unban.tooltip"
 msgstr "Unban {user.login}"
@@ -317,42 +317,42 @@ msgstr "Unban {user.login}"
 msgid "chat.actions.unknown"
 msgstr "Unknown Action Type"
 
-#: /src/modules/chat/actions/types.jsx:617
+#: /src/modules/chat/actions/types.jsx:622
 #, icu-message-format
 msgid "chat.actions.unmod"
 msgstr "Un-Mod User"
 
-#: /src/modules/chat/actions/types.jsx:630
+#: /src/modules/chat/actions/types.jsx:635
 #, icu-message-format
 msgid "chat.actions.unmod.tooltip"
 msgstr "Un-Mod {user.login}"
 
-#: /src/modules/chat/actions/types.jsx:551
+#: /src/modules/chat/actions/types.jsx:556
 #, icu-message-format, lp-defaults:"{\"action\":\"untimeout\",\"title\":\"Untimeout User\",\"title_i18n\":\"chat.actions.untimeout\",\"value.v\":null,\"appearance.type\":\"icon\",\"appearance.icon\":\"ffz-i-ok\",\"display.mod\":true,\"display.mod_icons\":true}"
 msgid "chat.actions.untimeout"
 msgstr "Untimeout User"
 
-#: /src/modules/chat/actions/types.jsx:569
+#: /src/modules/chat/actions/types.jsx:574
 #, icu-message-format
 msgid "chat.actions.untimeout.tooltip"
 msgstr "Untimeout {user.login}"
 
-#: /src/modules/chat/actions/types.jsx:383
+#: /src/modules/chat/actions/types.jsx:388
 #, icu-message-format
 msgid "chat.actions.warn"
 msgstr "Warn User"
 
-#: /src/modules/chat/actions/types.jsx:403
+#: /src/modules/chat/actions/types.jsx:408
 #, icu-message-format
 msgid "chat.actions.warn.tooltip"
 msgstr "Warn {user.login}"
 
-#: /src/modules/chat/actions/types.jsx:660
+#: /src/modules/chat/actions/types.jsx:665
 #, icu-message-format, lp-defaults:"{\"action\":\"whisper\",\"title\":\"Whisper User\",\"title_i18n\":\"chat.actions.whisper\",\"value.v\":null,\"appearance.type\":\"text\",\"appearance.text\":\"W\"}"
 msgid "chat.actions.whisper"
 msgstr "Whisper User"
 
-#: /src/modules/chat/actions/types.jsx:673
+#: /src/modules/chat/actions/types.jsx:678
 #, icu-message-format
 msgid "chat.actions.whisper.tooltip"
 msgstr "Whisper {user.login}"
@@ -382,7 +382,7 @@ msgstr "FFZ has finished reloading data. (Sources: {list})"
 msgid "chat.command.reload.starting"
 msgstr "FFZ is reloading data..."
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:1045
+#: /src/sites/twitch-twilight/modules/chat/line.js:1061
 #, icu-message-format
 msgid "chat.deleted-messages"
 msgstr ""
@@ -487,7 +487,7 @@ msgstr "Chat Identity"
 msgid "chat.ignore-clear"
 msgstr "An attempt by a moderator to clear chat was ignored."
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:1414
+#: /src/sites/twitch-twilight/modules/chat/line.js:1430
 #, icu-message-format
 msgid "chat.message-deleted"
 msgstr "<message deleted>"
@@ -497,22 +497,22 @@ msgstr "<message deleted>"
 msgid "chat.messages-below"
 msgstr "Chat Paused Due to Scroll"
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:1205
+#: /src/sites/twitch-twilight/modules/chat/line.js:1221
 #, icu-message-format
 msgid "chat.mod-action.ban"
 msgstr "Banned"
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:1210
+#: /src/sites/twitch-twilight/modules/chat/line.js:1226
 #, icu-message-format
 msgid "chat.mod-action.by"
 msgstr "{action} by {login}"
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:1207
+#: /src/sites/twitch-twilight/modules/chat/line.js:1223
 #, icu-message-format
 msgid "chat.mod-action.delete"
 msgstr "Deleted"
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:1199
+#: /src/sites/twitch-twilight/modules/chat/line.js:1215
 #, icu-message-format
 msgid "chat.mod-action.timeout"
 msgstr "{duration} Timeout"
@@ -632,7 +632,7 @@ msgstr "FFZ is unable to force chat to reconnect."
 msgid "chat.reply-to"
 msgstr "Replying To:"
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:797
+#: /src/sites/twitch-twilight/modules/chat/line.js:813
 #, icu-message-format
 msgid "chat.reply.bad-user"
 msgstr "Invalid user or no known message to reply to."
@@ -642,9 +642,9 @@ msgstr "Invalid user or no known message to reply to."
 msgid "chat.ritual"
 msgstr "{user} is new here. Say hello!"
 
-#: /src/sites/twitch-twilight/modules/chat/line.js:1335
-#: /src/sites/twitch-twilight/modules/chat/line.js:1345
-#: /src/sites/twitch-twilight/modules/chat/line.js:998
+#: /src/sites/twitch-twilight/modules/chat/line.js:1014
+#: /src/sites/twitch-twilight/modules/chat/line.js:1351
+#: /src/sites/twitch-twilight/modules/chat/line.js:1361
 #, icu-message-format
 msgid "chat.sent-from-source"
 msgstr "Sent from {source}"

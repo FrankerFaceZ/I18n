@@ -10995,7 +10995,7 @@
 			"id": "chat.actions.ban",
 			"doc": "client",
 			"default": "Ban User",
-			"source": "/src/modules/chat/actions/types.jsx:428",
+			"source": "/src/modules/chat/actions/types.jsx:433",
 			"context": "{\n    \"action\": \"ban\",\n    \"appearance\": {\n        \"type\": \"icon\",\n        \"icon\": \"ffz-i-block\",\n        \"color\": \"#D62929\",\n        \"tooltip\": \"\"\n    },\n    \"options\": {},\n    \"display\": {\n        \"mod\": true,\n        \"mod_icons\": true,\n        \"deleted\": false\n    }\n}",
 			"revision": 1
 		},
@@ -11003,7 +11003,7 @@
 			"id": "chat.actions.ban-reason",
 			"doc": "client",
 			"default": "Ban {user.login} for:",
-			"source": "/src/modules/chat/actions/types.jsx:451",
+			"source": "/src/modules/chat/actions/types.jsx:456",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11014,7 +11014,7 @@
 			"id": "chat.actions.ban.tooltip",
 			"doc": "client",
 			"default": "Ban {user.login}",
-			"source": "/src/modules/chat/actions/types.jsx:455",
+			"source": "/src/modules/chat/actions/types.jsx:460",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11093,7 +11093,7 @@
 			"id": "chat.actions.delete.tooltip",
 			"doc": "client",
 			"default": "Delete {user.login}'s message",
-			"source": "/src/modules/chat/actions/types.jsx:370",
+			"source": "/src/modules/chat/actions/types.jsx:375",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11120,14 +11120,14 @@
 			"id": "chat.actions.mod",
 			"doc": "client",
 			"default": "Mod User",
-			"source": "/src/modules/chat/actions/types.jsx:582",
+			"source": "/src/modules/chat/actions/types.jsx:587",
 			"context": null
 		},
 		"chat.actions.mod.tooltip": {
 			"id": "chat.actions.mod.tooltip",
 			"doc": "client",
 			"default": "Mod {user.login}",
-			"source": "/src/modules/chat/actions/types.jsx:595",
+			"source": "/src/modules/chat/actions/types.jsx:600",
 			"context": null,
 			"placeholders": [
 				"user.login"
@@ -11206,7 +11206,7 @@
 			"id": "chat.actions.timeout",
 			"doc": "client",
 			"default": "Timeout User",
-			"source": "/src/modules/chat/actions/types.jsx:468",
+			"source": "/src/modules/chat/actions/types.jsx:473",
 			"context": "{\n    \"action\": \"timeout\",\n    \"title\": \"Timeout User\",\n    \"title_i18n\": \"chat.actions.timeout\",\n    \"value\": {\n        \"v\": null\n    },\n    \"appearance\": {\n        \"type\": \"icon\",\n        \"icon\": \"ffz-i-clock\"\n    },\n    \"display\": {\n        \"mod\": true,\n        \"mod_icons\": true\n    }\n}",
 			"revision": 1
 		},
@@ -11214,7 +11214,7 @@
 			"id": "chat.actions.timeout-reason",
 			"doc": "client",
 			"default": "Timeout {user.login} for {duration, plural, one {# second} other {# seconds}} for:",
-			"source": "/src/modules/chat/actions/types.jsx:494",
+			"source": "/src/modules/chat/actions/types.jsx:499",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11226,7 +11226,7 @@
 			"id": "chat.actions.timeout.desc",
 			"doc": "client",
 			"default": "{options.duration, plural, one {# second} other {# seconds}}",
-			"source": "/src/modules/chat/actions/types.jsx:468",
+			"source": "/src/modules/chat/actions/types.jsx:473",
 			"context": "{\n    \"action\": \"timeout\",\n    \"appearance\": {\n        \"type\": \"icon\",\n        \"icon\": \"ffz-i-clock\"\n    },\n    \"display\": {\n        \"mod\": true,\n        \"mod_icons\": true\n    },\n    \"options\": {\n        \"duration\": 600\n    }\n}",
 			"revision": 1,
 			"placeholders": [
@@ -11237,7 +11237,7 @@
 			"id": "chat.actions.timeout.tooltip",
 			"doc": "client",
 			"default": "Timeout {user.login} for {duration, plural, one {# second} other {# seconds}}",
-			"source": "/src/modules/chat/actions/types.jsx:504",
+			"source": "/src/modules/chat/actions/types.jsx:509",
 			"context": "{\"user.login\":\"quoteconut\",\"duration\":600}",
 			"revision": 1,
 			"placeholders": [
@@ -11249,14 +11249,14 @@
 			"id": "chat.actions.toggle_profile",
 			"doc": "client",
 			"default": "Toggle Settings Profile",
-			"source": "/src/modules/chat/actions/types.jsx:703",
+			"source": "/src/modules/chat/actions/types.jsx:708",
 			"context": null
 		},
 		"chat.actions.toggle_profile.tooltip": {
 			"id": "chat.actions.toggle_profile.tooltip",
 			"doc": "client",
 			"default": "Toggle Profile: {name}",
-			"source": "/src/modules/chat/actions/types.jsx:753",
+			"source": "/src/modules/chat/actions/types.jsx:758",
 			"context": null,
 			"placeholders": [
 				"name"
@@ -11266,7 +11266,7 @@
 			"id": "chat.actions.unban",
 			"doc": "client",
 			"default": "Unban User",
-			"source": "/src/modules/chat/actions/types.jsx:524",
+			"source": "/src/modules/chat/actions/types.jsx:529",
 			"context": "{\n    \"action\": \"unban\",\n    \"title\": \"Unban User\",\n    \"title_i18n\": \"chat.actions.unban\",\n    \"value\": {\n        \"v\": null\n    },\n    \"appearance\": {\n        \"type\": \"icon\",\n        \"icon\": \"ffz-i-ok\"\n    },\n    \"display\": {\n        \"mod\": true,\n        \"mod_icons\": true\n    }\n}",
 			"revision": 3
 		},
@@ -11274,7 +11274,7 @@
 			"id": "chat.actions.unban.tooltip",
 			"doc": "client",
 			"default": "Unban {user.login}",
-			"source": "/src/modules/chat/actions/types.jsx:542",
+			"source": "/src/modules/chat/actions/types.jsx:547",
 			"context": "{\"user.login\":\"sirstendec\"}",
 			"revision": 1,
 			"placeholders": [
@@ -11293,14 +11293,14 @@
 			"id": "chat.actions.unmod",
 			"doc": "client",
 			"default": "Un-Mod User",
-			"source": "/src/modules/chat/actions/types.jsx:617",
+			"source": "/src/modules/chat/actions/types.jsx:622",
 			"context": null
 		},
 		"chat.actions.unmod.tooltip": {
 			"id": "chat.actions.unmod.tooltip",
 			"doc": "client",
 			"default": "Un-Mod {user.login}",
-			"source": "/src/modules/chat/actions/types.jsx:630",
+			"source": "/src/modules/chat/actions/types.jsx:635",
 			"context": null,
 			"placeholders": [
 				"user.login"
@@ -11310,7 +11310,7 @@
 			"id": "chat.actions.untimeout",
 			"doc": "client",
 			"default": "Untimeout User",
-			"source": "/src/modules/chat/actions/types.jsx:551",
+			"source": "/src/modules/chat/actions/types.jsx:556",
 			"context": "{\n    \"action\": \"untimeout\",\n    \"title\": \"Untimeout User\",\n    \"title_i18n\": \"chat.actions.untimeout\",\n    \"value\": {\n        \"v\": null\n    },\n    \"appearance\": {\n        \"type\": \"icon\",\n        \"icon\": \"ffz-i-ok\"\n    },\n    \"display\": {\n        \"mod\": true,\n        \"mod_icons\": true\n    }\n}",
 			"revision": 1
 		},
@@ -11318,7 +11318,7 @@
 			"id": "chat.actions.untimeout.tooltip",
 			"doc": "client",
 			"default": "Untimeout {user.login}",
-			"source": "/src/modules/chat/actions/types.jsx:569",
+			"source": "/src/modules/chat/actions/types.jsx:574",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11329,14 +11329,14 @@
 			"id": "chat.actions.warn",
 			"doc": "client",
 			"default": "Warn User",
-			"source": "/src/modules/chat/actions/types.jsx:383",
+			"source": "/src/modules/chat/actions/types.jsx:388",
 			"context": null
 		},
 		"chat.actions.warn.tooltip": {
 			"id": "chat.actions.warn.tooltip",
 			"doc": "client",
 			"default": "Warn {user.login}",
-			"source": "/src/modules/chat/actions/types.jsx:403",
+			"source": "/src/modules/chat/actions/types.jsx:408",
 			"context": null,
 			"placeholders": [
 				"user.login"
@@ -11346,7 +11346,7 @@
 			"id": "chat.actions.whisper",
 			"doc": "client",
 			"default": "Whisper User",
-			"source": "/src/modules/chat/actions/types.jsx:660",
+			"source": "/src/modules/chat/actions/types.jsx:665",
 			"context": "{\n    \"action\": \"whisper\",\n    \"title\": \"Whisper User\",\n    \"title_i18n\": \"chat.actions.whisper\",\n    \"value\": {\n        \"v\": null\n    },\n    \"appearance\": {\n        \"type\": \"text\",\n        \"text\": \"W\"\n    }\n}",
 			"revision": 1
 		},
@@ -11354,7 +11354,7 @@
 			"id": "chat.actions.whisper.tooltip",
 			"doc": "client",
 			"default": "Whisper {user.login}",
-			"source": "/src/modules/chat/actions/types.jsx:673",
+			"source": "/src/modules/chat/actions/types.jsx:678",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11407,7 +11407,7 @@
 			"id": "chat.deleted-messages",
 			"doc": "client",
 			"default": "{count,plural,\none {One message was deleted by a moderator.}\nother {# messages were deleted by a moderator.}\n}",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1045",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1061",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11570,7 +11570,7 @@
 			"id": "chat.message-deleted",
 			"doc": "client",
 			"default": "<message deleted>",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1414",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1430",
 			"context": null,
 			"revision": 1
 		},
@@ -11586,7 +11586,7 @@
 			"id": "chat.mod-action.ban",
 			"doc": "client",
 			"default": "Banned",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1205",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1221",
 			"context": null,
 			"revision": 1
 		},
@@ -11594,7 +11594,7 @@
 			"id": "chat.mod-action.by",
 			"doc": "client",
 			"default": "{action} by {login}",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1210",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1226",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11606,7 +11606,7 @@
 			"id": "chat.mod-action.delete",
 			"doc": "client",
 			"default": "Deleted",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1207",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1223",
 			"context": null,
 			"revision": 1
 		},
@@ -11614,7 +11614,7 @@
 			"id": "chat.mod-action.timeout",
 			"doc": "client",
 			"default": "{duration} Timeout",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1199",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1215",
 			"context": null,
 			"revision": 1,
 			"placeholders": [
@@ -11824,7 +11824,7 @@
 			"id": "chat.reply.bad-user",
 			"doc": "client",
 			"default": "Invalid user or no known message to reply to.",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:797",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:813",
 			"context": null
 		},
 		"chat.ritual": {
@@ -11842,7 +11842,7 @@
 			"id": "chat.sent-from-source",
 			"doc": "client",
 			"default": "Sent from {source}",
-			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1335\n/src/sites/twitch-twilight/modules/chat/line.js:1345\n/src/sites/twitch-twilight/modules/chat/line.js:998",
+			"source": "/src/sites/twitch-twilight/modules/chat/line.js:1014\n/src/sites/twitch-twilight/modules/chat/line.js:1351\n/src/sites/twitch-twilight/modules/chat/line.js:1361",
 			"context": null,
 			"placeholders": [
 				"source"
@@ -18411,7 +18411,7 @@
 			"id": "setting.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
+			"source": "/src/i18n.js:143\n/src/i18n.js:176\n/src/i18n.js:206\n/src/i18n.js:236\n/src/modules/main_menu/index.js:218\n/src/sites/twitch-twilight/modules/bits_button.js:19\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:146\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:155\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:184\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:194\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:204\n/src/sites/twitch-twilight/modules/css_tweaks/index.js:222\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\n/\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
@@ -19084,7 +19084,7 @@
 			"id": "setting.chat.appearance",
 			"doc": "settings",
 			"default": "Appearance",
-			"source": "/src/modules/chat/emoji.js:123\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1253\n/src/modules/chat/index.js:1282\n/src/modules/chat/index.js:1298\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
+			"source": "/src/modules/chat/emoji.js:123\n/src/modules/chat/emotes.js:494\n/src/modules/chat/emotes.js:511\n/src/modules/chat/emotes.js:531\n/src/modules/chat/emotes.js:541\n/src/modules/chat/emotes.js:551\n/src/modules/chat/index.js:1100\n/src/modules/chat/index.js:1131\n/src/modules/chat/index.js:1143\n/src/modules/chat/index.js:1176\n/src/modules/chat/index.js:1231\n/src/modules/chat/index.js:1253\n/src/modules/chat/index.js:1282\n/src/modules/chat/index.js:1298\n/src/modules/chat/index.js:167\n/src/modules/chat/index.js:179\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/sr\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\n/src\nFFZ Control Center",
 			"context": null,
 			"revision": 1
 		},
