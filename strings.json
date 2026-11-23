@@ -6156,12 +6156,445 @@
 			"source": "/src/trubbel/components/main_menu/preview-notification.vue:11",
 			"context": null
 		},
+		"back": {
+			"id": "back",
+			"doc": "addon.trubbel",
+			"default": "Back",
+			"source": "/src/trubbel/components/viewer_card/badge-carousel.vue:8\n/src/trubbel/components/viewer_card/gift-sub.vue:8\n/src/trubbel/components/viewer_card/moments-carousel.vue:8",
+			"context": null
+		},
+		"badge": {
+			"id": "badge",
+			"doc": "addon.trubbel",
+			"default": "The community moments badge",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:45",
+			"context": null
+		},
+		"bits.button": {
+			"id": "bits.button",
+			"doc": "addon.trubbel",
+			"default": "Guide to Cheering",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:205\n/src/trubbel/components/viewer_card/badge-descriptions.js:38",
+			"context": null
+		},
+		"bits.description": {
+			"id": "bits.description",
+			"doc": "addon.trubbel",
+			"default": "{userName} cheered {version} Bits to {channelName}'s channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:35",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"userName",
+				"version"
+			]
+		},
+		"bits.header": {
+			"id": "bits.header",
+			"doc": "addon.trubbel",
+			"default": "Cheer{version} Badge",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:34",
+			"context": null,
+			"placeholders": [
+				"version"
+			]
+		},
+		"campaign.ranking": {
+			"id": "campaign.ranking",
+			"doc": "addon.trubbel",
+			"default": "This badge was earned by being top supporter during {channelName}'s event",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:141",
+			"context": null,
+			"placeholders": [
+				"channelName"
+			]
+		},
+		"campaign.sub": {
+			"id": "campaign.sub",
+			"doc": "addon.trubbel",
+			"default": "This badge was earned by subscribing during {channelName}'s event.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:142",
+			"context": null,
+			"placeholders": [
+				"channelName"
+			]
+		},
+		"campaign.watch": {
+			"id": "campaign.watch",
+			"doc": "addon.trubbel",
+			"default": "This badge was earned by watching during {channelName}'s event.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:139",
+			"context": null,
+			"placeholders": [
+				"channelName"
+			]
+		},
+		"claimed": {
+			"id": "claimed",
+			"doc": "addon.trubbel",
+			"default": "{count, plural, one {{count, number} viewer claimed} other {{count, number} viewers claimed}}",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:137",
+			"context": null,
+			"placeholders": [
+				"count"
+			]
+		},
+		"developer.description": {
+			"id": "developer.description",
+			"doc": "addon.trubbel",
+			"default": "{username} is a game developer for the following organization(s):",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:104",
+			"context": null,
+			"placeholders": [
+				"username"
+			]
+		},
+		"empty.description": {
+			"id": "empty.description",
+			"doc": "addon.trubbel",
+			"default": "Sorry! Your Moments may have been removed by the channel owner or taken down due to copyright.",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:22",
+			"context": null
+		},
+		"empty.image": {
+			"id": "empty.image",
+			"doc": "addon.trubbel",
+			"default": "Default clip image",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:18",
+			"context": null
+		},
+		"empty.title": {
+			"id": "empty.title",
+			"doc": "addon.trubbel",
+			"default": "No moments available",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:21",
+			"context": null
+		},
+		"error": {
+			"id": "error",
+			"doc": "addon.trubbel",
+			"default": "Unable to load gifting right now.",
+			"source": "/src/trubbel/components/viewer_card/gift-sub.vue:42",
+			"context": null
+		},
+		"founder.description": {
+			"id": "founder.description",
+			"doc": "addon.trubbel",
+			"default": "{userName} is one of the first Prime or paid subscribers of {currentChannel}'s channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:78",
+			"context": null,
+			"placeholders": [
+				"currentChannel",
+				"userName"
+			]
+		},
+		"founder.header": {
+			"id": "founder.header",
+			"doc": "addon.trubbel",
+			"default": "Founder Badge",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:77",
+			"context": null
+		},
+		"gift-sub": {
+			"id": "gift-sub",
+			"doc": "addon.trubbel",
+			"default": "Gift a Subscription",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:211\n/src/trubbel/components/viewer_card/badge-descriptions.js:48",
+			"context": null
+		},
+		"gifter.description": {
+			"id": "gifter.description",
+			"doc": "addon.trubbel",
+			"default": "{giftNumber, plural, one {{userName} has gifted subscriptions in {channelName}'s channel} other {{userName} has gifted {giftNumber, number} subscriptions in {channelName}'s channel}}",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:44",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"giftNumber",
+				"userName"
+			]
+		},
+		"gifter.header": {
+			"id": "gifter.header",
+			"doc": "addon.trubbel",
+			"default": "{badgeTitle} Badge",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:43",
+			"context": null,
+			"placeholders": [
+				"badgeTitle"
+			]
+		},
 		"hl-reason.bttv-moderation": {
 			"id": "hl-reason.bttv-moderation",
 			"doc": "addon.trubbel",
 			"default": "BTTV Moderation Highlight",
 			"source": "/src/trubbel/modules/channel/chat/bttv.js:43",
 			"context": null
+		},
+		"label": {
+			"id": "label",
+			"doc": "addon.trubbel",
+			"default": "moments",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:64",
+			"context": null
+		},
+		"leader.alltime": {
+			"id": "leader.alltime",
+			"doc": "addon.trubbel",
+			"default": "{userName} is currently the all-time #{position} {leaderType} on {channelName}'s channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:216",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"leaderType",
+				"position",
+				"userName"
+			]
+		},
+		"leader.cheerer": {
+			"id": "leader.cheerer",
+			"doc": "addon.trubbel",
+			"default": "Cheerer",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:204",
+			"context": null
+		},
+		"leader.clipper": {
+			"id": "leader.clipper",
+			"doc": "addon.trubbel",
+			"default": "Clipper",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:207",
+			"context": null
+		},
+		"leader.day": {
+			"id": "leader.day",
+			"doc": "addon.trubbel",
+			"default": "day",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:222",
+			"context": null
+		},
+		"leader.gifter": {
+			"id": "leader.gifter",
+			"doc": "addon.trubbel",
+			"default": "Gifter",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:210",
+			"context": null
+		},
+		"leader.header": {
+			"id": "leader.header",
+			"doc": "addon.trubbel",
+			"default": "Top {leaderType} Badge",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:229",
+			"context": null,
+			"placeholders": [
+				"leaderType"
+			]
+		},
+		"leader.month": {
+			"id": "leader.month",
+			"doc": "addon.trubbel",
+			"default": "month",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:220",
+			"context": null
+		},
+		"leader.period": {
+			"id": "leader.period",
+			"doc": "addon.trubbel",
+			"default": "{userName} is currently the #{position} {leaderType} for the {timeInterval} on {channelName}'s channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:223",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"leaderType",
+				"position",
+				"timeInterval",
+				"userName"
+			]
+		},
+		"leader.week": {
+			"id": "leader.week",
+			"doc": "addon.trubbel",
+			"default": "week",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:221",
+			"context": null
+		},
+		"learn-more": {
+			"id": "learn-more",
+			"doc": "addon.trubbel",
+			"default": "Learn More",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:208\n/src/trubbel/components/viewer_card/badge-descriptions.js:25",
+			"context": null
+		},
+		"loading": {
+			"id": "loading",
+			"doc": "addon.trubbel",
+			"default": "Loading...",
+			"source": "/src/trubbel/components/viewer_card/gift-sub.vue:12",
+			"context": null
+		},
+		"moments.button": {
+			"id": "moments.button",
+			"doc": "addon.trubbel",
+			"default": "See Moments",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:94",
+			"context": null
+		},
+		"moments.description": {
+			"id": "moments.description",
+			"doc": "addon.trubbel",
+			"default": "{moments, plural, one {{userName} has been a part of at least {moments, number} Moment on {channelName}'s channel.} other {{userName} has been a part of at least {moments, number} Moments on {channelName}'s channel.}}",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:88",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"moments",
+				"userName"
+			]
+		},
+		"moments.header": {
+			"id": "moments.header",
+			"doc": "addon.trubbel",
+			"default": "Moments Badge (Tier {tier})",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:87",
+			"context": null,
+			"placeholders": [
+				"tier"
+			]
+		},
+		"next": {
+			"id": "next",
+			"doc": "addon.trubbel",
+			"default": "Next badge",
+			"source": "/src/trubbel/components/viewer_card/badge-carousel.vue:31\n/src/trubbel/components/viewer_card/moments-carousel.vue:55",
+			"context": null
+		},
+		"predictions.description": {
+			"id": "predictions.description",
+			"doc": "addon.trubbel",
+			"default": "{userName} predicted this outcome for {currentChannel}'s current Channel Points Prediction.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:68",
+			"context": null,
+			"placeholders": [
+				"currentChannel",
+				"userName"
+			]
+		},
+		"predictions.header": {
+			"id": "predictions.header",
+			"doc": "addon.trubbel",
+			"default": "Predicted Outcome {outcomeNumber}",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:67",
+			"context": null,
+			"placeholders": [
+				"outcomeNumber"
+			]
+		},
+		"previous": {
+			"id": "previous",
+			"doc": "addon.trubbel",
+			"default": "Previous badge",
+			"source": "/src/trubbel/components/viewer_card/badge-carousel.vue:13\n/src/trubbel/components/viewer_card/moments-carousel.vue:29",
+			"context": null
+		},
+		"prime.button": {
+			"id": "prime.button",
+			"doc": "addon.trubbel",
+			"default": "Learn More about Prime",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:60",
+			"context": null
+		},
+		"prime.description": {
+			"id": "prime.description",
+			"doc": "addon.trubbel",
+			"default": "Prime includes a free monthly Twitch channel Subscription",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:59",
+			"context": null
+		},
+		"prime.header": {
+			"id": "prime.header",
+			"doc": "addon.trubbel",
+			"default": "Prime Badge",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:58",
+			"context": null
+		},
+		"role.admin": {
+			"id": "role.admin",
+			"doc": "addon.trubbel",
+			"default": "{userName} is responsible for reviewing reports and enforcing our Terms of Service. In short, they help us keep Twitch safe and fun.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:240",
+			"context": null,
+			"placeholders": [
+				"userName"
+			]
+		},
+		"role.artist": {
+			"id": "role.artist",
+			"doc": "addon.trubbel",
+			"default": "{channelName} has recognized {userName} as an Artist in their channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:245",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"userName"
+			]
+		},
+		"role.broadcaster": {
+			"id": "role.broadcaster",
+			"doc": "addon.trubbel",
+			"default": "{userName} is the owner of the Channel that you are currently visiting on Twitch.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:242",
+			"context": null,
+			"placeholders": [
+				"userName"
+			]
+		},
+		"role.extension": {
+			"id": "role.extension",
+			"doc": "addon.trubbel",
+			"default": "This message was sent by an extension that is installed on this channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:241",
+			"context": null
+		},
+		"role.moderator": {
+			"id": "role.moderator",
+			"doc": "addon.trubbel",
+			"default": "{userName} is a moderator of {channelName}'s channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:238",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"userName"
+			]
+		},
+		"role.partner": {
+			"id": "role.partner",
+			"doc": "addon.trubbel",
+			"default": "{userName} is a Twitch Verified user.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:243",
+			"context": null,
+			"placeholders": [
+				"userName"
+			]
+		},
+		"role.staff": {
+			"id": "role.staff",
+			"doc": "addon.trubbel",
+			"default": "{userName} is part of the fine folk who make Twitch tick. Say hello!",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:239",
+			"context": null,
+			"placeholders": [
+				"userName"
+			]
+		},
+		"role.vip": {
+			"id": "role.vip",
+			"doc": "addon.trubbel",
+			"default": "{channelName} has recognized {userName} as a VIP in their channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:244",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"userName"
+			]
 		},
 		"setting.add_ons.trubbel_s_utilities": {
 			"id": "setting.add_ons.trubbel_s_utilities",
@@ -6251,21 +6684,28 @@
 			"id": "setting.add_ons.trubbel_s_utilities.appearance.declutter.stream",
 			"doc": "addon.trubbel",
 			"default": "Stream",
-			"source": "/src/trubbel/settings/appearance/declutter.js:472\n/src/trubbel/settings/appearance/declutter.js:484\n/src/trubbel/settings/appearance/declutter.js:496\n/src/trubbel/settings/appearance/declutter.js:508\n/src/trubbel/settings/appearance/declutter.js:520\n/src/trubbel/settings/appearance/declutter.js:532\n/src/trubbel/settings/appearance/declutter.js:544\n/src/trubbel/settings/appearance/declutter.js:556",
+			"source": "/src/trubbel/settings/appearance/declutter.js:472\n/src/trubbel/settings/appearance/declutter.js:484\n/src/trubbel/settings/appearance/declutter.js:496\n/src/trubbel/settings/appearance/declutter.js:508\n/src/trubbel/settings/appearance/declutter.js:520\n/src/trubbel/settings/appearance/declutter.js:532\n/src/trubbel/settings/appearance/declutter.js:544\n/src/trubbel/settings/appearance/declutter.js:556\n/src/trubbel/settings/appearance/declutter.js:568",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.appearance.declutter.top_navigation": {
 			"id": "setting.add_ons.trubbel_s_utilities.appearance.declutter.top_navigation",
 			"doc": "addon.trubbel",
 			"default": "Top Navigation",
-			"source": "/src/trubbel/settings/appearance/declutter.js:570",
+			"source": "/src/trubbel/settings/appearance/declutter.js:583",
+			"context": null
+		},
+		"setting.add_ons.trubbel_s_utilities.appearance.declutter.user_menu": {
+			"id": "setting.add_ons.trubbel_s_utilities.appearance.declutter.user_menu",
+			"doc": "addon.trubbel",
+			"default": "User Menu",
+			"source": "/src/trubbel/settings/appearance/declutter.js:598",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.appearance.declutter.vods": {
 			"id": "setting.add_ons.trubbel_s_utilities.appearance.declutter.vods",
 			"doc": "addon.trubbel",
 			"default": "VODs",
-			"source": "/src/trubbel/settings/appearance/declutter.js:585",
+			"source": "/src/trubbel/settings/appearance/declutter.js:612",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.appearance.notifications": {
@@ -6356,273 +6796,294 @@
 			"id": "setting.add_ons.trubbel_s_utilities.channel",
 			"doc": "addon.trubbel",
 			"default": "Channel",
-			"source": "/src/trubbel/settings/channel/chat.js:1005\n/src/trubbel/settings/channel/chat.js:1017\n/src/trubbel/settings/channel/chat.js:1029\n/src/trubbel/settings/channel/chat.js:1047\n/src/trubbel/settings/channel/chat.js:1093\n/src/trubbel/settings/channel/chat.js:1110\n/src/trubbel/settings/channel/chat.js:119\n/src/trubbel/settings/channel/chat.js:132\n/src/trubbel/settings/channel/chat.js:147\n/src/trubbel/settings/channel/chat.js:170\n/src/trubbel/settings/channel/chat.js:192\n/src/trubbel/settings/channel/chat.js:209\n/s",
+			"source": "/src/trubbel/settings/channel/chat.js:1006\n/src/trubbel/settings/channel/chat.js:1021\n/src/trubbel/settings/channel/chat.js:1034\n/src/trubbel/settings/channel/chat.js:1076\n/src/trubbel/settings/channel/chat.js:1091\n/src/trubbel/settings/channel/chat.js:1106\n/src/trubbel/settings/channel/chat.js:1119\n/src/trubbel/settings/channel/chat.js:1132\n/src/trubbel/settings/channel/chat.js:1145\n/src/trubbel/settings/channel/chat.js:1164\n/src/trubbel/settings/channel/chat.js:1180\n/src/trubbel/settings/channel/chat.js:1",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat",
 			"doc": "addon.trubbel",
 			"default": "Chat",
-			"source": "/src/trubbel/settings/channel/chat.js:1005\n/src/trubbel/settings/channel/chat.js:1017\n/src/trubbel/settings/channel/chat.js:1029\n/src/trubbel/settings/channel/chat.js:1047\n/src/trubbel/settings/channel/chat.js:1093\n/src/trubbel/settings/channel/chat.js:1110\n/src/trubbel/settings/channel/chat.js:119\n/src/trubbel/settings/channel/chat.js:132\n/src/trubbel/settings/channel/chat.js:147\n/src/trubbel/settings/channel/chat.js:170\n/src/trubbel/settings/channel/chat.js:192\n/src/trubbel/settings/channel/chat.js:209\n/s",
+			"source": "/src/trubbel/settings/channel/chat.js:1006\n/src/trubbel/settings/channel/chat.js:1021\n/src/trubbel/settings/channel/chat.js:1034\n/src/trubbel/settings/channel/chat.js:1076\n/src/trubbel/settings/channel/chat.js:1091\n/src/trubbel/settings/channel/chat.js:1106\n/src/trubbel/settings/channel/chat.js:1119\n/src/trubbel/settings/channel/chat.js:1132\n/src/trubbel/settings/channel/chat.js:1145\n/src/trubbel/settings/channel/chat.js:1164\n/src/trubbel/settings/channel/chat.js:1180\n/src/trubbel/settings/channel/chat.js:1",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.accessibility": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.accessibility",
 			"doc": "addon.trubbel",
 			"default": "Accessibility",
-			"source": "/src/trubbel/settings/channel/chat.js:119\n/src/trubbel/settings/channel/chat.js:132",
+			"source": "/src/trubbel/settings/channel/chat.js:136\n/src/trubbel/settings/channel/chat.js:149",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.accessibility.emotes": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.accessibility.emotes",
 			"doc": "addon.trubbel",
 			"default": "Emotes",
-			"source": "/src/trubbel/settings/channel/chat.js:119\n/src/trubbel/settings/channel/chat.js:132",
+			"source": "/src/trubbel/settings/channel/chat.js:136\n/src/trubbel/settings/channel/chat.js:149",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.commands": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.commands",
 			"doc": "addon.trubbel",
 			"default": "Commands",
-			"source": "/src/trubbel/settings/channel/chat.js:147\n/src/trubbel/settings/channel/chat.js:170",
+			"source": "/src/trubbel/settings/channel/chat.js:164\n/src/trubbel/settings/channel/chat.js:187",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.commands.custom": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.commands.custom",
 			"doc": "addon.trubbel",
 			"default": "Custom",
-			"source": "/src/trubbel/settings/channel/chat.js:147\n/src/trubbel/settings/channel/chat.js:170",
+			"source": "/src/trubbel/settings/channel/chat.js:164\n/src/trubbel/settings/channel/chat.js:187",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.header": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.header",
 			"doc": "addon.trubbel",
 			"default": "Header",
-			"source": "/src/trubbel/settings/channel/chat.js:224\n/src/trubbel/settings/channel/chat.js:449",
+			"source": "/src/trubbel/settings/channel/chat.js:241\n/src/trubbel/settings/channel/chat.js:757",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.header.info": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.header.info",
 			"doc": "addon.trubbel",
 			"default": "Info",
-			"source": "/src/trubbel/settings/channel/chat.js:224",
+			"source": "/src/trubbel/settings/channel/chat.js:241",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.header.popout": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.header.popout",
 			"doc": "addon.trubbel",
 			"default": "Popout",
-			"source": "/src/trubbel/settings/channel/chat.js:449",
+			"source": "/src/trubbel/settings/channel/chat.js:757",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.input": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.input",
 			"doc": "addon.trubbel",
 			"default": "Input",
-			"source": "/src/trubbel/settings/channel/chat.js:192\n/src/trubbel/settings/channel/chat.js:209\n/src/trubbel/settings/channel/chat.js:245\n/src/trubbel/settings/channel/chat.js:263",
+			"source": "/src/trubbel/settings/channel/chat.js:209\n/src/trubbel/settings/channel/chat.js:226\n/src/trubbel/settings/channel/chat.js:262\n/src/trubbel/settings/channel/chat.js:280",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.input.counter": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.input.counter",
 			"doc": "addon.trubbel",
 			"default": "Counter",
-			"source": "/src/trubbel/settings/channel/chat.js:245\n/src/trubbel/settings/channel/chat.js:263",
+			"source": "/src/trubbel/settings/channel/chat.js:262\n/src/trubbel/settings/channel/chat.js:280",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.input.first_time_chatter": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.input.first_time_chatter",
 			"doc": "addon.trubbel",
 			"default": "FirstTimeChatter",
-			"source": "/src/trubbel/settings/channel/chat.js:192",
+			"source": "/src/trubbel/settings/channel/chat.js:209",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.input.latency": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.input.latency",
 			"doc": "addon.trubbel",
 			"default": "Latency",
-			"source": "/src/trubbel/settings/channel/chat.js:209",
+			"source": "/src/trubbel/settings/channel/chat.js:226",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages",
 			"doc": "addon.trubbel",
 			"default": "Messages",
-			"source": "/src/trubbel/settings/channel/chat.js:278\n/src/trubbel/settings/channel/chat.js:291\n/src/trubbel/settings/channel/chat.js:306\n/src/trubbel/settings/channel/chat.js:318\n/src/trubbel/settings/channel/chat.js:333\n/src/trubbel/settings/channel/chat.js:350\n/src/trubbel/settings/channel/chat.js:435\n/src/trubbel/settings/channel/chat.js:571\n/src/trubbel/settings/channel/chat.js:585\n/src/trubbel/settings/channel/chat.js:598\n/src/trubbel/settings/channel/chat.js:609\n/src/trubbel/settings/channel/chat.js:622\n/src/tru",
+			"source": "/src/trubbel/settings/channel/chat.js:1006\n/src/trubbel/settings/channel/chat.js:1021\n/src/trubbel/settings/channel/chat.js:1034\n/src/trubbel/settings/channel/chat.js:1106\n/src/trubbel/settings/channel/chat.js:1119\n/src/trubbel/settings/channel/chat.js:1132\n/src/trubbel/settings/channel/chat.js:1145\n/src/trubbel/settings/channel/chat.js:295\n/src/trubbel/settings/channel/chat.js:308\n/src/trubbel/settings/channel/chat.js:323\n/src/trubbel/settings/channel/chat.js:335\n/src/trubbel/settings/channel/chat.js:350\n/",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.highlights": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.highlights",
 			"doc": "addon.trubbel",
 			"default": "Highlights",
-			"source": "/src/trubbel/settings/channel/chat.js:333\n/src/trubbel/settings/channel/chat.js:350",
+			"source": "/src/trubbel/settings/channel/chat.js:350\n/src/trubbel/settings/channel/chat.js:367",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.links": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.links",
 			"doc": "addon.trubbel",
 			"default": "Links",
-			"source": "/src/trubbel/settings/channel/chat.js:278\n/src/trubbel/settings/channel/chat.js:291",
+			"source": "/src/trubbel/settings/channel/chat.js:295\n/src/trubbel/settings/channel/chat.js:308",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.markdown": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.markdown",
 			"doc": "addon.trubbel",
 			"default": "Markdown",
-			"source": "/src/trubbel/settings/channel/chat.js:306\n/src/trubbel/settings/channel/chat.js:318",
+			"source": "/src/trubbel/settings/channel/chat.js:323\n/src/trubbel/settings/channel/chat.js:335",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.pinned_messages": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.pinned_messages",
 			"doc": "addon.trubbel",
 			"default": "Pinned Messages",
-			"source": "/src/trubbel/settings/channel/chat.js:435",
+			"source": "/src/trubbel/settings/channel/chat.js:703",
+			"context": null
+		},
+		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.reply_navigator": {
+			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.reply_navigator",
+			"doc": "addon.trubbel",
+			"default": "Reply Navigator",
+			"source": "/src/trubbel/settings/channel/chat.js:717\n/src/trubbel/settings/channel/chat.js:730\n/src/trubbel/settings/channel/chat.js:742",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.shared_chat": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.shared_chat",
 			"doc": "addon.trubbel",
 			"default": "Shared Chat",
-			"source": "/src/trubbel/settings/channel/chat.js:571",
+			"source": "/src/trubbel/settings/channel/chat.js:879",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_replace": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_replace",
 			"doc": "addon.trubbel",
 			"default": "Text Replace",
-			"source": "/src/trubbel/settings/channel/chat.js:585\n/src/trubbel/settings/channel/chat.js:598",
+			"source": "/src/trubbel/settings/channel/chat.js:893\n/src/trubbel/settings/channel/chat.js:906",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_to_speech": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.text_to_speech",
 			"doc": "addon.trubbel",
 			"default": "Text-to-Speech",
-			"source": "/src/trubbel/settings/channel/chat.js:609\n/src/trubbel/settings/channel/chat.js:622\n/src/trubbel/settings/channel/chat.js:634\n/src/trubbel/settings/channel/chat.js:654\n/src/trubbel/settings/channel/chat.js:668\n/src/trubbel/settings/channel/chat.js:682",
+			"source": "/src/trubbel/settings/channel/chat.js:917\n/src/trubbel/settings/channel/chat.js:930\n/src/trubbel/settings/channel/chat.js:942\n/src/trubbel/settings/channel/chat.js:962\n/src/trubbel/settings/channel/chat.js:976\n/src/trubbel/settings/channel/chat.js:990",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.timestamp": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.timestamp",
 			"doc": "addon.trubbel",
 			"default": "Timestamp",
-			"source": "/src/trubbel/settings/channel/chat.js:698",
+			"source": "/src/trubbel/settings/channel/chat.js:1006",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.translation": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.translation",
 			"doc": "addon.trubbel",
 			"default": "Translation",
-			"source": "/src/trubbel/settings/channel/chat.js:713\n/src/trubbel/settings/channel/chat.js:726",
+			"source": "/src/trubbel/settings/channel/chat.js:1021\n/src/trubbel/settings/channel/chat.js:1034",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.messages.viewer_cards": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.messages.viewer_cards",
 			"doc": "addon.trubbel",
 			"default": "Viewer Cards",
-			"source": "/src/trubbel/settings/channel/chat.js:798\n/src/trubbel/settings/channel/chat.js:811\n/src/trubbel/settings/channel/chat.js:824\n/src/trubbel/settings/channel/chat.js:837",
+			"source": "/src/trubbel/settings/channel/chat.js:1106\n/src/trubbel/settings/channel/chat.js:1119\n/src/trubbel/settings/channel/chat.js:1132\n/src/trubbel/settings/channel/chat.js:1145",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.moderation": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.moderation",
 			"doc": "addon.trubbel",
 			"default": "Moderation",
-			"source": "/src/trubbel/settings/channel/chat.js:374\n/src/trubbel/settings/channel/chat.js:391\n/src/trubbel/settings/channel/chat.js:403\n/src/trubbel/settings/channel/chat.js:417",
+			"source": "/src/trubbel/settings/channel/chat.js:391\n/src/trubbel/settings/channel/chat.js:408\n/src/trubbel/settings/channel/chat.js:420\n/src/trubbel/settings/channel/chat.js:434\n/src/trubbel/settings/channel/chat.js:452\n/src/trubbel/settings/channel/chat.js:469\n/src/trubbel/settings/channel/chat.js:481\n/src/trubbel/settings/channel/chat.js:492\n/src/trubbel/settings/channel/chat.js:503\n/src/trubbel/settings/channel/chat.js:514\n/src/trubbel/settings/channel/chat.js:528\n/src/trubbel/settings/channel/chat.js:545\n/src/tru",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.moderation.context_menu": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.moderation.context_menu",
 			"doc": "addon.trubbel",
 			"default": "Context Menu",
-			"source": "/src/trubbel/settings/channel/chat.js:374\n/src/trubbel/settings/channel/chat.js:391\n/src/trubbel/settings/channel/chat.js:403\n/src/trubbel/settings/channel/chat.js:417",
+			"source": "/src/trubbel/settings/channel/chat.js:391\n/src/trubbel/settings/channel/chat.js:408\n/src/trubbel/settings/channel/chat.js:420\n/src/trubbel/settings/channel/chat.js:434",
+			"context": null
+		},
+		"setting.add_ons.trubbel_s_utilities.channel.chat.moderation.mod_navigator": {
+			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.moderation.mod_navigator",
+			"doc": "addon.trubbel",
+			"default": "Mod Navigator",
+			"source": "/src/trubbel/settings/channel/chat.js:452\n/src/trubbel/settings/channel/chat.js:469\n/src/trubbel/settings/channel/chat.js:481\n/src/trubbel/settings/channel/chat.js:492\n/src/trubbel/settings/channel/chat.js:503\n/src/trubbel/settings/channel/chat.js:514\n/src/trubbel/settings/channel/chat.js:528\n/src/trubbel/settings/channel/chat.js:545\n/src/trubbel/settings/channel/chat.js:559",
+			"context": null
+		},
+		"setting.add_ons.trubbel_s_utilities.channel.chat.moderation.mod_shortcuts": {
+			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.moderation.mod_shortcuts",
+			"doc": "addon.trubbel",
+			"default": "Mod Shortcuts",
+			"source": "/src/trubbel/settings/channel/chat.js:606\n/src/trubbel/settings/channel/chat.js:623\n/src/trubbel/settings/channel/chat.js:635\n/src/trubbel/settings/channel/chat.js:647\n/src/trubbel/settings/channel/chat.js:659",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.notifications": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.notifications",
 			"doc": "addon.trubbel",
 			"default": "Notifications",
-			"source": "/src/trubbel/settings/channel/chat.js:464\n/src/trubbel/settings/channel/chat.js:479\n/src/trubbel/settings/channel/chat.js:496",
+			"source": "/src/trubbel/settings/channel/chat.js:772\n/src/trubbel/settings/channel/chat.js:787\n/src/trubbel/settings/channel/chat.js:804",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.notifications.predictions": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.notifications.predictions",
 			"doc": "addon.trubbel",
 			"default": "Predictions",
-			"source": "/src/trubbel/settings/channel/chat.js:464\n/src/trubbel/settings/channel/chat.js:479\n/src/trubbel/settings/channel/chat.js:496",
+			"source": "/src/trubbel/settings/channel/chat.js:772\n/src/trubbel/settings/channel/chat.js:787\n/src/trubbel/settings/channel/chat.js:804",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.raids": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.raids",
 			"doc": "addon.trubbel",
 			"default": "Raids",
-			"source": "/src/trubbel/settings/channel/chat.js:515\n/src/trubbel/settings/channel/chat.js:533\n/src/trubbel/settings/channel/chat.js:551",
+			"source": "/src/trubbel/settings/channel/chat.js:823\n/src/trubbel/settings/channel/chat.js:841\n/src/trubbel/settings/channel/chat.js:859",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.raids.preview": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.raids.preview",
 			"doc": "addon.trubbel",
 			"default": "Preview",
-			"source": "/src/trubbel/settings/channel/chat.js:515\n/src/trubbel/settings/channel/chat.js:533\n/src/trubbel/settings/channel/chat.js:551",
+			"source": "/src/trubbel/settings/channel/chat.js:823\n/src/trubbel/settings/channel/chat.js:841\n/src/trubbel/settings/channel/chat.js:859",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.ui": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.ui",
 			"doc": "addon.trubbel",
 			"default": "UI",
-			"source": "/src/trubbel/settings/channel/chat.js:768\n/src/trubbel/settings/channel/chat.js:783",
+			"source": "/src/trubbel/settings/channel/chat.js:1076\n/src/trubbel/settings/channel/chat.js:1091",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.ui.leaderboard": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.ui.leaderboard",
 			"doc": "addon.trubbel",
 			"default": "Leaderboard",
-			"source": "/src/trubbel/settings/channel/chat.js:768",
+			"source": "/src/trubbel/settings/channel/chat.js:1076",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.ui.viewer_list": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.ui.viewer_list",
 			"doc": "addon.trubbel",
 			"default": "Viewer List",
-			"source": "/src/trubbel/settings/channel/chat.js:783",
+			"source": "/src/trubbel/settings/channel/chat.js:1091",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards",
 			"doc": "addon.trubbel",
 			"default": "Viewer Cards",
-			"source": "/src/trubbel/settings/channel/chat.js:1005\n/src/trubbel/settings/channel/chat.js:1017\n/src/trubbel/settings/channel/chat.js:1029\n/src/trubbel/settings/channel/chat.js:1047\n/src/trubbel/settings/channel/chat.js:1093\n/src/trubbel/settings/channel/chat.js:1110\n/src/trubbel/settings/channel/chat.js:856\n/src/trubbel/settings/channel/chat.js:872\n/src/trubbel/settings/channel/chat.js:888\n/src/trubbel/settings/channel/chat.js:904\n/src/trubbel/settings/channel/chat.js:920\n/src/trubbel/settings/channel/chat.js:932\n/s",
+			"source": "/src/trubbel/settings/channel/chat.js:1164\n/src/trubbel/settings/channel/chat.js:1180\n/src/trubbel/settings/channel/chat.js:1196\n/src/trubbel/settings/channel/chat.js:1212\n/src/trubbel/settings/channel/chat.js:1228\n/src/trubbel/settings/channel/chat.js:1240\n/src/trubbel/settings/channel/chat.js:1252\n/src/trubbel/settings/channel/chat.js:1265\n/src/trubbel/settings/channel/chat.js:1277\n/src/trubbel/settings/channel/chat.js:1289\n/src/trubbel/settings/channel/chat.js:1301\n/src/trubbel/settings/channel/chat.js:1",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.appearance": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.appearance",
 			"doc": "addon.trubbel",
 			"default": "Appearance",
-			"source": "/src/trubbel/settings/channel/chat.js:1005\n/src/trubbel/settings/channel/chat.js:1017\n/src/trubbel/settings/channel/chat.js:1029\n/src/trubbel/settings/channel/chat.js:957\n/src/trubbel/settings/channel/chat.js:969\n/src/trubbel/settings/channel/chat.js:981\n/src/trubbel/settings/channel/chat.js:993",
+			"source": "/src/trubbel/settings/channel/chat.js:1265\n/src/trubbel/settings/channel/chat.js:1277\n/src/trubbel/settings/channel/chat.js:1289\n/src/trubbel/settings/channel/chat.js:1301\n/src/trubbel/settings/channel/chat.js:1313\n/src/trubbel/settings/channel/chat.js:1325\n/src/trubbel/settings/channel/chat.js:1337",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.general": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.general",
 			"doc": "addon.trubbel",
 			"default": "General",
-			"source": "/src/trubbel/settings/channel/chat.js:856\n/src/trubbel/settings/channel/chat.js:872\n/src/trubbel/settings/channel/chat.js:888\n/src/trubbel/settings/channel/chat.js:904",
+			"source": "/src/trubbel/settings/channel/chat.js:1164\n/src/trubbel/settings/channel/chat.js:1180\n/src/trubbel/settings/channel/chat.js:1196\n/src/trubbel/settings/channel/chat.js:1212",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.highlighting": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.highlighting",
 			"doc": "addon.trubbel",
 			"default": "Highlighting",
-			"source": "/src/trubbel/settings/channel/chat.js:920\n/src/trubbel/settings/channel/chat.js:932\n/src/trubbel/settings/channel/chat.js:944",
+			"source": "/src/trubbel/settings/channel/chat.js:1228\n/src/trubbel/settings/channel/chat.js:1240\n/src/trubbel/settings/channel/chat.js:1252",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.moderation": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.moderation",
 			"doc": "addon.trubbel",
 			"default": "Moderation",
-			"source": "/src/trubbel/settings/channel/chat.js:1047\n/src/trubbel/settings/channel/chat.js:1093",
+			"source": "/src/trubbel/settings/channel/chat.js:1355\n/src/trubbel/settings/channel/chat.js:1401",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.user_notes": {
 			"id": "setting.add_ons.trubbel_s_utilities.channel.chat.viewer_cards.user_notes",
 			"doc": "addon.trubbel",
 			"default": "User Notes",
-			"source": "/src/trubbel/settings/channel/chat.js:1110",
+			"source": "/src/trubbel/settings/channel/chat.js:1418",
 			"context": null
 		},
 		"setting.add_ons.trubbel_s_utilities.channel.mod_view": {
@@ -7418,6 +7879,21 @@
 			"source": "/src/trubbel/settings/appearance/declutter.js:544",
 			"context": null
 		},
+		"setting.entry.addon.trubbel.appearance.declutter.stream.play_luna": {
+			"id": "setting.entry.addon.trubbel.appearance.declutter.stream.play_luna",
+			"doc": "addon.trubbel",
+			"default": "Hide Play on Luna",
+			"source": "/src/trubbel/settings/appearance/declutter.js:568",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.appearance.declutter.stream.play_luna.description": {
+			"id": "setting.entry.addon.trubbel.appearance.declutter.stream.play_luna.description",
+			"doc": "addon.trubbel",
+			"default": "This removes Play on Luna metadata button, next to the `Follow`/`Unfollow`-button.",
+			"source": "/src/trubbel/settings/appearance/declutter.js:568",
+			"context": null,
+			"markdown": true
+		},
 		"setting.entry.addon.trubbel.appearance.declutter.stream.power_ups": {
 			"id": "setting.entry.addon.trubbel.appearance.declutter.stream.power_ups",
 			"doc": "addon.trubbel",
@@ -7443,22 +7919,29 @@
 			"id": "setting.entry.addon.trubbel.appearance.declutter.top_nav.CreatorMessagesNavButton",
 			"doc": "addon.trubbel",
 			"default": "Hide Shouts button",
-			"source": "/src/trubbel/settings/appearance/declutter.js:570",
+			"source": "/src/trubbel/settings/appearance/declutter.js:583",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.appearance.declutter.top_nav.CreatorMessagesNavButton.description": {
 			"id": "setting.entry.addon.trubbel.appearance.declutter.top_nav.CreatorMessagesNavButton.description",
 			"doc": "addon.trubbel",
 			"default": "Removes the Streamer Shouts button from the top navigation bar.",
-			"source": "/src/trubbel/settings/appearance/declutter.js:570",
+			"source": "/src/trubbel/settings/appearance/declutter.js:583",
 			"context": null,
 			"markdown": true
+		},
+		"setting.entry.addon.trubbel.appearance.declutter.user_menu.start_streaming": {
+			"id": "setting.entry.addon.trubbel.appearance.declutter.user_menu.start_streaming",
+			"doc": "addon.trubbel",
+			"default": "Hide Start Streaming button",
+			"source": "/src/trubbel/settings/appearance/declutter.js:598",
+			"context": null
 		},
 		"setting.entry.addon.trubbel.appearance.declutter.vods.muted_segment_popup": {
 			"id": "setting.entry.addon.trubbel.appearance.declutter.vods.muted_segment_popup",
 			"doc": "addon.trubbel",
 			"default": "Hide muted segments alerts popups",
-			"source": "/src/trubbel/settings/appearance/declutter.js:585",
+			"source": "/src/trubbel/settings/appearance/declutter.js:612",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.appearance.notifications.custom.background_color": {
@@ -7770,14 +8253,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate",
 			"doc": "addon.trubbel",
 			"default": "Enable Animated Emotes Blocklist",
-			"source": "/src/trubbel/settings/channel/chat.js:119",
+			"source": "/src/trubbel/settings/channel/chat.js:136",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate.description",
 			"doc": "addon.trubbel",
 			"default": "You can selectively disable animated emotes by right-clicking on them and then press \"Disable Animation\"\n\n**Note:** If you want to disable **all** emotes from animating, please use [Chat > Appearance > Animated Emotes](~chat.appearance.emotes) instead.",
-			"source": "/src/trubbel/settings/channel/chat.js:119",
+			"source": "/src/trubbel/settings/channel/chat.js:136",
 			"context": null,
 			"markdown": true
 		},
@@ -7785,28 +8268,28 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.accessibility.stop_emote_animate.list",
 			"doc": "addon.trubbel",
 			"default": "Blocked Emotes",
-			"source": "/src/trubbel/settings/channel/chat.js:132",
+			"source": "/src/trubbel/settings/channel/chat.js:149",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.commands.custom": {
 			"id": "setting.entry.addon.trubbel.channel.chat.commands.custom",
 			"doc": "addon.trubbel",
 			"default": "Enable custom commands",
-			"source": "/src/trubbel/settings/channel/chat.js:147",
+			"source": "/src/trubbel/settings/channel/chat.js:164",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.ftc": {
 			"id": "setting.entry.addon.trubbel.channel.chat.ftc",
 			"doc": "addon.trubbel",
 			"default": "Show FirstTimeChatter Indicator",
-			"source": "/src/trubbel/settings/channel/chat.js:192",
+			"source": "/src/trubbel/settings/channel/chat.js:209",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.ftc.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.ftc.description",
 			"doc": "addon.trubbel",
 			"default": "Display a pink border around the chat box if you are a first-time chatter.\n\n**Note:** It will automatically remove the border if you send any chat messages.",
-			"source": "/src/trubbel/settings/channel/chat.js:192",
+			"source": "/src/trubbel/settings/channel/chat.js:209",
 			"context": null,
 			"markdown": true
 		},
@@ -7814,14 +8297,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.header.info",
 			"doc": "addon.trubbel",
 			"default": "Display Stream Info in Chat Header",
-			"source": "/src/trubbel/settings/channel/chat.js:224",
+			"source": "/src/trubbel/settings/channel/chat.js:241",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.header.info.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.header.info.description",
 			"doc": "addon.trubbel",
 			"default": "Replace the \"Stream Chat\" title with live stream information - latency, uptime, or both.",
-			"source": "/src/trubbel/settings/channel/chat.js:224",
+			"source": "/src/trubbel/settings/channel/chat.js:241",
 			"context": null,
 			"markdown": true
 		},
@@ -7829,98 +8312,98 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.header.info.values.both",
 			"doc": "addon.trubbel",
 			"default": "Both (Uptime & Latency)",
-			"source": "/src/trubbel/settings/channel/chat.js:236",
+			"source": "/src/trubbel/settings/channel/chat.js:253",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.header.info.values.latency": {
 			"id": "setting.entry.addon.trubbel.channel.chat.header.info.values.latency",
 			"doc": "addon.trubbel",
 			"default": "Stream Latency",
-			"source": "/src/trubbel/settings/channel/chat.js:234",
+			"source": "/src/trubbel/settings/channel/chat.js:251",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.header.info.values.off": {
 			"id": "setting.entry.addon.trubbel.channel.chat.header.info.values.off",
 			"doc": "addon.trubbel",
 			"default": "Off",
-			"source": "/src/trubbel/settings/channel/chat.js:233",
+			"source": "/src/trubbel/settings/channel/chat.js:250",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.header.info.values.uptime": {
 			"id": "setting.entry.addon.trubbel.channel.chat.header.info.values.uptime",
 			"doc": "addon.trubbel",
 			"default": "Stream Uptime",
-			"source": "/src/trubbel/settings/channel/chat.js:235",
+			"source": "/src/trubbel/settings/channel/chat.js:252",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.hide_pinned_message": {
 			"id": "setting.entry.addon.trubbel.channel.chat.hide_pinned_message",
 			"doc": "addon.trubbel",
 			"default": "Auto-hide Pinned Messages",
-			"source": "/src/trubbel/settings/channel/chat.js:435",
+			"source": "/src/trubbel/settings/channel/chat.js:703",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.character_counter": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.character_counter",
 			"doc": "addon.trubbel",
 			"default": "Character Counter",
-			"source": "/src/trubbel/settings/channel/chat.js:245",
+			"source": "/src/trubbel/settings/channel/chat.js:262",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.character_counter.size": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.character_counter.size",
 			"doc": "addon.trubbel",
 			"default": "Character Counter Font Size",
-			"source": "/src/trubbel/settings/channel/chat.js:263",
+			"source": "/src/trubbel/settings/channel/chat.js:280",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.character_counter.values.bottom-left": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.character_counter.values.bottom-left",
 			"doc": "addon.trubbel",
 			"default": "Bottom Left",
-			"source": "/src/trubbel/settings/channel/chat.js:255",
+			"source": "/src/trubbel/settings/channel/chat.js:272",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.character_counter.values.bottom-right": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.character_counter.values.bottom-right",
 			"doc": "addon.trubbel",
 			"default": "Bottom Right",
-			"source": "/src/trubbel/settings/channel/chat.js:256",
+			"source": "/src/trubbel/settings/channel/chat.js:273",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.character_counter.values.disabled": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.character_counter.values.disabled",
 			"doc": "addon.trubbel",
 			"default": "Disabled",
-			"source": "/src/trubbel/settings/channel/chat.js:252",
+			"source": "/src/trubbel/settings/channel/chat.js:269",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-left": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-left",
 			"doc": "addon.trubbel",
 			"default": "Top Left",
-			"source": "/src/trubbel/settings/channel/chat.js:253",
+			"source": "/src/trubbel/settings/channel/chat.js:270",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-right": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.character_counter.values.top-right",
 			"doc": "addon.trubbel",
 			"default": "Top Right",
-			"source": "/src/trubbel/settings/channel/chat.js:254",
+			"source": "/src/trubbel/settings/channel/chat.js:271",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.latency_placeholder": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.latency_placeholder",
 			"doc": "addon.trubbel",
 			"default": "Show Stream Latency in Chat Input",
-			"source": "/src/trubbel/settings/channel/chat.js:209",
+			"source": "/src/trubbel/settings/channel/chat.js:226",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.input.latency_placeholder.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.input.latency_placeholder.description",
 			"doc": "addon.trubbel",
 			"default": "Replaces the \"Send a message\" placeholder with the stream's current latency while the chat box is empty.",
-			"source": "/src/trubbel/settings/channel/chat.js:209",
+			"source": "/src/trubbel/settings/channel/chat.js:226",
 			"context": null,
 			"markdown": true
 		},
@@ -7928,14 +8411,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.leaderboard.shouldAutoRotate",
 			"doc": "addon.trubbel",
 			"default": "Disable Leaderboard Auto-Rotate (Experimental)",
-			"source": "/src/trubbel/settings/channel/chat.js:768",
+			"source": "/src/trubbel/settings/channel/chat.js:1076",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.leaderboard.shouldAutoRotate.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.leaderboard.shouldAutoRotate.description",
 			"doc": "addon.trubbel",
 			"default": "Prevents the leaderboard (gift/cheer/clips/etc) from automatically cycling through pages on it's own.",
-			"source": "/src/trubbel/settings/channel/chat.js:768",
+			"source": "/src/trubbel/settings/channel/chat.js:1076",
 			"context": null,
 			"markdown": true
 		},
@@ -7943,14 +8426,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.links.clip_replace",
 			"doc": "addon.trubbel",
 			"default": "Replace clip URLs",
-			"source": "/src/trubbel/settings/channel/chat.js:278",
+			"source": "/src/trubbel/settings/channel/chat.js:295",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.links.clip_replace.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.links.clip_replace.description",
 			"doc": "addon.trubbel",
 			"default": "Replaces the `/clip/` links in chat with the `clips.twitch.tv` format.",
-			"source": "/src/trubbel/settings/channel/chat.js:278",
+			"source": "/src/trubbel/settings/channel/chat.js:295",
 			"context": null,
 			"markdown": true
 		},
@@ -7958,14 +8441,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.links.steam_inspect",
 			"doc": "addon.trubbel",
 			"default": "Clickable Steam inspect links",
-			"source": "/src/trubbel/settings/channel/chat.js:291",
+			"source": "/src/trubbel/settings/channel/chat.js:308",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.links.steam_inspect.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.links.steam_inspect.description",
 			"doc": "addon.trubbel",
 			"default": "Enabling this will make [Steam inspect links](https://developer.valvesoftware.com/wiki/Steam_browser_protocol) clickable in chat.",
-			"source": "/src/trubbel/settings/channel/chat.js:291",
+			"source": "/src/trubbel/settings/channel/chat.js:308",
 			"context": null,
 			"markdown": true
 		},
@@ -7973,14 +8456,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.markdown",
 			"doc": "addon.trubbel",
 			"default": "Enable Markdown",
-			"source": "/src/trubbel/settings/channel/chat.js:318",
+			"source": "/src/trubbel/settings/channel/chat.js:335",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.markdown.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.markdown.description",
 			"doc": "addon.trubbel",
 			"default": "Support for markdown - bold, italics, underline, strikethrough, spoilers and timestamps.\n\n**Note:** Timestamps uses same format as Discord timestamps.",
-			"source": "/src/trubbel/settings/channel/chat.js:318",
+			"source": "/src/trubbel/settings/channel/chat.js:335",
 			"context": null,
 			"markdown": true
 		},
@@ -7988,14 +8471,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.markdown.info",
 			"doc": "addon.trubbel",
 			"default": "Info",
-			"source": "/src/trubbel/settings/channel/chat.js:306",
+			"source": "/src/trubbel/settings/channel/chat.js:323",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.markdown.info.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.markdown.info.description",
 			"doc": "addon.trubbel",
 			"default": "⚠️ Please note that only users who has these settings enabled are able to see them.",
-			"source": "/src/trubbel/settings/channel/chat.js:306",
+			"source": "/src/trubbel/settings/channel/chat.js:323",
 			"context": null,
 			"markdown": true
 		},
@@ -8003,21 +8486,21 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.messages.highlight",
 			"doc": "addon.trubbel",
 			"default": "Highlight Messages on Hover",
-			"source": "/src/trubbel/settings/channel/chat.js:333",
+			"source": "/src/trubbel/settings/channel/chat.js:350",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.messages.highlight.color": {
 			"id": "setting.entry.addon.trubbel.channel.chat.messages.highlight.color",
 			"doc": "addon.trubbel",
 			"default": "Hover Highlight",
-			"source": "/src/trubbel/settings/channel/chat.js:350",
+			"source": "/src/trubbel/settings/channel/chat.js:367",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.messages.highlight.color.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.messages.highlight.color.description",
 			"doc": "addon.trubbel",
 			"default": "Background color for highlighted messages.",
-			"source": "/src/trubbel/settings/channel/chat.js:350",
+			"source": "/src/trubbel/settings/channel/chat.js:367",
 			"context": null,
 			"markdown": true
 		},
@@ -8025,7 +8508,7 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.messages.highlight.description",
 			"doc": "addon.trubbel",
 			"default": "Highlight all messages from a user.",
-			"source": "/src/trubbel/settings/channel/chat.js:333",
+			"source": "/src/trubbel/settings/channel/chat.js:350",
 			"context": null,
 			"markdown": true
 		},
@@ -8033,35 +8516,218 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.0",
 			"doc": "addon.trubbel",
 			"default": "Off",
-			"source": "/src/trubbel/settings/channel/chat.js:341",
+			"source": "/src/trubbel/settings/channel/chat.js:358",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.messages.highlight.values.1": {
 			"id": "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.1",
 			"doc": "addon.trubbel",
 			"default": "Username",
-			"source": "/src/trubbel/settings/channel/chat.js:342",
+			"source": "/src/trubbel/settings/channel/chat.js:359",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.messages.highlight.values.2": {
 			"id": "setting.entry.addon.trubbel.channel.chat.messages.highlight.values.2",
 			"doc": "addon.trubbel",
 			"default": "Entire Message",
-			"source": "/src/trubbel/settings/channel/chat.js:343",
+			"source": "/src/trubbel/settings/channel/chat.js:360",
 			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator",
+			"doc": "addon.trubbel",
+			"default": "Keyboard Moderation",
+			"source": "/src/trubbel/settings/channel/chat.js:452",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.ban_key": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.ban_key",
+			"doc": "addon.trubbel",
+			"default": "Ban Key",
+			"source": "/src/trubbel/settings/channel/chat.js:481",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.color": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.color",
+			"doc": "addon.trubbel",
+			"default": "Highlight Color",
+			"source": "/src/trubbel/settings/channel/chat.js:545",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.color.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.color.description",
+			"doc": "addon.trubbel",
+			"default": "Color of the selected message.",
+			"source": "/src/trubbel/settings/channel/chat.js:545",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm",
+			"doc": "addon.trubbel",
+			"default": "Require Confirmation",
+			"source": "/src/trubbel/settings/channel/chat.js:528",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.description",
+			"doc": "addon.trubbel",
+			"default": "Press the key a second time within 3 seconds to confirm.",
+			"source": "/src/trubbel/settings/channel/chat.js:528",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.values.0": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.values.0",
+			"doc": "addon.trubbel",
+			"default": "Never",
+			"source": "/src/trubbel/settings/channel/chat.js:537",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.values.1": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.values.1",
+			"doc": "addon.trubbel",
+			"default": "Ban only",
+			"source": "/src/trubbel/settings/channel/chat.js:538",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.values.2": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.confirm.values.2",
+			"doc": "addon.trubbel",
+			"default": "Ban and timeout",
+			"source": "/src/trubbel/settings/channel/chat.js:539",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.delete_key": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.delete_key",
+			"doc": "addon.trubbel",
+			"default": "Delete Key",
+			"source": "/src/trubbel/settings/channel/chat.js:503",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.description",
+			"doc": "addon.trubbel",
+			"default": "Hold `CTRL` + `SHIFT` and press `↑`/`↓` to navigate through messages, then use the keys below. Press `ESC` to cancel.",
+			"source": "/src/trubbel/settings/channel/chat.js:452",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.key": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.key",
+			"doc": "addon.trubbel",
+			"default": "Navigation Shortcut",
+			"source": "/src/trubbel/settings/channel/chat.js:469",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.key.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.key.description",
+			"doc": "addon.trubbel",
+			"default": "Record the shortcut for moving **up** (e.g. `Ctrl` + `Shift` + `↑`). Moving down uses the same modifier keys with `↓`. Must include at least one modifier key, and can't use the same modifiers as [Quick Reply](~add_ons.trubbel_s_utilities.channel.chat.messages.reply_navigator).",
+			"source": "/src/trubbel/settings/channel/chat.js:469",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.stay": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.stay",
+			"doc": "addon.trubbel",
+			"default": "Stay on Message After Action",
+			"source": "/src/trubbel/settings/channel/chat.js:559",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.stay.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.stay.description",
+			"doc": "addon.trubbel",
+			"default": "After banning, timing out or deleting, keep that message selected (greyed out) so you can keep navigating up or down from it. Press `ESC` to exit.",
+			"source": "/src/trubbel/settings/channel/chat.js:559",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.timeout_duration": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.timeout_duration",
+			"doc": "addon.trubbel",
+			"default": "Timeout Duration",
+			"source": "/src/trubbel/settings/channel/chat.js:514",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.timeout_duration.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.timeout_duration.description",
+			"doc": "addon.trubbel",
+			"default": "Timeout length in seconds. Valid range: 1 - 1209600 (14 days).",
+			"source": "/src/trubbel/settings/channel/chat.js:514",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_navigator.timeout_key": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_navigator.timeout_key",
+			"doc": "addon.trubbel",
+			"default": "Timeout Key",
+			"source": "/src/trubbel/settings/channel/chat.js:492",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_shortcuts": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_shortcuts",
+			"doc": "addon.trubbel",
+			"default": "Enable Mod Shortcuts",
+			"source": "/src/trubbel/settings/channel/chat.js:606",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_shortcuts.ban": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_shortcuts.ban",
+			"doc": "addon.trubbel",
+			"default": "Ban the user",
+			"source": "/src/trubbel/settings/channel/chat.js:647",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_shortcuts.delete": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_shortcuts.delete",
+			"doc": "addon.trubbel",
+			"default": "Delete the message",
+			"source": "/src/trubbel/settings/channel/chat.js:623",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_shortcuts.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_shortcuts.description",
+			"doc": "addon.trubbel",
+			"default": "When clicking on the username, use the following key modifiers:",
+			"source": "/src/trubbel/settings/channel/chat.js:606",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_shortcuts.timeout": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_shortcuts.timeout",
+			"doc": "addon.trubbel",
+			"default": "Timeout the user",
+			"source": "/src/trubbel/settings/channel/chat.js:635",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_shortcuts.timeout_duration": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_shortcuts.timeout_duration",
+			"doc": "addon.trubbel",
+			"default": "Timeout Duration",
+			"source": "/src/trubbel/settings/channel/chat.js:659",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.mod_shortcuts.timeout_duration.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.mod_shortcuts.timeout_duration.description",
+			"doc": "addon.trubbel",
+			"default": "Timeout length in seconds. Valid range: 1 - 1209600 (14 days).",
+			"source": "/src/trubbel/settings/channel/chat.js:659",
+			"context": null,
+			"markdown": true
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context",
 			"doc": "addon.trubbel",
 			"default": "Enable right-click context menu",
-			"source": "/src/trubbel/settings/channel/chat.js:374",
+			"source": "/src/trubbel/settings/channel/chat.js:391",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.description",
 			"doc": "addon.trubbel",
 			"default": "This gives you the ability to use a right-click context menu, *similar to BetterTTV (BTTV)*, to moderate chat with. Ban, timeout, purge, delete.",
-			"source": "/src/trubbel/settings/channel/chat.js:374",
+			"source": "/src/trubbel/settings/channel/chat.js:391",
 			"context": null,
 			"markdown": true
 		},
@@ -8069,14 +8735,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.highlight",
 			"doc": "addon.trubbel",
 			"default": "Message Highlight",
-			"source": "/src/trubbel/settings/channel/chat.js:391",
+			"source": "/src/trubbel/settings/channel/chat.js:408",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context.highlight.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.highlight.description",
 			"doc": "addon.trubbel",
 			"default": "Highlight the message you right-click.",
-			"source": "/src/trubbel/settings/channel/chat.js:391",
+			"source": "/src/trubbel/settings/channel/chat.js:408",
 			"context": null,
 			"markdown": true
 		},
@@ -8084,42 +8750,42 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.options",
 			"doc": "addon.trubbel",
 			"default": "Right-click options",
-			"source": "/src/trubbel/settings/channel/chat.js:417",
+			"source": "/src/trubbel/settings/channel/chat.js:434",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context.options.values.messages1": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.options.values.messages1",
 			"doc": "addon.trubbel",
 			"default": "Entire messages",
-			"source": "/src/trubbel/settings/channel/chat.js:426",
+			"source": "/src/trubbel/settings/channel/chat.js:443",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context.options.values.messages2": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.options.values.messages2",
 			"doc": "addon.trubbel",
 			"default": "Entire messages (except embeds and links)",
-			"source": "/src/trubbel/settings/channel/chat.js:427",
+			"source": "/src/trubbel/settings/channel/chat.js:444",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context.options.values.usernames": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.options.values.usernames",
 			"doc": "addon.trubbel",
 			"default": "Usernames only",
-			"source": "/src/trubbel/settings/channel/chat.js:425",
+			"source": "/src/trubbel/settings/channel/chat.js:442",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context.priority": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.priority",
 			"doc": "addon.trubbel",
 			"default": "Highlight Priority",
-			"source": "/src/trubbel/settings/channel/chat.js:403",
+			"source": "/src/trubbel/settings/channel/chat.js:420",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.moderation.context.priority.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.moderation.context.priority.description",
 			"doc": "addon.trubbel",
 			"default": "Priority of the message highlighting. See [Chat > Filtering > Highlight](~chat.filtering.highlight) for more details.",
-			"source": "/src/trubbel/settings/channel/chat.js:403",
+			"source": "/src/trubbel/settings/channel/chat.js:420",
 			"context": null,
 			"markdown": true
 		},
@@ -8127,14 +8793,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.popout.title_name",
 			"doc": "addon.trubbel",
 			"default": "Display channel name in Popout Chat",
-			"source": "/src/trubbel/settings/channel/chat.js:449",
+			"source": "/src/trubbel/settings/channel/chat.js:757",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.popout.title_name.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.popout.title_name.description",
 			"doc": "addon.trubbel",
 			"default": "Enabling this will replace the \"Stream Chat\" text above chat with the streamers username.",
-			"source": "/src/trubbel/settings/channel/chat.js:449",
+			"source": "/src/trubbel/settings/channel/chat.js:757",
 			"context": null,
 			"markdown": true
 		},
@@ -8142,14 +8808,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.prediction.notifications",
 			"doc": "addon.trubbel",
 			"default": "Prediction Started Notifications",
-			"source": "/src/trubbel/settings/channel/chat.js:464",
+			"source": "/src/trubbel/settings/channel/chat.js:772",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.prediction.notifications.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.prediction.notifications.description",
 			"doc": "addon.trubbel",
 			"default": "Send a browser notification when a prediction starts in the current channel.\n\n**Note:** Your browser will ask for notification permission the first time you enable this.",
-			"source": "/src/trubbel/settings/channel/chat.js:464",
+			"source": "/src/trubbel/settings/channel/chat.js:772",
 			"context": null,
 			"markdown": true
 		},
@@ -8157,14 +8823,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.prediction.notifications.only_unfocused",
 			"doc": "addon.trubbel",
 			"default": "Only notify when tab is unfocused",
-			"source": "/src/trubbel/settings/channel/chat.js:479",
+			"source": "/src/trubbel/settings/channel/chat.js:787",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.prediction.notifications.only_unfocused.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.prediction.notifications.only_unfocused.description",
 			"doc": "addon.trubbel",
 			"default": "Skip the notification if you already have the Twitch tab in focus.",
-			"source": "/src/trubbel/settings/channel/chat.js:479",
+			"source": "/src/trubbel/settings/channel/chat.js:787",
 			"context": null,
 			"markdown": true
 		},
@@ -8172,14 +8838,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.prediction.notifications.require_interaction",
 			"doc": "addon.trubbel",
 			"default": "Keep notification until dismissed",
-			"source": "/src/trubbel/settings/channel/chat.js:496",
+			"source": "/src/trubbel/settings/channel/chat.js:804",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.prediction.notifications.require_interaction.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.prediction.notifications.require_interaction.description",
 			"doc": "addon.trubbel",
 			"default": "Prevent the notification from auto-dismissing, it will stay visible until you explicitly close it.\n\n**Note:** Behaviour may vary depending on your browser and OS.",
-			"source": "/src/trubbel/settings/channel/chat.js:496",
+			"source": "/src/trubbel/settings/channel/chat.js:804",
 			"context": null,
 			"markdown": true
 		},
@@ -8187,21 +8853,21 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews",
 			"doc": "addon.trubbel",
 			"default": "Show raid preview",
-			"source": "/src/trubbel/settings/channel/chat.js:515",
+			"source": "/src/trubbel/settings/channel/chat.js:823",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings": {
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings",
 			"doc": "addon.trubbel",
 			"default": "Show chat restrictions on raid preview",
-			"source": "/src/trubbel/settings/channel/chat.js:551",
+			"source": "/src/trubbel/settings/channel/chat.js:859",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.chat_settings.description",
 			"doc": "addon.trubbel",
 			"default": "Display chat restrictions (sub-only, followers-only, slow mode, etc.) below the preview.",
-			"source": "/src/trubbel/settings/channel/chat.js:551",
+			"source": "/src/trubbel/settings/channel/chat.js:859",
 			"context": null,
 			"markdown": true
 		},
@@ -8209,7 +8875,7 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.description",
 			"doc": "addon.trubbel",
 			"default": "Display an image or video preview of the stream when a raid is active.",
-			"source": "/src/trubbel/settings/channel/chat.js:515",
+			"source": "/src/trubbel/settings/channel/chat.js:823",
 			"context": null,
 			"markdown": true
 		},
@@ -8217,14 +8883,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.uptime",
 			"doc": "addon.trubbel",
 			"default": "Show uptime on raid preview",
-			"source": "/src/trubbel/settings/channel/chat.js:533",
+			"source": "/src/trubbel/settings/channel/chat.js:841",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.raids.previews.uptime.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.uptime.description",
 			"doc": "addon.trubbel",
 			"default": "Display the stream uptime (and content flags if enabled in FFZ settings) on the preview.",
-			"source": "/src/trubbel/settings/channel/chat.js:533",
+			"source": "/src/trubbel/settings/channel/chat.js:841",
 			"context": null,
 			"markdown": true
 		},
@@ -8232,49 +8898,94 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.values.0",
 			"doc": "addon.trubbel",
 			"default": "Off",
-			"source": "/src/trubbel/settings/channel/chat.js:524",
+			"source": "/src/trubbel/settings/channel/chat.js:832",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.raids.previews.values.1": {
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.values.1",
 			"doc": "addon.trubbel",
 			"default": "Image Preview",
-			"source": "/src/trubbel/settings/channel/chat.js:525",
+			"source": "/src/trubbel/settings/channel/chat.js:833",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.raids.previews.values.2": {
 			"id": "setting.entry.addon.trubbel.channel.chat.raids.previews.values.2",
 			"doc": "addon.trubbel",
 			"default": "Video Preview",
-			"source": "/src/trubbel/settings/channel/chat.js:526",
+			"source": "/src/trubbel/settings/channel/chat.js:834",
 			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.reply_navigator": {
+			"id": "setting.entry.addon.trubbel.channel.chat.reply_navigator",
+			"doc": "addon.trubbel",
+			"default": "Quick Reply",
+			"source": "/src/trubbel/settings/channel/chat.js:717",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.reply_navigator.color": {
+			"id": "setting.entry.addon.trubbel.channel.chat.reply_navigator.color",
+			"doc": "addon.trubbel",
+			"default": "Highlight Color",
+			"source": "/src/trubbel/settings/channel/chat.js:742",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.reply_navigator.color.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.reply_navigator.color.description",
+			"doc": "addon.trubbel",
+			"default": "Color of the message you're replying to.",
+			"source": "/src/trubbel/settings/channel/chat.js:742",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.reply_navigator.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.reply_navigator.description",
+			"doc": "addon.trubbel",
+			"default": "Hold `CTRL` and press `↑`/`↓` to navigate through messages to reply to. Press `ESC` to cancel.",
+			"source": "/src/trubbel/settings/channel/chat.js:717",
+			"context": null,
+			"markdown": true
+		},
+		"setting.entry.addon.trubbel.channel.chat.reply_navigator.key": {
+			"id": "setting.entry.addon.trubbel.channel.chat.reply_navigator.key",
+			"doc": "addon.trubbel",
+			"default": "Reply Shortcut",
+			"source": "/src/trubbel/settings/channel/chat.js:730",
+			"context": null
+		},
+		"setting.entry.addon.trubbel.channel.chat.reply_navigator.key.description": {
+			"id": "setting.entry.addon.trubbel.channel.chat.reply_navigator.key.description",
+			"doc": "addon.trubbel",
+			"default": "Record the shortcut for moving **up** (e.g. `Ctrl` + `↑`). Moving down uses the same modifier keys with `↓`. Must include at least one modifier key, and can't use the same modifiers as [Keyboard Moderation](~add_ons.trubbel_s_utilities.channel.chat.moderation.mod_navigator).",
+			"source": "/src/trubbel/settings/channel/chat.js:730",
+			"context": null,
+			"markdown": true
 		},
 		"setting.entry.addon.trubbel.channel.chat.shared_chat.hide-message": {
 			"id": "setting.entry.addon.trubbel.channel.chat.shared_chat.hide-message",
 			"doc": "addon.trubbel",
 			"default": "Hide shared messages",
-			"source": "/src/trubbel/settings/channel/chat.js:571",
+			"source": "/src/trubbel/settings/channel/chat.js:879",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.text_replace": {
 			"id": "setting.entry.addon.trubbel.channel.chat.text_replace",
 			"doc": "addon.trubbel",
 			"default": "Enable text replacement for outgoing messages.",
-			"source": "/src/trubbel/settings/channel/chat.js:585",
+			"source": "/src/trubbel/settings/channel/chat.js:893",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.timestamps.add_missing": {
 			"id": "setting.entry.addon.trubbel.channel.chat.timestamps.add_missing",
 			"doc": "addon.trubbel",
 			"default": "Display missing timestamps (Experimental)",
-			"source": "/src/trubbel/settings/channel/chat.js:698",
+			"source": "/src/trubbel/settings/channel/chat.js:1006",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.timestamps.add_missing.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.timestamps.add_missing.description",
 			"doc": "addon.trubbel",
 			"default": "For certain chat events that lack timestamps.",
-			"source": "/src/trubbel/settings/channel/chat.js:698",
+			"source": "/src/trubbel/settings/channel/chat.js:1006",
 			"context": null,
 			"markdown": true
 		},
@@ -8282,14 +8993,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.translation",
 			"doc": "addon.trubbel",
 			"default": "Enable Simple Translate",
-			"source": "/src/trubbel/settings/channel/chat.js:713",
+			"source": "/src/trubbel/settings/channel/chat.js:1021",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.description",
 			"doc": "addon.trubbel",
 			"default": "After enabling this you need to set it up in [Chat > Actions](~chat.actions), then pick either, [In-Line](~chat.actions.in_line), [Message Hover](~chat.actions.message_hover), or [User Context](~chat.actions.user_context).\n\n**Note:** This uses Google Translate.",
-			"source": "/src/trubbel/settings/channel/chat.js:713",
+			"source": "/src/trubbel/settings/channel/chat.js:1021",
 			"context": null,
 			"markdown": true
 		},
@@ -8297,14 +9008,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang",
 			"doc": "addon.trubbel",
 			"default": "Target Language",
-			"source": "/src/trubbel/settings/channel/chat.js:726",
+			"source": "/src/trubbel/settings/channel/chat.js:1034",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.description",
 			"doc": "addon.trubbel",
 			"default": "The language to translate messages into.",
-			"source": "/src/trubbel/settings/channel/chat.js:726",
+			"source": "/src/trubbel/settings/channel/chat.js:1034",
 			"context": null,
 			"markdown": true
 		},
@@ -8312,161 +9023,161 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ar",
 			"doc": "addon.trubbel",
 			"default": "Arabic",
-			"source": "/src/trubbel/settings/channel/chat.js:752",
+			"source": "/src/trubbel/settings/channel/chat.js:1060",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.da": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.da",
 			"doc": "addon.trubbel",
 			"default": "Danish",
-			"source": "/src/trubbel/settings/channel/chat.js:755",
+			"source": "/src/trubbel/settings/channel/chat.js:1063",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.de": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.de",
 			"doc": "addon.trubbel",
 			"default": "German",
-			"source": "/src/trubbel/settings/channel/chat.js:744",
+			"source": "/src/trubbel/settings/channel/chat.js:1052",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.en": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.en",
 			"doc": "addon.trubbel",
 			"default": "English",
-			"source": "/src/trubbel/settings/channel/chat.js:741",
+			"source": "/src/trubbel/settings/channel/chat.js:1049",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.es": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.es",
 			"doc": "addon.trubbel",
 			"default": "Spanish",
-			"source": "/src/trubbel/settings/channel/chat.js:742",
+			"source": "/src/trubbel/settings/channel/chat.js:1050",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fi": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fi",
 			"doc": "addon.trubbel",
 			"default": "Finnish",
-			"source": "/src/trubbel/settings/channel/chat.js:757",
+			"source": "/src/trubbel/settings/channel/chat.js:1065",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fr": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.fr",
 			"doc": "addon.trubbel",
 			"default": "French",
-			"source": "/src/trubbel/settings/channel/chat.js:743",
+			"source": "/src/trubbel/settings/channel/chat.js:1051",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.hi": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.hi",
 			"doc": "addon.trubbel",
 			"default": "Hindi",
-			"source": "/src/trubbel/settings/channel/chat.js:753",
+			"source": "/src/trubbel/settings/channel/chat.js:1061",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.it": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.it",
 			"doc": "addon.trubbel",
 			"default": "Italian",
-			"source": "/src/trubbel/settings/channel/chat.js:745",
+			"source": "/src/trubbel/settings/channel/chat.js:1053",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ja": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ja",
 			"doc": "addon.trubbel",
 			"default": "Japanese",
-			"source": "/src/trubbel/settings/channel/chat.js:748",
+			"source": "/src/trubbel/settings/channel/chat.js:1056",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ko": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ko",
 			"doc": "addon.trubbel",
 			"default": "Korean",
-			"source": "/src/trubbel/settings/channel/chat.js:749",
+			"source": "/src/trubbel/settings/channel/chat.js:1057",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.nl": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.nl",
 			"doc": "addon.trubbel",
 			"default": "Dutch",
-			"source": "/src/trubbel/settings/channel/chat.js:758",
+			"source": "/src/trubbel/settings/channel/chat.js:1066",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.no": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.no",
 			"doc": "addon.trubbel",
 			"default": "Norwegian",
-			"source": "/src/trubbel/settings/channel/chat.js:756",
+			"source": "/src/trubbel/settings/channel/chat.js:1064",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pl": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pl",
 			"doc": "addon.trubbel",
 			"default": "Polish",
-			"source": "/src/trubbel/settings/channel/chat.js:759",
+			"source": "/src/trubbel/settings/channel/chat.js:1067",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pt": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.pt",
 			"doc": "addon.trubbel",
 			"default": "Portuguese",
-			"source": "/src/trubbel/settings/channel/chat.js:746",
+			"source": "/src/trubbel/settings/channel/chat.js:1054",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ru": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.ru",
 			"doc": "addon.trubbel",
 			"default": "Russian",
-			"source": "/src/trubbel/settings/channel/chat.js:747",
+			"source": "/src/trubbel/settings/channel/chat.js:1055",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.sv": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.sv",
 			"doc": "addon.trubbel",
 			"default": "Swedish",
-			"source": "/src/trubbel/settings/channel/chat.js:754",
+			"source": "/src/trubbel/settings/channel/chat.js:1062",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.tr": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.tr",
 			"doc": "addon.trubbel",
 			"default": "Turkish",
-			"source": "/src/trubbel/settings/channel/chat.js:760",
+			"source": "/src/trubbel/settings/channel/chat.js:1068",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-CN": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-CN",
 			"doc": "addon.trubbel",
 			"default": "Chinese (Simplified)",
-			"source": "/src/trubbel/settings/channel/chat.js:750",
+			"source": "/src/trubbel/settings/channel/chat.js:1058",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-TW": {
 			"id": "setting.entry.addon.trubbel.channel.chat.translation.target_lang.values.zh-TW",
 			"doc": "addon.trubbel",
 			"default": "Chinese (Traditional)",
-			"source": "/src/trubbel/settings/channel/chat.js:751",
+			"source": "/src/trubbel/settings/channel/chat.js:1059",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.tts": {
 			"id": "setting.entry.addon.trubbel.channel.chat.tts",
 			"doc": "addon.trubbel",
 			"default": "Enable Text-to-Speech",
-			"source": "/src/trubbel/settings/channel/chat.js:609",
+			"source": "/src/trubbel/settings/channel/chat.js:917",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.tts.announce_user": {
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.announce_user",
 			"doc": "addon.trubbel",
 			"default": "Announce Username",
-			"source": "/src/trubbel/settings/channel/chat.js:622",
+			"source": "/src/trubbel/settings/channel/chat.js:930",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.tts.announce_user.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.announce_user.description",
 			"doc": "addon.trubbel",
 			"default": "Prepend the sender's name before the message, e.g. \"Alice says: hello\".",
-			"source": "/src/trubbel/settings/channel/chat.js:622",
+			"source": "/src/trubbel/settings/channel/chat.js:930",
 			"context": null,
 			"markdown": true
 		},
@@ -8474,7 +9185,7 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.description",
 			"doc": "addon.trubbel",
 			"default": "After enabling this you need to set it up in [Chat > Actions](~chat.actions), then pick either, [In-Line](~chat.actions.in_line), [Message Hover](~chat.actions.message_hover), or [User Context](~chat.actions.user_context).",
-			"source": "/src/trubbel/settings/channel/chat.js:609",
+			"source": "/src/trubbel/settings/channel/chat.js:917",
 			"context": null,
 			"markdown": true
 		},
@@ -8482,14 +9193,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.pitch",
 			"doc": "addon.trubbel",
 			"default": "Pitch",
-			"source": "/src/trubbel/settings/channel/chat.js:682",
+			"source": "/src/trubbel/settings/channel/chat.js:990",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.tts.pitch.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.pitch.description",
 			"doc": "addon.trubbel",
 			"default": "Speech pitch. 1 is normal pitch. Range: 0 - 2.",
-			"source": "/src/trubbel/settings/channel/chat.js:682",
+			"source": "/src/trubbel/settings/channel/chat.js:990",
 			"context": null,
 			"markdown": true
 		},
@@ -8497,14 +9208,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.rate",
 			"doc": "addon.trubbel",
 			"default": "Speed",
-			"source": "/src/trubbel/settings/channel/chat.js:668",
+			"source": "/src/trubbel/settings/channel/chat.js:976",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.tts.rate.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.rate.description",
 			"doc": "addon.trubbel",
 			"default": "Speech rate. 1 is normal speed. Range: 0.1 - 10.",
-			"source": "/src/trubbel/settings/channel/chat.js:668",
+			"source": "/src/trubbel/settings/channel/chat.js:976",
 			"context": null,
 			"markdown": true
 		},
@@ -8512,14 +9223,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.voice",
 			"doc": "addon.trubbel",
 			"default": "Voice",
-			"source": "/src/trubbel/settings/channel/chat.js:634",
+			"source": "/src/trubbel/settings/channel/chat.js:942",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.tts.voice.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.voice.description",
 			"doc": "addon.trubbel",
 			"default": "The voice to use for speech synthesis.",
-			"source": "/src/trubbel/settings/channel/chat.js:634",
+			"source": "/src/trubbel/settings/channel/chat.js:942",
 			"context": null,
 			"markdown": true
 		},
@@ -8527,14 +9238,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.volume",
 			"doc": "addon.trubbel",
 			"default": "Volume",
-			"source": "/src/trubbel/settings/channel/chat.js:654",
+			"source": "/src/trubbel/settings/channel/chat.js:962",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.tts.volume.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.tts.volume.description",
 			"doc": "addon.trubbel",
 			"default": "Speech volume. 1 is full volume. Range: 0 - 1.",
-			"source": "/src/trubbel/settings/channel/chat.js:654",
+			"source": "/src/trubbel/settings/channel/chat.js:962",
 			"context": null,
 			"markdown": true
 		},
@@ -8542,14 +9253,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.ui.old_viewer_list",
 			"doc": "addon.trubbel",
 			"default": "Show old viewer list",
-			"source": "/src/trubbel/settings/channel/chat.js:783",
+			"source": "/src/trubbel/settings/channel/chat.js:1091",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.ui.old_viewer_list.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.ui.old_viewer_list.description",
 			"doc": "addon.trubbel",
 			"default": "When enabled, clicking the chat viewer list button will display the old chat list instead.",
-			"source": "/src/trubbel/settings/channel/chat.js:783",
+			"source": "/src/trubbel/settings/channel/chat.js:1091",
 			"context": null,
 			"markdown": true
 		},
@@ -8557,14 +9268,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_mods_vips",
 			"doc": "addon.trubbel",
 			"default": "Clickable usernames in /mods and /vips",
-			"source": "/src/trubbel/settings/channel/chat.js:798",
+			"source": "/src/trubbel/settings/channel/chat.js:1106",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_mods_vips.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_mods_vips.description",
 			"doc": "addon.trubbel",
 			"default": "This gives you the ability to click on the usernames when using the `/mods` and `/vips` commands, which will open up their viewer cards.\n\n**Notes:**\n\n• Might not work for every language.\n\n• There could be some instances where it might not apply correctly. Just send the command again, and it should work.",
-			"source": "/src/trubbel/settings/channel/chat.js:798",
+			"source": "/src/trubbel/settings/channel/chat.js:1106",
 			"context": null,
 			"markdown": true
 		},
@@ -8572,14 +9283,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_raid",
 			"doc": "addon.trubbel",
 			"default": "Clickable raid messages",
-			"source": "/src/trubbel/settings/channel/chat.js:811",
+			"source": "/src/trubbel/settings/channel/chat.js:1119",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_raid.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.clickable_raid.description",
 			"doc": "addon.trubbel",
 			"default": "This lets you click on the usernames in raid messages to open up their viewer cards.",
-			"source": "/src/trubbel/settings/channel/chat.js:811",
+			"source": "/src/trubbel/settings/channel/chat.js:1119",
 			"context": null,
 			"markdown": true
 		},
@@ -8587,14 +9298,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages",
 			"doc": "addon.trubbel",
 			"default": "Show recent messages in viewer cards",
-			"source": "/src/trubbel/settings/channel/chat.js:824",
+			"source": "/src/trubbel/settings/channel/chat.js:1132",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.description",
 			"doc": "addon.trubbel",
 			"default": "Display up to 50 recent messages from a user when you open their viewer card.\n\n**Note:** This isn't meant to be used as moderation.",
-			"source": "/src/trubbel/settings/channel/chat.js:824",
+			"source": "/src/trubbel/settings/channel/chat.js:1132",
 			"context": null,
 			"markdown": true
 		},
@@ -8602,14 +9313,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order",
 			"doc": "addon.trubbel",
 			"default": "Latest message position",
-			"source": "/src/trubbel/settings/channel/chat.js:837",
+			"source": "/src/trubbel/settings/channel/chat.js:1145",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order.description",
 			"doc": "addon.trubbel",
 			"default": "Choose whether the latest message is shown at the top or at the bottom of the recent messages list.",
-			"source": "/src/trubbel/settings/channel/chat.js:837",
+			"source": "/src/trubbel/settings/channel/chat.js:1145",
 			"context": null,
 			"markdown": true
 		},
@@ -8617,35 +9328,35 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order.values.bottom",
 			"doc": "addon.trubbel",
 			"default": "Bottom",
-			"source": "/src/trubbel/settings/channel/chat.js:847",
+			"source": "/src/trubbel/settings/channel/chat.js:1155",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order.values.top": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer_cards.recent_messages.order.values.top",
 			"doc": "addon.trubbel",
 			"default": "Top",
-			"source": "/src/trubbel/settings/channel/chat.js:846",
+			"source": "/src/trubbel/settings/channel/chat.js:1154",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.enabled": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.enabled",
 			"doc": "addon.trubbel",
 			"default": "Enable Custom viewer cards",
-			"source": "/src/trubbel/settings/channel/chat.js:856",
+			"source": "/src/trubbel/settings/channel/chat.js:1164",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-mentions": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-mentions",
 			"doc": "addon.trubbel",
 			"default": "Handle Mention clicks",
-			"source": "/src/trubbel/settings/channel/chat.js:872",
+			"source": "/src/trubbel/settings/channel/chat.js:1180",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-mentions.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-mentions.description",
 			"doc": "addon.trubbel",
 			"default": "Open custom viewer cards when clicking @mentions in chat.",
-			"source": "/src/trubbel/settings/channel/chat.js:872",
+			"source": "/src/trubbel/settings/channel/chat.js:1180",
 			"context": null,
 			"markdown": true
 		},
@@ -8653,14 +9364,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-pinned-messages",
 			"doc": "addon.trubbel",
 			"default": "Handle Pinned Message clicks",
-			"source": "/src/trubbel/settings/channel/chat.js:888",
+			"source": "/src/trubbel/settings/channel/chat.js:1196",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-pinned-messages.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-pinned-messages.description",
 			"doc": "addon.trubbel",
 			"default": "Open custom viewer cards when clicking usernames in pinned chat messages.",
-			"source": "/src/trubbel/settings/channel/chat.js:888",
+			"source": "/src/trubbel/settings/channel/chat.js:1196",
 			"context": null,
 			"markdown": true
 		},
@@ -8668,14 +9379,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-viewer-list",
 			"doc": "addon.trubbel",
 			"default": "Handle Viewer List clicks",
-			"source": "/src/trubbel/settings/channel/chat.js:904",
+			"source": "/src/trubbel/settings/channel/chat.js:1212",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-viewer-list.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.handle-viewer-list.description",
 			"doc": "addon.trubbel",
 			"default": "Open custom viewer cards when clicking usernames in the viewer list.",
-			"source": "/src/trubbel/settings/channel/chat.js:904",
+			"source": "/src/trubbel/settings/channel/chat.js:1212",
 			"context": null,
 			"markdown": true
 		},
@@ -8683,28 +9394,28 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.highlight-chat",
 			"doc": "addon.trubbel",
 			"default": "Highlight messages when viewer card is opened",
-			"source": "/src/trubbel/settings/channel/chat.js:920",
+			"source": "/src/trubbel/settings/channel/chat.js:1228",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.highlight-color": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.highlight-color",
 			"doc": "addon.trubbel",
 			"default": "Highlight Color",
-			"source": "/src/trubbel/settings/channel/chat.js:932",
+			"source": "/src/trubbel/settings/channel/chat.js:1240",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs",
 			"doc": "addon.trubbel",
 			"default": "Moderation Tabs",
-			"source": "/src/trubbel/settings/channel/chat.js:1093",
+			"source": "/src/trubbel/settings/channel/chat.js:1401",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.mod-tabs.description",
 			"doc": "addon.trubbel",
 			"default": "Choose which tabs are shown on custom viewer cards. Drag to change their order.",
-			"source": "/src/trubbel/settings/channel/chat.js:1093",
+			"source": "/src/trubbel/settings/channel/chat.js:1401",
 			"context": null,
 			"markdown": true
 		},
@@ -8712,14 +9423,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.more-options",
 			"doc": "addon.trubbel",
 			"default": "More Options Menu",
-			"source": "/src/trubbel/settings/channel/chat.js:1029",
+			"source": "/src/trubbel/settings/channel/chat.js:1337",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.more-options.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.more-options.description",
 			"doc": "addon.trubbel",
 			"default": "Choose which actions are shown in the custom viewer card's \"More options\" menu. Drag to change their order.",
-			"source": "/src/trubbel/settings/channel/chat.js:1029",
+			"source": "/src/trubbel/settings/channel/chat.js:1337",
 			"context": null,
 			"markdown": true
 		},
@@ -8727,7 +9438,7 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.notes.description",
 			"doc": "addon.trubbel",
 			"default": "Private notes you've written about users from their custom viewer cards. Notes are stored locally and included in FFZ's settings backups.",
-			"source": "/src/trubbel/settings/channel/chat.js:1110",
+			"source": "/src/trubbel/settings/channel/chat.js:1418",
 			"context": null,
 			"markdown": true
 		},
@@ -8735,14 +9446,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-avatar-tooltip",
 			"doc": "addon.trubbel",
 			"default": "Display avatar tooltip",
-			"source": "/src/trubbel/settings/channel/chat.js:1005",
+			"source": "/src/trubbel/settings/channel/chat.js:1313",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.show-avatar-tooltip.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-avatar-tooltip.description",
 			"doc": "addon.trubbel",
 			"default": "Show a larger version of the avatar when hovering the user's avatar or the \"Chatting from\" channel avatar in the custom viewer card.",
-			"source": "/src/trubbel/settings/channel/chat.js:1005",
+			"source": "/src/trubbel/settings/channel/chat.js:1313",
 			"context": null,
 			"markdown": true
 		},
@@ -8750,14 +9461,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-badges",
 			"doc": "addon.trubbel",
 			"default": "Display user badges",
-			"source": "/src/trubbel/settings/channel/chat.js:993",
+			"source": "/src/trubbel/settings/channel/chat.js:1301",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.show-badges.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-badges.description",
 			"doc": "addon.trubbel",
 			"default": "Show the user's earned badges in the custom viewer card.",
-			"source": "/src/trubbel/settings/channel/chat.js:993",
+			"source": "/src/trubbel/settings/channel/chat.js:1301",
 			"context": null,
 			"markdown": true
 		},
@@ -8765,14 +9476,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-banner",
 			"doc": "addon.trubbel",
 			"default": "Display user banner",
-			"source": "/src/trubbel/settings/channel/chat.js:981",
+			"source": "/src/trubbel/settings/channel/chat.js:1289",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.show-banner.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-banner.description",
 			"doc": "addon.trubbel",
 			"default": "Show the user's profile banner image in the background of the card header.",
-			"source": "/src/trubbel/settings/channel/chat.js:981",
+			"source": "/src/trubbel/settings/channel/chat.js:1289",
 			"context": null,
 			"markdown": true
 		},
@@ -8780,14 +9491,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-native-button",
 			"doc": "addon.trubbel",
 			"default": "Display native card button",
-			"source": "/src/trubbel/settings/channel/chat.js:957",
+			"source": "/src/trubbel/settings/channel/chat.js:1265",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.show-native-button.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-native-button.description",
 			"doc": "addon.trubbel",
 			"default": "Show the button that opens Twitch's own viewer card.",
-			"source": "/src/trubbel/settings/channel/chat.js:957",
+			"source": "/src/trubbel/settings/channel/chat.js:1265",
 			"context": null,
 			"markdown": true
 		},
@@ -8795,14 +9506,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-paints",
 			"doc": "addon.trubbel",
 			"default": "Display 7TV name paints",
-			"source": "/src/trubbel/settings/channel/chat.js:1017",
+			"source": "/src/trubbel/settings/channel/chat.js:1325",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.show-paints.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-paints.description",
 			"doc": "addon.trubbel",
 			"default": "Show the user's 7TV name paint on their username in the custom viewer card, and on their name in the Messages-tab and live messages.",
-			"source": "/src/trubbel/settings/channel/chat.js:1017",
+			"source": "/src/trubbel/settings/channel/chat.js:1325",
 			"context": null,
 			"markdown": true
 		},
@@ -8810,14 +9521,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-popout-button",
 			"doc": "addon.trubbel",
 			"default": "Display popout button",
-			"source": "/src/trubbel/settings/channel/chat.js:969",
+			"source": "/src/trubbel/settings/channel/chat.js:1277",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.show-popout-button.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.show-popout-button.description",
 			"doc": "addon.trubbel",
 			"default": "Show the button that opens Twitch's viewer card in a popout window.",
-			"source": "/src/trubbel/settings/channel/chat.js:969",
+			"source": "/src/trubbel/settings/channel/chat.js:1277",
 			"context": null,
 			"markdown": true
 		},
@@ -8825,14 +9536,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.temp-highlight-color",
 			"doc": "addon.trubbel",
 			"default": "Temp. Highlight Color",
-			"source": "/src/trubbel/settings/channel/chat.js:944",
+			"source": "/src/trubbel/settings/channel/chat.js:1252",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.temp-highlight-color.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.temp-highlight-color.description",
 			"doc": "addon.trubbel",
 			"default": "Color used by **Highlight** in a custom viewer card's **More options**-menu.\n\nThese highlights are temporary and are cleared when you refresh or navigate to another page.\n\nFor a permanent highlight, use [Chat > Filtering > Highlight >> Users](~chat.filtering.highlight) instead.",
-			"source": "/src/trubbel/settings/channel/chat.js:944",
+			"source": "/src/trubbel/settings/channel/chat.js:1252",
 			"context": null,
 			"markdown": true
 		},
@@ -8840,14 +9551,14 @@
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.timeout-buttons",
 			"doc": "addon.trubbel",
 			"default": "Timeout Buttons",
-			"source": "/src/trubbel/settings/channel/chat.js:1047",
+			"source": "/src/trubbel/settings/channel/chat.js:1355",
 			"context": null
 		},
 		"setting.entry.addon.trubbel.channel.chat.viewer-cards.timeout-buttons.description": {
 			"id": "setting.entry.addon.trubbel.channel.chat.viewer-cards.timeout-buttons.description",
 			"doc": "addon.trubbel",
 			"default": "Configure custom timeout buttons that appear in custom viewer cards.",
-			"source": "/src/trubbel/settings/channel/chat.js:1047",
+			"source": "/src/trubbel/settings/channel/chat.js:1355",
 			"context": null,
 			"markdown": true
 		},
@@ -10097,6 +10808,157 @@
 			"source": "/src/trubbel/settings/twilight/whispers.js:50",
 			"context": null
 		},
+		"social.button": {
+			"id": "social.button",
+			"doc": "addon.trubbel",
+			"default": "Earn Your Badge",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:123",
+			"context": null
+		},
+		"social.description.1": {
+			"id": "social.description.1",
+			"doc": "addon.trubbel",
+			"default": "{userName} earned an Icon badge for reaching 100 views on their social posts.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:116",
+			"context": null,
+			"placeholders": [
+				"userName"
+			]
+		},
+		"social.description.2": {
+			"id": "social.description.2",
+			"doc": "addon.trubbel",
+			"default": "{userName} earned a Pro badge for reaching 10,000 views on their social posts.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:117",
+			"context": null,
+			"placeholders": [
+				"userName"
+			]
+		},
+		"social.description.3": {
+			"id": "social.description.3",
+			"doc": "addon.trubbel",
+			"default": "{userName} earned a Legend badge for reaching 100,000 views on their social posts.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:118",
+			"context": null,
+			"placeholders": [
+				"userName"
+			]
+		},
+		"social.header": {
+			"id": "social.header",
+			"doc": "addon.trubbel",
+			"default": "Social Media Badge",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:121",
+			"context": null
+		},
+		"sub.description": {
+			"id": "sub.description",
+			"doc": "addon.trubbel",
+			"default": "{userName} reached the {durationLabel} subscription mark for {channelName}'s channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:173",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"durationLabel",
+				"userName"
+			]
+		},
+		"sub.description-plain": {
+			"id": "sub.description-plain",
+			"doc": "addon.trubbel",
+			"default": "{userName} is subscribed to {channelName}'s channel.",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:182",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"userName"
+			]
+		},
+		"sub.follow": {
+			"id": "sub.follow",
+			"doc": "addon.trubbel",
+			"default": "Follow",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:192",
+			"context": null
+		},
+		"sub.header": {
+			"id": "sub.header",
+			"doc": "addon.trubbel",
+			"default": "{channelName}'s Subscriber Badge ({tierLabel}{durationLabel})",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:168",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"durationLabel",
+				"tierLabel"
+			]
+		},
+		"sub.header-plain": {
+			"id": "sub.header-plain",
+			"doc": "addon.trubbel",
+			"default": "{channelName}'s Subscriber Badge{tierLabel}",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:178",
+			"context": null,
+			"placeholders": [
+				"channelName",
+				"tierLabel"
+			]
+		},
+		"sub.months": {
+			"id": "sub.months",
+			"doc": "addon.trubbel",
+			"default": "{months, number} month",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:166",
+			"context": null,
+			"placeholders": [
+				"months"
+			]
+		},
+		"sub.subscribe": {
+			"id": "sub.subscribe",
+			"doc": "addon.trubbel",
+			"default": "Subscribe",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:190",
+			"context": null
+		},
+		"sub.tier-prefix": {
+			"id": "sub.tier-prefix",
+			"doc": "addon.trubbel",
+			"default": "Tier {tier}, ",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:171",
+			"context": null,
+			"placeholders": [
+				"tier"
+			]
+		},
+		"sub.tier-suffix": {
+			"id": "sub.tier-suffix",
+			"doc": "addon.trubbel",
+			"default": " (Tier {tier})",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:180",
+			"context": null,
+			"placeholders": [
+				"tier"
+			]
+		},
+		"sub.years": {
+			"id": "sub.years",
+			"doc": "addon.trubbel",
+			"default": "{years, number} year",
+			"source": "/src/trubbel/components/viewer_card/badge-descriptions.js:165",
+			"context": null,
+			"placeholders": [
+				"years"
+			]
+		},
+		"thumbnail": {
+			"id": "thumbnail",
+			"doc": "addon.trubbel",
+			"default": "The clip thumbnail image",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:42",
+			"context": null
+		},
 		"trubbel.mod-landing.badge.editor": {
 			"id": "trubbel.mod-landing.badge.editor",
 			"doc": "addon.trubbel",
@@ -10461,6 +11323,13 @@
 			"doc": "addon.trubbel",
 			"default": "Tier 3",
 			"source": "/src/trubbel/components/mod_view/landing-card.vue:172",
+			"context": null
+		},
+		"view": {
+			"id": "view",
+			"doc": "addon.trubbel",
+			"default": "View Moment",
+			"source": "/src/trubbel/components/viewer_card/moments-carousel.vue:72",
 			"context": null
 		}
 	},
