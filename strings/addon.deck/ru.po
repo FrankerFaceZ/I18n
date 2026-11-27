@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-17 07:33+0000\n"
-"Last-Translator: Баранов Андрей Владимирович <spacesad@bk.ru>\n"
+"PO-Revision-Date: 2026-11-27 13:19+0000\n"
+"Last-Translator: Oliver <puccec@cudovu.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
-"frankerfacez/addon-deck/ru/>\n"
+"frankerfacez/addondeck/ru/>\n"
 "Language: ru\n"
 "Content-Type: text/plain\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.9\n"
 
 msgid "addon.deck.title"
 msgstr "Колода"
@@ -416,3 +416,218 @@ msgstr "Вы достигли конца."
 #, icu-message-format, lp-defaults:"{\"count\":4}"
 msgid "addon.deck.column-count"
 msgstr "{count, plural, one {# столбец} other {# столбцы} }"
+
+#: /src/deck/components/bd-edit-languages.vue:3
+#, icu-message-format
+msgid "addon.deck.edit.lang"
+msgstr "Язык:"
+
+#: /src/deck/components/bd-column-editor.vue:345
+#, icu-message-format
+msgid "addon.deck.edit.required-categories"
+msgstr "Обязательные категории:"
+
+#: /src/deck/components/bd-edit-collection.vue:4
+#, icu-message-format
+msgid "addon.deck.edit.slug"
+msgstr "Идентификатор:"
+
+#: /src/deck/components/bd-tab-editor.vue:67
+#, icu-message-format
+msgid "addon.deck.edit.vertical"
+msgstr "Использовать вертикальную компоновку для вкладки"
+
+#: /src/deck/components/bd-column.vue:213
+#: /src/deck/side-components/bd-shelf.vue:53
+#, icu-message-format
+msgid "addon.deck.error"
+msgstr "Произошла ошибка при загрузке дополнительных данных."
+
+#: /src/deck/components/browse-deck.vue:147
+#, icu-message-format
+msgid "addon.deck.filter-more"
+msgstr ""
+" и ещё {count, plural, one {# другой} few {# других} many {# других} other "
+"{# других}}"
+
+#: /src/deck/components/bd-live-card.vue:91
+#: /src/deck/side-components/bd-live-shelf-card.vue:18
+#, icu-message-format
+msgid "addon.deck.has-hype-train"
+msgstr "Хайповоз"
+
+#: /src/deck/components/bd-column.vue:207
+#, icu-message-format
+msgid "addon.deck.hide-filtered"
+msgstr "Скрыть отфильтрованные элементы"
+
+#: /src/deck/columns/live/channels.js:23
+#, icu-message-format
+msgid "addon.deck.live-tag"
+msgstr "Трансляции с тегом {name}"
+
+#: /src/deck/components/bd-column.vue:249
+#: /src/deck/side-components/bd-shelf.vue:63
+#, icu-message-format
+msgid "addon.deck.load-more"
+msgstr "Загрузить ещё"
+
+#: /src/deck/components/bd-column.vue:160
+#: /src/deck/side-components/bd-shelf.vue:47
+#, icu-message-format
+msgid "addon.deck.need-config"
+msgstr "Вам нужно завершить настройку этого столбца."
+
+#: /src/deck/components/browse-deck.vue:13
+#, icu-message-format
+msgid "addon.deck.new"
+msgstr "Создать..."
+
+#: /src/deck/components/bd-tab-settings.vue:17
+#, icu-message-format
+msgid "addon.deck.new-sidebar"
+msgstr "Новая вкладка боковой панели"
+
+#: /src/deck/components/bd-tab-settings.vue:25
+#, icu-message-format
+msgid "addon.deck.new-tab"
+msgstr "Новая вкладка"
+
+#: /src/deck/components/bd-category-selector.vue:21
+#, icu-message-format
+msgid "addon.deck.no-categories"
+msgstr "нет категорий"
+
+#: /src/deck/components/bd-edit-video-channel.vue:10
+#, icu-message-format
+msgid "addon.deck.no-live"
+msgstr "Не отображать прямую трансляцию канала, когда он в эфире."
+
+#: /src/deck/components/bd-edit-video.vue:10
+#, icu-message-format
+msgid "addon.deck.no-recordings"
+msgstr "Не отображать видео с идущих трансляций."
+
+#: /src/deck/components/bd-column.vue:261
+#, icu-message-format
+msgid "addon.deck.no-state"
+msgstr "(что я делаю)"
+
+#: /src/deck/components/bd-tag-selector.vue:17
+#, icu-message-format
+msgid "addon.deck.no-tags"
+msgstr "нет тегов"
+
+#: /src/deck/components/bd-channel-selector.vue:21
+#, icu-message-format
+msgid "addon.deck.no-users"
+msgstr "нет пользователей"
+
+#: /src/deck/components/bd-column.vue:168
+#: /src/deck/components/bd-column.vue:81
+#, icu-message-format
+msgid "addon.deck.open-settings"
+msgstr "Открыть настройки"
+
+#: /src/deck/components/bd-clip-card.vue:26
+#: /src/deck/components/bd-video-card.vue:35
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published"
+msgstr "Опубликовано {published,date} в {published,time}"
+
+#: /src/deck/components/bd-clip-card.vue:24
+#: /src/deck/components/bd-video-card.vue:33
+#: /src/deck/side-components/bd-clip-shelf-card.vue:141
+#, icu-message-format, lp-defaults:"{}"
+msgid "addon.deck.published-human"
+msgstr "{published,humantime,1}"
+
+#: /src/deck/columns/live/recommended.js:71
+#, icu-message-format
+msgid "addon.deck.recommended"
+msgstr "Рекомендуемые"
+
+#: /src/deck/columns/live/recommended.js:71
+#, icu-message-format
+msgid "addon.deck.recommended.live-tip"
+msgstr ""
+"В этом столбце показаны каналы в прямом эфире, которые Twitch рекомендует "
+"вам на основе вашей истории просмотров."
+
+#: /src/deck/components/bd-column.vue:125
+#: /src/deck/components/bd-column.vue:221
+#, icu-message-format
+msgid "addon.deck.refresh"
+msgstr "Обновить"
+
+#: /src/deck/components/browse-deck.vue:92
+#, icu-message-format
+msgid "addon.deck.refresh-all"
+msgstr "Обновить всё"
+
+#: /src/deck/components/bd-column-editor.vue:430
+#, icu-message-format
+msgid "addon.deck.refresh.disabled"
+msgstr "Отключено"
+
+#: /src/deck/components/bd-edit-languages.vue:27
+#, icu-message-format
+msgid "addon.deck.reset"
+msgstr "Сбросить"
+
+#: /src/deck/components/bd-column-editor.vue:61
+#, icu-message-format
+msgid "addon.deck.save"
+msgstr "Сохранить"
+
+#: /src/deck/columns/live/search.js:79
+#, icu-message-format
+msgid "addon.deck.search"
+msgstr "Поиск"
+
+#: /src/deck/components/bd-category-selector.vue:9
+#, icu-message-format
+msgid "addon.deck.search-categories"
+msgstr "Поиск категорий"
+
+#: /src/deck/components/bd-tag-selector.vue:8
+#, icu-message-format
+msgid "addon.deck.search-tags"
+msgstr "Поиск тегов"
+
+#: /src/deck/components/bd-channel-selector.vue:9
+#, icu-message-format
+msgid "addon.deck.search-users"
+msgstr "Поиск пользователей"
+
+#: /src/deck/columns/live/search.js:79
+#, icu-message-format
+msgid "addon.deck.search.live-tip"
+msgstr ""
+"В этом столбце показаны каналы в прямом эфире, соответствующие поисковому "
+"запросу."
+
+#: /src/deck/columns/other/shelves.js:27
+#, icu-message-format
+msgid "addon.deck.shelves"
+msgstr "Обзор (главная страница)"
+
+#: /src/deck/components/bd-column.vue:231
+#, icu-message-format
+msgid "addon.deck.show-error"
+msgstr "Показать подробности"
+
+#: /src/deck/components/bd-column.vue:198
+#, icu-message-format
+msgid "addon.deck.show-filtered"
+msgstr "Показать отфильтрованные элементы"
+
+#: /src/deck/side-components/bd-shelf.vue:82
+#, icu-message-format
+msgid "addon.deck.show-less"
+msgstr "Показать меньше"
+
+#: /src/deck/side-components/bd-shelf.vue:72
+#, icu-message-format
+msgid "addon.deck.show-more"
+msgstr "Показать больше"
