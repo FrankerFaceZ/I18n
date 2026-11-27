@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-11-20 01:23+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-11-27 00:35+0000\n"
+"Last-Translator: Oliver <puccec@cudovu.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/client/ru/>\n"
 "Language: ru\n"
@@ -322,9 +322,8 @@ msgstr "{user} дарит подписку {plan} {recipient}! "
 msgid "chat.sub.plan"
 msgstr "{tier}-го уровня"
 
-#, fuzzy
 msgid "chat.sub.twitch-prime"
-msgstr "с Prime Gaming"
+msgstr "с помощью Prime"
 
 msgid "clip.desc.1.creative"
 msgstr "{user} занимается творчеством"
@@ -1135,3 +1134,275 @@ msgstr ""
 #, icu-message-format
 msgid "chat.watch-streak.header"
 msgstr "{icon}Новая серия просмотров {points_icon}+{copo}"
+
+#: /src/addons.ts:527
+#, icu-message-format
+msgid "addons.reload.toast"
+msgstr "Дополнение перезагружено"
+
+#: /src/addons.ts:485
+#: /src/addons.ts:512
+#, icu-message-format
+msgid "addons.reload.toast-error"
+msgstr "Ошибка перезагрузки дополнения"
+
+#: /src/addons.ts:512
+#, icu-message-format
+msgid "addons.reload.toast-error.reload"
+msgstr ""
+"Не удалось загрузить новый модуль для дополнения \"{addon_id}\":\n"
+"\n"
+"{error}"
+
+#: /src/addons.ts:485
+#, icu-message-format
+msgid "addons.reload.toast-error.unload"
+msgstr ""
+"Не удалось выгрузить существующие модули для дополнения \"{addon_id}\":\n"
+"\n"
+"{error}"
+
+#: /src/addons.ts:527
+#, icu-message-format
+msgid "addons.reload.toast.text"
+msgstr "Дополнение \"{addon_id}\" успешно перезагружено за {duration} мс."
+
+#: /src/modules/main_menu/components/async-text.vue:12
+#, icu-message-format
+msgid "async-text.uploading"
+msgstr "Загружается..."
+
+#: /src/modules/chat/badges.jsx:1366
+#, icu-message-format
+msgid "badges.subwoofer.lifetime"
+msgstr "Пожизненный сабвуфер"
+
+#: /src/modules/chat/badges.jsx:1368
+#, icu-message-format
+msgid "badges.subwoofer.months"
+msgstr ""
+"{count, plural, one {# месяц} few {# месяца} many {# месяцев} other {# "
+"месяцев}}"
+
+#: /src/modules/chat/link_providers.js:317
+#, icu-message-format, lp-defaults:"{\"game\":\"Doom Eternal\"}"
+msgctxt "/lib/resolvers/twitch.js:347"
+msgid "cards.user.streaming"
+msgstr "стримит {game}"
+
+#: /src/sites/twitch-twilight/modules/chat/scroller.js:663
+#, icu-message-format
+msgid "chat.acting"
+msgstr "Выполнение действия"
+
+#: /src/modules/chat/actions/types.jsx:303
+#, icu-message-format
+msgid "chat.actions.chat.desc.current"
+msgstr "текущем канале"
+
+#: /src/modules/chat/actions/types.jsx:296
+#, icu-message-format
+msgid "chat.actions.chat.desc.paste"
+msgstr "Вставить в чат: {cmd}"
+
+#: /src/modules/chat/actions/types.jsx:300
+#, icu-message-format
+msgid "chat.actions.chat.desc.target"
+msgstr "Отправить в {target}: {cmd}"
+
+#: /src/modules/chat/actions/types.jsx:322
+#, icu-message-format
+msgid "chat.actions.chat.with-target"
+msgstr "Команда чата в канале: {target}"
+
+#: /src/modules/chat/actions/types.jsx:182
+#: /src/modules/chat/actions/types.jsx:208
+#, icu-message-format
+msgid "chat.actions.copy_message"
+msgstr "Копировать сообщение"
+
+#: /src/modules/chat/actions/types.jsx:182
+#, icu-message-format
+msgid "chat.actions.copy_message.desc"
+msgstr "Позволяет быстро скопировать сообщение из чата в буфер обмена."
+
+#: /src/modules/chat/actions/types.jsx:587
+#, icu-message-format
+msgid "chat.actions.mod"
+msgstr "Назначить модератором"
+
+#: /src/modules/chat/actions/types.jsx:600
+#, icu-message-format
+msgid "chat.actions.mod.tooltip"
+msgstr "Назначить {user.login} модератором"
+
+#: /src/modules/chat/actions/types.jsx:11
+#: /src/modules/chat/actions/types.jsx:31
+#, icu-message-format
+msgid "chat.actions.pin"
+msgstr "Закрепить это сообщение"
+
+#: /src/modules/chat/actions/types.jsx:29
+#, icu-message-format
+msgid "chat.actions.pin.already"
+msgstr "Это сообщение уже закреплено."
+
+#: /src/modules/chat/actions/types.jsx:11
+#, icu-message-format
+msgid "chat.actions.pin.desc"
+msgstr "Позволяет закреплять сообщения в чате, если вы модератор."
+
+#: /src/modules/chat/actions/types.jsx:708
+#, icu-message-format
+msgid "chat.actions.toggle_profile"
+msgstr "Переключить профиль настроек"
+
+#: /src/modules/chat/actions/types.jsx:758
+#, icu-message-format
+msgid "chat.actions.toggle_profile.tooltip"
+msgstr "Переключить профиль: {name}"
+
+#: /src/modules/chat/actions/types.jsx:622
+#, icu-message-format
+msgid "chat.actions.unmod"
+msgstr "Снять права модератора"
+
+#: /src/modules/chat/actions/types.jsx:635
+#, icu-message-format
+msgid "chat.actions.unmod.tooltip"
+msgstr "Снять права модератора с {user.login}"
+
+#: /src/modules/chat/actions/types.jsx:388
+#, icu-message-format
+msgid "chat.actions.warn"
+msgstr "Предупредить пользователя"
+
+#: /src/modules/chat/actions/types.jsx:408
+#, icu-message-format
+msgid "chat.actions.warn.tooltip"
+msgstr "Предупредить {user.login}"
+
+#: /src/modules/chat/index.js:1628
+#, icu-message-format
+msgid "chat.command.reload"
+msgstr "Перезагрузить данные чата FFZ и дополнений (смайлы, значки и т. д.)"
+
+#: /src/modules/chat/index.js:1652
+#, icu-message-format
+msgid "chat.command.reload.done"
+msgstr "FFZ завершил перезагрузку данных. (Источники: {list})"
+
+#: /src/modules/chat/index.js:1642
+#, icu-message-format
+msgid "chat.command.reload.starting"
+msgstr "FFZ перезагружает данные..."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:2977
+#, icu-message-format
+msgid "chat.ffz-command.invalid"
+msgstr "Нет такой команды: /ffz:{subcmd}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:485
+#, icu-message-format
+msgid "chat.ftc-message"
+msgstr "Первый раз в чате"
+
+#: /src/modules/chat/tokenizers.jsx:2297
+#, icu-message-format
+msgid "chat.gif.report"
+msgstr "Пожаловаться на GIF"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:171
+#, icu-message-format
+msgid "chat.hype-chat"
+msgstr "Отправил(-а) хайп-чат на сумму {amount}!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:159
+#, icu-message-format
+msgid "chat.hype-chat.user"
+msgstr "{user} отправил(-а) хайп-чат на {amount}!"
+
+#: /src/sites/twitch-twilight/modules/chat/points.js:51
+#, icu-message-format
+msgid "chat.points.animated"
+msgstr "Эффекты сообщений"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:1426
+#, icu-message-format
+msgid "chat.reconnect"
+msgstr "FFZ принудительно переподключает чат..."
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:1421
+#, icu-message-format
+msgid "chat.reconnect.unable"
+msgstr "FFZ не может принудительно переподключить чат."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:813
+#, icu-message-format
+msgid "chat.reply.bad-user"
+msgstr "Неверный пользователь или нет известного сообщения для ответа."
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:1014
+#: /src/sites/twitch-twilight/modules/chat/line.js:1351
+#: /src/sites/twitch-twilight/modules/chat/line.js:1361
+#, icu-message-format
+msgid "chat.sent-from-source"
+msgstr "Отправлено из {source}"
+
+#: /src/sites/twitch-twilight/modules/chat/index.js:3885
+#, icu-message-format
+msgid "chat.shared-chat.welcome"
+msgstr ""
+"FrankerFaceZ: Это общий чат — новая функция Twitch, объединяющая несколько "
+"чатов стримов в один. Поддержка FrankerFaceZ находится на ранней стадии, "
+"поэтому некоторые сообщения могут отображаться некорректно. Приносим "
+"извинения за возможные неудобства!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:603
+#, icu-message-format
+msgid "chat.shoutout"
+msgstr "Рекомендация!"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:610
+#, icu-message-format
+msgid "chat.shoutout.body"
+msgstr "Дана пользователю {user}"
+
+#: /src/sites/twitch-twilight/modules/chat/line.js:257
+#, icu-message-format
+msgid "chat.sub.main-multi"
+msgstr ""
+"{user} оформил(-а) подписку {plan} на {multi, plural, one {# месяц} few {# "
+"месяца} many {# месяцев} other {# месяцев}} вперёд. "
+
+#: /src/modules/chat/warn-editor.vue:4
+#, icu-message-format
+msgid "chat.warn.editing"
+msgstr "Предупредить {user.login}..."
+
+#: /src/modules/chat/warn-editor.vue:16
+#, icu-message-format
+msgid "chat.warn.reason"
+msgstr "Причина"
+
+#: /src/modules/chat/warn-editor.vue:24
+#, icu-message-format
+msgid "chat.warn.reason-placeholder"
+msgstr "Введите причину..."
+
+#: /src/modules/chat/warn-editor.vue:37
+#, icu-message-format
+msgid "chat.warn.send"
+msgstr "Предупредить"
+
+#: /src/modules/chat/link_providers.js:98
+#, icu-message-format
+msgctxt "/lib/resolvers/twitch.js:138"
+msgid "clip.desc.1"
+msgstr "Клип с канала {user}"
+
+#: /src/modules/chat/link_providers.js:93
+#, icu-message-format, lp-defaults:"{\"user\":\"PangaeaPanga\",\"game\":\"Super Mario Maker 2\"}"
+msgctxt "/lib/resolvers/twitch.js:135"
+msgid "clip.desc.1.playing"
+msgstr "{user} играет в {game}"
