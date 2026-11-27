@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-11-27 13:19+0000\n"
+"PO-Revision-Date: 2026-11-27 16:53+0000\n"
 "Last-Translator: Oliver <puccec@cudovu.com>\n"
 "Language-Team: Russian <https://weblate.frankerfacez.com/projects/"
 "frankerfacez/addondeck/ru/>\n"
@@ -631,3 +631,59 @@ msgstr "Показать меньше"
 #, icu-message-format
 msgid "addon.deck.show-more"
 msgstr "Показать больше"
+
+#: /src/deck/components/bd-edit-show-offline.vue:10
+#, icu-message-format
+msgid "addon.deck.show-offline"
+msgstr "Отображать каналы не в сети в этом столбце."
+
+#: /src/deck/column-base.jsx:730
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-asc"
+msgstr "Недавно созданные"
+
+#: /src/deck/column-base.jsx:735
+#, icu-message-format
+msgid "addon.deck.sort.clip.created-desc"
+msgstr "Сначала старые"
+
+#: /src/deck/column-base.jsx:740
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-asc"
+msgstr "Просмотры (по возрастанию)"
+
+#: /src/deck/column-base.jsx:745
+#, icu-message-format
+msgid "addon.deck.sort.clip.views-desc"
+msgstr "Просмотры (по убыванию)"
+
+#: /src/deck/column-base.jsx:577
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers"
+msgstr "Зрители (по убыванию)"
+
+#: /src/deck/column-base.jsx:583
+#, icu-message-format
+msgid "addon.deck.sort.live.viewers-asc"
+msgstr "Зрители (по возрастанию)"
+
+#: /src/deck/column-base.jsx:577
+#: /src/deck/column-base.jsx:583
+#, icu-message-format
+msgid "addon.deck.sort.sub.viewers"
+msgstr "Зрители"
+
+#: /src/deck/column-base.jsx:926
+#, icu-message-format
+msgid "addon.deck.sort.sub.views"
+msgstr "Просмотры"
+
+#: /src/deck/column-base.jsx:750
+#, icu-message-format
+msgid "addon.deck.sort.trending"
+msgstr "В тренде"
+
+#: /src/deck/column-base.jsx:921
+#, icu-message-format
+msgid "addon.deck.sort.video.recent"
+msgstr "Недавно опубликованные"
